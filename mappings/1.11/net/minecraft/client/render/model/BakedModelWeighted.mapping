@@ -1,0 +1,28 @@
+CLASS cbm net/minecraft/client/render/model/BakedModelWeighted
+	CLASS cbm$a Builder
+		FIELD a models Ljava/util/List;
+		METHOD a build ()Lcbm;
+		METHOD a add (Lcbe;I)Lcbm$a;
+			ARG 0 model
+			ARG 1 weight
+		METHOD b getFirst ()Lcbe;
+	CLASS cbm$b WeightedBakedModel
+		FIELD b model Lcbe;
+		METHOD <init> (Lcbe;I)V
+			ARG 0 model
+			ARG 1 weight
+	FIELD a totalWeight I
+	FIELD b models Ljava/util/List;
+	FIELD c defaultModel Lcbe;
+	METHOD a useAmbientOcclusion ()Z
+	METHOD a getRandomModel (J)Lcbe;
+		ARG 0 rand
+	METHOD a getQuads (Latj;Lcv;J)Ljava/util/List;
+		ARG 0 state
+		ARG 1 face
+		ARG 2 rand
+	METHOD b hasDepthInGui ()Z
+	METHOD c isBuiltin ()Z
+	METHOD d getSprite ()Lbyw;
+	METHOD e getTransformationList ()Lbro;
+	METHOD f getItemPropertyOverrides ()Lbrm;

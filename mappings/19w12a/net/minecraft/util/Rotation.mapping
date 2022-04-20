@@ -1,0 +1,9 @@
+CLASS bpr net/minecraft/util/Rotation
+	FIELD a ROT_0 Lbpr;
+	FIELD b ROT_90 Lbpr;
+	FIELD c ROT_180 Lbpr;
+	FIELD d ROT_270 Lbpr;
+	METHOD a rotate (Lfa;)Lfa;
+		ARG 1 direction
+	METHOD a random (Ljava/util/Random;)Lbpr;
+		ARG 0 random

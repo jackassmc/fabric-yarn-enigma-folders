@@ -1,0 +1,5 @@
+CLASS cok net/minecraft/world/loot/entry/DynamicEntry
+	CLASS cok$a Serializer
+	FIELD c instance Lqr;
+	FIELD h name Lqr;
+	METHOD a create (Lqr;)Lcos$a;

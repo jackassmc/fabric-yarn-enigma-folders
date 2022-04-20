@@ -1,0 +1,5 @@
+CLASS bwd net/minecraft/block/enums/ChestType
+	FIELD d VALUES [Lbwd;
+	FIELD e name Ljava/lang/String;
+	FIELD f opposite I
+	METHOD a getOpposite ()Lbwd;

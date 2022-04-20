@@ -1,0 +1,4 @@
+CLASS dje net/minecraft/client/render/chunk/ChunkRendererFactory
+	METHOD create (Lbdf;Ldgl;)Ldjd;
+		ARG 1 world
+		ARG 2 worldRenderer

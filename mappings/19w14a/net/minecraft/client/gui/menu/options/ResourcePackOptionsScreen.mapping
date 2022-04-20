@@ -1,0 +1,8 @@
+CLASS dby net/minecraft/client/gui/menu/options/ResourcePackOptionsScreen
+	FIELD a parent Lczb;
+	FIELD b availableList Ldca;
+	FIELD c selectedList Ldcc;
+	METHOD <init> (Lczb;)V
+		ARG 1 parent
+	METHOD a select (Ldcb$a;)V
+	METHOD b remove (Ldcb$a;)V

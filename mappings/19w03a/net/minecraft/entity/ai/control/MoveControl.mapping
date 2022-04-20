@@ -1,0 +1,3 @@
+CLASS aio net/minecraft/entity/ai/control/MoveControl
+	FIELD a entity Lahm;
+	METHOD a tick ()V

@@ -1,0 +1,15 @@
+CLASS cfc net/minecraft/world/gen/surfacebuilder/ConfiguredSurfaceBuilder
+	FIELD a surfaceBuilder Lcfm;
+	FIELD b config Lcfo;
+	METHOD <init> (Lcfm;Lcfo;)V
+		ARG 1 surfaceBuilder
+	METHOD a getConfig ()Lcfo;
+	METHOD a initSeed (J)V
+		ARG 1 seed
+	METHOD a generate (Ljava/util/Random;Lbsr;Lbeb;IIIDLbrd;Lbrd;IJ)V
+		ARG 1 random
+		ARG 2 chunk
+		ARG 3 biome
+		ARG 9 defaultBlock
+		ARG 10 defaultFluid
+		ARG 12 seed

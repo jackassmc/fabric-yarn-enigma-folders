@@ -1,0 +1,6 @@
+CLASS ayv net/minecraft/container/HopperContainer
+	FIELD c inventory Lags;
+	METHOD <init> (ILavv;)V
+		ARG 1 syncId
+	METHOD <init> (ILavv;Lags;)V
+		ARG 1 syncId

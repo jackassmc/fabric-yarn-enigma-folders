@@ -1,0 +1,5 @@
+CLASS dne net/minecraft/client/render/entity/feature/EnderDragonDeathFeatureRenderer
+	METHOD <init> (Ldlm;)V
+		ARG 1 context
+	METHOD a render (Lahc;FFFFFFF)V
+	METHOD a render (Lanx;FFFFFFF)V

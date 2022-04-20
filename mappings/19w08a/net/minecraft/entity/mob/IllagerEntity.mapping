@@ -1,0 +1,4 @@
+CLASS apu net/minecraft/entity/mob/IllagerEntity
+	CLASS apu$a State
+	METHOD <init> (Lahp;Lbde;)V
+		ARG 1 type

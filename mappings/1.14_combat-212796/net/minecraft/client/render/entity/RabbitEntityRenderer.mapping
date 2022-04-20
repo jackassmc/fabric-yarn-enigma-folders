@@ -1,0 +1,9 @@
+CLASS drc net/minecraft/client/render/entity/RabbitEntityRenderer
+	FIELD a BROWN_SKIN Lqt;
+	FIELD j WHITE_SKIN Lqt;
+	FIELD k BLACK_SKIN Lqt;
+	FIELD l GOLD_SKIN Lqt;
+	FIELD m SALT_SKIN Lqt;
+	FIELD n WHITE_SPOTTED_SKIN Lqt;
+	FIELD o TOAST_SKIN Lqt;
+	FIELD p CAERBANNOG_SKIN Lqt;

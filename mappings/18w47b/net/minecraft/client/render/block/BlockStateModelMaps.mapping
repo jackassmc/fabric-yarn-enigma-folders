@@ -1,0 +1,6 @@
+CLASS dcb net/minecraft/client/render/block/BlockStateModelMaps
+	FIELD a modelCache Ljava/util/Map;
+	FIELD b modelManager Ldme;
+	METHOD a getModelManager ()Ldme;
+	METHOD b reload ()V
+	METHOD b getModel (Lboh;)Ldma;

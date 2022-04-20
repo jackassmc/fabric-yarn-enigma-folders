@@ -1,0 +1,4 @@
+CLASS czw net/minecraft/client/gui/container/AbstractFurnaceScreen
+	FIELD k recipeBook Ldbk;
+	FIELD l RECIPE_BUTTON_TEXTURE Lqr;
+	FIELD m narrow Z

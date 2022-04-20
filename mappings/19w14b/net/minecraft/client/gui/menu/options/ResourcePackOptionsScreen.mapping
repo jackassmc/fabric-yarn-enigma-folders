@@ -1,0 +1,8 @@
+CLASS dcc net/minecraft/client/gui/menu/options/ResourcePackOptionsScreen
+	FIELD a parent Lczf;
+	FIELD b availableList Ldce;
+	FIELD c selectedList Ldcg;
+	METHOD <init> (Lczf;)V
+		ARG 1 parent
+	METHOD a select (Ldcf$a;)V
+	METHOD b remove (Ldcf$a;)V

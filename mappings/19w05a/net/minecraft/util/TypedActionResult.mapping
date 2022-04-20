@@ -1,0 +1,5 @@
+CLASS agb net/minecraft/util/TypedActionResult
+	FIELD a result Laga;
+	FIELD b value Ljava/lang/Object;
+	METHOD a getResult ()Laga;
+	METHOD b getValue ()Ljava/lang/Object;

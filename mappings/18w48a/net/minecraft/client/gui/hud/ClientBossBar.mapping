@@ -1,0 +1,6 @@
+CLASS cpd net/minecraft/client/gui/hud/ClientBossBar
+	FIELD h healthLatest F
+	FIELD i timeHealthSet J
+	METHOD a setHealth (F)V
+	METHOD a handlePacket (Lke;)V
+	METHOD k getHealth ()F

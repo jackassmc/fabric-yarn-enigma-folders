@@ -1,0 +1,6 @@
+CLASS dtr net/minecraft/client/render/entity/feature/TridentRiptideFeatureRenderer
+	CLASS a TridentRiptideModel
+	FIELD a TEXTURE Lqt;
+	FIELD b model Ldtr$a;
+	METHOD <init> (Ldre;)V
+		ARG 1 context

@@ -1,0 +1,8 @@
+CLASS xb net/minecraft/resource/ResourceManager
+	METHOD a getAllNamespaces ()Ljava/util/Set;
+	METHOD a findResources (Ljava/lang/String;Ljava/util/function/Predicate;)Ljava/util/Collection;
+		ARG 1 namespace
+	METHOD a getResource (Lqq;)Lxa;
+	METHOD a addPack (Lwe;)V
+	METHOD b containsResource (Lqq;)Z
+	METHOD c getAllResources (Lqq;)Ljava/util/List;

@@ -1,0 +1,4 @@
+CLASS apu net/minecraft/entity/mob/StrayEntity
+	METHOD D getAmbientSound ()Lxf;
+	METHOD cw getDeathSound ()Lxf;
+	METHOD e getHurtSound (Lafr;)Lxf;

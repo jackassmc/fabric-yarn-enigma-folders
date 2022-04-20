@@ -1,0 +1,44 @@
+CLASS ckv net/minecraft/util/math/BoundingBox
+	FIELD a minX D
+	FIELD b minY D
+	FIELD c minZ D
+	FIELD d maxX D
+	FIELD e maxY D
+	FIELD f maxZ D
+	METHOD <init> (DDDDDD)V
+		ARG 1 x1
+		ARG 3 y1
+		ARG 5 z1
+	METHOD <init> (Lckz;Lckz;)V
+		ARG 1 min
+	METHOD <init> (Let;Let;)V
+		ARG 1 min
+	METHOD a averageDimension ()D
+	METHOD a intersects (DDDDDD)Z
+		ARG 1 minX
+		ARG 3 minY
+		ARG 5 minZ
+	METHOD a offset (Lckz;)Lckv;
+	METHOD a intersects (Lckz;Lckz;)Z
+		ARG 1 a
+	METHOD a rayTrace (Lckz;Lckz;Let;)Lckw;
+	METHOD a offset (Let;)Lckv;
+	METHOD b isValid ()Z
+	METHOD b stretch (DDD)Lckv;
+		ARG 1 x
+	METHOD b union (Lckv;)Lckv;
+	METHOD b contains (Lckz;)Z
+	METHOD b rayTrace (Lckz;Lckz;)Lckw;
+	METHOD c getCenter ()Lckz;
+	METHOD c expand (DDD)Lckv;
+		ARG 1 x
+	METHOD c intersects (Lckv;)Z
+	METHOD d offset (DDD)Lckv;
+		ARG 1 x
+	METHOD e contains (DDD)Z
+	METHOD equals (Ljava/lang/Object;)Z
+		ARG 0 object
+	METHOD f contract (DDD)Lckv;
+		ARG 1 x
+	METHOD g expand (D)Lckv;
+	METHOD h contract (D)Lckv;

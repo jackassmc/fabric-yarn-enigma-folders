@@ -1,0 +1,12 @@
+CLASS nr net/minecraft/server/network/packet/BookUpdateServerPacket
+	FIELD a stack Laxd;
+	FIELD c hand Lafy;
+	METHOD a read (Lit;)V
+		ARG 1 buf
+	METHOD a apply (Liw;)V
+		ARG 1 listener
+	METHOD a apply (Lnf;)V
+	METHOD b stack ()Laxd;
+	METHOD b write (Lit;)V
+		ARG 1 buf
+	METHOD d hand ()Lafy;

@@ -1,0 +1,2 @@
+CLASS bxh net/minecraft/world/gen/feature/WoodlandMansionFeature
+	METHOD b getName ()Ljava/lang/String;

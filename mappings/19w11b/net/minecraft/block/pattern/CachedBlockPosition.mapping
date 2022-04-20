@@ -1,0 +1,14 @@
+CLASS bua net/minecraft/block/pattern/CachedBlockPosition
+	FIELD a world Lbga;
+	FIELD b pos Leu;
+	FIELD c forceLoad Z
+	FIELD d state Lbtw;
+	FIELD e blockEntity Lbrz;
+	FIELD f cachedEntity Z
+	METHOD <init> (Lbga;Leu;Z)V
+		ARG 2 pos
+	METHOD a getBlockState ()Lbtw;
+	METHOD a matchesBlockState (Ljava/util/function/Predicate;)Ljava/util/function/Predicate;
+	METHOD b getBlockEntity ()Lbrz;
+	METHOD c getWorld ()Lbga;
+	METHOD d getBlockPos ()Leu;

@@ -1,0 +1,2 @@
+CLASS ddy net/minecraft/client/render/entity/model/BoatEntityModel
+	METHOD c renderPass (Laie;FFFFFF)V

@@ -1,0 +1,3 @@
+CLASS cqp net/minecraft/world/loot/condition/RandomChanceLootCondition
+	CLASS cqp$a Factory
+	FIELD a chance F

@@ -1,0 +1,5 @@
+CLASS dki net/minecraft/client/render/entity/ElytraEntityRenderer
+	FIELD b SKIN Lpz;
+	METHOD a shouldMergeTextures ()Z
+	METHOD a render (Lagt;FFFFFFF)V
+		ARG 0 entity

@@ -1,0 +1,4 @@
+CLASS cdn net/minecraft/sortme/rule/AlwaysTrueRuleTest
+	FIELD a INSTANCE Lcdn;
+	METHOD a getRuleTest ()Lcea;
+	METHOD a test (Lbqi;Ljava/util/Random;)Z

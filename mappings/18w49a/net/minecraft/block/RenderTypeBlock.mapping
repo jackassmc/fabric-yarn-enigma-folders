@@ -1,0 +1,3 @@
+CLASS bjz net/minecraft/block/RenderTypeBlock
+	FIELD a NONE Lbjz;
+	FIELD c MODEL Lbjz;

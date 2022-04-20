@@ -1,0 +1,9 @@
+CLASS der net/minecraft/client/render/entity/EntityRendererGhast
+	FIELD a SKIN Lpu;
+	FIELD j ANGRY_SKIN Lpu;
+	METHOD <init> (Ldei;)V
+		ARG 1 renderManager
+	METHOD a getTexture (Lafv;)Lpu;
+		ARG 1 model
+	METHOD a getTexture (Laoi;)Lpu;
+		ARG 1 model

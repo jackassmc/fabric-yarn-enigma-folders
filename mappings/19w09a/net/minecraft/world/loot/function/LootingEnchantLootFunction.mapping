@@ -1,0 +1,4 @@
+CLASS cln net/minecraft/world/loot/function/LootingEnchantLootFunction
+	CLASS cln$b Factory
+	FIELD a range Lckk;
+	FIELD c amount I

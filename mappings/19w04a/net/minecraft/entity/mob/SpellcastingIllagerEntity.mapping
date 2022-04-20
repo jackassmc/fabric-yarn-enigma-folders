@@ -1,0 +1,13 @@
+CLASS aqn net/minecraft/entity/mob/SpellcastingIllagerEntity
+	CLASS aqn$b LookAtTargetGoal
+	CLASS aqn$c CastSpellGoal
+		FIELD b spellCooldown I
+		FIELD c startTime I
+		METHOD g getSpellTicks ()I
+		METHOD i startTimeDelay ()I
+		METHOD j castSpell ()V
+		METHOD k getSoundPrepare ()Lxr;
+		METHOD m getInitialCooldown ()I
+	FIELD c spellTicks I
+	METHOD <init> (Lahg;Lbcl;)V
+		ARG 1 type

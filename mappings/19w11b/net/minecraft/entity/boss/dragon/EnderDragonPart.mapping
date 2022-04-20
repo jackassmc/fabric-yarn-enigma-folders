@@ -1,0 +1,6 @@
+CLASS aqw net/minecraft/entity/boss/dragon/EnderDragonPart
+	FIELD b owner Laqy;
+	FIELD c name Ljava/lang/String;
+	METHOD <init> (Laqy;Ljava/lang/String;FF)V
+		ARG 2 name
+		ARG 3 width

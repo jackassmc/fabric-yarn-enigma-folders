@@ -1,0 +1,5 @@
+CLASS btd net/minecraft/world/gen/config/feature/SeaPickleFeatureConfig
+	FIELD a count I
+	METHOD a deserialize (Lcom/mojang/datafixers/Dynamic;)Lbtd;
+		ARG 0 dynamic
+	METHOD a serialize (Lcom/mojang/datafixers/types/DynamicOps;)Lcom/mojang/datafixers/Dynamic;

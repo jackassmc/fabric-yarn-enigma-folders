@@ -1,0 +1,7 @@
+CLASS dim net/minecraft/client/render/debug/WaterDebugRenderer
+	FIELD a client Lcpz;
+	FIELD b player Lark;
+	FIELD c playerX D
+	FIELD d playerY D
+	FIELD e playerZ D
+	METHOD a render (FJ)V

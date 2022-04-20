@@ -1,0 +1,3 @@
+CLASS ail net/minecraft/util/AbsoluteHand
+	FIELD c name Ljm;
+	METHOD a getOpposite ()Lail;

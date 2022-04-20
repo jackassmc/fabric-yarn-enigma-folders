@@ -1,0 +1,15 @@
+CLASS aiu net/minecraft/entity/EntityCategory
+	FIELD f BY_NAME Ljava/util/Map;
+	FIELD g spawnCap I
+	FIELD h peaceful Z
+	FIELD i animal Z
+	FIELD j name Ljava/lang/String;
+	METHOD <init> (Ljava/lang/String;ILjava/lang/String;IZZ)V
+		ARG 3 name
+		ARG 4 spawnCap
+		ARG 5 peaceful
+		ARG 6 animal
+	METHOD a getName ()Ljava/lang/String;
+	METHOD b getSpawnCap ()I
+	METHOD c isPeaceful ()Z
+	METHOD d isAnimal ()Z

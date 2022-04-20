@@ -1,0 +1,17 @@
+CLASS cmv net/minecraft/util/BooleanBiFunction
+	FIELD a FALSE Lcmv;
+	FIELD b NOT_OR Lcmv;
+	FIELD c ONLY_SECOND Lcmv;
+	FIELD d NOT_FIRST Lcmv;
+	FIELD e ONLY_FIRST Lcmv;
+	FIELD f NOT_SECOND Lcmv;
+	FIELD g NOT_SAME Lcmv;
+	FIELD h NOT_AND Lcmv;
+	FIELD i AND Lcmv;
+	FIELD j SAME Lcmv;
+	FIELD k SECOND Lcmv;
+	FIELD l CAUSES Lcmv;
+	FIELD m FIRST Lcmv;
+	FIELD n CAUSED_BY Lcmv;
+	FIELD o OR Lcmv;
+	FIELD p TRUE Lcmv;

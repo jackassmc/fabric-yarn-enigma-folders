@@ -1,0 +1,20 @@
+CLASS csp net/minecraft/client/font/GlyphAtlasTexture
+	CLASS csp$a Slot
+		FIELD a x I
+		FIELD b y I
+		FIELD c width I
+		FIELD d height I
+		FIELD e subSlot1 Lcsp$a;
+		FIELD f subSlot2 Lcsp$a;
+		FIELD g isOccupied Z
+		METHOD a findSlotFor (Lcoj;)Lcsp$a;
+			ARG 1 glyph
+	FIELD f id Lqc;
+	FIELD g hasColor Z
+	FIELD h rootSlot Lcsp$a;
+	METHOD <init> (Lqc;Z)V
+		ARG 2 hasColor
+	METHOD a getId ()Lqc;
+	METHOD a getGlyphRenderer (Lcoj;)Lcsr;
+		ARG 1 glyph
+	METHOD a load (Lwo;)V

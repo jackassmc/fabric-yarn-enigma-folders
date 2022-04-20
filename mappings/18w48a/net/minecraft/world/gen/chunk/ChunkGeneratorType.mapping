@@ -1,0 +1,10 @@
+CLASS bpz net/minecraft/world/gen/chunk/ChunkGeneratorType
+	FIELD a SURFACE Lbpz;
+	FIELD b CAVES Lbpz;
+	FIELD c FLOATING_ISLANDS Lbpz;
+	FIELD d DEBUG Lbpz;
+	FIELD e FLAT Lbpz;
+	FIELD f factory Lbpy;
+	FIELD h settingsSupplier Ljava/util/function/Supplier;
+	METHOD a createSettings ()Lbrk;
+	METHOD a register (Ljava/lang/String;Lbpy;Ljava/util/function/Supplier;Z)Lbpz;

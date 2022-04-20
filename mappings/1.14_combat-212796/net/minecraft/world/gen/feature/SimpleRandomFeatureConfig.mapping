@@ -1,0 +1,12 @@
+CLASS cee net/minecraft/world/gen/feature/SimpleRandomFeatureConfig
+	FIELD a features Ljava/util/List;
+	METHOD <init> (Ljava/util/List;)V
+		ARG 1 features
+	METHOD <init> ([Lcbj;[Lcbk;)V
+		ARG 1 features
+		ARG 2 configs
+	METHOD a configure (Lcbj;Lcbk;)Lcah;
+		ARG 0 feature
+		ARG 1 config
+	METHOD a deserialize (Lcom/mojang/datafixers/Dynamic;)Lcee;
+		ARG 0 dynamic

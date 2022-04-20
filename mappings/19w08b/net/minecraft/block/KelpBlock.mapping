@@ -1,0 +1,7 @@
+CLASS bld net/minecraft/block/KelpBlock
+	FIELD a AGE Lbse;
+	FIELD b SHAPE Lcof;
+	METHOD <init> (Lbig$c;)V
+		ARG 1 settings
+	METHOD a getPlacementState (Lbdg;)Lbre;
+		ARG 1 world

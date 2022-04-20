@@ -1,0 +1,21 @@
+CLASS blw net/minecraft/block/BambooBlock
+	FIELD a SMALL_LEAVES_SHAPE Lcsu;
+	FIELD b LARGE_LEAVES_SHAPE Lcsu;
+	FIELD c NO_LEAVES_SHAPE Lcsu;
+	FIELD d AGE Lbwn;
+	FIELD e LEAVES Lbwl;
+	FIELD f STAGE Lbwn;
+	METHOD <init> (Lbmp$c;)V
+		ARG 1 settings
+	METHOD a countBambooAbove (Lbgv;Lev;)I
+		ARG 1 world
+		ARG 2 pos
+	METHOD a updateLeaves (Lbvn;Lbhl;Lev;Ljava/util/Random;I)V
+		ARG 1 state
+		ARG 2 world
+		ARG 3 pos
+		ARG 4 rand
+		ARG 5 height
+	METHOD b countBambooBelow (Lbgv;Lev;)I
+		ARG 1 world
+		ARG 2 pos

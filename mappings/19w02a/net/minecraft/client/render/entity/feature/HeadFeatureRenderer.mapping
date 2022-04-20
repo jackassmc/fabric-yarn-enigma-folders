@@ -1,0 +1,4 @@
+CLASS dms net/minecraft/client/render/entity/feature/HeadFeatureRenderer
+	METHOD <init> (Ldlf;)V
+		ARG 1 context
+	METHOD a render (Lahd;FFFFFFF)V

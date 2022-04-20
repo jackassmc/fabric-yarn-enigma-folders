@@ -1,0 +1,58 @@
+CLASS apg net/minecraft/entity/ai/pathing/EntityNavigation
+	FIELD a entity Laio;
+	FIELD b world Lbhf;
+	FIELD c currentPath Lcne;
+	FIELD d speed D
+	FIELD e tickCount I
+	FIELD m shouldRecalculate Z
+	FIELD n lastRecalculateTime J
+	FIELD o nodeMaker Lcnd;
+	FIELD p followRange Laje;
+	FIELD q targetPos Lev;
+	FIELD r pathNodeNavigator Lcng;
+	METHOD a isAtValidPosition ()Z
+	METHOD a setSpeed (D)V
+		ARG 1 speed
+	METHOD a findPathTo (DDD)Lcne;
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+	METHOD a startMovingTo (DDDD)Z
+		ARG 7 speed
+	METHOD a createPathNodeNavigator (I)Lcng;
+	METHOD a findPathTo (Laie;)Lcne;
+	METHOD a startMovingTo (Laie;D)Z
+		ARG 2 speed
+	METHOD a startMovingAlong (Lcne;D)Z
+		ARG 2 speed
+	METHOD a canPathDirectlyThrough (Lcrt;Lcrt;III)Z
+		ARG 1 origin
+		ARG 2 target
+		ARG 3 sizeX
+		ARG 4 sizeY
+		ARG 5 sizeZ
+	METHOD a isValidPosition (Lev;)Z
+		ARG 1 pos
+	METHOD a findPathTo (Lev;DDDIZ)Lcne;
+		ARG 1 pos
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z
+		ARG 8 extraRange
+		ARG 9 offsetUp
+	METHOD b getPos ()Lcrt;
+	METHOD b findPathTo (Lev;)Lcne;
+		ARG 1 pos
+	METHOD c tick ()V
+	METHOD d setCanSwim (Z)V
+		ARG 1 canSwim
+	METHOD h getTargetPos ()Lev;
+	METHOD i getFollowRange ()F
+	METHOD j shouldRecalculatePath ()Z
+	METHOD k recalculatePath ()V
+	METHOD l getCurrentPath ()Lcne;
+	METHOD n isIdle ()Z
+	METHOD o stop ()V
+	METHOD p isInLiquid ()Z
+	METHOD q getNodeMaker ()Lcnd;
+	METHOD r canSwim ()Z

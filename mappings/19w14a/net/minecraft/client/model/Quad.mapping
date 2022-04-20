@@ -1,0 +1,9 @@
+CLASS dex net/minecraft/client/model/Quad
+	FIELD a vertices [Ldfx;
+	FIELD b vertexCount I
+	FIELD c flipNormals Z
+	METHOD <init> ([Ldfx;IIIIFF)V
+		ARG 1 vertices
+	METHOD a flip ()V
+	METHOD a render (Lctw;F)V
+		ARG 2 scale

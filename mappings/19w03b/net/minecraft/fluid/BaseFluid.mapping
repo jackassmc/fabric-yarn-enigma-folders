@@ -1,0 +1,16 @@
+CLASS cfu net/minecraft/fluid/BaseFluid
+	FIELD a STILL Lbra;
+	FIELD b LEVEL Lbri;
+	METHOD a (IZ)Lcfw;
+		ARG 1 level
+		ARG 2 still
+	METHOD a (Lbcm;Let;Lbqi;)Lcfw;
+		ARG 1 world
+		ARG 2 pos
+		ARG 3 state
+	METHOD a appendProperties (Lbqj$a;)V
+	METHOD a getState (Z)Lcfw;
+		ARG 1 still
+	METHOD b getShape (Lcfw;Lbbt;Let;)Lcnr;
+	METHOD e getFlowing ()Lcfv;
+	METHOD f getStill ()Lcfv;

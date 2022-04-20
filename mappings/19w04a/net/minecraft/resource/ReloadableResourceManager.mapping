@@ -1,0 +1,3 @@
+CLASS wm net/minecraft/resource/ReloadableResourceManager
+	METHOD a reload (Ljava/util/List;)V
+	METHOD a addListener (Lwp;)V

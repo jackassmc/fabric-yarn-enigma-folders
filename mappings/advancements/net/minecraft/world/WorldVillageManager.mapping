@@ -1,0 +1,23 @@
+CLASS yk net/minecraft/world/WorldVillageManager
+	FIELD b world Lali;
+	FIELD c recentVillagerPositions Ljava/util/List;
+	FIELD d recentlySeenDoors Ljava/util/List;
+	FIELD e villages Ljava/util/List;
+	FIELD f tick I
+	METHOD a update ()V
+	METHOD a setWorld (Lali;)V
+	METHOD a getBaseTag (Lawx;)Ljava/lang/String;
+	METHOD a addRecentVillagerPosition (Ldx;)V
+	METHOD a getNearestVillage (Ldx;I)Lyi;
+	METHOD a isDoorLeadingOutside (Ldx;Lee;I)I
+	METHOD a deserialize (Lfc;)V
+	METHOD b getVillages ()Ljava/util/List;
+	METHOD b updateDoorsSeenByVillager (Ldx;)V
+	METHOD b serialize (Lfc;)Lfc;
+	METHOD c getRecentlySeenDoor (Ldx;)Lyh;
+	METHOD d addRecentlySeenDoor (Ldx;)V
+	METHOD e validateVillageProperties ()V
+	METHOD e isRecentVillagerPosition (Ldx;)Z
+	METHOD f updateDoorsSeenByVillagers ()V
+	METHOD f isWoodDoor (Ldx;)Z
+	METHOD g addDoorsToVillages ()V

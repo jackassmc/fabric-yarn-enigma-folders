@@ -1,0 +1,23 @@
+CLASS aog net/minecraft/entity/mob/EntitySkeletonBase
+	CLASS aog$1
+		METHOD c start ()V
+		METHOD d onRemove ()V
+	FIELD a AIMING Lpm;
+	METHOD a initEquipment (Laeu;)V
+	METHOD a setEquippedStack (Lagh;Lavf;)V
+		ARG 1 slot
+	METHOD a attackDistant (Lagl;F)V
+		ARG 1 target
+	METHOD a (Lbaf;Laeu;Lago;Lagv;Lho;)Lagv;
+		ARG 3 difficulty
+	METHOD a playStepSound (Les;Lbnz;)V
+		ARG 1 pos
+	METHOD a deserializeCustomData (Lho;)V
+	METHOD aK getHeightOffset ()D
+	METHOD bH getEyeHeight ()F
+	METHOD cb initAttributes ()V
+	METHOD dz isAiming ()Z
+	METHOD k updateMovement ()V
+	METHOD n initAi ()V
+	METHOD s setArmsRaised (Z)V
+	METHOD y_ initDataTracker ()V

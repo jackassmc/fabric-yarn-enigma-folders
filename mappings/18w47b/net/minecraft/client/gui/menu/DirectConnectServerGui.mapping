@@ -1,0 +1,21 @@
+CLASS cqu net/minecraft/client/gui/menu/DirectConnectServerGui
+	CLASS cqu$1
+		METHOD a onPressed (DD)V
+			ARG 0 mouseX
+	CLASS cqu$2
+		METHOD a onPressed (DD)V
+			ARG 0 mouseX
+	METHOD a draw (IIF)V
+		ARG 1 mouseX
+		ARG 2 mouseY
+	METHOD b onScaleChanged (Lcnd;II)V
+		ARG 1 game
+		ARG 2 width
+	METHOD c onInitialized ()V
+	METHOD charTyped (CI)Z
+		ARG 1 chr
+	METHOD f update ()V
+	METHOD keyPressed (III)Z
+		ARG 1 keyCode
+		ARG 2 scanCode
+	METHOD n onClosed ()V

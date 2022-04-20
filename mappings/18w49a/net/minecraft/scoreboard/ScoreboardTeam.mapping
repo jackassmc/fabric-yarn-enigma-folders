@@ -1,0 +1,30 @@
+CLASS clx net/minecraft/scoreboard/ScoreboardTeam
+	FIELD a scoreboard Lclz;
+	FIELD b name Ljava/lang/String;
+	FIELD c playerList Ljava/util/Set;
+	FIELD d displayName Ljb;
+	FIELD g friendlyFire Z
+	FIELD h showFriendlyInvisibles Z
+	FIELD i nameTagVisibilityRule Lcmb$b;
+	FIELD j deathMessageVisibilityRule Lcmb$b;
+	FIELD k color La;
+	FIELD l collisionRule Lcmb$a;
+	METHOD <init> (Lclz;Ljava/lang/String;)V
+		ARG 1 scoreboard
+	METHOD a setFriendlyFlagsBitwise (I)V
+	METHOD a setColor (La;)V
+	METHOD a setCollisionRule (Lcmb$a;)V
+	METHOD a setNameTagVisibilityRule (Lcmb$b;)V
+	METHOD a setFriendlyFireAllowed (Z)V
+	METHOD b getName ()Ljava/lang/String;
+	METHOD b setDeathMessageVisibilityRule (Lcmb$b;)V
+	METHOD b setShowFriendlyInvisibles (Z)V
+	METHOD c getDisplayName ()Ljb;
+	METHOD g getPlayerList ()Ljava/util/Collection;
+	METHOD h isFriendlyFireAllowed ()Z
+	METHOD i shouldShowFriendlyInvisibles ()Z
+	METHOD j getNameTagVisibilityRule ()Lcmb$b;
+	METHOD k getDeathMessageVisibilityRule ()Lcmb$b;
+	METHOD l getCollisionRule ()Lcmb$a;
+	METHOD m getFriendlyFlagsBitwise ()I
+	METHOD n getColor ()La;

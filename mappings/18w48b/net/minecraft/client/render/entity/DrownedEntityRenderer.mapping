@@ -1,0 +1,6 @@
+CLASS dgm net/minecraft/client/render/entity/DrownedEntityRenderer
+	CLASS dgm$1
+		METHOD ao_ init ()V
+	METHOD a getTexture (Lagi;)Lpy;
+	METHOD a getTexture (Lags;)Lpy;
+	METHOD a getTexture (Lapz;)Lpy;

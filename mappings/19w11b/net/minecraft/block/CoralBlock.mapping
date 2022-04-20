@@ -1,0 +1,3 @@
+CLASS bly net/minecraft/block/CoralBlock
+	FIELD a SHAPE Lcra;
+	FIELD c deadCoralBlock Lbky;

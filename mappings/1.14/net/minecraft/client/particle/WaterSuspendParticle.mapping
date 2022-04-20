@@ -1,0 +1,2 @@
+CLASS dji net/minecraft/client/particle/WaterSuspendParticle
+	CLASS dji$a UnderwaterFactory

@@ -1,0 +1,20 @@
+CLASS bhq net/minecraft/client/gui/widget/WidgetLabel
+	FIELD a width I
+	FIELD f height I
+	FIELD g x I
+	FIELD h y I
+	FIELD i id I
+	FIELD j visible Z
+	FIELD k lines Ljava/util/List;
+	FIELD l centered Z
+	FIELD m hasBackground Z
+	FIELD n color I
+	FIELD o bgFillColor I
+	FIELD p bgTopLeftLineColor I
+	FIELD q bgBottomRightLineColor I
+	FIELD r font Lbha;
+	FIELD s margin I
+	METHOD a setCentered ()Lbhq;
+	METHOD a draw (Lbgm;II)V
+	METHOD a addText (Ljava/lang/String;)V
+	METHOD b drawBackground (Lbgm;II)V

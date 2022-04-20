@@ -1,0 +1,6 @@
+CLASS coi net/minecraft/world/loot/LootChoiceProvider
+	FIELD a ALWAYS_FALSE Lcoi;
+	FIELD b ALWAYS_TRUE Lcoi;
+	METHOD a doExpand (Lcny;Ljava/util/function/Consumer;)Z
+	METHOD a and (Lcoi;)Lcoi;
+	METHOD b or (Lcoi;)Lcoi;

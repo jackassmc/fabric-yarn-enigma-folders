@@ -1,0 +1,13 @@
+CLASS cjm net/minecraft/scoreboard/ScoreboardTeamBase
+	CLASS cjm$a CollisionRule
+	CLASS cjm$b VisibilityRule
+	METHOD a isEqual (Lcjm;)Z
+		ARG 1 team
+	METHOD b getName ()Ljava/lang/String;
+	METHOD g getPlayerList ()Ljava/util/Collection;
+	METHOD h isFriendlyFireAllowed ()Z
+	METHOD i shouldShowFriendlyInvisibles ()Z
+	METHOD j getNameTagVisibilityRule ()Lcjm$b;
+	METHOD k getDeathMessageVisibilityRule ()Lcjm$b;
+	METHOD l getCollisionRule ()Lcjm$a;
+	METHOD n getColor ()La;

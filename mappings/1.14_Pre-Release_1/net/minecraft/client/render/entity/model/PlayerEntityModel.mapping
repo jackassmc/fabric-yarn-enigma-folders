@@ -1,0 +1,15 @@
+CLASS dfc net/minecraft/client/render/entity/model/PlayerEntityModel
+	FIELD a leftArmOverlay Ldgs;
+	FIELD b rightArmOverlay Ldgs;
+	FIELD t leftLegOverlay Ldgs;
+	FIELD u rightLegOverlay Ldgs;
+	FIELD v bodyOverlay Ldgs;
+	FIELD w cape Ldgs;
+	FIELD x ears Ldgs;
+	FIELD y thinArms Z
+	METHOD <init> (FZ)V
+		ARG 1 scale
+	METHOD a renderEars (F)V
+		ARG 1 scale
+	METHOD b renderCape (F)V
+		ARG 1 scale

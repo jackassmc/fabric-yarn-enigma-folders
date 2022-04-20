@@ -1,0 +1,11 @@
+CLASS bns net/minecraft/block/pattern/BlockProxy
+	FIELD b pos Les;
+	FIELD c forceLoad Z
+	FIELD d state Lbno;
+	FIELD e blockEntity Lbls;
+	FIELD f cachedEntity Z
+	METHOD <init> (Lbac;Les;Z)V
+		ARG 2 pos
+	METHOD a getBlockState ()Lbno;
+	METHOD b getBlockEntity ()Lbls;
+	METHOD d getPos ()Les;

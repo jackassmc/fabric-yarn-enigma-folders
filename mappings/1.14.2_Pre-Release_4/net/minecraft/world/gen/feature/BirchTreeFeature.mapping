@@ -1,0 +1,8 @@
+CLASS bzp net/minecraft/world/gen/feature/BirchTreeFeature
+	FIELD a LOG Lbvk;
+	FIELD aS LEAVES Lbvk;
+	FIELD aT alwaysTall Z
+	METHOD <init> (Ljava/util/function/Function;ZZ)V
+		ARG 1 configFactory
+		ARG 2 emitNeighborBlockUpdates
+		ARG 3 alwaysTall

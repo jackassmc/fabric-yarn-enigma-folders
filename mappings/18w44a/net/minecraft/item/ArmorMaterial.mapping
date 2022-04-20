@@ -1,0 +1,16 @@
+CLASS ass net/minecraft/item/ArmorMaterial
+	FIELD a LEATHER Lass;
+	FIELD b CHAINMAIL Lass;
+	FIELD c IRON Lass;
+	FIELD d GOLD Lass;
+	FIELD e DIAMOND Lass;
+	FIELD f TURTLE Lass;
+	FIELD h name Ljava/lang/String;
+	FIELD j protectionAmounts [I
+	FIELD l equipSound Lww;
+	FIELD m toughness F
+	METHOD b getEquipSound ()Lww;
+	METHOD b getProtectionAmount (Laga;)I
+		ARG 1 slot
+	METHOD d getName ()Ljava/lang/String;
+	METHOD e getToughness ()F

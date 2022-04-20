@@ -1,0 +1,31 @@
+CLASS dxi net/minecraft/client/audio/SoundManager
+	CLASS dxi$a Result
+		FIELD a loadedSounds Ljava/util/Map;
+		METHOD a addTo (Ljava/util/Map;Ldxf;)V
+	FIELD a SOUND_MISSING Ldwf;
+	FIELD b LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD c GSON Lcom/google/gson/Gson;
+	FIELD d TYPE Ljava/lang/reflect/ParameterizedType;
+	FIELD e sounds Ljava/util/Map;
+	FIELD f soundSystem Ldxf;
+	METHOD a getKeys ()Ljava/util/Collection;
+	METHOD a updateListenerPosition (Lcun;)V
+	METHOD a play (Ldwi;)V
+	METHOD a play (Ldwi;I)V
+		ARG 1 sound
+		ARG 2 volume
+	METHOD a registerListener (Ldxh;)V
+	METHOD a readSounds (Ljava/io/InputStream;)Ljava/util/Map;
+	METHOD a get (Lqs;)Ldxj;
+	METHOD a stopSounds (Lqs;Lyk;)V
+	METHOD a updateSoundVolume (Lyk;F)V
+		ARG 1 category
+	METHOD a tick (Z)V
+	METHOD b pauseAll ()V
+	METHOD b isSoundResourcePresent (Ldwf;Lqs;Lxd;)Z
+	METHOD b stop (Ldwi;)V
+	METHOD b unregisterListener (Ldxh;)V
+	METHOD c stopAll ()V
+	METHOD c isPlaying (Ldwi;)Z
+	METHOD d close ()V
+	METHOD e playAll ()V

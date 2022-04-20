@@ -1,0 +1,27 @@
+CLASS net/minecraft/realms/RealmsScreenProxy net/minecraft/client/gui/menu/RealmsScreen
+	FIELD LOGGER LOGGER_REALMS Lorg/apache/logging/log4j/Logger;
+	FIELD screen realmsScreen Lnet/minecraft/realms/RealmsScreen;
+	METHOD buttons getButtons ()Ljava/util/List;
+	METHOD buttonsAdd addButton (Lnet/minecraft/realms/AbstractRealmsButton;)V
+	METHOD buttonsClear clearWidgets ()V
+	METHOD childrenClear clearListeners ()V
+	METHOD confirmResult (ZI)V
+		ARG 1 result
+	METHOD drawCenteredString drawStringCentered (Ljava/lang/String;III)V
+		ARG 1 text
+		ARG 2 x
+		ARG 3 y
+	METHOD drawString (Ljava/lang/String;IIIZ)V
+		ARG 1 text
+		ARG 2 x
+		ARG 3 y
+		ARG 4 color
+	METHOD fontDrawShadow drawString (Ljava/lang/String;III)V
+		ARG 1 text
+		ARG 2 x
+		ARG 3 y
+	METHOD fontLineHeight getFontHeight ()I
+	METHOD fontSplit wrapStringToList (Ljava/lang/String;I)Ljava/util/List;
+	METHOD fontWidth getStringWidth (Ljava/lang/String;)I
+	METHOD getScreen getRealmsScreen ()Lnet/minecraft/realms/RealmsScreen;
+	METHOD hasWidget containsWidget (Lnet/minecraft/realms/RealmsGuiEventListener;)Z

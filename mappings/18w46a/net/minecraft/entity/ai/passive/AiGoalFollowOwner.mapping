@@ -1,0 +1,12 @@
+CLASS aif net/minecraft/entity/ai/passive/AiGoalFollowOwner
+	FIELD a world Lbai;
+	FIELD b caller Lagx;
+	FIELD c owner Lagl;
+	FIELD h minDistance F
+	METHOD <init> (Lagx;DFF)V
+		ARG 1 caller
+	METHOD a canStart ()Z
+	METHOD b shouldContinue ()Z
+	METHOD c start ()V
+	METHOD d onRemove ()V
+	METHOD e tick ()V

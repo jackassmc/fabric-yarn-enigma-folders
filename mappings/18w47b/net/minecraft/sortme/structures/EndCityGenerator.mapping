@@ -1,0 +1,3 @@
+CLASS cad net/minecraft/sortme/structures/EndCityGenerator
+	CLASS cad$a
+		METHOD a toNbt (Lhp;)V

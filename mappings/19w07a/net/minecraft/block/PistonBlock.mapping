@@ -1,0 +1,14 @@
+CLASS bqt net/minecraft/block/PistonBlock
+	FIELD i isSticky Z
+	METHOD a move (Lbdb;Les;Lew;Z)Z
+		ARG 1 world
+		ARG 2 pos
+		ARG 3 dir
+	METHOD a isMovable (Lbqz;Lbdb;Les;Lew;ZLew;)Z
+		ARG 0 state
+		ARG 1 world
+		ARG 2 pos
+		ARG 3 facing
+		ARG 4 canBreak
+	METHOD n (Lbqz;)Z
+		ARG 1 state

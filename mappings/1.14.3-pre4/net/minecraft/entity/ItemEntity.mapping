@@ -1,0 +1,43 @@
+CLASS ats net/minecraft/entity/ItemEntity
+	FIELD ar owner Ljava/util/UUID;
+	FIELD b hoverHeight F
+	FIELD c STACK Lqi;
+	FIELD d age I
+	FIELD e pickupDelay I
+	FIELD f health I
+	FIELD g thrower Ljava/util/UUID;
+	METHOD <init> (Lbhm;DDD)V
+		ARG 1 world
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z
+	METHOD <init> (Lbhm;DDDLbce;)V
+		ARG 1 world
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z
+		ARG 8 stack
+	METHOD a setPickupDelay (I)V
+		ARG 1 pickupDelay
+	METHOD a tryMerge (Lats;)V
+		ARG 1 other
+	METHOD a merge (Lats;Lbce;Lats;Lbce;)V
+		ARG 0 targetEntity
+		ARG 1 targetStack
+		ARG 2 sourceEntity
+		ARG 3 sourceStack
+	METHOD b setStack (Lbce;)V
+		ARG 1 stack
+	METHOD b setOwner (Ljava/util/UUID;)V
+		ARG 1 uuid
+	METHOD c setThrower (Ljava/util/UUID;)V
+		ARG 1 uuid
+	METHOD i getStack ()Lbce;
+	METHOD k getOwner ()Ljava/util/UUID;
+	METHOD l getThrower ()Ljava/util/UUID;
+	METHOD m getAge ()I
+	METHOD n setToDefaultPickupDelay ()V
+	METHOD o resetPickupDelay ()V
+	METHOD p setPickupDelayInfinite ()V
+	METHOD q cannotPickup ()Z
+	METHOD w tryMerge ()V

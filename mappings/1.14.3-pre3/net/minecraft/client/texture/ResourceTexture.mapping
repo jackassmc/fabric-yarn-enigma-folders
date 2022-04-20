@@ -1,0 +1,17 @@
+CLASS duj net/minecraft/client/texture/ResourceTexture
+	CLASS duj$a TextureData
+		FIELD a metadata Ldvy;
+		FIELD b image Lcuc;
+		FIELD c exception Ljava/io/IOException;
+		METHOD <init> (Ldvy;Lcuc;)V
+			ARG 1 metadata
+			ARG 2 image
+		METHOD <init> (Ljava/io/IOException;)V
+			ARG 1 exception
+		METHOD a getMetadata ()Ldvy;
+		METHOD a load (Lxg;Lqt;)Lduj$a;
+		METHOD b getImage ()Lcuc;
+		METHOD c checkException ()V
+	FIELD f location Lqt;
+	FIELD g LOGGER Lorg/apache/logging/log4j/Logger;
+	METHOD b loadTextureData (Lxg;)Lduj$a;

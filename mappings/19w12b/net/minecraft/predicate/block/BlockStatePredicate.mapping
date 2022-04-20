@@ -1,0 +1,11 @@
+CLASS buo net/minecraft/predicate/block/BlockStatePredicate
+	FIELD a ANY Ljava/util/function/Predicate;
+	FIELD b factory Lbuf;
+	FIELD c propertyTests Ljava/util/Map;
+	METHOD a forBlock (Lblg;)Lbuo;
+		ARG 0 block
+	METHOD a testProperty (Lbue;Lbvh;Ljava/util/function/Predicate;)Z
+		ARG 1 blockState
+		ARG 2 property
+	METHOD a with (Lbvh;Ljava/util/function/Predicate;)Lbuo;
+		ARG 1 property

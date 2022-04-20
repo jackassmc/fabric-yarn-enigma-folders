@@ -1,0 +1,16 @@
+CLASS apo net/minecraft/village/SimpleVillager
+	FIELD a villagerInventory Lasf;
+	FIELD b player Lapv;
+	FIELD c recipeList Lazf;
+	FIELD d displayName Liz;
+	METHOD <init> (Lapv;Liz;)V
+		ARG 1 player
+	METHOD N_ getCurrentCustomer ()Lapv;
+	METHOD Q getDisplayedName ()Liz;
+	METHOD a onSellingItem (Lava;)V
+	METHOD a useRecipe (Laze;)V
+	METHOD a setRecipeList (Lazf;)V
+	METHOD a_ setCurrentCustomer (Lapv;)V
+	METHOD b_ getRecipes (Lapv;)Lazf;
+	METHOD c getWorld ()Lazy;
+	METHOD d getPos ()Les;

@@ -1,0 +1,3 @@
+CLASS ceo net/minecraft/sortme/rule/AbstractRuleTest
+	METHOD a getRuleTest ()Lcep;
+	METHOD a test (Lbqz;Ljava/util/Random;)Z

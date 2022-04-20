@@ -1,0 +1,15 @@
+CLASS apz net/minecraft/entity/mob/WitchEntity
+	FIELD bF DRINKING Lpo;
+	METHOD D getAmbientSound ()Lxg;
+	METHOD a attack (Lagt;F)V
+		ARG 1 target
+	METHOD a setDrinking (Z)V
+	METHOD bG getEyeHeight ()F
+	METHOD ca initAttributes ()V
+	METHOD cv getDeathSound ()Lxg;
+	METHOD e getHurtSound (Laft;)Lxg;
+	METHOD k updateMovement ()V
+	METHOD l isDrinking ()Z
+	METHOD n initAi ()V
+	METHOD s setArmsRaised (Z)V
+	METHOD y_ initDataTracker ()V

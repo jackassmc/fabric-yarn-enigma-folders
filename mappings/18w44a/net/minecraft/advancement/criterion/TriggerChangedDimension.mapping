@@ -1,0 +1,36 @@
+CLASS ab net/minecraft/advancement/criterion/TriggerChangedDimension
+	CLASS ab$a Handler
+		FIELD a manager Lqe;
+		FIELD b conditions Ljava/util/Set;
+		METHOD <init> (Lqe;)V
+			ARG 0 manager
+		METHOD a isEmpty ()Z
+		METHOD a handle (Lbqj;Lbqj;)V
+		METHOD a addCondition (Ls$a;)V
+			ARG 0 condition
+		METHOD b removeCondition (Ls$a;)V
+			ARG 0 condition
+	CLASS ab$b Conditions
+		FIELD a from Lbqj;
+		FIELD b to Lbqj;
+		METHOD a to (Lbqj;)Lab$b;
+		METHOD b matches (Lbqj;Lbqj;)Z
+	FIELD a ID Lpu;
+	FIELD b handlers Ljava/util/Map;
+	METHOD a getId ()Lpu;
+	METHOD a deserializeConditions (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Lt;
+		ARG 1 obj
+		ARG 2 context
+	METHOD a removePlayer (Lqe;)V
+		ARG 1 manager
+	METHOD a addCondition (Lqe;Ls$a;)V
+		ARG 1 manager
+		ARG 2 condition
+	METHOD a handle (Luc;Lbqj;Lbqj;)V
+		ARG 1 player
+	METHOD b deserializeConditions (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Lab$b;
+		ARG 1 obj
+		ARG 2 context
+	METHOD b removeCondition (Lqe;Ls$a;)V
+		ARG 1 manager
+		ARG 2 condition

@@ -1,0 +1,7 @@
+CLASS dhf net/minecraft/client/render/entity/EvokerIllagerEntityRenderer
+	CLASS dhf$1
+		METHOD a render (Lagt;FFFFFFF)V
+			ARG 0 entity
+	FIELD a EVOKER_TEXTURE Lpz;
+	METHOD a getTexture (Lagk;)Lpz;
+	METHOD a getTexture (Lapj;)Lpz;

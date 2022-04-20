@@ -1,0 +1,4 @@
+CLASS dih net/minecraft/client/render/entity/EntityRendererWitch
+	FIELD a SKIN Lpx;
+	METHOD a getTexture (Lagc;)Lpx;
+	METHOD a getTexture (Lapo;)Lpx;

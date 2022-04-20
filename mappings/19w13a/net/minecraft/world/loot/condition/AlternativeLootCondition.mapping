@@ -1,0 +1,6 @@
+CLASS cqa net/minecraft/world/loot/condition/AlternativeLootCondition
+	CLASS cqa$a Builder
+	CLASS cqa$b Factory
+	FIELD a terms [Lcqj;
+	FIELD b predicate Ljava/util/function/Predicate;
+	METHOD a or ([Lcqj$a;)Lcqa$a;

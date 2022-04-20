@@ -1,0 +1,43 @@
+CLASS cbw net/minecraft/util/MapColor
+	FIELD A BLUE Lcbw;
+	FIELD B BROWN Lcbw;
+	FIELD C GREEN Lcbw;
+	FIELD D RED Lcbw;
+	FIELD E BLACK Lcbw;
+	FIELD F GOLD Lcbw;
+	FIELD G DIAMOND Lcbw;
+	FIELD H LAPIS Lcbw;
+	FIELD I EMERALD Lcbw;
+	FIELD J SPRUCE Lcbw;
+	FIELD K NETHER Lcbw;
+	FIELD a COLORS [Lcbw;
+	FIELD ab color I
+	FIELD ac id I
+	FIELD b AIR Lcbw;
+	FIELD c GRASS Lcbw;
+	FIELD d SAND Lcbw;
+	FIELD e WEB Lcbw;
+	FIELD f LAVA Lcbw;
+	FIELD g ICE Lcbw;
+	FIELD h IRON Lcbw;
+	FIELD i LEAVES Lcbw;
+	FIELD j WHITE Lcbw;
+	FIELD k CLAY Lcbw;
+	FIELD l DIRT Lcbw;
+	FIELD m STONE Lcbw;
+	FIELD n WATER Lcbw;
+	FIELD o WOOD Lcbw;
+	FIELD p QUARTZ Lcbw;
+	FIELD q ORANGE Lcbw;
+	FIELD r MAGENTA Lcbw;
+	FIELD s LIGHT_BLUE Lcbw;
+	FIELD t YELLOW Lcbw;
+	FIELD u LIME Lcbw;
+	FIELD v PINK Lcbw;
+	FIELD w GRAY Lcbw;
+	FIELD x LIGHT_GRAY Lcbw;
+	FIELD y CYAN Lcbw;
+	FIELD z PURPLE Lcbw;
+	METHOD <init> (II)V
+		ARG 1 id
+	METHOD a getRenderColor (I)I

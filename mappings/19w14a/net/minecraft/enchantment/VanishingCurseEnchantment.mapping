@@ -1,0 +1,4 @@
+CLASS bfu net/minecraft/enchantment/VanishingCurseEnchantment
+	METHOD <init> (Lbey$a;[Laie;)V
+		ARG 1 weight
+		ARG 2 slotTypes

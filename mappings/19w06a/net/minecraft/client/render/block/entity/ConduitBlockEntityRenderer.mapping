@@ -1,0 +1,23 @@
+CLASS dhp net/minecraft/client/render/block/entity/ConduitBlockEntityRenderer
+	CLASS dhp$a CageModel
+		FIELD a cuboid Ldcc;
+		METHOD a render (FFFFFF)V
+	CLASS dhp$b EyeModel
+		FIELD a cuboid Ldcc;
+		METHOD a render (FFFFFF)V
+	CLASS dhp$c BaseModel
+		FIELD a cuboid Ldcc;
+		METHOD a render (FFFFFF)V
+	CLASS dhp$d WindModel
+		FIELD a cuboids [Ldcc;
+		METHOD a render (FFFFFF)V
+	FIELD c BASE_TEX Lqd;
+	FIELD d CAGE_TEX Lqd;
+	FIELD e WIND_TEX Lqd;
+	FIELD f WIND_VERTICAL_TEX Lqd;
+	FIELD g OPEN_EYE_TEX Lqd;
+	FIELD h CLOSED_EYE_TEX Lqd;
+	FIELD i baseModel Ldhp$c;
+	FIELD j cageModel Ldhp$a;
+	FIELD k windModel Ldhp$d;
+	FIELD l eyeModel Ldhp$b;

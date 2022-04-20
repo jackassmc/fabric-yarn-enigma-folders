@@ -1,0 +1,17 @@
+CLASS bln net/minecraft/block/SlimeBlock
+	METHOD <init> (Lbgs$c;)V
+		ARG 1 settings
+		ARG 2 stateBuilder
+	METHOD a onEntityLand (Lbbb;Lagv;)V
+		ARG 1 world
+		ARG 2 entity
+	METHOD a onSteppedOn (Lbbp;Let;Lagv;)V
+		ARG 1 world
+		ARG 2 pos
+		ARG 3 entity
+	METHOD a onLandedUpon (Lbbp;Let;Lagv;F)V
+		ARG 1 world
+		ARG 2 pos
+		ARG 3 entity
+		ARG 4 distance
+	METHOD c getRenderLayer ()Lbbc;

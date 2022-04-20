@@ -1,0 +1,5 @@
+CLASS aqz net/minecraft/entity/projectile/SmallFireballEntity
+	METHOD a damage (Lafr;F)Z
+		ARG 1 source
+	METHOD a onCollision (Lckm;)V
+	METHOD aD doesCollide ()Z

@@ -1,0 +1,6 @@
+CLASS cbm net/minecraft/world/gen/decorator/ChanceDecoratorConfig
+	FIELD a chance I
+	METHOD <init> (I)V
+		ARG 1 chance
+	METHOD a deserialize (Lcom/mojang/datafixers/Dynamic;)Lcbm;
+		ARG 0 dynamic

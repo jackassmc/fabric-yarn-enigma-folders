@@ -1,0 +1,6 @@
+CLASS djo net/minecraft/client/particle/SquidInkParticle
+	CLASS a Factory
+	METHOD <init> (Lbhn;DDDDDDLdjn;)V
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z

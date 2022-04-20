@@ -1,0 +1,3 @@
+CLASS atb net/minecraft/entity/projectile/ExplodingWitherSkullEntity
+	FIELD f CHARGED Lpx;
+	METHOD a setCharged (Z)V

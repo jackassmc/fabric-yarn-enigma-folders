@@ -1,0 +1,6 @@
+CLASS none/bzy net/minecraft/client/audio/impl/SoundEventElytra
+	FIELD m player Lnone/bog;
+	FIELD n tickCount I
+	METHOD <init> (Lnone/bog;)V
+		ARG 0 player
+	METHOD D_ update ()V

@@ -1,0 +1,5 @@
+CLASS are net/minecraft/entity/thrown/ThrownEnderpearlEntity
+	FIELD e owner Lagr;
+	METHOD U_ update ()V
+	METHOD a changeDimension (Lbrc;)Lagi;
+	METHOD a onCollision (Lckm;)V

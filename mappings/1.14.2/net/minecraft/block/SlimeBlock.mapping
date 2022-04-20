@@ -1,0 +1,3 @@
+CLASS brj net/minecraft/block/SlimeBlock
+	METHOD <init> (Lbmm$c;)V
+		ARG 1 settings

@@ -1,0 +1,13 @@
+CLASS age net/minecraft/util/profiler/DisableableProfiler
+	CLASS age$a ProfilerController
+		METHOD a isEnabled ()Z
+		METHOD b disable ()Lagh;
+		METHOD c getResults ()Lagh;
+		METHOD d enable ()V
+	CLASS age$b ProfilerControllerImpl
+		FIELD a profiler Lagg;
+	FIELD c tickSupplier Ljava/util/function/IntSupplier;
+	FIELD d controller Lage$b;
+	METHOD <init> (Ljava/util/function/IntSupplier;)V
+		ARG 1 tickSupplier
+	METHOD d getController ()Lage$a;

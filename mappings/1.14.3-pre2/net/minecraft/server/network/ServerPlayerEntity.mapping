@@ -1,0 +1,53 @@
+CLASS vj net/minecraft/server/network/ServerPlayerEntity
+	FIELD b networkHandler Lwa;
+	FIELD bU LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD bV clientLanguage Ljava/lang/String;
+	FIELD bW removedEntities Ljava/util/List;
+	FIELD bX advancementManager Lrc;
+	FIELD bY statHandler Lys;
+	FIELD c server Lnet/minecraft/server/MinecraftServer;
+	FIELD ck clientChatVisibility Lavz;
+	FIELD cm lastActionTime J
+	FIELD cn cameraEntity Lail;
+	FIELD co inTeleportationState Z
+	FIELD cp seenCredits Z
+	FIELD cq recipeBook Lyr;
+	FIELD cu enteredNetherPos Lcsa;
+	FIELD cv cameraPosition Lfo;
+	FIELD cw containerSyncId I
+	FIELD d interactionManager Lvk;
+	FIELD f pingMilliseconds I
+	FIELD g notInAnyWorld Z
+	METHOD A getStatHandler ()Lys;
+	METHOD B getRecipeBook ()Lyr;
+	METHOD D getCameraEntity ()Lail;
+	METHOD F getLastActionTime ()J
+	METHOD H isInTeleportationState ()Z
+	METHOD I onTeleportationDone ()V
+	METHOD L getAdvancementManager ()Lrc;
+	METHOD M getCameraPosition ()Lfo;
+	METHOD a setExperiencePoints (I)V
+	METHOD a openContainer (Layf;)V
+		ARG 1 container
+	METHOD a sendUnloadChunkPacket (Lbgx;)V
+	METHOD a sendInitialChunkPackets (Lbgx;Lkb;Lkb;)V
+	METHOD a sendBlockEntityUpdate (Lbtq;)V
+	METHOD a setCameraPosition (Lfo;)V
+		ARG 1 cameraPosition
+	METHOD a sendChatMessage (Ljn;Ljl;)V
+	METHOD a setClientSettings (Lny;)V
+	METHOD a teleport (Lvi;DDDFF)V
+	METHOD a copyFrom (Lvj;Z)V
+		ARG 1 oldPlayer
+		ARG 2 alive
+	METHOD b setExperienceLevel (I)V
+		ARG 1 level
+	METHOD c onStoppedTracking (Lail;)V
+	METHOD d onStartedTracking (Lail;)V
+	METHOD e setCameraEntity (Lail;)V
+		ARG 1 entity
+	METHOD ee incrementContainerSyncId ()V
+	METHOD s getServerWorld ()Lvi;
+	METHOD v getServerBrand ()Ljava/lang/String;
+	METHOD x getClientChatVisibility ()Lavz;
+	METHOD z updateLastActionTime ()V

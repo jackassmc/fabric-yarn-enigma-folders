@@ -1,0 +1,37 @@
+CLASS bmy net/minecraft/block/AbstractButtonBlock
+	FIELD A WEST_PRESSED_SHAPE Lcsw;
+	FIELD B EAST_PRESSED_SHAPE Lcsw;
+	FIELD D wooden Z
+	FIELD a POWERED Lbwh;
+	FIELD b CEILING_X_SHAPE Lcsw;
+	FIELD c CEILING_Z_SHAPE Lcsw;
+	FIELD d FLOOR_X_SHAPE Lcsw;
+	FIELD e FLOOR_Z_SHAPE Lcsw;
+	FIELD f NORTH_SHAPE Lcsw;
+	FIELD g SOUTH_SHAPE Lcsw;
+	FIELD h WEST_SHAPE Lcsw;
+	FIELD i EAST_SHAPE Lcsw;
+	FIELD j CEILING_X_PRESSED_SHAPE Lcsw;
+	FIELD k CEILING_Z_PRESSED_SHAPE Lcsw;
+	FIELD w FLOOR_X_PRESSED_SHAPE Lcsw;
+	FIELD x FLOOR_Z_PRESSED_SHAPE Lcsw;
+	FIELD y NORTH_PRESSED_SHAPE Lcsw;
+	FIELD z SOUTH_PRESSED_SHAPE Lcsw;
+	METHOD <init> (ZLbmr$c;)V
+		ARG 1 wooden
+		ARG 2 settings
+	METHOD a playClickSound (Lawb;Lbho;Lev;Z)V
+		ARG 1 player
+		ARG 2 world
+		ARG 3 pos
+		ARG 4 powered
+	METHOD a getClickSound (Z)Lym;
+		ARG 1 powered
+	METHOD d tryPowerWithProjectiles (Lbvp;Lbhn;Lev;)V
+		ARG 1 state
+		ARG 2 world
+		ARG 3 pos
+	METHOD e updateNeighbors (Lbvp;Lbhn;Lev;)V
+		ARG 1 state
+		ARG 2 world
+		ARG 3 pos

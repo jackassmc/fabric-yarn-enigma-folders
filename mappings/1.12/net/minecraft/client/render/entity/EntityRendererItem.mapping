@@ -1,0 +1,10 @@
+CLASS bzs net/minecraft/client/render/entity/EntityRendererItem
+	FIELD a itemRenderer Lbzu;
+	FIELD f rand Ljava/util/Random;
+	METHOD <init> (Lbzd;Lbzu;)V
+		ARG 0 renderManager
+		ARG 1 itemRenderer
+	METHOD a getTexture (Lacj;)Lnd;
+		ARG 0 model
+	METHOD a getTexture (Lve;)Lnd;
+		ARG 0 model

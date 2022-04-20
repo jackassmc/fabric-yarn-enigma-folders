@@ -1,0 +1,48 @@
+CLASS ara net/minecraft/container/ContainerEnchantingTable
+	CLASS ara$1
+		METHOD f getInvMaxStackAmount ()I
+		METHOD g markDirty ()V
+	CLASS ara$2
+		METHOD a getMaxStackAmount ()I
+		METHOD a canInsert (Lauc;)Z
+			ARG 0 stack
+	CLASS ara$3
+		METHOD a canInsert (Lauc;)Z
+			ARG 0 stack
+	FIELD a inventory Ladu;
+	FIELD f enchantmentTableSeed I
+	FIELD g experienceLevels [I
+	FIELD h enchantmentIds [I
+	FIELD i enchantmentLevels [I
+	FIELD j world Laza;
+	FIELD k pos Leq;
+	FIELD l rand Ljava/util/Random;
+	METHOD <init> (Lapa;Laza;)V
+		ARG 0 playerInv
+		ARG 1 world
+	METHOD <init> (Lapa;Laza;Leq;)V
+		ARG 0 playerInv
+		ARG 1 world
+		ARG 2 pos
+	METHOD a onContentChanged (Ladu;)V
+		ARG 0 inventory
+	METHOD a canUse (Lapb;)Z
+		ARG 0 player
+	METHOD a onButtonClick (Lapb;I)Z
+		ARG 0 player
+		ARG 1 buttonId
+	METHOD a addListener (Laqw;)V
+		ARG 0 listener
+	METHOD a getRandomEnchantments (Lauc;II)Ljava/util/List;
+		ARG 0 stack
+	METHOD b sendContentUpdates ()V
+	METHOD b setProperty (II)V
+		ARG 0 pos
+		ARG 1 value
+	METHOD b close (Lapb;)V
+		ARG 0 player
+	METHOD b getStack (Lapb;I)Lauc;
+		ARG 0 player
+		ARG 1 slot
+	METHOD c senDataToListener (Laqw;)V
+		ARG 0 listener

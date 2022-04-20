@@ -1,0 +1,6 @@
+CLASS bnr net/minecraft/block/CoralBlock
+	FIELD a SHAPE Lcsw;
+	FIELD c deadCoralBlock Lbmr;
+	METHOD <init> (Lbmr;Lbmr$c;)V
+		ARG 1 deadCoralBlock
+		ARG 2 settings

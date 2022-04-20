@@ -1,0 +1,8 @@
+CLASS atc net/minecraft/inventory/EnderChestInventory
+	FIELD a currentBlockEntity Lbnb;
+	METHOD a canPlayerUseInv (Laql;)Z
+	METHOD a setCurrentBlockEntity (Lbnb;)V
+	METHOD a readTags (Lhw;)V
+	METHOD b onInvOpen (Laql;)V
+	METHOD c onInvClose (Laql;)V
+	METHOD j getTags ()Lhw;

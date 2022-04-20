@@ -1,0 +1,11 @@
+CLASS bh net/minecraft/predicate/NbtPredicate
+	FIELD a ANY Lbh;
+	FIELD b tag Lhs;
+	METHOD a serialize ()Lcom/google/gson/JsonElement;
+	METHOD a test (Lagv;)Z
+	METHOD a test (Lawo;)Z
+	METHOD a deserialize (Lcom/google/gson/JsonElement;)Lbh;
+		ARG 0 element
+	METHOD a test (Lij;)Z
+	METHOD b entityToTag (Lagv;)Lhs;
+		ARG 0 entity

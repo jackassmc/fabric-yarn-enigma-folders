@@ -1,0 +1,4 @@
+CLASS cmz net/minecraft/world/biome/layer/IdentitySamplingLayer
+	METHOD a sample (Lclu;I)I
+		ARG 1 context
+		ARG 2 value

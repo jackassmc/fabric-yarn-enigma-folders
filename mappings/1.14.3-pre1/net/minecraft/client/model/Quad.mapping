@@ -1,0 +1,9 @@
+CLASS dfq net/minecraft/client/model/Quad
+	FIELD a vertices [Ldgq;
+	FIELD b vertexCount I
+	FIELD c flipNormals Z
+	METHOD <init> ([Ldgq;IIIIFF)V
+		ARG 1 vertices
+	METHOD a flip ()V
+	METHOD a render (Lcum;F)V
+		ARG 2 scale

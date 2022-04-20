@@ -1,0 +1,12 @@
+CLASS ddq net/minecraft/client/particle/NoteParticle
+	CLASS ddq$a Factory
+	METHOD <init> (Lbcq;DDDDDD)V
+		ARG 1 world
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z
+	METHOD <init> (Lbcq;DDDDDDF)V
+		ARG 1 world
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z

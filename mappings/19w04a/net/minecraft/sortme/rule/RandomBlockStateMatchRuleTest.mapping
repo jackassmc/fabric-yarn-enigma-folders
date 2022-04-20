@@ -1,0 +1,6 @@
+CLASS cdx net/minecraft/sortme/rule/RandomBlockStateMatchRuleTest
+	FIELD a blockState Lbqk;
+	FIELD b probability F
+	METHOD <init> (Lbqk;F)V
+		ARG 1 blockState
+		ARG 2 probability

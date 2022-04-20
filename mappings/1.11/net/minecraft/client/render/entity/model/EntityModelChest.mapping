@@ -1,0 +1,4 @@
+CLASS bky net/minecraft/client/render/entity/model/EntityModelChest
+	FIELD a lid Lbng;
+	FIELD b base Lbng;
+	FIELD c hatch Lbng;

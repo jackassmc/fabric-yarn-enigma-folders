@@ -1,0 +1,4 @@
+CLASS cff net/minecraft/world/gen/surfacebuilder/ErodedBadlandsSurfaceBuilder
+	FIELD S WHITE_TERRACOTTA Lbre;
+	FIELD T ORANGE_TERRACOTTA Lbre;
+	FIELD U TERACOTTA Lbre;

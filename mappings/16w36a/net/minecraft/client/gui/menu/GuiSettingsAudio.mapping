@@ -1,0 +1,25 @@
+CLASS none/bgq net/minecraft/client/gui/menu/GuiSettingsAudio
+	CLASS none/bgq$a
+		METHOD a onPressed (Lnone/caw;)V
+			ARG 0 soundLoader
+		METHOD a getTextureId (Z)I
+			ARG 0 pressed
+		METHOD b (Lnone/bdq;II)V
+			ARG 0 game
+		METHOD c isWithinBounds (Lnone/bdq;II)Z
+			ARG 0 game
+			ARG 1 mouseX
+			ARG 2 mouseY
+	FIELD a title Ljava/lang/String;
+	FIELD f parent Lnone/bgm;
+	FIELD g settings Lnone/bds;
+	METHOD <init> (Lnone/bgm;Lnone/bds;)V
+		ARG 0 parent
+		ARG 1 settings
+	METHOD a draw (IIF)V
+		ARG 0 mouseX
+		ARG 1 mouseY
+		ARG 2 delta
+	METHOD a handleButtonPressed (Lnone/bek;)V
+		ARG 0 button
+	METHOD b init ()V

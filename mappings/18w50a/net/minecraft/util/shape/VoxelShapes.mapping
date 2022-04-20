@@ -1,0 +1,36 @@
+CLASS cmu net/minecraft/util/shape/VoxelShapes
+	CLASS cmu$a ShapeConsumer
+		METHOD consume (DDDDDD)V
+			ARG 1 minX
+	FIELD a EMPTY Lcmx;
+	FIELD b FULL_CUBE Lcmx;
+	METHOD a empty ()Lcmx;
+	METHOD a findRequiredBitResolution (DD)I
+		ARG 0 min
+		ARG 2 max
+	METHOD a cube (DDDDDD)Lcmx;
+		ARG 0 xMin
+		ARG 2 yMin
+		ARG 4 zMin
+		ARG 6 xMax
+		ARG 8 yMax
+		ARG 10 zMax
+	METHOD a lcm (II)J
+	METHOD a cube (Lclz;)Lcmx;
+		ARG 0 box
+	METHOD a union (Lcmx;Lcmx;)Lcmx;
+		ARG 0 first
+		ARG 1 second
+	METHOD a combine (Lcmx;Lcmx;Lcmh;)Lcmx;
+		ARG 0 first
+		ARG 1 second
+		ARG 2 function
+	METHOD a calculateMaxOffset (Ley$a;Lclz;Ljava/util/stream/Stream;D)D
+		ARG 0 axis
+		ARG 1 box
+		ARG 2 shapes
+	METHOD b fullCube ()Lcmx;
+	METHOD c compareShapes (Lcmx;Lcmx;Lcmh;)Z
+		ARG 0 shape1
+		ARG 1 shape2
+		ARG 2 comparator

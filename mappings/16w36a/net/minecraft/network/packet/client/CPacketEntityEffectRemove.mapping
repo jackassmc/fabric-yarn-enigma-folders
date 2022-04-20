@@ -1,0 +1,17 @@
+CLASS none/hj net/minecraft/network/packet/client/CPacketEntityEffectRemove
+	FIELD a entityId I
+	FIELD b effectType Lnone/ry;
+	METHOD <init> (ILnone/ry;)V
+		ARG 0 entityId
+		ARG 1 effectType
+	METHOD a getEffectType ()Lnone/ry;
+	METHOD a getEntity (Lnone/aiv;)Lnone/sf;
+		ARG 0 world
+	METHOD a readPacket (Lnone/es;)V
+		ARG 0 packet
+	METHOD a applyPacket (Lnone/ev;)V
+		ARG 0 handler
+	METHOD a applyPacket (Lnone/fo;)V
+		ARG 0 handler
+	METHOD b writePacket (Lnone/es;)V
+		ARG 0 packet

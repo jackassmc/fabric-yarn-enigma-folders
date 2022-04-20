@@ -1,0 +1,6 @@
+CLASS dfm net/minecraft/client/render/entity/EntityRendererLlamaDecor
+	METHOD a shouldMergeTextures ()Z
+	METHOD a render (Lafq;FFFFFFF)V
+		ARG 0 entity
+	METHOD a render (Lalk;FFFFFFF)V
+		ARG 0 entity

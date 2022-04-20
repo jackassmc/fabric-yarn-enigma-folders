@@ -1,0 +1,3 @@
+CLASS cxv net/minecraft/client/font/BlankGlyph
+	FIELD a INSTANCE Lcxv;
+	FIELD b IMAGE Lctp;

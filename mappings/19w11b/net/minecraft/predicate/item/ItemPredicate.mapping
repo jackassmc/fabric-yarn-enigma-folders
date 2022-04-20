@@ -1,0 +1,36 @@
+CLASS bb net/minecraft/predicate/item/ItemPredicate
+	CLASS bb$a Builder
+		FIELD a enchantments Ljava/util/List;
+		FIELD b item Lbam;
+		FIELD c tag Lyx;
+		FIELD d count Lbh$d;
+		FIELD e durability Lbh$d;
+		FIELD f potion Lbcg;
+		FIELD g nbt Lbj;
+		METHOD a create ()Lbb$a;
+		METHOD a enchantment (Lap;)Lbb$a;
+		METHOD a item (Lbfw;)Lbb$a;
+		METHOD a count (Lbh$d;)Lbb$a;
+		METHOD a tag (Lyx;)Lbb$a;
+		METHOD b build ()Lbb;
+	FIELD a ANY Lbb;
+	FIELD b tag Lyx;
+	FIELD c item Lbam;
+	FIELD d count Lbh$d;
+	FIELD e durability Lbh$d;
+	FIELD f enchantments [Lap;
+	FIELD g potion Lbcg;
+	FIELD h nbt Lbj;
+	METHOD <init> (Lyx;Lbam;Lbh$d;Lbh$d;[Lap;Lbcg;Lbj;)V
+		ARG 1 tag
+		ARG 2 item
+		ARG 3 count
+		ARG 4 durability
+		ARG 5 enchantments
+		ARG 6 potion
+	METHOD a serialize ()Lcom/google/gson/JsonElement;
+	METHOD a test (Lbar;)Z
+	METHOD a deserialize (Lcom/google/gson/JsonElement;)Lbb;
+		ARG 0 el
+	METHOD b deserializeAll (Lcom/google/gson/JsonElement;)[Lbb;
+		ARG 0 el

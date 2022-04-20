@@ -1,0 +1,15 @@
+CLASS bu net/minecraft/advancement/criterion/UsedTotemCriterion
+	CLASS bu$a Handler
+		FIELD a manager Lqy;
+		FIELD b conditions Ljava/util/Set;
+		METHOD a isEmpty ()Z
+		METHOD a handle (Lbar;)V
+		METHOD a addCondition (Lw$a;)V
+		METHOD b removeCondition (Lw$a;)V
+	CLASS bu$b Conditions
+		FIELD a item Lbb;
+		METHOD a matches (Lbar;)Z
+	FIELD a ID Lqp;
+	FIELD b handlers Ljava/util/Map;
+	METHOD a handle (Lvd;Lbar;)V
+		ARG 1 player

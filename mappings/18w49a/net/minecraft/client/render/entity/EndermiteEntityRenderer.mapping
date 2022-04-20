@@ -1,0 +1,4 @@
+CLASS dhb net/minecraft/client/render/entity/EndermiteEntityRenderer
+	FIELD a SKIN Lpz;
+	METHOD a getTexture (Lagk;)Lpz;
+	METHOD b getTexture (Laoz;)Lpz;

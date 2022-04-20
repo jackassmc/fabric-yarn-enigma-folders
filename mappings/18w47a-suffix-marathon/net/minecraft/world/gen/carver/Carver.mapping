@@ -1,0 +1,9 @@
+CLASS bsn net/minecraft/world/gen/carver/Carver
+	FIELD a CAVE Lbsn;
+	FIELD b NETHER_CAVE Lbsn;
+	FIELD c RAVINE Lbsn;
+	FIELD d UNDERWATER_RAVINE Lbsn;
+	FIELD e UNDERWATER_CAVE Lbsn;
+	FIELD h WATER Lcdg;
+	FIELD i LAVA Lcdg;
+	METHOD a register (Ljava/lang/String;Lbsn;)Lbsn;

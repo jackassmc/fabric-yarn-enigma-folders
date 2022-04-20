@@ -1,0 +1,8 @@
+CLASS doe net/minecraft/client/tutorial/OpenInventoryTutorialStepHandler
+	FIELD a TITLE Lja;
+	FIELD b DESCRIPTION Lja;
+	FIELD c manager Ldog;
+	FIELD e ticks I
+	METHOD a tick ()V
+	METHOD b destroy ()V
+	METHOD c onInventoryOpened ()V

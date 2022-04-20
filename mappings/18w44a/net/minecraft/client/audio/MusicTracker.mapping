@@ -1,0 +1,24 @@
+CLASS dmc net/minecraft/client/audio/MusicTracker
+	CLASS dmc$a MusicType
+		FIELD a MENU Ldmc$a;
+		FIELD b GAME Ldmc$a;
+		FIELD c CREATIVE Ldmc$a;
+		FIELD d CREDITS Ldmc$a;
+		FIELD e NETHER Ldmc$a;
+		FIELD f DRAGON Ldmc$a;
+		FIELD g END Ldmc$a;
+		FIELD i sound Lww;
+		FIELD j minDelay I
+		FIELD k maxDelay I
+		METHOD a getSound ()Lww;
+		METHOD b getMinDelay ()I
+		METHOD c getMaxDelay ()I
+	FIELD a rand Ljava/util/Random;
+	FIELD b game Lclp;
+	FIELD c current Ldli;
+	FIELD d timeUntilNextSong I
+	METHOD <init> (Lclp;)V
+		ARG 1 minecraft
+	METHOD Z_ tick ()V
+	METHOD a play (Ldmc$a;)V
+		ARG 1 type

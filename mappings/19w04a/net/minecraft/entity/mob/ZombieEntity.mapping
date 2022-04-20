@@ -1,0 +1,17 @@
+CLASS aqu net/minecraft/entity/mob/ZombieEntity
+	CLASS aqu$a DestroyEggGoal
+	FIELD bC BABY Lps;
+	FIELD bE ARMS_RAISED Lps;
+	FIELD b BABY_SPEED_ID Ljava/util/UUID;
+	FIELD c BABY_SPEED_BONUS Laib;
+	FIELD d SPAWN_REINFORCEMENTS Lahz;
+	METHOD <init> (Lahg;Lbcl;)V
+		ARG 1 type
+	METHOD dD getSoundStep ()Lxr;
+	METHOD dE getSkull ()Laxd;
+	METHOD dK isDrowning ()Z
+	METHOD dL canBreakDoors ()Z
+	METHOD n hasArmsRaised ()Z
+	METHOD r setArmsRaised (Z)V
+	METHOD s setBreakDoors (Z)V
+	METHOD t setChild (Z)V

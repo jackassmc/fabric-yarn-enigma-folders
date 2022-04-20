@@ -1,0 +1,2 @@
+CLASS dhu net/minecraft/client/particle/BubblePopParticle
+	CLASS dhu$a Factory

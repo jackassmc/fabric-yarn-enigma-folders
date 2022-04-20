@@ -1,0 +1,4 @@
+CLASS btx net/minecraft/world/gen/chunk/FloatingIslandsChunkGeneratorConfig
+	FIELD t center Let;
+	METHOD a withCenter (Let;)Lbtx;
+	METHOD v getCenter ()Let;

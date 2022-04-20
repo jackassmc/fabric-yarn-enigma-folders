@@ -1,0 +1,7 @@
+CLASS dnj net/minecraft/client/texture/MissingSprite
+	FIELD l MISSINGNO Lqc;
+	FIELD n IMAGE Lcob;
+	FIELD o INSTANCE Ldnj;
+	METHOD a getMissingSprite ()Ldnj;
+	METHOD b getMissingTextureId ()Lqc;
+	METHOD c destroy ()V

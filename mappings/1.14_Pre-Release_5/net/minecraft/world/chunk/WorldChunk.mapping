@@ -1,0 +1,69 @@
+CLASS bxj net/minecraft/world/chunk/WorldChunk
+	CLASS bxj$a CreationType
+	FIELD a EMPTY_SECTION Lbxk;
+	FIELD b LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD c sections [Lbxk;
+	FIELD d biomeArray [Lbie;
+	FIELD e pendingBlockEntityTags Ljava/util/Map;
+	FIELD f loadedToWorld Z
+	FIELD g world Lbhh;
+	FIELD h heightmaps Ljava/util/Map;
+	FIELD i upgradeData Lbxt;
+	FIELD j blockEntities Ljava/util/Map;
+	FIELD k entitySections [Lzg;
+	FIELD l structureStarts Ljava/util/Map;
+	FIELD m structureReferences Ljava/util/Map;
+	FIELD n postProcessingLists [Lit/unimi/dsi/fastutil/shorts/ShortList;
+	FIELD o blockTickScheduler Lbhw;
+	FIELD p fluidTickScheduler Lbhw;
+	FIELD r lastSaveTime J
+	FIELD s shouldSave Z
+	FIELD t inhabitedTime J
+	FIELD u levelTypeProvider Ljava/util/function/Supplier;
+	FIELD v loadToWorldConsumer Ljava/util/function/Consumer;
+	FIELD w pos Lbgt;
+	FIELD x isLightOn Z
+	METHOD <init> (Lbhh;Lbxr;)V
+		ARG 1 world
+	METHOD A runPostProcessing ()V
+	METHOD a getFluidState (III)Lckz;
+		ARG 1 x
+		ARG 2 y
+	METHOD a remove (Laif;I)V
+		ARG 1 entity
+	METHOD a appendEntities (Laif;Lcrq;Ljava/util/List;Ljava/util/function/Predicate;)V
+		ARG 1 except
+		ARG 2 box
+		ARG 3 entityList
+	METHOD a appendEntities (Laij;Lcrq;Ljava/util/List;Ljava/util/function/Predicate;)V
+		ARG 1 type
+		ARG 2 box
+		ARG 3 list
+		ARG 4 predicate
+	METHOD a addBlockEntity (Lbtm;)V
+	METHOD a getLightLevel (Lev;I)I
+	METHOD a getBlockEntity (Lev;Lbxj$a;)Lbtm;
+		ARG 1 pos
+	METHOD a loadBlockEntity (Lev;Lib;)Lbtm;
+		ARG 1 pos
+	METHOD a appendEntities (Ljava/lang/Class;Lcrq;Ljava/util/List;Ljava/util/function/Predicate;)V
+		ARG 1 entityClass
+		ARG 2 box
+		ARG 3 entityList
+	METHOD a setLevelTypeProvider (Ljava/util/function/Supplier;)V
+		ARG 1 levelTypeProvider
+	METHOD a loadFromPacket (Ljc;Lib;IZ)V
+		ARG 1 data
+		ARG 2 nbt
+		ARG 3 updatedSectionsBits
+		ARG 4 clearOld
+	METHOD b remove (Laif;)V
+	METHOD c setLoadedToWorld (Z)V
+	METHOD j createBlockEntity (Lev;)Lbtm;
+	METHOD s markDirty ()V
+	METHOD t isEmpty ()Z
+	METHOD u getLevelType ()Lur$b;
+	METHOD w loadToWorld ()V
+	METHOD x getWorld ()Lbhh;
+	METHOD y getBlockEntities ()Ljava/util/Map;
+	METHOD z getEntitySectionArray ()[Lzg;

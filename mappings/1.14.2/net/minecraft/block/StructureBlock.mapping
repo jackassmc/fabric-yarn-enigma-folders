@@ -1,0 +1,6 @@
+CLASS bsb net/minecraft/block/StructureBlock
+	FIELD a MODE Lbwi;
+	METHOD <init> (Lbmm$c;)V
+		ARG 1 settings
+	METHOD a doAction (Lbun;)V
+		ARG 1 blockEntity

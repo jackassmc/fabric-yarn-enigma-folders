@@ -1,0 +1,4 @@
+CLASS bgc net/minecraft/enchantment/QuickChargeEnchantment
+	METHOD <init> (Lbfo$a;[Laiq;)V
+		ARG 1 weight
+		ARG 2 slot

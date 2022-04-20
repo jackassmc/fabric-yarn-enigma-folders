@@ -1,0 +1,14 @@
+CLASS amo net/minecraft/entity/passive/AbstractDonkeyEntity
+	FIELD bP CHEST Lpo;
+	METHOD <init> (Lago;Lbas;)V
+		ARG 1 type
+	METHOD a interactMob (Laql;Lafd;)Z
+		ARG 1 player
+	METHOD a readCustomDataFromTag (Lhq;)V
+	METHOD aL getMountedHeightOffset ()D
+	METHOD b writeCustomDataToTag (Lhq;)V
+	METHOD ca initAttributes ()V
+	METHOD dA getInventorySize ()I
+	METHOD dz hasChest ()Z
+	METHOD t setHasChest (Z)V
+	METHOD y_ initDataTracker ()V

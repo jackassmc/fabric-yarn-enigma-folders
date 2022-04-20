@@ -1,0 +1,12 @@
+CLASS bot net/minecraft/predicate/block/BlockStatePredicate
+	FIELD a ANY Ljava/util/function/Predicate;
+	FIELD b factory Lbok;
+	FIELD c propertyTests Ljava/util/Map;
+	METHOD a forBlock (Lbfr;)Lbot;
+		ARG 0 block
+	METHOD a apply (Lboj;)Z
+	METHOD a testProperty (Lboj;Lbpl;Ljava/util/function/Predicate;)Z
+		ARG 1 blockState
+		ARG 2 property
+	METHOD a with (Lbpl;Ljava/util/function/Predicate;)Lbot;
+		ARG 1 property

@@ -1,0 +1,2 @@
+CLASS din net/minecraft/client/particle/ExplosionLargeParticle
+	CLASS din$a Factory

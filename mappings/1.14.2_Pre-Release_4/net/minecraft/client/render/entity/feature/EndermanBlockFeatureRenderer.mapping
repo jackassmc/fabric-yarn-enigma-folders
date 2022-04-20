@@ -1,0 +1,3 @@
+CLASS dsk net/minecraft/client/render/entity/feature/EndermanBlockFeatureRenderer
+	METHOD <init> (Ldqz;)V
+		ARG 1 context

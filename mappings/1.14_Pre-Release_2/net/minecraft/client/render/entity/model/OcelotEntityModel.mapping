@@ -1,0 +1,10 @@
+CLASS dey net/minecraft/client/render/entity/model/OcelotEntityModel
+	FIELD a frontLegLeft Ldgu;
+	FIELD b frontLegRight Ldgu;
+	FIELD f backLegLeft Ldgu;
+	FIELD g backLegRight Ldgu;
+	FIELD h tail1 Ldgu;
+	FIELD i tail2 Ldgu;
+	FIELD j head Ldgu;
+	FIELD k body Ldgu;
+	FIELD l animationState I

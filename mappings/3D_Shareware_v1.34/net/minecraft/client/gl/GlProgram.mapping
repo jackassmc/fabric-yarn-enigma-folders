@@ -1,0 +1,5 @@
+CLASS ctv net/minecraft/client/gl/GlProgram
+	METHOD a getProgramRef ()I
+	METHOD b markUniformsDirty ()V
+	METHOD c getVertexShader ()Lctw;
+	METHOD d getFragmentShader ()Lctw;

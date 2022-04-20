@@ -1,0 +1,6 @@
+CLASS cay net/minecraft/world/gen/feature/GrassFeatureConfig
+	FIELD a state Lbuw;
+	METHOD <init> (Lbuw;)V
+		ARG 1 state
+	METHOD a deserialize (Lcom/mojang/datafixers/Dynamic;)Lcay;
+		ARG 0 dynamic

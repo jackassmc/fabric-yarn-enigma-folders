@@ -1,0 +1,6 @@
+CLASS axw net/minecraft/entity/vehicle/TntMinecartEntity
+	FIELD b fuseTicks I
+	METHOD c explode (D)V
+	METHOD v prime ()V
+	METHOD w getFuseTicks ()I
+	METHOD z isPrimed ()Z

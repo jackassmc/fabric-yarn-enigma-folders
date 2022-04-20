@@ -1,0 +1,25 @@
+CLASS aok net/minecraft/entity/mob/EntityGuardian
+	CLASS aok$a
+		METHOD a canStart ()Z
+		METHOD b shouldContinue ()Z
+		METHOD c start ()V
+		METHOD d onRemove ()V
+		METHOD e tick ()V
+	CLASS aok$c
+		METHOD a tick ()V
+	METHOD D getSoundAmbient ()Lww;
+	METHOD F getLootTableId ()Lpu;
+	METHOD a damage (Lafe;F)Z
+		ARG 1 source
+		ARG 2 damage
+	METHOD a onTrackedDataSet (Lpj;)V
+		ARG 1 data
+	METHOD b createNavigation (Lazt;)Lakc;
+		ARG 1 world
+	METHOD bH getEyeHeight ()F
+	METHOD cb initAttributes ()V
+	METHOD cw getSoundDeath ()Lww;
+	METHOD e getSoundHurt (Lafe;)Lww;
+	METHOD k updateMovement ()V
+	METHOD n initAi ()V
+	METHOD y_ initDataTracker ()V

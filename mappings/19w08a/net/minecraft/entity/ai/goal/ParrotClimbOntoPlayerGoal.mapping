@@ -1,0 +1,6 @@
+CLASS ajy net/minecraft/entity/ai/goal/ParrotClimbOntoPlayerGoal
+	FIELD a parrot Lann;
+	FIELD b parrotOwner Luw;
+	FIELD c mounted Z
+	METHOD <init> (Lann;)V
+		ARG 1 parrot

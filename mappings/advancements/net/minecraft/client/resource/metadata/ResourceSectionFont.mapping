@@ -1,0 +1,4 @@
+CLASS cdr net/minecraft/client/resource/metadata/ResourceSectionFont
+	FIELD a widths [F
+	FIELD b lefts [F
+	FIELD c spacings [F

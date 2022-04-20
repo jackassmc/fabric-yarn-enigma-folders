@@ -1,0 +1,15 @@
+CLASS aoz net/minecraft/entity/player/PlayerAbilities
+	FIELD a invulnerable Z
+	FIELD b flying Z
+	FIELD c allowFlying Z
+	FIELD d creativeMode Z
+	FIELD e allowModifyWorld Z
+	FIELD g walkSpeed F
+	METHOD a getFlySpeed ()F
+	METHOD a setWalkSpeed (F)V
+		ARG 0 walkSpeed
+	METHOD a serialize (Lhl;)V
+		ARG 0 tag
+	METHOD b getWalkSpeed ()F
+	METHOD b deserialize (Lhl;)V
+		ARG 0 tag

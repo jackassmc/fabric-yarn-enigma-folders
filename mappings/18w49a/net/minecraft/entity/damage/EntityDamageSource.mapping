@@ -1,0 +1,7 @@
+CLASS afu net/minecraft/entity/damage/EntityDamageSource
+	FIELD x source Lagk;
+	METHOD <init> (Ljava/lang/String;Lagk;)V
+		ARG 1 name
+	METHOD c getDeathMessage (Lagt;)Ljb;
+	METHOD k getAttacker ()Lagk;
+	METHOD s isScaledWithDifficulty ()Z

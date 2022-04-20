@@ -1,0 +1,2 @@
+CLASS ddm net/minecraft/client/particle/ExplosionLargeParticle
+	CLASS ddm$a Factory

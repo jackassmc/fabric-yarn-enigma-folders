@@ -1,0 +1,3 @@
+CLASS bnb net/minecraft/block/FletchingTableBlock
+	METHOD <init> (Lbkz$c;)V
+		ARG 1 settings

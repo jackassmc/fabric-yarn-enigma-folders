@@ -1,0 +1,8 @@
+CLASS aua net/minecraft/item/ItemElytra
+	METHOD a canRepair (Lava;Lava;)Z
+		ARG 1 item
+	METHOD a use (Lazy;Lapv;Laer;)Laeu;
+		ARG 1 world
+		ARG 2 player
+	METHOD e isUsable (Lava;)Z
+		ARG 0 stack

@@ -1,0 +1,3 @@
+CLASS cps net/minecraft/world/loot/function/SetTagLootFunction
+	CLASS cps$a Factory
+	FIELD a tag Lib;

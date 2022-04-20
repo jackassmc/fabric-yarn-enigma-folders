@@ -1,0 +1,11 @@
+CLASS bmo net/minecraft/block/CauldronBlock
+	FIELD a LEVEL Lbvy;
+	FIELD b OUTLINE_SHAPE Lcsc;
+	FIELD c RAY_TRACE_SHAPE Lcsc;
+	METHOD <init> (Lbma$c;)V
+		ARG 1 settings
+	METHOD a setLevel (Lbgw;Lev;Lbuy;I)V
+		ARG 1 world
+		ARG 2 pos
+		ARG 3 state
+		ARG 4 level

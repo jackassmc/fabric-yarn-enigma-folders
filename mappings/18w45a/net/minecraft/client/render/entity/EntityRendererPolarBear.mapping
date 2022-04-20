@@ -1,0 +1,4 @@
+CLASS dgf net/minecraft/client/render/entity/EntityRendererPolarBear
+	FIELD a SKIN Lpw;
+	METHOD a getTexture (Lafy;)Lpw;
+	METHOD a getTexture (Laln;)Lpw;

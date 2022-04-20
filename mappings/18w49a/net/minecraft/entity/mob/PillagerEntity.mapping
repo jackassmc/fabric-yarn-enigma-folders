@@ -1,0 +1,18 @@
+CLASS apn net/minecraft/entity/mob/PillagerEntity
+	METHOD D getAmbientSound ()Lxg;
+	METHOD M getLimitPerChunk ()I
+	METHOD a initEquipment (Lafc;)V
+	METHOD a attack (Lagt;F)V
+		ARG 1 target
+	METHOD a (Lbat;Lafc;Lagw;Lahe;Lhq;)Lahe;
+		ARG 3 difficulty
+	METHOD a readCustomDataFromTag (Lhq;)V
+	METHOD b writeCustomDataToTag (Lhq;)V
+	METHOD ca initAttributes ()V
+	METHOD cv getDeathSound ()Lxg;
+	METHOD dk isPersistent ()Z
+	METHOD e getHurtSound (Laft;)Lxg;
+	METHOD n initAi ()V
+	METHOD r isTeammate (Lagk;)Z
+	METHOD s setArmsRaised (Z)V
+	METHOD y_ initDataTracker ()V

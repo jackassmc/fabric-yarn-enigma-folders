@@ -1,0 +1,74 @@
+CLASS tm net/minecraft/entity/damage/DamageSource
+	FIELD A projectile Z
+	FIELD B scaleWithDifficulty Z
+	FIELD C magic Z
+	FIELD D explosive Z
+	FIELD a IN_FIRE Ltm;
+	FIELD b LIGHTNING_BOLT Ltm;
+	FIELD c ON_FIRE Ltm;
+	FIELD d LAVA Ltm;
+	FIELD e HOT_FLOOR Ltm;
+	FIELD f IN_WALL Ltm;
+	FIELD h DROWN Ltm;
+	FIELD i STARVE Ltm;
+	FIELD j CACTUS Ltm;
+	FIELD k FALL Ltm;
+	FIELD l FLY_INTO_WALL Ltm;
+	FIELD m OUT_OF_WORLD Ltm;
+	FIELD n GENERIC Ltm;
+	FIELD o MAGIC Ltm;
+	FIELD p WITHER Ltm;
+	FIELD q ANVIL Ltm;
+	FIELD r FALLING_BLOCK Ltm;
+	FIELD s DRAGON_BREATH Ltm;
+	FIELD u name Ljava/lang/String;
+	FIELD w damageToCreative Z
+	FIELD x unblockable Z
+	FIELD z fire Z
+	METHOD <init> (Ljava/lang/String;)V
+		ARG 0 translationKey
+	METHOD a isProjectile ()Z
+	METHOD a byPlayer (Lacu;)Ltm;
+		ARG 0 attacker
+	METHOD a byArrow (Lacx;Lub;)Ltm;
+		ARG 0 projectile
+		ARG 1 attacker
+	METHOD a byExplosiveProjectile (Ladb;Lub;)Ltm;
+		ARG 0 projectile
+		ARG 1 attacker
+	METHOD a byExplosion (Lald;)Ltm;
+		ARG 0 explosion
+	METHOD a byThorns (Lub;)Ltm;
+		ARG 0 attacker
+	METHOD a byThrownProjectile (Lub;Lub;)Ltm;
+		ARG 0 projectile
+		ARG 1 attacker
+	METHOD a byMobProjectile (Lub;Luk;)Ltm;
+		ARG 0 projectile
+		ARG 1 attacker
+	METHOD a byMob (Luk;)Ltm;
+		ARG 0 attacker
+	METHOD b setProjectile ()Ltm;
+	METHOD b byMagic (Lub;Lub;)Ltm;
+		ARG 0 magic
+		ARG 1 attacker
+	METHOD b byExplosion (Luk;)Ltm;
+		ARG 0 attacker
+	METHOD c isExplosive ()Z
+	METHOD c getDeathMessage (Luk;)Lgk;
+		ARG 0 entity
+	METHOD d setExplosive ()Ltm;
+	METHOD g doesDamageToCreative ()Z
+	METHOD h isUnblockable ()Z
+	METHOD i getSource ()Lub;
+	METHOD j getAttacker ()Lub;
+	METHOD l setDamageToCreative ()Ltm;
+	METHOD m setUnblockable ()Ltm;
+	METHOD n setFire ()Ltm;
+	METHOD o isFire ()Z
+	METHOD p getName ()Ljava/lang/String;
+	METHOD q setScaledWithDifficulty ()Ltm;
+	METHOD r isScaledWithDifficulty ()Z
+	METHOD s setMagic ()Z
+	METHOD t setMagic ()Ltm;
+	METHOD u isSourceCreativePlayer ()Z

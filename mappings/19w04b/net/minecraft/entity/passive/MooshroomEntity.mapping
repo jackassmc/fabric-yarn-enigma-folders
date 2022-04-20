@@ -1,0 +1,2 @@
+CLASS amq net/minecraft/entity/passive/MooshroomEntity
+	METHOD c createChild (Lagz;)Lamq;

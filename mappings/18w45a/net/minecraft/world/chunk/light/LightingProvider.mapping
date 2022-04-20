@@ -1,0 +1,3 @@
+CLASS cbi net/minecraft/world/chunk/light/LightingProvider
+	METHOD a get (Lbah;)Lcbg;
+	METHOD a queueLightCheck (Les;)V

@@ -1,0 +1,2 @@
+CLASS ase net/minecraft/entity/FlyingItemEntity
+	METHOD e getItem ()Laxm;

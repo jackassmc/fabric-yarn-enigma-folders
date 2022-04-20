@@ -1,0 +1,2 @@
+CLASS dpf net/minecraft/client/render/entity/DrownedEntityRenderer
+	FIELD a SKIN Lqt;

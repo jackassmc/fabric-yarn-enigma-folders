@@ -1,0 +1,6 @@
+CLASS m net/minecraft/advancement/ClientAdvancementManager
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD b advancements Ljava/util/Map;
+	METHOD a getById (Lpt;)Ll;
+		ARG 0 id
+	METHOD c getAdvancements ()Ljava/util/Collection;

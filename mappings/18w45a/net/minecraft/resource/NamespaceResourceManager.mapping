@@ -1,0 +1,17 @@
+CLASS vt net/minecraft/resource/NamespaceResourceManager
+	CLASS vt$a DebugInputStream
+		FIELD a parent Ljava/io/InputStream;
+		FIELD b leakMessage Ljava/lang/String;
+		FIELD c closed Z
+	FIELD a packList Ljava/util/List;
+	FIELD b LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD c type Lvd;
+	METHOD a getAllNamespaces ()Ljava/util/Set;
+	METHOD a findResources (Ljava/lang/String;Ljava/util/function/Predicate;)Ljava/util/Collection;
+		ARG 1 namespace
+	METHOD a getResource (Lpw;)Lvv;
+	METHOD a open (Lpw;Lvc;)Ljava/io/InputStream;
+	METHOD a add (Lvc;)V
+	METHOD b getAllResources (Lpw;)Ljava/util/List;
+	METHOD c getMetadataPath (Lpw;)Lpw;
+	METHOD d validate (Lpw;)V

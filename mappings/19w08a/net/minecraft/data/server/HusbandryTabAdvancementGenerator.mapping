@@ -1,0 +1,2 @@
+CLASS gj net/minecraft/data/server/HusbandryTabAdvancementGenerator
+	METHOD a accept (Ljava/util/function/Consumer;)V

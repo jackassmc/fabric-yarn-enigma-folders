@@ -1,0 +1,10 @@
+CLASS nk net/minecraft/server/network/packet/CustomPayloadServerPacket
+	FIELD a BRAND Lpy;
+	FIELD b channel Lpy;
+	FIELD c data Liq;
+	METHOD <init> (Lpy;Liq;)V
+		ARG 1 channel
+	METHOD a read (Liq;)V
+	METHOD a apply (Lit;)V
+	METHOD a apply (Lmz;)V
+	METHOD b write (Liq;)V

@@ -1,0 +1,4 @@
+CLASS dgw net/minecraft/client/render/entity/ExperienceOrbEntityRenderer
+	FIELD a TEX Lpy;
+	METHOD a getTexture (Lagi;)Lpy;
+	METHOD a getTexture (Lago;)Lpy;

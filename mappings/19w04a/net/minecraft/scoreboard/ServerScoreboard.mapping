@@ -1,0 +1,3 @@
+CLASS qs net/minecraft/scoreboard/ServerScoreboard
+	CLASS qs$a UpdateMode
+	FIELD a server Lnet/minecraft/server/MinecraftServer;

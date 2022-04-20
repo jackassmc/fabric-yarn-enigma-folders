@@ -1,0 +1,11 @@
+CLASS bzd net/minecraft/world/gen/config/decorator/TopSolidHeightmapNoiseBiasedDecoratorConfig
+	FIELD a noiseToCountRatio I
+	FIELD b noiseFactor D
+	FIELD c noiseOffset D
+	FIELD d heightmap Lbrp$a;
+	METHOD <init> (IDDLbrp$a;)V
+		ARG 1 noiseToCountRatio
+		ARG 2 noiseFactor
+	METHOD a deserialize (Lcom/mojang/datafixers/Dynamic;)Lbzd;
+		ARG 0 dynamic
+	METHOD a serialize (Lcom/mojang/datafixers/types/DynamicOps;)Lcom/mojang/datafixers/Dynamic;

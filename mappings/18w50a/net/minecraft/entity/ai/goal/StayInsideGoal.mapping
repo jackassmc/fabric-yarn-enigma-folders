@@ -1,0 +1,8 @@
+CLASS akf net/minecraft/entity/ai/goal/StayInsideGoal
+	FIELD a entity Lahl;
+	FIELD b closestDoor Lalp;
+	METHOD a canStart ()Z
+	METHOD b shouldContinue ()Z
+	METHOD c start ()V
+	METHOD d onRemove ()V
+	METHOD e tick ()V

@@ -1,0 +1,7 @@
+CLASS cur net/minecraft/client/gui/menu/DirectConnectServerScreen
+	FIELD a selectServerButton Lcrz;
+	FIELD b parent Lcvi;
+	FIELD g serverEntry Lddl;
+	FIELD h addressField Lcsd;
+	METHOD i saveAndClose ()V
+	METHOD j onAddressFieldChanged ()V

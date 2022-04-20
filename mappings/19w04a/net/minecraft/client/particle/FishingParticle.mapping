@@ -1,0 +1,7 @@
+CLASS dec net/minecraft/client/particle/FishingParticle
+	CLASS dec$a Factory
+	METHOD <init> (Lbcl;DDDDDD)V
+		ARG 1 world
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z

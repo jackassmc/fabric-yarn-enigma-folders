@@ -1,0 +1,53 @@
+CLASS cuo net/minecraft/client/gui/menu/StatsGui
+	CLASS cuo$1
+		METHOD a onPressed (DD)V
+			ARG 1 mouseX
+			ARG 3 mouseY
+	CLASS cuo$2
+		METHOD a onPressed (DD)V
+			ARG 1 mouseX
+			ARG 3 mouseY
+	CLASS cuo$3
+		METHOD a onPressed (DD)V
+			ARG 1 mouseX
+			ARG 3 mouseY
+	CLASS cuo$4
+		METHOD a onPressed (DD)V
+			ARG 1 mouseX
+			ARG 3 mouseY
+	CLASS cuo$a
+		METHOD a drawBackground ()V
+		METHOD a isSelectedEntry (I)Z
+			ARG 1 index
+		METHOD a drawEntry (IIIIIIF)V
+			ARG 1 index
+			ARG 2 y
+		METHOD d getEntryCount ()I
+		METHOD n getMaxScrollPosition ()I
+	CLASS cuo$b
+		METHOD a drawBackground ()V
+		METHOD a isSelectedEntry (I)Z
+			ARG 1 index
+		METHOD a drawEntry (IIIIIIF)V
+			ARG 1 index
+			ARG 2 y
+		METHOD d getEntryCount ()I
+		METHOD e getEntryWidth ()I
+		METHOD f getScrollbarPosition ()I
+	CLASS cuo$c
+		METHOD a drawBackground ()V
+		METHOD a isSelectedEntry (I)Z
+			ARG 1 index
+		METHOD a drawEntry (IIIIIIF)V
+			ARG 1 index
+			ARG 2 y
+		METHOD d getEntryCount ()I
+		METHOD n getMaxScrollPosition ()I
+	METHOD <init> (Lcug;Lye;)V
+		ARG 1 parent
+	METHOD a draw (IIF)V
+		ARG 1 mouseX
+		ARG 2 mouseY
+		ARG 3 delta
+	METHOD c onInitialized ()V
+	METHOD e isPauseScreen ()Z

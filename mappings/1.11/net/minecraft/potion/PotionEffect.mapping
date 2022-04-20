@@ -1,0 +1,50 @@
+CLASS sg net/minecraft/potion/PotionEffect
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD b type Lsf;
+	FIELD c duration I
+	FIELD d amplifier I
+	FIELD e splash Z
+	FIELD f ambient Z
+	FIELD g permanent Z
+	FIELD h showParticles Z
+	METHOD <init> (Lsf;)V
+		ARG 0 type
+	METHOD <init> (Lsf;I)V
+		ARG 0 type
+		ARG 1 duration
+	METHOD <init> (Lsf;II)V
+		ARG 0 type
+		ARG 1 duration
+		ARG 2 amplifier
+	METHOD <init> (Lsf;IIZZ)V
+		ARG 0 type
+		ARG 1 duration
+		ARG 2 amplifier
+		ARG 3 ambient
+		ARG 4 showParticles
+	METHOD <init> (Lsg;)V
+		ARG 0 other
+	METHOD a getEffectType ()Lsf;
+	METHOD a serialize (Ldu;)Ldu;
+		ARG 0 tag
+	METHOD a upgrade (Lsg;)V
+		ARG 0 other
+	METHOD a update (Lsv;)Z
+		ARG 0 entity
+	METHOD b getDuration ()I
+	METHOD b deserialize (Ldu;)Lsg;
+		ARG 0 tag
+	METHOD b compareTo (Lsg;)I
+		ARG 0 other
+	METHOD b applyUpdateEffect (Lsv;)V
+		ARG 0 update
+	METHOD b setPermanent (Z)V
+		ARG 0 value
+	METHOD c getAmplifier ()I
+	METHOD d isAmbient ()Z
+	METHOD e shouldShowParticles ()Z
+	METHOD equals (Ljava/lang/Object;)Z
+		ARG 0 other
+	METHOD f getTranslationKey ()Ljava/lang/String;
+	METHOD g isPermanent ()Z
+	METHOD h updateDuration ()I

@@ -1,0 +1,5 @@
+CLASS brb net/minecraft/block/TallSeagrassBlock
+	FIELD c HALF Lbvc;
+	FIELD d SHAPE Lcri;
+	METHOD <init> (Lblg$c;)V
+		ARG 1 settings

@@ -1,0 +1,57 @@
+CLASS bzp net/minecraft/world/gen/feature/LargeOakTreeFeature
+	CLASS bzp$a BranchPosition
+		FIELD b endY I
+		METHOD <init> (Lev;I)V
+			ARG 1 pos
+			ARG 2 endY
+		METHOD r getEndY ()I
+	FIELD a LOG Lbvl;
+	FIELD aS LEAVES Lbvl;
+	METHOD <init> (Ljava/util/function/Function;Z)V
+		ARG 1 configFactory
+		ARG 2 emitNeighborBlockUpdates
+	METHOD a getLeafRadiusForLayer (I)F
+	METHOD a getBaseBranchSize (II)F
+		ARG 1 treeHeight
+		ARG 2 branchCount
+	METHOD a makeLeaves (Lbho;ILev;Ljava/util/List;Lchu;Ljava/util/Set;)V
+		ARG 1 world
+		ARG 2 treeHeight
+		ARG 3 treePos
+		ARG 4 branchPositions
+	METHOD a makeLeafLayer (Lbho;Lev;FLchu;Ljava/util/Set;)V
+		ARG 2 pos
+		ARG 3 radius
+	METHOD a makeLeaves (Lbho;Lev;Lchu;Ljava/util/Set;)V
+		ARG 1 world
+		ARG 2 pos
+	METHOD a getLongestSide (Lev;)I
+		ARG 1 box
+	METHOD a getLogAxis (Lev;Lev;)Lfa$a;
+		ARG 1 branchStart
+		ARG 2 branchEnd
+	METHOD a makeBranches (Ljava/util/Set;Lbho;ILev;Ljava/util/List;Lchu;)V
+		ARG 1 logPositions
+		ARG 2 world
+		ARG 3 treeHeight
+		ARG 4 treePosition
+		ARG 5 branchPositions
+	METHOD a makeTrunk (Ljava/util/Set;Lbho;Lev;ILchu;)V
+		ARG 1 logPositions
+		ARG 2 world
+		ARG 3 pos
+		ARG 4 height
+	METHOD a makeOrCheckBranch (Ljava/util/Set;Lbho;Lev;Lev;ZLchu;)I
+		ARG 1 logPositions
+		ARG 2 world
+		ARG 3 start
+		ARG 4 end
+		ARG 5 make
+	METHOD b isHighEnough (II)Z
+		ARG 1 treeHeight
+		ARG 2 height
+	METHOD b getTreeHeight (Ljava/util/Set;Lbho;Lev;ILchu;)I
+		ARG 1 logPositions
+		ARG 2 world
+		ARG 3 pos
+		ARG 4 height

@@ -1,0 +1,2 @@
+CLASS bof net/minecraft/client/particle/ParticleExplosionSmoke
+	METHOD a update ()V

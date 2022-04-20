@@ -1,0 +1,6 @@
+CLASS cak net/minecraft/fluid/FluidWater
+	CLASS cak$a Flowing
+	CLASS cak$b Still
+	METHOD a getRenderLayer ()Layo;
+	METHOD e getFlowing ()Lcac;
+	METHOD f getStill ()Lcac;

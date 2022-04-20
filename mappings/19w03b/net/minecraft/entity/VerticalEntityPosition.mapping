@@ -1,0 +1,7 @@
+CLASS cnc net/minecraft/entity/VerticalEntityPosition
+	METHOD a minValue ()Lcnc;
+	METHOD a fromEntity (Lahc;)Lcnc;
+		ARG 0 entity
+	METHOD a isAboveBlock (Lcnr;Let;Z)Z
+		ARG 1 shape
+	METHOD b isSneaking ()Z

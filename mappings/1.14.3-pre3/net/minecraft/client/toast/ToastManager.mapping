@@ -1,0 +1,19 @@
+CLASS cxz net/minecraft/client/toast/ToastManager
+	CLASS cxz$a Entry
+		FIELD b instance Lcxy;
+		METHOD <init> (Lcxz;Lcxy;)V
+			ARG 1 instance
+		METHOD a getInstance ()Lcxy;
+		METHOD a draw (II)Z
+		METHOD a getDissapearProgress (J)F
+			ARG 1 time
+	FIELD a client Lcvo;
+	FIELD b visibleEntries [Lcxz$a;
+	FIELD c toastQueue Ljava/util/Deque;
+	METHOD a draw ()V
+	METHOD a add (Lcxy;)V
+	METHOD a getToast (Ljava/lang/Class;Ljava/lang/Object;)Lcxy;
+		ARG 1 toastClass
+		ARG 2 type
+	METHOD b clear ()V
+	METHOD c getGame ()Lcvo;

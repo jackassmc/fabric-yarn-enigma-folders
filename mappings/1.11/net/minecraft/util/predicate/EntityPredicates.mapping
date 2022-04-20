@@ -1,0 +1,34 @@
+CLASS sq net/minecraft/util/predicate/EntityPredicates
+	CLASS sq$2
+		METHOD a apply (Lsm;)Z
+			ARG 0 entity
+	CLASS sq$4
+		METHOD a apply (Lsm;)Z
+			ARG 0 entity
+	CLASS sq$5
+		METHOD a apply (Lsm;)Z
+			ARG 0 entity
+	CLASS sq$6
+		METHOD a apply (Lsm;)Z
+			ARG 0 entity
+	CLASS sq$7
+		METHOD a apply (Lsm;)Z
+			ARG 0 entity
+	CLASS sq$a CanPickup
+		FIELD a itemstack Lafi;
+		METHOD <init> (Lafi;)V
+			ARG 0 itemstack
+		METHOD a apply (Lsm;)Z
+			ARG 0 entity
+	FIELD a ALL Lcom/google/common/base/Predicate;
+	FIELD b NOT_MOUNTED Lcom/google/common/base/Predicate;
+	FIELD c WITH_INVENTORY Lcom/google/common/base/Predicate;
+	FIELD d MOB_VISIBLE Lcom/google/common/base/Predicate;
+	FIELD e VISIBLE Lcom/google/common/base/Predicate;
+	METHOD a distanceLimit (DDDD)Lcom/google/common/base/Predicate;
+		ARG 0 x
+		ARG 1 y
+		ARG 2 z
+		ARG 3 distance
+	METHOD a pushableBy (Lsm;)Lcom/google/common/base/Predicate;
+		ARG 0 entity

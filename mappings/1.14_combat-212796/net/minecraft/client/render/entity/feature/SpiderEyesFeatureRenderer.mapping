@@ -1,0 +1,4 @@
+CLASS dtq net/minecraft/client/render/entity/feature/SpiderEyesFeatureRenderer
+	FIELD a SKIN Lqt;
+	METHOD <init> (Ldre;)V
+		ARG 1 context

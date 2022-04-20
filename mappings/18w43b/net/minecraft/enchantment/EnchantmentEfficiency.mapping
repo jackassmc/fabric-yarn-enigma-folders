@@ -1,0 +1,4 @@
+CLASS axd net/minecraft/enchantment/EnchantmentEfficiency
+	METHOD a getHighestLevel ()I
+	METHOD a isAcceptableItem (Lauc;)Z
+		ARG 0 item

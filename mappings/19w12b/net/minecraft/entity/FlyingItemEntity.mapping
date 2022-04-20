@@ -1,0 +1,2 @@
+CLASS avi net/minecraft/entity/FlyingItemEntity
+	METHOD f getStack ()Lbaz;

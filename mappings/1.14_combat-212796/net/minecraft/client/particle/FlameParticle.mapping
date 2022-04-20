@@ -1,0 +1,6 @@
+CLASS diq net/minecraft/client/particle/FlameParticle
+	CLASS a Factory
+	METHOD <init> (Lbhn;DDDDDD)V
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z

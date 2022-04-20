@@ -1,0 +1,4 @@
+CLASS dgf net/minecraft/client/render/entity/model/EndCrystalEntityModel
+	FIELD a cube Ldgj;
+	FIELD b glass Ldgj;
+	FIELD f base Ldgj;

@@ -1,0 +1,2 @@
+CLASS czc net/minecraft/client/render/entity/model/BoatEntityModel
+	METHOD c renderPass (Lahi;FFFFFF)V

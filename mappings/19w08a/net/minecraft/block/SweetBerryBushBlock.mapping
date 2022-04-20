@@ -1,0 +1,6 @@
+CLASS bnx net/minecraft/block/SweetBerryBushBlock
+	FIELD a AGE Lbsd;
+	FIELD b SMALL_SHAPE Lcoe;
+	FIELD c LARGE_SHAPE Lcoe;
+	METHOD <init> (Lbif$c;)V
+		ARG 1 settings

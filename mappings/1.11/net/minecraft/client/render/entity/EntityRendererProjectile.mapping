@@ -1,0 +1,3 @@
+CLASS btz net/minecraft/client/render/entity/EntityRendererProjectile
+	METHOD a (Laba;DDDFF)V
+	METHOD a (Lsm;DDDFF)V

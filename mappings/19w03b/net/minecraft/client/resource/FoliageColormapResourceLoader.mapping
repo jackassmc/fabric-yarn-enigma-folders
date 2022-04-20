@@ -1,0 +1,4 @@
+CLASS dpd net/minecraft/client/resource/FoliageColormapResourceLoader
+	FIELD a FOLIAGE_COLORMAP_LOC Lqc;
+	METHOD a onResourceReload (Lwo;)V
+		ARG 1 manager

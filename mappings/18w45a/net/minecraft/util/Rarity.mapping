@@ -1,0 +1,6 @@
+CLASS avn net/minecraft/util/Rarity
+	FIELD a COMMON Lavn;
+	FIELD b UNCOMMON Lavn;
+	FIELD c RARE Lavn;
+	FIELD d EPIC Lavn;
+	FIELD e formatting La;

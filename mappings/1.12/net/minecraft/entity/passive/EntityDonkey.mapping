@@ -1,0 +1,9 @@
+CLASS aan net/minecraft/entity/passive/EntityDonkey
+	METHOD F getSoundAmbient ()Lqc;
+	METHOD J getLootTableId ()Lnd;
+	METHOD a registerTagUpgraders (Lrw;)V
+		ARG 0 handler
+	METHOD a createChild (Lvb;)Lvb;
+		ARG 0 other
+	METHOD cf getSoundDeath ()Lqc;
+	METHOD d getSoundHurt (Lup;)Lqc;

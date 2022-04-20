@@ -1,0 +1,3 @@
+CLASS dpy net/minecraft/client/render/entity/model/ModelWithHead
+	METHOD a getHead ()Ldhh;
+	METHOD c setHeadAngle (F)V

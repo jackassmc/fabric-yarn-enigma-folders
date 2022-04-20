@@ -1,0 +1,76 @@
+CLASS bhz net/minecraft/client/gui/menu/WidgetPagedMultiList
+	CLASS bhz$a Toggle
+		FIELD a initialValue Z
+		METHOD a getInitialValue ()Z
+	CLASS bhz$b IFieldContainer
+		METHOD a updateNumberField (IF)V
+		METHOD a updateStringField (ILjava/lang/String;)V
+		METHOD a updateBooleanField (IZ)V
+	CLASS bhz$c TextField
+		METHOD a getPredicate ()Lcom/google/common/base/Predicate;
+	CLASS bhz$d DrawablePair
+		FIELD a game Lbgm;
+		FIELD b leftDrawable Lbhc;
+		FIELD c rightDrawable Lbhc;
+		FIELD d focusedDrawable Lbhc;
+		METHOD a getLeftDrawable ()Lbhc;
+		METHOD a drawEntry (IIIF)V
+		METHOD a handleMouseClick (IIIIII)Z
+		METHOD a drawEntry (IIIIIIIZF)V
+		METHOD a handleMouseClick (Lbhc;III)Z
+		METHOD a drawEntry (Lbhc;IIIZF)V
+		METHOD a handleMouseClick (Lbhk;III)Z
+		METHOD a draw (Lbhk;IIIZF)V
+		METHOD a handleMouseClick (Lbho;III)V
+		METHOD a draw (Lbho;IZ)V
+		METHOD a draw (Lbhq;IIIZ)V
+		METHOD b getRightDrawable ()Lbhc;
+		METHOD b handleTouchEvent (IIIIII)V
+	CLASS bhz$e Label
+	CLASS bhz$f PagedEntry
+		FIELD a id I
+		FIELD b label Ljava/lang/String;
+		FIELD c visible Z
+		METHOD b getId ()I
+		METHOD c getLabel ()Ljava/lang/String;
+		METHOD d getVisible ()Z
+	CLASS bhz$g Slider
+		FIELD a formatter Lbhp$a;
+		FIELD b minValue F
+		FIELD c maxValue F
+		FIELD d initialValue F
+		METHOD a getFormatter ()Lbhp$a;
+		METHOD e getMinValue ()F
+		METHOD f getMaxValue ()F
+		METHOD g getInitialValue ()F
+	FIELD A currentField Lbhc;
+	FIELD u drawables Ljava/util/List;
+	FIELD v drawablesById Lqd;
+	FIELD w textFields Ljava/util/List;
+	FIELD x pages [[Lbhz$f;
+	FIELD y currentPage I
+	FIELD z parent Lbhz$b;
+	METHOD a handleKeyPress (CI)V
+	METHOD a handleMouseClick (III)Z
+	METHOD a createToggleWidget (IILbhz$a;)Lbhu;
+	METHOD a createTextFieldWidget (IILbhz$c;)Lbho;
+	METHOD a createLabelWidget (IILbhz$e;Z)Lbhq;
+	METHOD a createSliderWidget (IILbhz$g;)Lbhp;
+	METHOD a setEntryVisible (Lbhc;Z)V
+	METHOD a createDrawable (Lbhz$f;IZ)Lbhc;
+	METHOD a setEnabled (Z)V
+	METHOD b getEntryCount ()I
+	METHOD b get (I)Lbhw$a;
+	METHOD c getEntryWidth ()I
+	METHOD c setPage (I)V
+	METHOD d getScrollbarPosition ()I
+	METHOD d getWidgetById (I)Lbhc;
+	METHOD e getCurrentPage ()I
+	METHOD e get (I)Lbhz$d;
+	METHOD e updatePageVisible (II)V
+	METHOD f getPageCount ()I
+	METHOD g getCurrentField ()Lbhc;
+	METHOD h previousPage ()V
+	METHOD i nextPage ()V
+	METHOD s registerFields ()V
+	METHOD t refreshPage ()V

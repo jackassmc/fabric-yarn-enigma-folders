@@ -1,0 +1,7 @@
+CLASS alm net/minecraft/entity/ai/brain/task/GatherItemsVillagerTask
+	FIELD a items Ljava/util/Set;
+	METHOD a getGatherableItems (Lavo;Lavo;)Ljava/util/Set;
+	METHOD a giveHalfOfStack (Lavo;Ljava/util/Set;Laiu;)V
+		ARG 0 villager
+		ARG 1 validItems
+		ARG 2 target

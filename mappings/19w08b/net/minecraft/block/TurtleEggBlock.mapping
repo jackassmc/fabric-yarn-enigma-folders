@@ -1,0 +1,3 @@
+CLASS boi net/minecraft/block/TurtleEggBlock
+	METHOD <init> (Lbig$c;)V
+		ARG 1 settings

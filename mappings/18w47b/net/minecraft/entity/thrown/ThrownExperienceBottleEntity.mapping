@@ -1,0 +1,3 @@
+CLASS arc net/minecraft/entity/thrown/ThrownExperienceBottleEntity
+	METHOD a onCollision (Lcjv;)V
+	METHOD f getGravity ()F

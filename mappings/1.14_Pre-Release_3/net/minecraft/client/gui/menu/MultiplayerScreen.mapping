@@ -1,0 +1,41 @@
+CLASS dbs net/minecraft/client/gui/menu/MultiplayerScreen
+	FIELD a serverListWidget Ldbt;
+	FIELD b LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD d parent Lczn;
+	FIELD e serverList Ldhl;
+	FIELD f buttonEdit Lcwk;
+	FIELD g buttonJoin Lcwk;
+	FIELD h buttonDelete Lcwk;
+	FIELD i tooltipText Ljava/lang/String;
+	FIELD j selectedEntry Ldhk;
+	FIELD k lanServers Ldxf$b;
+	FIELD l lanServerDetector Ldxf$a;
+	FIELD m initialized Z
+	METHOD <init> (Lczn;)V
+		ARG 1 parent
+	METHOD a connect ()V
+	METHOD a selectEntry (Ldbt$a;)V
+		ARG 1 arg1
+	METHOD a connect (Ldhk;)V
+		ARG 1 entry
+	METHOD a setTooltipText (Ljava/lang/String;)V
+		ARG 1 text
+	METHOD a removeEntry (Z)V
+		ARG 1 confirmedAction
+	METHOD b updateButtonActivationState ()V
+	METHOD b editEntry (Z)V
+		ARG 1 confirmedAction
+	METHOD c addEntry (Z)V
+		ARG 1 confirmedAction
+	METHOD d getServerList ()Ldhl;
+	METHOD d directConnectFromSubMenu (Z)V
+		ARG 1 confirmedAction
+	METHOD e refresh ()V
+	METHOD keyPressed (III)Z
+		ARG 1 keyCode
+		ARG 2 scanCode
+		ARG 3 modifiers
+	METHOD render (IIF)V
+		ARG 1 mouseX
+		ARG 2 mouseY
+		ARG 3 delta

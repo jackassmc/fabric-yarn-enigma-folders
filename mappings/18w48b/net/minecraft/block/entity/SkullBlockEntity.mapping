@@ -1,0 +1,18 @@
+CLASS bnk net/minecraft/block/entity/SkullBlockEntity
+	FIELD a owner Lcom/mojang/authlib/GameProfile;
+	FIELD g userCache Lwi;
+	FIELD h sessionService Lcom/mojang/authlib/minecraft/MinecraftSessionService;
+	METHOD a setOwnerAndType (Lcom/mojang/authlib/GameProfile;)V
+	METHOD a setSessionService (Lcom/mojang/authlib/minecraft/MinecraftSessionService;)V
+		ARG 0 value
+	METHOD a toTag (Lhp;)Lhp;
+	METHOD a setUserCache (Lwi;)V
+		ARG 0 value
+	METHOD ab_ tick ()V
+	METHOD ac_ toUpdatePacket ()Lkb;
+	METHOD ad_ toInitialChunkDataTag ()Lhp;
+	METHOD b loadProperties (Lcom/mojang/authlib/GameProfile;)Lcom/mojang/authlib/GameProfile;
+		ARG 0 profile
+	METHOD b fromTag (Lhp;)V
+	METHOD c getOwner ()Lcom/mojang/authlib/GameProfile;
+	METHOD d loadOwnerProperties ()V

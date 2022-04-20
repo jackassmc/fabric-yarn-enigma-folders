@@ -1,0 +1,39 @@
+CLASS cey net/minecraft/structure/Structure
+	CLASS cey$b StructureBlockInfo
+		FIELD a pos Les;
+		FIELD b state Lbrd;
+		FIELD c tag Lhx;
+		METHOD <init> (Les;Lbrd;Lhx;)V
+			ARG 1 pos
+			ARG 2 state
+			ARG 3 tag
+	CLASS cey$c StructureEntityInfo
+		FIELD a pos Lcnk;
+		FIELD b blockPos Les;
+		FIELD c tag Lhx;
+		METHOD <init> (Lcnk;Les;Lhx;)V
+			ARG 1 pos
+			ARG 2 blockPos
+			ARG 3 tag
+	FIELD a blocks Ljava/util/List;
+	FIELD b entities Ljava/util/List;
+	FIELD c size Les;
+	FIELD d author Ljava/lang/String;
+	METHOD a getSize ()Les;
+	METHOD a place (Lbdf;Les;Lcev;)V
+	METHOD a process (Lbdf;Les;Lcev;Ljava/util/List;)Ljava/util/List;
+		ARG 0 world
+		ARG 1 pos
+		ARG 2 placementData
+		ARG 3 blockInfos
+	METHOD a toTag (Lhx;)Lhx;
+		ARG 1 tag
+	METHOD a setAuthor (Ljava/lang/String;)V
+	METHOD a createDoubleListTag ([D)Lid;
+	METHOD a createIntListTag ([I)Lid;
+	METHOD b getAuthor ()Ljava/lang/String;
+	METHOD b calculateBoundingBox (Lcev;Les;)Lcdh;
+		ARG 1 placementData
+		ARG 2 pos
+	METHOD b fromTag (Lhx;)V
+		ARG 1 tag

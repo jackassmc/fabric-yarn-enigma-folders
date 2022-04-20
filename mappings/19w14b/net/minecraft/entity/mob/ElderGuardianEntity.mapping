@@ -1,0 +1,2 @@
+CLASS atp net/minecraft/entity/mob/ElderGuardianEntity
+	METHOD dT straightenTail ()V

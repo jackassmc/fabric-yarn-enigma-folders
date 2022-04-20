@@ -1,0 +1,8 @@
+CLASS bnx net/minecraft/block/TallPlantBlock
+	FIELD a HALF Lbwh;
+	METHOD <init> (Lbml$c;)V
+		ARG 1 settings
+	METHOD a placeAt (Lbhi;Lev;I)V
+		ARG 1 world
+		ARG 2 pos
+		ARG 3 flags

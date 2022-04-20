@@ -1,0 +1,23 @@
+CLASS cpa net/minecraft/client/render/VertexFormat
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD b elements Ljava/util/List;
+	FIELD c offsets Ljava/util/List;
+	FIELD d size I
+	FIELD e offsetColor I
+	FIELD f offsetsUv Ljava/util/List;
+	FIELD g offsetNormal I
+	METHOD a clear ()V
+	METHOD a hasUvElement (I)Z
+	METHOD a add (Lcpb;)Lcpa;
+	METHOD b hasNormalElement ()Z
+	METHOD b getUvOffset (I)I
+	METHOD c getNormalOffset ()I
+	METHOD c getElement (I)Lcpb;
+	METHOD d hasColorElement ()Z
+	METHOD d getElementOffset (I)I
+	METHOD e getColorOffset ()I
+	METHOD f getVertexSizeInteger ()I
+	METHOD g getVertexSize ()I
+	METHOD h getElements ()Ljava/util/List;
+	METHOD i getElementCount ()I
+	METHOD j hasPositionElement ()Z

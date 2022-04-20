@@ -1,0 +1,14 @@
+CLASS eu net/minecraft/util/math/AxisCycle
+	FIELD a NONE Leu;
+	FIELD b NEXT Leu;
+	FIELD c PREVIOUS Leu;
+	FIELD d AXES [Lfa$a;
+	FIELD e VALUES [Leu;
+	METHOD a opposite ()Leu;
+	METHOD a choose (IIILfa$a;)I
+		ARG 4 axis
+	METHOD a cycle (Lfa$a;)Lfa$a;
+		ARG 1 axis
+	METHOD a between (Lfa$a;Lfa$a;)Leu;
+		ARG 0 from
+		ARG 1 to

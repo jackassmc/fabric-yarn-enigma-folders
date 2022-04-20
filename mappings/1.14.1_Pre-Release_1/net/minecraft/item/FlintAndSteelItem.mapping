@@ -1,0 +1,7 @@
+CLASS bbr net/minecraft/item/FlintAndSteelItem
+	METHOD a canBeLit (Lbvk;)Z
+		ARG 0 state
+	METHOD a canSetOnFire (Lbvk;Lbhj;Lev;)Z
+		ARG 0 block
+		ARG 1 world
+		ARG 2 pos

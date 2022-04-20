@@ -1,0 +1,6 @@
+CLASS cxw net/minecraft/client/toast/SystemToast
+	CLASS cxw$a Type
+	FIELD f startTime J
+	FIELD g justUpdated Z
+	METHOD a show (Lcxy;Lcxw$a;Ljn;Ljn;)V
+	METHOD a setContent (Ljn;Ljn;)V

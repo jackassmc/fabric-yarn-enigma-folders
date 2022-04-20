@@ -1,0 +1,10 @@
+CLASS og net/minecraft/server/network/packet/ResourcePackStatusServerPacket
+	CLASS og$a Status
+	FIELD a status Log$a;
+	METHOD a read (Lit;)V
+		ARG 1 buf
+	METHOD a apply (Liw;)V
+		ARG 1 listener
+	METHOD a apply (Lnf;)V
+	METHOD b write (Lit;)V
+		ARG 1 buf

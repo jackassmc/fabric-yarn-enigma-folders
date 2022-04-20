@@ -1,0 +1,2 @@
+CLASS doe net/minecraft/client/render/entity/EvokerIllagerEntityRenderer
+	FIELD a EVOKER_TEXTURE Lqq;

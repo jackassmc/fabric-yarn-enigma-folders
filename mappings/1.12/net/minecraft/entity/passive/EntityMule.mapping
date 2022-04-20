@@ -1,0 +1,7 @@
+CLASS aar net/minecraft/entity/passive/EntityMule
+	METHOD F getSoundAmbient ()Lqc;
+	METHOD J getLootTableId ()Lnd;
+	METHOD a registerTagUpgraders (Lrw;)V
+		ARG 0 handler
+	METHOD cf getSoundDeath ()Lqc;
+	METHOD d getSoundHurt (Lup;)Lqc;

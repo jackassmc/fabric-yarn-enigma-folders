@@ -1,0 +1,3 @@
+CLASS dhk net/minecraft/client/render/block/entity/BellBlockEntityRenderer
+	FIELD c BELL_BODY_TEXTURE Lqd;
+	FIELD d model Lcza;

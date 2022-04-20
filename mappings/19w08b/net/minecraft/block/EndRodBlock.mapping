@@ -1,0 +1,6 @@
+CLASS bjz net/minecraft/block/EndRodBlock
+	FIELD b Y_SHAPE Lcof;
+	FIELD c Z_SHAPE Lcof;
+	FIELD d X_SHAPE Lcof;
+	METHOD <init> (Lbig$c;)V
+		ARG 1 settings

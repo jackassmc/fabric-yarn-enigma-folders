@@ -1,0 +1,7 @@
+CLASS auc net/minecraft/entity/mob/ZombiePigmanEntity
+	CLASS auc$a FollowPlayerIfAngryGoal
+	CLASS auc$b AvoidZombiesGoal
+	FIELD bB angerTarget Ljava/util/UUID;
+	FIELD bz anger I
+	METHOD a copyEntityData (Lahz;)V
+	METHOD dX isAngry ()Z

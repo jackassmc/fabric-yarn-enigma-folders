@@ -1,0 +1,7 @@
+CLASS dad net/minecraft/client/render/chunk/ChunkRenderData
+	FIELD a EMPTY Ldad;
+	FIELD d empty Z
+	FIELD e blockEntities Ljava/util/List;
+	METHOD a isEmpty ()Z
+	METHOD a getBlockEntities (Lbkf;)V
+		ARG 0 blockEntity

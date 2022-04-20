@@ -1,0 +1,7 @@
+CLASS dws net/minecraft/client/tutorial/MovementTutorialStepHandler
+	FIELD a MOVE_TITLE Ljl;
+	FIELD b MOVE_DESCRIPTION Ljl;
+	FIELD c LOOK_TITLE Ljl;
+	FIELD d LOOK_DESCRIPTION Ljl;
+	FIELD e manager Ldwv;
+	FIELD h ticks I

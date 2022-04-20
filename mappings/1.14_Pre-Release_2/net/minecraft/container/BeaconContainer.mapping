@@ -1,0 +1,17 @@
+CLASS axy net/minecraft/container/BeaconContainer
+	CLASS axy$a SlotPayment
+	FIELD c paymentInv Lagr;
+	FIELD d paymentSlot Laxy$a;
+	FIELD e context Layf;
+	FIELD f propertyDelegate Laye;
+	METHOD <init> (ILagr;)V
+		ARG 1 syncId
+	METHOD <init> (ILagr;Laye;Layf;)V
+		ARG 1 syncId
+	METHOD c setEffects (II)V
+		ARG 1 primaryEffectId
+		ARG 2 secondaryEffectId
+	METHOD e getProperties ()I
+	METHOD f getPrimaryEffect ()Lahv;
+	METHOD g getSecondaryEffect ()Lahv;
+	METHOD h hasPayment ()Z

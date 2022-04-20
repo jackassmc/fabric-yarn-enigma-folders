@@ -1,0 +1,2 @@
+CLASS wc net/minecraft/resource/ResourcePackCreator
+	METHOD a registerContainer (Ljava/util/Map;Lwe$b;)V

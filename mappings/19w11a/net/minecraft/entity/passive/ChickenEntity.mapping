@@ -1,0 +1,7 @@
+CLASS apk net/minecraft/entity/passive/ChickenEntity
+	FIELD bG eggLayTime I
+	FIELD bH jockey Z
+	FIELD bI BREEDING_INGREDIENT Lbcx;
+	METHOD dN hasJockey ()Z
+	METHOD q setHasJockey (Z)V
+		ARG 1 hasJockey

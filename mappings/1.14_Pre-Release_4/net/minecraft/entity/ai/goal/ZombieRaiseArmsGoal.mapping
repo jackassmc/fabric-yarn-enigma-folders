@@ -1,0 +1,2 @@
+CLASS aol net/minecraft/entity/ai/goal/ZombieRaiseArmsGoal
+	FIELD d zombie Lavc;

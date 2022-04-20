@@ -1,0 +1,14 @@
+CLASS csk net/minecraft/entity/EntityContextImpl
+	CLASS csk$1
+		METHOD <init> (ZDLbbz;)V
+			ARG 1 sneaking
+	FIELD a ABSENT Lcsf;
+	FIELD b sneaking Z
+	FIELD c minY D
+	FIELD d heldItem Lbbz;
+	METHOD <init> (Lail;)V
+		ARG 1 entity
+	METHOD <init> (ZDLbbz;)V
+		ARG 1 sneaking
+		ARG 2 minY
+		ARG 4 heldItem

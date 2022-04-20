@@ -1,0 +1,4 @@
+CLASS awj net/minecraft/item/MapItem
+	METHOD a createMapPacket (Laxt;Lbdb;Lary;)Lju;
+		ARG 1 stack
+		ARG 2 world

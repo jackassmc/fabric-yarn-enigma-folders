@@ -1,0 +1,42 @@
+CLASS lf net/minecraft/client/network/packet/EntityClientPacket
+	CLASS lf$a MoveRelative
+		METHOD a read (Liq;)V
+			ARG 0 buf
+		METHOD a apply (Lit;)V
+			ARG 0 handler
+		METHOD b write (Liq;)V
+			ARG 0 buf
+	CLASS lf$b RotateAndMoveRelative
+		METHOD a read (Liq;)V
+			ARG 0 buf
+		METHOD a apply (Lit;)V
+			ARG 0 handler
+		METHOD b write (Liq;)V
+			ARG 0 buf
+	CLASS lf$c Rotate
+		METHOD a read (Liq;)V
+			ARG 0 buf
+		METHOD a apply (Lit;)V
+			ARG 0 handler
+		METHOD b write (Liq;)V
+			ARG 0 buf
+	FIELD a id I
+	FIELD b deltaX I
+	FIELD c deltaY I
+	FIELD d deltaZ I
+	FIELD e yaw B
+	FIELD f pitch B
+	FIELD g onGround Z
+	FIELD h rotate Z
+	METHOD a getEntity (Lban;)Lagf;
+	METHOD a read (Liq;)V
+	METHOD a apply (Lit;)V
+	METHOD a apply (Ljr;)V
+	METHOD b getDeltaXShort ()I
+	METHOD b write (Liq;)V
+	METHOD c getDeltaYShort ()I
+	METHOD d getDeltaZShort ()I
+	METHOD e getYaw ()B
+	METHOD f getPitch ()B
+	METHOD g hasRotation ()Z
+	METHOD h isOnGround ()Z

@@ -1,0 +1,7 @@
+CLASS cpm net/minecraft/client/render/Tessellator
+	FIELD a buffer Lcpj;
+	FIELD b renderer Lcpk;
+	FIELD c INSTANCE Lcpm;
+	METHOD a getInstance ()Lcpm;
+	METHOD b draw ()V
+	METHOD c getBufferBuilder ()Lcpj;

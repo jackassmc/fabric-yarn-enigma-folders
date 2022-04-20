@@ -1,0 +1,3 @@
+CLASS apo net/minecraft/entity/passive/DolphinEntity
+	CLASS apo$a DolphinMoveControl
+		FIELD i dolphin Lapo;

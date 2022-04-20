@@ -1,0 +1,2 @@
+CLASS aix
+	METHOD a canStart ()Z

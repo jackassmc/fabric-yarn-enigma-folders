@@ -1,0 +1,12 @@
+CLASS cyo net/minecraft/client/gui/menu/options/ChatOptionsScreen
+	FIELD a OPTIONS [Lcvj;
+	FIELD b parent Lczp;
+	FIELD c options Lcvk;
+	FIELD d narratorOptionButton Lcwk;
+	METHOD <init> (Lczp;Lcvk;)V
+		ARG 1 parent
+		ARG 2 options
+	METHOD render (IIF)V
+		ARG 1 mouseX
+		ARG 2 mouseY
+		ARG 3 delta

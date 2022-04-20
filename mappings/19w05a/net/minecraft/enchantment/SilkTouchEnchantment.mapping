@@ -1,0 +1,4 @@
+CLASS bbn net/minecraft/enchantment/SilkTouchEnchantment
+	METHOD <init> (Lbas$a;[Lahj;)V
+		ARG 1 weight
+		ARG 2 slotTypes

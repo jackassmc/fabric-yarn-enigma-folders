@@ -1,0 +1,9 @@
+CLASS bki net/minecraft/block/BambooBlock
+	FIELD a SMALL_LEAVES_SHAPE Lcrb;
+	FIELD b LARGE_LEAVES_SHAPE Lcrb;
+	FIELD c NO_LEAVES_SHAPE Lcrb;
+	FIELD d AGE Lbux;
+	FIELD e LEAVES Lbuv;
+	FIELD f STAGE Lbux;
+	METHOD <init> (Lbkz$c;)V
+		ARG 1 settings

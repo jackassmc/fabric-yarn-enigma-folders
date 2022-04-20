@@ -1,0 +1,7 @@
+CLASS ddw net/minecraft/client/particle/FireSmokeLargeParticle
+	CLASS ddw$a Factory
+	METHOD <init> (Lbdb;DDDDDDLdep;)V
+		ARG 1 world
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z

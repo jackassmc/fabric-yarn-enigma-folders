@@ -1,0 +1,32 @@
+CLASS dub net/minecraft/client/texture/TextureStitcher
+	CLASS dub$a Holder
+		FIELD a sprite Ldue;
+		FIELD b width I
+		FIELD c height I
+	CLASS dub$b Slot
+		FIELD a x I
+		FIELD b y I
+		FIELD c width I
+		FIELD d height I
+		FIELD e subSlots Ljava/util/List;
+		FIELD f spriteHolder Ldub$a;
+		METHOD a getSpriteHolder ()Ldub$a;
+		METHOD a tryFit (Ldub$a;)Z
+		METHOD a addAllFilledSlots (Ljava/util/function/Consumer;)V
+		METHOD b getX ()I
+		METHOD c getY ()I
+	FIELD c holders Ljava/util/Set;
+	FIELD d slots Ljava/util/List;
+	FIELD e width I
+	FIELD f height I
+	FIELD g maxWidth I
+	FIELD h maxHeight I
+	METHOD <init> (III)V
+		ARG 1 maxWidth
+		ARG 2 maxHeight
+	METHOD a getWidth ()I
+	METHOD a tryFit (Ldub$a;)Z
+	METHOD a add (Ldue;)V
+	METHOD b getHeight ()I
+	METHOD c stitch ()V
+	METHOD d getStitchedSprites ()Ljava/util/List;

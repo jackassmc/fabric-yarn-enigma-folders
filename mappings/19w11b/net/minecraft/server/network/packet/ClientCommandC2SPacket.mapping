@@ -1,0 +1,7 @@
+CLASS on net/minecraft/server/network/packet/ClientCommandC2SPacket
+	CLASS on$a Mode
+	FIELD a entityId I
+	FIELD b mode Lon$a;
+	FIELD c mountJumpHeight I
+	METHOD c getMode ()Lon$a;
+	METHOD d getMountJumpHeight ()I

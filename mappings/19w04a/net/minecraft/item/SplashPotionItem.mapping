@@ -1,0 +1,3 @@
+CLASS ayf net/minecraft/item/SplashPotionItem
+	METHOD <init> (Lawy$a;)V
+		ARG 1 settings

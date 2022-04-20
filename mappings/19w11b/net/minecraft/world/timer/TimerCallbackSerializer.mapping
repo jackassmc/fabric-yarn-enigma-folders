@@ -1,0 +1,12 @@
+CLASS cpx net/minecraft/world/timer/TimerCallbackSerializer
+	FIELD a INSTANCE Lcpx;
+	FIELD b LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD c serializersByType Ljava/util/Map;
+	FIELD d serializersByClass Ljava/util/Map;
+	METHOD a registerSerializer (Lcpw$a;)Lcpx;
+		ARG 1 serializer
+	METHOD a serialize (Lcpw;)Lia;
+		ARG 1 callback
+	METHOD a deserialize (Lia;)Lcpw;
+		ARG 1 tag
+	METHOD a getSerializer (Ljava/lang/Class;)Lcpw$a;

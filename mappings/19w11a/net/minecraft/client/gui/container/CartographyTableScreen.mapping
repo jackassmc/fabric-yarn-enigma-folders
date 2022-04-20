@@ -1,0 +1,13 @@
+CLASS czj net/minecraft/client/gui/container/CartographyTableScreen
+	FIELD y TEXTURE Lqp;
+	METHOD <init> (Lawx;Laul;Ljl;)V
+		ARG 1 atl2
+	METHOD a drawMap (Lcmh;IIF)V
+		ARG 1 state
+		ARG 2 x
+		ARG 3 y
+		ARG 4 size
+	METHOD a drawMap (Lcmh;ZZZZ)V
+		ARG 2 isMap
+		ARG 3 isPaper
+		ARG 4 isGlassPane

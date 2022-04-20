@@ -1,0 +1,8 @@
+CLASS dfq net/minecraft/client/render/entity/EntityRendererParrot
+	FIELD a TEXTURES [Lpu;
+	METHOD <init> (Ldei;)V
+		ARG 1 renderManager
+	METHOD a getTexture (Lafv;)Lpu;
+		ARG 1 model
+	METHOD a getTexture (Lalh;)Lpu;
+		ARG 1 model

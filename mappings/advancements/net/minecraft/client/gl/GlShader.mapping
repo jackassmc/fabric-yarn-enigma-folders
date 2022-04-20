@@ -1,0 +1,20 @@
+CLASS cbg net/minecraft/client/gl/GlShader
+	CLASS cbg$a Type
+		FIELD a VERTEX Lcbg$a;
+		FIELD b FRAGMENT Lcbg$a;
+		FIELD c name Ljava/lang/String;
+		FIELD d fileExtension Ljava/lang/String;
+		FIELD e shaderType I
+		FIELD f nameObjectMap Ljava/util/Map;
+		METHOD a getName ()Ljava/lang/String;
+		METHOD b getFileExtension ()Ljava/lang/String;
+		METHOD c getShaderType ()I
+		METHOD d getNameObjectMap ()Ljava/util/Map;
+	FIELD a shaderType Lcbg$a;
+	FIELD b name Ljava/lang/String;
+	FIELD c shaderRef I
+	FIELD d refCount I
+	METHOD a getName ()Ljava/lang/String;
+	METHOD a attachTo (Lcbd;)V
+	METHOD a createFromResource (Lccv;Lcbg$a;Ljava/lang/String;)Lcbg;
+	METHOD b detachFrom (Lcbd;)V

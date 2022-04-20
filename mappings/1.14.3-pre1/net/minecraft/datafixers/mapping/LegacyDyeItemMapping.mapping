@@ -1,0 +1,2 @@
+CLASS abh net/minecraft/datafixers/mapping/LegacyDyeItemMapping
+	FIELD a MAP Ljava/util/Map;

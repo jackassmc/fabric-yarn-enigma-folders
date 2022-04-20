@@ -1,0 +1,2 @@
+CLASS go net/minecraft/data/report/BlockListProvider
+	FIELD c root Lge;

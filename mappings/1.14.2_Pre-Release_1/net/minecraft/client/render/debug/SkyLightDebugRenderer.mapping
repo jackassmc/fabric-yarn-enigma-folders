@@ -1,0 +1,2 @@
+CLASS dny net/minecraft/client/render/debug/SkyLightDebugRenderer
+	FIELD a client Lcvk;

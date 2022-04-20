@@ -1,0 +1,6 @@
+CLASS bac net/minecraft/world/BlockView
+	METHOD H getMaxLightLevel ()I
+	METHOD I getHeight ()I
+	METHOD b getBlockState (Let;)Lboj;
+	METHOD c getFluidState (Let;)Lcdq;
+	METHOD f getBlockEntity (Let;)Lbmn;

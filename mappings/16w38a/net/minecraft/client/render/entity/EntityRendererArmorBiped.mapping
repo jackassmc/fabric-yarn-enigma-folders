@@ -1,0 +1,10 @@
+CLASS bvq net/minecraft/client/render/entity/EntityRendererArmorBiped
+	METHOD J_ init ()V
+	METHOD a hideModel (Lbkj;)V
+		ARG 0 model
+	METHOD a handleModelAdjustments (Lbkj;Lsl;)V
+		ARG 0 model
+		ARG 1 slot
+	METHOD a (Lbko;Lsl;)V
+		ARG 0 model
+		ARG 1 slot

@@ -1,0 +1,3 @@
+CLASS bjd net/minecraft/block/EndGatewayBlock
+	METHOD <init> (Lbhn$c;)V
+		ARG 1 settings

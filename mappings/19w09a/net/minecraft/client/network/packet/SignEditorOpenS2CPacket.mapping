@@ -1,0 +1,3 @@
+CLASS ls net/minecraft/client/network/packet/SignEditorOpenS2CPacket
+	FIELD a pos Les;
+	METHOD b getPos ()Les;

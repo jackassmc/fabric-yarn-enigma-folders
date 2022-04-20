@@ -1,0 +1,3 @@
+CLASS zu net/minecraft/util/ProgressListener
+	METHOD a setDone ()V
+	METHOD a progressStagePercentage (I)V

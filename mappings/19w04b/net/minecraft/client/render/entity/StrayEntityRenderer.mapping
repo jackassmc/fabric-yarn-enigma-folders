@@ -1,0 +1,2 @@
+CLASS dlt net/minecraft/client/render/entity/StrayEntityRenderer
+	FIELD a SKIN Lqd;

@@ -1,0 +1,21 @@
+CLASS hw net/minecraft/nbt/LongArrayTag
+	FIELD f value [J
+	METHOD a getType ()B
+	METHOD a getRaw (I)Lhx;
+	METHOD a setRaw (ILig;)V
+		ARG 1 index
+	METHOD a read (Ljava/io/DataInput;ILhy;)V
+		ARG 1 input
+		ARG 2 depth
+	METHOD a write (Ljava/io/DataOutput;)V
+	METHOD a toTextComponent (Ljava/lang/String;I)Lja;
+		ARG 1 indent
+	METHOD a toArray (Ljava/util/List;)[J
+		ARG 0 list
+	METHOD b copy ()Lig;
+	METHOD b remove (I)V
+	METHOD b append (ILig;)V
+		ARG 1 index
+	METHOD c copy ()Lhw;
+	METHOD c getRaw (I)Lig;
+	METHOD f getLongArray ()[J

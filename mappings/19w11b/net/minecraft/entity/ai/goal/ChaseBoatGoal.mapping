@@ -1,0 +1,6 @@
+CLASS all net/minecraft/entity/ai/goal/ChaseBoatGoal
+	FIELD b owner Laim;
+	FIELD c passenger Laif;
+	FIELD d state Lala;
+	METHOD <init> (Laim;)V
+		ARG 1 owner

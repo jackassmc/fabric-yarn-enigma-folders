@@ -1,0 +1,15 @@
+CLASS cji net/minecraft/world/gen/surfacebuilder/ConfiguredSurfaceBuilder
+	FIELD a surfaceBuilder Lcjs;
+	FIELD b config Lcju;
+	METHOD <init> (Lcjs;Lcju;)V
+		ARG 1 surfaceBuilder
+	METHOD a getConfig ()Lcju;
+	METHOD a initSeed (J)V
+		ARG 1 seed
+	METHOD a generate (Ljava/util/Random;Lbwt;Lbia;IIIDLbvf;Lbvf;IJ)V
+		ARG 1 random
+		ARG 2 chunk
+		ARG 3 biome
+		ARG 9 defaultBlock
+		ARG 10 defaultFluid
+		ARG 12 seed

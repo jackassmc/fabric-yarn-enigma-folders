@@ -1,0 +1,8 @@
+CLASS akq net/minecraft/entity/ai/goal/CrossbowAttackGoal
+	CLASS akq$a Stage
+	FIELD a entity Laqh;
+	FIELD b stage Lakq$a;
+	METHOD <init> (Laqh;DF)V
+		ARG 1 entity
+	METHOD g isEntityHoldingCrossbow ()Z
+	METHOD i isUncharged ()Z

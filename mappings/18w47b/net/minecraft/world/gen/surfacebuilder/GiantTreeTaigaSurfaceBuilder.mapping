@@ -1,0 +1,2 @@
+CLASS cbq net/minecraft/world/gen/surfacebuilder/GiantTreeTaigaSurfaceBuilder
+	METHOD a generate (Ljava/util/Random;Lbpu;Lbbm;IIIDLboh;Lboh;IJLcby;)V

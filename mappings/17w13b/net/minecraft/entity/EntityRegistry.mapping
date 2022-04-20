@@ -1,0 +1,58 @@
+CLASS ud net/minecraft/entity/EntityRegistry
+	CLASS ud$a Metadata
+		FIELD a id Lmd;
+		FIELD b colorEgg I
+		FIELD c colorEggSpots I
+		FIELD d killStat Lpl;
+		FIELD e killedByStat Lpl;
+		METHOD <init> (Lmd;II)V
+			ARG 0 id
+			ARG 1 colorEgg
+			ARG 2 colorEggSpots
+	FIELD a LIGHTNING_BOLT_ID Lmd;
+	FIELD b CLASS_MAP Lel;
+	FIELD c METADATA_MAP Ljava/util/Map;
+	FIELD d ID_SET Ljava/util/Set;
+	FIELD e PLAYER_ID Lmd;
+	FIELD f LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD g NAME_LIST Ljava/util/List;
+	METHOD a getIdList ()Ljava/util/Set;
+	METHOD a getClassClient (I)Ljava/lang/Class;
+		ARG 0 id
+	METHOD a create (ILali;)Lub;
+		ARG 0 id
+	METHOD a registerEntity (ILjava/lang/String;Ljava/lang/Class;Ljava/lang/String;)V
+		ARG 0 rawId
+		ARG 1 id
+		ARG 2 entityClass
+		ARG 3 name
+	METHOD a deserialize (Lfc;Lali;)Lub;
+		ARG 0 tag
+		ARG 1 world
+	METHOD a getIdByClass (Ljava/lang/Class;)Lmd;
+		ARG 0 entityClass
+	METHOD a create (Ljava/lang/Class;Lali;)Lub;
+		ARG 0 entityClass
+		ARG 1 world
+	METHOD a getClassClient (Ljava/lang/String;)Ljava/lang/Class;
+		ARG 0 id
+	METHOD a registerEntityMetadata (Ljava/lang/String;II)Lud$a;
+		ARG 0 id
+		ARG 1 colorEgg
+		ARG 2 colorSpos
+	METHOD a getName (Lmd;)Ljava/lang/String;
+		ARG 0 id
+	METHOD a create (Lmd;Lali;)Lub;
+		ARG 0 id
+		ARG 1 world
+	METHOD a getId (Lub;)Lmd;
+		ARG 0 entity
+	METHOD a matches (Lub;Lmd;)Z
+		ARG 0 entity
+		ARG 1 identifier
+	METHOD b getIdListAsString ()Ljava/lang/String;
+	METHOD b isValidIdentifier (Lmd;)Z
+		ARG 0 identifier
+	METHOD b getName (Lub;)Ljava/lang/String;
+		ARG 0 entity
+	METHOD c registerDefaults ()V

@@ -1,0 +1,6 @@
+CLASS bzr
+	CLASS bzr$1
+		METHOD a render (Lvn;FFFFFFF)V
+			ARG 0 entity
+	METHOD a getTexture (Lve;)Lnd;
+		ARG 0 model

@@ -1,0 +1,3 @@
+CLASS fu net/minecraft/block/dispenser/BoatDispenserBehavior
+	FIELD b itemDispenser Lfv;
+	FIELD c boatType Laxr$b;

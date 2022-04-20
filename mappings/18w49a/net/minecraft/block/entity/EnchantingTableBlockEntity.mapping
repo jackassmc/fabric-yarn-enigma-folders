@@ -1,0 +1,14 @@
+CLASS bna net/minecraft/block/entity/EnchantingTableBlockEntity
+	FIELD a ticks I
+	FIELD n RANDOM Ljava/util/Random;
+	FIELD o customName Ljb;
+	METHOD a createContainer (Laqk;Laql;)Lasd;
+		ARG 0 playerInv
+		ARG 1 playerInv
+	METHOD a toTag (Lhq;)Lhq;
+	METHOD a setCustomName (Ljb;)V
+	METHOD aa_ tick ()V
+	METHOD b fromTag (Lhq;)V
+	METHOD d getName ()Ljb;
+	METHOD e hasCustomName ()Z
+	METHOD m getContainerId ()Ljava/lang/String;

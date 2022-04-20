@@ -1,0 +1,4 @@
+CLASS dfz net/minecraft/client/render/chunk/BlockLayeredBufferBuilder
+	FIELD a layerBuilders [Lcqc;
+	METHOD a get (I)Lcqc;
+	METHOD a get (Lbcr;)Lcqc;

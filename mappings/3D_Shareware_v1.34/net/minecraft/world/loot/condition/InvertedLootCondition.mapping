@@ -1,0 +1,4 @@
+CLASS cqk net/minecraft/world/loot/condition/InvertedLootCondition
+	CLASS cqk$a Factory
+	FIELD a term Lcqn;
+	METHOD a create (Lcqn$a;)Lcqn$a;

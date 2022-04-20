@@ -1,0 +1,5 @@
+CLASS bui net/minecraft/client/render/model/json/ModelItemOverride
+	FIELD a modelId Lmd;
+	FIELD b minPropertyValues Ljava/util/Map;
+	METHOD a getModelId ()Lmd;
+	METHOD a matches (Lahf;Lali;Luk;)Z

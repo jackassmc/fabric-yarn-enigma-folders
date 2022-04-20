@@ -1,0 +1,3 @@
+CLASS brn net/minecraft/block/enums/WireConnection
+	FIELD d name Ljava/lang/String;
+	METHOD m asString ()Ljava/lang/String;

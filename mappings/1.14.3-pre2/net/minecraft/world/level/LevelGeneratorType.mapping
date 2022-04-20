@@ -1,0 +1,49 @@
+CLASS bhs net/minecraft/world/level/LevelGeneratorType
+	FIELD a TYPES [Lbhs;
+	FIELD b DEFAULT Lbhs;
+	FIELD c FLAT Lbhs;
+	FIELD d LARGE_BIOMES Lbhs;
+	FIELD e AMPLIFIED Lbhs;
+	FIELD f CUSTOMIZED Lbhs;
+	FIELD g BUFFET Lbhs;
+	FIELD h DEBUG_ALL_BLOCK_STATES Lbhs;
+	FIELD i DEFAULT_1_1 Lbhs;
+	FIELD j id I
+	FIELD k name Ljava/lang/String;
+	FIELD l storedName Ljava/lang/String;
+	FIELD m version I
+	FIELD n visible Z
+	FIELD o versioned Z
+	FIELD p info Z
+	FIELD q customizable Z
+	METHOD <init> (ILjava/lang/String;)V
+		ARG 1 id
+		ARG 2 name
+	METHOD <init> (ILjava/lang/String;I)V
+		ARG 1 id
+		ARG 2 name
+		ARG 3 version
+	METHOD <init> (ILjava/lang/String;Ljava/lang/String;I)V
+		ARG 1 id
+		ARG 2 name
+		ARG 3 storedName
+		ARG 4 version
+	METHOD a getName ()Ljava/lang/String;
+	METHOD a getTypeForVersion (I)Lbhs;
+	METHOD a getTypeFromName (Ljava/lang/String;)Lbhs;
+		ARG 0 name
+	METHOD a setCustomizable (Z)Lbhs;
+		ARG 1 customizable
+	METHOD b getStoredName ()Ljava/lang/String;
+	METHOD b setVisible (Z)Lbhs;
+		ARG 1 visible
+	METHOD c getTranslationKey ()Ljava/lang/String;
+	METHOD d getInfoTranslationKey ()Ljava/lang/String;
+	METHOD e getVersion ()I
+	METHOD f isCustomizable ()Z
+	METHOD g isVisible ()Z
+	METHOD h isVersioned ()Z
+	METHOD i getId ()I
+	METHOD j hasInfo ()Z
+	METHOD k setVersioned ()Lbhs;
+	METHOD l setHasInfo ()Lbhs;

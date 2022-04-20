@@ -1,0 +1,4 @@
+CLASS bmp net/minecraft/block/CarrotsBlock
+	FIELD a AGE_TO_SHAPE [Lcsi;
+	METHOD <init> (Lbme$c;)V
+		ARG 1 settings

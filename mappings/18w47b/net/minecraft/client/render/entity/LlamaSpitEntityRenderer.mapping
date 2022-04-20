@@ -1,0 +1,3 @@
+CLASS dgz net/minecraft/client/render/entity/LlamaSpitEntityRenderer
+	METHOD a getTexture (Lagf;)Lpy;
+	METHOD a getTexture (Laqs;)Lpy;

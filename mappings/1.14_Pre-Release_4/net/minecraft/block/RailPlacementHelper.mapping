@@ -1,0 +1,14 @@
+CLASS bql net/minecraft/block/RailPlacementHelper
+	FIELD a world Lbhf;
+	FIELD b pos Lev;
+	FIELD c block Lbmb;
+	FIELD d state Lbvh;
+	FIELD e allowCurves Z
+	FIELD f neighbors Ljava/util/List;
+	METHOD a getNeighbors ()Ljava/util/List;
+	METHOD a computeNeighbors (Lbwl;)V
+		ARG 1 shape
+	METHOD a updateBlockState (ZZ)Lbql;
+		ARG 1 powered
+		ARG 2 forceUpdate
+	METHOD c getBlockState ()Lbvh;

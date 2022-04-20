@@ -1,0 +1,4 @@
+CLASS dkb net/minecraft/client/render/chunk/BlockLayeredBufferBuilder
+	FIELD a layerBuilders [Lcuj;
+	METHOD a get (I)Lcuj;
+	METHOD a get (Lbgs;)Lcuj;

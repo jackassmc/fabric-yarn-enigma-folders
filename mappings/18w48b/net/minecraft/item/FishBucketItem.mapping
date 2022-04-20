@@ -1,0 +1,5 @@
+CLASS ave net/minecraft/item/FishBucketItem
+	METHOD a addInformation (Lavs;Lbaq;Ljava/util/List;Laxc;)V
+		ARG 1 stack
+		ARG 2 world
+		ARG 3 tooltip

@@ -1,0 +1,7 @@
+CLASS ddh net/minecraft/client/particle/ExplosionSmokeParticle
+	CLASS ddh$a Factory
+	METHOD <init> (Lbcu;DDDDDDLdei;)V
+		ARG 1 world
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z

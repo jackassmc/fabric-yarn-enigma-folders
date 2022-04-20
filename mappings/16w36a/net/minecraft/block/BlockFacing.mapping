@@ -1,0 +1,2 @@
+CLASS none/alx net/minecraft/block/BlockFacing
+	FIELD H FACING Lnone/asy;

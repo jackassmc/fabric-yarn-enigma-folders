@@ -1,0 +1,6 @@
+CLASS bup net/minecraft/client/render/entity/EntityRendererSquid
+	FIELD a SKIN Lkp;
+	METHOD a getTexture (Lsg;)Lkp;
+		ARG 0 model
+	METHOD a getTexture (Lwy;)Lkp;
+		ARG 0 model

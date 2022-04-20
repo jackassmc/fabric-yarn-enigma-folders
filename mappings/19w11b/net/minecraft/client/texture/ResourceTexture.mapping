@@ -1,0 +1,17 @@
+CLASS dsx net/minecraft/client/texture/ResourceTexture
+	CLASS dsx$a TextureData
+		FIELD a metadata Ldum;
+		FIELD b image Lcse;
+		FIELD c exception Ljava/io/IOException;
+		METHOD <init> (Ldum;Lcse;)V
+			ARG 1 metadata
+			ARG 2 image
+		METHOD <init> (Ljava/io/IOException;)V
+			ARG 1 exception
+		METHOD a getMetadata ()Ldum;
+		METHOD a load (Lxa;Lqp;)Ldsx$a;
+		METHOD b getImage ()Lcse;
+		METHOD c checkException ()V
+	FIELD f location Lqp;
+	FIELD g LOGGER Lorg/apache/logging/log4j/Logger;
+	METHOD b loadTextureData (Lxa;)Ldsx$a;

@@ -1,0 +1,5 @@
+CLASS deo net/minecraft/client/render/entity/EntityRendererExplosiveProjectile
+	METHOD a getTexture (Lafv;)Lpu;
+		ARG 1 model
+	METHOD a getTexture (Lapw;)Lpu;
+		ARG 1 model

@@ -1,0 +1,4 @@
+CLASS blz net/minecraft/block/DeadCoralBlock
+	FIELD a SHAPE Lcsr;
+	METHOD <init> (Lbmm$c;)V
+		ARG 1 settings

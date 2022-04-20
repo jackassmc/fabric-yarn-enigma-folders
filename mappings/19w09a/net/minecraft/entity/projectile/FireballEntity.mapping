@@ -1,0 +1,2 @@
+CLASS asm net/minecraft/entity/projectile/FireballEntity
+	FIELD f explosionPower I

@@ -1,0 +1,129 @@
+CLASS cjj net/minecraft/client/MinecraftGame
+	FIELD A fpsDebugString Ljava/lang/String;
+	FIELD F LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD I sessionPropertyMap Lcom/mojang/authlib/properties/PropertyMap;
+	FIELD K currentServerEntry Lcvc;
+	FIELD L textureManager Ldha;
+	FIELD M instance Lcjj;
+	FIELD P crashed Z
+	FIELD Q crashReport Lb;
+	FIELD R connectedToRealms Z
+	FIELD S renderTickCounter Lcjp;
+	FIELD T snooper Laek;
+	FIELD U entityRenderManager Ldca;
+	FIELD V itemRenderer Ldcu;
+	FIELD W firstPersonRenderer Lcxr;
+	FIELD X cameraEntity Lafh;
+	FIELD Z session Lcjq;
+	FIELD aA spriteAtlas Ldgy;
+	FIELD aB soundLoader Ldkd;
+	FIELD aC musicTracker Ldka;
+	FIELD aE sessionService Lcom/mojang/authlib/minecraft/MinecraftSessionService;
+	FIELD aF skinProvider Ldho;
+	FIELD aG thread Ljava/lang/Thread;
+	FIELD aH bakedModelManager Ldik;
+	FIELD aI blockRenderManager Lcyf;
+	FIELD aK isRunning Z
+	FIELD aM fpsCounter I
+	FIELD a isSystemMac Z
+	FIELD ac server Ldjr;
+	FIELD ae assetDirectory Ljava/io/File;
+	FIELD af gameVersion Ljava/lang/String;
+	FIELD ag versionType Ljava/lang/String;
+	FIELD ah netProxy Ljava/net/Proxy;
+	FIELD aj currentFps I
+	FIELD al autoConnectServerIp Ljava/lang/String;
+	FIELD am autoConnectServerPort I
+	FIELD ap is64Bit Z
+	FIELD aq isDemo Z
+	FIELD at resourceManager Lvq;
+	FIELD aw languageManager Ldhs;
+	FIELD ax blockColorMap Lcju;
+	FIELD ay itemColorMap Lcjx;
+	FIELD az framebuffer Lcig;
+	FIELD e playerCapabilities Lcuy;
+	FIELD h world Lcuz;
+	FIELD i renderer Lcxt;
+	FIELD j player Lcxc;
+	FIELD l particleManager Lcwg;
+	FIELD m fontRenderer Lcjz;
+	FIELD n currentGui Lcns;
+	FIELD o worldRenderer Lcxp;
+	FIELD p renderDebug Ldat;
+	FIELD r hudInGame Lcka;
+	FIELD t hitResult Lcgz;
+	FIELD u settings Lcjm;
+	FIELD x runDirectory Ljava/io/File;
+	FIELD z profiler Lyf;
+	METHOD <init> (Lcrh;)V
+		ARG 0 args
+	METHOD A getSnooper ()Laek;
+	METHOD B getSession ()Lcjq;
+	METHOD C getSessionProperties ()Lcom/mojang/authlib/properties/PropertyMap;
+	METHOD D getNetworkProxy ()Ljava/net/Proxy;
+	METHOD E getTextureManager ()Ldha;
+	METHOD F getResourceManager ()Lvs;
+	METHOD H getResourcePackDownloader ()Ldhh;
+	METHOD J getLanguageManager ()Ldhs;
+	METHOD K getSpriteAtlas ()Ldgy;
+	METHOD L is64Bit ()Z
+	METHOD N getSoundLoader ()Ldkd;
+	METHOD O getMusicType ()Ldka$a;
+	METHOD P isSnooperEnabled ()Z
+	METHOD Q getSessionService ()Lcom/mojang/authlib/minecraft/MinecraftSessionService;
+	METHOD R getSkinProvider ()Ldho;
+	METHOD S getCameraEntity ()Lafh;
+	METHOD T getBlockRenderManager ()Lcyf;
+	METHOD U getEntityRenderManager ()Ldca;
+	METHOD V getItemRenderer ()Ldcu;
+	METHOD W getFirstPersonRenderer ()Lcxr;
+	METHOD X getCurrentFps ()I
+	METHOD a start ()V
+	METHOD a registerSprites (Laek;)V
+		ARG 0 atlas
+	METHOD a setCameraEntity (Lafh;)V
+		ARG 0 entity
+	METHOD a setCrashReport (Lb;)V
+		ARG 0 crashReport
+	METHOD a openGui (Lcns;)V
+		ARG 0 screen
+	METHOD a setCurrentServerEntry (Lcvc;)V
+		ARG 0 value
+	METHOD a startIntegratedServer (Ljava/lang/String;Ljava/lang/String;Lazf;)V
+		ARG 0 name
+		ARG 1 displayName
+		ARG 2 levelInfo
+	METHOD a setConnectedToRealms (Z)V
+	METHOD aa getMigrationHandler ()Lcom/mojang/datafixers/DataFixer;
+	METHOD ab getTickDelta ()F
+	METHOD ad getBlockColorMap ()Lcju;
+	METHOD af hasReducedDebugInfo ()Z
+	METHOD ai isFullscreen ()Z
+	METHOD am init ()V
+	METHOD ao checkIs64Bit ()Z
+	METHOD aq registerMetadataDeserializers ()V
+	METHOD as doAttack ()V
+	METHOD at doItemUse ()V
+	METHOD aw isMainThread ()Z
+	METHOD ax doItemPick ()V
+	METHOD ay getCurrentAction ()Ljava/lang/String;
+	METHOD b getFramebuffer ()Lcig;
+	METHOD c getGameVersion ()Ljava/lang/String;
+	METHOD c printCrashReport (Lb;)V
+		ARG 0 crashReport
+	METHOD d getVersionType ()Ljava/lang/String;
+	METHOD f reloadResources ()V
+	METHOD g getLevelStorage ()Lcdl;
+	METHOD h stop ()V
+	METHOD j stopThread ()V
+	METHOD k openInGameMenu ()V
+	METHOD l getMusicTracker ()Ldka;
+	METHOD m tick ()V
+	METHOD n isDemo ()Z
+	METHOD o getNetworkHandler ()Lcuw;
+	METHOD q isFancyGraphicsEnabled ()Z
+	METHOD r isAmbientOcclusionEnabled ()Z
+	METHOD s getInstance ()Lcjj;
+	METHOD v getCurrentServerEntry ()Lcvc;
+	METHOD y getServer ()Ldjr;
+	METHOD z onShutdown ()V

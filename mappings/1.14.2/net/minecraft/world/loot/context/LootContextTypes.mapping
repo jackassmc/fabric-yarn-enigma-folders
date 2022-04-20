@@ -1,0 +1,25 @@
+CLASS cqo net/minecraft/world/loot/context/LootContextTypes
+	FIELD i MAP Lcom/google/common/collect/BiMap;
+	METHOD a (Lcqn$a;)V
+		ARG 0 builder
+	METHOD a getId (Lcqn;)Lqs;
+		ARG 0 type
+	METHOD a register (Ljava/lang/String;Ljava/util/function/Consumer;)Lcqn;
+		ARG 0 name
+		ARG 1 type
+	METHOD a get (Lqs;)Lcqn;
+		ARG 0 id
+	METHOD b (Lcqn$a;)V
+		ARG 0 builder
+	METHOD c (Lcqn$a;)V
+		ARG 0 builder
+	METHOD d (Lcqn$a;)V
+		ARG 0 builder
+	METHOD e (Lcqn$a;)V
+		ARG 0 builder
+	METHOD f (Lcqn$a;)V
+		ARG 0 builder
+	METHOD g (Lcqn$a;)V
+		ARG 0 builder
+	METHOD h (Lcqn$a;)V
+		ARG 0 builder

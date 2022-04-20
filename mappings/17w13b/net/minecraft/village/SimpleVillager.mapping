@@ -1,0 +1,22 @@
+CLASS acn net/minecraft/village/SimpleVillager
+	FIELD a villagerInventory Laez;
+	FIELD b player Lacu;
+	FIELD c recipeList Lakv;
+	FIELD d displayName Lgk;
+	METHOD <init> (Lacu;Lgk;)V
+		ARG 0 player
+		ARG 1 displayName
+	METHOD a onSellingItem (Lahf;)V
+		ARG 0 stack
+	METHOD a useRecipe (Laku;)V
+		ARG 0 recipe
+	METHOD a setRecipeList (Lakv;)V
+		ARG 0 recipeLIst
+	METHOD a_ setCurrentCustomer (Lacu;)V
+		ARG 0 currentCustomer
+	METHOD b_ getRecipes (Lacu;)Lakv;
+		ARG 0 player
+	METHOD i_ getDisplayName ()Lgk;
+	METHOD t_ getCurrentCustomer ()Lacu;
+	METHOD u_ getWorld ()Lali;
+	METHOD v_ getPos ()Ldx;

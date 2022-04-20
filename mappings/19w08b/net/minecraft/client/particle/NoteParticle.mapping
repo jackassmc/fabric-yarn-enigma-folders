@@ -1,0 +1,7 @@
+CLASS deq net/minecraft/client/particle/NoteParticle
+	CLASS deq$a Factory
+	METHOD <init> (Lbdf;DDDD)V
+		ARG 1 world
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z

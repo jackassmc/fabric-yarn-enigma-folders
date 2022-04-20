@@ -1,0 +1,11 @@
+CLASS crv net/minecraft/entity/VerticalEntityPositionImpl
+	CLASS crv$1
+		METHOD <init> (ZDLbbm;)V
+			ARG 1 sneaking
+	FIELD a MIN_VALUE Lcrq;
+	FIELD b sneaking Z
+	FIELD c posY D
+	METHOD <init> (Laia;)V
+		ARG 1 entity
+	METHOD <init> (ZDLbbm;)V
+		ARG 1 sneaking

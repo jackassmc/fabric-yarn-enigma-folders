@@ -1,0 +1,5 @@
+CLASS pm net/minecraft/entity/tracker/TrackedDataHandler
+	METHOD a create (I)Lpl;
+	METHOD a read (Lip;)Ljava/lang/Object;
+	METHOD a write (Lip;Ljava/lang/Object;)V
+	METHOD a copy (Ljava/lang/Object;)Ljava/lang/Object;

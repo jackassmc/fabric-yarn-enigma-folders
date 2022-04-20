@@ -1,0 +1,10 @@
+CLASS avv net/minecraft/item/MinecartItem
+	CLASS avv$1
+		METHOD a playSound (Leu;)V
+			ARG 0 block
+		METHOD a doDispense (Leu;Lavo;)Lavo;
+			ARG 0 location
+			ARG 1 stack
+	FIELD a DISPENSER_BEHAVIOR Lfa;
+	FIELD b type Lark$a;
+	METHOD a useOnBlock (Laxb;)Lafa;

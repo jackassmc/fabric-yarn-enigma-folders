@@ -1,0 +1,56 @@
+CLASS amt net/minecraft/entity/passive/PandaEntity
+	CLASS amt$a PandaFleeGoal
+		METHOD a canStart ()Z
+	CLASS amt$b PandaMateGoal
+		METHOD a canStart ()Z
+	CLASS amt$d
+		METHOD b shouldContinue ()Z
+	CLASS amt$e
+		METHOD a canStart ()Z
+		METHOD b shouldContinue ()Z
+		METHOD c start ()V
+		METHOD d onRemove ()V
+	CLASS amt$f PandaMoveControl
+		FIELD i panda Lamt;
+		METHOD a tick ()V
+	CLASS amt$g
+		METHOD a canStart ()Z
+		METHOD b shouldContinue ()Z
+	CLASS amt$h
+		METHOD a canStart ()Z
+		METHOD b shouldContinue ()Z
+		METHOD c start ()V
+		METHOD f canStop ()Z
+	CLASS amt$i
+		METHOD a canStart ()Z
+		METHOD b shouldContinue ()Z
+		METHOD c start ()V
+		METHOD d onRemove ()V
+		METHOD e tick ()V
+	CLASS amt$j
+		METHOD a canStart ()Z
+		METHOD b shouldContinue ()Z
+		METHOD c start ()V
+	METHOD D getAmbientSound ()Lxt;
+	METHOD a damage (Lagm;F)Z
+		ARG 1 source
+		ARG 2 amount
+	METHOD a createChild (Laha;)Laha;
+	METHOD a setAttacker (Lahm;)V
+	METHOD a pickupItem (Laph;)V
+	METHOD a canBeLeashedBy (Lark;)Z
+	METHOD a interactMob (Lark;Lafy;)Z
+		ARG 1 player
+	METHOD a prepareEntityData (Lbcg;Lafx;Lahp;Lahx;Lhs;)Lahx;
+		ARG 3 difficulty
+	METHOD a playStepSound (Let;Lbqe;)V
+		ARG 1 pos
+	METHOD a readCustomDataFromTag (Lhs;)V
+	METHOD b writeCustomDataToTag (Lhs;)V
+	METHOD cb initAttributes ()V
+	METHOD cw getDeathSound ()Lxt;
+	METHOD e getHurtSound (Lagm;)Lxt;
+	METHOD f isBreedingItem (Laxd;)Z
+	METHOD h update ()V
+	METHOD n prepareGoals ()V
+	METHOD w_ initDataTracker ()V

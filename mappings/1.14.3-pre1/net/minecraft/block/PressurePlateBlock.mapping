@@ -1,0 +1,7 @@
+CLASS bqm net/minecraft/block/PressurePlateBlock
+	CLASS bqm$a ActivationRule
+	FIELD d POWERED Lbwd;
+	FIELD e type Lbqm$a;
+	METHOD <init> (Lbqm$a;Lbmn$c;)V
+		ARG 1 type
+		ARG 2 settings

@@ -1,0 +1,4 @@
+CLASS dog net/minecraft/client/render/entity/feature/CreeperChargeFeatureRenderer
+	FIELD a SKIN Lqi;
+	METHOD <init> (Ldmt;)V
+		ARG 1 context

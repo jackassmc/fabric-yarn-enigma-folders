@@ -1,0 +1,23 @@
+CLASS dae net/minecraft/client/gui/screen/StatsScreen
+	CLASS dae$a CustomStatsListWidget
+		CLASS dae$a$a CustomStatItem
+	CLASS dae$b ItemStatsListWidget
+		CLASS dae$b$b ItemStatItem
+		METHOD renderDecorations (II)V
+			ARG 1 mouseX
+			ARG 2 mouseY
+	CLASS dae$c EntityStatsListWidget
+		CLASS dae$c$a EntityStatItem
+	FIELD a parent Lczx;
+	FIELD c generalButton Ldae$a;
+	FIELD d itemsButton Ldae$b;
+	FIELD e mobsButton Ldae$c;
+	FIELD f statHandler Lyx;
+	FIELD g listWidget Lcxe;
+	METHOD <init> (Lczx;Lyx;)V
+		ARG 1 parent
+		ARG 2 statHandler
+	METHOD render (IIF)V
+		ARG 1 mouseX
+		ARG 2 mouseY
+		ARG 3 delta

@@ -1,0 +1,2 @@
+CLASS dhc net/minecraft/client/texture/ITextureUpdateMethod
+	METHOD e updateTexture ()V

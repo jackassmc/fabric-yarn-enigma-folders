@@ -1,0 +1,34 @@
+CLASS awe net/minecraft/entity/vehicle/BoatEntity
+	CLASS awe$a Location
+	CLASS awe$b Type
+		FIELD a OAK Lawe$b;
+		FIELD b SPRUCE Lawe$b;
+		FIELD c BIRCH Lawe$b;
+		FIELD d JUNGLE Lawe$b;
+		FIELD e ACACIA Lawe$b;
+		FIELD f DARK_OAK Lawe$b;
+		FIELD g name Ljava/lang/String;
+		FIELD h baseBlock Lbky;
+		METHOD a getName ()Ljava/lang/String;
+		METHOD a getType (I)Lawe$b;
+		METHOD a getType (Ljava/lang/String;)Lawe$b;
+		METHOD b getBaseBlock ()Lbky;
+	FIELD aH location Lawe$a;
+	FIELD aI lastLocation Lawe$a;
+	FIELD e BOAT_TYPE Lqe;
+	FIELD f LEFT_PADDLE_MOVING Lqe;
+	FIELD g RIGHT_PADDLE_MOVING Lqe;
+	METHOD <init> (Lbfx;DDD)V
+		ARG 1 world
+		ARG 2 x
+	METHOD a getPaddleState (I)Z
+		ARG 1 paddle
+	METHOD a copyEntityData (Lahw;)V
+	METHOD a setBoatType (Lawe$b;)V
+	METHOD a setPaddleState (ZZ)V
+	METHOD f asItem ()Lbam;
+	METHOD i getPaddleSoundEvent ()Lyf;
+	METHOD p getBoatType ()Lawe$b;
+	METHOD s checkLocation ()Lawe$a;
+	METHOD u checKBoatInWater ()Z
+	METHOD v getUnderWaterLocation ()Lawe$a;

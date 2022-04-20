@@ -1,0 +1,4 @@
+CLASS cik net/minecraft/sortme/rule/BlockStateMatchRuleTest
+	FIELD a blockState Lbuz;
+	METHOD <init> (Lbuz;)V
+		ARG 1 blockState

@@ -1,0 +1,2 @@
+CLASS ayb net/minecraft/server/network/ServerItemCooldownManager
+	FIELD a player Lut;

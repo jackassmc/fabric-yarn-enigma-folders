@@ -1,0 +1,5 @@
+CLASS bpc net/minecraft/block/enums/ComparatorMode
+	FIELD a COMPARE Lbpc;
+	FIELD b SUBTRACT Lbpc;
+	FIELD c name Ljava/lang/String;
+	METHOD m asString ()Ljava/lang/String;

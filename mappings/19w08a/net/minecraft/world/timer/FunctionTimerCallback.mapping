@@ -1,0 +1,3 @@
+CLASS cmy net/minecraft/world/timer/FunctionTimerCallback
+	CLASS cmy$a Serializer
+	FIELD a name Lqi;

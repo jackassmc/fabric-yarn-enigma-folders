@@ -1,0 +1,5 @@
+CLASS net/minecraft/realms/RealmsAbstractButtonProxy net/minecraft/client/gui/menu/RealmsButton
+	METHOD active (Z)V
+		ARG 1 enabled
+	METHOD setVisible (Z)V
+		ARG 1 visible

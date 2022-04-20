@@ -1,0 +1,4 @@
+CLASS bsy net/minecraft/block/entity/JukeboxBlockEntity
+	FIELD a record Lbaz;
+	METHOD a setRecord (Lbaz;)V
+	METHOD c getRecord ()Lbaz;

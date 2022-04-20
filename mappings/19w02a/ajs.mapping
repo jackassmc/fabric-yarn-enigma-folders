@@ -1,0 +1,2 @@
+CLASS ajs
+	METHOD a canStart ()Z

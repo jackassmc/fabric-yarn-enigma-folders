@@ -1,0 +1,3 @@
+CLASS cyl net/minecraft/client/render/entity/model/MultipassModel
+	METHOD b renderPass (Lagi;FFFFFF)V
+		ARG 1 entity

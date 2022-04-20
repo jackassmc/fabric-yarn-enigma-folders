@@ -1,0 +1,9 @@
+CLASS dvl net/minecraft/client/render/model/UnbakedModel
+	METHOD a bake (Ldvf;Ljava/util/function/Function;Ldvi;)Ldvc;
+		ARG 1 loader
+		ARG 2 textureGetter
+		ARG 3 rotationContainer
+	METHOD a getTextureDependencies (Ljava/util/function/Function;Ljava/util/Set;)Ljava/util/Collection;
+		ARG 1 unbakedModelGetter
+		ARG 2 unresolvedTextureReferences
+	METHOD f getModelDependencies ()Ljava/util/Collection;

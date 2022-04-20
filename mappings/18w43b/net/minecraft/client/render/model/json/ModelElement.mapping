@@ -1,0 +1,6 @@
+CLASS cyj net/minecraft/client/render/model/json/ModelElement
+	FIELD c faces Ljava/util/Map;
+	FIELD d rotation Lcyl;
+	FIELD e shade Z
+	METHOD <init> (Ldkv;Ldkv;Ljava/util/Map;Lcyl;Z)V
+		ARG 3 rotation

@@ -1,0 +1,2 @@
+CLASS awp net/minecraft/entity/thrown/ThrownEnderpearlEntity
+	FIELD e owner Laim;

@@ -1,0 +1,9 @@
+CLASS bbt net/minecraft/village/Villager
+	METHOD a useRecipe (Lbbu;)V
+	METHOD a setServerRecipes (Lbbv;)V
+	METHOD dD getCurrentCustomer ()Laro;
+	METHOD dF getRecipes ()Lbbv;
+	METHOD dI getVillagerWorld ()Lbcq;
+	METHOD dJ getVillagerPos ()Let;
+	METHOD e setCurrentCustomer (Laro;)V
+	METHOD f onSellingItem (Laxi;)V

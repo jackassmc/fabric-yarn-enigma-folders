@@ -1,0 +1,19 @@
+CLASS anx net/minecraft/entity/decoration/EnderCrystalEntity
+	FIELD c BEAM_TARGET Lpt;
+	FIELD d SHOW_BOTTOM Lpt;
+	METHOD V kill ()V
+	METHOD a shouldRenderAtDistance (D)Z
+	METHOD a crystalDestroyed (Lagm;)V
+		ARG 1 source
+	METHOD a damage (Lagm;F)Z
+		ARG 1 source
+		ARG 2 amount
+	METHOD a setBeamTarget (Let;)V
+	METHOD a readCustomDataFromTag (Lhs;)V
+	METHOD a setShowBottom (Z)V
+	METHOD aE doesCollide ()Z
+	METHOD b writeCustomDataToTag (Lhs;)V
+	METHOD e getBeamTarget ()Let;
+	METHOD f shouldShowBottom ()Z
+	METHOD h update ()V
+	METHOD w_ initDataTracker ()V

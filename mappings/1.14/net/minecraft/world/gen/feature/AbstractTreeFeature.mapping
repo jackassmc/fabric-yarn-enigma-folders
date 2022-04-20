@@ -1,0 +1,45 @@
+CLASS bzl net/minecraft/world/gen/feature/AbstractTreeFeature
+	METHOD <init> (Ljava/util/function/Function;Z)V
+		ARG 1 configFactory
+		ARG 2 emitNeighborBlockUpdates
+	METHOD a setToDirt (Lbhm;Lev;)V
+		ARG 1 world
+		ARG 2 pos
+	METHOD a canTreeReplace (Lbhn;Lev;)Z
+		ARG 0 world
+		ARG 1 pos
+	METHOD a generate (Ljava/util/Set;Lbhm;Ljava/util/Random;Lev;)Z
+		ARG 1 logPositions
+		ARG 2 world
+		ARG 3 random
+		ARG 4 pos
+	METHOD a setBlockState (Ljava/util/Set;Lbhp;Lev;Lbvj;)V
+		ARG 1 logPositions
+		ARG 2 world
+		ARG 3 pos
+		ARG 4 state
+	METHOD b isAir (Lbhn;Lev;)Z
+		ARG 0 world
+		ARG 1 pos
+	METHOD b setBlockStateWithoutUpdatingNeighbors (Lbhp;Lev;Lbvj;)V
+	METHOD c isNaturalDirt (Lbhn;Lev;)Z
+		ARG 0 world
+		ARG 1 pos
+	METHOD e isWater (Lbhn;Lev;)Z
+		ARG 0 world
+		ARG 1 pos
+	METHOD f isLeaves (Lbhn;Lev;)Z
+		ARG 0 world
+		ARG 1 pos
+	METHOD g isAirOrLeaves (Lbhn;Lev;)Z
+		ARG 0 world
+		ARG 1 pos
+	METHOD h isNaturalDirtOrGrass (Lbhn;Lev;)Z
+		ARG 0 world
+		ARG 1 pos
+	METHOD i isDirtOrGrass (Lbhn;Lev;)Z
+		ARG 0 world
+		ARG 1 pos
+	METHOD j isReplaceablePlant (Lbhn;Lev;)Z
+		ARG 0 world
+		ARG 1 pos

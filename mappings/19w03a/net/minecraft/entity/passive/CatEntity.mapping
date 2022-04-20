@@ -1,0 +1,48 @@
+CLASS amj net/minecraft/entity/passive/CatEntity
+	CLASS amj$a CatFleeGoal
+		FIELD c entity Lamj;
+		METHOD a canStart ()Z
+		METHOD b shouldContinue ()Z
+	CLASS amj$b SleepWithOwnerGoal
+		FIELD a entity Lamj;
+		FIELD b owner Larj;
+		METHOD a canStart ()Z
+		METHOD b shouldContinue ()Z
+		METHOD c start ()V
+		METHOD d onRemove ()V
+		METHOD e tick ()V
+	CLASS amj$c CatTemptGoal
+		METHOD e tick ()V
+	FIELD bH TAMING_INGREDIENT Lazj;
+	FIELD bI CAT_TYPE Lpr;
+	FIELD bL COLLAR_COLOR Lpr;
+	FIELD bM fleeGoal Lamj$a;
+	METHOD D getAmbientSound ()Lxr;
+	METHOD I mobTick ()V
+	METHOD a createChild (Lagz;)Lagz;
+	METHOD a canBreedWith (Lami;)Z
+		ARG 1 other
+	METHOD a interactMob (Larj;Lafw;)Z
+		ARG 1 player
+	METHOD a setCollarColor (Lavz;)V
+	METHOD a prepareEntityData (Lbcj;Lafv;Laho;Lahw;Lhq;)Lahw;
+		ARG 3 difficulty
+	METHOD a readCustomDataFromTag (Lhq;)V
+	METHOD b createChild (Lagz;)Lamj;
+	METHOD b writeCustomDataToTag (Lhq;)V
+	METHOD bH getEyeHeight ()F
+	METHOD c canImmediatelyDespawn (D)Z
+		ARG 1 distanceSquared
+	METHOD c handleFallDamage (FF)V
+		ARG 1 fallDistance
+	METHOD cd initAttributes ()V
+	METHOD cy getDeathSound ()Lxr;
+	METHOD dD onTamedChanged ()V
+	METHOD dM getOcelotType ()I
+	METHOD dP getCollarColor ()Lavz;
+	METHOD e getHurtSound (Lagl;)Lxr;
+	METHOD f isBreedingItem (Laxc;)Z
+	METHOD h update ()V
+	METHOD n ()V
+	METHOD q getOcelotType (I)V
+	METHOD w_ initDataTracker ()V

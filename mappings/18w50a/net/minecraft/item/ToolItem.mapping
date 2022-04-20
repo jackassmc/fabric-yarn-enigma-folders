@@ -1,0 +1,8 @@
+CLASS axv net/minecraft/item/ToolItem
+	FIELD a material Laxu;
+	METHOD <init> (Laxu;Lawj$a;)V
+		ARG 1 material
+	METHOD a canRepair (Lawo;Lawo;)Z
+		ARG 1 tool
+	METHOD c getEnchantability ()I
+	METHOD e getType ()Laxu;

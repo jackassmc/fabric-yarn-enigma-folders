@@ -1,0 +1,23 @@
+CLASS ayy net/minecraft/recipe/cooking/CookingRecipe
+	FIELD a type Lazp;
+	FIELD b id Lqc;
+	FIELD c group Ljava/lang/String;
+	FIELD d input Lazj;
+	FIELD e output Laxc;
+	FIELD f experience F
+	FIELD g cookTime I
+	METHOD <init> (Lazp;Lqc;Ljava/lang/String;Lazj;Laxc;FI)V
+		ARG 1 type
+	METHOD a getPreviewInputs ()Lfh;
+	METHOD a fits (II)Z
+		ARG 1 width
+		ARG 2 height
+	METHOD a craft (Lafq;)Laxc;
+	METHOD a matches (Lafq;Lbci;)Z
+		ARG 1 inv
+	METHOD b getExperience ()F
+	METHOD c getOutput ()Laxc;
+	METHOD d getGroup ()Ljava/lang/String;
+	METHOD e getCookTime ()I
+	METHOD f getId ()Lqc;
+	METHOD g getType ()Lazp;

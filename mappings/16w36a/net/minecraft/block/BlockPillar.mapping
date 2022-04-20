@@ -1,0 +1,26 @@
+CLASS none/apj net/minecraft/block/BlockPillar
+	FIELD c AXIS Lnone/asz;
+	METHOD <init> (Lnone/ayq;)V
+		ARG 0 material
+	METHOD <init> (Lnone/ayq;Lnone/ayr;)V
+		ARG 0 material
+		ARG 1 color
+	METHOD a deserializeState (I)Lnone/asl;
+		ARG 0 meta
+	METHOD a getStateForPlacement (Lnone/aiv;Lnone/cn;Lnone/cu;FFFILnone/so;)Lnone/asl;
+		ARG 0 world
+		ARG 1 pos
+		ARG 2 facing
+		ARG 3 hitX
+		ARG 4 hitY
+		ARG 5 hitZ
+		ARG 6 metadata
+		ARG 7 player
+	METHOD a applyRotation (Lnone/asl;Lnone/apk;)Lnone/asl;
+		ARG 0 state
+		ARG 1 rotation
+	METHOD b createStateFactory ()Lnone/asm;
+	METHOD e serializeState (Lnone/asl;)I
+		ARG 0 state
+	METHOD u getStackFromState (Lnone/asl;)Lnone/aer;
+		ARG 0 state

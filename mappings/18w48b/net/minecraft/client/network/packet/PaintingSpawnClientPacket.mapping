@@ -1,0 +1,13 @@
+CLASS jw net/minecraft/client/network/packet/PaintingSpawnClientPacket
+	FIELD a id I
+	FIELD b uuid Ljava/util/UUID;
+	FIELD c pos Let;
+	FIELD d facing Ley;
+	METHOD a read (Liq;)V
+	METHOD a apply (Lit;)V
+	METHOD a apply (Ljr;)V
+	METHOD b getId ()I
+	METHOD b write (Liq;)V
+	METHOD c getPaintingUuid ()Ljava/util/UUID;
+	METHOD d getPos ()Let;
+	METHOD e getFacing ()Ley;

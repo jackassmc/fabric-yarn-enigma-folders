@@ -1,0 +1,48 @@
+CLASS aqu net/minecraft/entity/vehicle/EntityBoat
+	CLASS aqu$b BoatType
+		FIELD a OAK Laqu$b;
+		FIELD b SPRUCE Laqu$b;
+		FIELD c BIRCH Laqu$b;
+		FIELD d JUNGLE Laqu$b;
+		FIELD e ACACIA Laqu$b;
+		FIELD f DARK_OAK Laqu$b;
+		FIELD g name Ljava/lang/String;
+		METHOD a getName ()Ljava/lang/String;
+		METHOD a getType (I)Laqu$b;
+		METHOD a getType (Ljava/lang/String;)Laqu$b;
+	FIELD d BOAT_TYPE Lpj;
+	METHOD <init> (Lazt;DDD)V
+		ARG 1 world
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z
+	METHOD S_ update ()V
+	METHOD a setPositionAndRotations (DDDFFIZ)V
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+		ARG 7 yaw
+		ARG 8 pitch
+	METHOD a damage (Lafe;F)Z
+		ARG 1 source
+		ARG 2 damage
+	METHOD a copyEntityData (Lafv;)V
+		ARG 1 entity
+	METHOD a setBoatType (Laqu$b;)V
+		ARG 1 value
+	METHOD a deserializeCustomData (Lhm;)V
+		ARG 1 tag
+	METHOD aD doesCollide ()Z
+	METHOD aL getMountedHeightOffset ()D
+	METHOD b interact (Lapr;Laeo;)Z
+		ARG 1 player
+		ARG 2 hand
+	METHOD b serializeCustomData (Lhm;)V
+		ARG 1 tag
+	METHOD f asItem ()Lauq;
+	METHOD i pushAwayFrom (Lafv;)V
+		ARG 1 other
+	METHOD p getBoatType ()Laqu$b;
+	METHOD q canAddPassenger (Lafv;)Z
+		ARG 1 entity
+	METHOD y_ initDataTracker ()V

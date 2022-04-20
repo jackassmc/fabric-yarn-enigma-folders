@@ -1,0 +1,8 @@
+CLASS dfx net/minecraft/client/render/block/entity/BannerBlockEntityRenderer
+	FIELD c model Lcxu;
+	METHOD a getTextureId (Lbnj;)Lqc;
+	METHOD a render (Lbnj;DDDFI)V
+	METHOD a render (Lbnq;DDDFI)V
+		ARG 1 entity
+		ARG 2 xOffset
+		ARG 4 yOffset

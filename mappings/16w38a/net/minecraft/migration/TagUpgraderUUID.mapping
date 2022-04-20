@@ -1,0 +1,4 @@
+CLASS pu net/minecraft/migration/TagUpgraderUUID
+	METHOD a getTargetVersion ()I
+	METHOD a upgradeTag (Ldt;)Ldt;
+		ARG 0 tag

@@ -1,0 +1,2 @@
+CLASS dfl net/minecraft/client/texture/ImageFilter
+	METHOD a filterImage (Lcoy;)Lcoy;

@@ -1,0 +1,2 @@
+CLASS agr net/minecraft/item/ItemEnderPearl
+	METHOD a onRightClick (Lali;Lacu;Lsw;)Lsz;

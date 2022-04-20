@@ -1,0 +1,25 @@
+CLASS cep net/minecraft/client/audio/SoundEvent
+	FIELD a sound Lcew;
+	FIELD b category Lpd;
+	FIELD c id Lmd;
+	FIELD d volume F
+	FIELD e pitch F
+	FIELD f x F
+	FIELD g y F
+	FIELD h z F
+	FIELD i repeat Z
+	FIELD j repeatDelay I
+	FIELD k attenuationType Lcez$a;
+	FIELD l accessor Lcfr;
+	METHOD a getId ()Lmd;
+	METHOD a getAccess (Lcfp;)Lcfr;
+	METHOD b getSound ()Lcew;
+	METHOD c getCategory ()Lpd;
+	METHOD d isRepeatable ()Z
+	METHOD e getRepeatDelay ()I
+	METHOD f getVolume ()F
+	METHOD g getPitch ()F
+	METHOD h getX ()F
+	METHOD i getY ()F
+	METHOD j getZ ()F
+	METHOD k getAttenuationType ()Lcez$a;

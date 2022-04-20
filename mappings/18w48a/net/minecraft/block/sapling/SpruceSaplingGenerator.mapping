@@ -1,0 +1,3 @@
+CLASS bnz net/minecraft/block/sapling/SpruceSaplingGenerator
+	METHOD a getLargeTreeFeature (Ljava/util/Random;)Lbsk;
+	METHOD b getTreeFeature (Ljava/util/Random;)Lbsk;

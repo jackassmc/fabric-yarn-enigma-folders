@@ -1,0 +1,2 @@
+CLASS coj net/minecraft/world/loot/function/SetContentsLootFunction
+	CLASS coj$b Factory

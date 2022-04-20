@@ -1,0 +1,15 @@
+CLASS crw net/minecraft/client/gui/menu/DemoGui
+	CLASS crw$1
+		METHOD a onPressed (DD)V
+			ARG 0 mouseX
+			ARG 1 mouseY
+	CLASS crw$2
+		METHOD a onPressed (DD)V
+			ARG 0 mouseX
+			ARG 1 mouseY
+	FIELD a DEMO_BG Lpz;
+	METHOD a draw (IIF)V
+		ARG 1 mouseX
+		ARG 2 mouseY
+	METHOD c onInitialized ()V
+	METHOD d drawBackground ()V

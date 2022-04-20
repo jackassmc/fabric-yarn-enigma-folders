@@ -1,0 +1,3 @@
+CLASS dpd net/minecraft/client/render/entity/feature/SnowmanPumpkinFeatureRenderer
+	METHOD <init> (Ldms;)V
+		ARG 1 context

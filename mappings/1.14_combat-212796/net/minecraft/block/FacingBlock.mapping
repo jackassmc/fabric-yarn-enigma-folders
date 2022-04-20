@@ -1,0 +1,4 @@
+CLASS boa net/minecraft/block/FacingBlock
+	FIELD a FACING Lbwk;
+	METHOD <init> (Lbmr$c;)V
+		ARG 1 settings

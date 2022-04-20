@@ -1,0 +1,4 @@
+CLASS bmp net/minecraft/block/RepeaterBlock
+	FIELD a LOCKED Lbrw;
+	METHOD <init> (Lbig$c;)V
+		ARG 1 settings

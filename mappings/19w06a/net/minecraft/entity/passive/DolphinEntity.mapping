@@ -1,0 +1,3 @@
+CLASS amt net/minecraft/entity/passive/DolphinEntity
+	CLASS amt$a DolphinMoveControl
+		FIELD i dolphin Lamt;

@@ -1,0 +1,18 @@
+CLASS hx net/minecraft/nbt/TagLong
+	FIELD f value J
+	METHOD a getType ()B
+	METHOD a read (Ljava/io/DataInput;ILhy;)V
+		ARG 1 input
+		ARG 2 depth
+	METHOD a write (Ljava/io/DataOutput;)V
+	METHOD a toTextComponent (Ljava/lang/String;I)Lja;
+		ARG 1 indent
+	METHOD b copy ()Lig;
+	METHOD c copy ()Lhx;
+	METHOD d getLong ()J
+	METHOD e getInt ()I
+	METHOD f getShort ()S
+	METHOD g getByte ()B
+	METHOD h getDouble ()D
+	METHOD i getFloat ()F
+	METHOD j getNumber ()Ljava/lang/Number;

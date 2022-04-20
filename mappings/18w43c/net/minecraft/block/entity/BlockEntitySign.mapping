@@ -1,0 +1,23 @@
+CLASS bkz net/minecraft/block/entity/BlockEntitySign
+	FIELD a text [Liw;
+	FIELD f editable Z
+	FIELD g editor Lapb;
+	METHOD C_ shouldBroadcastConsoleToOps ()Z
+	METHOD a sendCommandFeedback ()Z
+	METHOD a setEditor (Lapb;)V
+		ARG 0 value
+	METHOD a serialize (Lhl;)Lhl;
+		ARG 0 tag
+	METHOD a appendCommandFeedback (Liw;)V
+		ARG 0 feedback
+	METHOD a setEditable (Z)V
+		ARG 0 value
+	METHOD aa_ getUpdatePacket ()Ljx;
+	METHOD ab_ serializeInitialChunkData ()Lhl;
+	METHOD b shouldTrackOutput ()Z
+	METHOD b onActivate (Lapb;)Z
+		ARG 0 player
+	METHOD b deserialize (Lhl;)V
+		ARG 0 tag
+	METHOD d isEditable ()Z
+	METHOD e getEditor ()Lapb;

@@ -1,0 +1,7 @@
+CLASS bwu net/minecraft/client/render/entity/EntityRendererZombie
+	METHOD a getTexture (Laan;)Lkq;
+		ARG 0 model
+	METHOD a getTexture (Lsm;)Lkq;
+		ARG 0 model
+	METHOD a getTexture (Lsw;)Lkq;
+		ARG 0 model

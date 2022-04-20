@@ -1,0 +1,2 @@
+CLASS baj net/minecraft/item/DecorationItem
+	FIELD a entityType Laia;

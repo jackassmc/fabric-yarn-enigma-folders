@@ -1,0 +1,19 @@
+CLASS cup net/minecraft/client/gui/menu/CustomizeFlatLevelScreen
+	CLASS cup$a
+		METHOD a renderGuiItemStack (IILaxx;)V
+			ARG 1 y
+			ARG 2 itemStack
+		METHOD c (II)V
+			ARG 1 y
+		METHOD e (IIII)V
+			ARG 1 y
+	FIELD a parent Lcyt;
+	FIELD b config Lcbe;
+	FIELD g titleText Ljava/lang/String;
+	FIELD h tileText Ljava/lang/String;
+	FIELD i heightText Ljava/lang/String;
+	FIELD t widgetButtonAddLayer Lcsa;
+	FIELD u widgetButtonEditLayer Lcsa;
+	FIELD v widgetButtonRemoveLayer Lcsa;
+	METHOD <init> (Lcyt;Lhx;)V
+		ARG 1 parent

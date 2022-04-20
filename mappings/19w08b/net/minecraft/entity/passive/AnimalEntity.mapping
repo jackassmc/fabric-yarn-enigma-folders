@@ -1,0 +1,14 @@
+CLASS amv net/minecraft/entity/passive/AnimalEntity
+	FIELD bA lovingPlayer Ljava/util/UUID;
+	FIELD bC spawningGround Lbig;
+	FIELD bz loveTicks I
+	METHOD <init> (Lahq;Lbdf;)V
+		ARG 1 type
+	METHOD a canBreedWith (Lamv;)Z
+		ARG 1 other
+	METHOD d setLoveTicks (I)V
+		ARG 1 loveTicks
+	METHOD dR getLovingPlayer ()Luw;
+	METHOD dS isInLove ()Z
+	METHOD dT resetLoveTicks ()V
+	METHOD g isBreedingItem (Laxx;)Z

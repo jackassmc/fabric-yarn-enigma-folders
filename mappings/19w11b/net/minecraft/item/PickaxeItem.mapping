@@ -1,0 +1,2 @@
+CLASS bba net/minecraft/item/PickaxeItem
+	FIELD a EFFECTIVE_BLOCKS Ljava/util/Set;

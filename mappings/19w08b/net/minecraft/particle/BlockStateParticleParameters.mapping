@@ -1,0 +1,8 @@
+CLASS fw net/minecraft/particle/BlockStateParticleParameters
+	FIELD a PARAMETERS_FACTORY Lfz$a;
+	FIELD b type Lga;
+	FIELD c blockState Lbre;
+	METHOD <init> (Lga;Lbre;)V
+		ARG 1 type
+		ARG 2 blockState
+	METHOD c getBlockState ()Lbre;

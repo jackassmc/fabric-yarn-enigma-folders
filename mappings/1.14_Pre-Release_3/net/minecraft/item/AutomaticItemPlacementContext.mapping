@@ -1,0 +1,2 @@
+CLASS bas net/minecraft/item/AutomaticItemPlacementContext
+	FIELD g direction Lfa;

@@ -1,0 +1,6 @@
+CLASS did net/minecraft/client/particle/BubblePopParticle
+	CLASS did$a Factory
+	METHOD <init> (Lbhl;DDDDDDLdjl;)V
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z

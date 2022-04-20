@@ -1,0 +1,2 @@
+CLASS agk net/minecraft/client/network/ClientDummyContainerProvider
+	FIELD a name Ljc;

@@ -1,0 +1,4 @@
+CLASS dlg net/minecraft/client/render/entity/PigEntityRenderer
+	FIELD a SKIN Lqc;
+	METHOD a getTexture (Lahc;)Lqc;
+	METHOD a getTexture (Lamu;)Lqc;

@@ -1,0 +1,2 @@
+CLASS afx net/minecraft/entity/effect/MobEffects
+	METHOD a register (ILjava/lang/String;Lafu;)Lafu;

@@ -1,0 +1,2 @@
+CLASS djk net/minecraft/client/particle/TotemParticle
+	CLASS djk$a Factory

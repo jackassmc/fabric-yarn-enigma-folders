@@ -1,0 +1,2 @@
+CLASS axe net/minecraft/item/block/ScaffoldingItem
+	METHOD b getPlacementContext (Laus;)Laus;

@@ -1,0 +1,3 @@
+CLASS aro net/minecraft/entity/boss/dragon/phase/LandingApproachPhase
+	METHOD <init> (Larg;)V
+		ARG 1 dragon

@@ -1,0 +1,6 @@
+CLASS drw net/minecraft/client/tutorial/CraftPlanksTutorialStepHandler
+	FIELD a TITLE Ljc;
+	FIELD b DESCRIPTION Ljc;
+	FIELD c manager Ldsb;
+	FIELD d toast Lcse;
+	FIELD e ticks I

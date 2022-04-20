@@ -1,0 +1,9 @@
+CLASS aqu net/minecraft/entity/EnderEyeEntity
+	METHOD T_ update ()V
+	METHOD a shouldRenderAtDistance (D)Z
+	METHOD a readCustomDataFromTag (Lhq;)V
+	METHOD aA getLightmapCoordinates ()I
+	METHOD b writeCustomDataToTag (Lhq;)V
+	METHOD h setVelocityClient (DDD)V
+		ARG 1 x
+	METHOD y_ initDataTracker ()V

@@ -1,0 +1,6 @@
+CLASS ayk net/minecraft/container/Generic3x3Container
+	FIELD c inventory Lagr;
+	METHOD <init> (ILavq;)V
+		ARG 1 syncId
+	METHOD <init> (ILavq;Lagr;)V
+		ARG 1 syncId

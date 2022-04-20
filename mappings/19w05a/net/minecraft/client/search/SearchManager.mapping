@@ -1,0 +1,11 @@
+CLASS drj net/minecraft/client/search/SearchManager
+	CLASS drj$a Key
+	FIELD a ITEM_TOOLTIP Ldrj$a;
+	FIELD b ITEM_TAG Ldrj$a;
+	FIELD c RECIPE_OUTPUT Ldrj$a;
+	FIELD d instances Ljava/util/Map;
+	METHOD a get (Ldrj$a;)Ldrg;
+		ARG 1 key
+	METHOD a put (Ldrj$a;Ldrg;)V
+		ARG 1 key
+		ARG 2 value

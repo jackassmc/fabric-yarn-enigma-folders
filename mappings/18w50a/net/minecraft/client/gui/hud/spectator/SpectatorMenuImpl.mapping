@@ -1,0 +1,14 @@
+CLASS cxe net/minecraft/client/gui/hud/spectator/SpectatorMenuImpl
+	CLASS cxe$1
+		METHOD a renderIcon (FI)V
+		METHOD a selectElement (Lcxe;)V
+		METHOD ar_ enabled ()Z
+	CLASS cxe$a
+		METHOD a renderIcon (FI)V
+		METHOD a selectElement (Lcxe;)V
+		METHOD ar_ enabled ()Z
+	CLASS cxe$b
+		METHOD a renderIcon (FI)V
+		METHOD a selectElement (Lcxe;)V
+		METHOD ar_ enabled ()Z
+	METHOD a selectElement (Lcxf;)V

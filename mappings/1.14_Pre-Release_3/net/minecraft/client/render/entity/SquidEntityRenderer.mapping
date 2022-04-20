@@ -1,0 +1,2 @@
+CLASS drd net/minecraft/client/render/entity/SquidEntityRenderer
+	FIELD a SKIN Lqs;

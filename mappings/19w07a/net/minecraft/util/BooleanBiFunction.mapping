@@ -1,0 +1,17 @@
+CLASS cnk net/minecraft/util/BooleanBiFunction
+	FIELD a FALSE Lcnk;
+	FIELD b NOT_OR Lcnk;
+	FIELD c ONLY_SECOND Lcnk;
+	FIELD d NOT_FIRST Lcnk;
+	FIELD e ONLY_FIRST Lcnk;
+	FIELD f NOT_SECOND Lcnk;
+	FIELD g NOT_SAME Lcnk;
+	FIELD h NOT_AND Lcnk;
+	FIELD i AND Lcnk;
+	FIELD j SAME Lcnk;
+	FIELD k SECOND Lcnk;
+	FIELD l CAUSES Lcnk;
+	FIELD m FIRST Lcnk;
+	FIELD n CAUSED_BY Lcnk;
+	FIELD o OR Lcnk;
+	FIELD p TRUE Lcnk;

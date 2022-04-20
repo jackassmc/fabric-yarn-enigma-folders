@@ -1,0 +1,9 @@
+CLASS bly net/minecraft/block/BannerBlock
+	FIELD a ROTATION Lbwn;
+	FIELD b COLORED_BANNERS Ljava/util/Map;
+	FIELD c SHAPE Lcsu;
+	METHOD <init> (Lbbb;Lbmp$c;)V
+		ARG 1 color
+		ARG 2 settings
+	METHOD a getForColor (Lbbb;)Lbmp;
+		ARG 0 color

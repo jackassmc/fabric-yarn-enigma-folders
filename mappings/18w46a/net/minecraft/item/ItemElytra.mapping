@@ -1,0 +1,8 @@
+CLASS auf net/minecraft/item/ItemElytra
+	METHOD a canRepair (Lavf;Lavf;)Z
+		ARG 1 item
+	METHOD a use (Lbae;Laqa;Laev;)Laey;
+		ARG 1 world
+		ARG 2 player
+	METHOD e isUsable (Lavf;)Z
+		ARG 0 stack

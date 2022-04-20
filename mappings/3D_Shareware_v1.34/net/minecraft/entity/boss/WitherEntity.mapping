@@ -1,0 +1,12 @@
+CLASS asq net/minecraft/entity/boss/WitherEntity
+	FIELD bA INVUL_TIMER Lqg;
+	FIELD b TRACKED_ENTITY_ID_1 Lqg;
+	FIELD c TRACKED_ENTITY_ID_2 Lqg;
+	FIELD d TRACKED_ENTITY_ID_3 Lqg;
+	METHOD a setTrackedEntityId (II)V
+		ARG 1 headIndex
+	METHOD b canDestroy (Lbuy;)Z
+	METHOD dP getInvulTimer ()I
+	METHOD dQ isAtHalfHealth ()Z
+	METHOD q setInvulTimer (I)V
+	METHOD r getTrackedEntityId (I)I

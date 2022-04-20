@@ -1,0 +1,28 @@
+CLASS cno net/minecraft/util/shape/BitSetVoxelShapeContainer
+	FIELD d storage Ljava/util/BitSet;
+	FIELD e xMin I
+	FIELD f yMin I
+	FIELD g zMin I
+	FIELD h xMax I
+	FIELD i yMax I
+	FIELD j zMax I
+	METHOD <init> (III)V
+		ARG 1 xSize
+		ARG 2 ySize
+		ARG 3 zSize
+	METHOD <init> (IIIIIIIII)V
+		ARG 1 xMask
+		ARG 2 yMask
+		ARG 3 zMask
+		ARG 4 xMin
+		ARG 5 yMin
+		ARG 6 zMin
+		ARG 7 xMax
+		ARG 8 yMax
+		ARG 9 zMax
+	METHOD <init> (Lcnu;)V
+		ARG 1 other
+	METHOD a getIndex (III)I
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z

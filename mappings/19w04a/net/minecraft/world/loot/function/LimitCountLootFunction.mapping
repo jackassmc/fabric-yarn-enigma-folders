@@ -1,0 +1,3 @@
+CLASS ckp net/minecraft/world/loot/function/LimitCountLootFunction
+	CLASS ckp$a Factory
+	FIELD a limit Lcjh;

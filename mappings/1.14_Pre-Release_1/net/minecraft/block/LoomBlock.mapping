@@ -1,0 +1,4 @@
+CLASS bpm net/minecraft/block/LoomBlock
+	FIELD a CONTAINER_NAME Ljw;
+	METHOD <init> (Lbme$c;)V
+		ARG 1 settings

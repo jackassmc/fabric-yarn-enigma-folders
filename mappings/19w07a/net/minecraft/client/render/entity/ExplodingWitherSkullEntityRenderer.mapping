@@ -1,0 +1,3 @@
+CLASS dnh net/minecraft/client/render/entity/ExplodingWitherSkullEntityRenderer
+	FIELD a INVINCIBLE_SKIN Lqh;
+	FIELD f SKIN Lqh;

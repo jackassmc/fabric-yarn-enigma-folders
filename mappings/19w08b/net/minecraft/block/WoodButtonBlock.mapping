@@ -1,0 +1,3 @@
+CLASS bow net/minecraft/block/WoodButtonBlock
+	METHOD <init> (Lbig$c;)V
+		ARG 1 settings

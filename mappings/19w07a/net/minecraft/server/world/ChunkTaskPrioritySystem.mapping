@@ -1,0 +1,39 @@
+CLASS uk net/minecraft/server/world/ChunkTaskPrioritySystem
+	CLASS uk$a RunnableMessage
+		FIELD a function Ljava/util/function/Function;
+		FIELD b pos J
+		FIELD c lastLevelUpdatedToProvider Ljava/util/function/IntSupplier;
+		METHOD <init> (Ljava/util/function/Function;JLjava/util/function/IntSupplier;)V
+			ARG 1 function
+			ARG 2 pos
+			ARG 4 lastLevelUpdatedToProvider
+	CLASS uk$b SorterMessage
+		FIELD a runnable Ljava/lang/Runnable;
+		FIELD b pos J
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD b queues Ljava/util/Map;
+	FIELD c actors Ljava/util/Set;
+	FIELD d sorter Lafr;
+	METHOD <init> (Ljava/util/List;Ljava/util/concurrent/Executor;I)V
+		ARG 1 actors
+		ARG 2 sortingExecutor
+		ARG 3 maxQueues
+	METHOD a getSortingActor (Lafq;)Lafq;
+		ARG 1 actor
+	METHOD a (Lafq;Ljava/util/function/Function;JLjava/util/function/IntSupplier;Z)V
+		ARG 1 actor
+		ARG 5 lastLevelUpdatedToProvider
+	METHOD a getExecutingActor (Lafq;Z)Lafq;
+		ARG 1 actor
+	METHOD a createRunnableMessage (Ljava/lang/Runnable;JLjava/util/function/IntSupplier;)Luk$a;
+		ARG 0 runnable
+		ARG 1 pos
+		ARG 3 lastLevelUpdatedToProvider
+	METHOD a createPrioritySorterMessage (Ljava/lang/Runnable;JZ)Luk$b;
+	METHOD a createRunnableMessage (Luh;Ljava/lang/Runnable;)Luk$a;
+		ARG 0 holder
+		ARG 1 runnable
+	METHOD a (Luj;Lafq;)V
+		ARG 2 actor
+	METHOD b getQueue (Lafq;)Luj;
+		ARG 1 handle

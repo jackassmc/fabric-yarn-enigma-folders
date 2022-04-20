@@ -1,0 +1,13 @@
+CLASS cvl net/minecraft/client/gui/hud/SubtitlesHud
+	CLASS cvl$a net/minecraft/client/gui/hud/SubtitlesHud$SubtitleEntry
+		FIELD b text Ljava/lang/String;
+		FIELD c time J
+		FIELD d pos Lcqh;
+		METHOD a getText ()Ljava/lang/String;
+		METHOD a reset (Lcqh;)V
+		METHOD b getTime ()J
+		METHOD c getPosition ()Lcqh;
+	FIELD a client Lctq;
+	FIELD b entries Ljava/util/List;
+	FIELD g enabled Z
+	METHOD a draw ()V

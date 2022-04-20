@@ -1,0 +1,14 @@
+CLASS kh net/minecraft/client/network/packet/ChunkDeltaUpdateClientPacket
+	CLASS kh$a ChunkDeltaRecord
+		FIELD b pos S
+		FIELD c state Lboh;
+		METHOD a getBlockPos ()Let;
+		METHOD b getPosShort ()S
+		METHOD c getState ()Lboh;
+	FIELD a chunkPos Lbab;
+	FIELD b records [Lkh$a;
+	METHOD a read (Liq;)V
+	METHOD a apply (Lit;)V
+	METHOD a apply (Ljr;)V
+	METHOD b getRecords ()[Lkh$a;
+	METHOD b write (Liq;)V

@@ -1,0 +1,2 @@
+CLASS afn net/minecraft/item/ItemArrow
+	METHOD a createEntityArrow (Lali;Lahf;Luk;)Lacx;

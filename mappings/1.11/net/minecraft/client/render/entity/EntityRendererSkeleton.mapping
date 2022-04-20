@@ -1,0 +1,7 @@
+CLASS bvz net/minecraft/client/render/entity/EntityRendererSkeleton
+	METHOD a getTexture (Lsm;)Lkq;
+		ARG 0 model
+	METHOD a getTexture (Lsw;)Lkq;
+		ARG 0 model
+	METHOD a getTexture (Lzl;)Lkq;
+		ARG 0 model

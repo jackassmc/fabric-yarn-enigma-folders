@@ -1,0 +1,58 @@
+CLASS aml net/minecraft/entity/passive/TurtleEntity
+	CLASS aml$a TurtleMateGoal
+		METHOD a canStart ()Z
+	CLASS aml$b
+		METHOD a canStart ()Z
+		METHOD b shouldContinue ()Z
+		METHOD c start ()V
+		METHOD d onRemove ()V
+		METHOD e tick ()V
+	CLASS aml$c
+		METHOD a canStart ()Z
+		METHOD b shouldContinue ()Z
+	CLASS aml$d
+		METHOD a canStart ()Z
+		METHOD b shouldContinue ()Z
+		METHOD e tick ()V
+	CLASS aml$e TurtleMoveControl
+		FIELD i turtle Laml;
+		METHOD a tick ()V
+	CLASS aml$f
+		METHOD a canStart ()Z
+	CLASS aml$g TurtleSwimNavigation
+		METHOD a createPathNodeNavigator ()Lcgi;
+		METHOD a isValidPosition (Let;)Z
+			ARG 0 pos
+		METHOD b isAtValidPosition ()Z
+	CLASS aml$h
+		METHOD a canStart ()Z
+	CLASS aml$i
+		METHOD a canStart ()Z
+		METHOD b shouldContinue ()Z
+		METHOD d onRemove ()V
+		METHOD e tick ()V
+	CLASS aml$j
+		METHOD a canStart ()Z
+		METHOD b shouldContinue ()Z
+		METHOD c start ()V
+		METHOD d onRemove ()V
+		METHOD e tick ()V
+	METHOD D getAmbientSound ()Lxg;
+	METHOD a createChild (Lagh;)Lagh;
+	METHOD a onStruckByLightning (Laok;)V
+	METHOD a canBeLeashedBy (Laql;)Z
+	METHOD a (Lbat;Lafc;Lagw;Lahe;Lhq;)Lahe;
+		ARG 3 difficulty
+	METHOD a playStepSound (Let;Lbom;)V
+		ARG 1 pos
+	METHOD a readCustomDataFromTag (Lhq;)V
+	METHOD af getSoundSwim ()Lxg;
+	METHOD b createNavigation (Lbas;)Lakv;
+	METHOD b writeCustomDataToTag (Lhq;)V
+	METHOD bx canFly ()Z
+	METHOD ca initAttributes ()V
+	METHOD cv getDeathSound ()Lxg;
+	METHOD e getHurtSound (Laft;)Lxg;
+	METHOD k updateMovement ()V
+	METHOD n initAi ()V
+	METHOD y_ initDataTracker ()V

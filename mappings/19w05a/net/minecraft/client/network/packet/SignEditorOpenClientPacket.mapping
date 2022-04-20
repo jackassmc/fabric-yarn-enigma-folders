@@ -1,0 +1,3 @@
+CLASS lm net/minecraft/client/network/packet/SignEditorOpenClientPacket
+	FIELD a pos Let;
+	METHOD b getPos ()Let;

@@ -1,0 +1,7 @@
+CLASS bmt net/minecraft/block/EnderChestBlock
+	FIELD a FACING Lbus;
+	FIELD b WATERLOGGED Lbup;
+	FIELD c SHAPE Lcrb;
+	FIELD d CONTAINER_NAME Ljv;
+	METHOD <init> (Lbkz$c;)V
+		ARG 1 settings

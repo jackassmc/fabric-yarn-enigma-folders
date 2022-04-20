@@ -1,0 +1,2 @@
+CLASS dja net/minecraft/client/render/entity/ArmorStandEntityRenderer
+	FIELD a TEX Lqd;

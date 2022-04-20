@@ -1,0 +1,9 @@
+CLASS dil net/minecraft/client/particle/ParticleTextureSheet
+	FIELD a TERRAIN_SHEET Ldil;
+	FIELD b PARTICLE_SHEET_OPAQUE Ldil;
+	FIELD c PARTICLE_SHEET_TRANSLUCENT Ldil;
+	FIELD d PARTICLE_SHEET_LIT Ldil;
+	FIELD e CUSTOM Ldil;
+	FIELD f NO_RENDER Ldil;
+	METHOD a begin (Lctz;Ldtv;)V
+	METHOD a draw (Lcuc;)V

@@ -1,0 +1,16 @@
+CLASS aqs net/minecraft/entity/passive/OcelotEntity
+	CLASS aqs$a OcelotFleeGoal
+		FIELD i ocelot Laqs;
+	CLASS aqs$b OcelotTemptGoal
+		FIELD c ocelot Laqs;
+	FIELD bA TAMING_INGREDIENT Lbdw;
+	FIELD bB TRUSTING Lqh;
+	FIELD bC fleeGoal Laqs$a;
+	FIELD bE temptGoal Laqs$b;
+	METHOD dS updateFleeing ()V
+	METHOD dT spawnKittens ()V
+	METHOD dU isTrusting ()Z
+	METHOD r setTrusting (Z)V
+		ARG 1 trusting
+	METHOD s showEmoteParticle (Z)V
+		ARG 1 positive

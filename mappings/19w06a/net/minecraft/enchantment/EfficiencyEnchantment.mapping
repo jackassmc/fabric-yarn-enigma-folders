@@ -1,0 +1,4 @@
+CLASS bav net/minecraft/enchantment/EfficiencyEnchantment
+	METHOD <init> (Lbaw$a;[Lahn;)V
+		ARG 1 weight
+		ARG 2 slotTypes

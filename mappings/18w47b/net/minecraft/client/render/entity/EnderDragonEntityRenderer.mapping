@@ -1,0 +1,17 @@
+CLASS dfv net/minecraft/client/render/entity/EnderDragonEntityRenderer
+	FIELD j EXPLOSION_TEX Lpy;
+	FIELD k SKIN Lpy;
+	METHOD a getTexture (Lagf;)Lpy;
+	METHOD a render (Lago;FFFFFF)V
+		ARG 1 entity
+		ARG 2 limbMoveAngle
+		ARG 3 limbMoveAmount
+		ARG 5 headYaw
+		ARG 6 headPitch
+	METHOD a getTexture (Lamz;)Lpy;
+	METHOD a render (Lamz;FFFFFF)V
+		ARG 1 entity
+		ARG 2 limbMoveAngle
+		ARG 3 limbMoveAmount
+		ARG 5 headYaw
+		ARG 6 headPitch

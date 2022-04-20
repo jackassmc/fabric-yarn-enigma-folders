@@ -1,0 +1,3 @@
+CLASS agd net/minecraft/client/network/ClientDummyContainerProvider
+	FIELD a name Ljb;
+	METHOD d getDisplayName ()Ljb;

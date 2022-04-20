@@ -1,0 +1,6 @@
+CLASS bnr net/minecraft/block/StemBlock
+	FIELD a AGE Lbse;
+	FIELD b AGE_TO_SHAPE [Lcof;
+	FIELD c gourdBlock Lbns;
+	METHOD d getPickItem ()Laxs;
+	METHOD e getGourdBlock ()Lbns;

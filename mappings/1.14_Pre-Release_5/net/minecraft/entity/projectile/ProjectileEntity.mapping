@@ -1,0 +1,45 @@
+CLASS awb net/minecraft/entity/projectile/ProjectileEntity
+	CLASS awb$a PickupType
+		FIELD a NO_PICKUP Lawb$a;
+		FIELD b PICKUP Lawb$a;
+		FIELD c CREATIVE_PICKUP Lawb$a;
+		METHOD a fromOrdinal (I)Lawb$a;
+	FIELD aA piercingKilledEntities Ljava/util/List;
+	FIELD ar PROJECTILE_FLAGS Lqh;
+	FIELD as PIERCE_LEVEL Lqh;
+	FIELD at inBlockState Lbvj;
+	FIELD au life I
+	FIELD aw damage D
+	FIELD ay sound Lyj;
+	FIELD az piercedEntities Lit/unimi/dsi/fastutil/ints/IntOpenHashSet;
+	FIELD c inGround Z
+	FIELD d inGroundTime I
+	FIELD e pickupType Lawb$a;
+	FIELD f shake I
+	FIELD g ownerUuid Ljava/util/UUID;
+	METHOD <init> (Laij;Lbhh;)V
+		ARG 1 type
+	METHOD a setProjectileFlag (IZ)V
+		ARG 1 index
+	METHOD a setOwner (Laif;)V
+	METHOD a onHit (Laio;)V
+	METHOD a onEntityHit (Lcrs;)V
+	METHOD a onHit (Lcrt;)V
+	METHOD a getEntityCollision (Lcrv;Lcrv;)Lcrs;
+	METHOD a setSound (Lyj;)V
+	METHOD a setCritical (Z)V
+	METHOD b setPierceLevel (B)V
+	METHOD c setDamage (D)V
+	METHOD i age ()V
+	METHOD k getSound ()Lyj;
+	METHOD m getOwner ()Laif;
+	METHOD n asItemStack ()Lbca;
+	METHOD n setNoClip (Z)V
+	METHOD o getDamage ()D
+	METHOD o setShotFromCrossbow (Z)V
+	METHOD q isCritical ()Z
+	METHOD r isShotFromCrossbow ()Z
+	METHOD s getPierceLevel ()B
+	METHOD u getDragInWater ()F
+	METHOD v isNoClip ()Z
+	METHOD w clearPiercingStatus ()V

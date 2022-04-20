@@ -1,0 +1,20 @@
+CLASS ayh net/minecraft/container/AnvilContainer
+	FIELD c LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD d result Lagz;
+	FIELD e inventory Lagz;
+	FIELD f levelCost Layt;
+	FIELD g context Layp;
+	FIELD i newItemName Ljava/lang/String;
+	FIELD j player Lawb;
+	METHOD <init> (ILawa;)V
+		ARG 1 syncId
+		ARG 2 inventory
+	METHOD <init> (ILawa;Layp;)V
+		ARG 1 syncId
+		ARG 2 inventory
+		ARG 3 blockContext
+	METHOD a setNewItemName (Ljava/lang/String;)V
+	METHOD d getNextCost (I)I
+		ARG 0 cost
+	METHOD e updateResult ()V
+	METHOD f getLevelCost ()I

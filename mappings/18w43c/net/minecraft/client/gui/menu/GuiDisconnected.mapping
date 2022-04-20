@@ -1,0 +1,16 @@
+CLASS cng net/minecraft/client/gui/menu/GuiDisconnected
+	FIELD a title Ljava/lang/String;
+	FIELD f reason Liw;
+	FIELD g reasonFormatted Ljava/util/List;
+	FIELD h parent Lcnt;
+	FIELD i reasonHeight I
+	METHOD <init> (Lcnt;Ljava/lang/String;Liw;)V
+		ARG 0 parent
+		ARG 1 title
+		ARG 2 reason
+	METHOD a draw (IIF)V
+		ARG 0 mouseX
+		ARG 1 mouseY
+		ARG 2 delta
+	METHOD ah_ canClose ()Z
+	METHOD c init ()V

@@ -1,0 +1,2 @@
+CLASS avd net/minecraft/village/VillagerDataContainer
+	METHOD ee getVillagerData ()Lavc;

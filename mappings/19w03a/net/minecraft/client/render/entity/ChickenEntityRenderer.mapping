@@ -1,0 +1,4 @@
+CLASS dji net/minecraft/client/render/entity/ChickenEntityRenderer
+	FIELD a SKIN Lqc;
+	METHOD a getTexture (Lahc;)Lqc;
+	METHOD a getTexture (Lamk;)Lqc;

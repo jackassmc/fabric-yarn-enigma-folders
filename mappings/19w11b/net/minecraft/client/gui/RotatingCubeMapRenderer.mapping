@@ -1,0 +1,9 @@
+CLASS djk net/minecraft/client/gui/RotatingCubeMapRenderer
+	FIELD a client Lctp;
+	FIELD b cubeMap Ldix;
+	FIELD c time F
+	METHOD <init> (Ldix;)V
+		ARG 1 cubeMap
+	METHOD a render (FF)V
+		ARG 1 delta
+		ARG 2 alpha

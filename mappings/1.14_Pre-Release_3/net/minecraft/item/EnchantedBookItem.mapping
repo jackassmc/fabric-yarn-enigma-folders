@@ -1,0 +1,7 @@
+CLASS bbc net/minecraft/item/EnchantedBookItem
+	METHOD a addEnchantment (Lbbx;Lbfi;)V
+		ARG 0 stack
+		ARG 1 enchantmentInfo
+	METHOD a makeStack (Lbfi;)Lbbx;
+	METHOD e getEnchantmentTag (Lbbx;)Lii;
+		ARG 0 stack

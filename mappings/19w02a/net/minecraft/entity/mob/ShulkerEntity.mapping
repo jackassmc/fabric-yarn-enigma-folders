@@ -1,0 +1,67 @@
+CLASS aqk net/minecraft/entity/mob/ShulkerEntity
+	CLASS aqk$a ShootBulletGoal
+		FIELD b counter I
+		METHOD a canStart ()Z
+		METHOD c start ()V
+		METHOD d onRemove ()V
+		METHOD e tick ()V
+	CLASS aqk$c SearchForTargetGoal
+		METHOD a canStart ()Z
+		METHOD a getSearchBox (D)Lcmo;
+			ARG 1 distance
+		METHOD a (Lahm;)Z
+			ARG 0 entity
+	CLASS aqk$d SearchForPlayerGoal
+		METHOD a canStart ()Z
+		METHOD a getSearchBox (D)Lcmo;
+			ARG 1 distance
+	CLASS aqk$e PeekGoal
+		FIELD b counter I
+		METHOD a canStart ()Z
+		METHOD b shouldContinue ()Z
+		METHOD c start ()V
+		METHOD d onRemove ()V
+		METHOD e tick ()V
+	FIELD bF ATTR_COVERED_ARMOR_BONUS_UUID Ljava/util/UUID;
+	FIELD bG ATTR_COVERED_ARMOR_BONUS Laic;
+	FIELD b ATTACHED_FACE Lpt;
+	FIELD c ATTACHED_BLOCK Lpt;
+	FIELD d PEEK_AMOUNT Lpt;
+	METHOD A playAmbientSound ()V
+	METHOD D getAmbientSound ()Lxt;
+	METHOD a setPositionAndRotations (DDDFFIZ)V
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+	METHOD a setPeekAmount (I)V
+	METHOD a damage (Lagm;F)Z
+		ARG 1 source
+		ARG 2 amount
+	METHOD a move (Lahr;DDD)V
+		ARG 1 type
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z
+	METHOD a prepareEntityData (Lbcg;Lafx;Lahp;Lahx;Lhs;)Lahx;
+		ARG 3 difficulty
+	METHOD a readCustomDataFromTag (Lhs;)V
+	METHOD a onTrackedDataSet (Lpt;)V
+	METHOD aP getBoundingBoxMarginForTargeting ()F
+	METHOD b setPosition (DDD)V
+		ARG 1 x
+	METHOD b writeCustomDataToTag (Lhs;)V
+	METHOD bH getEyeHeight ()F
+	METHOD bX getSoundCategory ()Lxv;
+	METHOD cb initAttributes ()V
+	METHOD cw getDeathSound ()Lxt;
+	METHOD dB getAttachedFace ()Ley;
+	METHOD dC getAttachedBlock ()Let;
+	METHOD dD getPeekAmount ()I
+	METHOD e getHurtSound (Lagm;)Lxt;
+	METHOD g setAttachedBlock (Let;)V
+	METHOD h update ()V
+	METHOD i pushAwayFrom (Lahd;)V
+	METHOD k updateMovement ()V
+	METHOD n prepareGoals ()V
+	METHOD o createBodyControl ()Laij;
+	METHOD w_ initDataTracker ()V

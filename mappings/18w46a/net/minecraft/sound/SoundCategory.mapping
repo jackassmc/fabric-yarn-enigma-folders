@@ -1,0 +1,14 @@
+CLASS xd net/minecraft/sound/SoundCategory
+	FIELD a MASTER Lxd;
+	FIELD b MUSIC Lxd;
+	FIELD c RECORD Lxd;
+	FIELD d WEATHER Lxd;
+	FIELD e BLOCK Lxd;
+	FIELD f HOSTILE Lxd;
+	FIELD g NEUTRAL Lxd;
+	FIELD h PLAYER Lxd;
+	FIELD i AMBIENT Lxd;
+	FIELD j VOICE Lxd;
+	FIELD k NAME_MAP Ljava/util/Map;
+	FIELD l name Ljava/lang/String;
+	METHOD a getName ()Ljava/lang/String;

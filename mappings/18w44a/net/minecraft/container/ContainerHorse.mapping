@@ -1,0 +1,24 @@
+CLASS ary net/minecraft/container/ContainerHorse
+	CLASS ary$1
+		METHOD a canInsert (Lauv;)Z
+			ARG 0 stack
+		METHOD b doDrawHoveringEffect ()Z
+	CLASS ary$2
+		METHOD a getMaxStackAmount ()I
+		METHOD a canInsert (Lauv;)Z
+			ARG 0 stack
+		METHOD b doDrawHoveringEffect ()Z
+	FIELD a playerInv Laei;
+	FIELD f entity Lalw;
+	METHOD <init> (Laei;Laei;Lalw;Lapr;)V
+		ARG 1 playerInv
+		ARG 2 inventory
+		ARG 3 entity
+		ARG 4 player
+	METHOD a canUse (Lapr;)Z
+		ARG 1 player
+	METHOD b close (Lapr;)V
+		ARG 1 player
+	METHOD b getStack (Lapr;I)Lauv;
+		ARG 1 player
+		ARG 2 slot

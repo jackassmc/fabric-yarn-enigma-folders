@@ -1,0 +1,6 @@
+CLASS bsj net/minecraft/block/SweetBerryBushBlock
+	FIELD a AGE Lbwp;
+	FIELD b SMALL_SHAPE Lcsw;
+	FIELD c LARGE_SHAPE Lcsw;
+	METHOD <init> (Lbmr$c;)V
+		ARG 1 settings

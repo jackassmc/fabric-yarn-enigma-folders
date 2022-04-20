@@ -1,0 +1,8 @@
+CLASS agd net/minecraft/util/profiler/ProfilerSystem
+	FIELD a TIMEOUT_NANOSECONDS J
+	FIELD b LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD c nameList Ljava/util/List;
+	FIELD d timeList Lit/unimi/dsi/fastutil/longs/LongList;
+	FIELD e nameDurationMap Lit/unimi/dsi/fastutil/objects/Object2LongMap;
+	FIELD j location Ljava/lang/String;
+	FIELD k tickStarted Z

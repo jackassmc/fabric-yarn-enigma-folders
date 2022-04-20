@@ -1,0 +1,4 @@
+CLASS apl net/minecraft/entity/mob/EntityStray
+	METHOD D getSoundAmbient ()Lxb;
+	METHOD cw getSoundDeath ()Lxb;
+	METHOD e getSoundHurt (Lafl;)Lxb;

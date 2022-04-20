@@ -1,0 +1,73 @@
+CLASS ata net/minecraft/block/BlockPiston
+	FIELD B isSticky Z
+	FIELD a EXTENDED Latv;
+	FIELD b BOX_WEST Lbdr;
+	FIELD c BOX_EAST Lbdr;
+	FIELD d BOX_NORTH Lbdr;
+	FIELD e BOX_SOUTH Lbdr;
+	FIELD f BOX_BOTTOM Lbdr;
+	FIELD g BOX_TOP Lbdr;
+	METHOD <init> (Z)V
+		ARG 0 sticky
+	METHOD a deserializeState (I)Latj;
+		ARG 0 meta
+	METHOD a onPlaced (Lajq;Lco;Latj;Lsv;Lafi;)V
+		ARG 0 world
+		ARG 1 pos
+		ARG 2 state
+		ARG 3 placer
+		ARG 4 stack
+	METHOD a getStateForPlacement (Lajq;Lco;Lcv;FFFILsv;)Latj;
+		ARG 0 world
+		ARG 1 pos
+		ARG 2 facing
+		ARG 3 hitX
+		ARG 4 hitY
+		ARG 5 hitZ
+		ARG 6 metadata
+		ARG 7 player
+	METHOD a move (Lajq;Lco;Lcv;Z)Z
+		ARG 0 world
+		ARG 1 pos
+		ARG 2 dir
+		ARG 3 forward
+	METHOD a (Latj;Lajq;Lco;II)Z
+		ARG 0 state
+		ARG 1 world
+		ARG 2 pos
+	METHOD a addBoundingBoxes (Latj;Lajq;Lco;Lbdr;Ljava/util/List;Lsm;)V
+		ARG 0 state
+		ARG 1 world
+		ARG 2 pos
+		ARG 3 mask
+		ARG 4 list
+		ARG 5 entity
+	METHOD a isMovable (Latj;Lajq;Lco;Lcv;Z)Z
+		ARG 0 state
+		ARG 1 world
+		ARG 2 pos
+		ARG 3 facing
+		ARG 4 canBreak
+	METHOD a applyMirror (Latj;Laos;)Latj;
+		ARG 0 state
+		ARG 1 mirror
+	METHOD a applyRotation (Latj;Laqg;)Latj;
+		ARG 0 state
+		ARG 1 rotation
+	METHOD b createStateFactory ()Latk;
+	METHOD b isFullBoundsCubeForCulling (Latj;)Z
+		ARG 0 state
+	METHOD b getBoundingBox (Latj;Laju;Lco;)Lbdr;
+		ARG 0 state
+		ARG 1 view
+		ARG 2 pos
+	METHOD c (Lajq;Lco;Latj;)V
+		ARG 0 world
+		ARG 1 pos
+		ARG 2 state
+	METHOD c (Latj;)Z
+		ARG 0 state
+	METHOD e serializeState (Latj;)I
+		ARG 0 state
+	METHOD k hasSolidTopSurface (Latj;)Z
+		ARG 0 state

@@ -1,0 +1,10 @@
+CLASS aoj net/minecraft/entity/ai/goal/HoldInHandsGoal
+	FIELD a actor Lait;
+	FIELD b item Lbcc;
+	FIELD c condition Ljava/util/function/Predicate;
+	FIELD d sound Lyk;
+	METHOD <init> (Lait;Lbcc;Lyk;Ljava/util/function/Predicate;)V
+		ARG 1 actor
+		ARG 2 item
+		ARG 3 sound
+		ARG 4 condition

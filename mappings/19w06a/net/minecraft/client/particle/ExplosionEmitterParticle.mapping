@@ -1,0 +1,4 @@
+CLASS ddn net/minecraft/client/particle/ExplosionEmitterParticle
+	CLASS ddn$a Factory
+	FIELD D age_ I
+	FIELD E maxAge_ I

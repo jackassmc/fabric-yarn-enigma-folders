@@ -1,0 +1,20 @@
+CLASS fn net/minecraft/util/math/Vec3i
+	FIELD a x I
+	FIELD b y I
+	FIELD c z I
+	FIELD e ZERO Lfn;
+	METHOD <init> (DDD)V
+		ARG 1 x
+	METHOD d crossProduct (Lfn;)Lfn;
+	METHOD f squaredDistanceTo (DDD)D
+		ARG 1 x
+	METHOD g squaredDistanceToCenter (DDD)D
+		ARG 1 x
+	METHOD i distanceTo (III)D
+		ARG 1 x
+		ARG 2 y
+	METHOD m distanceTo (Lfn;)D
+	METHOD n squaredDistanceTo (Lfn;)D
+	METHOD o getX ()I
+	METHOD p getY ()I
+	METHOD q getZ ()I

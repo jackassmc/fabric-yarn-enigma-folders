@@ -1,0 +1,2 @@
+CLASS bbj net/minecraft/server/network/ServerItemCooldownManager
+	FIELD a player Lvd;

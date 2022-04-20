@@ -1,0 +1,3 @@
+CLASS doq net/minecraft/client/render/entity/BoatEntityRenderer
+	FIELD a model Ldec;
+	FIELD f SKIN [Lqs;

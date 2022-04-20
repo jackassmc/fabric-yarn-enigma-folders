@@ -1,0 +1,3 @@
+CLASS bqi net/minecraft/block/WallPlayerSkullBlock
+	METHOD <init> (Lbmn$c;)V
+		ARG 1 settings

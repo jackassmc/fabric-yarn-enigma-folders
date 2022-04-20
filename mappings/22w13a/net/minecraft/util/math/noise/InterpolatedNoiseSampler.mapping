@@ -1,0 +1,15 @@
+CLASS net/minecraft/class_5822 net/minecraft/util/math/noise/InterpolatedNoiseSampler
+	FIELD field_28774 lowerInterpolatedNoise Lnet/minecraft/class_3537;
+	FIELD field_28775 upperInterpolatedNoise Lnet/minecraft/class_3537;
+	FIELD field_28776 interpolationNoise Lnet/minecraft/class_3537;
+	FIELD field_34752 xzScale D
+	FIELD field_34753 yScale D
+	FIELD field_37206 CODEC Lnet/minecraft/class_7243;
+	METHOD <init> (Lnet/minecraft/class_3537;Lnet/minecraft/class_3537;Lnet/minecraft/class_3537;DDDDD)V
+		ARG 1 lowerInterpolatedNoise
+		ARG 2 upperInterpolatedNoise
+		ARG 3 interpolationNoise
+	METHOD <init> (Lnet/minecraft/class_5819;DDDDD)V
+		ARG 1 random
+	METHOD method_39117 addDebugInfo (Ljava/lang/StringBuilder;)V
+		ARG 1 info

@@ -1,0 +1,32 @@
+CLASS azv net/minecraft/village/VillagerRecipe
+	FIELD a buyItem Lavs;
+	FIELD b secondBuyItem Lavs;
+	FIELD c sellItem Lavs;
+	FIELD d uses I
+	FIELD e maxUses I
+	FIELD f rewardExp Z
+	METHOD <init> (Lavs;Lavn;)V
+		ARG 1 buyItem
+	METHOD <init> (Lavs;Lavs;)V
+		ARG 1 buyItem
+	METHOD <init> (Lavs;Lavs;Lavs;)V
+		ARG 1 buyItem
+		ARG 2 secondBuyItem
+	METHOD <init> (Lavs;Lavs;Lavs;II)V
+		ARG 1 buyItem
+		ARG 2 secondBuyItem
+		ARG 3 sellItem
+		ARG 4 uses
+	METHOD a getBuyItem ()Lavs;
+	METHOD a increasedMaxUses (I)V
+	METHOD a serialize (Lhp;)V
+	METHOD b getSecondBuyItem ()Lavs;
+	METHOD c hasSecondBuyItem ()Z
+	METHOD d getSellItem ()Lavs;
+	METHOD e getUses ()I
+	METHOD f getMaxUses ()I
+	METHOD g use ()V
+	METHOD h isDisabled ()Z
+	METHOD i clearUses ()V
+	METHOD j getRewardExp ()Z
+	METHOD k deserialize ()Lhp;

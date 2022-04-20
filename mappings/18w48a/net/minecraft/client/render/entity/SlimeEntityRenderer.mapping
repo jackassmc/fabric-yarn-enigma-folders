@@ -1,0 +1,4 @@
+CLASS dip net/minecraft/client/render/entity/SlimeEntityRenderer
+	FIELD a SKIN Lpy;
+	METHOD a getTexture (Lagi;)Lpy;
+	METHOD a getTexture (Lapr;)Lpy;

@@ -1,0 +1,6 @@
+CLASS chk net/minecraft/sortme/rule/RandomBlockMatchRuleTest
+	FIELD a block Lbky;
+	FIELD b probability F
+	METHOD <init> (Lbky;F)V
+		ARG 1 block
+		ARG 2 probability

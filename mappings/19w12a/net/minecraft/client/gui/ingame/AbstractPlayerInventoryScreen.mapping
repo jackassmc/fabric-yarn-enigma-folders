@@ -1,0 +1,3 @@
+CLASS czr net/minecraft/client/gui/ingame/AbstractPlayerInventoryScreen
+	FIELD l offsetGuiForEffects Z
+	METHOD e drawPotionEffects ()V

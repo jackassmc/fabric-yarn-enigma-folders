@@ -1,0 +1,3 @@
+CLASS afy net/minecraft/util/Hand
+	FIELD a MAIN Lafy;
+	FIELD b OFF Lafy;

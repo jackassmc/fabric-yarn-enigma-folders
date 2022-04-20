@@ -1,0 +1,7 @@
+CLASS ayh net/minecraft/item/RecordItem
+	FIELD a SOUND_ITEM_MAP Ljava/util/Map;
+	FIELD c sound Lxx;
+	METHOD a bySound (Lxx;)Layh;
+		ARG 0 sound
+	METHOD e getDescription ()Ljg;
+	METHOD f getSound ()Lxx;

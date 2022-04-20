@@ -1,0 +1,3 @@
+CLASS dqo
+	METHOD a setHeadVisible (Z)V
+		ARG 1 visible

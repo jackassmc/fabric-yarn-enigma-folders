@@ -1,0 +1,6 @@
+CLASS ala net/minecraft/client/render/block/BlockRenderLayer
+	FIELD a SOLID Lala;
+	FIELD b MIPPED_CUTOUT Lala;
+	FIELD c CUTOUT Lala;
+	FIELD d TRANSLUCENT Lala;
+	FIELD e name Ljava/lang/String;

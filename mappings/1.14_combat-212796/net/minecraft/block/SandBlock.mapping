@@ -1,0 +1,5 @@
+CLASS brd net/minecraft/block/SandBlock
+	FIELD a color I
+	METHOD <init> (ILbmr$c;)V
+		ARG 1 color
+		ARG 2 settings

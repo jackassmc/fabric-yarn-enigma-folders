@@ -1,0 +1,4 @@
+CLASS brq net/minecraft/block/StructureVoidBlock
+	FIELD a SHAPE Lcsc;
+	METHOD <init> (Lbma$c;)V
+		ARG 1 settings

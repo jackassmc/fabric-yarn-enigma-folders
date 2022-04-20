@@ -1,0 +1,11 @@
+CLASS dab net/minecraft/client/gui/menu/options/ControlsOptionsScreen
+	FIELD a focusedBinding Lcuy;
+	FIELD b time J
+	FIELD c OPTIONS [Lcve;
+	FIELD d parent Lczk;
+	FIELD e options Lcvf;
+	FIELD f keyBindingListWidget Ldaa;
+	FIELD g resetButton Lcwh;
+	METHOD <init> (Lczk;Lcvf;)V
+		ARG 1 parent
+		ARG 2 options

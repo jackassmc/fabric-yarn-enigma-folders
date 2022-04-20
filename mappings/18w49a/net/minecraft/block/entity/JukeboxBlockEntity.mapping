@@ -1,0 +1,7 @@
+CLASS bng net/minecraft/block/entity/JukeboxBlockEntity
+	FIELD a record Lavu;
+	METHOD R_ clearInv ()V
+	METHOD a setRecord (Lavu;)V
+	METHOD a toTag (Lhq;)Lhq;
+	METHOD b fromTag (Lhq;)V
+	METHOD c getRecord ()Lavu;

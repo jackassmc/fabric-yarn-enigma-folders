@@ -1,0 +1,4 @@
+CLASS bxl net/minecraft/world/gen/feature/MegaPineTreeFeature
+	FIELD aU LOG Lbqp;
+	FIELD aV LEAVES Lbqp;
+	FIELD aW PODZOL Lbqp;

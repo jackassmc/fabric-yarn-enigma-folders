@@ -1,0 +1,8 @@
+CLASS cuf net/minecraft/client/gl/GlProgramManager
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD b INSTANCE Lcuf;
+	METHOD a init ()V
+	METHOD a deleteProgram (Lcud;)V
+	METHOD b getInstance ()Lcuf;
+	METHOD b linkProgram (Lcud;)V
+	METHOD c createProgram ()I

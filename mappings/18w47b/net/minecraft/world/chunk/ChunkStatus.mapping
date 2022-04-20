@@ -1,0 +1,32 @@
+CLASS bpz net/minecraft/world/chunk/ChunkStatus
+	FIELD a EMPTY Lbpz;
+	FIELD b STRUCTURE_STARTS Lbpz;
+	FIELD c STRUCTURE_REFERENCES Lbpz;
+	FIELD d BIOMES Lbpz;
+	FIELD e NOISE Lbpz;
+	FIELD f SURFACE Lbpz;
+	FIELD g CARVERS Lbpz;
+	FIELD h LIQUID_CARVERS Lbpz;
+	FIELD i FEATURES Lbpz;
+	FIELD j LIGHT Lbpz;
+	FIELD k SPAWN Lbpz;
+	FIELD l HEIGHTMAPS Lbpz;
+	FIELD m FULL Lbpz;
+	FIELD n ORDERED Ljava/util/List;
+	FIELD o STATUS_ORDER Lit/unimi/dsi/fastutil/ints/IntList;
+	FIELD p name Ljava/lang/String;
+	FIELD q orderId I
+	FIELD r previous Lbpz;
+	METHOD a createOrderedList ()Ljava/util/List;
+	METHOD a getOrdered (I)Lbpz;
+		ARG 0 pos
+	METHOD a (Lbpz;)I
+		ARG 0 status
+	METHOD a get (Ljava/lang/String;)Lbpz;
+		ARG 0 id
+	METHOD a register (Ljava/lang/String;Lbpz;IZLbpz$b;Lbpz$a;)Lbpz;
+	METHOD a register (Ljava/lang/String;Lbpz;IZLbpz$b;Lbpz$c;)Lbpz;
+	METHOD b getOrderedSize ()I
+	METHOD c getOrderId ()I
+	METHOD d getName ()Ljava/lang/String;
+	METHOD e getPrevious ()Lbpz;

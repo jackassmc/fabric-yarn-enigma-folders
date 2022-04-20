@@ -1,0 +1,2 @@
+CLASS ddg net/minecraft/client/particle/EndRodParticle
+	CLASS ddg$a Factory

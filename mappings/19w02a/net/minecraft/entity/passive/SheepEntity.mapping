@@ -1,0 +1,37 @@
+CLASS ana net/minecraft/entity/passive/SheepEntity
+	CLASS ana$1
+		METHOD a getType ()Laug;
+		METHOD a canUse (Lark;)Z
+	FIELD bE COLOR Lpt;
+	FIELD bF dyeCraftingInventory Latr;
+	FIELD bG DROPS Ljava/util/Map;
+	FIELD bI COLORS Ljava/util/Map;
+	METHOD D getAmbientSound ()Lxt;
+	METHOD F getLootTableId ()Lqe;
+	METHOD I mobTick ()V
+	METHOD a createChild (Laha;)Laha;
+	METHOD a getChildColor (Lamj;Lamj;)Lawa;
+	METHOD a interactMob (Lark;Lafy;)Z
+		ARG 1 player
+	METHOD a getRgbColor (Lawa;)[F
+		ARG 0 dyeColor
+	METHOD a prepareEntityData (Lbcg;Lafx;Lahp;Lahx;Lhs;)Lahx;
+		ARG 3 difficulty
+	METHOD a playStepSound (Let;Lbqe;)V
+		ARG 1 pos
+	METHOD a readCustomDataFromTag (Lhs;)V
+	METHOD a generateDefaultColor (Ljava/util/Random;)Lawa;
+	METHOD b createChild (Laha;)Lana;
+	METHOD b setColor (Lawa;)V
+	METHOD b writeCustomDataToTag (Lhs;)V
+	METHOD bH getEyeHeight ()F
+	METHOD cb initAttributes ()V
+	METHOD cw getDeathSound ()Lxt;
+	METHOD dB dropItems ()V
+	METHOD dC getColor ()Lawa;
+	METHOD dD isSheared ()Z
+	METHOD e getHurtSound (Lagm;)Lxt;
+	METHOD k updateMovement ()V
+	METHOD n prepareGoals ()V
+	METHOD s setSheared (Z)V
+	METHOD w_ initDataTracker ()V

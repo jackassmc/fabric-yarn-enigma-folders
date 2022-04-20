@@ -1,0 +1,3 @@
+CLASS cqq net/minecraft/world/loot/condition/KilledByPlayerLootCondition
+	CLASS cqq$a Factory
+	FIELD a INSTANCE Lcqq;

@@ -1,0 +1,4 @@
+CLASS btc net/minecraft/block/entity/BarrelBlockEntity
+	FIELD a inventory Lfj;
+	FIELD b viewerCount I
+	METHOD a playSound (Lbvf;Lyi;)V

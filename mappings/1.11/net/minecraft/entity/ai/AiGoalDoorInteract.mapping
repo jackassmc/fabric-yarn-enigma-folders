@@ -1,0 +1,13 @@
+CLASS ub net/minecraft/entity/ai/AiGoalDoorInteract
+	FIELD a owner Lsw;
+	FIELD b doorPos Lco;
+	FIELD c door Lamv;
+	FIELD d shouldStop Z
+	METHOD <init> (Lsw;)V
+		ARG 0 owner
+	METHOD a canStart ()Z
+	METHOD a getDoor (Lco;)Lamv;
+		ARG 0 pos
+	METHOD b shouldContinue ()Z
+	METHOD c start ()V
+	METHOD e tick ()V

@@ -1,0 +1,6 @@
+CLASS ais net/minecraft/entity/EntityGroup
+	FIELD a DEFAULT Lais;
+	FIELD b UNDEAD Lais;
+	FIELD c ARTHROPOD Lais;
+	FIELD d ILLAGER Lais;
+	FIELD e AQUATIC Lais;

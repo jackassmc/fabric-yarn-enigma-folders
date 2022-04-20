@@ -1,0 +1,4 @@
+CLASS dni net/minecraft/client/render/chunk/ChunkRendererFactory
+	METHOD create (Lbhj;Ldkp;)Ldnh;
+		ARG 1 world
+		ARG 2 worldRenderer

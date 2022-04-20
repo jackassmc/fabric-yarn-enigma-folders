@@ -1,0 +1,5 @@
+CLASS axk net/minecraft/container/FurnaceContainer
+	METHOD <init> (ILaum;)V
+		ARG 1 syncId
+	METHOD <init> (ILaum;Lagk;Laxb;)V
+		ARG 1 syncId

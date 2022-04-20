@@ -1,0 +1,2 @@
+CLASS avc net/minecraft/entity/projectile/LlamaSpitEntity
+	FIELD b owner Laqn;

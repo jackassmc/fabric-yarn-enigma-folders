@@ -1,0 +1,9 @@
+CLASS nl net/minecraft/server/network/packet/BookUpdateServerPacket
+	FIELD a stack Lavo;
+	FIELD c hand Laey;
+	METHOD a read (Liq;)V
+	METHOD a apply (Lit;)V
+	METHOD a apply (Lmz;)V
+	METHOD b stack ()Lavo;
+	METHOD b write (Liq;)V
+	METHOD d hand ()Laey;

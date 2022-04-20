@@ -1,0 +1,9 @@
+CLASS bry net/minecraft/block/StemBlock
+	FIELD a AGE Lbwl;
+	FIELD b AGE_TO_SHAPE [Lcss;
+	FIELD c gourdBlock Lbrz;
+	METHOD <init> (Lbrz;Lbmn$c;)V
+		ARG 1 gourdBlock
+		ARG 2 settings
+	METHOD d getPickItem ()Lbbx;
+	METHOD e getGourdBlock ()Lbrz;

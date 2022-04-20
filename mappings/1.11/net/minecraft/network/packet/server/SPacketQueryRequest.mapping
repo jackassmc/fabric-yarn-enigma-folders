@@ -1,0 +1,7 @@
+CLASS ki net/minecraft/network/packet/server/SPacketQueryRequest
+	METHOD a readPacket (Let;)V
+		ARG 0 packet
+	METHOD a applyPacket (Lew;)V
+		ARG 0 handler
+	METHOD b writePacket (Let;)V
+		ARG 0 packet

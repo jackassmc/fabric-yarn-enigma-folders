@@ -1,0 +1,6 @@
+CLASS brp net/minecraft/world/border/WorldBorderStage
+	FIELD a GROWING Lbrp;
+	FIELD b SHRINKING Lbrp;
+	FIELD c STATIC Lbrp;
+	FIELD d color I
+	METHOD a getColor ()I

@@ -1,0 +1,3 @@
+CLASS bot net/minecraft/block/FurnaceBlock
+	METHOD <init> (Lbmn$c;)V
+		ARG 1 settings

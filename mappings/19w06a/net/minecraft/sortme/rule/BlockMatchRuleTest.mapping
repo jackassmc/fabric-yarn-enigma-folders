@@ -1,0 +1,4 @@
+CLASS cdx net/minecraft/sortme/rule/BlockMatchRuleTest
+	FIELD a block Lbhv;
+	METHOD <init> (Lbhv;)V
+		ARG 1 block

@@ -1,0 +1,15 @@
+CLASS bmi net/minecraft/block/SkullBlock
+	CLASS bmi$a SkullType
+	CLASS bmi$b Type
+		FIELD a SKELETON Lbmi$b;
+		FIELD b WITHER_SKELETON Lbmi$b;
+		FIELD c PLAYER Lbmi$b;
+		FIELD d ZOMBIE Lbmi$b;
+		FIELD e CREEPER Lbmi$b;
+		FIELD f DRAGON Lbmi$b;
+	FIELD a ROTATION Lbrk;
+	FIELD b SHAPE Lcnl;
+	METHOD k (Lbqk;Lbbw;Let;)Lcnl;
+		ARG 1 state
+		ARG 2 view
+		ARG 3 pos

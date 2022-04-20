@@ -1,0 +1,18 @@
+CLASS cst net/minecraft/client/gui/container/HorseGui
+	FIELD A mouseX F
+	FIELD B mouseY F
+	FIELD w BG_TEX Lpy;
+	FIELD x playerInv Laes;
+	FIELD y inventory Laes;
+	FIELD z entity Lamk;
+	METHOD <init> (Laes;Laes;Lamk;)V
+		ARG 1 playerInv
+		ARG 2 inventory
+	METHOD a drawBackground (FII)V
+		ARG 1 delta
+		ARG 2 mouseX
+	METHOD a draw (IIF)V
+		ARG 1 mouseX
+		ARG 2 mouseY
+	METHOD c drawForeground (II)V
+		ARG 1 mouseX

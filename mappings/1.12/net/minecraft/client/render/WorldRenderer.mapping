@@ -1,0 +1,19 @@
+CLASS buo net/minecraft/client/render/WorldRenderer
+	FIELD a anaglyphEnabled Z
+	FIELD e LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD f RAIN_LOC Lnd;
+	FIELD g SNOW_LOC Lnd;
+	FIELD h game Lbhz;
+	FIELD i resourceContainer Lcen;
+	FIELD j rand Ljava/util/Random;
+	METHOD <init> (Lbhz;Lcen;)V
+		ARG 0 game
+		ARG 1 resourceContainer
+	METHOD a draw (FJ)V
+		ARG 0 tickDelta
+		ARG 1 nanoTime
+	METHOD a onResourceReload (Lcen;)V
+		ARG 0 container
+	METHOD a onSetCameraEntity (Lve;)V
+		ARG 0 entity
+	METHOD e tick ()V

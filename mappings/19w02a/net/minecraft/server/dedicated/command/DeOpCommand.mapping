@@ -1,0 +1,2 @@
+CLASS rh net/minecraft/server/dedicated/command/DeOpCommand
+	METHOD a register (Lcom/mojang/brigadier/CommandDispatcher;)V

@@ -1,0 +1,9 @@
+CLASS bmb net/minecraft/block/PressurePlateBlock
+	CLASS bmb$a Type
+		FIELD a WOOD Lbmb$a;
+		FIELD b STONE Lbmb$a;
+	FIELD d POWERED Lbrr;
+	FIELD e type Lbmb$a;
+	METHOD <init> (Lbmb$a;Lbic$c;)V
+		ARG 1 type
+		ARG 2 settings

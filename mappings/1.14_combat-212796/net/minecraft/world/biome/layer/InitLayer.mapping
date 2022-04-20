@@ -1,0 +1,7 @@
+CLASS cmv net/minecraft/world/biome/layer/InitLayer
+	METHOD a create (Lclt;)Lclq;
+		ARG 1 context
+	METHOD a sample (Lclu;II)I
+		ARG 1 context
+		ARG 2 x
+		ARG 3 y

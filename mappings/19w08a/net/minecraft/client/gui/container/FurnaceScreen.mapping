@@ -1,0 +1,2 @@
+CLASS cwv net/minecraft/client/gui/container/FurnaceScreen
+	FIELD z BG_TEX Lqi;

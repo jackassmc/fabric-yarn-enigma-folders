@@ -1,0 +1,13 @@
+CLASS ayo net/minecraft/container/Property
+	CLASS ayo$3
+		FIELD a value I
+	FIELD a oldValue I
+	METHOD a create ()Layo;
+	METHOD a set (I)V
+		ARG 1 value
+	METHOD a create (Layj;I)Layo;
+		ARG 1 key
+	METHOD a create ([II)Layo;
+		ARG 1 key
+	METHOD b get ()I
+	METHOD c detectChanges ()Z

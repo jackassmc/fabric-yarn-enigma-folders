@@ -1,0 +1,5 @@
+CLASS dxp net/minecraft/client/audio/SoundContainer
+	METHOD a preload (Ldxk;)V
+		ARG 1 soundSystem
+	METHOD e getWeight ()I
+	METHOD k getSound ()Ljava/lang/Object;

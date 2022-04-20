@@ -1,0 +1,2 @@
+CLASS dki net/minecraft/client/render/entity/BlazeEntityRenderer
+	FIELD a SKIN Lqi;

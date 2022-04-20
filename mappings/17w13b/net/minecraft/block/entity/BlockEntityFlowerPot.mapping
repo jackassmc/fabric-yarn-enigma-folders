@@ -1,0 +1,17 @@
+CLASS aue net/minecraft/block/entity/BlockEntityFlowerPot
+	FIELD a flower Lahd;
+	FIELD f meta I
+	METHOD <init> (Lahd;I)V
+		ARG 0 flower
+		ARG 1 meat
+	METHOD a getFlowerStack ()Lahf;
+	METHOD a deserialize (Lfc;)V
+		ARG 0 tag
+	METHOD a registerTagUpgraders (Lqv;)V
+		ARG 0 handler
+	METHOD b serialize (Lfc;)Lfc;
+		ARG 0 tag
+	METHOD c getUpdatePacket ()Lhi;
+	METHOD d serializeInitialChunkData ()Lfc;
+	METHOD e getFlower ()Lahd;
+	METHOD f getFlowerMeta ()I

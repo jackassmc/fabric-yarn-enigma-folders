@@ -1,0 +1,3 @@
+CLASS cpp net/minecraft/client/gui/menu/ListEntryLocalScanProgress
+	FIELD c game Lcjj;
+	METHOD a drawEntry (IIIIZF)V

@@ -1,0 +1,5 @@
+CLASS cef net/minecraft/structure/generator/WoodlandMansionGenerator
+	CLASS cef$i Piece
+		FIELD d template Ljava/lang/String;
+		FIELD e rotation Lbmr;
+		FIELD f mirror Lblr;

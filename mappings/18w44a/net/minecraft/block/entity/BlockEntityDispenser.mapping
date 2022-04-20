@@ -1,0 +1,18 @@
+CLASS blt net/minecraft/block/entity/BlockEntityDispenser
+	FIELD a RANDOM Ljava/util/Random;
+	FIELD e inventory Lfe;
+	METHOD <init> (Lblm;)V
+		ARG 1 factory
+	METHOD O_ getName ()Lix;
+	METHOD Q_ isInvEmpty ()Z
+	METHOD U_ getInvSize ()I
+	METHOD a createContainer (Lapq;Lapr;)Larg;
+		ARG 1 playerInv
+		ARG 2 player
+	METHOD a serialize (Lhm;)Lhm;
+		ARG 1 tag
+	METHOD b deserialize (Lhm;)V
+		ARG 1 tag
+	METHOD f getInvMaxStackAmount ()I
+	METHOD l getContainerId ()Ljava/lang/String;
+	METHOD q getInvStackList ()Lfe;

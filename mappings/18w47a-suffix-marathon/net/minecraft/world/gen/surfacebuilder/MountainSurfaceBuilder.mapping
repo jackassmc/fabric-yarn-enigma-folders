@@ -1,0 +1,2 @@
+CLASS cbz net/minecraft/world/gen/surfacebuilder/MountainSurfaceBuilder
+	METHOD a generate (Ljava/util/Random;Lbqb;Lbbl;IIIDLboh;Lboh;IJLccf;)V

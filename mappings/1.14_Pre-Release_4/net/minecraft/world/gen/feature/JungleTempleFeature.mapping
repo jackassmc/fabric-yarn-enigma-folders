@@ -1,0 +1,7 @@
+CLASS cbz net/minecraft/world/gen/feature/JungleTempleFeature
+	CLASS cbz$a Start
+		METHOD <init> (Lceh;IILbic;Lchp;IJ)V
+			ARG 2 chunkX
+			ARG 3 chunkZ
+	METHOD <init> (Ljava/util/function/Function;)V
+		ARG 1 configFactory

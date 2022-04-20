@@ -1,0 +1,4 @@
+CLASS akt net/minecraft/entity/ai/goal/AvoidSunlightGoal
+	FIELD a owner Lahy;
+	METHOD <init> (Lahy;)V
+		ARG 1 owner

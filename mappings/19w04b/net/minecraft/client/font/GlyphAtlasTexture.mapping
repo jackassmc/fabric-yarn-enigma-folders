@@ -1,0 +1,19 @@
+CLASS csj net/minecraft/client/font/GlyphAtlasTexture
+	CLASS csj$a Slot
+		FIELD a x I
+		FIELD b y I
+		FIELD c width I
+		FIELD d height I
+		FIELD e subSlot1 Lcsj$a;
+		FIELD f subSlot2 Lcsj$a;
+		FIELD g isOccupied Z
+		METHOD a findSlotFor (Lcod;)Lcsj$a;
+			ARG 1 glyph
+	FIELD f id Lqd;
+	FIELD g hasColor Z
+	FIELD h rootSlot Lcsj$a;
+	METHOD <init> (Lqd;Z)V
+		ARG 2 hasColor
+	METHOD a getId ()Lqd;
+	METHOD a getGlyphRenderer (Lcod;)Lcsl;
+		ARG 1 glyph

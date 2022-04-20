@@ -1,0 +1,4 @@
+CLASS bbj net/minecraft/enchantment/ChannelingEnchantment
+	METHOD <init> (Lbas$a;[Lahj;)V
+		ARG 1 weight
+		ARG 2 slotTypes

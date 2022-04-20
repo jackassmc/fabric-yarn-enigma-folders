@@ -1,0 +1,4 @@
+CLASS dls net/minecraft/client/texture/ResourceTexture
+	FIELD f location Lpz;
+	FIELD g LOGGER Lorg/apache/logging/log4j/Logger;
+	METHOD a load (Lwd;)V

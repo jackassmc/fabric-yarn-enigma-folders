@@ -1,0 +1,4 @@
+CLASS cgp
+	METHOD a getNoiseSampler ()Lcfe;
+	METHOD a nextInt (I)I
+		ARG 1 bound

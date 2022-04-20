@@ -1,0 +1,13 @@
+CLASS bdb net/minecraft/sortme/SpawnHelper
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	METHOD a spawnEntitiesInChunk (Lahp;Lbcq;Lbsp;Let;)V
+		ARG 0 category
+		ARG 1 world
+		ARG 2 chunk
+		ARG 3 spawnPos
+	METHOD a canSpawn (Lahz$b;Lbcu;Let;Lahi;)Z
+	METHOD a isClearForSpawn (Lbcb;Let;Lbqp;Lcgb;)Z
+	METHOD a populateEntities (Lbcr;Lbdo;IILjava/util/Random;)V
+		ARG 0 world
+		ARG 2 chunkX
+		ARG 3 chunkZ

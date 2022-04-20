@@ -1,0 +1,42 @@
+CLASS dsh net/minecraft/client/audio/SoundManager
+	CLASS dsh$a SoundSystemMinecraft
+	FIELD a MARKER Lorg/apache/logging/log4j/Marker;
+	FIELD b LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD c unknownSounds Ljava/util/Set;
+	FIELD d loader Ldsj;
+	FIELD e settings Lcqi;
+	FIELD g initialized Z
+	FIELD h ticks I
+	FIELD i playingSounds Ljava/util/Map;
+	FIELD j playingSoundIds Ljava/util/Map;
+	FIELD k playingSoundsByCategory Lcom/google/common/collect/Multimap;
+	FIELD l tickingSounds Ljava/util/List;
+	FIELD o listeners Ljava/util/List;
+	FIELD p pausedSoundIds Ljava/util/List;
+	METHOD <init> (Ldsj;Lcqi;)V
+		ARG 1 loader
+	METHOD a reloadSounds ()V
+	METHOD a updateListenerPosition (Lars;F)V
+		ARG 1 player
+	METHOD a isPlaying (Ldrn;)Z
+	METHOD a play (Ldrn;I)V
+		ARG 1 sound
+		ARG 2 volume
+	METHOD a registerListener (Ldsi;)V
+	METHOD a getSoundURL (Lqd;)Ljava/net/URL;
+		ARG 0 identifier
+	METHOD a stopSounds (Lqd;Lxx;)V
+	METHOD a getSoundVolume (Lxx;)F
+	METHOD a updateSoundVolume (Lxx;F)V
+		ARG 1 category
+	METHOD b deinitialize ()V
+	METHOD b stop (Ldrn;)V
+	METHOD b unregisterListener (Ldsi;)V
+	METHOD c stopAll ()V
+	METHOD c play (Ldrn;)V
+	METHOD d update ()V
+	METHOD d getAdjustedPitch (Ldrn;)F
+	METHOD e pause ()V
+	METHOD e getAdjustedVolume (Ldrn;)F
+	METHOD f resume ()V
+	METHOD h initializeSystem ()V

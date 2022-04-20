@@ -1,0 +1,12 @@
+CLASS bqw net/minecraft/block/ShulkerBoxBlock
+	FIELD a FACING Lbwa;
+	FIELD c color Lbar;
+	METHOD a get (Lbar;)Lbme;
+		ARG 0 dyeColor
+	METHOD b getItemStack (Lbar;)Lbbu;
+		ARG 0 color
+	METHOD b getColor (Lbbp;)Lbar;
+		ARG 0 item
+	METHOD d getColor ()Lbar;
+	METHOD e getColor (Lbme;)Lbar;
+		ARG 0 block

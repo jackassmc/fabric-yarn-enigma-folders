@@ -1,0 +1,4 @@
+CLASS dhg net/minecraft/client/particle/ExplosionEmitterParticle
+	CLASS dhg$a Factory
+	FIELD C age_ I
+	FIELD D maxAge_ I

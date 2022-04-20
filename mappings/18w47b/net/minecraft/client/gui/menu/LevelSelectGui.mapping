@@ -1,0 +1,32 @@
+CLASS cui net/minecraft/client/gui/menu/LevelSelectGui
+	CLASS cui$2
+		METHOD a onPressed (DD)V
+			ARG 0 mouseX
+	CLASS cui$3
+		METHOD a onPressed (DD)V
+			ARG 0 mouseX
+	CLASS cui$4
+		METHOD a onPressed (DD)V
+			ARG 0 mouseX
+	CLASS cui$5
+		METHOD a onPressed (DD)V
+			ARG 0 mouseX
+	CLASS cui$6
+		METHOD a onPressed (DD)V
+			ARG 0 mouseX
+	CLASS cui$7
+		METHOD a onPressed (DD)V
+			ARG 0 mouseX
+	FIELD f title Ljava/lang/String;
+	FIELD h LOGGER Lorg/apache/logging/log4j/Logger;
+	METHOD a draw (IIF)V
+		ARG 1 mouseX
+		ARG 2 mouseY
+	METHOD c onInitialized ()V
+	METHOD charTyped (CI)Z
+		ARG 1 chr
+	METHOD f update ()V
+	METHOD keyPressed (III)Z
+		ARG 1 keyCode
+		ARG 2 scanCode
+	METHOD n onClosed ()V

@@ -1,0 +1,15 @@
+CLASS bsz net/minecraft/block/WitherSkullBlock
+	FIELD c witherBossPattern Lbvo;
+	FIELD d witherDispenserPattern Lbvo;
+	METHOD <init> (Lbml$c;)V
+		ARG 1 settings
+	METHOD a onPlaced (Lbhh;Lev;Lbuj;)V
+		ARG 0 world
+		ARG 1 pos
+		ARG 2 blockEntity
+	METHOD b canDispense (Lbhh;Lev;Lbca;)Z
+		ARG 0 world
+		ARG 1 pos
+		ARG 2 stack
+	METHOD d getWitherBossPattern ()Lbvo;
+	METHOD e getWitherDispenserPattern ()Lbvo;

@@ -1,0 +1,5 @@
+CLASS xc net/minecraft/resource/ReloadableResourceManager
+	METHOD a beginReload (Ljava/util/concurrent/Executor;Ljava/util/concurrent/Executor;Ljava/util/List;Ljava/util/concurrent/CompletableFuture;)Ljava/util/concurrent/CompletableFuture;
+	METHOD a beginInitialMonitoredReload (Ljava/util/concurrent/Executor;Ljava/util/concurrent/Executor;Ljava/util/concurrent/CompletableFuture;)Lxb;
+	METHOD a beginMonitoredReload (Ljava/util/concurrent/Executor;Ljava/util/concurrent/Executor;Ljava/util/concurrent/CompletableFuture;Ljava/util/List;)Lxb;
+	METHOD a registerListener (Lwz;)V

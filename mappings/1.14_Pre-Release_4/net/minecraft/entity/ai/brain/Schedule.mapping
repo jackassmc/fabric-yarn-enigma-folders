@@ -1,0 +1,15 @@
+CLASS axg net/minecraft/entity/ai/brain/Schedule
+	FIELD a EMPTY Laxg;
+	FIELD b SIMPLE Laxg;
+	FIELD c VILLAGER_BABY Laxg;
+	FIELD d VILLAGER_DEFAULT Laxg;
+	FIELD e scheduleRules Ljava/util/Map;
+	METHOD a getActivityForTime (I)Laxe;
+		ARG 1 time
+	METHOD a addActivity (Laxe;)V
+		ARG 1 activity
+	METHOD a register (Ljava/lang/String;)Laxh;
+		ARG 0 id
+	METHOD b getRule (Laxe;)Laxi;
+		ARG 1 activity
+	METHOD c getOtherRules (Laxe;)Ljava/util/List;

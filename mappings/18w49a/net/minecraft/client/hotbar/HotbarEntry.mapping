@@ -1,0 +1,4 @@
+CLASS dbz net/minecraft/client/hotbar/HotbarEntry
+	FIELD a delegate Lfh;
+	METHOD a toListTag ()Lhw;
+	METHOD a fromListTag (Lhw;)V

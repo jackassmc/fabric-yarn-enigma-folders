@@ -1,0 +1,126 @@
+CLASS arj net/minecraft/entity/player/PlayerEntity
+	CLASS arj$a SleepResult
+		FIELD a SUCCESS Larj$a;
+		FIELD b INVALID_WORLD Larj$a;
+		FIELD c WRONG_TIME Larj$a;
+		FIELD d TOO_FAR_AWAY Larj$a;
+		FIELD e INVALID_ATTEMPT Larj$a;
+		FIELD f NOT_SAFE Larj$a;
+	CLASS arj$b ChatVisibility
+		FIELD a FULL Larj$b;
+		FIELD b COMMANDS Larj$b;
+		FIELD c HIDDEN Larj$b;
+		FIELD e id I
+		FIELD f key Ljava/lang/String;
+		METHOD a getId ()I
+		METHOD a byId (I)Larj$b;
+		METHOD b getTranslationKey ()Ljava/lang/String;
+	FIELD bA enderChestInventory Lauj;
+	FIELD bB containerPlayer Laub;
+	FIELD bC container Late;
+	FIELD bD hungerManager Latc;
+	FIELD b ABSORPTION_AMOUNT Lps;
+	FIELD bO sleeping Z
+	FIELD bP sleepingPos Let;
+	FIELD bT abilities Larh;
+	FIELD bU experience I
+	FIELD bV experienceLevel I
+	FIELD bW experienceBarProgress F
+	FIELD bX enchantmentTableSeed I
+	FIELD bZ fishHook Lapa;
+	FIELD bv PLAYER_MODEL_BIT_MASK Lps;
+	FIELD bw MAIN_HAND Lps;
+	FIELD bx LEFT_SHOULDER_ENTITY Lps;
+	FIELD by RIGHT_SHOULDER_ENTITY Lps;
+	FIELD bz inventory Lari;
+	FIELD cD renderOffsetY F
+	FIELD c SCORE Lps;
+	FIELD cb gameProfile Lcom/mojang/authlib/GameProfile;
+	FIELD cc reducedDebugInfo Z
+	FIELD ce itemCooldownManager Lawz;
+	FIELD d sleepTimer I
+	FIELD f spawnPosition Let;
+	FIELD g spawnForced Z
+	METHOD a sendVillagerRecipes (ILbbq;)V
+		ARG 1 syncId
+	METHOD a openContainer (Laga;)Ljava/util/OptionalInt;
+	METHOD a addCritParticles (Lahc;)V
+	METHOD a interact (Lahc;Lafw;)Lafx;
+		ARG 1 entity
+	METHOD a setMainHand (Lahk;)V
+	METHOD a openHorseInventory (Lani;Lafq;)V
+	METHOD a spawnEntityItem (Lapg;)Laxd;
+	METHOD a shouldDamagePlayer (Larj;)Z
+	METHOD a isSkinOverlayVisible (Lark;)Z
+	METHOD a openBookEditorGui (Laxd;Lafw;)V
+	METHOD a dropItem (Laxd;Z)Lapg;
+		ARG 1 stack
+	METHOD a dropItem (Laxd;ZZ)Lapg;
+		ARG 1 stack
+	METHOD a openCommandBlockMinecartGui (Lbbs;)V
+	METHOD a setGameMode (Lbci;)V
+	METHOD a openCommandBlockGui (Lbot;)V
+	METHOD a openJigsawGui (Lbpe;)V
+	METHOD a openSignEditorGui (Lbpk;)V
+	METHOD a openStructureBlockGui (Lbpo;)V
+	METHOD a getUuidFromProfile (Lcom/mojang/authlib/GameProfile;)Ljava/util/UUID;
+		ARG 0 profile
+	METHOD a trySleep (Let;)Larj$a;
+	METHOD a isWithinSleepingRange (Let;Ley;)Z
+		ARG 1 sleepPos
+	METHOD a canPlaceBlock (Let;Ley;Laxd;)Z
+		ARG 1 pos
+		ARG 2 side
+	METHOD a unlockRecipes (Ljava/util/Collection;)I
+		ARG 1 recipes
+	METHOD a addChatMessage (Ljc;Z)V
+		ARG 1 message
+	METHOD a increaseStat (Lqd;)V
+	METHOD a playSound (Lxr;Lxt;FF)V
+	METHOD a resetStat (Lxy;)V
+	METHOD a incrementStat (Lxy;I)V
+		ARG 1 stat
+	METHOD a unlockRecipes ([Lqd;)V
+		ARG 1 ids
+	METHOD b addEnchantedHitParticles (Lahc;)V
+	METHOD b getBlockBreakingSpeed (Lbqk;)F
+	METHOD b setPlayerSpawn (Let;Z)V
+		ARG 1 pos
+	METHOD b lockRecipes (Ljava/util/Collection;)I
+		ARG 1 recipes
+	METHOD b incrementStat (Lxy;)V
+	METHOD c isUsingEffectiveTool (Lbqk;)Z
+	METHOD c getOfflinePlayerUuid (Ljava/lang/String;)Ljava/util/UUID;
+		ARG 0 nickname
+	METHOD d addExperience (I)V
+	METHOD dA isSpawnForced ()Z
+	METHOD dB getEnchantmentTableSeed ()I
+	METHOD dD getHungerManager ()Latc;
+	METHOD dE canFoodHeal ()Z
+	METHOD dF canModifyWorld ()Z
+	METHOD dG getEnderChestInventory ()Lauj;
+	METHOD dI getScoreboard ()Lcnr;
+	METHOD dK getReducedDebugInfo ()Z
+	METHOD dL getShoulderEntityLeft ()Lhr;
+	METHOD dM getShoulderEntityRight ()Lhr;
+	METHOD dP getItemCooldownManager ()Lawz;
+	METHOD dQ getLuck ()F
+	METHOD do updateSize ()V
+	METHOD dp getScore ()I
+	METHOD dt requestRespawn ()V
+	METHOD dv getGameProfile ()Lcom/mojang/authlib/GameProfile;
+	METHOD dy getSleepTimer ()I
+	METHOD dz getSpawnPosition ()Let;
+	METHOD f attack (Lahc;)V
+	METHOD g createCooldownManager ()Lawz;
+	METHOD h setShoulderEntityLeft (Lhr;)V
+	METHOD i setShoulderEntityRight (Lhr;)V
+	METHOD n dropSelectedItem (Z)Lapg;
+	METHOD p canConsume (Z)Z
+	METHOD q addExhaustion (F)V
+	METHOD q setScore (I)V
+	METHOD q setReducedDebugInfo (Z)V
+	METHOD r addScore (I)V
+	METHOD t isSpectator ()Z
+	METHOD t_ closeGui ()V
+	METHOD u isCreative ()Z

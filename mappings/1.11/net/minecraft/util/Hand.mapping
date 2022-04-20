@@ -1,0 +1,4 @@
+CLASS rh net/minecraft/util/Hand
+	FIELD a MAIN Lrh;
+	FIELD b OFF Lrh;
+	METHOD values values ()[Lrh;

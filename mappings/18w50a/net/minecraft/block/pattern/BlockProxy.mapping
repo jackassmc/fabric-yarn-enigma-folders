@@ -1,0 +1,11 @@
+CLASS bpq net/minecraft/block/pattern/BlockProxy
+	FIELD b pos Let;
+	FIELD c forceLoad Z
+	FIELD d state Lbpm;
+	FIELD e blockEntity Lbnq;
+	FIELD f cachedEntity Z
+	METHOD <init> (Lbbt;Let;Z)V
+		ARG 2 pos
+	METHOD a getBlockState ()Lbpm;
+	METHOD b getBlockEntity ()Lbnq;
+	METHOD d getPos ()Let;

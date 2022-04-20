@@ -1,0 +1,5 @@
+CLASS bpb net/minecraft/block/entity/BarrelBlockEntity
+	FIELD a inventory Lff;
+	FIELD b viewerCount I
+	FIELD c ticksOpen I
+	METHOD a playSound (Lbre;Lxy;)V

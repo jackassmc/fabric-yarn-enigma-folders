@@ -1,0 +1,6 @@
+CLASS bou net/minecraft/block/enums/SlabType
+	FIELD a TOP Lbou;
+	FIELD b BOTTOM Lbou;
+	FIELD c DOUBLE Lbou;
+	FIELD d name Ljava/lang/String;
+	METHOD m asString ()Ljava/lang/String;

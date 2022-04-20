@@ -1,0 +1,10 @@
+CLASS cye net/minecraft/client/gui/hud/spectator/SpectatorTeleportTeamMenu
+	CLASS cye$a
+		METHOD a renderIcon (FI)V
+		METHOD a selectElement (Lcxy;)V
+		METHOD aj_ enabled ()Z
+	METHOD a getElements ()Ljava/util/List;
+	METHOD a renderIcon (FI)V
+	METHOD a selectElement (Lcxy;)V
+	METHOD aj_ enabled ()Z
+	METHOD b getMessage ()Ljd;

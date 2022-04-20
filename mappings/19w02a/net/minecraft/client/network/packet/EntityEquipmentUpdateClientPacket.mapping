@@ -1,0 +1,17 @@
+CLASS mj net/minecraft/client/network/packet/EntityEquipmentUpdateClientPacket
+	FIELD a id I
+	FIELD b slot Lahi;
+	FIELD c stack Laxd;
+	METHOD <init> (ILahi;Laxd;)V
+		ARG 1 id
+		ARG 2 slot
+	METHOD a read (Lit;)V
+		ARG 1 buf
+	METHOD a apply (Liw;)V
+		ARG 1 listener
+	METHOD a apply (Lju;)V
+	METHOD b getStack ()Laxd;
+	METHOD b write (Lit;)V
+		ARG 1 buf
+	METHOD c getId ()I
+	METHOD d getSlot ()Lahi;

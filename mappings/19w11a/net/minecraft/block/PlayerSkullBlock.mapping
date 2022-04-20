@@ -1,0 +1,3 @@
+CLASS bot net/minecraft/block/PlayerSkullBlock
+	METHOD <init> (Lbkz$c;)V
+		ARG 1 settings

@@ -1,0 +1,6 @@
+CLASS cie net/minecraft/world/biome/layer/InitLayer
+	METHOD a create (Lchc;)Lcgz;
+		ARG 1 context
+	METHOD a sample (Lchd;II)I
+		ARG 2 x
+		ARG 3 y

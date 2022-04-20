@@ -1,0 +1,90 @@
+CLASS art net/minecraft/block/BlockRedstoneWire
+	CLASS art$a ConnectionType
+		FIELD a UP Lart$a;
+		FIELD b SIDE Lart$a;
+		FIELD c NONE Lart$a;
+		FIELD d name Ljava/lang/String;
+		METHOD m asString ()Ljava/lang/String;
+	FIELD a NORTH Lavs;
+	FIELD b EAST Lavs;
+	FIELD c SOUTH Lavs;
+	FIELD d WEST Lavs;
+	FIELD e POWER Lavt;
+	FIELD f BOXES [Lbfm;
+	FIELD g wiresGivePower Z
+	METHOD a deserializeState (I)Lave;
+		ARG 0 meta
+	METHOD a canPlaceAt (Lali;Ldx;)Z
+		ARG 0 world
+		ARG 1 pos
+	METHOD a getPickStack (Lali;Ldx;Lave;)Lahf;
+		ARG 0 world
+		ARG 1 pos
+		ARG 2 state
+	METHOD a update (Lave;Lali;Ldx;Lank;Ldx;)V
+		ARG 0 state
+		ARG 1 world
+		ARG 2 pos
+		ARG 3 block
+		ARG 4 updatePos
+	METHOD a randomDisplayTick (Lave;Lali;Ldx;Ljava/util/Random;)V
+		ARG 0 state
+		ARG 1 world
+		ARG 2 pos
+		ARG 3 rand
+	METHOD a getCollisionBox (Lave;Lalm;Ldx;)Lbfm;
+		ARG 0 state
+		ARG 1 view
+		ARG 2 pos
+	METHOD a applyMirror (Lave;Laqm;)Lave;
+		ARG 0 state
+		ARG 1 mirror
+	METHOD a applyRotation (Lave;Lasa;)Lave;
+		ARG 0 state
+		ARG 1 rotation
+	METHOD a getDropItem (Lave;Ljava/util/Random;I)Lahd;
+		ARG 0 state
+		ARG 1 random
+		ARG 2 fortune
+	METHOD b createStateFactory ()Lavf;
+	METHOD b onBlockRemoved (Lali;Ldx;Lave;)V
+		ARG 0 world
+		ARG 1 pos
+		ARG 2 state
+	METHOD b getRenderConnectionType (Lalm;Ldx;Lee;)Lart$a;
+		ARG 0 view
+		ARG 1 pos
+		ARG 2 facing
+	METHOD b isFullBoundsCubeForCulling (Lave;)Z
+		ARG 0 state
+	METHOD b getBoundingBox (Lave;Lalm;Ldx;)Lbfm;
+		ARG 0 state
+		ARG 1 view
+		ARG 2 pos
+	METHOD b getWeakRedstonePower (Lave;Lalm;Ldx;Lee;)I
+		ARG 0 state
+		ARG 1 view
+		ARG 2 pos
+		ARG 3 facingFrom
+	METHOD c onBlockAdded (Lali;Ldx;Lave;)V
+		ARG 0 world
+		ARG 1 pos
+		ARG 2 state
+	METHOD c isFullBoundsCubeForConnection (Lave;)Z
+		ARG 0 state
+	METHOD c getRenderingState (Lave;Lalm;Ldx;)Lave;
+		ARG 0 state
+		ARG 1 view
+		ARG 2 pos
+	METHOD c getStrongRedstonePower (Lave;Lalm;Ldx;Lee;)I
+		ARG 0 state
+		ARG 1 view
+		ARG 2 pos
+		ARG 3 facingFrom
+	METHOD e getWireColor (I)I
+		ARG 0 powerLevel
+	METHOD e serializeState (Lave;)I
+		ARG 0 state
+	METHOD f getRenderLayer ()Lala;
+	METHOD g emitsRedstonePower (Lave;)Z
+		ARG 0 state

@@ -1,0 +1,3 @@
+CLASS cko net/minecraft/world/loot/FunctionConsumerBuilder
+	METHOD b withFunction (Lckr$a;)Ljava/lang/Object;
+	METHOD c getThis ()Ljava/lang/Object;

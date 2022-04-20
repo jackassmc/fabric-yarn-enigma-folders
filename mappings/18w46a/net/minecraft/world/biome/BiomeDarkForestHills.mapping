@@ -1,0 +1,2 @@
+CLASS bbp net/minecraft/world/biome/BiomeDarkForestHills
+	METHOD b getGrassColorAt (Les;)I

@@ -1,0 +1,7 @@
+CLASS dhv net/minecraft/client/particle/WaterBubbleParticle
+	CLASS dhv$a Factory
+	METHOD <init> (Lbhf;DDDDDD)V
+		ARG 1 world
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z

@@ -1,0 +1,7 @@
+CLASS wo net/minecraft/resource/ResourcePackCompatibility
+	FIELD d notification Ljl;
+	FIELD e confirmMessage Ljl;
+	METHOD a isCompatible ()Z
+	METHOD a from (I)Lwo;
+	METHOD b getNotification ()Ljl;
+	METHOD c getConfirmMessage ()Ljl;

@@ -1,0 +1,29 @@
+CLASS qj net/minecraft/entity/data/DataTracker
+	CLASS qj$a Entry
+		FIELD b value Ljava/lang/Object;
+		FIELD c dirty Z
+		METHOD a set (Ljava/lang/Object;)V
+		METHOD a setDirty (Z)V
+		METHOD b get ()Ljava/lang/Object;
+		METHOD c isDirty ()Z
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD b trackedEntities Ljava/util/Map;
+	FIELD c trackedEntity Lahz;
+	FIELD d entries Ljava/util/Map;
+	FIELD e lock Ljava/util/concurrent/locks/ReadWriteLock;
+	FIELD g dirty Z
+	METHOD a isDirty ()Z
+	METHOD a registerData (Ljava/lang/Class;Lqh;)Lqg;
+		ARG 0 entityClass
+		ARG 1 dataHandler
+	METHOD a serializePacket (Ljava/util/List;Ljc;)V
+	METHOD a serializePacket (Ljc;)V
+	METHOD a get (Lqg;)Ljava/lang/Object;
+	METHOD a startTracking (Lqg;Ljava/lang/Object;)V
+		ARG 1 key
+	METHOD b getDirtyEntries ()Ljava/util/List;
+	METHOD b deserializePacket (Ljc;)Ljava/util/List;
+	METHOD b set (Lqg;Ljava/lang/Object;)V
+		ARG 1 key
+	METHOD c getAllEntries ()Ljava/util/List;
+	METHOD e clearDirty ()V

@@ -1,0 +1,6 @@
+CLASS ann net/minecraft/entity/passive/AbstractDonkeyEntity
+	FIELD bM CHEST Lps;
+	METHOD <init> (Lahm;Lbcu;)V
+		ARG 1 type
+	METHOD dE hasChest ()Z
+	METHOD q setHasChest (Z)V

@@ -1,0 +1,10 @@
+CLASS oe net/minecraft/server/network/packet/PlayerInteractEntityC2SPacket
+	CLASS oe$a InteractionType
+	FIELD a entityId I
+	FIELD b type Loe$a;
+	FIELD c hitPos Lcqo;
+	FIELD d hand Lags;
+	METHOD a getEntity (Lbgf;)Lahy;
+	METHOD b getType ()Loe$a;
+	METHOD c getHand ()Lags;
+	METHOD d getHitPosition ()Lcqo;

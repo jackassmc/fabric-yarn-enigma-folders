@@ -1,0 +1,2 @@
+CLASS dmh net/minecraft/client/render/entity/ShulkerEntityRenderer
+	FIELD j SKIN [Lqh;

@@ -1,0 +1,4 @@
+CLASS dni net/minecraft/client/render/entity/feature/ShoulderParrotFeatureRenderer
+	METHOD <init> (Ldlh;)V
+		ARG 1 context
+	METHOD a renderShoulderParrot (Larj;FFFFFFZ)V

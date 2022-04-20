@@ -1,0 +1,4 @@
+CLASS ddx net/minecraft/client/render/entity/EntityRendererBat
+	FIELD a SKIN Lpw;
+	METHOD a getTexture (Lafy;)Lpw;
+	METHOD a getTexture (Lakv;)Lpw;

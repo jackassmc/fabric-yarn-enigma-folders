@@ -1,0 +1,7 @@
+CLASS dcq net/minecraft/client/render/chunk/ChunkRenderDispatcher
+	FIELD a renderer Ldcg;
+	FIELD b world Lbaq;
+	FIELD f renderers [Ldev;
+	METHOD <init> (Lbaq;ILdcg;Ldew;)V
+		ARG 1 world
+		ARG 3 renderer

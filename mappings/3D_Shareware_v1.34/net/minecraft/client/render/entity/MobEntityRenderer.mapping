@@ -1,0 +1,4 @@
+CLASS dqf net/minecraft/client/render/entity/MobEntityRenderer
+	METHOD <init> (Ldpc;Ldej;F)V
+		ARG 1 renderManager
+		ARG 2 model

@@ -1,0 +1,10 @@
+CLASS dlc net/minecraft/client/util/DefaultSkinHelper
+	FIELD a STEVE_SKIN Lpy;
+	FIELD b ALEX_SKIN Lpy;
+	METHOD a getTexture ()Lpy;
+	METHOD a getTexture (Ljava/util/UUID;)Lpy;
+		ARG 0 uuid
+	METHOD b getModel (Ljava/util/UUID;)Ljava/lang/String;
+		ARG 0 uuid
+	METHOD c shouldUseSlimModel (Ljava/util/UUID;)Z
+		ARG 0 uuid

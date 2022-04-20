@@ -1,0 +1,14 @@
+CLASS none/zz net/minecraft/entity/mob/impl/EntityWitch
+	FIELD c DRINKING Lnone/kj;
+	METHOD G getSoundAmbient ()Lnone/nk;
+	METHOD J ()Lnone/kp;
+	METHOD a attackDistant (Lnone/so;F)V
+		ARG 0 target
+	METHOD a setDrinking (Z)V
+		ARG 0 value
+	METHOD b registerTagUpgraders (Lnone/pf;)V
+	METHOD bD initAttributes ()V
+	METHOD bV getSoundHurt ()Lnone/nk;
+	METHOD bW getSoundDeath ()Lnone/nk;
+	METHOD i initDataTracker ()V
+	METHOD o isDrinking ()Z

@@ -1,0 +1,15 @@
+CLASS awu net/minecraft/entity/raid/RaidManager
+	FIELD a raids Ljava/util/Map;
+	FIELD b world Lvf;
+	FIELD c nextAvailableId I
+	FIELD d currentTime I
+	METHOD a tick ()V
+	METHOD a getRaid (I)Laws;
+		ARG 1 id
+	METHOD a isLivingAroundVillage (Laij;Lev;I)Z
+	METHOD a isValidRaiderFor (Lawt;Laws;)Z
+	METHOD a nameFor (Lbxs;)Ljava/lang/String;
+	METHOD a getRaidAt (Lev;)Laws;
+	METHOD a getOrCreateRaid (Lvf;Lev;)Laws;
+	METHOD a startRaid (Lvg;)Laws;
+	METHOD e nextId ()I

@@ -1,0 +1,11 @@
+CLASS duu net/minecraft/client/render/model/BakedModelManager
+	FIELD a modelMap Ljava/util/Map;
+	FIELD b spriteAtlas Ldtb;
+	FIELD c blockStateMaps Ldjw;
+	FIELD d missingModel Lduq;
+	METHOD <init> (Ldtb;)V
+		ARG 1 spriteAtlas
+	METHOD a getMissingModel ()Lduq;
+	METHOD a getModel (Lduv;)Lduq;
+		ARG 1 id
+	METHOD b getBlockStateMaps ()Ldjw;

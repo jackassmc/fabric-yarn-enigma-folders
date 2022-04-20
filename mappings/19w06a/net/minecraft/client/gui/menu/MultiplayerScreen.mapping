@@ -1,0 +1,4 @@
+CLASS cwt net/minecraft/client/gui/menu/MultiplayerScreen
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD g parent Lcun;
+	METHOD b setIndex (I)V

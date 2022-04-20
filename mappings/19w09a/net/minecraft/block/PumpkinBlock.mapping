@@ -1,0 +1,3 @@
+CLASS bmg net/minecraft/block/PumpkinBlock
+	METHOD <init> (Lbig$c;)V
+		ARG 1 settings

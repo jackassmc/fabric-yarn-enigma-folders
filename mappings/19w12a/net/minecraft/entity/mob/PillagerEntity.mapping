@@ -1,0 +1,5 @@
+CLASS atn net/minecraft/entity/mob/PillagerEntity
+	FIELD b CHARGING Lqf;
+	FIELD d inventory Lagy;
+	METHOD dQ isCharging ()Z
+	METHOD dZ getInventory ()Lagy;

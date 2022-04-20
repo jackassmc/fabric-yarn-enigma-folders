@@ -1,0 +1,6 @@
+CLASS cjm net/minecraft/structure/processor/StructureProcessor
+	METHOD a getType ()Lcjn;
+	METHOD a process (Lbhp;Lev;Lcjo$b;Lcjo$b;Lcjl;)Lcjo$b;
+		ARG 1 world
+		ARG 2 pos
+		ARG 5 placementData

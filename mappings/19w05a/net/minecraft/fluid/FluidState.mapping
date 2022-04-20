@@ -1,0 +1,19 @@
+CLASS cgb net/minecraft/fluid/FluidState
+	METHOD a onScheduledTick (Lbcq;Let;)V
+	METHOD a randomDisplayTick (Lbcq;Let;Ljava/util/Random;)V
+	METHOD a deserialize (Lcom/mojang/datafixers/Dynamic;)Lcgb;
+		ARG 0 dynamic
+	METHOD a serialize (Lcom/mojang/datafixers/types/DynamicOps;Lcgb;)Lcom/mojang/datafixers/Dynamic;
+		ARG 0 ops
+		ARG 1 state
+	METHOD a matches (Lyj;)Z
+	METHOD b onRandomTick (Lbcq;Let;Ljava/util/Random;)V
+	METHOD c getFluid ()Lcga;
+	METHOD d isStill ()Z
+	METHOD d getShape (Lbcb;Let;)Lcnq;
+	METHOD e isEmpty ()Z
+	METHOD f getLevel ()I
+	METHOD g hasRandomTicks ()Z
+	METHOD h getBlockState ()Lbqp;
+	METHOD j getRenderLayer ()Lbcc;
+	METHOD k getBlastResistance ()F

@@ -1,0 +1,20 @@
+CLASS bqy net/minecraft/client/render/block/BlockRenderManager
+	FIELD a maps Lbqx;
+	FIELD b renderer Lbra;
+	FIELD d liquidRenderer Lbqz;
+	METHOD <init> (Lbqx;Lbez;)V
+		ARG 0 maps
+		ARG 1 colorMap
+	METHOD a getStateMaps ()Lbqx;
+	METHOD a getModel (Latj;)Lcbe;
+		ARG 0 state
+	METHOD a render (Latj;F)V
+		ARG 0 state
+		ARG 1 colorMultiplier
+	METHOD a tesselate (Latj;Lco;Lbyw;Laju;)V
+		ARG 0 state
+		ARG 1 pos
+		ARG 3 view
+	METHOD a onResourceReload (Lbzv;)V
+		ARG 0 container
+	METHOD b getRenderer ()Lbra;

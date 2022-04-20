@@ -1,0 +1,31 @@
+CLASS dcu net/minecraft/client/gui/menu/NewLevelScreen
+	FIELD A generatorType I
+	FIELD a generatorOptionsTag Lib;
+	FIELD b parent Lczp;
+	FIELD c textFieldLevelName Lcws;
+	FIELD d textFieldSeed Lcws;
+	FIELD f gameMode Ljava/lang/String;
+	FIELD h structures Z
+	FIELD i commandsAllowed Z
+	FIELD k enableBonusItems Z
+	FIELD m isCreatingLevel Z
+	FIELD o buttonCreateLevel Lcwm;
+	FIELD p buttonGameModeSwitch Lcwm;
+	FIELD q buttonMoreOptions Lcwm;
+	FIELD r buttonGenerateStructures Lcwm;
+	FIELD s buttonGenerateBonusItems Lcwm;
+	FIELD t buttonMapTypeSwitch Lcwm;
+	FIELD u buttonCommandsAllowed Lcwm;
+	FIELD v buttonCustomizeType Lcwm;
+	FIELD y seed Ljava/lang/String;
+	FIELD z levelName Ljava/lang/String;
+	METHOD a recreateLevel (Lcny;)V
+	METHOD c createLevel ()V
+	METHOD keyPressed (III)Z
+		ARG 1 keyCode
+		ARG 2 scanCode
+		ARG 3 modifiers
+	METHOD render (IIF)V
+		ARG 1 mouseX
+		ARG 2 mouseY
+		ARG 3 delta

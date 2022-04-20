@@ -1,0 +1,45 @@
+CLASS bvf net/minecraft/world/gen/feature/AbstractTreeFeature
+	METHOD <init> (Ljava/util/function/Function;Z)V
+		ARG 1 configFactory
+		ARG 2 emitNeighborBlockUpdates
+	METHOD a setToDirt (Lbdk;Les;)V
+		ARG 1 world
+		ARG 2 pos
+	METHOD a canTreeReplace (Lbdl;Les;)Z
+		ARG 0 world
+		ARG 1 pos
+	METHOD a generate (Ljava/util/Set;Lbdk;Ljava/util/Random;Les;)Z
+		ARG 1 logPositions
+		ARG 2 world
+		ARG 3 random
+		ARG 4 pos
+	METHOD a setBlockState (Ljava/util/Set;Lbdn;Les;Lbre;)V
+		ARG 1 logPositions
+		ARG 2 world
+		ARG 3 pos
+		ARG 4 state
+	METHOD b isAir (Lbdl;Les;)Z
+		ARG 0 world
+		ARG 1 pos
+	METHOD b setBlockStateWithoutUpdatingNeighbors (Lbdn;Les;Lbre;)V
+	METHOD c isNaturalDirt (Lbdl;Les;)Z
+		ARG 0 world
+		ARG 1 pos
+	METHOD e isWater (Lbdl;Les;)Z
+		ARG 0 world
+		ARG 1 pos
+	METHOD f isLeaves (Lbdl;Les;)Z
+		ARG 0 world
+		ARG 1 pos
+	METHOD g isAirOrLeaves (Lbdl;Les;)Z
+		ARG 0 world
+		ARG 1 pos
+	METHOD h isNaturalDirtOrGrass (Lbdl;Les;)Z
+		ARG 0 world
+		ARG 1 pos
+	METHOD i isDirtOrGrass (Lbdl;Les;)Z
+		ARG 0 world
+		ARG 1 pos
+	METHOD j isReplaceablePlant (Lbdl;Les;)Z
+		ARG 0 world
+		ARG 1 pos

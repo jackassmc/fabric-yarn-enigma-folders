@@ -1,0 +1,5 @@
+CLASS none/bud net/minecraft/client/render/entity/impl/EntityRendererPolarBear
+	METHOD a (Lnone/sf;DDDFF)V
+	METHOD a (Lnone/so;DDDFF)V
+	METHOD a (Lnone/sp;DDDFF)V
+	METHOD a (Lnone/wt;DDDFF)V

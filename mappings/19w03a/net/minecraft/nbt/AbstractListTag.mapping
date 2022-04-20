@@ -1,0 +1,11 @@
+CLASS hp net/minecraft/nbt/AbstractListTag
+	METHOD a setTag (ILih;)Z
+		ARG 1 index
+	METHOD b addTag (ILih;)Z
+		ARG 1 index
+	METHOD c getTag (I)Lih;
+	METHOD c set (ILih;)V
+		ARG 1 index
+	METHOD d getOrDefault (ILih;)Lih;
+	METHOD set (ILjava/lang/Object;)Ljava/lang/Object;
+		ARG 1 index

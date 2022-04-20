@@ -1,0 +1,3 @@
+CLASS cal net/minecraft/sortme/structures/OceanTempleGenerator
+	CLASS cal$a
+		METHOD a toNbt (Lhp;)V

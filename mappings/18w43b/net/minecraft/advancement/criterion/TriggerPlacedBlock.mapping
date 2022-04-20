@@ -1,0 +1,37 @@
+CLASS bg net/minecraft/advancement/criterion/TriggerPlacedBlock
+	CLASS bg$a Handler
+		FIELD a manager Lqd;
+		FIELD b conditions Ljava/util/Set;
+		METHOD <init> (Lqd;)V
+			ARG 0 manager
+		METHOD a isEmpty ()Z
+		METHOD a handle (Lblz;Leq;Ltz;Lauc;)V
+			ARG 0 state
+			ARG 1 pos
+			ARG 2 world
+			ARG 3 item
+		METHOD a addCondition (Ls$a;)V
+			ARG 0 condition
+		METHOD b removeCondition (Ls$a;)V
+			ARG 0 condition
+	FIELD a ID Lpt;
+	FIELD b handlers Ljava/util/Map;
+	METHOD a getId ()Lpt;
+	METHOD a deserializeConditions (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Lt;
+		ARG 0 obj
+		ARG 1 context
+	METHOD a removePlayer (Lqd;)V
+		ARG 0 manager
+	METHOD a addCondition (Lqd;Ls$a;)V
+		ARG 0 manager
+		ARG 1 condition
+	METHOD a handle (Lub;Leq;Lauc;)V
+		ARG 0 player
+		ARG 1 blockPos
+		ARG 2 item
+	METHOD b deserializeConditions (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Lbg$b;
+		ARG 0 obj
+		ARG 1 context
+	METHOD b removeCondition (Lqd;Ls$a;)V
+		ARG 0 manager
+		ARG 1 condition

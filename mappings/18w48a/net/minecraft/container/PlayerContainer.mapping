@@ -1,0 +1,26 @@
+CLASS asv net/minecraft/container/PlayerContainer
+	CLASS asv$1
+		METHOD a getMaxStackAmount ()I
+		METHOD a canTakeItems (Laqj;)Z
+			ARG 0 player
+		METHOD a canInsert (Lavs;)Z
+			ARG 0 stack
+		METHOD c getBackgroundSprite ()Ljava/lang/String;
+	CLASS asv$2
+		METHOD c getBackgroundSprite ()Ljava/lang/String;
+	FIELD a invCrafting Lask;
+	FIELD f invCraftingResult Latd;
+	FIELD g local Z
+	FIELD i EQUIPMENT_SLOT_ORDER [Lagn;
+	FIELD j owner Laqj;
+	METHOD <init> (Laqi;ZLaqj;)V
+		ARG 1 inventory
+		ARG 2 local
+	METHOD a onContentChanged (Laev;)V
+	METHOD a canUse (Laqj;)Z
+	METHOD a matches (Laxy;)Z
+	METHOD b close (Laqj;)V
+	METHOD b getStack (Laqj;I)Lavs;
+		ARG 1 player
+	METHOD f getCraftingWidth ()I
+	METHOD g getCrafitngHeight ()I

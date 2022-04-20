@@ -1,0 +1,22 @@
+CLASS dxw net/minecraft/client/sound/MusicTracker
+	CLASS dxw$a MusicType
+		FIELD i sound Lym;
+		FIELD j minDelay I
+		FIELD k maxDelay I
+		METHOD <init> (Ljava/lang/String;ILym;II)V
+			ARG 3 soundEvent
+			ARG 4 minDelay
+			ARG 5 maxDelay
+		METHOD a getSound ()Lym;
+		METHOD b getMinDelay ()I
+		METHOD c getMaxDelay ()I
+	FIELD a random Ljava/util/Random;
+	FIELD b client Lcvo;
+	FIELD c current Ldxb;
+	FIELD d timeUntilNextSong I
+	METHOD <init> (Lcvo;)V
+		ARG 1 client
+	METHOD a tick ()V
+	METHOD a play (Ldxw$a;)V
+	METHOD b stop ()V
+	METHOD b isPlayingType (Ldxw$a;)Z

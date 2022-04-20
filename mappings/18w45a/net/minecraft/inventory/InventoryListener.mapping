@@ -1,0 +1,2 @@
+CLASS aen net/minecraft/inventory/InventoryListener
+	METHOD a onInvChange (Lael;)V

@@ -1,0 +1,3 @@
+CLASS bye net/minecraft/client/resource/IResourceReloadListener
+	METHOD a onResourceReload (Lbyd;)V
+		ARG 0 container

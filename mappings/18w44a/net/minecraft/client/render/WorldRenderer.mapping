@@ -1,0 +1,14 @@
+CLASS czs net/minecraft/client/render/WorldRenderer
+	FIELD a firstPersonRenderer Lczu;
+	FIELD c LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD d RAIN_LOC Lpu;
+	FIELD e SNOW_LOC Lpu;
+	FIELD f game Lclp;
+	FIELD g resourceContainer Lvt;
+	FIELD h rand Ljava/util/Random;
+	METHOD a onSetCameraEntity (Lafv;)V
+		ARG 1 entity
+	METHOD a onResourceReload (Lvt;)V
+		ARG 1 manager
+	METHOD e tick ()V
+	METHOD l getGame ()Lclp;

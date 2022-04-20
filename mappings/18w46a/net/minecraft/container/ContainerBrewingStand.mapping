@@ -1,0 +1,44 @@
+CLASS aru net/minecraft/container/ContainerBrewingStand
+	CLASS aru$a SlotFuel
+		METHOD <init> (Laep;III)V
+			ARG 0 inventory
+			ARG 1 invSlot
+			ARG 2 xPosition
+			ARG 3 <Position
+		METHOD a getMaxStackAmount ()I
+		METHOD a canInsert (Lavf;)Z
+			ARG 0 stack
+		METHOD b_ matches (Lavf;)Z
+	CLASS aru$b SlotIngredient
+		METHOD <init> (Laep;III)V
+			ARG 0 inventory
+			ARG 1 invSlot
+			ARG 2 xPosition
+			ARG 3 <Position
+		METHOD a getMaxStackAmount ()I
+		METHOD a canInsert (Lavf;)Z
+			ARG 0 stack
+	CLASS aru$c SlotPotion
+		METHOD <init> (Laep;III)V
+			ARG 0 inventory
+			ARG 1 invSlot
+			ARG 2 xPosition
+			ARG 3 <Position
+		METHOD a getMaxStackAmount ()I
+		METHOD a onTakeItem (Laqa;Lavf;)Lavf;
+			ARG 0 player
+			ARG 1 stack
+		METHOD a canInsert (Lavf;)Z
+			ARG 0 stack
+		METHOD c_ matches (Lavf;)Z
+	FIELD a inventory Laep;
+	FIELD f slotIngredient Lasu;
+	METHOD <init> (Lapz;Laep;)V
+		ARG 1 playerInv
+	METHOD a canUse (Laqa;)Z
+	METHOD a addListener (Larx;)V
+	METHOD b sendContentUpdates ()V
+	METHOD b setProperty (II)V
+		ARG 1 pos
+	METHOD b getStack (Laqa;I)Lavf;
+		ARG 1 player

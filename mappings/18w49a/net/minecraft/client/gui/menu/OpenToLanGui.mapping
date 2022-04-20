@@ -1,0 +1,27 @@
+CLASS csm net/minecraft/client/gui/menu/OpenToLanGui
+	CLASS csm$1
+		METHOD a onPressed (DD)V
+			ARG 0 mouseX
+			ARG 1 mouseY
+	CLASS csm$2
+		METHOD a onPressed (DD)V
+			ARG 0 mouseX
+			ARG 1 mouseY
+	CLASS csm$3
+		METHOD a onPressed (DD)V
+			ARG 0 mouseX
+			ARG 1 mouseY
+	CLASS csm$4
+		METHOD a onPressed (DD)V
+			ARG 0 mouseX
+			ARG 1 mouseY
+	FIELD a parent Lcsl;
+	FIELD f buttonAllowCommands Lcpe;
+	FIELD g buttonGameMode Lcpe;
+	FIELD h gameMode Ljava/lang/String;
+	FIELD i allowCommands Z
+	METHOD a draw (IIF)V
+		ARG 1 mouseX
+		ARG 2 mouseY
+	METHOD c onInitialized ()V
+	METHOD h updateButtonText ()V

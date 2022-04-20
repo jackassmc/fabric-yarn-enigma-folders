@@ -1,0 +1,3 @@
+CLASS bng net/minecraft/block/TallFlowerBlock
+	METHOD <init> (Lbhn$c;)V
+		ARG 1 settings

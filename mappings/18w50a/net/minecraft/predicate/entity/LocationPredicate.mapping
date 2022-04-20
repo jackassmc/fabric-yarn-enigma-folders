@@ -1,0 +1,39 @@
+CLASS bd net/minecraft/predicate/entity/LocationPredicate
+	CLASS bd$a Builder
+		FIELD a x Lbf$c;
+		FIELD b y Lbf$c;
+		FIELD c z Lbf$c;
+		FIELD d biome Lbco;
+		FIELD e feature Lbyn;
+		FIELD f dimension Lbsg;
+		METHOD a build ()Lbd;
+		METHOD a biome (Lbco;)Lbd$a;
+	FIELD a ANY Lbd;
+	FIELD b x Lbf$c;
+	FIELD c y Lbf$c;
+	FIELD d z Lbf$c;
+	FIELD e biome Lbco;
+	FIELD f feature Lbyn;
+	FIELD g dimension Lbsg;
+	METHOD <init> (Lbf$c;Lbf$c;Lbf$c;Lbco;Lbyn;Lbsg;)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 biome
+		ARG 5 feature
+	METHOD a serialize ()Lcom/google/gson/JsonElement;
+	METHOD a (Lbco;)Lbd;
+		ARG 0 biome
+	METHOD a (Lbsg;)Lbd;
+		ARG 0 dimension
+	METHOD a (Lbyn;)Lbd;
+		ARG 0 feature
+	METHOD a deserialize (Lcom/google/gson/JsonElement;)Lbd;
+		ARG 0 element
+	METHOD a test (Luq;DDD)Z
+		ARG 1 world
+		ARG 2 x
+	METHOD a test (Luq;FFF)Z
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y

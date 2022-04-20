@@ -1,0 +1,2 @@
+CLASS arb net/minecraft/village/VillagerDataContainer
+	METHOD dO getVillagerData ()Lara;

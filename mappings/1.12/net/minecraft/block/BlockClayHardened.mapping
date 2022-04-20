@@ -1,0 +1,2 @@
+CLASS arh net/minecraft/block/BlockClayHardened
+	METHOD c getMapColor (Lawr;Lamw;Let;)Lbcy;

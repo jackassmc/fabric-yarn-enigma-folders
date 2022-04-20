@@ -1,0 +1,6 @@
+CLASS acx net/minecraft/entity/mob/EntityGiant
+	METHOD J getLootTableId ()Lnd;
+	METHOD a registerTagUpgraders (Lrw;)V
+		ARG 0 handler
+	METHOD bM initAttributes ()V
+	METHOD by getEyeHeight ()F

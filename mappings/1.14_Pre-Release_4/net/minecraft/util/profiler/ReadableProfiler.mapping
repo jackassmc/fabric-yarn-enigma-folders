@@ -1,0 +1,2 @@
+CLASS agb net/minecraft/util/profiler/ReadableProfiler
+	METHOD d getResults ()Lagc;

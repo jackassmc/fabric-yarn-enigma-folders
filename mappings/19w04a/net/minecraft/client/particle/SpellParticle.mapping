@@ -1,0 +1,12 @@
+CLASS ddt net/minecraft/client/particle/SpellParticle
+	CLASS ddt$a EntityAmbientFactory
+	CLASS ddt$b InstantFactory
+	CLASS ddt$c EntityFactory
+	CLASS ddt$d DefaultFactory
+	CLASS ddt$e WitchFactory
+	FIELD J RANDOM Ljava/util/Random;
+	METHOD <init> (Lbcl;DDDDDD)V
+		ARG 1 world
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z

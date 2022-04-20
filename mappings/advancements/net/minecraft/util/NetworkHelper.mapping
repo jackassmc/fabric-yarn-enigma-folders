@@ -1,0 +1,9 @@
+CLASS qa net/minecraft/util/NetworkHelper
+	FIELD a EXECUTOR_SERVICE Lcom/google/common/util/concurrent/ListeningExecutorService;
+	FIELD c LOGGER Lorg/apache/logging/log4j/Logger;
+	METHOD a getAvailablePort ()I
+	METHOD a downloadResourcePack (Ljava/io/File;Ljava/lang/String;Ljava/util/Map;ILqj;Ljava/net/Proxy;)Lcom/google/common/util/concurrent/ListenableFuture;
+	METHOD a postSnooperData (Ljava/net/URL;Ljava/lang/String;ZLjava/net/Proxy;)Ljava/lang/String;
+	METHOD a postSnooperData (Ljava/net/URL;Ljava/util/Map;ZLjava/net/Proxy;)Ljava/lang/String;
+	METHOD a httpEncodeData (Ljava/util/Map;)Ljava/lang/String;
+	METHOD b getLogger ()Lorg/apache/logging/log4j/Logger;

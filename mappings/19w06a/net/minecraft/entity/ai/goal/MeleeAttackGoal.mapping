@@ -1,0 +1,4 @@
+CLASS ajz net/minecraft/entity/ai/goal/MeleeAttackGoal
+	FIELD a entity Lahy;
+	METHOD <init> (Lahy;DZ)V
+		ARG 1 entity

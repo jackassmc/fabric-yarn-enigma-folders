@@ -1,0 +1,5 @@
+CLASS cbo net/minecraft/world/gen/decorator/CountHeight64Decorator
+	METHOD a (Lbdc;Lbso;Ljava/util/Random;Lbwc;Les;)Ljava/util/stream/Stream;
+		ARG 1 world
+		ARG 2 generator
+		ARG 3 random

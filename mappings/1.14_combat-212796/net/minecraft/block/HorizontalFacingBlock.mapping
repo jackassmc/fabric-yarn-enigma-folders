@@ -1,0 +1,4 @@
+CLASS bph net/minecraft/block/HorizontalFacingBlock
+	FIELD ay FACING Lbwk;
+	METHOD <init> (Lbmr$c;)V
+		ARG 1 settings

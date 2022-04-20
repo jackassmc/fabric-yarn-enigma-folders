@@ -1,0 +1,3 @@
+CLASS cpq net/minecraft/world/loot/function/SetCountLootFunction
+	CLASS cpq$a Factory
+	METHOD a builder (Lcof;)Lcpj$a;

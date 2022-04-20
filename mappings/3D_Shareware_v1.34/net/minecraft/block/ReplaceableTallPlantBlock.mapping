@@ -1,0 +1,2 @@
+CLASS bqr net/minecraft/block/ReplaceableTallPlantBlock
+	FIELD b HALF Lbvw;

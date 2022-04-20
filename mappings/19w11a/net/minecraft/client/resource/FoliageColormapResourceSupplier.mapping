@@ -1,0 +1,2 @@
+CLASS dto net/minecraft/client/resource/FoliageColormapResourceSupplier
+	FIELD a FOLIAGE_COLORMAP_LOC Lqp;

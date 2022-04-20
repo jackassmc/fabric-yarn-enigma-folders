@@ -1,0 +1,49 @@
+CLASS bod net/minecraft/block/PistonBlock
+	FIELD i isSticky Z
+	METHOD a getPlacementState (Latw;)Lboj;
+		ARG 1 context
+	METHOD a onPlaced (Lbaq;Let;Lboj;Lagr;Lavs;)V
+		ARG 1 world
+		ARG 2 pos
+		ARG 3 state
+		ARG 4 placer
+	METHOD a move (Lbaq;Let;Ley;Z)Z
+		ARG 1 world
+		ARG 2 pos
+		ARG 3 dir
+	METHOD a getBoundingShape (Lboj;Lbac;Let;)Lclj;
+		ARG 1 state
+		ARG 2 view
+		ARG 3 pos
+	METHOD a canPlaceAtSide (Lboj;Lbac;Let;Lcfy;)Z
+		ARG 1 world
+		ARG 3 pos
+	METHOD a onBlockAction (Lboj;Lbaq;Let;II)Z
+		ARG 1 state
+		ARG 2 world
+		ARG 3 pos
+	METHOD a neighborUpdate (Lboj;Lbaq;Let;Lbfr;Let;)V
+		ARG 1 state
+		ARG 2 world
+		ARG 3 pos
+		ARG 4 block
+	METHOD a onBlockAdded (Lboj;Lbaq;Let;Lboj;)V
+		ARG 1 world
+		ARG 2 world
+		ARG 3 pos
+	METHOD a isMovable (Lboj;Lbaq;Let;Ley;ZLey;)Z
+		ARG 0 state
+		ARG 1 world
+		ARG 2 pos
+		ARG 3 facing
+		ARG 4 canBreak
+	METHOD a applyMirror (Lboj;Lbja;)Lboj;
+		ARG 1 state
+	METHOD a applyRotation (Lboj;Lbka;)Lboj;
+		ARG 1 state
+		ARG 2 rotation
+	METHOD a appendProperties (Lbok$a;)V
+		ARG 1 builder
+	METHOD d isSimpleFullBlock (Lboj;Lbac;Let;)Z
+	METHOD g canSuffocate (Lboj;Lbac;Let;)Z
+	METHOD i hasSolidTopSurface (Lboj;Lbac;Let;)Z

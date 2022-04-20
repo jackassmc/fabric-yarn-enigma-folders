@@ -1,0 +1,20 @@
+CLASS bx net/minecraft/server/function/CommandFunction
+	CLASS bx$a LazyContainer
+		FIELD a EMPTY Lbx$a;
+		FIELD b id Lqd;
+		FIELD c initialized Z
+		FIELD d function Ljava/util/Optional;
+		METHOD a getId ()Lqd;
+		METHOD a get (Lqq;)Ljava/util/Optional;
+	CLASS bx$b CommandElement
+		FIELD a parsed Lcom/mojang/brigadier/ParseResults;
+	CLASS bx$c Element
+		METHOD a execute (Lqq;Lca;Ljava/util/ArrayDeque;I)V
+	CLASS bx$d FunctionElement
+		FIELD a function Lbx$a;
+	FIELD a elements [Lbx$c;
+	FIELD b id Lqd;
+	METHOD a getId ()Lqd;
+	METHOD a create (Lqd;Lqq;Ljava/util/List;)Lbx;
+		ARG 2 fileLines
+	METHOD b getElements ()[Lbx$c;

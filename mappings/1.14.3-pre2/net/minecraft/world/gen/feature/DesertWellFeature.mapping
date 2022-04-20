@@ -1,0 +1,7 @@
+CLASS cax net/minecraft/world/gen/feature/DesertWellFeature
+	FIELD a CAN_GENERATE Lbvx;
+	FIELD aS slab Lbvn;
+	FIELD aT wall Lbvn;
+	FIELD aU fluidInside Lbvn;
+	METHOD <init> (Ljava/util/function/Function;)V
+		ARG 1 configFactory

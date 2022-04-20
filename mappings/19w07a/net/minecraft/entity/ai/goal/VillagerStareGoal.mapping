@@ -1,0 +1,5 @@
+CLASS ako net/minecraft/entity/ai/goal/VillagerStareGoal
+	FIELD a owner Larm;
+	FIELD b target Lahu;
+	FIELD c speed D
+	FIELD d timeLeft I

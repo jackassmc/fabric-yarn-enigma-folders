@@ -1,0 +1,4 @@
+CLASS aml net/minecraft/entity/ai/goal/MoveToRaidCenterGoal
+	FIELD a owner Lavs;
+	METHOD a includeFreeRaiders (Lavr;)V
+	METHOD g moveToAlternativePosition ()V

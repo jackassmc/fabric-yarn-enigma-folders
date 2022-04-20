@@ -1,0 +1,20 @@
+CLASS ctx net/minecraft/client/gui/container/HorseGui
+	FIELD A mouseX F
+	FIELD B mouseY F
+	FIELD w TEXTURE Lpz;
+	FIELD x playerInv Laex;
+	FIELD y inventory Laex;
+	FIELD z entity Lamp;
+	METHOD <init> (Laex;Laex;Lamp;)V
+		ARG 1 playerInv
+		ARG 2 inventory
+	METHOD a drawBackground (FII)V
+		ARG 1 mouseX
+		ARG 2 mouseY
+		ARG 3 delta
+	METHOD a draw (IIF)V
+		ARG 1 mouseX
+		ARG 2 mouseY
+	METHOD c drawForeground (II)V
+		ARG 1 mouseX
+		ARG 2 mouseY

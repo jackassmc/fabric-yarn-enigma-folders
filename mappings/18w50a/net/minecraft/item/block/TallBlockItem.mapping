@@ -1,0 +1,2 @@
+CLASS avk net/minecraft/item/block/TallBlockItem
+	METHOD a setBlockState (Laus;Lbpm;)Z

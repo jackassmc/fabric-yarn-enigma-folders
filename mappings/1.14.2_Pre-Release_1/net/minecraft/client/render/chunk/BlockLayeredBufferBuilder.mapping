@@ -1,0 +1,6 @@
+CLASS dkd net/minecraft/client/render/chunk/BlockLayeredBufferBuilder
+	FIELD a layerBuilders [Lcul;
+	METHOD a get (I)Lcul;
+		ARG 1 index
+	METHOD a get (Lbgt;)Lcul;
+		ARG 1 layer

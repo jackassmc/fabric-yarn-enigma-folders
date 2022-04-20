@@ -1,0 +1,5 @@
+CLASS bhc net/minecraft/block/BlockGravel
+	METHOD <init> (Lbet$c;)V
+		ARG 1 builder
+	METHOD w getColor (Lbnh;)I
+		ARG 1 state

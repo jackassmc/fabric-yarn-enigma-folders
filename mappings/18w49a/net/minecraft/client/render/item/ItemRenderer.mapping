@@ -1,0 +1,54 @@
+CLASS dhx net/minecraft/client/render/item/ItemRenderer
+	FIELD a ENCHANTMENT_GLINT_TEX Lpz;
+	FIELD b zOffset F
+	FIELD d modelMap Ldcp;
+	FIELD e textureManager Ldlx;
+	FIELD f colorMap Lcos;
+	METHOD a getModelMap ()Ldcp;
+	METHOD a renderItemModel (IIZ)V
+		ARG 1 xPosition
+		ARG 2 yPosition
+	METHOD a renderItemInGui (Lagt;Lavu;II)V
+		ARG 2 itemStack
+		ARG 3 x
+	METHOD a hasDepthInGui (Lavu;)Z
+	METHOD a renderItemWithPropertyOverrides (Lavu;II)V
+		ARG 1 stack
+		ARG 2 xPosition
+	METHOD a renderItem (Lavu;IILdne;)V
+		ARG 1 itemStack
+		ARG 2 x
+		ARG 3 y
+	METHOD a renderItemAmountAndDamageInGUI (Lavu;Lagt;Lddw$b;Z)V
+		ARG 1 stack
+		ARG 2 entity
+		ARG 3 type
+	METHOD a renderItemWithTransformation (Lavu;Lddw$b;)V
+		ARG 1 stack
+	METHOD a renderItemAndGlow (Lavu;Ldne;)V
+	METHOD a renderItemModel (Lavu;Ldne;Lddw$b;Z)V
+		ARG 1 stack
+		ARG 2 model
+		ARG 3 type
+	METHOD a renderQuad (Lcnp;IIIIIIII)V
+	METHOD a renderQuad (Lcnp;Lddj;)V
+		ARG 1 buffer
+	METHOD a renderQuadColored (Lcnp;Lddj;I)V
+	METHOD a renderModelColored (Lcnp;Ljava/util/List;ILavu;)V
+	METHOD a renderItemOverlaysInGUI (Lcou;Lavu;II)V
+		ARG 1 fontRenderer
+		ARG 2 stack
+		ARG 3 x
+	METHOD a renderItemOverlaysInGUIWithText (Lcou;Lavu;IILjava/lang/String;)V
+		ARG 1 fontRenderer
+		ARG 2 stack
+		ARG 3 x
+		ARG 4 y
+	METHOD a renderModelColored (Ldne;I)V
+	METHOD a renderItemModelColored (Ldne;ILavu;)V
+	METHOD a renderItemModel (Ldne;Lavu;)V
+	METHOD a onResourceReload (Lwd;)V
+		ARG 1 manager
+	METHOD b renderItemAndGlowInGui (Lavu;II)V
+		ARG 1 stack
+		ARG 2 xPosition

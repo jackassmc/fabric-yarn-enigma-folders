@@ -1,0 +1,4 @@
+CLASS ly net/minecraft/entity/tracker/TrackedDataHandler
+	METHOD a create (I)Llx;
+	METHOD a read (Lgb;)Ljava/lang/Object;
+	METHOD a write (Lgb;Ljava/lang/Object;)V

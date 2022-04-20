@@ -1,0 +1,2 @@
+CLASS aaj net/minecraft/datafixers/fixes/BlockEntityIdFix
+	FIELD a RENAMED_BLOCK_ENTITIES Ljava/util/Map;

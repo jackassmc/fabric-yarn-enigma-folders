@@ -1,0 +1,4 @@
+CLASS dfd net/minecraft/client/render/entity/EntityRendererHorse
+	FIELD a TEXTURES Ljava/util/Map;
+	METHOD a getTexture (Lafy;)Lpw;
+	METHOD a getTexture (Lama;)Lpw;

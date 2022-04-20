@@ -1,0 +1,79 @@
+CLASS coy net/minecraft/client/texture/NativeImage
+	CLASS coy$a Format
+		FIELD e bytesPerPixel I
+		METHOD a getBytesPerPixel ()I
+	FIELD a WRITE_TO_FILE_OPEN_OPTIONS Ljava/util/Set;
+	FIELD b format Lcoy$a;
+	FIELD c width I
+	FIELD d height I
+	FIELD e isStbImage Z
+	FIELD f pointer J
+	FIELD g sizeBytes I
+	METHOD <init> (Lcoy$a;IIZ)V
+		ARG 1 format
+		ARG 2 width
+		ARG 3 height
+		ARG 4 zeroFill
+	METHOD <init> (Lcoy$a;IIZJ)V
+		ARG 2 width
+		ARG 3 height
+		ARG 5 pointer
+	METHOD a getWidth ()I
+	METHOD a getPixelRGBA (II)I
+		ARG 1 x
+	METHOD a setPixelRGBA (III)V
+		ARG 1 x
+		ARG 2 y
+	METHOD a fillRGBA (IIIII)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 width
+		ARG 4 height
+	METHOD a upload (IIIIIIIZ)V
+		ARG 1 level
+		ARG 2 xOffset
+		ARG 3 yOffset
+		ARG 4 unpackSkipPixels
+		ARG 5 unpackSkipRows
+		ARG 6 width
+		ARG 7 height
+	METHOD a upload (IIIIIIIZZZ)V
+		ARG 1 level
+		ARG 2 xOffset
+		ARG 3 yOffset
+		ARG 4 unpackSkipPixels
+		ARG 5 unpackSkipRows
+		ARG 6 width
+		ARG 7 height
+		ARG 9 clamp
+	METHOD a resizeSubRectTo (IIIILcoy;)V
+	METHOD a upload (IIIZ)V
+	METHOD a fromInputStream (Lcoy$a;Ljava/io/InputStream;)Lcoy;
+	METHOD a fromByteBuffer (Lcoy$a;Ljava/nio/ByteBuffer;)Lcoy;
+	METHOD a writeFile (Ljava/io/File;)V
+	METHOD a fromInputStream (Ljava/io/InputStream;)Lcoy;
+	METHOD a writeFile (Ljava/lang/String;)V
+	METHOD a fromByteBuffer (Ljava/nio/ByteBuffer;)Lcoy;
+	METHOD a writeFile (Ljava/nio/file/Path;)V
+	METHOD a makeGlyphBitmapSubpixel (Lorg/lwjgl/stb/STBTTFontinfo;IIIFFFFII)V
+		ARG 1 fontInfo
+		ARG 2 glyphIndex
+		ARG 3 width
+		ARG 4 height
+		ARG 5 scaleX
+		ARG 6 scaleY
+		ARG 7 shiftX
+		ARG 8 shiftY
+		ARG 10 glyph
+	METHOD b getHeight ()I
+	METHOD b getAlphaOrLuminance (II)B
+		ARG 1 x
+		ARG 2 y
+	METHOD b blendPixel (III)V
+	METHOD b fromBase64 (Ljava/lang/String;)Lcoy;
+		ARG 0 string
+	METHOD b setTextureClamp (Z)V
+		ARG 0 clamp
+	METHOD c getFormat ()Lcoy$a;
+	METHOD d makePixelArray ()[I
+	METHOD g checkAllocated ()V

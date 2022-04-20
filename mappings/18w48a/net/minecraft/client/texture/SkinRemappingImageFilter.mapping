@@ -1,0 +1,2 @@
+CLASS dci net/minecraft/client/texture/SkinRemappingImageFilter
+	METHOD a filterImage (Lcmn;)Lcmn;

@@ -1,0 +1,25 @@
+CLASS lp net/minecraft/client/network/packet/GameJoinS2CPacket
+	FIELD a playerEntityId I
+	FIELD b hardcore Z
+	FIELD c gameMode Lbhc;
+	FIELD d dimension Lbyb;
+	FIELD e maxPlayers I
+	FIELD f generatorType Lbhm;
+	FIELD g chunkLoadDistance I
+	FIELD h reducedDebugInfo Z
+	METHOD <init> (ILbhc;ZLbyb;ILbhm;IZ)V
+		ARG 1 playerEntityId
+		ARG 2 gameMode
+		ARG 3 hardcore
+		ARG 4 dimension
+		ARG 5 maxPlayers
+		ARG 6 generatorType
+		ARG 7 chunkLoadDistance
+		ARG 8 reducedDebugInfo
+	METHOD b getEntityId ()I
+	METHOD c isHardcore ()Z
+	METHOD d getGameMode ()Lbhc;
+	METHOD e getDimension ()Lbyb;
+	METHOD g getGeneratorType ()Lbhm;
+	METHOD h getChunkLoadDistance ()I
+	METHOD i hasReducedDebugInfo ()Z

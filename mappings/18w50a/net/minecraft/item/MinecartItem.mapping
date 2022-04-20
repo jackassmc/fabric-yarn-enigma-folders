@@ -1,0 +1,8 @@
+CLASS awv net/minecraft/item/MinecartItem
+	CLASS awv$1
+		METHOD a playSound (Leu;)V
+		METHOD a (Leu;Lawo;)Lawo;
+			ARG 1 stack
+	FIELD a DISPENSER_BEHAVIOR Lfa;
+	FIELD b type Lasi$a;
+	METHOD a useOnBlock (Layb;)Lafq;

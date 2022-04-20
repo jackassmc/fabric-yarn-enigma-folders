@@ -1,0 +1,11 @@
+CLASS azf net/minecraft/village/VillagerRecipeList
+	METHOD a deserialize ()Lho;
+	METHOD a itemsAreEqual (Lava;Lava;)Z
+		ARG 1 firstItem
+	METHOD a getValidRecipe (Lava;Lava;I)Laze;
+		ARG 1 firstBuyItem
+		ARG 2 secondBuyItem
+	METHOD a serialize (Lho;)V
+	METHOD a writeToBuf (Lip;)V
+	METHOD b readFromBuf (Lip;)Lazf;
+		ARG 0 byteBuf

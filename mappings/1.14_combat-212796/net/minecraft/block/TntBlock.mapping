@@ -1,0 +1,11 @@
+CLASS bsn net/minecraft/block/TntBlock
+	FIELD a UNSTABLE Lbwh;
+	METHOD <init> (Lbmr$c;)V
+		ARG 1 settings
+	METHOD a primeTnt (Lbhn;Lev;)V
+		ARG 0 world
+		ARG 1 pos
+	METHOD a primeTnt (Lbhn;Lev;Laiu;)V
+		ARG 0 world
+		ARG 1 pos
+		ARG 2 igniter

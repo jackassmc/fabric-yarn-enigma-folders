@@ -1,0 +1,4 @@
+CLASS aqg net/minecraft/entity/mob/PigZombieEntity
+	FIELD bC anger I
+	FIELD bE angerTarget Ljava/util/UUID;
+	METHOD a copyEntityData (Lahe;)V

@@ -1,0 +1,9 @@
+CLASS btn net/minecraft/sortme/Hopper
+	FIELD a INSIDE_SHAPE Lcsa;
+	FIELD b ABOVE_SHAPE Lcsa;
+	FIELD c INPUT_AREA_SHAPE Lcsa;
+	METHOD A getHopperY ()D
+	METHOD B getHopperZ ()D
+	METHOD O_ getInputAreaShape ()Lcsa;
+	METHOD w getWorld ()Lbgv;
+	METHOD z getHopperX ()D

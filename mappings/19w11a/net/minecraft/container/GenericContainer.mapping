@@ -1,0 +1,8 @@
+CLASS awy net/minecraft/container/GenericContainer
+	FIELD c inventory Lagk;
+	FIELD d rows I
+	METHOD <init> (Laxs;ILaul;Lagk;I)V
+		ARG 2 syncId
+		ARG 5 rows
+	METHOD e getInventory ()Lagk;
+	METHOD f getRows ()I

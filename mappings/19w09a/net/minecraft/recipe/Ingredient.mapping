@@ -1,0 +1,31 @@
+CLASS bae net/minecraft/recipe/Ingredient
+	CLASS bae$a StackEntry
+		FIELD a stack Laxx;
+	CLASS bae$b TagEntry
+		FIELD a tag Lyq;
+	CLASS bae$c Entry
+		METHOD a getStacks ()Ljava/util/Collection;
+		METHOD b toJson ()Lcom/google/gson/JsonObject;
+	FIELD a EMPTY Lbae;
+	FIELD b NON_EMPTY Ljava/util/function/Predicate;
+	FIELD c entries [Lbae$c;
+	FIELD d stackArray [Laxx;
+	FIELD e ids Lit/unimi/dsi/fastutil/ints/IntList;
+	METHOD <init> (Ljava/util/stream/Stream;)V
+		ARG 1 entries
+	METHOD a getStackArray ()[Laxx;
+	METHOD a fromJson (Lcom/google/gson/JsonElement;)Lbae;
+		ARG 0 element
+	METHOD a entryFromJson (Lcom/google/gson/JsonObject;)Lbae$c;
+	METHOD a write (Liy;)V
+		ARG 1 buf
+	METHOD a ofEntries (Ljava/util/stream/Stream;)Lbae;
+	METHOD a fromTag (Lyq;)Lbae;
+	METHOD a ofStacks ([Laxx;)Lbae;
+	METHOD a ofItems ([Lbde;)Lbae;
+	METHOD b getIds ()Lit/unimi/dsi/fastutil/ints/IntList;
+	METHOD b fromPacket (Liy;)Lbae;
+		ARG 0 buf
+	METHOD c toJson ()Lcom/google/gson/JsonElement;
+	METHOD d isEmpty ()Z
+	METHOD f createStackArray ()V

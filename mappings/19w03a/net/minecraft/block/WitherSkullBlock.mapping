@@ -1,0 +1,11 @@
+CLASS bnz net/minecraft/block/WitherSkullBlock
+	METHOD <init> (Lbhl$c;)V
+		ARG 1 settings
+	METHOD a onPlaced (Lbci;Let;Lbqi;Lahl;Laxc;)V
+		ARG 1 world
+		ARG 2 pos
+		ARG 3 state
+		ARG 4 placer
+		ARG 5 itemStack
+	METHOD d getWitherBossPattern ()Lbqn;
+	METHOD e getWitherDispenserPattern ()Lbqn;

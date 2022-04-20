@@ -1,0 +1,6 @@
+CLASS bpm net/minecraft/block/PortalBlock
+	FIELD a AXIS Lbvu;
+	FIELD b X_SHAPE Lcsa;
+	FIELD c Z_SHAPE Lcsa;
+	METHOD <init> (Lbly$c;)V
+		ARG 1 settings

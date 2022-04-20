@@ -1,0 +1,38 @@
+CLASS dfz net/minecraft/client/render/model/json/ModelElement
+	CLASS dfz$a Deserializer
+		METHOD a deserializeFacesValidating (Lcom/google/gson/JsonDeserializationContext;Lcom/google/gson/JsonObject;)Ljava/util/Map;
+			ARG 1 context
+			ARG 2 object
+		METHOD a (Lcom/google/gson/JsonElement;Ljava/lang/reflect/Type;Lcom/google/gson/JsonDeserializationContext;)Ldfz;
+			ARG 1 element
+			ARG 2 type
+			ARG 3 context
+		METHOD a deserializeRotation (Lcom/google/gson/JsonObject;)Ldgb;
+			ARG 1 object
+		METHOD a deserializeVec3f (Lcom/google/gson/JsonObject;Ljava/lang/String;)Lcpm;
+			ARG 1 object
+			ARG 2 name
+		METHOD a getDirection (Ljava/lang/String;)Ley;
+			ARG 1 name
+		METHOD b deserializeFaces (Lcom/google/gson/JsonDeserializationContext;Lcom/google/gson/JsonObject;)Ljava/util/Map;
+			ARG 1 context
+			ARG 2 object
+		METHOD b deserializeRotationAngle (Lcom/google/gson/JsonObject;)F
+			ARG 1 object
+		METHOD c deserializeAxis (Lcom/google/gson/JsonObject;)Ley$a;
+			ARG 1 object
+		METHOD d deserializeTo (Lcom/google/gson/JsonObject;)Lcpm;
+			ARG 1 object
+		METHOD e deserializeFrom (Lcom/google/gson/JsonObject;)Lcpm;
+			ARG 1 object
+	FIELD a from Lcpm;
+	FIELD b to Lcpm;
+	FIELD c faces Ljava/util/Map;
+	FIELD d rotation Ldgb;
+	FIELD e shade Z
+	METHOD <init> (Lcpm;Lcpm;Ljava/util/Map;Ldgb;Z)V
+		ARG 1 from
+		ARG 2 to
+		ARG 3 faces
+		ARG 4 rotation
+		ARG 5 shade

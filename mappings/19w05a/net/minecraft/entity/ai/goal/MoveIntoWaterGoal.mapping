@@ -1,0 +1,2 @@
+CLASS akw net/minecraft/entity/ai/goal/MoveIntoWaterGoal
+	FIELD a owner Lahu;

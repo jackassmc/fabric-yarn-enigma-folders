@@ -1,0 +1,2 @@
+CLASS dbc net/minecraft/client/gui/screen/ingame/CreativeInventoryListener
+	FIELD a client Lcvn;

@@ -1,0 +1,6 @@
+CLASS bvr net/minecraft/state/property/BooleanProperty
+	FIELD a values Lcom/google/common/collect/ImmutableSet;
+	METHOD a create (Ljava/lang/String;)Lbvr;
+		ARG 0 name
+	METHOD equals (Ljava/lang/Object;)Z
+		ARG 1 o

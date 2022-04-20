@@ -1,0 +1,2 @@
+CLASS dij net/minecraft/client/particle/FishingParticle
+	CLASS dij$a net/minecraft/client/particle/FishingParticle$Factory

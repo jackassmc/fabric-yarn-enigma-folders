@@ -1,0 +1,2 @@
+CLASS avy net/minecraft/item/ItemNetherStar
+	METHOD e_ hasEnchantmentGlow (Lava;)Z

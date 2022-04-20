@@ -1,0 +1,11 @@
+CLASS cjl net/minecraft/world/gen/surfacebuilder/TernarySurfaceConfig
+	FIELD a topMaterial Lbuy;
+	FIELD b underMaterial Lbuy;
+	FIELD c underwaterMaterial Lbuy;
+	METHOD <init> (Lbuy;Lbuy;Lbuy;)V
+		ARG 1 topMaterial
+		ARG 2 underMaterial
+		ARG 3 underwaterMaterial
+	METHOD a deserialize (Lcom/mojang/datafixers/Dynamic;)Lcjl;
+		ARG 0 dynamic
+	METHOD c getUnderwaterMaterial ()Lbuy;

@@ -1,0 +1,37 @@
+CLASS cuy net/minecraft/client/gui/menu/settings/ControlsSettingsGui
+	CLASS cuy$1
+		METHOD a onPressed (DD)V
+			ARG 1 mouseX
+			ARG 3 mouseY
+	CLASS cuy$2
+		METHOD a onPressed (DD)V
+			ARG 1 mouseX
+			ARG 3 mouseY
+	CLASS cuy$3
+		METHOD a onPressed (DD)V
+			ARG 1 mouseX
+			ARG 3 mouseY
+	FIELD a title Ljava/lang/String;
+	FIELD h SETTINGS [Lcqb$a;
+	FIELD i parent Lcug;
+	FIELD s settings Lcqb;
+	FIELD u resetButton Lcqx;
+	METHOD <init> (Lcug;Lcqb;)V
+		ARG 1 parent
+	METHOD a mouseClicked (DDI)Z
+		ARG 1 mouseX
+		ARG 3 mouseY
+		ARG 5 button
+	METHOD a draw (IIF)V
+		ARG 1 mouseX
+		ARG 2 mouseY
+		ARG 3 delta
+	METHOD a keyPressed (III)Z
+		ARG 1 keyCode
+		ARG 2 scanCode
+		ARG 3 modifiers
+	METHOD b mouseReleased (DDI)Z
+		ARG 1 mouseX
+		ARG 3 mouseY
+		ARG 5 button
+	METHOD c onInitialized ()V

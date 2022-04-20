@@ -1,0 +1,50 @@
+CLASS dla net/minecraft/client/render/model/json/ModelTransformation
+	CLASS dla$a Deserializer
+		METHOD a parseModelTransformation (Lcom/google/gson/JsonDeserializationContext;Lcom/google/gson/JsonObject;Ljava/lang/String;)Ldkz;
+			ARG 1 ctx
+			ARG 2 json
+			ARG 3 key
+		METHOD a (Lcom/google/gson/JsonElement;Ljava/lang/reflect/Type;Lcom/google/gson/JsonDeserializationContext;)Ldla;
+			ARG 1 element
+			ARG 2 type
+			ARG 3 context
+	CLASS dla$b Type
+		FIELD i FIXED Ldla$b;
+	FIELD a NONE Ldla;
+	FIELD b globalTranslationX F
+	FIELD c globalTranslationY F
+	FIELD d globalTranslationZ F
+	FIELD e globalRotationX F
+	FIELD f globalRotationY F
+	FIELD g globalRotationZ F
+	FIELD h globalScaleOffsetX F
+	FIELD i globalScaleOffsetY F
+	FIELD j globalScaleOffsetZ F
+	FIELD k thirdPersonLeftHand Ldkz;
+	FIELD l thirdPersonRightHand Ldkz;
+	FIELD m firstPersonLeftHand Ldkz;
+	FIELD n firstPersonRightHand Ldkz;
+	FIELD o head Ldkz;
+	FIELD p gui Ldkz;
+	FIELD q ground Ldkz;
+	FIELD r fixed Ldkz;
+	METHOD <init> (Ldkz;Ldkz;Ldkz;Ldkz;Ldkz;Ldkz;Ldkz;Ldkz;)V
+		ARG 1 thirdPersonLeftHand
+		ARG 2 thirdPersonRightHand
+		ARG 3 firstPersonLeftHand
+		ARG 4 firstPersonRightHand
+		ARG 5 head
+		ARG 6 gui
+		ARG 7 ground
+		ARG 8 fixed
+	METHOD <init> (Ldla;)V
+		ARG 1 other
+	METHOD a applyGl (Ldkz;Z)V
+		ARG 0 transform
+		ARG 1 leftyFlip
+	METHOD a applyGl (Ldla$b;)V
+		ARG 1 type
+	METHOD b getTransformation (Ldla$b;)Ldkz;
+		ARG 1 type
+	METHOD c isTransformationDefined (Ldla$b;)Z
+		ARG 1 type

@@ -1,0 +1,3 @@
+CLASS bgk net/minecraft/world/biome/WoodedBadlandsPlateauBiome
+	METHOD a getFoliageColorAt (Let;)I
+	METHOD b getGrassColorAt (Let;)I

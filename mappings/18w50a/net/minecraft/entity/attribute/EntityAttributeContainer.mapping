@@ -1,0 +1,8 @@
+CLASS ahy net/minecraft/entity/attribute/EntityAttributeContainer
+	FIELD d instancesByName Ljava/util/Map;
+	METHOD a get (Lahs;)Laht;
+	METHOD a get (Ljava/lang/String;)Laht;
+	METHOD b register (Lahs;)Laht;
+	METHOD b get (Ljava/lang/String;)Lahx;
+	METHOD c createInstance (Lahs;)Laht;
+	METHOD e get (Lahs;)Lahx;

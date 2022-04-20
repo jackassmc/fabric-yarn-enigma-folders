@@ -1,0 +1,2 @@
+CLASS ayi net/minecraft/enchantment/FlameEnchantment
+	METHOD a getHighestLevel ()I

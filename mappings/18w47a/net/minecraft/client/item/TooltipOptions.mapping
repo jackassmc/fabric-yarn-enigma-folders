@@ -1,0 +1,7 @@
+CLASS awx net/minecraft/client/item/TooltipOptions
+	CLASS awx$a Instance
+		FIELD a NORMAL Lawx$a;
+		FIELD b ADVANCED Lawx$a;
+		FIELD c advanced Z
+		METHOD a isAdvanced ()Z
+	METHOD a isAdvanced ()Z

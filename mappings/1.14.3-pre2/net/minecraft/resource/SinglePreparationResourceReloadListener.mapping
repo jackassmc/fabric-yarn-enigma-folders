@@ -1,0 +1,8 @@
+CLASS xj net/minecraft/resource/SinglePreparationResourceReloadListener
+	METHOD a apply (Ljava/lang/Object;Lxg;Lagk;)V
+		ARG 1 preparedObject
+		ARG 2 manager
+		ARG 3 profiler
+	METHOD b prepare (Lxg;Lagk;)Ljava/lang/Object;
+		ARG 1 manager
+		ARG 2 profiler

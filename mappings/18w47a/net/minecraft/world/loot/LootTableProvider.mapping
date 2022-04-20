@@ -1,0 +1,2 @@
+CLASS aff net/minecraft/world/loot/LootTableProvider
+	METHOD U_ getLootTableId ()Lpx;

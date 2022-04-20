@@ -1,0 +1,33 @@
+CLASS aly net/minecraft/block/BlockPlant
+	FIELD b BOX Lbdr;
+	METHOD a canPlaceAt (Lajq;Lco;)Z
+		ARG 0 world
+		ARG 1 pos
+	METHOD a getCollisionBox (Latj;Laju;Lco;)Lbdr;
+		ARG 0 state
+		ARG 1 view
+		ARG 2 pos
+	METHOD b randomTick (Lajq;Lco;Latj;Ljava/util/Random;)V
+		ARG 0 world
+		ARG 1 pos
+		ARG 2 state
+		ARG 3 random
+	METHOD b isFullBoundsCubeForCulling (Latj;)Z
+		ARG 0 state
+	METHOD b getBoundingBox (Latj;Laju;Lco;)Lbdr;
+		ARG 0 state
+		ARG 1 view
+		ARG 2 pos
+	METHOD c (Latj;)Z
+		ARG 0 state
+	METHOD e (Lajq;Lco;Latj;)V
+		ARG 0 world
+		ARG 1 pos
+		ARG 2 state
+	METHOD f getRenderLayer ()Laji;
+	METHOD f isValidLocation (Lajq;Lco;Latj;)Z
+		ARG 0 world
+		ARG 1 pos
+		ARG 2 state
+	METHOD i isValidSoil (Latj;)Z
+		ARG 0 state

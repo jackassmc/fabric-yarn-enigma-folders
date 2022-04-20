@@ -1,0 +1,6 @@
+CLASS amv net/minecraft/entity/parts/IEntityPartDamageDelegate
+	METHOD L_ getPartDamageWorld ()Lbam;
+	METHOD R getFactory ()Lagi;
+	METHOD a damage (Lamw;Lafn;F)Z
+		ARG 1 part
+		ARG 2 source

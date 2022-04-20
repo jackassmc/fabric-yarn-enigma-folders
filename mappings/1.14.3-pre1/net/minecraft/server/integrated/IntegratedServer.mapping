@@ -1,0 +1,17 @@
+CLASS dxl net/minecraft/server/integrated/IntegratedServer
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD i client Lcvl;
+	FIELD j levelInfo Lbhn;
+	FIELD l lanPort I
+	FIELD m lanPinger Ldxo;
+	FIELD n localPlayerUuid Ljava/util/UUID;
+	METHOD <init> (Lcvl;Ljava/lang/String;Ljava/lang/String;Lbhn;Lcom/mojang/authlib/yggdrasil/YggdrasilAuthenticationService;Lcom/mojang/authlib/minecraft/MinecraftSessionService;Lcom/mojang/authlib/GameProfileRepository;Lxn;Lvq;)V
+		ARG 1 client
+		ARG 2 levelName
+		ARG 3 displayName
+		ARG 4 levelInfo
+		ARG 5 authService
+		ARG 6 sessionService
+		ARG 7 profileRepo
+	METHOD b setLocalPlayerUuid (Ljava/util/UUID;)V
+		ARG 1 localPlayerUuid

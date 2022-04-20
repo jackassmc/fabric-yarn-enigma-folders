@@ -1,0 +1,84 @@
+CLASS crm net/minecraft/util/math/BoundingBox
+	FIELD a minX D
+	FIELD b minY D
+	FIELD c minZ D
+	FIELD d maxX D
+	FIELD e maxY D
+	FIELD f maxZ D
+	METHOD <init> (DDDDDD)V
+		ARG 1 x1
+		ARG 3 y1
+		ARG 5 z1
+	METHOD <init> (Lcrr;Lcrr;)V
+		ARG 1 min
+		ARG 2 max
+	METHOD <init> (Lev;Lev;)V
+		ARG 1 min
+	METHOD a averageDimension ()D
+	METHOD a shrink (DDD)Lcrm;
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+	METHOD a intersects (DDDDDD)Z
+		ARG 1 minX
+		ARG 3 minY
+		ARG 5 minZ
+		ARG 7 maxX
+		ARG 9 maxY
+		ARG 11 maxZ
+	METHOD a from (Lchn;)Lcrm;
+	METHOD a intersection (Lcrm;)Lcrm;
+	METHOD a stretch (Lcrr;)Lcrm;
+	METHOD a intersects (Lcrr;Lcrr;)Z
+	METHOD a offset (Lev;)Lcrm;
+		ARG 1 blockPos
+	METHOD a getMin (Lfa$a;)D
+		ARG 1 axis
+	METHOD a rayTrace (Ljava/lang/Iterable;Lcrr;Lcrr;Lev;)Lcrn;
+		ARG 0 boxes
+		ARG 1 from
+		ARG 2 to
+		ARG 3 blockPos
+	METHOD a ([DLfa;DDDDDDDDLfa;DDD)Lfa;
+		ARG 18 maxZ
+	METHOD b getXSize ()D
+	METHOD b stretch (DDD)Lcrm;
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+	METHOD b union (Lcrm;)Lcrm;
+	METHOD b offset (Lcrr;)Lcrm;
+		ARG 1 vec3d
+	METHOD b rayTrace (Lcrr;Lcrr;)Ljava/util/Optional;
+	METHOD b getMax (Lfa$a;)D
+		ARG 1 axis
+	METHOD c getYSize ()D
+	METHOD c expand (DDD)Lcrm;
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+	METHOD c intersects (Lcrm;)Z
+		ARG 1 boundingBox
+	METHOD c contains (Lcrr;)Z
+		ARG 1 vec
+	METHOD d getZSize ()D
+	METHOD d offset (DDD)Lcrm;
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+	METHOD e isValid ()Z
+	METHOD e contains (DDD)Z
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+	METHOD equals (Ljava/lang/Object;)Z
+		ARG 1 o
+	METHOD f getCenter ()Lcrr;
+	METHOD f contract (DDD)Lcrm;
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+	METHOD g expand (D)Lcrm;
+		ARG 1 value
+	METHOD h contract (D)Lcrm;
+		ARG 1 value

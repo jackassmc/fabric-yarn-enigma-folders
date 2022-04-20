@@ -1,0 +1,17 @@
+CLASS none/n net/minecraft/command/ICommandSender
+	METHOD a hasPermission (ILjava/lang/String;)Z
+		ARG 0 permissionLevel
+		ARG 1 commandName
+	METHOD a appendCommandFeedback (Lnone/fa;)V
+		ARG 0 component
+	METHOD a updateCommandStat (Lnone/o$a;I)V
+		ARG 0 statType
+		ARG 1 statValue
+	METHOD c getBlockPos ()Lnone/cn;
+	METHOD d getPos ()Lnone/bcs;
+	METHOD e getWorld ()Lnone/aiu;
+	METHOD f getEntity ()Lnone/se;
+	METHOD h getServer ()Lnet/minecraft/server/MinecraftServer;
+	METHOD h_ getName ()Ljava/lang/String;
+	METHOD i_ getNameComponent ()Lnone/fa;
+	METHOD y_ shouldEchoCommandFeedback ()Z

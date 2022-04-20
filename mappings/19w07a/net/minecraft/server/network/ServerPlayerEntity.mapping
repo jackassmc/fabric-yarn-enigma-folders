@@ -1,0 +1,36 @@
+CLASS uv net/minecraft/server/network/ServerPlayerEntity
+	FIELD b networkHandler Lvn;
+	FIELD cA enteredNetherPos Lcng;
+	FIELD cB chunkPos Lbco;
+	FIELD cC containerSyncId I
+	FIELD c server Lnet/minecraft/server/MinecraftServer;
+	FIELD ca LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD cb clientLanguage Ljava/lang/String;
+	FIELD cd advancementManager Lqq;
+	FIELD cq clientChatVisibility Lary$b;
+	FIELD cs lastActionTime J
+	FIELD cu inTeleportationState Z
+	FIELD cv seenCredits Z
+	FIELD cw recipeBook Lyc;
+	FIELD d interactionManager Luw;
+	FIELD g notInAnyWorld Z
+	METHOD B getRecipeBook ()Lyc;
+	METHOD F getLastActionTime ()J
+	METHOD H isInTeleportationState ()Z
+	METHOD I onTeleportationDone ()V
+	METHOD L getAdvancementManager ()Lqq;
+	METHOD M getEnteredNetherPosition ()Lcng;
+	METHOD O getChunkPos ()Lbco;
+	METHOD a sendUnloadChunkPacket (Lbco;)V
+	METHOD a sendInitialChunkPackets (Lbco;Lju;Lju;)V
+	METHOD a sendBlockEntityUpdate (Lbpd;)V
+	METHOD a sendChatMessage (Ljg;Lje;)V
+	METHOD a setClientSettings (Lnn;)V
+	METHOD b setChunkPos (Lbco;)V
+		ARG 1 chunkPos
+	METHOD d onStartedTracking (Lahl;)V
+	METHOD dU incrementContainerSyncId ()V
+	METHOD s getServerWorld ()Luu;
+	METHOD v getServerBrand ()Ljava/lang/String;
+	METHOD x getClientChatVisibility ()Lary$b;
+	METHOD z updateLastActionTime ()V

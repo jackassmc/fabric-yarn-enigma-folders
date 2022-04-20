@@ -1,0 +1,4 @@
+CLASS none/ahl net/minecraft/enchantment/impl/EnchantmentUnbreaking
+	METHOD a isAcceptableItem (Lnone/aer;)Z
+		ARG 0 item
+	METHOD b getHighestLevel ()I

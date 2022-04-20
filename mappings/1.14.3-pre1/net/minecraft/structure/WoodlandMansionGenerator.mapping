@@ -1,0 +1,52 @@
+CLASS cir net/minecraft/structure/WoodlandMansionGenerator
+	CLASS cir$a FirstFloorRoomPool
+	CLASS cir$b RoomPool
+		METHOD a getSmallRoom (Ljava/util/Random;)Ljava/lang/String;
+			ARG 1 random
+		METHOD a getMediumFunctionalRoom (Ljava/util/Random;Z)Ljava/lang/String;
+			ARG 1 random
+			ARG 2 staircase
+		METHOD b getSmallSecretRoom (Ljava/util/Random;)Ljava/lang/String;
+			ARG 1 random
+		METHOD b getMediumGenericRoom (Ljava/util/Random;Z)Ljava/lang/String;
+			ARG 1 random
+			ARG 2 staircase
+		METHOD c getMediumSecretRoom (Ljava/util/Random;)Ljava/lang/String;
+			ARG 1 random
+		METHOD d getBigRoom (Ljava/util/Random;)Ljava/lang/String;
+			ARG 1 random
+		METHOD e getBigSecretRoom (Ljava/util/Random;)Ljava/lang/String;
+			ARG 1 random
+	CLASS cir$d LayoutGenerator
+		FIELD a manager Lcjh;
+		FIELD b random Ljava/util/Random;
+		METHOD <init> (Lcjh;Ljava/util/Random;)V
+			ARG 1 manager
+			ARG 2 random
+		METHOD a generate (Lev;Lbqy;Ljava/util/List;Lcir$c;)V
+			ARG 1 pos
+			ARG 2 rotation
+			ARG 3 pieces
+		METHOD a addEntrance (Ljava/util/List;Lcir$e;)V
+		METHOD a addRoof (Ljava/util/List;Lcir$e;Lcir$g;Lfa;IIII)V
+		METHOD a addBigSecretRoom (Ljava/util/List;Lev;Lbqy;Lcir$b;)V
+		METHOD a addSmallRoom (Ljava/util/List;Lev;Lbqy;Lfa;Lcir$b;)V
+		METHOD a addBigRoom (Ljava/util/List;Lev;Lbqy;Lfa;Lfa;Lcir$b;)V
+		METHOD a addMediumRoom (Ljava/util/List;Lev;Lbqy;Lfa;Lfa;Lcir$b;Z)V
+			ARG 7 staircase
+	CLASS cir$e GenerationPiece
+		FIELD a rotation Lbqy;
+		FIELD b position Lev;
+		FIELD c template Ljava/lang/String;
+	CLASS cir$f SecondFloorRoomPool
+	CLASS cir$h ThirdFloorRoomPool
+	CLASS cir$i Piece
+		FIELD d template Ljava/lang/String;
+		FIELD e rotation Lbqy;
+		FIELD f mirror Lbpy;
+	METHOD a addPieces (Lcjh;Lev;Lbqy;Ljava/util/List;Ljava/util/Random;)V
+		ARG 0 manager
+		ARG 1 pos
+		ARG 2 rotation
+		ARG 3 pieces
+		ARG 4 random

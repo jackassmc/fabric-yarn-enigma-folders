@@ -1,0 +1,12 @@
+CLASS bxu net/minecraft/world/ChunkTickScheduler
+	FIELD a shouldExclude Ljava/util/function/Predicate;
+	FIELD b pos Lbgv;
+	FIELD c scheduledPositions [Lit/unimi/dsi/fastutil/shorts/ShortList;
+	METHOD <init> (Ljava/util/function/Predicate;Lbgv;)V
+		ARG 1 shouldExclude
+	METHOD <init> (Ljava/util/function/Predicate;Lbgv;Lii;)V
+		ARG 1 shouldExclude
+	METHOD a toNbt ()Lii;
+	METHOD a tick (Lbhy;Ljava/util/function/Function;)V
+		ARG 1 scheduler
+		ARG 2 dataMapper

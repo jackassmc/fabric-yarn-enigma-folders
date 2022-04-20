@@ -1,0 +1,6 @@
+CLASS brt net/minecraft/block/enums/Instrument
+	FIELD k name Ljava/lang/String;
+	FIELD l sound Lxv;
+	METHOD a getSound ()Lxv;
+	METHOD a fromBlockState (Lbqs;)Lbrt;
+		ARG 0 state

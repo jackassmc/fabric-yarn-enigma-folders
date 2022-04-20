@@ -1,0 +1,14 @@
+CLASS bie net/minecraft/client/gui/hud/HudSubtitles
+	CLASS bie$a SubtitleEntry
+		FIELD b text Ljava/lang/String;
+		FIELD c time J
+		FIELD d pos Lbfp;
+		METHOD a getText ()Ljava/lang/String;
+		METHOD a reset (Lbfp;)V
+		METHOD b getTime ()J
+		METHOD c getPosition ()Lbfp;
+	FIELD a game Lbgm;
+	FIELD f entries Ljava/util/List;
+	FIELD g enabled Z
+	METHOD a draw (Lbhe;)V
+	METHOD a onSoundPlayed (Lcez;Lcfr;)V

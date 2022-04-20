@@ -1,0 +1,5 @@
+CLASS dfc net/minecraft/client/render/entity/EntityRendererCaveSpider
+	FIELD a SKIN Lpx;
+	METHOD a getTexture (Lagc;)Lpx;
+	METHOD a getTexture (Laoi;)Lpx;
+	METHOD a getTexture (Lapk;)Lpx;

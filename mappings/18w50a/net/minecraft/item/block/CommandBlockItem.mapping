@@ -1,0 +1,2 @@
+CLASS awf net/minecraft/item/block/CommandBlockItem
+	METHOD c getBlockState (Laus;)Lbpm;

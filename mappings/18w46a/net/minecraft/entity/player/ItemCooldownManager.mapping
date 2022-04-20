@@ -1,0 +1,12 @@
+CLASS avb net/minecraft/entity/player/ItemCooldownManager
+	CLASS avb$a Cooldown
+	FIELD a cooldowns Ljava/util/Map;
+	FIELD b tick I
+	METHOD a update ()V
+	METHOD a isCoolingDown (Lava;)Z
+	METHOD a set (Lava;I)V
+		ARG 1 item
+	METHOD b remove (Lava;)V
+	METHOD b onCooldownUpdate (Lava;I)V
+		ARG 1 item
+	METHOD c onCooldownUpdate (Lava;)V

@@ -1,0 +1,6 @@
+CLASS aka net/minecraft/entity/ai/goal/FormCaravanGoal
+	FIELD a owner Lany;
+	FIELD b speed D
+	FIELD c counter I
+	METHOD a canFollow (Lany;I)Z
+		ARG 2 length

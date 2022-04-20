@@ -1,0 +1,4 @@
+CLASS ber net/minecraft/enchantment/ImpalingEnchantment
+	METHOD <init> (Lbdz$a;[Laib;)V
+		ARG 1 weight
+		ARG 2 slotTypes

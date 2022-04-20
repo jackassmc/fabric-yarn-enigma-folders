@@ -1,0 +1,50 @@
+CLASS bqg net/minecraft/client/render/FirstPersonRenderer
+	FIELD a MAP_BACKGROUND_TEX Lkq;
+	FIELD b UNDERWATER_TEX Lkq;
+	FIELD c game Lbeq;
+	FIELD d mainHand Lafi;
+	FIELD e offHand Lafi;
+	FIELD f equipProgressMainHand F
+	FIELD g prevEquipProgressMainHand F
+	FIELD h equipProgressOffHand F
+	FIELD i prevEquipProgressOffHand F
+	FIELD j renderManager Lbuo;
+	FIELD k itemRenderer Lbve;
+	METHOD <init> (Lbeq;)V
+		ARG 0 minecraft
+	METHOD a updateHeldItems ()V
+	METHOD a renderFirstPersonItem (F)V
+		ARG 0 deltaTicks
+	METHOD a rotate (FF)V
+		ARG 0 degreeX
+		ARG 1 degreeY
+	METHOD a renderFirstPersonMap (FFF)V
+	METHOD a renderBlock (FLbyw;)V
+		ARG 0 deltaTicks
+		ARG 1 atlas
+	METHOD a renderFirstPersonMap (Lafi;)V
+		ARG 0 map
+	METHOD a renderFirstPersonItem (Lbpn;FFLrh;FLafi;F)V
+		ARG 0 player
+		ARG 3 hand
+		ARG 5 item
+	METHOD a resetEquipProgress (Lrh;)V
+		ARG 0 hand
+	METHOD a renderArm (Lsu;)V
+		ARG 0 hand
+	METHOD a renderItem (Lsv;Lafi;Lbro$b;)V
+		ARG 0 holder
+		ARG 1 stack
+		ARG 2 transformation
+	METHOD a renderItemFromSide (Lsv;Lafi;Lbro$b;Z)V
+		ARG 0 holder
+		ARG 1 stack
+		ARG 2 transformation
+		ARG 3 leftHanded
+	METHOD b renderOverlays (F)V
+		ARG 0 deltaTicks
+	METHOD c renderArms ()V
+	METHOD e renderWaterOverlay (F)V
+		ARG 0 deltaTicks
+	METHOD f renderFireOverlay (F)V
+		ARG 0 deltaTicks

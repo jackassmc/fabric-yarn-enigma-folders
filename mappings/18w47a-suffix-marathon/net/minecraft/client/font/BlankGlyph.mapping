@@ -1,0 +1,2 @@
+CLASS cqa net/minecraft/client/font/BlankGlyph
+	FIELD a INSTANCE Lcqa;

@@ -1,0 +1,2 @@
+CLASS ckp net/minecraft/world/loot/function/ExplosionDecayLootFunction
+	CLASS ckp$a Factory

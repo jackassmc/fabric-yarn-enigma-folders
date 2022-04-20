@@ -1,0 +1,7 @@
+CLASS cfg net/minecraft/world/chunk/light/BlockLightStorage
+	CLASS cfg$a Data
+		METHOD <init> (Lit/unimi/dsi/fastutil/longs/Long2ObjectOpenHashMap;)V
+			ARG 1 map
+		METHOD a copy ()Lcfg$a;
+	METHOD <init> (Lbsm;)V
+		ARG 1 chunkProvider

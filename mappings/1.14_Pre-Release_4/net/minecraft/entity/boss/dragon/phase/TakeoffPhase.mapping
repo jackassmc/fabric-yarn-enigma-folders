@@ -1,0 +1,3 @@
+CLASS asu net/minecraft/entity/boss/dragon/phase/TakeoffPhase
+	METHOD <init> (Lasf;)V
+		ARG 1 dragon

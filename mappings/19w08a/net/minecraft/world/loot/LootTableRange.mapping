@@ -1,0 +1,6 @@
+CLASS ckh net/minecraft/world/loot/LootTableRange
+	FIELD a CONSTANT Lqi;
+	FIELD b UNIFORM Lqi;
+	FIELD c BINOMIAL Lqi;
+	METHOD a getType ()Lqi;
+	METHOD a next (Ljava/util/Random;)I

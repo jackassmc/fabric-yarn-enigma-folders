@@ -1,0 +1,14 @@
+CLASS cie net/minecraft/world/loot/function/LootFunctionSetStewEffect
+	CLASS cie$a Builder
+		FIELD a map Ljava/util/Map;
+		METHOD a create ()Lcie$a;
+		METHOD a withEffect (Lafu;Lcgt;)Lcie$a;
+		METHOD b build ()Lcht;
+	CLASS cie$b Factory
+		METHOD a toJson (Lcom/google/gson/JsonObject;Lchs;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD a toJson (Lcom/google/gson/JsonObject;Lcht;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD b fromJson (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;[Lciw;)Lchs;
+	FIELD a effects Ljava/util/Map;
+	METHOD a process (Lavf;Lcgl;)Lavf;
+		ARG 1 stack
+	METHOD b create ()Lcie$a;

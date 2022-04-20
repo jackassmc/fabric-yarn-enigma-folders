@@ -1,0 +1,75 @@
+CLASS none/rq net/minecraft/entity/damage/DamageSource
+	FIELD A magic Z
+	FIELD B explosive Z
+	FIELD a IN_FIRE Lnone/rq;
+	FIELD b LIGHTNING_BOLT Lnone/rq;
+	FIELD c ON_FIRE Lnone/rq;
+	FIELD d LAVA Lnone/rq;
+	FIELD e HOT_FLOOR Lnone/rq;
+	FIELD f IN_WALL Lnone/rq;
+	FIELD g DROWN Lnone/rq;
+	FIELD h STARVE Lnone/rq;
+	FIELD i CACTUS Lnone/rq;
+	FIELD j FALL Lnone/rq;
+	FIELD k FLY_INTO_WALL Lnone/rq;
+	FIELD l OUT_OF_WORLD Lnone/rq;
+	FIELD m GENERIC Lnone/rq;
+	FIELD n MAGIC Lnone/rq;
+	FIELD o WITHER Lnone/rq;
+	FIELD p ANVIL Lnone/rq;
+	FIELD q FALLING_BLOCK Lnone/rq;
+	FIELD r DRAGON_BREATH Lnone/rq;
+	FIELD s name Ljava/lang/String;
+	FIELD u damageToCreative Z
+	FIELD v unblockable Z
+	FIELD x fire Z
+	FIELD y projectile Z
+	FIELD z scaleWithDifficulty Z
+	METHOD <init> (Ljava/lang/String;)V
+		ARG 0 translationKey
+	METHOD a isProjectile ()Z
+	METHOD a byPlayer (Lnone/aal;)Lnone/rq;
+		ARG 0 attacker
+	METHOD a byArrow (Lnone/aao;Lnone/sf;)Lnone/rq;
+		ARG 0 projectile
+		ARG 1 attacker
+	METHOD a byExplosiveProjectile (Lnone/aar;Lnone/sf;)Lnone/rq;
+		ARG 0 projectile
+		ARG 1 attacker
+	METHOD a byExplosion (Lnone/aiq;)Lnone/rq;
+		ARG 0 explosion
+	METHOD a byThorns (Lnone/sf;)Lnone/rq;
+		ARG 0 attacker
+	METHOD a byThrownProjectile (Lnone/sf;Lnone/sf;)Lnone/rq;
+		ARG 0 projectile
+		ARG 1 attacker
+	METHOD a byMobProjectile (Lnone/sf;Lnone/so;)Lnone/rq;
+		ARG 0 projectile
+		ARG 1 attacker
+	METHOD a byMob (Lnone/so;)Lnone/rq;
+		ARG 0 attacker
+	METHOD b setProjectile ()Lnone/rq;
+	METHOD b byMagic (Lnone/sf;Lnone/sf;)Lnone/rq;
+		ARG 0 magic
+		ARG 1 attacker
+	METHOD b byExplosion (Lnone/so;)Lnone/rq;
+		ARG 0 attacker
+	METHOD c isExplosive ()Z
+	METHOD c getDeathMessage (Lnone/so;)Lnone/fa;
+		ARG 0 entity
+	METHOD d setExplosive ()Lnone/rq;
+	METHOD e ()Z
+	METHOD g doesDamageToCreative ()Z
+	METHOD h isUnblockable ()Z
+	METHOD i getSource ()Lnone/sf;
+	METHOD j getAttacker ()Lnone/sf;
+	METHOD l setDamageToCreative ()Lnone/rq;
+	METHOD m setUnblockable ()Lnone/rq;
+	METHOD n setFire ()Lnone/rq;
+	METHOD o isFire ()Z
+	METHOD p getName ()Ljava/lang/String;
+	METHOD q setScaledWithDifficulty ()Lnone/rq;
+	METHOD r isScaledWithDifficulty ()Z
+	METHOD s setMagic ()Z
+	METHOD t setMagic ()Lnone/rq;
+	METHOD u isSourceCreativePlayer ()Z

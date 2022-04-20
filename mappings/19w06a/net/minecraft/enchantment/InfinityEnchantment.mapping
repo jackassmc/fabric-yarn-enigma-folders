@@ -1,0 +1,4 @@
+CLASS bap net/minecraft/enchantment/InfinityEnchantment
+	METHOD <init> (Lbaw$a;[Lahn;)V
+		ARG 1 weight
+		ARG 2 slotTypes

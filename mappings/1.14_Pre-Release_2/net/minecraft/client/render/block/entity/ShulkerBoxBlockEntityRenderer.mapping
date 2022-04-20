@@ -1,0 +1,2 @@
+CLASS dmk net/minecraft/client/render/block/entity/ShulkerBoxBlockEntityRenderer
+	FIELD c model Ldfs;

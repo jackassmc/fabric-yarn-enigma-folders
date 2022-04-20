@@ -1,0 +1,4 @@
+CLASS afc net/minecraft/world/LocalDifficulty
+	METHOD <init> (Lafb;JJF)V
+		ARG 1 difficulty
+		ARG 2 timeOfDay

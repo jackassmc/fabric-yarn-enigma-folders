@@ -1,0 +1,4 @@
+CLASS blp net/minecraft/block/CakeBlock
+	FIELD a BITES Lbve;
+	METHOD <init> (Lblg$c;)V
+		ARG 1 settings

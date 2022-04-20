@@ -1,0 +1,18 @@
+CLASS amu net/minecraft/entity/passive/SchoolingFishEntity
+	CLASS amu$a Data
+		FIELD a leader Lamu;
+	FIELD b leader Lamu;
+	FIELD c groupSize I
+	METHOD <init> (Lahq;Lbdf;)V
+		ARG 1 type
+	METHOD a joinGroupOf (Lamu;)Lamu;
+	METHOD a pullInOtherFish (Ljava/util/stream/Stream;)V
+	METHOD dO getMaxGroupSize ()I
+	METHOD dP hasLeader ()Z
+	METHOD dQ leaveGroup ()V
+	METHOD dR canHaveMoreFishInGroup ()Z
+	METHOD dS hasOtherFishInGroup ()Z
+	METHOD dT isCloseEnoughToLeader ()Z
+	METHOD dU moveTowardLeader ()V
+	METHOD dV increaseGroupSize ()V
+	METHOD dW decreaseGroupSize ()V

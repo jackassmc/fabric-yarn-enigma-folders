@@ -1,0 +1,3 @@
+CLASS bcx net/minecraft/item/SplashPotionItem
+	METHOD <init> (Lbbs$a;)V
+		ARG 1 settings

@@ -1,0 +1,12 @@
+CLASS dav net/minecraft/client/gui/ingame/PlayerInventoryScreen
+	FIELD l RECIPE_BUTTON_TEX Lqs;
+	FIELD m mouseX F
+	FIELD n mouseY F
+	FIELD o recipeBook Ldbs;
+	FIELD p isOpen Z
+	FIELD q isNarrow Z
+	FIELD r isMouseDown Z
+	METHOD <init> (Lavo;)V
+		ARG 1 player
+	METHOD a drawEntity (IIIFFLaij;)V
+		ARG 5 entity

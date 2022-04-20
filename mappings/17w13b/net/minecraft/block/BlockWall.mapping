@@ -1,0 +1,63 @@
+CLASS ati net/minecraft/block/BlockWall
+	CLASS ati$a Variant
+		FIELD a NORMAL Lati$a;
+		FIELD b MOSSY Lati$a;
+		FIELD c VALUES [Lati$a;
+		FIELD d rawId I
+		FIELD e name Ljava/lang/String;
+		FIELD f id Ljava/lang/String;
+		METHOD a getRawId ()I
+		METHOD a get (I)Lati$a;
+		METHOD c getId ()Ljava/lang/String;
+		METHOD m asString ()Ljava/lang/String;
+	FIELD a UP Lavq;
+	FIELD b NORTH Lavq;
+	FIELD c EAST Lavq;
+	FIELD d SOUTH Lavq;
+	FIELD e WEST Lavq;
+	FIELD f VARIANT Lavs;
+	METHOD <init> (Lank;)V
+		ARG 0 base
+	METHOD a deserializeState (I)Lave;
+		ARG 0 meta
+	METHOD a addStacksForDisplay (Lahd;Lagf;Lem;)V
+		ARG 0 item
+		ARG 1 tab
+		ARG 2 list
+	METHOD a addBoundingBoxes (Lave;Lali;Ldx;Lbfm;Ljava/util/List;Lub;Z)V
+		ARG 0 state
+		ARG 1 world
+		ARG 2 pos
+		ARG 3 bounds
+		ARG 4 list
+		ARG 5 entity
+	METHOD a getCollisionBox (Lave;Lalm;Ldx;)Lbfm;
+		ARG 0 state
+		ARG 1 view
+		ARG 2 pos
+	METHOD a shouldRenderSide (Lave;Lalm;Ldx;Lee;)Z
+		ARG 0 state
+		ARG 1 view
+		ARG 2 pos
+		ARG 3 facing
+	METHOD b createStateFactory ()Lavf;
+	METHOD b isNotSolid (Lalm;Ldx;)Z
+		ARG 0 view
+		ARG 1 pos
+	METHOD b isFullBoundsCubeForCulling (Lave;)Z
+		ARG 0 state
+	METHOD b getBoundingBox (Lave;Lalm;Ldx;)Lbfm;
+		ARG 0 state
+		ARG 1 view
+		ARG 2 pos
+	METHOD c getTranslatedName ()Ljava/lang/String;
+	METHOD c isFullBoundsCubeForConnection (Lave;)Z
+		ARG 0 state
+	METHOD c getRenderingState (Lave;Lalm;Ldx;)Lave;
+		ARG 0 state
+		ARG 1 view
+		ARG 2 pos
+	METHOD d getDropItemDamage (Lave;)I
+		ARG 0 state
+	METHOD e serializeState (Lave;)I
+		ARG 0 state

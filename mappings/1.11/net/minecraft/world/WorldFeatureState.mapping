@@ -1,0 +1,5 @@
+CLASS ayn net/minecraft/world/WorldFeatureState
+	METHOD a deserialize (Ldu;)V
+		ARG 0 tag
+	METHOD b serialize (Ldu;)Ldu;
+		ARG 0 tag

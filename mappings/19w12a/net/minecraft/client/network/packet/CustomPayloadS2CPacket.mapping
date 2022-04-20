@@ -1,0 +1,15 @@
+CLASS lc net/minecraft/client/network/packet/CustomPayloadS2CPacket
+	FIELD a BRAND Lqq;
+	FIELD b DEBUG_PATH Lqq;
+	FIELD c DEBUG_NEIGHBORS_UPDATE Lqq;
+	FIELD d DEBUG_CAVES Lqq;
+	FIELD e DEBUG_STRUCTURES Lqq;
+	FIELD f DEBUG_WORLDGEN_ATTEMPT Lqq;
+	FIELD k DEBUG_GOAL_SELECTOR Lqq;
+	FIELD l DEBUG_BRAIN Lqq;
+	FIELD m channel Lqq;
+	FIELD n data Ljc;
+	METHOD <init> (Lqq;Ljc;)V
+		ARG 1 channel
+	METHOD b getChannel ()Lqq;
+	METHOD c getData ()Ljc;

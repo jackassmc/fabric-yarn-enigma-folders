@@ -1,0 +1,20 @@
+CLASS anz net/minecraft/entity/EntityTNTPrimed
+	FIELD a FUSE Lpl;
+	FIELD b causingEntity Lagh;
+	FIELD c fuseTimer I
+	METHOD <init> (Lazy;DDDLagh;)V
+		ARG 1 world
+		ARG 2 x
+		ARG 4 y
+	METHOD S_ update ()V
+	METHOD a setFuse (I)V
+	METHOD a deserializeCustomData (Lho;)V
+	METHOD a onTrackedDataSet (Lpl;)V
+	METHOD aD doesCollide ()Z
+	METHOD b serializeCustomData (Lho;)V
+	METHOD bH getEyeHeight ()F
+	METHOD f getCausingEntity ()Lagh;
+	METHOD i getFuse ()I
+	METHOD k getFuseTimer ()I
+	METHOD l explode ()V
+	METHOD y_ initDataTracker ()V

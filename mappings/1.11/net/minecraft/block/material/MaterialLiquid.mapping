@@ -1,0 +1,6 @@
+CLASS azp net/minecraft/block/material/MaterialLiquid
+	METHOD <init> (Lazr;)V
+		ARG 0 color
+	METHOD a isFullBlock ()Z
+	METHOD c isSolid ()Z
+	METHOD d isLiquid ()Z

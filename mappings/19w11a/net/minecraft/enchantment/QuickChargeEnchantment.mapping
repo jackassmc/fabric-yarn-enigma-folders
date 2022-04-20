@@ -1,0 +1,4 @@
+CLASS beo net/minecraft/enchantment/QuickChargeEnchantment
+	METHOD <init> (Lbea$a;[Laib;)V
+		ARG 1 weight
+		ARG 2 slot

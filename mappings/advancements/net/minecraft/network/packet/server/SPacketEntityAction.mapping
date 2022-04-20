@@ -1,0 +1,22 @@
+CLASS kq net/minecraft/network/packet/server/SPacketEntityAction
+	CLASS kq$a Type
+		FIELD a SNEAK_START Lkq$a;
+		FIELD b SNEAK_END Lkq$a;
+		FIELD c BED_LEAVE Lkq$a;
+		FIELD d SPRINT_START Lkq$a;
+		FIELD e SPRINT_END Lkq$a;
+		FIELD f HORSE_JUMP_START Lkq$a;
+		FIELD g HORSE_JUMP_END Lkq$a;
+		FIELD h HORSE_INVENTORY_OPEN Lkq$a;
+		FIELD i ELYTRA_FLIGHT_START Lkq$a;
+	FIELD a entityId I
+	FIELD b type Lkq$a;
+	FIELD c parameter I
+	METHOD a readPacket (Lgb;)V
+		ARG 0 buf
+	METHOD a applyPacket (Lge;)V
+	METHOD a applyPacket (Ljx;)V
+	METHOD b getType ()Lkq$a;
+	METHOD b writePacket (Lgb;)V
+		ARG 0 buf
+	METHOD c getParameter ()I

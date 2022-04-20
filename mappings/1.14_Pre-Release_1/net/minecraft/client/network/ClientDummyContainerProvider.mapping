@@ -1,0 +1,4 @@
+CLASS ahe net/minecraft/client/network/ClientDummyContainerProvider
+	FIELD a name Ljm;
+	METHOD createMenu (ILavq;Lavr;)Laxv;
+		ARG 1 syncId

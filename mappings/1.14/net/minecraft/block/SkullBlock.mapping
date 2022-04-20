@@ -1,0 +1,9 @@
+CLASS brg net/minecraft/block/SkullBlock
+	CLASS brg$a SkullType
+	CLASS brg$b Type
+	FIELD a ROTATION Lbwj;
+	FIELD b SHAPE Lcsp;
+	METHOD h (Lbvj;Lbgr;Lev;)Lcsp;
+		ARG 1 state
+		ARG 2 view
+		ARG 3 pos

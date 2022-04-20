@@ -1,0 +1,21 @@
+CLASS alm net/minecraft/entity/passive/FishEntity
+	CLASS alm$a FishMoveControl
+		FIELD i fish Lalm;
+		METHOD a tick ()V
+	CLASS alm$b
+		METHOD a canStart ()Z
+	METHOD <init> (Lago;Lbas;)V
+		ARG 1 type
+	METHOD M getLimitPerChunk ()I
+	METHOD a interactMob (Laql;Lafd;)Z
+		ARG 1 player
+	METHOD a readCustomDataFromTag (Lhq;)V
+	METHOD af getSoundSwim ()Lxg;
+	METHOD b createNavigation (Lbas;)Lakv;
+	METHOD b writeCustomDataToTag (Lhq;)V
+	METHOD bG getEyeHeight ()F
+	METHOD ca initAttributes ()V
+	METHOD dk isPersistent ()Z
+	METHOD k updateMovement ()V
+	METHOD n initAi ()V
+	METHOD y_ initDataTracker ()V

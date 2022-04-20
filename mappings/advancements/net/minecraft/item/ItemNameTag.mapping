@@ -1,0 +1,2 @@
+CLASS ahq net/minecraft/item/ItemNameTag
+	METHOD a interactWithEntity (Lahf;Lacu;Luk;Lsw;)Z

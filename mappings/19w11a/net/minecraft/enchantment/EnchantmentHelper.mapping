@@ -1,0 +1,93 @@
+CLASS bec net/minecraft/enchantment/EnchantmentHelper
+	CLASS bec$a net/minecraft/enchantment/EnchantmentHelper$Consumer
+		METHOD accept (Lbea;I)V
+			ARG 1 enchantment
+			ARG 2 level
+	METHOD a getHighestApplicableEnchantmentsAtPower (ILbar;Z)Ljava/util/List;
+		ARG 0 power
+		ARG 1 stack
+	METHOD a getSweepingMultiplier (Laif;)F
+		ARG 0 entity
+	METHOD a onUserDamaged (Laif;Lahw;)V
+		ARG 0 user
+		ARG 1 attacker
+	METHOD a getEnchantments (Lbar;)Ljava/util/Map;
+		ARG 0 stack
+	METHOD a getAttackDamage (Lbar;Laij;)F
+		ARG 0 stack
+		ARG 1 group
+	METHOD a getEquipmentLevel (Lbea;Laif;)I
+		ARG 0 ench
+		ARG 1 entity
+	METHOD a getLevel (Lbea;Lbar;)I
+		ARG 0 enchantment
+		ARG 1 stack
+	METHOD a accept (Lbec$a;Lbar;)V
+		ARG 0 enchantmentHandler
+		ARG 1 stack
+	METHOD a accept (Lbec$a;Ljava/lang/Iterable;)V
+		ARG 0 enchantmentHandler
+		ARG 1 stacks
+	METHOD a getProtectionAmount (Ljava/lang/Iterable;Lahf;)I
+		ARG 0 equipment
+		ARG 1 source
+	METHOD a contains (Ljava/util/Collection;Lbea;)Z
+		ARG 0 collection
+		ARG 1 enchantment
+	METHOD a remove (Ljava/util/List;Lbed;)V
+		ARG 0 infos
+		ARG 1 info
+	METHOD a set (Ljava/util/Map;Lbar;)V
+		ARG 0 enchantments
+		ARG 1 stack
+	METHOD a calculateEnchantmentPower (Ljava/util/Random;IILbar;)I
+		ARG 0 random
+		ARG 1 num
+		ARG 2 enchantmentPower
+		ARG 3 rstack
+	METHOD a enchant (Ljava/util/Random;Lbar;IZ)Lbar;
+		ARG 0 random
+		ARG 1 target
+		ARG 2 level
+		ARG 3 hasTreasure
+	METHOD b getKnockback (Laif;)I
+		ARG 0 entity
+	METHOD b onTargetDamaged (Laif;Lahw;)V
+		ARG 0 user
+		ARG 1 target
+	METHOD b getLuckOfTheSea (Lbar;)I
+		ARG 0 stack
+	METHOD b getRandomEnchantedEquipment (Lbea;Laif;)Lbar;
+		ARG 0 enchantment
+		ARG 1 entity
+	METHOD b getEnchantments (Ljava/util/Random;Lbar;IZ)Ljava/util/List;
+		ARG 0 random
+		ARG 1 stack
+		ARG 2 level
+		ARG 3 hasTreasure
+	METHOD c getFireAspect (Laif;)I
+		ARG 0 entity
+	METHOD c getLure (Lbar;)I
+		ARG 0 stack
+	METHOD d getRespiration (Laif;)I
+		ARG 0 entity
+	METHOD d hasBindingCurse (Lbar;)Z
+		ARG 0 stack
+	METHOD e getDepthStrider (Laif;)I
+		ARG 0 entity
+	METHOD e hasVanishingCurse (Lbar;)Z
+		ARG 0 stack
+	METHOD f getEfficiency (Laif;)I
+		ARG 0 entity
+	METHOD f getLoyalty (Lbar;)I
+		ARG 0 stack
+	METHOD g getLooting (Laif;)I
+		ARG 0 entity
+	METHOD g getRiptide (Lbar;)I
+		ARG 0 stack
+	METHOD h hasAquaAffinity (Laif;)Z
+		ARG 0 entity
+	METHOD h hasChanneling (Lbar;)Z
+		ARG 0 stack
+	METHOD i hasFrostWalker (Laif;)Z
+		ARG 0 entity

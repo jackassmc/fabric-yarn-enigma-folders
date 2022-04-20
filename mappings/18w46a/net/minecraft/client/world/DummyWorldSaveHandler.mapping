@@ -1,0 +1,10 @@
+CLASS cgd net/minecraft/client/world/DummyWorldSaveHandler
+	METHOD a getWorldDir ()Ljava/io/File;
+	METHOD a createChunkSaveHandler (Lbqy;)Lbqs;
+	METHOD a getDataFile (Lbqz;Ljava/lang/String;)Ljava/io/File;
+	METHOD a saveWorld (Lcfx;)V
+	METHOD a saveWorld (Lcfx;Lho;)V
+		ARG 1 properties
+	METHOD b checkSessionLock ()V
+	METHOD c readProperties ()Lcfx;
+	METHOD d getPlayerSaveHandler ()Lcge;

@@ -1,0 +1,9 @@
+CLASS axz net/minecraft/enchantment/EnchantmentDamage
+	METHOD a getHighestLevel ()I
+	METHOD a getAdditionalDamge (ILagl;)F
+		ARG 1 level
+	METHOD a onTargetDamaged (Lagh;Lafy;I)V
+		ARG 1 user
+		ARG 2 target
+	METHOD a isAcceptableItem (Lava;)Z
+	METHOD a differs (Layc;)Z

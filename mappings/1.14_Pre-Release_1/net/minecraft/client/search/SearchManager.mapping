@@ -1,0 +1,11 @@
+CLASS dwt net/minecraft/client/search/SearchManager
+	CLASS dwt$a Key
+	FIELD a ITEM_TOOLTIP Ldwt$a;
+	FIELD b ITEM_TAG Ldwt$a;
+	FIELD c RECIPE_OUTPUT Ldwt$a;
+	FIELD d instances Ljava/util/Map;
+	METHOD a get (Ldwt$a;)Ldwq;
+		ARG 1 key
+	METHOD a put (Ldwt$a;Ldwq;)V
+		ARG 1 key
+		ARG 2 value

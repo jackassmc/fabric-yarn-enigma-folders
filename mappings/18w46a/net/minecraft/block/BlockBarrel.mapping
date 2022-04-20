@@ -1,0 +1,14 @@
+CLASS bes net/minecraft/block/BlockBarrel
+	METHOD a getPlacementState (Latj;)Lbnz;
+	METHOD a createBlockEntity (Lazq;)Lbmc;
+	METHOD a onPlaced (Lbae;Les;Lbnz;Lagl;Lavf;)V
+		ARG 1 world
+		ARG 2 pos
+		ARG 3 state
+		ARG 4 placer
+	METHOD a applyMirror (Lbnz;Lbip;)Lbnz;
+		ARG 1 state
+	METHOD a applyRotation (Lbnz;Lbjp;)Lbnz;
+		ARG 1 state
+	METHOD a appendProperties (Lboa$a;)V
+	METHOD b getRenderType (Lbnz;)Lbjm;

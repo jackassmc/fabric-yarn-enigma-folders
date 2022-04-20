@@ -1,0 +1,21 @@
+CLASS cpl net/minecraft/world/loot/entry/TagEntry
+	CLASS cpl$a Serializer
+	FIELD c name Lzc;
+	FIELD h expand Z
+	METHOD <init> (Lzc;ZII[Lcrb;[Lcpy;)V
+		ARG 1 name
+		ARG 2 expand
+		ARG 3 weight
+		ARG 4 quality
+		ARG 5 conditions
+		ARG 6 functions
+	METHOD a grow (Lcop;Ljava/util/function/Consumer;)Z
+		ARG 1 context
+		ARG 2 lootChoiceExpander
+	METHOD a (Lzc;II[Lcrb;[Lcpy;)Lcpi;
+		ARG 1 weight
+		ARG 2 quality
+		ARG 3 conditions
+		ARG 4 functions
+	METHOD b builder (Lzc;)Lcpi$a;
+		ARG 0 name

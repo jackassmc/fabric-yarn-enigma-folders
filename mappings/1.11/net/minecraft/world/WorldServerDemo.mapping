@@ -1,0 +1,3 @@
+CLASS lq net/minecraft/world/WorldServerDemo
+	FIELD I SEED J
+	FIELD a LEVEL_INFO Lajt;

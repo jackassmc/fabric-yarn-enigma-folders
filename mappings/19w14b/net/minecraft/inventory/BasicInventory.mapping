@@ -1,0 +1,7 @@
+CLASS aha net/minecraft/inventory/BasicInventory
+	FIELD a size I
+	FIELD b stackList Lfj;
+	FIELD c listeners Ljava/util/List;
+	METHOD a addListener (Lagq;)V
+	METHOD a add (Lbbr;)Lbbr;
+	METHOD b removeListener (Lagq;)V

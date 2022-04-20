@@ -1,0 +1,76 @@
+CLASS awa net/minecraft/item/ItemGroup
+	CLASS awa$1
+		METHOD <init> (ILjava/lang/String;)V
+			ARG 1 unlocalizedName
+	CLASS awa$10
+		METHOD <init> (ILjava/lang/String;)V
+			ARG 1 unlocalizedName
+	CLASS awa$11
+		METHOD <init> (ILjava/lang/String;)V
+			ARG 1 unlocalizedName
+	CLASS awa$12
+		METHOD <init> (ILjava/lang/String;)V
+			ARG 1 unlocalizedName
+	CLASS awa$2
+		METHOD <init> (ILjava/lang/String;)V
+			ARG 1 unlocalizedName
+	CLASS awa$3
+		METHOD <init> (ILjava/lang/String;)V
+			ARG 1 unlocalizedName
+	CLASS awa$4
+		METHOD <init> (ILjava/lang/String;)V
+			ARG 1 unlocalizedName
+	CLASS awa$5
+		METHOD <init> (ILjava/lang/String;)V
+			ARG 1 unlocalizedName
+	CLASS awa$6
+		METHOD <init> (ILjava/lang/String;)V
+			ARG 1 unlocalizedName
+	CLASS awa$7
+		METHOD <init> (ILjava/lang/String;)V
+			ARG 1 unlocalizedName
+	CLASS awa$8
+		METHOD <init> (ILjava/lang/String;)V
+			ARG 1 unlocalizedName
+	CLASS awa$9
+		METHOD <init> (ILjava/lang/String;)V
+			ARG 1 unlocalizedName
+	FIELD a GROUPS [Lawa;
+	FIELD b BUILDING_BLOCKS Lawa;
+	FIELD c DECORATIONS Lawa;
+	FIELD d REDSTONE Lawa;
+	FIELD e TRANSPORTATION Lawa;
+	FIELD f MISC Lawa;
+	FIELD g SEARCH Lawa;
+	FIELD h FOOD Lawa;
+	FIELD i TOOLS Lawa;
+	FIELD j COMBAT Lawa;
+	FIELD k BREWING Lawa;
+	FIELD l MATERIALS Lawa;
+	FIELD m HOTBAR Lawa;
+	FIELD n INVENTORY Lawa;
+	FIELD o id I
+	FIELD p unlocalizedName Ljava/lang/String;
+	FIELD r texture Ljava/lang/String;
+	FIELD s useScrollBar Z
+	FIELD t tooltip Z
+	FIELD u enchantmentTypes [Lbat;
+	FIELD v stack Laxi;
+	METHOD a getId ()I
+	METHOD a containsEnchantmentType (Lbat;)Z
+	METHOD a getStacksForDisplay (Lfh;)V
+	METHOD a setTexture (Ljava/lang/String;)Lawa;
+	METHOD a setEnchantmentTypes ([Lbat;)Lawa;
+	METHOD b getUntranslatedName ()Ljava/lang/String;
+	METHOD d getTranslationKey ()Ljava/lang/String;
+	METHOD e getIconItemStack ()Laxi;
+	METHOD f getIconItem ()Laxi;
+	METHOD g getTexture ()Ljava/lang/String;
+	METHOD h hasTooltip ()Z
+	METHOD i disableTooltip ()Lawa;
+	METHOD j useScrollBar ()Z
+	METHOD k setNotUseScrollBar ()Lawa;
+	METHOD l getColumn ()I
+	METHOD m isTopRow ()Z
+	METHOD n isTabRightAligned ()Z
+	METHOD o getEnchantmentTypes ()[Lbat;

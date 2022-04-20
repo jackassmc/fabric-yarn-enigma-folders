@@ -1,0 +1,7 @@
+CLASS bkv net/minecraft/client/util/EnchantingPhrases
+	FIELD a INSTANCE Lbkv;
+	FIELD b rand Ljava/util/Random;
+	FIELD c phrases [Ljava/lang/String;
+	METHOD a getInstance ()Lbkv;
+	METHOD a setSeed (J)V
+	METHOD a generatePhrase (Lbha;I)Ljava/lang/String;

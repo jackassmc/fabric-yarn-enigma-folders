@@ -1,0 +1,9 @@
+CLASS bsv net/minecraft/sortme/Hopper
+	FIELD a INSIDE_SHAPE Lcri;
+	FIELD b ABOVE_SHAPE Lcri;
+	FIELD c INPUT_AREA_SHAPE Lcri;
+	METHOD A getHopperY ()D
+	METHOD B getHopperZ ()D
+	METHOD O_ getInputAreaShape ()Lcri;
+	METHOD w getWorld ()Lbgf;
+	METHOD z getHopperX ()D

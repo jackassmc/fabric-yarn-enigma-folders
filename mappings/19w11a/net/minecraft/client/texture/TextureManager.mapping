@@ -1,0 +1,15 @@
+CLASS dtd net/minecraft/client/texture/TextureManager
+	FIELD b LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD c textures Ljava/util/Map;
+	FIELD d tickListeners Ljava/util/List;
+	FIELD e dynamicIdCounters Ljava/util/Map;
+	FIELD f resourceContainer Lxa;
+	METHOD a registerDynamicTexture (Ljava/lang/String;Ldss;)Lqp;
+		ARG 1 prefix
+	METHOD a bindTexture (Lqp;)V
+	METHOD a registerTexture (Lqp;Ldte;)Z
+		ARG 1 id
+	METHOD a registerTextureUpdateable (Lqp;Ldtg;)Z
+		ARG 1 id
+	METHOD b getTexture (Lqp;)Ldte;
+	METHOD c destroyTexture (Lqp;)V

@@ -1,0 +1,9 @@
+CLASS dey net/minecraft/client/render/entity/EntityRendererCape
+	FIELD a renderer Ldgg;
+	METHOD <init> (Ldgg;)V
+		ARG 0 renderer
+	METHOD a shouldMergeTextures ()Z
+	METHOD a render (Lafq;FFFFFFF)V
+		ARG 0 entity
+	METHOD a render (Lcxa;FFFFFFF)V
+		ARG 0 entity

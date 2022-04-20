@@ -1,0 +1,20 @@
+CLASS asc net/minecraft/container/ContainerHorse
+	CLASS asc$1
+		METHOD a canInsert (Lava;)Z
+			ARG 0 stack
+		METHOD b doDrawHoveringEffect ()Z
+	CLASS asc$2
+		METHOD a getMaxStackAmount ()I
+		METHOD a canInsert (Lava;)Z
+			ARG 0 stack
+		METHOD b doDrawHoveringEffect ()Z
+	FIELD a playerInv Lael;
+	FIELD f entity Lama;
+	METHOD <init> (Lael;Lael;Lama;Lapv;)V
+		ARG 1 playerInv
+		ARG 2 inventory
+		ARG 3 entity
+	METHOD a canUse (Lapv;)Z
+	METHOD b close (Lapv;)V
+	METHOD b getStack (Lapv;I)Lava;
+		ARG 1 player

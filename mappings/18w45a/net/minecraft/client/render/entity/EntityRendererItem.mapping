@@ -1,0 +1,7 @@
+CLASS dfk net/minecraft/client/render/entity/EntityRendererItem
+	FIELD a itemRenderer Ldfm;
+	FIELD f rand Ljava/util/Random;
+	METHOD <init> (Lder;Ldfm;)V
+		ARG 1 renderManager
+	METHOD a getTexture (Lafy;)Lpw;
+	METHOD a getTexture (Lany;)Lpw;

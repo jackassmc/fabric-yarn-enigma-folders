@@ -1,0 +1,7 @@
+CLASS akq net/minecraft/entity/ai/goal/LookAroundGoal
+	FIELD a owner Lahv;
+	FIELD b deltaX D
+	FIELD c deltaZ D
+	FIELD d lookTime I
+	METHOD <init> (Lahv;)V
+		ARG 1 owner

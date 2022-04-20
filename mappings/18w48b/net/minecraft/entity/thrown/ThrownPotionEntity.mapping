@@ -1,0 +1,23 @@
+CLASS arg net/minecraft/entity/thrown/ThrownPotionEntity
+	FIELD au LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD f ITEM_STACK Lpn;
+	METHOD <init> (Lbaq;DDDLavs;)V
+		ARG 1 world
+		ARG 2 x
+		ARG 4 y
+	METHOD <init> (Lbaq;Lagr;Lavs;)V
+		ARG 1 world
+		ARG 2 owner
+	METHOD a doesWaterHurt (Lagr;)Z
+		ARG 0 entityHit
+	METHOD a onCollision (Lckm;)V
+	METHOD a extinguishFire (Let;Ley;)V
+	METHOD a readCustomDataFromTag (Lhp;)V
+		ARG 1 tag
+	METHOD b setItemStack (Lavs;)V
+	METHOD b writeCustomDataToTag (Lhp;)V
+		ARG 1 tag
+	METHOD f getGravity ()F
+	METHOD k getItemStack ()Lavs;
+	METHOD m isLingering ()Z
+	METHOD x_ initDataTracker ()V

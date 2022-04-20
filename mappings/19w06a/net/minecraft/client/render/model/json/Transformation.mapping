@@ -1,0 +1,19 @@
+CLASS dgt net/minecraft/client/render/model/json/Transformation
+	CLASS dgt$a Deserializer
+		FIELD a DEFAULT_ROATATION Lcpo;
+		FIELD b DEFAULT_TRANSLATION Lcpo;
+		FIELD c DEFAULT_SCALE Lcpo;
+		METHOD a parseVector3f (Lcom/google/gson/JsonObject;Ljava/lang/String;Lcpo;)Lcpo;
+			ARG 1 json
+			ARG 2 key
+			ARG 3 default_
+	FIELD a ORIGIN Ldgt;
+	FIELD b rotation Lcpo;
+	FIELD c translation Lcpo;
+	FIELD d scale Lcpo;
+	METHOD <init> (Lcpo;Lcpo;Lcpo;)V
+		ARG 1 rotation
+		ARG 2 translation
+		ARG 3 scale
+	METHOD equals (Ljava/lang/Object;)Z
+		ARG 1 o

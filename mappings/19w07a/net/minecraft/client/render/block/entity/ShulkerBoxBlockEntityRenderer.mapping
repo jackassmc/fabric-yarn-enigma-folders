@@ -1,0 +1,2 @@
+CLASS dia net/minecraft/client/render/block/entity/ShulkerBoxBlockEntityRenderer
+	FIELD c model Ldbh;

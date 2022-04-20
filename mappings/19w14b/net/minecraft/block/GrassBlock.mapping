@@ -1,0 +1,3 @@
+CLASS bok net/minecraft/block/GrassBlock
+	METHOD <init> (Lbmb$c;)V
+		ARG 1 settings

@@ -1,0 +1,19 @@
+CLASS agd net/minecraft/sortme/ItemScatterer
+	FIELD a RANDOM Ljava/util/Random;
+	METHOD a spawn (Lbdb;DDDLaga;)V
+		ARG 0 world
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+		ARG 7 inventory
+	METHOD a spawn (Lbdb;DDDLaxt;)V
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+		ARG 7 item
+	METHOD a spawn (Lbdb;Lahl;Laga;)V
+	METHOD a spawn (Lbdb;Les;Laga;)V
+	METHOD a spawn (Lbdb;Les;Lfe;)V
+		ARG 0 world
+		ARG 1 pos
+		ARG 2 items

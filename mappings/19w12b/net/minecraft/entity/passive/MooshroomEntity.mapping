@@ -1,0 +1,14 @@
+CLASS aqa net/minecraft/entity/passive/MooshroomEntity
+	CLASS aqa$a Type
+		FIELD c name Ljava/lang/String;
+		FIELD d mushroomState Lbue;
+		METHOD a getMushroomState ()Lbue;
+		METHOD b fromName (Ljava/lang/String;)Laqa$a;
+	FIELD bA TYPE Lqf;
+	FIELD bB stewEffect Lahq;
+	FIELD bC stewEffectDuration I
+	FIELD bE lightningId Ljava/util/UUID;
+	METHOD a setType (Laqa$a;)V
+	METHOD a chooseBabyType (Laqa;)Laqa$a;
+	METHOD dP getMooshroomType ()Laqa$a;
+	METHOD k getStewEffectFrom (Lbaz;)Lorg/apache/commons/lang3/tuple/Pair;

@@ -1,0 +1,21 @@
+CLASS ht net/minecraft/nbt/IntArrayTag
+	FIELD f value [I
+	METHOD a getType ()B
+	METHOD a getRaw (I)Lhu;
+	METHOD a setRaw (ILig;)V
+		ARG 1 index
+	METHOD a read (Ljava/io/DataInput;ILhy;)V
+		ARG 1 input
+		ARG 2 depth
+	METHOD a write (Ljava/io/DataOutput;)V
+	METHOD a toTextComponent (Ljava/lang/String;I)Lja;
+		ARG 1 indent
+	METHOD a toArray (Ljava/util/List;)[I
+		ARG 0 list
+	METHOD b copy ()Lig;
+	METHOD b remove (I)V
+	METHOD b append (ILig;)V
+		ARG 1 index
+	METHOD c copy ()Lht;
+	METHOD c getRaw (I)Lig;
+	METHOD f getIntArray ()[I

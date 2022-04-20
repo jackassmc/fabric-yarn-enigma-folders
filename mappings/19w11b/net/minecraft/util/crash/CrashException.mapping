@@ -1,0 +1,3 @@
+CLASS l net/minecraft/util/crash/CrashException
+	FIELD a report Ld;
+	METHOD a getReport ()Ld;

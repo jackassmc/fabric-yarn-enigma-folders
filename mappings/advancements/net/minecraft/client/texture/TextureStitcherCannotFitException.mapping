@@ -1,0 +1,2 @@
+CLASS cbu net/minecraft/client/texture/TextureStitcherCannotFitException
+	FIELD a holder Lcbt$a;

@@ -1,0 +1,10 @@
+CLASS ne net/minecraft/client/world/BlockBreakingStatus
+	FIELD a breakingEntityId I
+	FIELD b pos Ldx;
+	FIELD c progress I
+	FIELD d lastUpdated I
+	METHOD a setProgress (I)V
+	METHOD b getPos ()Ldx;
+	METHOD b setLastUpdated (I)V
+	METHOD c getProgress ()I
+	METHOD d getLastUpdated ()I

@@ -1,0 +1,9 @@
+CLASS dkq net/minecraft/client/render/entity/ItemFrameEntityRenderer
+	FIELD a MAP_BACKGROUND_TEX Lqc;
+	FIELD h client Lcqe;
+	FIELD i itemRenderer Ldkr;
+	METHOD <init> (Ldjw;Ldkr;)V
+		ARG 1 renderManager
+	METHOD a getTexture (Lahc;)Lqc;
+	METHOD a render (Lahc;DDDFF)V
+	METHOD a getTexture (Laov;)Lqc;

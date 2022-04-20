@@ -1,0 +1,10 @@
+CLASS cwl net/minecraft/client/toast/TutorialToast
+	CLASS cwl$a Type
+		FIELD f textureSlotX I
+		FIELD g textureSlotY I
+		METHOD a drawIcon (Lcuu;II)V
+	FIELD c type Lcwl$a;
+	FIELD d title Ljava/lang/String;
+	FIELD e description Ljava/lang/String;
+	FIELD f visibility Lcwj$a;
+	METHOD a hide ()V

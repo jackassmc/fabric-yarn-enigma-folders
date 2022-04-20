@@ -1,0 +1,21 @@
+CLASS cge net/minecraft/world/gen/decorator/Decorator
+	FIELD M configDeserializer Ljava/util/function/Function;
+	FIELD h NOPE Lcge;
+	METHOD <init> (Ljava/util/function/Function;)V
+		ARG 1 configDeserializer
+	METHOD a getPositions (Lbgw;Lbwl;Ljava/util/Random;Lcaa;Lev;)Ljava/util/stream/Stream;
+		ARG 1 world
+		ARG 2 generator
+		ARG 3 random
+		ARG 4 config
+		ARG 5 pos
+	METHOD a generate (Lbgw;Lbwl;Ljava/util/Random;Lev;Lcaa;Lbzo;)Z
+		ARG 1 world
+		ARG 2 generator
+		ARG 3 random
+		ARG 4 pos
+		ARG 5 decoratorConfig
+	METHOD a deserialize (Lcom/mojang/datafixers/Dynamic;)Lcaa;
+	METHOD a register (Ljava/lang/String;Lcge;)Lcge;
+		ARG 0 registryName
+		ARG 1 decorator

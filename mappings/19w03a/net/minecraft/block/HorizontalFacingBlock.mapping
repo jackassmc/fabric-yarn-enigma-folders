@@ -1,0 +1,9 @@
+CLASS bkb net/minecraft/block/HorizontalFacingBlock
+	METHOD <init> (Lbhl$c;)V
+		ARG 1 settings
+	METHOD a applyMirror (Lbqi;Lbkw;)Lbqi;
+		ARG 1 state
+		ARG 2 mirror
+	METHOD a applyRotation (Lbqi;Lblw;)Lbqi;
+		ARG 1 state
+		ARG 2 rotation

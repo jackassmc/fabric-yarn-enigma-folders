@@ -1,0 +1,11 @@
+CLASS ciy net/minecraft/world/loot/function/SetLoreLootFunction
+	CLASS ciy$b Factory
+		METHOD a toJson (Lcom/google/gson/JsonObject;Lcip;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD a toJson (Lcom/google/gson/JsonObject;Lciq;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD b fromJson (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;[Lcjt;)Lcip;
+	FIELD a replace Z
+	FIELD c lore Ljava/util/List;
+	FIELD d entity Lchi$c;
+	METHOD a getRequiredParameters ()Ljava/util/Set;
+	METHOD a process (Lavs;Lchi;)Lavs;
+		ARG 1 stack

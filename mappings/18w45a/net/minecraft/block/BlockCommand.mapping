@@ -1,0 +1,38 @@
+CLASS bfq net/minecraft/block/BlockCommand
+	FIELD a FACING Lbop;
+	METHOD a getPlacementState (Late;)Lbno;
+	METHOD a createBlockEntity (Lazl;)Lbls;
+	METHOD a onPlaced (Lazy;Les;Lbno;Lagh;Lava;)V
+		ARG 1 world
+		ARG 2 pos
+		ARG 3 state
+		ARG 4 placer
+	METHOD a getTickRate (Lbac;)I
+	METHOD a activate (Lbno;Lazy;Les;Lapv;Laer;Lex;FFF)Z
+		ARG 1 state
+		ARG 2 world
+		ARG 3 pos
+		ARG 4 player
+		ARG 5 hand
+		ARG 6 facing
+		ARG 7 hitX
+		ARG 8 hitY
+	METHOD a update (Lbno;Lazy;Les;Lbey;Les;)V
+		ARG 1 state
+		ARG 2 world
+		ARG 3 pos
+		ARG 4 block
+	METHOD a (Lbno;Lazy;Les;Ljava/util/Random;)V
+		ARG 1 world
+		ARG 2 state
+		ARG 3 pos
+	METHOD a applyMirror (Lbno;Lbif;)Lbno;
+		ARG 1 state
+	METHOD a applyRotation (Lbno;Lbjf;)Lbno;
+		ARG 1 state
+	METHOD a appendProperties (Lbnp$a;)V
+	METHOD b getComparatorOutput (Lbno;Lazy;Les;)I
+		ARG 1 state
+		ARG 2 world
+	METHOD c getRenderType (Lbno;)Lbjc;
+	METHOD t hasComparatorOutput (Lbno;)Z

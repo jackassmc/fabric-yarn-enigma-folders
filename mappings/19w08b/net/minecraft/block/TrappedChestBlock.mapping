@@ -1,0 +1,3 @@
+CLASS bof net/minecraft/block/TrappedChestBlock
+	METHOD <init> (Lbig$c;)V
+		ARG 1 settings

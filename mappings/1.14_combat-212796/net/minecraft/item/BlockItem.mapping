@@ -1,0 +1,46 @@
+CLASS bah net/minecraft/item/BlockItem
+	FIELD a block Lbmr;
+	METHOD <init> (Lbmr;Lbbz$a;)V
+		ARG 1 block
+		ARG 2 settings
+	METHOD a place (Lbai;)Lahh;
+		ARG 1 context
+	METHOD a place (Lbai;Lbvp;)Z
+		ARG 1 context
+		ARG 2 state
+	METHOD a writeTagToBlockEntity (Lbhn;Lawb;Lev;Lbce;)Z
+		ARG 0 world
+		ARG 1 player
+		ARG 2 pos
+		ARG 3 stack
+	METHOD a getPlaceSound (Lbvp;)Lym;
+		ARG 1 state
+	METHOD a (Lbvp;Lbws;Ljava/lang/Comparable;)Lbvp;
+		ARG 2 value
+	METHOD a with (Lbvp;Lbws;Ljava/lang/String;)Lbvp;
+		ARG 0 state
+		ARG 1 property
+		ARG 2 name
+	METHOD a postPlacement (Lev;Lbhn;Lawb;Lbce;Lbvp;)Z
+		ARG 1 pos
+		ARG 2 world
+		ARG 3 player
+		ARG 4 stack
+		ARG 5 state
+	METHOD a placeFromTag (Lev;Lbhn;Lbce;Lbvp;)Lbvp;
+		ARG 1 pos
+		ARG 2 world
+		ARG 3 stack
+		ARG 4 state
+	METHOD a appendBlocks (Ljava/util/Map;Lbbz;)V
+		ARG 1 map
+		ARG 2 item
+	METHOD b getPlacementContext (Lbai;)Lbai;
+		ARG 1 context
+	METHOD b canPlace (Lbai;Lbvp;)Z
+		ARG 1 context
+		ARG 2 state
+	METHOD c getPlacementState (Lbai;)Lbvp;
+		ARG 1 context
+	METHOD d checkStatePlacement ()Z
+	METHOD e getBlock ()Lbmr;

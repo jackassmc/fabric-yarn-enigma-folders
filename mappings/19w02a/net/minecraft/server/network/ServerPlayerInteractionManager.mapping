@@ -1,0 +1,23 @@
+CLASS uw net/minecraft/server/network/ServerPlayerInteractionManager
+	FIELD a world Lbcf;
+	FIELD b player Luv;
+	FIELD c gameMode Lbcc;
+	METHOD a update ()V
+	METHOD a interactItem (Lark;Lbcf;Laxd;Lafy;)Lafz;
+	METHOD a interactBlock (Lark;Lbcf;Laxd;Lafy;Let;Ley;FFF)Lafz;
+		ARG 1 player
+		ARG 2 world
+		ARG 3 stack
+		ARG 4 hand
+		ARG 5 pos
+		ARG 6 facing
+		ARG 7 hitX
+		ARG 8 hitY
+	METHOD a setGameMode (Lbcc;)V
+	METHOD a setWorld (Lut;)V
+	METHOD b getGameMode ()Lbcc;
+	METHOD b setGameModeIfNotPresent (Lbcc;)V
+	METHOD b tryBreakBlock (Let;)Z
+	METHOD c isSurvivalLike ()Z
+	METHOD c destroyBlock (Let;)Z
+	METHOD d isCreative ()Z

@@ -1,0 +1,4 @@
+CLASS afq net/minecraft/util/ActionResult
+	FIELD a SUCCESS Lafq;
+	FIELD b PASS Lafq;
+	FIELD c FAILURE Lafq;

@@ -1,0 +1,12 @@
+CLASS bre net/minecraft/block/WallBlock
+	FIELD i UP Lbup;
+	FIELD j UP_OUTLINE_SHAPES [Lcrb;
+	FIELD k UP_COLLISION_SHAPES [Lcrb;
+	METHOD <init> (Lbkz$c;)V
+		ARG 1 settings
+	METHOD a shouldConnectTo (Lbtx;ZLez;)Z
+		ARG 1 state
+		ARG 2 faceFullSquare
+		ARG 3 side
+	METHOD f cannotConnectTo (Lbkz;)Z
+		ARG 0 block

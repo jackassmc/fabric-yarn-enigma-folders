@@ -1,0 +1,3 @@
+CLASS none/btd net/minecraft/client/render/entity/EntityRenderer
+	METHOD a (Lnone/sf;DDDFF)V
+	METHOD a (Lnone/sf;Ljava/lang/String;DDDI)V

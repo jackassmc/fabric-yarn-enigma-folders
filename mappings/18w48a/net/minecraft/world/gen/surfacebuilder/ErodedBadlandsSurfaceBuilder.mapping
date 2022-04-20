@@ -1,0 +1,2 @@
+CLASS ccf net/minecraft/world/gen/surfacebuilder/ErodedBadlandsSurfaceBuilder
+	METHOD a generate (Ljava/util/Random;Lbpw;Lbbp;IIIDLboj;Lboj;IJLccp;)V

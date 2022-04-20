@@ -1,0 +1,26 @@
+CLASS aok net/minecraft/entity/FallingBlockEntity
+	FIELD au hurtEntities Z
+	FIELD b dropItem Z
+	FIELD c blockEntityData Lhp;
+	FIELD d BLOCK_POS Lpn;
+	FIELD e block Lboj;
+	METHOD <init> (Lbaq;DDDLboj;)V
+		ARG 1 world
+		ARG 2 x
+		ARG 4 y
+	METHOD U_ update ()V
+	METHOD a addCrashReportDetails (Lc;)V
+	METHOD a setFallingBlockPos (Let;)V
+	METHOD a deserializeCustomData (Lhp;)V
+		ARG 1 tag
+	METHOD a setHurtEntities (Z)V
+	METHOD aD doesCollide ()Z
+	METHOD b serializeCustomData (Lhp;)V
+		ARG 1 tag
+	METHOD bu doesRenderOnFire ()Z
+	METHOD c handleFallDamage (FF)V
+		ARG 1 fallDistance
+	METHOD f getFallingBlockPos ()Let;
+	METHOD i getWorldClient ()Lbaq;
+	METHOD k getBlockState ()Lboj;
+	METHOD x_ initDataTracker ()V

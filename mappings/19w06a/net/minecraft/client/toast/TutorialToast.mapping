@@ -1,0 +1,10 @@
+CLASS csm net/minecraft/client/toast/TutorialToast
+	CLASS csm$a Type
+		FIELD f textureSlotX I
+		FIELD g textureSlotY I
+		METHOD a drawIcon (Lcqw;II)V
+	FIELD c type Lcsm$a;
+	FIELD d title Ljava/lang/String;
+	FIELD e description Ljava/lang/String;
+	FIELD f visibility Lcsk$a;
+	METHOD a hide ()V

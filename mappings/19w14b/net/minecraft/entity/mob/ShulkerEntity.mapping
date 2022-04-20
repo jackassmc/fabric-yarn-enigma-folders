@@ -1,0 +1,22 @@
+CLASS aui net/minecraft/entity/mob/ShulkerEntity
+	CLASS aui$a ShootBulletGoal
+		FIELD b counter I
+	CLASS aui$b ShulkerBodyControl
+	CLASS aui$c SearchForTargetGoal
+		METHOD a (Laij;)Z
+			ARG 0 entity
+	CLASS aui$d SearchForPlayerGoal
+	CLASS aui$e PeekGoal
+		FIELD b counter I
+	FIELD bA COLOR Lqh;
+	FIELD bB ATTR_COVERED_ARMOR_BONUS_UUID Ljava/util/UUID;
+	FIELD bC ATTR_COVERED_ARMOR_BONUS Lajb;
+	FIELD b ATTACHED_FACE Lqh;
+	FIELD c ATTACHED_BLOCK Lqh;
+	FIELD d PEEK_AMOUNT Lqh;
+	METHOD a setPeekAmount (I)V
+	METHOD dS getAttachedFace ()Lfa;
+	METHOD dT getAttachedBlock ()Lev;
+	METHOD dU getPeekAmount ()I
+	METHOD dZ getColor ()Lbao;
+	METHOD g setAttachedBlock (Lev;)V

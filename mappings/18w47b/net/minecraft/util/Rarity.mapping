@@ -1,0 +1,6 @@
+CLASS awb net/minecraft/util/Rarity
+	FIELD a COMMON Lawb;
+	FIELD b UNCOMMON Lawb;
+	FIELD c RARE Lawb;
+	FIELD d EPIC Lawb;
+	FIELD e formatting La;

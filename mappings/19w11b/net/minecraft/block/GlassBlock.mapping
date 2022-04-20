@@ -1,0 +1,3 @@
+CLASS bnf net/minecraft/block/GlassBlock
+	METHOD <init> (Lbky$c;)V
+		ARG 1 settings

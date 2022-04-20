@@ -1,0 +1,7 @@
+CLASS ceo net/minecraft/world/gen/feature/VillageFeature
+	CLASS ceo$a Start
+		METHOD <init> (Lcef;IILbia;Lchn;IJ)V
+			ARG 2 chunkX
+			ARG 3 chunkZ
+	METHOD <init> (Ljava/util/function/Function;)V
+		ARG 1 configFactory

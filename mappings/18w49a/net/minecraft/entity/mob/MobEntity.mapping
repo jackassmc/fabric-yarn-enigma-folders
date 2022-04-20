@@ -1,0 +1,90 @@
+CLASS agu net/minecraft/entity/mob/MobEntity
+	FIELD a MOB_FLAGS Lpo;
+	FIELD bA navigation Lakv;
+	FIELD bB goalSelector Lair;
+	FIELD bC targetSelector Lair;
+	FIELD bD handDropChances [F
+	FIELD bE armorDropChances [F
+	FIELD bF visibilityCache Lala;
+	FIELD bG handItems Lfh;
+	FIELD bH armorItems Lfh;
+	FIELD bI pickUpLoot Z
+	FIELD bJ persistent Z
+	FIELD bK pathNodeTypeWeights Ljava/util/Map;
+	FIELD bL lootTable Lpz;
+	FIELD b bodyControl Lahq;
+	FIELD bM lootTableSeed J
+	FIELD bN leashed Z
+	FIELD bO holdingEntity Lagk;
+	FIELD bP leashTag Lhq;
+	FIELD b_ experiencePoints I
+	FIELD by moveControl Lahw;
+	FIELD bz jumpControl Lahu;
+	FIELD c target Lagt;
+	FIELD f lookControl Lahv;
+	METHOD <init> (Lago;Lbas;)V
+		ARG 1 type
+	METHOD A playAmbientSound ()V
+	METHOD D getAmbientSound ()Lxg;
+	METHOD F getLootTableId ()Lpz;
+	METHOD G checkDespawn ()V
+	METHOD H mobTick ()V
+	METHOD M getLimitPerChunk ()I
+	METHOD O setPersistent ()V
+	METHOD P canPickUpLoot ()Z
+	METHOD T_ update ()V
+	METHOD Y updateLogic ()V
+	METHOD a initEquipment (Lafc;)V
+	METHOD a dropEquipment (Laft;IZ)V
+	METHOD a startRiding (Lagk;Z)Z
+		ARG 1 entity
+	METHOD a setEquipmentDropChance (Lagp;F)V
+		ARG 1 slot
+	METHOD a setEquippedStack (Lagp;Lavu;)V
+		ARG 1 slot
+	METHOD a canBeLeashedBy (Laql;)Z
+	METHOD a interactMob (Laql;Lafd;)Z
+		ARG 1 player
+	METHOD a (Lbat;Lafc;Lagw;Lahe;Lhq;)Lahe;
+		ARG 3 difficulty
+	METHOD a getPathNodeTypeWeight (Lcgc;)F
+	METHOD a setPathNodeTypeWeight (Lcgc;F)V
+		ARG 1 type
+	METHOD a readCustomDataFromTag (Lhq;)V
+	METHOD a detachLeash (ZZ)V
+		ARG 1 sendPacket
+	METHOD aU getItemsHand ()Ljava/lang/Iterable;
+	METHOD aV getItemsArmor ()Ljava/lang/Iterable;
+	METHOD b attachLeash (Lagk;Z)V
+		ARG 1 entity
+	METHOD b getEquippedStack (Lagp;)Lavu;
+	METHOD b interact (Laql;Lafd;)Z
+		ARG 1 player
+	METHOD b createNavigation (Lbas;)Lakv;
+	METHOD b writeCustomDataToTag (Lhq;)V
+	METHOD b canTrack (Ljava/lang/Class;)Z
+	METHOD bo getSafeFallDistance ()I
+	METHOD cW getMainHand ()Lags;
+	METHOD ca initAttributes ()V
+	METHOD dk isPersistent ()Z
+	METHOD dm isLeashed ()Z
+	METHOD dn getHoldingEntity ()Lagk;
+	METHOD do isAiDisabled ()Z
+	METHOD dp isLeftHanded ()Z
+	METHOD dr deserializeLeashTag ()V
+	METHOD e getPreferredEquipmentSlot (Lavu;)Lagp;
+		ARG 0 stack
+	METHOD f setTarget (Lagt;)V
+	METHOD k updateMovement ()V
+	METHOD n initAi ()V
+	METHOD o createBodyControl ()Lahq;
+	METHOD p getLookControl ()Lahv;
+	METHOD p setCanPickUpLoot (Z)V
+	METHOD q setAiDisabled (Z)V
+	METHOD r getMoveControl ()Lahw;
+	METHOD r setLeftHanded (Z)V
+	METHOD s getJumpControl ()Lahu;
+	METHOD t getNavigation ()Lakv;
+	METHOD u getVisibilityCache ()Lala;
+	METHOD v getTarget ()Lagt;
+	METHOD y_ initDataTracker ()V

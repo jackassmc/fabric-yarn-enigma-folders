@@ -1,0 +1,9 @@
+CLASS djq net/minecraft/server/IntegratedServerConfigurationManager
+	FIELD f userData Lhl;
+	METHOD <init> (Ldjr;)V
+		ARG 0 integratedServer
+	METHOD b getServer ()Ldjr;
+	METHOD b savePlayerData (Lub;)V
+		ARG 0 entityPlayerServer
+	METHOD c getServer ()Lnet/minecraft/server/MinecraftServer;
+	METHOD t getUserData ()Lhl;

@@ -1,0 +1,10 @@
+CLASS cfe net/minecraft/server/IntegratedServer
+	FIELD k LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD l game Lbgm;
+	FIELD m levelInfo Lall;
+	FIELD o openedToLan Z
+	FIELD p lanPinger Lcfi;
+	METHOD Z isSnooperEnabled ()Z
+	METHOD a isOpenToLan ()Z
+	METHOD a addSnooperInfo (Ltg;)V
+	METHOD b reloadResources ()V

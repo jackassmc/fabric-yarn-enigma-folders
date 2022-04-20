@@ -1,0 +1,32 @@
+CLASS ug net/minecraft/server/ServerWorldListener
+	FIELD a server Lnet/minecraft/server/MinecraftServer;
+	FIELD b world Luf;
+	METHOD a onGlobalWorldEvent (ILes;I)V
+		ARG 1 eventId
+		ARG 2 pos
+	METHOD a onEntityAdded (Lagc;)V
+	METHOD a onWorldEvent (Laqa;ILes;I)V
+		ARG 1 player
+		ARG 2 eventId
+		ARG 3 pos
+	METHOD a onSound (Laqa;Lxb;Lxd;DDDFF)V
+		ARG 1 player
+		ARG 2 sound
+		ARG 3 category
+		ARG 4 x
+		ARG 6 y
+	METHOD a onBlockUpdate (Lazq;Les;Lbnz;Lbnz;I)V
+		ARG 1 world
+		ARG 2 pos
+		ARG 3 oldState
+		ARG 4 newState
+	METHOD a addParticle (Lfs;ZDDDDDD)V
+		ARG 2 ignoreCameraBounds
+		ARG 3 x
+		ARG 5 y
+		ARG 7 z
+	METHOD a addParticle (Lfs;ZZDDDDDD)V
+	METHOD b onBlockBreakingStage (ILes;I)V
+		ARG 1 entityId
+		ARG 2 pos
+	METHOD b onEntityRemoved (Lagc;)V

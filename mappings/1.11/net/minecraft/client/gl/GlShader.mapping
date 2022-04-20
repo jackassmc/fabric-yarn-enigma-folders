@@ -1,0 +1,33 @@
+CLASS byg net/minecraft/client/gl/GlShader
+	CLASS byg$a Type
+		FIELD a VERTEX Lbyg$a;
+		FIELD b FRAGMENT Lbyg$a;
+		FIELD c name Ljava/lang/String;
+		FIELD d fileExtension Ljava/lang/String;
+		FIELD e shaderType I
+		FIELD f nameObjectMap Ljava/util/Map;
+		METHOD <init> (Ljava/lang/String;ILjava/lang/String;Ljava/lang/String;I)V
+			ARG 0 name
+			ARG 1 fileExtension
+			ARG 2 shaderType
+		METHOD a getName ()Ljava/lang/String;
+		METHOD b getFileExtension ()Ljava/lang/String;
+		METHOD c getShaderType ()I
+		METHOD d getNameObjectMap ()Ljava/util/Map;
+	FIELD a shaderType Lbyg$a;
+	FIELD b name Ljava/lang/String;
+	FIELD c shaderRef I
+	FIELD d refCount I
+	METHOD <init> (Lbyg$a;ILjava/lang/String;)V
+		ARG 0 shaderType
+		ARG 1 shaderRef
+		ARG 2 name
+	METHOD a getName ()Ljava/lang/String;
+	METHOD a attachTo (Lbyd;)V
+		ARG 0 program
+	METHOD a createFromResource (Lbzv;Lbyg$a;Ljava/lang/String;)Lbyg;
+		ARG 0 resource
+		ARG 1 shaderType
+		ARG 2 name
+	METHOD b detachFrom (Lbyd;)V
+		ARG 0 program

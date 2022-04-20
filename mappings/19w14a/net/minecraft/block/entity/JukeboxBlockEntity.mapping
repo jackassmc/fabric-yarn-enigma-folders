@@ -1,0 +1,4 @@
+CLASS bts net/minecraft/block/entity/JukeboxBlockEntity
+	FIELD a record Lbbq;
+	METHOD a setRecord (Lbbq;)V
+	METHOD c getRecord ()Lbbq;

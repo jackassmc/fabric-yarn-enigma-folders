@@ -1,0 +1,2 @@
+CLASS dsh net/minecraft/client/render/entity/feature/HorseArmorFeatureRenderer
+	FIELD a model Ldeh;

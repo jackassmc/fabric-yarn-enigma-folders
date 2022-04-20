@@ -1,0 +1,10 @@
+CLASS coj net/minecraft/world/loot/function/SetAttributesLootFunction
+	CLASS coj$b net/minecraft/world/loot/function/SetAttributesLootFunction$Attribute
+		FIELD a name Ljava/lang/String;
+		FIELD b attribute Ljava/lang/String;
+		FIELD d amountRange Lcnf;
+		FIELD e id Ljava/util/UUID;
+		FIELD f slots [Laib;
+		METHOD a deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Lcoj$b;
+		METHOD a serialize (Lcom/google/gson/JsonSerializationContext;)Lcom/google/gson/JsonObject;
+	CLASS coj$d net/minecraft/world/loot/function/SetAttributesLootFunction$Factory

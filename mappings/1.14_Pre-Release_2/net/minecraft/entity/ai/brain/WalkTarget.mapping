@@ -1,0 +1,18 @@
+CLASS aox net/minecraft/entity/ai/brain/WalkTarget
+	FIELD a lookTarget Lakk;
+	FIELD b speed F
+	FIELD c completionRange I
+	METHOD <init> (Lakk;FI)V
+		ARG 2 speed
+		ARG 3 completionRange
+	METHOD <init> (Lcro;FI)V
+		ARG 1 pos
+		ARG 2 speedFactor
+		ARG 3 completionRange
+	METHOD <init> (Lev;FI)V
+		ARG 1 pos
+		ARG 2 speedFactor
+		ARG 3 completionRange
+	METHOD a getLookTarget ()Lakk;
+	METHOD b getSpeed ()F
+	METHOD c getCompletionRange ()I

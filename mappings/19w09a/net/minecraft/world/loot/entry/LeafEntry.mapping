@@ -1,0 +1,20 @@
+CLASS ckv net/minecraft/world/loot/entry/LeafEntry
+	CLASS ckv$a Builder
+		FIELD a weight I
+		FIELD b quality I
+		FIELD c functions Ljava/util/List;
+		METHOD a getFunctions ()[Lcll;
+		METHOD a setWeight (I)Lckv$a;
+		METHOD b setQuality (I)Lckv$a;
+	CLASS ckv$b BasicBuilder
+		FIELD c factory Lckv$d;
+	CLASS ckv$c Choice
+	CLASS ckv$d Factory
+	CLASS ckv$e Serializer
+	FIELD c compiledFunctions Ljava/util/function/BiFunction;
+	FIELD e weight I
+	FIELD f quality I
+	FIELD g functions [Lcll;
+	FIELD h choice Lckt;
+	METHOD a create (Lckv$d;)Lckv$a;
+	METHOD a drop (Ljava/util/function/Consumer;Lckc;)V

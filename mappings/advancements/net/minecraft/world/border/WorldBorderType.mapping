@@ -1,0 +1,6 @@
+CLASS avx net/minecraft/world/border/WorldBorderType
+	FIELD a EXPANDING Lavx;
+	FIELD b SHRINKING Lavx;
+	FIELD c STANDARD Lavx;
+	FIELD d color I
+	METHOD a getColor ()I

@@ -1,0 +1,14 @@
+CLASS cpb net/minecraft/world/loot/entry/EntryCombiner
+	FIELD a ALWAYS_FALSE Lcpb;
+	FIELD b ALWAYS_TRUE Lcpb;
+	METHOD a doExpand (Lcor;Ljava/util/function/Consumer;)Z
+	METHOD a and (Lcpb;)Lcpb;
+		ARG 1 other
+	METHOD a (Lcpb;Lcor;Ljava/util/function/Consumer;)Z
+		ARG 2 context
+		ARG 3 lootChoiceExpander
+	METHOD b or (Lcpb;)Lcpb;
+		ARG 1 other
+	METHOD b (Lcpb;Lcor;Ljava/util/function/Consumer;)Z
+		ARG 2 context
+		ARG 3 lootChoiceExpander

@@ -1,0 +1,22 @@
+CLASS dmh net/minecraft/client/render/model/json/MultipartModelComponent
+	CLASS a Deserializer
+		METHOD a (Lcom/google/gson/JsonElement;Ljava/lang/reflect/Type;Lcom/google/gson/JsonDeserializationContext;)Ldmh;
+			ARG 1 element
+			ARG 2 type
+			ARG 3 context
+		METHOD a deserializeSelector (Lcom/google/gson/JsonObject;)Ldmd;
+			ARG 0 object
+		METHOD a createStatePropertySelector (Ljava/util/Map$Entry;)Ldmd;
+			ARG 0 entry
+		METHOD b deserializeSelectorOrDefault (Lcom/google/gson/JsonObject;)Ldmd;
+			ARG 1 object
+	FIELD a selector Ldmd;
+	FIELD b model Ldma;
+	METHOD <init> (Ldmd;Ldma;)V
+		ARG 1 selector
+		ARG 2 model
+	METHOD a getModel ()Ldma;
+	METHOD a getPredicate (Lbvq;)Ljava/util/function/Predicate;
+		ARG 1 stateFactory
+	METHOD equals (Ljava/lang/Object;)Z
+		ARG 1 o

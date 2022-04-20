@@ -1,0 +1,2 @@
+CLASS asl net/minecraft/entity/FlyingItemEntity
+	METHOD f getItem ()Laxx;

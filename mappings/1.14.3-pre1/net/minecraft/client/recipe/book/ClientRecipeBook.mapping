@@ -1,0 +1,14 @@
+CLASS cvb net/minecraft/client/recipe/book/ClientRecipeBook
+	FIELD k manager Lbel;
+	FIELD l resultsByGroup Ljava/util/Map;
+	FIELD m orderedResults Ljava/util/List;
+	METHOD a getResultsForGroup (Lcvs;)Ljava/util/List;
+	METHOD a addGroupResults (Lcvs;Ldcl;)V
+		ARG 1 group
+		ARG 2 results
+	METHOD b getGroupsForContainer (Lazj;)Ljava/util/List;
+	METHOD b addGroup (Lcvs;)Ldcl;
+		ARG 1 group
+	METHOD g getGroupForRecipe (Lbek;)Lcvs;
+	METHOD i reload ()V
+	METHOD j getOrderedResults ()Ljava/util/List;

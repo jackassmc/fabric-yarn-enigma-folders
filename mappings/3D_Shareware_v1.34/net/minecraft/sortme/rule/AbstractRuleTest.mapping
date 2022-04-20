@@ -1,0 +1,3 @@
+CLASS ciq net/minecraft/sortme/rule/AbstractRuleTest
+	METHOD a getRuleTest ()Lcir;
+	METHOD a test (Lbuy;Ljava/util/Random;)Z

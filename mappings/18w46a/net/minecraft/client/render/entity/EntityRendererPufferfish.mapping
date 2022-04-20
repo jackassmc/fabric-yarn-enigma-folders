@@ -1,0 +1,3 @@
+CLASS dhh net/minecraft/client/render/entity/EntityRendererPufferfish
+	METHOD a getTexture (Lagc;)Lpx;
+	METHOD a getTexture (Lals;)Lpx;

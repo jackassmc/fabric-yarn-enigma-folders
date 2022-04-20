@@ -1,0 +1,2 @@
+CLASS bcj net/minecraft/world/biome/EndBarrensBiome
+	METHOD a getSkyColor (F)I

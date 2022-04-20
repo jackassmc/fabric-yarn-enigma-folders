@@ -1,0 +1,18 @@
+CLASS lg net/minecraft/network/packet/client/CPacketEventCombat
+	CLASS lg$a Type
+		FIELD a BEGIN Llg$a;
+		FIELD b END Llg$a;
+		FIELD c DEATH Llg$a;
+	FIELD a type Llg$a;
+	FIELD b entityId I
+	FIELD c attackerEntityId I
+	FIELD d timeSinceLastAttack I
+	FIELD e deathMessage Liw;
+	METHOD a readPacket (Lim;)V
+		ARG 0 buf
+	METHOD a applyPacket (Lip;)V
+		ARG 0 handler
+	METHOD a applyPacket (Ljn;)V
+		ARG 0 handler
+	METHOD b writePacket (Lim;)V
+		ARG 0 buf

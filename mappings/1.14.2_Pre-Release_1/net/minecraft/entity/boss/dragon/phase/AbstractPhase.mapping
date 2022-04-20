@@ -1,0 +1,4 @@
+CLASS asj net/minecraft/entity/boss/dragon/phase/AbstractPhase
+	FIELD a dragon Lash;
+	METHOD <init> (Lash;)V
+		ARG 1 dragon

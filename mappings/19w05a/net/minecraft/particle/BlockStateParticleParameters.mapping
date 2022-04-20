@@ -1,0 +1,15 @@
+CLASS fq net/minecraft/particle/BlockStateParticleParameters
+	CLASS fq$1
+		METHOD a read (Lfu;Lcom/mojang/brigadier/StringReader;)Lfq;
+			ARG 1 type
+			ARG 2 reader
+		METHOD a read (Lfu;Lis;)Lfq;
+			ARG 1 type
+			ARG 2 buf
+	FIELD a PARAMETERS_FACTORY Lft$a;
+	FIELD b type Lfu;
+	FIELD c blockState Lbqp;
+	METHOD <init> (Lfu;Lbqp;)V
+		ARG 1 type
+		ARG 2 blockState
+	METHOD c getBlockState ()Lbqp;

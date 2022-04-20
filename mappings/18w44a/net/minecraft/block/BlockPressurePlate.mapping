@@ -1,0 +1,11 @@
+CLASS bio net/minecraft/block/BlockPressurePlate
+	CLASS bio$a Type
+		FIELD a WOOD Lbio$a;
+		FIELD b STONE Lbio$a;
+	METHOD a setRedstoneOutput (Lbnh;I)Lbnh;
+		ARG 1 state
+		ARG 2 amount
+	METHOD a appendProperties (Lbni$a;)V
+		ARG 1 builder
+	METHOD k getRedstoneOutput (Lbnh;)I
+		ARG 1 state

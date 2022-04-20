@@ -1,0 +1,27 @@
+CLASS ddi net/minecraft/client/render/block/entity/BlockEntityRenderDispatcher
+	FIELD a INSTANCE Lddi;
+	FIELD b renderOffsetX D
+	FIELD c renderOffsetY D
+	FIELD d renderOffsetZ D
+	FIELD e textureManager Ldkt;
+	FIELD f world Lban;
+	FIELD g cameraEntity Lagf;
+	FIELD h cameraYaw F
+	FIELD i cameraPitch F
+	FIELD j hitResult Lcjv;
+	FIELD k cameraX D
+	FIELD l cameraY D
+	FIELD m cameraZ D
+	FIELD n renderers Ljava/util/Map;
+	FIELD o fontRenderer Lcnq;
+	METHOD a getFontRenderer ()Lcnq;
+	METHOD a setWorld (Lban;)V
+		ARG 1 world
+	METHOD a configure (Lban;Ldkt;Lcnq;Lagf;Lcjv;F)V
+	METHOD a get (Lbmk;)Lddj;
+	METHOD a renderEntity (Lbmk;DDDF)V
+		ARG 1 blockEntity
+	METHOD a renderEntity (Lbmk;DDDFIZ)V
+	METHOD a render (Lbmk;FI)V
+	METHOD a get (Ljava/lang/Class;)Lddj;
+	METHOD b renderEntity (Lbmk;)V

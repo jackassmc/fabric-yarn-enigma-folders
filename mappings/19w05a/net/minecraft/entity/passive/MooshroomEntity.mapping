@@ -1,0 +1,2 @@
+CLASS ams net/minecraft/entity/passive/MooshroomEntity
+	METHOD c createChild (Lahc;)Lams;

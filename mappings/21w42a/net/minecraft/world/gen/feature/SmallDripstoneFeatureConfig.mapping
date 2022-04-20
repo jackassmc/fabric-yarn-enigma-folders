@@ -1,0 +1,7 @@
+CLASS net/minecraft/class_5733 net/minecraft/world/gen/feature/SmallDripstoneFeatureConfig
+	FIELD field_28237 CODEC Lcom/mojang/serialization/Codec;
+	FIELD field_28241 chanceOfTallerDripstone F
+	METHOD <init> (FFFF)V
+		ARG 4 chanceOfTallerDripstone
+	METHOD method_33062 (Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;
+		ARG 0 instance

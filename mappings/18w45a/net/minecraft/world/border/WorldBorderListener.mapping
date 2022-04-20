@@ -1,0 +1,8 @@
+CLASS bpe net/minecraft/world/border/WorldBorderListener
+	METHOD a (Lbpg;D)V
+	METHOD a onCenterChanged (Lbpg;DD)V
+	METHOD a (Lbpg;DDJ)V
+	METHOD a onWarningTimeChanged (Lbpg;I)V
+	METHOD b onDamagePerBlockChanged (Lbpg;D)V
+	METHOD b onWarningBlocksChanged (Lbpg;I)V
+	METHOD c onSafeZoneChanged (Lbpg;D)V

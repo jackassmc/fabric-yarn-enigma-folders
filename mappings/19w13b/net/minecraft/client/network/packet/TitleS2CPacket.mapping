@@ -1,0 +1,25 @@
+CLASS nb net/minecraft/client/network/packet/TitleS2CPacket
+	CLASS nb$a Action
+		FIELD d DISPLAY Lnb$a;
+		FIELD e HIDE Lnb$a;
+		FIELD f RESET Lnb$a;
+	FIELD a action Lnb$a;
+	FIELD b text Ljm;
+	FIELD c ticksFadeIn I
+	FIELD d ticksDisplay I
+	FIELD e ticksFadeOut I
+	METHOD <init> (III)V
+		ARG 1 ticksFadeIn
+		ARG 2 ticksDisplay
+	METHOD <init> (Lnb$a;Ljm;)V
+		ARG 1 action
+	METHOD <init> (Lnb$a;Ljm;III)V
+		ARG 1 action
+		ARG 2 text
+		ARG 3 ticksFadeIn
+		ARG 4 ticksDisplay
+	METHOD b getAction ()Lnb$a;
+	METHOD c getText ()Ljm;
+	METHOD d getTicksFadeIn ()I
+	METHOD e getTicksDisplay ()I
+	METHOD f getTicksFadeOut ()I

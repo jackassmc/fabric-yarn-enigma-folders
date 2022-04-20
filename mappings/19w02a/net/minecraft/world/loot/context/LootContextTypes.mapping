@@ -1,0 +1,13 @@
+CLASS clk net/minecraft/world/loot/context/LootContextTypes
+	FIELD a EMPTY Lclj;
+	FIELD b CHEST Lclj;
+	FIELD c FISHING Lclj;
+	FIELD d ENTITY Lclj;
+	FIELD e GIFT Lclj;
+	FIELD f ADVANCEMENT_REWARD Lclj;
+	FIELD g GENERIC Lclj;
+	FIELD h BLOCK Lclj;
+	FIELD i MAP Lcom/google/common/collect/BiMap;
+	METHOD a getId (Lclj;)Lqe;
+	METHOD a register (Ljava/lang/String;Ljava/util/function/Consumer;)Lclj;
+	METHOD a get (Lqe;)Lclj;

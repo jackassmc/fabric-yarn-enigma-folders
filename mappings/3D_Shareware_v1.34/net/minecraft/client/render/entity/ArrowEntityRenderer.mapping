@@ -1,0 +1,3 @@
+CLASS dri net/minecraft/client/render/entity/ArrowEntityRenderer
+	FIELD a SKIN Lqr;
+	FIELD f TIPPED_SKIN Lqr;

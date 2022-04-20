@@ -1,0 +1,30 @@
+CLASS azy net/minecraft/recipe/RecipeSerializer
+	FIELD a SHAPED Lazy;
+	FIELD b SHAPELESS Lazy;
+	FIELD c ARMOR_DYE Lbaf;
+	FIELD d BOOK_CLONING Lbaf;
+	FIELD e MAP_CLONING Lbaf;
+	FIELD f MAP_EXTENDING Lbaf;
+	FIELD g FIREWORK_ROCKET Lbaf;
+	FIELD h FIREWORK_STAR Lbaf;
+	FIELD i FIREWORK_STAR_FADE Lbaf;
+	FIELD j TIPPED_ARROW Lbaf;
+	FIELD k BANNER_DUPLICATE Lbaf;
+	FIELD l SHIELD_DECORATION Lbaf;
+	FIELD m SHULKER_BOX Lbaf;
+	FIELD n SUSPICIOUS_STEW Lbaf;
+	FIELD o SMELTING Lbae;
+	FIELD p BLASTING Lbae;
+	FIELD q SMOKING Lbae;
+	FIELD r CAMPFIRE_COOKING Lbae;
+	METHOD a write (Lis;Lazw;)V
+		ARG 2 recipe
+	METHOD a register (Ljava/lang/String;Lazy;)Lazy;
+		ARG 0 id
+		ARG 1 serializer
+	METHOD a read (Lqd;Lcom/google/gson/JsonObject;)Lazw;
+		ARG 1 id
+		ARG 2 json
+	METHOD a read (Lqd;Lis;)Lazw;
+		ARG 1 id
+		ARG 2 buf

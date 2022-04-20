@@ -1,0 +1,8 @@
+CLASS bae net/minecraft/enchantment/BindingCurseEnchantment
+	METHOD <init> (Lbai$a;[Lahi;)V
+		ARG 1 weight
+		ARG 2 slotTypes
+	METHOD a getMaximumLevel ()I
+	METHOD a getMinimumPower (I)I
+	METHOD b isLootOnly ()Z
+	METHOD c isCursed ()Z

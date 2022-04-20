@@ -1,0 +1,2 @@
+CLASS btc net/minecraft/world/gen/feature/ChorusPlantFeature
+	METHOD a generate (Lban;Lbqc;Ljava/util/Random;Les;Lbuf;)Z

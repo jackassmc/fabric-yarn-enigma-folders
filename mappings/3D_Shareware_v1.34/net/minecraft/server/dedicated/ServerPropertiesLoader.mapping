@@ -1,0 +1,6 @@
+CLASS uh net/minecraft/server/dedicated/ServerPropertiesLoader
+	FIELD a path Ljava/nio/file/Path;
+	FIELD b propertiesHandler Lug;
+	METHOD a getPropertiesHandler ()Lug;
+	METHOD a apply (Ljava/util/function/UnaryOperator;)Luh;
+	METHOD b store ()V

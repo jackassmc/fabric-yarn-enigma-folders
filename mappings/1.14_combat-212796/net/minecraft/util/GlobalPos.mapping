@@ -1,0 +1,10 @@
+CLASS fc net/minecraft/util/GlobalPos
+	FIELD a dimension Lbyj;
+	FIELD b pos Lev;
+	METHOD a getDimension ()Lbyj;
+	METHOD a create (Lbyj;Lev;)Lfc;
+	METHOD a deserialize (Lcom/mojang/datafixers/Dynamic;)Lfc;
+		ARG 0 dynamic
+	METHOD b getPos ()Lev;
+	METHOD equals (Ljava/lang/Object;)Z
+		ARG 1 o

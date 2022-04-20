@@ -1,0 +1,3 @@
+CLASS agi net/minecraft/item/ItemNetherStar
+	METHOD f_ hasEnchantmentGlow (Lafi;)Z
+		ARG 0 stack

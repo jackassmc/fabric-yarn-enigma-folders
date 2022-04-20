@@ -1,0 +1,8 @@
+CLASS axq net/minecraft/recipe/crafting/FireworkStarRecipe
+	METHOD a getSerializer ()Laxw;
+	METHOD a fits (II)Z
+		ARG 1 width
+	METHOD a craft (Laes;)Lavo;
+	METHOD a matches (Laes;Lban;)Z
+		ARG 1 inv
+	METHOD d getOutput ()Lavo;

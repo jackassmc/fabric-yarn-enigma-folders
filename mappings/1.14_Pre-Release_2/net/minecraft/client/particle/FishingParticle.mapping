@@ -1,0 +1,2 @@
+CLASS djh net/minecraft/client/particle/FishingParticle
+	CLASS djh$a Factory

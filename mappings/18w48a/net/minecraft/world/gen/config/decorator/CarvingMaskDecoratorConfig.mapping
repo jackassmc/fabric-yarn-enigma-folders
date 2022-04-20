@@ -1,0 +1,8 @@
+CLASS byy net/minecraft/world/gen/config/decorator/CarvingMaskDecoratorConfig
+	FIELD a step Lbro$a;
+	FIELD b probability F
+	METHOD <init> (Lbro$a;F)V
+		ARG 1 step
+	METHOD a deserialize (Lcom/mojang/datafixers/Dynamic;)Lbyy;
+		ARG 0 dynamic
+	METHOD a serialize (Lcom/mojang/datafixers/types/DynamicOps;)Lcom/mojang/datafixers/Dynamic;

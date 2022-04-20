@@ -1,0 +1,21 @@
+CLASS aex net/minecraft/inventory/Inventory
+	METHOD V_ getInvSize ()I
+	METHOD W_ getInvWidth ()I
+	METHOD a getInvStack (I)Lavu;
+	METHOD a takeInvStack (II)Lavu;
+		ARG 1 slot
+	METHOD a setInvStack (ILavu;)V
+		ARG 1 slot
+	METHOD a canPlayerUseInv (Laql;)Z
+	METHOD b removeInvStack (I)Lavu;
+	METHOD b setInvProperty (II)V
+	METHOD b isValidInvStack (ILavu;)Z
+		ARG 1 slot
+	METHOD b onInvOpen (Laql;)V
+	METHOD c isInvEmpty ()Z
+	METHOD c getInvProperty (I)I
+	METHOD c onInvClose (Laql;)V
+	METHOD g getInvMaxStackAmount ()I
+	METHOD h markDirty ()V
+	METHOD i getInvPropertyCount ()I
+	METHOD n getInvHeight ()I

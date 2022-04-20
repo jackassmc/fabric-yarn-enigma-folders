@@ -1,0 +1,6 @@
+CLASS cyb net/minecraft/client/gui/recipebook/GroupButtonWidget
+	FIELD t category Lcrd;
+	FIELD u bounce F
+	METHOD a hasKnownRecipes (Lcqn;)Z
+	METHOD a checkForNewRecipes (Lcqw;)V
+	METHOD c getCategory ()Lcrd;

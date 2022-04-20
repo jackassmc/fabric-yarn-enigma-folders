@@ -1,0 +1,7 @@
+CLASS cka net/minecraft/world/gen/surfacebuilder/NetherSurfaceBuilder
+	FIELD S GLOWSTONE Lbvp;
+	FIELD a seed J
+	FIELD b noise Lckk;
+	FIELD c CAVE_AIR Lbvp;
+	FIELD d NETHERRACK Lbvp;
+	FIELD e GRAVEL Lbvp;

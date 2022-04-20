@@ -1,0 +1,4 @@
+CLASS clz net/minecraft/client/render/item/ItemColorMapper
+	METHOD getColor (Lauv;I)I
+		ARG 1 stack
+		ARG 2 tintIndex

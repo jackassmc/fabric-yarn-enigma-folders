@@ -1,0 +1,6 @@
+CLASS bpa net/minecraft/client/particle/ParticleSnowGolem
+	METHOD a update ()V
+	METHOD a buildGeometry (Lbpw;Lsm;FFFFFF)V
+		ARG 0 vertexBuffer
+		ARG 1 entity
+		ARG 2 deltaTicks

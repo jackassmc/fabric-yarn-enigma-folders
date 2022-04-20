@@ -1,0 +1,4 @@
+CLASS bra net/minecraft/block/FernBlock
+	FIELD a SHAPE Lcri;
+	METHOD <init> (Lblg$c;)V
+		ARG 1 settings

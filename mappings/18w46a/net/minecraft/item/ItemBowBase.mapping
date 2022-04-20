@@ -1,0 +1,4 @@
+CLASS avr net/minecraft/item/ItemBowBase
+	METHOD a findArrowStack (Laqa;)Lavf;
+	METHOD c getEnchantability ()I
+	METHOD f isArrow (Lavf;)Z

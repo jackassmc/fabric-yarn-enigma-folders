@@ -1,0 +1,16 @@
+CLASS ckp net/minecraft/scoreboard/ScoreboardObjective
+	FIELD a scoreboard Lcks;
+	FIELD b name Ljava/lang/String;
+	FIELD c criterion Lckv;
+	FIELD e criterionType Lckv$a;
+	METHOD <init> (Lcks;Ljava/lang/String;Lckv;Liz;Lckv$a;)V
+		ARG 1 scoreboard
+		ARG 2 name
+		ARG 4 criterion
+	METHOD a getScoreboard ()Lcks;
+	METHOD a setCriterionType (Lckv$a;)V
+	METHOD b getName ()Ljava/lang/String;
+	METHOD c getCriterion ()Lckv;
+	METHOD d getDisplayName ()Liz;
+	METHOD e getTextComponent ()Liz;
+	METHOD f getCriterionType ()Lckv$a;

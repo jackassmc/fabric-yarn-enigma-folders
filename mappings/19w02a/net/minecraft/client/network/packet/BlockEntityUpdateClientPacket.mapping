@@ -1,0 +1,17 @@
+CLASS ke net/minecraft/client/network/packet/BlockEntityUpdateClientPacket
+	FIELD a pos Let;
+	FIELD b actionId I
+	FIELD c tag Lhs;
+	METHOD <init> (Let;ILhs;)V
+		ARG 1 pos
+		ARG 2 action
+	METHOD a read (Lit;)V
+		ARG 1 buf
+	METHOD a apply (Liw;)V
+		ARG 1 listener
+	METHOD a apply (Lju;)V
+	METHOD b getPos ()Let;
+	METHOD b write (Lit;)V
+		ARG 1 buf
+	METHOD c getActionId ()I
+	METHOD d getCompoundTag ()Lhs;

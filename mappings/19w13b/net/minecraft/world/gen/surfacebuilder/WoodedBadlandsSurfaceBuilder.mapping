@@ -1,0 +1,4 @@
+CLASS cjl net/minecraft/world/gen/surfacebuilder/WoodedBadlandsSurfaceBuilder
+	FIELD S WHITE_TERRACOTTA Lbuw;
+	FIELD T ORANGE_TERRACOTTA Lbuw;
+	FIELD U TERRACOTTA Lbuw;

@@ -1,0 +1,2 @@
+CLASS ceq net/minecraft/structure/pool/EmptyPoolElement
+	FIELD a INSTANCE Lceq;

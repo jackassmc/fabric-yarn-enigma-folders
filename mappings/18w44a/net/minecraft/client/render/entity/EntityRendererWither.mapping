@@ -1,0 +1,9 @@
+CLASS dgx net/minecraft/client/render/entity/EntityRendererWither
+	FIELD a INVINCIBLE_SKIN Lpu;
+	FIELD j SKIN Lpu;
+	METHOD <init> (Ldei;)V
+		ARG 1 renderManager
+	METHOD a getTexture (Lafv;)Lpu;
+		ARG 1 model
+	METHOD a getTexture (Lanf;)Lpu;
+		ARG 1 model

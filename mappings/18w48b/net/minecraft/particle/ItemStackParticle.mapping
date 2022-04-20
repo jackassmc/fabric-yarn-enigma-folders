@@ -1,0 +1,11 @@
+CLASS fs net/minecraft/particle/ItemStackParticle
+	FIELD b particleType Lfu;
+	FIELD c stack Lavs;
+	METHOD <init> (Lfu;Lavs;)V
+		ARG 1 particleType
+		ARG 2 stack
+	METHOD a asString ()Ljava/lang/String;
+	METHOD a (Liq;)V
+		ARG 1 packetByteBuf
+	METHOD b getParticleType ()Lfu;
+	METHOD c getItemStack ()Lavs;

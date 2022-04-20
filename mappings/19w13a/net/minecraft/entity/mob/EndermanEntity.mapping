@@ -1,0 +1,11 @@
+CLASS atp net/minecraft/entity/mob/EndermanEntity
+	CLASS atp$b PlaceBlockGoal
+		FIELD a owner Latp;
+	CLASS atp$d PickUpBlockGoal
+		FIELD a owner Latp;
+	FIELD bC ageWhenTargetSet I
+	FIELD bz ANGRY Lqg;
+	FIELD d CARRIED_BLOCK Lqg;
+	METHOD b setCarriedBlock (Lbuw;)V
+	METHOD dR getCarriedBlock ()Lbuw;
+	METHOD dS isAngry ()Z

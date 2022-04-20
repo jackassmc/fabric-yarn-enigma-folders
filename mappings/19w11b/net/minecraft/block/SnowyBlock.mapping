@@ -1,0 +1,4 @@
+CLASS bpz net/minecraft/block/SnowyBlock
+	FIELD a SNOWY Lbuo;
+	METHOD <init> (Lbky$c;)V
+		ARG 1 settings

@@ -1,0 +1,4 @@
+CLASS dev net/minecraft/client/render/entity/EntityRendererExperienceOrb
+	FIELD a TEX Lpw;
+	METHOD a getTexture (Lafy;)Lpw;
+	METHOD a getTexture (Lage;)Lpw;

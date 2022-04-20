@@ -1,0 +1,2 @@
+CLASS bmw net/minecraft/block/ReplaceableTallPlantBlock
+	FIELD b HALF Lbsb;

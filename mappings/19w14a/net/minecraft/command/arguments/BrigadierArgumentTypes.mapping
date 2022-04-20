@@ -1,0 +1,2 @@
+CLASS en net/minecraft/command/arguments/BrigadierArgumentTypes
+	METHOD a register ()V

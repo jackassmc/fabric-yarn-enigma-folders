@@ -1,0 +1,27 @@
+CLASS bqj net/minecraft/client/player/PlayerCapabilitites
+	FIELD a game Lbgm;
+	FIELD b networkHandler Lbqi;
+	FIELD c currentBreakingPos Ldx;
+	FIELD e currentBreakingProgress F
+	FIELD h breakingBlock Z
+	FIELD i currentGameMode Lalg;
+	METHOD <init> (Lbgm;Lbqi;)V
+		ARG 0 game
+		ARG 1 networkHandler
+	METHOD a hasSpectatorHud ()Z
+	METHOD a sendItemPickPacket (I)V
+		ARG 0 selectedSlot
+	METHOD a copyAbilities (Lacu;)V
+		ARG 0 playerEntity
+	METHOD a setCurrentGameMode (Lalg;)V
+		ARG 0 value
+	METHOD b hasStatusBars ()Z
+	METHOD c cancelBlockBreaking ()V
+	METHOD f hasExperienceBar ()Z
+	METHOD g hasLimitedAttackSpeed ()Z
+	METHOD h hasCreativeInventory ()Z
+	METHOD i hasExtendedReach ()Z
+	METHOD j hasRidingInventory ()Z
+	METHOD k isFlyingLocked ()Z
+	METHOD l getCurrentGameMode ()Lalg;
+	METHOD m isBreakingBlock ()Z

@@ -1,0 +1,2 @@
+CLASS cxi net/minecraft/client/gui/container/ShulkerBoxScreen
+	FIELD y TEXTURE Lqi;

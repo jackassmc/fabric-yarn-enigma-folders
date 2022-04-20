@@ -1,0 +1,6 @@
+CLASS aon net/minecraft/entity/ai/goal/WanderAroundFarGoal
+	FIELD h probability F
+	METHOD <init> (Lajb;DF)V
+		ARG 1 mob
+		ARG 2 speed
+		ARG 4 probabiliity

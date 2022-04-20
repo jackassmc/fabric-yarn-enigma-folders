@@ -1,0 +1,3 @@
+CLASS cyf net/minecraft/client/gui/ingame/RecipeBookProvider
+	METHOD l refreshRecipeBook ()V
+	METHOD m getRecipeBookGui ()Lcxz;

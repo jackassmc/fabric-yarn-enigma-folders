@@ -1,0 +1,16 @@
+CLASS gm net/minecraft/text/event/HoverEvent
+	CLASS gm$a Action
+		FIELD a SHOW_TEXT Lgm$a;
+		FIELD b SHOW_ITEM Lgm$a;
+		FIELD c SHOW_ENTITY Lgm$a;
+		FIELD d ACTIONS Ljava/util/Map;
+		FIELD f name Ljava/lang/String;
+		METHOD a get (Ljava/lang/String;)Lgm$a;
+		METHOD b getName ()Ljava/lang/String;
+	FIELD a action Lgm$a;
+	FIELD b value Lgk;
+	METHOD <init> (Lgm$a;Lgk;)V
+		ARG 0 action
+		ARG 1 component
+	METHOD a getAction ()Lgm$a;
+	METHOD b getValue ()Lgk;

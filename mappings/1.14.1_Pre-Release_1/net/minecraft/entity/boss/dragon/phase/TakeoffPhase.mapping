@@ -1,0 +1,3 @@
+CLASS asw net/minecraft/entity/boss/dragon/phase/TakeoffPhase
+	METHOD <init> (Lash;)V
+		ARG 1 dragon

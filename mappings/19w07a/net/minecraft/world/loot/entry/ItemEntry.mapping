@@ -1,0 +1,4 @@
+CLASS ckm net/minecraft/world/loot/entry/ItemEntry
+	CLASS ckm$a Serializer
+	FIELD c item Laxo;
+	METHOD a builder (Lbda;)Lckq$a;

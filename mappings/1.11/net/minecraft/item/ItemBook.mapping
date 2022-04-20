@@ -1,0 +1,4 @@
+CLASS adx net/minecraft/item/ItemBook
+	METHOD c getEnchantability ()I
+	METHOD g_ isTool (Lafi;)Z
+		ARG 0 stack

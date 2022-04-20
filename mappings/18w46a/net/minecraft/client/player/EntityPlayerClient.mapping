@@ -1,0 +1,57 @@
+CLASS dan net/minecraft/client/player/EntityPlayerClient
+	FIELD ci stats Lxm;
+	FIELD cj recipeBook Lcmr;
+	FIELD cl clientPermissionLevel I
+	FIELD cw serverBrand Ljava/lang/String;
+	FIELD d networkHandler Lcyh;
+	FIELD f game Lcmx;
+	METHOD S_ update ()V
+	METHOD T_ stopRiding ()V
+	METHOD a setClientPermissionLevel (I)V
+	METHOD a openInventory (Laep;)V
+	METHOD a swingHand (Laev;)V
+	METHOD a openContainer (Laew;)V
+	METHOD a damage (Lafl;F)Z
+		ARG 1 source
+	METHOD a copyEntityData (Lagc;)V
+	METHOD a startRiding (Lagc;Z)Z
+		ARG 1 entity
+	METHOD a move (Lagq;DDD)V
+		ARG 2 x
+	METHOD a openHorseInventory (Lame;Laep;)V
+	METHOD a spawnEntityItem (Laoc;)Lavf;
+	METHOD a openBookEditor (Lavf;Laev;)V
+	METHOD a openVillagerGui (Lazi;)V
+	METHOD a openCommandBlockMinecart (Lazm;)V
+	METHOD a openCommandBlock (Lbmg;)V
+	METHOD a openSignEditor (Lbmy;)V
+	METHOD a openStructureBlock (Lbnc;)V
+	METHOD a appendCommandFeedback (Liz;)V
+	METHOD a addChatMessage (Liz;Z)V
+		ARG 1 message
+	METHOD a onTrackedDataSet (Lpm;)V
+	METHOD a playSoundAtEntity (Lxb;FF)V
+		ARG 1 sound
+		ARG 2 volume
+	METHOD a dropSelectedItem (Z)Laoc;
+	METHOD bb isSneaking ()Z
+	METHOD c heal (F)V
+	METHOD c setCurrentHand (Laev;)V
+	METHOD c removePotionEffect (Lafu;)Lafv;
+	METHOD cZ getActiveHand ()Laev;
+	METHOD d applyDamage (Lafl;F)V
+		ARG 1 damageSource
+	METHOD f sendChatMessage (Ljava/lang/String;)V
+	METHOD f setSprinting (Z)V
+	METHOD g getPitch (F)F
+	METHOD g setServerBrand (Ljava/lang/String;)V
+	METHOD h getYaw (F)F
+	METHOD k updateMovement ()V
+	METHOD p closeGuiClient ()V
+	METHOD s updateHealth (F)V
+	METHOD v openRidingInventory ()V
+	METHOD w getServerBrand ()Ljava/lang/String;
+	METHOD x getStats ()Lxm;
+	METHOD x_ closeGui ()V
+	METHOD y getPermissionLevel ()I
+	METHOD z getRecipeBook ()Lcmr;

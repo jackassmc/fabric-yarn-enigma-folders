@@ -1,0 +1,2 @@
+CLASS bxm net/minecraft/world/gen/feature/WaterlilyFeature
+	METHOD a generate (Lban;Lbqc;Ljava/util/Random;Les;Lbuf;)Z

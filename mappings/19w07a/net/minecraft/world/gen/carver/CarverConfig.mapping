@@ -1,0 +1,2 @@
+CLASS bur net/minecraft/world/gen/carver/CarverConfig
+	FIELD a DEFAULT Lbuv;

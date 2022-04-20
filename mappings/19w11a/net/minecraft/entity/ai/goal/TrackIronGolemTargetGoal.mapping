@@ -1,0 +1,3 @@
+CLASS ani net/minecraft/entity/ai/goal/TrackIronGolemTargetGoal
+	FIELD a ironGolem Lapq;
+	FIELD b target Laif;

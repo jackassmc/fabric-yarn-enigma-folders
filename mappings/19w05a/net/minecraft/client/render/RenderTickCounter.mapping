@@ -1,0 +1,5 @@
+CLASS cqj net/minecraft/client/render/RenderTickCounter
+	FIELD a ticksThisFrame I
+	FIELD b tickDelta F
+	FIELD d prevTimeMillis J
+	FIELD e timeScale F

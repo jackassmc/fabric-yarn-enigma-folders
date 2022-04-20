@@ -1,0 +1,4 @@
+CLASS dje net/minecraft/client/render/entity/VexEntityRenderer
+	METHOD a getTexture (Lagi;)Lpy;
+	METHOD a getTexture (Lags;)Lpy;
+	METHOD a getTexture (Lapv;)Lpy;

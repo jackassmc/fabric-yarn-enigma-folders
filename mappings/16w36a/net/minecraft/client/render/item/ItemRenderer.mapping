@@ -1,0 +1,80 @@
+CLASS none/btq net/minecraft/client/render/item/ItemRenderer
+	CLASS none/btq$5
+		METHOD a getModel (Lnone/aer;)Lnone/bzq;
+			ARG 0 stack
+	CLASS none/btq$6
+		METHOD a getModel (Lnone/aer;)Lnone/bzq;
+			ARG 0 stack
+	CLASS none/btq$7
+		METHOD a getModel (Lnone/aer;)Lnone/bzq;
+			ARG 0 stack
+	CLASS none/btq$8
+		METHOD a getModel (Lnone/aer;)Lnone/bzq;
+			ARG 0 stack
+	CLASS none/btq$9
+		METHOD a getModel (Lnone/aer;)Lnone/bzq;
+			ARG 0 stack
+	FIELD a zOffset F
+	FIELD b ENCHANTMENT_GLINT_TEX Lnone/kp;
+	FIELD d modelMap Lnone/box;
+	FIELD e textureManager Lnone/bxe;
+	FIELD f colorMap Lnone/bec;
+	METHOD <init> (Lnone/bxe;Lnone/bzp;Lnone/bec;)V
+		ARG 0 textureManager
+		ARG 1 blockModelManager
+		ARG 2 itemColorMap
+	METHOD a getModelMap ()Lnone/box;
+	METHOD a registerItemModel (Lnone/aep;ILjava/lang/String;)V
+		ARG 0 item
+		ARG 1 metadata
+		ARG 2 modelId
+	METHOD a registerItemModel (Lnone/aep;Ljava/lang/String;)V
+		ARG 0 item
+		ARG 1 modelId
+	METHOD a isThreeDimensionalInGUI (Lnone/aer;)Z
+		ARG 0 stack
+	METHOD a getModel (Lnone/aer;Lnone/aiv;Lnone/so;)Lnone/bzl;
+		ARG 0 stack
+		ARG 1 world
+	METHOD a (Lnone/aer;Lnone/bzl;)V
+		ARG 0 stack
+		ARG 1 model
+	METHOD a registerItemModel (Lnone/akx;ILjava/lang/String;)V
+		ARG 0 block
+		ARG 1 metadata
+		ARG 2 modelId
+	METHOD a registerItemModel (Lnone/akx;Ljava/lang/String;)V
+		ARG 0 block
+		ARG 1 modelId
+	METHOD a renderItemInGUI (Lnone/bee;Lnone/aer;II)V
+		ARG 0 fontRenderer
+		ARG 1 stack
+		ARG 2 x
+		ARG 3 y
+	METHOD a renderItemInGUI (Lnone/bee;Lnone/aer;IILjava/lang/String;)V
+		ARG 0 fontRenderer
+		ARG 1 stack
+		ARG 2 x
+		ARG 3 y
+		ARG 4 text
+	METHOD a drawQuad (Lnone/bom;IIIIIIII)V
+		ARG 0 buffer
+		ARG 1 x
+		ARG 2 y
+		ARG 3 width
+		ARG 4 height
+		ARG 5 red
+		ARG 6 green
+		ARG 7 blue
+		ARG 8 alpha
+	METHOD a (Lnone/bom;Ljava/util/List;ILnone/aer;)V
+		ARG 0 buffer
+		ARG 1 quads
+		ARG 3 stack
+	METHOD a (Lnone/bom;Lnone/bpr;I)V
+	METHOD a onResourceReload (Lnone/byc;)V
+		ARG 0 container
+	METHOD a (Lnone/so;Lnone/aer;II)V
+		ARG 0 entity
+		ARG 1 stack
+	METHOD b registerItemModels ()V

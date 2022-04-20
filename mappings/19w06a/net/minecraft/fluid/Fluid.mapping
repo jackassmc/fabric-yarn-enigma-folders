@@ -1,0 +1,24 @@
+CLASS cgd net/minecraft/fluid/Fluid
+	FIELD a defaultState Lcge;
+	FIELD c STATE_IDS Lfc;
+	FIELD d stateFactory Lbqt;
+	METHOD a getRenderLayer ()Lbcg;
+	METHOD a onScheduledTick (Lbcu;Let;Lcge;)V
+	METHOD a randomDisplayTick (Lbcu;Let;Lcge;Ljava/util/Random;)V
+	METHOD a getTickRate (Lbcx;)I
+	METHOD a appendProperties (Lbqt$a;)V
+	METHOD a matchesType (Lcgd;)Z
+	METHOD a toBlockState (Lcge;)Lbqs;
+	METHOD a matches (Lyn;)Z
+	METHOD b getBucketItem ()Laxh;
+	METHOD b onRandomTick (Lbcu;Let;Lcge;Ljava/util/Random;)V
+	METHOD b isStill (Lcge;)Z
+	METHOD b getShape (Lcge;Lbcf;Let;)Lcnt;
+	METHOD c isEmpty ()Z
+	METHOD c getLevel (Lcge;)I
+	METHOD d getBlastResistance ()F
+	METHOD e setDefaultState (Lcge;)V
+	METHOD h getStateFactory ()Lbqt;
+	METHOD i getDefaultState ()Lcge;
+	METHOD j getParticle ()Lft;
+	METHOD k hasRandomTicks ()Z

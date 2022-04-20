@@ -1,0 +1,30 @@
+CLASS avi net/minecraft/block/pattern/BlockPattern
+	CLASS avi$a BlockStateCacheLoader
+		FIELD a world Lali;
+		FIELD b forceLoad Z
+		METHOD a load (Ldx;)Lavh;
+	CLASS avi$b Result
+		FIELD a frontTopLeft Ldx;
+		FIELD b forwards Lee;
+		FIELD c up Lee;
+		FIELD d cache Lcom/google/common/cache/LoadingCache;
+		FIELD e width I
+		FIELD f height I
+		FIELD g depth I
+		METHOD a getFrontTopLeft ()Ldx;
+		METHOD a translate (III)Lavh;
+		METHOD b getForwards ()Lee;
+		METHOD c getUp ()Lee;
+		METHOD d getWidth ()I
+		METHOD e getHeight ()I
+	FIELD a tests [[[Lcom/google/common/base/Predicate;
+	FIELD b depth I
+	FIELD c height I
+	FIELD d width I
+	METHOD a getDepth ()I
+	METHOD a searchAround (Lali;Ldx;)Lavi$b;
+	METHOD a makeCache (Lali;Z)Lcom/google/common/cache/LoadingCache;
+	METHOD a translate (Ldx;Lee;Lee;III)Ldx;
+	METHOD a testTransform (Ldx;Lee;Lee;Lcom/google/common/cache/LoadingCache;)Lavi$b;
+	METHOD b getHeight ()I
+	METHOD c getWidth ()I

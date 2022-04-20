@@ -1,0 +1,11 @@
+CLASS azk net/minecraft/container/CraftingResultSlot
+	FIELD a craftingInv Layn;
+	FIELD b player Lavx;
+	FIELD g amount I
+	METHOD <init> (Lavx;Layn;Lagt;III)V
+		ARG 1 player
+		ARG 2 craftingInv
+		ARG 3 inventory
+		ARG 4 invSlot
+		ARG 5 xPosition
+		ARG 6 yPosition

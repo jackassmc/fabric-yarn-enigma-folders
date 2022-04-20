@@ -1,0 +1,9 @@
+CLASS dsf net/minecraft/client/tutorial/PunchTreeTutorialStepHandler
+	FIELD a TITLE Ljb;
+	FIELD b DESCRIPTION Ljb;
+	FIELD c manager Ldsg;
+	FIELD e ticks I
+	METHOD a tick ()V
+	METHOD a onSlotUpdate (Laxc;)V
+	METHOD a onBlockAttacked (Ldcj;Let;Lbqi;F)V
+	METHOD b destroy ()V

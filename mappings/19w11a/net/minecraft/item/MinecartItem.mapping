@@ -1,0 +1,3 @@
+CLASS bay net/minecraft/item/MinecartItem
+	FIELD a DISPENSER_BEHAVIOR Lfu;
+	FIELD b type Lawb$a;

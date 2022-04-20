@@ -1,0 +1,7 @@
+CLASS asa net/minecraft/entity/projectile/FishHookEntity
+	CLASS asa$a net/minecraft/entity/projectile/FishHookEntity$State
+	FIELD au state Lasa$a;
+	FIELD b hookedEntity Lahw;
+	FIELD c HOOK_ENTITY_ID Lqe;
+	FIELD f owner Laum;
+	METHOD i getOwner ()Laum;

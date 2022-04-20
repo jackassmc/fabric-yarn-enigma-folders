@@ -1,0 +1,3 @@
+CLASS boz net/minecraft/block/JigsawBlock
+	METHOD <init> (Lbme$c;)V
+		ARG 1 settings

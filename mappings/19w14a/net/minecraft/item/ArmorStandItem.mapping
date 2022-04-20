@@ -1,0 +1,6 @@
+CLASS azn net/minecraft/item/ArmorStandItem
+	METHOD <init> (Lbbl$a;)V
+		ARG 1 settings
+	METHOD a setRotations (Lass;Ljava/util/Random;)V
+		ARG 1 armorStand
+		ARG 2 random

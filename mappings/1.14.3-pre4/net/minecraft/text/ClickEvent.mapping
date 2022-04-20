@@ -1,0 +1,23 @@
+CLASS jm net/minecraft/text/ClickEvent
+	CLASS a Action
+		FIELD f BY_NAME Ljava/util/Map;
+		FIELD g userDefinable Z
+		FIELD h name Ljava/lang/String;
+		METHOD <init> (Ljava/lang/String;ILjava/lang/String;Z)V
+			ARG 3 name
+			ARG 4 userDefinable
+		METHOD a isUserDefinable ()Z
+		METHOD a byName (Ljava/lang/String;)Ljm$a;
+			ARG 0 name
+		METHOD a (Ljm$a;)Ljm$a;
+			ARG 0 a
+		METHOD b getName ()Ljava/lang/String;
+	FIELD a action Ljm$a;
+	FIELD b value Ljava/lang/String;
+	METHOD <init> (Ljm$a;Ljava/lang/String;)V
+		ARG 1 action
+		ARG 2 value
+	METHOD a getAction ()Ljm$a;
+	METHOD b getValue ()Ljava/lang/String;
+	METHOD equals (Ljava/lang/Object;)Z
+		ARG 1 obj

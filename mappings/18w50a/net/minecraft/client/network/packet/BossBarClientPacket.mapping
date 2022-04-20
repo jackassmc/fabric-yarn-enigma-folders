@@ -1,0 +1,37 @@
+CLASS kh net/minecraft/client/network/packet/BossBarClientPacket
+	CLASS kh$a Type
+		FIELD a ADD Lkh$a;
+		FIELD b REMOVE Lkh$a;
+		FIELD c UPDATE_PCT Lkh$a;
+		FIELD d UPDATE_TITLE Lkh$a;
+		FIELD e UPDATE_STYLE Lkh$a;
+		FIELD f UPDATE_FLAGS Lkh$a;
+	FIELD a uuid Ljava/util/UUID;
+	FIELD b type Lkh$a;
+	FIELD c name Ljd;
+	FIELD d percent F
+	FIELD e color Laff$a;
+	FIELD f overlay Laff$b;
+	FIELD g darkenSky Z
+	FIELD h dragonMusic Z
+	FIELD i thickenFog Z
+	METHOD <init> (Lkh$a;Laff;)V
+		ARG 1 action
+	METHOD a setFlagBitfield (I)V
+	METHOD a read (Lit;)V
+		ARG 1 buf
+	METHOD a apply (Liw;)V
+		ARG 1 listener
+	METHOD a apply (Lju;)V
+	METHOD b getUuid ()Ljava/util/UUID;
+	METHOD b write (Lit;)V
+		ARG 1 buf
+	METHOD c getType ()Lkh$a;
+	METHOD d getName ()Ljd;
+	METHOD e getPercent ()F
+	METHOD f getColor ()Laff$a;
+	METHOD g getOverlay ()Laff$b;
+	METHOD h shouldDarkenSky ()Z
+	METHOD i hasDragonMusic ()Z
+	METHOD j shouldThickenFog ()Z
+	METHOD k getFlagBitfield ()I

@@ -1,0 +1,2 @@
+CLASS dep net/minecraft/client/render/entity/model/CreeperEntityModel
+	FIELD a head Ldhi;

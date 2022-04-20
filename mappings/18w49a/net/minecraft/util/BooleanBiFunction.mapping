@@ -1,0 +1,17 @@
+CLASS cld net/minecraft/util/BooleanBiFunction
+	FIELD a FALSE Lcld;
+	FIELD b NOT_OR Lcld;
+	FIELD c ONLY_SECOND Lcld;
+	FIELD d NOT_FIRST Lcld;
+	FIELD e ONLY_FIRST Lcld;
+	FIELD f NOT_SECOND Lcld;
+	FIELD g NOT_SAME Lcld;
+	FIELD h NOT_AND Lcld;
+	FIELD i AND Lcld;
+	FIELD j SAME Lcld;
+	FIELD k SECOND Lcld;
+	FIELD l CAUSES Lcld;
+	FIELD m FIRST Lcld;
+	FIELD n CAUSED_BY Lcld;
+	FIELD o OR Lcld;
+	FIELD p TRUE Lcld;

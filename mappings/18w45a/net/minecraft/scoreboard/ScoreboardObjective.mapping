@@ -1,0 +1,16 @@
+CLASS cjp net/minecraft/scoreboard/ScoreboardObjective
+	FIELD a scoreboard Lcjs;
+	FIELD b name Ljava/lang/String;
+	FIELD c criterion Lcjv;
+	FIELD e criterionType Lcjv$a;
+	METHOD <init> (Lcjs;Ljava/lang/String;Lcjv;Liz;Lcjv$a;)V
+		ARG 1 scoreboard
+		ARG 2 name
+		ARG 4 criterion
+	METHOD a getScoreboard ()Lcjs;
+	METHOD a setCriterionType (Lcjv$a;)V
+	METHOD b getName ()Ljava/lang/String;
+	METHOD c getCriterion ()Lcjv;
+	METHOD d getDisplayName ()Liz;
+	METHOD e getTextComponent ()Liz;
+	METHOD f getCriterionType ()Lcjv$a;

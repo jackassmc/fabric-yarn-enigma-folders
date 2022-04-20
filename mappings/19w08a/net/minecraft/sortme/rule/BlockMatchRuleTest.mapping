@@ -1,0 +1,4 @@
+CLASS cei net/minecraft/sortme/rule/BlockMatchRuleTest
+	FIELD a block Lbif;
+	METHOD <init> (Lbif;)V
+		ARG 1 block

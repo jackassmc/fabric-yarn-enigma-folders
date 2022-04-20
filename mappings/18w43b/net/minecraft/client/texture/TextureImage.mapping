@@ -1,0 +1,7 @@
+CLASS dgv net/minecraft/client/texture/TextureImage
+	FIELD f location Lpt;
+	FIELD g LOGGER Lorg/apache/logging/log4j/Logger;
+	METHOD <init> (Lpt;)V
+		ARG 0 location
+	METHOD a load (Lvs;)V
+		ARG 0 resourceContainer

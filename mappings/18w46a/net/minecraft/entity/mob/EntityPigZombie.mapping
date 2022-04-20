@@ -1,0 +1,18 @@
+CLASS apb net/minecraft/entity/mob/EntityPigZombie
+	CLASS apb$a
+		METHOD a canStart ()Z
+	METHOD D getSoundAmbient ()Lxb;
+	METHOD H mobTick ()V
+	METHOD a initEquipment (Laeu;)V
+	METHOD a damage (Lafl;F)Z
+		ARG 1 source
+	METHOD a copyEntityData (Lagc;)V
+	METHOD a setAttacker (Lagl;)V
+	METHOD a interactMob (Laqa;Laev;)Z
+		ARG 1 player
+	METHOD a deserializeCustomData (Lho;)V
+	METHOD b serializeCustomData (Lho;)V
+	METHOD cb initAttributes ()V
+	METHOD cw getSoundDeath ()Lxb;
+	METHOD dC getSkull ()Lavf;
+	METHOD e getSoundHurt (Lafl;)Lxb;

@@ -1,0 +1,18 @@
+CLASS aqa net/minecraft/entity/projectile/EntityExplosiveProjectile
+	FIELD a owner Lagh;
+	METHOD <init> (Lagc;DDDDDDLazy;FF)V
+		ARG 1 world
+	METHOD <init> (Lagc;Lagh;DDDLazy;FF)V
+		ARG 1 world
+		ARG 2 owner
+	METHOD S_ update ()V
+	METHOD a shouldRender (D)Z
+	METHOD a damage (Lafh;F)Z
+		ARG 1 source
+	METHOD a onCollision (Lcip;)V
+	METHOD a deserializeCustomData (Lho;)V
+	METHOD aA getLightmapCoordinates ()I
+	METHOD aD doesCollide ()Z
+	METHOD b serializeCustomData (Lho;)V
+	METHOD i getParticleType ()Lfs;
+	METHOD y_ initDataTracker ()V

@@ -1,0 +1,5 @@
+CLASS aer net/minecraft/entity/thrown/EntitySnowball
+	METHOD a onCollision (Lbha;)V
+		ARG 0 hitResult
+	METHOD a registerTagUpgraders (Lrw;)V
+		ARG 0 handler

@@ -1,0 +1,11 @@
+CLASS dbj net/minecraft/client/render/entity/model/PlayerEntityModel
+	FIELD a leftArmOverlay Ldcz;
+	FIELD b rightArmOverlay Ldcz;
+	FIELD t leftLegOverlay Ldcz;
+	FIELD u rightLegOverlay Ldcz;
+	FIELD v bodyOverlay Ldcz;
+	FIELD w cape Ldcz;
+	FIELD x mau5Ears Ldcz;
+	FIELD y thinArms Z
+	METHOD <init> (FZ)V
+		ARG 1 scale

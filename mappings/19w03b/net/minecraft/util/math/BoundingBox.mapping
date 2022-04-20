@@ -1,0 +1,43 @@
+CLASS cms net/minecraft/util/math/BoundingBox
+	FIELD a minX D
+	FIELD b minY D
+	FIELD c minZ D
+	FIELD d maxX D
+	FIELD e maxY D
+	FIELD f maxZ D
+	METHOD <init> (DDDDDD)V
+		ARG 1 x1
+		ARG 3 y1
+		ARG 5 z1
+	METHOD <init> (Lcmx;Lcmx;)V
+		ARG 1 min
+	METHOD <init> (Let;Let;)V
+		ARG 1 min
+	METHOD a averageDimension ()D
+	METHOD a intersects (DDDDDD)Z
+		ARG 1 minX
+		ARG 3 minY
+		ARG 5 minZ
+	METHOD a offset (Lcmx;)Lcms;
+	METHOD a intersects (Lcmx;Lcmx;)Z
+		ARG 1 a
+	METHOD a offset (Let;)Lcms;
+	METHOD b isValid ()Z
+	METHOD b stretch (DDD)Lcms;
+		ARG 1 x
+	METHOD b union (Lcms;)Lcms;
+	METHOD b contains (Lcmx;)Z
+	METHOD b rayTrace (Lcmx;Lcmx;)Ljava/util/Optional;
+	METHOD c getCenter ()Lcmx;
+	METHOD c expand (DDD)Lcms;
+		ARG 1 x
+	METHOD c intersects (Lcms;)Z
+	METHOD d offset (DDD)Lcms;
+		ARG 1 x
+	METHOD e contains (DDD)Z
+	METHOD equals (Ljava/lang/Object;)Z
+		ARG 1 o
+	METHOD f contract (DDD)Lcms;
+		ARG 1 x
+	METHOD g expand (D)Lcms;
+	METHOD h contract (D)Lcms;

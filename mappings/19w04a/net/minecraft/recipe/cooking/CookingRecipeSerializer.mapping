@@ -1,0 +1,11 @@
+CLASS azv net/minecraft/recipe/cooking/CookingRecipeSerializer
+	CLASS azv$a RecipeFactory
+	FIELD t cookingTime I
+	FIELD u recipeFactory Lazv$a;
+	METHOD <init> (Lazv$a;I)V
+		ARG 1 recipeFactory
+		ARG 2 cookingTime
+	METHOD b read (Lqd;Lcom/google/gson/JsonObject;)Layz;
+		ARG 1 id
+		ARG 2 json
+	METHOD b read (Lqd;Lis;)Layz;

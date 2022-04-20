@@ -1,0 +1,8 @@
+CLASS bdh net/minecraft/item/SwordItem
+	METHOD <init> (Lbdi;Lbbz$a;)V
+		ARG 1 material
+	METHOD a (Laiu;)V
+		ARG 0 e
+	METHOD b (Laiu;)V
+		ARG 0 e
+	METHOD d getAttackDamage ()F

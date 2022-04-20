@@ -1,0 +1,2 @@
+CLASS dqh net/minecraft/client/render/entity/MinecartEntityRenderer
+	FIELD f SKIN Lqs;

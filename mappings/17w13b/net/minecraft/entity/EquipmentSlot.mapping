@@ -1,0 +1,25 @@
+CLASS ug net/minecraft/entity/EquipmentSlot
+	CLASS ug$a Type
+		FIELD a HAND Lug$a;
+		FIELD b ARMOR Lug$a;
+	FIELD a HAND_MAIN Lug;
+	FIELD b HAND_OFF Lug;
+	FIELD c FEET Lug;
+	FIELD d LEGS Lug;
+	FIELD e CHEST Lug;
+	FIELD f HEAD Lug;
+	FIELD g type Lug$a;
+	FIELD h entityId I
+	FIELD i armorStandId I
+	FIELD j name Ljava/lang/String;
+	METHOD <init> (Ljava/lang/String;ILug$a;IILjava/lang/String;)V
+		ARG 0 type
+		ARG 1 entityId
+		ARG 2 armorStandId
+		ARG 3 name
+	METHOD a getType ()Lug$a;
+	METHOD a byName (Ljava/lang/String;)Lug;
+		ARG 0 name
+	METHOD b getEntitySlotId ()I
+	METHOD c getArmorStandSlotId ()I
+	METHOD d getName ()Ljava/lang/String;

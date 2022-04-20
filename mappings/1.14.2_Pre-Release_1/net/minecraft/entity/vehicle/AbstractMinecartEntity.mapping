@@ -1,0 +1,46 @@
+CLASS axm net/minecraft/entity/vehicle/AbstractMinecartEntity
+	CLASS axm$a Type
+	FIELD b WOBBLE_TICKS Lqh;
+	FIELD c WOBBLE_SIDE Lqh;
+	FIELD d WOBBLE_MAX_ROLL Lqh;
+	FIELD e CUSTOM_BLOCK_ID Lqh;
+	FIELD f CUSTOM_BLOCK_OFFSET Lqh;
+	FIELD g CUSTOM_BLOCK_PRESENT Lqh;
+	METHOD <init> (Laim;Lbhi;)V
+		ARG 1 type
+	METHOD <init> (Laim;Lbhi;DDD)V
+		ARG 1 type
+		ARG 2 world
+		ARG 3 x
+		ARG 5 y
+		ARG 7 z
+	METHOD a setWobbleMaxRoll (F)V
+		ARG 1 maxRoll
+	METHOD a onActivatorRail (IIIZ)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD a dropItems (Lahr;)V
+		ARG 1 damageSource
+	METHOD a create (Lbhi;DDDLaxm$a;)Laxm;
+		ARG 0 world
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+		ARG 7 type
+	METHOD a setCustomBlockPresent (Z)V
+	METHOD b setCustomBlock (Lbvk;)V
+	METHOD c setWobbleTicks (I)V
+		ARG 1 wobbleTicks
+	METHOD d setWobbleSide (I)V
+		ARG 1 wobbleSide
+	METHOD k setCustomBlockOffset (I)V
+	METHOD l getWobbleMaxRoll ()F
+	METHOD m getWobbleTicks ()I
+	METHOD n getWobbleSide ()I
+	METHOD o getMinecartType ()Laxm$a;
+	METHOD p getContainedBlock ()Lbvk;
+	METHOD q getDefaultContainedBlock ()Lbvk;
+	METHOD r getBlockOffset ()I
+	METHOD s getDefaultBlockOffset ()I
+	METHOD u hasCustomBlock ()Z

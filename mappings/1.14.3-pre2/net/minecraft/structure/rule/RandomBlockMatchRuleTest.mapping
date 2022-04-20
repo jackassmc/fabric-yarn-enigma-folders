@@ -1,0 +1,6 @@
+CLASS cje net/minecraft/structure/rule/RandomBlockMatchRuleTest
+	FIELD a block Lbmp;
+	FIELD b probability F
+	METHOD <init> (Lbmp;F)V
+		ARG 1 block
+		ARG 2 probability

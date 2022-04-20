@@ -1,0 +1,4 @@
+CLASS clb net/minecraft/world/loot/function/SetTagLootFunction
+	CLASS clb$a Factory
+		METHOD a deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;[Lclu;)Lclb;
+	FIELD a tag Lhr;

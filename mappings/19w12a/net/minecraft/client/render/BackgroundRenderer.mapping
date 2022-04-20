@@ -1,0 +1,26 @@
+CLASS djd net/minecraft/client/render/BackgroundRenderer
+	FIELD a blackColorBuffer Ljava/nio/FloatBuffer;
+	FIELD b colorBuffer Ljava/nio/FloatBuffer;
+	FIELD c red F
+	FIELD d green F
+	FIELD e blue F
+	FIELD f bufferRed F
+	FIELD g bufferGreen F
+	FIELD h bufferBlue F
+	FIELD i waterFogColor I
+	FIELD j nextWaterFogColor I
+	FIELD k lastWaterFogColorUpdateTime J
+	FIELD l gameRenderer Ldje;
+	FIELD m client Lcua;
+	METHOD <init> (Ldje;)V
+		ARG 1 gameRenderer
+	METHOD a getColorAsBuffer ()Ljava/nio/FloatBuffer;
+	METHOD a renderBackground (Lctq;F)V
+	METHOD a applyFog (Lctq;I)V
+	METHOD a updateColorNotInWater (Lctq;Lbgf;F)V
+		ARG 2 world
+		ARG 3 tickDelta
+	METHOD a updateColorInWater (Lctq;Lbgi;)V
+		ARG 2 world
+	METHOD a updateFogColor (Z)V
+		ARG 1 black

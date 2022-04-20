@@ -1,0 +1,3 @@
+CLASS clo net/minecraft/world/loot/context/LootContextParameter
+	FIELD a id Lqd;
+	METHOD a getIdentifier ()Lqd;

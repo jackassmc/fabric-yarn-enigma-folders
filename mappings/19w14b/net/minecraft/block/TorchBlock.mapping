@@ -1,0 +1,4 @@
+CLASS bry net/minecraft/block/TorchBlock
+	FIELD d BOUNDING_SHAPE Lcsf;
+	METHOD <init> (Lbmb$c;)V
+		ARG 1 settings

@@ -1,0 +1,2 @@
+CLASS ayh net/minecraft/world/gen/structure/StructureGeneratorTemple
+	CLASS ayh$a StructureTemple

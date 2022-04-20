@@ -1,0 +1,3 @@
+CLASS ccm net/minecraft/sortme/structures/EndCityGenerator
+	CLASS ccm$a
+		METHOD a toNbt (Lhs;)V

@@ -1,0 +1,16 @@
+CLASS cfz net/minecraft/fluid/LavaFluid
+	CLASS cfz$a Flowing
+		METHOD a appendProperties (Lbqj$a;)V
+		METHOD b isStill (Lcfw;)Z
+	CLASS cfz$b Still
+		METHOD b isStill (Lcfw;)Z
+	METHOD a getRenderLayer ()Lbbu;
+	METHOD a matchesType (Lcfv;)Z
+	METHOD a toBlockState (Lcfw;)Lbqi;
+	METHOD b getBucketItem ()Lawx;
+	METHOD b onRandomTick (Lbci;Let;Lcfw;Ljava/util/Random;)V
+	METHOD d getBlastResistance ()F
+	METHOD e getFlowing ()Lcfv;
+	METHOD f getStill ()Lcfv;
+	METHOD j getParticle ()Lft;
+	METHOD k hasRandomTicks ()Z

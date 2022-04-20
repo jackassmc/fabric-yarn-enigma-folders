@@ -1,0 +1,5 @@
+CLASS dgc net/minecraft/client/render/entity/CaveSpiderEntityRenderer
+	FIELD a SKIN Lpy;
+	METHOD a getTexture (Lagi;)Lpy;
+	METHOD a getTexture (Laor;)Lpy;
+	METHOD a getTexture (Lapt;)Lpy;

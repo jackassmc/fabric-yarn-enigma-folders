@@ -1,0 +1,2 @@
+CLASS dea net/minecraft/client/particle/RedDustParticle
+	CLASS dea$a Factory

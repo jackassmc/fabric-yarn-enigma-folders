@@ -1,0 +1,17 @@
+CLASS bfa net/minecraft/enchantment/EnchantmentTarget
+	FIELD a ALL Lbfa;
+	FIELD b ARMOR Lbfa;
+	FIELD c FEET Lbfa;
+	FIELD d LEGS Lbfa;
+	FIELD e CHEST Lbfa;
+	FIELD f HELM Lbfa;
+	FIELD g WEAPON Lbfa;
+	FIELD h BREAKER Lbfa;
+	FIELD i FISHING Lbfa;
+	FIELD j TRIDENT Lbfa;
+	FIELD k TOOL Lbfa;
+	FIELD l BOW Lbfa;
+	FIELD m WEARABLE Lbfa;
+	FIELD n CROSSBOW Lbfa;
+	METHOD a isAcceptableItem (Lbbm;)Z
+		ARG 1 item

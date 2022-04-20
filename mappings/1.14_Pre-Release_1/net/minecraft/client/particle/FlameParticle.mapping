@@ -1,0 +1,2 @@
+CLASS dia net/minecraft/client/particle/FlameParticle
+	CLASS dia$a Factory

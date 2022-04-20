@@ -1,0 +1,2 @@
+CLASS avg net/minecraft/world/gen/WorldProviderOverworld
+	METHOD q getWorldType ()Lave;

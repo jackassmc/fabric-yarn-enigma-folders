@@ -1,0 +1,3 @@
+CLASS avt net/minecraft/item/EndCrystalItem
+	METHOD a useOnBlock (Layb;)Lafq;
+	METHOD e_ hasEnchantmentGlow (Lawo;)Z

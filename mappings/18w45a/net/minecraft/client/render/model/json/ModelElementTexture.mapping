@@ -1,0 +1,6 @@
+CLASS dbc net/minecraft/client/render/model/json/ModelElementTexture
+	FIELD a uvs [F
+	FIELD b rotation I
+	METHOD a getU (I)F
+	METHOD a setUvs ([F)V
+	METHOD b getV (I)F

@@ -1,0 +1,4 @@
+CLASS amd net/minecraft/entity/mob/AmbientEntity
+	METHOD <init> (Lahh;Lbcf;)V
+		ARG 1 type
+	METHOD a canBeLeashedBy (Lark;)Z

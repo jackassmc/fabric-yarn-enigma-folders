@@ -1,0 +1,6 @@
+CLASS bnt net/minecraft/block/PaneBlock
+	METHOD <init> (Lbkz$c;)V
+		ARG 1 settings
+	METHOD a connectsTo (Lbtx;Z)Z
+	METHOD f neverConnectsTo (Lbkz;)Z
+		ARG 0 block

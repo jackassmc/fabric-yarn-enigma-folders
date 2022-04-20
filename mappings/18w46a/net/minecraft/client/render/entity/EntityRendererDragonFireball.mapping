@@ -1,0 +1,4 @@
+CLASS dfl net/minecraft/client/render/entity/EntityRendererDragonFireball
+	FIELD a SKIN Lpx;
+	METHOD a getTexture (Lagc;)Lpx;
+	METHOD a getTexture (Laqh;)Lpx;

@@ -1,0 +1,5 @@
+CLASS bhw net/minecraft/block/DeadCoralWallFanBlock
+	FIELD a FACING Lbry;
+	FIELD c FACING_TO_SHAPE Ljava/util/Map;
+	METHOD <init> (Lbif$c;)V
+		ARG 1 settings

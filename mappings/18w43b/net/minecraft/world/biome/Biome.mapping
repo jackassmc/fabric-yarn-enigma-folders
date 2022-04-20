@@ -1,0 +1,30 @@
+CLASS azx net/minecraft/world/biome/Biome
+	CLASS azx$e SpawnListEntry
+		FIELD c minGroupSize I
+		FIELD d maxGroupSize I
+		METHOD <init> (Lafl;III)V
+			ARG 1 weight
+			ARG 2 minGroupSize
+			ARG 3 maxGroupSize
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD c NAMED_BIOME_IDS Lez;
+	FIELD i temperature F
+	FIELD j rainfall F
+	FIELD m id Ljava/lang/String;
+	FIELD s spawnListCave Ljava/util/List;
+	METHOD a getSkyColor (F)I
+		ARG 0 temperature
+	METHOD a getIfNamed (Lazx;)Lazx;
+		ARG 0 biome
+	METHOD a getFoliageColorAt (Leq;)I
+		ARG 0 pos
+	METHOD b hasName ()Z
+	METHOD b getGrassColorAt (Leq;)I
+		ARG 0 pos
+	METHOD c getTemperature (Leq;)F
+		ARG 0 pos
+	METHOD e getMaxSpawnLimit ()F
+	METHOD g getTemperatureGroup ()Lazx$c;
+	METHOD i getRainfall ()F
+	METHOD m getTemperature ()F
+	METHOD s getId ()Ljava/lang/String;

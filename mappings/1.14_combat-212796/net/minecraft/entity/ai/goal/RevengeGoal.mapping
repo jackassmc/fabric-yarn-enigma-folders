@@ -1,0 +1,15 @@
+CLASS aos net/minecraft/entity/ai/goal/RevengeGoal
+	FIELD a VALID_AVOIDABLES_PREDICATE Laqd;
+	FIELD b groupRevenge Z
+	FIELD c lastAttackedTime I
+	FIELD d noRevengeTypes [Ljava/lang/Class;
+	FIELD i noHelpTypes [Ljava/lang/Class;
+	METHOD <init> (Lajb;[Ljava/lang/Class;)V
+		ARG 1 mob
+		ARG 2 noRevengeTypes
+	METHOD a setMobEntityTarget (Laiv;Laiu;)V
+		ARG 1 mob
+		ARG 2 target
+	METHOD a setGroupRevenge ([Ljava/lang/Class;)Laos;
+		ARG 1 noHelpTypes
+	METHOD g callSameTypeForRevenge ()V

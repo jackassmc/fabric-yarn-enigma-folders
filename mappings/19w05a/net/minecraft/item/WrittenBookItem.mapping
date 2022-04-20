@@ -1,0 +1,10 @@
+CLASS ayy net/minecraft/item/WrittenBookItem
+	METHOD <init> (Laxd$a;)V
+		ARG 1 settings
+	METHOD a resolve (Laxi;Lca;Laro;)Z
+		ARG 0 book
+		ARG 1 commandSource
+		ARG 2 player
+	METHOD e getBookGeneration (Laxi;)I
+		ARG 0 stack
+	METHOD f getPageCount (Laxi;)I

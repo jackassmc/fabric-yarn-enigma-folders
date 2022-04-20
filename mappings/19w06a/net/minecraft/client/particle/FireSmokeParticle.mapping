@@ -1,0 +1,2 @@
+CLASS ded net/minecraft/client/particle/FireSmokeParticle
+	CLASS ded$a Factory

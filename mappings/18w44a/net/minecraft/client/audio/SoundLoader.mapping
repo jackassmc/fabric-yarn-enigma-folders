@@ -1,0 +1,45 @@
+CLASS dmf net/minecraft/client/audio/SoundLoader
+	CLASS dmf$2
+		METHOD a getSound ()Ldlf;
+		METHOD e getWeight ()I
+		METHOD k getSound ()Ljava/lang/Object;
+	FIELD a SOUND_MISSING Ldlf;
+	FIELD b LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD c GSON Lcom/google/gson/Gson;
+	FIELD d TYPE Ljava/lang/reflect/ParameterizedType;
+	FIELD e sounds Ljava/util/Map;
+	FIELD f soundManager Ldmd;
+	FIELD g resourceManager Lvt;
+	METHOD <init> (Lvt;Lclr;)V
+		ARG 1 manager
+		ARG 2 settings
+	METHOD Z_ tick ()V
+	METHOD a getKeys ()Ljava/util/Collection;
+	METHOD a updateListenerPosition (Lapr;F)V
+		ARG 1 listener
+	METHOD a isSoundResourcePresent (Ldlf;Lpu;)Z
+	METHOD a play (Ldli;)V
+		ARG 1 sound
+	METHOD a registerListener (Ldme;)V
+		ARG 1 listener
+	METHOD a readSounds (Ljava/io/InputStream;)Ljava/util/Map;
+		ARG 1 input
+	METHOD a get (Lpu;)Ldmg;
+		ARG 1 id
+	METHOD a stopSounds (Lpu;Lwy;)V
+		ARG 2 category
+	METHOD a onResourceReload (Lvt;)V
+		ARG 1 manager
+	METHOD a updateSoundVolume (Lwy;F)V
+		ARG 1 category
+		ARG 2 volume
+	METHOD b pause ()V
+	METHOD b stop (Ldli;)V
+		ARG 1 sound
+	METHOD b unregisterListener (Ldme;)V
+		ARG 1 listener
+	METHOD c stopAll ()V
+	METHOD c isPlaying (Ldli;)Z
+		ARG 1 sound
+	METHOD d deinitialize ()V
+	METHOD e resume ()V

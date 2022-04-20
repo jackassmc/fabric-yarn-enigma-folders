@@ -1,0 +1,37 @@
+CLASS btf net/minecraft/block/entity/AbstractFurnaceBlockEntity
+	FIELD a inventory Lfj;
+	FIELD b propertyDelegate Laym;
+	FIELD c recipeType Lben;
+	FIELD g TOP_SLOTS [I
+	FIELD h BOTTOM_SLOTS [I
+	FIELD i SIDE_SLOTS [I
+	FIELD j burnTime I
+	FIELD k fuelTime I
+	FIELD l cookTime I
+	FIELD m cookTimeTotal I
+	FIELD n recipesUsed Ljava/util/Map;
+	METHOD a dropExperience (Lavz;IF)V
+		ARG 0 player
+		ARG 1 totalExperience
+		ARG 2 experienceFraction
+	METHOD a getFuelTime (Lbcc;)I
+		ARG 1 fuel
+	METHOD a addFuel (Ljava/util/Map;Lbhi;I)V
+		ARG 0 fuelTimes
+		ARG 1 item
+		ARG 2 fuelTime
+	METHOD a addFuel (Ljava/util/Map;Lzc;I)V
+		ARG 0 fuelTimes
+		ARG 1 tag
+		ARG 2 fuelTime
+	METHOD b canUseAsFuel (Lbcc;)Z
+		ARG 0 stack
+	METHOD b canAcceptRecipeOutput (Lbek;)Z
+		ARG 1 recipe
+	METHOD c craftRecipe (Lbek;)V
+		ARG 1 recipe
+	METHOD d dropExperience (Lavz;)V
+		ARG 1 player
+	METHOD f createFuelTimeMap ()Ljava/util/Map;
+	METHOD h getCookTime ()I
+	METHOD s isBurning ()Z

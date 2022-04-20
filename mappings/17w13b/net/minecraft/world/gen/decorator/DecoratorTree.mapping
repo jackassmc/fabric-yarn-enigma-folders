@@ -1,0 +1,32 @@
+CLASS azi net/minecraft/world/gen/decorator/DecoratorTree
+	FIELD a OAK_LOG Lave;
+	FIELD b OAK_LEAVES Lave;
+	FIELD c height I
+	FIELD d generateVines Z
+	FIELD e logState Lave;
+	FIELD f leavesState Lave;
+	METHOD <init> (Z)V
+		ARG 0 doBlockUpdates
+	METHOD <init> (ZILave;Lave;Z)V
+		ARG 0 doBlockUpdates
+		ARG 1 height
+		ARG 2 logState
+		ARG 3 leavesState
+		ARG 4 generateVines
+	METHOD a generateCocoaPod (Lali;ILdx;Lee;)V
+		ARG 0 world
+		ARG 1 age
+		ARG 2 pos
+		ARG 3 facing
+	METHOD a generateVine (Lali;Ldx;Lavq;)V
+		ARG 0 world
+		ARG 1 pos
+		ARG 2 prop
+	METHOD b generateVines (Lali;Ldx;Lavq;)V
+		ARG 0 world
+		ARG 1 pos
+		ARG 2 prop
+	METHOD b generate (Lali;Ljava/util/Random;Ldx;)Z
+		ARG 0 world
+		ARG 1 random
+		ARG 2 pos

@@ -1,0 +1,15 @@
+CLASS cgy net/minecraft/structure/SimpleStructurePiece
+	FIELD a structure Lcht;
+	FIELD b placementData Lchq;
+	FIELD c pos Leu;
+	FIELD d LOGGER Lorg/apache/logging/log4j/Logger;
+	METHOD a setStructureData (Lcht;Leu;Lchq;)V
+		ARG 1 structure
+		ARG 2 pos
+		ARG 3 placementData
+	METHOD a handleMetadata (Ljava/lang/String;Leu;Lbfy;Ljava/util/Random;Lcgc;)V
+		ARG 1 metadata
+		ARG 2 pos
+		ARG 3 world
+		ARG 4 random
+		ARG 5 boundingBox

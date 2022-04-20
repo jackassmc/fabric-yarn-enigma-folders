@@ -1,0 +1,5 @@
+CLASS bde net/minecraft/item/ToolItem
+	FIELD a material Lbdd;
+	METHOD <init> (Lbdd;Lbbu$a;)V
+		ARG 1 material
+	METHOD e getType ()Lbdd;

@@ -1,0 +1,13 @@
+CLASS bjq net/minecraft/block/BlockSlab
+	METHOD a getPlacementState (Late;)Lbno;
+	METHOD a (Lbno;)Z
+	METHOD a getBoundingShape (Lbno;Lazl;Les;)Lcjm;
+		ARG 1 state
+		ARG 2 view
+	METHOD a canPlaceAtSide (Lbno;Lazl;Les;Lceb;)Z
+		ARG 1 world
+		ARG 3 pos
+	METHOD a getRenderingState (Lbno;Lex;Lbno;Lazz;Les;Les;)Lbno;
+		ARG 1 state
+	METHOD a appendProperties (Lbnp$a;)V
+	METHOD r hasSolidTopSurface (Lbno;)Z

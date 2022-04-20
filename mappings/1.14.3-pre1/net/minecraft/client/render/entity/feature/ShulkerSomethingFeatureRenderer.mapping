@@ -1,0 +1,3 @@
+CLASS dtj net/minecraft/client/render/entity/feature/ShulkerSomethingFeatureRenderer
+	METHOD <init> (Ldra;)V
+		ARG 1 context

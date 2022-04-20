@@ -1,0 +1,30 @@
+CLASS io net/minecraft/network/NetworkState
+	CLASS io$1
+		METHOD <init> (Ljava/lang/String;II)V
+			ARG 0 id
+	CLASS io$2
+		METHOD <init> (Ljava/lang/String;II)V
+			ARG 0 id
+	CLASS io$3
+		METHOD <init> (Ljava/lang/String;II)V
+			ARG 0 id
+	CLASS io$4
+		METHOD <init> (Ljava/lang/String;II)V
+			ARG 0 id
+	FIELD a HANDSHAKE Lio;
+	FIELD b GAME Lio;
+	FIELD c QUERY Lio;
+	FIELD d LOGIN Lio;
+	FIELD e STATES [Lio;
+	FIELD f HANDLER_STATE_MAP Ljava/util/Map;
+	FIELD g id I
+	FIELD h packetHandlerMap Ljava/util/Map;
+	METHOD a getId ()I
+	METHOD a byId (I)Lio;
+		ARG 0 id
+	METHOD a getPacketHandlerState (Ljn;)Lio;
+		ARG 0 handler
+	METHOD a getPacketHandler (Ljo;I)Ljn;
+		ARG 1 side
+	METHOD a getPacketId (Ljo;Ljn;)Ljava/lang/Integer;
+		ARG 1 side

@@ -1,0 +1,9 @@
+CLASS bmb net/minecraft/block/ScaffoldingBlock
+	FIELD a DISTANCE Lbrk;
+	FIELD b WATERLOGGED Lbrc;
+	FIELD c BOTTOM Lbrc;
+	FIELD d NORMAL_OUTLINE_SHAPE Lcnl;
+	FIELD e BOTTOM_OUTLINE_SHAPE Lcnl;
+	FIELD f COLLISION_SHAPE Lcnl;
+	METHOD <init> (Lbhn$c;)V
+		ARG 1 settings

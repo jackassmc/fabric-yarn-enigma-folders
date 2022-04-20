@@ -1,0 +1,4 @@
+CLASS cwg net/minecraft/client/gui/widget/ElementListWidget
+	CLASS cwg$a ElementItem
+		FIELD a focused Lcwy;
+		FIELD b dragging Z

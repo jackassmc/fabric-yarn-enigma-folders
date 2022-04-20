@@ -1,0 +1,18 @@
+CLASS ami net/minecraft/sortme/MobSpawnerLogic
+	FIELD a spawnDelay I
+	FIELD b spawnPotentials Ljava/util/List;
+	FIELD c spawnEntry Lanc;
+	FIELD f minSpawnDelay I
+	FIELD g maxSpawnDelay I
+	FIELD h spawnCount I
+	FIELD j maxNearbyEntities I
+	FIELD k requiredPlayerRange I
+	FIELD l spawnRange I
+	METHOD a getWorld ()Lams;
+	METHOD a setSpawnEntry (Lanc;)V
+		ARG 0 value
+	METHOD a deserialize (Lfy;)V
+	METHOD b getPos ()Let;
+	METHOD b serialize (Lfy;)Lfy;
+	METHOD c update ()V
+	METHOD g getEntityId ()Lnd;

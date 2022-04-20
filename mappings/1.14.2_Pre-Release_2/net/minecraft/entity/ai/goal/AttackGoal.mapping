@@ -1,0 +1,7 @@
+CLASS ann net/minecraft/entity/ai/goal/AttackGoal
+	FIELD a world Lbgs;
+	FIELD b mob Lais;
+	FIELD c target Lair;
+	FIELD d cooldown I
+	METHOD <init> (Lais;)V
+		ARG 1 mob

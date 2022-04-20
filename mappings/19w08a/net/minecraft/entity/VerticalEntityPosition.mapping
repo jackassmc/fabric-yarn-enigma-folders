@@ -1,0 +1,7 @@
+CLASS cnp net/minecraft/entity/VerticalEntityPosition
+	METHOD a minValue ()Lcnp;
+	METHOD a fromEntity (Lahl;)Lcnp;
+		ARG 0 entity
+	METHOD a isAboveBlock (Lcoe;Les;Z)Z
+		ARG 1 shape
+	METHOD b isSneaking ()Z

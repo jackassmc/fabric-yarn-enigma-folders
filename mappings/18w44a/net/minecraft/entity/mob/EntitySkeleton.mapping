@@ -1,0 +1,6 @@
+CLASS aoy net/minecraft/entity/mob/EntitySkeleton
+	METHOD D getSoundAmbient ()Lww;
+	METHOD F getLootTableId ()Lpu;
+	METHOD a dropEquipment (Lafe;IZ)V
+	METHOD cw getSoundDeath ()Lww;
+	METHOD e getSoundHurt (Lafe;)Lww;

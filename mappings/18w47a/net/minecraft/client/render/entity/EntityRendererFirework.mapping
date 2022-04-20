@@ -1,0 +1,3 @@
+CLASS dgn net/minecraft/client/render/entity/EntityRendererFirework
+	METHOD a getTexture (Lage;)Lpx;
+	METHOD a getTexture (Laqp;)Lpx;

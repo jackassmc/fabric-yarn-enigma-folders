@@ -1,0 +1,7 @@
+CLASS awy net/minecraft/container/CartographyTableContainer
+	FIELD c inventory Lagk;
+	FIELD d context Laxc;
+	METHOD <init> (ILaum;)V
+		ARG 1 syncId
+	METHOD <init> (ILaum;Laxc;)V
+		ARG 1 syncId

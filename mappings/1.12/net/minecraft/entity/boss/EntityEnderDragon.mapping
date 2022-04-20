@@ -1,0 +1,43 @@
+CLASS abb net/minecraft/entity/boss/EntityEnderDragon
+	FIELD bA partTail2 Laaz;
+	FIELD bB partTail3 Laaz;
+	FIELD bC partWingRight Laaz;
+	FIELD bD partWingLeft Laaz;
+	FIELD bJ LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD bv parts [Laaz;
+	FIELD bw partHead Laaz;
+	FIELD bx partNeck Laaz;
+	FIELD by partBody Laaz;
+	FIELD bz partTail1 Laaz;
+	METHOD F getSoundAmbient ()Lqc;
+	METHOD J getLootTableId ()Lnd;
+	METHOD L checkDespawn ()V
+	METHOD a getPartDamageWorld ()Lams;
+	METHOD a damage (Laaz;Lup;F)Z
+		ARG 0 part
+		ARG 1 source
+		ARG 2 amount
+	METHOD a deserializeCustomData (Lfy;)V
+		ARG 0 tag
+	METHOD a onTrackedDataSet (Lmx;)V
+		ARG 0 data
+	METHOD a registerTagUpgraders (Lrw;)V
+		ARG 0 handler
+	METHOD a damage (Lup;F)Z
+		ARG 0 source
+		ARG 1 damage
+	METHOD ay doesCollide ()Z
+	METHOD b serializeCustomData (Lfy;)V
+		ARG 0 tag
+	METHOD bK getSoundCategory ()Lqe;
+	METHOD bM initAttributes ()V
+	METHOD bO updatePostDeath ()V
+	METHOD bb getParts ()[Lve;
+	METHOD c addPotionEffect (Luy;)V
+		ARG 0 effect
+	METHOD cq getSoundVolume ()F
+	METHOD d getSoundHurt (Lup;)Lqc;
+	METHOD i initDataTracker ()V
+	METHOD n updateMovement ()V
+	METHOD n canStartRiding (Lve;)Z
+		ARG 0 entity

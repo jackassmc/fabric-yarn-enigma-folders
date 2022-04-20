@@ -1,0 +1,8 @@
+CLASS bmq net/minecraft/block/entity/ConduitBlockEntity
+	FIELD j targetEntity Lago;
+	FIELD k targetUuid Ljava/util/UUID;
+	METHOD a serialize (Lhp;)Lhp;
+	METHOD ac_ tick ()V
+	METHOD ad_ getUpdatePacket ()Lkb;
+	METHOD ae_ serializeInitialChunkData ()Lhp;
+	METHOD b deserialize (Lhp;)V

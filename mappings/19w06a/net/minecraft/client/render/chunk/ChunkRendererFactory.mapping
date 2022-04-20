@@ -1,0 +1,4 @@
+CLASS dih net/minecraft/client/render/chunk/ChunkRendererFactory
+	METHOD create (Lbcu;Ldfo;)Ldig;
+		ARG 1 world
+		ARG 2 worldRenderer

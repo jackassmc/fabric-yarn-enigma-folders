@@ -1,0 +1,4 @@
+CLASS amv net/minecraft/entity/ai/goal/LookAtCustomerGoal
+	FIELD f trader Lauv;
+	METHOD <init> (Lauv;)V
+		ARG 1 owner

@@ -1,0 +1,2 @@
+CLASS cxq net/minecraft/client/texture/IImageFilter
+	METHOD a filterImage (Ldgl;)Ldgl;

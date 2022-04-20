@@ -1,0 +1,12 @@
+CLASS bkw net/minecraft/block/entity/BlockEntityLockableContainer
+	FIELD a lock Laef;
+	METHOD <init> (Lbkg;)V
+		ARG 0 factory
+	METHOD W_ hasContainerLock ()Z
+	METHOD a setContainerLock (Laef;)V
+		ARG 0 lock
+	METHOD a serialize (Lhl;)Lhl;
+		ARG 0 tag
+	METHOD b deserialize (Lhl;)V
+		ARG 0 tag
+	METHOD j getContainerLock ()Laef;

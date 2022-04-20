@@ -1,0 +1,11 @@
+CLASS bcy net/minecraft/world/chunk/ChunkCache
+	FIELD a minX I
+	FIELD b minZ I
+	FIELD c chunks [[Lbsk;
+	FIELD e world Lbcl;
+	METHOD <init> (Lbcl;Let;Let;I)V
+		ARG 1 world
+		ARG 2 minPos
+		ARG 3 maxPos
+	METHOD a getBlockEntity (Let;Lbsk$a;)Lboo;
+		ARG 1 pos

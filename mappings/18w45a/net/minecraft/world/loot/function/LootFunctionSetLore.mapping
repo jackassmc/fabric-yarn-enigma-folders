@@ -1,0 +1,10 @@
+CLASS chb net/minecraft/world/loot/function/LootFunctionSetLore
+	CLASS chb$b Factory
+		METHOD a toJson (Lcom/google/gson/JsonObject;Lcgs;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD a toJson (Lcom/google/gson/JsonObject;Lcgt;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD b fromJson (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;[Lchw;)Lcgs;
+	FIELD a replace Z
+	FIELD c lore Ljava/util/List;
+	FIELD d entity Lcfl$c;
+	METHOD a process (Lava;Lcfl;)Lava;
+		ARG 1 stack

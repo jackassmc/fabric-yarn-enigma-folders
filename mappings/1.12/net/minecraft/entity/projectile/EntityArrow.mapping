@@ -1,0 +1,31 @@
+CLASS aey net/minecraft/entity/projectile/EntityArrow
+	FIELD f COLOR Lmx;
+	FIELD g potion Lake;
+	FIELD h effects Ljava/util/Set;
+	METHOD <init> (Lams;DDD)V
+		ARG 0 world
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD <init> (Lams;Lvn;)V
+		ARG 0 world
+		ARG 1 owner
+	METHOD B_ update ()V
+	METHOD a initFromStack (Lain;)V
+		ARG 0 stack
+	METHOD a deserializeCustomData (Lfy;)V
+		ARG 0 tag
+	METHOD a addEffect (Luy;)V
+		ARG 0 effect
+	METHOD a onHit (Lvn;)V
+		ARG 0 entity
+	METHOD b serializeCustomData (Lfy;)V
+		ARG 0 tag
+	METHOD c spawnParticles (I)V
+		ARG 0 count
+	METHOD c registerTagUpgraders2 (Lrw;)V
+		ARG 0 handler
+	METHOD i initDataTracker ()V
+	METHOD j asItemStack ()Lain;
+	METHOD p getColor ()I
+	METHOD q initColor ()V

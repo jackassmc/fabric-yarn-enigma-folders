@@ -1,0 +1,4 @@
+CLASS boe net/minecraft/block/CarpetBlock
+	FIELD a SHAPE Lcnl;
+	FIELD b color Lawa;
+	METHOD d getColor ()Lawa;

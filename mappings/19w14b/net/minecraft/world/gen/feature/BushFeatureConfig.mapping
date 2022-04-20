@@ -1,0 +1,6 @@
+CLASS bzm net/minecraft/world/gen/feature/BushFeatureConfig
+	FIELD a state Lbuz;
+	METHOD <init> (Lbuz;)V
+		ARG 1 state
+	METHOD a deserialize (Lcom/mojang/datafixers/Dynamic;)Lbzm;
+		ARG 0 dynamic

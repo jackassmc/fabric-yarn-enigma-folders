@@ -1,0 +1,2 @@
+CLASS dwo net/minecraft/client/tutorial/NoneTutorialStepHandler
+	FIELD a manager Ldwu;

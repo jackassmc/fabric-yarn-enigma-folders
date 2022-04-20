@@ -1,0 +1,10 @@
+CLASS brm net/minecraft/client/particle/ParticleElderGuardianAppearance
+	CLASS brm$a Factory
+		METHOD a createParticle (ILali;DDDDDD[I)Lbro;
+	FIELD a guardian Luk;
+	METHOD a update ()V
+	METHOD a buildGeometry (Lbst;Lub;FFFFFF)V
+		ARG 0 vertexBuffer
+		ARG 1 entity
+		ARG 2 deltaTicks
+	METHOD b getParticleGroup ()I

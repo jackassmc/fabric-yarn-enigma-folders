@@ -1,0 +1,8 @@
+CLASS auo net/minecraft/container/GrindstoneContainer
+	FIELD c resultInventory Laga;
+	FIELD d craftingInventory Laga;
+	FIELD e context Laue;
+	METHOD <init> (ILary;)V
+		ARG 1 syncId
+	METHOD <init> (ILary;Laue;)V
+		ARG 1 syncId

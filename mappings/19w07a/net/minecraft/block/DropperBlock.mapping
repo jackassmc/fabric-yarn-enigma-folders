@@ -1,0 +1,4 @@
+CLASS bjq net/minecraft/block/DropperBlock
+	FIELD c BEHAVIOR Lfp;
+	METHOD <init> (Lbic$c;)V
+		ARG 1 settings

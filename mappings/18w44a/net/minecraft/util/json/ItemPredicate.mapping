@@ -1,0 +1,27 @@
+CLASS aw net/minecraft/util/json/ItemPredicate
+	CLASS aw$a Builder
+		FIELD a enchantment Ljava/util/List;
+		FIELD b item Lauq;
+		FIELD d count Lbc$d;
+		METHOD a create ()Law$a;
+		METHOD a enchantment (Lal;)Law$a;
+		METHOD a item (Lazs;)Law$a;
+		METHOD a count (Lbc$d;)Law$a;
+		METHOD b build ()Law;
+	FIELD a ANY Law;
+	FIELD b potion Lxo;
+	FIELD c item Lauq;
+	FIELD d count Lbc$d;
+	FIELD f enchantments [Lal;
+	FIELD h tag Lbe;
+	METHOD <init> (Lxo;Lauq;Lbc$d;Lbc$d;[Lal;Lawm;Lbe;)V
+		ARG 2 item
+		ARG 3 count
+		ARG 5 enchantments
+		ARG 6 potion
+	METHOD a matches (Lauv;)Z
+		ARG 1 stack
+	METHOD a deserialize (Lcom/google/gson/JsonElement;)Law;
+		ARG 0 el
+	METHOD b deserializeAll (Lcom/google/gson/JsonElement;)[Law;
+		ARG 0 el

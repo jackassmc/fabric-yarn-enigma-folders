@@ -1,0 +1,28 @@
+CLASS bqx net/minecraft/client/render/block/BlockStateModelMaps
+	CLASS bqx$1
+		METHOD a getModelName (Latj;)Lcbj;
+			ARG 0 state
+	CLASS bqx$2
+		METHOD a getModelName (Latj;)Lcbj;
+			ARG 0 state
+	CLASS bqx$5
+		METHOD a getModelName (Latj;)Lcbj;
+			ARG 0 state
+	FIELD a modelCache Ljava/util/Map;
+	FIELD b stateMap Lbsb;
+	FIELD c modelManager Lcbi;
+	METHOD <init> (Lcbi;)V
+		ARG 0 manager
+	METHOD a getStateMap ()Lbsb;
+	METHOD a registerMapper (Lals;Lbse;)V
+		ARG 0 block
+		ARG 1 stateMap
+	METHOD a getSprite (Latj;)Lbyw;
+		ARG 0 state
+	METHOD a registerBuiltinBlocks ([Lals;)V
+		ARG 0 blocks
+	METHOD b getModelManager ()Lcbi;
+	METHOD b getModel (Latj;)Lcbe;
+		ARG 0 state
+	METHOD c reload ()V
+	METHOD d registerStateMappers ()V

@@ -1,0 +1,4 @@
+CLASS dft net/minecraft/client/render/entity/EntityRendererMinecart
+	FIELD f SKIN Lpw;
+	METHOD a getTexture (Lafy;)Lpw;
+	METHOD a getTexture (Laqw;)Lpw;

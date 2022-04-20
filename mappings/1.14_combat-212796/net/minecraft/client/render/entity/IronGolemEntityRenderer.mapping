@@ -1,0 +1,2 @@
+CLASS dqf net/minecraft/client/render/entity/IronGolemEntityRenderer
+	FIELD a SKIN Lqt;

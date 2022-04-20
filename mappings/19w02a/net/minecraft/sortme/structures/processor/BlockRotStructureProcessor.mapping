@@ -1,0 +1,6 @@
+CLASS cdm net/minecraft/sortme/structures/processor/BlockRotStructureProcessor
+	FIELD a integrity F
+	METHOD <init> (F)V
+		ARG 1 integrity
+	METHOD a getStructureProcessor ()Lcea;
+	METHOD a process (Lbcj;Let;Lceb$b;Lceb$b;Lcdy;)Lceb$b;

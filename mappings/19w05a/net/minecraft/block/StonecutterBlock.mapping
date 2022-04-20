@@ -1,0 +1,5 @@
+CLASS bng net/minecraft/block/StonecutterBlock
+	FIELD a FACING Lbrk;
+	FIELD b SHAPE Lcnq;
+	METHOD <init> (Lbhs$c;)V
+		ARG 1 settings

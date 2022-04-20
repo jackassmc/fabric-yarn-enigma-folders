@@ -1,0 +1,4 @@
+CLASS cgf net/minecraft/world/chunk/light/ChunkLightingView
+	CLASS cgf$a Empty
+	METHOD a getChunkLightArray (Lfk;)Lbsy;
+	METHOD b getLightLevel (Les;)I

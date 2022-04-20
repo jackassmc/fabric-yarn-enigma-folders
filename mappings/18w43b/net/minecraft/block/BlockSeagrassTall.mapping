@@ -1,0 +1,14 @@
+CLASS bje net/minecraft/block/BlockSeagrassTall
+	METHOD <init> (Lbdx$c;)V
+		ARG 0 builder
+	METHOD a getPickStack (Layn;Leq;Lblz;)Lauc;
+		ARG 0 world
+		ARG 1 pos
+		ARG 2 state
+	METHOD a getBoundingBox (Lblz;Layn;Leq;)Lchu;
+		ARG 0 state
+		ARG 1 view
+		ARG 2 pos
+	METHOD a canPlaceAt (Lblz;Laze;Leq;)Z
+		ARG 0 world
+		ARG 2 pos

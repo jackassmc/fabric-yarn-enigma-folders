@@ -1,0 +1,4 @@
+CLASS did net/minecraft/client/particle/SuspendParticle
+	CLASS did$b DolphinFactory
+	CLASS did$c HappyVillagerFactory
+	CLASS did$d MyceliumFactory

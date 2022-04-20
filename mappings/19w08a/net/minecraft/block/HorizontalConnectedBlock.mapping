@@ -1,0 +1,12 @@
+CLASS bjj net/minecraft/block/HorizontalConnectedBlock
+	FIELD a NORTH Lbrv;
+	FIELD b EAST Lbrv;
+	FIELD c SOUTH Lbrv;
+	FIELD d WEST Lbrv;
+	FIELD e WATERLOGGED Lbrv;
+	FIELD f FACING_PROPERTIES Ljava/util/Map;
+	FIELD g collisionShapes [Lcoe;
+	FIELD h boundingShapes [Lcoe;
+	METHOD a createShapes (FFFFF)[Lcoe;
+	METHOD a getDirectionMask (Lex;)I
+	METHOD j getShapeIndex (Lbrd;)I

@@ -1,0 +1,16 @@
+CLASS abf net/minecraft/entity/EntityFirework
+	FIELD a ITEM_STACK Lkk;
+	METHOD A_ update ()V
+	METHOD a shouldRender (D)Z
+		ARG 0 distanceSq
+	METHOD a deserializeCustomData (Ldu;)V
+		ARG 0 tag
+	METHOD b serializeCustomData (Ldu;)V
+		ARG 0 tag
+	METHOD b registerTagUpgraders (Lph;)V
+		ARG 0 handler
+	METHOD h setVelocityClient (DDD)V
+		ARG 0 x
+		ARG 1 y
+		ARG 2 z
+	METHOD i initDataTracker ()V

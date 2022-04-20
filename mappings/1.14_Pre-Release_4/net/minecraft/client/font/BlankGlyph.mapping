@@ -1,0 +1,3 @@
+CLASS cyb net/minecraft/client/font/BlankGlyph
+	FIELD a INSTANCE Lcyb;
+	FIELD b IMAGE Lctu;

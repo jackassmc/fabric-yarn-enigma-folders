@@ -1,0 +1,2 @@
+CLASS ayd net/minecraft/world/gen/structure/StructureGeneratorNetherFortress
+	CLASS ayd$a StructureNetherFortress

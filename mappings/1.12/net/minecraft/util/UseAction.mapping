@@ -1,0 +1,6 @@
+CLASS aka net/minecraft/util/UseAction
+	FIELD a DEFAULT Laka;
+	FIELD b EAT Laka;
+	FIELD c DRINK Laka;
+	FIELD d GUARD Laka;
+	FIELD e BOW Laka;

@@ -1,0 +1,4 @@
+CLASS bgz net/minecraft/block/BarrelBlock
+	FIELD a FACING Lbrf;
+	METHOD <init> (Lbhn$c;)V
+		ARG 1 settings

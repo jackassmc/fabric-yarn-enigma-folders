@@ -1,0 +1,15 @@
+CLASS u net/minecraft/advancement/criterion/Criterion
+	CLASS u$a ConditionsContainer
+		FIELD a conditions Lv;
+		FIELD b advancement Ln;
+		FIELD c id Ljava/lang/String;
+		METHOD a getConditions ()Lv;
+		METHOD a apply (Lqm;)V
+	METHOD a getId ()Lqc;
+	METHOD a deserializeConditions (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Lv;
+		ARG 1 obj
+	METHOD a endTracking (Lqm;)V
+	METHOD a beginTrackingCondition (Lqm;Lu$a;)V
+		ARG 1 manager
+	METHOD b endTrackingCondition (Lqm;Lu$a;)V
+		ARG 1 manager

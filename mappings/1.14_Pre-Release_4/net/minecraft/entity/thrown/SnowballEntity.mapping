@@ -1,0 +1,2 @@
+CLASS awp net/minecraft/entity/thrown/SnowballEntity
+	METHOD n getParticleParameters ()Lgd;

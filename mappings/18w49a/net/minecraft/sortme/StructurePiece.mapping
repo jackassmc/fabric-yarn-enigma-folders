@@ -1,0 +1,2 @@
+CLASS bxl net/minecraft/sortme/StructurePiece
+	METHOD a setPieceId (Lbxl;Ljava/lang/String;)Lbxl;

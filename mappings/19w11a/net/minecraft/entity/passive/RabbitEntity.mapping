@@ -1,0 +1,16 @@
+CLASS apy net/minecraft/entity/passive/RabbitEntity
+	CLASS apy$b net/minecraft/entity/passive/RabbitEntity$RabbitFleeGoal
+	CLASS apy$d net/minecraft/entity/passive/RabbitEntity$RabbitJumpControl
+		FIELD c rabbit Lapy;
+		METHOD c isActive ()Z
+	CLASS apy$e net/minecraft/entity/passive/RabbitEntity$RabbitMoveControl
+		FIELD i rabbit Lapy;
+	CLASS apy$f
+		FIELD f owner Lapy;
+	FIELD bA RABBIT_TYPE Lqe;
+	FIELD bB KILLER_BUNNY Lqp;
+	METHOD b isBreedingItem (Lbam;)Z
+	METHOD d setSpeed (D)V
+		ARG 1 speed
+	METHOD dP getRabbitType ()I
+	METHOD r setRabbitType (I)V

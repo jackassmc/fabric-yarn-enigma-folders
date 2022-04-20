@@ -1,0 +1,47 @@
+CLASS cxj net/minecraft/client/world/WorldClient
+	FIELD a netHandler Lcxg;
+	FIELD d game Lclx;
+	METHOD <init> (Lcxg;Lbad;Lbqp;Laep;Laea;)V
+		ARG 1 netHandler
+		ARG 2 levelInfo
+		ARG 4 difficulty
+	METHOD A getRecipeManager ()Laxh;
+	METHOD B getTagManager ()Lxt;
+	METHOD D getScoreboard ()Lcjs;
+	METHOD E getChunkProvider ()Lbpn;
+	METHOD a playSound (DDDLwz;Lxb;FFZ)V
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+		ARG 7 sound
+	METHOD a randomBlockDisplayTick (IIIILjava/util/Random;ZLes$a;)V
+		ARG 1 xCenter
+		ARG 2 yCenter
+		ARG 3 zCenter
+		ARG 4 radius
+		ARG 5 rand
+		ARG 6 spawnBarrierParticles
+	METHOD a isChunkLoaded (IIZ)Z
+	METHOD a spawnEntity (Lafy;)Z
+	METHOD a playSound (Lapv;DDDLwz;Lxb;FF)V
+		ARG 1 player
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z
+	METHOD a toCrashReportElement (Lb;)Lc;
+	METHOD a playSoundClient (Les;Lwz;Lxb;FFZ)V
+		ARG 1 pos
+		ARG 2 sound
+		ARG 3 category
+		ARG 4 volume
+		ARG 5 pitch
+	METHOD a sendPacket (Ljn;)V
+	METHOD b getEntityById (I)Lafy;
+	METHOD b setTimeOfDay (J)V
+	METHOD b onEntityAdded (Lafy;)V
+	METHOD c onEntityRemoved (Lafy;)V
+	METHOD f doRandomBlockDisplayTicks (III)V
+		ARG 1 xCenter
+		ARG 2 yCenter
+	METHOD j getChunkProvider ()Lcxe;
+	METHOD t updateWeather ()V

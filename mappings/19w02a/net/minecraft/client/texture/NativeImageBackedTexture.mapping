@@ -1,0 +1,6 @@
+CLASS dob net/minecraft/client/texture/NativeImageBackedTexture
+	FIELD f image Lcor;
+	METHOD a upload ()V
+	METHOD a setImage (Lcor;)V
+	METHOD a load (Lwq;)V
+	METHOD e getImage ()Lcor;

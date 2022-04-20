@@ -1,0 +1,50 @@
+CLASS dhb net/minecraft/client/render/model/json/ModelTransformation
+	CLASS dhb$a Deserializer
+		METHOD a parseModelTransformation (Lcom/google/gson/JsonDeserializationContext;Lcom/google/gson/JsonObject;Ljava/lang/String;)Ldha;
+			ARG 1 ctx
+			ARG 2 json
+			ARG 3 key
+		METHOD a (Lcom/google/gson/JsonElement;Ljava/lang/reflect/Type;Lcom/google/gson/JsonDeserializationContext;)Ldhb;
+			ARG 1 element
+			ARG 2 type
+			ARG 3 context
+	CLASS dhb$b Type
+		FIELD i FIXED Ldhb$b;
+	FIELD a NONE Ldhb;
+	FIELD b globalTranslationX F
+	FIELD c globalTranslationY F
+	FIELD d globalTranslationZ F
+	FIELD e globalRotationX F
+	FIELD f globalRotationY F
+	FIELD g globalRotationZ F
+	FIELD h globalScaleOffsetX F
+	FIELD i globalScaleOffsetY F
+	FIELD j globalScaleOffsetZ F
+	FIELD k thirdPersonLeftHand Ldha;
+	FIELD l thirdPersonRightHand Ldha;
+	FIELD m firstPersonLeftHand Ldha;
+	FIELD n firstPersonRightHand Ldha;
+	FIELD o head Ldha;
+	FIELD p gui Ldha;
+	FIELD q ground Ldha;
+	FIELD r fixed Ldha;
+	METHOD <init> (Ldha;Ldha;Ldha;Ldha;Ldha;Ldha;Ldha;Ldha;)V
+		ARG 1 thirdPersonLeftHand
+		ARG 2 thirdPersonRightHand
+		ARG 3 firstPersonLeftHand
+		ARG 4 firstPersonRightHand
+		ARG 5 head
+		ARG 6 gui
+		ARG 7 ground
+		ARG 8 fixed
+	METHOD <init> (Ldhb;)V
+		ARG 1 other
+	METHOD a applyGl (Ldha;Z)V
+		ARG 0 transform
+		ARG 1 leftyFlip
+	METHOD a applyGl (Ldhb$b;)V
+		ARG 1 type
+	METHOD b getTransformation (Ldhb$b;)Ldha;
+		ARG 1 type
+	METHOD c isTransformationDefined (Ldhb$b;)Z
+		ARG 1 type

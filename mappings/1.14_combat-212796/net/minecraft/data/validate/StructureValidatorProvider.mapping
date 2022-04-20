@@ -1,0 +1,2 @@
+CLASS hp net/minecraft/data/validate/StructureValidatorProvider
+	FIELD b generator Lgj;

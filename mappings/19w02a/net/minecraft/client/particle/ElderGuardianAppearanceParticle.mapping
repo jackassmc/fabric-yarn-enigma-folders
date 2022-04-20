@@ -1,0 +1,30 @@
+CLASS ddi net/minecraft/client/particle/ElderGuardianAppearanceParticle
+	CLASS ddi$a Factory
+		METHOD a createParticle (Lft;Lbcf;DDDDDD)Lddk;
+			ARG 1 parameters
+			ARG 2 world
+			ARG 3 x
+			ARG 5 y
+			ARG 7 z
+			ARG 9 velocityX
+			ARG 11 velocityY
+			ARG 13 velocityZ
+		METHOD a createParticle (Lfw;Lbcf;DDDDDD)Lddk;
+			ARG 1 parameters
+			ARG 2 world
+			ARG 3 x
+			ARG 5 y
+			ARG 7 z
+			ARG 9 velocityX
+			ARG 11 velocityY
+			ARG 13 velocityZ
+	FIELD J guardian Lahm;
+	METHOD <init> (Lbcf;DDD)V
+		ARG 1 world
+		ARG 2 x
+	METHOD a update ()V
+	METHOD a buildGeometry (Lcpj;Lahd;FFFFFF)V
+		ARG 1 vertexBuffer
+		ARG 2 entity
+		ARG 3 delta
+	METHOD b getParticleGroup ()I

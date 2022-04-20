@@ -1,0 +1,6 @@
+CLASS cbb net/minecraft/world/gen/feature/GrassFeatureConfig
+	FIELD a state Lbuy;
+	METHOD <init> (Lbuy;)V
+		ARG 1 state
+	METHOD a deserialize (Lcom/mojang/datafixers/Dynamic;)Lcbb;
+		ARG 0 dynamic

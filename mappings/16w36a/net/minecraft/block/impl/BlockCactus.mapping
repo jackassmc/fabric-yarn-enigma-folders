@@ -1,0 +1,43 @@
+CLASS none/alf net/minecraft/block/impl/BlockCactus
+	FIELD a AGE Lnone/ata;
+	FIELD b COLLISION_BOX Lnone/bcr;
+	FIELD c BOX Lnone/bcr;
+	METHOD a deserializeState (I)Lnone/asl;
+		ARG 0 meta
+	METHOD a canPlaceAt (Lnone/aiv;Lnone/cn;)Z
+		ARG 0 world
+		ARG 1 pos
+	METHOD a (Lnone/aiv;Lnone/cn;Lnone/asl;Lnone/sf;)V
+		ARG 0 world
+		ARG 1 pos
+		ARG 2 state
+		ARG 3 entity
+	METHOD a (Lnone/asl;Lnone/aiv;Lnone/cn;Lnone/akx;)V
+		ARG 0 state
+		ARG 1 world
+		ARG 2 pos
+		ARG 3 block
+	METHOD a getCollisionBox (Lnone/asl;Lnone/aiz;Lnone/cn;)Lnone/bcr;
+		ARG 0 state
+		ARG 1 view
+		ARG 2 pos
+	METHOD b createStateFactory ()Lnone/asm;
+	METHOD b canPlace (Lnone/aiv;Lnone/cn;)Z
+		ARG 0 world
+		ARG 1 pos
+	METHOD b randomTick (Lnone/aiv;Lnone/cn;Lnone/asl;Ljava/util/Random;)V
+		ARG 0 world
+		ARG 1 pos
+		ARG 2 state
+		ARG 3 random
+	METHOD b (Lnone/asl;)Z
+		ARG 0 state
+	METHOD b getBoundingBoxClient (Lnone/asl;Lnone/aiv;Lnone/cn;)Lnone/bcr;
+		ARG 0 state
+		ARG 1 world
+		ARG 2 pos
+	METHOD c (Lnone/asl;)Z
+		ARG 0 state
+	METHOD e serializeState (Lnone/asl;)I
+		ARG 0 state
+	METHOD f getRenderLayer ()Lnone/ain;

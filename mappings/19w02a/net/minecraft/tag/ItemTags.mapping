@@ -1,0 +1,10 @@
+CLASS yj net/minecraft/tag/ItemTags
+	CLASS yj$a
+		METHOD a values ()Ljava/util/Collection;
+		METHOD a contains (Ljava/lang/Object;)Z
+		METHOD b entries ()Ljava/util/Collection;
+	FIELD L container Lym;
+	FIELD M containerChanges I
+	METHOD a getContainer ()Lym;
+	METHOD a register (Ljava/lang/String;)Lyl;
+	METHOD a setContainer (Lym;)V

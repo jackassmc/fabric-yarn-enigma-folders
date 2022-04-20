@@ -1,0 +1,7 @@
+CLASS ddx net/minecraft/client/particle/WaterSuspendParticle
+	CLASS ddx$a UnderwaterFactory
+	METHOD <init> (Lbcl;DDDDDD)V
+		ARG 1 world
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z

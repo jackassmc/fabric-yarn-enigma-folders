@@ -1,0 +1,3 @@
+CLASS bmi net/minecraft/block/BlastFurnaceBlock
+	METHOD <init> (Lbmj$c;)V
+		ARG 1 settings

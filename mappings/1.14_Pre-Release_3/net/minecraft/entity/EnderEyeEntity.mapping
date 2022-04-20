@@ -1,0 +1,2 @@
+CLASS awd net/minecraft/entity/EnderEyeEntity
+	FIELD f useCount I

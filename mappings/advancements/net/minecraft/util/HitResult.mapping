@@ -1,0 +1,11 @@
+CLASS bfn net/minecraft/util/HitResult
+	CLASS bfn$a Type
+		FIELD a NONE Lbfn$a;
+		FIELD b BLOCK Lbfn$a;
+		FIELD c ENTITY Lbfn$a;
+	FIELD a type Lbfn$a;
+	FIELD b side Lee;
+	FIELD c pos Lbfp;
+	FIELD d entity Lub;
+	FIELD e blockPos Ldx;
+	METHOD a getBlockPos ()Ldx;

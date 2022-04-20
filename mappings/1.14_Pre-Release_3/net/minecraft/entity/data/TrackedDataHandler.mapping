@@ -1,0 +1,6 @@
+CLASS qi net/minecraft/entity/data/TrackedDataHandler
+	METHOD a create (I)Lqh;
+	METHOD a copy (Ljava/lang/Object;)Ljava/lang/Object;
+	METHOD a read (Ljc;)Ljava/lang/Object;
+	METHOD a write (Ljc;Ljava/lang/Object;)V
+		ARG 1 data

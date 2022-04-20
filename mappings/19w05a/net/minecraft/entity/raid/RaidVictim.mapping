@@ -1,0 +1,3 @@
+CLASS ahx net/minecraft/entity/raid/RaidVictim
+	METHOD M_ getVillage ()Lama;
+	METHOD N_ getRaid ()Lass;

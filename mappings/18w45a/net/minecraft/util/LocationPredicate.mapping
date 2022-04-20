@@ -1,0 +1,20 @@
+CLASS bc net/minecraft/util/LocationPredicate
+	FIELD a ANY Lbc;
+	FIELD b x Lbe$c;
+	FIELD c y Lbe$c;
+	FIELD d z Lbe$c;
+	FIELD e biome Lbav;
+	FIELD g dimension Lbqp;
+	METHOD <init> (Lbe$c;Lbe$c;Lbe$c;Lbav;Lbwf;Lbqp;)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 biome
+	METHOD a deserialize (Lcom/google/gson/JsonElement;)Lbc;
+	METHOD a matches (Lud;DDD)Z
+		ARG 1 world
+		ARG 2 x
+	METHOD a matches (Lud;FFF)Z
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y

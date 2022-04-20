@@ -1,0 +1,3 @@
+CLASS bvn net/minecraft/world/gen/config/decorator/DefaultDecoratorConfig
+	METHOD a make (Lcom/mojang/datafixers/Dynamic;)Lbvn;
+		ARG 0 dynamic

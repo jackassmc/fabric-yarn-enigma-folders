@@ -1,0 +1,2 @@
+CLASS cyk net/minecraft/client/font/FontLoader
+	METHOD a load (Lxe;)Lctm;

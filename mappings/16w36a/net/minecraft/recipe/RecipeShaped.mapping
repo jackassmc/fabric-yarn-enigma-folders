@@ -1,0 +1,25 @@
+CLASS none/agy net/minecraft/recipe/RecipeShaped
+	FIELD a width I
+	FIELD b height I
+	FIELD c inputs [Lnone/aer;
+	FIELD d output Lnone/aer;
+	FIELD e cloneTags Z
+	METHOD <init> (II[Lnone/aer;Lnone/aer;)V
+		ARG 0 width
+		ARG 1 height
+		ARG 2 inputs
+		ARG 3 output
+	METHOD a getSize ()I
+	METHOD a craft (Lnone/acd;)Lnone/aer;
+		ARG 0 craftingInv
+	METHOD a matches (Lnone/acd;IIZ)Z
+		ARG 0 craftingInv
+		ARG 1 offsetX
+		ARG 2 offsetY
+		ARG 3 mirrored
+	METHOD a matches (Lnone/acd;Lnone/aiv;)Z
+		ARG 0 craftingInv
+		ARG 1 world
+	METHOD b getOutput ()Lnone/aer;
+	METHOD b getRemainingStacks (Lnone/acd;)Lnone/dc;
+		ARG 0 craftingInv

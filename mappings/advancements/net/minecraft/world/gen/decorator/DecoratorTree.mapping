@@ -1,0 +1,11 @@
+CLASS azi net/minecraft/world/gen/decorator/DecoratorTree
+	FIELD a LOG Lave;
+	FIELD b LEAVES Lave;
+	FIELD c height I
+	FIELD d generateVines Z
+	FIELD e logState Lave;
+	FIELD f leavesState Lave;
+	METHOD a generateCocoaPod (Lali;ILdx;Lee;)V
+	METHOD a generateVine (Lali;Ldx;Lavq;)V
+	METHOD b generateVines (Lali;Ldx;Lavq;)V
+	METHOD b generate (Lali;Ljava/util/Random;Ldx;)Z

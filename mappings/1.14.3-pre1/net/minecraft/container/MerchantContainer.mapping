@@ -1,0 +1,38 @@
+CLASS azg net/minecraft/container/MerchantContainer
+	FIELD c trader Lbgl;
+	FIELD d traderInventory Lazf;
+	FIELD e levelProgress I
+	FIELD f levelled Z
+	FIELD g canRefreshTrades Z
+	METHOD <init> (ILavy;)V
+		ARG 1 syncId
+		ARG 2 playerInventory
+	METHOD <init> (ILavy;Lbgl;)V
+		ARG 1 syncId
+		ARG 2 playerInventory
+		ARG 3 trader
+	METHOD a setOffers (Lbgn;)V
+	METHOD a setCanLevel (Z)V
+		ARG 1 canLevel
+	METHOD b equals (Lbcc;Lbcc;)Z
+		ARG 1 itemStack
+		ARG 2 otherItemStack
+	METHOD b setRefreshTrades (Z)V
+		ARG 1 refreshable
+	METHOD c autofill (ILbcc;)V
+		ARG 1 slot
+		ARG 2 stack
+	METHOD d setRecipeIndex (I)V
+		ARG 1 index
+	METHOD e getExperience ()I
+	METHOD e setExperienceFromServer (I)V
+		ARG 1 experience
+	METHOD f getTraderRewardedExperience ()I
+	METHOD f setLevelProgress (I)V
+		ARG 1 porgress
+	METHOD g getLevelProgress ()I
+	METHOD g switchTo (I)V
+		ARG 1 recipeIndex
+	METHOD h canRefreshTrades ()Z
+	METHOD i getRecipes ()Lbgn;
+	METHOD j isLevelled ()Z

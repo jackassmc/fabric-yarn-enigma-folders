@@ -1,0 +1,2 @@
+CLASS dmb net/minecraft/client/render/entity/LlamaEntityRenderer
+	FIELD a TEXTURES [Lqi;

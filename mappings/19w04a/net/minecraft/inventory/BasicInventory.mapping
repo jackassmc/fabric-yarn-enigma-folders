@@ -1,0 +1,7 @@
+CLASS agc net/minecraft/inventory/BasicInventory
+	FIELD a size I
+	FIELD b stackList Lfh;
+	FIELD c listeners Ljava/util/List;
+	METHOD a addListener (Lafs;)V
+	METHOD a add (Laxd;)Laxd;
+	METHOD b removeListener (Lafs;)V

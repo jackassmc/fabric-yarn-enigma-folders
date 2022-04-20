@@ -1,0 +1,13 @@
+CLASS xp net/minecraft/tag/BlockTags
+	CLASS xp$a
+		METHOD <init> (Lpx;)V
+			ARG 0 id
+		METHOD a values ()Ljava/util/Collection;
+		METHOD a contains (Ljava/lang/Object;)Z
+			ARG 0 value
+		METHOD b entries ()Ljava/util/Collection;
+	FIELD V container Lxv;
+	FIELD W contianerChanges I
+	METHOD a getContainer ()Lxv;
+	METHOD a register (Ljava/lang/String;)Lxu;
+	METHOD a setContainer (Lxv;)V

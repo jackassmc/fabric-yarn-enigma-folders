@@ -1,0 +1,15 @@
+CLASS iq net/minecraft/network/packet/client/CPacketPlayerList
+	CLASS iq$a Type
+		FIELD a ADD Liq$a;
+		FIELD b UPDATE_GAMEMODE Liq$a;
+		FIELD c UPDATE_LATENCY Liq$a;
+		FIELD d UPDATE_DISPLAY_NAME Liq$a;
+		FIELD e REMOVE Liq$a;
+	FIELD a type Liq$a;
+	METHOD a readPacket (Lgb;)V
+		ARG 0 buf
+	METHOD a applyPacket (Lge;)V
+	METHOD a applyPacket (Lgy;)V
+	METHOD b getType ()Liq$a;
+	METHOD b writePacket (Lgb;)V
+		ARG 0 buf

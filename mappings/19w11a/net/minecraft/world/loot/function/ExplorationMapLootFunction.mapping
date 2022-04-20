@@ -1,0 +1,20 @@
+CLASS cob net/minecraft/world/loot/function/ExplorationMapLootFunction
+	CLASS cob$a net/minecraft/world/loot/function/ExplorationMapLootFunction$Builder
+		FIELD a destination Ljava/lang/String;
+		FIELD b decoration Lcme$a;
+		FIELD c zoom B
+		FIELD d searchRadius I
+		FIELD e skipExistingChunks Z
+		METHOD a zoom (B)Lcob$a;
+		METHOD a decoration (Lcme$a;)Lcob$a;
+		METHOD a destination (Ljava/lang/String;)Lcob$a;
+		METHOD a skipExistingChunks (Z)Lcob$a;
+	CLASS cob$b net/minecraft/world/loot/function/ExplorationMapLootFunction$Factory
+	FIELD a DEFAULT_DECORATION Lcme$a;
+	FIELD c LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD d destination Ljava/lang/String;
+	FIELD e decoration Lcme$a;
+	FIELD f zoom B
+	FIELD g searchRadius I
+	FIELD h skipExistingChunks Z
+	METHOD b create ()Lcob$a;

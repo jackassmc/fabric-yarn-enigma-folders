@@ -1,0 +1,23 @@
+CLASS cks net/minecraft/client/gl/GlShader
+	CLASS cks$a Type
+		FIELD a VERTEX Lcks$a;
+		FIELD b FRAGMENT Lcks$a;
+		FIELD c name Ljava/lang/String;
+		FIELD d fileExtension Ljava/lang/String;
+		FIELD e shaderType I
+		FIELD f nameObjectMap Ljava/util/Map;
+		METHOD a getName ()Ljava/lang/String;
+		METHOD b getFileExtension ()Ljava/lang/String;
+		METHOD c getNameObjectMap ()Ljava/util/Map;
+		METHOD d getShaderType ()I
+	FIELD a shaderType Lcks$a;
+	FIELD b name Ljava/lang/String;
+	FIELD c shaderRef I
+	FIELD d refCount I
+	METHOD <init> (Lcks$a;ILjava/lang/String;)V
+		ARG 1 shaderType
+		ARG 2 shaderRef
+		ARG 3 name
+	METHOD a attachTo (Lckr;)V
+	METHOD a createFromResource (Lcks$a;Ljava/lang/String;Ljava/io/InputStream;)Lcks;
+	METHOD b getName ()Ljava/lang/String;

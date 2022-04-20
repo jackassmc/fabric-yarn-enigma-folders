@@ -1,0 +1,2 @@
+CLASS ahe net/minecraft/block/InventoryProvider
+	METHOD a getInventory (Lbuw;Lbgw;Lev;)Lahd;

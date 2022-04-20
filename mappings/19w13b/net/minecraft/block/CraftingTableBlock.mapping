@@ -1,0 +1,4 @@
+CLASS bna net/minecraft/block/CraftingTableBlock
+	FIELD a CONTAINER_NAME Ljm;
+	METHOD <init> (Lbly$c;)V
+		ARG 1 settings

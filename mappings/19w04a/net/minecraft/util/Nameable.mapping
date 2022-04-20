@@ -1,0 +1,5 @@
+CLASS agb net/minecraft/util/Nameable
+	METHOD P getName ()Ljc;
+	METHOD Q hasCustomName ()Z
+	METHOD R getCustomName ()Ljc;
+	METHOD d getDisplayName ()Ljc;

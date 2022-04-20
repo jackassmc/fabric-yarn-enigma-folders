@@ -1,0 +1,2 @@
+CLASS axo net/minecraft/enchantment/EnchantmentPower
+	METHOD a getHighestLevel ()I

@@ -1,0 +1,2 @@
+CLASS ahi net/minecraft/recipe/RecipeFood
+	METHOD a register (Laho;)V

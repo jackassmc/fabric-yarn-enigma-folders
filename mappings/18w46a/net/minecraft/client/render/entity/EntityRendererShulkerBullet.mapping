@@ -1,0 +1,4 @@
+CLASS dhl net/minecraft/client/render/entity/EntityRendererShulkerBullet
+	FIELD a SKIN Lpx;
+	METHOD a getTexture (Lagc;)Lpx;
+	METHOD a getTexture (Laqp;)Lpx;

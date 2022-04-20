@@ -1,0 +1,13 @@
+CLASS die net/minecraft/client/render/chunk/ChunkRenderData
+	FIELD a EMPTY Ldie;
+	FIELD c initialized [Z
+	FIELD d empty Z
+	FIELD e blockEntities Ljava/util/List;
+	FIELD g bufferState Lcpq$a;
+	METHOD a isEmpty ()Z
+	METHOD a addBlockEntity (Lbow;)V
+	METHOD a setBufferState (Lcpq$a;)V
+	METHOD b getBlockEntities ()Ljava/util/List;
+	METHOD c getBufferState ()Lcpq$a;
+	METHOD c markBufferInitialized (Lbcg;)V
+	METHOD d isBufferInitialized (Lbcg;)Z

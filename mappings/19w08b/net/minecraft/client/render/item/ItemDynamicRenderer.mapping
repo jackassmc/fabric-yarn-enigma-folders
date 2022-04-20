@@ -1,0 +1,15 @@
+CLASS dge net/minecraft/client/render/item/ItemDynamicRenderer
+	FIELD a INSTANCE Ldge;
+	FIELD b RENDER_SHULKER_BOX_DYED [Lbqc;
+	FIELD c RENDER_SHULKER_BOX Lbqc;
+	FIELD d renderChestNormal Lbpl;
+	FIELD e renderChestTrapped Lbpl;
+	FIELD f renderChestEnder Lbpt;
+	FIELD g renderBanner Lboz;
+	FIELD h renderBed Lbpe;
+	FIELD i renderSkull Lbqe;
+	FIELD j renderConduit Lbpo;
+	FIELD k modelShield Ldbv;
+	FIELD l modelTrident Ldcg;
+	METHOD a render (Laxx;)V
+	METHOD a renderEnchantmentGlint (Ljava/lang/Runnable;)V

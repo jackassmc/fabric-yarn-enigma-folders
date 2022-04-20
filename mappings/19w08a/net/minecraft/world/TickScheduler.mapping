@@ -1,0 +1,16 @@
+CLASS bdt net/minecraft/world/TickScheduler
+	METHOD a isScheduled (Les;Ljava/lang/Object;)Z
+		ARG 1 pos
+		ARG 2 object
+	METHOD a schedule (Les;Ljava/lang/Object;I)V
+		ARG 1 pos
+		ARG 2 object
+		ARG 3 delay
+	METHOD a schedule (Les;Ljava/lang/Object;ILbdv;)V
+		ARG 1 pos
+		ARG 2 object
+		ARG 3 delay
+		ARG 4 priority
+	METHOD b isTicking (Les;Ljava/lang/Object;)Z
+		ARG 1 pos
+		ARG 2 object

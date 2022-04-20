@@ -1,0 +1,3 @@
+CLASS apr net/minecraft/entity/mob/DrownedEntity
+	CLASS apr$e DrownedMoveControl
+		FIELD i drowned Lapr;

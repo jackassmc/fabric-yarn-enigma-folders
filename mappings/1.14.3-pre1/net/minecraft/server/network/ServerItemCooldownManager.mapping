@@ -1,0 +1,2 @@
+CLASS bct net/minecraft/server/network/ServerItemCooldownManager
+	FIELD a player Lvh;

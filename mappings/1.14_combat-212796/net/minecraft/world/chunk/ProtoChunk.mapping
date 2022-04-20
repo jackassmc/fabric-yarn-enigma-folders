@@ -1,0 +1,45 @@
+CLASS bxx net/minecraft/world/chunk/ProtoChunk
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD b pos Lbgz;
+	FIELD c shouldSave Z
+	FIELD d biomeArray [Lbik;
+	FIELD e lightingProvider Lckx;
+	FIELD f heightmaps Ljava/util/Map;
+	FIELD g status Lbxi;
+	FIELD h blockEntities Ljava/util/Map;
+	FIELD i blockEntityTags Ljava/util/Map;
+	FIELD j sections [Lbxq;
+	FIELD k entities Ljava/util/List;
+	FIELD l lightSources Ljava/util/List;
+	FIELD m postProcessingLists [Lit/unimi/dsi/fastutil/shorts/ShortList;
+	FIELD n structureStarts Ljava/util/Map;
+	FIELD o structureReferences Ljava/util/Map;
+	FIELD p upgradeData Lbxz;
+	FIELD q blockTickScheduler Lbxy;
+	FIELD r fluidTickScheduler Lbxy;
+	FIELD s inhabitedTime J
+	FIELD t carvingMasks Ljava/util/Map;
+	FIELD u isLightOn Z
+	METHOD a getSection (I)Lbxq;
+		ARG 1 y
+	METHOD a setStatus (Lbxi;)V
+	METHOD a setCarvingMask (Lbyv$a;Ljava/util/BitSet;)V
+		ARG 1 carver
+		ARG 2 mask
+	METHOD a joinBlockPos (SILbgz;)Lev;
+		ARG 0 sectionRel
+		ARG 1 sectionY
+		ARG 2 chunkPos
+	METHOD b addEntity (Lic;)V
+		ARG 1 entityTag
+	METHOD b addLightSource (SI)V
+		ARG 1 chunkSliceRel
+		ARG 2 sectionY
+	METHOD k addLightSource (Lev;)V
+		ARG 1 pos
+	METHOD l getPackedSectionRelative (Lev;)S
+		ARG 0 pos
+	METHOD w getLightSourcesBySection ()[Lit/unimi/dsi/fastutil/shorts/ShortList;
+	METHOD x getBlockEntities ()Ljava/util/Map;
+	METHOD y getEntities ()Ljava/util/List;
+	METHOD z getBlockEntityTags ()Ljava/util/Map;

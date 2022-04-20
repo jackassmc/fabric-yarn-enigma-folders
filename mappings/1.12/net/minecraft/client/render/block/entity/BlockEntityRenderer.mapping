@@ -1,0 +1,10 @@
+CLASS bww net/minecraft/client/render/block/entity/BlockEntityRenderer
+	FIELD b DESTROY_STAGE_TEXTURES [Lnd;
+	FIELD c renderManager Lbwv;
+	METHOD a getWorld ()Lams;
+	METHOD a render (Lavh;DDDFIF)V
+	METHOD a setRenderManager (Lbwv;)V
+		ARG 0 renderManager
+	METHOD a bindTexture (Lnd;)V
+		ARG 0 id
+	METHOD b getFontRenderer ()Lbin;

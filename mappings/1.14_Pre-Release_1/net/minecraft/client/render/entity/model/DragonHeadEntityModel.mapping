@@ -1,0 +1,3 @@
+CLASS dgm net/minecraft/client/render/entity/model/DragonHeadEntityModel
+	FIELD b head Ldgs;
+	FIELD c jaw Ldgs;

@@ -1,0 +1,16 @@
+CLASS boy net/minecraft/block/enums/RailShape
+	FIELD a NORTH_SOUTH Lboy;
+	FIELD b EAST_WEST Lboy;
+	FIELD c ASCENDING_EAST Lboy;
+	FIELD d ASCENDING_WEST Lboy;
+	FIELD e ASCENDING_NORTH Lboy;
+	FIELD f ASCENDING_SOUTH Lboy;
+	FIELD g SOUTH_EAST Lboy;
+	FIELD h SOUTH_WEST Lboy;
+	FIELD i NORTH_WEST Lboy;
+	FIELD j NORTH_EAST Lboy;
+	FIELD k id I
+	FIELD l name Ljava/lang/String;
+	METHOD a getId ()I
+	METHOD c isAscending ()Z
+	METHOD m asString ()Ljava/lang/String;

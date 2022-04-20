@@ -1,0 +1,25 @@
+CLASS aus net/minecraft/entity/mob/VexEntity
+	CLASS aus$a ChargeTargetGoal
+	CLASS aus$b TrackOwnerTargetGoal
+		FIELD b TRACK_OWNER_PREDICATE Lapt;
+	CLASS aus$c VexMoveControl
+	CLASS aus$d LookAtTargetGoal
+	FIELD b VEX_FLAGS Lqh;
+	FIELD by alive Z
+	FIELD bz lifeTicks I
+	FIELD c owner Lain;
+	FIELD d bounds Lev;
+	METHOD a setLifeTicks (I)V
+		ARG 1 lifeTicks
+	METHOD a setVexFlag (IZ)V
+		ARG 1 mask
+		ARG 2 value
+	METHOD a setOwner (Lain;)V
+	METHOD b areFlagsSet (I)Z
+		ARG 1 mask
+	METHOD dT getBounds ()Lev;
+	METHOD dU isCharging ()Z
+	METHOD g setBounds (Lev;)V
+	METHOD l getOwner ()Lain;
+	METHOD r setCharging (Z)V
+		ARG 1 charging

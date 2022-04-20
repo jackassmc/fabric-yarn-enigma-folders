@@ -1,0 +1,2 @@
+CLASS buc net/minecraft/world/gen/carver/CarverConfig
+	FIELD a DEFAULT Lbug;

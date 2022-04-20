@@ -1,0 +1,5 @@
+CLASS none/buk net/minecraft/client/render/entity/impl/EntityRendererSlime
+	METHOD a (Lnone/sf;DDDFF)V
+	METHOD a (Lnone/so;DDDFF)V
+	METHOD a (Lnone/sp;DDDFF)V
+	METHOD a (Lnone/zw;DDDFF)V

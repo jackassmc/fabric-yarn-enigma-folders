@@ -1,0 +1,64 @@
+CLASS and net/minecraft/entity/passive/TropicalFishEntity
+	CLASS and$a Variety
+		FIELD m shape I
+		FIELD n pattern I
+		METHOD <init> (Ljava/lang/String;III)V
+			ARG 3 shape
+			ARG 4 pattern
+		METHOD a getShape ()I
+		METHOD a getTranslateKey (II)Ljava/lang/String;
+			ARG 0 shape
+			ARG 1 pattern
+		METHOD b getPattern ()I
+		METHOD c getTranslationKey ()Ljava/lang/String;
+	CLASS and$b Data
+		FIELD b shape I
+		FIELD c pattern I
+		FIELD d baseColor I
+		FIELD e patternColor I
+	FIELD bC SMALL_FISH_VARIETY_IDS [Lqc;
+	FIELD bD LARGE_FISH_VARIETY_IDS [Lqc;
+	FIELD bE commonSpawn Z
+	FIELD b COMMON_VARIANTS [I
+	FIELD c VARIANT Lpr;
+	FIELD d SHAPE_IDS [Lqc;
+	METHOD F getAmbientSound ()Lxr;
+	METHOD a toVariant (Land$a;Lavz;Lavz;)I
+		ARG 0 variety
+		ARG 1 baseColor
+		ARG 2 patternColor
+	METHOD a prepareEntityData (Lbcj;Lafv;Laho;Lahw;Lhq;)Lahw;
+		ARG 3 difficulty
+	METHOD a readCustomDataFromTag (Lhq;)V
+	METHOD b getToolTipForVariant (I)Ljava/lang/String;
+		ARG 0 variant
+	METHOD b writeCustomDataToTag (Lhq;)V
+	METHOD c spawnsTooManyForEachTry (I)Z
+		ARG 1 count
+	METHOD cz getDeathSound ()Lxr;
+	METHOD d getBaseDyeColor (I)Lavz;
+		ARG 0 variant
+	METHOD dD getFlopSound ()Lxr;
+	METHOD dL getVariant ()I
+	METHOD dM getBaseColorComponents ()[F
+	METHOD dN getPatternColorComponents ()[F
+	METHOD dO getShape ()I
+	METHOD dP getVarietyId ()Lqc;
+	METHOD dQ getShapeId ()Lqc;
+	METHOD e getHurtSound (Lagl;)Lxr;
+	METHOD f copyDataToStack (Laxc;)V
+	METHOD l getFishBucketItem ()Laxc;
+	METHOD q getPatternDyeColor (I)Lavz;
+		ARG 0 variant
+	METHOD r getTranslationKey (I)Ljava/lang/String;
+		ARG 0 variant
+	METHOD s setVariant (I)V
+	METHOD t getShape (I)I
+		ARG 0 variant
+	METHOD u getBaseDyeColorIndex (I)I
+		ARG 0 variant
+	METHOD v getPatternDyeColorIndex (I)I
+		ARG 0 variant
+	METHOD w getPattern (I)I
+		ARG 0 variant
+	METHOD w_ initDataTracker ()V

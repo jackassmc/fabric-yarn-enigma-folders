@@ -1,0 +1,4 @@
+CLASS axn net/minecraft/item/SnowballItem
+	METHOD a use (Lbbp;Larb;Lafo;)Lafr;
+		ARG 1 world
+		ARG 2 player

@@ -1,0 +1,4 @@
+CLASS aua net/minecraft/entity/mob/WitchEntity
+	FIELD bA DRINKING Lqf;
+	METHOD l isDrinking ()Z
+	METHOD s setDrinking (Z)V

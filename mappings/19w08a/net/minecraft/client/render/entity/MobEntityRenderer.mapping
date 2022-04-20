@@ -1,0 +1,4 @@
+CLASS dme net/minecraft/client/render/entity/MobEntityRenderer
+	METHOD <init> (Ldlb;Ldak;F)V
+		ARG 1 renderManager
+		ARG 2 model

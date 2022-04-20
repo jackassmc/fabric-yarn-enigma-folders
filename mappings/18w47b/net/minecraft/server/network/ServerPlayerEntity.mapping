@@ -1,0 +1,61 @@
+CLASS uj net/minecraft/server/network/ServerPlayerEntity
+	FIELD a networkHandler Lux;
+	FIELD b server Lnet/minecraft/server/MinecraftServer;
+	FIELD cA enteredNetherPos Lcjy;
+	FIELD ca LOGGER_PLAYER Lorg/apache/logging/log4j/Logger;
+	FIELD cv seenCredits Z
+	FIELD cw recipeBook Lxi;
+	METHOD B getRecipeBook ()Lxi;
+	METHOD C updatePotionVisibility ()V
+	METHOD E updatePortalCooldown ()V
+	METHOD V_ update ()V
+	METHOD W_ stopRiding ()V
+	METHOD a openInventory (Laes;)V
+	METHOD a swingHand (Laey;)V
+	METHOD a openContainer (Laez;)V
+	METHOD a onDeath (Lafo;)V
+	METHOD a damage (Lafo;F)Z
+		ARG 1 source
+	METHOD a copyEntityData (Lagf;)V
+	METHOD a startRiding (Lagf;Z)Z
+		ARG 1 entity
+	METHOD a openHorseInventory (Lamk;Laes;)V
+	METHOD a shouldDamagePlayer (Laqg;)Z
+	METHOD a onContainerPropertyUpdate (Lary;II)V
+		ARG 1 container
+		ARG 2 propertyId
+	METHOD a onContainerSlotUpdate (Lary;ILavo;)V
+		ARG 1 container
+		ARG 2 slotId
+	METHOD a onContainerInvRegistered (Lary;Laes;)V
+		ARG 1 container
+	METHOD a onContainerRegistered (Lary;Lfh;)V
+		ARG 1 container
+	METHOD a openBookEditor (Lavo;Laey;)V
+	METHOD a openVillagerGui (Lazr;)V
+	METHOD a setGameMode (Lbak;)V
+	METHOD a openCommandBlock (Lbmo;)V
+	METHOD a openSignEditor (Lbng;)V
+	METHOD a onBlockCollision (Lboh;)V
+	METHOD a changeDimension (Lbra;)Lagf;
+	METHOD a trySleep (Let;)Laqg$a;
+	METHOD a deserializeCustomData (Lhp;)V
+	METHOD a appendCommandFeedback (Lja;)V
+	METHOD a sendChatMessage (Lja;Liy;)V
+	METHOD a addChatMessage (Lja;Z)V
+		ARG 1 message
+	METHOD a resetStat (Lxk;)V
+	METHOD a incrementStat (Lxk;I)V
+		ARG 1 stat
+	METHOD b isInvulnerableTo (Lafo;)Z
+	METHOD b serializeCustomData (Lhp;)V
+	METHOD d addExperience (I)V
+	METHOD f attack (Lagf;)V
+	METHOD g createCooldownManager ()Lavk;
+	METHOD m closeContainer ()V
+	METHOD n initAi ()V
+	METHOD s getServerWorld ()Luh;
+	METHOD t isSpectator ()Z
+	METHOD u isCreative ()Z
+	METHOD x_ closeGui ()V
+	METHOD y getPermissionLevel ()I

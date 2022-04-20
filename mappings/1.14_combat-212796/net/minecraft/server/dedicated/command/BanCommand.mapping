@@ -1,0 +1,4 @@
+CLASS rp net/minecraft/server/dedicated/command/BanCommand
+	FIELD a ALREADY_BANNED_EXCEPTION Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
+	METHOD a ban (Lcd;Ljava/util/Collection;Ljn;)I
+	METHOD a register (Lcom/mojang/brigadier/CommandDispatcher;)V

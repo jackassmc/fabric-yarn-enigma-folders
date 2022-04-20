@@ -1,0 +1,2 @@
+CLASS ddz net/minecraft/client/render/entity/model/CreeperEntityModel
+	FIELD a head Ldgs;

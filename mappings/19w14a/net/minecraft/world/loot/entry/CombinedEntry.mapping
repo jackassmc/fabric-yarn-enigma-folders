@@ -1,0 +1,7 @@
+CLASS coj net/minecraft/world/loot/entry/CombinedEntry
+	CLASS coj$a Factory
+	CLASS coj$b Serializer
+	FIELD c children [Lcor;
+	FIELD e predicate Lcoi;
+	METHOD a createSerializer (Lqr;Ljava/lang/Class;Lcoj$a;)Lcoj$b;
+	METHOD a combine ([Lcoi;)Lcoi;

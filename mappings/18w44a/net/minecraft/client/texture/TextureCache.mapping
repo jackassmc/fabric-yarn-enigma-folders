@@ -1,0 +1,15 @@
+CLASS dai net/minecraft/client/texture/TextureCache
+	CLASS dai$a Manager
+		FIELD a cacheMap Ljava/util/Map;
+		FIELD b filename Lpu;
+		FIELD c baseDir Ljava/lang/String;
+		FIELD d id Ljava/lang/String;
+		METHOD a removeOldEntries ()Z
+		METHOD a get (Ljava/lang/String;Ljava/util/List;Ljava/util/List;)Lpu;
+	CLASS dai$b Entry
+		FIELD a lastRequestTimeMillis J
+		FIELD b filename Lpu;
+	FIELD a BANNER Ldai$a;
+	FIELD b SHIELD Ldai$a;
+	FIELD c DEFAULT_SHIELD Lpu;
+	FIELD d DEFAULT_BANNER Lpu;

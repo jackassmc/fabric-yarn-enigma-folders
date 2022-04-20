@@ -1,0 +1,4 @@
+CLASS sg net/minecraft/migration/TagUpgraderElderGuardian
+	METHOD a getTargetVersion ()I
+	METHOD a upgradeTag (Lfy;)Lfy;
+		ARG 0 tag

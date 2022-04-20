@@ -1,0 +1,6 @@
+CLASS cba net/minecraft/structure/pool/StructurePoolRegistry
+	FIELD a pools Ljava/util/Map;
+	METHOD a add (Lcaz;)V
+		ARG 1 pool
+	METHOD a get (Lqi;)Lcaz;
+		ARG 1 id

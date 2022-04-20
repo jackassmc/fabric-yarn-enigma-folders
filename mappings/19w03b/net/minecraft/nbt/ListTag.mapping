@@ -1,0 +1,35 @@
+CLASS hw net/minecraft/nbt/ListTag
+	FIELD f value Ljava/util/List;
+	FIELD g type B
+	METHOD a getType ()B
+	METHOD a getCompoundTag (I)Lhq;
+	METHOD a setTag (ILih;)Z
+		ARG 1 index
+	METHOD a canAdd (Lih;)Z
+	METHOD a read (Ljava/io/DataInput;ILhz;)V
+		ARG 1 input
+		ARG 2 depth
+	METHOD a write (Ljava/io/DataOutput;)V
+	METHOD a toTextComponent (Ljava/lang/String;I)Ljb;
+		ARG 1 indent
+	METHOD a_ getListType ()I
+	METHOD b copy ()Lih;
+	METHOD b getListTag (I)Lhw;
+	METHOD b addTag (ILih;)Z
+		ARG 1 index
+	METHOD c copy ()Lhw;
+	METHOD c getTag (I)Lih;
+	METHOD c set (ILih;)V
+		ARG 1 index
+	METHOD d getShort (I)S
+	METHOD d getOrDefault (ILih;)Lih;
+	METHOD e getInt (I)I
+	METHOD equals (Ljava/lang/Object;)Z
+		ARG 1 o
+	METHOD f getIntArray (I)[I
+	METHOD h getDouble (I)D
+	METHOD i getFloat (I)F
+	METHOD j getString (I)Ljava/lang/String;
+	METHOD k get (I)Lih;
+	METHOD set (ILjava/lang/Object;)Ljava/lang/Object;
+		ARG 1 index

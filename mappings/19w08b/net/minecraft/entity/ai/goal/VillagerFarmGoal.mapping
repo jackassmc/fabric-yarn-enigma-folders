@@ -1,0 +1,4 @@
+CLASS ajw net/minecraft/entity/ai/goal/VillagerFarmGoal
+	FIELD g owner Larm;
+	FIELD h seed Z
+	FIELD i breed Z

@@ -1,0 +1,11 @@
+CLASS cim net/minecraft/structure/processor/StructureProcessorRule
+	FIELD a inputPredicate Lciq;
+	FIELD b locationPredicate Lciq;
+	FIELD c outputState Lbuy;
+	FIELD d tag Lib;
+	METHOD a getOutputState ()Lbuy;
+	METHOD a test (Lbuy;Lbuy;Ljava/util/Random;)Z
+		ARG 1 input
+		ARG 2 location
+		ARG 3 random
+	METHOD b getTag ()Lib;

@@ -1,0 +1,6 @@
+CLASS ciu net/minecraft/structure/processor/StructureProcessor
+	METHOD a getType ()Lciv;
+	METHOD a process (Lbha;Lev;Lciw$b;Lciw$b;Lcit;)Lciw$b;
+		ARG 1 world
+		ARG 2 pos
+		ARG 5 placementData

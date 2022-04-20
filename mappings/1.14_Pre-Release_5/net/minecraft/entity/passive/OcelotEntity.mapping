@@ -1,0 +1,16 @@
+CLASS arb net/minecraft/entity/passive/OcelotEntity
+	CLASS arb$a OcelotFleeGoal
+		FIELD i ocelot Larb;
+	CLASS arb$b OcelotTemptGoal
+		FIELD c ocelot Larb;
+	FIELD bA TRUSTING Lqh;
+	FIELD bB fleeGoal Larb$a;
+	FIELD bD temptGoal Larb$b;
+	FIELD bz TAMING_INGREDIENT Lbef;
+	METHOD dV updateFleeing ()V
+	METHOD dW spawnKittens ()V
+	METHOD dX isTrusting ()Z
+	METHOD r setTrusting (Z)V
+		ARG 1 trusting
+	METHOD s showEmoteParticle (Z)V
+		ARG 1 positive

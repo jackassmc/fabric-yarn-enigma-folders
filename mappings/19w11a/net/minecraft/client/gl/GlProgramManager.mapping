@@ -1,0 +1,8 @@
+CLASS csq net/minecraft/client/gl/GlProgramManager
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD b INSTANCE Lcsq;
+	METHOD a init ()V
+	METHOD a deleteProgram (Lcso;)V
+	METHOD b getInstance ()Lcsq;
+	METHOD b linkProgram (Lcso;)V
+	METHOD c createProgram ()I

@@ -1,0 +1,65 @@
+CLASS ary net/minecraft/block/entity/BannerPattern
+	FIELD A HALF_VERTICAL_LEFT Lary;
+	FIELD B HALF_HORIZONTAL_TOP Lary;
+	FIELD C HALF_VERTICAL_RIGHT Lary;
+	FIELD D HALF_HORIZONTAL_BOTTOM Lary;
+	FIELD E BORDER Lary;
+	FIELD F CURLY_BORDER Lary;
+	FIELD G CREEPER Lary;
+	FIELD H GRADIENT_DOWN Lary;
+	FIELD I GRADIENT_UP Lary;
+	FIELD J BRICKS Lary;
+	FIELD K SKULL Lary;
+	FIELD L FLOWER Lary;
+	FIELD M MOJANG Lary;
+	FIELD N name Ljava/lang/String;
+	FIELD O id Ljava/lang/String;
+	FIELD P recipePattern [Ljava/lang/String;
+	FIELD Q recipeStack Lafi;
+	FIELD a BASE Lary;
+	FIELD b SQUARE_BOTTOM_LEFT Lary;
+	FIELD c SQUARE_BOTTOM_RIGHT Lary;
+	FIELD d SQUARE_TOP_LEFT Lary;
+	FIELD e SQUARE_TOP_RIGHT Lary;
+	FIELD f STRIPE_BOTTOM Lary;
+	FIELD g STRIPE_TOP Lary;
+	FIELD h STRIPE_LEFT Lary;
+	FIELD i STRIPE_RIGHT Lary;
+	FIELD j STRIPE_CENTER Lary;
+	FIELD k STRIPE_MIDDLE Lary;
+	FIELD l STRIPE_DOWNRIGHT Lary;
+	FIELD m STRIPE_DOWNLEFT Lary;
+	FIELD n SMALL_STRIPES Lary;
+	FIELD o CROSS Lary;
+	FIELD p STRAIGHT_CROSS Lary;
+	FIELD q TRIANGLE_BOTTOM Lary;
+	FIELD r TRIANGLE_TOP Lary;
+	FIELD s TRIANGLES_BOTTOM Lary;
+	FIELD t TRIANGLES_TOP Lary;
+	FIELD u DIAGONAL_DOWN_LEFT Lary;
+	FIELD v DIAGONAL_UP_RIGHT Lary;
+	FIELD w DIAGONAL_UP_LEFT Lary;
+	FIELD x DIAGONAL_DOWN_RIGHT Lary;
+	FIELD y CIRCLE Lary;
+	FIELD z RHOMBUS Lary;
+	METHOD <init> (Ljava/lang/String;ILjava/lang/String;Ljava/lang/String;)V
+		ARG 0 name
+		ARG 1 id
+	METHOD <init> (Ljava/lang/String;ILjava/lang/String;Ljava/lang/String;Lafi;)V
+		ARG 0 name
+		ARG 1 id
+		ARG 2 stack
+	METHOD <init> (Ljava/lang/String;ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+		ARG 0 name
+		ARG 1 id
+		ARG 2 recipePattern0
+		ARG 3 recipePattern1
+		ARG 4 recipePattern2
+	METHOD a getName ()Ljava/lang/String;
+	METHOD a byId (Ljava/lang/String;)Lary;
+		ARG 0 id
+	METHOD b getId ()Ljava/lang/String;
+	METHOD c getRecipePattern ()[Ljava/lang/String;
+	METHOD d isCraftable ()Z
+	METHOD e hasRecipeStack ()Z
+	METHOD f getRecipeStack ()Lafi;

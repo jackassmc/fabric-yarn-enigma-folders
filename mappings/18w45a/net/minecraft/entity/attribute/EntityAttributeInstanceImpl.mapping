@@ -1,0 +1,15 @@
+CLASS agz net/minecraft/entity/attribute/EntityAttributeInstanceImpl
+	FIELD a container Lagy;
+	FIELD b attribute Lagu;
+	FIELD f baseValue D
+	METHOD a getAttribute ()Lagu;
+	METHOD a setBaseValue (D)V
+	METHOD a hasModifier (Lagw;)Z
+	METHOD a getModifier (Ljava/util/UUID;)Lagw;
+	METHOD b getBaseValue ()D
+	METHOD b addModifier (Lagw;)V
+	METHOD b removeModifier (Ljava/util/UUID;)V
+	METHOD c getModifiers ()Ljava/util/Collection;
+	METHOD c removeModifier (Lagw;)V
+	METHOD d clearModifiers ()V
+	METHOD e getValue ()D

@@ -1,0 +1,4 @@
+CLASS dgk net/minecraft/client/render/entity/EntityRendererIronGolem
+	FIELD a SKIN Lpx;
+	METHOD a getTexture (Lagc;)Lpx;
+	METHOD a getTexture (Lall;)Lpx;

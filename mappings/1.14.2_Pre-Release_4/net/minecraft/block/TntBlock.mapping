@@ -1,0 +1,11 @@
+CLASS bsi net/minecraft/block/TntBlock
+	FIELD a UNSTABLE Lbwc;
+	METHOD <init> (Lbmm$c;)V
+		ARG 1 settings
+	METHOD a primeTnt (Lbhi;Lev;)V
+		ARG 0 world
+		ARG 1 pos
+	METHOD a primeTnt (Lbhi;Lev;Lair;)V
+		ARG 0 world
+		ARG 1 pos
+		ARG 2 igniter

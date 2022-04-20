@@ -1,0 +1,7 @@
+CLASS cvf net/minecraft/client/gui/ingame/EditBookGui
+	FIELD a player Larj;
+	FIELD f stack Laxd;
+	FIELD u title Ljava/lang/String;
+	METHOD <init> (Larj;Laxd;Lafw;)V
+		ARG 1 player
+		ARG 2 stack

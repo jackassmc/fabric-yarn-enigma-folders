@@ -1,0 +1,22 @@
+CLASS crj net/minecraft/client/gui/widget/OptionButtonWidget
+	FIELD o option Lcqa$a;
+	METHOD <init> (IIIIILcqa$a;Ljava/lang/String;)V
+		ARG 1 id
+		ARG 2 x
+		ARG 3 y
+		ARG 4 width
+		ARG 5 height
+		ARG 6 option
+		ARG 7 text
+	METHOD <init> (IIILcqa$a;Ljava/lang/String;)V
+		ARG 1 id
+		ARG 2 x
+		ARG 3 y
+		ARG 4 option
+		ARG 5 text
+	METHOD <init> (IIILjava/lang/String;)V
+		ARG 1 id
+		ARG 2 x
+		ARG 3 y
+		ARG 4 text
+	METHOD c getOption ()Lcqa$a;

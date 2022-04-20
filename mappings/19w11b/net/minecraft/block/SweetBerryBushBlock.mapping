@@ -1,0 +1,6 @@
+CLASS bqq net/minecraft/block/SweetBerryBushBlock
+	FIELD a AGE Lbuw;
+	FIELD b SMALL_SHAPE Lcra;
+	FIELD c LARGE_SHAPE Lcra;
+	METHOD <init> (Lbky$c;)V
+		ARG 1 settings

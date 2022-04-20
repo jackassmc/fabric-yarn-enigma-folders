@@ -1,0 +1,12 @@
+CLASS cfl net/minecraft/world/gen/chunk/FlatChunkGeneratorLayer
+	FIELD a blockState Lbvj;
+	FIELD b thickness I
+	FIELD c startY I
+	METHOD <init> (ILbml;)V
+		ARG 1 thickness
+		ARG 2 block
+	METHOD a getThickness ()I
+	METHOD a setStartY (I)V
+		ARG 1 startY
+	METHOD b getBlockState ()Lbvj;
+	METHOD c getStartY ()I

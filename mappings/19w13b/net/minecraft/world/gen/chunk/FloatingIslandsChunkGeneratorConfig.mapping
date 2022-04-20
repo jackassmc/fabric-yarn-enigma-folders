@@ -1,0 +1,4 @@
+CLASS byl net/minecraft/world/gen/chunk/FloatingIslandsChunkGeneratorConfig
+	FIELD t center Lev;
+	METHOD a withCenter (Lev;)Lbyl;
+	METHOD v getCenter ()Lev;

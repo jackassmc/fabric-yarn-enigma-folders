@@ -1,0 +1,44 @@
+CLASS apt net/minecraft/entity/passive/PandaEntity
+	CLASS apt$a net/minecraft/entity/passive/PandaEntity$Gene
+		FIELD h VALUES [Lapt$a;
+		FIELD i id I
+		FIELD j name Ljava/lang/String;
+		FIELD k recessive Z
+		METHOD <init> (Ljava/lang/String;IILjava/lang/String;Z)V
+			ARG 3 id
+			ARG 4 name
+			ARG 5 recessive
+		METHOD a getId ()I
+		METHOD a byId (I)Lapt$a;
+		METHOD a byName (Ljava/lang/String;)Lapt$a;
+		METHOD a createRandom (Ljava/util/Random;)Lapt$a;
+		METHOD b getName ()Ljava/lang/String;
+		METHOD b getProductGene (Lapt$a;Lapt$a;)Lapt$a;
+			ARG 0 mainGene
+			ARG 1 hiddenGene
+		METHOD c isRecessive ()Z
+	CLASS apt$c net/minecraft/entity/passive/PandaEntity$PandaFleeGoal
+	CLASS apt$d net/minecraft/entity/passive/PandaEntity$PandaMateGoal
+	CLASS apt$e net/minecraft/entity/passive/PandaEntity$SpawnData
+	CLASS apt$i net/minecraft/entity/passive/PandaEntity$PandaMoveControl
+		FIELD i panda Lapt;
+	CLASS apt$j net/minecraft/entity/passive/PandaEntity$ExtinguishFireGoal
+	FIELD bF MAIN_GENE Lqe;
+	FIELD bG HIDDEN_GENE Lqe;
+	FIELD bH FLAGS Lqe;
+	METHOD a setMainGene (Lapt$a;)V
+	METHOD a initGenes (Lapt;Lapt;)V
+	METHOD b setHiddenGene (Lapt$a;)V
+	METHOD d setFlag (IZ)V
+	METHOD dX getMainGene ()Lapt$a;
+	METHOD dY getHiddenGene ()Lapt$a;
+	METHOD ea getProductGene ()Lapt$a;
+	METHOD eb isLazy ()Z
+	METHOD ec isWorried ()Z
+	METHOD ed isPlayful ()Z
+	METHOD ef isWeak ()Z
+	METHOD eg isAggressive ()Z
+	METHOD ei resetAttributes ()V
+	METHOD es sneeze ()V
+	METHOD et getRandomGene ()Lapt$a;
+	METHOD u hasFlag (I)Z

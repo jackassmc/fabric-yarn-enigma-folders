@@ -1,0 +1,20 @@
+CLASS alw net/minecraft/entity/passive/PigEntity
+	FIELD bC SADDLED Lpn;
+	METHOD D getSoundAmbient ()Lxd;
+	METHOD a createChild (Lagc;)Lagc;
+	METHOD a onStruckByLightning (Laof;)V
+	METHOD a interactMob (Laqg;Laey;)Z
+		ARG 1 player
+	METHOD a playStepSound (Let;Lboh;)V
+		ARG 1 pos
+	METHOD a deserializeCustomData (Lhp;)V
+	METHOD a onTrackedDataSet (Lpn;)V
+	METHOD b createChild (Lagc;)Lalw;
+	METHOD b serializeCustomData (Lhp;)V
+	METHOD cb initAttributes ()V
+	METHOD cw getSoundDeath ()Lxd;
+	METHOD dz isSaddled ()Z
+	METHOD e getSoundHurt (Lafo;)Lxd;
+	METHOD n initAi ()V
+	METHOD s setSaddled (Z)V
+	METHOD y_ initDataTracker ()V

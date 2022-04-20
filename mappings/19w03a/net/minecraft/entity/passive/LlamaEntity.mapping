@@ -1,0 +1,39 @@
+CLASS anm net/minecraft/entity/passive/LlamaEntity
+	CLASS anm$a
+		METHOD a canStart ()Z
+		METHOD j getFollowRange ()D
+	CLASS anm$c
+		METHOD b shouldContinue ()Z
+	FIELD bM ATTR_STRENGTH Lpr;
+	FIELD bO ATTR_VARIANT Lpr;
+	METHOD D getAmbientSound ()Lxr;
+	METHOD a onInvChange (Lafq;)V
+	METHOD a createChild (Lagz;)Lagz;
+	METHOD a attack (Lahl;F)V
+		ARG 1 target
+	METHOD a canBreedWith (Lami;)Z
+		ARG 1 other
+	METHOD a prepareEntityData (Lbcj;Lafv;Laho;Lahw;Lhq;)Lahw;
+		ARG 3 difficulty
+	METHOD a playStepSound (Let;Lbqi;)V
+		ARG 1 pos
+	METHOD a readCustomDataFromTag (Lhq;)V
+	METHOD aM getMountedHeightOffset ()D
+	METHOD b createChild (Lagz;)Lanm;
+	METHOD b writeCustomDataToTag (Lhq;)V
+	METHOD c handleFallDamage (FF)V
+		ARG 1 fallDistance
+	METHOD cd initAttributes ()V
+	METHOD cy getDeathSound ()Lxr;
+	METHOD dC hasArmsRaised ()Z
+	METHOD dE getInventorySize ()I
+	METHOD e getHurtSound (Lagl;)Lxr;
+	METHOD ek getStrength ()I
+	METHOD el getVariant ()I
+	METHOD eq isFollowing ()Z
+	METHOD er getFollowing ()Lanm;
+	METHOD n ()V
+	METHOD s setArmsRaised (Z)V
+	METHOD t setVariant (I)V
+	METHOD u setStrength (I)V
+	METHOD w_ initDataTracker ()V

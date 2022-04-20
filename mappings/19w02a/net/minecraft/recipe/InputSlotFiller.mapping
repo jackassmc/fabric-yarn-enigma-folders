@@ -1,0 +1,26 @@
+CLASS qb net/minecraft/recipe/InputSlotFiller
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD b recipeFinder Larm;
+	FIELD c inventory Larj;
+	FIELD d craftingContainer Laul;
+	METHOD a returnInputs ()V
+	METHOD a returnSlot (I)V
+	METHOD a fillInputSlot (Laus;Laxd;)V
+	METHOD a fillInputSlots (Lazm;Z)V
+		ARG 2 craftAll
+	METHOD a acceptAlignedInput (Ljava/util/Iterator;IIII)V
+		ARG 1 inputs
+		ARG 2 slot
+		ARG 3 amount
+		ARG 4 gridX
+		ARG 5 gridY
+	METHOD a fillInputSlots (Luv;Lazm;Z)V
+		ARG 1 entity
+		ARG 2 recipe
+		ARG 3 craftAll
+	METHOD a getAmountToFill (ZIZ)I
+		ARG 1 craftAll
+		ARG 2 limit
+		ARG 3 recipeInCraftingSlots
+	METHOD b canReturnInputs ()Z
+	METHOD c getFreeInventorySlots ()I

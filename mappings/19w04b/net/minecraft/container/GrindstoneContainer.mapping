@@ -1,0 +1,4 @@
+CLASS aty net/minecraft/container/GrindstoneContainer
+	FIELD c resultInventory Lafq;
+	FIELD d craftingInventory Lafq;
+	FIELD e world Lato;

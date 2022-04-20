@@ -1,0 +1,7 @@
+CLASS dfi net/minecraft/client/render/entity/EntityRendererLlamaSpit
+	METHOD <init> (Ldei;)V
+		ARG 1 renderManager
+	METHOD a getTexture (Lafv;)Lpu;
+		ARG 1 model
+	METHOD a getTexture (Laqd;)Lpu;
+		ARG 1 model

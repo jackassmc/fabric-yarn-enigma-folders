@@ -1,0 +1,6 @@
+CLASS byl net/minecraft/client/render/entity/EntityRendererHorseSpecial
+	FIELD a SKIN Ljava/util/Map;
+	METHOD a getTexture (Laam;)Lnd;
+		ARG 0 model
+	METHOD a getTexture (Lve;)Lnd;
+		ARG 0 model

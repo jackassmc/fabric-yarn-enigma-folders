@@ -1,0 +1,22 @@
+CLASS alu net/minecraft/entity/passive/IronGolemEntity
+	FIELD a IRON_GOLEM_FLAGS Lpn;
+	FIELD c villageProperties Lald;
+	METHOD C pushAway (Lagi;)V
+	METHOD H mobTick ()V
+	METHOD a onDeath (Lafr;)V
+	METHOD a playStepSound (Let;Lboj;)V
+		ARG 1 pos
+	METHOD a readCustomDataFromTag (Lhp;)V
+		ARG 1 tag
+	METHOD b writeCustomDataToTag (Lhp;)V
+		ARG 1 tag
+	METHOD b canTrack (Ljava/lang/Class;)Z
+	METHOD cb initAttributes ()V
+	METHOD cw getDeathSound ()Lxf;
+	METHOD dB isPlayerCreated ()Z
+	METHOD e getHurtSound (Lafr;)Lxf;
+	METHOD k updateMovement ()V
+	METHOD l getVillageProperties ()Lald;
+	METHOD n initAi ()V
+	METHOD s setPlayerCreated (Z)V
+	METHOD x_ initDataTracker ()V

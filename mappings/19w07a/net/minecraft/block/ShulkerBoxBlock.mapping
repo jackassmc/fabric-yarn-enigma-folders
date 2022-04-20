@@ -1,0 +1,12 @@
+CLASS bmu net/minecraft/block/ShulkerBoxBlock
+	FIELD a FACING Lbrx;
+	FIELD c color Lawq;
+	METHOD a get (Lawq;)Lbic;
+		ARG 0 dyeColor
+	METHOD b getItemStack (Lawq;)Laxt;
+		ARG 0 color
+	METHOD b getColor (Laxo;)Lawq;
+		ARG 0 item
+	METHOD d getColor ()Lawq;
+	METHOD f getColor (Lbic;)Lawq;
+		ARG 0 block

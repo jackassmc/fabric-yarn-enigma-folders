@@ -1,0 +1,3 @@
+CLASS aqd net/minecraft/entity/EntityInteraction
+	METHOD a create (Ljava/lang/String;)Laqd;
+		ARG 0 key

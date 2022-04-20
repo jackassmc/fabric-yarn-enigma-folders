@@ -1,0 +1,4 @@
+CLASS tu net/minecraft/server/dedicated/gui/PlayerListGui
+	FIELD a server Lnet/minecraft/server/MinecraftServer;
+	FIELD b tick I
+	METHOD ab_ tick ()V

@@ -1,0 +1,6 @@
+CLASS cbg net/minecraft/client/render/entity/EntityRendererWitch
+	FIELD a SKIN Lnd;
+	METHOD a getTexture (Ladp;)Lnd;
+		ARG 0 model
+	METHOD a getTexture (Lve;)Lnd;
+		ARG 0 model

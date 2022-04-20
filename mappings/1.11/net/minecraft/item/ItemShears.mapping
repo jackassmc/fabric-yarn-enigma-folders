@@ -1,0 +1,12 @@
+CLASS agd net/minecraft/item/ItemShears
+	METHOD a onBlockBroken (Lafi;Lajq;Latj;Lco;Lsv;)Z
+		ARG 0 stack
+		ARG 1 world
+		ARG 2 state
+		ARG 3 pos
+		ARG 4 user
+	METHOD a getBlockBreakingSpeed (Lafi;Latj;)F
+		ARG 0 stack
+		ARG 1 state
+	METHOD a isEffectiveOn (Latj;)Z
+		ARG 0 state

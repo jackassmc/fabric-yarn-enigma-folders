@@ -1,0 +1,63 @@
+CLASS bsp net/minecraft/world/chunk/WorldChunk
+	CLASS bsp$a AccessType
+		FIELD a CREATE Lbsp$a;
+		FIELD c GET Lbsp$a;
+	FIELD a EMPTY_SECTION Lbsq;
+	FIELD b LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD c sections [Lbsq;
+	FIELD d biomeArray [Lbdo;
+	FIELD e pendingBlockEntityTags Ljava/util/Map;
+	FIELD f loadedToWorld Z
+	FIELD g world Lbcq;
+	FIELD h heightmaps Ljava/util/Map;
+	FIELD i upgradeData Lbsz;
+	FIELD j blockEntityMap Ljava/util/Map;
+	FIELD k entitySections [Lyo;
+	FIELD l structureStarts Ljava/util/Map;
+	FIELD m structureReferences Ljava/util/Map;
+	FIELD n postProcessingLists [Lit/unimi/dsi/fastutil/shorts/ShortList;
+	FIELD o blockTickScheduler Lbdg;
+	FIELD p fluidTickScheduler Lbdg;
+	FIELD r lastSaveTime J
+	FIELD s dirty Z
+	FIELD t inhabitedTime J
+	FIELD w pos Lbcd;
+	FIELD x isLightOn Z
+	METHOD <init> (Lbcq;Lbsx;)V
+		ARG 1 world
+	METHOD A getBlockEntityMap ()Ljava/util/Map;
+	METHOD B getEntitySectionArray ()[Lyo;
+	METHOD C runPostProcessing ()V
+	METHOD a getFluidState (III)Lcgb;
+		ARG 1 x
+		ARG 2 y
+	METHOD a remove (Lahe;I)V
+		ARG 1 entity
+	METHOD a appendEntities (Lahe;Lcmr;Ljava/util/List;Ljava/util/function/Predicate;)V
+		ARG 1 except
+		ARG 2 box
+		ARG 3 entityList
+	METHOD a addBlockEntity (Lbot;)V
+	METHOD a getLightLevel (Let;I)I
+	METHOD a getBlockEntity (Let;Lbsp$a;)Lbot;
+		ARG 1 pos
+	METHOD a loadBlockEntity (Let;Lhr;)Lbot;
+		ARG 1 pos
+	METHOD a loadFromPacket (Lis;Lhr;IZ)V
+		ARG 1 data
+		ARG 2 nbt
+		ARG 3 updatedSectionsBits
+		ARG 4 clearOld
+	METHOD a appendEntities (Ljava/lang/Class;Lcmr;Ljava/util/List;Ljava/util/function/Predicate;)V
+		ARG 1 entityClass
+		ARG 2 box
+		ARG 3 entityList
+	METHOD b remove (Lahe;)V
+	METHOD c setLoadedToWorld (Z)V
+	METHOD j createBlockEntity (Let;)Lbot;
+	METHOD s loadToWorld ()V
+	METHOD t unloadFromWorld ()V
+	METHOD u markDirty ()V
+	METHOD v isEmpty ()Z
+	METHOD y isLoadedToWorld ()Z
+	METHOD z getWorld ()Lbcq;

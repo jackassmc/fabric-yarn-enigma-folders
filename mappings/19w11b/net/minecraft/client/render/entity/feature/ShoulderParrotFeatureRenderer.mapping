@@ -1,0 +1,4 @@
+CLASS drv net/minecraft/client/render/entity/feature/ShoulderParrotFeatureRenderer
+	METHOD <init> (Ldpr;)V
+		ARG 1 context
+	METHOD a renderShoulderParrot (Laun;FFFFFFZ)V

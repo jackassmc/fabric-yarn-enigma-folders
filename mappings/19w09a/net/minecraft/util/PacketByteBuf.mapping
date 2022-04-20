@@ -1,0 +1,36 @@
+CLASS iy net/minecraft/util/PacketByteBuf
+	FIELD a parent Lio/netty/buffer/ByteBuf;
+	METHOD a readByteArray ()[B
+	METHOD a getVarIntSizeBytes (I)I
+	METHOD a writeItemStack (Laxx;)Liy;
+	METHOD a writeBlockPos (Les;)Liy;
+	METHOD a writeCompoundTag (Lhx;)Liy;
+	METHOD a readEnumConstant (Ljava/lang/Class;)Ljava/lang/Enum;
+	METHOD a writeEnumConstant (Ljava/lang/Enum;)Liy;
+	METHOD a writeString (Ljava/lang/String;)Liy;
+	METHOD a writeString (Ljava/lang/String;I)Liy;
+	METHOD a writeDate (Ljava/util/Date;)Liy;
+	METHOD a writeUuid (Ljava/util/UUID;)Liy;
+	METHOD a writeTextComponent (Lji;)Liy;
+	METHOD a writeIdentifier (Lqi;)Liy;
+	METHOD a writeByteArray ([B)Liy;
+	METHOD a writeIntArray ([I)Liy;
+	METHOD a writeLongArray ([J)Liy;
+	METHOD a readLongArray ([JI)[J
+		ARG 1 toArray
+	METHOD b readIntArray ()[I
+	METHOD b readByteArray (I)[B
+	METHOD b writeVarLong (J)Liy;
+	METHOD b readLongArray ([J)[J
+	METHOD c readIntArray (I)[I
+	METHOD d writeVarInt (I)Liy;
+	METHOD e readBlockPos ()Les;
+	METHOD e readString (I)Ljava/lang/String;
+	METHOD f readTextComponent ()Lji;
+	METHOD g readVarInt ()I
+	METHOD h readVarLong ()J
+	METHOD i readUuid ()Ljava/util/UUID;
+	METHOD j readCompoundTag ()Lhx;
+	METHOD k readItemStack ()Laxx;
+	METHOD l readIdentifier ()Lqi;
+	METHOD m readDate ()Ljava/util/Date;

@@ -1,0 +1,16 @@
+CLASS cii net/minecraft/world/loot/function/CopyNameLootFunction
+	CLASS cii$a Source
+		FIELD a THIS Lcii$a;
+		FIELD b KILLER Lcii$a;
+		FIELD c KILLER_PLAYER Lcii$a;
+		FIELD d BLOCK_ENTITY Lcii$a;
+	CLASS cii$b Factory
+		METHOD a toJson (Lcom/google/gson/JsonObject;Lcip;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD a toJson (Lcom/google/gson/JsonObject;Lciq;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD b fromJson (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;[Lcjt;)Lcip;
+	FIELD a source Lcii$a;
+	METHOD a getRequiredParameters ()Ljava/util/Set;
+	METHOD a process (Lavs;Lchi;)Lavs;
+		ARG 1 stack
+	METHOD a create (Lcii$a;)Lcip$a;
+		ARG 0 source

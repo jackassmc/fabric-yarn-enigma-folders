@@ -1,0 +1,3 @@
+CLASS dtl net/minecraft/client/audio/ListenerSoundInstance
+	METHOD a onSoundPlayed (Ldsq;Ldtn;)V
+		ARG 1 sound

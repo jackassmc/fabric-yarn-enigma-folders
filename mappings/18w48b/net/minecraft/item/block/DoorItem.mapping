@@ -1,0 +1,2 @@
+CLASS aun net/minecraft/item/block/DoorItem
+	METHOD a setBlockState (Latw;Lboj;)Z

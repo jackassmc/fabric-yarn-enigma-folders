@@ -1,0 +1,29 @@
+CLASS cmx net/minecraft/util/shape/VoxelShape
+	FIELD a shape Lcmm;
+	METHOD <init> (Lcmm;)V
+		ARG 1 shape
+	METHOD a getBoundingBox ()Lclz;
+	METHOD a rayTrace (Lcmd;Lcmd;Let;)Lcma;
+		ARG 1 start
+		ARG 2 end
+		ARG 3 pos
+	METHOD a (Ler;Lclz;D)D
+		ARG 1 axisCycle
+		ARG 2 box
+		ARG 3 maxDist
+	METHOD a getIncludedPoints (Ley$a;)Lit/unimi/dsi/fastutil/doubles/DoubleList;
+		ARG 1 axis
+	METHOD a getCoord (Ley$a;I)D
+		ARG 1 axis
+		ARG 2 index
+	METHOD a (Ley$a;Lclz;D)D
+		ARG 1 axis
+		ARG 2 box
+	METHOD a getFace (Ley;)Lcmx;
+		ARG 1 facing
+	METHOD b isEmpty ()Z
+	METHOD b getMinimum (Ley$a;)D
+		ARG 1 axis
+	METHOD c getMaximum (Ley$a;)D
+		ARG 1 axis
+	METHOD d getBoundingBoxList ()Ljava/util/List;

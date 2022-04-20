@@ -1,0 +1,18 @@
+CLASS axr net/minecraft/enchantment/EnchantmentProtection
+	CLASS axr$a Type
+		FIELD a ALL Laxr$a;
+		FIELD b FIRE Laxr$a;
+		FIELD c FALL Laxr$a;
+		FIELD d EXPLOSION Laxr$a;
+		FIELD e PROJECTILE Laxr$a;
+	FIELD a type Laxr$a;
+	METHOD <init> (Laxe$a;Laxr$a;[Lafm;)V
+		ARG 0 weight
+		ARG 1 type
+		ARG 2 slotTypes
+	METHOD a getHighestLevel ()I
+	METHOD a getProtectionAmount (ILaeq;)I
+		ARG 0 level
+		ARG 1 source
+	METHOD a differs (Laxe;)Z
+		ARG 0 other

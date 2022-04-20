@@ -1,0 +1,13 @@
+CLASS acy net/minecraft/container/ContainerHopper
+	FIELD a inventory Lrb;
+	METHOD <init> (Laaw;Lrb;Laax;)V
+		ARG 0 playerInv
+		ARG 1 inventory
+		ARG 2 player
+	METHOD a canUse (Laax;)Z
+		ARG 0 player
+	METHOD b close (Laax;)V
+		ARG 0 player
+	METHOD b getStack (Laax;I)Lafi;
+		ARG 0 player
+		ARG 1 slot

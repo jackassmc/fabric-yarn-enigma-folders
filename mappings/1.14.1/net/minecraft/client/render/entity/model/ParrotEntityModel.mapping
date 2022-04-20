@@ -1,0 +1,2 @@
+CLASS dfj net/minecraft/client/render/entity/model/ParrotEntityModel
+	CLASS dfj$a Pose

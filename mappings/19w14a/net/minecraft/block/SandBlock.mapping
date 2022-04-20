@@ -1,0 +1,2 @@
+CLASS bqm net/minecraft/block/SandBlock
+	FIELD a color I

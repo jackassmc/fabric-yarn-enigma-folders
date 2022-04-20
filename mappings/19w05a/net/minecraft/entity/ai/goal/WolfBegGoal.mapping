@@ -1,0 +1,8 @@
+CLASS ait net/minecraft/entity/ai/goal/WolfBegGoal
+	FIELD a owner Lani;
+	FIELD b begFrom Laro;
+	FIELD c world Lbcu;
+	FIELD d chance F
+	FIELD e timer I
+	METHOD <init> (Lani;F)V
+		ARG 1 owner

@@ -1,0 +1,31 @@
+CLASS akd net/minecraft/entity/ai/brain/task/JumpInBedTask
+	FIELD a walkSpeed F
+	FIELD b bed Lev;
+	FIELD c ticksOutOfBedUntilStopped I
+	FIELD d jumpsRemaining I
+	FIELD e ticksToNextJump I
+	METHOD <init> (F)V
+		ARG 1 walkSpeed
+	METHOD a getNearestBed (Laip;)Ljava/util/Optional;
+		ARG 1 mob
+	METHOD a setWalkTarget (Laip;Lev;)V
+		ARG 1 mob
+		ARG 2 pos
+	METHOD a isBedAt (Lvg;Lev;)Z
+		ARG 1 world
+		ARG 2 pos
+	METHOD b shouldStartJumping (Lvg;Laip;)Z
+		ARG 1 world
+		ARG 2 mob
+	METHOD c isAboveBed (Lvg;Laip;)Z
+		ARG 1 world
+		ARG 2 mob
+	METHOD d isOnBed (Lvg;Laip;)Z
+		ARG 1 world
+		ARG 2 mob
+	METHOD e isBedGoneTooLong (Lvg;Laip;)Z
+		ARG 1 world
+		ARG 2 mob
+	METHOD f isDoneJumping (Lvg;Laip;)Z
+		ARG 1 world
+		ARG 2 mob

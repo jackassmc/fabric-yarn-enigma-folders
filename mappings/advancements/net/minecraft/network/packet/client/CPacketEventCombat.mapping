@@ -1,0 +1,12 @@
+CLASS ip net/minecraft/network/packet/client/CPacketEventCombat
+	CLASS ip$a Type
+		FIELD a BEGIN Lip$a;
+		FIELD b END Lip$a;
+		FIELD c DEATH Lip$a;
+	FIELD a type Lip$a;
+	METHOD a readPacket (Lgb;)V
+		ARG 0 buf
+	METHOD a applyPacket (Lge;)V
+	METHOD a applyPacket (Lgy;)V
+	METHOD b writePacket (Lgb;)V
+		ARG 0 buf

@@ -1,0 +1,6 @@
+CLASS aup net/minecraft/container/HopperContainer
+	FIELD c inventory Laga;
+	METHOD <init> (ILary;)V
+		ARG 1 syncId
+	METHOD <init> (ILary;Laga;)V
+		ARG 1 syncId

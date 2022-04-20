@@ -1,0 +1,7 @@
+CLASS cnf net/minecraft/entity/ai/pathing/WaterPathNodeMaker
+	METHOD b getPathNodeInWater (III)Lcna;
+		ARG 1 x
+		ARG 2 y
+	METHOD c getPathNodeType (III)Lcmy;
+		ARG 1 x
+		ARG 2 y

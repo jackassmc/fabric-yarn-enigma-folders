@@ -1,0 +1,31 @@
+CLASS bqh net/minecraft/client/render/item/ItemModelMap
+	FIELD a modelIds Ljava/util/Map;
+	FIELD b models Ljava/util/Map;
+	FIELD c modelMappers Ljava/util/Map;
+	FIELD d blockModelManager Lcbi;
+	METHOD <init> (Lcbi;)V
+		ARG 0 blockModelManager
+	METHOD a getBlockModelManager ()Lcbi;
+	METHOD a getSprite (Lafg;)Lbyw;
+		ARG 0 item
+	METHOD a getSprite (Lafg;I)Lbyw;
+		ARG 0 item
+		ARG 1 meta
+	METHOD a addModel (Lafg;ILcbj;)V
+		ARG 0 item
+		ARG 1 meta
+		ARG 2 id
+	METHOD a addMapper (Lafg;Lbqi;)V
+		ARG 0 item
+		ARG 1 mapper
+	METHOD a getModel (Lafi;)Lcbe;
+		ARG 0 stack
+	METHOD b reloadModels ()V
+	METHOD b getModel (Lafg;I)Lcbe;
+		ARG 0 item
+		ARG 1 metadata
+	METHOD b getMetadata (Lafi;)I
+		ARG 0 stack
+	METHOD c getItemMetaPair (Lafg;I)I
+		ARG 0 item
+		ARG 1 metadata

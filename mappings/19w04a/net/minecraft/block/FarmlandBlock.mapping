@@ -1,0 +1,14 @@
+CLASS bjl net/minecraft/block/FarmlandBlock
+	FIELD a MOISTURE Lbrk;
+	FIELD b SHAPE Lcnl;
+	METHOD <init> (Lbhn$c;)V
+		ARG 1 settings
+	METHOD a hasCrop (Lbbw;Let;)Z
+		ARG 0 world
+		ARG 1 pos
+	METHOD d setToDirt (Lbqk;Lbcl;Let;)V
+		ARG 0 state
+		ARG 1 world
+		ARG 2 pos
+	METHOD n (Lbqk;)Z
+		ARG 1 state

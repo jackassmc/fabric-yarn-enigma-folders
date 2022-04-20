@@ -1,0 +1,44 @@
+CLASS acj net/minecraft/entity/EntityItem
+	FIELD b LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD c STACK Lmx;
+	FIELD d age I
+	FIELD e pickupDelay I
+	FIELD f health I
+	FIELD g thrower Ljava/lang/String;
+	FIELD h owner Ljava/lang/String;
+	METHOD B_ update ()V
+	METHOD a setPickupDelay (I)V
+		ARG 0 delay
+	METHOD a tryMerge (Lacj;)Z
+		ARG 0 other
+	METHOD a setStack (Lain;)V
+		ARG 0 stack
+	METHOD a deserializeCustomData (Lfy;)V
+		ARG 0 tag
+	METHOD a registerTagUpgraders (Lrw;)V
+		ARG 0 handler
+	METHOD a damage (Lup;F)Z
+		ARG 0 source
+		ARG 1 damage
+	METHOD aq updateSwimming ()Z
+	METHOD b changeWorld (I)Lve;
+		ARG 0 worldId
+	METHOD b serializeCustomData (Lfy;)V
+		ARG 0 tag
+	METHOD d setOwner (Ljava/lang/String;)V
+		ARG 0 value
+	METHOD e setThrower (Ljava/lang/String;)V
+		ARG 0 value
+	METHOD h_ getName ()Ljava/lang/String;
+	METHOD i initDataTracker ()V
+	METHOD j burn (I)V
+		ARG 0 damageAmount
+	METHOD k getStack ()Lain;
+	METHOD l getOwner ()Ljava/lang/String;
+	METHOD n getThrower ()Ljava/lang/String;
+	METHOD p getAge ()I
+	METHOD q setPickupDelayDefault ()V
+	METHOD r resetPickupDelay ()V
+	METHOD s setPickupDelayInfinite ()V
+	METHOD t cannotPickup ()Z
+	METHOD x tryMerge ()V

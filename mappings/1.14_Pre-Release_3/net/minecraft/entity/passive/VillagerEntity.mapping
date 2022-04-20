@@ -1,0 +1,61 @@
+CLASS avh net/minecraft/entity/passive/VillagerEntity
+	CLASS avh$a GolemSpawnCondition
+		FIELD a lastWorked J
+		FIELD b lastSlept J
+		METHOD a setLastWorked (J)V
+			ARG 1 lastWorked
+		METHOD b setLastSlept (J)V
+			ARG 1 lastSlept
+		METHOD c canSpawn (J)Z
+			ARG 1 time
+	FIELD bA POINTS_OF_INTEREST Ljava/util/Map;
+	FIELD bB VILLAGER_DATA Lqh;
+	FIELD bC GATHERABLE_ITEMS Ljava/util/Set;
+	FIELD bD levelUpTimer I
+	FIELD bE levellingUp Z
+	FIELD bF lastCustomer Lavu;
+	FIELD bG buddyGolemId Ljava/util/UUID;
+	FIELD bH oneMinAfterLastGolemCheckTimestamp J
+	FIELD bK foodLevel B
+	FIELD bL gossip Laov;
+	FIELD bM gossipStartTime J
+	FIELD bN experience I
+	FIELD bO lastRestock J
+	FIELD bP MEMORY_MODULES Lcom/google/common/collect/ImmutableList;
+	FIELD bQ SENSORS Lcom/google/common/collect/ImmutableList;
+	FIELD bz ITEM_FOOD_VALUES Ljava/util/Map;
+	METHOD a isLackingBuddyGolem (J)Z
+		ARG 1 time
+	METHOD a wantsGolem (Laid;)Z
+	METHOD a initBrain (Lajb;)V
+	METHOD a releaseTicketFor (Laoy;)V
+	METHOD a talkWithVillager (Lavh;J)V
+		ARG 1 villager
+		ARG 2 time
+	METHOD a setVillagerData (Lavi;)V
+		ARG 1 villagerData
+	METHOD a reinitializeBrain (Lvf;)V
+	METHOD b setRecipes (Lbgi;)V
+	METHOD ee resetCustomer ()V
+	METHOD eg restock ()V
+	METHOD eh playWorkSound ()V
+	METHOD ek isReadyToBreed ()Z
+	METHOD el consumeAvailableFood ()V
+	METHOD em wantsToStartBreeding ()Z
+	METHOD en canBreed ()Z
+	METHOD eo hasSeedToPlant ()Z
+	METHOD ep getLastRestock ()J
+	METHOD eq sayNo ()V
+	METHOD er clearCurrentBonus ()V
+	METHOD es canLevelUp ()Z
+	METHOD et levelUp ()V
+	METHOD eu getAvailableFood ()I
+	METHOD ev trySpawnGolem ()V
+	METHOD ew spawnIronGolem ()Laqw;
+	METHOD f beginTradeWith (Lavu;)V
+		ARG 1 customer
+	METHOD g prepareRecipesFor (Lavu;)V
+		ARG 1 player
+	METHOD s depleteFood (I)V
+		ARG 1 amount
+	METHOD t setExperience (I)V

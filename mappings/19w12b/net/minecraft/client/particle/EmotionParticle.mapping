@@ -1,0 +1,3 @@
+CLASS dhg net/minecraft/client/particle/EmotionParticle
+	CLASS dhg$a AngryVillagerFactory
+	CLASS dhg$b HeartFactory

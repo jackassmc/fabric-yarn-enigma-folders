@@ -1,0 +1,4 @@
+CLASS bxb net/minecraft/world/gen/feature/FreezeTopLayerFeature
+	METHOD a generate (Lbat;Lbqa;Ljava/util/Random;Let;Lbuf;)Z
+		ARG 1 world
+		ARG 3 random

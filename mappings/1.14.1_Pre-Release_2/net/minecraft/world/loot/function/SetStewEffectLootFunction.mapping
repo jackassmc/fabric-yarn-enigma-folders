@@ -1,0 +1,12 @@
+CLASS cqi net/minecraft/world/loot/function/SetStewEffectLootFunction
+	CLASS cqi$a Builder
+		FIELD a map Ljava/util/Map;
+		METHOD a withEffect (Laia;Lcow;)Lcqi$a;
+			ARG 1 effect
+			ARG 2 durationRange
+	CLASS cqi$b Factory
+	FIELD a effects Ljava/util/Map;
+	METHOD <init> ([Lcra;Ljava/util/Map;)V
+		ARG 1 conditions
+		ARG 2 effects
+	METHOD b builder ()Lcqi$a;

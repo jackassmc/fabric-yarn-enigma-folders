@@ -1,0 +1,39 @@
+CLASS aih net/minecraft/item/ItemFood
+	FIELD b hungerRestored I
+	FIELD c saturationRestored F
+	FIELD d wolfFood Z
+	FIELD e alwaysConsumable Z
+	FIELD f statusEffect Luy;
+	FIELD n statusEffectChance F
+	METHOD <init> (IFZ)V
+		ARG 0 hungerRestored
+		ARG 1 saturationRestored
+		ARG 2 wolfFood
+	METHOD <init> (IZ)V
+		ARG 0 hungerRestored
+		ARG 1 wolfFood
+	METHOD a onConsumed (Lain;Lams;Laeb;)V
+		ARG 0 stack
+		ARG 1 world
+		ARG 2 player
+	METHOD a onItemFinishedUsing (Lain;Lams;Lvn;)Lain;
+		ARG 0 stack
+		ARG 1 world
+		ARG 2 user
+	METHOD a onRightClick (Lams;Laeb;Ltz;)Luc;
+		ARG 0 world
+		ARG 1 player
+		ARG 2 hand
+	METHOD a setStatusEffect (Luy;F)Laih;
+		ARG 0 effect
+		ARG 1 chance
+	METHOD e getMaxUseTime (Lain;)I
+		ARG 0 stack
+	METHOD f getUseAction (Lain;)Laka;
+		ARG 0 stack
+	METHOD g isWolfFood ()Z
+	METHOD h setAlwaysConsumable ()Laih;
+	METHOD h getHungerRestored (Lain;)I
+		ARG 0 stack
+	METHOD i getSaturatationRestored (Lain;)F
+		ARG 0 stack

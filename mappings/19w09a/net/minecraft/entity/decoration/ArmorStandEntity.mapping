@@ -1,0 +1,51 @@
+CLASS apg net/minecraft/entity/decoration/ArmorStandEntity
+	FIELD bB heldItems Lff;
+	FIELD bC armorItems Lff;
+	FIELD bE disabledSlots I
+	FIELD bF headRotation Lfj;
+	FIELD bG bodyRotation Lfj;
+	FIELD bH leftArmRotation Lfj;
+	FIELD bI rightArmRotation Lfj;
+	FIELD bJ leftLegRotation Lfj;
+	FIELD bK rightLegRotation Lfj;
+	FIELD b ARMOR_STAND_FLAGS Lpx;
+	FIELD bs TRACKER_RIGHT_LEG_ROTATION Lpx;
+	FIELD bu DEFAULT_HEAD_ROTATION Lfj;
+	FIELD bv DEFAULT_BODY_ROTATION Lfj;
+	FIELD bw DEFAULT_LEFT_ARM_ROTATION Lfj;
+	FIELD bx DEFAULT_RIGHT_ARM_ROTATION Lfj;
+	FIELD by DEFAULT_LEFT_LEG_ROTATION Lfj;
+	FIELD bz DEFAULT_RIGHT_LEG_ROTATION Lfj;
+	FIELD c TRACKER_HEAD_ROTATION Lpx;
+	FIELD d TRACKER_BODY_ROTATION Lpx;
+	FIELD e TRACKER_LEFT_ARM_ROTATION Lpx;
+	FIELD f TRACKER_RIGHT_ARM_ROTATION Lpx;
+	FIELD g TRACKER_LEFT_LEG_ROTATION Lpx;
+	METHOD B serializePose ()Lhx;
+	METHOD a setBitField (BIZ)B
+		ARG 1 value
+		ARG 2 bitField
+		ARG 3 set
+	METHOD a setHeadRotation (Lfj;)V
+	METHOD b setBodyRotation (Lfj;)V
+	METHOD c setLeftArmRotation (Lfj;)V
+	METHOD d (FF)F
+		ARG 1 yaw
+	METHOD d setRightArmRotation (Lfj;)V
+	METHOD e setLeftLegRotation (Lfj;)V
+	METHOD f setRightLegRotation (Lfj;)V
+	METHOD g deserializePose (Lhx;)V
+	METHOD l isSmall ()Z
+	METHOD n shouldShowArms ()Z
+	METHOD n setSmall (Z)V
+	METHOD o shouldHideBasePlate ()Z
+	METHOD o setShowArms (Z)V
+	METHOD p isMarker ()Z
+	METHOD p setHideBasePlate (Z)V
+	METHOD q setMarker (Z)V
+	METHOD r getHeadRotation ()Lfj;
+	METHOD s getBodyRotation ()Lfj;
+	METHOD u getLeftArmRotation ()Lfj;
+	METHOD v getRightArmRotation ()Lfj;
+	METHOD w getLeftLegRotation ()Lfj;
+	METHOD z getRightLegRotation ()Lfj;

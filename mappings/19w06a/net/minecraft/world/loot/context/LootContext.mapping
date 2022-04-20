@@ -1,0 +1,47 @@
+CLASS cjq net/minecraft/world/loot/context/LootContext
+	CLASS cjq$a Builder
+		FIELD a world Lur;
+		FIELD b parameters Ljava/util/Map;
+		FIELD c drops Ljava/util/Map;
+		FIELD d random Ljava/util/Random;
+		FIELD e luck F
+		METHOD a getWorld ()Lur;
+		METHOD a setLuck (F)Lcjq$a;
+		METHOD a setRandom (J)Lcjq$a;
+		METHOD a setRandom (JLjava/util/Random;)Lcjq$a;
+		METHOD a get (Lclo;)Ljava/lang/Object;
+		METHOD a put (Lclo;Ljava/lang/Object;)Lcjq$a;
+		METHOD a build (Lclp;)Lcjq;
+		METHOD a setRandom (Ljava/util/Random;)Lcjq$a;
+		METHOD a putDrop (Lqd;Lcjq$b;)Lcjq$a;
+		METHOD b getNullable (Lclo;)Ljava/lang/Object;
+		METHOD b putNullable (Lclo;Ljava/lang/Object;)Lcjq$a;
+	CLASS cjq$b Dropper
+	CLASS cjq$c EntityTarget
+		CLASS cjq$c$a Serializer
+			METHOD a deserialize (Lcom/google/gson/stream/JsonReader;)Lcjq$c;
+			METHOD a serialize (Lcom/google/gson/stream/JsonWriter;Lcjq$c;)V
+		FIELD a THIS Lcjq$c;
+		FIELD b KILLER Lcjq$c;
+		FIELD c DIRECT_KILLER Lcjq$c;
+		FIELD d KILLER_PLAYER Lcjq$c;
+		FIELD e type Ljava/lang/String;
+		FIELD f identifier Lclo;
+		METHOD a getIdentifier ()Lclo;
+		METHOD a fromString (Ljava/lang/String;)Lcjq$c;
+	FIELD a random Ljava/util/Random;
+	FIELD b luck F
+	FIELD c world Lur;
+	FIELD d manager Lcjv;
+	FIELD e suppliers Ljava/util/Set;
+	FIELD f parameters Ljava/util/Map;
+	FIELD g drops Ljava/util/Map;
+	METHOD a getLootManager ()Lcjv;
+	METHOD a addDrop (Lcjt;)Z
+	METHOD a hasParameter (Lclo;)Z
+	METHOD a drop (Lqd;Ljava/util/function/Consumer;)V
+	METHOD b getRandom ()Ljava/util/Random;
+	METHOD b removeDrop (Lcjt;)V
+	METHOD c getLuck ()F
+	METHOD c get (Lclo;)Ljava/lang/Object;
+	METHOD d getWorld ()Lur;

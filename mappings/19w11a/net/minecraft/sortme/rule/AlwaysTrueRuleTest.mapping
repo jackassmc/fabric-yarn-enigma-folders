@@ -1,0 +1,2 @@
+CLASS chc net/minecraft/sortme/rule/AlwaysTrueRuleTest
+	FIELD a INSTANCE Lchc;

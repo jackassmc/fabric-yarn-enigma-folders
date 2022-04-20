@@ -1,0 +1,4 @@
+CLASS dap net/minecraft/client/render/bpk
+	FIELD b world Lazy;
+	METHOD <init> (Lazy;ILdaf;Ldcv;)V
+		ARG 1 world

@@ -1,0 +1,14 @@
+CLASS akl net/minecraft/entity/ai/goal/StepAndDestroyBlockGoal
+	FIELD f targetBlock Lbhl;
+	FIELD g owner Lahm;
+	FIELD h counter I
+	METHOD a canStart ()Z
+	METHOD a getInterval (Lahs;)I
+	METHOD a onDestroyBlock (Lbci;Let;)V
+	METHOD a tickStepping (Lbcj;Let;)V
+	METHOD a isTargetPos (Lbcm;Let;)Z
+	METHOD a tweakToProperPos (Let;Lbbt;)Let;
+	METHOD b shouldContinue ()Z
+	METHOD c start ()V
+	METHOD d onRemove ()V
+	METHOD e tick ()V

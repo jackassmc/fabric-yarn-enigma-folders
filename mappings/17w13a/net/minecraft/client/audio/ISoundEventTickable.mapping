@@ -1,0 +1,2 @@
+CLASS cai net/minecraft/client/audio/ISoundEventTickable
+	METHOD l isDone ()Z

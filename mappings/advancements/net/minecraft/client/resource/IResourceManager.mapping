@@ -1,0 +1,3 @@
+CLASS cct net/minecraft/client/resource/IResourceManager
+	METHOD a registerListener (Lccw;)V
+	METHOD a reload (Ljava/util/List;)V

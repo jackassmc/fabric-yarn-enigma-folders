@@ -1,0 +1,14 @@
+CLASS bxu net/minecraft/world/chunk/UpgradeData
+	CLASS bxu$b
+		FIELD a BLACKLIST Lbxu$b;
+		FIELD b DEFAULT Lbxu$b;
+		FIELD c CHEST Lbxu$b;
+		FIELD d LEAVES Lbxu$b;
+		FIELD e STEM_BLOCK Lbxu$b;
+	FIELD a NO_UPGRADE_DATA Lbxu;
+	FIELD b LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD d sides Ljava/util/EnumSet;
+	FIELD e indices [[I
+	METHOD <init> (Lib;)V
+		ARG 1 tag
+	METHOD b toTag ()Lib;

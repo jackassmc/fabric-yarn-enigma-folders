@@ -1,0 +1,6 @@
+CLASS bmj net/minecraft/block/CactusBlock
+	FIELD a AGE Lbvz;
+	FIELD b COLLISION_SHAPE Lcsf;
+	FIELD c OUTLINE_SHAPE Lcsf;
+	METHOD <init> (Lbmb$c;)V
+		ARG 1 settings

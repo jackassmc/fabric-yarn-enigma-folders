@@ -1,0 +1,9 @@
+CLASS dyf net/minecraft/client/tutorial/CraftPlanksTutorialStepHandler
+	FIELD a TITLE Ljn;
+	FIELD b DESCRIPTION Ljn;
+	FIELD c manager Ldyk;
+	FIELD d toast Lcxz;
+	FIELD e ticks I
+	METHOD a hasCrafted (Ldka;Lze;)Z
+		ARG 0 player
+		ARG 1 tag

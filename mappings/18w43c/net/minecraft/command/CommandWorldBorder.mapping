@@ -1,0 +1,2 @@
+CLASS sz net/minecraft/command/CommandWorldBorder
+	METHOD a (Lbx;DJ)I

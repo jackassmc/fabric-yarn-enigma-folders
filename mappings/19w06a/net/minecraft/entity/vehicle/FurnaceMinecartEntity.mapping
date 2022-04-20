@@ -1,0 +1,7 @@
+CLASS atf net/minecraft/entity/vehicle/FurnaceMinecartEntity
+	FIELD b pushX D
+	FIELD c pushZ D
+	FIELD d LIT Lps;
+	FIELD e fuel I
+	METHOD e isLit ()Z
+	METHOD n setLit (Z)V

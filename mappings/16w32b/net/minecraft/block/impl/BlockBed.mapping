@@ -1,0 +1,29 @@
+CLASS none/aku net/minecraft/block/impl/BlockBed
+	CLASS none/aku$a Part
+		FIELD a HEAD Lnone/aku$a;
+		FIELD b FOOT Lnone/aku$a;
+		FIELD c name Ljava/lang/String;
+		METHOD m asString ()Ljava/lang/String;
+	FIELD a PART Lnone/asx;
+	FIELD b OCCUPIED Lnone/asv;
+	FIELD c BOUNDING_BOX Lnone/bcp;
+	METHOD a deserializeState (I)Lnone/asj;
+	METHOD a getDropStack (Lnone/aiu;Lnone/cn;Lnone/asj;)Lnone/aeq;
+	METHOD a activate (Lnone/aiu;Lnone/cn;Lnone/asj;Lnone/aak;Lnone/qz;Lnone/cu;FFF)Z
+		ARG 0 world
+		ARG 1 pos
+		ARG 2 state
+		ARG 3 player
+		ARG 4 hand
+		ARG 5 facing
+		ARG 6 hitX
+		ARG 7 hitY
+		ARG 8 hitZ
+	METHOD a getDropItem (Lnone/asj;Ljava/util/Random;I)Lnone/aeo;
+	METHOD a applyMirror (Lnone/asj;Lnone/anw;)Lnone/asj;
+	METHOD a applyRotation (Lnone/asj;Lnone/apj;)Lnone/asj;
+	METHOD b createStateFactory ()Lnone/ask;
+	METHOD b getBoundingBox (Lnone/asj;Lnone/aiy;Lnone/cn;)Lnone/bcp;
+	METHOD c getRenderingState (Lnone/asj;Lnone/aiy;Lnone/cn;)Lnone/asj;
+	METHOD e serializeState (Lnone/asj;)I
+	METHOD f getRenderLayer ()Lnone/aim;

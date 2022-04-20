@@ -1,0 +1,11 @@
+CLASS cnj net/minecraft/entity/VerticalEntityPositionImpl
+	CLASS cnj$1
+		METHOD <init> (ZDLaxh;)V
+			ARG 1 sneaking
+	FIELD a MIN_VALUE Lcne;
+	FIELD b sneaking Z
+	FIELD c posY D
+	METHOD <init> (Lahi;)V
+		ARG 1 entity
+	METHOD <init> (ZDLaxh;)V
+		ARG 1 sneaking

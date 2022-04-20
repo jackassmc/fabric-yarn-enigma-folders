@@ -1,0 +1,2 @@
+CLASS azx net/minecraft/item/ItemContainer
+	METHOD h getItem ()Lauu;

@@ -1,0 +1,5 @@
+CLASS big net/minecraft/world/biome/source/CheckerboardBiomeSourceConfig
+	FIELD a biomes [Lbhx;
+	FIELD b size I
+	METHOD a getBiomes ()[Lbhx;
+	METHOD b getSize ()I

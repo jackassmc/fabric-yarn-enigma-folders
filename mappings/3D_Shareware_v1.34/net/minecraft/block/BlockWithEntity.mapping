@@ -1,0 +1,3 @@
+CLASS blr net/minecraft/block/BlockWithEntity
+	METHOD <init> (Lbma$c;)V
+		ARG 1 settings

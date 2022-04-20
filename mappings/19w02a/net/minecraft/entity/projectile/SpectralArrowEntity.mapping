@@ -1,0 +1,7 @@
+CLASS ase net/minecraft/entity/projectile/SpectralArrowEntity
+	FIELD aw duration I
+	METHOD a onHit (Lahm;)V
+	METHOD a readCustomDataFromTag (Lhs;)V
+	METHOD b writeCustomDataToTag (Lhs;)V
+	METHOD h update ()V
+	METHOD l asItemStack ()Laxd;

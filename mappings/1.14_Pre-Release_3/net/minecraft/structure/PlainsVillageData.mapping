@@ -1,0 +1,2 @@
+CLASS ccx net/minecraft/structure/PlainsVillageData
+	METHOD a initialize ()V

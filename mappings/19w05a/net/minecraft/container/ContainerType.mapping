@@ -1,0 +1,34 @@
+CLASS auk net/minecraft/container/ContainerType
+	CLASS auk$a Factory
+		METHOD create (ILarn;)Latj;
+			ARG 1 syncId
+			ARG 2 playerInventory
+	FIELD a GENERIC_9X3 Lauk;
+	FIELD b GENERIC_9X6 Lauk;
+	FIELD c GENERIC_3X3 Lauk;
+	FIELD d ANVIL Lauk;
+	FIELD e BEACON Lauk;
+	FIELD f BLAST_FURNACE Lauk;
+	FIELD g BREWING_STAND Lauk;
+	FIELD h CRAFTING Lauk;
+	FIELD i ENCHANTMENT Lauk;
+	FIELD j FURNACE Lauk;
+	FIELD k GRINDSTONE Lauk;
+	FIELD l HOPPER Lauk;
+	FIELD m LECTERN Lauk;
+	FIELD n LOOM Lauk;
+	FIELD o MERCHANT Lauk;
+	FIELD p SHULKER_BOX Lauk;
+	FIELD q SMOKER Lauk;
+	FIELD r CARTOGRAPHY Lauk;
+	FIELD t factory Lauk$a;
+	METHOD <clinit> ()V
+		ARG 0 syncId
+	METHOD <init> (Lauk$a;)V
+		ARG 1 factory
+	METHOD a create (ILarn;)Latj;
+		ARG 1 syncId
+		ARG 2 playerInventory
+	METHOD a register (Ljava/lang/String;Lauk$a;)Lauk;
+		ARG 0 id
+		ARG 1 factory

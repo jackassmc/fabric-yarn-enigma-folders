@@ -1,0 +1,2 @@
+CLASS he net/minecraft/data/validate/StructureValidatorProvider
+	FIELD b generator Lfy;

@@ -1,0 +1,15 @@
+CLASS ju net/minecraft/network/packet/client/CPacketLoginEncryptionRequest
+	FIELD a serverId Ljava/lang/String;
+	FIELD b publicKey Ljava/security/PublicKey;
+	FIELD c verifyToken [B
+	METHOD a getServerId ()Ljava/lang/String;
+	METHOD a readPacket (Let;)V
+		ARG 0 packet
+	METHOD a applyPacket (Lew;)V
+		ARG 0 handler
+	METHOD a applyPacket (Ljs;)V
+		ARG 0 handler
+	METHOD b getPublicKey ()Ljava/security/PublicKey;
+	METHOD b writePacket (Let;)V
+		ARG 0 packet
+	METHOD c getVerifyToken ()[B

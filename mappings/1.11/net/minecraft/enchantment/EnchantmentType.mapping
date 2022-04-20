@@ -1,0 +1,14 @@
+CLASS aii net/minecraft/enchantment/EnchantmentType
+	FIELD a ALL Laii;
+	FIELD b ARMOR Laii;
+	FIELD c FEET Laii;
+	FIELD d LEGS Laii;
+	FIELD e CHEST Laii;
+	FIELD f HELM Laii;
+	FIELD g WEAPON Laii;
+	FIELD h BREAKER Laii;
+	FIELD i FISHING Laii;
+	FIELD j TOOL Laii;
+	FIELD k BOW Laii;
+	METHOD a isAcceptableItem (Lafg;)Z
+		ARG 0 item

@@ -1,0 +1,22 @@
+CLASS ij net/minecraft/network/packet/client/CPacketGameJoin
+	FIELD a playerEntityId I
+	FIELD b hardcore Z
+	FIELD c gameMode Lalg;
+	FIELD d worldId I
+	FIELD e difficulty Lsu;
+	FIELD f maxPlayers I
+	FIELD g generatorType Laln;
+	FIELD h reducedDebugInfo Z
+	METHOD a getEntityId ()I
+	METHOD a readPacket (Lgb;)V
+		ARG 0 buf
+	METHOD a applyPacket (Lge;)V
+	METHOD a applyPacket (Lgy;)V
+	METHOD b isHardcore ()Z
+	METHOD b writePacket (Lgb;)V
+		ARG 0 buf
+	METHOD c getGameMode ()Lalg;
+	METHOD d getWorldId ()I
+	METHOD e getDifficulty ()Lsu;
+	METHOD f getMaxPlayers ()I
+	METHOD h hasReducedDebugInfo ()Z

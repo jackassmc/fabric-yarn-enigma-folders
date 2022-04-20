@@ -1,0 +1,3 @@
+CLASS dhj net/minecraft/client/render/entity/FireworkEntityRenderer
+	METHOD a getTexture (Lagk;)Lpz;
+	METHOD a getTexture (Laqv;)Lpz;

@@ -1,0 +1,9 @@
+CLASS fq net/minecraft/nbt/Tag
+	FIELD a TYPES [Ljava/lang/String;
+	METHOD a getType ()B
+	METHOD a createTag (B)Lfq;
+	METHOD a read (Ljava/io/DataInput;ILfk;)V
+	METHOD a write (Ljava/io/DataOutput;)V
+	METHOD b copy ()Lfq;
+	METHOD b_ isEmpty ()Z
+	METHOD c_ asString ()Ljava/lang/String;

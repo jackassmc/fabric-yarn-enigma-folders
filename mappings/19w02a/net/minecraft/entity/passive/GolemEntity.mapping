@@ -1,0 +1,10 @@
+CLASS amh net/minecraft/entity/passive/GolemEntity
+	METHOD <init> (Lahh;Lbcf;)V
+		ARG 1 type
+	METHOD D getAmbientSound ()Lxt;
+	METHOD c canImmediatelyDespawn (D)Z
+		ARG 1 distanceSquared
+	METHOD c handleFallDamage (FF)V
+		ARG 1 fallDistance
+	METHOD cw getDeathSound ()Lxt;
+	METHOD e getHurtSound (Lagm;)Lxt;

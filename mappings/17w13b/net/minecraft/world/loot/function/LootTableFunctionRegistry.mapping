@@ -1,0 +1,12 @@
+CLASS bel net/minecraft/world/loot/function/LootTableFunctionRegistry
+	CLASS bel$a DeSerializer
+		METHOD a serialize (Lbek;Ljava/lang/reflect/Type;Lcom/google/gson/JsonSerializationContext;)Lcom/google/gson/JsonElement;
+		METHOD a deserialize (Lcom/google/gson/JsonElement;Ljava/lang/reflect/Type;Lcom/google/gson/JsonDeserializationContext;)Lbek;
+	FIELD a IDENTIFIER_TO_SERIALIZER Ljava/util/Map;
+	FIELD b CLASS_TO_SERIALIZER Ljava/util/Map;
+	METHOD a registerFunction (Lbek$a;)V
+		ARG 0 serializer
+	METHOD a getSerializer (Lbek;)Lbek$a;
+		ARG 0 functionClass
+	METHOD a getSerializer (Lmd;)Lbek$a;
+		ARG 0 id

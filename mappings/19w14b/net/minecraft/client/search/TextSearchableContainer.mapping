@@ -1,0 +1,4 @@
+CLASS dwp net/minecraft/client/search/TextSearchableContainer
+	CLASS dwp$a Iterator
+	FIELD c byText Ldws;
+	FIELD d textFinder Ljava/util/function/Function;

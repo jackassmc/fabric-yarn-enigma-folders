@@ -1,0 +1,2 @@
+CLASS drv net/minecraft/client/tutorial/NoneTutorialStepHandler
+	FIELD a manager Ldsb;

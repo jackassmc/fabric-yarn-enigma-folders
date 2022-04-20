@@ -1,0 +1,4 @@
+CLASS dnx net/minecraft/client/render/entity/feature/TridentRiptideFeatureRenderer
+	FIELD a TEXTURE Lqd;
+	METHOD <init> (Ldlm;)V
+		ARG 1 context

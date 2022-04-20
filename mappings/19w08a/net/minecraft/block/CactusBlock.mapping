@@ -1,0 +1,3 @@
+CLASS bin net/minecraft/block/CactusBlock
+	METHOD <init> (Lbif$c;)V
+		ARG 1 settings

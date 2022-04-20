@@ -1,0 +1,14 @@
+CLASS crr net/minecraft/client/gui/menu/ListEntryRemoteServer
+	FIELD c LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD d PING_THREAD_POOL Ljava/util/concurrent/ThreadPoolExecutor;
+	FIELD e UNKNOWN_SERVER Lpu;
+	FIELD f SERVER_SELECTION Lpu;
+	FIELD g guiMultiplayer Lcro;
+	FIELD h game Lclp;
+	FIELD i serverEntry Lcxd;
+	METHOD a drawEntry (IIIIZF)V
+	METHOD a drawIcon (IILpu;)V
+	METHOD mouseClicked (DDI)Z
+		ARG 1 mouseX
+		ARG 3 mouseY
+		ARG 5 keyCode

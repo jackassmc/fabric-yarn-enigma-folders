@@ -1,0 +1,4 @@
+CLASS bra net/minecraft/block/PillarBlock
+	FIELD a AXIS Lbwm;
+	METHOD <init> (Lbmq$c;)V
+		ARG 1 settings

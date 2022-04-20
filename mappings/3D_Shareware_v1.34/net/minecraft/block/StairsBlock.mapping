@@ -1,0 +1,11 @@
+CLASS brj net/minecraft/block/StairsBlock
+	FIELD C baseBlock Lbma;
+	FIELD D baseBlockState Lbuy;
+	FIELD a FACING Lbvt;
+	FIELD b HALF Lbvw;
+	FIELD c SHAPE Lbvw;
+	FIELD d WATERLOGGED Lbvq;
+	FIELD e TOP_SHAPE Lcse;
+	FIELD f BOTTOM_SHAPE Lcse;
+	METHOD n (Lbuy;)Z
+		ARG 1 state

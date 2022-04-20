@@ -1,0 +1,73 @@
+CLASS ara net/minecraft/entity/passive/VillagerEntity
+	FIELD bE VILLAGER_DATA Lpt;
+	FIELD bF findVillageCountdown I
+	FIELD bG inMating Z
+	FIELD bH staring Z
+	FIELD bI village Lalz;
+	FIELD bJ currentCustomer Lark;
+	FIELD bK recipeList Lbbl;
+	FIELD bL unlockTradeCountdown I
+	FIELD bM unlockTrade Z
+	FIELD bN willingToMate Z
+	FIELD bO customerName Ljava/lang/String;
+	FIELD bP recentlyRescued Z
+	FIELD bQ goalsSet Z
+	FIELD bR inventory Lage;
+	METHOD <init> (Lbcf;Larf;)V
+		ARG 1 world
+	METHOD D getAmbientSound ()Lxt;
+	METHOD I mobTick ()V
+	METHOD M_ getVillage ()Lalz;
+	METHOD N_ getCurrentCustomer ()Lark;
+	METHOD O_ getVillagerWorld ()Lbcf;
+	METHOD P_ getRaid ()Laso;
+	METHOD a onDeath (Lagm;)V
+	METHOD a createChild (Laha;)Laha;
+	METHOD a setAttacker (Lahm;)V
+	METHOD a onStruckByLightning (Lape;)V
+	METHOD a pickupItem (Laph;)V
+	METHOD a setVillagerData (Larb;)V
+	METHOD a canBeLeashedBy (Lark;)Z
+	METHOD a interactMob (Lark;Lafy;)Z
+		ARG 1 player
+	METHOD a canPickUp (Lawy;)Z
+	METHOD a onSellingItem (Laxd;)V
+	METHOD a useRecipe (Lbbk;)V
+	METHOD a setServerRecipes (Lbbl;)V
+	METHOD a prepareEntityData (Lbcg;Lafx;Lahp;Lahx;Lhs;)Lahx;
+		ARG 3 difficulty
+	METHOD a readCustomDataFromTag (Lhs;)V
+	METHOD a_ setCurrentCustomer (Lark;)V
+	METHOD b createChild (Laha;)Lara;
+	METHOD b setRecipes (Lbbl;)V
+	METHOD b writeCustomDataToTag (Lhs;)V
+	METHOD bH getEyeHeight ()F
+	METHOD c getRecipes ()Lbbl;
+	METHOD c canImmediatelyDespawn (D)Z
+		ARG 1 distanceSquared
+	METHOD cb initAttributes ()V
+	METHOD cw getDeathSound ()Lxt;
+	METHOD d getDisplayName ()Ljd;
+	METHOD d hasEnoughFood (I)Z
+	METHOD dB isInMating ()Z
+	METHOD dC isStaring ()Z
+	METHOD dD isTrading ()Z
+	METHOD dE setRecentlyRescued ()V
+	METHOD dF getInventory ()Lage;
+	METHOD dG hasFoodForWilling ()Z
+	METHOD dI canBreed ()Z
+	METHOD dJ hasSeed ()Z
+	METHOD dK setSpecificGoals ()V
+	METHOD dL levelUp ()V
+	METHOD dM addTrades ()V
+	METHOD dO getVillagerData ()Larb;
+	METHOD e getVillagerPos ()Let;
+	METHOD e getHurtSound (Lagm;)Lxt;
+	METHOD l ()V
+	METHOD n prepareGoals ()V
+	METHOD s setInMating (Z)V
+	METHOD t setStaring (Z)V
+	METHOD u isWillingToMate (Z)Z
+		ARG 1 update
+	METHOD v setWillingToMate (Z)V
+	METHOD w_ initDataTracker ()V

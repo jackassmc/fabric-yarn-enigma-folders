@@ -1,0 +1,32 @@
+CLASS dao net/minecraft/client/gui/container/BeaconScreen
+	CLASS dao$a WidgetButtonIconCancel
+		METHOD renderToolTip (II)V
+			ARG 1 mouseX
+			ARG 2 mouseY
+	CLASS dao$b WidgetButtonIconDone
+		METHOD renderToolTip (II)V
+			ARG 1 mouseX
+			ARG 2 mouseY
+	CLASS dao$c WidgetButtonIconEffect
+		FIELD b effect Lahx;
+		FIELD d primary Z
+		METHOD renderToolTip (II)V
+			ARG 1 mouseX
+			ARG 2 mouseY
+	CLASS dao$d WidgetButtonIcon
+		FIELD a disabled Z
+		METHOD a setDisabled (Z)V
+		METHOD b isDisabled ()Z
+		METHOD renderButton (IIF)V
+			ARG 1 mouseX
+			ARG 2 mouseY
+			ARG 3 delta
+	FIELD k BG_TEX Lqs;
+	FIELD l doneButton Ldao$b;
+	FIELD m canConsumeGem Z
+	FIELD n primaryEffect Lahx;
+	FIELD o secondaryEffect Lahx;
+	METHOD render (IIF)V
+		ARG 1 mouseX
+		ARG 2 mouseY
+		ARG 3 delta

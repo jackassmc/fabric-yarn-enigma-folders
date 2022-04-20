@@ -1,0 +1,3 @@
+CLASS cdg net/minecraft/client/texture/ISpriteRegistrationListener
+	METHOD a registerSprites (Lcdn;)V
+		ARG 0 atlas

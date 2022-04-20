@@ -1,0 +1,87 @@
+CLASS dhi net/minecraft/client/model/Cuboid
+	FIELD a textureWidth F
+	FIELD b textureHeight F
+	FIELD c rotationPointX F
+	FIELD d rotationPointY F
+	FIELD e rotationPointZ F
+	FIELD f pitch F
+	FIELD g yaw F
+	FIELD h roll F
+	FIELD i mirror Z
+	FIELD j visible Z
+	FIELD l boxes Ljava/util/List;
+	FIELD m children Ljava/util/List;
+	FIELD n name Ljava/lang/String;
+	FIELD o x F
+	FIELD p y F
+	FIELD q z F
+	FIELD r textureOffsetU I
+	FIELD s textureOffsetV I
+	FIELD t compiled Z
+	FIELD u list I
+	METHOD <init> (Ldfl;II)V
+		ARG 1 owner
+		ARG 2 textureOffsetU
+		ARG 3 textureOffsetV
+	METHOD <init> (Ldfl;Ljava/lang/String;)V
+		ARG 1 owner
+		ARG 2 name
+	METHOD a render (F)V
+		ARG 1 scale
+	METHOD a setRotationPoint (FFF)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD a addBox (FFFIII)Ldhi;
+		ARG 1 xMin
+		ARG 2 yMin
+		ARG 3 zMin
+		ARG 4 xSize
+		ARG 5 ySize
+		ARG 6 zSize
+	METHOD a addBox (FFFIIIF)V
+		ARG 1 xMin
+		ARG 2 yMin
+		ARG 3 zMin
+		ARG 4 xSize
+		ARG 5 ySize
+		ARG 6 zSize
+	METHOD a addBox (FFFIIIFZ)V
+		ARG 1 xMin
+		ARG 2 yMin
+		ARG 3 zMin
+		ARG 4 xSize
+		ARG 5 ySize
+		ARG 6 zSize
+	METHOD a addBox (FFFIIIZ)Ldhi;
+		ARG 1 xMin
+		ARG 2 yMin
+		ARG 3 zMin
+		ARG 4 xSize
+		ARG 5 ySize
+		ARG 6 zSize
+	METHOD a setTextureOffset (II)Ldhi;
+		ARG 1 u
+		ARG 2 v
+	METHOD a copyRotation (Ldhi;)V
+	METHOD a addBox (Ljava/lang/String;FFFIIIFII)Ldhi;
+		ARG 1 suffix
+		ARG 2 xMin
+		ARG 3 yMin
+		ARG 4 zMin
+		ARG 5 xSize
+		ARG 6 ySize
+		ARG 7 zSize
+		ARG 9 textureOffsetU
+		ARG 10 textureOffsetV
+	METHOD b (F)V
+		ARG 1 scale
+	METHOD b setTextureSize (II)Ldhi;
+		ARG 1 width
+		ARG 2 height
+	METHOD b addChild (Ldhi;)V
+	METHOD c applyTransform (F)V
+		ARG 1 scale
+	METHOD c removeChild (Ldhi;)V
+	METHOD d compile (F)V
+		ARG 1 scale

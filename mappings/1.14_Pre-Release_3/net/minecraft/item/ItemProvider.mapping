@@ -1,0 +1,2 @@
+CLASS bhc net/minecraft/item/ItemProvider
+	METHOD g getItem ()Lbbs;

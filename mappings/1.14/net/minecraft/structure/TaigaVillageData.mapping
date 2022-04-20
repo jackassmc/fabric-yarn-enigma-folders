@@ -1,0 +1,2 @@
+CLASS cep net/minecraft/structure/TaigaVillageData
+	METHOD a initialize ()V

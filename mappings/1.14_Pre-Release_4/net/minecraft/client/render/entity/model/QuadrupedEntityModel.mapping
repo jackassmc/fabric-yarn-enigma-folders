@@ -1,0 +1,7 @@
+CLASS dfp net/minecraft/client/render/entity/model/QuadrupedEntityModel
+	FIELD a head Ldgz;
+	FIELD b body Ldgz;
+	FIELD f leg1 Ldgz;
+	FIELD g leg2 Ldgz;
+	FIELD h leg3 Ldgz;
+	FIELD i leg4 Ldgz;

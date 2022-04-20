@@ -1,0 +1,20 @@
+CLASS cl net/minecraft/command/arguments/EntityArgumentType
+	CLASS cl$a Serializer
+	FIELD a TOO_MANY_ENTITIES_EXCEPTION Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
+	FIELD b TOO_MANY_PLAYERS_EXCEPTION Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
+	FIELD c PLAYER_SELECTOR_HAS_ENTITIES_EXCEPTION Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
+	FIELD d ENTITY_NOT_FOUND_EXCEPTION Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
+	FIELD e PLAYER_NOT_FOUND_EXCEPTION Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
+	FIELD f NOT_ALLOWED_EXCEPTION Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
+	FIELD g EXAMPLES Ljava/util/Collection;
+	FIELD h singleTarget Z
+	FIELD i playerOnly Z
+	METHOD a oneEntity ()Lcl;
+	METHOD a getEntityArgument (Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Lahy;
+	METHOD b multipleEntities ()Lcl;
+	METHOD c onePlayer ()Lcl;
+	METHOD d multiplePlayer ()Lcl;
+	METHOD e getServerPlayerArgument (Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Lve;
+	METHOD listSuggestions (Lcom/mojang/brigadier/context/CommandContext;Lcom/mojang/brigadier/suggestion/SuggestionsBuilder;)Ljava/util/concurrent/CompletableFuture;
+		ARG 1 context
+		ARG 2 builder

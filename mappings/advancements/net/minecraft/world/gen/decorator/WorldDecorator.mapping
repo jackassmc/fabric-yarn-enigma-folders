@@ -1,0 +1,4 @@
+CLASS ayf net/minecraft/world/gen/decorator/WorldDecorator
+	FIELD a doBlockUpdates Z
+	METHOD a setState (Lali;Ldx;Lave;)V
+	METHOD b generate (Lali;Ljava/util/Random;Ldx;)Z

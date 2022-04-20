@@ -1,0 +1,12 @@
+CLASS bho net/minecraft/client/gui/menu/GuiSettingsSkin
+	FIELD a parent Lbhm;
+	FIELD f title Ljava/lang/String;
+	METHOD <init> (Lbhm;)V
+		ARG 0 parent
+	METHOD a draw (IIF)V
+		ARG 0 mouseX
+		ARG 1 mouseY
+		ARG 2 delta
+	METHOD a onWidgetPressed (Lbfk;)V
+		ARG 0 widget
+	METHOD b init ()V

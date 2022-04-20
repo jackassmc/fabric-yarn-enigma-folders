@@ -1,0 +1,8 @@
+CLASS bzd net/minecraft/world/gen/feature/EmeraldOreFeatureConfig
+	FIELD a target Lbrd;
+	FIELD b state Lbrd;
+	METHOD <init> (Lbrd;Lbrd;)V
+		ARG 1 target
+		ARG 2 state
+	METHOD a deserialize (Lcom/mojang/datafixers/Dynamic;)Lbzd;
+		ARG 0 dynamic

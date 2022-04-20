@@ -1,0 +1,3 @@
+CLASS bay net/minecraft/world/LightType
+	FIELD a SKY Lbay;
+	FIELD b BLOCK Lbay;

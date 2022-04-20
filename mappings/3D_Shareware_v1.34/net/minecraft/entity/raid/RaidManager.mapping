@@ -1,0 +1,14 @@
+CLASS aws net/minecraft/entity/raid/RaidManager
+	FIELD a raids Ljava/util/Map;
+	FIELD b world Lve;
+	FIELD c nextAvailableId I
+	FIELD d currentTime I
+	METHOD a tick ()V
+	METHOD a getRaid (I)Lawq;
+	METHOD a isLivingAroundVillage (Laii;Lev;I)Z
+	METHOD a isValidRaiderFor (Lawr;Lawq;)Z
+	METHOD a nameFor (Lbxr;)Ljava/lang/String;
+	METHOD a getRaidAt (Lev;)Lawq;
+	METHOD a getOrCreateRaid (Lve;Lev;)Lawq;
+	METHOD a startRaid (Lvf;)Lawq;
+	METHOD e nextId ()I

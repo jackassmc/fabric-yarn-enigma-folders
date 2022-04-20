@@ -1,0 +1,6 @@
+CLASS dmr net/minecraft/client/render/entity/feature/CreeperChargeFeatureRenderer
+	FIELD a SKIN Lqe;
+	METHOD <init> (Ldlf;)V
+		ARG 1 context
+	METHOD a render (Lahd;FFFFFFF)V
+	METHOD a render (Lapo;FFFFFFF)V

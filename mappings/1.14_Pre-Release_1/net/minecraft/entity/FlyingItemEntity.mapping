@@ -1,0 +1,2 @@
+CLASS awd net/minecraft/entity/FlyingItemEntity
+	METHOD f getStack ()Lbbu;

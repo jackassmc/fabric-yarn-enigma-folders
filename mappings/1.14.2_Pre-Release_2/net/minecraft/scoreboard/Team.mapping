@@ -1,0 +1,32 @@
+CLASS csv net/minecraft/scoreboard/Team
+	FIELD a scoreboard Lcsx;
+	FIELD b name Ljava/lang/String;
+	FIELD c playerList Ljava/util/Set;
+	FIELD d displayName Ljm;
+	FIELD e prefix Ljm;
+	FIELD f suffix Ljm;
+	FIELD g friendlyFire Z
+	FIELD h showFriendlyInvisibles Z
+	FIELD i nameTagVisibilityRule Lcsz$b;
+	FIELD j deathMessageVisibilityRule Lcsz$b;
+	FIELD k color Lc;
+	FIELD l collisionRule Lcsz$a;
+	METHOD <init> (Lcsx;Ljava/lang/String;)V
+		ARG 1 scoreboard
+		ARG 2 name
+	METHOD a setFriendlyFlagsBitwise (I)V
+	METHOD a setColor (Lc;)V
+	METHOD a setCollisionRule (Lcsz$a;)V
+	METHOD a setNameTagVisibilityRule (Lcsz$b;)V
+	METHOD a modifyText (Lcsz;Ljm;)Ljm;
+	METHOD a setDisplayName (Ljm;)V
+	METHOD a setFriendlyFireAllowed (Z)V
+	METHOD b setDeathMessageVisibilityRule (Lcsz$b;)V
+	METHOD b setPrefix (Ljm;)V
+	METHOD b setShowFriendlyInvisibles (Z)V
+	METHOD c getDisplayName ()Ljm;
+	METHOD c setSuffix (Ljm;)V
+	METHOD d getFormattedName ()Ljm;
+	METHOD e getPrefix ()Ljm;
+	METHOD f getSuffix ()Ljm;
+	METHOD m getFriendlyFlagsBitwise ()I

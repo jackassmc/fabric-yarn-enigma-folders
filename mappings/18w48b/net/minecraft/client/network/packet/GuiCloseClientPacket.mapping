@@ -1,0 +1,6 @@
+CLASS kl net/minecraft/client/network/packet/GuiCloseClientPacket
+	FIELD a id I
+	METHOD a read (Liq;)V
+	METHOD a apply (Lit;)V
+	METHOD a apply (Ljr;)V
+	METHOD b write (Liq;)V

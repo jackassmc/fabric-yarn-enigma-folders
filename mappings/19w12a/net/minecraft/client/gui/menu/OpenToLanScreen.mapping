@@ -1,0 +1,9 @@
+CLASS cyj net/minecraft/client/gui/menu/OpenToLanScreen
+	FIELD a parent Lcyi;
+	FIELD b buttonAllowCommands Lcve;
+	FIELD c buttonGameMode Lcve;
+	FIELD d gameMode Ljava/lang/String;
+	FIELD e allowCommands Z
+	METHOD <init> (Lcyi;)V
+		ARG 1 parent
+	METHOD a updateButtonText ()V

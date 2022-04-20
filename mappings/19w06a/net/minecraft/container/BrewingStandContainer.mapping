@@ -1,0 +1,23 @@
+CLASS ats net/minecraft/container/BrewingStandContainer
+	CLASS ats$a SlotFuel
+		METHOD <init> (Lafx;III)V
+			ARG 1 invSlot
+			ARG 2 xPosition
+			ARG 3 <Position
+		METHOD a_ matches (Laxm;)Z
+	CLASS ats$b SlotIngredient
+		METHOD <init> (Lafx;III)V
+			ARG 1 invSlot
+			ARG 2 xPosition
+			ARG 3 <Position
+	CLASS ats$c SlotPotion
+		METHOD <init> (Lafx;III)V
+			ARG 1 invSlot
+			ARG 2 xPosition
+			ARG 3 <Position
+		METHOD b_ matches (Laxm;)Z
+	FIELD c inventory Lafx;
+	FIELD d propertyDelegate Latw;
+	FIELD e slotIngredient Lavb;
+	METHOD <init> (ILarr;)V
+		ARG 1 syncId

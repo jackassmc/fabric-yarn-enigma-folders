@@ -1,0 +1,8 @@
+CLASS aaf net/minecraft/entity/mob/EntitySkeleton
+	METHOD G getSoundAmbient ()Lnm;
+	METHOD J getLootTableId ()Lkq;
+	METHOD a onDeath (Lrx;)V
+		ARG 0 damageSource
+	METHOD b registerTagUpgraders (Lph;)V
+		ARG 0 handler
+	METHOD bW getSoundDeath ()Lnm;

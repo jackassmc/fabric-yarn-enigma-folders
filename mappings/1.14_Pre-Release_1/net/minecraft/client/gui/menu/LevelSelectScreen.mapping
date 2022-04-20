@@ -1,0 +1,10 @@
+CLASS dcq net/minecraft/client/gui/menu/LevelSelectScreen
+	FIELD a parent Lczi;
+	FIELD b searchBox Lcwm;
+	FIELD d deleteButton Lcwg;
+	FIELD e selectButton Lcwg;
+	FIELD f editButton Lcwg;
+	FIELD g recreateButton Lcwg;
+	FIELD h levelList Ldcr;
+	METHOD <init> (Lczi;)V
+		ARG 1 parent

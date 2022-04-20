@@ -1,0 +1,13 @@
+CLASS bfi net/minecraft/village/Trader
+	METHOD a sendRecipes (Lauv;Ljm;I)V
+	METHOD a useRecipe (Lbfj;)V
+	METHOD a setServerRecipes (Lbfk;)V
+	METHOD dP getExperience ()I
+	METHOD dQ getCurrentCustomer ()Lauv;
+	METHOD dS getRecipes ()Lbfk;
+	METHOD dW getTraderWorld ()Lbgf;
+	METHOD e setCurrentCustomer (Lauv;)V
+		ARG 1 customer
+	METHOD j onSellingItem (Lbaz;)V
+	METHOD q setExperience (I)V
+		ARG 1 experience

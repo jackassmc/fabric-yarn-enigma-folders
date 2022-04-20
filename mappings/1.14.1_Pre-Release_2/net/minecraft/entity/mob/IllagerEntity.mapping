@@ -1,0 +1,6 @@
+CLASS ats net/minecraft/entity/mob/IllagerEntity
+	CLASS ats$a State
+	CLASS ats$b LongDoorInteractGoal
+	METHOD <init> (Laim;Lbhi;)V
+		ARG 1 type
+	METHOD l getState ()Lats$a;

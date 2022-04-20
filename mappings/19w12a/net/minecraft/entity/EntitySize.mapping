@@ -1,0 +1,12 @@
+CLASS ahz net/minecraft/entity/EntitySize
+	FIELD a width F
+	FIELD b height F
+	FIELD c constant Z
+	METHOD a scaled (F)Lahz;
+		ARG 1 ratio
+	METHOD b resizeable (FF)Lahz;
+		ARG 0 x
+		ARG 1 z
+	METHOD c constant (FF)Lahz;
+		ARG 0 x
+		ARG 1 z

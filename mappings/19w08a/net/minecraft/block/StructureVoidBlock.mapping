@@ -1,0 +1,4 @@
+CLASS bnv net/minecraft/block/StructureVoidBlock
+	FIELD a SHAPE Lcoe;
+	METHOD <init> (Lbif$c;)V
+		ARG 1 settings

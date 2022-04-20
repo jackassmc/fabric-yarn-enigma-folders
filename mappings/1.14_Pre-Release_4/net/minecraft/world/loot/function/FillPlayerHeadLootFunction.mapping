@@ -1,0 +1,6 @@
+CLASS cpp net/minecraft/world/loot/function/FillPlayerHeadLootFunction
+	CLASS cpp$a Factory
+	FIELD a entity Lcoj$c;
+	METHOD <init> ([Lcqw;Lcoj$c;)V
+		ARG 1 conditions
+		ARG 2 entity

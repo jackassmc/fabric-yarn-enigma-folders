@@ -1,0 +1,16 @@
+CLASS cpi net/minecraft/world/loot/entry/LootTableEntry
+	CLASS cpi$a Serializer
+	FIELD c id Lqs;
+	METHOD <init> (Lqs;II[Lcra;[Lcpx;)V
+		ARG 1 id
+		ARG 2 weight
+		ARG 3 quality
+		ARG 4 conditions
+		ARG 5 functions
+	METHOD a builder (Lqs;)Lcph$a;
+		ARG 0 id
+	METHOD a (Lqs;II[Lcra;[Lcpx;)Lcph;
+		ARG 1 weight
+		ARG 2 quality
+		ARG 3 conditions
+		ARG 4 functions

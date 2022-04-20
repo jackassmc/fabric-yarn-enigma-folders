@@ -1,0 +1,3 @@
+CLASS blp net/minecraft/block/RedstoneBlock
+	METHOD <init> (Lbhs$c;)V
+		ARG 1 settings

@@ -1,0 +1,2 @@
+CLASS dis net/minecraft/client/particle/WaterSuspendParticle
+	CLASS dis$a UnderwaterFactory

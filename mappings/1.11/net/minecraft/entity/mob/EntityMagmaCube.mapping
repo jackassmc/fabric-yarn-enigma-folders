@@ -1,0 +1,8 @@
+CLASS zy net/minecraft/entity/mob/EntityMagmaCube
+	METHOD J getLootTableId ()Lkq;
+	METHOD aJ isOnFire ()Z
+	METHOD b registerTagUpgraders (Lph;)V
+		ARG 0 handler
+	METHOD bW getSoundDeath ()Lnm;
+	METHOD e handleFallDamage (FF)V
+		ARG 0 fallDistance

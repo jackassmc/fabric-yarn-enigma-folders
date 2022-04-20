@@ -1,0 +1,50 @@
+CLASS adt net/minecraft/entity/vehicle/EntityBoat
+	CLASS adt$b BoatType
+		FIELD a OAK Ladt$b;
+		FIELD b SPRUCE Ladt$b;
+		FIELD c BIRCH Ladt$b;
+		FIELD d JUNGLE Ladt$b;
+		FIELD e ACACIA Ladt$b;
+		FIELD f DARK_OAK Ladt$b;
+		FIELD g name Ljava/lang/String;
+		FIELD h id I
+		METHOD a getName ()Ljava/lang/String;
+		METHOD a getType (I)Ladt$b;
+		METHOD a getType (Ljava/lang/String;)Ladt$b;
+		METHOD b getId ()I
+	FIELD d BOAT_TYPE Llx;
+	METHOD <init> (Lali;DDD)V
+		ARG 0 world
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD B_ update ()V
+	METHOD a setPositionAndRotations (DDDFFIZ)V
+		ARG 0 x
+		ARG 1 y
+		ARG 2 z
+		ARG 3 yaw
+		ARG 4 pitch
+	METHOD a setBoatType (Ladt$b;)V
+		ARG 0 value
+	METHOD a deserializeCustomData (Lfc;)V
+		ARG 0 tag
+	METHOD a damage (Ltm;F)Z
+		ARG 0 source
+		ARG 1 damage
+	METHOD a copyEntityData (Lub;)V
+		ARG 0 entity
+	METHOD aB getMountedHeightOffset ()D
+	METHOD at doesCollide ()Z
+	METHOD b interact (Lacu;Lsw;)Z
+		ARG 0 player
+		ARG 1 hand
+	METHOD b serializeCustomData (Lfc;)V
+		ARG 0 tag
+	METHOD i initDataTracker ()V
+	METHOD i pushAwayFrom (Lub;)V
+		ARG 0 other
+	METHOD j asItem ()Lahd;
+	METHOD q canAddPassenger (Lub;)Z
+		ARG 0 entity
+	METHOD r getBoatType ()Ladt$b;

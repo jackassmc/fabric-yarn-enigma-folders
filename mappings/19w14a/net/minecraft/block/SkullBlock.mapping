@@ -1,0 +1,15 @@
+CLASS bqv net/minecraft/block/SkullBlock
+	CLASS bqv$a SkullType
+	CLASS bqv$b Type
+		FIELD a SKELETON Lbqv$b;
+		FIELD b WITHER_SKELETON Lbqv$b;
+		FIELD c PLAYER Lbqv$b;
+		FIELD d ZOMBIE Lbqv$b;
+		FIELD e CREEPER Lbqv$b;
+		FIELD f DRAGON Lbqv$b;
+	FIELD a ROTATION Lbvy;
+	FIELD b SHAPE Lcsc;
+	METHOD h (Lbuy;Lbgh;Lev;)Lcsc;
+		ARG 1 state
+		ARG 2 view
+		ARG 3 pos

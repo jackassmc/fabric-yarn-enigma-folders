@@ -1,0 +1,3 @@
+CLASS brr net/minecraft/block/StoneButtonBlock
+	METHOD <init> (Lbme$c;)V
+		ARG 1 settings

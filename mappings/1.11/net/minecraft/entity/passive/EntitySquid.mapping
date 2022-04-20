@@ -1,0 +1,15 @@
+CLASS xg net/minecraft/entity/passive/EntitySquid
+	CLASS xg$a
+		METHOD a canStart ()Z
+		METHOD e tick ()V
+	METHOD G getSoundAmbient ()Lnm;
+	METHOD J getLootTableId ()Lkq;
+	METHOD b registerTagUpgraders (Lph;)V
+		ARG 0 handler
+	METHOD bE initAttributes ()V
+	METHOD bW getSoundDeath ()Lnm;
+	METHOD bX getSoundHurt ()Lnm;
+	METHOD bq getEyeHeight ()F
+	METHOD ci getSoundVolume ()F
+	METHOD n updateMovement ()V
+	METHOD r initAi ()V

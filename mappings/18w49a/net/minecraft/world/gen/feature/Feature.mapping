@@ -1,0 +1,32 @@
+CLASS bue net/minecraft/world/gen/feature/Feature
+	FIELD F DEFAULT_FLOWER Lbuh;
+	FIELD G FOREST_FLOWER Lbuh;
+	FIELD H PLAIN_FLOWER Lbuh;
+	FIELD I SWAMP_FLOWER Lbuh;
+	FIELD J GENERAL_FOREST_FLOWER Lbuh;
+	FIELD a factory Ljava/util/function/Function;
+	FIELD aN BONUS_CHEST Lbsv;
+	FIELD aO STRUCTURES Lcom/google/common/collect/BiMap;
+	FIELD aQ emitNeighborBlockUpdates Z
+	FIELD b VILLAGE Lbxk;
+	FIELD c PILLAGER_OUTPOST Lbxk;
+	FIELD d MINESHAFT Lbxk;
+	FIELD e WOODLAND_MANSION Lbxk;
+	FIELD f JUNGLE_TEMPLE Lbxk;
+	FIELD g DESERT_PYRAMID Lbxk;
+	FIELD h IGLOO Lbxk;
+	FIELD i SHIPWRECK Lbxk;
+	FIELD j SWAMP_HUT Lbxo;
+	FIELD k STRONGHOLD Lbxk;
+	FIELD l OCEAN_MONUMENT Lbxk;
+	FIELD m OCEAN_RUIN Lbxk;
+	FIELD n NETHER_BRIDGE Lbxk;
+	FIELD o END_CITY Lbxk;
+	FIELD p BURIED_TREASURE Lbxk;
+	FIELD q NEW_VILLAGE Lbxk;
+	METHOD <clinit> ()V
+	METHOD a generate (Lbat;Lbqa;Ljava/util/Random;Let;Lbuf;)Z
+		ARG 1 world
+		ARG 3 random
+	METHOD a deserialize (Lcom/mojang/datafixers/Dynamic;)Lbuf;
+	METHOD a register (Ljava/lang/String;Lbue;)Lbue;

@@ -1,0 +1,3 @@
+CLASS cr net/minecraft/command/arguments/NbtPathArgumentType
+	FIELD c EXAMPLES Ljava/util/Collection;
+	METHOD a create ()Lcr;

@@ -1,0 +1,4 @@
+CLASS none/ra net/minecraft/util/Hand
+	FIELD a MAIN Lnone/ra;
+	FIELD b OFF Lnone/ra;
+	METHOD values values ()[Lnone/ra;

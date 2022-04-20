@@ -1,0 +1,7 @@
+CLASS cll net/minecraft/client/render/Tessellator
+	FIELD a buffer Lcli;
+	FIELD b renderer Lclj;
+	FIELD c INSTANCE Lcll;
+	METHOD a getInstance ()Lcll;
+	METHOD b draw ()V
+	METHOD c getVertexBuffer ()Lcli;

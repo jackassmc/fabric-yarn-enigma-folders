@@ -1,0 +1,5 @@
+CLASS bnf net/minecraft/block/entity/JigsawBlockEntity
+	METHOD a toTag (Lhq;)Lhq;
+	METHOD ab_ toUpdatePacket ()Lkc;
+	METHOD ac_ toInitialChunkDataTag ()Lhq;
+	METHOD b fromTag (Lhq;)V

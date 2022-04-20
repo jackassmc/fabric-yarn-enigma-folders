@@ -1,0 +1,3 @@
+CLASS bpj net/minecraft/block/MagmaBlock
+	METHOD <init> (Lbma$c;)V
+		ARG 1 settings

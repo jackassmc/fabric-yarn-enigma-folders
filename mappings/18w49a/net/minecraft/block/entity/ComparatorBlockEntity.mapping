@@ -1,0 +1,6 @@
+CLASS bmv net/minecraft/block/entity/ComparatorBlockEntity
+	FIELD a outputSignal I
+	METHOD a setOutputSignal (I)V
+	METHOD a toTag (Lhq;)Lhq;
+	METHOD b fromTag (Lhq;)V
+	METHOD c getOutputSignal ()I

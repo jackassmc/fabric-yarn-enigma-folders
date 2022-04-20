@@ -1,0 +1,17 @@
+CLASS boy net/minecraft/block/entity/JigsawBlockEntity
+	FIELD a attachmentType Lqe;
+	FIELD b targetPool Lqe;
+	FIELD c finalState Ljava/lang/String;
+	METHOD a toUpdatePacket ()Lke;
+	METHOD a fromTag (Lhs;)V
+	METHOD a setFinalState (Ljava/lang/String;)V
+		ARG 1 value
+	METHOD a setAttachmentType (Lqe;)V
+		ARG 1 value
+	METHOD b toInitialChunkDataTag ()Lhs;
+	METHOD b toTag (Lhs;)Lhs;
+	METHOD b setTargetPool (Lqe;)V
+		ARG 1 value
+	METHOD c getAttachmentType ()Lqe;
+	METHOD d getTargetPool ()Lqe;
+	METHOD f getFinalState ()Ljava/lang/String;

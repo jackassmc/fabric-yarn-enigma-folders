@@ -1,0 +1,3 @@
+CLASS bqh net/minecraft/block/StainedGlassPaneBlock
+	FIELD i color Lazo;
+	METHOD d getColor ()Lazo;

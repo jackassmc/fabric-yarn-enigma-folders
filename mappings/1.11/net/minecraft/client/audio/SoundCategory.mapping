@@ -1,0 +1,19 @@
+CLASS no net/minecraft/client/audio/SoundCategory
+	FIELD a MASTER Lno;
+	FIELD b MUSIC Lno;
+	FIELD c RECORD Lno;
+	FIELD d WEATHER Lno;
+	FIELD e BLOCK Lno;
+	FIELD f HOSTILE Lno;
+	FIELD g NEUTRAL Lno;
+	FIELD h PLAYER Lno;
+	FIELD i AMBIENT Lno;
+	FIELD j VOICE Lno;
+	FIELD k REGISTRY Ljava/util/Map;
+	FIELD l name Ljava/lang/String;
+	METHOD <init> (Ljava/lang/String;ILjava/lang/String;)V
+		ARG 0 name
+	METHOD a getName ()Ljava/lang/String;
+	METHOD a getCategoryByName (Ljava/lang/String;)Lno;
+		ARG 0 name
+	METHOD b getCategoryNames ()Ljava/util/Set;

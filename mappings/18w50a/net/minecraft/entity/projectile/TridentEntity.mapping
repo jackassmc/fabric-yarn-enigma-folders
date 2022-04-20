@@ -1,0 +1,14 @@
+CLASS asc net/minecraft/entity/projectile/TridentEntity
+	FIELD ax tridentStack Lawo;
+	FIELD ay dealtDamage Z
+	METHOD W_ update ()V
+	METHOD a readCustomDataFromTag (Lhs;)V
+	METHOD b onPlayerCollision (Larb;)V
+	METHOD b writeCustomDataToTag (Lhs;)V
+	METHOD g shouldRenderFrom (DDD)Z
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+	METHOD l getSound ()Lxm;
+	METHOD n asItemStack ()Lawo;
+	METHOD y_ initDataTracker ()V

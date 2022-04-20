@@ -1,0 +1,8 @@
+CLASS bnp net/minecraft/block/CoralBlockBlock
+	FIELD a deadCoralBlock Lbmr;
+	METHOD <init> (Lbmr;Lbmr$c;)V
+		ARG 1 deadCoralBlock
+		ARG 2 settings
+	METHOD a isInWater (Lbgx;Lev;)Z
+		ARG 1 world
+		ARG 2 pos

@@ -1,0 +1,6 @@
+CLASS md net/minecraft/util/Identifier
+	FIELD a namespace Ljava/lang/String;
+	FIELD b name Ljava/lang/String;
+	METHOD a getName ()Ljava/lang/String;
+	METHOD a split (Ljava/lang/String;)[Ljava/lang/String;
+	METHOD b getNamespace ()Ljava/lang/String;

@@ -1,0 +1,8 @@
+CLASS cts net/minecraft/client/util/EnchantingPhrases
+	FIELD a INSTANCE Lcts;
+	FIELD b random Ljava/util/Random;
+	FIELD c phrases [Ljava/lang/String;
+	METHOD a getInstance ()Lcts;
+	METHOD a setSeed (J)V
+	METHOD a generatePhrase (Lcou;I)Ljava/lang/String;
+		ARG 1 fontRenderer

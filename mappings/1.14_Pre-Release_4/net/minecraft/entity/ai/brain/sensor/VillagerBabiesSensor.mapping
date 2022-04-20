@@ -1,0 +1,7 @@
+CLASS apv net/minecraft/entity/ai/brain/sensor/VillagerBabiesSensor
+	METHOD a getVisibleVillagerBabies (Lain;)Ljava/util/List;
+		ARG 1 entities
+	METHOD b isVillagerBaby (Lain;)Z
+		ARG 1 entity
+	METHOD c getVisibleMobs (Lain;)Ljava/util/List;
+		ARG 1 entity

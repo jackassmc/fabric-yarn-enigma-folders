@@ -1,0 +1,3 @@
+CLASS cln net/minecraft/fluid/WaterFluid
+	CLASS a Flowing
+	CLASS b Still

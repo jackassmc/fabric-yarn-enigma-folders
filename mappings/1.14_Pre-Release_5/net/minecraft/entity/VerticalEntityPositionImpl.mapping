@@ -1,0 +1,11 @@
+CLASS csf net/minecraft/entity/VerticalEntityPositionImpl
+	CLASS csf$1
+		METHOD <init> (ZDLbbv;)V
+			ARG 1 sneaking
+	FIELD a MIN_VALUE Lcsa;
+	FIELD b sneaking Z
+	FIELD c posY D
+	METHOD <init> (Laif;)V
+		ARG 1 entity
+	METHOD <init> (ZDLbbv;)V
+		ARG 1 sneaking

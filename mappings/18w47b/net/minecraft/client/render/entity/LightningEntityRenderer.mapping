@@ -1,0 +1,3 @@
+CLASS dgw net/minecraft/client/render/entity/LightningEntityRenderer
+	METHOD a getTexture (Lagf;)Lpy;
+	METHOD a getTexture (Laof;)Lpy;

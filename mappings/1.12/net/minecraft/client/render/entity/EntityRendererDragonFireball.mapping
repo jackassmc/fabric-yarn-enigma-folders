@@ -1,0 +1,6 @@
+CLASS byx net/minecraft/client/render/entity/EntityRendererDragonFireball
+	FIELD a SKIN Lnd;
+	METHOD a getTexture (Laeg;)Lnd;
+		ARG 0 model
+	METHOD a getTexture (Lve;)Lnd;
+		ARG 0 model

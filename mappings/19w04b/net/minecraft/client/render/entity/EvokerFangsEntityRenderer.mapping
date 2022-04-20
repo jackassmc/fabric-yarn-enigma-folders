@@ -1,0 +1,6 @@
+CLASS djt net/minecraft/client/render/entity/EvokerFangsEntityRenderer
+	FIELD f model Lczi;
+	METHOD a (Larr;DDDFF)V
+		ARG 1 model
+		ARG 2 x
+		ARG 4 y

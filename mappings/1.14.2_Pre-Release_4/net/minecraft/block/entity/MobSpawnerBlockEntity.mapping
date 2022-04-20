@@ -1,0 +1,3 @@
+CLASS bum net/minecraft/block/entity/MobSpawnerBlockEntity
+	FIELD a logic Lbgp;
+	METHOD d getLogic ()Lbgp;

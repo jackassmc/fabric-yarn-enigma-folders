@@ -1,0 +1,6 @@
+CLASS cdv net/minecraft/world/gen/feature/SpringFeatureConfig
+	FIELD a state Lckp;
+	METHOD <init> (Lckp;)V
+		ARG 1 state
+	METHOD a deserialize (Lcom/mojang/datafixers/Dynamic;)Lcdv;
+		ARG 0 dynamic

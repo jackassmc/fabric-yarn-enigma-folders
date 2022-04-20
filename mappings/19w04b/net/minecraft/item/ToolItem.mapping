@@ -1,0 +1,5 @@
+CLASS ayk net/minecraft/item/ToolItem
+	FIELD a material Layj;
+	METHOD <init> (Layj;Lawy$a;)V
+		ARG 1 material
+	METHOD e getType ()Layj;

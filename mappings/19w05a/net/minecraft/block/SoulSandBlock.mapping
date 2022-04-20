@@ -1,0 +1,4 @@
+CLASS bmu net/minecraft/block/SoulSandBlock
+	FIELD a COLLISION_SHAPE Lcnq;
+	METHOD <init> (Lbhs$c;)V
+		ARG 1 settings

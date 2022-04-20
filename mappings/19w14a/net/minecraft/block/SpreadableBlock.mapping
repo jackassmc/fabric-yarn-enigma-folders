@@ -1,0 +1,3 @@
+CLASS brg net/minecraft/block/SpreadableBlock
+	METHOD <init> (Lbma$c;)V
+		ARG 1 settings

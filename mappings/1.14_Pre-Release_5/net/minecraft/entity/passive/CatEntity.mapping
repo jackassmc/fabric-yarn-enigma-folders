@@ -1,0 +1,47 @@
+CLASS aqs net/minecraft/entity/passive/CatEntity
+	CLASS aqs$a CatFleeGoal
+		FIELD i entity Laqs;
+	CLASS aqs$b SleepWithOwnerGoal
+		FIELD a entity Laqs;
+		FIELD b owner Lavx;
+		FIELD c bedPos Lev;
+		FIELD d ticksOnBed I
+		METHOD h dropMorningGifts ()V
+	CLASS aqs$c CatTemptGoal
+		FIELD d cat Laqs;
+	FIELD bD TEXTURES Ljava/util/Map;
+	FIELD bE TAMING_INGREDIENT Lbef;
+	FIELD bF CAT_TYPE Lqh;
+	FIELD bG SLEEPING_WITH_OWNER Lqh;
+	FIELD bH HEAD_DOWN Lqh;
+	FIELD bI COLLAR_COLOR Lqh;
+	FIELD bJ fleeGoal Laqs$a;
+	FIELD bK temptGoal Laof;
+	FIELD bL sleepAnimation F
+	FIELD bM prevSleepAnimation F
+	FIELD bN tailCurlAnimation F
+	FIELD bO prevTailCurlAnimation F
+	FIELD bP headDownAnimation F
+	FIELD bQ prevHeadDownAniamtion F
+	METHOD a setCollarColor (Lbax;)V
+	METHOD ee getTexture ()Lqs;
+	METHOD ef getCatType ()I
+	METHOD eg isSleepingWithOwner ()Z
+	METHOD eh isHeadDown ()Z
+	METHOD ei getCollarColor ()Lbax;
+	METHOD ej hiss ()V
+	METHOD ek updateAnimations ()V
+	METHOD el updateSleepAnimation ()V
+	METHOD em updateHeadDownAnimation ()V
+	METHOD r setCatType (I)V
+		ARG 1 type
+	METHOD u setSleepingWithOwner (Z)V
+		ARG 1 sleeping
+	METHOD v getSleepAnimation (F)F
+		ARG 1 tickDelta
+	METHOD v setHeadDown (Z)V
+		ARG 1 headDown
+	METHOD w getTailCurlAnimation (F)F
+		ARG 1 tickDelta
+	METHOD x getHeadDownAnimation (F)F
+		ARG 1 tickDelta

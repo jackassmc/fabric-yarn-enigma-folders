@@ -1,0 +1,17 @@
+CLASS bbz net/minecraft/world/RayTraceContext
+	CLASS bbz$a ShapeType
+		FIELD c provider Lbbz$c;
+	CLASS bbz$b FluidHandling
+		FIELD a NONE Lbbz$b;
+		FIELD d predicate Ljava/util/function/Predicate;
+		METHOD a handled (Lcfw;)Z
+	CLASS bbz$c ShapeProvider
+	FIELD a start Lcmr;
+	FIELD b end Lcmr;
+	FIELD c shapeType Lbbz$a;
+	FIELD d fluid Lbbz$b;
+	FIELD e entityPosition Lcmw;
+	METHOD a getEnd ()Lcmr;
+	METHOD a getBlockShape (Lbqk;Lbbw;Let;)Lcnl;
+	METHOD a getFluidShape (Lcfw;Lbbw;Let;)Lcnl;
+	METHOD b getStart ()Lcmr;

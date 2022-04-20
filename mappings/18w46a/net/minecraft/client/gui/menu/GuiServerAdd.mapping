@@ -1,0 +1,24 @@
+CLASS cqq net/minecraft/client/gui/menu/GuiServerAdd
+	CLASS cqq$1
+		METHOD a onPressed (DD)V
+			ARG 0 mouseX
+	CLASS cqq$2
+		METHOD a onPressed (DD)V
+			ARG 0 mouseX
+	CLASS cqq$3
+		METHOD a onPressed (DD)V
+			ARG 0 mouseX
+	FIELD f parent Lcrc;
+	METHOD a draw (IIF)V
+		ARG 1 mouseX
+		ARG 2 mouseY
+	METHOD b onScaleChanged (Lcmx;II)V
+		ARG 1 game
+		ARG 2 width
+	METHOD c onInitialized ()V
+	METHOD f update ()V
+	METHOD g close ()V
+	METHOD keyPressed (III)Z
+		ARG 1 keyCode
+		ARG 2 scanCode
+	METHOD n onClosed ()V

@@ -1,0 +1,3 @@
+CLASS cnu net/minecraft/world/PlayerSaveHandler
+	METHOD a savePlayerData (Lavm;)V
+	METHOD b loadPlayerData (Lavm;)Lib;

@@ -1,0 +1,12 @@
+CLASS cjj net/minecraft/world/gen/surfacebuilder/BadlandsSurfaceBuilder
+	FIELD S WHITE_TERACOTTA Lbvh;
+	FIELD T ORANGE_TERRACOTTA Lbvh;
+	FIELD U TERACOTTA Lbvh;
+	FIELD V YELLOW_TERACOTTA Lbvh;
+	FIELD W BROWN_TERACOTTA Lbvh;
+	FIELD X RED_TERACOTTA Lbvh;
+	FIELD Y LIGHT_GRAY_TERACOTTA Lbvh;
+	FIELD a layerBlocks [Lbvh;
+	FIELD b seed J
+	METHOD b initLayerBlocks (J)V
+		ARG 1 seed

@@ -1,0 +1,16 @@
+CLASS baa net/minecraft/item/BlockItem
+	FIELD a block Lbmh;
+	METHOD a place (Lbab;)Lagy;
+	METHOD a setBlockState (Lbab;Lbvf;)Z
+	METHOD a copyItemTagToBlockEntity (Lbhd;Lavu;Lev;Lbbx;)Z
+		ARG 0 world
+		ARG 1 player
+		ARG 2 pos
+		ARG 3 stack
+	METHOD a afterBlockPlaced (Lev;Lbhd;Lavu;Lbbx;Lbvf;)Z
+	METHOD a registerBlockItemMap (Ljava/util/Map;Lbbs;)V
+		ARG 1 map
+	METHOD b getPlacementContext (Lbab;)Lbab;
+	METHOD b canPlace (Lbab;Lbvf;)Z
+	METHOD c getBlockState (Lbab;)Lbvf;
+	METHOD e getBlock ()Lbmh;

@@ -1,0 +1,2 @@
+CLASS cos net/minecraft/world/loot/function/SetContentsLootFunction
+	CLASS cos$b Factory

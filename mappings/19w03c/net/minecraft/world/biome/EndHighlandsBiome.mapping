@@ -1,0 +1,2 @@
+CLASS bed net/minecraft/world/biome/EndHighlandsBiome
+	METHOD a getSkyColor (F)I

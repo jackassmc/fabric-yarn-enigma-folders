@@ -1,0 +1,22 @@
+CLASS btc net/minecraft/client/render/chunk/ChunkRenderer
+	FIELD a chunkUpdateCount I
+	FIELD b chunkRenderData Lbsz;
+	FIELD c boundingBox Lbdr;
+	FIELD d world Lajq;
+	FIELD e renderer Lbqk;
+	FIELD f chunkRenderLock Ljava/util/concurrent/locks/ReentrantLock;
+	FIELD h chunkRenderDataTask Lbsw;
+	FIELD i blockEntities Ljava/util/Set;
+	FIELD l buffers [Lbzf;
+	FIELD r chunkCache Lajz;
+	METHOD <init> (Lajq;Lbqk;I)V
+		ARG 0 world
+		ARG 1 renderer
+	METHOD a (Lbpw;Lco;)V
+		ARG 0 vertexBuffer
+	METHOD a (Lbsz;)V
+		ARG 0 chunkRenderData
+	METHOD c getChunkRenderLock ()Ljava/util/concurrent/locks/ReentrantLock;
+	METHOD f distanceToPlayerSquared ()D
+	METHOD h getChunkRenderData ()Lbsz;
+	METHOD p getWorld ()Lajq;

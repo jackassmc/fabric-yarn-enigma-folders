@@ -1,0 +1,12 @@
+CLASS awy net/minecraft/world/gen/decorator/DecoratorTreeMegaSpruce
+	FIELD e SPRUCE_LOG Latj;
+	FIELD f SPRUCE_LEAVES Latj;
+	FIELD g PODZOL Latj;
+	METHOD a (Lajq;Ljava/util/Random;Lco;)V
+		ARG 0 world
+		ARG 1 random
+		ARG 2 pos
+	METHOD b generate (Lajq;Ljava/util/Random;Lco;)Z
+		ARG 0 world
+		ARG 1 random
+		ARG 2 pos

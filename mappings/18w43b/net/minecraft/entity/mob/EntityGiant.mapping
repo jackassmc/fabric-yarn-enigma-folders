@@ -1,0 +1,4 @@
+CLASS ant net/minecraft/entity/mob/EntityGiant
+	METHOD G getLootTableId ()Lpt;
+	METHOD bH getEyeHeight ()F
+	METHOD cb initAttributes ()V

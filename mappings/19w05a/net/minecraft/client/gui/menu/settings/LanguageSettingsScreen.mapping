@@ -1,0 +1,6 @@
+CLASS cua net/minecraft/client/gui/menu/settings/LanguageSettingsScreen
+	FIELD g settings Lcqf;
+	FIELD h languageManager Ldpm;
+	METHOD <init> (Lcuk;Lcqf;Ldpm;)V
+		ARG 1 parent
+		ARG 2 settings

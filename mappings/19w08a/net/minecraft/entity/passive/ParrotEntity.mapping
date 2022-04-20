@@ -1,0 +1,5 @@
+CLASS ang net/minecraft/entity/passive/ParrotEntity
+	FIELD bM ATTR_VARIANT Lpx;
+	FIELD bP TAMING_INGREDIENTS Ljava/util/Set;
+	METHOD dU getVariant ()I
+	METHOD q setVariant (I)V

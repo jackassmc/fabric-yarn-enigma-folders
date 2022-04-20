@@ -1,0 +1,3 @@
+CLASS bbe net/minecraft/world/biome/BiomeOceanDeepFrozen
+	METHOD c getTemperature (Leq;)F
+		ARG 1 pos

@@ -1,0 +1,17 @@
+CLASS cnm net/minecraft/client/gui/menu/GuiSettings
+	FIELD a title Ljava/lang/String;
+	FIELD g parent Lcns;
+	FIELD h settings Lcjm;
+	FIELD i difficultyButton Lckj;
+	FIELD s lockDifficultyButton Lcku;
+	METHOD <init> (Lcns;Lcjm;)V
+		ARG 0 parent
+		ARG 1 settings
+	METHOD a draw (IIF)V
+		ARG 0 mouseX
+		ARG 1 mouseY
+		ARG 2 delta
+	METHOD c init ()V
+	METHOD confirmResult handle (ZI)V
+		ARG 0 result
+		ARG 1 callbackId

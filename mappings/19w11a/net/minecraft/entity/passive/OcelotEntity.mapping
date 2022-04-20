@@ -1,0 +1,5 @@
+CLASS aps net/minecraft/entity/passive/OcelotEntity
+	CLASS aps$a net/minecraft/entity/passive/OcelotEntity$OcelotFleeGoal
+	FIELD bA TAMING_INGREDIENT Lbcx;
+	METHOD dP isTrusting ()Z
+	METHOD q setTrusting (Z)V

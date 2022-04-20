@@ -1,0 +1,3 @@
+CLASS bll net/minecraft/block/BarrierBlock
+	METHOD <init> (Lbma$c;)V
+		ARG 1 settings

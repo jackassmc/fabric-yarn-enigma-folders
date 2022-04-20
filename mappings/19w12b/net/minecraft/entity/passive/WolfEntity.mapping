@@ -1,0 +1,6 @@
+CLASS aqq net/minecraft/entity/passive/WolfEntity
+	CLASS aqq$a WolfFleeGoal
+	FIELD bF WOLF_HEALTH Lqf;
+	FIELD bH COLLAR_COLOR Lqf;
+	METHOD ea isAngry ()Z
+	METHOD u setAngry (Z)V

@@ -1,0 +1,15 @@
+CLASS cik net/minecraft/entity/ai/pathing/PathNodeNavigator
+	FIELD a minHeap Lcid;
+	METHOD a pathfind (Lbcb;Laho;DDDF)Lcii;
+		ARG 1 blockView
+		ARG 2 entity
+		ARG 3 x
+		ARG 5 y
+	METHOD a pathfind (Lbcb;Laho;Lahe;F)Lcii;
+		ARG 1 blockView
+		ARG 2 entity
+		ARG 3 target
+	METHOD a pathfind (Lbcb;Laho;Let;F)Lcii;
+		ARG 1 blockView
+		ARG 2 entity
+		ARG 3 target

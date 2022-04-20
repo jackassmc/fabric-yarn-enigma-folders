@@ -1,0 +1,3 @@
+CLASS afz net/minecraft/util/Hand
+	FIELD a MAIN Lafz;
+	FIELD b OFF Lafz;

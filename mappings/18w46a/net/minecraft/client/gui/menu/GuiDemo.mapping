@@ -1,0 +1,13 @@
+CLASS cqn net/minecraft/client/gui/menu/GuiDemo
+	CLASS cqn$1
+		METHOD a onPressed (DD)V
+			ARG 0 mouseX
+	CLASS cqn$2
+		METHOD a onPressed (DD)V
+			ARG 0 mouseX
+	FIELD a DEMO_BG Lpx;
+	METHOD a draw (IIF)V
+		ARG 1 mouseX
+		ARG 2 mouseY
+	METHOD c onInitialized ()V
+	METHOD d drawBackground ()V

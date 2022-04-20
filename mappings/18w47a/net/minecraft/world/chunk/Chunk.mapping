@@ -1,0 +1,59 @@
+CLASS bqn net/minecraft/world/chunk/Chunk
+	CLASS bqn$a AccessType
+		FIELD a CREATE Lbqn$a;
+		FIELD c GET Lbqn$a;
+	FIELD a EMPTY_SECTION Lbqo;
+	FIELD b LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD c sections [Lbqo;
+	FIELD d biomeArray [Lbbl;
+	FIELD e pendingBlockEntityTags Ljava/util/Map;
+	FIELD f loadedToWorld Z
+	FIELD g world Lbam;
+	FIELD j blockEntityMap Ljava/util/Map;
+	FIELD k entitySections [Lxz;
+	FIELD s dirty Z
+	FIELD w pos Lbaa;
+	METHOD <init> (Lbam;II[Lbbl;Lbqx;Lbbd;Lbbd;J[Lbqo;Ljava/util/function/Consumer;)V
+		ARG 4 biomeArray
+	METHOD A getBlockEntityMap ()Ljava/util/Map;
+	METHOD B getEntitySectionArray ()[Lxz;
+	METHOD a getFluidState (III)Lcdg;
+		ARG 1 x
+		ARG 2 y
+	METHOD a addEntity (Lage;)V
+	METHOD a remove (Lage;I)V
+		ARG 1 entity
+	METHOD a appendEntities (Lage;Lckc;Ljava/util/List;Ljava/util/function/Predicate;)V
+		ARG 1 except
+		ARG 2 box
+		ARG 3 entityList
+	METHOD a addBlockEntity (Lbmk;)V
+	METHOD a setBlockEntity (Les;Lbmk;)V
+		ARG 1 pos
+	METHOD a setBlockState (Les;Lboh;Z)Lboh;
+		ARG 1 pos
+		ARG 2 state
+	METHOD a getBlockEntity (Les;Lbqn$a;)Lbmk;
+		ARG 1 pos
+	METHOD a loadBlockEntity (Les;Lho;)Lbmk;
+		ARG 1 pos
+	METHOD a addPendingBlockEntityTag (Lho;)V
+	METHOD a appendEntities (Ljava/lang/Class;Lckc;Ljava/util/List;Ljava/util/function/Predicate;)V
+		ARG 1 entityClass
+		ARG 2 box
+		ARG 3 entityList
+	METHOD b remove (Lage;)V
+	METHOD b getBlockState (Les;)Lboh;
+	METHOD c getFluidState (Les;)Lcdg;
+	METHOD c setLoadedToWorld (Z)V
+	METHOD d getSectionArray ()[Lbqo;
+	METHOD d removeBlockEntity (Les;)V
+	METHOD f getBlockEntity (Les;)Lbmk;
+	METHOD g getPos ()Lbaa;
+	METHOD h createBlockEntity (Les;)Lbmk;
+	METHOD i getBiomeArray ()[Lbbl;
+	METHOD s loadToWorld ()V
+	METHOD t unloadFromWorld ()V
+	METHOD u markDirty ()V
+	METHOD y isLoadedToWorld ()Z
+	METHOD z getWorld ()Lbam;

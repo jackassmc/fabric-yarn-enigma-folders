@@ -1,0 +1,17 @@
+CLASS ag net/minecraft/advancement/criterion/ChangedDimensionCriterion
+	CLASS ag$a Handler
+		FIELD a manager Lrb;
+		FIELD b conditions Ljava/util/Set;
+		METHOD a isEmpty ()Z
+		METHOD a handle (Lbye;Lbye;)V
+		METHOD a addCondition (Lx$a;)V
+		METHOD b removeCondition (Lx$a;)V
+	CLASS ag$b Conditions
+		FIELD a from Lbye;
+		FIELD b to Lbye;
+		METHOD a to (Lbye;)Lag$b;
+		METHOD b matches (Lbye;Lbye;)Z
+	FIELD a ID Lqs;
+	FIELD b handlers Ljava/util/Map;
+	METHOD a handle (Lvh;Lbye;Lbye;)V
+		ARG 1 player

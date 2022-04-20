@@ -1,0 +1,3 @@
+CLASS ctf net/minecraft/client/gui/menu/ListEntryLocalScanProgress
+	FIELD c game Lcnd;
+	METHOD a drawEntry (IIIIZF)V

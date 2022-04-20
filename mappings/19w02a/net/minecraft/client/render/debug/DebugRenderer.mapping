@@ -1,0 +1,24 @@
+CLASS dif net/minecraft/client/render/debug/DebugRenderer
+	CLASS dif$a DebugRenderer
+		METHOD a render (FJ)V
+	FIELD a pathfindingDebugRenderer Ldij;
+	FIELD b waterDebugRenderer Ldif$a;
+	FIELD c chunkBorderDebugRenderer Ldif$a;
+	FIELD d heightmapDebugRenderer Ldif$a;
+	FIELD e voxelDebugRenderer Ldif$a;
+	FIELD f neighborUpdateDebugRenderer Ldif$a;
+	FIELD g caveDebugRenderer Ldib;
+	FIELD h structureDebugRenderer Ldil;
+	FIELD j worldGenAttemptDebugRenderer Ldif$a;
+	FIELD m showChunkBorder Z
+	FIELD n showPathfinding Z
+	FIELD o showWater Z
+	FIELD p showHeightmap Z
+	FIELD q showVoxels Z
+	FIELD r showNeighborUpdates Z
+	FIELD s showCaves Z
+	FIELD t showStructures Z
+	FIELD v showWorldGenAttempts Z
+	METHOD a shouldRender ()Z
+	METHOD a renderDebuggers (FJ)V
+	METHOD b toggleShowChunkBorder ()Z

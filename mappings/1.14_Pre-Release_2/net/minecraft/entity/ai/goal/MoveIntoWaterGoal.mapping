@@ -1,0 +1,2 @@
+CLASS aob net/minecraft/entity/ai/goal/MoveIntoWaterGoal
+	FIELD a owner Lait;

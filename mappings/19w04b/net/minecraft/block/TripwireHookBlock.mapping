@@ -1,0 +1,4 @@
+CLASS bno net/minecraft/block/TripwireHookBlock
+	FIELD a FACING Lbrf;
+	METHOD <init> (Lbhn$c;)V
+		ARG 1 settings

@@ -1,0 +1,6 @@
+CLASS dlm net/minecraft/client/render/model/json/AndMultipartModelSelector
+	FIELD c selectors Ljava/lang/Iterable;
+	METHOD <init> (Ljava/lang/Iterable;)V
+		ARG 1 selectors
+	METHOD getPredicate (Lbvd;)Ljava/util/function/Predicate;
+		ARG 1 stateFactory

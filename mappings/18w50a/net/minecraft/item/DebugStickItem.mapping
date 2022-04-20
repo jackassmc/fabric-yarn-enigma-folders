@@ -1,0 +1,4 @@
+CLASS avi net/minecraft/item/DebugStickItem
+	METHOD a useOnBlock (Layb;)Lafq;
+	METHOD a beforeBlockBreak (Lbpm;Lbbp;Let;Larb;)Z
+	METHOD e_ hasEnchantmentGlow (Lawo;)Z

@@ -1,0 +1,4 @@
+CLASS app net/minecraft/entity/mob/IllagerEntity
+	CLASS app$a State
+	METHOD <init> (Lahm;Lbcu;)V
+		ARG 1 type

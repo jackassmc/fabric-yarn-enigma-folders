@@ -1,0 +1,6 @@
+CLASS dlp net/minecraft/client/render/entity/SpiderEntityRenderer
+	FIELD a SKIN Lqe;
+	METHOD a getTexture (Lahd;)Lqe;
+	METHOD a getTexture (Laqp;)Lqe;
+	METHOD b getLyingAngle (Lahm;)F
+	METHOD b getLyingAngle (Laqp;)F

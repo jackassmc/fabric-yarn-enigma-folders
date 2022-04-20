@@ -1,0 +1,37 @@
+CLASS xd net/minecraft/entity/passive/EntityRabbit
+	CLASS xd$b
+		METHOD a canStart ()Z
+	CLASS xd$d
+		METHOD b tick ()V
+	CLASS xd$e
+		METHOD c tick ()V
+	CLASS xd$f
+		METHOD e tick ()V
+	CLASS xd$g
+		METHOD a canStart ()Z
+		METHOD b shouldContinue ()Z
+		METHOD e tick ()V
+	METHOD G getSoundAmbient ()Lnm;
+	METHOD J getLootTableId ()Lkq;
+	METHOD M mobTick ()V
+	METHOD a deserializeCustomData (Ldu;)V
+		ARG 0 tag
+	METHOD a damage (Lrx;F)Z
+		ARG 0 source
+		ARG 1 damage
+	METHOD a createChild (Lsj;)Lsj;
+		ARG 0 other
+	METHOD b serializeCustomData (Ldu;)V
+		ARG 0 tag
+	METHOD b registerTagUpgraders (Lph;)V
+		ARG 0 handler
+	METHOD b createChild (Lsj;)Lxd;
+		ARG 0 other
+	METHOD bC getSoundCategory ()Lno;
+	METHOD bW getSoundDeath ()Lnm;
+	METHOD g setRabbitType (I)V
+		ARG 0 value
+	METHOD i initDataTracker ()V
+	METHOD l doJump (Z)V
+	METHOD n updateMovement ()V
+	METHOD r initAi ()V

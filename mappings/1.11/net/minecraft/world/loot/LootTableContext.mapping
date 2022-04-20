@@ -1,0 +1,58 @@
+CLASS bcj net/minecraft/world/loot/LootTableContext
+	CLASS bcj$a Builder
+		FIELD a world Llw;
+		FIELD b luck F
+		FIELD c lootedEntity Lsm;
+		FIELD d player Laax;
+		FIELD e damageSource Lrx;
+		METHOD <init> (Llw;)V
+			ARG 0 world
+		METHOD a build ()Lbcj;
+		METHOD a setLuck (F)Lbcj$a;
+			ARG 0 value
+		METHOD a setPlayer (Laax;)Lbcj$a;
+			ARG 0 value
+		METHOD a setDamageSource (Lrx;)Lbcj$a;
+			ARG 0 value
+		METHOD a setLootedEntity (Lsm;)Lbcj$a;
+			ARG 0 value
+	CLASS bcj$b Target
+		CLASS bcj$b$a DeSerializer
+			METHOD a deserialize (Lcom/google/gson/stream/JsonReader;)Lbcj$b;
+				ARG 0 reader
+			METHOD a serialize (Lcom/google/gson/stream/JsonWriter;Lbcj$b;)V
+				ARG 0 writer
+				ARG 1 context
+		FIELD a THIS Lbcj$b;
+		FIELD b KILLER Lbcj$b;
+		FIELD c PLAYER Lbcj$b;
+		FIELD d type Ljava/lang/String;
+		METHOD <init> (Ljava/lang/String;ILjava/lang/String;)V
+			ARG 0 type
+		METHOD a fromString (Ljava/lang/String;)Lbcj$b;
+			ARG 0 target
+	FIELD a luck F
+	FIELD b world Llw;
+	FIELD c lootTableHandler Lbcl;
+	FIELD d lootedEntity Lsm;
+	FIELD e player Laax;
+	FIELD f source Lrx;
+	FIELD g lootTables Ljava/util/Set;
+	METHOD <init> (FLlw;Lbcl;Lsm;Laax;Lrx;)V
+		ARG 0 luck
+		ARG 1 world
+		ARG 2 tableHandler
+		ARG 3 lootedEntity
+		ARG 4 player
+		ARG 5 source
+	METHOD a getLootedEntity ()Lsm;
+	METHOD a addLootTable (Lbci;)Z
+		ARG 0 lootTable
+	METHOD a getTargetEntity (Lbcj$b;)Lsm;
+		ARG 0 target
+	METHOD b getKillerPlayer ()Lsm;
+	METHOD b removeLootTable (Lbci;)V
+		ARG 0 lootTable
+	METHOD c getKiller ()Lsm;
+	METHOD e getLootTableHandler ()Lbcl;
+	METHOD f getLuck ()F

@@ -1,0 +1,13 @@
+CLASS bdf net/minecraft/recipe/crafting/ShapelessRecipe
+	CLASS bdf$a net/minecraft/recipe/crafting/ShapelessRecipe$Serializer
+		METHOD a getIngredients (Lcom/google/gson/JsonArray;)Lfi;
+			ARG 0 json
+	FIELD a id Lqp;
+	FIELD b group Ljava/lang/String;
+	FIELD c output Lbar;
+	FIELD d input Lfi;
+	METHOD <init> (Lqp;Ljava/lang/String;Lbar;Lfi;)V
+		ARG 1 id
+		ARG 2 group
+		ARG 3 output
+		ARG 4 input

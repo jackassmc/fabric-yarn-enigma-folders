@@ -1,0 +1,21 @@
+CLASS apt net/minecraft/entity/ai/TargetPredicate
+	FIELD a DEFAULT Lapt;
+	FIELD b baseMaxDistance D
+	FIELD c includeInvulnerable Z
+	FIELD d includeTeammates Z
+	FIELD e includeHidden Z
+	FIELD f ignoreEntityTargetRules Z
+	FIELD g useDistanceScalingFactor Z
+	FIELD h predicate Ljava/util/function/Predicate;
+	METHOD a includeInvulnerable ()Lapt;
+	METHOD a setBaseMaxDistance (D)Lapt;
+		ARG 1 baseMaxDistance
+	METHOD a test (Laim;Laim;)Z
+		ARG 1 baseEntity
+		ARG 2 targetEntity
+	METHOD a setPredicate (Ljava/util/function/Predicate;)Lapt;
+		ARG 1 predicate
+	METHOD b includeTeammates ()Lapt;
+	METHOD c includeHidden ()Lapt;
+	METHOD d ignoreEntityTargetRules ()Lapt;
+	METHOD e ignoreDistanceScalingFactor ()Lapt;

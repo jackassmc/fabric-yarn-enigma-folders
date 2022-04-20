@@ -1,0 +1,23 @@
+CLASS aya net/minecraft/container/BrewingStandContainer
+	CLASS aya$a SlotFuel
+		METHOD <init> (Lagr;III)V
+			ARG 1 invSlot
+			ARG 2 xPosition
+			ARG 3 <Position
+		METHOD a_ matches (Lbbu;)Z
+	CLASS aya$b SlotIngredient
+		METHOD <init> (Lagr;III)V
+			ARG 1 invSlot
+			ARG 2 xPosition
+			ARG 3 <Position
+	CLASS aya$c SlotPotion
+		METHOD <init> (Lagr;III)V
+			ARG 1 invSlot
+			ARG 2 xPosition
+			ARG 3 <Position
+		METHOD b_ matches (Lbbu;)Z
+	FIELD c inventory Lagr;
+	FIELD d propertyDelegate Laye;
+	FIELD e ingredientSlot Lazi;
+	METHOD <init> (ILavq;)V
+		ARG 1 syncId

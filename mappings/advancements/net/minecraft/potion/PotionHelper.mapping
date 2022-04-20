@@ -1,0 +1,14 @@
+CLASS aix net/minecraft/potion/PotionHelper
+	METHOD a getPotionEffects (Lahf;)Ljava/util/List;
+	METHOD a setPotion (Lahf;Laiv;)Lahf;
+	METHOD a setCustomPotionEffects (Lahf;Ljava/util/Collection;)Lahf;
+	METHOD a addInformation (Lahf;Ljava/util/List;F)V
+	METHOD a getColor (Laiv;)I
+	METHOD a getPotionEffects (Laiv;Ljava/util/Collection;)Ljava/util/List;
+	METHOD a getPotionEffects (Lfc;)Ljava/util/List;
+	METHOD a getCustomPotionEffects (Lfc;Ljava/util/List;)V
+	METHOD a getColor (Ljava/util/Collection;)I
+	METHOD b getCustomPotionEffects (Lahf;)Ljava/util/List;
+	METHOD b getCustomPotionEffects (Lfc;)Ljava/util/List;
+	METHOD c getPotion (Lfc;)Laiv;
+	METHOD d getPotion (Lahf;)Laiv;

@@ -1,0 +1,35 @@
+CLASS bkd net/minecraft/block/FireBlock
+	FIELD a AGE Lbrz;
+	FIELD b NORTH Lbrr;
+	FIELD c EAST Lbrr;
+	FIELD d SOUTH Lbrr;
+	FIELD e WEST Lbrr;
+	FIELD f UP Lbrr;
+	FIELD g DIRECTION_PROPERTIES Ljava/util/Map;
+	FIELD h burnChances Lit/unimi/dsi/fastutil/objects/Object2IntMap;
+	FIELD i spreadChances Lit/unimi/dsi/fastutil/objects/Object2IntMap;
+	METHOD <init> (Lbic$c;)V
+		ARG 1 settings
+	METHOD a getStateForPosition (Lbcm;Les;)Lbqz;
+		ARG 1 world
+		ARG 2 pos
+	METHOD a isRainingAround (Lbdb;Les;)Z
+		ARG 1 world
+		ARG 2 pos
+	METHOD a trySpreadingFire (Lbdb;Les;ILjava/util/Random;I)V
+		ARG 3 spreadFactor
+	METHOD a getBurnChance (Lbde;Les;)I
+		ARG 1 world
+		ARG 2 pos
+	METHOD a registerFlammableBlock (Lbic;II)V
+		ARG 1 block
+		ARG 2 burnChance
+		ARG 3 spreadChance
+	METHOD b areBlocksAroundFlammable (Lbcm;Les;)Z
+		ARG 1 world
+		ARG 2 pos
+	METHOD d registerDefaultFlammables ()V
+	METHOD f getSpreadChance (Lbic;)I
+	METHOD g getBurnChance (Lbic;)I
+	METHOD j isFlammable (Lbqz;)Z
+		ARG 1 blockState

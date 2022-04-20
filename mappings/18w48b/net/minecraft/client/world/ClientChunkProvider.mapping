@@ -1,0 +1,8 @@
+CLASS czf net/minecraft/client/world/ClientChunkProvider
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD b client Lcnv;
+	FIELD c emptyChunk Lbqi;
+	FIELD d lightingProvider Lcdh;
+	FIELD i world Lbac;
+	METHOD a getLightingProvider ()Lcdh;
+	METHOD g getStatus ()Ljava/lang/String;

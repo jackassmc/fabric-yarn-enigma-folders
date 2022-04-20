@@ -1,0 +1,4 @@
+CLASS xx net/minecraft/tag/RegistryTagContainer
+	FIELD a registry Lfk;
+	METHOD a toPacket (Lir;)V
+	METHOD b fromPacket (Lir;)V

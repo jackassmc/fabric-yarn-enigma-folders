@@ -1,0 +1,3 @@
+CLASS bqb net/minecraft/block/MelonBlock
+	METHOD <init> (Lbmr$c;)V
+		ARG 1 settings

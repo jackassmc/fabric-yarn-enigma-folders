@@ -1,0 +1,101 @@
+CLASS czw net/minecraft/client/render/Renderer
+	CLASS czw$a
+	FIELD A ticks I
+	FIELD B partiallyBrokenBlocks Ljava/util/Map;
+	FIELD D destroyStages [Ldjb;
+	FIELD E framebuffer Lcjy;
+	FIELD W chunkBatcher Ldch;
+	FIELD Y renderDistance I
+	FIELD aa totalEntities I
+	FIELD ab renderedEntities I
+	FIELD ah vertexBufferObjectsEnabled Z
+	FIELD ai chunkRendererFactory Ldcm;
+	FIELD b LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD c MOON_PHASES_TEX Lpu;
+	FIELD d SUN_TEX Lpu;
+	FIELD e CLOUDS_TEX Lpu;
+	FIELD f END_SKY_TEX Lpu;
+	FIELD g FORCEFIELD_TEX Lpu;
+	FIELD h game Lclp;
+	FIELD i textureManager Ldjc;
+	FIELD j entityRenderManager Ldei;
+	FIELD k world Lcxa;
+	METHOD <init> (Lclp;)V
+		ARG 1 game
+	METHOD a renderSky (F)V
+	METHOD a markRegionForRenderUpdate (IIIZ)V
+	METHOD a onGlobalWorldEvent (ILeq;I)V
+		ARG 1 eventId
+		ARG 2 pos
+		ARG 3 data
+	METHOD a onEntityAdded (Lafv;)V
+		ARG 1 entity
+	METHOD a renderWorldBorder (Lafv;F)V
+		ARG 1 camera
+	METHOD a renderEntities (Lafv;Ldcr;F)V
+		ARG 1 cameraEntity
+	METHOD a onWorldEvent (Lapr;ILeq;I)V
+		ARG 1 player
+		ARG 2 eventId
+		ARG 3 pos
+		ARG 4 data
+	METHOD a onSound (Lapr;Lww;Lwy;DDDFF)V
+		ARG 1 player
+		ARG 2 sound
+		ARG 3 category
+		ARG 4 x
+		ARG 6 y
+		ARG 8 z
+		ARG 10 volume
+		ARG 11 pitch
+	METHOD a onBlockUpdate (Lazg;Leq;Lbnh;Lbnh;I)V
+		ARG 1 world
+		ARG 2 pos
+		ARG 3 oldState
+		ARG 4 newState
+		ARG 5 flags
+	METHOD a renderPartiallyBrokenBlocks (Lcld;Lcla;Lafv;F)V
+		ARG 1 tesselator
+		ARG 2 buffer
+		ARG 3 cameraEntity
+		ARG 4 deltaTicks
+	METHOD a setWorld (Lcxa;)V
+		ARG 1 world
+	METHOD a (Lfq;DDDDDD)V
+		ARG 1 type
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z
+		ARG 8 velocityX
+		ARG 10 velocityY
+	METHOD a addParticle (Lfq;ZDDDDDD)V
+		ARG 2 ignoreCameraBounds
+		ARG 3 x
+		ARG 5 y
+		ARG 7 z
+		ARG 9 velocityX
+		ARG 11 velocityY
+	METHOD a addParticle (Lfq;ZZDDDDDD)V
+	METHOD a onResourceReload (Lvt;)V
+		ARG 1 manager
+	METHOD b (III)V
+	METHOD b onBlockBreakingStage (ILeq;I)V
+		ARG 1 entityId
+		ARG 2 pos
+		ARG 3 stage
+	METHOD b onEntityRemoved (Lafv;)V
+		ARG 1 entity
+	METHOD b spawnParticle (Lfq;ZDDDDDD)Lcyg;
+		ARG 2 ignoreCameraBounds
+		ARG 3 x
+		ARG 5 y
+		ARG 7 z
+		ARG 9 velocityX
+		ARG 11 velocityY
+	METHOD b spawnParticle (Lfq;ZZDDDDDD)Lcyg;
+	METHOD c drawFramebuffer ()V
+	METHOD g getChunkNumber ()I
+	METHOD h getEntitiesDebugString ()Ljava/lang/String;
+	METHOD k tick ()V
+	METHOD o loadDestroyStageTextures ()V
+	METHOD s renderEndSky ()V

@@ -1,0 +1,6 @@
+CLASS dmz net/minecraft/client/render/entity/feature/EndermanEyesFeatureRenderer
+	FIELD a SKIN Lqe;
+	METHOD <init> (Ldlf;)V
+		ARG 1 context
+	METHOD a render (Lahd;FFFFFFF)V
+	METHOD a render (Lahm;FFFFFFF)V

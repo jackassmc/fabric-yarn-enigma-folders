@@ -1,0 +1,3 @@
+CLASS cwz net/minecraft/client/render/entity/model/BlockEntityModelSign
+	FIELD b signpost Lcya;
+	METHOD b getSignpostModel ()Lcya;

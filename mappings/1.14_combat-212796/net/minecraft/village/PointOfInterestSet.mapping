@@ -1,0 +1,23 @@
+CLASS aqm net/minecraft/village/PointOfInterestSet
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD b pointsOfInterestByPos Lit/unimi/dsi/fastutil/shorts/Short2ObjectMap;
+	FIELD c pointsOfInterestByType Ljava/util/Map;
+	FIELD d updateListener Ljava/lang/Runnable;
+	FIELD e valid Z
+	METHOD <init> (Ljava/lang/Runnable;)V
+		ARG 1 updateListener
+	METHOD a clear ()V
+	METHOD a add (Laql;)Z
+		ARG 1 poi
+	METHOD a remove (Lev;)V
+		ARG 1 pos
+	METHOD a add (Lev;Laqn;)V
+	METHOD a test (Lev;Ljava/util/function/Predicate;)Z
+		ARG 1 pos
+		ARG 2 predicate
+	METHOD a updatePointsOfInterest (Ljava/util/function/Consumer;)V
+	METHOD a get (Ljava/util/function/Predicate;Laqk$b;)Ljava/util/stream/Stream;
+	METHOD c releaseTicket (Lev;)Z
+		ARG 1 pos
+	METHOD d getType (Lev;)Ljava/util/Optional;
+		ARG 1 pos

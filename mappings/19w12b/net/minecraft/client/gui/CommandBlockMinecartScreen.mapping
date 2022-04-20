@@ -1,0 +1,4 @@
+CLASS dae net/minecraft/client/gui/CommandBlockMinecartScreen
+	FIELD m commandExecutor Lbfm;
+	METHOD <init> (Lbfm;)V
+		ARG 1 commandExecutor

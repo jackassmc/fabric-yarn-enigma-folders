@@ -1,0 +1,10 @@
+CLASS aws net/minecraft/entity/thrown/SnowballEntity
+	METHOD <init> (Lbhj;DDD)V
+		ARG 1 world
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z
+	METHOD <init> (Lbhj;Lais;)V
+		ARG 1 world
+		ARG 2 owner
+	METHOD n getParticleParameters ()Lgd;

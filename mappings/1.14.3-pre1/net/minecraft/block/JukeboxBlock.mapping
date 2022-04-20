@@ -1,0 +1,12 @@
+CLASS bpj net/minecraft/block/JukeboxBlock
+	FIELD a HAS_RECORD Lbwd;
+	METHOD <init> (Lbmn$c;)V
+		ARG 1 settings
+	METHOD a removeRecord (Lbhj;Lev;)V
+		ARG 1 world
+		ARG 2 pos
+	METHOD a setRecord (Lbhk;Lev;Lbvl;Lbcc;)V
+		ARG 1 world
+		ARG 2 pos
+		ARG 3 state
+		ARG 4 stack

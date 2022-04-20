@@ -1,0 +1,3 @@
+CLASS bmw net/minecraft/block/EndGatewayBlock
+	METHOD <init> (Lblg$c;)V
+		ARG 1 settings

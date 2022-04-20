@@ -1,0 +1,10 @@
+CLASS bdq net/minecraft/world/chunk/ChunkCache
+	FIELD a minX I
+	FIELD b minZ I
+	FIELD c chunks [[Lbss;
+	FIELD d empty Z
+	FIELD e world Lbdf;
+	METHOD <init> (Lbdf;Les;Les;)V
+		ARG 1 world
+		ARG 2 minPos
+		ARG 3 maxPos

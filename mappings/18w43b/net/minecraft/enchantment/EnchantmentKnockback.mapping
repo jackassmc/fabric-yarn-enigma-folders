@@ -1,0 +1,2 @@
+CLASS axm net/minecraft/enchantment/EnchantmentKnockback
+	METHOD a getHighestLevel ()I

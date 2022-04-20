@@ -1,0 +1,6 @@
+CLASS atf net/minecraft/entity/decoration/painting/PaintingMotive
+	FIELD A width I
+	FIELD B height I
+	METHOD a getWidth ()I
+	METHOD a register (Ljava/lang/String;II)Latf;
+	METHOD b getHeight ()I

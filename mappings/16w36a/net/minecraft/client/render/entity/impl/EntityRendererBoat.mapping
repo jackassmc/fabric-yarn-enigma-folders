@@ -1,0 +1,6 @@
+CLASS none/bsq net/minecraft/client/render/entity/impl/EntityRendererBoat
+	FIELD b BOAT_TEXTURES_LOC [Lnone/kp;
+	METHOD a getTextureLoc (Lnone/abi;)Lnone/kp;
+		ARG 0 boat
+	METHOD a (Lnone/abi;DDDFF)V
+	METHOD a (Lnone/sf;DDDFF)V

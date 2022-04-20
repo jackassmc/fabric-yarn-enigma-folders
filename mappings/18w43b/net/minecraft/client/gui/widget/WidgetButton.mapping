@@ -1,0 +1,41 @@
+CLASS ckj net/minecraft/client/gui/widget/WidgetButton
+	FIELD a WIDGET_TEX Lpt;
+	FIELD f width I
+	FIELD g height I
+	FIELD h x I
+	FIELD i y I
+	FIELD j text Ljava/lang/String;
+	FIELD k id I
+	FIELD l enabled Z
+	FIELD m visible Z
+	FIELD n hovered Z
+	METHOD <init> (IIIIILjava/lang/String;)V
+		ARG 0 id
+		ARG 1 x
+		ARG 2 y
+		ARG 3 width
+		ARG 4 height
+		ARG 5 text
+	METHOD <init> (IIILjava/lang/String;)V
+		ARG 0 id
+		ARG 1 x
+		ARG 2 y
+		ARG 3 text
+	METHOD a isHovered ()Z
+	METHOD a setWidth (I)V
+		ARG 0 width
+	METHOD a onHover (II)V
+		ARG 0 mouseX
+		ARG 1 mouseY
+	METHOD a draw (IIF)V
+		ARG 1 mouseY
+		ARG 2 delta
+	METHOD a drawBackground (Lcjj;II)V
+		ARG 0 game
+		ARG 1 mouseX
+		ARG 2 mouseY
+	METHOD a onPressed (Ldkd;)V
+		ARG 0 soundLoader
+	METHOD a getTextureId (Z)I
+		ARG 0 pressed
+	METHOD b getWidth ()I

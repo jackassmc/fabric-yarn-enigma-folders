@@ -1,0 +1,23 @@
+CLASS aah net/minecraft/entity/mob/EntitySpider
+	CLASS aah$a
+		METHOD b shouldContinue ()Z
+	CLASS aah$c
+		METHOD a canStart ()Z
+	FIELD a SPIDER_FLAGS Lkk;
+	METHOD G getSoundAmbient ()Lnm;
+	METHOD J getLootTableId ()Lkq;
+	METHOD a playStepSound (Lco;Lals;)V
+		ARG 0 pos
+		ARG 1 block
+	METHOD a setCanClimb (Z)V
+	METHOD b createNavigation (Lajq;)Lwe;
+		ARG 0 world
+	METHOD bW getSoundDeath ()Lnm;
+	METHOD bX getSoundHurt ()Lnm;
+	METHOD bq getEyeHeight ()F
+	METHOD c registerTagUpgraders2 (Lph;)V
+		ARG 0 handler
+	METHOD i initDataTracker ()V
+	METHOD m_ canClimb ()Z
+	METHOD o getCanClimb ()Z
+	METHOD r initAi ()V

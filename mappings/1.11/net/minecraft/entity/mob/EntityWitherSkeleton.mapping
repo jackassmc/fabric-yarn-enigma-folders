@@ -1,0 +1,11 @@
+CLASS aam net/minecraft/entity/mob/EntityWitherSkeleton
+	METHOD G getSoundAmbient ()Lnm;
+	METHOD J getLootTableId ()Lkq;
+	METHOD a initEquipment (Lrg;)V
+		ARG 0 localDifficulty
+	METHOD a onDeath (Lrx;)V
+		ARG 0 damageSource
+	METHOD b registerTagUpgraders (Lph;)V
+		ARG 0 handler
+	METHOD bW getSoundDeath ()Lnm;
+	METHOD bq getEyeHeight ()F

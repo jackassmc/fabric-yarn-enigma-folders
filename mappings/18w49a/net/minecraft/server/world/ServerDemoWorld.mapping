@@ -1,0 +1,3 @@
+CLASS ub net/minecraft/server/world/ServerDemoWorld
+	FIELD C seed J
+	FIELD a INFO Lbax;

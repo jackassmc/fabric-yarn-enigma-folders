@@ -1,0 +1,8 @@
+CLASS bjq net/minecraft/block/FlowerBlock
+	FIELD a SHAPE Lcnl;
+	FIELD b effectInStew Lagu;
+	FIELD c effectInStewDuration I
+	METHOD <init> (Lagu;ILbhn$c;)V
+		ARG 1 suspiciousStewEffect
+	METHOD d getEffectInStew ()Lagu;
+	METHOD e getEffectInStewDuration ()I

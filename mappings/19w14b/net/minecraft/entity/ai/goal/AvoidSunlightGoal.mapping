@@ -1,0 +1,4 @@
+CLASS anq net/minecraft/entity/ai/goal/AvoidSunlightGoal
+	FIELD a owner Laiq;
+	METHOD <init> (Laiq;)V
+		ARG 1 owner

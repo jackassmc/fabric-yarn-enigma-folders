@@ -1,0 +1,2 @@
+CLASS clw net/minecraft/world/biome/layer/AddMushroomIslandLayer
+	FIELD b MUSHROOM_FIELDS_ID I

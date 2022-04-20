@@ -1,0 +1,2 @@
+CLASS ait
+	METHOD a canStart ()Z

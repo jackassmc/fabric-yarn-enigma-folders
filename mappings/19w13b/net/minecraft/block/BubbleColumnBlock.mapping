@@ -1,0 +1,4 @@
+CLASS bmc net/minecraft/block/BubbleColumnBlock
+	FIELD a DRAG Lbvo;
+	METHOD <init> (Lbly$c;)V
+		ARG 1 settings

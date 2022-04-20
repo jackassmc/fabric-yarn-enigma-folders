@@ -1,0 +1,4 @@
+CLASS dve net/minecraft/client/audio/MovingSoundInstance
+	FIELD n done Z
+	METHOD <init> (Lyg;Lyi;)V
+		ARG 1 sound

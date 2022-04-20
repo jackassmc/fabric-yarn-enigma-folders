@@ -1,0 +1,11 @@
+CLASS clm net/minecraft/world/loot/function/LootFunctions
+	CLASS clm$a Factory
+	FIELD a NOOP Ljava/util/function/BiFunction;
+	FIELD b byId Ljava/util/Map;
+	FIELD c byClass Ljava/util/Map;
+	METHOD a register (Lcll$b;)V
+	METHOD a getFactory (Lcll;)Lcll$b;
+		ARG 0 function
+	METHOD a get (Lqi;)Lcll$b;
+		ARG 0 id
+	METHOD a join ([Ljava/util/function/BiFunction;)Ljava/util/function/BiFunction;

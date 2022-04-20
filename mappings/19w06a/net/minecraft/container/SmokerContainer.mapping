@@ -1,0 +1,5 @@
+CLASS avc net/minecraft/container/SmokerContainer
+	METHOD <init> (ILarr;)V
+		ARG 1 syncId
+	METHOD <init> (ILarr;Lafx;Latw;)V
+		ARG 1 syncId

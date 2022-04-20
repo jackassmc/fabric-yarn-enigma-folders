@@ -1,0 +1,5 @@
+CLASS brm net/minecraft/predicate/block/BlockPredicate
+	FIELD a block Lbif;
+	METHOD a make (Lbif;)Lbrm;
+		ARG 0 block
+	METHOD a apply (Lbrd;)Z

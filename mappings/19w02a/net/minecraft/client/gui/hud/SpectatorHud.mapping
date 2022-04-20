@@ -1,0 +1,6 @@
+CLASS cry net/minecraft/client/gui/hud/SpectatorHud
+	FIELD a SPECTATOR_TEX Lqe;
+	FIELD f WIDGETS_TEX Lqe;
+	FIELD g client Lcpz;
+	FIELD i spectatorMenu Lcxy;
+	METHOD a draw (F)V

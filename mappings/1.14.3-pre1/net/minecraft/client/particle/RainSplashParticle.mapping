@@ -1,0 +1,5 @@
+CLASS djt net/minecraft/client/particle/RainSplashParticle
+	CLASS djt$a Factory
+	METHOD <init> (Lbhj;DDD)V
+		ARG 1 world
+		ARG 2 x

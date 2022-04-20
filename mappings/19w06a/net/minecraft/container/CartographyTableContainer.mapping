@@ -1,0 +1,5 @@
+CLASS att net/minecraft/container/CartographyTableContainer
+	METHOD <init> (ILarr;)V
+		ARG 1 syncId
+	METHOD <init> (ILarr;Latx;)V
+		ARG 1 syncId

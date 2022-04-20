@@ -1,0 +1,7 @@
+CLASS bkk net/minecraft/block/KelpBlock
+	FIELD a AGE Lbrk;
+	FIELD b SHAPE Lcnl;
+	METHOD <init> (Lbhn$c;)V
+		ARG 1 settings
+	METHOD a getPlacementState (Lbcm;)Lbqk;
+		ARG 1 world

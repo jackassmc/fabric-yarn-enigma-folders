@@ -1,0 +1,7 @@
+CLASS din net/minecraft/client/particle/EmotionParticle
+	CLASS din$a AngryVillagerFactory
+	CLASS din$b HeartFactory
+	METHOD <init> (Lbhj;DDD)V
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z

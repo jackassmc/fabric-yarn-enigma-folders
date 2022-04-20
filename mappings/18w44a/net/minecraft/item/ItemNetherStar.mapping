@@ -1,0 +1,5 @@
+CLASS avt net/minecraft/item/ItemNetherStar
+	METHOD <init> (Lauq$a;)V
+		ARG 1 builder
+	METHOD e_ hasEnchantmentGlow (Lauv;)Z
+		ARG 1 stack

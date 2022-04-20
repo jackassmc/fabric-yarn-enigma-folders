@@ -1,0 +1,2 @@
+CLASS dgt net/minecraft/client/particle/BubblePopParticle
+	CLASS dgt$a net/minecraft/client/particle/BubblePopParticle$Factory

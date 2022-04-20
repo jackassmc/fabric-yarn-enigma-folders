@@ -1,0 +1,33 @@
+CLASS abf net/minecraft/entity/EntityItem
+	FIELD b LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD c STACK Llx;
+	FIELD d age I
+	FIELD e pickupDelay I
+	FIELD f health I
+	FIELD g thrower Ljava/lang/String;
+	FIELD h owner Ljava/lang/String;
+	METHOD B_ update ()V
+	METHOD a setPickupDelay (I)V
+	METHOD a tryMerge (Labf;)Z
+	METHOD a setStack (Lahf;)V
+	METHOD a deserializeCustomData (Lfc;)V
+		ARG 0 tag
+	METHOD a registerTagUpgraders (Lqv;)V
+	METHOD a damage (Ltm;F)Z
+	METHOD an updateSwimming ()Z
+	METHOD b changeWorld (I)Lub;
+	METHOD b serializeCustomData (Lfc;)V
+		ARG 0 tag
+	METHOD d setOwner (Ljava/lang/String;)V
+	METHOD e setThrower (Ljava/lang/String;)V
+	METHOD h_ getName ()Ljava/lang/String;
+	METHOD i initDataTracker ()V
+	METHOD k getStack ()Lahf;
+	METHOD l getOwner ()Ljava/lang/String;
+	METHOD n getThrower ()Ljava/lang/String;
+	METHOD p getAge ()I
+	METHOD q setPickupDelayDefault ()V
+	METHOD r resetPickupDelay ()V
+	METHOD s setPickupDelayInfinite ()V
+	METHOD t cannotPickup ()Z
+	METHOD x tryMerge ()V

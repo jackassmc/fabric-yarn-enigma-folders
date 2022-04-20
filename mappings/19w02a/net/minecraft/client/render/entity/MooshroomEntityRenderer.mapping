@@ -1,0 +1,4 @@
+CLASS dkt net/minecraft/client/render/entity/MooshroomEntityRenderer
+	FIELD a SKIN Lqe;
+	METHOD a getTexture (Lahd;)Lqe;
+	METHOD a getTexture (Lamr;)Lqe;

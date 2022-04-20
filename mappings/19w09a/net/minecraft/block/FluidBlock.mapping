@@ -1,0 +1,3 @@
+CLASS bll net/minecraft/block/FluidBlock
+	FIELD b fluid Lcgo;
+	FIELD c statesByLevel Ljava/util/List;

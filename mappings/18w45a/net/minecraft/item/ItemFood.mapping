@@ -1,0 +1,23 @@
+CLASS aup net/minecraft/item/ItemFood
+	FIELD a hungerRestored I
+	FIELD b saturationRestored F
+	FIELD c wolfFood Z
+	FIELD d alwaysConsumable Z
+	FIELD k statusEffect Lafr;
+	FIELD l statusEffectChance F
+	METHOD a setStatusEffect (Lafr;F)Laup;
+		ARG 1 effect
+	METHOD a onItemFinishedUsing (Lava;Lazy;Lagh;)Lava;
+		ARG 1 stack
+		ARG 2 world
+	METHOD a onConsumed (Lava;Lazy;Lapv;)V
+		ARG 1 stack
+		ARG 2 world
+	METHOD a use (Lazy;Lapv;Laer;)Laeu;
+		ARG 1 world
+		ARG 2 player
+	METHOD b getMaxUseTime (Lava;)I
+	METHOD c getUseAction (Lava;)Lawm;
+	METHOD d isWolfFood ()Z
+	METHOD e getHungerRestored (Lava;)I
+	METHOD f getSaturatationRestored (Lava;)F

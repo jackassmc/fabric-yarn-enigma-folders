@@ -1,0 +1,2 @@
+CLASS chh net/minecraft/structure/processor/JigsawReplacementStructureProcessor
+	FIELD a INSTANCE Lchh;

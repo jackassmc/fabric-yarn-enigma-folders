@@ -1,0 +1,3 @@
+CLASS dlb net/minecraft/client/render/entity/PillagerEntityRenderer
+	METHOD a getTexture (Lahd;)Lqe;
+	METHOD a getTexture (Laqh;)Lqe;

@@ -1,0 +1,2 @@
+CLASS agr net/minecraft/block/InventoryProvider
+	METHOD a getInventory (Lbqz;Lbdc;Les;)Lagq;

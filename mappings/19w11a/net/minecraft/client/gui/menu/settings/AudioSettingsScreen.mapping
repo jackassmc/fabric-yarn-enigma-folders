@@ -1,0 +1,6 @@
+CLASS cyk net/minecraft/client/gui/menu/settings/AudioSettingsScreen
+	FIELD a title Ljava/lang/String;
+	FIELD b parent Lcyh;
+	FIELD g settings Lctu;
+	METHOD <init> (Lcyh;Lctu;)V
+		ARG 1 parent

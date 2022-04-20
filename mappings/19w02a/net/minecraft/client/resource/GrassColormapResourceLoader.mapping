@@ -1,0 +1,4 @@
+CLASS dox net/minecraft/client/resource/GrassColormapResourceLoader
+	FIELD a GRASS_COLORMAP_LOC Lqe;
+	METHOD a onResourceReload (Lwq;)V
+		ARG 1 manager

@@ -1,0 +1,19 @@
+CLASS jt net/minecraft/network/packet/client/CPacketPaintingSpawn
+	FIELD a id I
+	FIELD b uuid Ljava/util/UUID;
+	FIELD c pos Leq;
+	FIELD d facing Lev;
+	METHOD <init> (Lanm;)V
+		ARG 1 entity
+	METHOD a read (Lin;)V
+		ARG 1 buf
+	METHOD a apply (Liq;)V
+		ARG 1 handler
+	METHOD a apply (Ljo;)V
+		ARG 1 handler
+	METHOD b getId ()I
+	METHOD b write (Lin;)V
+		ARG 1 buf
+	METHOD c getPaintingUuid ()Ljava/util/UUID;
+	METHOD d getPos ()Leq;
+	METHOD e getFacing ()Lev;

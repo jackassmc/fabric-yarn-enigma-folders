@@ -1,0 +1,6 @@
+CLASS cez net/minecraft/structure/pool/StructurePoolRegistry
+	FIELD a pools Ljava/util/Map;
+	METHOD a add (Lcey;)V
+		ARG 1 pool
+	METHOD a get (Lqs;)Lcey;
+		ARG 1 id

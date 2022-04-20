@@ -1,0 +1,5 @@
+CLASS ccn net/minecraft/world/gen/feature/PineTreeFeature
+	FIELD a LOG Lbuy;
+	FIELD aS LEAVES Lbuy;
+	METHOD <init> (Ljava/util/function/Function;)V
+		ARG 1 configFactory

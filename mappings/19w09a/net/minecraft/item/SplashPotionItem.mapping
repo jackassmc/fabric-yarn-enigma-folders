@@ -1,0 +1,3 @@
+CLASS ayz net/minecraft/item/SplashPotionItem
+	METHOD <init> (Laxs$a;)V
+		ARG 1 settings

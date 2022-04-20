@@ -1,0 +1,11 @@
+CLASS cay net/minecraft/world/gen/feature/EndPortalFeature
+	FIELD a ORIGIN Lev;
+	FIELD aS open Z
+	METHOD <init> (Z)V
+		ARG 1 open
+	METHOD a (Lbhe;Lbwu;Ljava/util/Random;Lev;Lcco;)Z
+		ARG 1 world
+		ARG 2 generator
+		ARG 3 random
+		ARG 4 pos
+		ARG 5 config

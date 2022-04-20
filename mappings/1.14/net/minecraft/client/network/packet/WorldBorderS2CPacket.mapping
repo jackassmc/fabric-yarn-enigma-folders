@@ -1,0 +1,14 @@
+CLASS mk net/minecraft/client/network/packet/WorldBorderS2CPacket
+	CLASS mk$a Type
+	FIELD a type Lmk$a;
+	FIELD b portalTeleportPosLimit I
+	FIELD c centerX D
+	FIELD d centerZ D
+	FIELD e size D
+	FIELD f oldSize D
+	FIELD g interpolationDuration J
+	FIELD h warningTime I
+	FIELD i warningBlocks I
+	METHOD <init> (Lbwv;Lmk$a;)V
+		ARG 1 border
+	METHOD a apply (Lbwv;)V

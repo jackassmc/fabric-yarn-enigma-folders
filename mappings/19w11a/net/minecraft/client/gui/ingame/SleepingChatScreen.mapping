@@ -1,0 +1,2 @@
+CLASS cxv net/minecraft/client/gui/ingame/SleepingChatScreen
+	METHOD k stopSleeping ()V

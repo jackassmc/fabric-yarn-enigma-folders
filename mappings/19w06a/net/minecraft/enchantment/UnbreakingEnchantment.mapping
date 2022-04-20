@@ -1,0 +1,4 @@
+CLASS bau net/minecraft/enchantment/UnbreakingEnchantment
+	METHOD <init> (Lbaw$a;[Lahn;)V
+		ARG 1 weight
+		ARG 2 slotTypes

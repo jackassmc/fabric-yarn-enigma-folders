@@ -1,0 +1,7 @@
+CLASS dhj net/minecraft/client/particle/FireSmokeLargeParticle
+	CLASS dhj$a net/minecraft/client/particle/FireSmokeLargeParticle$Factory
+	METHOD <init> (Lbfy;DDDDDDLdib;)V
+		ARG 1 world
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z

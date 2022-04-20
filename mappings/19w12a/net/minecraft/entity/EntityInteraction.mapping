@@ -1,0 +1,3 @@
+CLASS apd net/minecraft/entity/EntityInteraction
+	METHOD a create (Ljava/lang/String;)Lapd;
+		ARG 0 key

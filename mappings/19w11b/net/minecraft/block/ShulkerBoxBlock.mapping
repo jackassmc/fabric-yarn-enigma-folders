@@ -1,0 +1,12 @@
+CLASS bpq net/minecraft/block/ShulkerBoxBlock
+	FIELD a FACING Lbuu;
+	FIELD c color Lazo;
+	METHOD a get (Lazo;)Lbky;
+		ARG 0 dyeColor
+	METHOD b getItemStack (Lazo;)Lbar;
+		ARG 0 color
+	METHOD b getColor (Lbam;)Lazo;
+		ARG 0 item
+	METHOD d getColor ()Lazo;
+	METHOD f getColor (Lbky;)Lazo;
+		ARG 0 block

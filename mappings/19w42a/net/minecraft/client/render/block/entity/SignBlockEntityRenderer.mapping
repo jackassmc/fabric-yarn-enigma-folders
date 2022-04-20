@@ -1,0 +1,2 @@
+CLASS net/minecraft/class_837 net/minecraft/client/render/block/entity/SignBlockEntityRenderer
+	METHOD method_3584 getModelTexture (Lnet/minecraft/class_2248;)Lnet/minecraft/class_2960;

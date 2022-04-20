@@ -1,0 +1,6 @@
+CLASS cas net/minecraft/world/gen/feature/DoublePlantFeatureConfig
+	FIELD a state Lbvf;
+	METHOD <init> (Lbvf;)V
+		ARG 1 state
+	METHOD a deserialize (Lcom/mojang/datafixers/Dynamic;)Lcas;
+		ARG 0 dynamic

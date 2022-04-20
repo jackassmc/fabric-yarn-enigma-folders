@@ -1,0 +1,67 @@
+CLASS csf net/minecraft/client/gui/menu/SettingsGui
+	CLASS csf$1
+		METHOD a onPressed (DD)V
+			ARG 0 mouseX
+			ARG 1 mouseY
+	CLASS csf$2
+		METHOD a onPressed (DD)V
+			ARG 0 mouseX
+			ARG 1 mouseY
+	CLASS csf$3
+		METHOD a onPressed (DD)V
+			ARG 0 mouseX
+			ARG 1 mouseY
+	CLASS csf$4
+		METHOD a onPressed (DD)V
+			ARG 0 mouseX
+			ARG 1 mouseY
+	CLASS csf$5
+		METHOD a onPressed (DD)V
+			ARG 0 mouseX
+			ARG 1 mouseY
+	CLASS csf$6
+		METHOD a onPressed (DD)V
+			ARG 0 mouseX
+			ARG 1 mouseY
+	CLASS csf$7
+		METHOD a onPressed (DD)V
+			ARG 0 mouseX
+			ARG 1 mouseY
+	CLASS csf$8
+		METHOD a onPressed (DD)V
+			ARG 0 mouseX
+			ARG 1 mouseY
+	CLASS csf$9
+		METHOD a onPressed (DD)V
+			ARG 0 mouseX
+			ARG 1 mouseY
+	CLASS csf$10
+		METHOD a onPressed (DD)V
+			ARG 0 mouseX
+			ARG 1 mouseY
+	CLASS csf$11
+		METHOD a onPressed (DD)V
+			ARG 0 mouseX
+			ARG 1 mouseY
+	CLASS csf$12
+		METHOD a onPressed (DD)V
+			ARG 0 mouseX
+			ARG 1 mouseY
+	CLASS csf$13
+		METHOD a onPressed (DD)V
+			ARG 0 mouseX
+			ARG 1 mouseY
+	FIELD a title Ljava/lang/String;
+	FIELD g parent Lcsl;
+	FIELD h settings Lcoh;
+	FIELD i difficultyButton Lcpe;
+	FIELD s lockDifficultyButton Lcpp;
+	METHOD <init> (Lcsl;Lcoh;)V
+		ARG 1 parent
+	METHOD a draw (IIF)V
+		ARG 1 mouseX
+		ARG 2 mouseY
+	METHOD c onInitialized ()V
+	METHOD confirmResult handle (ZI)V
+		ARG 1 result
+	METHOD g close ()V

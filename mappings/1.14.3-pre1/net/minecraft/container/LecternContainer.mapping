@@ -1,0 +1,9 @@
+CLASS azb net/minecraft/container/LecternContainer
+	FIELD c inventory Lagx;
+	FIELD d propertyDelegate Laym;
+	METHOD <init> (I)V
+		ARG 1 syncId
+	METHOD <init> (ILagx;Laym;)V
+		ARG 1 syncId
+	METHOD e getBookItem ()Lbcc;
+	METHOD f getPage ()I

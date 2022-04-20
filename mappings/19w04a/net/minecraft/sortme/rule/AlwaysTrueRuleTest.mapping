@@ -1,0 +1,2 @@
+CLASS cdn net/minecraft/sortme/rule/AlwaysTrueRuleTest
+	FIELD a INSTANCE Lcdn;

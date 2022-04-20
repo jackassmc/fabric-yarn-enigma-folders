@@ -1,0 +1,54 @@
+CLASS aih net/minecraft/enchantment/Enchantment
+	CLASS aih$a Weight
+		FIELD a COMMON Laih$a;
+		FIELD b UNCOMMON Laih$a;
+		FIELD c RARE Laih$a;
+		FIELD d LEGENDARY Laih$a;
+		FIELD e weight I
+		METHOD <init> (Ljava/lang/String;II)V
+			ARG 0 weight
+		METHOD a getWeight ()I
+	FIELD a slotTypes [Lsr;
+	FIELD b REGISTRY Ldc;
+	FIELD c type Laii;
+	FIELD d translationName Ljava/lang/String;
+	FIELD e weight Laih$a;
+	METHOD <init> (Laih$a;Laii;[Lsr;)V
+		ARG 0 weight
+		ARG 1 type
+		ARG 2 slotTypes
+	METHOD a getTranslationKey ()Ljava/lang/String;
+	METHOD a getProtectionAmount (ILrx;)I
+		ARG 0 level
+		ARG 1 source
+	METHOD a getAdditionalDamge (ILta;)F
+		ARG 0 level
+		ARG 1 entityType
+	METHOD a isAcceptableItem (Lafi;)Z
+		ARG 0 item
+	METHOD a isEqual (Laih;)Z
+		ARG 0 other
+	METHOD a getEquipment (Lsv;)Ljava/util/List;
+		ARG 0 entity
+	METHOD a onTargetDamaged (Lsv;Lsm;I)V
+		ARG 0 user
+		ARG 1 target
+		ARG 2 level
+	METHOD b getHighestLevel ()I
+	METHOD b getRawIdFromEnchantment (Laih;)I
+		ARG 0 enchantment
+	METHOD b getEnchantmentById (Ljava/lang/String;)Laih;
+		ARG 0 id
+	METHOD b onUserDamaged (Lsv;Lsm;I)V
+		ARG 0 user
+		ARG 1 attacker
+		ARG 2 level
+	METHOD c getEnchantmentByRawId (I)Laih;
+		ARG 0 id
+	METHOD c setTranslationName (Ljava/lang/String;)Laih;
+		ARG 0 name
+	METHOD d getTranslatedNameWithLevel (I)Ljava/lang/String;
+		ARG 0 level
+	METHOD e getWeight ()Laih$a;
+	METHOD f getLowestLevel ()I
+	METHOD g registerDefaults ()V

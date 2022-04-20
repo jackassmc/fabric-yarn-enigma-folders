@@ -1,0 +1,2 @@
+CLASS bjg net/minecraft/block/BlockSand
+	METHOD w getColor (Lbno;)I

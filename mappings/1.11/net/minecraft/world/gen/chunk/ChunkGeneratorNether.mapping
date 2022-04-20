@@ -1,0 +1,32 @@
+CLASS avu net/minecraft/world/gen/chunk/ChunkGeneratorNether
+	FIELD C depositQuartz Lawl;
+	FIELD D depositMagma Lawl;
+	FIELD a AIR Latj;
+	FIELD b NETHERRACK Latj;
+	FIELD c BEDROCK Latj;
+	FIELD d LAVA Latj;
+	FIELD e GRAVEL Latj;
+	FIELD f SOUL_SAND Latj;
+	FIELD n world Lajq;
+	FIELD o generateStructures Z
+	FIELD p rand Ljava/util/Random;
+	FIELD z decoratorFire Lawp;
+	METHOD <init> (Lajq;ZJ)V
+		ARG 1 generateStructures
+	METHOD a generateChunk (II)Laum;
+		ARG 0 x
+		ARG 1 z
+	METHOD a generateMonuments (Laum;II)Z
+		ARG 0 chunk
+		ARG 1 x
+		ARG 2 z
+	METHOD a getSpawnableEntites (Lsx;Lco;)Ljava/util/List;
+		ARG 0 type
+		ARG 1 pos
+	METHOD b populateTerrain (II)V
+		ARG 0 x
+		ARG 1 z
+	METHOD b generateStructures (Laum;II)V
+		ARG 0 chunk
+		ARG 1 x
+		ARG 2 z

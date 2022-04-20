@@ -1,0 +1,10 @@
+CLASS bfp net/minecraft/block/BlockCoralBlock
+	METHOD a getPlacementState (Lata;)Lbnh;
+	METHOD a (Lbnh;Lazt;Leq;Ljava/util/Random;)V
+		ARG 1 world
+		ARG 2 state
+		ARG 3 pos
+		ARG 4 random
+	METHOD a getRenderingState (Lbnh;Lev;Lbnh;Lazu;Leq;Leq;)Lbnh;
+		ARG 1 state
+		ARG 6 pos

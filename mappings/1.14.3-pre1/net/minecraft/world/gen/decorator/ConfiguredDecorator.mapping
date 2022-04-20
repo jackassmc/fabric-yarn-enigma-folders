@@ -1,0 +1,15 @@
+CLASS cfy net/minecraft/world/gen/decorator/ConfiguredDecorator
+	FIELD a decorator Lcgw;
+	FIELD b config Lcap;
+	METHOD <init> (Lcgw;Lcap;)V
+		ARG 1 decorator
+	METHOD <init> (Lcgw;Lcom/mojang/datafixers/Dynamic;)V
+		ARG 1 decorator
+	METHOD a generate (Lbhk;Lbxa;Ljava/util/Random;Lev;Lcad;)Z
+		ARG 1 world
+		ARG 2 generator
+		ARG 3 random
+		ARG 4 pos
+	METHOD a deserialize (Lcom/mojang/datafixers/Dynamic;)Lcfy;
+		ARG 0 dynamic
+	METHOD a serialize (Lcom/mojang/datafixers/types/DynamicOps;)Lcom/mojang/datafixers/Dynamic;

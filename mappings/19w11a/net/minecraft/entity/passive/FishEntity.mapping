@@ -1,0 +1,13 @@
+CLASS apf net/minecraft/entity/passive/FishEntity
+	CLASS apf$a net/minecraft/entity/passive/FishEntity$FishMoveControl
+		FIELD i fish Lapf;
+	CLASS apf$b net/minecraft/entity/passive/FishEntity$SwimToRandomPlaceGoal
+	FIELD b FROM_BUCKET Lqe;
+	METHOD <init> (Laia;Lbfy;)V
+		ARG 1 type
+	METHOD dN hasSelfControl ()Z
+	METHOD dO getFlopSound ()Lyf;
+	METHOD dP isFromBucket ()Z
+	METHOD j copyDataToStack (Lbar;)V
+	METHOD l getFishBucketItem ()Lbar;
+	METHOD q setFromBucket (Z)V

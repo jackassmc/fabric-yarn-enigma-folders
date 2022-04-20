@@ -1,0 +1,11 @@
+CLASS ago net/minecraft/entity/EntityWithAiGoals
+	FIELD a aiHome Les;
+	FIELD b aiRadius F
+	METHOD a setAiHome (Les;I)V
+		ARG 1 home
+	METHOD du isInAiRange ()Z
+	METHOD dv getAiHome ()Les;
+	METHOD dw getAiRadius ()F
+	METHOD dx setAiRangeUnlimited ()V
+	METHOD dy hasLimitedAiRange ()Z
+	METHOD f isInAiRange (Les;)Z

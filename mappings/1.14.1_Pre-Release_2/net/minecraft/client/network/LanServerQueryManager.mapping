@@ -1,0 +1,14 @@
+CLASS dxm net/minecraft/client/network/LanServerQueryManager
+	CLASS dxm$a LanServerDetector
+		FIELD a entryList Ldxm$b;
+		FIELD b multicastAddress Ljava/net/InetAddress;
+		FIELD c socket Ljava/net/MulticastSocket;
+	CLASS dxm$b LanServerEntryList
+		FIELD a serverEntries Ljava/util/List;
+		FIELD b dirty Z
+		METHOD a needsUpdate ()Z
+		METHOD a addServer (Ljava/lang/String;Ljava/net/InetAddress;)V
+		METHOD b markClean ()V
+		METHOD c getServers ()Ljava/util/List;
+	FIELD a THREAD_ID Ljava/util/concurrent/atomic/AtomicInteger;
+	FIELD b LOGGER Lorg/apache/logging/log4j/Logger;

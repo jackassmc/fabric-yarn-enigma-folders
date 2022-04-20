@@ -1,0 +1,7 @@
+CLASS byb net/minecraft/world/gen/feature/PillagerOutpostFeature
+	CLASS byb$a
+		METHOD <init> (Lbzm;IILbdo;Lcct;IJ)V
+			ARG 2 chunkX
+			ARG 3 chunkZ
+	METHOD <init> (Ljava/util/function/Function;)V
+		ARG 1 configFactory

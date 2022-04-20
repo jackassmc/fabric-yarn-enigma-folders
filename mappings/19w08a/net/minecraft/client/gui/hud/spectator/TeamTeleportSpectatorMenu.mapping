@@ -1,0 +1,6 @@
+CLASS czh net/minecraft/client/gui/hud/spectator/TeamTeleportSpectatorMenu
+	CLASS czh$a TeleportToSpecificTeamCommand
+		FIELD b team Lcoi;
+		FIELD c skinId Lqi;
+		FIELD d scoreboardEntries Ljava/util/List;
+	FIELD a commands Ljava/util/List;

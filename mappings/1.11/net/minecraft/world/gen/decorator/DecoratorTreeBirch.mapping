@@ -1,0 +1,8 @@
+CLASS avz net/minecraft/world/gen/decorator/DecoratorTreeBirch
+	FIELD a LOG Latj;
+	FIELD b LEAVES Latj;
+	FIELD c increasedHeight Z
+	METHOD b generate (Lajq;Ljava/util/Random;Lco;)Z
+		ARG 0 world
+		ARG 1 random
+		ARG 2 pos

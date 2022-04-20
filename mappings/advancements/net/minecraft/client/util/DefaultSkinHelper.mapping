@@ -1,0 +1,7 @@
+CLASS ccl net/minecraft/client/util/DefaultSkinHelper
+	FIELD a STEVE_SKIN Lmd;
+	FIELD b ALEX_SKIN Lmd;
+	METHOD a getTexture ()Lmd;
+	METHOD a getTexture (Ljava/util/UUID;)Lmd;
+	METHOD b getModel (Ljava/util/UUID;)Ljava/lang/String;
+	METHOD c shouldUseSlimModel (Ljava/util/UUID;)Z

@@ -1,0 +1,2 @@
+CLASS dmt net/minecraft/client/render/debug/PathfindingDebugRenderer
+	FIELD a client Lctp;

@@ -1,0 +1,3 @@
+CLASS axy net/minecraft/item/ShieldItem
+	METHOD e getColor (Laxd;)Lawa;
+		ARG 0 stack

@@ -1,0 +1,13 @@
+CLASS aun net/minecraft/village/VillagerType
+	FIELD a DESERT Laun;
+	FIELD b JUNGLE Laun;
+	FIELD c PLAINS Laun;
+	FIELD d SAVANNA Laun;
+	FIELD e SNOW Laun;
+	FIELD f SWAMP Laun;
+	FIELD g TAIGA Laun;
+	FIELD h BIOME_TO_TYPE Ljava/util/Map;
+	METHOD a forBiome (Lbhc;)Laun;
+		ARG 0 biome
+	METHOD a create (Ljava/lang/String;)Laun;
+		ARG 0 id

@@ -1,0 +1,13 @@
+CLASS auc net/minecraft/item/ItemBookEnchanted
+	METHOD a addStacksForDisplay (Latr;Lfg;)V
+	METHOD a isTool (Lava;)Z
+	METHOD a addEnchantment (Lava;Layf;)V
+		ARG 0 stack
+		ARG 1 enchantmentInfo
+	METHOD a addInformation (Lava;Lazy;Ljava/util/List;Lawk;)V
+		ARG 1 stack
+		ARG 2 world
+		ARG 3 tooltip
+	METHOD e getEnchantmentTag (Lava;)Lhu;
+		ARG 0 stack
+	METHOD e_ hasEnchantmentGlow (Lava;)Z

@@ -1,0 +1,5 @@
+CLASS bps net/minecraft/block/SignBlock
+	FIELD a WATERLOGGED Lbup;
+	FIELD b SHAPE Lcrb;
+	METHOD <init> (Lbkz$c;)V
+		ARG 1 settings

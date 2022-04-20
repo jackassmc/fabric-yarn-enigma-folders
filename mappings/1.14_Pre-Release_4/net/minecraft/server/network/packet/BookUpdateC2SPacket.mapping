@@ -1,0 +1,5 @@
+CLASS oe net/minecraft/server/network/packet/BookUpdateC2SPacket
+	FIELD a stack Lbbz;
+	FIELD c hand Lagy;
+	METHOD b stack ()Lbbz;
+	METHOD d hand ()Lagy;

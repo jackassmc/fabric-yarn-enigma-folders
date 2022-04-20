@@ -1,0 +1,6 @@
+CLASS ddg net/minecraft/client/gui/hud/spectator/TeamTeleportSpectatorMenu
+	CLASS ddg$a TeleportToSpecificTeamCommand
+		FIELD b team Lcsi;
+		FIELD c skinId Lqr;
+		FIELD d scoreboardEntries Ljava/util/List;
+	FIELD a commands Ljava/util/List;

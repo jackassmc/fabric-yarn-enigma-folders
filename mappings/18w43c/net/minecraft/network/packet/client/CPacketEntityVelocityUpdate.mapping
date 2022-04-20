@@ -1,0 +1,24 @@
+CLASS ly net/minecraft/network/packet/client/CPacketEntityVelocityUpdate
+	FIELD a id I
+	FIELD b velocityX I
+	FIELD c velocityY I
+	FIELD d velocityZ I
+	METHOD <init> (IDDD)V
+		ARG 0 id
+		ARG 1 velocityX
+		ARG 2 velocityY
+		ARG 3 velocityZ
+	METHOD <init> (Lafh;)V
+		ARG 0 entity
+	METHOD a readPacket (Lim;)V
+		ARG 0 buf
+	METHOD a applyPacket (Lip;)V
+		ARG 0 handler
+	METHOD a applyPacket (Ljn;)V
+		ARG 0 handler
+	METHOD b getId ()I
+	METHOD b writePacket (Lim;)V
+		ARG 0 buf
+	METHOD c getVelocityX ()I
+	METHOD d getVelocityY ()I
+	METHOD e getVelocityZ ()I

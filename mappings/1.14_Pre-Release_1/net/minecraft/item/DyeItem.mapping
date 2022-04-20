@@ -1,0 +1,5 @@
+CLASS bas net/minecraft/item/DyeItem
+	FIELD a dyes Ljava/util/Map;
+	FIELD b color Lbar;
+	METHOD a fromColor (Lbar;)Lbas;
+	METHOD d getColor ()Lbar;

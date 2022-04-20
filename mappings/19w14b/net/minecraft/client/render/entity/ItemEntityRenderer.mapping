@@ -1,0 +1,5 @@
+CLASS dpm net/minecraft/client/render/entity/ItemEntityRenderer
+	FIELD a itemRenderer Ldpo;
+	FIELD f random Ljava/util/Random;
+	METHOD <init> (Ldot;Ldpo;)V
+		ARG 1 renderManager

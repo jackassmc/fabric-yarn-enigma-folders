@@ -1,0 +1,28 @@
+CLASS bnb net/minecraft/client/render/entity/model/EntityModelDragon
+	FIELD a head Lbng;
+	FIELD b neck Lbng;
+	FIELD c jaw Lbng;
+	FIELD d body Lbng;
+	FIELD e rearLeg Lbng;
+	FIELD f frontLeg Lbng;
+	FIELD g rearLegTip Lbng;
+	FIELD h frontLegTip Lbng;
+	FIELD i rearFoot Lbng;
+	FIELD j frontFoot Lbng;
+	FIELD k wing Lbng;
+	FIELD l wingTip Lbng;
+	FIELD m partialTicks F
+	METHOD a updateRotations (D)F
+	METHOD a render (Lsm;FFFFFF)V
+		ARG 0 entity
+		ARG 1 swingAmount
+		ARG 2 swingDelta
+		ARG 3 age
+		ARG 4 yaw
+		ARG 5 pitch
+		ARG 6 scale
+	METHOD a animateModel (Lsv;FFF)V
+		ARG 0 entity
+		ARG 1 swingAmount
+		ARG 2 swingDelta
+		ARG 3 deltaTicks

@@ -1,0 +1,7 @@
+CLASS asm net/minecraft/container/DispenserContainer
+	FIELD a inventory Laev;
+	METHOD <init> (Laev;Laev;)V
+		ARG 1 playerInv
+	METHOD a canUse (Laqj;)Z
+	METHOD b getStack (Laqj;I)Lavs;
+		ARG 1 player

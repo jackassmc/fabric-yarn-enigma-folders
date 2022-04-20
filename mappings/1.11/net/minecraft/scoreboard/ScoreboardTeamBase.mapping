@@ -1,0 +1,43 @@
+CLASS bec net/minecraft/scoreboard/ScoreboardTeamBase
+	CLASS bec$a CollisionRule
+		FIELD a ALWAYS Lbec$a;
+		FIELD b NEVER Lbec$a;
+		FIELD c PUSH_OTHERS Lbec$a;
+		FIELD d PUSH_SELF Lbec$a;
+		FIELD e name Ljava/lang/String;
+		FIELD f id I
+		FIELD g NAME_LOOKUP Ljava/util/Map;
+		METHOD <init> (Ljava/lang/String;ILjava/lang/String;I)V
+			ARG 0 name
+			ARG 1 id
+		METHOD a getNames ()[Ljava/lang/String;
+		METHOD a byName (Ljava/lang/String;)Lbec$a;
+			ARG 0 name
+		METHOD values values ()[Lbec$a;
+	CLASS bec$b VisibilityRule
+		FIELD a ALWAYS Lbec$b;
+		FIELD b NEVER Lbec$b;
+		FIELD c HIDE_OTHERS Lbec$b;
+		FIELD d HIDE_SELF Lbec$b;
+		FIELD e name Ljava/lang/String;
+		FIELD f id I
+		FIELD g NAME_LOOKUP Ljava/util/Map;
+		METHOD <init> (Ljava/lang/String;ILjava/lang/String;I)V
+			ARG 0 name
+			ARG 1 id
+		METHOD a getNames ()[Ljava/lang/String;
+		METHOD a byName (Ljava/lang/String;)Lbec$b;
+			ARG 0 name
+		METHOD values values ()[Lbec$b;
+	METHOD a isEqual (Lbec;)Z
+		ARG 0 team
+	METHOD b getName ()Ljava/lang/String;
+	METHOD d getPlayerList ()Ljava/util/Collection;
+	METHOD d applyFormatting (Ljava/lang/String;)Ljava/lang/String;
+		ARG 0 value
+	METHOD g isFriendlyFireAllowed ()Z
+	METHOD h shouldShowFriendlyInvisibles ()Z
+	METHOD i getNameTagVisibilityRule ()Lbec$b;
+	METHOD j getDeathMessageVisibilityRule ()Lbec$b;
+	METHOD k getCollisionRule ()Lbec$a;
+	METHOD m getTeamColor ()La;

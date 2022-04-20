@@ -1,0 +1,2 @@
+CLASS awu net/minecraft/entity/thrown/ThrownEnderpearlEntity
+	FIELD e owner Lain;

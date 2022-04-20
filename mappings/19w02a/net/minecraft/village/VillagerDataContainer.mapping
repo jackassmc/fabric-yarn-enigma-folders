@@ -1,0 +1,2 @@
+CLASS arc net/minecraft/village/VillagerDataContainer
+	METHOD dO getVillagerData ()Larb;

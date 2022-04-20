@@ -1,0 +1,4 @@
+CLASS dhe net/minecraft/client/render/entity/model/EndCrystalEntityModel
+	FIELD a cube Ldhi;
+	FIELD b glass Ldhi;
+	FIELD f base Ldhi;

@@ -1,0 +1,15 @@
+CLASS ayl net/minecraft/container/CraftingTableContainer
+	FIELD c craftingInv Layk;
+	FIELD d resultInv Lazg;
+	FIELD e context Layi;
+	FIELD f player Lavu;
+	METHOD <init> (ILavt;)V
+		ARG 1 syncId
+	METHOD <init> (ILavt;Layi;)V
+		ARG 1 syncId
+	METHOD a updateResult (ILbhd;Lavu;Layk;Lazg;)V
+		ARG 0 syncId
+		ARG 1 world
+		ARG 2 player
+		ARG 3 craftingInventory
+		ARG 4 resultInventory

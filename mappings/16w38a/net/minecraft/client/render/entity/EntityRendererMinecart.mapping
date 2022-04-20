@@ -1,0 +1,8 @@
+CLASS btw net/minecraft/client/render/entity/EntityRendererMinecart
+	FIELD b SKIN Lkp;
+	METHOD a getTexture (Labk;)Lkp;
+		ARG 0 model
+	METHOD a (Labk;DDDFF)V
+	METHOD a getTexture (Lsg;)Lkp;
+		ARG 0 model
+	METHOD a (Lsg;DDDFF)V

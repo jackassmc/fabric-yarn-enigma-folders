@@ -1,0 +1,5 @@
+CLASS cmv net/minecraft/world/loot/ConstantLootTableRange
+	CLASS cmv$a net/minecraft/world/loot/ConstantLootTableRange$Serializer
+	FIELD d value I
+	METHOD a create (I)Lcmv;
+		ARG 0 value

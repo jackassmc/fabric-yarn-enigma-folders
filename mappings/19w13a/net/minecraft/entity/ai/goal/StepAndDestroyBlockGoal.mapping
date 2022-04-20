@@ -1,0 +1,7 @@
+CLASS ano net/minecraft/entity/ai/goal/StepAndDestroyBlockGoal
+	FIELD g targetBlock Lbly;
+	FIELD h owner Laij;
+	FIELD i counter I
+	METHOD a onDestroyBlock (Lbgv;Lev;)V
+	METHOD a tickStepping (Lbgw;Lev;)V
+	METHOD a tweakToProperPos (Lev;Lbgg;)Lev;

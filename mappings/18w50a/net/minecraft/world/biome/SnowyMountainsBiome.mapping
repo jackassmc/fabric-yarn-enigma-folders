@@ -1,0 +1,2 @@
+CLASS bey net/minecraft/world/biome/SnowyMountainsBiome
+	METHOD d getMaxSpawnLimit ()F

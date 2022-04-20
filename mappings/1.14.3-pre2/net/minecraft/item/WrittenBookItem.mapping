@@ -1,0 +1,13 @@
+CLASS bds net/minecraft/item/WrittenBookItem
+	METHOD <init> (Lbbz$a;)V
+		ARG 1 settings
+	METHOD a resolve (Lbce;Lcd;Lawb;)Z
+		ARG 0 book
+		ARG 1 commandSource
+		ARG 2 player
+	METHOD b isValid (Lic;)Z
+		ARG 0 tag
+	METHOD e getGeneration (Lbce;)I
+		ARG 0 stack
+	METHOD j getPageCount (Lbce;)I
+		ARG 0 stack

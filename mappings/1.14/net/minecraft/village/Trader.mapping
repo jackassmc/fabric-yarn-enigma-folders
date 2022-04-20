@@ -1,0 +1,14 @@
+CLASS bgj net/minecraft/village/Trader
+	METHOD a sendOffers (Lavx;Ljm;I)V
+	METHOD a trade (Lbgk;)V
+	METHOD a setOffersFromServer (Lbgl;)V
+	METHOD dV getExperience ()I
+	METHOD dW getCurrentCustomer ()Lavx;
+	METHOD dY getOffers ()Lbgl;
+	METHOD dZ isLevelledTrader ()Z
+	METHOD e setCurrentCustomer (Lavx;)V
+		ARG 1 customer
+	METHOD ee getTraderWorld ()Lbhh;
+	METHOD i onSellingItem (Lbca;)V
+	METHOD q setExperienceFromServer (I)V
+		ARG 1 experience

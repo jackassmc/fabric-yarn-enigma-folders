@@ -1,0 +1,3 @@
+CLASS atv net/minecraft/item/BookItem
+	METHOD a isTool (Lavo;)Z
+	METHOD c getEnchantability ()I

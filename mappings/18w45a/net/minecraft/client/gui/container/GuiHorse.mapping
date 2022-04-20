@@ -1,0 +1,18 @@
+CLASS crn net/minecraft/client/gui/container/GuiHorse
+	FIELD A mouseX F
+	FIELD B mouseY F
+	FIELD w BG_TEX Lpw;
+	FIELD x playerInv Lael;
+	FIELD y inventory Lael;
+	FIELD z entity Lama;
+	METHOD <init> (Lael;Lael;Lama;)V
+		ARG 1 playerInv
+		ARG 2 inventory
+	METHOD a drawBackground (FII)V
+		ARG 1 delta
+		ARG 2 mouseX
+	METHOD a draw (IIF)V
+		ARG 1 mouseX
+		ARG 2 mouseY
+	METHOD c drawForeground (II)V
+		ARG 1 mouseX

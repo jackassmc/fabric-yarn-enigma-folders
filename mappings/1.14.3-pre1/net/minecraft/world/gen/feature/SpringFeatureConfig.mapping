@@ -1,0 +1,6 @@
+CLASS cei net/minecraft/world/gen/feature/SpringFeatureConfig
+	FIELD a state Lclc;
+	METHOD <init> (Lclc;)V
+		ARG 1 state
+	METHOD a deserialize (Lcom/mojang/datafixers/Dynamic;)Lcei;
+		ARG 0 dynamic

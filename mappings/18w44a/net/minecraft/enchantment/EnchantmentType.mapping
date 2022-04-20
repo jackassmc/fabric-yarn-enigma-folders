@@ -1,0 +1,56 @@
+CLASS axy net/minecraft/enchantment/EnchantmentType
+	CLASS axy$1
+		METHOD a isAcceptableItem (Lauq;)Z
+			ARG 0 item
+	CLASS axy$2
+		METHOD a isAcceptableItem (Lauq;)Z
+			ARG 0 item
+	CLASS axy$3
+		METHOD a isAcceptableItem (Lauq;)Z
+			ARG 0 item
+	CLASS axy$4
+		METHOD a isAcceptableItem (Lauq;)Z
+			ARG 0 item
+	CLASS axy$5
+		METHOD a isAcceptableItem (Lauq;)Z
+			ARG 0 item
+	CLASS axy$6
+		METHOD a isAcceptableItem (Lauq;)Z
+			ARG 0 item
+	CLASS axy$7
+		METHOD a isAcceptableItem (Lauq;)Z
+			ARG 0 item
+	CLASS axy$8
+		METHOD a isAcceptableItem (Lauq;)Z
+			ARG 0 item
+	CLASS axy$9
+		METHOD a isAcceptableItem (Lauq;)Z
+			ARG 0 item
+	CLASS axy$10
+		METHOD a isAcceptableItem (Lauq;)Z
+			ARG 0 item
+	CLASS axy$11
+		METHOD a isAcceptableItem (Lauq;)Z
+			ARG 0 item
+	CLASS axy$12
+		METHOD a isAcceptableItem (Lauq;)Z
+			ARG 0 item
+	CLASS axy$13
+		METHOD a isAcceptableItem (Lauq;)Z
+			ARG 0 item
+	CLASS axy$14
+		METHOD a isAcceptableItem (Lauq;)Z
+			ARG 0 item
+	FIELD a ALL Laxy;
+	FIELD b ARMOR Laxy;
+	FIELD c FEET Laxy;
+	FIELD d LEGS Laxy;
+	FIELD e CHEST Laxy;
+	FIELD f HELM Laxy;
+	FIELD g WEAPON Laxy;
+	FIELD h BREAKER Laxy;
+	FIELD i FISHING Laxy;
+	FIELD k TOOL Laxy;
+	FIELD l BOW Laxy;
+	METHOD a isAcceptableItem (Lauq;)Z
+		ARG 1 item

@@ -1,0 +1,15 @@
+CLASS cot net/minecraft/client/gui/hud/BossBarHud
+	FIELD a BAR_TEX Lpy;
+	FIELD f client Lcnv;
+	FIELD g bossBars Ljava/util/Map;
+	METHOD <init> (Lcnv;)V
+		ARG 1 client
+	METHOD a draw ()V
+	METHOD a drawBossBar (IILaet;)V
+		ARG 1 x
+		ARG 2 y
+	METHOD a handlePacket (Lke;)V
+	METHOD b clear ()V
+	METHOD d shouldPlayDragonMusic ()Z
+	METHOD e shouldDarkenSky ()Z
+	METHOD f shouldThickenFog ()Z

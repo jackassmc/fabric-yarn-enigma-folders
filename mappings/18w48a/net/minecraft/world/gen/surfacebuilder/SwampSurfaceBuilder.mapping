@@ -1,0 +1,2 @@
+CLASS ccq net/minecraft/world/gen/surfacebuilder/SwampSurfaceBuilder
+	METHOD a generate (Ljava/util/Random;Lbpw;Lbbp;IIIDLboj;Lboj;IJLccp;)V

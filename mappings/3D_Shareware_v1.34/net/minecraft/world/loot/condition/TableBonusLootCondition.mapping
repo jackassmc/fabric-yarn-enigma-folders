@@ -1,0 +1,4 @@
+CLASS cqf net/minecraft/world/loot/condition/TableBonusLootCondition
+	CLASS cqf$a Factory
+	FIELD a enchantment Lbez;
+	FIELD b chances [F

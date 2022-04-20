@@ -1,0 +1,2 @@
+CLASS brk net/minecraft/client/particle/ParticleFireSmokeLarge
+	CLASS brk$a Factory

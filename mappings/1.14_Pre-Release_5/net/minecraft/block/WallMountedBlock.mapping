@@ -1,0 +1,10 @@
+CLASS boh net/minecraft/block/WallMountedBlock
+	FIELD C FACE Lbwh;
+	METHOD <init> (Lbml$c;)V
+		ARG 1 settings
+	METHOD b canPlaceAt (Lbhk;Lev;Lfa;)Z
+		ARG 0 world
+		ARG 1 pos
+		ARG 2 direction
+	METHOD j getDirection (Lbvj;)Lfa;
+		ARG 0 state

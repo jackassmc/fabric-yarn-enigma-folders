@@ -1,0 +1,5 @@
+CLASS bpv net/minecraft/predicate/block/BlockPredicate
+	FIELD a block Lbgs;
+	METHOD a make (Lbgs;)Lbpv;
+		ARG 0 block
+	METHOD a apply (Lbpm;)Z

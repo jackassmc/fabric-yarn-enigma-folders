@@ -1,0 +1,2 @@
+CLASS brp net/minecraft/block/StainedGlassPaneBlock
+	FIELD i color Lbau;

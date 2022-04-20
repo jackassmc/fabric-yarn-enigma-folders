@@ -1,0 +1,9 @@
+CLASS ccg net/minecraft/world/chunk/light/LightStorage
+	FIELD a view Lbqh;
+	FIELD b type Lbap;
+	METHOD <init> (Lbqh;Lbap;Lcci;)V
+		ARG 1 view
+		ARG 2 type
+	METHOD a queueLightCheck (Les;)V
+	METHOD b getLightLevel (Les;)I
+	METHOD h queueLightCheck (J)V

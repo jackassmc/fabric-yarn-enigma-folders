@@ -1,0 +1,2 @@
+CLASS net/minecraft/class_5181 net/minecraft/structure/BastionData
+	METHOD method_27203 init ()V

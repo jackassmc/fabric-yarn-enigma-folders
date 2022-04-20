@@ -1,0 +1,10 @@
+CLASS awe net/minecraft/entity/projectile/ShulkerBulletEntity
+	FIELD aq ownerUuid Ljava/util/UUID;
+	FIELD ar ownerPos Lev;
+	FIELD as targetUuid Ljava/util/UUID;
+	FIELD at targetPos Lev;
+	FIELD b owner Laii;
+	FIELD c target Lahz;
+	FIELD d direction Lfa;
+	METHOD a onHit (Lcrg;)V
+	METHOD a setDirection (Lfa;)V

@@ -1,0 +1,2 @@
+CLASS bvu net/minecraft/block/enums/WallMountLocation
+	FIELD d name Ljava/lang/String;

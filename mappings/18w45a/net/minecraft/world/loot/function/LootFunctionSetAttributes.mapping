@@ -1,0 +1,17 @@
+CLASS cgw net/minecraft/world/loot/function/LootFunctionSetAttributes
+	CLASS cgw$b Attribute
+		FIELD a name Ljava/lang/String;
+		FIELD b attribute Ljava/lang/String;
+		FIELD d amountRange Lcft;
+		FIELD e id Ljava/util/UUID;
+		FIELD f slots [Lagd;
+		METHOD a deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Lcgw$b;
+		METHOD a serialize (Lcom/google/gson/JsonSerializationContext;)Lcom/google/gson/JsonObject;
+	CLASS cgw$d Factory
+		METHOD a toJson (Lcom/google/gson/JsonObject;Lcgs;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD a toJson (Lcom/google/gson/JsonObject;Lcgt;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD a serialize (Lcom/google/gson/JsonObject;Lcgw;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD a deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;[Lchw;)Lcgw;
+		METHOD b fromJson (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;[Lchw;)Lcgs;
+	METHOD a process (Lava;Lcfl;)Lava;
+		ARG 1 stack

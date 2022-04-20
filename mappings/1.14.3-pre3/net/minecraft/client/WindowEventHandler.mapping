@@ -1,0 +1,6 @@
+CLASS cui net/minecraft/client/WindowEventHandler
+	METHOD a onResolutionChanged ()V
+	METHOD a onWindowFocusChanged (Z)V
+		ARG 1 focused
+	METHOD b updateDisplay (Z)V
+		ARG 1 respectFramerateLimit

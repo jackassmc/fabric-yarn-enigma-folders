@@ -1,0 +1,3 @@
+CLASS none/blf net/minecraft/client/render/entity/model/EntityModelSlime
+	METHOD a render (Lnone/sf;FFFFFF)V
+		ARG 0 entity

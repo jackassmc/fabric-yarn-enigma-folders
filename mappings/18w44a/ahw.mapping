@@ -1,0 +1,4 @@
+CLASS ahw
+	METHOD <init> (Lagp;DFF)V
+		ARG 1 caller
+		ARG 4 minDistance

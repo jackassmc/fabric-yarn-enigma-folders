@@ -1,0 +1,3 @@
+CLASS bib net/minecraft/block/BlockSand
+	METHOD w getColor (Lblz;)I
+		ARG 0 state

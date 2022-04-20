@@ -1,0 +1,6 @@
+CLASS bph net/minecraft/client/render/Tessellator
+	FIELD a buffer Lbon;
+	FIELD c INSTANCE Lbph;
+	METHOD a getInstance ()Lbph;
+	METHOD b draw ()V
+	METHOD c getVertexBuffer ()Lbon;

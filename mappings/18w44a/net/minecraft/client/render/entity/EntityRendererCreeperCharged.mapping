@@ -1,0 +1,7 @@
+CLASS dhi net/minecraft/client/render/entity/EntityRendererCreeperCharged
+	FIELD a SKIN Lpu;
+	METHOD a shouldMergeTextures ()Z
+	METHOD a render (Lage;FFFFFFF)V
+		ARG 1 entity
+	METHOD a render (Laob;FFFFFFF)V
+		ARG 1 entity

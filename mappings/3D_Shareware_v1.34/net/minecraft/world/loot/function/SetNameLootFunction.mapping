@@ -1,0 +1,5 @@
+CLASS cpt net/minecraft/world/loot/function/SetNameLootFunction
+	CLASS cpt$a Factory
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD c name Ljm;
+	FIELD d entityTarget Lcnz$c;

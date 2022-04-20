@@ -1,0 +1,7 @@
+CLASS dbp net/minecraft/client/gui/screen/ingame/LecternScreen
+	FIELD c lecternContainer Lazd;
+	FIELD d listener Layq;
+	METHOD c sendButtonPressPacket (I)V
+		ARG 1 id
+	METHOD g updatePageProvider ()V
+	METHOD h updatePage ()V

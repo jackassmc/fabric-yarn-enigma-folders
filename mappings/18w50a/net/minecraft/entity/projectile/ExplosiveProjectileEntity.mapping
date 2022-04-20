@@ -1,0 +1,19 @@
+CLASS arg net/minecraft/entity/projectile/ExplosiveProjectileEntity
+	FIELD a owner Lahe;
+	METHOD <init> (Lagz;DDDDDDLbbp;FF)V
+		ARG 1 world
+	METHOD <init> (Lagz;Lahe;DDDLbbp;FF)V
+		ARG 1 world
+		ARG 2 owner
+	METHOD W_ update ()V
+	METHOD a shouldRenderAtDistance (D)Z
+	METHOD a damage (Lage;F)Z
+		ARG 1 source
+		ARG 2 amount
+	METHOD a onCollision (Lcma;)V
+	METHOD a readCustomDataFromTag (Lhs;)V
+	METHOD aA getLightmapCoordinates ()I
+	METHOD aD doesCollide ()Z
+	METHOD b writeCustomDataToTag (Lhs;)V
+	METHOD k getParticleType ()Lft;
+	METHOD y_ initDataTracker ()V

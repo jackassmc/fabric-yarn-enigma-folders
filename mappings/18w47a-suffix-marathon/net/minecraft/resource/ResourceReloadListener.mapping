@@ -1,0 +1,2 @@
+CLASS wa net/minecraft/resource/ResourceReloadListener
+	METHOD a onResourceReload (Lvz;)V

@@ -1,0 +1,35 @@
+CLASS aci net/minecraft/entity/EntityFallingBlock
+	FIELD b dropItem Z
+	FIELD c blockEntityData Lfy;
+	FIELD d BLOCK_POS Lmx;
+	FIELD e block Lawr;
+	FIELD g hurtEntities Z
+	METHOD <init> (Lams;)V
+		ARG 0 world
+	METHOD <init> (Lams;DDDLawr;)V
+		ARG 0 world
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 block
+	METHOD B_ update ()V
+	METHOD a addCrashReportDetails (Lc;)V
+		ARG 0 element
+	METHOD a setFallingBlockPos (Let;)V
+		ARG 0 pos
+	METHOD a deserializeCustomData (Lfy;)V
+		ARG 0 tag
+	METHOD a registerTagUpgraders (Lrw;)V
+		ARG 0 handler
+	METHOD a setHurtEntities (Z)V
+		ARG 0 value
+	METHOD ay doesCollide ()Z
+	METHOD b serializeCustomData (Lfy;)V
+		ARG 0 tag
+	METHOD bl doesRenderOnFire ()Z
+	METHOD e handleFallDamage (FF)V
+		ARG 0 fallDistance
+	METHOD i initDataTracker ()V
+	METHOD j getFallingBlockPos ()Let;
+	METHOD k getWorldClient ()Lams;
+	METHOD l getBlockState ()Lawr;

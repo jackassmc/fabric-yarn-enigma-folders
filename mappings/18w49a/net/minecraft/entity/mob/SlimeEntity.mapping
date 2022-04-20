@@ -1,0 +1,38 @@
+CLASS apt net/minecraft/entity/mob/SlimeEntity
+	CLASS apt$a
+		METHOD a canStart ()Z
+		METHOD b shouldContinue ()Z
+		METHOD c start ()V
+		METHOD e tick ()V
+	CLASS apt$b
+		METHOD a canStart ()Z
+		METHOD e tick ()V
+	CLASS apt$c
+		METHOD a canStart ()Z
+		METHOD e tick ()V
+	CLASS apt$d SlimeMoveControl
+		FIELD k slime Lapt;
+		METHOD a tick ()V
+	CLASS apt$e
+		METHOD a canStart ()Z
+		METHOD e tick ()V
+	FIELD bF SLIME_SIZE Lpo;
+	METHOD <init> (Lago;Lbas;)V
+		ARG 1 type
+	METHOD F getLootTableId ()Lpz;
+	METHOD R getType ()Lago;
+	METHOD T_ update ()V
+	METHOD X invalidate ()V
+	METHOD a (Lbat;Lafc;Lagw;Lahe;Lhq;)Lahe;
+		ARG 3 difficulty
+	METHOD a readCustomDataFromTag (Lhq;)V
+	METHOD a onTrackedDataSet (Lpo;)V
+	METHOD b writeCustomDataToTag (Lhq;)V
+	METHOD bG getEyeHeight ()F
+	METHOD cH getSoundVolume ()F
+	METHOD cv getDeathSound ()Lxg;
+	METHOD dx getSize ()I
+	METHOD e getHurtSound (Laft;)Lxg;
+	METHOD i pushAwayFrom (Lagk;)V
+	METHOD n initAi ()V
+	METHOD y_ initDataTracker ()V

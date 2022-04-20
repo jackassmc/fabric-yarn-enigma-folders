@@ -1,0 +1,14 @@
+CLASS jc net/minecraft/text/event/HoverEvent
+	CLASS jc$a Action
+		FIELD a SHOW_TEXT Ljc$a;
+		FIELD b SHOW_ITEM Ljc$a;
+		FIELD c SHOW_ENTITY Ljc$a;
+		FIELD f name Ljava/lang/String;
+		METHOD a get (Ljava/lang/String;)Ljc$a;
+		METHOD b getName ()Ljava/lang/String;
+	FIELD a action Ljc$a;
+	FIELD b value Liz;
+	METHOD <init> (Ljc$a;Liz;)V
+		ARG 1 action
+	METHOD a getAction ()Ljc$a;
+	METHOD b getValue ()Liz;

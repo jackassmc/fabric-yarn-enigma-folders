@@ -1,0 +1,36 @@
+CLASS cnj net/minecraft/util/shape/VoxelShapes
+	CLASS cnj$a ShapeConsumer
+		METHOD consume (DDDDDD)V
+			ARG 1 minX
+	FIELD a EMPTY Lcnm;
+	FIELD b FULL_CUBE Lcnm;
+	METHOD a empty ()Lcnm;
+	METHOD a findRequiredBitResolution (DD)I
+		ARG 0 min
+		ARG 2 max
+	METHOD a cube (DDDDDD)Lcnm;
+		ARG 0 xMin
+		ARG 2 yMin
+		ARG 4 zMin
+		ARG 6 xMax
+		ARG 8 yMax
+		ARG 10 zMax
+	METHOD a lcm (II)J
+	METHOD a cube (Lcmo;)Lcnm;
+		ARG 0 box
+	METHOD a union (Lcnm;Lcnm;)Lcnm;
+		ARG 0 first
+		ARG 1 second
+	METHOD a combine (Lcnm;Lcnm;Lcmw;)Lcnm;
+		ARG 0 first
+		ARG 1 second
+		ARG 2 function
+	METHOD a calculateMaxOffset (Ley$a;Lcmo;Ljava/util/stream/Stream;D)D
+		ARG 0 axis
+		ARG 1 box
+		ARG 2 shapes
+	METHOD b fullCube ()Lcnm;
+	METHOD c compareShapes (Lcnm;Lcnm;Lcmw;)Z
+		ARG 0 shape1
+		ARG 1 shape2
+		ARG 2 comparator

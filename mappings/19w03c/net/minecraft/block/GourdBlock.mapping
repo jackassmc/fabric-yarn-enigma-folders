@@ -1,0 +1,5 @@
+CLASS bmx net/minecraft/block/GourdBlock
+	METHOD <init> (Lbhl$c;)V
+		ARG 1 settings
+	METHOD d getStem ()Lbmw;
+	METHOD e getAttachedStem ()Lbgt;

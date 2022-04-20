@@ -1,0 +1,54 @@
+CLASS cns net/minecraft/client/gui/Drawable
+	FIELD b OPTIONS_BG Lpy;
+	FIELD c STAT_ICONS Lpy;
+	FIELD d ICONS Lpy;
+	FIELD e zOffset F
+	METHOD a drawTexturedRect (FFIIII)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 u
+		ARG 4 v
+		ARG 5 width
+	METHOD a drawTexturedRect (IIFFIIFF)V
+	METHOD a drawTexturedRect (IIFFIIIIFF)V
+	METHOD a drawHorizontalLine (IIII)V
+		ARG 1 left
+		ARG 2 right
+		ARG 3 top
+	METHOD a drawRect (IIIII)V
+		ARG 0 top
+		ARG 1 left
+		ARG 2 bottom
+		ARG 3 right
+		ARG 4 color
+	METHOD a drawGradientRect (IIIIII)V
+		ARG 1 top
+		ARG 2 left
+		ARG 3 right
+		ARG 4 bottom
+		ARG 5 color1
+	METHOD a drawTexturedRect (IILdks;II)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 sprite
+		ARG 4 width
+	METHOD a drawStringCentered (Lcnq;Ljava/lang/String;III)V
+		ARG 1 fontRenderer
+		ARG 2 str
+		ARG 3 x
+		ARG 4 y
+	METHOD b drawVerticalLine (IIII)V
+		ARG 1 left
+		ARG 2 top
+		ARG 3 bottom
+	METHOD b drawTexturedRect (IIIIII)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 u
+		ARG 4 v
+		ARG 5 width
+	METHOD c drawString (Lcnq;Ljava/lang/String;III)V
+		ARG 1 fontRenderer
+		ARG 2 str
+		ARG 3 x
+		ARG 4 y

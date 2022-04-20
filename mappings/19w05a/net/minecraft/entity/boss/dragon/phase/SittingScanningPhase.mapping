@@ -1,0 +1,3 @@
+CLASS aon net/minecraft/entity/boss/dragon/phase/SittingScanningPhase
+	METHOD <init> (Laoa;)V
+		ARG 1 dragon

@@ -1,0 +1,2 @@
+CLASS cmp net/minecraft/client/render/VertexBufferRenderer
+	METHOD a draw (Lcmo;)V

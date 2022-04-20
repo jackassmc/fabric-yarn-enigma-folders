@@ -1,0 +1,5 @@
+CLASS om net/minecraft/server/network/packet/CreativeInventoryActionServerPacket
+	FIELD a slot I
+	FIELD b stack Laxd;
+	METHOD b getSlot ()I
+	METHOD c getItemStack ()Laxd;

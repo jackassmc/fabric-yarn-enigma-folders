@@ -1,0 +1,8 @@
+CLASS ccp net/minecraft/world/gen/feature/NetherFortressFeature
+	CLASS ccp$a Start
+		METHOD <init> (Lcej;IILbie;Lchr;IJ)V
+			ARG 2 chunkX
+			ARG 3 chunkZ
+	FIELD a MONSTER_SPAWNS Ljava/util/List;
+	METHOD <init> (Ljava/util/function/Function;)V
+		ARG 1 configFactory

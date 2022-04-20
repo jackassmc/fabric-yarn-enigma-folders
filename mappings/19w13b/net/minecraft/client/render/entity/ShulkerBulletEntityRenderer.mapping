@@ -1,0 +1,2 @@
+CLASS dqh net/minecraft/client/render/entity/ShulkerBulletEntityRenderer
+	FIELD a SKIN Lqr;

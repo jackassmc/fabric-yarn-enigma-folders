@@ -1,0 +1,18 @@
+CLASS atf net/minecraft/item/ItemBookEnchanted
+	METHOD <init> (Latx$a;)V
+		ARG 0 builder
+	METHOD a addStacksForDisplay (Lasu;Lfe;)V
+		ARG 1 items
+	METHOD a isTool (Lauc;)Z
+		ARG 0 stack
+	METHOD a addEnchantment (Lauc;Laxh;)V
+		ARG 0 stack
+		ARG 1 enchantmentInfo
+	METHOD a addInformation (Lauc;Laza;Ljava/util/List;Lavm;)V
+		ARG 0 stack
+		ARG 1 world
+		ARG 2 tooltip
+	METHOD e getEnchantmentTag (Lauc;)Lhr;
+		ARG 0 stack
+	METHOD e_ hasEnchantmentGlow (Lauc;)Z
+		ARG 0 stack

@@ -1,0 +1,15 @@
+CLASS jp net/minecraft/network/packet/client/CPacketHandshake
+	FIELD a protocolVersion I
+	FIELD b serverAddress Ljava/lang/String;
+	FIELD c serverPort I
+	FIELD d state Les;
+	METHOD a getState ()Les;
+	METHOD a readPacket (Let;)V
+		ARG 0 packet
+	METHOD a applyPacket (Lew;)V
+		ARG 0 handler
+	METHOD a applyPacket (Ljq;)V
+		ARG 0 handler
+	METHOD b getProtocolVersion ()I
+	METHOD b writePacket (Let;)V
+		ARG 0 packet

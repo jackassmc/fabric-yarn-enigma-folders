@@ -1,0 +1,16 @@
+CLASS cpw net/minecraft/world/loot/function/EnchantWithLevelsLootFunction
+	CLASS a Builder
+		FIELD a range Lcoz;
+		FIELD b treasureEnchantmentsAllowed Z
+		METHOD <init> (Lcoz;)V
+			ARG 1 range
+		METHOD e allowTreasureEnchantments ()Lcpw$a;
+	CLASS b Factory
+	FIELD a range Lcoz;
+	FIELD c treasureEnchantmentsAllowed Z
+	METHOD <init> ([Lcrf;Lcoz;Z)V
+		ARG 1 conditions
+		ARG 2 range
+		ARG 3 treasureEnchantmentsAllowed
+	METHOD a builder (Lcoz;)Lcpw$a;
+		ARG 0 range

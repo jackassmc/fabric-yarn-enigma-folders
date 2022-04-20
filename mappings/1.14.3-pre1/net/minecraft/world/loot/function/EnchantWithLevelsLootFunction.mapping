@@ -1,0 +1,16 @@
+CLASS cps net/minecraft/world/loot/function/EnchantWithLevelsLootFunction
+	CLASS cps$a Builder
+		FIELD a range Lcov;
+		FIELD b treasureEnchantmentsAllowed Z
+		METHOD <init> (Lcov;)V
+			ARG 1 range
+		METHOD e allowTreasureEnchantments ()Lcps$a;
+	CLASS cps$b Factory
+	FIELD a range Lcov;
+	FIELD c treasureEnchantmentsAllowed Z
+	METHOD <init> ([Lcrb;Lcov;Z)V
+		ARG 1 conditions
+		ARG 2 range
+		ARG 3 treasureEnchantmentsAllowed
+	METHOD a builder (Lcov;)Lcps$a;
+		ARG 0 range

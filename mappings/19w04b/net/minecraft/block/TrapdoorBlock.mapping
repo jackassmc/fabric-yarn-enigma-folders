@@ -1,0 +1,13 @@
+CLASS bnl net/minecraft/block/TrapdoorBlock
+	FIELD a OPEN Lbrc;
+	FIELD b BLOCK_HALF Lbri;
+	FIELD c POWERED Lbrc;
+	FIELD d WATERLOGGED Lbrc;
+	FIELD e EAST_SHAPE Lcnl;
+	FIELD f WEST_SHAPE Lcnl;
+	FIELD g SOUTH_SHAPE Lcnl;
+	FIELD h NORTH_SHAPE Lcnl;
+	FIELD i OPEN_BOTTOM_SHAPE Lcnl;
+	FIELD j OPEN_TOP_SHAPE Lcnl;
+	METHOD <init> (Lbhn$c;)V
+		ARG 1 settings

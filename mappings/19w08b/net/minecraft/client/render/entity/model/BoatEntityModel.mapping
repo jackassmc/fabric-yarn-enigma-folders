@@ -1,0 +1,2 @@
+CLASS czy net/minecraft/client/render/entity/model/BoatEntityModel
+	METHOD c renderPass (Lahm;FFFFFF)V

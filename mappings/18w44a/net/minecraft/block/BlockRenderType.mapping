@@ -1,0 +1,3 @@
+CLASS bix net/minecraft/block/BlockRenderType
+	FIELD a NONE Lbix;
+	FIELD c MODEL Lbix;

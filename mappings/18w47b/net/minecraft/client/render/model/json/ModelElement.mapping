@@ -1,0 +1,6 @@
+CLASS dcg net/minecraft/client/render/model/json/ModelElement
+	FIELD c faces Ljava/util/Map;
+	FIELD d rotation Ldci;
+	FIELD e shade Z
+	METHOD <init> (Lcmm;Lcmm;Ljava/util/Map;Ldci;Z)V
+		ARG 4 rotation

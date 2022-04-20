@@ -1,0 +1,4 @@
+CLASS dgn net/minecraft/client/render/entity/IllagerBeastEntityRenderer
+	FIELD a TEXTURE Lpy;
+	METHOD a getTexture (Lagf;)Lpy;
+	METHOD a getTexture (Lapb;)Lpy;

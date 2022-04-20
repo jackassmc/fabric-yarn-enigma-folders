@@ -1,0 +1,6 @@
+CLASS art net/minecraft/entity/projectile/SmallFireballEntity
+	METHOD a damage (Lage;F)Z
+		ARG 1 source
+		ARG 2 amount
+	METHOD a onCollision (Lcma;)V
+	METHOD aD doesCollide ()Z

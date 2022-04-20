@@ -1,0 +1,32 @@
+CLASS none/aao net/minecraft/entity/projectile/EntityArrowBase
+	FIELD e owner Lnone/sf;
+	FIELD g ARROW_FLAGS Lnone/kj;
+	METHOD <init> (Lnone/aiv;DDD)V
+		ARG 0 world
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD <init> (Lnone/aiv;Lnone/so;)V
+		ARG 0 world
+		ARG 1 owner
+	METHOD a onCollision (Lnone/bcs;)V
+		ARG 0 hit
+	METHOD a deserializeCustomData (Lnone/dt;)V
+		ARG 0 tag
+	METHOD a registerTagUpgradersFor (Lnone/pf;Ljava/lang/String;)V
+	METHOD a onHit (Lnone/so;)V
+		ARG 0 entity
+	METHOD a setCritical (Z)V
+		ARG 0 value
+	METHOD b serializeCustomData (Lnone/dt;)V
+		ARG 0 tag
+	METHOD b registerTagUpgraders (Lnone/pf;)V
+		ARG 0 handler
+	METHOD i initDataTracker ()V
+	METHOD i setVelocityClient (DDD)V
+		ARG 0 x
+		ARG 1 y
+		ARG 2 z
+	METHOD j asItemStack ()Lnone/aer;
+	METHOD l isCritical ()Z
+	METHOD y_ update ()V

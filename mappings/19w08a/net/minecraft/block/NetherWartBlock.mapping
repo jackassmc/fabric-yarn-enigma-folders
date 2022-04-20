@@ -1,0 +1,5 @@
+CLASS blu net/minecraft/block/NetherWartBlock
+	FIELD a AGE Lbsd;
+	FIELD b AGE_TO_SHAPE [Lcoe;
+	METHOD <init> (Lbif$c;)V
+		ARG 1 settings

@@ -1,0 +1,2 @@
+CLASS daz net/minecraft/client/gui/container/FurnaceScreen
+	FIELD l BG_TEX Lqs;

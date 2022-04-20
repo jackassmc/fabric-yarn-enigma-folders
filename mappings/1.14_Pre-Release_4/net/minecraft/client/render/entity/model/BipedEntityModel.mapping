@@ -1,0 +1,19 @@
+CLASS det net/minecraft/client/render/entity/model/BipedEntityModel
+	CLASS det$a ArmPose
+	FIELD f head Ldgz;
+	FIELD g headwear Ldgz;
+	FIELD h body Ldgz;
+	FIELD i armRight Ldgz;
+	FIELD j armLeft Ldgz;
+	FIELD k legRight Ldgz;
+	FIELD l legLeft Ldgz;
+	FIELD m armPoseLeft Ldet$a;
+	FIELD n armPoseRight Ldet$a;
+	FIELD o isSneaking Z
+	METHOD <init> (FFII)V
+		ARG 1 scale
+		ARG 3 textureWidth
+	METHOD a getArm (Laim;)Ldgz;
+	METHOD a getPreferedHand (Lain;)Laim;
+	METHOD a setAttributes (Ldet;)V
+	METHOD b_ setVisible (Z)V

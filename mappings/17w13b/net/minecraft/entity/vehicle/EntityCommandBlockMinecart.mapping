@@ -1,0 +1,32 @@
+CLASS adw net/minecraft/entity/vehicle/EntityCommandBlockMinecart
+	CLASS adw$1
+		METHOD C_ getServer ()Lnet/minecraft/server/MinecraftServer;
+		METHOD c getBlockPos ()Ldx;
+		METHOD d getPos ()Lbfp;
+		METHOD e getWorld ()Lali;
+		METHOD f getEntity ()Lub;
+	CLASS adw$2
+		METHOD a upgradeTag (Lqu;Lfc;I)Lfc;
+	FIELD a COMMAND Llx;
+	FIELD b LAST_OUTPUT Llx;
+	FIELD c commandExecutor Lakx;
+	METHOD a onActivatorRail (IIIZ)V
+		ARG 0 x
+		ARG 1 y
+		ARG 2 z
+		ARG 3 powered
+	METHOD a deserializeCustomData (Lfc;)V
+		ARG 0 tag
+	METHOD a onTrackedDataSet (Llx;)V
+		ARG 0 data
+	METHOD a registerTagUpgraders (Lqv;)V
+		ARG 0 handler
+	METHOD b interact (Lacu;Lsw;)Z
+		ARG 0 player
+		ARG 1 hand
+	METHOD b serializeCustomData (Lfc;)V
+		ARG 0 tag
+	METHOD i initDataTracker ()V
+	METHOD j getCommandExecutor ()Lakx;
+	METHOD v getMinecartType ()Ladu$a;
+	METHOD x getDefaultContainedBlock ()Lave;

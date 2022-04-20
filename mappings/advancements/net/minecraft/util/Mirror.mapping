@@ -1,0 +1,8 @@
+CLASS aqm net/minecraft/util/Mirror
+	FIELD a NONE Laqm;
+	FIELD b LEFT_RIGHT Laqm;
+	FIELD c FRONT_BACK Laqm;
+	FIELD d translationKey Ljava/lang/String;
+	FIELD e TRANSLATION_KEYS [Ljava/lang/String;
+	METHOD a getRotation (Lee;)Lasa;
+	METHOD b apply (Lee;)Lee;

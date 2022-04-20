@@ -1,0 +1,21 @@
+CLASS aqs net/minecraft/entity/thrown/EntityThrownPotion
+	FIELD au LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD f ITEM_STACK Lpl;
+	METHOD <init> (Lazy;DDDLava;)V
+		ARG 1 world
+		ARG 2 x
+		ARG 4 y
+	METHOD <init> (Lazy;Lagh;Lava;)V
+		ARG 1 world
+		ARG 2 owner
+	METHOD a doesWaterHurt (Lagh;)Z
+		ARG 0 entityHit
+	METHOD a onCollision (Lcip;)V
+	METHOD a extinguishFire (Les;Lex;)V
+	METHOD a deserializeCustomData (Lho;)V
+	METHOD b setItemStack (Lava;)V
+	METHOD b serializeCustomData (Lho;)V
+	METHOD f getGravity ()F
+	METHOD k getItemStack ()Lava;
+	METHOD m isLingering ()Z
+	METHOD y_ initDataTracker ()V

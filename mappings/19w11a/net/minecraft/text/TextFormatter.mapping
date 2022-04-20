@@ -1,0 +1,8 @@
+CLASS jm net/minecraft/text/TextFormatter
+	METHOD a profile (Lcom/mojang/authlib/GameProfile;)Ljl;
+	METHOD a message (Lcom/mojang/brigadier/Message;)Ljl;
+	METHOD a sortedJoin (Ljava/util/Collection;)Ljl;
+	METHOD a sortedJoin (Ljava/util/Collection;Ljava/util/function/Function;)Ljl;
+	METHOD a bracketed (Ljl;)Ljl;
+	METHOD a addStyle (Ljl;Ljt;)Ljl;
+	METHOD b join (Ljava/util/Collection;Ljava/util/function/Function;)Ljl;

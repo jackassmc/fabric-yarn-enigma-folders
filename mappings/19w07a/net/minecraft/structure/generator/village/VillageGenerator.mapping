@@ -1,0 +1,9 @@
+CLASS cag net/minecraft/structure/generator/village/VillageGenerator
+	CLASS cag$a Piece
+	METHOD a addPieces (Lbso;Lceq;Les;Ljava/util/List;Lbup;Lcae;)V
+		ARG 0 chunkGenerator
+		ARG 1 structureManager
+		ARG 2 pos
+		ARG 3 pieces
+		ARG 4 random
+		ARG 5 config

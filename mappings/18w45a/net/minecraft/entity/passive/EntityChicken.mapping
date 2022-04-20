@@ -1,0 +1,18 @@
+CLASS alc net/minecraft/entity/passive/EntityChicken
+	FIELD bI eggLayTime I
+	METHOD D getSoundAmbient ()Lwz;
+	METHOD F getLootTableId ()Lpw;
+	METHOD a createChild (Lafv;)Lafv;
+	METHOD a playStepSound (Les;Lbno;)V
+		ARG 1 pos
+	METHOD a deserializeCustomData (Lho;)V
+	METHOD b createChild (Lafv;)Lalc;
+	METHOD b serializeCustomData (Lho;)V
+	METHOD bH getEyeHeight ()F
+	METHOD c handleFallDamage (FF)V
+		ARG 1 fallDistance
+	METHOD cb initAttributes ()V
+	METHOD cw getSoundDeath ()Lwz;
+	METHOD e getSoundHurt (Lafh;)Lwz;
+	METHOD k updateMovement ()V
+	METHOD n initAi ()V

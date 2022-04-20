@@ -1,0 +1,14 @@
+CLASS btr net/minecraft/client/render/debug/RenderDebug
+	CLASS btr$a IRenderDebug
+		METHOD a render (FJ)V
+	FIELD a renderDebugPathfinding Lbtr$a;
+	FIELD b renderDebugWater Lbtr$a;
+	FIELD c renderDebugChunkBorder Lbtr$a;
+	FIELD d renderDebugHeightMap Lbtr$a;
+	FIELD f showPathfinding Z
+	FIELD g showWater Z
+	FIELD h showHeightmap Z
+	METHOD <init> (Lbeq;)V
+		ARG 0 game
+	METHOD a renderDebuggers (FJ)V
+	METHOD b toggleShowChunkBorder ()Z

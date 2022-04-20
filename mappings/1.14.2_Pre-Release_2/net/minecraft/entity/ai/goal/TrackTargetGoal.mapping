@@ -1,0 +1,24 @@
+CLASS aox net/minecraft/entity/ai/goal/TrackTargetGoal
+	FIELD a checkCanNavigate Z
+	FIELD b canNavigateFlag I
+	FIELD c checkCanNavigateCooldown I
+	FIELD d timeWithoutVisibility I
+	FIELD e mob Lais;
+	FIELD f checkVisibility Z
+	FIELD g target Lair;
+	FIELD h maxTimeWithoutVisibility I
+	METHOD <init> (Lais;Z)V
+		ARG 1 mob
+		ARG 2 checkVisibility
+	METHOD <init> (Lais;ZZ)V
+		ARG 1 mob
+		ARG 2 checkVisibility
+		ARG 3 checkNavigable
+	METHOD a setMaxTimeWithoutVisibility (I)Laox;
+		ARG 1 time
+	METHOD a canNavigateToEntity (Lair;)Z
+		ARG 1 entity
+	METHOD a canTrack (Lair;Laqa;)Z
+		ARG 1 target
+		ARG 2 targetPredicate
+	METHOD k getFollowRange ()D

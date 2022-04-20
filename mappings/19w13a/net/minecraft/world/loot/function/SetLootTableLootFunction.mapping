@@ -1,0 +1,4 @@
+CLASS cpl net/minecraft/world/loot/function/SetLootTableLootFunction
+	CLASS cpl$a Factory
+	FIELD a id Lqr;
+	FIELD c seed J

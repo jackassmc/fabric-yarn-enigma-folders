@@ -1,0 +1,8 @@
+CLASS jw net/minecraft/network/Packet
+	METHOD a isErrorFatal ()Z
+	METHOD a read (Liy;)V
+		ARG 1 buf
+	METHOD a apply (Ljb;)V
+		ARG 1 listener
+	METHOD b write (Liy;)V
+		ARG 1 buf

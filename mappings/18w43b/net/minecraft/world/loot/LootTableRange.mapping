@@ -1,0 +1,17 @@
+CLASS cee net/minecraft/world/loot/LootTableRange
+	CLASS cee$a Serializer
+		METHOD a serialize (Lcee;Ljava/lang/reflect/Type;Lcom/google/gson/JsonSerializationContext;)Lcom/google/gson/JsonElement;
+		METHOD a deserialize (Lcom/google/gson/JsonElement;Ljava/lang/reflect/Type;Lcom/google/gson/JsonDeserializationContext;)Lcee;
+	FIELD d min F
+	FIELD e max F
+	METHOD <init> (F)V
+		ARG 0 value
+	METHOD <init> (FF)V
+		ARG 0 min
+		ARG 1 max
+	METHOD a contains (I)Z
+		ARG 0 value
+	METHOD b getMinValue ()F
+	METHOD b getRandomFloat (Ljava/util/Random;)F
+		ARG 0 rand
+	METHOD c getMaxValue ()F

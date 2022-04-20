@@ -1,0 +1,4 @@
+CLASS ams net/minecraft/entity/passive/CowEntity
+	METHOD <init> (Lahm;Lbcu;)V
+		ARG 1 type
+	METHOD b createChild (Lahg;)Lams;

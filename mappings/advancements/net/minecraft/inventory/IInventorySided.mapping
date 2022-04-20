@@ -1,0 +1,4 @@
+CLASS ti net/minecraft/inventory/IInventorySided
+	METHOD a canInsertInvStack (ILahf;Lee;)Z
+	METHOD a getInvAvailableSlots (Lee;)[I
+	METHOD b canExtractInvStack (ILahf;Lee;)Z

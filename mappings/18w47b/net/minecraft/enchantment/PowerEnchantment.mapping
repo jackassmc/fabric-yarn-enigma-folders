@@ -1,0 +1,2 @@
+CLASS ayh net/minecraft/enchantment/PowerEnchantment
+	METHOD a getHighestLevel ()I

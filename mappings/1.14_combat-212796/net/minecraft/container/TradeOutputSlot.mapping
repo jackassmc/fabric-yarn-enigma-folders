@@ -1,0 +1,12 @@
+CLASS azj net/minecraft/container/TradeOutputSlot
+	FIELD a traderInventory Lazh;
+	FIELD b player Lawb;
+	FIELD g amount I
+	FIELD h trader Lbgp;
+	METHOD <init> (Lawb;Lbgp;Lazh;III)V
+		ARG 1 player
+		ARG 2 trader
+		ARG 3 traderInventory
+		ARG 4 index
+		ARG 5 x
+		ARG 6 y

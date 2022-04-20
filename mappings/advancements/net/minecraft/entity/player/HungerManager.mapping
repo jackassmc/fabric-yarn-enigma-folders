@@ -1,0 +1,17 @@
+CLASS aef net/minecraft/entity/player/HungerManager
+	FIELD a foodLevel I
+	FIELD b foodSaturationLevel F
+	FIELD c exhaustion F
+	FIELD d foodStarvationTimer I
+	FIELD e prevFoodLevel I
+	METHOD a getFoodLevel ()I
+	METHOD a addExhaustion (F)V
+	METHOD a setFoodLevel (I)V
+	METHOD a add (IF)V
+	METHOD a update (Lacu;)V
+	METHOD a eat (Lagz;Lahf;)V
+	METHOD a deserialize (Lfc;)V
+	METHOD b setSaturationLevelClient (F)V
+	METHOD b serialize (Lfc;)V
+	METHOD c isNotFull ()Z
+	METHOD e getSaturationLevel ()F

@@ -1,0 +1,6 @@
+CLASS axm net/minecraft/container/HopperContainer
+	FIELD c inventory Lagk;
+	METHOD <init> (ILaul;)V
+		ARG 1 syncId
+	METHOD <init> (ILaul;Lagk;)V
+		ARG 1 syncId

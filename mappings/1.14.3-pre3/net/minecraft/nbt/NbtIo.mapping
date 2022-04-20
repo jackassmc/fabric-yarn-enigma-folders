@@ -1,0 +1,29 @@
+CLASS in net/minecraft/nbt/NbtIo
+	METHOD a write (Lic;Ljava/io/DataOutput;)V
+		ARG 0 tag
+		ARG 1 output
+	METHOD a safeWrite (Lic;Ljava/io/File;)V
+		ARG 0 tag
+		ARG 1 file
+	METHOD a writeCompressed (Lic;Ljava/io/OutputStream;)V
+		ARG 0 tag
+		ARG 1 stream
+	METHOD a write (Lit;Ljava/io/DataOutput;)V
+		ARG 0 tag
+		ARG 1 output
+	METHOD a read (Ljava/io/DataInput;ILim;)Lit;
+		ARG 0 input
+		ARG 1 depth
+		ARG 2 tracker
+	METHOD a read (Ljava/io/DataInput;Lim;)Lic;
+		ARG 0 input
+		ARG 1 trakcer
+	METHOD a read (Ljava/io/DataInputStream;)Lic;
+		ARG 0 stream
+	METHOD a read (Ljava/io/File;)Lic;
+		ARG 0 file
+	METHOD a readCompressed (Ljava/io/InputStream;)Lic;
+		ARG 0 stream
+	METHOD b write (Lic;Ljava/io/File;)V
+		ARG 0 tag
+		ARG 1 file

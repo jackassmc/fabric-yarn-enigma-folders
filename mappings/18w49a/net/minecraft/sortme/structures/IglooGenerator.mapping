@@ -1,0 +1,5 @@
+CLASS cat net/minecraft/sortme/structures/IglooGenerator
+	CLASS cat$a
+		METHOD a (Lbat;Ljava/util/Random;Lcap;Lbag;)Z
+			ARG 2 random
+		METHOD a toNbt (Lhq;)V

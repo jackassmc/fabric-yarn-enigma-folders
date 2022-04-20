@@ -1,0 +1,9 @@
+CLASS alc net/minecraft/entity/ai/goal/AnimalMateGoal
+	FIELD a owner Lapi;
+	FIELD b world Lbfy;
+	FIELD c mate Lapi;
+	FIELD f timer I
+	FIELD g chance D
+	METHOD <init> (Lapi;D)V
+		ARG 1 owner
+	METHOD h findMate ()Lapi;

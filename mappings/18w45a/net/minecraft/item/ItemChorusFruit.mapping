@@ -1,0 +1,4 @@
+CLASS atn net/minecraft/item/ItemChorusFruit
+	METHOD a onItemFinishedUsing (Lava;Lazy;Lagh;)Lava;
+		ARG 1 stack
+		ARG 2 world

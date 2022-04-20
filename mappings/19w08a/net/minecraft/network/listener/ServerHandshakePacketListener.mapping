@@ -1,0 +1,2 @@
+CLASS pb net/minecraft/network/listener/ServerHandshakePacketListener
+	METHOD a onHandshake (Lpa;)V

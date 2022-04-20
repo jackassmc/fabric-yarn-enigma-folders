@@ -1,0 +1,56 @@
+CLASS cnt net/minecraft/client/gui/Gui
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD f PROTOCOLS Ljava/util/Set;
+	FIELD g uri Ljava/net/URI;
+	FIELD j listeners Ljava/util/List;
+	FIELD k game Lcjk;
+	FIELD l itemRenderer Ldcv;
+	FIELD m width I
+	FIELD n height I
+	FIELD o buttonWidgets Ljava/util/List;
+	FIELD p labelWidgets Ljava/util/List;
+	FIELD r fontRenderer Lcka;
+	METHOD a draw (IIF)V
+		ARG 0 mouseX
+		ARG 1 mouseY
+		ARG 2 delta
+	METHOD a drawStackTooltip (Lauc;II)V
+		ARG 0 stack
+		ARG 1 x
+		ARG 2 y
+	METHOD a addButton (Lckk;)Lckk;
+		ARG 0 button
+	METHOD a drawTextComponentHover (Liw;II)V
+		ARG 0 component
+		ARG 1 x
+		ARG 2 y
+	METHOD a drawTooltip (Ljava/lang/String;II)V
+		ARG 0 text
+		ARG 1 x
+		ARG 2 y
+	METHOD a drawTooltip (Ljava/util/List;II)V
+		ARG 0 text
+		ARG 1 x
+		ARG 2 y
+	METHOD ah_ canClose ()Z
+	METHOD b onMousePressed (Lcjk;II)V
+		ARG 1 mouseY
+		ARG 2 mouseButton
+	METHOD c init ()V
+	METHOD c drawTextureBackground (I)V
+		ARG 0 i
+	METHOD c_ drawBackground (I)V
+		ARG 0 id
+	METHOD confirmResult handle (ZI)V
+		ARG 0 result
+		ARG 1 callbackId
+	METHOD d drawBackground ()V
+	METHOD d handleTextComponentClick (Liw;)Z
+		ARG 0 component
+	METHOD e isPauseScreen ()Z
+	METHOD f update ()V
+	METHOD g close ()V
+	METHOD keyPressed (III)Z
+		ARG 0 keyCode
+		ARG 1 scanCode
+	METHOD n onClosed ()V

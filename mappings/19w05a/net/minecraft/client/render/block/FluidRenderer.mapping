@@ -1,0 +1,6 @@
+CLASS dfw net/minecraft/client/render/block/FluidRenderer
+	FIELD a lavaSprites [Ldos;
+	FIELD b waterSprites [Ldos;
+	FIELD c waterOverlaySprite Ldos;
+	METHOD a onResourceReload ()V
+	METHOD a tesselate (Lbbz;Let;Lcpn;Lcgb;)Z

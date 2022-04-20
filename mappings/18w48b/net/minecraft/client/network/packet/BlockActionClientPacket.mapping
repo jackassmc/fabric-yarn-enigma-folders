@@ -1,0 +1,17 @@
+CLASS kc net/minecraft/client/network/packet/BlockActionClientPacket
+	FIELD a pos Let;
+	FIELD b arg1 I
+	FIELD c arg2 I
+	FIELD d block Lbfr;
+	METHOD <init> (Let;Lbfr;II)V
+		ARG 1 pos
+		ARG 2 block
+		ARG 3 arg1
+	METHOD a read (Liq;)V
+	METHOD a apply (Lit;)V
+	METHOD a apply (Ljr;)V
+	METHOD b getPos ()Let;
+	METHOD b write (Liq;)V
+	METHOD c getArgumentFirst ()I
+	METHOD d getArgumentSecond ()I
+	METHOD e getBlock ()Lbfr;

@@ -1,0 +1,2 @@
+CLASS bet net/minecraft/recipe/SpecialRecipeSerializer
+	FIELD t id Ljava/util/function/Function;

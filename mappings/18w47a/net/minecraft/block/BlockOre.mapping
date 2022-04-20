@@ -1,0 +1,2 @@
+CLASS bje net/minecraft/block/BlockOre
+	METHOD a onStacksDropped (Lboh;Lbam;Les;Lavn;)V

@@ -1,0 +1,44 @@
+CLASS ast net/minecraft/entity/vehicle/BoatEntity
+	CLASS ast$b Type
+		FIELD a OAK Last$b;
+		FIELD b SPRUCE Last$b;
+		FIELD c BIRCH Last$b;
+		FIELD d JUNGLE Last$b;
+		FIELD e ACACIA Last$b;
+		FIELD f DARK_OAK Last$b;
+		FIELD g name Ljava/lang/String;
+		METHOD a getName ()Ljava/lang/String;
+		METHOD a getType (I)Last$b;
+		METHOD a getType (Ljava/lang/String;)Last$b;
+	FIELD e BOAT_TYPE Lpt;
+	FIELD f LEFT_PADDLE_MOVING Lpt;
+	FIELD g RIGHT_PADDLE_MOVING Lpt;
+	METHOD <init> (Lbcf;DDD)V
+		ARG 1 world
+		ARG 2 x
+	METHOD a setPositionAndRotations (DDDFFIZ)V
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+	METHOD a getPaddleState (I)Z
+		ARG 1 paddle
+	METHOD a damage (Lagm;F)Z
+		ARG 1 source
+		ARG 2 amount
+	METHOD a copyEntityData (Lahd;)V
+	METHOD a setBoatType (Last$b;)V
+	METHOD a readCustomDataFromTag (Lhs;)V
+	METHOD a setPaddleState (ZZ)V
+	METHOD aE doesCollide ()Z
+	METHOD aF isPushable ()Z
+	METHOD aM getMountedHeightOffset ()D
+	METHOD b interact (Lark;Lafy;)Z
+		ARG 1 player
+	METHOD b writeCustomDataToTag (Lhs;)V
+	METHOD bQ getPrimaryPassenger ()Lahd;
+	METHOD e asItem ()Lawy;
+	METHOD h update ()V
+	METHOD i pushAwayFrom (Lahd;)V
+	METHOD o getBoatType ()Last$b;
+	METHOD q canAddPassenger (Lahd;)Z
+	METHOD w_ initDataTracker ()V

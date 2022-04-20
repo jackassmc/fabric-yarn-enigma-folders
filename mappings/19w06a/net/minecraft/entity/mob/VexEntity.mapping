@@ -1,0 +1,14 @@
+CLASS aqw net/minecraft/entity/mob/VexEntity
+	CLASS aqw$a ChargeTargetGoal
+	CLASS aqw$b TrackOwnerTargetGoal
+	CLASS aqw$c VexMoveControl
+	CLASS aqw$d LookAtTargetGoal
+	FIELD bC alive Z
+	FIELD bD lifeTicks I
+	FIELD c owner Lahs;
+	FIELD d bounds Let;
+	METHOD a setLifeTicks (I)V
+	METHOD a setOwner (Lahs;)V
+	METHOD dE getBounds ()Let;
+	METHOD g setBounds (Let;)V
+	METHOD l getOwner ()Lahs;

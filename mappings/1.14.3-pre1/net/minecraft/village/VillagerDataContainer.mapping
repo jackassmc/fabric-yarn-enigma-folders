@@ -1,0 +1,2 @@
+CLASS avo net/minecraft/village/VillagerDataContainer
+	METHOD eg getVillagerData ()Lavn;

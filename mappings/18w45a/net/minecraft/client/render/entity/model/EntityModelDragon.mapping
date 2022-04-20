@@ -1,0 +1,26 @@
+CLASS cwu net/minecraft/client/render/entity/model/EntityModelDragon
+	FIELD a head Lcwz;
+	FIELD b neck Lcwz;
+	FIELD c jaw Lcwz;
+	FIELD d body Lcwz;
+	FIELD e rearLeg Lcwz;
+	FIELD f frontLeg Lcwz;
+	FIELD g rearLegTip Lcwz;
+	FIELD h frontLegTip Lcwz;
+	FIELD i rearFoot Lcwz;
+	FIELD j frontFoot Lcwz;
+	FIELD k wing Lcwz;
+	FIELD l wingTip Lcwz;
+	FIELD m partialTicks F
+	METHOD a updateRotations (D)F
+	METHOD a render (Lafy;FFFFFF)V
+		ARG 1 entity
+		ARG 2 limbMoveAngle
+		ARG 3 limbMoveAmount
+		ARG 4 age
+		ARG 5 headYaw
+		ARG 6 headPitch
+	METHOD a animateModel (Lagh;FFF)V
+		ARG 1 entity
+		ARG 2 swingAmount
+		ARG 3 swingDelta

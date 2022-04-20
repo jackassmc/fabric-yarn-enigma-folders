@@ -1,0 +1,2 @@
+CLASS xi net/minecraft/entity/mob/EntityAquatic
+	METHOD U updateLogic ()V

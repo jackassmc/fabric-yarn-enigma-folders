@@ -1,0 +1,6 @@
+CLASS auo net/minecraft/entity/mob/PillagerEntity
+	FIELD b CHARGING Lqh;
+	FIELD bz inventory Lahi;
+	METHOD a getProjectileVelocity (Lcrx;F)Lb;
+	METHOD dX isCharging ()Z
+	METHOD eg getInventory ()Lahi;

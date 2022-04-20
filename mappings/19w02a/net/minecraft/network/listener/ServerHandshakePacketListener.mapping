@@ -1,0 +1,2 @@
+CLASS ox net/minecraft/network/listener/ServerHandshakePacketListener
+	METHOD a onHandshake (Low;)V

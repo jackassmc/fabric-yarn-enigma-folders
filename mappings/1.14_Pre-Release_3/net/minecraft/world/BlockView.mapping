@@ -1,0 +1,14 @@
+CLASS bgo net/minecraft/world/BlockView
+	METHOD H getMaxLightLevel ()I
+	METHOD I getHeight ()I
+	METHOD a rayTrace (Lbgr;)Lcrn;
+	METHOD a rayTrace (Lbgr;Ljava/util/function/BiFunction;Ljava/util/function/Function;)Ljava/lang/Object;
+	METHOD a rayTraceBlock (Lcrr;Lcrr;Lev;Lcsl;Lbvf;)Lcrn;
+	METHOD b getFluidState (Lev;)Lckv;
+		ARG 1 pos
+	METHOD d getBlockEntity (Lev;)Lbti;
+		ARG 1 pos
+	METHOD e_ getBlockState (Lev;)Lbvf;
+		ARG 1 pos
+	METHOD h getLuminance (Lev;)I
+		ARG 1 pos

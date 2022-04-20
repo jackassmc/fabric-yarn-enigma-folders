@@ -1,0 +1,6 @@
+CLASS ddr net/minecraft/client/gui/hud/spectator/TeamTeleportSpectatorMenu
+	CLASS a TeleportToSpecificTeamCommand
+		FIELD b team Lcta;
+		FIELD c skinId Lqt;
+		FIELD d scoreboardEntries Ljava/util/List;
+	FIELD a commands Ljava/util/List;

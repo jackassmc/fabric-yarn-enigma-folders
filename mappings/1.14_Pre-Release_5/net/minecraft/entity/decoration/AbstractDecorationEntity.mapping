@@ -1,0 +1,14 @@
+CLASS atd net/minecraft/entity/decoration/AbstractDecorationEntity
+	FIELD b PREDICATE Ljava/util/function/Predicate;
+	FIELD c blockPos Lev;
+	FIELD d facing Lfa;
+	METHOD <init> (Laij;Lbhh;)V
+		ARG 1 type
+	METHOD <init> (Laij;Lbhh;Lev;)V
+		ARG 1 world
+	METHOD a onBreak (Laif;)V
+	METHOD a setFacing (Lfa;)V
+	METHOD k getWidthPixels ()I
+	METHOD l getHeightPixels ()I
+	METHOD m onPlace ()V
+	METHOD n getDecorationBlockPos ()Lev;

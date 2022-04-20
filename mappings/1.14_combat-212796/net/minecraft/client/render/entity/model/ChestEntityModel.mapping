@@ -1,0 +1,4 @@
+CLASS dek net/minecraft/client/render/entity/model/ChestEntityModel
+	FIELD a lid Ldhi;
+	FIELD b base Ldhi;
+	FIELD c hatch Ldhi;

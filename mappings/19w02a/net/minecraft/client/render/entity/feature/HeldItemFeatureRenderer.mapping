@@ -1,0 +1,4 @@
+CLASS dnc net/minecraft/client/render/entity/feature/HeldItemFeatureRenderer
+	METHOD <init> (Ldlf;)V
+		ARG 1 context
+	METHOD a render (Lahd;FFFFFFF)V

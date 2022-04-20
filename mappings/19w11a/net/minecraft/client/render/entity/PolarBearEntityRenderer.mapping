@@ -1,0 +1,2 @@
+CLASS dpo net/minecraft/client/render/entity/PolarBearEntityRenderer
+	FIELD a SKIN Lqp;

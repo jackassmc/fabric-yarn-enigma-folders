@@ -1,0 +1,6 @@
+CLASS bsi net/minecraft/block/TripwireHookBlock
+	FIELD a FACING Lbwa;
+	FIELD b POWERED Lbvx;
+	FIELD c ATTACHED Lbvx;
+	METHOD <init> (Lbmh$c;)V
+		ARG 1 settings

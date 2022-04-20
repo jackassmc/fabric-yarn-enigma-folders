@@ -1,0 +1,13 @@
+CLASS aml net/minecraft/entity/passive/FishEntity
+	CLASS aml$a FishMoveControl
+		FIELD i fish Laml;
+	CLASS aml$b SwimToRandomPlaceGoal
+	FIELD b FROM_BUCKET Lps;
+	METHOD <init> (Lahm;Lbcu;)V
+		ARG 1 type
+	METHOD dE getFlopSound ()Lxv;
+	METHOD dF isFromBucket ()Z
+	METHOD f copyDataToStack (Laxm;)V
+	METHOD l getFishBucketItem ()Laxm;
+	METHOD n hasSelfControl ()Z
+	METHOD q setFromBucket (Z)V

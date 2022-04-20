@@ -1,0 +1,12 @@
+CLASS cop net/minecraft/client/font/TextureFont
+	CLASS cop$a Loader
+		FIELD a filename Lpw;
+		FIELD c height I
+		FIELD d ascent I
+		METHOD <init> (Lpw;IILjava/util/List;)V
+			ARG 0 filename
+		METHOD a load (Lvw;)Lckd;
+			ARG 0 manager
+	CLASS cop$b
+		FIELD g advance I
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;

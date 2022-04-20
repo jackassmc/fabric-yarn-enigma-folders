@@ -1,0 +1,2 @@
+CLASS cnw net/minecraft/world/loot/function/ExplosionDecayLootFunction
+	CLASS cnw$a net/minecraft/world/loot/function/ExplosionDecayLootFunction$Factory

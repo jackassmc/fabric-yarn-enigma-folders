@@ -1,0 +1,6 @@
+CLASS vy net/minecraft/resource/metadata/PackResourceMetadata
+	FIELD a READER Lvz;
+	FIELD b description Ljc;
+	FIELD c packFormat I
+	METHOD a getDescription ()Ljc;
+	METHOD b getPackFormat ()I

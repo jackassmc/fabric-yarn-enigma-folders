@@ -1,0 +1,4 @@
+CLASS bsj net/minecraft/block/FernBlock
+	FIELD a SHAPE Lcsu;
+	METHOD <init> (Lbmp$c;)V
+		ARG 1 settings

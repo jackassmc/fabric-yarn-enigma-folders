@@ -1,0 +1,3 @@
+CLASS cup net/minecraft/client/gui/ingame/DeathScreen
+	FIELD a ticksSinceDeath I
+	FIELD b msg Lji;

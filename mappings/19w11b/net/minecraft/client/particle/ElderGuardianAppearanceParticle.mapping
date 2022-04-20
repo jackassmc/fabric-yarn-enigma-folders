@@ -1,0 +1,3 @@
+CLASS dhk net/minecraft/client/particle/ElderGuardianAppearanceParticle
+	CLASS dhk$a Factory
+	FIELD C guardian Laif;

@@ -1,0 +1,3 @@
+CLASS dms net/minecraft/client/render/entity/feature/CatCollarFeatureRenderer
+	METHOD <init> (Ldlh;)V
+		ARG 1 context

@@ -1,0 +1,3 @@
+CLASS uw
+	METHOD a onConnectionLost (Liz;)V
+	METHOD a onHandshake (Lop;)V

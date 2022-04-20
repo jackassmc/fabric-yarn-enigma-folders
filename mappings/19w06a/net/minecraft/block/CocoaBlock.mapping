@@ -1,0 +1,8 @@
+CLASS bin net/minecraft/block/CocoaBlock
+	FIELD a AGE Lbrs;
+	FIELD b AGE_TO_EAST_SHAPE [Lcnt;
+	FIELD c AGE_TO_WEST_SHAPE [Lcnt;
+	FIELD d AGE_TO_NORTH_SHAPE [Lcnt;
+	FIELD e AGE_TO_SOUTH_SHAPE [Lcnt;
+	METHOD <init> (Lbhv$c;)V
+		ARG 1 settings

@@ -1,0 +1,34 @@
+CLASS net/minecraft/class_4647 net/minecraft/world/gen/foliage/FoliagePlacer
+	FIELD field_21296 radius I
+	FIELD field_21297 randomRadius I
+	FIELD field_21298 type Lnet/minecraft/class_4648;
+	FIELD field_23753 offset I
+	FIELD field_23754 randomOffset I
+	METHOD <init> (IIIILnet/minecraft/class_4648;)V
+		ARG 1 radius
+		ARG 2 randomRadius
+		ARG 3 offset
+		ARG 4 randomOffset
+		ARG 5 type
+	METHOD method_23448 generate (Lnet/minecraft/class_3747;Ljava/util/Random;Lnet/minecraft/class_4643;ILnet/minecraft/class_4647$class_5208;IILjava/util/Set;I)V
+		COMMENT This is the main method used to generate foliage.
+		ARG 1 world
+		ARG 2 random
+		ARG 4 trunkHeight
+		ARG 6 foliageHeight
+		ARG 7 radius
+		ARG 8 leaves
+	METHOD method_23449 generate (Lnet/minecraft/class_3747;Ljava/util/Random;Lnet/minecraft/class_4643;Lnet/minecraft/class_2338;ILjava/util/Set;IZ)V
+		ARG 2 random
+		ARG 5 baseHeight
+	METHOD method_23451 isInvalidForLeaves (Ljava/util/Random;IIIIZ)Z
+		ARG 2 baseHeight
+		ARG 3 dx
+		ARG 4 dy
+		ARG 5 dz
+	METHOD method_23452 getRadius (Ljava/util/Random;I)I
+		ARG 1 random
+		ARG 2 baseHeight
+	METHOD method_26989 getHeight (Ljava/util/Random;ILnet/minecraft/class_4643;)I
+		ARG 1 random
+		ARG 2 trunkHeight

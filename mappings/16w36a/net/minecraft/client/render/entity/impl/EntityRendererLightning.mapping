@@ -1,0 +1,3 @@
+CLASS none/btt net/minecraft/client/render/entity/impl/EntityRendererLightning
+	METHOD a (Lnone/sf;DDDFF)V
+	METHOD a (Lnone/yw;DDDFF)V

@@ -1,0 +1,19 @@
+CLASS sf net/minecraft/server/command/ForceLoadCommand
+	FIELD a TOOBIG_EXCEPTION Lcom/mojang/brigadier/exceptions/Dynamic2CommandExceptionType;
+	FIELD b QUERY_FAILURE_EXCEPTION Lcom/mojang/brigadier/exceptions/Dynamic2CommandExceptionType;
+	FIELD c ADDED_FAILURE_EXCEPTION Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
+	FIELD d REMOVED_FAILURE_EXCEPTION Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
+	METHOD a executeQuery (Lcd;)I
+		ARG 0 source
+	METHOD a executeQuery (Lcd;Luy;)I
+		ARG 0 source
+		ARG 1 pos
+	METHOD a executeChange (Lcd;Luy;Luy;Z)I
+		ARG 0 source
+		ARG 1 from
+		ARG 2 to
+		ARG 3 forceLoaded
+	METHOD a register (Lcom/mojang/brigadier/CommandDispatcher;)V
+		ARG 0 dispatcher
+	METHOD b executeRemoveAll (Lcd;)I
+		ARG 0 source

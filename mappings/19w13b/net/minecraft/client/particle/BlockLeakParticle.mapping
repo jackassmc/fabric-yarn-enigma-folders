@@ -1,0 +1,3 @@
+CLASS dhk net/minecraft/client/particle/BlockLeakParticle
+	CLASS dhk$f LavaFactory
+	CLASS dhk$h WaterFactory

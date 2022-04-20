@@ -1,0 +1,5 @@
+CLASS bwn net/minecraft/world/gen/config/feature/ShipwreckFeatureConfig
+	FIELD a isBeached Z
+	METHOD a deserialize (Lcom/mojang/datafixers/Dynamic;)Lbwn;
+		ARG 0 dynamic
+	METHOD a serialize (Lcom/mojang/datafixers/types/DynamicOps;)Lcom/mojang/datafixers/Dynamic;

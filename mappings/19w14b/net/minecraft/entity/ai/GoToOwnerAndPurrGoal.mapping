@@ -1,0 +1,2 @@
+CLASS ama net/minecraft/entity/ai/GoToOwnerAndPurrGoal
+	FIELD g cat Laqj;

@@ -1,0 +1,67 @@
+CLASS adg net/minecraft/entity/mob/EntityShulker
+	CLASS adg$a
+		METHOD a canStart ()Z
+		METHOD c start ()V
+		METHOD d onRemove ()V
+		METHOD e tick ()V
+	CLASS adg$c
+		METHOD a canStart ()Z
+	CLASS adg$d
+		METHOD a canStart ()Z
+	CLASS adg$e
+		METHOD a canStart ()Z
+		METHOD b shouldContinue ()Z
+		METHOD c start ()V
+		METHOD d onRemove ()V
+		METHOD e tick ()V
+	FIELD a ATTACHED_FACE Lmx;
+	FIELD b ATTACHED_BLOCK Lmx;
+	FIELD c PEEK_AMOUNT Lmx;
+	METHOD B_ update ()V
+	METHOD D playSoundAmbient ()V
+	METHOD F getSoundAmbient ()Lqc;
+	METHOD J getLootTableId ()Lnd;
+	METHOD a setPositionAndRotations (DDDFFIZ)V
+		ARG 0 x
+		ARG 1 y
+		ARG 2 z
+		ARG 3 yaw
+		ARG 4 pitch
+	METHOD a setPeekAmount (I)V
+		ARG 0 value
+	METHOD a deserializeCustomData (Lfy;)V
+		ARG 0 tag
+	METHOD a onTrackedDataSet (Lmx;)V
+		ARG 0 data
+	METHOD a registerTagUpgraders (Lrw;)V
+		ARG 0 handler
+	METHOD a (Lty;Lvq;)Lvq;
+		ARG 0 difficulty
+	METHOD a damage (Lup;F)Z
+		ARG 0 source
+		ARG 1 damage
+	METHOD a move (Lvt;DDD)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD b setPosition (DDD)V
+		ARG 0 x
+		ARG 1 y
+		ARG 2 z
+	METHOD b serializeCustomData (Lfy;)V
+		ARG 0 tag
+	METHOD bK getSoundCategory ()Lqe;
+	METHOD bM initAttributes ()V
+	METHOD by getEyeHeight ()F
+	METHOD cf getSoundDeath ()Lqc;
+	METHOD d getSoundHurt (Lup;)Lqc;
+	METHOD dl getAttachedFace ()Lfa;
+	METHOD dm getAttachedBlock ()Let;
+	METHOD dn getPeekAmount ()I
+	METHOD g setAttachedBlock (Let;)V
+		ARG 0 value
+	METHOD i initDataTracker ()V
+	METHOD i pushAwayFrom (Lve;)V
+		ARG 0 other
+	METHOD n updateMovement ()V
+	METHOD r initAi ()V

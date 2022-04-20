@@ -1,0 +1,6 @@
+CLASS ble net/minecraft/block/BlockPressurePlateWeighted
+	METHOD a getTickRate (Lbac;)I
+	METHOD a setRedstoneOutput (Lbno;I)Lbno;
+		ARG 1 state
+	METHOD a appendProperties (Lbnp$a;)V
+	METHOD k getRedstoneOutput (Lbno;)I

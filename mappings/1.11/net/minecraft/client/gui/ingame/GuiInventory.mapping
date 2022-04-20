@@ -1,0 +1,20 @@
+CLASS biv net/minecraft/client/gui/ingame/GuiInventory
+	METHOD <init> (Laax;)V
+		ARG 0 player
+	METHOD a drawBackground (FII)V
+		ARG 0 delta
+		ARG 1 mouseX
+		ARG 2 mouseY
+	METHOD a draw (IIF)V
+		ARG 0 mouseX
+		ARG 1 mouseY
+		ARG 2 delta
+	METHOD a drawEntity (IIIFFLsv;)V
+		ARG 5 entity
+	METHOD a onWidgetPressed (Lbfk;)V
+		ARG 0 widget
+	METHOD b init ()V
+	METHOD b drawForeground (II)V
+		ARG 0 mouseX
+		ARG 1 mouseY
+	METHOD e update ()V

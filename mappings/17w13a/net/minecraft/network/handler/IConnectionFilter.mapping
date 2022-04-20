@@ -1,0 +1,3 @@
+CLASS jp net/minecraft/network/handler/IConnectionFilter
+	METHOD a handlePacket (Ljo;)V
+		ARG 0 handshake

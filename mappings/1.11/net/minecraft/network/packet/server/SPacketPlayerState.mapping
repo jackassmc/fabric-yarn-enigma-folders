@@ -1,0 +1,27 @@
+CLASS jd net/minecraft/network/packet/server/SPacketPlayerState
+	CLASS jd$a State
+		FIELD a BREAK_START Ljd$a;
+		FIELD b BREAK_CANCEL Ljd$a;
+		FIELD c BREAK_END Ljd$a;
+		FIELD d DROP_STACK Ljd$a;
+		FIELD e DROP_ITEM Ljd$a;
+		FIELD f ITEM_USE_FINISH Ljd$a;
+		FIELD g ITEM_HAND_SWAP Ljd$a;
+	FIELD a pos Lco;
+	FIELD b hitFace Lcv;
+	FIELD c state Ljd$a;
+	METHOD <init> (Ljd$a;Lco;Lcv;)V
+		ARG 0 state
+		ARG 1 pos
+		ARG 2 facing
+	METHOD a getPos ()Lco;
+	METHOD a readPacket (Let;)V
+		ARG 0 packet
+	METHOD a applyPacket (Lew;)V
+		ARG 0 handler
+	METHOD a applyPacket (Lim;)V
+		ARG 0 handler
+	METHOD b getHitFace ()Lcv;
+	METHOD b writePacket (Let;)V
+		ARG 0 packet
+	METHOD c getState ()Ljd$a;

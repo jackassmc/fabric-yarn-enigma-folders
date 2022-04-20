@@ -1,0 +1,5 @@
+CLASS bmh net/minecraft/block/CakeBlock
+	FIELD a BITES Lbvw;
+	FIELD b BITES_TO_SHAPE [Lcsa;
+	METHOD <init> (Lbly$c;)V
+		ARG 1 settings

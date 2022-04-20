@@ -1,0 +1,17 @@
+CLASS auo net/minecraft/block/state/BlockStateDataArray
+	FIELD a states [Latj;
+	FIELD b expander Laur;
+	FIELD c sizeBits I
+	FIELD d stateCount I
+	METHOD <init> (ILaur;)V
+		ARG 0 sizeBits
+		ARG 1 expansionDelegate
+	METHOD a getSizeBytes ()I
+	METHOD a getBlockState (I)Latj;
+		ARG 0 blockStateId
+	METHOD a getBlockStateId (Latj;)I
+		ARG 0 state
+	METHOD a readData (Let;)V
+		ARG 0 buffer
+	METHOD b writeData (Let;)V
+		ARG 0 buffer

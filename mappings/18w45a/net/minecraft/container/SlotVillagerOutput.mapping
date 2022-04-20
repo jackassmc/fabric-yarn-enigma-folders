@@ -1,0 +1,21 @@
+CLASS ash net/minecraft/container/SlotVillagerOutput
+	FIELD a villagerInventory Lasf;
+	FIELD b player Lapv;
+	FIELD c amount I
+	FIELD h villager Lazd;
+	METHOD <init> (Lapv;Lazd;Lasf;III)V
+		ARG 1 player
+		ARG 2 villager
+		ARG 3 VillagerInventory
+		ARG 4 index
+		ARG 5 xPosition
+	METHOD a takeStack (I)Lava;
+	METHOD a onTakeItem (Lapv;Lava;)Lava;
+		ARG 1 player
+	METHOD a canInsert (Lava;)Z
+	METHOD a onCrafted (Lava;I)V
+		ARG 1 stack
+	METHOD a isValid (Laze;Lava;Lava;)Z
+		ARG 1 recipe
+		ARG 2 firstBuyItem
+	METHOD c onCrafted (Lava;)V

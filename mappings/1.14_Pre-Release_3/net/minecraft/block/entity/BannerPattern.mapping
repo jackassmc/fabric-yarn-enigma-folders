@@ -1,0 +1,65 @@
+CLASS btb net/minecraft/block/entity/BannerPattern
+	CLASS btb$a Builder
+		FIELD a patterns Ljava/util/List;
+		METHOD a build ()Lii;
+		METHOD a with (Lbtb;Lbau;)Lbtb$a;
+			ARG 1 pattern
+	FIELD A HALF_VERTICAL_LEFT Lbtb;
+	FIELD B HALF_HORIZONTAL_TOP Lbtb;
+	FIELD C HALF_VERTICAL_RIGHT Lbtb;
+	FIELD D HALF_HORIZONTAL_BOTTOM Lbtb;
+	FIELD E BORDER Lbtb;
+	FIELD F CURLY_BORDER Lbtb;
+	FIELD G GRADIENT_DOWN Lbtb;
+	FIELD H GRADIENT_UP Lbtb;
+	FIELD I BRICKS Lbtb;
+	FIELD J GLOBE Lbtb;
+	FIELD K CREEPER Lbtb;
+	FIELD L SKULL Lbtb;
+	FIELD M FLOWER Lbtb;
+	FIELD N MOJANG Lbtb;
+	FIELD O COUNT I
+	FIELD Q name Ljava/lang/String;
+	FIELD R id Ljava/lang/String;
+	FIELD S recipePattern [Ljava/lang/String;
+	FIELD T baseStack Lbbx;
+	FIELD a BASE Lbtb;
+	FIELD b SQUARE_BOTTOM_LEFT Lbtb;
+	FIELD c SQUARE_BOTTOM_RIGHT Lbtb;
+	FIELD d SQUARE_TOP_LEFT Lbtb;
+	FIELD e SQUARE_TOP_RIGHT Lbtb;
+	FIELD f STRIPE_BOTTOM Lbtb;
+	FIELD g STRIPE_TOP Lbtb;
+	FIELD h STRIPE_LEFT Lbtb;
+	FIELD i STRIPE_RIGHT Lbtb;
+	FIELD j STRIPE_CENTER Lbtb;
+	FIELD k STRIPE_MIDDLE Lbtb;
+	FIELD l STRIPE_DOWNRIGHT Lbtb;
+	FIELD m STRIPE_DOWNLEFT Lbtb;
+	FIELD n SMALL_STRIPES Lbtb;
+	FIELD o CROSS Lbtb;
+	FIELD p STRAIGHT_CROSS Lbtb;
+	FIELD q TRIANGLE_BOTTOM Lbtb;
+	FIELD r TRIANGLE_TOP Lbtb;
+	FIELD s TRIANGLES_BOTTOM Lbtb;
+	FIELD t TRIANGLES_TOP Lbtb;
+	FIELD u DIAGONAL_DOWN_LEFT Lbtb;
+	FIELD v DIAGONAL_UP_RIGHT Lbtb;
+	FIELD w DIAGONAL_UP_LEFT Lbtb;
+	FIELD x DIAGONAL_DOWN_RIGHT Lbtb;
+	FIELD y CIRCLE Lbtb;
+	FIELD z RHOMBUS Lbtb;
+	METHOD <init> (Ljava/lang/String;ILjava/lang/String;Ljava/lang/String;)V
+		ARG 3 name
+	METHOD <init> (Ljava/lang/String;ILjava/lang/String;Ljava/lang/String;Lbbx;)V
+		ARG 3 name
+		ARG 4 id
+	METHOD <init> (Ljava/lang/String;ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+		ARG 3 name
+		ARG 4 id
+		ARG 5 recipePattern0
+		ARG 6 recipePattern1
+	METHOD a getName ()Ljava/lang/String;
+	METHOD a byId (Ljava/lang/String;)Lbtb;
+		ARG 0 id
+	METHOD b getId ()Ljava/lang/String;

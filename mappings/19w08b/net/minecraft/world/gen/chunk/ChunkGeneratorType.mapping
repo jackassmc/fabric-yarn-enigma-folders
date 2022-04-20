@@ -1,0 +1,11 @@
+CLASS bsv net/minecraft/world/gen/chunk/ChunkGeneratorType
+	FIELD f factory Lbsu;
+	FIELD g buffetScreenOption Z
+	FIELD h settingsSupplier Ljava/util/function/Supplier;
+	METHOD <init> (Lbsu;ZLjava/util/function/Supplier;)V
+		ARG 1 factory
+		ARG 2 buffetScreenOption
+		ARG 3 settingsSupplier
+	METHOD a createSettings ()Lbuf;
+	METHOD a register (Ljava/lang/String;Lbsu;Ljava/util/function/Supplier;Z)Lbsv;
+	METHOD b isBuffetScreenOption ()Z

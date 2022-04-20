@@ -1,0 +1,5 @@
+CLASS avg
+	METHOD a onTagDeserialized (Lhm;)Z
+		ARG 1 tag
+	METHOD i getTranslatedNameTrimmed (Lauv;)Lix;
+		ARG 1 stack

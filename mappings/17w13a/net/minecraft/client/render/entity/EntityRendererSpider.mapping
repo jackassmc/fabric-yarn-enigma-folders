@@ -1,0 +1,6 @@
+CLASS buo net/minecraft/client/render/entity/EntityRendererSpider
+	FIELD a SKIN Lkp;
+	METHOD a getTexture (Lsg;)Lkp;
+		ARG 0 model
+	METHOD a getTexture (Lzy;)Lkp;
+		ARG 0 model

@@ -1,0 +1,2 @@
+CLASS drx net/minecraft/client/render/entity/TurtleEntityRenderer
+	FIELD a SKIN Lqt;

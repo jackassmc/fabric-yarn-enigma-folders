@@ -1,0 +1,3 @@
+CLASS ajh net/minecraft/entity/ai/goal/FollowParentGoal
+	FIELD a owner Lami;
+	FIELD b parent Lami;

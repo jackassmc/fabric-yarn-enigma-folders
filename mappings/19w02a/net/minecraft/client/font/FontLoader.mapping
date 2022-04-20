@@ -1,0 +1,2 @@
+CLASS css net/minecraft/client/font/FontLoader
+	METHOD a load (Lwq;)Lcod;

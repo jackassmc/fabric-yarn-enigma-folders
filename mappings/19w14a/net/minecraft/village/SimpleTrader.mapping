@@ -1,0 +1,5 @@
+CLASS auy net/minecraft/village/SimpleTrader
+	FIELD a traderInventory Layt;
+	FIELD b player Lavn;
+	FIELD c recipeList Lbgb;
+	FIELD d experience I

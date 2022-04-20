@@ -1,0 +1,4 @@
+CLASS bol net/minecraft/block/FluidBlock
+	FIELD a LEVEL Lbve;
+	FIELD b fluid Lcjq;
+	FIELD c statesByLevel Ljava/util/List;

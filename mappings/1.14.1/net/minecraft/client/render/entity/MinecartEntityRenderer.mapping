@@ -1,0 +1,7 @@
+CLASS dqk net/minecraft/client/render/entity/MinecartEntityRenderer
+	FIELD a model Ldep;
+	FIELD f SKIN Lqs;
+	METHOD a renderBlock (Laxm;FLbvk;)V
+		ARG 1 entity
+		ARG 2 delta
+		ARG 3 state

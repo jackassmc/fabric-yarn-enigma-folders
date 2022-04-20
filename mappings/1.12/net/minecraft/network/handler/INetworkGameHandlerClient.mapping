@@ -1,0 +1,149 @@
+CLASS hw net/minecraft/network/handler/INetworkGameHandlerClient
+	METHOD a onEntitySpawn (Lhx;)V
+		ARG 0 packet
+	METHOD a onExperienceOrbSpawn (Lhy;)V
+		ARG 0 packet
+	METHOD a onEntitySpawnGlobal (Lhz;)V
+		ARG 0 packet
+	METHOD a onMobSpawn (Lia;)V
+		ARG 0 packet
+	METHOD a onPaintingSpawn (Lib;)V
+		ARG 0 packet
+	METHOD a onPlayerSpawn (Lic;)V
+		ARG 0 packet
+	METHOD a onEntityAnimation (Lid;)V
+		ARG 0 packet
+	METHOD a onStatistics (Lie;)V
+		ARG 0 packet
+	METHOD a onBlockDestroyProgress (Lig;)V
+		ARG 0 packet
+	METHOD a onBlockEntityUpdate (Lih;)V
+		ARG 0 packet
+	METHOD a onBlockAction (Lii;)V
+		ARG 0 packet
+	METHOD a onBlockUpdate (Lij;)V
+		ARG 0 packet
+	METHOD a onBossBar (Lik;)V
+		ARG 0 packet
+	METHOD a onDifficulty (Lil;)V
+		ARG 0 packet
+	METHOD a onChatTabComplete (Lim;)V
+		ARG 0 packet
+	METHOD a onChatMessage (Lin;)V
+		ARG 0 packet
+	METHOD a onChunkDeltaUpdate (Lio;)V
+		ARG 0 packet
+	METHOD a onGuiActionConfirm (Lip;)V
+		ARG 0 packet
+	METHOD a onGuiClose (Liq;)V
+		ARG 0 packet
+	METHOD a onGuiOpen (Lir;)V
+		ARG 0 packet
+	METHOD a onInventory (Lis;)V
+		ARG 0 packet
+	METHOD a onGuiUpdate (Lit;)V
+		ARG 0 packet
+	METHOD a onGuiSlotUpdate (Liu;)V
+		ARG 0 packet
+	METHOD a onCooldownUpdate (Liv;)V
+		ARG 0 packet
+	METHOD a onCustomPayload (Liw;)V
+		ARG 0 packet
+	METHOD a onSoundPlayName (Lix;)V
+		ARG 0 packet
+	METHOD a onDisconnect (Liy;)V
+		ARG 0 packet
+	METHOD a onEntityStatus (Liz;)V
+		ARG 0 packet
+	METHOD a onExplosion (Lja;)V
+		ARG 0 packet
+	METHOD a onChunkUnload (Ljb;)V
+		ARG 0 packet
+	METHOD a onGameStateChange (Ljc;)V
+		ARG 0 packet
+	METHOD a onKeepAlive (Ljd;)V
+		ARG 0 packet
+	METHOD a onChunkData (Lje;)V
+		ARG 0 packet
+	METHOD a onWorldEvent (Ljf;)V
+		ARG 0 packet
+	METHOD a onParticle (Ljg;)V
+		ARG 0 packet
+	METHOD a onGameJoin (Ljh;)V
+		ARG 0 packet
+	METHOD a onMapUpdate (Lji;)V
+		ARG 0 packet
+	METHOD a onEntityUpdate (Ljj;)V
+		ARG 0 packet
+	METHOD a onVehicleMove (Ljk;)V
+		ARG 0 packet
+	METHOD a onSignEditorOpen (Ljl;)V
+		ARG 0 packet
+	METHOD a onPlayerAbilities (Ljm;)V
+		ARG 0 packet
+	METHOD a onEventCombat (Ljn;)V
+		ARG 0 packet
+	METHOD a onPlayerList (Ljo;)V
+		ARG 0 packet
+	METHOD a onPlayerPositionLook (Ljp;)V
+		ARG 0 packet
+	METHOD a onPlayerUseBed (Ljq;)V
+		ARG 0 packet
+	METHOD a onUnlockRecipes (Ljr;)V
+	METHOD a onEntitiesDestroy (Ljs;)V
+		ARG 0 packet
+	METHOD a onEntityEffectRemove (Ljt;)V
+		ARG 0 packet
+	METHOD a onResourcePackSend (Lju;)V
+		ARG 0 packet
+	METHOD a onPlayerRespawn (Ljv;)V
+		ARG 0 packet
+	METHOD a onEntitySetHeadYaw (Ljw;)V
+		ARG 0 packet
+	METHOD a onWorldBorder (Ljy;)V
+		ARG 0 packet
+	METHOD a onSetCameraEntity (Ljz;)V
+		ARG 0 packet
+	METHOD a onHeldItemChange (Lka;)V
+		ARG 0 packet
+	METHOD a onScoreboardDisplay (Lkb;)V
+		ARG 0 packet
+	METHOD a onEntityTrackerUpdate (Lkc;)V
+		ARG 0 packet
+	METHOD a onEntityAttach (Lkd;)V
+		ARG 0 packet
+	METHOD a onVelocityUpdate (Lke;)V
+		ARG 0 packet
+	METHOD a onEquipmentUpdate (Lkf;)V
+		ARG 0 packet
+	METHOD a onExperienceBarUpdate (Lkg;)V
+		ARG 0 packet
+	METHOD a onHealthUpdate (Lkh;)V
+		ARG 0 packet
+	METHOD a onScoreboardObjectiveUpdate (Lki;)V
+		ARG 0 packet
+	METHOD a onEntityPassengersSet (Lkj;)V
+		ARG 0 packet
+	METHOD a onTeam (Lkk;)V
+		ARG 0 packet
+	METHOD a onScoreboardUpdate (Lkl;)V
+		ARG 0 packet
+	METHOD a onPlayerSpawnPosition (Lkm;)V
+		ARG 0 packet
+	METHOD a onWorldTimeUpdate (Lkn;)V
+		ARG 0 packet
+	METHOD a onTitle (Lko;)V
+		ARG 0 packet
+	METHOD a onSoundPlayId (Lkp;)V
+		ARG 0 packet
+	METHOD a onPlayerListHeader (Lkq;)V
+		ARG 0 packet
+	METHOD a onItemPickupAnimation (Lkr;)V
+		ARG 0 packet
+	METHOD a onEntityTeleport (Lks;)V
+		ARG 0 packet
+	METHOD a onAdvancements (Lkt;)V
+	METHOD a onEntityAttributes (Lku;)V
+		ARG 0 packet
+	METHOD a onEntityPotionEffect (Lkv;)V
+		ARG 0 packet

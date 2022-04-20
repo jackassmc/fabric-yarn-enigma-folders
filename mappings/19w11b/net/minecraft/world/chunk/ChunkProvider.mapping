@@ -1,0 +1,7 @@
+CLASS bvy net/minecraft/world/chunk/ChunkProvider
+	METHOD a onLightUpdate (Lbgg;Lfn;)V
+		ARG 1 type
+	METHOD b getChunk (II)Lbfi;
+		ARG 1 chunkX
+		ARG 2 chunkZ
+	METHOD k getWorld ()Lbfi;

@@ -1,0 +1,4 @@
+CLASS cme net/minecraft/world/loot/condition/EntityPropertiesLootCondition
+	CLASS cme$a Factory
+	FIELD a predicate Las;
+	FIELD b entity Lcjq$c;

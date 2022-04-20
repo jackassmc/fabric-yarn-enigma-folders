@@ -1,0 +1,8 @@
+CLASS blv net/minecraft/block/AttachedStemBlock
+	FIELD a FACING Lbwi;
+	FIELD b gourdBlock Lbsb;
+	FIELD c FACING_TO_SHAPE Ljava/util/Map;
+	METHOD <init> (Lbsb;Lbmp$c;)V
+		ARG 1 gourdBlock
+		ARG 2 settings
+	METHOD b getSeeds ()Lbbz;

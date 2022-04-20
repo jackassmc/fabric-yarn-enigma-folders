@@ -1,0 +1,8 @@
+CLASS cwq net/minecraft/client/gui/widget/ElementListWidget
+	CLASS cwq$a ElementItem
+		FIELD a focused Lcxi;
+		FIELD b dragging Z
+		METHOD setDragging (Z)V
+			ARG 1 dragging
+		METHOD setFocused (Lcxi;)V
+			ARG 1 focused

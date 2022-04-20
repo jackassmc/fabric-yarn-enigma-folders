@@ -1,0 +1,3 @@
+CLASS blz net/minecraft/block/RedstoneTorchWallBlock
+	METHOD <init> (Lbhs$c;)V
+		ARG 1 settings

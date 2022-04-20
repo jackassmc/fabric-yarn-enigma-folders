@@ -1,0 +1,4 @@
+CLASS ail net/minecraft/entity/attribute/EntityAttributeContainer
+	FIELD d instancesByName Ljava/util/Map;
+	METHOD b get (Ljava/lang/String;)Laik;
+	METHOD e get (Laif;)Laik;

@@ -1,0 +1,7 @@
+CLASS dlh net/minecraft/client/texture/MissingSprite
+	FIELD l MISSINGNO Lpy;
+	FIELD n IMAGE Lcmn;
+	FIELD o INSTANCE Ldlh;
+	METHOD a getMissingSprite ()Ldlh;
+	METHOD b getMissingTextureId ()Lpy;
+	METHOD c destroy ()V

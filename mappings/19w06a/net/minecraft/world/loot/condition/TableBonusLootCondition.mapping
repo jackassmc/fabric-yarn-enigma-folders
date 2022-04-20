@@ -1,0 +1,4 @@
+CLASS clu net/minecraft/world/loot/condition/TableBonusLootCondition
+	CLASS clu$a Factory
+	FIELD a enchantment Lbaw;
+	FIELD b chances [F

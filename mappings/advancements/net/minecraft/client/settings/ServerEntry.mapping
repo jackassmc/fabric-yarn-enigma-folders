@@ -1,0 +1,26 @@
+CLASS bqn net/minecraft/client/settings/ServerEntry
+	CLASS bqn$a ResourcePackState
+		FIELD a ENABLED Lbqn$a;
+		FIELD b DISABLED Lbqn$a;
+		FIELD c PROMPT Lbqn$a;
+		FIELD d component Lgk;
+		METHOD a getComponent ()Lgk;
+	FIELD a name Ljava/lang/String;
+	FIELD b address Ljava/lang/String;
+	FIELD c playerCountLabel Ljava/lang/String;
+	FIELD d label Ljava/lang/String;
+	FIELD e ping J
+	FIELD f protocolVersion I
+	FIELD g version Ljava/lang/String;
+	FIELD i playerListSummary Ljava/lang/String;
+	FIELD j resourcePackState Lbqn$a;
+	FIELD k icon Ljava/lang/String;
+	FIELD l local Z
+	METHOD a serialize ()Lfc;
+	METHOD a setResourcePackState (Lbqn$a;)V
+	METHOD a copyFrom (Lbqn;)V
+	METHOD a deserialize (Lfc;)Lbqn;
+	METHOD a setIcon (Ljava/lang/String;)V
+	METHOD b getResourcePack ()Lbqn$a;
+	METHOD c getIcon ()Ljava/lang/String;
+	METHOD d isLocal ()Z

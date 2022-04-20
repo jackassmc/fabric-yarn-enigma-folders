@@ -1,0 +1,2 @@
+CLASS avq net/minecraft/village/VillagerDataContainer
+	METHOD eh getVillagerData ()Lavp;

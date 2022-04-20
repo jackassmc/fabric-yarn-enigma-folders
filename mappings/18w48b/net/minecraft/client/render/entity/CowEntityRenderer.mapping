@@ -1,0 +1,4 @@
+CLASS dgg net/minecraft/client/render/entity/CowEntityRenderer
+	FIELD a SKIN Lpy;
+	METHOD a getTexture (Lagi;)Lpy;
+	METHOD a getTexture (Lalr;)Lpy;

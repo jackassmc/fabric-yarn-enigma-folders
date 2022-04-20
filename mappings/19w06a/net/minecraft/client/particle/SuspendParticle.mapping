@@ -1,0 +1,4 @@
+CLASS del net/minecraft/client/particle/SuspendParticle
+	CLASS del$b DolphinFactory
+	CLASS del$c HappyVillagerFactory
+	CLASS del$d MyceliumFactory

@@ -1,0 +1,2 @@
+CLASS bjs net/minecraft/client/util/IInputCompleter
+	METHOD a completeString ([Ljava/lang/String;)V

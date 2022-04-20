@@ -1,0 +1,4 @@
+CLASS dfn net/minecraft/client/render/entity/EntityRendererElderGuardian
+	FIELD a SKIN Lpx;
+	METHOD a getTexture (Lagc;)Lpx;
+	METHOD a getTexture (Laot;)Lpx;

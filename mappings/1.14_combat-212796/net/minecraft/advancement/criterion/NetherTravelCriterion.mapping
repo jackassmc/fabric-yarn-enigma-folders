@@ -1,0 +1,21 @@
+CLASS bl net/minecraft/advancement/criterion/NetherTravelCriterion
+	CLASS a Handler
+		FIELD a manager Lrc;
+		FIELD b conditions Ljava/util/Set;
+		METHOD a isEmpty ()Z
+		METHOD a handle (Lvi;Lcsc;DDD)V
+			ARG 1 enteredCoord
+			ARG 2 exitedX
+			ARG 3 exitedY
+		METHOD a addCondition (Lx$a;)V
+		METHOD b removeCondition (Lx$a;)V
+	CLASS b Conditions
+		FIELD a entered Lbg;
+		FIELD b exited Lbg;
+		FIELD c distance Lan;
+		METHOD a distance (Lan;)Lbl$b;
+		METHOD a matches (Lvi;Lcsc;DDD)Z
+	FIELD a ID Lqt;
+	FIELD b handlers Ljava/util/Map;
+	METHOD a handle (Lvj;Lcsc;)V
+		ARG 1 player

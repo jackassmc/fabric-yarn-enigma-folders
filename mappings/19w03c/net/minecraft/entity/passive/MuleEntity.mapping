@@ -1,0 +1,4 @@
+CLASS ann net/minecraft/entity/passive/MuleEntity
+	METHOD F getAmbientSound ()Lxr;
+	METHOD cz getDeathSound ()Lxr;
+	METHOD e getHurtSound (Lagl;)Lxr;

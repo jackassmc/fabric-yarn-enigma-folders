@@ -1,0 +1,15 @@
+CLASS none/aiz net/minecraft/world/generator/WorldGenerator
+	FIELD b DEFAULT Lnone/aiz;
+	FIELD c FLAT Lnone/aiz;
+	FIELD d LARGE_BIOMES Lnone/aiz;
+	FIELD e AMPLIFIED Lnone/aiz;
+	FIELD f CUSTOMIZED Lnone/aiz;
+	FIELD g DEBUG_ALL_BLOCK_STATES Lnone/aiz;
+	FIELD h DEFAULT_1_1 Lnone/aiz;
+	FIELD j name Ljava/lang/String;
+	FIELD k version I
+	METHOD <init> (ILjava/lang/String;I)V
+		ARG 1 name
+		ARG 2 version
+	METHOD a getName ()Ljava/lang/String;
+	METHOD d getVersion ()I

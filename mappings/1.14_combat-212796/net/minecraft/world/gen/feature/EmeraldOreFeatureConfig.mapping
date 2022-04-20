@@ -1,0 +1,8 @@
+CLASS cdt net/minecraft/world/gen/feature/EmeraldOreFeatureConfig
+	FIELD a target Lbvp;
+	FIELD b state Lbvp;
+	METHOD <init> (Lbvp;Lbvp;)V
+		ARG 1 target
+		ARG 2 state
+	METHOD a deserialize (Lcom/mojang/datafixers/Dynamic;)Lcdt;
+		ARG 0 dynamic

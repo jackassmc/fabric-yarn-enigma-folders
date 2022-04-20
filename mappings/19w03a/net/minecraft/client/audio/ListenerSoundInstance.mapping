@@ -1,0 +1,3 @@
+CLASS drv net/minecraft/client/audio/ListenerSoundInstance
+	METHOD a onSoundPlayed (Ldra;Ldrx;)V
+		ARG 1 sound

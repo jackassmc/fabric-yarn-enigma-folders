@@ -1,0 +1,37 @@
+CLASS none/add net/minecraft/item/block/ItemBlock
+	FIELD a block Lnone/akx;
+	METHOD <init> (Lnone/akx;)V
+		ARG 0 block
+	METHOD a getTranslationKey ()Ljava/lang/String;
+	METHOD a activate (Lnone/aal;Lnone/aiv;Lnone/cn;Lnone/ra;Lnone/cu;FFF)Lnone/rc;
+		ARG 0 player
+		ARG 1 world
+		ARG 2 pos
+		ARG 3 hand
+		ARG 4 facing
+		ARG 5 hitX
+		ARG 6 hitY
+		ARG 7 hitZ
+	METHOD a addStacksForDisplay (Lnone/aep;Lnone/adr;Lnone/dc;)V
+		ARG 0 item
+		ARG 1 tab
+		ARG 2 list
+	METHOD a deserializeBlockEntityTag (Lnone/aiv;Lnone/aal;Lnone/cn;Lnone/aer;)Z
+		ARG 0 world
+		ARG 1 player
+		ARG 2 pos
+		ARG 3 stack
+	METHOD a canPlaceAt (Lnone/aiv;Lnone/cn;Lnone/cu;Lnone/aal;Lnone/aer;)Z
+		ARG 0 world
+		ARG 1 pos
+		ARG 2 facing
+		ARG 3 player
+		ARG 4 stack
+	METHOD b getCreativeTab ()Lnone/adr;
+	METHOD b setTranslationKey (Ljava/lang/String;)Lnone/add;
+		ARG 0 name
+	METHOD c setTranslationKey (Ljava/lang/String;)Lnone/aep;
+		ARG 0 key
+	METHOD d getBlock ()Lnone/akx;
+	METHOD f_ getTranslationKey (Lnone/aer;)Ljava/lang/String;
+		ARG 0 stack

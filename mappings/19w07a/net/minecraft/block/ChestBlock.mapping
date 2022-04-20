@@ -1,0 +1,17 @@
+CLASS bir net/minecraft/block/ChestBlock
+	FIELD a FACING Lbru;
+	FIELD b CHEST_TYPE Lbrx;
+	FIELD c WATERLOGGED Lbrr;
+	FIELD d DOUBLE_NORTH_SHAPE Lcoa;
+	FIELD e DOUBLE_SOUTH_SHAPE Lcoa;
+	FIELD f DOUBLE_WEST_SHAPE Lcoa;
+	FIELD g DOUBLE_EAST_SHAPE Lcoa;
+	FIELD h SINGLE_SHAPE Lcoa;
+	METHOD <init> (Lbic$c;)V
+		ARG 1 settings
+	METHOD a hasBlockOnTop (Lbcm;Les;)Z
+	METHOD a isChestBlocked (Lbdc;Les;)Z
+	METHOD b hasOcelotOnTop (Lbdc;Les;)Z
+	METHOD d getOpenStat ()Lye;
+	METHOD j getFacing (Lbqz;)Lew;
+		ARG 0 state

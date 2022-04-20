@@ -1,0 +1,8 @@
+CLASS cov net/minecraft/world/loot/entry/EmptyEntry
+	CLASS cov$a Serializer
+	METHOD <init> (II[Lcqu;[Lcpr;)V
+		ARG 1 weight
+		ARG 2 quality
+		ARG 3 conditions
+		ARG 4 functions
+	METHOD a Serializer ()Lcpb$a;

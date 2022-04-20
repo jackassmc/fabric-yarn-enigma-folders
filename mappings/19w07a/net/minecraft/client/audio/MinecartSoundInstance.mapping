@@ -1,0 +1,5 @@
+CLASS drs net/minecraft/client/audio/MinecartSoundInstance
+	FIELD n player Lary;
+	FIELD o minecart Latf;
+	METHOD <init> (Lary;Latf;)V
+		ARG 1 player

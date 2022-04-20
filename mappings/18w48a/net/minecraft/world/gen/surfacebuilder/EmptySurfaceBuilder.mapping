@@ -1,0 +1,2 @@
+CLASS ccl net/minecraft/world/gen/surfacebuilder/EmptySurfaceBuilder
+	METHOD a generate (Ljava/util/Random;Lbpw;Lbbp;IIIDLboj;Lboj;IJLccp;)V

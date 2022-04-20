@@ -1,0 +1,2 @@
+CLASS buw net/minecraft/world/gen/carver/CarverConfig
+	FIELD a DEFAULT Lbva;

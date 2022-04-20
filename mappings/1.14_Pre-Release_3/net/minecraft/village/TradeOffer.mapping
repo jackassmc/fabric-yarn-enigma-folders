@@ -1,0 +1,59 @@
+CLASS bgh net/minecraft/village/TradeOffer
+	FIELD a firstBuyItem Lbbx;
+	FIELD b secondBuyItem Lbbx;
+	FIELD c sellItem Lbbx;
+	FIELD d uses I
+	FIELD e maxUses I
+	FIELD f rewardingPlayerExperience Z
+	FIELD g specialPrice I
+	FIELD h demandBonus I
+	FIELD i priceMultiplier F
+	FIELD j traderExperience I
+	METHOD <init> (Lbbx;Lbbx;IIF)V
+		ARG 1 buyItem
+		ARG 2 sellItem
+		ARG 3 maxUses
+		ARG 4 rewardedExp
+		ARG 5 priceMultiplier
+	METHOD <init> (Lbbx;Lbbx;Lbbx;IIF)V
+		ARG 1 firstBuyItem
+		ARG 2 secondBuyItem
+		ARG 3 sellItem
+		ARG 4 maxUses
+		ARG 5 rewardedExp
+		ARG 6 priceMultiplier
+	METHOD <init> (Lbbx;Lbbx;Lbbx;IIIF)V
+		ARG 1 firstBuyItem
+		ARG 2 secondBuyItem
+		ARG 3 sellItem
+		ARG 4 uses
+		ARG 5 maxUses
+		ARG 6 rewardedExp
+		ARG 7 priceMultiplier
+	METHOD a getOriginalFirstBuyItem ()Lbbx;
+	METHOD a increaseSpecialPrice (I)V
+	METHOD a matchesBuyItems (Lbbx;Lbbx;)Z
+		ARG 1 first
+		ARG 2 second
+	METHOD b getAdjustedFirstBuyItem ()Lbbx;
+	METHOD b setSpecialPrice (I)V
+	METHOD b depleteBuyItems (Lbbx;Lbbx;)Z
+	METHOD c getSecondBuyItem ()Lbbx;
+	METHOD c acceptsBuy (Lbbx;Lbbx;)Z
+		ARG 1 given
+		ARG 2 sample
+	METHOD d getMutableSellItem ()Lbbx;
+	METHOD e updatePriceOnDemand ()V
+	METHOD f getSellItem ()Lbbx;
+	METHOD g getUses ()I
+	METHOD h resetUses ()V
+	METHOD i getMaxUses ()I
+	METHOD j use ()V
+	METHOD k clearSpecialPrice ()V
+	METHOD l getSpecialPrice ()I
+	METHOD m getPriceMultiplier ()F
+	METHOD n getTraderExperience ()I
+	METHOD o isDisabled ()Z
+	METHOD p clearUses ()V
+	METHOD q shouldRewardPlayerExperience ()Z
+	METHOD r toTag ()Lib;

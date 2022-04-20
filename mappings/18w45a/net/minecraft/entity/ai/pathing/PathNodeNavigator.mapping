@@ -1,0 +1,15 @@
+CLASS cec net/minecraft/entity/ai/pathing/PathNodeNavigator
+	FIELD a minHeap Lcdv;
+	METHOD a pathfind (Lazl;Lagi;DDDF)Lcea;
+		ARG 1 blockView
+		ARG 2 entity
+		ARG 3 x
+		ARG 5 y
+	METHOD a pathfind (Lazl;Lagi;Lafy;F)Lcea;
+		ARG 1 blockView
+		ARG 2 entity
+		ARG 3 target
+	METHOD a pathfind (Lazl;Lagi;Les;F)Lcea;
+		ARG 1 blockView
+		ARG 2 entity
+		ARG 3 target

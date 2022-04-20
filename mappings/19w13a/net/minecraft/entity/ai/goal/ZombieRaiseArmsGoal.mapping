@@ -1,0 +1,2 @@
+CLASS aoc net/minecraft/entity/ai/goal/ZombieRaiseArmsGoal
+	FIELD d zombie Laus;

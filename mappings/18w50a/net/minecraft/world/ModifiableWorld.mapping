@@ -1,0 +1,8 @@
+CLASS bbz net/minecraft/world/ModifiableWorld
+	METHOD a spawnEntity (Lagv;)Z
+	METHOD a clearBlockState (Let;)Z
+	METHOD a setBlockState (Let;Lbpm;I)Z
+		ARG 1 pos
+		ARG 2 state
+	METHOD a breakBlock (Let;Z)Z
+		ARG 1 pos

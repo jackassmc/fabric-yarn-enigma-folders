@@ -1,0 +1,3 @@
+CLASS aiq net/minecraft/entity/ai/control/DolphinLookControl
+	METHOD <init> (Lahs;I)V
+		ARG 1 entity

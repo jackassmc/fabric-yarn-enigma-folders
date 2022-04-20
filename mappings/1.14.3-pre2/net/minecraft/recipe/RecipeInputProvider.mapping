@@ -1,0 +1,2 @@
+CLASS azu net/minecraft/recipe/RecipeInputProvider
+	METHOD a provideRecipeInputs (Lawd;)V

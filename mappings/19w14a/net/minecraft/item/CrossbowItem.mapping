@@ -1,0 +1,16 @@
+CLASS bai net/minecraft/item/CrossbowItem
+	METHOD a getChargeSound (I)Lyh;
+		ARG 1 quickChargeLevel
+	METHOD a hasProjectile (Lbbq;Lbbl;)Z
+	METHOD a setCharged (Lbbq;Z)V
+		ARG 0 stack
+		ARG 1 charged
+	METHOD a shootAllProjectiles (Lbgw;Laii;Lagt;Lbbq;FF)V
+	METHOD a shoot (Lbgw;Laii;Lagt;Lbbq;Lbbq;FZFFF)V
+	METHOD b storeChargedProjectile (Lbbq;Lbbq;)V
+	METHOD d isCharged (Lbbq;)Z
+		ARG 0 stack
+	METHOD e getPullTime (Lbbq;)I
+		ARG 0 stack
+	METHOD j getChargedProjectiles (Lbbq;)Ljava/util/List;
+	METHOD k clearProjectiles (Lbbq;)V

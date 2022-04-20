@@ -1,0 +1,2 @@
+CLASS cvi net/minecraft/client/gui/widget/GameOptionSliderWidget
+	FIELD p option Lctv;

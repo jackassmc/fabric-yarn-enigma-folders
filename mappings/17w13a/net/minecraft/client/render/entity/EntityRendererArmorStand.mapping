@@ -1,0 +1,11 @@
+CLASS bsn net/minecraft/client/render/entity/EntityRendererArmorStand
+	CLASS bsn$1
+		METHOD J_ init ()V
+	FIELD a TEX Lkp;
+	METHOD a getTexture (Lsg;)Lkp;
+		ARG 0 model
+	METHOD a (Lsg;DDDFF)V
+	METHOD a (Lsp;DDDFF)V
+	METHOD a getTexture (Lyn;)Lkp;
+		ARG 0 model
+	METHOD a (Lyn;DDDFF)V

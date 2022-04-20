@@ -1,0 +1,8 @@
+CLASS agf net/minecraft/world/LocalDifficulty
+	FIELD a globalDifficulty Lage;
+	FIELD b localDifficulty F
+	METHOD <init> (Lage;JJF)V
+		ARG 1 difficulty
+		ARG 2 timeOfDay
+	METHOD b getLocalDifficulty ()F
+	METHOD d getClampedLocalDifficulty ()F

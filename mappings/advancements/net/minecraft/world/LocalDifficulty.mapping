@@ -1,0 +1,2 @@
+CLASS sv net/minecraft/world/LocalDifficulty
+	FIELD a difficulty Lsu;

@@ -1,0 +1,6 @@
+CLASS bne net/minecraft/block/ChorusPlantBlock
+	METHOD <init> (Lbmn$c;)V
+		ARG 1 settings
+	METHOD a withConnectionProperties (Lbgt;Lev;)Lbvl;
+		ARG 1 view
+		ARG 2 pos

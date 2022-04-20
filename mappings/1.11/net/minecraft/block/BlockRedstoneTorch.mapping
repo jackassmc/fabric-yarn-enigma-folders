@@ -1,0 +1,51 @@
+CLASS aqb net/minecraft/block/BlockRedstoneTorch
+	CLASS aqb$a
+		FIELD a pos Lco;
+	FIELD B powered Z
+	METHOD a (Lajq;)I
+		ARG 0 world
+	METHOD a getPickStack (Lajq;Lco;Latj;)Lafi;
+		ARG 0 world
+		ARG 1 pos
+		ARG 2 state
+	METHOD a (Lajq;Lco;Latj;Ljava/util/Random;)V
+		ARG 0 world
+		ARG 1 pos
+		ARG 2 state
+		ARG 3 random
+	METHOD a (Latj;Lajq;Lco;Ljava/util/Random;)V
+		ARG 0 state
+		ARG 1 world
+		ARG 2 pos
+		ARG 3 random
+	METHOD a getDropItem (Latj;Ljava/util/Random;I)Lafg;
+		ARG 0 state
+		ARG 1 random
+		ARG 2 fortune
+	METHOD b (Lajq;Lco;Latj;)V
+		ARG 0 world
+		ARG 1 pos
+		ARG 2 state
+	METHOD b randomTick (Lajq;Lco;Latj;Ljava/util/Random;)V
+		ARG 0 world
+		ARG 1 pos
+		ARG 2 state
+		ARG 3 random
+	METHOD b isEqual (Lals;)Z
+		ARG 0 block
+	METHOD b getWeakRedstonePower (Latj;Laju;Lco;Lcv;)I
+		ARG 0 state
+		ARG 1 view
+		ARG 2 pos
+		ARG 3 facingFrom
+	METHOD c (Lajq;Lco;Latj;)V
+		ARG 0 world
+		ARG 1 pos
+		ARG 2 state
+	METHOD c getStrongRedstonePower (Latj;Laju;Lco;Lcv;)I
+		ARG 0 state
+		ARG 1 view
+		ARG 2 pos
+		ARG 3 facingFrom
+	METHOD g emitsRedstonePower (Latj;)Z
+		ARG 0 state

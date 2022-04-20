@@ -1,0 +1,57 @@
+CLASS apm net/minecraft/entity/passive/EntityVillager
+	FIELD bC LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD bD VILLAGER_TYPE Lpj;
+	FIELD bH properties Lakm;
+	FIELD bJ recipeList Laza;
+	FIELD bT inventory Laex;
+	METHOD <init> (Lazt;I)V
+		ARG 1 world
+		ARG 2 type
+	METHOD D getSoundAmbient ()Lww;
+	METHOD F getLootTableId ()Lpu;
+	METHOD I mobTick ()V
+	METHOD N_ getCurrentCustomer ()Lapr;
+	METHOD Q getDisplayedName ()Lix;
+	METHOD a onDeath (Lafe;)V
+		ARG 1 damageSource
+	METHOD a createChild (Lafs;)Lafs;
+		ARG 1 other
+	METHOD a setAttacker (Lage;)V
+		ARG 1 value
+	METHOD a onStruckByLightning (Lanr;)V
+		ARG 1 lightning
+	METHOD a canBeLeashedBy (Lapr;)Z
+		ARG 1 player
+	METHOD a interactMob (Lapr;Laeo;)Z
+		ARG 1 player
+		ARG 2 playerHand
+	METHOD a onSellingItem (Lauv;)V
+		ARG 1 stack
+	METHOD a useRecipe (Layz;)V
+		ARG 1 recipe
+	METHOD a setRecipeList (Laza;)V
+		ARG 1 recipeLIst
+	METHOD a (Lazu;Laen;Lagn;Lhm;)Lagn;
+		ARG 2 difficulty
+	METHOD a deserializeCustomData (Lhm;)V
+		ARG 1 tag
+	METHOD a_ setCurrentCustomer (Lapr;)V
+		ARG 1 currentCustomer
+	METHOD b createChild (Lafs;)Lapm;
+		ARG 1 other
+	METHOD b serializeCustomData (Lhm;)V
+		ARG 1 tag
+	METHOD bH getEyeHeight ()F
+	METHOD b_ getRecipes (Lapr;)Laza;
+		ARG 1 player
+	METHOD c getWorld ()Lazt;
+	METHOD cb initAttributes ()V
+	METHOD cw getSoundDeath ()Lww;
+	METHOD d getPos ()Leq;
+	METHOD d setVillagerType (I)V
+		ARG 1 value
+	METHOD dF getInventory ()Laex;
+	METHOD dz getVillagerType ()I
+	METHOD e getSoundHurt (Lafe;)Lww;
+	METHOD n initAi ()V
+	METHOD y_ initDataTracker ()V

@@ -1,0 +1,3 @@
+CLASS cou net/minecraft/world/loot/function/SetCountLootFunction
+	CLASS cou$a Factory
+	METHOD a builder (Lcnk;)Lcom$a;

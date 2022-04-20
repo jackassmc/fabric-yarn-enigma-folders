@@ -1,0 +1,11 @@
+CLASS dxk net/minecraft/client/search/SearchManager
+	CLASS a Key
+	FIELD a ITEM_TOOLTIP Ldxk$a;
+	FIELD b ITEM_TAG Ldxk$a;
+	FIELD c RECIPE_OUTPUT Ldxk$a;
+	FIELD d instances Ljava/util/Map;
+	METHOD a get (Ldxk$a;)Ldxh;
+		ARG 1 key
+	METHOD a put (Ldxk$a;Ldxh;)V
+		ARG 1 key
+		ARG 2 value

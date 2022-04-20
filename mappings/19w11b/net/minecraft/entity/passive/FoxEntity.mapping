@@ -1,0 +1,95 @@
+CLASS apq net/minecraft/entity/passive/FoxEntity
+	CLASS apq$a DefendFriendGoal
+		FIELD j offender Laif;
+		FIELD k friend Laif;
+		FIELD l lastAttackedTime I
+	CLASS apq$b StopWanderingGoal
+		FIELD a timer I
+	CLASS apq$c WorriableEntityFilter
+	CLASS apq$d CalmDownGoal
+		METHOD g isAtFavoredLocation ()Z
+		METHOD h canCalmDown ()Z
+	CLASS apq$e MateGoal
+	CLASS apq$f EatSweetBerriesGoal
+		FIELD g timer I
+		METHOD m eatSweetBerry ()V
+	CLASS apq$g FoxSwimGoal
+	CLASS apq$i FoxData
+		FIELD a type Lapq$u;
+		FIELD b uses I
+	CLASS apq$j FoxLookControl
+	CLASS apq$k AttackGoal
+	CLASS apq$l FoxMoveControl
+	CLASS apq$m EscapeWhenNotAggresiveGoal
+	CLASS apq$n JumpChasingGoal
+	CLASS apq$o PickupItemGoal
+	CLASS apq$p GoToVillageGoal
+		METHOD g canGoToVillage ()Z
+	CLASS apq$q SitDownAndLookAroundGoal
+		FIELD c lookX D
+		FIELD d lookZ D
+		FIELD e timer I
+		FIELD f counter I
+		METHOD j chooseNewAngle ()V
+	CLASS apq$r AvoidDaylightGoal
+		FIELD c timer I
+	CLASS apq$s DelayedCalmDownGoal
+		FIELD c timer I
+	CLASS apq$t MoveToHuntGoal
+	CLASS apq$u Type
+		FIELD d byName Ljava/util/Map;
+		FIELD e id I
+		FIELD f key Ljava/lang/String;
+		FIELD g biomes Ljava/util/List;
+		METHOD a getKey ()Ljava/lang/String;
+		METHOD a fromId (I)Lapq$u;
+		METHOD a fromBiome (Lbgu;)Lapq$u;
+		METHOD a byName (Ljava/lang/String;)Lapq$u;
+		METHOD b getBiomes ()Ljava/util/List;
+		METHOD c getId ()I
+	FIELD bA TYPE Lqe;
+	FIELD bB FLAGS Lqe;
+	FIELD bC OWNER Lqe;
+	FIELD bE OTHER_TRUSTED Lqe;
+	FIELD bF PICKABLE_DROP_FILTER Ljava/util/function/Predicate;
+	FIELD bG JUST_ATTACKED_SOMETHING_FILTER Ljava/util/function/Predicate;
+	FIELD bH CHICKEN_AND_RABBIT_FILTER Ljava/util/function/Predicate;
+	FIELD bI NOTICEABLE_PLAYER_FILTER Ljava/util/function/Predicate;
+	FIELD bJ followChickenAndRabbitGoal Lalr;
+	FIELD bK followBabyTurtleGoal Lalr;
+	FIELD bL followFishGoal Lalr;
+	FIELD bM headRollProgress F
+	FIELD bN lastHeadRollProgress F
+	FIELD bO extraRollingHeight F
+	FIELD bP lastExtraRollingHeight F
+	FIELD bQ eatingTime I
+	METHOD a setType (Lapq$u;)V
+	METHOD a canJumpChase (Lapq;Laif;)Z
+	METHOD b addTrustedUuid (Ljava/util/UUID;)V
+	METHOD c canTrust (Ljava/util/UUID;)Z
+	METHOD d setFlag (IZ)V
+	METHOD dN getType ()Lapq$u;
+	METHOD dO isSitting ()Z
+	METHOD dP isWalking ()Z
+	METHOD dQ isChasing ()Z
+	METHOD dW isFullyCrouched ()Z
+	METHOD dX isCrouching ()Z
+	METHOD dY isRollingHead ()Z
+	METHOD eb addTypeSpecificGoals ()V
+	METHOD ec getTrustedUuids ()Ljava/util/List;
+	METHOD ed isAggressive ()Z
+	METHOD ee wakeUp ()V
+	METHOD ef stopActions ()V
+	METHOD eg wantsToPickupItem ()Z
+	METHOD l spit (Lbar;)V
+	METHOD m dropItem (Lbar;)V
+	METHOD q setSitting (Z)V
+	METHOD r getFlag (I)Z
+	METHOD r setChasing (Z)V
+	METHOD s setCrouching (Z)V
+	METHOD t setRollingHead (Z)V
+	METHOD u setWalking (Z)V
+	METHOD v getHeadRoll (F)F
+	METHOD v setAggressive (Z)V
+	METHOD w getBodyRotationHeightOffset (F)F
+	METHOD w setSleeping (Z)V

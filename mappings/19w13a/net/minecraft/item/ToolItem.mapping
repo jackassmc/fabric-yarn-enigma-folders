@@ -1,0 +1,5 @@
+CLASS bcu net/minecraft/item/ToolItem
+	FIELD a material Lbct;
+	METHOD <init> (Lbct;Lbbk$a;)V
+		ARG 1 material
+	METHOD e getType ()Lbct;

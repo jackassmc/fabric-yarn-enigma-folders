@@ -1,0 +1,6 @@
+CLASS dii net/minecraft/client/particle/RedDustParticle
+	CLASS dii$a Factory
+	METHOD <init> (Lbhl;DDDDDDLgc;Ldjl;)V
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z

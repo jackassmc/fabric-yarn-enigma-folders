@@ -1,0 +1,7 @@
+CLASS afp net/minecraft/sortme/OptionMainHand
+	FIELD a LEFT Lafp;
+	FIELD b RIGHT Lafp;
+	FIELD c name Liw;
+	METHOD <init> (Ljava/lang/String;ILiw;)V
+		ARG 0 name
+	METHOD a getOpposite ()Lafp;

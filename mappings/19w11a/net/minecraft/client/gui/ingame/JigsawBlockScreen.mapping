@@ -1,0 +1,10 @@
+CLASS czy net/minecraft/client/gui/ingame/JigsawBlockScreen
+	FIELD a jigsaw Lbsq;
+	FIELD b attachmentTypeField Lcuy;
+	FIELD g targetPoolField Lcuy;
+	FIELD h finalStateField Lcuy;
+	METHOD <init> (Lbsq;)V
+		ARG 1 jigsaw
+	METHOD k onDone ()V
+	METHOD l onCancel ()V
+	METHOD m updateServer ()V

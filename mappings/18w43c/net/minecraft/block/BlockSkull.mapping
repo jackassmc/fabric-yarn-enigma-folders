@@ -1,0 +1,21 @@
+CLASS bii net/minecraft/block/BlockSkull
+	CLASS bii$a ISkullType
+	CLASS bii$b Type
+		FIELD a SKELETON Lbii$b;
+		FIELD b WITHER_SKELETON Lbii$b;
+		FIELD c PLAYER Lbii$b;
+		FIELD d ZOMBIE Lbii$b;
+		FIELD e CREEPER Lbii$b;
+		FIELD f DRAGON Lbii$b;
+	METHOD a getBoundingShape (Lblz;Layn;Leq;)Lchv;
+		ARG 0 state
+		ARG 1 view
+		ARG 2 pos
+	METHOD a applyMirror (Lblz;Lbha;)Lblz;
+		ARG 0 state
+		ARG 1 mirror
+	METHOD a applyRotation (Lblz;Lbia;)Lblz;
+		ARG 0 state
+		ARG 1 rotation
+	METHOD a appendProperties (Lbma$a;)V
+		ARG 0 builder

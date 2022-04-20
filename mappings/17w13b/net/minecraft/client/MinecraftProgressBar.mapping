@@ -1,0 +1,15 @@
+CLASS bgp net/minecraft/client/MinecraftProgressBar
+	FIELD b mc Lbgm;
+	FIELD f scale Lbhe;
+	FIELD g framebuffer Lbtm;
+	METHOD <init> (Lbgm;)V
+		ARG 0 mc
+	METHOD a finish ()V
+	METHOD a setProgress (I)V
+		ARG 0 percentage
+	METHOD a setTitle (Ljava/lang/String;)V
+		ARG 0 title
+	METHOD b setTitleAndResetTask (Ljava/lang/String;)V
+		ARG 0 title
+	METHOD c setTask (Ljava/lang/String;)V
+		ARG 0 task

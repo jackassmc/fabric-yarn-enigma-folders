@@ -1,0 +1,3 @@
+CLASS bia net/minecraft/block/CactusBlock
+	METHOD <init> (Lbhs$c;)V
+		ARG 1 settings

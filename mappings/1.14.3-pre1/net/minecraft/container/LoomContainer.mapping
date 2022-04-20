@@ -1,0 +1,22 @@
+CLASS azc net/minecraft/container/LoomContainer
+	FIELD c context Layn;
+	FIELD d selectedPattern Layr;
+	FIELD e inventoryChangeListener Ljava/lang/Runnable;
+	FIELD f bannerSlot Lazq;
+	FIELD g dyeSlot Lazq;
+	FIELD h patternSlot Lazq;
+	FIELD i outputSlot Lazq;
+	FIELD j inputInventory Lagx;
+	FIELD k outputInventory Lagx;
+	METHOD <init> (ILavy;)V
+		ARG 1 syncId
+	METHOD <init> (ILavy;Layn;)V
+		ARG 1 syncId
+	METHOD a setInventoryChangeListener (Ljava/lang/Runnable;)V
+		ARG 1 inventoryChangeListener
+	METHOD e getSelectedPattern ()I
+	METHOD f getBannerSlot ()Lazq;
+	METHOD g getDyeSlot ()Lazq;
+	METHOD h getPatternSlot ()Lazq;
+	METHOD i getOutputSlot ()Lazq;
+	METHOD j updateOutputSlot ()V

@@ -1,0 +1,2 @@
+CLASS clq net/minecraft/world/biome/layer/IncreaseEdgeCurvatureLayer
+	FIELD a INSTANCE Lclq;

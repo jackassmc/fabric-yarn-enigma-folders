@@ -1,0 +1,6 @@
+CLASS um net/minecraft/entity/player/ChunkTicket
+	FIELD a type Lun;
+	FIELD c argument Ljava/lang/Object;
+	FIELD d location J
+	METHOD a compareTo (Lum;)I
+	METHOD c getLocation ()J

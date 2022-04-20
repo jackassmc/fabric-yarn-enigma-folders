@@ -1,0 +1,10 @@
+CLASS dcs net/minecraft/client/render/entity/EntityRendererItem
+	FIELD a itemRenderer Ldcu;
+	FIELD f rand Ljava/util/Random;
+	METHOD <init> (Ldca;Ldcu;)V
+		ARG 0 renderManager
+		ARG 1 itemRenderer
+	METHOD a getTexture (Lafh;)Lpt;
+		ARG 0 model
+	METHOD a getTexture (Lane;)Lpt;
+		ARG 0 model

@@ -1,0 +1,4 @@
+CLASS bsr net/minecraft/block/CarpetBlock
+	FIELD a SHAPE Lcsc;
+	FIELD b color Lban;
+	METHOD d getColor ()Lban;

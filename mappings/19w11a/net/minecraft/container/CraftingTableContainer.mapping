@@ -1,0 +1,9 @@
+CLASS axe net/minecraft/container/CraftingTableContainer
+	FIELD c craftingInv Laxd;
+	FIELD d resultInv Laxz;
+	FIELD e context Laxb;
+	FIELD f player Laum;
+	METHOD <init> (ILaul;)V
+		ARG 1 syncId
+	METHOD <init> (ILaul;Laxb;)V
+		ARG 1 syncId

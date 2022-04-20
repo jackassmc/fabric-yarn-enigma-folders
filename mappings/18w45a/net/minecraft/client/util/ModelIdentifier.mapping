@@ -1,0 +1,6 @@
+CLASS dky net/minecraft/client/util/ModelIdentifier
+	METHOD <init> (Lpw;Ljava/lang/String;)V
+		ARG 1 id
+	METHOD b splitWithVariant (Ljava/lang/String;)[Ljava/lang/String;
+		ARG 0 str
+	METHOD c getVariant ()Ljava/lang/String;

@@ -1,0 +1,29 @@
+CLASS dqh net/minecraft/client/audio/AbstractSoundInstance
+	FIELD a sound Ldqq;
+	FIELD b category Lxv;
+	FIELD c id Lqe;
+	FIELD d volume F
+	FIELD e pitch F
+	FIELD f x F
+	FIELD g y F
+	FIELD h z F
+	FIELD i repeat Z
+	FIELD j repeatDelay I
+	FIELD k attenuationType Ldqt$a;
+	FIELD m accessor Ldrq;
+	METHOD <init> (Lqe;Lxv;)V
+		ARG 1 soundId
+	METHOD <init> (Lxt;Lxv;)V
+		ARG 1 sound
+	METHOD a getId ()Lqe;
+	METHOD a getAccess (Ldrp;)Ldrq;
+	METHOD b getSound ()Ldqq;
+	METHOD c getCategory ()Lxv;
+	METHOD d isRepeatable ()Z
+	METHOD e getRepeatDelay ()I
+	METHOD f getVolume ()F
+	METHOD g getPitch ()F
+	METHOD h getX ()F
+	METHOD i getY ()F
+	METHOD j getZ ()F
+	METHOD k getAttenuationType ()Ldqt$a;

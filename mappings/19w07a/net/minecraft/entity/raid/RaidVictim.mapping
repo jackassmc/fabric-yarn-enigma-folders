@@ -1,0 +1,3 @@
+CLASS aie net/minecraft/entity/raid/RaidVictim
+	METHOD M_ getVillage ()Lamj;
+	METHOD N_ getRaid ()Latc;

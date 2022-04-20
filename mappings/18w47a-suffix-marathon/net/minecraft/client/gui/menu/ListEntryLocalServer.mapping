@@ -1,0 +1,11 @@
+CLASS cto net/minecraft/client/gui/menu/ListEntryLocalServer
+	FIELD c mc Lcnl;
+	FIELD d entry Ldnv;
+	FIELD e gui Lctm;
+	FIELD f lastUpdateMillis J
+	METHOD <init> (Lctm;Ldnv;)V
+		ARG 1 gui
+	METHOD a drawEntry (IIIIZF)V
+	METHOD e getLanServerEntry ()Ldnv;
+	METHOD mouseClicked (DDI)Z
+		ARG 1 mouseX

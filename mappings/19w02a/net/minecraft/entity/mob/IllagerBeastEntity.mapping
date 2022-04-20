@@ -1,0 +1,25 @@
+CLASS aqa net/minecraft/entity/mob/IllagerBeastEntity
+	CLASS aqa$b
+		METHOD <init> (Lahn;Lbcf;)V
+			ARG 1 world
+		METHOD a createPathNodeNavigator ()Lcib;
+	FIELD bE stunTick I
+	FIELD bF roarTick I
+	FIELD c attackTick I
+	METHOD D getAmbientSound ()Lxt;
+	METHOD D canSee (Lahd;)Z
+	METHOD a playStepSound (Let;Lbqe;)V
+		ARG 1 pos
+	METHOD a readCustomDataFromTag (Lhs;)V
+	METHOD aM getMountedHeightOffset ()D
+	METHOD b createNavigation (Lbcf;)Lalp;
+	METHOD b writeCustomDataToTag (Lhs;)V
+	METHOD bQ getPrimaryPassenger ()Lahd;
+	METHOD cb initAttributes ()V
+	METHOD cw getDeathSound ()Lxt;
+	METHOD d addBonusForWave (IZ)V
+		ARG 1 wave
+	METHOD dE canLead ()Z
+	METHOD e getHurtSound (Lagm;)Lxt;
+	METHOD k updateMovement ()V
+	METHOD n prepareGoals ()V

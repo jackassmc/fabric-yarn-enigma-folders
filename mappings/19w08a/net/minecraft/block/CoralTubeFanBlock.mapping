@@ -1,0 +1,2 @@
+CLASS bje net/minecraft/block/CoralTubeFanBlock
+	FIELD a deadCoralBlock Lbif;

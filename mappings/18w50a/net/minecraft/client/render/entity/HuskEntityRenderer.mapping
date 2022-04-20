@@ -1,0 +1,5 @@
+CLASS djh net/minecraft/client/render/entity/HuskEntityRenderer
+	FIELD a SKIN Lqc;
+	METHOD a getTexture (Lagv;)Lqc;
+	METHOD a getTexture (Lahf;)Lqc;
+	METHOD a getTexture (Laqm;)Lqc;

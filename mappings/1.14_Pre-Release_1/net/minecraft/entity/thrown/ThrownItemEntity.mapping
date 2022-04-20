@@ -1,0 +1,13 @@
+CLASS awm net/minecraft/entity/thrown/ThrownItemEntity
+	FIELD e ITEM Lqh;
+	METHOD <init> (Laih;DDDLbha;)V
+		ARG 1 type
+	METHOD <init> (Laih;Laim;Lbha;)V
+		ARG 1 type
+		ARG 2 owner
+		ARG 3 world
+	METHOD <init> (Laih;Lbha;)V
+		ARG 1 type
+	METHOD b setItem (Lbbu;)V
+	METHOD i getDefaultItem ()Lbbp;
+	METHOD k getItem ()Lbbu;

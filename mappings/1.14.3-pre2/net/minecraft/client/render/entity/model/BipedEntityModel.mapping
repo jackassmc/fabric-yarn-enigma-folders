@@ -1,0 +1,22 @@
+CLASS dfa net/minecraft/client/render/entity/model/BipedEntityModel
+	CLASS dfa$a ArmPose
+	FIELD f head Ldhg;
+	FIELD g headwear Ldhg;
+	FIELD h body Ldhg;
+	FIELD i rightArm Ldhg;
+	FIELD j leftArm Ldhg;
+	FIELD k rightLeg Ldhg;
+	FIELD l leftLeg Ldhg;
+	FIELD m leftArmPose Ldfa$a;
+	FIELD n rightArmPose Ldfa$a;
+	FIELD o isSneaking Z
+	METHOD <init> (FFII)V
+		ARG 1 scale
+		ARG 3 textureWidth
+	METHOD a getArm (Lait;)Ldhg;
+		ARG 1 arm
+	METHOD a getPreferredArm (Laiu;)Lait;
+		ARG 1 entity
+	METHOD a setAttributes (Ldfa;)V
+	METHOD b_ setVisible (Z)V
+		ARG 1 visible

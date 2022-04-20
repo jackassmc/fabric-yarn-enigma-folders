@@ -1,0 +1,5 @@
+CLASS dtb net/minecraft/client/render/entity/feature/StrayOverlayFeatureRenderer
+	FIELD a SKIN Lqs;
+	FIELD b model Ldft;
+	METHOD <init> (Ldqn;)V
+		ARG 1 context

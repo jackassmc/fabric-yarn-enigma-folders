@@ -1,0 +1,46 @@
+CLASS net/minecraft/class_4766 net/minecraft/world/biome/source/MultiNoiseBiomeSource
+	FIELD field_24718 CUSTOM_CODEC Lcom/mojang/serialization/MapCodec;
+		COMMENT Used to parse a custom biome source, when a preset hasn't been provided.
+	FIELD field_24719 CODEC Lcom/mojang/serialization/Codec;
+	FIELD field_24721 instance Ljava/util/Optional;
+	FIELD field_34498 biomeEntries Lnet/minecraft/class_6544$class_6547;
+	METHOD <init> (Lnet/minecraft/class_6544$class_6547;)V
+		ARG 1 entries
+	METHOD <init> (Lnet/minecraft/class_6544$class_6547;Ljava/util/Optional;)V
+		ARG 1 biomeEntries
+		ARG 2 instance
+	METHOD method_31085 getInstance ()Ljava/util/Optional;
+	METHOD method_38167 getBiomeAtPoint (Lnet/minecraft/class_6544$class_6553;)Lnet/minecraft/class_1959;
+		ARG 1 point
+	METHOD method_38168 matchesInstance (Lnet/minecraft/class_4766$class_5305;)Z
+		ARG 1 instance
+	CLASS class_5305 Preset
+		FIELD field_24723 NETHER Lnet/minecraft/class_4766$class_5305;
+		FIELD field_24724 BY_IDENTIFIER Ljava/util/Map;
+		FIELD field_24725 id Lnet/minecraft/class_2960;
+		FIELD field_24726 biomeSourceFunction Ljava/util/function/BiFunction;
+		FIELD field_34499 OVERWORLD Lnet/minecraft/class_4766$class_5305;
+		METHOD <init> (Lnet/minecraft/class_2960;Ljava/util/function/BiFunction;)V
+			ARG 1 id
+			ARG 2 biomeSourceFunction
+		METHOD method_28469 getBiomeSource (Lnet/minecraft/class_2378;)Lnet/minecraft/class_4766;
+			ARG 1 biomeRegistry
+		METHOD method_31088 (Lnet/minecraft/class_4766$class_5305;Lnet/minecraft/class_2378;)Lnet/minecraft/class_4766;
+			ARG 0 preset
+			ARG 1 biomeRegistry
+	CLASS class_5502 Instance
+		FIELD field_26694 CODEC Lcom/mojang/serialization/MapCodec;
+		FIELD field_26695 preset Lnet/minecraft/class_4766$class_5305;
+		FIELD field_26696 biomeRegistry Lnet/minecraft/class_2378;
+		METHOD <init> (Lnet/minecraft/class_4766$class_5305;Lnet/minecraft/class_2378;)V
+			ARG 1 preset
+			ARG 2 biomeRegistry
+		METHOD method_31094 getPreset ()Lnet/minecraft/class_4766$class_5305;
+		METHOD method_31095 (Lnet/minecraft/class_4766$class_5305;)Lcom/mojang/serialization/DataResult;
+			ARG 0 preset
+		METHOD method_31096 (Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;
+			ARG 0 instance
+		METHOD method_31097 (Lnet/minecraft/class_2960;)Lcom/mojang/serialization/DataResult;
+			ARG 0 id
+		METHOD method_31098 getBiomeRegistry ()Lnet/minecraft/class_2378;
+		METHOD method_31101 getBiomeSource ()Lnet/minecraft/class_4766;

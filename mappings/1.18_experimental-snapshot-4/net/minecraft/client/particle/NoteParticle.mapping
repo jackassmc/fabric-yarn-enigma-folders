@@ -1,0 +1,5 @@
+CLASS net/minecraft/class_698 net/minecraft/client/particle/NoteParticle
+	CLASS class_699 Factory
+		FIELD field_17819 spriteProvider Lnet/minecraft/class_4002;
+		METHOD <init> (Lnet/minecraft/class_4002;)V
+			ARG 1 spriteProvider

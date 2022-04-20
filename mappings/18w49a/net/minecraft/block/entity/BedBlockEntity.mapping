@@ -1,0 +1,2 @@
+CLASS bmn net/minecraft/block/entity/BedBlockEntity
+	METHOD ab_ toUpdatePacket ()Lkc;

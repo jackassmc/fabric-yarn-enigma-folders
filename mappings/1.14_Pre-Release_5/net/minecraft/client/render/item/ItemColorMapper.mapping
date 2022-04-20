@@ -1,0 +1,3 @@
+CLASS cvx net/minecraft/client/render/item/ItemColorMapper
+	METHOD getColor (Lbca;I)I
+		ARG 1 stack

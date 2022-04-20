@@ -1,0 +1,3 @@
+CLASS dtf net/minecraft/client/render/entity/feature/SnowmanPumpkinFeatureRenderer
+	METHOD <init> (Ldqt;)V
+		ARG 1 context

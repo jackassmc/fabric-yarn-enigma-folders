@@ -1,0 +1,2 @@
+CLASS dxf net/minecraft/client/tutorial/NoneTutorialStepHandler
+	FIELD a manager Ldxl;

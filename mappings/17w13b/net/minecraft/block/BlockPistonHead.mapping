@@ -1,0 +1,69 @@
+CLASS auv net/minecraft/block/BlockPistonHead
+	CLASS auv$a Type
+		FIELD a NORMAL Lauv$a;
+		FIELD b STICKY Lauv$a;
+		FIELD c name Ljava/lang/String;
+		METHOD m asString ()Ljava/lang/String;
+	FIELD a TYPE Lavs;
+	FIELD b SHORT Lavq;
+	METHOD a deserializeState (I)Lave;
+		ARG 0 meta
+	METHOD a canPlaceAt (Lali;Ldx;)Z
+		ARG 0 world
+		ARG 1 pos
+	METHOD a getPickStack (Lali;Ldx;Lave;)Lahf;
+		ARG 0 world
+		ARG 1 pos
+		ARG 2 state
+	METHOD a onBreak (Lali;Ldx;Lave;Lacu;)V
+		ARG 0 world
+		ARG 1 pos
+		ARG 2 state
+		ARG 3 player
+	METHOD a update (Lave;Lali;Ldx;Lank;Ldx;)V
+		ARG 0 state
+		ARG 1 world
+		ARG 2 pos
+		ARG 3 block
+		ARG 4 updatePos
+	METHOD a addBoundingBoxes (Lave;Lali;Ldx;Lbfm;Ljava/util/List;Lub;Z)V
+		ARG 0 state
+		ARG 1 world
+		ARG 2 pos
+		ARG 3 bounds
+		ARG 4 list
+		ARG 5 entity
+	METHOD a shouldRenderSide (Lave;Lalm;Ldx;Lee;)Z
+		ARG 0 state
+		ARG 1 view
+		ARG 2 pos
+		ARG 3 facing
+	METHOD a applyMirror (Lave;Laqm;)Lave;
+		ARG 0 state
+		ARG 1 mirror
+	METHOD a applyRotation (Lave;Lasa;)Lave;
+		ARG 0 state
+		ARG 1 rotation
+	METHOD a getDropAmount (Ljava/util/Random;)I
+		ARG 0 random
+	METHOD b createStateFactory ()Lavf;
+	METHOD b onBlockRemoved (Lali;Ldx;Lave;)V
+		ARG 0 world
+		ARG 1 pos
+		ARG 2 state
+	METHOD b canPlaceAtSide (Lali;Ldx;Lee;)Z
+		ARG 0 world
+		ARG 1 pos
+		ARG 2 side
+	METHOD b isFullBoundsCubeForCulling (Lave;)Z
+		ARG 0 state
+	METHOD b getBoundingBox (Lave;Lalm;Ldx;)Lbfm;
+		ARG 0 state
+		ARG 1 view
+		ARG 2 pos
+	METHOD c isFullBoundsCubeForConnection (Lave;)Z
+		ARG 0 state
+	METHOD e serializeState (Lave;)I
+		ARG 0 state
+	METHOD k hasSolidTopSurface (Lave;)Z
+		ARG 0 state

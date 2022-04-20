@@ -1,0 +1,3 @@
+CLASS bam net/minecraft/enchantment/Enchantments
+	FIELD L ALL_ARMOR [Lahi;
+	METHOD a register (Ljava/lang/String;Lbai;)Lbai;

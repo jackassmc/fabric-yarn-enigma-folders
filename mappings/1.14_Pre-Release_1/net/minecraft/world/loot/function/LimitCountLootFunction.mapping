@@ -1,0 +1,10 @@
+CLASS cpm net/minecraft/world/loot/function/LimitCountLootFunction
+	CLASS cpm$a Factory
+	FIELD a limit Lcod;
+	METHOD <init> ([Lcqr;Lcod;)V
+		ARG 1 conditions
+		ARG 2 limit
+	METHOD a builder (Lcod;)Lcpn$a;
+		ARG 0 limit
+	METHOD a (Lcod;[Lcqr;)Lcpo;
+		ARG 1 conditions

@@ -1,0 +1,11 @@
+CLASS net/minecraft/realms/RealmsButtonProxy net/minecraft/client/gui/widget/RealmsButtonWidget
+	METHOD <init> (Lnet/minecraft/realms/RealmsButton;IILjava/lang/String;IILcve$a;)V
+		ARG 1 button
+		ARG 2 x
+		ARG 3 y
+		ARG 4 text
+		ARG 5 width
+		ARG 6 height
+	METHOD getHeight ()I
+	METHOD getSuperYImage (Z)I
+	METHOD y getHeight ()I

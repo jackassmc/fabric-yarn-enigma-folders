@@ -1,0 +1,19 @@
+CLASS djd net/minecraft/client/particle/AnimatedParticle
+	FIELD C spriteProvider Ldjj;
+	FIELD F upwardsAcceleration F
+	FIELD G resistance F
+	FIELD H targetColorRed F
+	FIELD I targetColorGreen F
+	FIELD J targetColorBlue F
+	FIELD K changesColor Z
+	METHOD <init> (Lbhj;DDDLdjj;F)V
+		ARG 1 world
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z
+		ARG 8 spriteProvider
+		ARG 9 upwardsAcceleration
+	METHOD b setColor (I)V
+	METHOD c setTargetColor (I)V
+	METHOD g setResistance (F)V
+		ARG 1 resistance

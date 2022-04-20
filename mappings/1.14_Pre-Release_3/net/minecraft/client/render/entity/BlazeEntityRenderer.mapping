@@ -1,0 +1,2 @@
+CLASS doi net/minecraft/client/render/entity/BlazeEntityRenderer
+	FIELD a SKIN Lqs;

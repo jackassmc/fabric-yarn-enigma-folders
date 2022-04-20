@@ -1,0 +1,4 @@
+CLASS ex net/minecraft/block/dispenser/DispenserBehavior
+	METHOD dispense (Ler;Lauc;)Lauc;
+		ARG 0 location
+		ARG 1 stack

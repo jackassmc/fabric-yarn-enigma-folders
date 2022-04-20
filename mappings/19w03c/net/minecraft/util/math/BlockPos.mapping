@@ -1,0 +1,122 @@
+CLASS et net/minecraft/util/math/BlockPos
+	CLASS et$1
+		FIELD a minX I
+		FIELD b minY I
+		FIELD c minZ I
+		FIELD d maxX I
+		FIELD e maxY I
+		FIELD f maxZ I
+	CLASS et$a Mutable
+		FIELD b xMut I
+		FIELD c yMut I
+		FIELD d zMut I
+		METHOD <init> (III)V
+			ARG 1 y
+			ARG 2 z
+		METHOD a add (DDD)Let;
+			ARG 1 y
+		METHOD a set (Lahc;)Let$a;
+		METHOD a offset (Ley;I)Let;
+			ARG 1 distance
+		METHOD b add (III)Let;
+			ARG 1 x
+			ARG 2 y
+			ARG 3 z
+		METHOD c set (DDD)Let$a;
+		METHOD c setOffset (Ley;)Let$a;
+		METHOD c setOffset (Ley;I)Let$a;
+		METHOD d set (III)Let$a;
+		METHOD d crossProduct (Lfn;)Lfn;
+		METHOD g set (Lfn;)Let$a;
+		METHOD h toImmutable ()Let;
+		METHOD i setFromLong (J)Let$a;
+		METHOD o getX ()I
+		METHOD p getY ()I
+		METHOD p setY (I)V
+		METHOD q getZ ()I
+	CLASS et$b PooledMutable
+		FIELD g POOL Ljava/util/List;
+		METHOD <init> (III)V
+			ARG 1 y
+			ARG 2 z
+		METHOD a set (Lahc;)Let$a;
+		METHOD b getEntityPos (Lahc;)Let$b;
+		METHOD c set (DDD)Let$a;
+		METHOD c set (Lahc;)Let$b;
+		METHOD c setOffset (Ley;)Let$a;
+		METHOD c setOffset (Ley;I)Let$a;
+		METHOD d get (DDD)Let$b;
+		METHOD d set (III)Let$a;
+		METHOD d setOffset (Ley;)Let$b;
+		METHOD d setOffset (Ley;I)Let$b;
+		METHOD e set (DDD)Let$b;
+		METHOD f get (III)Let$b;
+		METHOD g set (Lfn;)Let$a;
+		METHOD j set (Lfn;)Let$b;
+		METHOD r get ()Let$b;
+	FIELD a ORIGIN Let;
+	FIELD b LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD c SIZE_BITS_X I
+	FIELD d SIZE_BITS_Z I
+	FIELD f SIZE_BITS_Y I
+	FIELD g BITS_X J
+	FIELD h BITS_Y J
+	FIELD i BITS_Z J
+	FIELD j BIT_SHIFT_Z I
+	FIELD k BIT_SHIFT_X I
+	FIELD l BIT_MASK_CHUNK_SECTION J
+	METHOD <init> (DDD)V
+		ARG 1 x
+	METHOD <init> (III)V
+		ARG 1 x
+		ARG 2 y
+	METHOD a asLong ()J
+	METHOD a add (DDD)Let;
+		ARG 1 y
+	METHOD a asLong (III)J
+		ARG 0 x
+		ARG 1 y
+		ARG 2 z
+	METHOD a iterateBoxPositions (IIIIII)Ljava/lang/Iterable;
+	METHOD a toChunkSectionOrigin (J)J
+	METHOD a add (JIII)J
+		ARG 0 value
+		ARG 2 x
+		ARG 3 y
+	METHOD a offset (JLey;)J
+		ARG 0 value
+	METHOD a iterateBoxPositions (Let;Let;)Ljava/lang/Iterable;
+		ARG 0 pos1
+		ARG 1 pos2
+	METHOD a offset (Ley;)Let;
+	METHOD a offset (Ley;I)Let;
+		ARG 1 distance
+	METHOD a add (Lfn;)Let;
+	METHOD b up ()Let;
+	METHOD b up (I)Let;
+	METHOD b add (III)Let;
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD b isHeightInvalid (J)Z
+	METHOD b subtract (Lfn;)Let;
+	METHOD c down ()Let;
+	METHOD c down (I)Let;
+	METHOD c unpackLongX (J)I
+	METHOD c crossProduct (Lfn;)Let;
+	METHOD d north ()Let;
+	METHOD d north (I)Let;
+	METHOD d unpackLongY (J)I
+	METHOD d crossProduct (Lfn;)Lfn;
+	METHOD e south ()Let;
+	METHOD e south (I)Let;
+	METHOD e unpackLongZ (J)I
+	METHOD f west ()Let;
+	METHOD f west (I)Let;
+	METHOD f fromLong (J)Let;
+		ARG 0 value
+	METHOD g east ()Let;
+	METHOD g east (I)Let;
+	METHOD g removeChunkSectionLocalY (J)J
+	METHOD h toImmutable ()Let;
+	METHOD h removeY (J)J

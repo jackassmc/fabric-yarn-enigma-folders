@@ -1,0 +1,3 @@
+CLASS cnj net/minecraft/world/loot/entry/EmptyEntry
+	CLASS cnj$a Serializer
+	METHOD a Serializer ()Lcnp$a;

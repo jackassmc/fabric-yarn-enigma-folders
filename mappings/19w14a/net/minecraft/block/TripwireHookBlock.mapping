@@ -1,0 +1,6 @@
+CLASS bsb net/minecraft/block/TripwireHookBlock
+	FIELD a FACING Lbvt;
+	FIELD b POWERED Lbvq;
+	FIELD c ATTACHED Lbvq;
+	METHOD <init> (Lbma$c;)V
+		ARG 1 settings

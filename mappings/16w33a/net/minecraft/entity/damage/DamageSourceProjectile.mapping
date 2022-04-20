@@ -1,0 +1,9 @@
+CLASS none/rr net/minecraft/entity/damage/DamageSourceProjectile
+	FIELD u attacker Lnone/se;
+	METHOD <init> (Ljava/lang/String;Lnone/se;Lnone/se;)V
+		ARG 0 name
+		ARG 1 projectile
+		ARG 2 attacker
+	METHOD c getDeathMessage (Lnone/sn;)Lnone/fa;
+	METHOD i getSource ()Lnone/se;
+	METHOD j getAttacker ()Lnone/se;

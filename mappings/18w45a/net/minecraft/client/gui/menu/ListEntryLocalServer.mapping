@@ -1,0 +1,11 @@
+CLASS crz net/minecraft/client/gui/menu/ListEntryLocalServer
+	FIELD c mc Lclx;
+	FIELD d entry Ldmg;
+	FIELD e gui Lcrx;
+	FIELD f lastUpdateMillis J
+	METHOD <init> (Lcrx;Ldmg;)V
+		ARG 1 gui
+	METHOD a drawEntry (IIIIZF)V
+	METHOD e getLanServerEntry ()Ldmg;
+	METHOD mouseClicked (DDI)Z
+		ARG 1 mouseX

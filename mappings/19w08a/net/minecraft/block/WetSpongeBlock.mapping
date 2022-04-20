@@ -1,0 +1,3 @@
+CLASS bor net/minecraft/block/WetSpongeBlock
+	METHOD <init> (Lbif$c;)V
+		ARG 1 settings

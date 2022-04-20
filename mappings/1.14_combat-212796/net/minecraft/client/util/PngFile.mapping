@@ -1,0 +1,3 @@
+CLASS cue net/minecraft/client/util/PngFile
+	FIELD a width I
+	FIELD b height I

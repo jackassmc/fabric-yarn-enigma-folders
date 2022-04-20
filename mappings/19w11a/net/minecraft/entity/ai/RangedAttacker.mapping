@@ -1,0 +1,5 @@
+CLASS atf net/minecraft/entity/ai/RangedAttacker
+	METHOD a attack (Laif;F)V
+		ARG 1 target
+	METHOD dN hasArmsRaised ()Z
+	METHOD r setArmsRaised (Z)V

@@ -1,0 +1,3 @@
+CLASS aer net/minecraft/util/Hand
+	FIELD a MAIN Laer;
+	FIELD b OFF Laer;

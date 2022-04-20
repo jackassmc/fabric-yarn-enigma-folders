@@ -1,0 +1,2 @@
+CLASS dwg net/minecraft/client/audio/GuardianAttackSoundInstance
+	FIELD o guardian Latz;

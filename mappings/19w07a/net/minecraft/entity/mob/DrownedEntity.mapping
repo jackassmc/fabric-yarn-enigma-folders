@@ -1,0 +1,3 @@
+CLASS aqb net/minecraft/entity/mob/DrownedEntity
+	CLASS aqb$e DrownedMoveControl
+		FIELD i drowned Laqb;

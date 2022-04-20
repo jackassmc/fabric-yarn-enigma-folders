@@ -1,0 +1,4 @@
+CLASS apv net/minecraft/entity/mob/AbstractSkeletonEntity
+	FIELD b AIMING Lpx;
+	METHOD <init> (Lahp;Lbde;)V
+		ARG 1 type

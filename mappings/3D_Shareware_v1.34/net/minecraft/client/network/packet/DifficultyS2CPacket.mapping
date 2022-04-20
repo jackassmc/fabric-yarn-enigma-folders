@@ -1,0 +1,5 @@
+CLASS kr net/minecraft/client/network/packet/DifficultyS2CPacket
+	FIELD a difficulty Lagr;
+	METHOD <init> (Lagr;Z)V
+		ARG 1 difficulty
+	METHOD c getDifficulty ()Lagr;

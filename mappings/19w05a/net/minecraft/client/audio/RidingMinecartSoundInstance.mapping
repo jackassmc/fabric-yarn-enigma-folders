@@ -1,0 +1,3 @@
+CLASS dqv net/minecraft/client/audio/RidingMinecartSoundInstance
+	FIELD n minecart Lasv;
+	FIELD o distance F

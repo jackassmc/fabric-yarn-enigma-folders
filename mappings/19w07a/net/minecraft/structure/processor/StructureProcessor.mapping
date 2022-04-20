@@ -1,0 +1,6 @@
+CLASS ces net/minecraft/structure/processor/StructureProcessor
+	METHOD a getType ()Lcet;
+	METHOD a process (Lbde;Les;Lceu$b;Lceu$b;Lcer;)Lceu$b;
+		ARG 1 world
+		ARG 2 pos
+		ARG 5 placementData

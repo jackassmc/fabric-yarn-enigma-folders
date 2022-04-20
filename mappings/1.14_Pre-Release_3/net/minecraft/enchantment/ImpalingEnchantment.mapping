@@ -1,0 +1,4 @@
+CLASS bfx net/minecraft/enchantment/ImpalingEnchantment
+	METHOD <init> (Lbff$a;[Laii;)V
+		ARG 1 weight
+		ARG 2 slotTypes

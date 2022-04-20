@@ -1,0 +1,8 @@
+CLASS buu net/minecraft/world/gen/feature/BoulderFeatureConfig
+	FIELD a state Lbqp;
+	FIELD b startRadius I
+	METHOD <init> (Lbqp;I)V
+		ARG 1 state
+		ARG 2 startRadius
+	METHOD a deserialize (Lcom/mojang/datafixers/Dynamic;)Lbuu;
+		ARG 0 dynamic

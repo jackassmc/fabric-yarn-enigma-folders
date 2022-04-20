@@ -1,0 +1,2 @@
+CLASS bwu net/minecraft/world/gen/feature/FreezeTopLayerFeature
+	METHOD a generate (Lban;Lbqc;Ljava/util/Random;Les;Lbuf;)Z

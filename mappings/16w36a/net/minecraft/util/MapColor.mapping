@@ -1,0 +1,45 @@
+CLASS none/ayr net/minecraft/util/MapColor
+	FIELD A BLUE Lnone/ayr;
+	FIELD B BROWN Lnone/ayr;
+	FIELD C GREEN Lnone/ayr;
+	FIELD D RED Lnone/ayr;
+	FIELD E BLACK Lnone/ayr;
+	FIELD F GOLD Lnone/ayr;
+	FIELD G DIAMOND Lnone/ayr;
+	FIELD H LAPIS Lnone/ayr;
+	FIELD I EMERALD Lnone/ayr;
+	FIELD J SPRUCE Lnone/ayr;
+	FIELD K NETHER Lnone/ayr;
+	FIELD L color I
+	FIELD M id I
+	FIELD a COLORS [Lnone/ayr;
+	FIELD b AIR Lnone/ayr;
+	FIELD c GRASS Lnone/ayr;
+	FIELD d SAND Lnone/ayr;
+	FIELD e WEB Lnone/ayr;
+	FIELD f LAVA Lnone/ayr;
+	FIELD g ICE Lnone/ayr;
+	FIELD h IRON Lnone/ayr;
+	FIELD i LEAVES Lnone/ayr;
+	FIELD j WHITE Lnone/ayr;
+	FIELD k CLAY Lnone/ayr;
+	FIELD l DIRT Lnone/ayr;
+	FIELD m STONE Lnone/ayr;
+	FIELD n WATER Lnone/ayr;
+	FIELD o WOOD Lnone/ayr;
+	FIELD p QUARTZ Lnone/ayr;
+	FIELD q ORANGE Lnone/ayr;
+	FIELD r MAGENTA Lnone/ayr;
+	FIELD s LIGHT_BLUE Lnone/ayr;
+	FIELD t YELLOW Lnone/ayr;
+	FIELD u LIME Lnone/ayr;
+	FIELD v PINK Lnone/ayr;
+	FIELD w GRAY Lnone/ayr;
+	FIELD x LIGHT_GRAY Lnone/ayr;
+	FIELD y CYAN Lnone/ayr;
+	FIELD z PURPLE Lnone/ayr;
+	METHOD <init> (II)V
+		ARG 0 id
+		ARG 1 color
+	METHOD a getRenderColor (I)I
+		ARG 0 shade

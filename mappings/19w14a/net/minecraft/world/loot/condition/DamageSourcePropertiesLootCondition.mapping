@@ -1,0 +1,3 @@
+CLASS cqf net/minecraft/world/loot/condition/DamageSourcePropertiesLootCondition
+	CLASS cqf$a Factory
+	FIELD a predicate Lam;

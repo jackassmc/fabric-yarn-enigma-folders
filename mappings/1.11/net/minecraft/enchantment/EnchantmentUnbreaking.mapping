@@ -1,0 +1,4 @@
+CLASS aif net/minecraft/enchantment/EnchantmentUnbreaking
+	METHOD a isAcceptableItem (Lafi;)Z
+		ARG 0 item
+	METHOD b getHighestLevel ()I

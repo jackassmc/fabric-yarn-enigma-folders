@@ -1,0 +1,4 @@
+CLASS cdf net/minecraft/sortme/structures/SwampHutGenerator
+	METHOD a (Lbcg;Ljava/util/Random;Lccj;Lbbt;)Z
+		ARG 2 random
+	METHOD a toNbt (Lhs;)V

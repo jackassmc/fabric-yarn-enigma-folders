@@ -1,0 +1,4 @@
+CLASS cnz
+	CLASS cnz$a
+	METHOD a load (Lvt;)V
+		ARG 1 resourceContainer

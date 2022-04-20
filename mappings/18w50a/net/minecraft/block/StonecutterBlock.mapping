@@ -1,0 +1,11 @@
+CLASS bme net/minecraft/block/StonecutterBlock
+	METHOD <init> (Lbgs$c;)V
+		ARG 1 settings
+		ARG 2 stateBuilder
+	METHOD a getBoundingShape (Lbpm;Lbbb;Let;)Lcmx;
+		ARG 1 state
+		ARG 2 view
+		ARG 3 pos
+	METHOD c getRenderLayer ()Lbbc;
+	METHOD c getRenderType (Lbpm;)Lbky;
+		ARG 1 state

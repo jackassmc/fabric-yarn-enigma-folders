@@ -1,0 +1,3 @@
+CLASS wk net/minecraft/resource/ResourceReloadListener
+	METHOD a onResourceReload (Lwj;)V
+		ARG 1 manager

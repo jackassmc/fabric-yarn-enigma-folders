@@ -1,0 +1,34 @@
+CLASS ati net/minecraft/block/state/BlockStateDataExpander
+	FIELD a BLOCK_AIR Lasm;
+	FIELD b packedData Loc;
+	FIELD c blockStateData Latt;
+	FIELD d BLOCK_STATE_DATA_COMPLETE Latt;
+	FIELD e sizeBits I
+	METHOD a getSizeBytes ()I
+	METHOD a getBlockState (I)Lasm;
+		ARG 0 index
+	METHOD a getBlockState (III)Lasm;
+		ARG 0 x
+		ARG 1 y
+		ARG 2 z
+	METHOD a setBlockState (IIILasm;)V
+		ARG 0 x
+		ARG 1 y
+		ARG 2 z
+		ARG 3 state
+	METHOD a expandDataAndGetStateId (ILasm;)I
+		ARG 0 expandedBitSize
+		ARG 1 state
+	METHOD a readData (Les;)V
+		ARG 0 buffer
+	METHOD b setSizeBits (I)V
+		ARG 0 value
+	METHOD b getIndex (III)I
+		ARG 0 x
+		ARG 1 y
+		ARG 2 z
+	METHOD b setBlockState (ILasm;)V
+		ARG 0 index
+		ARG 1 state
+	METHOD b writeData (Les;)V
+		ARG 0 buffer

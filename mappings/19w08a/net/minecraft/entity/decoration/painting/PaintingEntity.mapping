@@ -1,0 +1,5 @@
+CLASS apk net/minecraft/entity/decoration/painting/PaintingEntity
+	FIELD e motive Lapj;
+	METHOD <init> (Lbde;Les;Lex;)V
+		ARG 1 world
+		ARG 2 pos

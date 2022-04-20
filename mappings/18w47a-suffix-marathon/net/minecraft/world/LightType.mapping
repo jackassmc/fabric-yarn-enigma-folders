@@ -1,0 +1,3 @@
+CLASS bax net/minecraft/world/LightType
+	FIELD a SKY Lbax;
+	FIELD b BLOCK Lbax;

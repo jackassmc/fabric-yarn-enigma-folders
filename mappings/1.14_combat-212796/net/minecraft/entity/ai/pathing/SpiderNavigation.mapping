@@ -1,0 +1,3 @@
+CLASS apl net/minecraft/entity/ai/pathing/SpiderNavigation
+	METHOD <init> (Laiv;Lbhn;)V
+		ARG 1 entity

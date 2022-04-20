@@ -1,0 +1,11 @@
+CLASS aly net/minecraft/entity/ai/goal/WolfBegGoal
+	FIELD a owner Lark;
+	FIELD b begFrom Lavr;
+	FIELD c world Lbha;
+	FIELD d begDistance F
+	FIELD e timer I
+	FIELD f validPlayerPredicate Lapt;
+	METHOD <init> (Lark;F)V
+		ARG 1 owner
+		ARG 2 begDistance
+	METHOD a isAttractive (Lavr;)Z

@@ -1,0 +1,17 @@
+CLASS ow net/minecraft/server/network/packet/HandshakeServerPacket
+	FIELD a version I
+	FIELD b address Ljava/lang/String;
+	FIELD c port I
+	FIELD d state Lis;
+	METHOD <init> (Ljava/lang/String;ILis;)V
+		ARG 1 address
+		ARG 2 port
+	METHOD a read (Lit;)V
+		ARG 1 buf
+	METHOD a apply (Liw;)V
+		ARG 1 listener
+	METHOD a apply (Lox;)V
+	METHOD b getRequestedState ()Lis;
+	METHOD b write (Lit;)V
+		ARG 1 buf
+	METHOD c getProtocolVersion ()I

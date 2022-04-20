@@ -1,0 +1,34 @@
+CLASS bgy net/minecraft/block/BlockMagma
+	METHOD <init> (Lbdx$c;)V
+		ARG 0 builder
+	METHOD a onSteppedOn (Laza;Leq;Lafh;)V
+		ARG 0 world
+		ARG 1 pos
+		ARG 2 entity
+	METHOD a getTickRate (Laze;)I
+		ARG 0 world
+	METHOD a allowsSpawning (Lblz;Lafh;)Z
+		ARG 0 state
+		ARG 1 entity
+	METHOD a getBlockBrightness (Lblz;Layl;Leq;)I
+		ARG 0 state
+		ARG 1 view
+		ARG 2 pos
+	METHOD a onBlockAdded (Lblz;Laza;Leq;Lblz;)V
+		ARG 0 world
+		ARG 1 world
+		ARG 2 pos
+		ARG 3 state
+	METHOD a randomTick (Lblz;Laza;Leq;Ljava/util/Random;)V
+		ARG 0 world
+		ARG 1 state
+		ARG 2 pos
+		ARG 3 random
+	METHOD a getRenderingState (Lblz;Lev;Lblz;Lazb;Leq;Leq;)Lblz;
+		ARG 0 state
+		ARG 5 pos
+	METHOD b (Lblz;Laza;Leq;Ljava/util/Random;)V
+		ARG 0 world
+		ARG 1 state
+		ARG 2 pos
+		ARG 3 random

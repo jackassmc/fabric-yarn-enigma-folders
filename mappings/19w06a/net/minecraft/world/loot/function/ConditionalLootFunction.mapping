@@ -1,0 +1,18 @@
+CLASS cky net/minecraft/world/loot/function/ConditionalLootFunction
+	CLASS cky$a Builder
+		FIELD a conditionList Ljava/util/List;
+		METHOD a withCondition (Lcmc$a;)Lcky$a;
+		METHOD d build ()Lcky$a;
+		METHOD g getConditions ()[Lcmc;
+	CLASS cky$b Joiner
+		FIELD a joiner Ljava/util/function/Function;
+		METHOD a create ()Lcky$b;
+	CLASS cky$c Factory
+		METHOD a fromJson (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Lcky;
+		METHOD b fromJson (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;[Lcmc;)Lcky;
+	FIELD a predicate Ljava/util/function/Predicate;
+	FIELD b conditions [Lcmc;
+	METHOD a process (Laxm;Lcjq;)Laxm;
+		ARG 1 stack
+	METHOD a create (Ljava/util/function/Function;)Lcky$a;
+	METHOD b apply (Laxm;Lcjq;)Laxm;

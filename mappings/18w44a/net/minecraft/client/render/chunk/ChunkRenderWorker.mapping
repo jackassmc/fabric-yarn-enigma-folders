@@ -1,0 +1,12 @@
+CLASS dci net/minecraft/client/render/chunk/ChunkRenderWorker
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD b batcher Ldch;
+	FIELD d running Z
+	METHOD <init> (Ldch;)V
+		ARG 1 batcher
+	METHOD <init> (Ldch;Lczl;)V
+		ARG 1 batcher
+		ARG 2 vertexBuffer
+	METHOD a stop ()V
+	METHOD a runTask (Ldcg;)V
+		ARG 1 chunkRenderDataTask

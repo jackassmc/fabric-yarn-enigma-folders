@@ -1,0 +1,19 @@
+CLASS aoq net/minecraft/block/BlockMagma
+	METHOD a (Lajq;Lco;Lsm;)V
+		ARG 0 world
+		ARG 1 pos
+		ARG 2 entity
+	METHOD a allowsSpawning (Latj;Lsm;)Z
+		ARG 0 state
+		ARG 1 entity
+	METHOD b randomTick (Lajq;Lco;Latj;Ljava/util/Random;)V
+		ARG 0 world
+		ARG 1 pos
+		ARG 2 state
+		ARG 3 random
+	METHOD d getBlockBrightness (Latj;Laju;Lco;)I
+		ARG 0 state
+		ARG 1 view
+		ARG 2 pos
+	METHOD r getMapColor (Latj;)Lazr;
+		ARG 0 state

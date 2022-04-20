@@ -1,0 +1,5 @@
+CLASS brr net/minecraft/block/SnowBlock
+	FIELD a LAYERS Lbwp;
+	FIELD b LAYERS_TO_SHAPE [Lcsw;
+	METHOD <init> (Lbmr$c;)V
+		ARG 1 settings

@@ -1,0 +1,18 @@
+CLASS bxg net/minecraft/world/gen/feature/MineshaftFeature
+	CLASS bxg$a
+		METHOD <init> (Lbzc;IILbde;Lccj;IJ)V
+			ARG 2 chunkX
+			ARG 3 chunkZ
+	CLASS bxg$b Type
+		FIELD a NORMAL Lbxg$b;
+		FIELD b MESA Lbxg$b;
+		FIELD c nameMap Ljava/util/Map;
+		FIELD d name Ljava/lang/String;
+		METHOD a getName ()Ljava/lang/String;
+		METHOD a byIndex (I)Lbxg$b;
+			ARG 0 index
+		METHOD a byName (Ljava/lang/String;)Lbxg$b;
+			ARG 0 nam
+	METHOD <init> (Ljava/util/function/Function;)V
+		ARG 1 configFactory
+	METHOD b getName ()Ljava/lang/String;

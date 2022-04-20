@@ -1,0 +1,20 @@
+CLASS xc net/minecraft/entity/passive/EntityPolarBear
+	CLASS xc$a
+		METHOD a canStart ()Z
+	CLASS xc$c
+		METHOD c start ()V
+	CLASS xc$d
+		METHOD d onRemove ()V
+	CLASS xc$e
+		METHOD a canStart ()Z
+	METHOD G getSoundAmbient ()Lnm;
+	METHOD J getLootTableId ()Lkq;
+	METHOD a playStepSound (Lco;Lals;)V
+		ARG 0 pos
+		ARG 1 block
+	METHOD a createChild (Lsj;)Lsj;
+		ARG 0 other
+	METHOD bW getSoundDeath ()Lnm;
+	METHOD bX getSoundHurt ()Lnm;
+	METHOD i initDataTracker ()V
+	METHOD r initAi ()V

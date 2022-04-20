@@ -1,0 +1,6 @@
+CLASS agy net/minecraft/entity/MovementType
+	FIELD a SELF Lagy;
+	FIELD b PLAYER Lagy;
+	FIELD c PISTON Lagy;
+	FIELD d SHULKER_BOX Lagy;
+	FIELD e SHULKER_ENTITY Lagy;

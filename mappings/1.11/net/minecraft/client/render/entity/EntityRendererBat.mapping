@@ -1,0 +1,6 @@
+CLASS bua net/minecraft/client/render/entity/EntityRendererBat
+	FIELD a SKIN Lkq;
+	METHOD a getTexture (Lsm;)Lkq;
+		ARG 0 model
+	METHOD a getTexture (Lwt;)Lkq;
+		ARG 0 model

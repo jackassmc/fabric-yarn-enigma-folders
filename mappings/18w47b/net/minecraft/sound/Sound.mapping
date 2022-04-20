@@ -1,0 +1,3 @@
+CLASS xd net/minecraft/sound/Sound
+	FIELD a id Lpy;
+	METHOD a getId ()Lpy;

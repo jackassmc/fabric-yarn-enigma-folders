@@ -1,0 +1,11 @@
+CLASS none/bxr net/minecraft/client/resource/pack/MinecraftResourcePack
+	FIELD a ASSET_NAMES Ljava/util/Set;
+	METHOD a getLogo ()Ljava/awt/image/BufferedImage;
+	METHOD a open (Lnone/kp;)Ljava/io/InputStream;
+		ARG 0 id
+	METHOD b getName ()Ljava/lang/String;
+	METHOD b canHandle (Lnone/kp;)Z
+		ARG 0 id
+	METHOD c getProvidedAssets ()Ljava/util/Set;
+	METHOD d getAssetInputStream (Lnone/kp;)Ljava/io/InputStream;
+		ARG 0 id

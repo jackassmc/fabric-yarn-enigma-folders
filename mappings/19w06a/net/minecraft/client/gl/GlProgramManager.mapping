@@ -1,0 +1,8 @@
+CLASS cpj net/minecraft/client/gl/GlProgramManager
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD b INSTANCE Lcpj;
+	METHOD a init ()V
+	METHOD a deleteProgram (Lcph;)V
+	METHOD b getInstance ()Lcpj;
+	METHOD b linkProgram (Lcph;)V
+	METHOD c createProgram ()I

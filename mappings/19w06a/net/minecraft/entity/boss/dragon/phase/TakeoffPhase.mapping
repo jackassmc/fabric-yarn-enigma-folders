@@ -1,0 +1,3 @@
+CLASS aot net/minecraft/entity/boss/dragon/phase/TakeoffPhase
+	METHOD <init> (Laoe;)V
+		ARG 1 dragon

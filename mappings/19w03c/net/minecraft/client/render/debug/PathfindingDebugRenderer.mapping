@@ -1,0 +1,3 @@
+CLASS diq net/minecraft/client/render/debug/PathfindingDebugRenderer
+	FIELD a client Lcqe;
+	METHOD a render (FJ)V

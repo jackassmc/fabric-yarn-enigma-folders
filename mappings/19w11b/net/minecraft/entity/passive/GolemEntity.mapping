@@ -1,0 +1,3 @@
+CLASS aph net/minecraft/entity/passive/GolemEntity
+	METHOD <init> (Laia;Lbfx;)V
+		ARG 1 type

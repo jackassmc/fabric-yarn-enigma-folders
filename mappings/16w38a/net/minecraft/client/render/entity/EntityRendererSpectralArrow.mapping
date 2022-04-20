@@ -1,0 +1,6 @@
+CLASS bun net/minecraft/client/render/entity/EntityRendererSpectralArrow
+	FIELD a SKIN Lkp;
+	METHOD a getTexture (Laba;)Lkp;
+		ARG 0 model
+	METHOD a getTexture (Lsg;)Lkp;
+		ARG 0 model

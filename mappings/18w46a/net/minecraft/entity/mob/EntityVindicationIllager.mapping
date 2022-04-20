@@ -1,0 +1,17 @@
+CLASS apn net/minecraft/entity/mob/EntityVindicationIllager
+	CLASS apn$a
+		METHOD a canStart ()Z
+	METHOD D getSoundAmbient ()Lxb;
+	METHOD H mobTick ()V
+	METHOD a initEquipment (Laeu;)V
+	METHOD a (Lbaf;Laeu;Lago;Lagv;Lho;)Lagv;
+		ARG 3 difficulty
+	METHOD a deserializeCustomData (Lho;)V
+	METHOD b serializeCustomData (Lho;)V
+	METHOD b setCustomName (Liz;)V
+	METHOD cb initAttributes ()V
+	METHOD cw getSoundDeath ()Lxb;
+	METHOD e getSoundHurt (Lafl;)Lxb;
+	METHOD n initAi ()V
+	METHOD r isTeammate (Lagc;)Z
+	METHOD y_ initDataTracker ()V

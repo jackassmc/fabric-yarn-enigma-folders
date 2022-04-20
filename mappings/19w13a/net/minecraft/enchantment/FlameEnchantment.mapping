@@ -1,0 +1,4 @@
+CLASS bep net/minecraft/enchantment/FlameEnchantment
+	METHOD <init> (Lbex$a;[Laie;)V
+		ARG 1 weight
+		ARG 2 slotTypes

@@ -1,0 +1,36 @@
+CLASS bic net/minecraft/block/AbstractButtonBlock
+	FIELD A SHAPE_WEST_POWERED Lcnt;
+	FIELD B SHAPE_EAST_POWERED Lcnt;
+	FIELD D wooden Z
+	FIELD a POWERED Lbrk;
+	FIELD b SHAPE_CEILING_X Lcnt;
+	FIELD c SHAPE_CEILING_Z Lcnt;
+	FIELD d SHAPE_FLOOR_X Lcnt;
+	FIELD e SHAPE_FLOOR_Z Lcnt;
+	FIELD f SHAPE_NORTH Lcnt;
+	FIELD g SHAPE_SOUTH Lcnt;
+	FIELD h SHAPE_WEST Lcnt;
+	FIELD i SHAPE_EAST Lcnt;
+	FIELD j SHAPE_CEILING_X_POWERED Lcnt;
+	FIELD k SHAPE_CEILING_Z_POWERED Lcnt;
+	FIELD w SHAPE_FLOOR_X_POWERED Lcnt;
+	FIELD x SHAPE_FLOOR_Z_POWERED Lcnt;
+	FIELD y SHAPE_NORTH_POWERED Lcnt;
+	FIELD z SHAPE_SOUTH_POWERED Lcnt;
+	METHOD <init> (ZLbhv$c;)V
+		ARG 1 wooden
+	METHOD a playClickSound (Lars;Lbcv;Let;Z)V
+		ARG 1 player
+		ARG 2 world
+		ARG 3 pos
+		ARG 4 powered
+	METHOD a getClickSound (Z)Lxv;
+		ARG 1 powered
+	METHOD d tryPowerWithProjectiles (Lbqs;Lbcu;Let;)V
+		ARG 1 state
+		ARG 2 world
+		ARG 3 pos
+	METHOD e updateNeighbors (Lbqs;Lbcu;Let;)V
+		ARG 1 state
+		ARG 2 world
+		ARG 3 pos

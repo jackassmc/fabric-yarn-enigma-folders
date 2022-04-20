@@ -1,0 +1,33 @@
+CLASS yh net/minecraft/village/VillageDoor
+	FIELD a position Ldx;
+	FIELD c facing Lee;
+	FIELD d lastTimeSeenByVillager I
+	FIELD f entityInsideTicks I
+	METHOD <init> (Ldx;III)V
+		ARG 0 position
+		ARG 1 insideDirectionX
+		ARG 2 insideDirectionZ
+		ARG 3 lastTickSeenByVillager
+	METHOD <init> (Ldx;Lee;I)V
+		ARG 0 position
+		ARG 1 facing
+		ARG 2 lastTimeSeenByVillager
+	METHOD a clearEntityInsideTicks ()V
+	METHOD a setLastTimeSeenByVillager (I)V
+		ARG 0 value
+	METHOD a getFacing (II)Lee;
+		ARG 0 insideDirectionX
+		ARG 1 insideDirectionZ
+	METHOD a squaredDistanceTo (Ldx;)I
+		ARG 0 otherPosition
+	METHOD b entityInsideTick ()V
+	METHOD b squaredDistance (III)I
+		ARG 0 x
+		ARG 1 y
+		ARG 2 z
+	METHOD c getEntityInsideTicks ()I
+	METHOD d getPosition ()Ldx;
+	METHOD f insideDirectionX ()I
+	METHOD g insideDirectionY ()I
+	METHOD h getLastTimeSeenByVillager ()I
+	METHOD j getFacing ()Lee;

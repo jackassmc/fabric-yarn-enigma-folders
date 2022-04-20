@@ -1,0 +1,12 @@
+CLASS cnr net/minecraft/client/gui/menu/GuiWorking
+	FIELD a title Ljava/lang/String;
+	FIELD f task Ljava/lang/String;
+	FIELD g progress I
+	FIELD h done Z
+	METHOD a (I)V
+		ARG 0 percentage
+	METHOD a draw (IIF)V
+		ARG 0 mouseX
+		ARG 1 mouseY
+		ARG 2 delta
+	METHOD ah_ canClose ()Z

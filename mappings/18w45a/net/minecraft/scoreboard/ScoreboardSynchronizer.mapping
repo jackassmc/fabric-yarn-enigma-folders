@@ -1,0 +1,2 @@
+CLASS cej net/minecraft/scoreboard/ScoreboardSynchronizer
+	FIELD a compound Lcek;

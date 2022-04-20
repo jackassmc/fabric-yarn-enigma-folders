@@ -1,0 +1,5 @@
+CLASS afb net/minecraft/util/TypedActionResult
+	FIELD a result Lafa;
+	FIELD b value Ljava/lang/Object;
+	METHOD a getResult ()Lafa;
+	METHOD b getValue ()Ljava/lang/Object;

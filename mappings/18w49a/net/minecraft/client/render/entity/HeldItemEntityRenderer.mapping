@@ -1,0 +1,5 @@
+CLASS dkp net/minecraft/client/render/entity/HeldItemEntityRenderer
+	FIELD b renderer Ldib;
+	METHOD a shouldMergeTextures ()Z
+	METHOD a render (Lagt;FFFFFFF)V
+		ARG 0 entity

@@ -1,0 +1,13 @@
+CLASS bjn net/minecraft/block/FenceGateBlock
+	FIELD a OPEN Lbrc;
+	FIELD b POWERED Lbrc;
+	FIELD c IN_WALL Lbrc;
+	METHOD <init> (Lbhn$c;)V
+		ARG 1 settings
+	METHOD a canWallConnect (Lbqk;Ley;)Z
+		ARG 0 state
+		ARG 1 side
+	METHOD k (Lbqk;Lbbw;Let;)Lcnl;
+		ARG 1 state
+		ARG 2 view
+		ARG 3 pos

@@ -1,0 +1,2 @@
+CLASS att net/minecraft/item/ItemBoneMeal
+	METHOD a useOnBlock (Laxa;)Laez;

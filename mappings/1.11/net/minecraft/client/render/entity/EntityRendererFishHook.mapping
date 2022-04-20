@@ -1,0 +1,5 @@
+CLASS buv net/minecraft/client/render/entity/EntityRendererFishHook
+	FIELD a TEX Lkq;
+	METHOD a getTexture (Lsm;)Lkq;
+		ARG 0 model
+	METHOD a (Lsm;DDDFF)V

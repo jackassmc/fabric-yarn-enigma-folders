@@ -1,0 +1,5 @@
+CLASS bmu net/minecraft/block/BrewingStandBlock
+	FIELD a BOTTLE_PROPERTIES [Lbwh;
+	FIELD b SHAPE Lcsw;
+	METHOD <init> (Lbmr$c;)V
+		ARG 1 settings

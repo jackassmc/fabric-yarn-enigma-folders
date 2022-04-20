@@ -1,0 +1,14 @@
+CLASS bdw net/minecraft/block/BlockBeetroots
+	METHOD <init> (Lbdx$c;)V
+		ARG 0 builder
+	METHOD a getBoundingBox (Lblz;Layn;Leq;)Lchu;
+		ARG 0 state
+		ARG 1 view
+		ARG 2 pos
+	METHOD a randomTick (Lblz;Laza;Leq;Ljava/util/Random;)V
+		ARG 0 world
+		ARG 1 state
+		ARG 2 pos
+		ARG 3 random
+	METHOD d getAgeProperty ()Lbng;
+	METHOD e getAgeMaximum ()I

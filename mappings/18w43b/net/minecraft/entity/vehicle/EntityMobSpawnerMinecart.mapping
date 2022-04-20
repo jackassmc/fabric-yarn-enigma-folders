@@ -1,0 +1,12 @@
+CLASS aqk net/minecraft/entity/vehicle/EntityMobSpawnerMinecart
+	CLASS aqk$1
+		METHOD a getWorld ()Laza;
+		METHOD b getPos ()Leq;
+	FIELD a logic Layk;
+	METHOD S_ update ()V
+	METHOD a deserializeCustomData (Lhl;)V
+		ARG 0 tag
+	METHOD b serializeCustomData (Lhl;)V
+		ARG 0 tag
+	METHOD v getMinecartType ()Laqc$a;
+	METHOD z getDefaultContainedBlock ()Lblz;

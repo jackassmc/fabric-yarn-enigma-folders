@@ -1,0 +1,19 @@
+CLASS cqi net/minecraft/client/gui/menu/GuiSettingsVideo
+	CLASS cqi$1
+		METHOD a onPressed (DD)V
+			ARG 0 mouseX
+	FIELD a title Ljava/lang/String;
+	FIELD f parent Lcqc;
+	FIELD g settings Lclz;
+	FIELD i MENU_OPTIONS [Lclz$a;
+	METHOD <init> (Lcqc;Lclz;)V
+		ARG 1 parent
+	METHOD a draw (IIF)V
+		ARG 1 mouseX
+		ARG 2 mouseY
+	METHOD c onInitialized ()V
+	METHOD g close ()V
+	METHOD mouseClicked (DDI)Z
+		ARG 1 mouseX
+	METHOD mouseReleased (DDI)Z
+		ARG 1 mouseX

@@ -1,0 +1,3 @@
+CLASS vn net/minecraft/server/WorldGenerationProgressListenerFactory
+	METHOD create (I)Lvm;
+		ARG 1 radius

@@ -1,0 +1,18 @@
+CLASS asp net/minecraft/container/FurnaceContainer
+	FIELD a inventory Laev;
+	FIELD g cookTime I
+	FIELD h totalCookTime I
+	FIELD i burnTime I
+	FIELD j fuelTime I
+	METHOD <init> (Laqi;Laev;)V
+		ARG 1 playerInv
+	METHOD a canUse (Laqj;)Z
+	METHOD a addListener (Lasj;)V
+	METHOD a matches (Laxy;)Z
+	METHOD b sendContentUpdates ()V
+	METHOD b setProperty (II)V
+		ARG 1 pos
+	METHOD b getStack (Laqj;I)Lavs;
+		ARG 1 player
+	METHOD f getCraftingWidth ()I
+	METHOD g getCrafitngHeight ()I

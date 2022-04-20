@@ -1,0 +1,6 @@
+CLASS anj net/minecraft/entity/ai/goal/GoToWalkTargetGoal
+	FIELD a mob Laiu;
+	FIELD b x D
+	FIELD c y D
+	FIELD d z D
+	FIELD e speed D

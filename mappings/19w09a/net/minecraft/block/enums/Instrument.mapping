@@ -1,0 +1,6 @@
+CLASS bsf net/minecraft/block/enums/Instrument
+	FIELD q name Ljava/lang/String;
+	FIELD r sound Lxy;
+	METHOD a getSound ()Lxy;
+	METHOD a fromBlockState (Lbre;)Lbsf;
+		ARG 0 state

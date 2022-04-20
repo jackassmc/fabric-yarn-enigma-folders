@@ -1,0 +1,10 @@
+CLASS cuw net/minecraft/client/options/AoOption
+	FIELD a OFF Lcuw;
+	FIELD b MIN Lcuw;
+	FIELD c MAX Lcuw;
+	FIELD d OPTIONS [Lcuw;
+	FIELD e value I
+	FIELD f translationKey Ljava/lang/String;
+	METHOD a getValue ()I
+	METHOD a getOption (I)Lcuw;
+	METHOD b getTranslationKey ()Ljava/lang/String;

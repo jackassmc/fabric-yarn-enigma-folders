@@ -1,0 +1,14 @@
+CLASS ctg net/minecraft/client/toast/ToastManager
+	CLASS ctg$a Entry
+		FIELD b instance Lctf;
+		METHOD <init> (Lctg;Lctf;)V
+			ARG 1 instance
+		METHOD a getInstance ()Lctf;
+		METHOD a draw (II)Z
+	FIELD a client Lcqx;
+	FIELD b visibleEntries [Lctg$a;
+	FIELD g toastQueue Ljava/util/Deque;
+	METHOD a draw ()V
+	METHOD a add (Lctf;)V
+	METHOD b clear ()V
+	METHOD c getGame ()Lcqx;

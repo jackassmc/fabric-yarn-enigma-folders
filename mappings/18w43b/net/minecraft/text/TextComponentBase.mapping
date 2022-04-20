@@ -1,0 +1,12 @@
+CLASS it net/minecraft/text/TextComponentBase
+	FIELD a children Ljava/util/List;
+	FIELD b style Lje;
+	METHOD a getChildren ()Ljava/util/List;
+	METHOD a append (Liw;)Liw;
+		ARG 0 component
+	METHOD a setStyle (Lje;)Liw;
+		ARG 0 style
+	METHOD b getStyle ()Lje;
+	METHOD c stream ()Ljava/util/stream/Stream;
+	METHOD equals (Ljava/lang/Object;)Z
+		ARG 0 object

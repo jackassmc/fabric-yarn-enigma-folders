@@ -1,0 +1,6 @@
+CLASS aov net/minecraft/entity/ai/goal/TrackOwnerAttackerGoal
+	FIELD a tameable Lajf;
+	FIELD b attacker Lair;
+	FIELD c lastAttackedTime I
+	METHOD <init> (Lajf;)V
+		ARG 1 tameable

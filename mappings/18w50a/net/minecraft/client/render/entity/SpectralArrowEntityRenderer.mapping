@@ -1,0 +1,4 @@
+CLASS dks net/minecraft/client/render/entity/SpectralArrowEntityRenderer
+	FIELD a SKIN Lqc;
+	METHOD a getTexture (Lagv;)Lqc;
+	METHOD a getTexture (Larv;)Lqc;

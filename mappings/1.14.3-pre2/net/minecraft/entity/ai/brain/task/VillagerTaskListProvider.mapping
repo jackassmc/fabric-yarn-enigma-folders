@@ -1,0 +1,19 @@
+CLASS als net/minecraft/entity/ai/brain/task/VillagerTaskListProvider
+	METHOD a createFreeFollowTask ()Lcom/mojang/datafixers/util/Pair;
+	METHOD a createPlayTasks (F)Lcom/google/common/collect/ImmutableList;
+	METHOD a createCoreTasks (Lavr;F)Lcom/google/common/collect/ImmutableList;
+		ARG 0 profession
+	METHOD b createBusyFollowTask ()Lcom/mojang/datafixers/util/Pair;
+	METHOD b createWorkTasks (Lavr;F)Lcom/google/common/collect/ImmutableList;
+		ARG 0 profession
+	METHOD c createRestTasks (Lavr;F)Lcom/google/common/collect/ImmutableList;
+		ARG 0 profession
+	METHOD d createMeetTasks (Lavr;F)Lcom/google/common/collect/ImmutableList;
+		ARG 0 profession
+	METHOD e createIdleTasks (Lavr;F)Lcom/google/common/collect/ImmutableList;
+		ARG 0 profession
+	METHOD f createPanicTasks (Lavr;F)Lcom/google/common/collect/ImmutableList;
+		ARG 0 profession
+	METHOD g createPreRaidTasks (Lavr;F)Lcom/google/common/collect/ImmutableList;
+	METHOD h createRaidTasks (Lavr;F)Lcom/google/common/collect/ImmutableList;
+	METHOD i createHideTasks (Lavr;F)Lcom/google/common/collect/ImmutableList;

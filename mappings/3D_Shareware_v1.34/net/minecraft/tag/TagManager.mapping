@@ -1,0 +1,14 @@
+CLASS zb net/minecraft/tag/TagManager
+	FIELD a blocks Lyy;
+	FIELD b items Lyy;
+	FIELD c fluids Lyy;
+	FIELD d entities Lyy;
+	METHOD a blocks ()Lyy;
+	METHOD a toPacket (Ljc;)V
+		ARG 1 buf
+	METHOD b items ()Lyy;
+	METHOD b fromPacket (Ljc;)Lzb;
+		ARG 0 buf
+	METHOD c fluids ()Lyy;
+	METHOD d entities ()Lyy;
+	METHOD e clear ()V

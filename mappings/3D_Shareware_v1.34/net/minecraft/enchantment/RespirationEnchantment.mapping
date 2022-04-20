@@ -1,0 +1,4 @@
+CLASS bfl net/minecraft/enchantment/RespirationEnchantment
+	METHOD <init> (Lbez$a;[Laie;)V
+		ARG 1 weight
+		ARG 2 slotTypes

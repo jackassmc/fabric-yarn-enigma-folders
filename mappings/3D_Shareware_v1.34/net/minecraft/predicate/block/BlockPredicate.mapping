@@ -1,0 +1,4 @@
+CLASS bvh net/minecraft/predicate/block/BlockPredicate
+	FIELD a block Lbma;
+	METHOD a make (Lbma;)Lbvh;
+		ARG 0 block

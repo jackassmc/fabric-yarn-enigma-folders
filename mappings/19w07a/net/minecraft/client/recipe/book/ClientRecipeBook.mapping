@@ -1,0 +1,10 @@
+CLASS cqg net/minecraft/client/recipe/book/ClientRecipeBook
+	FIELD k manager Lbae;
+	FIELD l resultsByGroup Ljava/util/Map;
+	FIELD m orderedResults Ljava/util/List;
+	METHOD a getResultsForGroup (Lcqq;)Ljava/util/List;
+	METHOD b getGroupsForContainer (Lava;)Ljava/util/List;
+	METHOD b addGroup (Lcqq;)Lcxo;
+	METHOD g getGroupForRecipe (Lbad;)Lcqq;
+	METHOD i reload ()V
+	METHOD j getOrderedResults ()Ljava/util/List;

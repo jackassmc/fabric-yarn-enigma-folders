@@ -1,0 +1,31 @@
+CLASS ang net/minecraft/block/BlockRailBase
+	CLASS ang$b Shape
+		FIELD a NORTH_SOUTH Lang$b;
+		FIELD b EAST_WEST Lang$b;
+		FIELD c ASCENDING_EAST Lang$b;
+		FIELD d ASCENDING_WEST Lang$b;
+		FIELD e ASCENDING_NORTH Lang$b;
+		FIELD f ASCENDING_SOUTH Lang$b;
+		FIELD g SOUTH_EAST Lang$b;
+		FIELD h SOUTH_WEST Lang$b;
+		FIELD i NORTH_WEST Lang$b;
+		FIELD j NORTH_EAST Lang$b;
+		FIELD k VALUES [Lang$b;
+		FIELD l id I
+		FIELD m name Ljava/lang/String;
+		METHOD a getId ()I
+		METHOD a byId (I)Lang$b;
+		METHOD c isAscending ()Z
+		METHOD m asString ()Ljava/lang/String;
+	FIELD a BOX_FLAT Lbfm;
+	FIELD b BOX_ASCENDING Lbfm;
+	METHOD a canPlaceAt (Lali;Ldx;)Z
+	METHOD a update (Lave;Lali;Ldx;Lank;Ldx;)V
+	METHOD a getCollisionBox (Lave;Lalm;Ldx;)Lbfm;
+	METHOD b isRail (Lali;Ldx;)Z
+	METHOD b isFullBoundsCubeForCulling (Lave;)Z
+	METHOD b getBoundingBox (Lave;Lalm;Ldx;)Lbfm;
+	METHOD f getRenderLayer ()Lala;
+	METHOD g getShapeProperty ()Lavu;
+	METHOD h getPistonBehavior (Lave;)Lbbn;
+	METHOD i isRail (Lave;)Z

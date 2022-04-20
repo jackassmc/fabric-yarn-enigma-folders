@@ -1,0 +1,4 @@
+CLASS beg net/minecraft/enchantment/FrostWalkerEnchantment
+	METHOD <init> (Lbdz$a;[Laib;)V
+		ARG 1 weight
+		ARG 2 slotTypes

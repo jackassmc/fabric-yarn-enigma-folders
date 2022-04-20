@@ -1,0 +1,12 @@
+CLASS cvz net/minecraft/client/gui/MultiInputListener
+	METHOD a focusOn (Lcwa;)V
+	METHOD a setFocused (Lcwa;I)V
+		ARG 1 focusedListener
+		ARG 2 previousFocusedIndex
+	METHOD b focusNext ()V
+	METHOD b getFocused (I)Lcwa;
+	METHOD c focusPrevious ()V
+	METHOD setDragging (Z)V
+		ARG 1 active
+	METHOD setFocused (Lcwa;)V
+		ARG 1 focused

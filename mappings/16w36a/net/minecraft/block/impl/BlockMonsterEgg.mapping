@@ -1,0 +1,64 @@
+CLASS none/anz net/minecraft/block/impl/BlockMonsterEgg
+	CLASS none/anz$a Variant
+		CLASS none/anz$a$1
+			METHOD d getState ()Lnone/asl;
+		CLASS none/anz$a$2
+			METHOD d getState ()Lnone/asl;
+		CLASS none/anz$a$3
+			METHOD d getState ()Lnone/asl;
+		CLASS none/anz$a$4
+			METHOD d getState ()Lnone/asl;
+		CLASS none/anz$a$5
+			METHOD d getState ()Lnone/asl;
+		CLASS none/anz$a$6
+			METHOD d getState ()Lnone/asl;
+		FIELD a STONE Lnone/anz$a;
+		FIELD b COBBLESTONE Lnone/anz$a;
+		FIELD c STONE_BRICK Lnone/anz$a;
+		FIELD d MOSSY_BRICK Lnone/anz$a;
+		FIELD e CRACKED_BRICK Lnone/anz$a;
+		FIELD f CHISELED_BRICK Lnone/anz$a;
+		FIELD g VALUES [Lnone/anz$a;
+		FIELD h id I
+		FIELD i name Ljava/lang/String;
+		FIELD j translationKey Ljava/lang/String;
+		METHOD <init> (Ljava/lang/String;IILjava/lang/String;)V
+			ARG 0 id
+			ARG 1 name
+		METHOD <init> (Ljava/lang/String;IILjava/lang/String;Ljava/lang/String;)V
+			ARG 0 id
+			ARG 1 name
+			ARG 2 translationKey
+		METHOD a getId ()I
+		METHOD a get (I)Lnone/anz$a;
+			ARG 0 rawId
+		METHOD a get (Lnone/asl;)Lnone/anz$a;
+			ARG 0 state
+		METHOD c getTranslationKey ()Ljava/lang/String;
+		METHOD d getState ()Lnone/asl;
+		METHOD m asString ()Ljava/lang/String;
+		METHOD values values ()[Lnone/anz$a;
+	FIELD a VARIANT Lnone/asz;
+	METHOD a deserializeState (I)Lnone/asl;
+		ARG 0 meta
+	METHOD a getDropAmount (Ljava/util/Random;)I
+		ARG 0 random
+	METHOD a addStacksForDisplay (Lnone/aep;Lnone/adr;Lnone/dc;)V
+		ARG 0 item
+		ARG 1 tab
+		ARG 2 list
+	METHOD a getPickStack (Lnone/aiv;Lnone/cn;Lnone/asl;)Lnone/aer;
+		ARG 0 world
+		ARG 1 pos
+		ARG 2 state
+	METHOD a dropItems (Lnone/aiv;Lnone/cn;Lnone/asl;FI)V
+		ARG 0 world
+		ARG 1 pos
+		ARG 2 state
+		ARG 3 dropChance
+		ARG 4 fortune
+	METHOD b createStateFactory ()Lnone/asm;
+	METHOD e serializeState (Lnone/asl;)I
+		ARG 0 state
+	METHOD u getStackFromState (Lnone/asl;)Lnone/aer;
+		ARG 0 state

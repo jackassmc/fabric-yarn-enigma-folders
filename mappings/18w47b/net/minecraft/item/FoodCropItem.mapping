@@ -1,0 +1,3 @@
+CLASS awf net/minecraft/item/FoodCropItem
+	FIELD a crop Lboh;
+	METHOD a useOnBlock (Laxb;)Lafa;

@@ -1,0 +1,6 @@
+CLASS wk net/minecraft/resource/metadata/PackResourceMetadata
+	FIELD a READER Lwl;
+	FIELD b description Ljm;
+	FIELD c packFormat I
+	METHOD a getDescription ()Ljm;
+	METHOD b getPackFormat ()I

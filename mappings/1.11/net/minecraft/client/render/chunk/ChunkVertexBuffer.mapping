@@ -1,0 +1,6 @@
+CLASS bpy net/minecraft/client/render/chunk/ChunkVertexBuffer
+	FIELD a renderLayerVertexBuffers [Lbpw;
+	METHOD a getVertexBuffer (I)Lbpw;
+		ARG 0 blockRenderLayer
+	METHOD a getVertexBuffer (Laji;)Lbpw;
+		ARG 0 blockRenderLayer

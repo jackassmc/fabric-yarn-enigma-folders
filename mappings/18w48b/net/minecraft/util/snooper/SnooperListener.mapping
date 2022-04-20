@@ -1,0 +1,2 @@
+CLASS afm net/minecraft/util/snooper/SnooperListener
+	METHOD a addSnooperInfo (Lafl;)V

@@ -1,0 +1,28 @@
+CLASS ade net/minecraft/container/slot/SlotVillagerOutput
+	FIELD a villagerInventory Ladc;
+	FIELD b player Laax;
+	FIELD c amount I
+	FIELD h villager Lajb;
+	METHOD <init> (Laax;Lajb;Ladc;III)V
+		ARG 0 player
+		ARG 1 villager
+		ARG 2 VillagerInventory
+		ARG 3 index
+		ARG 4 xPosition
+		ARG 5 yPosition
+	METHOD a takeStack (I)Lafi;
+		ARG 0 amount
+	METHOD a onTakeItem (Laax;Lafi;)Lafi;
+		ARG 0 player
+		ARG 1 stack
+	METHOD a canInsert (Lafi;)Z
+		ARG 0 stack
+	METHOD a onCrafted (Lafi;I)V
+		ARG 0 stack
+		ARG 1 amount
+	METHOD a isValid (Lajc;Lafi;Lafi;)Z
+		ARG 0 recipe
+		ARG 1 firstBuyItem
+		ARG 2 secondBuyItem
+	METHOD c onCrafted (Lafi;)V
+		ARG 0 stack

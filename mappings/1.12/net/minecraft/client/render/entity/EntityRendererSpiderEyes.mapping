@@ -1,0 +1,7 @@
+CLASS cci net/minecraft/client/render/entity/EntityRendererSpiderEyes
+	FIELD a SKIN Lnd;
+	METHOD a shouldMergeTextures ()Z
+	METHOD a render (Ladl;FFFFFFF)V
+		ARG 0 entity
+	METHOD a render (Lvn;FFFFFFF)V
+		ARG 0 entity

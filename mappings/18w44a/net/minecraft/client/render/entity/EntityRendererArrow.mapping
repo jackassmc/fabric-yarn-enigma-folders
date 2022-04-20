@@ -1,0 +1,9 @@
+CLASS dgn net/minecraft/client/render/entity/EntityRendererArrow
+	FIELD a SKIN Lpu;
+	FIELD f TIPPED_SKIN Lpu;
+	METHOD <init> (Ldei;)V
+		ARG 1 renderManager
+	METHOD a getTexture (Lafv;)Lpu;
+		ARG 1 model
+	METHOD a getTexture (Lapx;)Lpu;
+		ARG 1 model

@@ -1,0 +1,6 @@
+CLASS bpk net/minecraft/block/JigsawBlock
+	METHOD <init> (Lbmp$c;)V
+		ARG 1 settings
+	METHOD a attachmentMatches (Lcjn$b;Lcjn$b;)Z
+		ARG 0 info1
+		ARG 1 info2

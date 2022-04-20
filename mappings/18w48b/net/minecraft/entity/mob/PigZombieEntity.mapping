@@ -1,0 +1,20 @@
+CLASS apk net/minecraft/entity/mob/PigZombieEntity
+	CLASS apk$a
+		METHOD a canStart ()Z
+	METHOD D getAmbientSound ()Lxf;
+	METHOD H mobTick ()V
+	METHOD a initEquipment (Lafa;)V
+	METHOD a damage (Lafr;F)Z
+		ARG 1 source
+	METHOD a copyEntityData (Lagi;)V
+	METHOD a setAttacker (Lagr;)V
+	METHOD a interactMob (Laqj;Lafb;)Z
+		ARG 1 player
+	METHOD a readCustomDataFromTag (Lhp;)V
+		ARG 1 tag
+	METHOD b writeCustomDataToTag (Lhp;)V
+		ARG 1 tag
+	METHOD cb initAttributes ()V
+	METHOD cw getDeathSound ()Lxf;
+	METHOD dC getSkull ()Lavs;
+	METHOD e getHurtSound (Lafr;)Lxf;

@@ -1,0 +1,8 @@
+CLASS cbz net/minecraft/world/gen/feature/FillLayerFeatureConfig
+	FIELD a height I
+	FIELD b state Lbvc;
+	METHOD <init> (ILbvc;)V
+		ARG 1 height
+		ARG 2 state
+	METHOD a deserialize (Lcom/mojang/datafixers/Dynamic;)Lcbz;
+		ARG 0 dynamic

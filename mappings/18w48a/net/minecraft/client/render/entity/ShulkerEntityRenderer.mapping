@@ -1,0 +1,10 @@
+CLASS dim net/minecraft/client/render/entity/ShulkerEntityRenderer
+	CLASS dim$a
+		METHOD a shouldMergeTextures ()Z
+		METHOD a render (Lagr;FFFFFFF)V
+			ARG 0 entity
+		METHOD a render (Lapo;FFFFFFF)V
+			ARG 0 entity
+	FIELD j SKIN [Lpy;
+	METHOD a getTexture (Lagi;)Lpy;
+	METHOD a getTexture (Lapo;)Lpy;

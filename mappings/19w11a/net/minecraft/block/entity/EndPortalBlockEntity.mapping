@@ -1,0 +1,2 @@
+CLASS btc net/minecraft/block/entity/EndPortalBlockEntity
+	METHOD a shouldDrawSide (Lez;)Z

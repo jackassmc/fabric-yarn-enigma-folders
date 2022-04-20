@@ -1,0 +1,6 @@
+CLASS cbt net/minecraft/client/audio/SoundEventMinecartRiding
+	FIELD m minecart Labx;
+	FIELD n distance F
+	METHOD <init> (Labx;)V
+		ARG 0 minecart
+	METHOD F_ update ()V

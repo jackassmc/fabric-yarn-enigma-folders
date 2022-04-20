@@ -1,0 +1,4 @@
+CLASS ajf net/minecraft/entity/InteractionObserver
+	METHOD a onInteractionWith (Laqh;Lail;)V
+		ARG 1 interaction
+		ARG 2 entity

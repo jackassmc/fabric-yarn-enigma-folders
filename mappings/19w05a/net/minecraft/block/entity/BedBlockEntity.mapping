@@ -1,0 +1,5 @@
+CLASS boq net/minecraft/block/entity/BedBlockEntity
+	FIELD a color Lawf;
+	METHOD a setColor (Lawf;)V
+		ARG 1 color
+	METHOD c getColor ()Lawf;

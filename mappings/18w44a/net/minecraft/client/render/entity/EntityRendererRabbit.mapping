@@ -1,0 +1,14 @@
+CLASS dfx net/minecraft/client/render/entity/EntityRendererRabbit
+	FIELD a BROWN_SKIN Lpu;
+	FIELD j WHITE_SKIN Lpu;
+	FIELD k BLACK_SKIN Lpu;
+	FIELD l GOLD_SKIN Lpu;
+	FIELD m SALT_SKIN Lpu;
+	FIELD n WHITE_SPOTTED_SKIN Lpu;
+	FIELD o TOAST_SKIN Lpu;
+	METHOD <init> (Ldei;)V
+		ARG 1 renderManager
+	METHOD a getTexture (Lafv;)Lpu;
+		ARG 1 model
+	METHOD a getTexture (Lall;)Lpu;
+		ARG 1 model

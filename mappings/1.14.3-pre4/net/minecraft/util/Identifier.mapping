@@ -1,0 +1,31 @@
+CLASS qt net/minecraft/util/Identifier
+	CLASS a Serializer
+	FIELD a namespace Ljava/lang/String;
+	FIELD b path Ljava/lang/String;
+	FIELD c COMMAND_EXCEPTION Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
+	METHOD <init> ([Ljava/lang/String;)V
+		ARG 1 id
+	METHOD a getPath ()Ljava/lang/String;
+	METHOD a isCharValid (C)Z
+		ARG 0 c
+	METHOD a (I)Z
+		ARG 0 c
+	METHOD a fromCommandInput (Lcom/mojang/brigadier/StringReader;)Lqt;
+		ARG 0 reader
+	METHOD a tryParse (Ljava/lang/String;)Lqt;
+		ARG 0 id
+	METHOD a splitOn (Ljava/lang/String;C)Lqt;
+		ARG 0 id
+		ARG 1 delimiter
+	METHOD b getNamespace ()Ljava/lang/String;
+	METHOD b (I)Z
+		ARG 0 c
+	METHOD b isValid (Ljava/lang/String;)Z
+		ARG 0 id
+	METHOD b split (Ljava/lang/String;C)[Ljava/lang/String;
+		ARG 0 id
+		ARG 1 delimiter
+	METHOD c isPathValid (Ljava/lang/String;)Z
+		ARG 0 path
+	METHOD d isNamespaceValid (Ljava/lang/String;)Z
+		ARG 0 namespace

@@ -1,0 +1,3 @@
+CLASS ahv net/minecraft/entity/raid/RaidVictim
+	METHOD M_ getVillage ()Laly;
+	METHOD P_ getRaid ()Lasn;

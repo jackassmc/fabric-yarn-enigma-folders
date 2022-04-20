@@ -1,0 +1,2 @@
+CLASS dif net/minecraft/client/particle/EndRodParticle
+	CLASS dif$a Factory

@@ -1,0 +1,4 @@
+CLASS brx net/minecraft/block/SignBlock
+	FIELD c ROTATION Lbwl;
+	METHOD <init> (Lbmn$c;)V
+		ARG 1 settings

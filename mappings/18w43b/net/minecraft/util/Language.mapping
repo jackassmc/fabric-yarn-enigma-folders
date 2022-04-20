@@ -1,0 +1,14 @@
+CLASS hg net/minecraft/util/Language
+	FIELD c INSTANCE Lhg;
+	FIELD d translations Ljava/util/Map;
+	FIELD e timeLoaded J
+	METHOD a getInstance ()Lhg;
+	METHOD a translate (Ljava/lang/String;)Ljava/lang/String;
+		ARG 0 key
+	METHOD a load (Ljava/util/Map;)V
+		ARG 0 map
+	METHOD b getTimeLoaded ()J
+	METHOD b hasTranslation (Ljava/lang/String;)Z
+		ARG 0 key
+	METHOD c getTranslation (Ljava/lang/String;)Ljava/lang/String;
+		ARG 0 key

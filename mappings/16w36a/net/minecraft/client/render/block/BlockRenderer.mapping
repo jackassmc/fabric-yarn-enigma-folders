@@ -1,0 +1,39 @@
+CLASS none/bpq net/minecraft/client/render/block/BlockRenderer
+	FIELD a colorMap Lnone/bdz;
+	METHOD <init> (Lnone/bdz;)V
+		ARG 0 colorMap
+	METHOD a renderQuad (FFFFLjava/util/List;)V
+	METHOD a tesselateQuadsFlat (Lnone/aiz;Lnone/asl;Lnone/cn;IZLnone/bom;Ljava/util/List;Ljava/util/BitSet;)V
+	METHOD a tesselateQuadsSmooth (Lnone/aiz;Lnone/asl;Lnone/cn;Lnone/bom;Ljava/util/List;[FLjava/util/BitSet;Lnone/bpq$b;)V
+	METHOD a tesselate (Lnone/aiz;Lnone/bzl;Lnone/asl;Lnone/cn;Lnone/bom;Z)Z
+		ARG 0 view
+		ARG 1 model
+		ARG 2 state
+		ARG 3 pos
+		ARG 4 buffer
+	METHOD a tesselate (Lnone/aiz;Lnone/bzl;Lnone/asl;Lnone/cn;Lnone/bom;ZJ)Z
+		ARG 0 view
+		ARG 1 model
+		ARG 2 state
+		ARG 3 pos
+		ARG 4 buffer
+	METHOD a render (Lnone/asl;Lnone/bzl;FFFF)V
+		ARG 0 state
+		ARG 1 model
+	METHOD a render (Lnone/bzl;FFFF)V
+		ARG 0 model
+	METHOD a render (Lnone/bzl;Lnone/asl;FZ)V
+		ARG 0 model
+		ARG 1 state
+	METHOD b tesselateSmooth (Lnone/aiz;Lnone/bzl;Lnone/asl;Lnone/cn;Lnone/bom;ZJ)Z
+		ARG 0 view
+		ARG 1 model
+		ARG 2 state
+		ARG 3 pos
+		ARG 4 buffer
+	METHOD c tesselateFlat (Lnone/aiz;Lnone/bzl;Lnone/asl;Lnone/cn;Lnone/bom;ZJ)Z
+		ARG 0 view
+		ARG 1 model
+		ARG 2 state
+		ARG 3 pos
+		ARG 4 buffer

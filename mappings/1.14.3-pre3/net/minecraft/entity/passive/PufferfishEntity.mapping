@@ -1,0 +1,13 @@
+CLASS ark net/minecraft/entity/passive/PufferfishEntity
+	CLASS ark$a
+		FIELD a pufferfish Lark;
+		METHOD <init> (Lark;)V
+			ARG 1 pufferfish
+	FIELD b PUFF_STATE Lqi;
+	METHOD a sting (Laiv;)V
+		ARG 1 mob
+	METHOD b setPuffState (I)V
+		ARG 1 puffState
+	METHOD dY getPuffState ()I
+	METHOD r getScaleForPuffState (I)F
+		ARG 0 puffState

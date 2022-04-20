@@ -1,0 +1,8 @@
+CLASS cwl net/minecraft/client/gui/hud/ScoreboardHud
+	CLASS cwl$a EntryOrderComparator
+	FIELD a ENTRY_ORDERING Lcom/google/common/collect/Ordering;
+	FIELD b client Lcuu;
+	FIELD c inGameHud Lcvn;
+	METHOD <init> (Lcuu;Lcvn;)V
+		ARG 1 client
+	METHOD a clear ()V

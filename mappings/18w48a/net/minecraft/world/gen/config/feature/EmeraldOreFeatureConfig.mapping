@@ -1,0 +1,8 @@
+CLASS bwh net/minecraft/world/gen/config/feature/EmeraldOreFeatureConfig
+	FIELD a target Lboj;
+	FIELD b state Lboj;
+	METHOD <init> (Lboj;Lboj;)V
+		ARG 1 target
+	METHOD a deserialize (Lcom/mojang/datafixers/Dynamic;)Lbwh;
+		ARG 0 dynamic
+	METHOD a serialize (Lcom/mojang/datafixers/types/DynamicOps;)Lcom/mojang/datafixers/Dynamic;

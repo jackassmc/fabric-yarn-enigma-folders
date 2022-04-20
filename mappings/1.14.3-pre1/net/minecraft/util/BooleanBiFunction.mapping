@@ -1,0 +1,17 @@
+CLASS csc net/minecraft/util/BooleanBiFunction
+	FIELD a FALSE Lcsc;
+	FIELD b NOT_OR Lcsc;
+	FIELD c ONLY_SECOND Lcsc;
+	FIELD d NOT_FIRST Lcsc;
+	FIELD e ONLY_FIRST Lcsc;
+	FIELD f NOT_SECOND Lcsc;
+	FIELD g NOT_SAME Lcsc;
+	FIELD h NOT_AND Lcsc;
+	FIELD i AND Lcsc;
+	FIELD j SAME Lcsc;
+	FIELD k SECOND Lcsc;
+	FIELD l CAUSES Lcsc;
+	FIELD m FIRST Lcsc;
+	FIELD n CAUSED_BY Lcsc;
+	FIELD o OR Lcsc;
+	FIELD p TRUE Lcsc;

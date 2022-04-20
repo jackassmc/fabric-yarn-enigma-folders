@@ -1,0 +1,15 @@
+CLASS yu net/minecraft/stat/StatHandler
+	FIELD a statMap Lit/unimi/dsi/fastutil/objects/Object2IntMap;
+	METHOD a setStat (Lavy;Lyq;I)V
+		ARG 1 player
+		ARG 2 stat
+		ARG 3 value
+	METHOD a getStat (Lyq;)I
+		ARG 1 stat
+	METHOD a getStat (Lys;Ljava/lang/Object;)I
+		ARG 1 type
+		ARG 2 stat
+	METHOD b increaseStat (Lavy;Lyq;I)V
+		ARG 1 player
+		ARG 2 stat
+		ARG 3 value

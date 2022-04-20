@@ -1,0 +1,82 @@
+CLASS biu net/minecraft/block/BlockStairs
+	FIELD C baseBlock Lbdx;
+	FIELD D baseBlockState Lblz;
+	FIELD a FACING Lbnb;
+	METHOD a onSteppedOn (Laza;Leq;Lafh;)V
+		ARG 0 world
+		ARG 1 pos
+		ARG 2 entity
+	METHOD a onDestroyedByExplosion (Laza;Leq;Layt;)V
+		ARG 0 world
+		ARG 1 pos
+		ARG 2 explosion
+	METHOD a getTickRate (Laze;)I
+		ARG 0 world
+	METHOD a isFullBoundsCubeForConnection (Lblz;)Z
+		ARG 0 state
+	METHOD a getBlockBrightness (Lblz;Layl;Leq;)I
+		ARG 0 state
+		ARG 1 view
+		ARG 2 pos
+	METHOD a getBoundingShape (Lblz;Layn;Leq;)Lchv;
+		ARG 0 state
+		ARG 1 view
+		ARG 2 pos
+	METHOD a canPlaceAtSide (Lblz;Layn;Leq;Lccn;)Z
+		ARG 0 world
+		ARG 2 pos
+	METHOD a onBlockBreakStart (Lblz;Laza;Leq;Lapb;)V
+		ARG 0 state
+		ARG 1 world
+		ARG 2 pos
+		ARG 3 player
+	METHOD a activate (Lblz;Laza;Leq;Lapb;Laea;Lev;FFF)Z
+		ARG 0 state
+		ARG 1 world
+		ARG 2 pos
+		ARG 3 player
+		ARG 4 hand
+		ARG 5 facing
+		ARG 6 hitX
+		ARG 7 hitY
+		ARG 8 hitZ
+	METHOD a onBlockAdded (Lblz;Laza;Leq;Lblz;)V
+		ARG 0 world
+		ARG 1 world
+		ARG 2 pos
+		ARG 3 state
+	METHOD a onBlockRemoved (Lblz;Laza;Leq;Lblz;Z)V
+		ARG 0 world
+		ARG 1 world
+		ARG 2 pos
+		ARG 3 state
+	METHOD a randomTick (Lblz;Laza;Leq;Ljava/util/Random;)V
+		ARG 0 world
+		ARG 1 state
+		ARG 2 pos
+		ARG 3 random
+	METHOD a applyMirror (Lblz;Lbha;)Lblz;
+		ARG 0 state
+		ARG 1 mirror
+	METHOD a applyRotation (Lblz;Lbia;)Lblz;
+		ARG 0 state
+		ARG 1 rotation
+	METHOD a getRenderingState (Lblz;Lev;Lblz;Lazb;Leq;Leq;)Lblz;
+		ARG 0 state
+		ARG 5 pos
+	METHOD a appendProperties (Lbma$a;)V
+		ARG 0 builder
+	METHOD b (Lazb;Leq;Lblz;)V
+		ARG 0 world
+		ARG 1 pos
+		ARG 2 state
+	METHOD c getRenderLayer ()Layo;
+	METHOD c randomDisplayTick (Lblz;Laza;Leq;Ljava/util/Random;)V
+		ARG 0 state
+		ARG 1 world
+		ARG 2 pos
+		ARG 3 rand
+	METHOD d canCollideWith (Lblz;)Z
+	METHOD i canCollideWith ()Z
+	METHOD r hasSolidTopSurface (Lblz;)Z
+		ARG 0 state

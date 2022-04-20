@@ -1,0 +1,2 @@
+CLASS ayd net/minecraft/item/FoodCropItem
+	FIELD a crop Lbqs;

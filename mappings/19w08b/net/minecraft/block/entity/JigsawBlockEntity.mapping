@@ -1,0 +1,13 @@
+CLASS bpx net/minecraft/block/entity/JigsawBlockEntity
+	FIELD a attachmentType Lqi;
+	FIELD b targetPool Lqi;
+	FIELD c finalState Ljava/lang/String;
+	METHOD a setFinalState (Ljava/lang/String;)V
+		ARG 1 value
+	METHOD a setAttachmentType (Lqi;)V
+		ARG 1 value
+	METHOD b setTargetPool (Lqi;)V
+		ARG 1 value
+	METHOD c getAttachmentType ()Lqi;
+	METHOD d getTargetPool ()Lqi;
+	METHOD f getFinalState ()Ljava/lang/String;

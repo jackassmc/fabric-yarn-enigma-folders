@@ -1,0 +1,9 @@
+CLASS bok net/minecraft/block/MushroomPlantBlock
+	FIELD a SHAPE Lcra;
+	METHOD <init> (Lbky$c;)V
+		ARG 1 settings
+	METHOD a trySpawningBigMushroom (Lbfy;Leu;Lbtw;Ljava/util/Random;)Z
+		ARG 1 world
+		ARG 2 pos
+		ARG 3 state
+		ARG 4 random

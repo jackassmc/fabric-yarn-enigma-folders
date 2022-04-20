@@ -1,0 +1,7 @@
+CLASS ayf net/minecraft/item/SplashPotionItem
+	METHOD <init> (Lawy$a;)V
+		ARG 1 settings
+	METHOD a use (Lbcf;Lark;Lafy;)Laga;
+		ARG 1 world
+		ARG 2 player
+		ARG 3 hand

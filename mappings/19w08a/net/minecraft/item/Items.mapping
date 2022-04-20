@@ -1,0 +1,7 @@
+CLASS axx net/minecraft/item/Items
+	FIELD a AIR Laxr;
+	METHOD a register (Lavw;)Laxr;
+	METHOD a registerBlock (Lbif;Lawk;)Laxr;
+	METHOD a register (Lbif;Laxr;)Laxr;
+	METHOD a register (Ljava/lang/String;Laxr;)Laxr;
+	METHOD a register (Lqi;Laxr;)Laxr;

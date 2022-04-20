@@ -1,0 +1,4 @@
+CLASS dny net/minecraft/client/render/entity/feature/EndermanEyesFeatureRenderer
+	FIELD a SKIN Lqh;
+	METHOD <init> (Ldmd;)V
+		ARG 1 context

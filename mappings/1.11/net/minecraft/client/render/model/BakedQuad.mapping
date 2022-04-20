@@ -1,0 +1,15 @@
+CLASS brb net/minecraft/client/render/model/BakedQuad
+	FIELD a vertexData [I
+	FIELD b colorIndex I
+	FIELD c face Lcv;
+	FIELD d sprite Lbyw;
+	METHOD <init> ([IILcv;Lbyw;)V
+		ARG 0 vertexData
+		ARG 1 colorIndex
+		ARG 2 face
+		ARG 3 sprite
+	METHOD a getSprite ()Lbyw;
+	METHOD b getVertexData ()[I
+	METHOD c hasColor ()Z
+	METHOD d getColorIndex ()I
+	METHOD e getFace ()Lcv;

@@ -1,0 +1,2 @@
+CLASS ayf net/minecraft/server/network/ServerItemCooldownManager
+	FIELD a player Lus;

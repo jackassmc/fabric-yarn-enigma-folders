@@ -1,0 +1,6 @@
+CLASS dlc net/minecraft/client/audio/SoundEventMinecartRiding
+	FIELD n minecart Laqs;
+	FIELD o distance F
+	METHOD <init> (Laqs;)V
+		ARG 1 minecart
+	METHOD Z_ tick ()V

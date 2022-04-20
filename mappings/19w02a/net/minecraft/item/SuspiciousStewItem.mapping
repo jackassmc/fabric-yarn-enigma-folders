@@ -1,0 +1,12 @@
+CLASS ayh net/minecraft/item/SuspiciousStewItem
+	METHOD <init> (ILawy$a;)V
+		ARG 1 hungerRestored
+		ARG 2 settings
+	METHOD a (Laxd;Lagv;I)V
+		ARG 0 itemStack
+		ARG 1 statusEffect
+		ARG 2 effectDuration
+	METHOD a onItemFinishedUsing (Laxd;Lbcf;Lahm;)Laxd;
+		ARG 1 stack
+		ARG 2 world
+		ARG 3 livingEntity

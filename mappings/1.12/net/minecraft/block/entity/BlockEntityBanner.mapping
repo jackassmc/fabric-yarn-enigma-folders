@@ -1,0 +1,28 @@
+CLASS avd net/minecraft/block/entity/BlockEntityBanner
+	FIELD a customName Ljava/lang/String;
+	FIELD f baseColor Lahq;
+	FIELD g patternListTag Lge;
+	FIELD i patternList Ljava/util/List;
+	FIELD j patternColorList Ljava/util/List;
+	METHOD a deserialize (Lain;Z)V
+		ARG 0 stack
+		ARG 1 baseColorFromEntityTag
+	METHOD a deserialize (Lfy;)V
+		ARG 0 tag
+	METHOD b getPatternCount (Lain;)I
+		ARG 0 stack
+	METHOD b serialize (Lfy;)Lfy;
+		ARG 0 tag
+	METHOD c getUpdatePacket ()Lih;
+	METHOD c loadFromItemStack (Lain;)V
+		ARG 0 stack
+	METHOD d serializeInitialChunkData ()Lfy;
+	METHOD d getBaseColor (Lain;)Lahq;
+		ARG 0 stack
+	METHOD h getPatternList ()Ljava/util/List;
+	METHOD h_ getName ()Ljava/lang/String;
+	METHOD i_ getNameAsComponent ()Lhh;
+	METHOD j getPatternColorList ()Ljava/util/List;
+	METHOD l getItemStack ()Lain;
+	METHOD m initPatternLists ()V
+	METHOD n_ hasCustomName ()Z

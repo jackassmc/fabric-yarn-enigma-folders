@@ -1,0 +1,25 @@
+CLASS ckr net/minecraft/fluid/Fluid
+	FIELD a defaultState Lcks;
+	FIELD c STATE_IDS Lfe;
+	FIELD d stateFactory Lbvd;
+	METHOD a getRenderLayer ()Lbgm;
+	METHOD a onScheduledTick (Lbha;Lev;Lcks;)V
+	METHOD a randomDisplayTick (Lbha;Lev;Lcks;Ljava/util/Random;)V
+	METHOD a getTickRate (Lbhd;)I
+	METHOD a appendProperties (Lbvd$a;)V
+	METHOD a matchesType (Lckr;)Z
+	METHOD a toBlockState (Lcks;)Lbvc;
+	METHOD a getHeight (Lcks;Lbgl;Lev;)F
+	METHOD a matches (Lza;)Z
+	METHOD b getBucketItem ()Lbbp;
+	METHOD b onRandomTick (Lbha;Lev;Lcks;Ljava/util/Random;)V
+	METHOD b isStill (Lcks;)Z
+	METHOD b getShape (Lcks;Lbgl;Lev;)Lcsi;
+	METHOD c isEmpty ()Z
+	METHOD c getLevel (Lcks;)I
+	METHOD d getBlastResistance ()F
+	METHOD e setDefaultState (Lcks;)V
+	METHOD h getStateFactory ()Lbvd;
+	METHOD i getDefaultState ()Lcks;
+	METHOD j getParticle ()Lgd;
+	METHOD k hasRandomTicks ()Z

@@ -1,0 +1,2 @@
+CLASS bul net/minecraft/world/gen/feature/GlowstoneBlobFeature
+	METHOD a generate (Lban;Lbqc;Ljava/util/Random;Les;Lbuf;)Z

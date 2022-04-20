@@ -1,0 +1,17 @@
+CLASS cec net/minecraft/fluid/LavaFluid
+	CLASS cec$a Flowing
+		METHOD a appendProperties (Lbon$a;)V
+		METHOD c isStill (Lcdz;)Z
+	CLASS cec$b Still
+		METHOD c isStill (Lcdz;)Z
+	METHOD a getRenderLayer ()Lbaf;
+	METHOD a matchesType (Lcdy;)Z
+	METHOD b getBucketItem ()Lavp;
+	METHOD b onRandomTick (Lbas;Let;Lcdz;Ljava/util/Random;)V
+	METHOD b toBlockState (Lcdz;)Lbom;
+	METHOD d getBlastResistance ()F
+	METHOD e getFlowing ()Lcdy;
+	METHOD f getStill ()Lcdy;
+	METHOD g ()Z
+	METHOD j getParticle ()Lft;
+	METHOD k hasRandomTicks ()Z

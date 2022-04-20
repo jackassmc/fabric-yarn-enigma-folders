@@ -1,0 +1,2 @@
+CLASS ccm net/minecraft/world/gen/surfacebuilder/ShatteredSavannaSurfaceBuilder
+	METHOD a generate (Ljava/util/Random;Lbpw;Lbbp;IIIDLboj;Lboj;IJLccp;)V

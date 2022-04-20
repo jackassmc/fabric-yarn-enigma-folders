@@ -1,0 +1,3 @@
+CLASS bkl net/minecraft/block/FurnaceBlock
+	METHOD <init> (Lbif$c;)V
+		ARG 1 settings

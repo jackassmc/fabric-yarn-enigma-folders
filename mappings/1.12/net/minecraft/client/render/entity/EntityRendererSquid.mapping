@@ -1,0 +1,6 @@
+CLASS cav net/minecraft/client/render/entity/EntityRendererSquid
+	FIELD a SKIN Lnd;
+	METHOD a getTexture (Laah;)Lnd;
+		ARG 0 model
+	METHOD a getTexture (Lve;)Lnd;
+		ARG 0 model

@@ -1,0 +1,16 @@
+CLASS aja net/minecraft/world/IBlockView
+	METHOD L getWorldGenerator ()Lajb;
+	METHOD a getEmittedStrongRedstonePower (Lcn;Lcu;)I
+		ARG 0 pos
+		ARG 1 facing
+	METHOD b getBiome (Lcn;)Lajj;
+		ARG 0 pos
+	METHOD b getCombinedLight (Lcn;I)I
+		ARG 0 pos
+		ARG 1 minBlockLight
+	METHOD d isAir (Lcn;)Z
+		ARG 0 pos
+	METHOD o getBlockState (Lcn;)Lasm;
+		ARG 0 pos
+	METHOD r getBlockEntity (Lcn;)Lare;
+		ARG 0 pos

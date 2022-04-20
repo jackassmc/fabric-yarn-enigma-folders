@@ -1,0 +1,23 @@
+CLASS aur net/minecraft/item/block/BlockItem
+	FIELD a block Lbgs;
+	METHOD a getTranslationKey ()Ljava/lang/String;
+	METHOD a place (Laus;)Lafq;
+	METHOD a setBlockState (Laus;Lbpm;)Z
+	METHOD a addStacksForDisplay (Lavg;Lfh;)V
+	METHOD a buildTooltip (Lawo;Lbbp;Ljava/util/List;Laxy;)V
+		ARG 1 stack
+		ARG 2 world
+		ARG 3 tooltip
+	METHOD a useOnBlock (Layb;)Lafq;
+	METHOD a deserializeBlockEntityTag (Lbbp;Larb;Let;Lawo;)Z
+		ARG 0 world
+		ARG 1 player
+		ARG 2 pos
+		ARG 3 stack
+	METHOD a afterBlockPlaced (Let;Lbbp;Larb;Lawo;Lbpm;)Z
+	METHOD a registerBlockItemMap (Ljava/util/Map;Lawj;)V
+		ARG 1 map
+	METHOD b getPlacementContext (Laus;)Laus;
+	METHOD b canPlace (Laus;Lbpm;)Z
+	METHOD c getBlockState (Laus;)Lbpm;
+	METHOD d getBlock ()Lbgs;

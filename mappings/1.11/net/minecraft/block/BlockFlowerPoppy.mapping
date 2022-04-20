@@ -1,0 +1,2 @@
+CLASS apw net/minecraft/block/BlockFlowerPoppy
+	METHOD e getBlockType ()Lanm$b;

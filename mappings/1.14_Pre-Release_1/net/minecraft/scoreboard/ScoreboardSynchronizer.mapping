@@ -1,0 +1,2 @@
+CLASS cni net/minecraft/scoreboard/ScoreboardSynchronizer
+	FIELD a compound Lcnj;

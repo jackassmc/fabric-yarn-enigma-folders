@@ -1,0 +1,5 @@
+CLASS bko net/minecraft/block/LogBlock
+	METHOD e getMaterialColor (Lbqe;Lbbr;Let;)Lcfx;
+		ARG 1 state
+		ARG 2 view
+		ARG 3 pos

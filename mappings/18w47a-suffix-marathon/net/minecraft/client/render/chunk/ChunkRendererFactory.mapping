@@ -1,0 +1,3 @@
+CLASS dek net/minecraft/client/render/chunk/ChunkRendererFactory
+	METHOD create (Lbam;Ldbu;)Ldej;
+		ARG 1 world

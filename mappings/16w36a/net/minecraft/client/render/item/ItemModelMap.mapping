@@ -1,0 +1,31 @@
+CLASS none/box net/minecraft/client/render/item/ItemModelMap
+	FIELD a modelIds Ljava/util/Map;
+	FIELD b models Ljava/util/Map;
+	FIELD c modelMappers Ljava/util/Map;
+	FIELD d blockModelManager Lnone/bzp;
+	METHOD <init> (Lnone/bzp;)V
+		ARG 0 blockModelManager
+	METHOD a getBlockModelManager ()Lnone/bzp;
+	METHOD a getSprite (Lnone/aep;)Lnone/bxd;
+		ARG 0 item
+	METHOD a getSprite (Lnone/aep;I)Lnone/bxd;
+		ARG 0 item
+		ARG 1 meta
+	METHOD a addModel (Lnone/aep;ILnone/bzq;)V
+		ARG 0 item
+		ARG 1 meta
+		ARG 2 id
+	METHOD a addMapper (Lnone/aep;Lnone/boy;)V
+		ARG 0 item
+		ARG 1 mapper
+	METHOD a getModel (Lnone/aer;)Lnone/bzl;
+		ARG 0 stack
+	METHOD b reloadModels ()V
+	METHOD b getModel (Lnone/aep;I)Lnone/bzl;
+		ARG 0 item
+		ARG 1 metadata
+	METHOD b getMetadata (Lnone/aer;)I
+		ARG 0 stack
+	METHOD c getItemMetaPair (Lnone/aep;I)I
+		ARG 0 item
+		ARG 1 metadata

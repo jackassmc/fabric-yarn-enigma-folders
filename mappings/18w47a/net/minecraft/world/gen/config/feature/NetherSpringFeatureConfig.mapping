@@ -1,0 +1,4 @@
+CLASS buq net/minecraft/world/gen/config/feature/NetherSpringFeatureConfig
+	FIELD a insideRock Z
+	METHOD a make (Lcom/mojang/datafixers/Dynamic;)Lbuq;
+		ARG 0 dynamic

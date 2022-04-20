@@ -1,0 +1,39 @@
+CLASS va net/minecraft/server/world/ServerChunkManager
+	FIELD a threadedAnvilChunkStorage Lup;
+	FIELD b CHUNKS_ELIGIBLE_FOR_SPAWNING I
+	FIELD c CHUNK_STATUSES Ljava/util/List;
+	FIELD d ticketManager Luv;
+	FIELD e chunkGenerator Lbvm;
+	FIELD f world Lvc;
+	FIELD g serverThread Ljava/lang/Thread;
+	FIELD h lightProvider Lvf;
+	FIELD j persistentStateManager Lcml;
+	FIELD k lastMobSpawningTime J
+	FIELD l spawnMonsters Z
+	FIELD m spawnAnimals Z
+	METHOD a getChunkHolder (J)Luo;
+		ARG 1 pos
+	METHOD a getDebugString (Lbfl;)Ljava/lang/String;
+		ARG 1 pos
+	METHOD a markForUpdate (Leu;)V
+	METHOD a addOrRemovePlayer (Lvd;)V
+	METHOD a addTicket (Lvh;Lbfl;ILjava/lang/Object;)V
+	METHOD a save (Z)V
+		ARG 1 flush
+	METHOD b getTotalChunksLoadedCount ()I
+	METHOD b getChunkSyncIfServerThread (IILbvq;Z)Ljava/util/concurrent/CompletableFuture;
+		ARG 1 chunkX
+		ARG 2 chunkZ
+		ARG 3 status
+		ARG 4 create
+	METHOD b removeTicket (Lvh;Lbfl;ILjava/lang/Object;)V
+	METHOD c applyViewDistance (II)V
+	METHOD c getChunkAsync (IILbvq;Z)Ljava/util/concurrent/CompletableFuture;
+		ARG 1 chunkX
+		ARG 2 chunkZ
+		ARG 3 status
+		ARG 4 create
+	METHOD g getLoadedChunkCount ()I
+	METHOD h getPersistentStateManager ()Lcml;
+	METHOD l update ()Z
+	METHOD m tickChunks ()V

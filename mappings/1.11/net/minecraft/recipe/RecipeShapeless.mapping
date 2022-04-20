@@ -1,0 +1,15 @@
+CLASS ahr net/minecraft/recipe/RecipeShapeless
+	FIELD a output Lafi;
+	FIELD b inputs Ljava/util/List;
+	METHOD <init> (Lafi;Ljava/util/List;)V
+		ARG 0 output
+		ARG 1 inputs
+	METHOD a getSize ()I
+	METHOD a craft (Lacr;)Lafi;
+		ARG 0 craftingInv
+	METHOD a matches (Lacr;Lajq;)Z
+		ARG 0 craftingInv
+		ARG 1 world
+	METHOD b getOutput ()Lafi;
+	METHOD b getRemainingStacks (Lacr;)Ldd;
+		ARG 0 craftingInv

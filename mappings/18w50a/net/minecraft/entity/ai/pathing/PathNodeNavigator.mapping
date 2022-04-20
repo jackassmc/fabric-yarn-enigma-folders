@@ -1,0 +1,15 @@
+CLASS chm net/minecraft/entity/ai/pathing/PathNodeNavigator
+	FIELD a minHeap Lchf;
+	METHOD a pathfind (Lbbb;Lahf;DDDF)Lchk;
+		ARG 1 blockView
+		ARG 2 entity
+		ARG 3 x
+		ARG 5 y
+	METHOD a pathfind (Lbbb;Lahf;Lagv;F)Lchk;
+		ARG 1 blockView
+		ARG 2 entity
+		ARG 3 target
+	METHOD a pathfind (Lbbb;Lahf;Let;F)Lchk;
+		ARG 1 blockView
+		ARG 2 entity
+		ARG 3 target

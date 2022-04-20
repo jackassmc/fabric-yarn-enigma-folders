@@ -1,0 +1,3 @@
+CLASS apt net/minecraft/entity/EntityInteraction
+	METHOD a create (Ljava/lang/String;)Lapt;
+		ARG 0 key

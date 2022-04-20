@@ -1,0 +1,4 @@
+CLASS dif net/minecraft/client/particle/SuspendParticle
+	CLASS dif$b DolphinFactory
+	CLASS dif$c HappyVillagerFactory
+	CLASS dif$d MyceliumFactory

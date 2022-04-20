@@ -1,0 +1,5 @@
+CLASS axr net/minecraft/recipe/AbstractRecipe
+	FIELD a id Lpy;
+	METHOD b getId ()Lpy;
+	METHOD c isIgnoredInRecipeBook ()Z
+	METHOD d getOutput ()Lavs;

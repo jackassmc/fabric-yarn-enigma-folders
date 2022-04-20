@@ -1,0 +1,6 @@
+CLASS bcr net/minecraft/block/BlockRenderLayer
+	FIELD a SOLID Lbcr;
+	FIELD b MIPPED_CUTOUT Lbcr;
+	FIELD c CUTOUT Lbcr;
+	FIELD d TRANSLUCENT Lbcr;
+	FIELD e name Ljava/lang/String;

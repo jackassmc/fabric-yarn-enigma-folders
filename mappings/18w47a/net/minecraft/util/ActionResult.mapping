@@ -1,0 +1,4 @@
+CLASS aez net/minecraft/util/ActionResult
+	FIELD a SUCCESS Laez;
+	FIELD b PASS Laez;
+	FIELD c FAILURE Laez;

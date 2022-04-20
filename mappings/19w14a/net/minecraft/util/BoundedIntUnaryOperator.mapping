@@ -1,0 +1,8 @@
+CLASS cnx net/minecraft/util/BoundedIntUnaryOperator
+	CLASS cnx$a Serializer
+	FIELD a min Ljava/lang/Integer;
+	FIELD b max Ljava/lang/Integer;
+	FIELD c operator Ljava/util/function/IntUnaryOperator;
+	METHOD a createMin (I)Lcnx;
+	METHOD a create (II)Lcnx;
+	METHOD b createMax (I)Lcnx;

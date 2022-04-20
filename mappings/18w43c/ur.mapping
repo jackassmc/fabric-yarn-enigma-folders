@@ -1,0 +1,4 @@
+CLASS ur
+	METHOD Z_ tick ()V
+	METHOD a onConnectionLost (Liw;)V
+		ARG 0 reason

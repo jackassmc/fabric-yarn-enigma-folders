@@ -1,0 +1,7 @@
+CLASS dnq net/minecraft/client/render/entity/feature/StrayOverlayFeatureRenderer
+	FIELD a SKIN Lqe;
+	FIELD b model Ldat;
+	METHOD <init> (Ldlf;)V
+		ARG 1 context
+	METHOD a render (Lahd;FFFFFFF)V
+	METHOD a render (Lahm;FFFFFFF)V

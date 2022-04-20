@@ -1,0 +1,49 @@
+CLASS csg net/minecraft/client/gui/ingame/EditBookGui
+	CLASS csg$1
+		METHOD a onPressed (DD)V
+			ARG 0 mouseX
+	CLASS csg$2
+		METHOD a onPressed (DD)V
+			ARG 0 mouseX
+	CLASS csg$3
+		METHOD a onPressed (DD)V
+			ARG 0 mouseX
+	CLASS csg$4
+		METHOD a onPressed (DD)V
+			ARG 0 mouseX
+	CLASS csg$5
+		METHOD a onPressed (DD)V
+			ARG 0 mouseX
+	CLASS csg$6
+		METHOD a onPressed (DD)V
+			ARG 0 mouseX
+	CLASS csg$7
+		METHOD a onPressed (DD)V
+			ARG 0 mouseX
+	CLASS csg$a
+		METHOD a draw (IIF)V
+			ARG 0 mouseX
+			ARG 1 mouseY
+			ARG 2 delta
+	FIELD a BG_TEX Lpy;
+	FIELD f player Laqg;
+	FIELD g stack Lavo;
+	FIELD w pageTag Lhv;
+	FIELD x title Ljava/lang/String;
+	METHOD <init> (Laqg;Lavo;ZLaey;)V
+		ARG 1 player
+		ARG 2 stack
+	METHOD a draw (IIF)V
+		ARG 1 mouseX
+		ARG 2 mouseY
+	METHOD c onInitialized ()V
+	METHOD charTyped (CI)Z
+		ARG 1 chr
+	METHOD d handleTextComponentClick (Lja;)Z
+	METHOD f update ()V
+	METHOD keyPressed (III)Z
+		ARG 1 keyCode
+		ARG 2 scanCode
+	METHOD mouseClicked (DDI)Z
+		ARG 1 mouseX
+	METHOD n onClosed ()V

@@ -1,0 +1,2 @@
+CLASS ya net/minecraft/stat/StatType
+	METHOD c getTranslationKey ()Ljava/lang/String;

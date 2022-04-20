@@ -1,0 +1,2 @@
+CLASS fv net/minecraft/network/encryption/PacketDecryptor
+	FIELD a manager Lfu;

@@ -1,0 +1,3 @@
+CLASS net/minecraft/class_2744 net/minecraft/network/packet/s2c/play/EntityEquipmentUpdateS2CPacket
+	FIELD field_12565 id I
+	METHOD method_11820 getId ()I

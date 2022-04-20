@@ -1,0 +1,17 @@
+CLASS dae net/minecraft/client/gui/screen/advancement/AdvancementTreeWidget
+	FIELD a client Lcvl;
+	FIELD c tabType Ldaf;
+	FIELD e rootAdvancement Lq;
+	FIELD j widgets Ljava/util/Map;
+	METHOD <init> (Lcvl;Ldai;Ldaf;ILq;Lz;)V
+		ARG 1 client
+		ARG 5 rootAdvancement
+	METHOD a drawIcon (IILdqe;)V
+		ARG 1 x
+		ARG 2 y
+	METHOD a drawBackground (IIZ)V
+		ARG 1 x
+		ARG 2 y
+	METHOD a create (Lcvl;Ldai;ILq;)Ldae;
+		ARG 0 minecraft
+	METHOD b getWidgetForAdvancement (Lq;)Ldag;

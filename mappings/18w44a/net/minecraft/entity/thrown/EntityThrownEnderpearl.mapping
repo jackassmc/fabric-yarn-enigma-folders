@@ -1,0 +1,7 @@
+CLASS aqm net/minecraft/entity/thrown/EntityThrownEnderpearl
+	FIELD e owner Lage;
+	METHOD S_ update ()V
+	METHOD a changeDimension (Lbqj;)Lafv;
+		ARG 1 dimension
+	METHOD a onCollision (Lcij;)V
+		ARG 1 hitResult

@@ -1,0 +1,79 @@
+CLASS daf net/minecraft/client/render/Renderer
+	FIELD A ticks I
+	FIELD B partiallyBrokenBlocks Ljava/util/Map;
+	FIELD D destroyStages [Ldjl;
+	FIELD E framebuffer Lckg;
+	FIELD W chunkBatcher Ldcq;
+	FIELD Y renderDistance I
+	FIELD aa totalEntities I
+	FIELD ab renderedEntities I
+	FIELD ah vertexBufferObjectsEnabled Z
+	FIELD ai chunkRendererFactory Ldcv;
+	FIELD b LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD c MOON_PHASES_TEX Lpw;
+	FIELD d SUN_TEX Lpw;
+	FIELD e CLOUDS_TEX Lpw;
+	FIELD f END_SKY_TEX Lpw;
+	FIELD g FORCEFIELD_TEX Lpw;
+	FIELD h game Lclx;
+	FIELD i textureManager Ldjm;
+	FIELD j entityRenderManager Lder;
+	FIELD k world Lcxj;
+	METHOD a renderSky (F)V
+	METHOD a markRegionForRenderUpdate (IIIZ)V
+	METHOD a onGlobalWorldEvent (ILes;I)V
+		ARG 1 eventId
+		ARG 2 pos
+	METHOD a onEntityAdded (Lafy;)V
+	METHOD a renderWorldBorder (Lafy;F)V
+		ARG 1 camera
+	METHOD a renderEntities (Lafy;Ldda;F)V
+		ARG 1 cameraEntity
+	METHOD a onWorldEvent (Lapv;ILes;I)V
+		ARG 1 player
+		ARG 2 eventId
+		ARG 3 pos
+	METHOD a onSound (Lapv;Lwz;Lxb;DDDFF)V
+		ARG 1 player
+		ARG 2 sound
+		ARG 3 category
+		ARG 4 x
+		ARG 6 y
+	METHOD a onBlockUpdate (Lazl;Les;Lbno;Lbno;I)V
+		ARG 1 world
+		ARG 2 pos
+		ARG 3 oldState
+		ARG 4 newState
+	METHOD a renderPartiallyBrokenBlocks (Lcll;Lcli;Lafy;F)V
+		ARG 1 tesselator
+		ARG 2 buffer
+		ARG 3 cameraEntity
+	METHOD a setWorld (Lcxj;)V
+	METHOD a (Lfs;DDDDDD)V
+		ARG 1 type
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z
+	METHOD a addParticle (Lfs;ZDDDDDD)V
+		ARG 2 ignoreCameraBounds
+		ARG 3 x
+		ARG 5 y
+		ARG 7 z
+	METHOD a addParticle (Lfs;ZZDDDDDD)V
+	METHOD a onResourceReload (Lvw;)V
+	METHOD b onBlockBreakingStage (ILes;I)V
+		ARG 1 entityId
+		ARG 2 pos
+	METHOD b onEntityRemoved (Lafy;)V
+	METHOD b spawnParticle (Lfs;ZDDDDDD)Lcyp;
+		ARG 2 ignoreCameraBounds
+		ARG 3 x
+		ARG 5 y
+		ARG 7 z
+	METHOD b spawnParticle (Lfs;ZZDDDDDD)Lcyp;
+	METHOD c drawFramebuffer ()V
+	METHOD g getChunkNumber ()I
+	METHOD h getEntitiesDebugString ()Ljava/lang/String;
+	METHOD k tick ()V
+	METHOD o loadDestroyStageTextures ()V
+	METHOD s renderEndSky ()V

@@ -1,0 +1,20 @@
+CLASS cki net/minecraft/world/loot/entry/LootEntry
+	CLASS cki$a Builder
+		FIELD a children Ljava/util/List;
+		METHOD a withChild (Lcki$a;)Lcjz$a;
+		METHOD a withCondition (Lcmc$a;)Lcki$a;
+		METHOD b build ()Lcki;
+		METHOD d getThisBuilder ()Lcki$a;
+		METHOD e getThis ()Lcki$a;
+		METHOD f getConditions ()[Lcmc;
+	CLASS cki$b Serializer
+		FIELD a id Lqd;
+		FIELD b type Ljava/lang/Class;
+		METHOD a getIdentifier ()Lqd;
+		METHOD a toJson (Lcom/google/gson/JsonObject;Lcki;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD b getType ()Ljava/lang/Class;
+		METHOD b fromJson (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;[Lcmc;)Lcki;
+	FIELD c conditionPredicate Ljava/util/function/Predicate;
+	FIELD d conditions [Lcmc;
+	METHOD a test (Lcjq;)Z
+	METHOD a check (Lcju;Ljava/util/function/Function;Ljava/util/Set;Lclp;)V

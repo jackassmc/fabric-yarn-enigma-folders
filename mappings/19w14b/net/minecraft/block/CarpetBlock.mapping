@@ -1,0 +1,4 @@
+CLASS bss net/minecraft/block/CarpetBlock
+	FIELD a SHAPE Lcsf;
+	FIELD b color Lbao;
+	METHOD d getColor ()Lbao;

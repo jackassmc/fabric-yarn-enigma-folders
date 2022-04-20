@@ -1,0 +1,16 @@
+CLASS blq net/minecraft/block/PoweredRailBlock
+	FIELD c RAIL_SHAPE Lbrn;
+	FIELD d POWERED Lbrh;
+	METHOD <init> (Lbhs$c;)V
+		ARG 1 settings
+	METHOD a isPoweredByOtherRails (Lbcq;Let;Lbqp;ZI)Z
+		ARG 1 world
+		ARG 2 pos
+		ARG 3 state
+		ARG 4 boolean4
+		ARG 5 distance
+	METHOD a isPoweredByOtherRails (Lbcq;Let;ZILbrt;)Z
+		ARG 1 world
+		ARG 2 pos
+		ARG 4 distance
+		ARG 5 shape

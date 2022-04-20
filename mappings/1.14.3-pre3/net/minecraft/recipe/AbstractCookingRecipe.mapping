@@ -1,0 +1,12 @@
+CLASS bdy net/minecraft/recipe/AbstractCookingRecipe
+	FIELD a type Lbep;
+	FIELD b id Lqt;
+	FIELD c group Ljava/lang/String;
+	FIELD d input Lbej;
+	FIELD e output Lbce;
+	FIELD f experience F
+	FIELD g cookTime I
+	METHOD <init> (Lbep;Lqt;Ljava/lang/String;Lbej;Lbce;FI)V
+		ARG 1 type
+	METHOD b getExperience ()F
+	METHOD e getCookTime ()I

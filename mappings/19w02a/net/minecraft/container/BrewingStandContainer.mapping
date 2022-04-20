@@ -1,0 +1,34 @@
+CLASS atk net/minecraft/container/BrewingStandContainer
+	CLASS atk$a SlotFuel
+		METHOD <init> (Lafs;III)V
+			ARG 1 invSlot
+			ARG 2 xPosition
+			ARG 3 <Position
+		METHOD a getMaxStackAmount ()I
+		METHOD a canInsert (Laxd;)Z
+		METHOD b_ matches (Laxd;)Z
+	CLASS atk$b SlotIngredient
+		METHOD <init> (Lafs;III)V
+			ARG 1 invSlot
+			ARG 2 xPosition
+			ARG 3 <Position
+		METHOD a getMaxStackAmount ()I
+		METHOD a canInsert (Laxd;)Z
+	CLASS atk$c SlotPotion
+		METHOD <init> (Lafs;III)V
+			ARG 1 invSlot
+			ARG 2 xPosition
+			ARG 3 <Position
+		METHOD a getMaxStackAmount ()I
+		METHOD a onTakeItem (Lark;Laxd;)Laxd;
+			ARG 1 stack
+		METHOD a canInsert (Laxd;)Z
+		METHOD c_ matches (Laxd;)Z
+	FIELD a inventory Lafs;
+	FIELD d propertyDelegate Lato;
+	FIELD e slotIngredient Laus;
+	METHOD a getType ()Laug;
+	METHOD a canUse (Lark;)Z
+	METHOD b transferSlot (Lark;I)Laxd;
+		ARG 1 player
+		ARG 2 invSlot

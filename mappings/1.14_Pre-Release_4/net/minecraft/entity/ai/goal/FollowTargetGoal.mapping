@@ -1,0 +1,21 @@
+CLASS aop net/minecraft/entity/ai/goal/FollowTargetGoal
+	FIELD a targetClass Ljava/lang/Class;
+	FIELD b reciprocalChance I
+	FIELD c targetEntity Lain;
+	FIELD d targetPredicate Lapy;
+	METHOD <init> (Laio;Ljava/lang/Class;IZZLjava/util/function/Predicate;)V
+		ARG 2 targetEntityClass
+		ARG 3 reciprocalChance
+		ARG 4 checkVisibility
+		ARG 5 checkCanNavigate
+		ARG 6 targetPredicate
+	METHOD <init> (Laio;Ljava/lang/Class;Z)V
+		ARG 2 targetEntityClass
+		ARG 3 checkVisibility
+	METHOD <init> (Laio;Ljava/lang/Class;ZZ)V
+		ARG 2 targetEntityClass
+		ARG 3 checkVisibility
+		ARG 4 checkCanNavigate
+	METHOD a getSearchBox (D)Lcro;
+		ARG 1 distance
+	METHOD g findClosestTarget ()V

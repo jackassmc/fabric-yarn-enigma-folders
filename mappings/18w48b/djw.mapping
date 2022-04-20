@@ -1,0 +1,3 @@
+CLASS djw
+	METHOD a shouldMergeTextures ()Z
+	METHOD a render (Lagr;FFFFFFF)V

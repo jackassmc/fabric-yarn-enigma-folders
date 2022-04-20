@@ -1,0 +1,20 @@
+CLASS cfs net/minecraft/world/chunk/light/LightingProvider
+	FIELD a blockLightProvider Lcfp;
+	FIELD b skyLightProvider Lcfp;
+	METHOD <init> (Lbsr;ZZ)V
+		ARG 1 chunkProvider
+		ARG 2 hasBlockLight
+		ARG 3 hasSkyLight
+	METHOD a doLightUpdates (IZZ)I
+		ARG 1 maxUpdateCount
+	METHOD a get (Lbda;)Lcfq;
+	METHOD a setSection (Lbda;IIILbsj;)V
+		ARG 1 lightType
+		ARG 2 chunkX
+		ARG 3 sectionY
+		ARG 4 sectionZ
+		ARG 5 data
+	METHOD a enqueueLightUpdate (Let;)V
+		ARG 1 pos
+	METHOD a (Let;I)V
+		ARG 1 pos

@@ -1,0 +1,21 @@
+CLASS buu net/minecraft/block/entity/PistonBlockEntity
+	FIELD a pushedBlock Lbuy;
+	FIELD b facing Lfa;
+	FIELD c extending Z
+	FIELD g source Z
+	FIELD i nextProgress F
+	FIELD j progress F
+	FIELD k savedWorldTime J
+	METHOD <init> (Lbuy;Lfa;ZZ)V
+		ARG 1 pushedBlock
+		ARG 2 facing
+		ARG 3 extending
+	METHOD a getProgress (F)F
+	METHOD b getRenderOffsetX (F)F
+	METHOD c isExtending ()Z
+	METHOD c getRenderOffsetY (F)F
+	METHOD d getFacing ()Lfa;
+	METHOD d getRenderOffsetZ (F)F
+	METHOD f isSource ()Z
+	METHOD s getPushedBlock ()Lbuy;
+	METHOD u getSavedWorldTime ()J

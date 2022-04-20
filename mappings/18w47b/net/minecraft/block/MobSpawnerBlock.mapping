@@ -1,0 +1,8 @@
+CLASS bkq net/minecraft/block/MobSpawnerBlock
+	METHOD a createBlockEntity (Lazz;)Lbmk;
+	METHOD a getPickStack (Lazz;Let;Lboh;)Lavo;
+		ARG 1 world
+		ARG 2 pos
+	METHOD a onStacksDropped (Lboh;Lban;Let;Lavo;)V
+	METHOD b getRenderType (Lboh;)Lbju;
+	METHOD c getRenderLayer ()Lbaa;

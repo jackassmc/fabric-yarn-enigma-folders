@@ -1,0 +1,11 @@
+CLASS ui net/minecraft/entity/boss/ServerBossBar
+	FIELD j visible Z
+	METHOD a setPercent (F)V
+	METHOD a setColor (Laeu$a;)V
+	METHOD a setOverlay (Laeu$b;)V
+	METHOD a setName (Ljb;)V
+	METHOD a setDarkenSky (Z)Laeu;
+	METHOD b setDragonMusic (Z)Laeu;
+	METHOD c setThickenFog (Z)Laeu;
+	METHOD d setVisible (Z)V
+		ARG 1 visible

@@ -1,0 +1,7 @@
+CLASS coz net/minecraft/world/loot/function/SetStewEffectLootFunction
+	CLASS coz$a Builder
+		FIELD a map Ljava/util/Map;
+		METHOD a withEffect (Lahq;Lcnm;)Lcoz$a;
+	CLASS coz$b Factory
+	FIELD a effects Ljava/util/Map;
+	METHOD b create ()Lcoz$a;

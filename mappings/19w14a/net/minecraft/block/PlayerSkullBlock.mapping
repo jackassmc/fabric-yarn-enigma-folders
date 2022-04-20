@@ -1,0 +1,3 @@
+CLASS bpu net/minecraft/block/PlayerSkullBlock
+	METHOD <init> (Lbma$c;)V
+		ARG 1 settings

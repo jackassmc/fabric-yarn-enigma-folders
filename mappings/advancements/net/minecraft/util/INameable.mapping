@@ -1,0 +1,4 @@
+CLASS td net/minecraft/util/INameable
+	METHOD h_ getName ()Ljava/lang/String;
+	METHOD i_ getNameAsComponent ()Lgk;
+	METHOD n_ hasCustomName ()Z

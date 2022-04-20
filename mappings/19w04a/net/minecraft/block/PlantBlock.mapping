@@ -1,0 +1,7 @@
+CLASS bht net/minecraft/block/PlantBlock
+	METHOD <init> (Lbhn$c;)V
+		ARG 1 settings
+	METHOD a canPlantOnTop (Lbqk;Lbbw;Let;)Z
+		ARG 1 floor
+		ARG 2 view
+		ARG 3 pos

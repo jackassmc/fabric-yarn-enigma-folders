@@ -1,0 +1,6 @@
+CLASS none/bba net/minecraft/world/IPlayerSaveHandler
+	METHOD a savePlayerData (Lnone/aal;)V
+		ARG 0 player
+	METHOD b loadPlayerData (Lnone/aal;)Lnone/dt;
+		ARG 0 player
+	METHOD f getSavedPlayerIds ()[Ljava/lang/String;

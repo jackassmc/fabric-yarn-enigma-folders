@@ -1,0 +1,17 @@
+CLASS avq net/minecraft/item/ArmorMaterials
+	FIELD g BASE_DURABILITY [I
+	FIELD h name Ljava/lang/String;
+	FIELD i durabilityMultiplier I
+	FIELD j protectionAmounts [I
+	FIELD k enchantability I
+	FIELD l equipSound Lxy;
+	FIELD m toughness F
+	FIELD n repairIngredientSupplier Lze;
+	METHOD <init> (Ljava/lang/String;ILjava/lang/String;I[IILxy;FLjava/util/function/Supplier;)V
+		ARG 3 name
+		ARG 4 durabilityMultiplier
+		ARG 5 protectionAmounts
+		ARG 6 enchantability
+		ARG 7 equipSound
+		ARG 8 toughness
+		ARG 9 ingredientSupplier

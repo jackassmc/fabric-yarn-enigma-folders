@@ -1,0 +1,14 @@
+CLASS cpi net/minecraft/client/toast/ToastManager
+	CLASS cpi$a Entry
+		FIELD b instance Lcph;
+		METHOD <init> (Lcpi;Lcph;)V
+			ARG 1 instance
+		METHOD a getInstance ()Lcph;
+		METHOD a draw (II)Z
+	FIELD a game Lcnd;
+	FIELD f visibleEntries [Lcpi$a;
+	FIELD g toastQueue Ljava/util/Deque;
+	METHOD a draw ()V
+	METHOD a add (Lcph;)V
+	METHOD b clear ()V
+	METHOD c getGame ()Lcnd;

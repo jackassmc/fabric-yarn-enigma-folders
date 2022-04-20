@@ -1,0 +1,2 @@
+CLASS ahj net/minecraft/container/NameableContainerProvider
+	METHOD d getDisplayName ()Ljn;

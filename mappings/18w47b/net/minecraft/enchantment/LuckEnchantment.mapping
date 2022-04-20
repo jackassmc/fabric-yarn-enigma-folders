@@ -1,0 +1,6 @@
+CLASS ayz net/minecraft/enchantment/LuckEnchantment
+	METHOD <init> (Layq$a;Layr;[Lagk;)V
+		ARG 1 weight
+		ARG 2 type
+	METHOD a getHighestLevel ()I
+	METHOD a differs (Layq;)Z

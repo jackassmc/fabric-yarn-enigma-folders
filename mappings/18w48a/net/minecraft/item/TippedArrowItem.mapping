@@ -1,0 +1,13 @@
+CLASS axb net/minecraft/item/TippedArrowItem
+	METHOD <init> (Lavn$a;)V
+		ARG 1 builder
+	METHOD a addStacksForDisplay (Lauj;Lfh;)V
+	METHOD a addInformation (Lavs;Lbaq;Ljava/util/List;Laxc;)V
+		ARG 1 stack
+		ARG 2 world
+		ARG 3 tooltip
+	METHOD a createEntityArrow (Lbaq;Lavs;Lagr;)Laqn;
+		ARG 1 world
+		ARG 2 stack
+	METHOD h getTranslationKey (Lavs;)Ljava/lang/String;
+	METHOD r getDefaultStack ()Lavs;

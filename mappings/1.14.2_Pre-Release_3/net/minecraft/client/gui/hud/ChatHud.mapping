@@ -1,0 +1,28 @@
+CLASS cwr net/minecraft/client/gui/hud/ChatHud
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD b client Lcvk;
+	FIELD d messages Ljava/util/List;
+	FIELD e visibleMessages Ljava/util/List;
+	METHOD <init> (Lcvk;)V
+		ARG 1 client
+	METHOD a reset ()V
+	METHOD a getTextComponentAt (DD)Ljm;
+		ARG 1 x
+		ARG 3 y
+	METHOD a draw (I)V
+	METHOD a addMessage (Ljm;)V
+		ARG 1 message
+	METHOD a addMessage (Ljm;I)V
+		ARG 1 message
+	METHOD a addMessage (Ljm;IIZ)V
+	METHOD a clear (Z)V
+	METHOD b getWidth (D)I
+		ARG 0 widthOption
+	METHOD b removeMessage (I)V
+	METHOD c getHeight (D)I
+		ARG 0 heightOption
+	METHOD d isChatFocused ()Z
+	METHOD e getWidth ()I
+	METHOD f getHeight ()I
+	METHOD g getScale ()D
+	METHOD h getVisibleLineCount ()I

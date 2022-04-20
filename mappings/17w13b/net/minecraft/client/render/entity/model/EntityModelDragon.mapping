@@ -1,0 +1,28 @@
+CLASS bpw net/minecraft/client/render/entity/model/EntityModelDragon
+	FIELD a head Lbqb;
+	FIELD b neck Lbqb;
+	FIELD c jaw Lbqb;
+	FIELD d body Lbqb;
+	FIELD e rearLeg Lbqb;
+	FIELD f frontLeg Lbqb;
+	FIELD g rearLegTip Lbqb;
+	FIELD h frontLegTip Lbqb;
+	FIELD i rearFoot Lbqb;
+	FIELD j frontFoot Lbqb;
+	FIELD k wing Lbqb;
+	FIELD l wingTip Lbqb;
+	FIELD m partialTicks F
+	METHOD a updateRotations (D)F
+	METHOD a render (Lub;FFFFFF)V
+		ARG 0 entity
+		ARG 1 limbMoveAngle
+		ARG 2 limbMoveAmount
+		ARG 3 age
+		ARG 4 headYaw
+		ARG 5 headPitch
+		ARG 6 scale
+	METHOD a animateModel (Luk;FFF)V
+		ARG 0 entity
+		ARG 1 swingAmount
+		ARG 2 swingDelta
+		ARG 3 deltaTicks

@@ -1,0 +1,3 @@
+CLASS dkf net/minecraft/client/render/entity/PillagerEntityRenderer
+	METHOD a getTexture (Lagv;)Lqc;
+	METHOD a getTexture (Lapy;)Lqc;

@@ -1,0 +1,4 @@
+CLASS dsc net/minecraft/client/render/entity/feature/ElytraFeatureRenderer
+	FIELD a SKIN Lqs;
+	METHOD <init> (Ldqk;)V
+		ARG 1 context

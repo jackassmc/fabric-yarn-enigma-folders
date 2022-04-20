@@ -1,0 +1,14 @@
+CLASS cpc net/minecraft/client/toast/ToastManager
+	CLASS cpc$a Entry
+		FIELD b instance Lcpb;
+		METHOD <init> (Lcpc;Lcpb;)V
+			ARG 1 instance
+		METHOD a getInstance ()Lcpb;
+		METHOD a draw (II)Z
+	FIELD a game Lcmx;
+	FIELD f visibleEntries [Lcpc$a;
+	FIELD g toastQueue Ljava/util/Deque;
+	METHOD a draw ()V
+	METHOD a add (Lcpb;)V
+	METHOD b clear ()V
+	METHOD c getGame ()Lcmx;

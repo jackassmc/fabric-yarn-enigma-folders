@@ -1,0 +1,9 @@
+CLASS ckm net/minecraft/fluid/Fluids
+	FIELD a EMPTY Lckj;
+	FIELD b FLOWING_WATER Lcki;
+	FIELD c WATER Lcki;
+	FIELD d FLOWING_LAVA Lcki;
+	FIELD e LAVA Lcki;
+	METHOD a register (Ljava/lang/String;Lckj;)Lckj;
+		ARG 0 id
+		ARG 1 value

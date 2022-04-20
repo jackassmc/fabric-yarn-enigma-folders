@@ -1,0 +1,16 @@
+CLASS agq net/minecraft/entity/EntityCategory
+	FIELD a MONSTER Lagq;
+	FIELD b CREATURE Lagq;
+	FIELD c AMBIENT Lagq;
+	FIELD d WATER_CREATURE Lagq;
+	FIELD e BY_NAME Ljava/util/Map;
+	FIELD f entityClass Ljava/lang/Class;
+	FIELD g spawnCap I
+	FIELD h peaceful Z
+	FIELD i animal Z
+	FIELD j name Ljava/lang/String;
+	METHOD a getName ()Ljava/lang/String;
+	METHOD b getEntityClass ()Ljava/lang/Class;
+	METHOD c getSpawnCap ()I
+	METHOD d isPeaceful ()Z
+	METHOD e isAnimal ()Z

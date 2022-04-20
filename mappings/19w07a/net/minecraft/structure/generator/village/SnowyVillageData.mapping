@@ -1,0 +1,2 @@
+CLASS bzp net/minecraft/structure/generator/village/SnowyVillageData
+	METHOD a initialize ()V

@@ -1,0 +1,6 @@
+CLASS ahr net/minecraft/entity/EntityGroup
+	FIELD a DEFAULT Lahr;
+	FIELD b UNDEAD Lahr;
+	FIELD c ARTHROPOD Lahr;
+	FIELD d ILLAGER Lahr;
+	FIELD e AQUATIC Lahr;

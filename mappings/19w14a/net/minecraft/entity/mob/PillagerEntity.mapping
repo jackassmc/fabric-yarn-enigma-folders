@@ -1,0 +1,6 @@
+CLASS aud net/minecraft/entity/mob/PillagerEntity
+	FIELD b CHARGING Lqg;
+	FIELD bz inventory Lagz;
+	METHOD a getProjectileVelocity (Lcri;F)Lb;
+	METHOD dU isCharging ()Z
+	METHOD ed getInventory ()Lagz;

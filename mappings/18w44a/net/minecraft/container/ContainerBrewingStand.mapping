@@ -1,0 +1,49 @@
+CLASS arl net/minecraft/container/ContainerBrewingStand
+	CLASS arl$a SlotFuel
+		METHOD <init> (Laei;III)V
+			ARG 0 inventory
+			ARG 1 invSlot
+			ARG 2 xPosition
+			ARG 3 <Position
+		METHOD a getMaxStackAmount ()I
+		METHOD a canInsert (Lauv;)Z
+			ARG 0 stack
+		METHOD b_ matches (Lauv;)Z
+	CLASS arl$b SlotIngredient
+		METHOD <init> (Laei;III)V
+			ARG 0 inventory
+			ARG 1 invSlot
+			ARG 2 xPosition
+			ARG 3 <Position
+		METHOD a getMaxStackAmount ()I
+		METHOD a canInsert (Lauv;)Z
+			ARG 0 stack
+	CLASS arl$c SlotPotion
+		METHOD <init> (Laei;III)V
+			ARG 0 inventory
+			ARG 1 invSlot
+			ARG 2 xPosition
+			ARG 3 <Position
+		METHOD a getMaxStackAmount ()I
+		METHOD a onTakeItem (Lapr;Lauv;)Lauv;
+			ARG 0 player
+			ARG 1 stack
+		METHOD a canInsert (Lauv;)Z
+			ARG 0 stack
+		METHOD c_ matches (Lauv;)Z
+	FIELD a inventory Laei;
+	FIELD f slotIngredient Lasl;
+	METHOD <init> (Lapq;Laei;)V
+		ARG 1 playerInv
+		ARG 2 inventory
+	METHOD a canUse (Lapr;)Z
+		ARG 1 player
+	METHOD a addListener (Laro;)V
+		ARG 1 listener
+	METHOD b sendContentUpdates ()V
+	METHOD b setProperty (II)V
+		ARG 1 pos
+		ARG 2 value
+	METHOD b getStack (Lapr;I)Lauv;
+		ARG 1 player
+		ARG 2 slot

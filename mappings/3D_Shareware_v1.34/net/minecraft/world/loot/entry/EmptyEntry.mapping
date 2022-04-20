@@ -1,0 +1,3 @@
+CLASS com net/minecraft/world/loot/entry/EmptyEntry
+	CLASS com$a Serializer
+	METHOD a Serializer ()Lcot$a;

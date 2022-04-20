@@ -1,0 +1,23 @@
+CLASS aqg net/minecraft/entity/mob/PigZombieEntity
+	CLASS aqg$a
+		METHOD a canStart ()Z
+	FIELD bE anger I
+	FIELD bG angerTarget Ljava/util/UUID;
+	METHOD D getAmbientSound ()Lxt;
+	METHOD I mobTick ()V
+	METHOD a initEquipment (Lafx;)V
+	METHOD a damage (Lagm;F)Z
+		ARG 1 source
+		ARG 2 amount
+	METHOD a copyEntityData (Lahd;)V
+	METHOD a setAttacker (Lahm;)V
+	METHOD a interactMob (Lark;Lafy;)Z
+		ARG 1 player
+	METHOD a canSpawn (Lbcg;Lahp;)Z
+	METHOD a readCustomDataFromTag (Lhs;)V
+	METHOD b writeCustomDataToTag (Lhs;)V
+	METHOD cb initAttributes ()V
+	METHOD cw getDeathSound ()Lxt;
+	METHOD dE getSkull ()Laxd;
+	METHOD e getHurtSound (Lagm;)Lxt;
+	METHOD l ()V

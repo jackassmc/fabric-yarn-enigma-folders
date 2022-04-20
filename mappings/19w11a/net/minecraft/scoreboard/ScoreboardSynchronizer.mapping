@@ -1,0 +1,2 @@
+CLASS cmb net/minecraft/scoreboard/ScoreboardSynchronizer
+	FIELD a compound Lcmc;

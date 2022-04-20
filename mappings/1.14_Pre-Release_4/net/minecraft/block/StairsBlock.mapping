@@ -1,0 +1,13 @@
+CLASS brs net/minecraft/block/StairsBlock
+	FIELD C baseBlock Lbmj;
+	FIELD D baseBlockState Lbvh;
+	FIELD a FACING Lbwc;
+	FIELD b HALF Lbwf;
+	FIELD c SHAPE Lbwf;
+	FIELD d WATERLOGGED Lbvz;
+	FIELD e TOP_SHAPE Lcsn;
+	FIELD f BOTTOM_SHAPE Lcsn;
+	METHOD j isStairs (Lbvh;)Z
+		ARG 0 state
+	METHOD n (Lbvh;)Z
+		ARG 1 state

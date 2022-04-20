@@ -1,0 +1,4 @@
+CLASS beq net/minecraft/enchantment/ThornsEnchantment
+	METHOD <init> (Lbea$a;[Laib;)V
+		ARG 1 weight
+		ARG 2 slotTypes

@@ -1,0 +1,2 @@
+CLASS deh net/minecraft/client/render/entity/EntityRendererEntity
+	METHOD a getTexture (Lafy;)Lpw;

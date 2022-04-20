@@ -1,0 +1,22 @@
+CLASS akt net/minecraft/entity/passive/EntityFish
+	CLASS akt$a
+		METHOD a tick ()V
+	CLASS akt$b
+		METHOD a canStart ()Z
+	METHOD N getLimitPerChunk ()I
+	METHOD a interactMob (Lapr;Laeo;)Z
+		ARG 1 player
+		ARG 2 playerHand
+	METHOD a deserializeCustomData (Lhm;)V
+		ARG 1 tag
+	METHOD af getSoundSwim ()Lww;
+	METHOD b createNavigation (Lazt;)Lakc;
+		ARG 1 world
+	METHOD b serializeCustomData (Lhm;)V
+		ARG 1 tag
+	METHOD bH getEyeHeight ()F
+	METHOD cb initAttributes ()V
+	METHOD dl isPersistent ()Z
+	METHOD k updateMovement ()V
+	METHOD n initAi ()V
+	METHOD y_ initDataTracker ()V

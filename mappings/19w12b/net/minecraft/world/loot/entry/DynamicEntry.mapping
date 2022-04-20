@@ -1,0 +1,5 @@
+CLASS cnq net/minecraft/world/loot/entry/DynamicEntry
+	CLASS cnq$a Serializer
+	FIELD c instance Lqq;
+	FIELD h name Lqq;
+	METHOD a create (Lqq;)Lcnx$a;

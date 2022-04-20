@@ -1,0 +1,37 @@
+CLASS dgq net/minecraft/client/network/ClientPlayNetworkHandler
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD b connection Lja;
+	FIELD c profile Lcom/mojang/authlib/GameProfile;
+	FIELD d loginScreen Lcyz;
+	FIELD e client Lcus;
+	FIELD f world Ldgt;
+	FIELD h scoreboardEntries Ljava/util/Map;
+	FIELD i advancementHandler Ldgn;
+	FIELD j commandSource Ldgr;
+	FIELD k tagManager Lzb;
+	FIELD l queryHandler Lcum;
+	FIELD m chunkLoadDistance I
+	FIELD n random Ljava/util/Random;
+	FIELD o commandDispatcher Lcom/mojang/brigadier/CommandDispatcher;
+	FIELD p recipeManager Lbdy;
+	FIELD q sessionId Ljava/util/UUID;
+	METHOD <init> (Lcus;Lcyz;Lja;Lcom/mojang/authlib/GameProfile;)V
+		ARG 1 client
+	METHOD a getClientConnection ()Lja;
+	METHOD a getScoreboardEntry (Ljava/lang/String;)Ldgu;
+		ARG 1 profileName
+	METHOD a getScoreboardEntry (Ljava/util/UUID;)Ldgu;
+		ARG 1 uuid
+	METHOD a sendPacket (Lka;)V
+	METHOD a sendResourcePackStatus (Lot$a;)V
+	METHOD b getCommandSource ()Ldgr;
+	METHOD b validateResourcePackUrl (Ljava/lang/String;)Z
+	METHOD d getRecipeManager ()Lbdy;
+	METHOD e getScoreboardEntries ()Ljava/util/Collection;
+	METHOD f getProfile ()Lcom/mojang/authlib/GameProfile;
+	METHOD g getAdvancementHandler ()Ldgn;
+	METHOD h getCommandDispatcher ()Lcom/mojang/brigadier/CommandDispatcher;
+	METHOD i getWorld ()Ldgt;
+	METHOD j getTagManager ()Lzb;
+	METHOD k getQueryHandler ()Lcum;
+	METHOD l getSessionId ()Ljava/util/UUID;

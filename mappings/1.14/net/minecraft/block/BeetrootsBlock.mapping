@@ -1,0 +1,5 @@
+CLASS bmi net/minecraft/block/BeetrootsBlock
+	FIELD a AGE Lbwj;
+	FIELD c AGE_TO_SHAPE [Lcsp;
+	METHOD <init> (Lbml$c;)V
+		ARG 1 settings

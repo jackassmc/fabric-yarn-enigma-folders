@@ -1,0 +1,15 @@
+CLASS dcu net/minecraft/client/render/chunk/ChunkRenderer
+	FIELD a chunkUpdateCount I
+	FIELD b chunkRenderData Ldcs;
+	FIELD c boundingBox Lcio;
+	FIELD d world Lazy;
+	FIELD e renderer Ldaf;
+	FIELD f chunkRenderLock Ljava/util/concurrent/locks/ReentrantLock;
+	FIELD h chunkRenderDataTask Ldcp;
+	FIELD i blockEntities Ljava/util/Set;
+	FIELD k buffers [Lclm;
+	METHOD a markRenderUpdate (Z)V
+	METHOD d getChunkRenderLock ()Ljava/util/concurrent/locks/ReentrantLock;
+	METHOD g distanceToPlayerSquared ()D
+	METHOD i getChunkRenderData ()Ldcs;
+	METHOD p getWorld ()Lazy;

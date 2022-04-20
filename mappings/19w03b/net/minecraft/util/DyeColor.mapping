@@ -1,0 +1,42 @@
+CLASS avz net/minecraft/util/DyeColor
+	FIELD a WHITE Lavz;
+	FIELD b ORANGE Lavz;
+	FIELD c MAGENTA Lavz;
+	FIELD d LIGHT_BLUE Lavz;
+	FIELD e YELLOW Lavz;
+	FIELD f LIME Lavz;
+	FIELD g PINK Lavz;
+	FIELD h GRAY Lavz;
+	FIELD i LIGHT_GRAY Lavz;
+	FIELD j CYAN Lavz;
+	FIELD k PURPLE Lavz;
+	FIELD l BLUE Lavz;
+	FIELD m BROWN Lavz;
+	FIELD n GREEN Lavz;
+	FIELD o RED Lavz;
+	FIELD p BLACK Lavz;
+	FIELD q VALUES [Lavz;
+	FIELD r BY_FIREWORK_COLOR Lit/unimi/dsi/fastutil/ints/Int2ObjectOpenHashMap;
+	FIELD s id I
+	FIELD t name Ljava/lang/String;
+	FIELD u materialColor Lcgb;
+	FIELD v color I
+	FIELD w colorSwapped I
+	FIELD x colorComponents [F
+	FIELD y fireworkColor I
+	METHOD <init> (Ljava/lang/String;IILjava/lang/String;ILcgb;II)V
+		ARG 3 woolId
+		ARG 4 name
+		ARG 5 color
+		ARG 6 materialColor
+	METHOD a getId ()I
+	METHOD a byId (I)Lavz;
+		ARG 0 id
+	METHOD a byName (Ljava/lang/String;Lavz;)Lavz;
+	METHOD b getName ()Ljava/lang/String;
+	METHOD b byFireworkColor (I)Lavz;
+	METHOD c getColorSwapped ()I
+	METHOD d getColorComponents ()[F
+	METHOD e getMaterialColor ()Lcgb;
+	METHOD f getFireworkColor ()I
+	METHOD m asString ()Ljava/lang/String;

@@ -1,0 +1,4 @@
+CLASS bbp net/minecraft/enchantment/KnockbackEnchantment
+	METHOD <init> (Lbbh$a;[Lahr;)V
+		ARG 1 weight
+		ARG 2 slot

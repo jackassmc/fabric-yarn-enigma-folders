@@ -1,0 +1,4 @@
+CLASS auc net/minecraft/container/LecternContainer
+	FIELD c inventory Lafq;
+	FIELD d propertyDelegate Latn;
+	METHOD e getBookItem ()Laxd;

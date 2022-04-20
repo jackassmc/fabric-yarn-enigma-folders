@@ -1,0 +1,3 @@
+CLASS djr net/minecraft/client/render/entity/LayerEntityRenderer
+	METHOD a shouldMergeTextures ()Z
+	METHOD a render (Lago;FFFFFFF)V

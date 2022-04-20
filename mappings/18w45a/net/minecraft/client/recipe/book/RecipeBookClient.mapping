@@ -1,0 +1,2 @@
+CLASS clr net/minecraft/client/recipe/book/RecipeBookClient
+	FIELD g manager Laxh;

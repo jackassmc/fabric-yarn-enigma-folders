@@ -1,0 +1,6 @@
+CLASS dck net/minecraft/client/gui/widget/ResourcePackListWidget
+	CLASS dck$a ResourcePackItem
+	FIELD b RESOURCE_PACKS_LOCATION Lqs;
+	FIELD c INCOMPATIBLE Ljm;
+	FIELD d INCOMPATIBLE_CONFIRM Ljm;
+	METHOD a addEntry (Ldck$a;)V

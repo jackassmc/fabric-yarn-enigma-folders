@@ -1,0 +1,3 @@
+CLASS bnz net/minecraft/block/WallBannerBlock
+	FIELD a FACING Lbrn;
+	FIELD b FACING_TO_SHAPE Ljava/util/Map;

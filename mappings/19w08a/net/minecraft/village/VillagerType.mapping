@@ -1,0 +1,6 @@
+CLASS arq net/minecraft/village/VillagerType
+	FIELD h biomeToType Ljava/util/Map;
+	METHOD a forBiome (Lbeb;)Larq;
+		ARG 0 biome
+	METHOD a create (Ljava/lang/String;)Larq;
+		ARG 0 id

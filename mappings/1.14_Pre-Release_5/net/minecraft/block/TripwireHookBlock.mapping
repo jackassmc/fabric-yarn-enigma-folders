@@ -1,0 +1,17 @@
+CLASS bsm net/minecraft/block/TripwireHookBlock
+	FIELD a FACING Lbwe;
+	FIELD b POWERED Lbwb;
+	FIELD c ATTACHED Lbwb;
+	METHOD <init> (Lbml$c;)V
+		ARG 1 settings
+	METHOD a update (Lbhh;Lev;Lbvj;ZZILbvj;)V
+	METHOD a updateNeighborsOnAxis (Lbhh;Lev;Lfa;)V
+		ARG 1 world
+		ARG 2 pos
+		ARG 3 direction
+	METHOD a playSound (Lbhh;Lev;ZZZZ)V
+		ARG 2 pos
+		ARG 3 attached
+		ARG 4 on
+		ARG 5 detached
+		ARG 6 off

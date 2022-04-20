@@ -1,0 +1,122 @@
+CLASS et net/minecraft/util/math/BlockPos
+	CLASS et$a Mutable
+		FIELD b x I
+		FIELD c y I
+		FIELD d z I
+		METHOD a add (DDD)Let;
+			ARG 0 x
+			ARG 1 y
+			ARG 2 z
+		METHOD a add (III)Let;
+			ARG 0 x
+			ARG 1 y
+			ARG 2 z
+		METHOD a offset (Lfa;I)Let;
+			ARG 0 facing
+			ARG 1 distance
+		METHOD a set (Lve;)Let$a;
+		METHOD c set (DDD)Let$a;
+		METHOD c set (III)Let$a;
+		METHOD c setOffset (Lfa;)Let$a;
+		METHOD c setOffset (Lfa;I)Let$a;
+		METHOD d crossProduct (Lfq;)Lfq;
+			ARG 0 vec
+		METHOD g set (Lfq;)Let$a;
+		METHOD h toImmutable ()Let;
+		METHOD p getX ()I
+		METHOD p setY (I)V
+		METHOD q getY ()I
+		METHOD r getZ ()I
+	CLASS et$b PooledMutable
+		FIELD f usable Z
+		FIELD g POOL Ljava/util/List;
+		METHOD a set (Lve;)Let$a;
+		METHOD c set (DDD)Let$a;
+		METHOD c set (III)Let$a;
+		METHOD c setOffset (Lfa;)Let$a;
+		METHOD c setOffset (Lfa;I)Let$a;
+		METHOD c set (Lve;)Let$b;
+		METHOD d get (DDD)Let$b;
+		METHOD d setOffset (Lfa;)Let$b;
+		METHOD d setOffset (Lfa;I)Let$b;
+		METHOD e set (DDD)Let$b;
+		METHOD e get (III)Let$b;
+		METHOD f set (III)Let$b;
+		METHOD g set (Lfq;)Let$a;
+		METHOD i get (Lfq;)Let$b;
+		METHOD j set (Lfq;)Let$b;
+		METHOD s get ()Let$b;
+		METHOD t free ()V
+	FIELD a ORIGIN Let;
+	FIELD b LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD c BITS_X I
+	FIELD d BITS_Z I
+	FIELD f BITS_Y I
+	FIELD g SHIFT_Y I
+	FIELD h SHIFT_X I
+	FIELD i MASK_X J
+	FIELD j MASK_Y J
+	FIELD k MASK_Z J
+	METHOD <init> (DDD)V
+		ARG 0 x
+		ARG 1 y
+		ARG 2 z
+	METHOD <init> (III)V
+		ARG 0 x
+		ARG 1 y
+		ARG 2 z
+	METHOD <init> (Lbhc;)V
+		ARG 0 vec
+	METHOD <init> (Lfq;)V
+		ARG 0 vec
+	METHOD <init> (Lve;)V
+		ARG 0 entity
+	METHOD a up ()Let;
+	METHOD a add (DDD)Let;
+		ARG 0 x
+		ARG 1 y
+		ARG 2 z
+	METHOD a add (III)Let;
+		ARG 0 x
+		ARG 1 y
+		ARG 2 z
+	METHOD a fromLong (J)Let;
+		ARG 0 l
+	METHOD a iterateBoxPositions (Let;Let;)Ljava/lang/Iterable;
+		ARG 0 pos1
+		ARG 1 pos2
+	METHOD a offset (Lfa;)Let;
+		ARG 0 facing
+	METHOD a offset (Lfa;I)Let;
+		ARG 0 facing
+		ARG 1 distance
+	METHOD a add (Lfq;)Let;
+		ARG 0 vec
+	METHOD b down ()Let;
+	METHOD b up (I)Let;
+		ARG 0 distance
+	METHOD b iterateBoxPositionsMutable (Let;Let;)Ljava/lang/Iterable;
+		ARG 0 pos1
+		ARG 1 pos2
+	METHOD b subtract (Lfq;)Let;
+		ARG 0 vec
+	METHOD c north ()Let;
+	METHOD c down (I)Let;
+		ARG 0 distance
+	METHOD c crossProduct (Lfq;)Let;
+		ARG 0 vec
+	METHOD d south ()Let;
+	METHOD d north (I)Let;
+		ARG 0 distance
+	METHOD d crossProduct (Lfq;)Lfq;
+		ARG 0 vec
+	METHOD e west ()Let;
+	METHOD e south (I)Let;
+		ARG 0 distance
+	METHOD f east ()Let;
+	METHOD f west (I)Let;
+		ARG 0 distance
+	METHOD g toLong ()J
+	METHOD g east (I)Let;
+		ARG 0 distance
+	METHOD h toImmutable ()Let;

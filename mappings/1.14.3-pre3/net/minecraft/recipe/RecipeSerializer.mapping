@@ -1,0 +1,31 @@
+CLASS beo net/minecraft/recipe/RecipeSerializer
+	FIELD a SHAPED Lbeo;
+	FIELD b SHAPELESS Lbeo;
+	FIELD c ARMOR_DYE Lbew;
+	FIELD d BOOK_CLONING Lbew;
+	FIELD e MAP_CLONING Lbew;
+	FIELD f MAP_EXTENDING Lbew;
+	FIELD g FIREWORK_ROCKET Lbew;
+	FIELD h FIREWORK_STAR Lbew;
+	FIELD i FIREWORK_STAR_FADE Lbew;
+	FIELD j TIPPED_ARROW Lbew;
+	FIELD k BANNER_DUPLICATE Lbew;
+	FIELD l SHIELD_DECORATION Lbew;
+	FIELD m SHULKER_BOX Lbew;
+	FIELD n SUSPICIOUS_STEW Lbew;
+	FIELD p SMELTING Lbev;
+	FIELD q BLASTING Lbev;
+	FIELD r SMOKING Lbev;
+	FIELD s CAMPFIRE_COOKING Lbev;
+	METHOD a register (Ljava/lang/String;Lbeo;)Lbeo;
+		ARG 0 id
+		ARG 1 serializer
+	METHOD a write (Ljd;Lbem;)V
+		ARG 1 buf
+		ARG 2 recipe
+	METHOD a read (Lqt;Lcom/google/gson/JsonObject;)Lbem;
+		ARG 1 id
+		ARG 2 json
+	METHOD a read (Lqt;Ljd;)Lbem;
+		ARG 1 id
+		ARG 2 buf

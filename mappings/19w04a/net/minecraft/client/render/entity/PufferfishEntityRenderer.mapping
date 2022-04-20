@@ -1,0 +1,4 @@
+CLASS dlf net/minecraft/client/render/entity/PufferfishEntityRenderer
+	FIELD k smallModel Ldak;
+	FIELD l mediumModel Ldaj;
+	FIELD m largeModel Ldai;

@@ -1,0 +1,26 @@
+CLASS cku net/minecraft/client/gui/widget/WidgetButtonLock
+	CLASS cku$a IconLocation
+		FIELD a LOCKED Lcku$a;
+		FIELD b LOCKED_HOVERED Lcku$a;
+		FIELD c LOCKED_DISABLED Lcku$a;
+		FIELD d UNLOCKED Lcku$a;
+		FIELD e UNLOCKED_HOVERED Lcku$a;
+		FIELD f UNLOCKED_DISABLED Lcku$a;
+		FIELD g u I
+		FIELD h v I
+		METHOD <init> (Ljava/lang/String;III)V
+			ARG 0 u
+			ARG 1 v
+		METHOD a getU ()I
+		METHOD b getV ()I
+	FIELD o locked Z
+	METHOD <init> (III)V
+		ARG 0 id
+		ARG 1 x
+		ARG 2 y
+	METHOD a draw (IIF)V
+		ARG 1 mouseY
+		ARG 2 delta
+	METHOD c isLocked ()Z
+	METHOD c setLocked (Z)V
+		ARG 0 value

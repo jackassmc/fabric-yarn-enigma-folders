@@ -1,0 +1,23 @@
+CLASS diu net/minecraft/client/render/entity/ArmorEntityRenderer
+	FIELD a renderer Ldgx;
+	FIELD b SKIN Lpy;
+	FIELD c modelLeggings Lcwk;
+	FIELD d modelBody Lcwk;
+	FIELD e alpha F
+	FIELD f red F
+	FIELD g green F
+	FIELD h blue F
+	FIELD i ignoreGlint Z
+	FIELD j ARMOR_TEXTURE_CACHE Ljava/util/Map;
+	METHOD a shouldMergeTextures ()Z
+	METHOD a getArmor (Lagk;)Lcwk;
+	METHOD a render (Lago;FFFFFFF)V
+	METHOD a renderArmor (Lago;FFFFFFFLagk;)V
+	METHOD a getArmorTexture (Lati;Z)Lpy;
+		ARG 1 armor
+	METHOD a renderEnchantedGlint (Ldgx;Lago;Lcwk;FFFFFFF)V
+		ARG 0 renderer
+		ARG 1 wearer
+		ARG 2 model
+	METHOD ao_ init ()V
+	METHOD b isLegs (Lagk;)Z

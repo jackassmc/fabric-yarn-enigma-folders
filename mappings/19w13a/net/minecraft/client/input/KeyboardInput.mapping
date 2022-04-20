@@ -1,0 +1,4 @@
+CLASS djc net/minecraft/client/input/KeyboardInput
+	FIELD i settings Lcuw;
+	METHOD <init> (Lcuw;)V
+		ARG 1 settings

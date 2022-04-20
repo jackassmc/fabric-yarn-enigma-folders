@@ -1,0 +1,4 @@
+CLASS bpf net/minecraft/block/RedstoneTorchBlock
+	FIELD a LIT Lbup;
+	METHOD <init> (Lbkz$c;)V
+		ARG 1 settings

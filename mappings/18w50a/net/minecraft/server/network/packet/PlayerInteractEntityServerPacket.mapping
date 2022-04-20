@@ -1,0 +1,18 @@
+CLASS nr net/minecraft/server/network/packet/PlayerInteractEntityServerPacket
+	CLASS nr$a InteractionType
+	FIELD a entityId I
+	FIELD b type Lnr$a;
+	FIELD c hitPos Lcmd;
+	FIELD d hand Lafo;
+	METHOD a getEntity (Lbbp;)Lagv;
+	METHOD a read (Lit;)V
+		ARG 1 buf
+	METHOD a apply (Liw;)V
+		ARG 1 listener
+	METHOD a apply (Lnd;)V
+		ARG 1 listener
+	METHOD b getType ()Lnr$a;
+	METHOD b write (Lit;)V
+		ARG 1 buf
+	METHOD c getHand ()Lafo;
+	METHOD d getHitPosition ()Lcmd;

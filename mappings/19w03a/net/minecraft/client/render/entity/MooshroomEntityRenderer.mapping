@@ -1,0 +1,4 @@
+CLASS dla net/minecraft/client/render/entity/MooshroomEntityRenderer
+	FIELD a SKIN Lqc;
+	METHOD a getTexture (Lahc;)Lqc;
+	METHOD a getTexture (Lamq;)Lqc;

@@ -1,0 +1,6 @@
+CLASS cxk net/minecraft/client/render/chunk/ChunkVertexBuffer
+	FIELD a renderLayerVertexBuffers [Lciq;
+	METHOD a getVertexBuffer (I)Lciq;
+		ARG 0 blockRenderLayer
+	METHOD a getVertexBuffer (Layo;)Lciq;
+		ARG 0 blockRenderLayer

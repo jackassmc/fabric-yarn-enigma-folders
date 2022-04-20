@@ -1,0 +1,5 @@
+CLASS ayo net/minecraft/container/HorseContainer
+	FIELD c playerInv Lago;
+	FIELD d entity Larj;
+	METHOD <init> (ILavn;Lago;Larj;)V
+		ARG 1 syncId

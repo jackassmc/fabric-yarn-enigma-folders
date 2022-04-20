@@ -1,0 +1,5 @@
+CLASS awg net/minecraft/item/DyeItem
+	FIELD a dyes Ljava/util/Map;
+	FIELD b color Lawf;
+	METHOD a fromColor (Lawf;)Lawg;
+	METHOD d getColor ()Lawf;

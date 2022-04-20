@@ -1,0 +1,7 @@
+CLASS bnb net/minecraft/block/ComparatorBlock
+	FIELD a MODE Lbwd;
+	METHOD <init> (Lbmh$c;)V
+		ARG 1 settings
+	METHOD a getAttachedItemFrame (Lbhd;Lfa;Lev;)Latb;
+		ARG 1 world
+		ARG 2 facing

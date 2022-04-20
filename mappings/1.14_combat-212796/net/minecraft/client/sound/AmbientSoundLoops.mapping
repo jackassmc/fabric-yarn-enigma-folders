@@ -1,0 +1,9 @@
+CLASS dxf net/minecraft/client/sound/AmbientSoundLoops
+	CLASS a MusicLoop
+		FIELD o player Ldkc;
+		METHOD <init> (Ldkc;Lym;)V
+			ARG 1 player
+			ARG 2 soundEvent
+	CLASS b Underwater
+		FIELD o player Ldkc;
+		FIELD p transitionTimer I

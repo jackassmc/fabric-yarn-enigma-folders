@@ -1,0 +1,7 @@
+CLASS cdw net/minecraft/fluid/EmptyFluid
+	METHOD a getRenderLayer ()Lbaf;
+	METHOD b getBucketItem ()Lavp;
+	METHOD b toBlockState (Lcdz;)Lbom;
+	METHOD c isEmpty ()Z
+	METHOD c isStill (Lcdz;)Z
+	METHOD d getBlastResistance ()F

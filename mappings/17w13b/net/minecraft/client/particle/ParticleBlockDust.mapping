@@ -1,0 +1,2 @@
+CLASS bsc net/minecraft/client/particle/ParticleBlockDust
+	CLASS bsc$a Factory

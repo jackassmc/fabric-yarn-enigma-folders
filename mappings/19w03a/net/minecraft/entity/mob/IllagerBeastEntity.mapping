@@ -1,0 +1,25 @@
+CLASS apz net/minecraft/entity/mob/IllagerBeastEntity
+	CLASS apz$b
+		METHOD <init> (Lahm;Lbci;)V
+			ARG 1 world
+		METHOD a createPathNodeNavigator ()Lcif;
+	FIELD bC stunTick I
+	FIELD bD roarTick I
+	FIELD c attackTick I
+	METHOD D getAmbientSound ()Lxr;
+	METHOD D canSee (Lahc;)Z
+	METHOD a playStepSound (Let;Lbqi;)V
+		ARG 1 pos
+	METHOD a readCustomDataFromTag (Lhq;)V
+	METHOD aM getMountedHeightOffset ()D
+	METHOD b createNavigation (Lbci;)Lalo;
+	METHOD b writeCustomDataToTag (Lhq;)V
+	METHOD bQ getPrimaryPassenger ()Lahc;
+	METHOD cd initAttributes ()V
+	METHOD cy getDeathSound ()Lxr;
+	METHOD d addBonusForWave (IZ)V
+		ARG 1 wave
+	METHOD dF canLead ()Z
+	METHOD e getHurtSound (Lagl;)Lxr;
+	METHOD k updateMovement ()V
+	METHOD n ()V

@@ -1,0 +1,14 @@
+CLASS bzo net/minecraft/world/gen/feature/OakTreeFeature
+	FIELD a height I
+	FIELD aR LOG Lbqk;
+	FIELD aS LEAVES Lbqk;
+	FIELD aU log Lbqk;
+	FIELD aV leaves Lbqk;
+	METHOD <init> (Ljava/util/function/Function;Z)V
+		ARG 1 configFactory
+		ARG 2 emitNeighborBlockUpdates
+	METHOD <init> (Ljava/util/function/Function;ZILbqk;Lbqk;Z)V
+		ARG 3 height
+		ARG 4 log
+		ARG 5 leaves
+	METHOD a getRandomTreeHeight (Ljava/util/Random;)I

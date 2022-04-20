@@ -1,0 +1,2 @@
+CLASS cwg net/minecraft/client/render/entity/model/EntityModelTrident
+	FIELD a TEXTURE Lpw;

@@ -1,0 +1,17 @@
+CLASS ble net/minecraft/block/ConnectedPlantBlock
+	FIELD a NORTH Lbra;
+	FIELD b EAST Lbra;
+	FIELD c SOUTH Lbra;
+	FIELD d WEST Lbra;
+	FIELD e UP Lbra;
+	FIELD f DOWN Lbra;
+	FIELD g FACING_PROPERTIES Ljava/util/Map;
+	FIELD i FACINGS [Ley;
+	METHOD a getOutlineShape (Lbqi;Lbbt;Let;Lcnc;)Lcnr;
+		ARG 1 state
+		ARG 2 view
+		ARG 3 pos
+	METHOD a_ isTranslucent (Lbqi;Lbbt;Let;)Z
+		ARG 1 state
+		ARG 2 view
+		ARG 3 pos

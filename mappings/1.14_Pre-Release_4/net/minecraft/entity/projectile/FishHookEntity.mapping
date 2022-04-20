@@ -1,0 +1,7 @@
+CLASS ati net/minecraft/entity/projectile/FishHookEntity
+	CLASS ati$a State
+	FIELD av state Lati$a;
+	FIELD b hookedEntity Laie;
+	FIELD c HOOK_ENTITY_ID Lqh;
+	FIELD f owner Lavw;
+	METHOD i getOwner ()Lavw;

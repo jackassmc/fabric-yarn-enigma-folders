@@ -1,0 +1,17 @@
+CLASS csw net/minecraft/client/gui/widget/AdvancementTreeWidget
+	FIELD a client Lcof;
+	FIELD g tabType Lcsx;
+	FIELD i rootAdvancement Ln;
+	FIELD n widgets Ljava/util/Map;
+	METHOD <init> (Lcof;Lcta;Lcsx;ILn;Lw;)V
+		ARG 1 client
+		ARG 5 rootAdvancement
+	METHOD a drawIcon (IILdhx;)V
+		ARG 1 x
+		ARG 2 y
+	METHOD a drawBackground (IIZ)V
+		ARG 1 x
+		ARG 2 y
+	METHOD a create (Lcof;Lcta;ILn;)Lcsw;
+		ARG 0 minecraft
+	METHOD b getWidgetForAdvancement (Ln;)Lcsy;

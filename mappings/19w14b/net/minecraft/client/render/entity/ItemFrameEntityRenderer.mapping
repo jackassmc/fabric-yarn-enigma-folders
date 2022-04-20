@@ -1,0 +1,7 @@
+CLASS dpn net/minecraft/client/render/entity/ItemFrameEntityRenderer
+	FIELD a MAP_BACKGROUND_TEX Lqs;
+	FIELD h client Lcux;
+	FIELD i itemRenderer Ldpo;
+	METHOD <init> (Ldot;Ldpo;)V
+		ARG 1 renderManager
+	METHOD b hasLabel (Lasv;)V

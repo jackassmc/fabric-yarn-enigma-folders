@@ -1,0 +1,34 @@
+CLASS caw net/minecraft/sortme/structures/MineshaftGenerator
+	CLASS caw$a MineshaftCorridor
+		METHOD a (Lbat;Lcap;Ljava/util/Random;IIILpz;)Z
+			ARG 3 random
+		METHOD a (Lbat;Ljava/util/Random;Lcap;Lbag;)Z
+			ARG 2 random
+		METHOD a toNbt (Lhq;)V
+	CLASS caw$b MineshaftCrossing
+		METHOD a (Lbat;Ljava/util/Random;Lcap;Lbag;)Z
+			ARG 2 random
+		METHOD a toNbt (Lhq;)V
+		METHOD a (Ljava/util/List;Ljava/util/Random;IIILey;)Lcap;
+			ARG 5 facing
+	CLASS caw$c MineshaftPart
+		FIELD a mineshaftType Lbvm$b;
+		METHOD a toNbt (Lhq;)V
+	CLASS caw$d MineshaftRoom
+		METHOD <init> (ILjava/util/Random;IILbvm$b;)V
+			ARG 2 random
+		METHOD a translate (III)V
+			ARG 1 x
+			ARG 2 y
+		METHOD a (Lbat;Ljava/util/Random;Lcap;Lbag;)Z
+			ARG 2 random
+		METHOD a toNbt (Lhq;)V
+	CLASS caw$e MineshaftStairs
+		METHOD a (Lbat;Ljava/util/Random;Lcap;Lbag;)Z
+			ARG 2 random
+		METHOD a (Ljava/util/List;Ljava/util/Random;IIILey;)Lcap;
+			ARG 1 random
+	METHOD a (Ljava/util/List;Ljava/util/Random;IIILey;ILbvm$b;)Lcaw$c;
+		ARG 1 random
+	METHOD b (Lcbj;Ljava/util/List;Ljava/util/Random;IIILey;I)Lcaw$c;
+		ARG 2 random

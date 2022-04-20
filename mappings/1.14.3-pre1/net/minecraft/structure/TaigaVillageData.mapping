@@ -1,0 +1,2 @@
+CLASS ces net/minecraft/structure/TaigaVillageData
+	METHOD a initialize ()V

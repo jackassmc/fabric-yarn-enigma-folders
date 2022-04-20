@@ -1,0 +1,6 @@
+CLASS cis net/minecraft/structure/rule/RandomBlockMatchRuleTest
+	FIELD a block Lbme;
+	FIELD b probability F
+	METHOD <init> (Lbme;F)V
+		ARG 1 block
+		ARG 2 probability

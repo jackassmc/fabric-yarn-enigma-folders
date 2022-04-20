@@ -1,0 +1,17 @@
+CLASS bcl net/minecraft/world/loot/LootTableHandler
+	CLASS bcl$a Loader
+		METHOD a load (Lkq;)Lbci;
+			ARG 0 id
+		METHOD b loadFromFile (Lkq;)Lbci;
+			ARG 0 id
+		METHOD c loadFromAssets (Lkq;)Lbci;
+			ARG 0 id
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD b GSON Lcom/google/gson/Gson;
+	FIELD c lootTables Lcom/google/common/cache/LoadingCache;
+	FIELD d baseDir Ljava/io/File;
+	METHOD <init> (Ljava/io/File;)V
+		ARG 0 baseDir
+	METHOD a reload ()V
+	METHOD a getLootTable (Lkq;)Lbci;
+		ARG 0 id

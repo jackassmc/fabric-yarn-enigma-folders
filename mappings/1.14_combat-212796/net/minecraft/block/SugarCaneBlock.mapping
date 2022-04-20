@@ -1,0 +1,5 @@
+CLASS bsi net/minecraft/block/SugarCaneBlock
+	FIELD a AGE Lbwp;
+	FIELD b SHAPE Lcsw;
+	METHOD <init> (Lbmr$c;)V
+		ARG 1 settings

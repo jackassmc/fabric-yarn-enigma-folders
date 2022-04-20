@@ -1,0 +1,2 @@
+CLASS bby net/minecraft/world/biome/BiomeFrozenOcean
+	METHOD c getTemperature (Les;)F

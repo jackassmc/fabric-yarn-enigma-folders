@@ -1,0 +1,24 @@
+CLASS cfv net/minecraft/fluid/Fluid
+	FIELD a defaultState Lcfw;
+	FIELD c STATE_IDS Lfc;
+	FIELD d stateFactory Lbql;
+	METHOD a getRenderLayer ()Lbbx;
+	METHOD a onScheduledTick (Lbcl;Let;Lcfw;)V
+	METHOD a randomDisplayTick (Lbcl;Let;Lcfw;Ljava/util/Random;)V
+	METHOD a getTickRate (Lbcp;)I
+	METHOD a appendProperties (Lbql$a;)V
+	METHOD a matchesType (Lcfv;)Z
+	METHOD a toBlockState (Lcfw;)Lbqk;
+	METHOD a matches (Lyj;)Z
+	METHOD b getBucketItem ()Lawy;
+	METHOD b onRandomTick (Lbcl;Let;Lcfw;Ljava/util/Random;)V
+	METHOD b isStill (Lcfw;)Z
+	METHOD b getShape (Lcfw;Lbbw;Let;)Lcnl;
+	METHOD c isEmpty ()Z
+	METHOD c getLevel (Lcfw;)I
+	METHOD d getBlastResistance ()F
+	METHOD e setDefaultState (Lcfw;)V
+	METHOD h getStateFactory ()Lbql;
+	METHOD i getDefaultState ()Lcfw;
+	METHOD j getParticle ()Lft;
+	METHOD k hasRandomTicks ()Z

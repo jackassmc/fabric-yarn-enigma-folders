@@ -1,0 +1,6 @@
+CLASS azm net/minecraft/client/render/block/BlockRenderLayer
+	FIELD a SOLID Lazm;
+	FIELD b MIPPED_CUTOUT Lazm;
+	FIELD c CUTOUT Lazm;
+	FIELD d TRANSLUCENT Lazm;
+	FIELD e name Ljava/lang/String;

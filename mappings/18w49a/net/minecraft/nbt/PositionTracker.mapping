@@ -1,0 +1,11 @@
+CLASS hz net/minecraft/nbt/PositionTracker
+	CLASS hz$1
+		METHOD <init> (J)V
+			ARG 0 max
+		METHOD a add (J)V
+			ARG 0 amount
+	FIELD a DEFAULT Lhz;
+	FIELD b max J
+	FIELD c pos J
+	METHOD a add (J)V
+		ARG 0 amount

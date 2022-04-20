@@ -1,0 +1,13 @@
+CLASS in net/minecraft/network/packet/server/SPacketTeleportConfirm
+	FIELD a teleportId I
+	METHOD <init> (I)V
+		ARG 0 teleportId
+	METHOD a getTeleportId ()I
+	METHOD a readPacket (Let;)V
+		ARG 0 packet
+	METHOD a applyPacket (Lew;)V
+		ARG 0 handler
+	METHOD a applyPacket (Lim;)V
+		ARG 0 handler
+	METHOD b writePacket (Let;)V
+		ARG 0 packet

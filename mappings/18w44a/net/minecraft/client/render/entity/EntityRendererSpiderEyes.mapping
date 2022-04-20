@@ -1,0 +1,7 @@
+CLASS die net/minecraft/client/render/entity/EntityRendererSpiderEyes
+	FIELD a SKIN Lpu;
+	METHOD a shouldMergeTextures ()Z
+	METHOD a render (Lage;FFFFFFF)V
+		ARG 1 entity
+	METHOD a render (Lapb;FFFFFFF)V
+		ARG 1 entity

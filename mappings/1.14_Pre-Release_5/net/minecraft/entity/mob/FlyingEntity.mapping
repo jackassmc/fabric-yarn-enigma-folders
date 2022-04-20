@@ -1,0 +1,3 @@
+CLASS aim net/minecraft/entity/mob/FlyingEntity
+	METHOD <init> (Laij;Lbhh;)V
+		ARG 1 type

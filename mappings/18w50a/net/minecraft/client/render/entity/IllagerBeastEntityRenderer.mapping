@@ -1,0 +1,4 @@
+CLASS dji net/minecraft/client/render/entity/IllagerBeastEntityRenderer
+	FIELD a TEXTURE Lqc;
+	METHOD a getTexture (Lagv;)Lqc;
+	METHOD a getTexture (Lapr;)Lqc;

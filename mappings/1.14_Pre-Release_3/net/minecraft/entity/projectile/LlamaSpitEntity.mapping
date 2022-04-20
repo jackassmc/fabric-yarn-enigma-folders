@@ -1,0 +1,4 @@
+CLASS awi net/minecraft/entity/projectile/LlamaSpitEntity
+	FIELD b owner Lars;
+	FIELD c tag Lib;
+	METHOD f readTag ()V

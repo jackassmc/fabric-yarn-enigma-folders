@@ -1,0 +1,6 @@
+CLASS dls net/minecraft/client/render/entity/FlyingItemEntityRenderer
+	FIELD a item Ldkk;
+	METHOD <init> (Ldjp;Ldkk;F)V
+		ARG 1 renderManager
+	METHOD a getTexture (Lahd;)Lqe;
+	METHOD a render (Lahd;DDDFF)V

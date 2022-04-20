@@ -1,0 +1,8 @@
+CLASS auh net/minecraft/container/GrindstoneContainer
+	FIELD c resultInventory Lafx;
+	FIELD d craftingInventory Lafx;
+	FIELD e world Latx;
+	METHOD <init> (ILarr;)V
+		ARG 1 syncId
+	METHOD <init> (ILarr;Latx;)V
+		ARG 1 syncId

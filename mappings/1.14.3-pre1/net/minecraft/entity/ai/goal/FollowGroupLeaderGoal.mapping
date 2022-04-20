@@ -1,0 +1,8 @@
+CLASS ams net/minecraft/entity/ai/goal/FollowGroupLeaderGoal
+	FIELD a fish Laqs;
+	FIELD b moveDelay I
+	FIELD c checkSurroundingDelay I
+	METHOD <init> (Laqs;)V
+		ARG 1 fish
+	METHOD a getSurroundingSearchDelay (Laqs;)I
+		ARG 1 fish

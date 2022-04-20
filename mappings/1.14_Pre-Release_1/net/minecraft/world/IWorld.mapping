@@ -1,0 +1,27 @@
+CLASS bhb net/minecraft/world/IWorld
+	METHOD E getChunkManager ()Lbwu;
+	METHOD F getFluidTickScheduler ()Lbhp;
+	METHOD G getBlockTickScheduler ()Lbhp;
+	METHOD a playLevelEvent (Lavr;ILev;I)V
+	METHOD a playSound (Lavr;Lev;Lyi;Lyk;FF)V
+	METHOD a updateNeighbors (Lev;Lbme;)V
+	METHOD a addParticle (Lgd;DDDDDD)V
+		ARG 1 parameters
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z
+		ARG 8 velocityX
+		ARG 10 velocityY
+		ARG 12 velocityZ
+	METHOD aa getMoonSize ()F
+	METHOD ab getMoonPhase ()I
+	METHOD ac getDifficulty ()Lagv;
+	METHOD e getLocalDifficulty (Lev;)Lagw;
+		ARG 1 pos
+	METHOD j getSkyAngle (F)F
+		ARG 1 delta
+	METHOD k getRandom ()Ljava/util/Random;
+	METHOD m_ getWorld ()Lbha;
+	METHOD n_ getSeed ()J
+	METHOD o_ getSpawnPos ()Lev;
+	METHOD p_ getLevelProperties ()Lcnt;

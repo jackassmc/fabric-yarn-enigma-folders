@@ -1,0 +1,25 @@
+CLASS cfj net/minecraft/world/chunk/light/LightingProvider
+	FIELD a blockLightProvider Lcfg;
+	FIELD b skyLightProvider Lcfg;
+	METHOD <init> (Lbsg;ZZ)V
+		ARG 1 chunkProvider
+		ARG 2 hasBlockLight
+		ARG 3 hasSkyLight
+	METHOD a scheduleChunkLightUpdate (IIIZ)V
+		ARG 1 chunkX
+		ARG 2 chunkY
+		ARG 3 chunkZ
+		ARG 4 isEmpty
+	METHOD a doLightUpdates (IZZ)I
+		ARG 1 maxUpdateCount
+	METHOD a get (Lbcq;)Lcfh;
+	METHOD a setSection (Lbcq;IIILbry;)V
+		ARG 1 lightType
+		ARG 2 chunkX
+		ARG 3 sectionY
+		ARG 4 sectionZ
+		ARG 5 data
+	METHOD a enqueueLightUpdate (Let;)V
+		ARG 1 pos
+	METHOD a (Let;I)V
+		ARG 1 pos

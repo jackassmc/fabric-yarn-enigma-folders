@@ -1,0 +1,2 @@
+CLASS djl net/minecraft/client/particle/CurrentDownParticle
+	CLASS djl$a Factory

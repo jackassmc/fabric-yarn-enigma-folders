@@ -1,0 +1,2 @@
+CLASS ayj net/minecraft/item/block/AirBlockItem
+	FIELD a block Lbkz;

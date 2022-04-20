@@ -1,0 +1,59 @@
+CLASS csy net/minecraft/client/gui/menu/CustomizeFlatLevelGui
+	CLASS csy$1
+		METHOD a onPressed (DD)V
+			ARG 1 mouseX
+			ARG 3 mouseY
+	CLASS csy$2
+		METHOD a onPressed (DD)V
+			ARG 1 mouseX
+			ARG 3 mouseY
+	CLASS csy$3
+		METHOD a onPressed (DD)V
+			ARG 1 mouseX
+			ARG 3 mouseY
+	CLASS csy$4
+		METHOD a onPressed (DD)V
+			ARG 1 mouseX
+			ARG 3 mouseY
+	CLASS csy$5
+		METHOD a onPressed (DD)V
+			ARG 1 mouseX
+			ARG 3 mouseY
+	CLASS csy$6
+		METHOD a onPressed (DD)V
+			ARG 1 mouseX
+			ARG 3 mouseY
+	CLASS csy$a
+		METHOD a drawBackground ()V
+		METHOD a isSelectedEntry (I)Z
+			ARG 1 index
+		METHOD a selectEntry (IIDD)Z
+			ARG 1 index
+			ARG 2 button
+			ARG 3 mouseX
+			ARG 5 mouseY
+		METHOD a drawEntry (IIIIIIF)V
+			ARG 1 index
+			ARG 2 y
+		METHOD a renderGuiItemStack (IILawo;)V
+			ARG 1 y
+			ARG 2 itemStack
+		METHOD c (II)V
+			ARG 1 y
+		METHOD d getEntryCount ()I
+		METHOD e (IIII)V
+			ARG 1 y
+		METHOD f getScrollbarPosition ()I
+	FIELD a parent Lcwv;
+	FIELD g titleText Ljava/lang/String;
+	FIELD h tileText Ljava/lang/String;
+	FIELD i heightText Ljava/lang/String;
+	FIELD t widgetButtonAddLayer Lcqi;
+	FIELD u widgetButtonEditLayer Lcqi;
+	FIELD v widgetButtonRemoveLayer Lcqi;
+	METHOD <init> (Lcwv;Lhs;)V
+		ARG 1 parent
+	METHOD a draw (IIF)V
+		ARG 1 mouseX
+		ARG 2 mouseY
+	METHOD c onInitialized ()V

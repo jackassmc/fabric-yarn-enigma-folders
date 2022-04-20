@@ -1,0 +1,18 @@
+CLASS apw net/minecraft/client/render/entity/PlayerModelPart
+	FIELD a CAPE Lapw;
+	FIELD b BODY Lapw;
+	FIELD c LEFT_ARM Lapw;
+	FIELD d RIGHT_ARM Lapw;
+	FIELD e LEFT_LEG Lapw;
+	FIELD f RIGHT_LEG Lapw;
+	FIELD g HEAD Lapw;
+	FIELD h id I
+	FIELD i bitFlag I
+	FIELD j name Ljava/lang/String;
+	FIELD k localizedName Liz;
+	METHOD <init> (Ljava/lang/String;IILjava/lang/String;)V
+		ARG 3 id
+	METHOD a getBitFlag ()I
+	METHOD b getId ()I
+	METHOD c getName ()Ljava/lang/String;
+	METHOD d getLocalizedName ()Liz;

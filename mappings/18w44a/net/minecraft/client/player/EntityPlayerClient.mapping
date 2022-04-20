@@ -1,0 +1,75 @@
+CLASS czd net/minecraft/client/player/EntityPlayerClient
+	FIELD ci stats Lxh;
+	FIELD cj recipeBook Lclj;
+	FIELD cl clientPermissionLevel I
+	FIELD cw serverBrand Ljava/lang/String;
+	FIELD d networkHandler Lcwx;
+	FIELD f game Lclp;
+	METHOD S_ update ()V
+	METHOD T_ stopRiding ()V
+	METHOD a setClientPermissionLevel (I)V
+		ARG 1 value
+	METHOD a openInventory (Laei;)V
+		ARG 1 inv
+	METHOD a swingHand (Laeo;)V
+		ARG 1 hand
+	METHOD a openContainer (Laep;)V
+	METHOD a damage (Lafe;F)Z
+		ARG 1 source
+		ARG 2 damage
+	METHOD a copyEntityData (Lafv;)V
+		ARG 1 entity
+	METHOD a startRiding (Lafv;Z)Z
+		ARG 1 entity
+		ARG 2 ignoreRequirements
+	METHOD a move (Lagi;DDD)V
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z
+	METHOD a openHorseInventory (Lalw;Laei;)V
+	METHOD a spawnEntityItem (Lanu;)Lauv;
+		ARG 1 entityItem
+	METHOD a openBookEditor (Lauv;Laeo;)V
+	METHOD a openVillagerGui (Layy;)V
+	METHOD a openCommandBlockMinecart (Lazc;)V
+	METHOD a openCommandBlock (Lblp;)V
+	METHOD a openSignEditor (Lbmg;)V
+		ARG 1 sign
+	METHOD a openStructureBlock (Lbmk;)V
+	METHOD a appendCommandFeedback (Lix;)V
+		ARG 1 feedback
+	METHOD a addChatMessage (Lix;Z)V
+		ARG 1 message
+	METHOD a onTrackedDataSet (Lpj;)V
+		ARG 1 data
+	METHOD a playSoundAtEntity (Lww;FF)V
+		ARG 1 sound
+		ARG 2 volume
+		ARG 3 pitch
+	METHOD a dropSelectedItem (Z)Lanu;
+	METHOD bb isSneaking ()Z
+	METHOD c heal (F)V
+		ARG 1 amount
+	METHOD c setCurrentHand (Laeo;)V
+	METHOD c removePotionEffect (Lafn;)Lafo;
+		ARG 1 effect
+	METHOD cY getActiveHand ()Laeo;
+	METHOD d damage (Lafe;F)V
+		ARG 1 damageSource
+		ARG 2 damage
+	METHOD f sendChatMessage (Ljava/lang/String;)V
+		ARG 1 message
+	METHOD f setSprinting (Z)V
+		ARG 1 value
+	METHOD g getPitch (F)F
+	METHOD g setServerBrand (Ljava/lang/String;)V
+	METHOD h getYaw (F)F
+	METHOD k updateMovement ()V
+	METHOD p closeGui ()V
+	METHOD s updateHealth (F)V
+		ARG 1 health
+	METHOD v openRidingInventory ()V
+	METHOD w getServerBrand ()Ljava/lang/String;
+	METHOD x getStats ()Lxh;
+	METHOD y getPermissionLevel ()I
+	METHOD z getRecipeBook ()Lclj;

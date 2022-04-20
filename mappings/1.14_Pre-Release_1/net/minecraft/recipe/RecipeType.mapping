@@ -1,0 +1,11 @@
+CLASS bef net/minecraft/recipe/RecipeType
+	FIELD a CRAFTING Lbef;
+	FIELD b SMELTING Lbef;
+	FIELD c BLASTING Lbef;
+	FIELD d SMOKING Lbef;
+	FIELD e CAMPFIRE_COOKING Lbef;
+	METHOD a get (Lbec;Lbha;Lagr;)Ljava/util/Optional;
+		ARG 1 recipe
+		ARG 2 world
+		ARG 3 inventory
+	METHOD a register (Ljava/lang/String;)Lbef;

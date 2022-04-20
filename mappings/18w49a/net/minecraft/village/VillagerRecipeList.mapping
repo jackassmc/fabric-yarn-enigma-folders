@@ -1,0 +1,11 @@
+CLASS azy net/minecraft/village/VillagerRecipeList
+	METHOD a deserialize ()Lhq;
+	METHOD a itemsAreEqual (Lavu;Lavu;)Z
+		ARG 1 firstItem
+	METHOD a getValidRecipe (Lavu;Lavu;I)Lazx;
+		ARG 1 firstBuyItem
+		ARG 2 secondBuyItem
+	METHOD a serialize (Lhq;)V
+	METHOD a writeToBuf (Lir;)V
+	METHOD b readFromBuf (Lir;)Lazy;
+		ARG 0 byteBuf

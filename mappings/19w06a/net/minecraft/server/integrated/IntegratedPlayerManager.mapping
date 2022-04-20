@@ -1,0 +1,3 @@
+CLASS drz net/minecraft/server/integrated/IntegratedPlayerManager
+	FIELD f userData Lhr;
+	METHOD b getServer ()Ldsa;

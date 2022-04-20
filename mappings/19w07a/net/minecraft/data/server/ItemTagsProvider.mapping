@@ -1,0 +1,4 @@
+CLASS hn net/minecraft/data/server/ItemTagsProvider
+	FIELD e LOG Lorg/apache/logging/log4j/Logger;
+	METHOD a convert (Lyp$b;)Lyp$b;
+	METHOD a copy (Lyp;Lyp;)V

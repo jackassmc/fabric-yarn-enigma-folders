@@ -1,0 +1,3 @@
+CLASS dbe net/minecraft/client/gui/ingame/RecipeBookProvider
+	METHOD Z_ refreshRecipeBook ()V
+	METHOD e getRecipeBookGui ()Lday;

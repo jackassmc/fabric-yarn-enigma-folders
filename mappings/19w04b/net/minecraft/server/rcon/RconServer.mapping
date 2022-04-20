@@ -1,0 +1,8 @@
+CLASS xp net/minecraft/server/rcon/RconServer
+	FIELD h port I
+	FIELD i hostname Ljava/lang/String;
+	FIELD j listener Ljava/net/ServerSocket;
+	FIELD k password Ljava/lang/String;
+	FIELD l clients Ljava/util/Map;
+	METHOD f cleanClientList ()V
+	METHOD g removeStoppedClients ()V

@@ -1,0 +1,7 @@
+CLASS dhz net/minecraft/client/render/entity/EntityRendererPigSaddle
+	FIELD a SKIN Lpu;
+	METHOD a shouldMergeTextures ()Z
+	METHOD a render (Lage;FFFFFFF)V
+		ARG 1 entity
+	METHOD a render (Lali;FFFFFFF)V
+		ARG 1 entity

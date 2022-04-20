@@ -1,0 +1,13 @@
+CLASS azu net/minecraft/item/ItemPlacementContext
+	FIELD g placedPos Lev;
+	METHOD <init> (Lbdb;)V
+		ARG 1 usageCtx
+	METHOD <init> (Lbgw;Lavn;Lagt;Lbbq;Lcre;)V
+		ARG 1 world
+		ARG 2 player
+	METHOD a create (Lazu;Lev;Lfa;)Lazu;
+		ARG 0 placementCtx
+		ARG 2 facing
+	METHOD b canPlace ()Z
+	METHOD d getPlayerFacing ()Lfa;
+	METHOD e getPlacementFacings ()[Lfa;

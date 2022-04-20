@@ -1,0 +1,4 @@
+CLASS ii net/minecraft/network/encryption/PacketEncryptor
+	FIELD a manager Lig;
+	METHOD <init> (Ljavax/crypto/Cipher;)V
+		ARG 1 cipher

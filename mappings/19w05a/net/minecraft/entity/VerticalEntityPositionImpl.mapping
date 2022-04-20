@@ -1,0 +1,11 @@
+CLASS cng net/minecraft/entity/VerticalEntityPositionImpl
+	CLASS cng$1
+		METHOD <init> (ZDLaxd;)V
+			ARG 1 sneaking
+	FIELD a MIN_VALUE Lcnb;
+	FIELD b sneaking Z
+	FIELD c posY D
+	METHOD <init> (Lahe;)V
+		ARG 1 entity
+	METHOD <init> (ZDLaxd;)V
+		ARG 1 sneaking

@@ -1,0 +1,4 @@
+CLASS bos net/minecraft/block/PaneBlock
+	METHOD <init> (Lbly$c;)V
+		ARG 1 settings
+	METHOD a connectsTo (Lbuw;Z)Z

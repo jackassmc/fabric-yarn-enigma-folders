@@ -1,0 +1,2 @@
+CLASS ho net/minecraft/data/validate/StructureValidatorProvider
+	FIELD b generator Lgi;

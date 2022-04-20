@@ -1,0 +1,5 @@
+CLASS bwz net/minecraft/world/gen/chunk/ChunkGeneratorFactory
+	METHOD create (Lbhh;Lbig;Lbyl;)Lbwy;
+		ARG 1 world
+		ARG 2 biomeSource
+		ARG 3 config

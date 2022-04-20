@@ -1,0 +1,38 @@
+CLASS cyl net/minecraft/client/gui/MainMenuScreen
+	FIELD A warningAlignBottom I
+	FIELD B warningTitle Ljava/lang/String;
+	FIELD C warningText Ljava/lang/String;
+	FIELD D warningLink Ljava/lang/String;
+	FIELD E MINECRAFT_TITLE_TEXTURE Lqp;
+	FIELD F EDITION_TITLE_TEXTURE Lqp;
+	FIELD G realmsNotificationsInitialized Z
+	FIELD H realmsNotificationGui Lcyh;
+	FIELD I copyrightTextWidth I
+	FIELD J copyrightTextX I
+	FIELD K backgroundRenderer Ldjl;
+	FIELD L doBackgroundFade Z
+	FIELD M backgroundFadeStart J
+	FIELD a panoramaCubeMap Ldiy;
+	FIELD b OUTDATED_GL_TEXT Ljava/lang/String;
+	FIELD g panoramaOverlay Lqp;
+	FIELD i splashText Ljava/lang/String;
+	FIELD s buttonOptions Lcuu;
+	FIELD t buttonResetDemo Lcuu;
+	FIELD u mutex Ljava/lang/Object;
+	FIELD v warningTextWidth I
+	FIELD w warningTitleWidth I
+	FIELD x warningAlignLeft I
+	FIELD y warningAlignTop I
+	FIELD z warningAlignRight I
+	METHOD <init> (Z)V
+		ARG 1 doBackgroundFade
+	METHOD b initWidgetsNormal (II)V
+		ARG 1 y
+		ARG 2 spacingY
+	METHOD c initWidgetsDemo (II)V
+		ARG 1 y
+		ARG 2 spacingY
+	METHOD confirmResult (ZI)V
+		ARG 1 result
+	METHOD k areRealmsNotificationsEnabled ()Z
+	METHOD l switchToRealms ()V

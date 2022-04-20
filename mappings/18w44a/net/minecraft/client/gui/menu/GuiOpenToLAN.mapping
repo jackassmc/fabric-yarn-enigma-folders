@@ -1,0 +1,26 @@
+CLASS cpu net/minecraft/client/gui/menu/GuiOpenToLAN
+	CLASS cpu$1
+		METHOD a onPressed (DD)V
+			ARG 0 mouseX
+	CLASS cpu$2
+		METHOD a onPressed (DD)V
+			ARG 0 mouseX
+	CLASS cpu$3
+		METHOD a onPressed (DD)V
+			ARG 0 mouseX
+	CLASS cpu$4
+		METHOD a onPressed (DD)V
+			ARG 0 mouseX
+	FIELD a parent Lcpt;
+	FIELD f buttonAllowCommands Lcmm;
+	FIELD g buttonGameMode Lcmm;
+	FIELD h gameMode Ljava/lang/String;
+	FIELD i allowCommands Z
+	METHOD <init> (Lcpt;)V
+		ARG 1 parent
+	METHOD a draw (IIF)V
+		ARG 1 mouseX
+		ARG 2 mouseY
+		ARG 3 delta
+	METHOD c onInitialized ()V
+	METHOD h updateButtonText ()V

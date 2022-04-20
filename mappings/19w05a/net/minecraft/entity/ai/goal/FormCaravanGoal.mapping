@@ -1,0 +1,6 @@
+CLASS ajr net/minecraft/entity/ai/goal/FormCaravanGoal
+	FIELD a owner Lano;
+	FIELD b speed D
+	FIELD c counter I
+	METHOD a canFollow (Lano;I)Z
+		ARG 2 length

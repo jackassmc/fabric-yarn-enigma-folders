@@ -1,0 +1,15 @@
+CLASS ckt net/minecraft/scoreboard/ScoreboardState
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD b scoreboard Lcks;
+	FIELD c tag Lho;
+	METHOD a serializeTeams ()Lhu;
+	METHOD a deserializeTeamPlayers (Lckq;Lhu;)V
+		ARG 1 team
+	METHOD a setScoreboard (Lcks;)V
+	METHOD a deserialize (Lho;)V
+	METHOD a deserializeTeams (Lhu;)V
+	METHOD b serializeObjectives ()Lhu;
+	METHOD b serialize (Lho;)Lho;
+	METHOD b deserializeObjectives (Lhu;)V
+	METHOD c deserializeDisplaySlots (Lho;)V
+	METHOD d serializeSlots (Lho;)V

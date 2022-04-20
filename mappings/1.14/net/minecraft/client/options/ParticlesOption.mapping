@@ -1,0 +1,14 @@
+CLASS cvn net/minecraft/client/options/ParticlesOption
+	FIELD a ALL Lcvn;
+	FIELD b DECREASED Lcvn;
+	FIELD c MINIMAL Lcvn;
+	FIELD d VALUES [Lcvn;
+	FIELD e id I
+	FIELD f translationKey Ljava/lang/String;
+	METHOD <init> (Ljava/lang/String;IILjava/lang/String;)V
+		ARG 3 id
+		ARG 4 translationKey
+	METHOD a getTranslationKey ()Ljava/lang/String;
+	METHOD a byId (I)Lcvn;
+		ARG 0 id
+	METHOD b getId ()I

@@ -1,0 +1,24 @@
+CLASS cjp net/minecraft/world/loot/LootPool
+	CLASS cjp$a Builder
+		FIELD a entries Ljava/util/List;
+		FIELD b conditions Ljava/util/List;
+		FIELD c functions Ljava/util/List;
+		FIELD d rolls Lcjt;
+		FIELD e range Lcjv;
+		METHOD a withRolls (Lcjt;)Lcjp$a;
+		METHOD a withEntry (Lckf$a;)Lcjp$a;
+		METHOD a withFunction (Lckw$a;)Lcjp$a;
+		METHOD a withCondition (Lclz$a;)Lcjp$a;
+		METHOD b build ()Lcjp;
+	CLASS cjp$b Serializer
+	FIELD a entries [Lckf;
+	FIELD b conditions [Lclz;
+	FIELD c predicate Ljava/util/function/Predicate;
+	FIELD d functions [Lckw;
+	FIELD e javaFunctions Ljava/util/function/BiFunction;
+	FIELD f rolls Lcjt;
+	FIELD g bonusRolls Lcjv;
+	METHOD a create ()Lcjp$a;
+	METHOD a check (Lcjr;Ljava/util/function/Function;Ljava/util/Set;Lclm;)V
+	METHOD a drop (Ljava/util/function/Consumer;Lcjn;)V
+	METHOD b supplyOnce (Ljava/util/function/Consumer;Lcjn;)V

@@ -1,0 +1,16 @@
+CLASS jo net/minecraft/text/event/HoverEvent
+	CLASS jo$a net/minecraft/text/event/HoverEvent$Action
+		FIELD a SHOW_TEXT Ljo$a;
+		FIELD b SHOW_ITEM Ljo$a;
+		FIELD c SHOW_ENTITY Ljo$a;
+		FIELD f name Ljava/lang/String;
+		METHOD a get (Ljava/lang/String;)Ljo$a;
+		METHOD b getName ()Ljava/lang/String;
+	FIELD a action Ljo$a;
+	FIELD b value Ljl;
+	METHOD <init> (Ljo$a;Ljl;)V
+		ARG 1 action
+	METHOD a getAction ()Ljo$a;
+	METHOD b getValue ()Ljl;
+	METHOD equals (Ljava/lang/Object;)Z
+		ARG 1 o

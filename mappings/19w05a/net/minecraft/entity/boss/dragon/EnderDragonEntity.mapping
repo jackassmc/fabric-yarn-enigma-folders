@@ -1,0 +1,20 @@
+CLASS aoa net/minecraft/entity/boss/dragon/EnderDragonEntity
+	FIELD bC parts [Lany;
+	FIELD bD partHead Lany;
+	FIELD bE partNeck Lany;
+	FIELD bF partBody Lany;
+	FIELD bG partTail1 Lany;
+	FIELD bH partTail2 Lany;
+	FIELD bI partTail3 Lany;
+	FIELD bJ partWingRight Lany;
+	FIELD bK partWingLeft Lany;
+	FIELD b PHASE_TYPE Lps;
+	FIELD bQ LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD bR fight Lbtm;
+	FIELD bS phaseManager Laor;
+	METHOD a crystalDestroyed (Lanz;Let;Lago;)V
+		ARG 1 crystal
+		ARG 2 pos
+		ARG 3 source
+	METHOD dw getFight ()Lbtm;
+	METHOD n getPhaseManager ()Laor;

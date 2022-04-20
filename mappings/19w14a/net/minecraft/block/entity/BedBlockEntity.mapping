@@ -1,0 +1,5 @@
+CLASS bsy net/minecraft/block/entity/BedBlockEntity
+	FIELD a color Lban;
+	METHOD a setColor (Lban;)V
+		ARG 1 color
+	METHOD c getColor ()Lban;

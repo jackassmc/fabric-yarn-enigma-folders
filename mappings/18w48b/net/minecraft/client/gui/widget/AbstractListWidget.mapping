@@ -1,0 +1,49 @@
+CLASS cpl net/minecraft/client/gui/widget/AbstractListWidget
+	FIELD a client Lcnv;
+	FIELD f width I
+	FIELD g height I
+	FIELD h y1 I
+	FIELD i y2 I
+	FIELD j x2 I
+	FIELD k x1 I
+	FIELD l entryHeight I
+	METHOD <init> (Lcnv;IIIII)V
+		ARG 1 client
+	METHOD a charTyped (CI)Z
+		ARG 1 chr
+		ARG 2 modifiers
+	METHOD a mouseScrolled (D)Z
+		ARG 1 delta
+	METHOD a mouseClicked (DDI)Z
+		ARG 1 mouseX
+	METHOD a mouseDragged (DDIDD)Z
+		ARG 1 mouseX
+		ARG 3 mouseY
+		ARG 5 button
+	METHOD a isSelected (I)Z
+	METHOD a draw (IIF)V
+		ARG 1 mouseX
+		ARG 2 mouseY
+	METHOD a keyPressed (III)Z
+		ARG 1 keyCode
+		ARG 2 scanCode
+		ARG 3 modifiers
+	METHOD a drawEntries (IIIIF)V
+	METHOD a drawEntry (IIIIIIF)V
+	METHOD b getListeners ()Ljava/util/List;
+	METHOD b mouseReleased (DDI)Z
+		ARG 1 mouseX
+	METHOD c (IIII)V
+		ARG 1 width
+		ARG 2 height
+		ARG 3 y1
+	METHOD d getEntryCount ()I
+	METHOD e getEntryWidth ()I
+	METHOD e scrollByY (I)V
+	METHOD f getScrollbarPosition ()I
+	METHOD f setLeftPos (I)V
+	METHOD n getContentHeight ()I
+	METHOD o clampScrollY ()V
+	METHOD p getMaxScrollY ()I
+	METHOD q getScrollY ()I
+	METHOD s getEntryHeight ()I

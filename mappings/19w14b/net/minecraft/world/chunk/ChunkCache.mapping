@@ -1,0 +1,10 @@
+CLASS bhi net/minecraft/world/chunk/ChunkCache
+	FIELD a minX I
+	FIELD b minZ I
+	FIELD c chunks [[Lbwn;
+	FIELD d empty Z
+	FIELD e world Lbgx;
+	METHOD <init> (Lbgx;Lev;Lev;)V
+		ARG 1 world
+		ARG 2 minPos
+		ARG 3 maxPos

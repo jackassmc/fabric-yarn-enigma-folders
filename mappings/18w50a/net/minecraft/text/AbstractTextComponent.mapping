@@ -1,0 +1,8 @@
+CLASS ja net/minecraft/text/AbstractTextComponent
+	FIELD a children Ljava/util/List;
+	FIELD b style Ljl;
+	METHOD a getChildren ()Ljava/util/List;
+	METHOD a append (Ljd;)Ljd;
+	METHOD a setStyle (Ljl;)Ljd;
+	METHOD b getStyle ()Ljl;
+	METHOD c stream ()Ljava/util/stream/Stream;

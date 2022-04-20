@@ -1,0 +1,14 @@
+CLASS apk net/minecraft/entity/mob/PatrolEntity
+	CLASS apk$a PatrolGoal
+		METHOD a canStart ()Z
+		METHOD c start ()V
+		METHOD d onRemove ()V
+		METHOD e tick ()V
+	METHOD <init> (Lago;Lbas;)V
+		ARG 1 type
+	METHOD a (Lbat;Lafc;Lagw;Lahe;Lhq;)Lahe;
+		ARG 3 difficulty
+	METHOD a readCustomDataFromTag (Lhq;)V
+	METHOD aK getHeightOffset ()D
+	METHOD b writeCustomDataToTag (Lhq;)V
+	METHOD n initAi ()V

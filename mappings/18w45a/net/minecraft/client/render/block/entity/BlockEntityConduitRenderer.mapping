@@ -1,0 +1,42 @@
+CLASS dce net/minecraft/client/render/block/entity/BlockEntityConduitRenderer
+	CLASS dce$a
+		METHOD a render (Lafy;FFFFFF)V
+			ARG 0 entity
+			ARG 1 limbMoveAngle
+			ARG 2 limbMoveAmount
+			ARG 3 age
+			ARG 4 headYaw
+			ARG 5 headPitch
+			ARG 6 scale
+	CLASS dce$b
+		METHOD a render (Lafy;FFFFFF)V
+			ARG 0 entity
+			ARG 1 limbMoveAngle
+			ARG 2 limbMoveAmount
+			ARG 3 age
+			ARG 4 headYaw
+			ARG 5 headPitch
+			ARG 6 scale
+	CLASS dce$c
+		METHOD a render (Lafy;FFFFFF)V
+			ARG 0 entity
+			ARG 1 limbMoveAngle
+			ARG 2 limbMoveAmount
+			ARG 3 age
+			ARG 4 headYaw
+			ARG 5 headPitch
+			ARG 6 scale
+	CLASS dce$d
+		METHOD a render (Lafy;FFFFFF)V
+			ARG 0 entity
+			ARG 1 limbMoveAngle
+			ARG 2 limbMoveAmount
+			ARG 3 age
+			ARG 4 headYaw
+			ARG 5 headPitch
+			ARG 6 scale
+	METHOD a render (Lbls;DDDFI)V
+		ARG 1 entity
+		ARG 2 xOffset
+		ARG 4 yOffset
+	METHOD a render (Lbly;DDDFI)V

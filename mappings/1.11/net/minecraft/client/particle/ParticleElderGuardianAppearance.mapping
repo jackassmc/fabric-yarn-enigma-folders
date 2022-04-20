@@ -1,0 +1,8 @@
+CLASS boq net/minecraft/client/particle/ParticleElderGuardianAppearance
+	FIELD a guardian Lsv;
+	METHOD a update ()V
+	METHOD a buildGeometry (Lbpw;Lsm;FFFFFF)V
+		ARG 0 vertexBuffer
+		ARG 1 entity
+		ARG 2 deltaTicks
+	METHOD b getParticleGroup ()I

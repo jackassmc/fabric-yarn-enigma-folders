@@ -1,0 +1,14 @@
+CLASS bfa net/minecraft/block/BarrelBlock
+	METHOD a getPlacementState (Lats;)Lboh;
+	METHOD a createBlockEntity (Lazz;)Lbmk;
+	METHOD a onPlaced (Lban;Let;Lboh;Lago;Lavo;)V
+		ARG 1 world
+		ARG 2 pos
+		ARG 3 state
+		ARG 4 placer
+	METHOD a applyMirror (Lboh;Lbix;)Lboh;
+		ARG 1 state
+	METHOD a applyRotation (Lboh;Lbjx;)Lboh;
+		ARG 1 state
+	METHOD a appendProperties (Lboi$a;)V
+	METHOD b getRenderType (Lboh;)Lbju;

@@ -1,0 +1,11 @@
+CLASS bf net/minecraft/util/json/EntityEffectJsonPredicate
+	CLASS bf$a
+		FIELD a amplifier Lbe$d;
+		FIELD b duration Lbe$d;
+		FIELD c ambient Ljava/lang/Boolean;
+		FIELD d visible Ljava/lang/Boolean;
+	FIELD a EMPTY Lbf;
+	METHOD a create ()Lbf;
+	METHOD a matches (Lage;)Z
+	METHOD a matches (Lagn;)Z
+	METHOD a matches (Ljava/util/Map;)Z

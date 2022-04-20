@@ -1,0 +1,6 @@
+CLASS car net/minecraft/client/render/entity/EntityRendererSlime
+	FIELD a SKIN Lnd;
+	METHOD a getTexture (Ladj;)Lnd;
+		ARG 0 model
+	METHOD a getTexture (Lve;)Lnd;
+		ARG 0 model

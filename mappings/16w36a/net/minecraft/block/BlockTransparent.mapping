@@ -1,0 +1,13 @@
+CLASS none/ang net/minecraft/block/BlockTransparent
+	METHOD <init> (Lnone/ayq;Z)V
+		ARG 0 material
+	METHOD <init> (Lnone/ayq;ZLnone/ayr;)V
+		ARG 0 material
+		ARG 2 color
+	METHOD a shouldRenderSide (Lnone/asl;Lnone/aiz;Lnone/cn;Lnone/cu;)Z
+		ARG 0 state
+		ARG 1 view
+		ARG 2 pos
+		ARG 3 facing
+	METHOD b (Lnone/asl;)Z
+		ARG 0 state

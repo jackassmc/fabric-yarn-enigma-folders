@@ -1,0 +1,4 @@
+CLASS chb net/minecraft/world/PlayerSaveHandler
+	METHOD a savePlayerData (Laqj;)V
+	METHOD b loadPlayerData (Laqj;)Lhp;
+	METHOD e getSavedPlayerIds ()[Ljava/lang/String;

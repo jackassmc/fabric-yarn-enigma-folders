@@ -1,0 +1,6 @@
+CLASS aji net/minecraft/entity/ai/goal/ChaseBoatGoal
+	FIELD b owner Lahy;
+	FIELD c passenger Lahr;
+	FIELD d state Laiy;
+	METHOD <init> (Lahy;)V
+		ARG 1 owner

@@ -1,0 +1,6 @@
+CLASS aw net/minecraft/advancement/criterion/FilledBucketCriterion
+	CLASS aw$b Conditions
+		FIELD a item Lbb;
+		METHOD a matches (Lbar;)Z
+		METHOD a create (Lbb;)Law$b;
+	FIELD a ID Lqp;

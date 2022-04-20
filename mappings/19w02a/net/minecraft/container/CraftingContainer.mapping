@@ -1,0 +1,8 @@
+CLASS aul net/minecraft/container/CraftingContainer
+	METHOD a populateRecipeFinder (Larm;)V
+	METHOD a matches (Lazm;)Z
+	METHOD e clearCraftingSlots ()V
+	METHOD f getCraftingResultSlotIndex ()I
+	METHOD g getCraftingWidth ()I
+	METHOD h getCraftingHeight ()I
+	METHOD i getCraftingSlotCount ()I

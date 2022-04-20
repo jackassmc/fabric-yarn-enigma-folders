@@ -1,0 +1,2 @@
+CLASS axz net/minecraft/item/FoodCropItem
+	FIELD a crop Lbqp;

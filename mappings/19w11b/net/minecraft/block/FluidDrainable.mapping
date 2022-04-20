@@ -1,0 +1,5 @@
+CLASS bld net/minecraft/block/FluidDrainable
+	METHOD b tryDrainFluid (Lbfy;Leu;Lbtw;)Lcjj;
+		ARG 1 world
+		ARG 2 pos
+		ARG 3 state

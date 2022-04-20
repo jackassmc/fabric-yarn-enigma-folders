@@ -1,0 +1,21 @@
+CLASS ax net/minecraft/advancement/criterion/TriggerKilledByCrossbow
+	CLASS ax$b Conditions
+		FIELD a victims [Lap;
+		FIELD b uniqueEntityTypes Lbc$d;
+		METHOD a matches (Luc;Ljava/util/Collection;I)Z
+	FIELD a ID Lpu;
+	METHOD a getId ()Lpu;
+	METHOD a deserializeConditions (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Lt;
+		ARG 1 obj
+		ARG 2 context
+	METHOD a removePlayer (Lqe;)V
+		ARG 1 manager
+	METHOD a addCondition (Lqe;Ls$a;)V
+		ARG 1 manager
+		ARG 2 condition
+	METHOD b deserializeConditions (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Lax$b;
+		ARG 1 obj
+		ARG 2 context
+	METHOD b removeCondition (Lqe;Ls$a;)V
+		ARG 1 manager
+		ARG 2 condition

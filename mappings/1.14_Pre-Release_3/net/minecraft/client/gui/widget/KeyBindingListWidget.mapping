@@ -1,0 +1,21 @@
+CLASS dad net/minecraft/client/gui/widget/KeyBindingListWidget
+	CLASS dad$a CategoryEntry
+		FIELD b name Ljava/lang/String;
+		FIELD c nameWidth I
+	CLASS dad$b Entry
+	CLASS dad$c KeyBindingEntry
+		FIELD b binding Lcvb;
+		FIELD c bindingName Ljava/lang/String;
+		FIELD d editButton Lcwk;
+		FIELD e resetButton Lcwk;
+		METHOD mouseClicked (DDI)Z
+			ARG 1 mouseX
+			ARG 3 mouseY
+			ARG 5 button
+		METHOD mouseReleased (DDI)Z
+			ARG 1 mouseX
+			ARG 3 mouseY
+			ARG 5 button
+	FIELD a gui Ldae;
+	METHOD <init> (Ldae;Lcve;)V
+		ARG 1 gui

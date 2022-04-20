@@ -1,0 +1,30 @@
+CLASS dnc net/minecraft/client/render/chunk/ChunkRenderer
+	FIELD a chunkUpdateCount I
+	FIELD b chunkRenderData Ldna;
+	FIELD c boundingBox Lcro;
+	FIELD d world Lbhf;
+	FIELD e renderer Ldkk;
+	FIELD f chunkRenderLock Ljava/util/concurrent/locks/ReentrantLock;
+	FIELD g chunkRenderDataLock Ljava/util/concurrent/locks/ReentrantLock;
+	FIELD h chunkRenderDataTask Ldmx;
+	FIELD i blockEntities Ljava/util/Set;
+	FIELD j buffers [Lcul;
+	FIELD l renderScheduled Z
+	FIELD m origin Lev$a;
+	METHOD a delete ()V
+	METHOD a resortTransparency (FFFLdmx;)V
+	METHOD a endBufferBuilding (Lbgr;FFFLcuh;Ldna;)V
+	METHOD a beginBufferBuilding (Lcuh;Lev;)V
+	METHOD a setChunkRenderData (Ldna;)V
+		ARG 1 chunkRenderData
+	METHOD a scheduleRender (Z)V
+	METHOD b rebuildChunk (FFFLdmx;)V
+	METHOD b getGlBuffer (I)Lcul;
+	METHOD c cancel ()V
+	METHOD d getChunkRenderLock ()Ljava/util/concurrent/locks/ReentrantLock;
+	METHOD f getResortTransparencyTask ()Ldmx;
+	METHOD g getDistanceToPlayerSquared ()D
+	METHOD h getChunkRenderData ()Ldna;
+	METHOD i clear ()V
+	METHOD k getOrigin ()Lev;
+	METHOD o getWorld ()Lbhf;

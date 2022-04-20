@@ -1,0 +1,48 @@
+CLASS ajt net/minecraft/entity/ai/brain/task/Task
+	CLASS ajt$a Status
+	FIELD a requiredMemoryState Ljava/util/Map;
+	FIELD b status Lajt$a;
+	FIELD c endTime J
+	FIELD d minRunTime I
+	FIELD e maxRunTime I
+	METHOD <init> (Ljava/util/Map;)V
+		ARG 1 requiredMemoryState
+	METHOD <init> (Ljava/util/Map;I)V
+		ARG 1 requiredMemoryState
+		ARG 2 runTime
+	METHOD <init> (Ljava/util/Map;II)V
+		ARG 1 requiredMemoryState
+		ARG 2 minRunTime
+		ARG 3 maxRunTime
+	METHOD a getStatus ()Lajt$a;
+	METHOD a isTimeLimitExceeded (J)Z
+		ARG 1 time
+	METHOD a hasRequiredMemoryState (Lais;)Z
+		ARG 1 entity
+	METHOD a shouldRun (Lvg;Lais;)Z
+		ARG 1 world
+		ARG 2 entity
+	METHOD a run (Lvg;Lais;J)V
+		ARG 1 world
+		ARG 2 entity
+		ARG 3 time
+	METHOD b tryStarting (Lvg;Lais;J)Z
+		ARG 1 world
+		ARG 2 entity
+		ARG 3 time
+	METHOD c tick (Lvg;Lais;J)V
+		ARG 3 time
+	METHOD d keepRunning (Lvg;Lais;J)V
+		ARG 1 world
+		ARG 2 entity
+		ARG 3 time
+	METHOD e stop (Lvg;Lais;J)V
+		ARG 1 world
+		ARG 2 entity
+		ARG 3 time
+	METHOD f finishRunning (Lvg;Lais;J)V
+		ARG 3 time
+	METHOD g shouldKeepRunning (Lvg;Lais;J)Z
+		ARG 1 world
+		ARG 2 entity
+		ARG 3 time

@@ -1,0 +1,4 @@
+CLASS bdr net/minecraft/enchantment/FlameEnchantment
+	METHOD <init> (Lbdz$a;[Laib;)V
+		ARG 1 weight
+		ARG 2 slotTypes

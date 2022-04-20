@@ -1,0 +1,27 @@
+CLASS anr net/minecraft/entity/decoration/EntityItemFrame
+	FIELD au itemDropChance F
+	FIELD e ITEM_STACK Lpm;
+	FIELD f ROTATION Lpm;
+	METHOD a shouldRender (D)Z
+	METHOD a setRotation (I)V
+	METHOD a setRotation (IZ)V
+		ARG 1 value
+	METHOD a damage (Lafl;F)Z
+		ARG 1 source
+	METHOD a copyEntityData (Lagc;)V
+	METHOD a setHeldItemStack (Lavf;Z)V
+		ARG 1 value
+	METHOD a setFacing (Lex;)V
+	METHOD a deserializeCustomData (Lho;)V
+	METHOD a onTrackedDataSet (Lpm;)V
+	METHOD b interact (Laqa;Laev;)Z
+		ARG 1 player
+	METHOD b setHeldItemStack (Lavf;)V
+	METHOD b serializeCustomData (Lho;)V
+	METHOD bH getEyeHeight ()F
+	METHOD k getWidthPixels ()I
+	METHOD l getHeightPixels ()I
+	METHOD m onDecorationPlaced ()V
+	METHOD o getHeldItemStack ()Lavf;
+	METHOD p getRotation ()I
+	METHOD y_ initDataTracker ()V

@@ -1,0 +1,12 @@
+CLASS arv net/minecraft/entity/vehicle/MobSpawnerMinecartEntity
+	CLASS arv$1
+		METHOD a getWorld ()Lbaq;
+		METHOD b getPos ()Let;
+	FIELD a logic Lazz;
+	METHOD U_ update ()V
+	METHOD a readCustomDataFromTag (Lhp;)V
+		ARG 1 tag
+	METHOD b writeCustomDataToTag (Lhp;)V
+		ARG 1 tag
+	METHOD v getMinecartType ()Larn$a;
+	METHOD z getDefaultContainedBlock ()Lboj;

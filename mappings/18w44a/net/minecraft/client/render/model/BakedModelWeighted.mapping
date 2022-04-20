@@ -1,0 +1,23 @@
+CLASS dkt net/minecraft/client/render/model/BakedModelWeighted
+	CLASS dkt$a Builder
+		FIELD a models Ljava/util/List;
+		METHOD a getFirst ()Ldkj;
+		METHOD a add (Ldkj;I)Ldkt$a;
+	CLASS dkt$b ModelEntry
+		FIELD b model Ldkj;
+		METHOD <init> (Ldkj;I)V
+			ARG 0 model
+			ARG 1 weight
+	FIELD a totalWeight I
+	FIELD b models Ljava/util/List;
+	FIELD c defaultModel Ldkj;
+	METHOD a useAmbientOcclusion ()Z
+	METHOD a getQuads (Lbnh;Lev;Ljava/util/Random;)Ljava/util/List;
+		ARG 1 state
+		ARG 2 face
+		ARG 3 rand
+	METHOD b hasDepthInGui ()Z
+	METHOD c isBuiltin ()Z
+	METHOD d getSprite ()Ldjb;
+	METHOD e getTransformations ()Ldbc;
+	METHOD f getItemPropertyOverrides ()Ldba;

@@ -1,0 +1,23 @@
+CLASS avw net/minecraft/world/gen/chunk/ChunkGeneratorEnd
+	FIELD a END_STONE Latj;
+	FIELD b AIR Latj;
+	FIELD h rand Ljava/util/Random;
+	FIELD l world Lajq;
+	FIELD m generateStructures Z
+	METHOD a generateChunk (II)Laum;
+		ARG 0 x
+		ARG 1 z
+	METHOD a generateMonuments (Laum;II)Z
+		ARG 0 chunk
+		ARG 1 x
+		ARG 2 z
+	METHOD a getSpawnableEntites (Lsx;Lco;)Ljava/util/List;
+		ARG 0 type
+		ARG 1 pos
+	METHOD b populateTerrain (II)V
+		ARG 0 x
+		ARG 1 z
+	METHOD b generateStructures (Laum;II)V
+		ARG 0 chunk
+		ARG 1 x
+		ARG 2 z

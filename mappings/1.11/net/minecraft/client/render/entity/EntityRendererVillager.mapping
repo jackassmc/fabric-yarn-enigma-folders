@@ -1,0 +1,12 @@
+CLASS bwn net/minecraft/client/render/entity/EntityRendererVillager
+	FIELD a VILLAGER_SKIN Lkq;
+	FIELD k LIBRARIAN_SKIN Lkq;
+	FIELD l PRIEST_SKIN Lkq;
+	FIELD m BLACKSMITH_SKIN Lkq;
+	FIELD n BUTCHER_SKIN Lkq;
+	METHOD a getTexture (Laas;)Lkq;
+		ARG 0 model
+	METHOD a (Laas;F)V
+		ARG 0 entityVillager
+	METHOD a getTexture (Lsm;)Lkq;
+		ARG 0 model

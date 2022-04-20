@@ -1,0 +1,5 @@
+CLASS dkr net/minecraft/client/texture/NativeImageBackedTexture
+	FIELD f image Lcme;
+	METHOD a setImage (Lcme;)V
+	METHOD a load (Lvz;)V
+	METHOD e getImage ()Lcme;

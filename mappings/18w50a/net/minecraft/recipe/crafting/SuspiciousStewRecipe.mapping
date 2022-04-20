@@ -1,0 +1,7 @@
+CLASS azg net/minecraft/recipe/crafting/SuspiciousStewRecipe
+	METHOD a fits (II)Z
+		ARG 1 width
+	METHOD a craft (Lafi;)Lawo;
+	METHOD a matches (Lafi;Lbbp;)Z
+		ARG 1 inv
+	METHOD af_ getSerializer ()Layy;

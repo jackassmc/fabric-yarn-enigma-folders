@@ -1,0 +1,26 @@
+CLASS cjs net/minecraft/world/loot/LootPool
+	CLASS cjs$a Builder
+		FIELD a entries Ljava/util/List;
+		FIELD b conditions Ljava/util/List;
+		FIELD c functions Ljava/util/List;
+		FIELD d rolls Lcjw;
+		FIELD e range Lcjy;
+		METHOD a withRolls (Lcjw;)Lcjs$a;
+		METHOD a withEntry (Lcki$a;)Lcjs$a;
+		METHOD a withFunction (Lckz$a;)Lcjs$a;
+		METHOD a withCondition (Lcmc$a;)Lcjs$a;
+		METHOD b build ()Lcjs;
+	CLASS cjs$b Serializer
+		METHOD a serialize (Lcjs;Ljava/lang/reflect/Type;Lcom/google/gson/JsonSerializationContext;)Lcom/google/gson/JsonElement;
+		METHOD a desearialize (Lcom/google/gson/JsonElement;Ljava/lang/reflect/Type;Lcom/google/gson/JsonDeserializationContext;)Lcjs;
+	FIELD a entries [Lcki;
+	FIELD b conditions [Lcmc;
+	FIELD c predicate Ljava/util/function/Predicate;
+	FIELD d functions [Lckz;
+	FIELD e javaFunctions Ljava/util/function/BiFunction;
+	FIELD f rolls Lcjw;
+	FIELD g bonusRolls Lcjy;
+	METHOD a create ()Lcjs$a;
+	METHOD a check (Lcju;Ljava/util/function/Function;Ljava/util/Set;Lclp;)V
+	METHOD a drop (Ljava/util/function/Consumer;Lcjq;)V
+	METHOD b supplyOnce (Ljava/util/function/Consumer;Lcjq;)V

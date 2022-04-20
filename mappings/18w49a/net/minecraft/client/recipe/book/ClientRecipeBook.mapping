@@ -1,0 +1,2 @@
+CLASS cny net/minecraft/client/recipe/book/ClientRecipeBook
+	FIELD g manager Layb;

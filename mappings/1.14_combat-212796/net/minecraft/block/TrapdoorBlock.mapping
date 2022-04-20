@@ -1,0 +1,18 @@
+CLASS bsp net/minecraft/block/TrapdoorBlock
+	FIELD a OPEN Lbwh;
+	FIELD b HALF Lbwn;
+	FIELD c POWERED Lbwh;
+	FIELD d WATERLOGGED Lbwh;
+	FIELD e EAST_SHAPE Lcsw;
+	FIELD f WEST_SHAPE Lcsw;
+	FIELD g SOUTH_SHAPE Lcsw;
+	FIELD h NORTH_SHAPE Lcsw;
+	FIELD i OPEN_BOTTOM_SHAPE Lcsw;
+	FIELD j OPEN_TOP_SHAPE Lcsw;
+	METHOD <init> (Lbmr$c;)V
+		ARG 1 settings
+	METHOD a playToggleSound (Lawb;Lbhn;Lev;Z)V
+		ARG 1 player
+		ARG 2 world
+		ARG 3 pos
+		ARG 4 open

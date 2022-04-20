@@ -1,0 +1,2 @@
+CLASS wk net/minecraft/resource/DefaultResourcePackCreator
+	FIELD a pack Lvz;

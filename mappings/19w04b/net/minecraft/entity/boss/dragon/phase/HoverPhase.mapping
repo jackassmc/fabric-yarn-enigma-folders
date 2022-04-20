@@ -1,0 +1,3 @@
+CLASS aoe net/minecraft/entity/boss/dragon/phase/HoverPhase
+	METHOD <init> (Lanx;)V
+		ARG 1 dragon

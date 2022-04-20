@@ -1,0 +1,3 @@
+CLASS bqd net/minecraft/block/PlayerSkullBlock
+	METHOD <init> (Lbmj$c;)V
+		ARG 1 settings

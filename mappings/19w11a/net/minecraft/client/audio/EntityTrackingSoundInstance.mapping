@@ -1,0 +1,2 @@
+CLASS dvh net/minecraft/client/audio/EntityTrackingSoundInstance
+	FIELD n entity Lahw;

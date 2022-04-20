@@ -1,0 +1,5 @@
+CLASS apx net/minecraft/entity/ai/brain/sensor/SensorType
+	FIELD k factory Ljava/util/function/Supplier;
+	METHOD a create ()Lapw;
+	METHOD a register (Ljava/lang/String;Ljava/util/function/Supplier;)Lapx;
+		ARG 0 id

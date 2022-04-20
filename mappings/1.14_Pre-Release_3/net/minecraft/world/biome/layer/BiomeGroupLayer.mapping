@@ -1,0 +1,4 @@
+CLASS cln net/minecraft/world/biome/layer/BiomeGroupLayer
+	CLASS cln$a AddGroup2Layer
+	CLASS cln$b AddGroup3Layer
+	CLASS cln$c AddSpecialBiomesLayer

@@ -1,0 +1,9 @@
+CLASS btl net/minecraft/block/entity/BarrelBlockEntity
+	FIELD a inventory Lfj;
+	FIELD b viewerCount I
+	METHOD a playSound (Lbvo;Lym;)V
+	METHOD a setOpen (Lbvo;Z)V
+		ARG 1 state
+		ARG 2 open
+	METHOD h tick ()V
+	METHOD s scheduleUpdate ()V

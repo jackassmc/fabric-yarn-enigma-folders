@@ -1,0 +1,14 @@
+CLASS cow net/minecraft/world/loot/LootChoiceProvider
+	FIELD a ALWAYS_FALSE Lcow;
+	FIELD b ALWAYS_TRUE Lcow;
+	METHOD a doExpand (Lcol;Ljava/util/function/Consumer;)Z
+	METHOD a and (Lcow;)Lcow;
+		ARG 1 other
+	METHOD a (Lcow;Lcol;Ljava/util/function/Consumer;)Z
+		ARG 2 context
+		ARG 3 lootChoiceExpander
+	METHOD b or (Lcow;)Lcow;
+		ARG 1 other
+	METHOD b (Lcow;Lcol;Ljava/util/function/Consumer;)Z
+		ARG 2 context
+		ARG 3 lootChoiceExpander

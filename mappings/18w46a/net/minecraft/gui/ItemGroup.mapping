@@ -1,0 +1,103 @@
+CLASS atw net/minecraft/gui/ItemGroup
+	CLASS atw$1
+		METHOD <init> (ILjava/lang/String;)V
+			ARG 0 id
+			ARG 1 unlocalizedName
+		METHOD f getIconItem ()Lavf;
+	CLASS atw$2
+		METHOD <init> (ILjava/lang/String;)V
+			ARG 0 id
+			ARG 1 unlocalizedName
+		METHOD f getIconItem ()Lavf;
+	CLASS atw$3
+		METHOD <init> (ILjava/lang/String;)V
+			ARG 0 id
+			ARG 1 unlocalizedName
+		METHOD a getStacksForDisplay (Lfg;)V
+			ARG 0 stackList
+		METHOD f getIconItem ()Lavf;
+		METHOD n isTabRightAligned ()Z
+	CLASS atw$4
+		METHOD <init> (ILjava/lang/String;)V
+			ARG 0 id
+			ARG 1 unlocalizedName
+		METHOD f getIconItem ()Lavf;
+	CLASS atw$5
+		METHOD <init> (ILjava/lang/String;)V
+			ARG 0 id
+			ARG 1 unlocalizedName
+		METHOD f getIconItem ()Lavf;
+	CLASS atw$6
+		METHOD <init> (ILjava/lang/String;)V
+			ARG 0 id
+			ARG 1 unlocalizedName
+		METHOD f getIconItem ()Lavf;
+	CLASS atw$7
+		METHOD <init> (ILjava/lang/String;)V
+			ARG 0 id
+			ARG 1 unlocalizedName
+		METHOD f getIconItem ()Lavf;
+	CLASS atw$8
+		METHOD <init> (ILjava/lang/String;)V
+			ARG 0 id
+			ARG 1 unlocalizedName
+		METHOD f getIconItem ()Lavf;
+	CLASS atw$9
+		METHOD <init> (ILjava/lang/String;)V
+			ARG 0 id
+			ARG 1 unlocalizedName
+		METHOD f getIconItem ()Lavf;
+	CLASS atw$10
+		METHOD <init> (ILjava/lang/String;)V
+			ARG 0 id
+			ARG 1 unlocalizedName
+		METHOD f getIconItem ()Lavf;
+	CLASS atw$11
+		METHOD <init> (ILjava/lang/String;)V
+			ARG 0 id
+			ARG 1 unlocalizedName
+		METHOD f getIconItem ()Lavf;
+	CLASS atw$12
+		METHOD <init> (ILjava/lang/String;)V
+			ARG 0 id
+			ARG 1 unlocalizedName
+		METHOD f getIconItem ()Lavf;
+	FIELD a TABS [Latw;
+	FIELD b BUILDING_BLOCKS Latw;
+	FIELD c DECORATIONS Latw;
+	FIELD d REDSTONE Latw;
+	FIELD e TRANSPORTATION Latw;
+	FIELD f MISC Latw;
+	FIELD g SEARCH Latw;
+	FIELD h FOOD Latw;
+	FIELD i TOOLS Latw;
+	FIELD j COMBAT Latw;
+	FIELD k BREWING Latw;
+	FIELD l MATERIALS Latw;
+	FIELD m HOTBAR Latw;
+	FIELD n INVENTORY Latw;
+	FIELD o id I
+	FIELD p unlocalizedName Ljava/lang/String;
+	FIELD r texture Ljava/lang/String;
+	FIELD s useScrollBar Z
+	FIELD t tooltip Z
+	FIELD u enchantmentTypes [Layi;
+	FIELD v stack Lavf;
+	METHOD a getId ()I
+	METHOD a containsEnchantmentType (Layi;)Z
+	METHOD a getStacksForDisplay (Lfg;)V
+	METHOD a setTexture (Ljava/lang/String;)Latw;
+	METHOD a setEnchantmentTypes ([Layi;)Latw;
+	METHOD b getUntranslatedName ()Ljava/lang/String;
+	METHOD d getTranslationKey ()Ljava/lang/String;
+	METHOD e getIconItemStack ()Lavf;
+	METHOD f getIconItem ()Lavf;
+	METHOD g getTexture ()Ljava/lang/String;
+	METHOD h hasTooltip ()Z
+	METHOD i disableTooltip ()Latw;
+	METHOD j useScrollBar ()Z
+	METHOD k setNotUseScrollBar ()Latw;
+	METHOD l getColumn ()I
+	METHOD m isTopRow ()Z
+	METHOD n isTabRightAligned ()Z
+	METHOD o getEnchantmentTypes ()[Layi;

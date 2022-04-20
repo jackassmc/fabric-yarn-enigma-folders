@@ -1,0 +1,3 @@
+CLASS axp net/minecraft/item/MinecartItem
+	FIELD a DISPENSER_BEHAVIOR Lfa;
+	FIELD b type Lasv$a;

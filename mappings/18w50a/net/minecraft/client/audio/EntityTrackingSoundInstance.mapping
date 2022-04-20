@@ -1,0 +1,3 @@
+CLASS dpp net/minecraft/client/audio/EntityTrackingSoundInstance
+	FIELD n entity Lagv;
+	METHOD e tick ()V

@@ -1,0 +1,4 @@
+CLASS djf net/minecraft/client/render/entity/EnderDragonDeathEntityRenderer
+	METHOD a shouldMergeTextures ()Z
+	METHOD a render (Lago;FFFFFFF)V
+	METHOD a render (Lamz;FFFFFFF)V

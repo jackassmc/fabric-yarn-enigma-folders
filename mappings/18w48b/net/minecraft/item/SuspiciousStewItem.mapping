@@ -1,0 +1,4 @@
+CLASS aww net/minecraft/item/SuspiciousStewItem
+	METHOD a onItemFinishedUsing (Lavs;Lbaq;Lagr;)Lavs;
+		ARG 1 stack
+		ARG 2 world

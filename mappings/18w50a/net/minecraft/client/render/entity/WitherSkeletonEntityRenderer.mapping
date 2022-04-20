@@ -1,0 +1,5 @@
+CLASS dll net/minecraft/client/render/entity/WitherSkeletonEntityRenderer
+	FIELD a SKIN Lqc;
+	METHOD a getTexture (Lagv;)Lqc;
+	METHOD a getTexture (Lahf;)Lqc;
+	METHOD a getTexture (Lapc;)Lqc;

@@ -1,0 +1,28 @@
+CLASS abs net/minecraft/entity/thrown/EntityThrownPotion
+	METHOD <init> (Lajq;DDDLafi;)V
+		ARG 0 world
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 stack
+	METHOD <init> (Lajq;Lsv;Lafi;)V
+		ARG 0 world
+		ARG 1 owner
+		ARG 2 stack
+	METHOD a setItemStack (Lafi;)V
+		ARG 0 value
+	METHOD a onCollision (Lbds;)V
+		ARG 0 hit
+	METHOD a extinguishFire (Lco;)V
+		ARG 0 pos
+	METHOD a deserializeCustomData (Ldu;)V
+		ARG 0 tag
+	METHOD a doesWaterHurt (Lsv;)Z
+		ARG 0 entity
+	METHOD b serializeCustomData (Ldu;)V
+		ARG 0 tag
+	METHOD b registerTagUpgraders (Lph;)V
+		ARG 0 handler
+	METHOD i initDataTracker ()V
+	METHOD l getItemStack ()Lafi;
+	METHOD o isLingering ()Z

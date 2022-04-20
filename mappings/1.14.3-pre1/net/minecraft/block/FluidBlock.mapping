@@ -1,0 +1,14 @@
+CLASS bps net/minecraft/block/FluidBlock
+	FIELD a LEVEL Lbwl;
+	FIELD b fluid Lcla;
+	FIELD c statesByLevel Ljava/util/List;
+	METHOD <init> (Lcla;Lbmn$c;)V
+		ARG 1 fluid
+		ARG 2 settings
+	METHOD a receiveNeighborFluids (Lbhj;Lev;Lbvl;)Z
+		ARG 1 world
+		ARG 2 pos
+		ARG 3 state
+	METHOD a playExtinguishSound (Lbhk;Lev;)V
+		ARG 1 world
+		ARG 2 pos

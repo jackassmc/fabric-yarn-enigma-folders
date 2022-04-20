@@ -1,0 +1,2 @@
+CLASS ask net/minecraft/entity/FlyingItemEntity
+	METHOD f getItem ()Laxw;

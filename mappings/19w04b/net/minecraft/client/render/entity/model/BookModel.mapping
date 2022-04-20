@@ -1,0 +1,18 @@
+CLASS cyv net/minecraft/client/render/entity/model/BookModel
+	FIELD a leftCover Ldbu;
+	FIELD b rightCover Ldbu;
+	FIELD c leftBlock Ldbu;
+	FIELD d rightBlock Ldbu;
+	FIELD e leftPage Ldbu;
+	FIELD f rightPage Ldbu;
+	FIELD g spine Ldbu;
+	METHOD a render (FFFFFF)V
+		ARG 1 ticks
+		ARG 2 leftPageAngle
+		ARG 3 rightPageAngle
+		ARG 4 pageTurningSpeed
+	METHOD b setPageAngles (FFFFFF)V
+		ARG 1 ticks
+		ARG 2 leftPageAngle
+		ARG 3 rightPageAngle
+		ARG 4 pageTurningSpeed

@@ -1,0 +1,17 @@
+CLASS dvv net/minecraft/client/render/model/WeightedBakedModel
+	CLASS dvv$a Builder
+		FIELD a models Ljava/util/List;
+		METHOD a getFirst ()Ldvl;
+		METHOD a add (Ldvl;I)Ldvv$a;
+			ARG 1 model
+			ARG 2 weight
+	CLASS dvv$b ModelEntry
+		FIELD b model Ldvl;
+		METHOD <init> (Ldvl;I)V
+			ARG 1 model
+			ARG 2 weight
+	FIELD a totalWeight I
+	FIELD b models Ljava/util/List;
+	FIELD c defaultModel Ldvl;
+	METHOD <init> (Ljava/util/List;)V
+		ARG 1 models

@@ -1,0 +1,2 @@
+CLASS doc net/minecraft/client/render/debug/HeightmapDebugRenderer
+	FIELD a client Lcvp;

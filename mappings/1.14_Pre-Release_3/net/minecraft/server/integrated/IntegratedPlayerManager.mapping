@@ -1,0 +1,2 @@
+CLASS dxc net/minecraft/server/integrated/IntegratedPlayerManager
+	FIELD f userData Lib;

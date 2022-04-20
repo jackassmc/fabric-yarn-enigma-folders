@@ -1,0 +1,30 @@
+CLASS aqp net/minecraft/entity/mob/SpiderEntity
+	CLASS aqp$a
+		METHOD a canStart ()Z
+		METHOD b shouldContinue ()Z
+	CLASS aqp$c
+		METHOD a canStart ()Z
+	FIELD b SPIDER_FLAGS Lpt;
+	METHOD <init> (Lahh;Lbcf;)V
+		ARG 1 type
+	METHOD D getAmbientSound ()Lxt;
+	METHOD a prepareEntityData (Lbcg;Lafx;Lahp;Lahx;Lhs;)Lahx;
+		ARG 3 difficulty
+	METHOD a slowMovement (Lbqe;Lcms;)V
+		ARG 1 state
+	METHOD a playStepSound (Let;Lbqe;)V
+		ARG 1 pos
+	METHOD a setCanClimb (Z)V
+	METHOD aM getMountedHeightOffset ()D
+	METHOD b createNavigation (Lbcf;)Lalp;
+	METHOD bH getEyeHeight ()F
+	METHOD cF getGroup ()Lahq;
+	METHOD cb initAttributes ()V
+	METHOD cw getDeathSound ()Lxt;
+	METHOD d isPotionEffective (Lagw;)Z
+	METHOD e getHurtSound (Lagm;)Lxt;
+	METHOD h update ()V
+	METHOD l getCanClimb ()Z
+	METHOD n prepareGoals ()V
+	METHOD w_ initDataTracker ()V
+	METHOD y_ canClimb ()Z

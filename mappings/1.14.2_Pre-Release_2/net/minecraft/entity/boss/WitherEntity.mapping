@@ -1,0 +1,40 @@
+CLASS atb net/minecraft/entity/boss/WitherEntity
+	FIELD bA INVUL_TIMER Lqh;
+	FIELD bB sideHeadPitches [F
+	FIELD bC sideHeadYaws [F
+	FIELD bD prevSideHeadPitches [F
+	FIELD bE prevSideHeadYaws [F
+	FIELD bI bossBar Lvd;
+	FIELD bJ CAN_ATTACK_PREDICATE Ljava/util/function/Predicate;
+	FIELD bK HEAD_TARGET_PREDICATE Laqa;
+	FIELD b TRACKED_ENTITY_ID_1 Lqh;
+	FIELD bz TRACKED_ENTITY_IDS Ljava/util/List;
+	FIELD c TRACKED_ENTITY_ID_2 Lqh;
+	FIELD d TRACKED_ENTITY_ID_3 Lqh;
+	METHOD a getNextAngle (FFF)F
+		ARG 1 prevAngle
+		ARG 2 desiredAngle
+		ARG 3 maxDifference
+	METHOD a getHeadYaw (I)F
+		ARG 1 headIndex
+	METHOD a (IDDDZ)V
+		ARG 1 headIndex
+	METHOD a setTrackedEntityId (II)V
+		ARG 1 headIndex
+		ARG 2 id
+	METHOD b getHeadPitch (I)F
+		ARG 1 headIndex
+	METHOD b canDestroy (Lbvk;)Z
+		ARG 0 block
+	METHOD dV getInvulTimer ()I
+	METHOD dW isAtHalfHealth ()Z
+	METHOD q setInvulTimer (I)V
+		ARG 1 ticks
+	METHOD r getTrackedEntityId (I)I
+		ARG 1 headIndex
+	METHOD s getHeadX (I)D
+		ARG 1 headIndex
+	METHOD t getHeadY (I)D
+		ARG 1 headIndex
+	METHOD u getHeadZ (I)D
+		ARG 1 headIndex

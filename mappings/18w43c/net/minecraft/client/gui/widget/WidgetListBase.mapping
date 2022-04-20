@@ -1,0 +1,47 @@
+CLASS clb net/minecraft/client/gui/widget/WidgetListBase
+	FIELD a game Lcjk;
+	FIELD f width I
+	FIELD g height I
+	FIELD h y1 I
+	FIELD i y2 I
+	FIELD j x2 I
+	FIELD k x1 I
+	FIELD l entryHeight I
+	METHOD a isSelected (I)Z
+		ARG 0 index
+	METHOD a draw (IIF)V
+		ARG 0 mouseX
+		ARG 1 mouseY
+		ARG 2 delta
+	METHOD a drawEntries (IIIIF)V
+	METHOD a drawEntry (IIIIIIF)V
+		ARG 0 x
+		ARG 1 y
+	METHOD c (IIII)V
+		ARG 0 width
+		ARG 1 height
+		ARG 2 y1
+		ARG 3 y2
+	METHOD d getEntryCount ()I
+	METHOD e getEntryWidth ()I
+	METHOD e scrollByY (I)V
+		ARG 0 dy
+	METHOD f getScrollbarPosition ()I
+	METHOD f setLeftPos (I)V
+		ARG 0 x1
+	METHOD keyPressed (III)Z
+		ARG 0 keyCode
+		ARG 1 scanCode
+	METHOD mouseClicked (DDI)Z
+		ARG 0 mouseX
+		ARG 1 mouseY
+		ARG 2 keyCode
+	METHOD mouseReleased (DDI)Z
+		ARG 0 mouseX
+		ARG 1 mouseY
+		ARG 2 keyCode
+	METHOD n getContentHeight ()I
+	METHOD o clampScrollY ()V
+	METHOD p getMaxScrollY ()I
+	METHOD q getScrollY ()I
+	METHOD s getEntryHeight ()I

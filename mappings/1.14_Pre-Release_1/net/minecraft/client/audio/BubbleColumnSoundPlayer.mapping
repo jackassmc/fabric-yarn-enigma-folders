@@ -1,0 +1,4 @@
+CLASS dwb net/minecraft/client/audio/BubbleColumnSoundPlayer
+	FIELD a player Ldjm;
+	FIELD b hasPlayedForCurrentColumn Z
+	FIELD c firstTick Z

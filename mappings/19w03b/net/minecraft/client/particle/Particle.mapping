@@ -1,0 +1,73 @@
+CLASS ddr net/minecraft/client/particle/Particle
+	FIELD A colorBlue F
+	FIELD B colorAlpha F
+	FIELD C sprite Ldor;
+	FIELD F cameraX D
+	FIELD G cameraY D
+	FIELD H cameraZ D
+	FIELD I cameraRotation Lcmx;
+	FIELD J EMPTY_BOUNDING_BOX Lcms;
+	FIELD K boundingBox Lcms;
+	FIELD a world Lbci;
+	FIELD b prevPosX D
+	FIELD c prevPosY D
+	FIELD d prevPosZ D
+	FIELD e posX D
+	FIELD f posY D
+	FIELD g posZ D
+	FIELD h velocityX D
+	FIELD i velocityY D
+	FIELD j velocityZ D
+	FIELD k onGround Z
+	FIELD l collidesWithWorld Z
+	FIELD m dead Z
+	FIELD n spacingXZ F
+	FIELD o spacingY F
+	FIELD p random Ljava/util/Random;
+	FIELD q tileU I
+	FIELD r tileV I
+	FIELD u age I
+	FIELD v maxAge I
+	FIELD w size F
+	FIELD x gravityStrength F
+	FIELD y colorRed F
+	FIELD z colorGreen F
+	METHOD <init> (Lbci;DDDDDD)V
+		ARG 1 world
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z
+	METHOD a update ()V
+	METHOD a move (DDD)V
+		ARG 1 dx
+		ARG 3 dy
+		ARG 5 dz
+	METHOD a getColorMultiplier (F)I
+	METHOD a setBoundingBoxSpacing (FF)V
+		ARG 1 spacingXZ
+	METHOD a setColor (FFF)V
+		ARG 1 red
+		ARG 2 green
+	METHOD a setSpriteIndex (I)V
+	METHOD a setBoundingBox (Lcms;)V
+	METHOD a buildGeometry (Lcpo;Lahc;FFFFFF)V
+		ARG 1 vertexBuffer
+		ARG 2 entity
+	METHOD a setSprite (Ldor;)V
+	METHOD b getParticleGroup ()I
+	METHOD b setPos (DDD)V
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+	METHOD b setMaxAge (I)V
+	METHOD c hasAlpha ()Z
+	METHOD d getColorRed ()F
+	METHOD e getColorGreen ()F
+	METHOD e setColorAlpha (F)V
+	METHOD f getColorBlue ()F
+	METHOD h getMaxAge ()I
+	METHOD i incSpriteIndex ()V
+	METHOD j markDead ()V
+	METHOD k repositionFromBoundingBox ()V
+	METHOD l isAlive ()Z
+	METHOD m getBoundingBox ()Lcms;

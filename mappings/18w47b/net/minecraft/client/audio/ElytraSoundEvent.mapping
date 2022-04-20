@@ -1,0 +1,4 @@
+CLASS dmq net/minecraft/client/audio/ElytraSoundEvent
+	FIELD n player Ldat;
+	FIELD o tickCount I
+	METHOD ac_ tick ()V

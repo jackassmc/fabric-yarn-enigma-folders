@@ -1,0 +1,2 @@
+CLASS auq net/minecraft/container/ArrayPropertyDelegate
+	FIELD a data [I

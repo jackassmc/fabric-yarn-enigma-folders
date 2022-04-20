@@ -1,0 +1,12 @@
+CLASS dik net/minecraft/client/render/model/BakedModelManager
+	FIELD b spriteMap Ldgy;
+	FIELD c blockStateMaps Lcye;
+	FIELD d missingModel Ldig;
+	METHOD <init> (Ldgy;)V
+		ARG 0 textures
+	METHOD a getMissingModel ()Ldig;
+	METHOD a getModel (Ldil;)Ldig;
+		ARG 0 identifier
+	METHOD a onResourceReload (Lvs;)V
+		ARG 0 container
+	METHOD b getBlockStateMaps ()Lcye;

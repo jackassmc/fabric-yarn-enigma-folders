@@ -1,0 +1,2 @@
+CLASS dfo net/minecraft/client/particle/CurrentDownParticle
+	CLASS dfo$a Factory

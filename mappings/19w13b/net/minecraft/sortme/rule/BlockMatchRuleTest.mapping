@@ -1,0 +1,4 @@
+CLASS cid net/minecraft/sortme/rule/BlockMatchRuleTest
+	FIELD a block Lbly;
+	METHOD <init> (Lbly;)V
+		ARG 1 block

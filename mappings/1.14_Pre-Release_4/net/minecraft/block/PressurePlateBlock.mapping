@@ -1,0 +1,9 @@
+CLASS bqi net/minecraft/block/PressurePlateBlock
+	CLASS bqi$a Type
+		FIELD a WOOD Lbqi$a;
+		FIELD b STONE Lbqi$a;
+	FIELD d POWERED Lbvz;
+	FIELD e type Lbqi$a;
+	METHOD <init> (Lbqi$a;Lbmj$c;)V
+		ARG 1 type
+		ARG 2 settings

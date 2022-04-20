@@ -1,0 +1,2 @@
+CLASS dmg net/minecraft/client/render/entity/SquidEntityRenderer
+	FIELD a SKIN Lqd;

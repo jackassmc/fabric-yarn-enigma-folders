@@ -1,0 +1,10 @@
+CLASS bsb net/minecraft/client/particle/ParticleSomething
+	CLASS bsb$a FactoryHappy
+		METHOD a createParticle (ILali;DDDDDD[I)Lbro;
+	CLASS bsb$b FactorySomething
+		METHOD a createParticle (ILali;DDDDDD[I)Lbro;
+	METHOD a update ()V
+	METHOD a addPos (DDD)V
+		ARG 0 dx
+		ARG 1 dy
+		ARG 2 dz

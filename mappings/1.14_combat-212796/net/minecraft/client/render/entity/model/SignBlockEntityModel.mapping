@@ -1,0 +1,4 @@
+CLASS dgh net/minecraft/client/render/entity/model/SignBlockEntityModel
+	FIELD b signpost Ldhi;
+	METHOD a render ()V
+	METHOD b getSignpostModel ()Ldhi;

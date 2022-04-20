@@ -1,0 +1,22 @@
+CLASS cmo net/minecraft/client/gl/GlShader
+	CLASS cmo$a Type
+		FIELD a VERTEX Lcmo$a;
+		FIELD b FRAGMENT Lcmo$a;
+		FIELD c name Ljava/lang/String;
+		FIELD d fileExtension Ljava/lang/String;
+		FIELD e shaderType I
+		FIELD f nameObjectMap Ljava/util/Map;
+		METHOD a getName ()Ljava/lang/String;
+		METHOD b getFileExtension ()Ljava/lang/String;
+		METHOD c getNameObjectMap ()Ljava/util/Map;
+		METHOD d getShaderType ()I
+	FIELD a shaderType Lcmo$a;
+	FIELD b name Ljava/lang/String;
+	FIELD c shaderRef I
+	FIELD d refCount I
+	METHOD <init> (Lcmo$a;ILjava/lang/String;)V
+		ARG 1 shaderType
+		ARG 2 shaderRef
+	METHOD a attachTo (Lcmn;)V
+	METHOD a createFromResource (Lcmo$a;Ljava/lang/String;Ljava/io/InputStream;)Lcmo;
+	METHOD b getName ()Ljava/lang/String;

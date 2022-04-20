@@ -1,0 +1,7 @@
+CLASS ddz net/minecraft/client/particle/DragonBreathParticle
+	CLASS ddz$a Factory
+	METHOD <init> (Lbdf;DDDDDDLdfe;)V
+		ARG 1 world
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z

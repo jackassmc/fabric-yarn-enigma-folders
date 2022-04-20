@@ -1,0 +1,6 @@
+CLASS akx net/minecraft/entity/ai/pathing/SpiderNavigation
+	METHOD <init> (Lagu;Lbas;)V
+		ARG 1 entity
+	METHOD a findPathTo (Lagk;)Lcgg;
+	METHOD b findPathTo (Let;)Lcgg;
+	METHOD d tick ()V

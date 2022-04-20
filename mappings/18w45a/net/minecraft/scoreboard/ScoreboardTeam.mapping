@@ -1,0 +1,30 @@
+CLASS cjq net/minecraft/scoreboard/ScoreboardTeam
+	FIELD a scoreboard Lcjs;
+	FIELD b name Ljava/lang/String;
+	FIELD c playerList Ljava/util/Set;
+	FIELD d displayName Liz;
+	FIELD g friendlyFire Z
+	FIELD h showFriendlyInvisibles Z
+	FIELD i nameTagVisibilityRule Lcju$b;
+	FIELD j deathMessageVisibilityRule Lcju$b;
+	FIELD k color La;
+	FIELD l collisionRule Lcju$a;
+	METHOD <init> (Lcjs;Ljava/lang/String;)V
+		ARG 1 scoreboard
+	METHOD a setFriendlyFlagsBitwise (I)V
+	METHOD a setColor (La;)V
+	METHOD a setCollisionRule (Lcju$a;)V
+	METHOD a setNameTagVisibilityRule (Lcju$b;)V
+	METHOD a setFriendlyFireAllowed (Z)V
+	METHOD b getName ()Ljava/lang/String;
+	METHOD b setDeathMessageVisibilityRule (Lcju$b;)V
+	METHOD b setShowFriendlyInvisibles (Z)V
+	METHOD c getDisplayName ()Liz;
+	METHOD g getPlayerList ()Ljava/util/Collection;
+	METHOD h isFriendlyFireAllowed ()Z
+	METHOD i shouldShowFriendlyInvisibles ()Z
+	METHOD j getNameTagVisibilityRule ()Lcju$b;
+	METHOD k getDeathMessageVisibilityRule ()Lcju$b;
+	METHOD l getCollisionRule ()Lcju$a;
+	METHOD m getFriendlyFlagsBitwise ()I
+	METHOD n getColor ()La;

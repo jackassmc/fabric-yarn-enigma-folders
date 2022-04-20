@@ -1,0 +1,2 @@
+CLASS bri net/minecraft/block/ReplaceableTallPlantBlock
+	FIELD b HALF Lbwn;

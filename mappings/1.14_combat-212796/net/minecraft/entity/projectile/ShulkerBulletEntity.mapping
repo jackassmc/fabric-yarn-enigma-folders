@@ -1,0 +1,22 @@
+CLASS aws net/minecraft/entity/projectile/ShulkerBulletEntity
+	FIELD as ownerUuid Ljava/util/UUID;
+	FIELD at ownerPos Lev;
+	FIELD au targetUuid Ljava/util/UUID;
+	FIELD av targetPos Lev;
+	FIELD b owner Laiu;
+	FIELD c target Lail;
+	FIELD d direction Lfa;
+	METHOD <init> (Lbhn;DDDDDD)V
+		ARG 1 world
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z
+		ARG 8 velocityX
+		ARG 10 velocityY
+		ARG 12 velocityZ
+	METHOD <init> (Lbhn;Laiu;Lail;Lfa$a;)V
+		ARG 1 world
+		ARG 2 owner
+		ARG 3 target
+	METHOD a onHit (Lcsa;)V
+	METHOD a setDirection (Lfa;)V

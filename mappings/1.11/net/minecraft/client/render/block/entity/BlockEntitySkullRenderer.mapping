@@ -1,0 +1,24 @@
+CLASS bsr net/minecraft/client/render/block/entity/BlockEntitySkullRenderer
+	FIELD a INSTANCE Lbsr;
+	FIELD d SKELETON_TEX Lkq;
+	FIELD e WITHER_SKELTON_TEX Lkq;
+	FIELD f ZOMBIE_TEX Lkq;
+	FIELD g CREEEPER_TEX Lkq;
+	FIELD h DRAGON_TEX Lkq;
+	FIELD i DRAGON_HEAD_MODEL Lbna;
+	METHOD a render (Lasa;DDDFI)V
+		ARG 0 te
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 delta
+		ARG 5 destroyStage
+	METHOD a render (Lasu;DDDFI)V
+		ARG 0 te
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 delta
+		ARG 5 destroyStage
+	METHOD a setRenderManager (Lbsi;)V
+		ARG 0 renderManager

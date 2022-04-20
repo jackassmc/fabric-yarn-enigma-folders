@@ -1,0 +1,9 @@
+CLASS cxo net/minecraft/client/toast/Toast
+	CLASS cxo$a Visibility
+		FIELD c sound Lyi;
+		METHOD a play (Ldxq;)V
+	FIELD a TOASTS_TEX Lqs;
+	METHOD a draw (Lcxp;J)Lcxo$a;
+		ARG 1 manager
+		ARG 2 currentTime
+	METHOD b getType ()Ljava/lang/Object;

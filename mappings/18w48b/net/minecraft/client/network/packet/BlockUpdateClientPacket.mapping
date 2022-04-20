@@ -1,0 +1,11 @@
+CLASS kd net/minecraft/client/network/packet/BlockUpdateClientPacket
+	FIELD a pos Let;
+	FIELD b state Lboj;
+	METHOD <init> (Lbac;Let;)V
+		ARG 1 world
+	METHOD a read (Liq;)V
+	METHOD a apply (Lit;)V
+	METHOD a apply (Ljr;)V
+	METHOD b getState ()Lboj;
+	METHOD b write (Liq;)V
+	METHOD c getPos ()Let;

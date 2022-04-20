@@ -1,0 +1,15 @@
+CLASS cdq net/minecraft/fluid/FluidState
+	METHOD a deserialize (Lcom/mojang/datafixers/Dynamic;)Lcdq;
+		ARG 0 dynamic
+	METHOD a serialize (Lcom/mojang/datafixers/types/DynamicOps;Lcdq;)Lcom/mojang/datafixers/Dynamic;
+		ARG 0 ops
+		ARG 1 state
+	METHOD a matches (Lxx;)Z
+	METHOD b onRandomTick (Lbaq;Let;Ljava/util/Random;)V
+	METHOD c getFluid ()Lcdp;
+	METHOD d isStill ()Z
+	METHOD e isEmpty ()Z
+	METHOD h hasRandomTicks ()Z
+	METHOD i getBlockState ()Lboj;
+	METHOD k getRenderLayer ()Lbad;
+	METHOD l getBlastResistance ()F

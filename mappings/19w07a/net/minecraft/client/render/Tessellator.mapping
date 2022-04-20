@@ -1,0 +1,7 @@
+CLASS cqa net/minecraft/client/render/Tessellator
+	FIELD a buffer Lcpx;
+	FIELD b renderer Lcpy;
+	FIELD c INSTANCE Lcqa;
+	METHOD a getInstance ()Lcqa;
+	METHOD b draw ()V
+	METHOD c getBufferBuilder ()Lcpx;

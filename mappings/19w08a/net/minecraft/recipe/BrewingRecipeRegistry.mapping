@@ -1,0 +1,37 @@
+CLASS azo net/minecraft/recipe/BrewingRecipeRegistry
+	CLASS azo$a Recipe
+		FIELD a input Ljava/lang/Object;
+		FIELD b ingredient Lbad;
+		FIELD c output Ljava/lang/Object;
+	FIELD a POTION_RECIPES Ljava/util/List;
+	FIELD b ITEM_RECIPES Ljava/util/List;
+	FIELD c POTION_TYPES Ljava/util/List;
+	FIELD d POTION_TYPE_PREDICATE Ljava/util/function/Predicate;
+	METHOD a registerDefaults ()V
+	METHOD a registerPotionType (Laxr;)V
+		ARG 0 item
+	METHOD a registerItemRecipe (Laxr;Laxr;Laxr;)V
+		ARG 0 input
+		ARG 1 ingredient
+		ARG 2 output
+	METHOD a isValidIngredient (Laxw;)Z
+		ARG 0 stack
+	METHOD a hasRecipe (Laxw;Laxw;)Z
+		ARG 0 input
+		ARG 1 ingredient
+	METHOD a registerPotionRecipe (Lazn;Laxr;Lazn;)V
+		ARG 0 input
+		ARG 2 output
+	METHOD b isItemRecipeIngredient (Laxw;)Z
+		ARG 0 stack
+	METHOD b hasItemRecipe (Laxw;Laxw;)Z
+		ARG 0 input
+		ARG 1 ingredien
+	METHOD c isPotionRecipeIngredient (Laxw;)Z
+		ARG 0 stack
+	METHOD c hasPotionRecipe (Laxw;Laxw;)Z
+		ARG 0 input
+		ARG 1 ingredient
+	METHOD d craft (Laxw;Laxw;)Laxw;
+		ARG 0 input
+		ARG 1 ingredient

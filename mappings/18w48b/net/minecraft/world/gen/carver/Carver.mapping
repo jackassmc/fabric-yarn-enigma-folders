@@ -1,0 +1,9 @@
+CLASS bsi net/minecraft/world/gen/carver/Carver
+	FIELD a CAVE Lbsi;
+	FIELD b NETHER_CAVE Lbsi;
+	FIELD c RAVINE Lbsi;
+	FIELD d UNDERWATER_RAVINE Lbsi;
+	FIELD e UNDERWATER_CAVE Lbsi;
+	FIELD h WATER Lcdq;
+	FIELD i LAVA Lcdq;
+	METHOD a register (Ljava/lang/String;Lbsi;)Lbsi;

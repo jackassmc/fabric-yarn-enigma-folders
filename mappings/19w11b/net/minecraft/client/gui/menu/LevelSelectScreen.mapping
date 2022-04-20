@@ -1,0 +1,12 @@
+CLASS dbs net/minecraft/client/gui/menu/LevelSelectScreen
+	FIELD a parent Lcyg;
+	FIELD b title Ljava/lang/String;
+	FIELD g searchBox Lcux;
+	FIELD h LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD s deleteButton Lcut;
+	FIELD t selectButton Lcut;
+	FIELD u editButton Lcut;
+	FIELD v recreateButton Lcut;
+	FIELD w levelList Ldbu;
+	METHOD <init> (Lcyg;)V
+		ARG 1 parent

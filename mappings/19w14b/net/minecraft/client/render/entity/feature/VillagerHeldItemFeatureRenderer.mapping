@@ -1,0 +1,2 @@
+CLASS dta net/minecraft/client/render/entity/feature/VillagerHeldItemFeatureRenderer
+	FIELD a itemRenderer Ldpo;

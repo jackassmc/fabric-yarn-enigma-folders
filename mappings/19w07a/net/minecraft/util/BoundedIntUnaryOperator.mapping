@@ -1,0 +1,8 @@
+CLASS cjw net/minecraft/util/BoundedIntUnaryOperator
+	CLASS cjw$a Serializer
+	FIELD a min Ljava/lang/Integer;
+	FIELD b max Ljava/lang/Integer;
+	FIELD c operator Ljava/util/function/IntUnaryOperator;
+	METHOD a createMin (I)Lcjw;
+	METHOD a create (II)Lcjw;
+	METHOD b createMax (I)Lcjw;

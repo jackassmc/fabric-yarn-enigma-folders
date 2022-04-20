@@ -1,0 +1,8 @@
+CLASS ajl net/minecraft/entity/ai/goal/VillagerFarmGoal
+	FIELD f owner Lara;
+	FIELD g seed Z
+	FIELD h breed Z
+	METHOD a canStart ()Z
+	METHOD a isTargetPos (Lbcj;Let;)Z
+	METHOD b shouldContinue ()Z
+	METHOD e tick ()V

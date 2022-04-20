@@ -1,0 +1,2 @@
+CLASS dtx net/minecraft/client/resource/DefaultClientResourcePack
+	FIELD d index Ldtv;

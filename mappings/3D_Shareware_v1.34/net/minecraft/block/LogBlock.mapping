@@ -1,0 +1,4 @@
+CLASS bph net/minecraft/block/LogBlock
+	FIELD b endMaterialColor Lcks;
+	METHOD <init> (Lcks;Lbma$c;)V
+		ARG 1 endMaterialColor

@@ -1,0 +1,14 @@
+CLASS bvd net/minecraft/client/render/entity/EntityRendererItemFrame
+	FIELD a MAP_BACKGROUND_TEX Lkq;
+	FIELD g MODEL_NORMAL Lcbj;
+	FIELD h MODEL_MAP Lcbj;
+	FIELD i itemRenderer Lbve;
+	METHOD <init> (Lbuo;Lbve;)V
+		ARG 0 renderManager
+		ARG 1 itemRenderer
+	METHOD a getTexture (Lsm;)Lkq;
+		ARG 0 model
+	METHOD a (Lsm;DDDFF)V
+	METHOD a getTexture (Lyy;)Lkq;
+		ARG 0 model
+	METHOD a (Lyy;DDDFF)V

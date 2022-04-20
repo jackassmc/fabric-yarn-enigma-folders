@@ -1,0 +1,6 @@
+CLASS djt net/minecraft/client/particle/TotemParticle
+	CLASS a Factory
+	METHOD <init> (Lbhn;DDDDDDLdjn;)V
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z

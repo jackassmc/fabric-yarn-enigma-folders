@@ -1,0 +1,6 @@
+CLASS od net/minecraft/server/network/packet/CustomPayloadC2SPacket
+	FIELD a BRAND Lqs;
+	FIELD b channel Lqs;
+	FIELD c data Ljc;
+	METHOD <init> (Lqs;Ljc;)V
+		ARG 1 channel

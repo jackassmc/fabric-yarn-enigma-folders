@@ -1,0 +1,3 @@
+CLASS tw net/minecraft/world/DemoWorldServer
+	FIELD B seed J
+	FIELD a INFO Lbaj;

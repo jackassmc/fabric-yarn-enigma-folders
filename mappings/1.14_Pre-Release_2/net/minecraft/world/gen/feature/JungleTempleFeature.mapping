@@ -1,0 +1,7 @@
+CLASS cbu net/minecraft/world/gen/feature/JungleTempleFeature
+	CLASS cbu$a Start
+		METHOD <init> (Lcec;IILbhx;Lchk;IJ)V
+			ARG 2 chunkX
+			ARG 3 chunkZ
+	METHOD <init> (Ljava/util/function/Function;)V
+		ARG 1 configFactory

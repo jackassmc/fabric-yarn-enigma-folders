@@ -1,0 +1,2 @@
+CLASS dqm net/minecraft/client/render/entity/PigEntityRenderer
+	FIELD a SKIN Lqr;

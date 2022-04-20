@@ -1,0 +1,2 @@
+CLASS dkk net/minecraft/client/resource/metadata/ResourceMetadataReaderAnimation
+	METHOD a getKey ()Ljava/lang/String;

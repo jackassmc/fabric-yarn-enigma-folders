@@ -1,0 +1,22 @@
+CLASS b net/minecraft/util/crash/CrashReport
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD b message Ljava/lang/String;
+	FIELD c cause Ljava/lang/Throwable;
+	FIELD d element Lc;
+	FIELD e elementList Ljava/util/List;
+	FIELD f file Ljava/io/File;
+	FIELD g hasStackTrace Z
+	FIELD h stacktrace [Ljava/lang/StackTraceElement;
+	METHOD a getMessage ()Ljava/lang/String;
+	METHOD a writeToFile (Ljava/io/File;)Z
+	METHOD a addElement (Ljava/lang/String;)Lc;
+	METHOD a addElement (Ljava/lang/String;I)Lc;
+	METHOD a addStackTrace (Ljava/lang/StringBuilder;)V
+	METHOD a create (Ljava/lang/Throwable;Ljava/lang/String;)Lb;
+	METHOD b getCause ()Ljava/lang/Throwable;
+	METHOD d printThrowable ()Ljava/lang/String;
+	METHOD e create ()Ljava/lang/String;
+	METHOD f getFile ()Ljava/io/File;
+	METHOD g getElement ()Lc;
+	METHOD h addInfo ()V
+	METHOD i generateWittyComment ()Ljava/lang/String;

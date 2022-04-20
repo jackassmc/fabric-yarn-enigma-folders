@@ -1,0 +1,6 @@
+CLASS brq net/minecraft/block/SweetBerryBushBlock
+	FIELD a AGE Lbvw;
+	FIELD b SMALL_SHAPE Lcsa;
+	FIELD c LARGE_SHAPE Lcsa;
+	METHOD <init> (Lbly$c;)V
+		ARG 1 settings

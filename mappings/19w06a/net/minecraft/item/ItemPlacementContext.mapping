@@ -1,0 +1,15 @@
+CLASS avr net/minecraft/item/ItemPlacementContext
+	FIELD f placedPos Let;
+	METHOD <init> (Layz;)V
+		ARG 1 usageCtx
+	METHOD <init> (Lbcu;Lars;Laxm;Lcmv;)V
+		ARG 1 world
+		ARG 2 player
+		ARG 3 stack
+		ARG 4 hitResult
+	METHOD a create (Lavr;Let;Ley;)Lavr;
+		ARG 0 placementCtx
+		ARG 2 facing
+	METHOD b canPlace ()Z
+	METHOD d getPlayerFacing ()Ley;
+	METHOD e getPlacementFacings ()[Ley;

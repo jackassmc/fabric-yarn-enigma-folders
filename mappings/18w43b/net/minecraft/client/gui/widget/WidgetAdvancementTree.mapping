@@ -1,0 +1,20 @@
+CLASS cod net/minecraft/client/gui/widget/WidgetAdvancementTree
+	FIELD a mc Lcjj;
+	FIELD g tabType Lcoe;
+	FIELD i rootAdvancement Ll;
+	FIELD n widgets Ljava/util/Map;
+	METHOD <init> (Lcjj;Lcoh;Lcoe;ILl;Lu;)V
+		ARG 0 mc
+		ARG 4 rootAdvancement
+	METHOD a drawIcon (IILdcu;)V
+		ARG 0 x
+		ARG 1 y
+		ARG 2 itemRenderer
+	METHOD a drawBackground (IIZ)V
+		ARG 0 x
+		ARG 1 y
+		ARG 2 selected
+	METHOD a create (Lcjj;Lcoh;ILl;)Lcod;
+		ARG 0 minecraft
+	METHOD b getWidgetForAdvancement (Ll;)Lcof;
+		ARG 0 advancement

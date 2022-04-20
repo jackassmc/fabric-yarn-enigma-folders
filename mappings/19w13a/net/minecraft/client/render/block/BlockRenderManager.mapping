@@ -1,0 +1,20 @@
+CLASS dkk net/minecraft/client/render/block/BlockRenderManager
+	FIELD a models Ldkj;
+	FIELD b renderer Ldkm;
+	FIELD c dynamicRenderer Ldki;
+	FIELD d fluidRenderer Ldkl;
+	FIELD e random Ljava/util/Random;
+	METHOD <init> (Ldkj;Lcvf;)V
+		ARG 1 models
+	METHOD a getModels ()Ldkj;
+	METHOD a getModel (Lbuw;)Ldvc;
+		ARG 1 state
+	METHOD a renderDynamic (Lbuw;F)V
+		ARG 1 state
+		ARG 2 delta
+	METHOD a tesselateBlock (Lbuw;Lev;Lbge;Lctu;Ljava/util/Random;)Z
+	METHOD a tesselateDamage (Lbuw;Lev;Ldto;Lbge;)V
+		ARG 1 state
+		ARG 2 pos
+	METHOD a tesselateFluid (Lev;Lbge;Lctu;Lckk;)Z
+	METHOD b getModelRenderer ()Ldkm;

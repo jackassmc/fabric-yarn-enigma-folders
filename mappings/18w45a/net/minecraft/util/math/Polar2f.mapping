@@ -1,0 +1,5 @@
+CLASS cir net/minecraft/util/math/Polar2f
+	FIELD i pitch F
+	FIELD j yaw F
+	METHOD <init> (FF)V
+		ARG 1 pitch

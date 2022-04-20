@@ -1,0 +1,5 @@
+CLASS bcz net/minecraft/item/ToolItem
+	FIELD a material Lbcy;
+	METHOD <init> (Lbcy;Lbbp$a;)V
+		ARG 1 material
+	METHOD e getType ()Lbcy;

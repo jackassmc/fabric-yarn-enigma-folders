@@ -1,0 +1,24 @@
+CLASS bl net/minecraft/advancement/criterion/PlacedBlockCriterion
+	CLASS bl$a Handler
+		FIELD a manager Lqy;
+		FIELD b conditions Ljava/util/Set;
+		METHOD a isEmpty ()Z
+		METHOD a handle (Lbtw;Leu;Lvc;Lbar;)V
+			ARG 1 pos
+			ARG 2 world
+			ARG 3 item
+		METHOD a addCondition (Lw$a;)V
+		METHOD b removeCondition (Lw$a;)V
+	CLASS bl$b Conditions
+		FIELD a block Lbky;
+		FIELD b state Ljava/util/Map;
+		FIELD c location Lbf;
+		FIELD d item Lbb;
+		METHOD a block (Lbky;)Lbl$b;
+			ARG 0 block
+		METHOD a matches (Lbtw;Leu;Lvc;Lbar;)Z
+	FIELD a ID Lqp;
+	FIELD b handlers Ljava/util/Map;
+	METHOD a handle (Lvd;Leu;Lbar;)V
+		ARG 1 player
+		ARG 2 blockPos

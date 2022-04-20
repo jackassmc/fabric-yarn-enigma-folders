@@ -1,0 +1,5 @@
+CLASS boi net/minecraft/block/WallSignBlock
+	FIELD c FACING Lbru;
+	FIELD d FACING_TO_SHAPE Ljava/util/Map;
+	METHOD <init> (Lbic$c;)V
+		ARG 1 settings

@@ -1,0 +1,6 @@
+CLASS cam net/minecraft/client/render/entity/EntityRendererSheep
+	FIELD a SKIN Lnd;
+	METHOD a getTexture (Laae;)Lnd;
+		ARG 0 model
+	METHOD a getTexture (Lve;)Lnd;
+		ARG 0 model

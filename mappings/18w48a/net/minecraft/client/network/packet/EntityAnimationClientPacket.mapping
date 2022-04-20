@@ -1,0 +1,11 @@
+CLASS jy net/minecraft/client/network/packet/EntityAnimationClientPacket
+	FIELD a id I
+	FIELD b animationId I
+	METHOD <init> (Lagi;I)V
+		ARG 1 entity
+	METHOD a read (Liq;)V
+	METHOD a apply (Lit;)V
+	METHOD a apply (Ljr;)V
+	METHOD b getId ()I
+	METHOD b write (Liq;)V
+	METHOD c getAnimationId ()I

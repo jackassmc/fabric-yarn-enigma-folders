@@ -1,0 +1,73 @@
+CLASS en net/minecraft/particle/ParticleType
+	FIELD A FLAME Len;
+	FIELD B LAVA_EMBER Len;
+	FIELD C FOOTSTEP Len;
+	FIELD D CLOUD Len;
+	FIELD E RED_DUST Len;
+	FIELD F SNOWBALL Len;
+	FIELD G SNOW_GOLEM Len;
+	FIELD H SLIME Len;
+	FIELD I EMOTION_LOVE Len;
+	FIELD J BARRIER Len;
+	FIELD K ITEM_CRACK Len;
+	FIELD L BLOCK_CRACK Len;
+	FIELD M BLOCK_DUST Len;
+	FIELD N RAIN_SPLASH Len;
+	FIELD O TAKE Len;
+	FIELD P ELDER_GUARDIAN_APPEARNCE Len;
+	FIELD Q DRAGON_BREATH Len;
+	FIELD R END_ROD Len;
+	FIELD S DAMAGE Len;
+	FIELD T SWEEP_ATTACK Len;
+	FIELD U BLOCK_FALLING_DUST Len;
+	FIELD V TOTEM Len;
+	FIELD W SPIT Len;
+	FIELD X name Ljava/lang/String;
+	FIELD Y id I
+	FIELD Z ignoreRange Z
+	FIELD a EXPLOSION_SMOKE Len;
+	FIELD aa argCount I
+	FIELD ab ID_MAP Ljava/util/Map;
+	FIELD ac NAME_MAP Ljava/util/Map;
+	FIELD b EXPLOSION_LARGE Len;
+	FIELD c EXPLOSION_HUGE Len;
+	FIELD d FIREWORKS_SPARK Len;
+	FIELD e WATER_BUBBLE Len;
+	FIELD f WATER_SPLASH Len;
+	FIELD g FISHING Len;
+	FIELD h WATER_SUSPEND Len;
+	FIELD i DEPTH_SUSPEND Len;
+	FIELD j DAMAGE_CRIT Len;
+	FIELD k DAMAGE_CRIT_MAGIC Len;
+	FIELD l FIRE_SMOKE Len;
+	FIELD m FIRE_SMOKE_LARGE Len;
+	FIELD n SPELL Len;
+	FIELD o SPELL_INSTANT Len;
+	FIELD p SPELL_MOB Len;
+	FIELD q SPELL_MOB_AMBIENT Len;
+	FIELD r SPELL_WITCH Len;
+	FIELD s WATER_LEAK Len;
+	FIELD t LAVA_LEAK Len;
+	FIELD u EMOTION_ANGRY Len;
+	FIELD v EMOTION_HAPPY Len;
+	FIELD w TOWN_AURA Len;
+	FIELD x NOTE Len;
+	FIELD y PORTAL Len;
+	FIELD z ENCHANT_GLYPH Len;
+	METHOD <init> (Ljava/lang/String;ILjava/lang/String;IZ)V
+		ARG 3 name
+		ARG 4 id
+	METHOD <init> (Ljava/lang/String;ILjava/lang/String;IZI)V
+		ARG 0 name
+		ARG 3 argCount
+		ARG 4 id
+		ARG 5 ignoreRange
+	METHOD a getNames ()Ljava/util/Set;
+	METHOD a getParticleById (I)Len;
+		ARG 0 id
+	METHOD a getParticleByName (Ljava/lang/String;)Len;
+		ARG 0 name
+	METHOD b getName ()Ljava/lang/String;
+	METHOD c getId ()I
+	METHOD d getArgumentCount ()I
+	METHOD e shouldIgnoreRange ()Z

@@ -1,0 +1,9 @@
+CLASS bof net/minecraft/block/LadderBlock
+	FIELD a FACING Lbuz;
+	FIELD b WATERLOGGED Lbuw;
+	FIELD c EAST_SHAPE Lcri;
+	FIELD d WEST_SHAPE Lcri;
+	FIELD e SOUTH_SHAPE Lcri;
+	FIELD f NORTH_SHAPE Lcri;
+	METHOD <init> (Lblg$c;)V
+		ARG 1 settings

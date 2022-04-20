@@ -1,0 +1,28 @@
+CLASS kv net/minecraft/client/network/packet/ExplosionClientPacket
+	FIELD a x D
+	FIELD b y D
+	FIELD c z D
+	FIELD d radius F
+	FIELD e affectedBlocks Ljava/util/List;
+	FIELD f playerVelocityX F
+	FIELD g playerVelocityY F
+	FIELD h playerVelocityZ F
+	METHOD <init> (DDDFLjava/util/List;Lcmx;)V
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+	METHOD a read (Lir;)V
+		ARG 1 buf
+	METHOD a apply (Liu;)V
+		ARG 1 listener
+	METHOD a apply (Ljs;)V
+	METHOD b getPlayerVelocityX ()F
+	METHOD b write (Lir;)V
+		ARG 1 buf
+	METHOD c getPlayerVelocityY ()F
+	METHOD d getPlayerVelocityZ ()F
+	METHOD e getX ()D
+	METHOD f getY ()D
+	METHOD g getZ ()D
+	METHOD h getRadius ()F
+	METHOD i getAffectedBlocks ()Ljava/util/List;

@@ -1,0 +1,7 @@
+CLASS bna net/minecraft/block/SpongeBlock
+	METHOD <init> (Lbhv$c;)V
+		ARG 1 settings
+	METHOD a update (Lbcu;Let;)V
+	METHOD b absorbWater (Lbcu;Let;)Z
+		ARG 1 world
+		ARG 2 pos

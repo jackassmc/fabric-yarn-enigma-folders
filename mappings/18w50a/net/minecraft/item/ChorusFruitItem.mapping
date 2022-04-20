@@ -1,0 +1,4 @@
+CLASS avc net/minecraft/item/ChorusFruitItem
+	METHOD a onItemFinishedUsing (Lawo;Lbbp;Lahe;)Lawo;
+		ARG 1 stack
+		ARG 2 world

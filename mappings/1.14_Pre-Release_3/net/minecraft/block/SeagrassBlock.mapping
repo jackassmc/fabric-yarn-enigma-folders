@@ -1,0 +1,4 @@
+CLASS bqx net/minecraft/block/SeagrassBlock
+	FIELD a SHAPE Lcsl;
+	METHOD <init> (Lbmh$c;)V
+		ARG 1 settings

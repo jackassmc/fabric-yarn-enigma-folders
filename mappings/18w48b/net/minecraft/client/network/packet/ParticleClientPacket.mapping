@@ -1,0 +1,21 @@
+CLASS lb net/minecraft/client/network/packet/ParticleClientPacket
+	FIELD a x F
+	FIELD b y F
+	FIELD c z F
+	FIELD d offsetX F
+	FIELD e offsetY F
+	FIELD f offsetZ F
+	FIELD h particleCount I
+	FIELD i longDistance Z
+	METHOD a read (Liq;)V
+	METHOD a apply (Lit;)V
+	METHOD a apply (Ljr;)V
+	METHOD b isLongDistance ()Z
+	METHOD b write (Liq;)V
+	METHOD c getX ()D
+	METHOD d getY ()D
+	METHOD e getZ ()D
+	METHOD f getOffsetX ()F
+	METHOD g getOffsetY ()F
+	METHOD h getOffsetZ ()F
+	METHOD j getParticleCount ()I

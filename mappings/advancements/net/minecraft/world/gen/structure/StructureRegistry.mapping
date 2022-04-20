@@ -1,0 +1,12 @@
+CLASS bag net/minecraft/world/gen/structure/StructureRegistry
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD b STRUCTURES Ljava/util/Map;
+	FIELD c STRUCTURE_IDS Ljava/util/Map;
+	FIELD d PIECES Ljava/util/Map;
+	FIELD e PIECE_IDS Ljava/util/Map;
+	METHOD a getId (Lbai;)Ljava/lang/String;
+	METHOD a getId (Lbaj;)Ljava/lang/String;
+	METHOD a deserialize (Lfc;Lali;)Lbaj;
+	METHOD a registerPiece (Ljava/lang/Class;Ljava/lang/String;)V
+	METHOD b deserializePiece (Lfc;Lali;)Lbai;
+	METHOD b register (Ljava/lang/Class;Ljava/lang/String;)V

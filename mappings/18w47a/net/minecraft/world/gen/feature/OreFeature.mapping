@@ -1,0 +1,2 @@
+CLASS bvs net/minecraft/world/gen/feature/OreFeature
+	METHOD a generate (Lban;Lbqc;Ljava/util/Random;Les;Lbuf;)Z

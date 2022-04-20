@@ -1,0 +1,4 @@
+CLASS bta net/minecraft/block/CarpetBlock
+	FIELD a SHAPE Lcsn;
+	FIELD b color Lbaw;
+	METHOD d getColor ()Lbaw;

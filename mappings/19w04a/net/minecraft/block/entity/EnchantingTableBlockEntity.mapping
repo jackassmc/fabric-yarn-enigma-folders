@@ -1,0 +1,10 @@
+CLASS boz net/minecraft/block/entity/EnchantingTableBlockEntity
+	FIELD a ticks I
+	FIELD b nextPageAngle F
+	FIELD c pageAngle F
+	FIELD i nextPageTurningSpeed F
+	FIELD j pageTurningSpeed F
+	FIELD n RANDOM Ljava/util/Random;
+	FIELD o customName Ljc;
+	METHOD a setCustomName (Ljc;)V
+		ARG 1 value

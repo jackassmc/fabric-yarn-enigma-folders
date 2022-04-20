@@ -1,0 +1,41 @@
+CLASS none/ry net/minecraft/potion/PotionEffectType
+	FIELD b REGISTRY Lnone/db;
+	FIELD c negative Z
+	FIELD d color I
+	FIELD e translationKey Ljava/lang/String;
+	FIELD f iconIndex I
+	METHOD <init> (ZI)V
+		ARG 0 negative
+		ARG 1 color
+	METHOD a getTranslationKey ()Ljava/lang/String;
+	METHOD a getEffectByRawId (I)Lnone/ry;
+		ARG 0 id
+	METHOD a canApplyUpdateEffect (II)Z
+		ARG 0 duration
+		ARG 1 amplifier
+	METHOD a getRawIdFromEffect (Lnone/ry;)I
+		ARG 0 effect
+	METHOD a getDurationString (Lnone/rz;F)Ljava/lang/String;
+		ARG 0 effect
+		ARG 1 factor
+	METHOD a applyInstantEffect (Lnone/sf;Lnone/sf;Lnone/so;ID)V
+		ARG 0 source
+		ARG 1 attacker
+		ARG 2 target
+		ARG 3 amplifier
+		ARG 4 distanceFactor
+	METHOD a applyUpdateEffect (Lnone/so;I)V
+		ARG 0 entity
+		ARG 1 amplifier
+	METHOD b isInstant ()Z
+	METHOD b setIcon (II)Lnone/ry;
+		ARG 0 x
+		ARG 1 y
+	METHOD b getEffectById (Ljava/lang/String;)Lnone/ry;
+		ARG 0 id
+	METHOD c hasIcon ()Z
+	METHOD c setTranslationKey (Ljava/lang/String;)Lnone/ry;
+	METHOD d getIconIndex ()I
+	METHOD e isNegative ()Z
+	METHOD g getColor ()I
+	METHOD k init ()V

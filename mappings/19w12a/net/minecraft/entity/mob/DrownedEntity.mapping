@@ -1,0 +1,3 @@
+CLASS asx net/minecraft/entity/mob/DrownedEntity
+	CLASS asx$d DrownedMoveControl
+		FIELD i drowned Lasx;

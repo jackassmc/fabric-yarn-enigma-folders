@@ -1,0 +1,6 @@
+CLASS awe net/minecraft/world/gen/decorator/DecoratorClay
+	FIELD a clayBlock Lals;
+	METHOD b generate (Lajq;Ljava/util/Random;Lco;)Z
+		ARG 0 world
+		ARG 1 random
+		ARG 2 pos

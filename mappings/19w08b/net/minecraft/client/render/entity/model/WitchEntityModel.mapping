@@ -1,0 +1,2 @@
+CLASS dco net/minecraft/client/render/entity/model/WitchEntityModel
+	FIELD n mole Ldcz;

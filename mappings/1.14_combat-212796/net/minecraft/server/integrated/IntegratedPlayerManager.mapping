@@ -1,0 +1,2 @@
+CLASS dxo net/minecraft/server/integrated/IntegratedPlayerManager
+	FIELD f userData Lic;

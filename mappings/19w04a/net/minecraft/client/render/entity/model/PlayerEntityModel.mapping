@@ -1,0 +1,11 @@
+CLASS daf net/minecraft/client/render/entity/model/PlayerEntityModel
+	FIELD a leftArmOverlay Ldbu;
+	FIELD b rightArmOverlay Ldbu;
+	FIELD t leftLegOverlay Ldbu;
+	FIELD u rightLegOverlay Ldbu;
+	FIELD v bodyOverlay Ldbu;
+	FIELD w cape Ldbu;
+	FIELD x mau5Ears Ldbu;
+	FIELD y thinArms Z
+	METHOD <init> (FZ)V
+		ARG 1 scale

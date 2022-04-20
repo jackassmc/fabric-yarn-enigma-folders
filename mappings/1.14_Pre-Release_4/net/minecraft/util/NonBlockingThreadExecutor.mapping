@@ -1,0 +1,3 @@
+CLASS agk net/minecraft/util/NonBlockingThreadExecutor
+	FIELD b runningTasks I
+	METHOD bg hasRunningTasks ()Z

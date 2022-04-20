@@ -1,0 +1,7 @@
+CLASS apx net/minecraft/entity/ai/brain/sensor/VillagerBabiesSensor
+	METHOD a getVisibleVillagerBabies (Lair;)Ljava/util/List;
+		ARG 1 entities
+	METHOD b isVillagerBaby (Lair;)Z
+		ARG 1 entity
+	METHOD c getVisibleMobs (Lair;)Ljava/util/List;
+		ARG 1 entity

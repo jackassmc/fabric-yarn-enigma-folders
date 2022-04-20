@@ -1,0 +1,3 @@
+CLASS bzo
+	METHOD a deserialize (Lho;)V
+	METHOD b serialize (Lho;)Lho;

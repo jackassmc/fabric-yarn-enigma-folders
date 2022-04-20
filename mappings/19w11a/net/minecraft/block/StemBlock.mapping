@@ -1,0 +1,6 @@
+CLASS bqk net/minecraft/block/StemBlock
+	FIELD a AGE Lbux;
+	FIELD b AGE_TO_SHAPE [Lcrb;
+	FIELD c gourdBlock Lbql;
+	METHOD d getPickItem ()Lbam;
+	METHOD e getGourdBlock ()Lbql;

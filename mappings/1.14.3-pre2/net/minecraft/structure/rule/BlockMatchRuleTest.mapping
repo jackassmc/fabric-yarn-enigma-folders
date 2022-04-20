@@ -1,0 +1,4 @@
+CLASS cix net/minecraft/structure/rule/BlockMatchRuleTest
+	FIELD a block Lbmp;
+	METHOD <init> (Lbmp;)V
+		ARG 1 block

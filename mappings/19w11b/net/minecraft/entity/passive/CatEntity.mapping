@@ -1,0 +1,18 @@
+CLASS apk net/minecraft/entity/passive/CatEntity
+	CLASS apk$a CatFleeGoal
+		FIELD i entity Lapk;
+	CLASS apk$b SleepWithOwnerGoal
+		FIELD a entity Lapk;
+		FIELD b owner Laun;
+	CLASS apk$c CatTemptGoal
+	FIELD bF TAMING_INGREDIENT Lbcw;
+	FIELD bG CAT_TYPE Lqe;
+	FIELD bH SHOULD_PURR Lqe;
+	FIELD bJ COLLAR_COLOR Lqe;
+	FIELD bK fleeGoal Lapk$a;
+	METHOD a setCollarColor (Lazo;)V
+	METHOD dX getOcelotType ()I
+	METHOD dY shouldPurr ()Z
+	METHOD ea getCollarColor ()Lazo;
+	METHOD r getOcelotType (I)V
+	METHOD t setShouldPurr (Z)V

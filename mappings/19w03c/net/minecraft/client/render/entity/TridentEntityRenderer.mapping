@@ -1,0 +1,5 @@
+CLASS dma net/minecraft/client/render/entity/TridentEntityRenderer
+	FIELD f model Ldbg;
+	METHOD a getTexture (Lahc;)Lqc;
+	METHOD a render (Lahc;DDDFF)V
+	METHOD a getTexture (Lask;)Lqc;

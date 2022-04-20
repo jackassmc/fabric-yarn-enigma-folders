@@ -1,0 +1,4 @@
+CLASS dhr net/minecraft/client/render/entity/EntityRendererSpectralArrow
+	FIELD a SKIN Lpx;
+	METHOD a getTexture (Lagc;)Lpx;
+	METHOD a getTexture (Laqs;)Lpx;

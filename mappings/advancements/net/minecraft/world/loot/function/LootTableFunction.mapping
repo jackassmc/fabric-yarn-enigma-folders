@@ -1,0 +1,11 @@
+CLASS bek net/minecraft/world/loot/function/LootTableFunction
+	CLASS bek$a Serializer
+		FIELD a id Lmd;
+		FIELD b function Ljava/lang/Class;
+		METHOD a getId ()Lmd;
+		METHOD a serialize (Lcom/google/gson/JsonObject;Lbek;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD b getFunctionClass ()Ljava/lang/Class;
+		METHOD b deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;[Lbew;)Lbek;
+	FIELD a conditions [Lbew;
+	METHOD a getConditions ()[Lbew;
+	METHOD a apply (Lahf;Ljava/util/Random;Lbee;)Lahf;

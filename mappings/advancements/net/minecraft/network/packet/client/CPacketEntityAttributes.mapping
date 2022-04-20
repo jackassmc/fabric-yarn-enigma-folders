@@ -1,0 +1,18 @@
+CLASS jv net/minecraft/network/packet/client/CPacketEntityAttributes
+	CLASS jv$a Entry
+		FIELD b id Ljava/lang/String;
+		FIELD c baseValue D
+		FIELD d modifiers Ljava/util/Collection;
+		METHOD a getId ()Ljava/lang/String;
+		METHOD b getBaseValue ()D
+		METHOD c getModifiers ()Ljava/util/Collection;
+	FIELD a id I
+	FIELD b entries Ljava/util/List;
+	METHOD a getEntityId ()I
+	METHOD a readPacket (Lgb;)V
+		ARG 0 buf
+	METHOD a applyPacket (Lge;)V
+	METHOD a applyPacket (Lgy;)V
+	METHOD b getEntries ()Ljava/util/List;
+	METHOD b writePacket (Lgb;)V
+		ARG 0 buf

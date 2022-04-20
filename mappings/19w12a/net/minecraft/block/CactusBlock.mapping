@@ -1,0 +1,3 @@
+CLASS blo net/minecraft/block/CactusBlock
+	METHOD <init> (Lblg$c;)V
+		ARG 1 settings

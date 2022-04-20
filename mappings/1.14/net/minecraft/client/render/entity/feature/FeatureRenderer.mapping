@@ -1,0 +1,10 @@
+CLASS dtd net/minecraft/client/render/entity/feature/FeatureRenderer
+	FIELD a context Ldqw;
+	METHOD <init> (Ldqw;)V
+		ARG 1 context
+	METHOD a hasHurtOverlay ()Z
+	METHOD a applyLightmapCoordinates (Laif;)V
+	METHOD a render (Laif;FFFFFFF)V
+		ARG 1 entity
+	METHOD a bindTexture (Lqs;)V
+	METHOD c getModel ()Lden;

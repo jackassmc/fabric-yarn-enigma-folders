@@ -1,0 +1,3 @@
+CLASS alm
+	METHOD <init> (Lahm;Lbcl;)V
+		ARG 1 entity

@@ -1,0 +1,52 @@
+CLASS alo net/minecraft/entity/passive/EntityPanda
+	CLASS alo$a
+		METHOD a canStart ()Z
+	CLASS alo$b
+		METHOD a canStart ()Z
+	CLASS alo$d
+		METHOD b shouldContinue ()Z
+	CLASS alo$e
+		METHOD a canStart ()Z
+		METHOD b shouldContinue ()Z
+		METHOD c start ()V
+		METHOD d onRemove ()V
+	CLASS alo$f
+		METHOD a tick ()V
+	CLASS alo$g
+		METHOD a canStart ()Z
+		METHOD b shouldContinue ()Z
+	CLASS alo$h
+		METHOD a canStart ()Z
+		METHOD b shouldContinue ()Z
+		METHOD c start ()V
+		METHOD f canStop ()Z
+	CLASS alo$i
+		METHOD a canStart ()Z
+		METHOD b shouldContinue ()Z
+		METHOD c start ()V
+		METHOD d onRemove ()V
+		METHOD e tick ()V
+	CLASS alo$j
+		METHOD a canStart ()Z
+		METHOD b shouldContinue ()Z
+		METHOD c start ()V
+	METHOD D getSoundAmbient ()Lxb;
+	METHOD S_ update ()V
+	METHOD a damage (Lafl;F)Z
+		ARG 1 source
+	METHOD a createChild (Lafz;)Lafz;
+	METHOD a setAttacker (Lagl;)V
+	METHOD a canBeLeashedBy (Laqa;)Z
+	METHOD a interactMob (Laqa;Laev;)Z
+		ARG 1 player
+	METHOD a (Lbaf;Laeu;Lago;Lagv;Lho;)Lagv;
+		ARG 3 difficulty
+	METHOD a playStepSound (Les;Lbnz;)V
+		ARG 1 pos
+	METHOD a deserializeCustomData (Lho;)V
+	METHOD b serializeCustomData (Lho;)V
+	METHOD cb initAttributes ()V
+	METHOD cw getSoundDeath ()Lxb;
+	METHOD e getSoundHurt (Lafl;)Lxb;
+	METHOD n initAi ()V
+	METHOD y_ initDataTracker ()V

@@ -1,0 +1,47 @@
+CLASS bxo net/minecraft/world/chunk/ChunkSection
+	FIELD a palette Lbxs;
+	FIELD b yOffset I
+	FIELD c nonEmptyBlockCount S
+	FIELD d randomTickableBlockCount S
+	FIELD e nonEmptyFluidCount S
+	FIELD f container Lbxu;
+	METHOD <init> (I)V
+		ARG 1 yOffset
+	METHOD <init> (ISSS)V
+		ARG 1 yOffset
+		ARG 2 nonEmptyBlockCount
+		ARG 3 randomTickableBlockCount
+		ARG 4 nonEmptyFluidCount
+	METHOD a lock ()V
+	METHOD a getBlockState (III)Lbvn;
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD a setBlockState (IIILbvn;)Lbvn;
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 state
+	METHOD a setBlockState (IIILbvn;Z)Lbvn;
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 state
+		ARG 5 lock
+	METHOD a isEmpty (Lbxo;)Z
+		ARG 0 section
+	METHOD a fromPacket (Ljd;)V
+	METHOD b unlock ()V
+	METHOD b getFluidState (III)Lcle;
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD b toPacket (Ljd;)V
+	METHOD c isEmpty ()Z
+	METHOD d hasRandomTicks ()Z
+	METHOD e hasRandomBlockTicks ()Z
+	METHOD f hasRandomFluidTicks ()Z
+	METHOD g getYOffset ()I
+	METHOD h calculateCounts ()V
+	METHOD i getContainer ()Lbxu;
+	METHOD j getPacketSize ()I

@@ -1,0 +1,14 @@
+CLASS nq net/minecraft/client/network/DebugRendererInfoManager
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	METHOD a sendVillagerAiDebugData (Laiu;)V
+	METHOD a sendGoalSelector (Lbhn;Laiv;Lana;)V
+		ARG 0 world
+		ARG 1 mob
+		ARG 2 goalSelector
+	METHOD a sendPathfindingData (Lbhn;Laiv;Lcnn;F)V
+	METHOD a sendNeighborUpdate (Lbhn;Lev;)V
+	METHOD a sendStructureStart (Lbho;Lcis;)V
+	METHOD a sendRaids (Lvi;Ljava/util/Collection;)V
+		ARG 0 server
+		ARG 1 raids
+	METHOD c sendPointOfInterest (Lvi;Lev;)V

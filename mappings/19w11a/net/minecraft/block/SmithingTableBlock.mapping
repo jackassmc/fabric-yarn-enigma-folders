@@ -1,0 +1,3 @@
+CLASS bpx net/minecraft/block/SmithingTableBlock
+	METHOD <init> (Lbkz$c;)V
+		ARG 1 settings

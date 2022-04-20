@@ -1,0 +1,16 @@
+CLASS aws net/minecraft/container/AbstractFurnaceContainer
+	FIELD c world Lbfy;
+	FIELD d inventory Lagk;
+	FIELD e propertyDelegate Laxa;
+	FIELD f recipeType Lbdd;
+	METHOD <init> (Laxs;Lbdd;ILaul;)V
+		ARG 3 syncId
+	METHOD <init> (Laxs;Lbdd;ILaul;Lagk;Laxa;)V
+		ARG 3 syncId
+	METHOD a isSmeltable (Lbar;)Z
+		ARG 1 itemStack
+	METHOD b isFuel (Lbar;)Z
+		ARG 1 itemStack
+	METHOD j getCookProgress ()I
+	METHOD k getFuelProgress ()I
+	METHOD l isBurning ()Z

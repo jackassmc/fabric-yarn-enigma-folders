@@ -1,0 +1,20 @@
+CLASS brm net/minecraft/world/gen/GenerationStep
+	CLASS brm$a Carver
+		FIELD a AIR Lbrm$a;
+		FIELD b LIQUID Lbrm$a;
+		FIELD c nameMap Ljava/util/Map;
+		FIELD d name Ljava/lang/String;
+		METHOD a getName ()Ljava/lang/String;
+		METHOD valueOf (Ljava/lang/String;)Lbrm$a;
+	CLASS brm$b Feature
+		FIELD a RAW_GENERATION Lbrm$b;
+		FIELD b LOCAL_MODIFICATIONS Lbrm$b;
+		FIELD c UNDERGROUND_STRUCTURES Lbrm$b;
+		FIELD d SURFACE_STRUCTURES Lbrm$b;
+		FIELD e UNDERGROUND_ORES Lbrm$b;
+		FIELD f UNDERGROUND_DECORATION Lbrm$b;
+		FIELD g VEGETAL_DECORATION Lbrm$b;
+		FIELD h TOP_LAYER_MODIFICATION Lbrm$b;
+		FIELD i nameMap Ljava/util/Map;
+		FIELD j name Ljava/lang/String;
+		METHOD a getName ()Ljava/lang/String;

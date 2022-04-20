@@ -1,0 +1,13 @@
+CLASS dii net/minecraft/client/render/model/BakedModelManager
+	FIELD a modelMap Ljava/util/Map;
+	FIELD b spriteMap Ldgw;
+	FIELD c blockStateMaps Lcyf;
+	FIELD d missingModel Ldie;
+	METHOD <init> (Ldgw;)V
+		ARG 0 textures
+	METHOD a getMissingModel ()Ldie;
+	METHOD a getModel (Ldij;)Ldie;
+		ARG 0 identifier
+	METHOD a onResourceReload (Lvs;)V
+		ARG 0 manager
+	METHOD b getBlockStateMaps ()Lcyf;

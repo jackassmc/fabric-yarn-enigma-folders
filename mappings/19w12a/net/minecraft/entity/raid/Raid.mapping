@@ -1,0 +1,79 @@
+CLASS awa net/minecraft/entity/raid/Raid
+	CLASS awa$a Member
+		FIELD a VINDICATOR Lawa$a;
+		FIELD b EVOKER Lawa$a;
+		FIELD c PILLAGER Lawa$a;
+		FIELD d WITCH Lawa$a;
+		FIELD e RAVAGER Lawa$a;
+		FIELD g type Laic;
+		FIELD h firstWave I
+	FIELD a ILLAGER_BANNER Lbaz;
+	FIELD b waveToLeader Ljava/util/Map;
+	FIELD c waveToRaiders Ljava/util/Map;
+	FIELD d ticksActive J
+	FIELD e center Lev;
+	FIELD f world Lvd;
+	FIELD g markedForRemoval Z
+	FIELD h started Z
+	FIELD i ignoreDayRequirement Z
+	FIELD j id I
+	FIELD k totalHealth F
+	FIELD l badOmenLevel I
+	FIELD m active Z
+	FIELD n wavesSpawned I
+	FIELD o bar Lva;
+	FIELD p postRaidTicks I
+	FIELD q preRaidTicks I
+	FIELD r random Ljava/util/Random;
+	METHOD <init> (ILvd;Lev;)V
+		ARG 1 id
+	METHOD a setRaidLeader (ILawb;)V
+		ARG 1 wave
+	METHOD a addRaider (ILawb;Lev;Z)V
+		ARG 1 wave
+		ARG 2 raider
+		ARG 3 pos
+		ARG 4 existing
+	METHOD a addToWave (ILawb;Z)Z
+		ARG 1 wave
+		ARG 3 countHealth
+	METHOD a start (Lauv;)V
+	METHOD a getSpawnCount (Lawa$a;Ljava/util/Random;I)I
+		ARG 2 wave
+	METHOD a removeFromWave (Lawb;Z)V
+		ARG 2 countHealth
+	METHOD a playRaidHorn (Lev;)V
+	METHOD a toTag (Lib;)Lib;
+	METHOD a getBadOmenLevel (Ljava/util/Random;Z)I
+		ARG 1 centerSet
+	METHOD b getLeader (I)Lawb;
+	METHOD b addToWave (ILawb;)Z
+		ARG 1 wave
+	METHOD b getBonusSpawnCount (Lawa$a;Ljava/util/Random;I)I
+		ARG 2 wave
+	METHOD b spawnNextWave (Lev;)V
+	METHOD c getWorld ()Lbgf;
+	METHOD c removeLeader (I)V
+		ARG 1 wave
+	METHOD d isOnGoing ()Z
+	METHOD d getPillagerSpawnLocation (I)Lev;
+	METHOD e hasStarted ()Z
+	METHOD f getGroupsSpawned ()I
+	METHOD g getMaxAcceptableBadOmenLevel ()I
+	METHOD h getBadOmenLevel ()I
+	METHOD i invalidate ()V
+	METHOD j isMarkedForRemoval ()Z
+	METHOD k tick ()V
+	METHOD l getCurrentRaiderHealth ()F
+	METHOD m getRaiderCount ()I
+	METHOD n getCenter ()Lev;
+	METHOD o getRaidId ()I
+	METHOD p isActive ()Z
+	METHOD q isInRaidDistance ()Ljava/util/function/Predicate;
+	METHOD r updateBarToPlayers ()V
+	METHOD s hasSpawnedAllGroups ()Z
+	METHOD t removeObsoleteRaiders ()V
+	METHOD u updateBar ()V
+	METHOD v canSpawnRaiders ()Z
+	METHOD w markDirty ()V
+	METHOD x getIllagerBanner ()Lbaz;

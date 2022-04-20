@@ -1,0 +1,3 @@
+CLASS bnh net/minecraft/block/CoralBlock
+	FIELD a SHAPE Lcsl;
+	FIELD c deadCoralBlock Lbmh;

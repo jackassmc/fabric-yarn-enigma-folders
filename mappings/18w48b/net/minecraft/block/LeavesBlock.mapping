@@ -1,0 +1,28 @@
+CLASS biq net/minecraft/block/LeavesBlock
+	FIELD c translucentLeaves Z
+	METHOD <init> (Lbfr$c;)V
+		ARG 1 builder
+	METHOD a getPlacementState (Latw;)Lboj;
+		ARG 1 context
+	METHOD a scheduledTick (Lboj;Lbaq;Let;Ljava/util/Random;)V
+		ARG 1 world
+		ARG 2 state
+		ARG 3 pos
+	METHOD a getRenderingState (Lboj;Ley;Lboj;Lbar;Let;Let;)Lboj;
+		ARG 1 state
+	METHOD a appendProperties (Lbok$a;)V
+		ARG 1 builder
+	METHOD a setRenderingMode (Z)V
+		ARG 0 fancy
+	METHOD b randomDisplayTick (Lboj;Lbaq;Let;Ljava/util/Random;)V
+		ARG 1 state
+		ARG 2 world
+		ARG 3 pos
+	METHOD c getRenderLayer ()Lbad;
+	METHOD c randomTick (Lboj;Lbaq;Let;Ljava/util/Random;)V
+		ARG 1 world
+		ARG 2 state
+		ARG 3 pos
+	METHOD e isFullBoundsCubeForCulling (Lboj;)Z
+	METHOD g canSuffocate (Lboj;Lbac;Let;)Z
+	METHOD m hasRandomTicks (Lboj;)Z

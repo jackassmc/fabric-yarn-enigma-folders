@@ -1,0 +1,22 @@
+CLASS ada net/minecraft/container/ContainerHorse
+	CLASS ada$1
+		METHOD a canInsert (Lafi;)Z
+			ARG 0 stack
+	CLASS ada$2
+		METHOD a canInsert (Lafi;)Z
+			ARG 0 stack
+		METHOD b doDrawHoveringEffect ()Z
+	FIELD a playerInv Lrb;
+	FIELD f entity Lxl;
+	METHOD <init> (Lrb;Lrb;Lxl;Laax;)V
+		ARG 0 playerInv
+		ARG 1 inventory
+		ARG 2 entity
+		ARG 3 player
+	METHOD a canUse (Laax;)Z
+		ARG 0 player
+	METHOD b close (Laax;)V
+		ARG 0 player
+	METHOD b getStack (Laax;I)Lafi;
+		ARG 0 player
+		ARG 1 slot

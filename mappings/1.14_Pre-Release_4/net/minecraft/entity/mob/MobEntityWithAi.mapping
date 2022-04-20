@@ -1,0 +1,11 @@
+CLASS aiu net/minecraft/entity/mob/MobEntityWithAi
+	METHOD <init> (Laii;Lbhf;)V
+		ARG 1 type
+	METHOD a getPathfindingFavor (Lev;Lbhi;)F
+		ARG 1 pos
+		ARG 2 world
+	METHOD dT isNavigating ()Z
+	METHOD dU getRunFromLeashSpeed ()D
+	METHOD f getPathfindingFavor (Lev;)F
+	METHOD u updateForLeashLength (F)V
+		ARG 1 leashLength

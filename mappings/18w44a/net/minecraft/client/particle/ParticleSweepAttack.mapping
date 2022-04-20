@@ -1,0 +1,33 @@
+CLASS cxi net/minecraft/client/particle/ParticleSweepAttack
+	CLASS cxi$a Factory
+		METHOD a createParticle (Lfq;Lazt;DDDDDD)Lcyg;
+			ARG 1 world
+			ARG 2 x
+			ARG 3 y
+			ARG 4 z
+			ARG 5 velocityX
+			ARG 6 velocityY
+		METHOD a createParticle (Lft;Lazt;DDDDDD)Lcyg;
+			ARG 1 world
+			ARG 2 x
+			ARG 3 y
+			ARG 4 z
+			ARG 5 velocityX
+			ARG 6 velocityY
+	FIELD J TEX Lpu;
+	FIELD L age_ I
+	FIELD M maxAge_ I
+	FIELD N textureManager Ldjc;
+	METHOD <init> (Ldjc;Lazt;DDDDDD)V
+		ARG 1 textureManager
+		ARG 2 world
+		ARG 3 x
+		ARG 5 y
+		ARG 7 z
+	METHOD a update ()V
+	METHOD a getColorMultiplier (F)I
+	METHOD a buildGeometry (Lcla;Lafv;FFFFFF)V
+		ARG 1 vertexBuffer
+		ARG 2 entity
+		ARG 3 deltaTicks
+	METHOD b getParticleGroup ()I

@@ -1,0 +1,12 @@
+CLASS cgj net/minecraft/item/map/MapIcon
+	CLASS cgj$a Direction
+	FIELD a direction Lcgj$a;
+	FIELD b x B
+	FIELD c z B
+	FIELD d type B
+	METHOD <init> (Lcgj$a;BBBLja;)V
+		ARG 1 direction
+	METHOD a getDirection ()B
+	METHOD c getX ()B
+	METHOD d getZ ()B
+	METHOD e getType ()B

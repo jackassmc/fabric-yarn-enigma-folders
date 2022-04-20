@@ -1,0 +1,17 @@
+CLASS bzv net/minecraft/world/gen/feature/RandomFeatureEntry
+	FIELD a feature Lbwd;
+	FIELD b config Lbwe;
+	FIELD c chance Ljava/lang/Float;
+	METHOD <init> (Lbwd;Lbwe;Ljava/lang/Float;)V
+		ARG 1 feature
+		ARG 2 config
+		ARG 3 chance
+	METHOD <init> (Lbwd;Lcom/mojang/datafixers/Dynamic;F)V
+		ARG 1 feature
+		ARG 2 dynamic
+	METHOD a generate (Lbcm;Lbrz;Ljava/util/Random;Let;)Z
+		ARG 1 world
+		ARG 3 random
+	METHOD a deserialize (Lcom/mojang/datafixers/Dynamic;)Lbzv;
+		ARG 0 dynamic
+	METHOD a serialize (Lcom/mojang/datafixers/types/DynamicOps;)Lcom/mojang/datafixers/Dynamic;

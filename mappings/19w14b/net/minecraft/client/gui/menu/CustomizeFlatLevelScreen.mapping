@@ -1,0 +1,11 @@
+CLASS cyl net/minecraft/client/gui/menu/CustomizeFlatLevelScreen
+	CLASS cyl$a SuperflatLayersListWidget
+		CLASS cyl$a$a SuperflatLayerItem
+	FIELD a parent Ldck;
+	FIELD b config Lcfc;
+	FIELD c tileText Ljava/lang/String;
+	FIELD d heightText Ljava/lang/String;
+	FIELD f widgetButtonRemoveLayer Lcwd;
+	METHOD <init> (Ldck;Lib;)V
+		ARG 1 parent
+	METHOD a getConfigString ()Ljava/lang/String;

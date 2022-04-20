@@ -1,0 +1,6 @@
+CLASS biu net/minecraft/world/biome/source/VanillaLayeredBiomeSource
+	FIELD c noiseLayer Lckj;
+	FIELD d biomeLayer Lckj;
+	FIELD e biomes [Lbgu;
+	METHOD <init> (Lbiv;)V
+		ARG 1 config

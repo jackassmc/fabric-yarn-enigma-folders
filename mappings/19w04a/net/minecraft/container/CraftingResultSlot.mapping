@@ -1,0 +1,9 @@
+CLASS aun net/minecraft/container/CraftingResultSlot
+	FIELD a craftingInv Latq;
+	FIELD b player Larj;
+	METHOD <init> (Larj;Latq;Lafq;III)V
+		ARG 1 player
+		ARG 2 craftingInv
+		ARG 3 inventory
+		ARG 4 invSlot
+		ARG 5 x

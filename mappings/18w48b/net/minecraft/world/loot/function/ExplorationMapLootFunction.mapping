@@ -1,0 +1,33 @@
+CLASS cil net/minecraft/world/loot/function/ExplorationMapLootFunction
+	CLASS cil$a Builder
+		FIELD a destination Ljava/lang/String;
+		FIELD b decoration Lcgj$a;
+		FIELD c zoom B
+		FIELD d searchRadius I
+		FIELD e skipExistingChunks Z
+		METHOD a create ()Lcil$a;
+		METHOD a zoom (B)Lcil$a;
+			ARG 0 value
+		METHOD a decoration (Lcgj$a;)Lcil$a;
+			ARG 0 value
+		METHOD a destination (Ljava/lang/String;)Lcil$a;
+			ARG 0 value
+		METHOD a skipExistingChunks (Z)Lcil$a;
+			ARG 0 value
+		METHOD b build ()Lciq;
+		METHOD d build ()Lcip$a;
+	CLASS cil$b Factory
+		METHOD a toJson (Lcom/google/gson/JsonObject;Lcip;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD a toJson (Lcom/google/gson/JsonObject;Lciq;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD b fromJson (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;[Lcjt;)Lcip;
+	FIELD a DEFAULT_DECORATION Lcgj$a;
+	FIELD c LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD d destination Ljava/lang/String;
+	FIELD e decoration Lcgj$a;
+	FIELD f zoom B
+	FIELD g searchRadius I
+	FIELD h skipExistingChunks Z
+	METHOD a getRequiredParameters ()Ljava/util/Set;
+	METHOD a process (Lavs;Lchi;)Lavs;
+		ARG 1 stack
+	METHOD b create ()Lcil$a;

@@ -1,0 +1,10 @@
+CLASS anl net/minecraft/entity/ai/goal/MoveThroughVillageGoal
+	FIELD a mob Lajb;
+	FIELD b speed D
+	FIELD c targetPath Lcnl;
+	FIELD d target Lev;
+	FIELD e requiresNighttime Z
+	METHOD <init> (Lajb;DZILjava/util/function/BooleanSupplier;)V
+		ARG 1 mob
+		ARG 2 speed
+		ARG 4 requiresNighttime

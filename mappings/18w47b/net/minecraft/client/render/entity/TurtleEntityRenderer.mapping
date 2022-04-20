@@ -1,0 +1,3 @@
+CLASS dii net/minecraft/client/render/entity/TurtleEntityRenderer
+	METHOD a getTexture (Lagf;)Lpy;
+	METHOD a getTexture (Lamg;)Lpy;

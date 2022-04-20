@@ -1,0 +1,35 @@
+CLASS none/aku net/minecraft/block/impl/BlockBeacon
+	METHOD a createBlockEntity (Lnone/aiv;I)Lnone/ard;
+		ARG 0 world
+		ARG 1 metadata
+	METHOD a activate (Lnone/aiv;Lnone/cn;Lnone/asl;Lnone/aal;Lnone/ra;Lnone/cu;FFF)Z
+		ARG 0 world
+		ARG 1 pos
+		ARG 2 state
+		ARG 3 player
+		ARG 4 hand
+		ARG 5 facing
+		ARG 6 hitX
+		ARG 7 hitY
+		ARG 8 hitZ
+	METHOD a (Lnone/aiv;Lnone/cn;Lnone/asl;Lnone/so;Lnone/aer;)V
+		ARG 0 world
+		ARG 1 pos
+		ARG 2 state
+		ARG 3 player
+		ARG 4 stack
+	METHOD a getRenderType (Lnone/asl;)Lnone/aph;
+		ARG 0 state
+	METHOD a (Lnone/asl;Lnone/aiv;Lnone/cn;Lnone/akx;)V
+		ARG 0 state
+		ARG 1 world
+		ARG 2 pos
+		ARG 3 block
+	METHOD b (Lnone/asl;)Z
+		ARG 0 state
+	METHOD c (Lnone/aiv;Lnone/cn;)V
+		ARG 0 world
+		ARG 1 pos
+	METHOD c (Lnone/asl;)Z
+		ARG 0 state
+	METHOD f getRenderLayer ()Lnone/ain;

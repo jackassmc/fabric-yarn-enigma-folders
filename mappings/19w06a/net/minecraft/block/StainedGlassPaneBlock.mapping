@@ -1,0 +1,3 @@
+CLASS bnd net/minecraft/block/StainedGlassPaneBlock
+	FIELD i color Lawj;
+	METHOD d getColor ()Lawj;

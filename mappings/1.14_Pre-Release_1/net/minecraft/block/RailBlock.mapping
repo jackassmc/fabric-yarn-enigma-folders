@@ -1,0 +1,4 @@
+CLASS bqf net/minecraft/block/RailBlock
+	FIELD c SHAPE Lbwa;
+	METHOD <init> (Lbme$c;)V
+		ARG 1 settings

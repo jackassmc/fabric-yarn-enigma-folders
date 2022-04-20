@@ -1,0 +1,11 @@
+CLASS cwh net/minecraft/client/gui/widget/ButtonWidget
+	CLASS cwh$a PressAction
+		METHOD onPress (Lcwh;)V
+			ARG 1 button
+	METHOD <init> (IIIILjava/lang/String;Lcwh$a;)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 width
+		ARG 4 height
+		ARG 5 message
+		ARG 6 onPress

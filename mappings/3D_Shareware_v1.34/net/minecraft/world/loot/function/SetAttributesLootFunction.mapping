@@ -1,0 +1,10 @@
+CLASS cpn net/minecraft/world/loot/function/SetAttributesLootFunction
+	CLASS cpn$b Attribute
+		FIELD a name Ljava/lang/String;
+		FIELD b attribute Ljava/lang/String;
+		FIELD d amountRange Lcoh;
+		FIELD e id Ljava/util/UUID;
+		FIELD f slots [Laie;
+		METHOD a deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Lcpn$b;
+		METHOD a serialize (Lcom/google/gson/JsonSerializationContext;)Lcom/google/gson/JsonObject;
+	CLASS cpn$d Factory

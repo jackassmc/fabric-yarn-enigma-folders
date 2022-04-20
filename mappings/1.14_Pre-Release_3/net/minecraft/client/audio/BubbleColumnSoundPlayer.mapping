@@ -1,0 +1,4 @@
+CLASS dwg net/minecraft/client/audio/BubbleColumnSoundPlayer
+	FIELD a player Ldjr;
+	FIELD b hasPlayedForCurrentColumn Z
+	FIELD c firstTick Z

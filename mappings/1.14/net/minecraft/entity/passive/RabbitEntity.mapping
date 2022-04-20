@@ -1,0 +1,57 @@
+CLASS arh net/minecraft/entity/passive/RabbitEntity
+	CLASS arh$a RabbitAttackGoal
+		METHOD <init> (Larh;)V
+			ARG 1 rabbit
+	CLASS arh$b FleeGoal
+		FIELD i rabbit Larh;
+		METHOD <init> (Larh;Ljava/lang/Class;FDD)V
+			ARG 1 rabbit
+			ARG 2 fleeFromType
+			ARG 3 distance
+			ARG 4 slowSpeed
+			ARG 6 fastSpeed
+	CLASS arh$c RabbitEntityData
+		FIELD a type I
+		METHOD <init> (I)V
+			ARG 1 type
+	CLASS arh$d RabbitJumpControl
+		FIELD c rabbit Larh;
+		METHOD <init> (Larh;Larh;)V
+			ARG 2 owner
+		METHOD c isActive ()Z
+	CLASS arh$e RabbitMoveControl
+		FIELD i rabbit Larh;
+		METHOD <init> (Larh;)V
+			ARG 1 owner
+	CLASS arh$f EscapeDangerGoal
+		FIELD f rabbit Larh;
+		METHOD <init> (Larh;D)V
+			ARG 1 rabbit
+			ARG 2 speed
+	CLASS arh$g EatCarrotCropGoal
+		FIELD g rabbit Larh;
+		FIELD h wantsCarrots Z
+		METHOD <init> (Larh;)V
+			ARG 1 rabbit
+	FIELD bA KILLER_BUNNY Lqs;
+	FIELD bB jumpTicks I
+	FIELD bD jumpDuration I
+	FIELD bE lastOnGround Z
+	FIELD bF ticksUntilJump I
+	FIELD bG moreCarrotTicks I
+	FIELD bz RABBIT_TYPE Lqh;
+	METHOD a chooseType (Lbhi;)I
+		ARG 1 world
+	METHOD b lookTowards (DD)V
+		ARG 1 x
+		ARG 3 z
+	METHOD b isBreedingItem (Lbbv;)Z
+	METHOD d setSpeed (D)V
+		ARG 1 speed
+	METHOD dV startJump ()V
+	METHOD dW getJumpSound ()Lyj;
+	METHOD dX getRabbitType ()I
+	METHOD ee scheduleJump ()V
+	METHOD eg wantsCarrots ()Z
+	METHOD r setRabbitType (I)V
+		ARG 1 rabbitType

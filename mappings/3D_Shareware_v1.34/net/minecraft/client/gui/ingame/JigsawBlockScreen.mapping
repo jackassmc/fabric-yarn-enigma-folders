@@ -1,0 +1,10 @@
+CLASS dbe net/minecraft/client/gui/ingame/JigsawBlockScreen
+	FIELD a jigsaw Lbtr;
+	FIELD b attachmentTypeField Lcwh;
+	FIELD c targetPoolField Lcwh;
+	FIELD d finalStateField Lcwh;
+	METHOD <init> (Lbtr;)V
+		ARG 1 jigsaw
+	METHOD b onDone ()V
+	METHOD c onCancel ()V
+	METHOD d updateServer ()V

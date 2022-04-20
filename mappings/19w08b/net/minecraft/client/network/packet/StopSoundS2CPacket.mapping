@@ -1,0 +1,5 @@
+CLASS mz net/minecraft/client/network/packet/StopSoundS2CPacket
+	FIELD a soundId Lqi;
+	FIELD b category Lya;
+	METHOD b getSoundId ()Lqi;
+	METHOD c getCategory ()Lya;

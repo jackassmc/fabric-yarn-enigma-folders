@@ -1,0 +1,13 @@
+CLASS bfj net/minecraft/block/BlockWithEntity
+	METHOD <init> (Lbfr$c;)V
+		ARG 1 builder
+	METHOD a onBlockAction (Lboj;Lbaq;Let;II)Z
+		ARG 1 state
+		ARG 2 world
+		ARG 3 pos
+	METHOD a onBlockRemoved (Lboj;Lbaq;Let;Lboj;Z)V
+		ARG 1 world
+		ARG 2 world
+		ARG 3 pos
+		ARG 4 state
+	METHOD b getRenderType (Lboj;)Lbjx;

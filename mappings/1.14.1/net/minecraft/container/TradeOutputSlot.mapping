@@ -1,0 +1,12 @@
+CLASS azg net/minecraft/container/TradeOutputSlot
+	FIELD a traderInventory Laze;
+	FIELD b player Lavy;
+	FIELD g amount I
+	FIELD h trader Lbgk;
+	METHOD <init> (Lavy;Lbgk;Laze;III)V
+		ARG 1 player
+		ARG 2 trader
+		ARG 3 traderInventory
+		ARG 4 index
+		ARG 5 x
+		ARG 6 y

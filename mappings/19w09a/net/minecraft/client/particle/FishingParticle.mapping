@@ -1,0 +1,2 @@
+CLASS dfm net/minecraft/client/particle/FishingParticle
+	CLASS dfm$a Factory

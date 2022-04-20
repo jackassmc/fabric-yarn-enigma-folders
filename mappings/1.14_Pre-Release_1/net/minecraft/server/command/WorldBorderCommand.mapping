@@ -1,0 +1,31 @@
+CLASS ty net/minecraft/server/command/WorldBorderCommand
+	FIELD a CENTER_FAILED_EXCEPTION Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
+	FIELD b SET_FAILED_NOCHANGE_EXCEPTION Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
+	FIELD c SET_FAILED_SMALL_EXCEPTION Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
+	FIELD d SET_FAILED_BIG_EXCEPTION Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
+	FIELD e WARNING_TIME_FAILED_EXCEPTION Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
+	FIELD f WARNING_DISTANCE_FAILED_EXCEPTION Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
+	FIELD g DAMAGE_BUFFER_FAILED_EXCEPTION Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
+	FIELD h DAMAGE_AMOUNT_FAILED_EXCEPTION Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
+	METHOD a executeGet (Lcd;)I
+		ARG 0 source
+	METHOD a executeSet (Lcd;DJ)I
+		ARG 0 source
+		ARG 1 distance
+		ARG 3 time
+	METHOD a executeBuffer (Lcd;F)I
+		ARG 0 source
+		ARG 1 distance
+	METHOD a executeWarningTime (Lcd;I)I
+		ARG 0 source
+		ARG 1 time
+	METHOD a executeCenter (Lcd;Lcrn;)I
+		ARG 0 source
+		ARG 1 pos
+	METHOD a register (Lcom/mojang/brigadier/CommandDispatcher;)V
+	METHOD b executeDamage (Lcd;F)I
+		ARG 0 source
+		ARG 1 damagePerBlock
+	METHOD b executeWarningDistance (Lcd;I)I
+		ARG 0 source
+		ARG 1 distance

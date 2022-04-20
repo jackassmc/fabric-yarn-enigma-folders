@@ -1,0 +1,12 @@
+CLASS bor net/minecraft/block/entity/LockableContainerBlockEntity
+	FIELD a lock Lagg;
+	FIELD b customName Ljc;
+	METHOD a createContainer (ILarr;)Latn;
+	METHOD a checkUnlocked (Lars;Lagg;Ljc;)Z
+		ARG 0 player
+		ARG 1 lock
+		ARG 2 containerName
+	METHOD a setCustomName (Ljc;)V
+	METHOD e checkUnlocked (Lars;)Z
+		ARG 1 player
+	METHOD g getContainerName ()Ljc;

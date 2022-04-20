@@ -1,0 +1,20 @@
+CLASS baj net/minecraft/world/level/LevelInfo
+	FIELD a seed J
+	FIELD b gameMode Lbab;
+	FIELD c structures Z
+	FIELD d hardcore Z
+	FIELD e generatorType Lban;
+	FIELD f commands Z
+	FIELD g bonusChest Z
+	METHOD a setBonusChest ()Lbaj;
+	METHOD a getGameModeById (I)Lbab;
+		ARG 0 id
+	METHOD b enableCommands ()Lbaj;
+	METHOD c hasBonusChest ()Z
+	METHOD d getSeed ()J
+	METHOD e getGameMode ()Lbab;
+	METHOD f isHardcore ()Z
+	METHOD g hasStructures ()Z
+	METHOD h getGeneratorType ()Lban;
+	METHOD i allowCommands ()Z
+	METHOD j getGeneratorOptions ()Lcom/google/gson/JsonElement;

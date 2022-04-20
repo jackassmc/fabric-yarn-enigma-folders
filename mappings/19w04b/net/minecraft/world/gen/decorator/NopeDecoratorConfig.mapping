@@ -1,0 +1,3 @@
+CLASS bxp net/minecraft/world/gen/decorator/NopeDecoratorConfig
+	METHOD a deserialize (Lcom/mojang/datafixers/Dynamic;)Lbxp;
+		ARG 0 dynamic

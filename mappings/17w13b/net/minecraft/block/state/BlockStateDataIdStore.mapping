@@ -1,0 +1,16 @@
+CLASS awg net/minecraft/block/state/BlockStateDataIdStore
+	FIELD a blockStates Lpw;
+	FIELD b expander Lawm;
+	FIELD c sizeBits I
+	METHOD <init> (ILawm;)V
+		ARG 0 sizeBits
+		ARG 1 expansionDelegate
+	METHOD a getSizeBytes ()I
+	METHOD a getBlockState (I)Lave;
+		ARG 0 blockStateId
+	METHOD a getBlockStateId (Lave;)I
+		ARG 0 state
+	METHOD a readData (Lgb;)V
+		ARG 0 buffer
+	METHOD b writeData (Lgb;)V
+		ARG 0 buffer

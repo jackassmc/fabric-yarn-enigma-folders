@@ -1,0 +1,2 @@
+CLASS cca net/minecraft/world/gen/surfacebuilder/NetherSurfaceBuilder
+	METHOD a generate (Ljava/util/Random;Lbqb;Lbbl;IIIDLboh;Lboh;IJLccf;)V

@@ -1,0 +1,11 @@
+CLASS asr net/minecraft/entity/mob/EndermanEntity
+	CLASS asr$b PlaceBlockGoal
+		FIELD a owner Lasr;
+	CLASS asr$d PickUpBlockGoal
+		FIELD a owner Lasr;
+	FIELD bA ANGRY Lqe;
+	FIELD bD ageWhenTargetSet I
+	FIELD d CARRIED_BLOCK Lqe;
+	METHOD b setCarriedBlock (Lbtw;)V
+	METHOD dP getCarriedBlock ()Lbtw;
+	METHOD dQ isAngry ()Z

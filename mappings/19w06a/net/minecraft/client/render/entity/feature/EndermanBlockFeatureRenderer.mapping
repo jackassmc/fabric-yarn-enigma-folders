@@ -1,0 +1,3 @@
+CLASS dng net/minecraft/client/render/entity/feature/EndermanBlockFeatureRenderer
+	METHOD <init> (Ldlv;)V
+		ARG 1 context

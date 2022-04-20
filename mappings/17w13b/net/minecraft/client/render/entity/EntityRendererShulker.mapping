@@ -1,0 +1,10 @@
+CLASS byw net/minecraft/client/render/entity/EntityRendererShulker
+	CLASS byw$a
+		METHOD a shouldMergeTextures ()Z
+		METHOD a render (Laca;FFFFFFF)V
+		METHOD a render (Luk;FFFFFFF)V
+	FIELD a SKIN [Lmd;
+	METHOD a getTexture (Laca;)Lmd;
+		ARG 0 model
+	METHOD a getTexture (Lub;)Lmd;
+		ARG 0 model

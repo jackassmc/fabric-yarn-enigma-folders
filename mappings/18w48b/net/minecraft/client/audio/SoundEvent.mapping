@@ -1,0 +1,18 @@
+CLASS dnt net/minecraft/client/audio/SoundEvent
+	CLASS dnt$a AttenuationType
+		FIELD a NONE Ldnt$a;
+		FIELD b LINEAR Ldnt$a;
+		FIELD c TYPE I
+		METHOD a getType ()I
+	METHOD a getId ()Lpy;
+	METHOD a getAccess (Ldoq;)Ldor;
+	METHOD b getSound ()Ldnq;
+	METHOD c getCategory ()Lxh;
+	METHOD d isRepeatable ()Z
+	METHOD e getRepeatDelay ()I
+	METHOD f getVolume ()F
+	METHOD g getPitch ()F
+	METHOD h getX ()F
+	METHOD i getY ()F
+	METHOD j getZ ()F
+	METHOD k getAttenuationType ()Ldnt$a;

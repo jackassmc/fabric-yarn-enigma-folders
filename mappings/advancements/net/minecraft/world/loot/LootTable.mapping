@@ -1,0 +1,11 @@
+CLASS bed net/minecraft/world/loot/LootTable
+	CLASS bed$a DeSerializer
+		METHOD a serialize (Lbed;Ljava/lang/reflect/Type;Lcom/google/gson/JsonSerializationContext;)Lcom/google/gson/JsonElement;
+		METHOD a deserialize (Lcom/google/gson/JsonElement;Ljava/lang/reflect/Type;Lcom/google/gson/JsonDeserializationContext;)Lbed;
+	FIELD a EMPTY Lbed;
+	FIELD b LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD c pools [Lbeb;
+	METHOD a shuffleStacks (Ljava/util/List;ILjava/util/Random;)V
+	METHOD a generateLoot (Ljava/util/Random;Lbee;)Ljava/util/List;
+	METHOD a getRandomSlots (Lsq;Ljava/util/Random;)Ljava/util/List;
+	METHOD a fillInventory (Lsq;Ljava/util/Random;Lbee;)V

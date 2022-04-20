@@ -1,0 +1,5 @@
+CLASS nh net/minecraft/client/network/packet/PlayerListHeaderS2CPacket
+	FIELD a header Ljn;
+	FIELD b footer Ljn;
+	METHOD b getHeader ()Ljn;
+	METHOD c getFooter ()Ljn;

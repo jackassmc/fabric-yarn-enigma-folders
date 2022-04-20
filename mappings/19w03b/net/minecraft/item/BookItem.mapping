@@ -1,0 +1,3 @@
+CLASS avk net/minecraft/item/BookItem
+	METHOD a isTool (Laxc;)Z
+	METHOD c getEnchantability ()I

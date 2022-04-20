@@ -1,0 +1,23 @@
+CLASS awm net/minecraft/entity/ProjectileUtil
+	METHOD a getEntityAndRidingEntity (Laie;)Ljava/util/Set;
+		ARG 0 entity
+	METHOD a getCollision (Laie;Lcro;Ljava/util/function/Predicate;Lbgt$a;Z)Lcrr;
+		ARG 0 entity
+		ARG 1 box
+		ARG 2 entityCollisionPredicate
+		ARG 3 shapeType
+	METHOD a rayTrace (Laie;Lcrt;Lcrt;Lcro;Ljava/util/function/Predicate;D)Lcrq;
+	METHOD a getCollision (Laie;ZZLaie;Lbgt$a;)Lcrr;
+		ARG 0 entity
+		ARG 4 shapeType
+	METHOD a getCollision (Laie;ZZLaie;Lbgt$a;ZLjava/util/function/Predicate;Lcro;)Lcrr;
+		ARG 0 entity
+		ARG 4 shapeType
+		ARG 6 entityCollisionPredicate
+		ARG 7 boz
+	METHOD a getHandPossiblyHolding (Lain;Lbbu;)Lagy;
+		ARG 0 entity
+		ARG 1 item
+	METHOD a createArrowProjectile (Lain;Lbbz;F)Lawa;
+	METHOD a getEntityCollision (Lbhf;Laie;Lcrt;Lcrt;Lcro;Ljava/util/function/Predicate;)Lcrq;
+	METHOD a getEntityCollision (Lbhf;Laie;Lcrt;Lcrt;Lcro;Ljava/util/function/Predicate;D)Lcrq;

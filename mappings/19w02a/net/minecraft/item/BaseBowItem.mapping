@@ -1,0 +1,8 @@
+CLASS axp net/minecraft/item/BaseBowItem
+	METHOD <init> (Lawy$a;)V
+		ARG 1 settings
+	METHOD a findArrowStack (Lark;)Laxd;
+		ARG 1 player
+	METHOD c getEnchantability ()I
+	METHOD f isArrow (Laxd;)Z
+		ARG 1 stack

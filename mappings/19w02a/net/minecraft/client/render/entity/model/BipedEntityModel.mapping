@@ -1,0 +1,30 @@
+CLASS czm net/minecraft/client/render/entity/model/BipedEntityModel
+	CLASS czm$a ArmPose
+	FIELD f head Ldbs;
+	FIELD g headwear Ldbs;
+	FIELD h body Ldbs;
+	FIELD i armRight Ldbs;
+	FIELD j armLeft Ldbs;
+	FIELD k legRight Ldbs;
+	FIELD l legLeft Ldbs;
+	FIELD m armPoseLeft Lczm$a;
+	FIELD n armPoseRight Lczm$a;
+	FIELD o isSneaking Z
+	METHOD <init> (FFII)V
+		ARG 1 scale
+		ARG 3 textureWidth
+	METHOD a animateModel (Lahd;FFF)V
+		ARG 2 swingAmount
+		ARG 3 swingDelta
+	METHOD a setAngles (Lahd;FFFFFF)V
+	METHOD a getArm (Lahl;)Ldbs;
+	METHOD a getPreferedHand (Lahm;)Lahl;
+	METHOD a setAttributes (Lczm;)V
+	METHOD b render (Lahd;FFFFFF)V
+		ARG 1 entity
+		ARG 2 limbMoveAngle
+		ARG 3 limbMoveAmount
+		ARG 4 age
+		ARG 5 headYaw
+		ARG 6 headPitch
+	METHOD b_ setVisible (Z)V

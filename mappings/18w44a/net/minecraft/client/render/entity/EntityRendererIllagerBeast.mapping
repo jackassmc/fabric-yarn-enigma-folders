@@ -1,0 +1,8 @@
+CLASS dex net/minecraft/client/render/entity/EntityRendererIllagerBeast
+	FIELD a TEXTURE Lpu;
+	METHOD <init> (Ldei;)V
+		ARG 1 renderManager
+	METHOD a getTexture (Lafv;)Lpu;
+		ARG 1 model
+	METHOD a getTexture (Laom;)Lpu;
+		ARG 1 model

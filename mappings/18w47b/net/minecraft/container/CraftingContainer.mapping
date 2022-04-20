@@ -1,0 +1,4 @@
+CLASS asx net/minecraft/container/CraftingContainer
+	METHOD a matches (Laxu;)Z
+	METHOD f getCraftingWidth ()I
+	METHOD g getCrafitngHeight ()I

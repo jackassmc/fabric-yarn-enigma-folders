@@ -1,0 +1,11 @@
+CLASS cyc net/minecraft/client/gui/menu/BackupPromptScreen
+	CLASS cyc$a Callback
+	FIELD b confirmText Ljava/lang/String;
+	FIELD c skipText Ljava/lang/String;
+	FIELD d cancelText Ljava/lang/String;
+	FIELD e parent Lczn;
+	FIELD f subtitle Ljm;
+	FIELD g wrappedText Ljava/util/List;
+	METHOD <init> (Lczn;Lcyc$a;Ljm;Ljm;)V
+		ARG 1 parent
+		ARG 2 callback

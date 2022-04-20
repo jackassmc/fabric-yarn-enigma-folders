@@ -1,0 +1,4 @@
+CLASS boy net/minecraft/block/PaneBlock
+	METHOD <init> (Lbme$c;)V
+		ARG 1 settings
+	METHOD a connectsTo (Lbvc;Z)Z

@@ -1,0 +1,8 @@
+CLASS anb net/minecraft/entity/EntityLightning
+	METHOD S_ update ()V
+	METHOD a deserializeCustomData (Lhl;)V
+		ARG 0 tag
+	METHOD b serializeCustomData (Lhl;)V
+		ARG 0 tag
+	METHOD bX getSoundCategory ()Lwx;
+	METHOD y_ initDataTracker ()V

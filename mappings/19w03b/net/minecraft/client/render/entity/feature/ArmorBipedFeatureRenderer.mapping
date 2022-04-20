@@ -1,0 +1,2 @@
+CLASS dnh net/minecraft/client/render/entity/feature/ArmorBipedFeatureRenderer
+	METHOD a hideModel (Lczt;)V

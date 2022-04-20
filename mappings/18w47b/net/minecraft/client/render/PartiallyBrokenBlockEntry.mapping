@@ -1,0 +1,7 @@
+CLASS tv net/minecraft/client/render/PartiallyBrokenBlockEntry
+	FIELD a breakingEntityId I
+	FIELD b pos Let;
+	FIELD c stage I
+	METHOD a setStage (I)V
+	METHOD b getPos ()Let;
+	METHOD c getStage ()I

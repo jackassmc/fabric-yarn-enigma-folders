@@ -1,0 +1,14 @@
+CLASS ceg net/minecraft/world/gen/surfacebuilder/DefaultSurfaceBuilder
+	METHOD a generate (Ljava/util/Random;Lbrs;Lbde;IIIDLbqe;Lbqe;IJLcer;)V
+		ARG 1 random
+		ARG 2 chunk
+		ARG 3 biome
+	METHOD a generate (Ljava/util/Random;Lbrs;Lbde;IIIDLbqe;Lbqe;Lbqe;Lbqe;Lbqe;I)V
+		ARG 1 random
+		ARG 2 chunk
+		ARG 3 biome
+		ARG 9 defaultBlock
+		ARG 10 fluidBlock
+		ARG 11 topBlock
+		ARG 12 underBlock
+		ARG 13 underwaterBlock

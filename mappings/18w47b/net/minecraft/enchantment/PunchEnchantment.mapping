@@ -1,0 +1,2 @@
+CLASS ayk net/minecraft/enchantment/PunchEnchantment
+	METHOD a getHighestLevel ()I

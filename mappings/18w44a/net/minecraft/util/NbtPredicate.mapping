@@ -1,0 +1,7 @@
+CLASS be net/minecraft/util/NbtPredicate
+	FIELD a ANY Lbe;
+	FIELD b tag Lhm;
+	METHOD a matches (Lafv;)Z
+	METHOD a matches (Lauv;)Z
+	METHOD a deserialize (Lcom/google/gson/JsonElement;)Lbe;
+	METHOD a matches (Lic;)Z

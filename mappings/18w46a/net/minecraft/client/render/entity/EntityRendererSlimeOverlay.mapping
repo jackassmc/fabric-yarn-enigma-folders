@@ -1,0 +1,6 @@
+CLASS djn net/minecraft/client/render/entity/EntityRendererSlimeOverlay
+	FIELD a renderer Ldhp;
+	FIELD b model Lcwe;
+	METHOD a shouldMergeTextures ()Z
+	METHOD a render (Lagl;FFFFFFF)V
+	METHOD a render (Lapi;FFFFFFF)V

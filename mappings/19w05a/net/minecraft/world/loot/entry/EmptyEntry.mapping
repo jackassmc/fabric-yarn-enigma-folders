@@ -1,0 +1,3 @@
+CLASS cka net/minecraft/world/loot/entry/EmptyEntry
+	CLASS cka$a Serializer
+	METHOD a Serializer ()Lckg$a;

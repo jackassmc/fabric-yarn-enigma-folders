@@ -1,0 +1,27 @@
+CLASS as net/minecraft/advancement/criterion/TriggerFishingRodHooked
+	CLASS as$b Conditions
+		FIELD a rod Law;
+		FIELD b entity Lap;
+		FIELD c item Law;
+		METHOD <init> (Law;Lap;Law;)V
+			ARG 0 rod
+			ARG 1 entity
+			ARG 2 item
+		METHOD a create (Law;Lap;Law;)Las$b;
+		METHOD a matches (Luc;Lauv;Lano;Ljava/util/Collection;)Z
+	FIELD a ID Lpu;
+	METHOD a getId ()Lpu;
+	METHOD a deserializeConditions (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Lt;
+		ARG 1 obj
+		ARG 2 context
+	METHOD a removePlayer (Lqe;)V
+		ARG 1 manager
+	METHOD a addCondition (Lqe;Ls$a;)V
+		ARG 1 manager
+		ARG 2 condition
+	METHOD b deserializeConditions (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Las$b;
+		ARG 1 obj
+		ARG 2 context
+	METHOD b removeCondition (Lqe;Ls$a;)V
+		ARG 1 manager
+		ARG 2 condition

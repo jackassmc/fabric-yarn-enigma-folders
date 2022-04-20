@@ -1,0 +1,42 @@
+CLASS bun net/minecraft/world/gen/chunk/SurfaceChunkGenerator
+	FIELD e random Lbuu;
+	FIELD f defaultBlock Lbre;
+	FIELD g defaultFluid Lbre;
+	FIELD i AIR Lbre;
+	FIELD j verticalNoiseResolution I
+	FIELD k horizontalNoiseResolution I
+	FIELD l noiseSizeX I
+	FIELD m noiseSizeY I
+	FIELD n noiseSizeZ I
+	FIELD r surfaceDepthNoise Lcfx;
+	METHOD <init> (Lbdg;Lbee;IIILbuf;Z)V
+		ARG 1 world
+		ARG 2 biomeSource
+		ARG 3 verticalNoiseResolution
+		ARG 4 horizontalNoiseResolution
+		ARG 5 worldHeight
+		ARG 6 config
+	METHOD a computeNoiseFalloff (DDI)D
+		ARG 1 depth
+		ARG 3 scale
+		ARG 5 y
+	METHOD a computeNoiseRange (II)[D
+		ARG 1 x
+		ARG 2 z
+	METHOD a sampleNoise (IIIDDDD)D
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD a buildBedrock (Lbss;Ljava/util/Random;)V
+	METHOD a sampleNoiseColumn ([DII)V
+		ARG 1 buffer
+		ARG 2 x
+		ARG 3 z
+	METHOD a sampleNoiseColumn ([DIIDDDDII)V
+		ARG 1 buffer
+		ARG 2 x
+		ARG 3 z
+	METHOD b sampleNoiseColumn (II)[D
+		ARG 1 x
+		ARG 2 z
+	METHOD i getNoiseSizeY ()I

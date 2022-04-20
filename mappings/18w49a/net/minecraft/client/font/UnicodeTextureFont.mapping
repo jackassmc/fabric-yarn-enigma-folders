@@ -1,0 +1,10 @@
+CLASS crb net/minecraft/client/font/UnicodeTextureFont
+	CLASS crb$a Loader
+		METHOD a load (Lwd;)Lcmk;
+			ARG 0 manager
+	CLASS crb$b
+		FIELD e image Lcmx;
+		METHOD b getBoldOffset ()F
+		METHOD c getShadowOffset ()F
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD c widths [B

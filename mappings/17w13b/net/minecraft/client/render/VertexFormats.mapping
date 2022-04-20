@@ -1,0 +1,10 @@
+CLASS cce net/minecraft/client/render/VertexFormats
+	FIELD f POSITION_COLOR Lccg;
+	FIELD g POSITION_UV Lccg;
+	FIELD i POSITION_UV_COLOR Lccg;
+	FIELD m POSITION Lcch;
+	FIELD n COLOR Lcch;
+	FIELD o UV Lcch;
+	FIELD p UV1 Lcch;
+	FIELD q NORMAL Lcch;
+	FIELD r PADDING Lcch;

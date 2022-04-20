@@ -1,0 +1,54 @@
+CLASS crv net/minecraft/client/gui/menu/SettingsGui
+	CLASS crv$1
+		METHOD a onPressed (DD)V
+			ARG 0 mouseX
+	CLASS crv$2
+		METHOD a onPressed (DD)V
+			ARG 0 mouseX
+	CLASS crv$3
+		METHOD a onPressed (DD)V
+			ARG 0 mouseX
+	CLASS crv$4
+		METHOD a onPressed (DD)V
+			ARG 0 mouseX
+	CLASS crv$5
+		METHOD a onPressed (DD)V
+			ARG 0 mouseX
+	CLASS crv$6
+		METHOD a onPressed (DD)V
+			ARG 0 mouseX
+	CLASS crv$7
+		METHOD a onPressed (DD)V
+			ARG 0 mouseX
+	CLASS crv$8
+		METHOD a onPressed (DD)V
+			ARG 0 mouseX
+	CLASS crv$9
+		METHOD a onPressed (DD)V
+			ARG 0 mouseX
+	CLASS crv$10
+		METHOD a onPressed (DD)V
+			ARG 0 mouseX
+	CLASS crv$11
+		METHOD a onPressed (DD)V
+			ARG 0 mouseX
+	CLASS crv$12
+		METHOD a onPressed (DD)V
+			ARG 0 mouseX
+	CLASS crv$13
+		METHOD a onPressed (DD)V
+			ARG 0 mouseX
+	FIELD a title Ljava/lang/String;
+	FIELD g parent Lcsb;
+	FIELD h settings Lcnx;
+	FIELD i difficultyButton Lcou;
+	FIELD s lockDifficultyButton Lcpf;
+	METHOD <init> (Lcsb;Lcnx;)V
+		ARG 1 parent
+	METHOD a draw (IIF)V
+		ARG 1 mouseX
+		ARG 2 mouseY
+	METHOD c onInitialized ()V
+	METHOD confirmResult handle (ZI)V
+		ARG 1 result
+	METHOD g close ()V

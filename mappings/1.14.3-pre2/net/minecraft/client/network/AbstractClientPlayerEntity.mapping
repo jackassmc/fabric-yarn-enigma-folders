@@ -1,0 +1,23 @@
+CLASS djx net/minecraft/client/network/AbstractClientPlayerEntity
+	FIELD a elytraPitch F
+	FIELD b elytraYaw F
+	FIELD c elytraRoll F
+	FIELD d clientWorld Ldhq;
+	FIELD e cachedScoreboardEntry Ldhr;
+	METHOD <init> (Ldhq;Lcom/mojang/authlib/GameProfile;)V
+		ARG 1 world
+		ARG 2 profile
+	METHOD a loadSkin (Lqt;Ljava/lang/String;)Ldud;
+		ARG 0 id
+		ARG 1 playerName
+	METHOD c canRenderCapeTexture ()Z
+	METHOD d getSkinId (Ljava/lang/String;)Lqt;
+		ARG 0 playerName
+	METHOD i getPlayerListEntry ()Ldhr;
+	METHOD l hasSkinTexture ()Z
+	METHOD m getSkinTexture ()Lqt;
+	METHOD n getCapeTexture ()Lqt;
+	METHOD o canRenderElytraTexture ()Z
+	METHOD p getElytraTexture ()Lqt;
+	METHOD s getModel ()Ljava/lang/String;
+	METHOD v getSpeed ()F

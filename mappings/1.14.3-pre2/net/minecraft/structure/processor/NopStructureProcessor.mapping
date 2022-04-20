@@ -1,0 +1,2 @@
+CLASS cjc net/minecraft/structure/processor/NopStructureProcessor
+	FIELD a INSTANCE Lcjc;

@@ -1,0 +1,122 @@
+CLASS aip net/minecraft/entity/EntityType
+	CLASS a Builder
+		FIELD a factory Laip$b;
+		FIELD b category Laiw;
+		FIELD c saveable Z
+		FIELD d summonable Z
+		FIELD e fireImmune Z
+		FIELD f size Laim;
+		METHOD <init> (Laip$b;Laiw;)V
+			ARG 1 factory
+			ARG 2 category
+		METHOD a disableSummon ()Laip$a;
+		METHOD a setDimensions (FF)Laip$a;
+			ARG 1 width
+			ARG 2 height
+		METHOD a create (Laip$b;Laiw;)Laip$a;
+			ARG 0 factory
+			ARG 1 category
+		METHOD a create (Laiw;)Laip$a;
+			ARG 0 category
+		METHOD a build (Ljava/lang/String;)Laip;
+			ARG 1 id
+		METHOD b disableSaving ()Laip$a;
+		METHOD c makeFireImmune ()Laip$a;
+	CLASS b EntityFactory
+		METHOD create (Laip;Lbhm;)Lail;
+			ARG 1 type
+			ARG 2 world
+	FIELD aY LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD aZ factory Laip$b;
+	FIELD ba category Laiw;
+	FIELD bb saveable Z
+	FIELD bc summonable Z
+	FIELD bd fireImmune Z
+	FIELD be translationKey Ljava/lang/String;
+	FIELD bf name Ljn;
+	FIELD bg lootTableId Lqt;
+	FIELD bh dataFixerType Lcom/mojang/datafixers/types/Type;
+	FIELD bi dimensions Laim;
+	METHOD <init> (Laip$b;Laiw;ZZZLcom/mojang/datafixers/types/Type;Laim;)V
+		ARG 1 factory
+		ARG 2 category
+		ARG 3 saveable
+		ARG 4 summonable
+		ARG 5 fireImmune
+		ARG 6 dataFixerType
+		ARG 7 dimensions
+	METHOD a isSaveable ()Z
+	METHOD a createSimpleBoundingBox (DDD)Lcrw;
+		ARG 1 feetX
+		ARG 3 feetY
+		ARG 5 feetZ
+	METHOD a createInstanceFromId (ILbhm;)Lail;
+		ARG 0 type
+		ARG 1 world
+	METHOD a getId (Laip;)Lqt;
+		ARG 0 type
+	METHOD a create (Lbhm;)Lail;
+		ARG 1 world
+	METHOD a newInstance (Lbhm;Laip;)Lail;
+		ARG 0 world
+		ARG 1 type
+	METHOD a loadFromEntityTag (Lbhm;Lawb;Lail;Lic;)V
+		ARG 0 world
+		ARG 1 player
+		ARG 3 itemTag
+	METHOD a spawnFromItemStack (Lbhm;Lbce;Lawb;Lev;Laix;ZZ)Lail;
+		ARG 1 world
+		ARG 2 stack
+		ARG 3 player
+		ARG 4 pos
+		ARG 5 spawnType
+	METHOD a spawn (Lbhm;Lic;Ljn;Lawb;Lev;Laix;ZZ)Lail;
+		ARG 1 world
+		ARG 2 itemTag
+		ARG 3 name
+		ARG 4 player
+		ARG 5 pos
+		ARG 6 spawnType
+	METHOD a getOriginY (Lbhp;Lev;ZLcrw;)D
+		ARG 0 world
+		ARG 1 pos
+		ARG 3 boundingBox
+	METHOD a fromTag (Lic;)Ljava/util/Optional;
+		ARG 0 compoundTag
+	METHOD a getEntityFromTag (Lic;Lbhm;)Ljava/util/Optional;
+		ARG 0 tag
+		ARG 1 world
+	METHOD a loadEntityWithPassengers (Lic;Lbhm;Ljava/util/function/Function;)Lail;
+		ARG 0 compoundTag
+		ARG 1 world
+		ARG 2 entityProcessor
+	METHOD a get (Ljava/lang/String;)Ljava/util/Optional;
+		ARG 0 id
+	METHOD a register (Ljava/lang/String;Laip$a;)Laip;
+		ARG 0 id
+		ARG 1 type
+	METHOD a isTaggedWith (Lze;)Z
+		ARG 1 tag
+	METHOD b isSummonable ()Z
+	METHOD b create (Lbhm;Lic;Ljn;Lawb;Lev;Laix;ZZ)Lail;
+		ARG 1 world
+		ARG 2 itemTag
+		ARG 3 name
+		ARG 4 player
+		ARG 5 pos
+		ARG 6 spawnType
+		ARG 7 alignPosition
+	METHOD b loadEntityFromTag (Lic;Lbhm;)Ljava/util/Optional;
+		ARG 0 compoundTag
+		ARG 1 world
+	METHOD c isFireImmune ()Z
+	METHOD d getCategory ()Laiw;
+	METHOD e getTranslationKey ()Ljava/lang/String;
+	METHOD f getName ()Ljn;
+	METHOD g getLootTableId ()Lqt;
+	METHOD h getWidth ()F
+	METHOD i getHeight ()F
+	METHOD j getDimensions ()Laim;
+	METHOD k getMaxTrackDistance ()I
+	METHOD l getTrackTickInterval ()I
+	METHOD m alwaysUpdateVelocity ()Z

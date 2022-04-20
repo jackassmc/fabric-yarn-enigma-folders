@@ -1,0 +1,55 @@
+CLASS apy net/minecraft/block/BlockRedstoneOre
+	FIELD a lit Z
+	METHOD <init> (Z)V
+		ARG 0 lit
+	METHOD a getDropAmount (ILjava/util/Random;)I
+		ARG 0 fortune
+		ARG 1 random
+	METHOD a (Lajq;)I
+		ARG 0 world
+	METHOD a (Lajq;Lco;Laax;)V
+		ARG 0 world
+		ARG 1 pos
+		ARG 2 player
+	METHOD a getPickStack (Lajq;Lco;Latj;)Lafi;
+		ARG 0 world
+		ARG 1 pos
+		ARG 2 state
+	METHOD a dropItems (Lajq;Lco;Latj;FI)V
+		ARG 0 world
+		ARG 1 pos
+		ARG 2 state
+		ARG 3 dropChance
+		ARG 4 fortune
+	METHOD a activate (Lajq;Lco;Latj;Laax;Lrh;Lcv;FFF)Z
+		ARG 0 world
+		ARG 1 pos
+		ARG 2 state
+		ARG 3 player
+		ARG 4 hand
+		ARG 5 facing
+		ARG 6 hitX
+		ARG 7 hitY
+		ARG 8 hitZ
+	METHOD a (Lajq;Lco;Lsm;)V
+		ARG 0 world
+		ARG 1 pos
+		ARG 2 entity
+	METHOD a (Latj;Lajq;Lco;Ljava/util/Random;)V
+		ARG 0 state
+		ARG 1 world
+		ARG 2 pos
+		ARG 3 random
+	METHOD a getDropItem (Latj;Ljava/util/Random;I)Lafg;
+		ARG 0 state
+		ARG 1 random
+		ARG 2 fortune
+	METHOD a getDropAmount (Ljava/util/Random;)I
+		ARG 0 random
+	METHOD b randomTick (Lajq;Lco;Latj;Ljava/util/Random;)V
+		ARG 0 world
+		ARG 1 pos
+		ARG 2 state
+		ARG 3 random
+	METHOD w getStackFromState (Latj;)Lafi;
+		ARG 0 state

@@ -1,0 +1,19 @@
+CLASS czy net/minecraft/client/gui/menu/AdvancementsScreen
+	FIELD a WINDOW_TEXTURE Lqs;
+	FIELD b TABS_TEXTURE Lqs;
+	FIELD c advancementHandler Ldgy;
+	FIELD d widgetMap Ljava/util/Map;
+	FIELD e selectedWidget Lczu;
+	METHOD a drawWidgets (II)V
+		ARG 1 x
+	METHOD a drawAdvancementTree (IIII)V
+		ARG 1 mouseX
+		ARG 2 mouseY
+		ARG 3 x
+	METHOD b drawWidgetTooltip (IIII)V
+		ARG 1 mouseX
+		ARG 2 mouseY
+		ARG 3 x
+	METHOD f getAdvancementWidget (Lq;)Lczw;
+		ARG 1 advancement
+	METHOD g getAdvancementTreeWidget (Lq;)Lczu;

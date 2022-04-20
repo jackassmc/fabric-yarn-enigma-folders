@@ -1,0 +1,4 @@
+CLASS dso net/minecraft/client/render/entity/feature/EnderDragonEyesFeatureRenderer
+	FIELD a SKIN Lqs;
+	METHOD <init> (Ldqu;)V
+		ARG 1 context

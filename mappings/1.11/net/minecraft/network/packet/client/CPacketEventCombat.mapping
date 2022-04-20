@@ -1,0 +1,14 @@
+CLASS hf net/minecraft/network/packet/client/CPacketEventCombat
+	CLASS hf$a Type
+		FIELD a BEGIN Lhf$a;
+		FIELD b END Lhf$a;
+		FIELD c DEATH Lhf$a;
+	FIELD a type Lhf$a;
+	METHOD a readPacket (Let;)V
+		ARG 0 packet
+	METHOD a applyPacket (Lew;)V
+		ARG 0 handler
+	METHOD a applyPacket (Lfp;)V
+		ARG 0 handler
+	METHOD b writePacket (Let;)V
+		ARG 0 packet

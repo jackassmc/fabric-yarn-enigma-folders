@@ -1,0 +1,12 @@
+CLASS brj net/minecraft/predicate/block/BlockStatePredicate
+	FIELD a ANY Ljava/util/function/Predicate;
+	FIELD b factory Lbra;
+	FIELD c propertyTests Ljava/util/Map;
+	METHOD a forBlock (Lbic;)Lbrj;
+		ARG 0 block
+	METHOD a apply (Lbqz;)Z
+	METHOD a testProperty (Lbqz;Lbsc;Ljava/util/function/Predicate;)Z
+		ARG 1 blockState
+		ARG 2 property
+	METHOD a with (Lbsc;Ljava/util/function/Predicate;)Lbrj;
+		ARG 1 property

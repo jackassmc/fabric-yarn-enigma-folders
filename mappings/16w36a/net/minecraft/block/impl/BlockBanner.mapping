@@ -1,0 +1,89 @@
+CLASS none/akp net/minecraft/block/impl/BlockBanner
+	CLASS none/akp$a Standing
+		METHOD a deserializeState (I)Lnone/asl;
+			ARG 0 meta
+		METHOD a (Lnone/asl;Lnone/aiv;Lnone/cn;Lnone/akx;)V
+			ARG 0 state
+			ARG 1 world
+			ARG 2 pos
+			ARG 3 block
+		METHOD a applyMirror (Lnone/asl;Lnone/anx;)Lnone/asl;
+			ARG 0 state
+			ARG 1 mirror
+		METHOD a applyRotation (Lnone/asl;Lnone/apk;)Lnone/asl;
+			ARG 0 state
+			ARG 1 rotation
+		METHOD b createStateFactory ()Lnone/asm;
+		METHOD b getBoundingBox (Lnone/asl;Lnone/aiz;Lnone/cn;)Lnone/bcr;
+			ARG 0 state
+			ARG 1 view
+			ARG 2 pos
+		METHOD e serializeState (Lnone/asl;)I
+			ARG 0 state
+	CLASS none/akp$b Wall
+		FIELD d EAST_BOX Lnone/bcr;
+		FIELD e NORTH_BOX Lnone/bcr;
+		FIELD f SOUTH_BOX Lnone/bcr;
+		FIELD g WEST_BOX Lnone/bcr;
+		METHOD a deserializeState (I)Lnone/asl;
+			ARG 0 meta
+		METHOD a (Lnone/asl;Lnone/aiv;Lnone/cn;Lnone/akx;)V
+			ARG 0 state
+			ARG 1 world
+			ARG 2 pos
+			ARG 3 block
+		METHOD a applyMirror (Lnone/asl;Lnone/anx;)Lnone/asl;
+			ARG 0 state
+			ARG 1 mirror
+		METHOD a applyRotation (Lnone/asl;Lnone/apk;)Lnone/asl;
+			ARG 0 state
+			ARG 1 rotation
+		METHOD b createStateFactory ()Lnone/asm;
+		METHOD b getBoundingBox (Lnone/asl;Lnone/aiz;Lnone/cn;)Lnone/bcr;
+			ARG 0 state
+			ARG 1 view
+			ARG 2 pos
+		METHOD e serializeState (Lnone/asl;)I
+			ARG 0 state
+	FIELD a FACING Lnone/asy;
+	FIELD b ROTATION Lnone/ata;
+	FIELD c BOUNDING_BOX Lnone/bcr;
+	METHOD a createBlockEntity (Lnone/aiv;I)Lnone/ard;
+		ARG 0 world
+		ARG 1 metadata
+	METHOD a afterBreak (Lnone/aiv;Lnone/aal;Lnone/cn;Lnone/asl;Lnone/ard;Lnone/aer;)V
+		ARG 0 world
+		ARG 1 player
+		ARG 2 pos
+		ARG 3 state
+		ARG 4 te
+		ARG 5 stack
+	METHOD a canPlaceAt (Lnone/aiv;Lnone/cn;)Z
+		ARG 0 world
+		ARG 1 pos
+	METHOD a getPickStack (Lnone/aiv;Lnone/cn;Lnone/asl;)Lnone/aer;
+		ARG 0 world
+		ARG 1 pos
+		ARG 2 state
+	METHOD a dropItems (Lnone/aiv;Lnone/cn;Lnone/asl;FI)V
+		ARG 0 world
+		ARG 1 pos
+		ARG 2 state
+		ARG 3 dropChance
+		ARG 4 fortune
+	METHOD a getDropItem (Lnone/asl;Ljava/util/Random;I)Lnone/aep;
+		ARG 0 state
+		ARG 1 random
+		ARG 2 fortune
+	METHOD a getCollisionBox (Lnone/asl;Lnone/aiz;Lnone/cn;)Lnone/bcr;
+		ARG 0 state
+		ARG 1 view
+		ARG 2 pos
+	METHOD b (Lnone/aiz;Lnone/cn;)Z
+		ARG 0 view
+		ARG 1 pos
+	METHOD b (Lnone/asl;)Z
+		ARG 0 state
+	METHOD c getTranslatedName ()Ljava/lang/String;
+	METHOD c (Lnone/asl;)Z
+		ARG 0 state

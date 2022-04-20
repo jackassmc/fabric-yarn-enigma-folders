@@ -1,0 +1,65 @@
+CLASS dba net/minecraft/client/particle/Particle
+	FIELD A colorBlue F
+	FIELD B colorAlpha F
+	FIELD C sprite Ldlw;
+	FIELD F lerpX D
+	FIELD G lerpY D
+	FIELD H lerpZ D
+	FIELD J EMPTY_BOUNDING_BOX Lckv;
+	FIELD K boundingBox Lckv;
+	FIELD a world Lbas;
+	FIELD b prevPosX D
+	FIELD c prevPosY D
+	FIELD d prevPosZ D
+	FIELD e posX D
+	FIELD f posY D
+	FIELD g posZ D
+	FIELD h velocityX D
+	FIELD i velocityY D
+	FIELD j velocityZ D
+	FIELD k onGround Z
+	FIELD l collidesWithWorld Z
+	FIELD m dead Z
+	FIELD n spacingXZ F
+	FIELD o spacingY F
+	FIELD p random Ljava/util/Random;
+	FIELD q tileU I
+	FIELD r tileV I
+	FIELD u age I
+	FIELD v maxAge I
+	FIELD w size F
+	FIELD x gravityStrength F
+	FIELD y colorRed F
+	FIELD z colorGreen F
+	METHOD <init> (Lbas;DDDDDD)V
+		ARG 1 world
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z
+	METHOD a update ()V
+	METHOD a addPos (DDD)V
+		ARG 1 dx
+	METHOD a getColorMultiplier (F)I
+	METHOD a setBoundingBoxSpacing (FF)V
+		ARG 1 spacingXZ
+	METHOD a setColor (FFF)V
+		ARG 1 red
+		ARG 2 green
+	METHOD a setSpriteIndex (I)V
+	METHOD a setBoundingBox (Lckv;)V
+	METHOD a buildGeometry (Lcnp;Lagk;FFFFFF)V
+	METHOD a setSprite (Ldlw;)V
+	METHOD b getParticleGroup ()I
+	METHOD b setPos (DDD)V
+		ARG 1 x
+	METHOD b setMaxAge (I)V
+	METHOD c hasAlpha ()Z
+	METHOD d getColorRed ()F
+	METHOD e getColorGreen ()F
+	METHOD e setColorAlpha (F)V
+	METHOD f getColorBlue ()F
+	METHOD i incSpriteIndex ()V
+	METHOD j markDead ()V
+	METHOD k repositionFromBoundingBox ()V
+	METHOD l isAlive ()Z
+	METHOD m getBoundingBox ()Lckv;

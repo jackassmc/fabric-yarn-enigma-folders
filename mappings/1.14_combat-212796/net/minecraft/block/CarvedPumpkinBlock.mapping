@@ -1,0 +1,19 @@
+CLASS bne net/minecraft/block/CarvedPumpkinBlock
+	FIELD a FACING Lbwk;
+	FIELD b snowGolemDispenserPattern Lbvu;
+	FIELD c snowGolemPattern Lbvu;
+	FIELD d ironGolemDispenserPattern Lbvu;
+	FIELD e ironGolemPattern Lbvu;
+	FIELD f IS_PUMPKIN_PREDICATE Ljava/util/function/Predicate;
+	METHOD <init> (Lbmr$c;)V
+		ARG 1 settings
+	METHOD a trySpawnEntity (Lbhn;Lev;)V
+		ARG 1 world
+		ARG 2 pos
+	METHOD a canDispense (Lbhq;Lev;)Z
+		ARG 1 world
+		ARG 2 pos
+	METHOD d getSnowGolemDispenserPattern ()Lbvu;
+	METHOD e getSnowGolemPattern ()Lbvu;
+	METHOD f getIronGolemDispenserPattern ()Lbvu;
+	METHOD q getIronGolemPattern ()Lbvu;

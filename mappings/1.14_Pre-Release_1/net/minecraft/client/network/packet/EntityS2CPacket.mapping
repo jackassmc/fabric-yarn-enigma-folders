@@ -1,0 +1,20 @@
+CLASS ls net/minecraft/client/network/packet/EntityS2CPacket
+	CLASS ls$a MoveRelative
+	CLASS ls$b RotateAndMoveRelative
+	CLASS ls$c Rotate
+	FIELD a id I
+	FIELD b deltaX S
+	FIELD c deltaY S
+	FIELD d deltaZ S
+	FIELD e yaw B
+	FIELD f pitch B
+	FIELD g onGround Z
+	FIELD h rotate Z
+	METHOD a getEntity (Lbha;)Laid;
+	METHOD b getDeltaXShort ()S
+	METHOD c getDeltaYShort ()S
+	METHOD d getDeltaZShort ()S
+	METHOD e getYaw ()B
+	METHOD f getPitch ()B
+	METHOD g hasRotation ()Z
+	METHOD h isOnGround ()Z

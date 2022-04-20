@@ -1,0 +1,5 @@
+CLASS bks net/minecraft/block/LogBlock
+	METHOD d getMaterialColor (Lbqi;Lbbt;Let;)Lcgb;
+		ARG 1 state
+		ARG 2 view
+		ARG 3 pos

@@ -1,0 +1,5 @@
+CLASS agk net/minecraft/sortme/OptionMainHand
+	FIELD a LEFT Lagk;
+	FIELD b RIGHT Lagk;
+	FIELD c name Liz;
+	METHOD a getOpposite ()Lagk;

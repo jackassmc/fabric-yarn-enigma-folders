@@ -1,0 +1,5 @@
+CLASS wo net/minecraft/entity/ai/action/ActionMove
+	FIELD a entity Lvo;
+	METHOD <init> (Lvo;)V
+		ARG 0 entity
+	METHOD a tick ()V

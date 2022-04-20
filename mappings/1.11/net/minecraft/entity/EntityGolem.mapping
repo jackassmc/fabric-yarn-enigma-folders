@@ -1,0 +1,6 @@
+CLASS wy net/minecraft/entity/EntityGolem
+	METHOD G getSoundAmbient ()Lnm;
+	METHOD bW getSoundDeath ()Lnm;
+	METHOD bX getSoundHurt ()Lnm;
+	METHOD e handleFallDamage (FF)V
+		ARG 0 fallDistance

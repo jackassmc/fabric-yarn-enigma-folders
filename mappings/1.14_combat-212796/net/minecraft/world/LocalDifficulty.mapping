@@ -1,0 +1,10 @@
+CLASS ahf net/minecraft/world/LocalDifficulty
+	FIELD a globalDifficulty Lahe;
+	FIELD b localDifficulty F
+	METHOD <init> (Lahe;JJF)V
+		ARG 1 difficulty
+		ARG 2 timeOfDay
+	METHOD a getGlobalDifficulty ()Lahe;
+	METHOD a setLocalDifficulty (Lahe;JJF)F
+	METHOD b getLocalDifficulty ()F
+	METHOD d getClampedLocalDifficulty ()F

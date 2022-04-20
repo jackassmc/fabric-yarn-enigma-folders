@@ -1,0 +1,24 @@
+CLASS none/cau net/minecraft/client/audio/SoundLoader
+	CLASS none/cau$2
+		METHOD a getCopy ()Lnone/cab;
+		METHOD e getWeight ()I
+		METHOD i getCopy ()Ljava/lang/Object;
+	FIELD a SOUND_MISSING Lnone/cab;
+	FIELD b LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD c GSON Lcom/google/gson/Gson;
+	FIELD d TYPE Ljava/lang/reflect/ParameterizedType;
+	FIELD e registry Lnone/cav;
+	FIELD f soundManager Lnone/cas;
+	FIELD g resourceManager Lnone/bya;
+	METHOD <init> (Lnone/bya;Lnone/bdq;)V
+		ARG 0 manager
+		ARG 1 settings
+	METHOD D_ update ()V
+	METHOD a readSounds (Ljava/io/InputStream;)Ljava/util/Map;
+		ARG 0 input
+	METHOD a onResourceReload (Lnone/bya;)V
+		ARG 0 container
+	METHOD a play (Lnone/cae;)V
+		ARG 0 sound
+	METHOD a getSoundAccessor (Lnone/kp;)Lnone/caw;
+		ARG 0 id

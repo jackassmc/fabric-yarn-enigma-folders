@@ -1,0 +1,31 @@
+CLASS cbt net/minecraft/client/texture/TextureStitcher
+	CLASS cbt$a Holder
+		FIELD a sprite Lcbw;
+		FIELD b width I
+		FIELD c height I
+		FIELD d mipLevel I
+		METHOD a getSprite ()Lcbw;
+	CLASS cbt$b Slot
+		FIELD a x I
+		FIELD b y I
+		FIELD c width I
+		FIELD d height I
+		FIELD f spriteHolder Lcbt$a;
+		METHOD a getSpriteHolder ()Lcbt$a;
+		METHOD a tryFit (Lcbt$a;)Z
+		METHOD a addAllFilledSlots (Ljava/util/List;)V
+		METHOD b getX ()I
+		METHOD c getY ()I
+	FIELD a mipLevel I
+	FIELD b holders Ljava/util/Set;
+	FIELD c slots Ljava/util/List;
+	FIELD d width I
+	FIELD e height I
+	FIELD f maxWidth I
+	FIELD g maxHeight I
+	METHOD a getWidth ()I
+	METHOD a tryFit (Lcbt$a;)Z
+	METHOD a add (Lcbw;)V
+	METHOD b getHeight ()I
+	METHOD c stitch ()V
+	METHOD d getStitchedSprites ()Ljava/util/List;

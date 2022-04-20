@@ -1,0 +1,3 @@
+CLASS aqh net/minecraft/entity/EntityInteraction
+	METHOD a create (Ljava/lang/String;)Laqh;
+		ARG 0 key

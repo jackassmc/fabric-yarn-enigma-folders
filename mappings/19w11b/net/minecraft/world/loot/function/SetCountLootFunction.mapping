@@ -1,0 +1,3 @@
+CLASS col net/minecraft/world/loot/function/SetCountLootFunction
+	CLASS col$a Factory
+	METHOD a builder (Lcnc;)Lcoe$a;

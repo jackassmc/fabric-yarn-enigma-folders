@@ -1,0 +1,2 @@
+CLASS dbu net/minecraft/client/render/block/BiomeColorHandler
+	CLASS dbu$a Proxy

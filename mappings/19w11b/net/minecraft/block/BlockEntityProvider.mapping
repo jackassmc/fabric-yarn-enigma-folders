@@ -1,0 +1,3 @@
+CLASS bmt net/minecraft/block/BlockEntityProvider
+	METHOD a createBlockEntity (Lbfi;)Lbrz;
+		ARG 1 view

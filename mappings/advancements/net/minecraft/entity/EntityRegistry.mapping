@@ -1,0 +1,19 @@
+CLASS ud net/minecraft/entity/EntityRegistry
+	FIELD a LIGHTNING_BOLT_ID Lmd;
+	FIELD b CLASS_MAP Lel;
+	FIELD d ID_SET Ljava/util/Set;
+	FIELD e PLAYER_ID Lmd;
+	FIELD f LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD g NAME_LIST Ljava/util/List;
+	METHOD a getIdList ()Ljava/util/Set;
+	METHOD a registerEntity (ILjava/lang/String;Ljava/lang/Class;Ljava/lang/String;)V
+	METHOD a deserialize (Lfc;Lali;)Lub;
+	METHOD a getIdByClass (Ljava/lang/Class;)Lmd;
+	METHOD a create (Ljava/lang/Class;Lali;)Lub;
+	METHOD a getName (Lmd;)Ljava/lang/String;
+	METHOD a create (Lmd;Lali;)Lub;
+	METHOD a getId (Lub;)Lmd;
+	METHOD a matches (Lub;Lmd;)Z
+	METHOD b isValidIdentifier (Lmd;)Z
+	METHOD b getName (Lub;)Ljava/lang/String;
+	METHOD c registerDefaults ()V

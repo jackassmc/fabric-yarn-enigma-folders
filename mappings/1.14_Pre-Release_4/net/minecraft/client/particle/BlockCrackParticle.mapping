@@ -1,0 +1,12 @@
+CLASS dji net/minecraft/client/particle/BlockCrackParticle
+	CLASS dji$a Factory
+	FIELD C block Lbvh;
+	FIELD F blockPos Lev;
+	METHOD <init> (Lbhf;DDDDDDLbvh;)V
+		ARG 1 world
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z
+	METHOD a setBlockPos (Lev;)Ldji;
+	METHOD b updateColor (Lev;)V
+	METHOD g setBlockPosFromPosition ()Ldji;

@@ -1,0 +1,20 @@
+CLASS ckm net/minecraft/util/HitResult
+	CLASS ckm$a Type
+		FIELD a NONE Lckm$a;
+		FIELD b BLOCK Lckm$a;
+		FIELD c ENTITY Lckm$a;
+	FIELD a type Lckm$a;
+	FIELD b side Ley;
+	FIELD c pos Lckp;
+	FIELD d entity Lagi;
+	FIELD e blockPos Let;
+	METHOD <init> (Lagi;Lckp;)V
+		ARG 1 entity
+	METHOD <init> (Lckm$a;Lckp;Ley;Let;)V
+		ARG 1 type
+		ARG 2 pos
+		ARG 3 side
+	METHOD <init> (Lckp;Ley;Let;)V
+		ARG 1 pos
+		ARG 2 side
+	METHOD a getBlockPos ()Let;

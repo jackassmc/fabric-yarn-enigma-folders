@@ -1,0 +1,5 @@
+CLASS aze net/minecraft/item/ToolItem
+	FIELD a material Lazd;
+	METHOD <init> (Lazd;Laxs$a;)V
+		ARG 1 material
+	METHOD e getType ()Lazd;

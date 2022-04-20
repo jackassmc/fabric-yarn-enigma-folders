@@ -1,0 +1,7 @@
+CLASS bly net/minecraft/block/BambooSaplingBlock
+	FIELD a SHAPE Lcsv;
+	METHOD <init> (Lbmq$c;)V
+		ARG 1 settings
+	METHOD a grow (Lbhm;Lev;)V
+		ARG 1 world
+		ARG 2 pos

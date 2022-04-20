@@ -1,0 +1,27 @@
+CLASS aii net/minecraft/entity/ai/AiGoalSet
+	CLASS aii$a WeighedAiGoal
+		FIELD a goal Laih;
+		FIELD b priority I
+		FIELD c executing Z
+		METHOD equals (Ljava/lang/Object;)Z
+			ARG 0 object
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD b all Ljava/util/Set;
+	FIELD c executing Ljava/util/Set;
+	FIELD d profiler Laee;
+	FIELD e timer I
+	FIELD f timeInterval I
+	FIELD g usedBits I
+	METHOD a tick ()V
+	METHOD a add (ILaih;)V
+		ARG 1 weight
+	METHOD a changeBits (IZ)V
+		ARG 1 taskBits
+	METHOD a remove (Laih;)V
+	METHOD a shouldContinueExecution (Laii$a;)Z
+	METHOD a areCompatible (Laii$a;Laii$a;)Z
+		ARG 1 a1
+	METHOD b canAddTask (I)Z
+	METHOD b canStart (Laii$a;)Z
+	METHOD c addBits (I)V
+	METHOD d removeBits (I)V

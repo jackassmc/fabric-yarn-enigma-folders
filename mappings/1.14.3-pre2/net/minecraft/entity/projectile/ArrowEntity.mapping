@@ -1,0 +1,24 @@
+CLASS awh net/minecraft/entity/projectile/ArrowEntity
+	FIELD ar COLOR Lqi;
+	FIELD as potion Lbdt;
+	FIELD at effects Ljava/util/Set;
+	FIELD au colorSet Z
+	METHOD <init> (Lbhl;DDD)V
+		ARG 1 world
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z
+	METHOD <init> (Lbhl;Laiu;)V
+		ARG 1 world
+		ARG 2 owner
+	METHOD a addEffect (Laif;)V
+		ARG 1 effect
+	METHOD b spawnParticles (I)V
+	METHOD b initFromStack (Lbce;)V
+		ARG 1 stack
+	METHOD c setColor (I)V
+		ARG 1 color
+	METHOD c getCustomPotionColor (Lbce;)I
+		ARG 0 stack
+	METHOD w getColor ()I
+	METHOD z initColor ()V

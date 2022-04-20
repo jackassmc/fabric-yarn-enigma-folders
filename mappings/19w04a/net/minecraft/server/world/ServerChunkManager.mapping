@@ -1,0 +1,59 @@
+CLASS uq net/minecraft/server/world/ServerChunkManager
+	FIELD a LEVEL_COUNT I
+	FIELD b CHUNKS_ELIGIBLE_FOR_SPAWNING I
+	FIELD c CHUNK_STATUSES Ljava/util/List;
+	FIELD d ticketManager Lul;
+	FIELD e chunkGenerator Lbrz;
+	FIELD f world Lbcl;
+	FIELD g serverThread Ljava/lang/Thread;
+	FIELD h lightProvider Luv;
+	FIELD i genQueue Ljava/util/Queue;
+	FIELD j players Luo;
+	FIELD k chunkHolderManager Luf;
+	FIELD m maxWatchDistance I
+	FIELD n lastMobSpawningTime J
+	FIELD o spawnMonsters Z
+	FIELD p spawnAnimals Z
+	METHOD a getLightingProvider ()Luv;
+	METHOD a applyViewDistance (I)V
+		ARG 1 viewDistance
+	METHOD a getChunkHolder (J)Lue;
+		ARG 1 pos
+	METHOD a getDebugString (Lbby;)Ljava/lang/String;
+		ARG 1 pos
+	METHOD a getWatchDistance (Lbby;II)I
+	METHOD a getWatchDistance (Lbby;Lahc;)I
+	METHOD a getWatchDistance (Lbby;Lut;Z)I
+		ARG 0 chunkPos
+		ARG 1 player
+	METHOD a markForUpdate (Let;)V
+	METHOD a addPlayer (Lut;)V
+	METHOD a (Lut;II)Z
+		ARG 2 x
+		ARG 3 z
+	METHOD a addOrRemovePlayer (Lut;Z)V
+		ARG 2 add
+	METHOD a addTicket (Lux;Lbby;ILjava/lang/Object;)V
+	METHOD a save (Z)V
+		ARG 1 flush
+	METHOD b getTotalChunksLoadedCount ()I
+	METHOD b getChunkSyncIfServerThread (IILbsd;Z)Ljava/util/concurrent/CompletableFuture;
+		ARG 1 chunkX
+		ARG 2 chunkZ
+		ARG 3 status
+		ARG 4 create
+	METHOD b getSqDistance (Lbby;Lahc;)D
+	METHOD b removePlayer (Lut;)V
+	METHOD b removeTicket (Lux;Lbby;ILjava/lang/Object;)V
+	METHOD c getWorld ()Lbcl;
+	METHOD c getChunkAsync (IILbsd;Z)Ljava/util/concurrent/CompletableFuture;
+		ARG 1 chunkX
+		ARG 2 chunkZ
+		ARG 3 status
+		ARG 4 create
+	METHOD c updateChunkWatchingForPlayer (Lut;)V
+		ARG 1 playerEntity
+	METHOD d isWatchDisabled (Lut;)Z
+	METHOD g getLoadedChunkCount ()I
+	METHOD k update ()Z
+	METHOD l doMobSpawning ()V

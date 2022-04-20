@@ -1,0 +1,18 @@
+CLASS ik net/minecraft/network/packet/client/CPacketMapUpdate
+	FIELD a id I
+	FIELD b scale B
+	FIELD c showIcons Z
+	FIELD d icons [Lbdf;
+	FIELD e updateLeft I
+	FIELD f updateTop I
+	FIELD g updateHeight I
+	FIELD h updateWidth I
+	FIELD i updateData [B
+	METHOD a getId ()I
+	METHOD a apply (Lbdg;)V
+	METHOD a readPacket (Lgb;)V
+		ARG 0 buf
+	METHOD a applyPacket (Lge;)V
+	METHOD a applyPacket (Lgy;)V
+	METHOD b writePacket (Lgb;)V
+		ARG 0 buf

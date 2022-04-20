@@ -1,0 +1,10 @@
+CLASS ccs net/minecraft/world/gen/feature/OceanRuinFeatureConfig
+	FIELD a biomeType Lchz$b;
+	FIELD b largeProbability F
+	FIELD c clusterProbability F
+	METHOD <init> (Lchz$b;FF)V
+		ARG 1 biomeType
+		ARG 2 largeProbability
+		ARG 3 clusterProbability
+	METHOD a deserialize (Lcom/mojang/datafixers/Dynamic;)Lccs;
+		ARG 0 dynamic

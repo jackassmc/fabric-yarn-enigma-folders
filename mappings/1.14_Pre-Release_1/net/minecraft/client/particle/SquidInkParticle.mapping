@@ -1,0 +1,2 @@
+CLASS diy net/minecraft/client/particle/SquidInkParticle
+	CLASS diy$a Factory

@@ -1,0 +1,8 @@
+CLASS ajk net/minecraft/entity/ai/AiGoalStayInside
+	FIELD a entity Lags;
+	FIELD b closestDoor Lakt;
+	METHOD a canStart ()Z
+	METHOD b shouldContinue ()Z
+	METHOD c start ()V
+	METHOD d onRemove ()V
+	METHOD e tick ()V

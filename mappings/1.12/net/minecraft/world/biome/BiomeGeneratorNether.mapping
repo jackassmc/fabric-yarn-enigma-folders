@@ -1,0 +1,6 @@
+CLASS anr net/minecraft/world/biome/BiomeGeneratorNether
+	METHOD a decorate (Lams;Ljava/util/Random;Lanf;Let;)V
+		ARG 0 world
+		ARG 1 rand
+		ARG 2 biome
+		ARG 3 chunkPos

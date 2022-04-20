@@ -1,0 +1,4 @@
+CLASS bvi net/minecraft/client/render/entity/EntityRendererLiving
+	METHOD a addLayer (Lbxm;)Z
+	METHOD a (Lsm;DDDFF)V
+	METHOD a (Lsv;DDDFF)V

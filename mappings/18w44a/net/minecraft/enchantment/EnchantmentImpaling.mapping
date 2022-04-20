@@ -1,0 +1,5 @@
+CLASS ayp net/minecraft/enchantment/EnchantmentImpaling
+	METHOD a getHighestLevel ()I
+	METHOD a getAdditionalDamge (ILagh;)F
+		ARG 1 level
+		ARG 2 entityType

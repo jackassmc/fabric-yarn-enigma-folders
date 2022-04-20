@@ -1,0 +1,2 @@
+CLASS aoz net/minecraft/block/IBlockEntityProvider
+	METHOD a createBlockEntity (Lali;I)Latu;

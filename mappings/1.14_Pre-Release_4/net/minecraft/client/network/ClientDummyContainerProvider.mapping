@@ -1,0 +1,5 @@
+CLASS ahf net/minecraft/client/network/ClientDummyContainerProvider
+	FIELD a name Ljm;
+	FIELD b containerProvider Laza;
+	METHOD createMenu (ILavv;Lavw;)Laya;
+		ARG 1 syncId

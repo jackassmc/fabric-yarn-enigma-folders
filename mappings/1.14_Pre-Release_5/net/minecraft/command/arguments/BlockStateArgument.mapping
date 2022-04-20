@@ -1,0 +1,8 @@
+CLASS de net/minecraft/command/arguments/BlockStateArgument
+	FIELD a state Lbvj;
+	FIELD b properties Ljava/util/Set;
+	FIELD c data Lib;
+	METHOD a getBlockState ()Lbvj;
+	METHOD a setBlockState (Lvg;Lev;I)Z
+	METHOD test (Ljava/lang/Object;)Z
+		ARG 1 context

@@ -1,0 +1,3 @@
+CLASS col net/minecraft/world/loot/function/LimitCountLootFunction
+	CLASS col$a Factory
+	FIELD a limit Lcnd;

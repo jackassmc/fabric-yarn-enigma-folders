@@ -1,0 +1,7 @@
+CLASS cqz net/minecraft/client/render/item/ItemColorMap
+	FIELD a mappers Lez;
+	METHOD a getRenderColor (Laxt;I)I
+		ARG 1 item
+	METHOD a create (Lcqw;)Lcqz;
+	METHOD a register (Lcqy;[Lbda;)V
+		ARG 1 mapper

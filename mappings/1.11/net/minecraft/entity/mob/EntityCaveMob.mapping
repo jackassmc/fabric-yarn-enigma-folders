@@ -1,0 +1,3 @@
+CLASS ws net/minecraft/entity/mob/EntityCaveMob
+	METHOD a canBeLeashedBy (Laax;)Z
+		ARG 0 player

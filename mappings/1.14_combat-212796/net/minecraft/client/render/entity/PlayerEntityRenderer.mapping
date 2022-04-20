@@ -1,0 +1,4 @@
+CLASS dua net/minecraft/client/render/entity/PlayerEntityRenderer
+	METHOD b renderRightArm (Ldjz;)V
+	METHOD c renderLeftArm (Ldjz;)V
+	METHOD d setModelPose (Ldjz;)V

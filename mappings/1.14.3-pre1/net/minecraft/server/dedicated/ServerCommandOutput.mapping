@@ -1,0 +1,8 @@
+CLASS yd net/minecraft/server/dedicated/ServerCommandOutput
+	FIELD b buffer Ljava/lang/StringBuffer;
+	FIELD c server Lnet/minecraft/server/MinecraftServer;
+	METHOD <init> (Lnet/minecraft/server/MinecraftServer;)V
+		ARG 1 server
+	METHOD d clear ()V
+	METHOD e asString ()Ljava/lang/String;
+	METHOD f createReconCommandSource ()Lcd;

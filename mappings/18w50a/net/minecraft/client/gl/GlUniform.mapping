@@ -1,0 +1,31 @@
+CLASS coo net/minecraft/client/gl/GlUniform
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD b loc I
+	FIELD c count I
+	FIELD d dataType I
+	FIELD e intData Ljava/nio/IntBuffer;
+	FIELD f floatData Ljava/nio/FloatBuffer;
+	FIELD g name Ljava/lang/String;
+	FIELD h stateDirty Z
+	FIELD i program Lcok;
+	METHOD <init> (Ljava/lang/String;IILcok;)V
+		ARG 1 name
+		ARG 2 dataType
+		ARG 3 count
+		ARG 4 program
+	METHOD a getName ()Ljava/lang/String;
+	METHOD a put (F)V
+	METHOD a put (FF)V
+	METHOD a put (FFF)V
+	METHOD a put (FFFF)V
+	METHOD a setLoc (I)V
+	METHOD a put (IIII)V
+	METHOD a put (Lcop;)V
+	METHOD a getTypeIndex (Ljava/lang/String;)I
+		ARG 0 typeName
+	METHOD a put ([F)V
+	METHOD b upload ()V
+	METHOD c markStateDirty ()V
+	METHOD d uploadInts ()V
+	METHOD e uploadFloats ()V
+	METHOD f uploadMatrix ()V

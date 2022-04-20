@@ -1,0 +1,6 @@
+CLASS bpz net/minecraft/block/PortalBlock
+	FIELD a AXIS Lbwh;
+	FIELD b X_SHAPE Lcsp;
+	FIELD c Z_SHAPE Lcsp;
+	METHOD <init> (Lbml$c;)V
+		ARG 1 settings

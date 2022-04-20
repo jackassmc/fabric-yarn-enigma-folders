@@ -1,0 +1,6 @@
+CLASS vk net/minecraft/resource/metadata/ResourceMetadataPack
+	FIELD a READER Lvl;
+	FIELD b description Liz;
+	FIELD c packFormat I
+	METHOD a getDescription ()Liz;
+	METHOD b getPackFormat ()I

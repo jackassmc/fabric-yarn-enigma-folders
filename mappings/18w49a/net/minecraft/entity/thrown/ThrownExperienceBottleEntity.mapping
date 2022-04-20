@@ -1,0 +1,3 @@
+CLASS arh net/minecraft/entity/thrown/ThrownExperienceBottleEntity
+	METHOD a onCollision (Lckw;)V
+	METHOD i getGravity ()F

@@ -1,0 +1,2 @@
+CLASS age net/minecraft/util/profiler/EmptyProfileResult
+	FIELD a INSTANCE Lage;

@@ -1,0 +1,5 @@
+CLASS cie net/minecraft/structure/processor/BlockIgnoreStructureProcessor
+	FIELD a IGNORE_STRUCTURE_BLOCKS Lcie;
+	FIELD b IGNORE_AIR Lcie;
+	FIELD c IGNORE_AIR_AND_STRUCTURE_BLOCKS Lcie;
+	FIELD d blocks Lcom/google/common/collect/ImmutableList;

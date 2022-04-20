@@ -1,0 +1,5 @@
+CLASS awa net/minecraft/item/ItemSpawnEgg
+	METHOD a useOnBlock (Lawn;)Laet;
+	METHOD a use (Lazy;Lapv;Laer;)Laeu;
+		ARG 1 world
+		ARG 2 player

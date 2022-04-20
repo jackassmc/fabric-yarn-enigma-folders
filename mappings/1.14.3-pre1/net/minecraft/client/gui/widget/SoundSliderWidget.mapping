@@ -1,0 +1,7 @@
+CLASS cxj net/minecraft/client/gui/widget/SoundSliderWidget
+	FIELD a category Lym;
+	METHOD <init> (Lcvl;IILym;I)V
+		ARG 1 client
+		ARG 2 x
+		ARG 3 y
+		ARG 5 width

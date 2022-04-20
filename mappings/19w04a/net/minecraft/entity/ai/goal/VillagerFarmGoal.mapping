@@ -1,0 +1,4 @@
+CLASS ajk net/minecraft/entity/ai/goal/VillagerFarmGoal
+	FIELD f owner Laqz;
+	FIELD g seed Z
+	FIELD h breed Z

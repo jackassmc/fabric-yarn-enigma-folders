@@ -1,0 +1,4 @@
+CLASS alo net/minecraft/world/LightType
+	FIELD a SKY Lalo;
+	FIELD b BLOCK Lalo;
+	FIELD c light I

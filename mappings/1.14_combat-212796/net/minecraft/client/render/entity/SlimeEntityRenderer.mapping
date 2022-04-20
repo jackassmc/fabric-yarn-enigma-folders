@@ -1,0 +1,2 @@
+CLASS drl net/minecraft/client/render/entity/SlimeEntityRenderer
+	FIELD a SKIN Lqt;

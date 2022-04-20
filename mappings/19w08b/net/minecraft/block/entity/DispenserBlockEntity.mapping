@@ -1,0 +1,6 @@
+CLASS bpq net/minecraft/block/entity/DispenserBlockEntity
+	FIELD a RANDOM Ljava/util/Random;
+	FIELD b inventory Lff;
+	METHOD a addToFirstFreeSlot (Laxx;)I
+		ARG 1 stack
+	METHOD g chooseNonEmptySlot ()I

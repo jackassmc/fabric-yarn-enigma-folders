@@ -1,0 +1,23 @@
+CLASS ady net/minecraft/entity/vehicle/EntityFurnaceMinecart
+	FIELD a pushX D
+	FIELD b pushZ D
+	FIELD c LIT Llx;
+	FIELD d fuel I
+	METHOD B_ update ()V
+	METHOD a deserializeCustomData (Lfc;)V
+		ARG 0 tag
+	METHOD a registerTagUpgraders (Lqv;)V
+		ARG 0 handler
+	METHOD a dropItems (Ltm;)V
+		ARG 0 source
+	METHOD b interact (Lacu;Lsw;)Z
+		ARG 0 player
+		ARG 1 hand
+	METHOD b serializeCustomData (Lfc;)V
+		ARG 0 tag
+	METHOD i initDataTracker ()V
+	METHOD j isLit ()Z
+	METHOD l setLit (Z)V
+		ARG 0 value
+	METHOD v getMinecartType ()Ladu$a;
+	METHOD x getDefaultContainedBlock ()Lave;

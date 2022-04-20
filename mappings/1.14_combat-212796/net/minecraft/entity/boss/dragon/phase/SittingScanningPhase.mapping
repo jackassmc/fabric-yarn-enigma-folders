@@ -1,0 +1,6 @@
+CLASS asx net/minecraft/entity/boss/dragon/phase/SittingScanningPhase
+	FIELD b PLAYER_WITHIN_RANGE_PREDICATE Laqd;
+	FIELD c CLOSE_PLAYER_PREDICATE Laqd;
+	FIELD d ticks I
+	METHOD <init> (Lask;)V
+		ARG 1 dragon

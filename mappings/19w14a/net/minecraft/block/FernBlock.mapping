@@ -1,0 +1,4 @@
+CLASS bru net/minecraft/block/FernBlock
+	FIELD a SHAPE Lcsc;
+	METHOD <init> (Lbma$c;)V
+		ARG 1 settings

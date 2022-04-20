@@ -1,0 +1,7 @@
+CLASS byc net/minecraft/client/resource/IResource
+	METHOD a getId ()Lkp;
+	METHOD a getMetadataSection (Ljava/lang/String;)Lbys;
+		ARG 0 name
+	METHOD b getInputStream ()Ljava/io/InputStream;
+	METHOD c hasMetadata ()Z
+	METHOD d getName ()Ljava/lang/String;

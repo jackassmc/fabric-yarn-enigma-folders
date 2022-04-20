@@ -1,0 +1,37 @@
+CLASS ya net/minecraft/entity/boss/EntityEnderDragon
+	FIELD bA partTail2 Lxy;
+	FIELD bB partTail3 Lxy;
+	FIELD bC partWingRight Lxy;
+	FIELD bw partHead Lxy;
+	FIELD bx partNeck Lxy;
+	FIELD by partBody Lxy;
+	FIELD bz partTail1 Lxy;
+	METHOD G getSoundAmbient ()Lnm;
+	METHOD L checkDespawn ()V
+	METHOD a getPartDamageWorld ()Lajq;
+	METHOD a deserializeCustomData (Ldu;)V
+		ARG 0 tag
+	METHOD a onTrackedDataSet (Lkk;)V
+		ARG 0 data
+	METHOD a damage (Lrx;F)Z
+		ARG 0 source
+		ARG 1 damage
+	METHOD a damage (Lxy;Lrx;F)Z
+		ARG 0 part
+		ARG 1 source
+		ARG 2 amount
+	METHOD aT getParts ()[Lsm;
+	METHOD aq doesCollide ()Z
+	METHOD b serializeCustomData (Ldu;)V
+		ARG 0 tag
+	METHOD b registerTagUpgraders (Lph;)V
+		ARG 0 handler
+	METHOD bC getSoundCategory ()Lno;
+	METHOD bW getSoundHurt ()Lnm;
+	METHOD c addPotionEffect (Lsg;)V
+		ARG 0 effect
+	METHOD ci getSoundVolume ()F
+	METHOD i initDataTracker ()V
+	METHOD n updateMovement ()V
+	METHOD n canStartRiding (Lsm;)Z
+		ARG 0 entity

@@ -1,0 +1,5 @@
+CLASS bfx net/minecraft/enchantment/LuckEnchantment
+	METHOD <init> (Lbfo$a;Lbfp;[Laiq;)V
+		ARG 1 weight
+		ARG 2 type
+		ARG 3 slotTypes

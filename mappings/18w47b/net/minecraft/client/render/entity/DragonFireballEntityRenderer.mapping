@@ -1,0 +1,4 @@
+CLASS dfr net/minecraft/client/render/entity/DragonFireballEntityRenderer
+	FIELD a SKIN Lpy;
+	METHOD a getTexture (Lagf;)Lpy;
+	METHOD a getTexture (Laqn;)Lpy;

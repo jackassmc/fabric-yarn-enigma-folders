@@ -1,0 +1,50 @@
+CLASS hf net/minecraft/data/server/recipe/SingleItemRecipeJsonFactory
+	CLASS hf$a SingleItemRecipeJsonProvider
+		FIELD a recipeId Lqi;
+		FIELD b group Ljava/lang/String;
+		FIELD c input Lbae;
+		FIELD d output Laxs;
+		FIELD e count I
+		FIELD f builder Ln$a;
+		FIELD g advancementId Lqi;
+		FIELD h serializer Lbaj;
+		METHOD <init> (Lqi;Lbaj;Ljava/lang/String;Lbae;Laxs;ILn$a;Lqi;)V
+			ARG 1 recipeId
+			ARG 2 serializer
+			ARG 3 group
+			ARG 4 input
+			ARG 5 output
+			ARG 6 outputCount
+			ARG 7 builder
+			ARG 8 advancementId
+		METHOD a (Lcom/google/gson/JsonObject;)V
+			ARG 1 arg1
+	FIELD a output Laxs;
+	FIELD b input Lbae;
+	FIELD c count I
+	FIELD d builder Ln$a;
+	FIELD e group Ljava/lang/String;
+	FIELD f serializer Lbaj;
+	METHOD <init> (Lbaj;Lbae;Lbde;I)V
+		ARG 1 serializer
+		ARG 2 input
+		ARG 3 output
+		ARG 4 outputCount
+	METHOD a create (Lbae;Lbde;)Lhf;
+		ARG 0 input
+		ARG 1 output
+	METHOD a create (Lbae;Lbde;I)Lhf;
+		ARG 0 input
+		ARG 1 output
+		ARG 2 outputCount
+	METHOD a create (Ljava/lang/String;Lv;)Lhf;
+		ARG 1 criterionName
+		ARG 2 conditions
+	METHOD a offerTo (Ljava/util/function/Consumer;Ljava/lang/String;)V
+		ARG 1 exporter
+		ARG 2 recipeIdStr
+	METHOD a offerTo (Ljava/util/function/Consumer;Lqi;)V
+		ARG 1 exporter
+		ARG 2 recipeId
+	METHOD a validate (Lqi;)V
+		ARG 1 recipeId

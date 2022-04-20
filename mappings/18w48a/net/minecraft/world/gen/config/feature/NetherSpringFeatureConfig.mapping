@@ -1,0 +1,5 @@
+CLASS bum net/minecraft/world/gen/config/feature/NetherSpringFeatureConfig
+	FIELD a insideRock Z
+	METHOD a deserialize (Lcom/mojang/datafixers/Dynamic;)Lbum;
+		ARG 0 dynamic
+	METHOD a serialize (Lcom/mojang/datafixers/types/DynamicOps;)Lcom/mojang/datafixers/Dynamic;

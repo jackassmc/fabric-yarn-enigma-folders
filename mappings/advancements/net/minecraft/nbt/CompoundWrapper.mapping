@@ -1,0 +1,8 @@
+CLASS bde net/minecraft/nbt/CompoundWrapper
+	FIELD a baseTag Ljava/lang/String;
+	FIELD b dirty Z
+	METHOD a deserialize (Lfc;)V
+	METHOD a setDirty (Z)V
+	METHOD b serialize (Lfc;)Lfc;
+	METHOD c markDirty ()V
+	METHOD d getDirty ()Z

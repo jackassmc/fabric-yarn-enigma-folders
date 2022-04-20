@@ -1,0 +1,7 @@
+CLASS cbj net/minecraft/client/render/entity/EntityRendererExplodingWitherSkull
+	FIELD a INVINCIBLE_SKIN Lnd;
+	FIELD f SKIN Lnd;
+	METHOD a getTexture (Laez;)Lnd;
+		ARG 0 model
+	METHOD a getTexture (Lve;)Lnd;
+		ARG 0 model

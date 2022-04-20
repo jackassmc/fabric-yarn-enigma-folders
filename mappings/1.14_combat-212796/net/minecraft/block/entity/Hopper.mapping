@@ -1,0 +1,9 @@
+CLASS bug net/minecraft/block/entity/Hopper
+	FIELD a INSIDE_SHAPE Lcsw;
+	FIELD b ABOVE_SHAPE Lcsw;
+	FIELD c INPUT_AREA_SHAPE Lcsw;
+	METHOD A getHopperY ()D
+	METHOD B getHopperZ ()D
+	METHOD N_ getInputAreaShape ()Lcsw;
+	METHOD w getWorld ()Lbhn;
+	METHOD z getHopperX ()D

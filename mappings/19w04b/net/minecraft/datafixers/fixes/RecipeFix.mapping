@@ -1,0 +1,2 @@
+CLASS acp net/minecraft/datafixers/fixes/RecipeFix
+	FIELD a recipes Ljava/util/Map;

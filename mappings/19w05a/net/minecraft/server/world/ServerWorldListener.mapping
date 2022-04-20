@@ -1,0 +1,3 @@
+CLASS us net/minecraft/server/world/ServerWorldListener
+	FIELD a server Lnet/minecraft/server/MinecraftServer;
+	FIELD b world Lur;

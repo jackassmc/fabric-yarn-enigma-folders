@@ -1,0 +1,8 @@
+CLASS cnn net/minecraft/client/gui/hud/HudSpectator
+	FIELD a SPECTATOR_TEX Lpu;
+	FIELD f WIDGETS_TEX Lpu;
+	FIELD g game Lclp;
+	FIELD i spectatorMenu Lcsy;
+	METHOD <init> (Lclp;)V
+		ARG 1 game
+	METHOD a draw (F)V

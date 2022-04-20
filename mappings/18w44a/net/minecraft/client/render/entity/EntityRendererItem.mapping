@@ -1,0 +1,10 @@
+CLASS dfa net/minecraft/client/render/entity/EntityRendererItem
+	FIELD a itemRenderer Ldfc;
+	FIELD f rand Ljava/util/Random;
+	METHOD <init> (Ldei;Ldfc;)V
+		ARG 1 renderManager
+		ARG 2 itemRenderer
+	METHOD a getTexture (Lafv;)Lpu;
+		ARG 1 model
+	METHOD a getTexture (Lanu;)Lpu;
+		ARG 1 model

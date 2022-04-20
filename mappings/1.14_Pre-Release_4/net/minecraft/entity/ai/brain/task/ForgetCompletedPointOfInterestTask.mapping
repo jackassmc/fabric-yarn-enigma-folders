@@ -1,0 +1,5 @@
+CLASS all net/minecraft/entity/ai/brain/task/ForgetCompletedPointOfInterestTask
+	FIELD a memoryModule Lapa;
+	FIELD b condition Ljava/util/function/Predicate;
+	METHOD <init> (Laqi;Lapa;)V
+		ARG 2 memoryModule

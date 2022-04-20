@@ -1,0 +1,2 @@
+CLASS dsj net/minecraft/client/audio/GuardianAttackSoundInstance
+	FIELD n guardian Laqj;

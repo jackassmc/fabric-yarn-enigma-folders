@@ -1,0 +1,7 @@
+CLASS js net/minecraft/network/handler/INetworkLoginHandlerClient
+	METHOD a onLoginSuccess (Ljt;)V
+		ARG 0 packet
+	METHOD a onLoginEncryptionRequest (Lju;)V
+		ARG 0 packet
+	METHOD a onLoginDisconnect (Ljw;)V
+		ARG 0 packet

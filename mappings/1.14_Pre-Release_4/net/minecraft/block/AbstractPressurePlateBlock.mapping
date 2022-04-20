@@ -1,0 +1,28 @@
+CLASS bma net/minecraft/block/AbstractPressurePlateBlock
+	FIELD a DEPRESSED_SHAPE Lcsn;
+	FIELD b DEFAULT_SHAPE Lcsn;
+	FIELD c BOX Lcro;
+	METHOD <init> (Lbmj$c;)V
+		ARG 1 settings
+	METHOD a updateNeighbors (Lbhf;Lev;)V
+		ARG 1 world
+		ARG 2 pos
+	METHOD a updatePlateState (Lbhf;Lev;Lbvh;I)V
+		ARG 1 world
+		ARG 2 pos
+		ARG 3 state
+		ARG 4 rsOut
+	METHOD a playPressSound (Lbhg;Lev;)V
+		ARG 1 world
+		ARG 2 pos
+	METHOD a setRedstoneOutput (Lbvh;I)Lbvh;
+		ARG 1 state
+		ARG 2 rsOut
+	METHOD b getRedstoneOutput (Lbhf;Lev;)I
+		ARG 1 world
+		ARG 2 pos
+	METHOD b playDepressSound (Lbhg;Lev;)V
+		ARG 1 world
+		ARG 2 pos
+	METHOD j getRedstoneOutput (Lbvh;)I
+		ARG 1 state

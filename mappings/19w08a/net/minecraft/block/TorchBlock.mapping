@@ -1,0 +1,4 @@
+CLASS boc net/minecraft/block/TorchBlock
+	FIELD d BOUNDING_SHAPE Lcoe;
+	METHOD <init> (Lbif$c;)V
+		ARG 1 settings

@@ -1,0 +1,5 @@
+CLASS djo net/minecraft/client/particle/RainSplashParticle
+	CLASS djo$a Factory
+	METHOD <init> (Lbhf;DDD)V
+		ARG 1 world
+		ARG 2 x

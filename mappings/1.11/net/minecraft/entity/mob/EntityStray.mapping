@@ -1,0 +1,7 @@
+CLASS aai net/minecraft/entity/mob/EntityStray
+	METHOD G getSoundAmbient ()Lnm;
+	METHOD J getLootTableId ()Lkq;
+	METHOD b registerTagUpgraders (Lph;)V
+		ARG 0 handler
+	METHOD bW getSoundDeath ()Lnm;
+	METHOD cM canSpawn ()Z

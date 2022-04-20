@@ -1,0 +1,11 @@
+CLASS anz net/minecraft/entity/passive/LlamaEntity
+	FIELD bJ ATTR_STRENGTH Lpx;
+	FIELD bL ATTR_VARIANT Lpx;
+	METHOD eA getFollowing ()Lanz;
+	METHOD es isTrader ()Z
+	METHOD et getStrength ()I
+	METHOD eu getVariant ()I
+	METHOD ew createChild ()Lanz;
+	METHOD ez isFollowing ()Z
+	METHOD t setVariant (I)V
+	METHOD u setStrength (I)V

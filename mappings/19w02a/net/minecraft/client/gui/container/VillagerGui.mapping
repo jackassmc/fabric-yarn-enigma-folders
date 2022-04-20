@@ -1,0 +1,35 @@
+CLASS cwc net/minecraft/client/gui/container/VillagerGui
+	CLASS cwc$1
+		METHOD a onPressed (DD)V
+			ARG 1 mouseX
+			ARG 3 mouseY
+	CLASS cwc$2
+		METHOD a onPressed (DD)V
+			ARG 1 mouseX
+			ARG 3 mouseY
+	CLASS cwc$a WidgetButtonPage
+		FIELD o next Z
+		METHOD <init> (IIIZ)V
+			ARG 1 x
+			ARG 2 y
+			ARG 3 next
+		METHOD a draw (IIF)V
+			ARG 1 mouseX
+			ARG 2 mouseY
+			ARG 3 delta
+	FIELD A buttonPagePrevious Lcwc$a;
+	FIELD y TEXTURE Lqe;
+	FIELD z buttonPageNext Lcwc$a;
+	METHOD a drawBackground (FII)V
+		ARG 1 mouseX
+		ARG 2 mouseY
+		ARG 3 delta
+	METHOD a draw (IIF)V
+		ARG 1 mouseX
+		ARG 2 mouseY
+		ARG 3 delta
+	METHOD c onInitialized ()V
+	METHOD c drawForeground (II)V
+		ARG 1 mouseX
+		ARG 2 mouseY
+	METHOD f update ()V

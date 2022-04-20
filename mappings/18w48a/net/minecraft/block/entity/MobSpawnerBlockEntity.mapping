@@ -1,0 +1,13 @@
+CLASS bnm net/minecraft/block/entity/MobSpawnerBlockEntity
+	CLASS bnm$1
+		METHOD a getWorld ()Lbaq;
+		METHOD a setSpawnEntry (Lbbg;)V
+			ARG 0 value
+		METHOD b getPos ()Let;
+	FIELD a logic Lazz;
+	METHOD a serialize (Lhp;)Lhp;
+	METHOD ab_ tick ()V
+	METHOD ac_ getUpdatePacket ()Lkb;
+	METHOD ad_ serializeInitialChunkData ()Lhp;
+	METHOD b deserialize (Lhp;)V
+	METHOD c getLogic ()Lazz;

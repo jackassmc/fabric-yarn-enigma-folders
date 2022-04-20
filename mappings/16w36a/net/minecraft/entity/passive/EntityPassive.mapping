@@ -1,0 +1,19 @@
+CLASS none/sc net/minecraft/entity/passive/EntityPassive
+	FIELD a age I
+	FIELD bx CHILD Lnone/kj;
+	METHOD a interactMob (Lnone/aal;Lnone/ra;)Z
+		ARG 0 player
+		ARG 1 playerHand
+	METHOD a deserializeCustomData (Lnone/dt;)V
+		ARG 0 tag
+	METHOD a onTrackedDataSet (Lnone/kj;)V
+		ARG 0 data
+	METHOD a createChild (Lnone/sc;)Lnone/sc;
+		ARG 0 other
+	METHOD b serializeCustomData (Lnone/dt;)V
+		ARG 0 tag
+	METHOD b_ setAge (I)V
+		ARG 0 value
+	METHOD i initDataTracker ()V
+	METHOD l getAge ()I
+	METHOD l_ isChild ()Z

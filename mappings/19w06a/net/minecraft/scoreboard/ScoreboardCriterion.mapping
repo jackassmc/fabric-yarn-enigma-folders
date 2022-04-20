@@ -1,0 +1,26 @@
+CLASS coc net/minecraft/scoreboard/ScoreboardCriterion
+	CLASS coc$a Type
+		FIELD a INTEGER Lcoc$a;
+		FIELD b HEARTS Lcoc$a;
+		FIELD c name Ljava/lang/String;
+		METHOD a getName ()Ljava/lang/String;
+	FIELD a OBJECTIVES Ljava/util/Map;
+	FIELD b DUMMY Lcoc;
+	FIELD c TRIGGER Lcoc;
+	FIELD d DEATH_COUNT Lcoc;
+	FIELD e PLAYER_KILL_COUNT Lcoc;
+	FIELD f TOTAL_KILL_COUNT Lcoc;
+	FIELD g HEALTH Lcoc;
+	FIELD h FOOD Lcoc;
+	FIELD i AIR Lcoc;
+	FIELD j ARMOR Lcoc;
+	FIELD k XP Lcoc;
+	FIELD l LEVEL Lcoc;
+	FIELD m TEAM_KILLS [Lcoc;
+	FIELD n KILLED_BY_TEAMS [Lcoc;
+	FIELD o name Ljava/lang/String;
+	FIELD p readOnly Z
+	FIELD q criterionType Lcoc$a;
+	METHOD c getName ()Ljava/lang/String;
+	METHOD d isReadOnly ()Z
+	METHOD e getCriterionType ()Lcoc$a;

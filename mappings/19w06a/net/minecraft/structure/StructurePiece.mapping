@@ -1,0 +1,109 @@
+CLASS cdp net/minecraft/structure/StructurePiece
+	CLASS cdp$a
+		FIELD a block Lbqs;
+		METHOD a getBlock ()Lbqs;
+		METHOD a (Ljava/util/Random;IIIZ)V
+			ARG 1 random
+			ARG 2 x
+	FIELD a facing Ley;
+	FIELD b mirror Lblg;
+	FIELD c rotation Lbmg;
+	FIELD d type Lbzq;
+	FIELD e BLOCKS_NEEDING_POST_PROCESSING Ljava/util/Set;
+	FIELD m AIR Lbqs;
+	FIELD n boundingBox Lccw;
+	METHOD <init> (Lbzq;I)V
+		ARG 1 type
+	METHOD <init> (Lbzq;Lhr;)V
+		ARG 2 tag
+	METHOD a applyXTransform (II)I
+	METHOD a translate (III)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD a getBlockAt (Lbcf;IIILccw;)Lbqs;
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD a addBlock (Lbcv;Lbqs;IIILccw;)V
+		ARG 1 world
+		ARG 2 block
+		ARG 3 x
+		ARG 4 y
+		ARG 5 z
+	METHOD a fillWithOutline (Lbcv;Lccw;IIIIIILbqs;Lbqs;Z)V
+		ARG 1 world
+		ARG 10 inside
+	METHOD a (Lbcv;Lccw;IIIIIILbqs;Z)V
+		ARG 1 world
+		ARG 2 bounds
+		ARG 3 minX
+		ARG 4 minY
+		ARG 5 minZ
+		ARG 6 maxX
+		ARG 7 maxY
+		ARG 8 maxZ
+		ARG 9 block
+	METHOD a fillWithOutline (Lbcv;Lccw;IIIIIIZLjava/util/Random;Lcdp$a;)V
+		ARG 3 minX
+		ARG 4 minY
+		ARG 5 minZ
+		ARG 6 maxX
+		ARG 7 maxY
+		ARG 8 maxZ
+		ARG 9 replaceBlocks
+		ARG 10 random
+	METHOD a fillWithOutlineUnderSealevel (Lbcv;Lccw;Ljava/util/Random;FIIIIIILbqs;Lbqs;ZZ)V
+		ARG 3 random
+	METHOD a addBlockWithRandomThreshold (Lbcv;Lccw;Ljava/util/Random;FIIILbqs;)V
+		ARG 1 world
+		ARG 2 bounds
+		ARG 3 random
+		ARG 4 threshold
+		ARG 5 x
+		ARG 6 y
+		ARG 7 z
+	METHOD a addDispenser (Lbcv;Lccw;Ljava/util/Random;IIILey;Lqd;)Z
+		ARG 3 random
+		ARG 4 x
+		ARG 5 y
+		ARG 6 z
+	METHOD a (Lbcv;Lccw;Ljava/util/Random;IIILqd;)Z
+		ARG 3 random
+	METHOD a addChest (Lbcv;Lccw;Ljava/util/Random;Let;Lqd;Lbqs;)Z
+		ARG 1 world
+		ARG 3 random
+		ARG 4 pos
+	METHOD a generate (Lbcv;Ljava/util/Random;Lccw;Lbch;)Z
+		ARG 1 world
+		ARG 2 random
+		ARG 3 boundingBox
+		ARG 4 pos
+	METHOD a isUnderSeaLevel (Lbcx;IIILccw;)Z
+		ARG 2 x
+		ARG 3 z
+		ARG 4 y
+	METHOD a setOrientation (Ley;)V
+		ARG 1 orientation
+	METHOD a toNbt (Lhr;)V
+		ARG 1 tag
+	METHOD ab_ getRotation ()Lbmg;
+	METHOD b applyZTransform (II)I
+	METHOD b (Lbcv;Lbqs;IIILccw;)V
+		ARG 1 world
+		ARG 3 x
+		ARG 4 y
+		ARG 5 z
+	METHOD b fill (Lbcv;Lccw;IIIIII)V
+		ARG 1 world
+		ARG 2 bounds
+		ARG 3 minX
+		ARG 4 minY
+		ARG 5 minZ
+		ARG 6 maxX
+		ARG 7 maxY
+	METHOD d applyYTransform (I)I
+	METHOD f getTag ()Lhr;
+	METHOD g getBoundingBox ()Lccw;
+	METHOD i getFacing ()Ley;
+	METHOD k getType ()Lbzq;

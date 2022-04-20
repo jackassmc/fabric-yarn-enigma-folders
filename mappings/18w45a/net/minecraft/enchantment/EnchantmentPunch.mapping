@@ -1,0 +1,2 @@
+CLASS axw net/minecraft/enchantment/EnchantmentPunch
+	METHOD a getHighestLevel ()I

@@ -1,0 +1,8 @@
+CLASS bjd net/minecraft/block/BlockPressurePlate
+	CLASS bjd$a Type
+		FIELD a WOOD Lbjd$a;
+		FIELD b STONE Lbjd$a;
+	METHOD a setRedstoneOutput (Lbnz;I)Lbnz;
+		ARG 1 state
+	METHOD a appendProperties (Lboa$a;)V
+	METHOD i getRedstoneOutput (Lbnz;)I

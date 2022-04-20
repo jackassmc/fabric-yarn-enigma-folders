@@ -1,0 +1,23 @@
+CLASS afe net/minecraft/entity/passive/EntityPassive
+	FIELD a breedingAge I
+	FIELD bC CHILD Lpi;
+	METHOD a setSize (FF)V
+		ARG 0 width
+		ARG 1 height
+	METHOD a createChild (Lafe;)Lafe;
+		ARG 0 other
+	METHOD a interactMob (Lapb;Laea;)Z
+		ARG 0 player
+		ARG 1 playerHand
+	METHOD a deserializeCustomData (Lhl;)V
+		ARG 0 tag
+	METHOD a onTrackedDataSet (Lpi;)V
+		ARG 0 data
+	METHOD b serializeCustomData (Lhl;)V
+		ARG 0 tag
+	METHOD b_ setBreedingAge (I)V
+		ARG 0 value
+	METHOD i getBreedingAge ()I
+	METHOD k updateMovement ()V
+	METHOD y_ initDataTracker ()V
+	METHOD z_ isChild ()Z

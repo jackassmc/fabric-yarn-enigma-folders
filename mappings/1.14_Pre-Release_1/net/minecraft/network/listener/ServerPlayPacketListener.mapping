@@ -1,0 +1,85 @@
+CLASS nr net/minecraft/network/listener/ServerPlayPacketListener
+	METHOD a onTeleportConfirm (Lns;)V
+		ARG 1 packet
+	METHOD a onQueryBlockNbt (Lnt;)V
+		ARG 1 packet
+	METHOD a onUpdateDifficulty (Lnu;)V
+	METHOD a onChatMessage (Lnv;)V
+		ARG 1 packet
+	METHOD a onClientStatus (Lnw;)V
+		ARG 1 packet
+	METHOD a onClientSettings (Lnx;)V
+		ARG 1 packet
+	METHOD a onRequestCommandCompletions (Lny;)V
+		ARG 1 packet
+	METHOD a onConfirmTransaction (Lnz;)V
+		ARG 1 packet
+	METHOD a onButtonClick (Loa;)V
+		ARG 1 packet
+	METHOD a onClickWindow (Lob;)V
+		ARG 1 packet
+	METHOD a onGuiClose (Loc;)V
+		ARG 1 packet
+	METHOD a onCustomPayload (Lod;)V
+		ARG 1 packet
+	METHOD a onBookUpdate (Loe;)V
+		ARG 1 packet
+	METHOD a onQueryEntityNbt (Lof;)V
+		ARG 1 packet
+	METHOD a onPlayerInteractEntity (Log;)V
+		ARG 1 rpacket
+	METHOD a onKeepAlive (Loh;)V
+		ARG 1 packet
+	METHOD a onUpdateDifficultyLock (Loi;)V
+	METHOD a onPlayerMove (Loj;)V
+		ARG 1 packet
+	METHOD a onVehicleMove (Lok;)V
+		ARG 1 packet
+	METHOD a onBoatPaddleState (Lol;)V
+		ARG 1 packet
+	METHOD a onPickFromInventory (Lom;)V
+		ARG 1 packet
+	METHOD a onCraftRequest (Lon;)V
+		ARG 1 packet
+	METHOD a onPlayerAbilities (Loo;)V
+		ARG 1 packet
+	METHOD a onPlayerAction (Lop;)V
+		ARG 1 packet
+	METHOD a onClientCommand (Loq;)V
+		ARG 1 packet
+	METHOD a onPlayerInput (Lor;)V
+		ARG 1 packet
+	METHOD a onRecipeBookData (Los;)V
+		ARG 1 packet
+	METHOD a onRenameItem (Lot;)V
+		ARG 1 packet
+	METHOD a onResourcePackStatus (Lou;)V
+		ARG 1 packet
+	METHOD a onAdvancementTab (Lov;)V
+		ARG 1 packet
+	METHOD a onVillagerTradeSelect (Low;)V
+		ARG 1 packet
+	METHOD a onUpdateBeacon (Lox;)V
+		ARG 1 packet
+	METHOD a onUpdateSelectedSlot (Loy;)V
+		ARG 1 packet
+	METHOD a onUpdateCommandBlock (Loz;)V
+		ARG 1 packet
+	METHOD a onUpdateCommandBlockMinecart (Lpa;)V
+		ARG 1 packet
+	METHOD a onCreativeInventoryAction (Lpb;)V
+		ARG 1 packet
+	METHOD a onJigsawUpdate (Lpc;)V
+		ARG 1 packet
+	METHOD a onStructureBlockUpdate (Lpd;)V
+		ARG 1 packet
+	METHOD a onSignUpdate (Lpe;)V
+		ARG 1 packet
+	METHOD a onHandSwing (Lpf;)V
+		ARG 1 packet
+	METHOD a onSpectatorTeleport (Lpg;)V
+		ARG 1 packet
+	METHOD a onPlayerInteractBlock (Lph;)V
+		ARG 1 packet
+	METHOD a onPlayerInteractItem (Lpi;)V
+		ARG 1 packet

@@ -1,0 +1,4 @@
+CLASS bfh net/minecraft/enchantment/MendingEnchantment
+	METHOD <init> (Lbex$a;[Laie;)V
+		ARG 1 weight
+		ARG 2 slotTypes

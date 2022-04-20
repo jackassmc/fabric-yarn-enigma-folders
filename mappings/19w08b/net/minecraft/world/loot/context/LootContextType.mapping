@@ -1,0 +1,14 @@
+CLASS cmb net/minecraft/world/loot/context/LootContextType
+	CLASS cmb$a Builder
+		FIELD a required Ljava/util/Set;
+		FIELD b allowed Ljava/util/Set;
+		METHOD a build ()Lcmb;
+		METHOD a require (Lcma;)Lcmb$a;
+		METHOD b allow (Lcma;)Lcmb$a;
+	FIELD a required Ljava/util/Set;
+	FIELD b allowed Ljava/util/Set;
+	METHOD <init> (Ljava/util/Set;Ljava/util/Set;)V
+		ARG 1 required
+	METHOD a getRequired ()Ljava/util/Set;
+	METHOD a check (Lckg;Lckd;)V
+	METHOD b getAllowed ()Ljava/util/Set;

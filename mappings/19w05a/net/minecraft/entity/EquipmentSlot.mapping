@@ -1,0 +1,25 @@
+CLASS ahj net/minecraft/entity/EquipmentSlot
+	CLASS ahj$a Type
+		FIELD a HAND Lahj$a;
+		FIELD b ARMOR Lahj$a;
+	FIELD a HAND_MAIN Lahj;
+	FIELD b HAND_OFF Lahj;
+	FIELD c FEET Lahj;
+	FIELD d LEGS Lahj;
+	FIELD e CHEST Lahj;
+	FIELD f HEAD Lahj;
+	FIELD g type Lahj$a;
+	FIELD h entityId I
+	FIELD i armorStandId I
+	FIELD j name Ljava/lang/String;
+	METHOD <init> (Ljava/lang/String;ILahj$a;IILjava/lang/String;)V
+		ARG 3 type
+		ARG 4 entityId
+		ARG 5 armorStandId
+		ARG 6 name
+	METHOD a getType ()Lahj$a;
+	METHOD a byName (Ljava/lang/String;)Lahj;
+		ARG 0 name
+	METHOD b getEntitySlotId ()I
+	METHOD c getArmorStandSlotId ()I
+	METHOD d getName ()Ljava/lang/String;

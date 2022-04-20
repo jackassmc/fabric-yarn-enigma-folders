@@ -1,0 +1,11 @@
+CLASS oe net/minecraft/server/network/packet/BookUpdateC2SPacket
+	FIELD a book Lbcb;
+	FIELD b signed Z
+	FIELD c hand Lahc;
+	METHOD <init> (Lbcb;ZLahc;)V
+		ARG 1 book
+		ARG 2 signed
+		ARG 3 hand
+	METHOD b getBook ()Lbcb;
+	METHOD c wasSigned ()Z
+	METHOD d getHand ()Lahc;

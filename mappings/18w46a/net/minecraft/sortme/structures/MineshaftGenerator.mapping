@@ -1,0 +1,28 @@
+CLASS cae net/minecraft/sortme/structures/MineshaftGenerator
+	CLASS cae$a MineshaftCorridor
+		METHOD a (Lbaf;Lbzx;Ljava/util/Random;IIILpx;)Z
+			ARG 3 rand
+		METHOD a toNbt (Lho;)V
+		METHOD a fromNbt (Lho;Lcaz;)V
+			ARG 1 tag
+	CLASS cae$b MineshaftCrossing
+		METHOD a toNbt (Lho;)V
+		METHOD a fromNbt (Lho;Lcaz;)V
+			ARG 1 tag
+		METHOD a (Ljava/util/List;Ljava/util/Random;IIILex;)Lbzx;
+			ARG 5 facing
+	CLASS cae$c MineshaftPart
+		FIELD a mineshaftType Lbva$b;
+		METHOD a toNbt (Lho;)V
+		METHOD a fromNbt (Lho;Lcaz;)V
+			ARG 1 tag
+	CLASS cae$d MineshaftRoom
+		METHOD a translate (III)V
+			ARG 1 x
+			ARG 2 y
+		METHOD a toNbt (Lho;)V
+		METHOD a fromNbt (Lho;Lcaz;)V
+			ARG 1 tag
+	CLASS cae$e MineshaftStairs
+	METHOD a (Ljava/util/List;Ljava/util/Random;IIILex;ILbva$b;)Lcae$c;
+		ARG 1 rand

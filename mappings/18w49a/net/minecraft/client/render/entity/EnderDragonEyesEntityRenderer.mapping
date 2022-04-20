@@ -1,0 +1,6 @@
+CLASS dkk net/minecraft/client/render/entity/EnderDragonEyesEntityRenderer
+	FIELD a SKIN Lpz;
+	METHOD a shouldMergeTextures ()Z
+	METHOD a render (Lagt;FFFFFFF)V
+		ARG 0 entity
+	METHOD a render (Lane;FFFFFFF)V

@@ -1,0 +1,4 @@
+CLASS djt net/minecraft/client/render/entity/LlamaEntityRenderer
+	FIELD a TEXTURES [Lqc;
+	METHOD a getTexture (Lagv;)Lqc;
+	METHOD a getTexture (Lane;)Lqc;

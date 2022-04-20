@@ -1,0 +1,31 @@
+CLASS bjs net/minecraft/block/RedstoneOreBlock
+	METHOD <init> (Lbfr$c;)V
+		ARG 1 builder
+	METHOD a onSteppedOn (Lbaq;Let;Lagi;)V
+		ARG 1 world
+		ARG 2 pos
+	METHOD a onBlockBreakStart (Lboj;Lbaq;Let;Laqj;)V
+		ARG 1 state
+		ARG 2 world
+		ARG 3 pos
+	METHOD a activate (Lboj;Lbaq;Let;Laqj;Lafb;Ley;FFF)Z
+		ARG 1 state
+		ARG 2 world
+		ARG 3 pos
+		ARG 4 player
+		ARG 5 hand
+		ARG 6 facing
+		ARG 7 hitX
+		ARG 8 hitY
+	METHOD a onStacksDropped (Lboj;Lbaq;Let;Lavs;)V
+	METHOD a scheduledTick (Lboj;Lbaq;Let;Ljava/util/Random;)V
+		ARG 1 world
+		ARG 2 state
+		ARG 3 pos
+	METHOD a appendProperties (Lbok$a;)V
+		ARG 1 builder
+	METHOD b randomDisplayTick (Lboj;Lbaq;Let;Ljava/util/Random;)V
+		ARG 1 state
+		ARG 2 world
+		ARG 3 pos
+	METHOD k getLuminance (Lboj;)I

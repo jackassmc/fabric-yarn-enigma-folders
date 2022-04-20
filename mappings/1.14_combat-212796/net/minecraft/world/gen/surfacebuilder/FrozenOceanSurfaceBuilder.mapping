@@ -1,0 +1,7 @@
+CLASS cjw net/minecraft/world/gen/surfacebuilder/FrozenOceanSurfaceBuilder
+	FIELD U seed J
+	FIELD a PACKED_ICE Lbvp;
+	FIELD b SNOW_BLOCK Lbvp;
+	FIELD c AIR Lbvp;
+	FIELD d GRAVEL Lbvp;
+	FIELD e ICE Lbvp;

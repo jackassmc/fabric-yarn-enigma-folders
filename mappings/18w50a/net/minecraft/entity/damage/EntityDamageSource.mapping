@@ -1,0 +1,7 @@
+CLASS agf net/minecraft/entity/damage/EntityDamageSource
+	FIELD x source Lagv;
+	METHOD <init> (Ljava/lang/String;Lagv;)V
+		ARG 1 name
+	METHOD c getDeathMessage (Lahe;)Ljd;
+	METHOD k getAttacker ()Lagv;
+	METHOD s isScaledWithDifficulty ()Z

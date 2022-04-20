@@ -1,0 +1,4 @@
+CLASS cvk net/minecraft/client/gui/hud/spectator/SpectatorMenuElement
+	METHOD a renderIcon (FI)V
+	METHOD a selectElement (Lcvi;)V
+	METHOD am_ enabled ()Z

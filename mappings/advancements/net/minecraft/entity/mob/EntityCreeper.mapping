@@ -1,0 +1,27 @@
+CLASS abl net/minecraft/entity/mob/EntityCreeper
+	FIELD a FUSE_SPEED Llx;
+	FIELD bA explosionRadius I
+	FIELD b CHARGED Llx;
+	FIELD bz fuse I
+	FIELD c IGNITED Llx;
+	METHOD B_ update ()V
+	METHOD J getLootTableId ()Lmd;
+	METHOD a setFuseSpeed (I)V
+	METHOD a onStruckByLightning (Labc;)V
+	METHOD a interactMob (Lacu;Lsw;)Z
+	METHOD a deserializeCustomData (Lfc;)V
+		ARG 0 tag
+	METHOD a registerTagUpgraders (Lqv;)V
+	METHOD a onDeath (Ltm;)V
+	METHOD b serializeCustomData (Lfc;)V
+		ARG 0 tag
+	METHOD bH initAttributes ()V
+	METHOD bZ getSoundHurt ()Lpb;
+	METHOD ca getSoundDeath ()Lpb;
+	METHOD dk getFuseSpeed ()I
+	METHOD dl getIgnited ()Z
+	METHOD dm setIgnited ()V
+	METHOD e handleFallDamage (FF)V
+	METHOD i initDataTracker ()V
+	METHOD p isCharged ()Z
+	METHOD r initAi ()V

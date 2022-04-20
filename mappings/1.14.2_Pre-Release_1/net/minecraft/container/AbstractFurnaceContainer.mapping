@@ -1,0 +1,16 @@
+CLASS ayd net/minecraft/container/AbstractFurnaceContainer
+	FIELD c world Lbhi;
+	FIELD d inventory Lagw;
+	FIELD e propertyDelegate Layl;
+	FIELD f recipeType Lbem;
+	METHOD <init> (Lazd;Lbem;ILavx;)V
+		ARG 3 syncId
+	METHOD <init> (Lazd;Lbem;ILavx;Lagw;Layl;)V
+		ARG 3 syncId
+	METHOD a isSmeltable (Lbcb;)Z
+		ARG 1 itemStack
+	METHOD b isFuel (Lbcb;)Z
+		ARG 1 itemStack
+	METHOD j getCookProgress ()I
+	METHOD k getFuelProgress ()I
+	METHOD l isBurning ()Z

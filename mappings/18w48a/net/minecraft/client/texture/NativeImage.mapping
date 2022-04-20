@@ -1,0 +1,37 @@
+CLASS cmn net/minecraft/client/texture/NativeImage
+	CLASS cmn$a Format
+		FIELD e bytesPerPixel I
+		METHOD a getBytesPerPixel ()I
+	FIELD b imageFormat Lcmn$a;
+	FIELD c width I
+	FIELD d height I
+	FIELD g sizeInBytes I
+	METHOD <init> (Lcmn$a;IIZJ)V
+		ARG 2 width
+		ARG 3 height
+	METHOD a getWidth ()I
+	METHOD a getPixelRGBA (II)I
+		ARG 1 x
+	METHOD a setPixelRGBA (III)V
+		ARG 1 x
+		ARG 2 y
+	METHOD a fillRGBA (IIIII)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 width
+		ARG 4 height
+	METHOD a resizeSubRectTo (IIIILcmn;)V
+	METHOD a fromInputStream (Lcmn$a;Ljava/io/InputStream;)Lcmn;
+	METHOD a fromByteBuffer (Lcmn$a;Ljava/nio/ByteBuffer;)Lcmn;
+	METHOD a writeFile (Ljava/io/File;)V
+	METHOD a fromInputStream (Ljava/io/InputStream;)Lcmn;
+	METHOD a writeFile (Ljava/lang/String;)V
+	METHOD a fromByteBuffer (Ljava/nio/ByteBuffer;)Lcmn;
+	METHOD a writeFile (Ljava/nio/file/Path;)V
+	METHOD b getHeight ()I
+	METHOD b blendPixel (III)V
+	METHOD b fromBase64 (Ljava/lang/String;)Lcmn;
+		ARG 0 string
+	METHOD c getFormat ()Lcmn$a;
+	METHOD d makePixelArray ()[I
+	METHOD g checkAllocated ()V

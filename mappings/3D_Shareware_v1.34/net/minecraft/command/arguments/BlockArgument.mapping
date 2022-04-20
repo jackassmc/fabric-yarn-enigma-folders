@@ -1,0 +1,6 @@
+CLASS de net/minecraft/command/arguments/BlockArgument
+	FIELD a state Lbuy;
+	FIELD b properties Ljava/util/Set;
+	FIELD c data Lib;
+	METHOD a getBlockState ()Lbuy;
+	METHOD a setBlockState (Lve;Lev;I)Z

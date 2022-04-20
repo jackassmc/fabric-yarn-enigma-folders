@@ -1,0 +1,4 @@
+CLASS bib net/minecraft/block/CakeBlock
+	FIELD a BITES Lbrp;
+	METHOD <init> (Lbhs$c;)V
+		ARG 1 settings

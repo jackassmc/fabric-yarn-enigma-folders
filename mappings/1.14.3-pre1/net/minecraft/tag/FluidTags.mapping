@@ -1,0 +1,10 @@
+CLASS yz net/minecraft/tag/FluidTags
+	CLASS yz$a CachingTag
+		FIELD a version I
+		FIELD b delegate Lzc;
+	FIELD c container Lzd;
+	FIELD d latestVersion I
+	METHOD a register (Ljava/lang/String;)Lzc;
+		ARG 0 id
+	METHOD a setContainer (Lzd;)V
+		ARG 0 container

@@ -1,0 +1,2 @@
+CLASS agq net/minecraft/entity/effect/StatusEffects
+	METHOD a register (ILjava/lang/String;Lagn;)Lagn;

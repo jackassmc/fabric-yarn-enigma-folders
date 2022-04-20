@@ -1,0 +1,30 @@
+CLASS cry net/minecraft/client/gui/container/GuiAnvil
+	FIELD w BG_TEX Lpx;
+	FIELD x anvilContainer Larq;
+	FIELD y nameField Lcny;
+	FIELD z playerInv Lapz;
+	METHOD <init> (Lapz;Lbae;)V
+		ARG 1 playerInv
+	METHOD a drawBackground (FII)V
+		ARG 1 delta
+		ARG 2 mouseX
+	METHOD a draw (IIF)V
+		ARG 1 mouseX
+		ARG 2 mouseY
+	METHOD a onContainerPropertyUpdate (Larp;II)V
+		ARG 1 container
+		ARG 2 propertyId
+	METHOD a onContainerSlotUpdate (Larp;ILavf;)V
+		ARG 1 container
+		ARG 2 slotId
+	METHOD a onContainerInvRegistered (Larp;Laep;)V
+		ARG 1 container
+	METHOD a onContainerRegistered (Larp;Lfg;)V
+		ARG 1 container
+	METHOD b onScaleChanged (Lcmx;II)V
+		ARG 1 game
+		ARG 2 width
+	METHOD c onInitialized ()V
+	METHOD c drawForeground (II)V
+		ARG 1 mouseX
+	METHOD n onClosed ()V

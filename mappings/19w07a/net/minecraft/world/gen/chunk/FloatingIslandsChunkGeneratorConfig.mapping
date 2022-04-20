@@ -1,0 +1,4 @@
+CLASS bun net/minecraft/world/gen/chunk/FloatingIslandsChunkGeneratorConfig
+	FIELD t center Les;
+	METHOD a withCenter (Les;)Lbun;
+	METHOD v getCenter ()Les;

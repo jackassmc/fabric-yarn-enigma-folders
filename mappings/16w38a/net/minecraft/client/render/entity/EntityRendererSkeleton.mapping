@@ -1,0 +1,10 @@
+CLASS buk net/minecraft/client/render/entity/EntityRendererSkeleton
+	CLASS buk$1
+		METHOD J_ init ()V
+	FIELD k SKIN Lkp;
+	METHOD a getTexture (Lsg;)Lkp;
+		ARG 0 model
+	METHOD a getTexture (Lsq;)Lkp;
+		ARG 0 model
+	METHOD a getTexture (Lzd;)Lkp;
+		ARG 0 model

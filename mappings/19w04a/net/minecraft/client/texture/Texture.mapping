@@ -1,0 +1,7 @@
+CLASS doo net/minecraft/client/texture/Texture
+	METHOD a load (Lwo;)V
+	METHOD b popFilter ()V
+	METHOD b pushFilter (ZZ)V
+		ARG 1 bilinear
+	METHOD c getGlId ()I
+	METHOD h bindTexture ()V

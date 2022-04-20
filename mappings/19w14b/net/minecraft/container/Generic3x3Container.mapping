@@ -1,0 +1,6 @@
+CLASS ayh net/minecraft/container/Generic3x3Container
+	FIELD c inventory Lago;
+	METHOD <init> (ILavn;)V
+		ARG 1 syncId
+	METHOD <init> (ILavn;Lago;)V
+		ARG 1 syncId

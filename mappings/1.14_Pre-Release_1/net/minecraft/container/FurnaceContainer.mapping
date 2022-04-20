@@ -1,0 +1,5 @@
+CLASS ayn net/minecraft/container/FurnaceContainer
+	METHOD <init> (ILavq;)V
+		ARG 1 syncId
+	METHOD <init> (ILavq;Lagr;Laye;)V
+		ARG 1 syncId

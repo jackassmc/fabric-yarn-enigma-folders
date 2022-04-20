@@ -1,0 +1,6 @@
+CLASS zv net/minecraft/entity/mob/EntityGiant
+	METHOD J getLootTableId ()Lkq;
+	METHOD b registerTagUpgraders (Lph;)V
+		ARG 0 handler
+	METHOD bE initAttributes ()V
+	METHOD bq getEyeHeight ()F

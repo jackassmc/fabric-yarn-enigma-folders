@@ -1,0 +1,9 @@
+CLASS bfu net/minecraft/enchantment/FrostWalkerEnchantment
+	METHOD <init> (Lbfn$a;[Laiq;)V
+		ARG 1 weight
+		ARG 2 slotTypes
+	METHOD a freezeWater (Laiu;Lbhm;Lev;I)V
+		ARG 0 entity
+		ARG 1 world
+		ARG 2 blockPos
+		ARG 3 level

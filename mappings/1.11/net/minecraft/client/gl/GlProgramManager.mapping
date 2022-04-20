@@ -1,0 +1,10 @@
+CLASS byh net/minecraft/client/gl/GlProgramManager
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD b INSTANCE Lbyh;
+	METHOD a init ()V
+	METHOD a deleteProgram (Lbyd;)V
+		ARG 0 program
+	METHOD b getInstance ()Lbyh;
+	METHOD b linkProgram (Lbyd;)V
+		ARG 0 program
+	METHOD c createProgram ()I

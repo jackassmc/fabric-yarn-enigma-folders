@@ -1,0 +1,29 @@
+CLASS none/are net/minecraft/block/tile/impl/TileEntityCommandBlock
+	CLASS none/are$1
+		METHOD c getBlockPos ()Lnone/cn;
+		METHOD d getPos ()Lnone/bcs;
+		METHOD e getWorld ()Lnone/aiu;
+		METHOD f getEntity ()Lnone/se;
+		METHOD h getServer ()Lnet/minecraft/server/MinecraftServer;
+	CLASS none/are$a Type
+		FIELD a CHAIN Lnone/are$a;
+		FIELD b REPEATING Lnone/are$a;
+		FIELD c NORMAL Lnone/are$a;
+	FIELD a powered Z
+	FIELD f auto Z
+	FIELD g conditionMet Z
+	METHOD C_ getUpdatePacket ()Lnone/fy;
+	METHOD a deserializeTag (Lnone/dt;)V
+	METHOD a setPowered (Z)V
+		ARG 0 powered
+	METHOD b serializeTag (Lnone/dt;)Lnone/dt;
+	METHOD b setAuto (Z)V
+		ARG 0 auto
+	METHOD c setConditionMet (Z)V
+		ARG 0 conditionMet
+	METHOD g isPowered ()Z
+	METHOD h isAuto ()Z
+	METHOD i isConditionMet ()Z
+	METHOD k getType ()Lnone/are$a;
+	METHOD l isConditionalCommandBlock ()Z
+	METHOD z validate ()V

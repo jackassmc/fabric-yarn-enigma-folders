@@ -1,0 +1,11 @@
+CLASS dfy net/minecraft/client/render/entity/EntityRendererStrayOverlay
+	FIELD a SKIN Lpt;
+	FIELD b renderer Ldcz;
+	FIELD c model Lcts;
+	METHOD <init> (Ldcz;)V
+		ARG 0 renderer
+	METHOD a shouldMergeTextures ()Z
+	METHOD a render (Lafq;FFFFFFF)V
+		ARG 0 entity
+	METHOD a render (Laom;FFFFFFF)V
+		ARG 0 entity

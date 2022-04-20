@@ -1,0 +1,28 @@
+CLASS avc net/minecraft/entity/mob/ZombieEntity
+	CLASS avc$a DestroyEggGoal
+	FIELD bB CONVERTING_IN_WATER Lqh;
+	FIELD bD breakDoorsGoal Lame;
+	FIELD bE canBreakDoors Z
+	FIELD bF inWaterTime I
+	FIELD bG ticksUntilWaterConversion I
+	FIELD b BABY_SPEED_ID Ljava/util/UUID;
+	FIELD bz BABY Lqh;
+	FIELD c BABY_SPEED_BONUS Lajf;
+	FIELD d SPAWN_REINFORCEMENTS Lajd;
+	METHOD <init> (Laii;Lbhf;)V
+		ARG 1 type
+	METHOD J_ burnsInDaylight ()Z
+	METHOD a setTicksUntilWaterConversion (I)V
+	METHOD b convertTo (Laii;)V
+		ARG 1 entityType
+	METHOD dW shouldBreakDoors ()Z
+	METHOD dX getStepSound ()Lyi;
+	METHOD dY getSkull ()Lbbz;
+	METHOD dZ canConvertInWater ()Z
+	METHOD eb convertInWater ()V
+	METHOD ee isConvertingInWater ()Z
+	METHOD ef canBreakDoors ()Z
+	METHOD l initCustomGoals ()V
+	METHOD s setCanBreakDoors (Z)V
+		ARG 1 canBreakDoors
+	METHOD t setChild (Z)V

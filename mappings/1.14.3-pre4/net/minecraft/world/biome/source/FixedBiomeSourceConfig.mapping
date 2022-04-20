@@ -1,0 +1,5 @@
+CLASS bjj net/minecraft/world/biome/source/FixedBiomeSourceConfig
+	FIELD a biome Lbij;
+	METHOD a getBiome ()Lbij;
+	METHOD a setBiome (Lbij;)Lbjj;
+		ARG 1 biome

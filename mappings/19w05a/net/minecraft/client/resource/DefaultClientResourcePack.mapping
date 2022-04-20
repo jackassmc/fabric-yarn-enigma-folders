@@ -1,0 +1,2 @@
+CLASS dpb net/minecraft/client/resource/DefaultClientResourcePack
+	FIELD d index Ldoz;

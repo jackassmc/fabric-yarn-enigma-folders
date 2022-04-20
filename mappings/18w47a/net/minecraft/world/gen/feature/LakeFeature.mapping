@@ -1,0 +1,2 @@
+CLASS bvd net/minecraft/world/gen/feature/LakeFeature
+	METHOD a generate (Lban;Lbqc;Ljava/util/Random;Les;Lbuf;)Z

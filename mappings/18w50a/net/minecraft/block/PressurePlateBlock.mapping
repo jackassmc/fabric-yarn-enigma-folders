@@ -1,0 +1,25 @@
+CLASS bkp net/minecraft/block/PressurePlateBlock
+	CLASS bkp$a Type
+		FIELD a WOOD Lbkp$a;
+		FIELD b STONE Lbkp$a;
+	FIELD d POWERED Lbqe;
+	FIELD e type Lbkp$a;
+	METHOD <init> (Lbkp$a;Lbgs$c;)V
+		ARG 1 type
+		ARG 2 settings
+	METHOD a playPressSound (Lbbq;Let;)V
+		ARG 1 world
+		ARG 2 pos
+	METHOD a setRedstoneOutput (Lbpm;I)Lbpm;
+		ARG 1 state
+		ARG 2 rsOut
+	METHOD a appendProperties (Lbpn$a;)V
+		ARG 1 builder
+	METHOD b getRedstoneOutput (Lbbp;Let;)I
+		ARG 1 world
+		ARG 2 pos
+	METHOD b playDepressSound (Lbbq;Let;)V
+		ARG 1 world
+		ARG 2 pos
+	METHOD k getRedstoneOutput (Lbpm;)I
+		ARG 1 state

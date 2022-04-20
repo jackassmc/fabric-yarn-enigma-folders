@@ -1,0 +1,4 @@
+CLASS bxl net/minecraft/world/gen/chunk/FloatingIslandsChunkGeneratorConfig
+	FIELD t center Leu;
+	METHOD a withCenter (Leu;)Lbxl;
+	METHOD v getCenter ()Leu;

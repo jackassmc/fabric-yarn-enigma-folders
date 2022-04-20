@@ -1,0 +1,18 @@
+CLASS dsq net/minecraft/client/audio/SoundInstance
+	CLASS dsq$a AttenuationType
+		FIELD a NONE Ldsq$a;
+		FIELD b LINEAR Ldsq$a;
+		FIELD c TYPE I
+		METHOD a getType ()I
+	METHOD a getId ()Lqi;
+	METHOD a getAccess (Ldtm;)Ldtn;
+	METHOD b getSound ()Ldsn;
+	METHOD c getCategory ()Lya;
+	METHOD d isRepeatable ()Z
+	METHOD e getRepeatDelay ()I
+	METHOD f getVolume ()F
+	METHOD g getPitch ()F
+	METHOD h getX ()F
+	METHOD i getY ()F
+	METHOD j getZ ()F
+	METHOD k getAttenuationType ()Ldsq$a;

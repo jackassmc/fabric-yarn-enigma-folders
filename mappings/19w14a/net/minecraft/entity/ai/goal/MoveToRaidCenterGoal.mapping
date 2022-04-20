@@ -1,0 +1,4 @@
+CLASS ang net/minecraft/entity/ai/goal/MoveToRaidCenterGoal
+	FIELD a owner Laws;
+	METHOD a includeFreeRaiders (Lawr;)V
+	METHOD g moveToAlternativePosition ()V

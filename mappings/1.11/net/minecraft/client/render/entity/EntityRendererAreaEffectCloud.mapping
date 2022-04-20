@@ -1,0 +1,5 @@
+CLASS btx net/minecraft/client/render/entity/EntityRendererAreaEffectCloud
+	METHOD a getTexture (Lsk;)Lkq;
+		ARG 0 model
+	METHOD a getTexture (Lsm;)Lkq;
+		ARG 0 model

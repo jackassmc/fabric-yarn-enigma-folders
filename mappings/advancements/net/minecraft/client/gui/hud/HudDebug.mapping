@@ -1,0 +1,9 @@
+CLASS bhn net/minecraft/client/gui/hud/HudDebug
+	FIELD a game Lbgm;
+	FIELD f fontRenderer Lbha;
+	METHOD a drawLeftInfoText ()V
+	METHOD a draw (Lbhe;)V
+	METHOD b getLeftInfoText ()Ljava/util/List;
+	METHOD b drawRightInfoText (Lbhe;)V
+	METHOD c getRightInfoText ()Ljava/util/List;
+	METHOD d drawDebugGraph ()V

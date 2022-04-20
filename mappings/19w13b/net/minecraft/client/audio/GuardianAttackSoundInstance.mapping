@@ -1,0 +1,2 @@
+CLASS dvu net/minecraft/client/audio/GuardianAttackSoundInstance
+	FIELD o guardian Latv;

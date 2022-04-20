@@ -1,0 +1,35 @@
+CLASS ciq net/minecraft/structure/StructurePlacementData
+	FIELD a mirror Lbpj;
+	FIELD b rotation Lbqj;
+	FIELD c position Lev;
+	FIELD d ignoreEntities Z
+	FIELD e chunkPosition Lbgi;
+	FIELD f boundingBox Lchc;
+	FIELD g placeFluids Z
+	FIELD h random Ljava/util/Random;
+	FIELD k processors Ljava/util/List;
+	METHOD a copy ()Lciq;
+	METHOD a setChunkPosition (Lbgi;)Lciq;
+		ARG 1 chunkPosition
+	METHOD a setMirrored (Lbpj;)Lciq;
+	METHOD a setRotation (Lbqj;)Lciq;
+	METHOD a setBoundingBox (Lchc;)Lciq;
+		ARG 1 boundingBox
+	METHOD a addProcessor (Lcir;)Lciq;
+		ARG 1 processor
+	METHOD a setPosition (Lev;)Lciq;
+		ARG 1 position
+	METHOD a setRandom (Ljava/util/Random;)Lciq;
+		ARG 1 random
+	METHOD a setIgnoreEntities (Z)Lciq;
+	METHOD b clearProcessors ()Lciq;
+	METHOD b removeProcessor (Lcir;)Lciq;
+		ARG 1 processor
+	METHOD b getRandom (Lev;)Ljava/util/Random;
+		ARG 1 pos
+	METHOD c getMirror ()Lbpj;
+	METHOD d getRotation ()Lbqj;
+	METHOD e getPosition ()Lev;
+	METHOD g shouldIgnoreEntities ()Z
+	METHOD j getProcessors ()Ljava/util/List;
+	METHOD l shouldPlaceFluids ()Z

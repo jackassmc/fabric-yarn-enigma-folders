@@ -1,0 +1,4 @@
+CLASS aub net/minecraft/item/ChorusFruitItem
+	METHOD a onItemFinishedUsing (Lavo;Lban;Lago;)Lavo;
+		ARG 1 stack
+		ARG 2 world

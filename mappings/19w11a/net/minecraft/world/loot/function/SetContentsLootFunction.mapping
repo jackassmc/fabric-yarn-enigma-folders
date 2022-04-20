@@ -1,0 +1,2 @@
+CLASS cok net/minecraft/world/loot/function/SetContentsLootFunction
+	CLASS cok$b net/minecraft/world/loot/function/SetContentsLootFunction$Factory

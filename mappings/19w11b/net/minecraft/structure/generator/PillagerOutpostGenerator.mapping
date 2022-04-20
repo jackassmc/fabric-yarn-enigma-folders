@@ -1,0 +1,8 @@
+CLASS cgo net/minecraft/structure/generator/PillagerOutpostGenerator
+	CLASS cgo$a Piece
+	METHOD a addPieces (Lbvl;Lchp;Leu;Ljava/util/List;Lbxn;)V
+		ARG 0 chunkGenerator
+		ARG 1 structureManager
+		ARG 2 pos
+		ARG 3 pieces
+		ARG 4 random

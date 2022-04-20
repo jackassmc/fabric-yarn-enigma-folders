@@ -1,0 +1,28 @@
+CLASS none/cat net/minecraft/client/audio/MusicTracker
+	CLASS none/cat$a MusicType
+		FIELD a MENU Lnone/cat$a;
+		FIELD b GAME Lnone/cat$a;
+		FIELD c CREATIVE Lnone/cat$a;
+		FIELD d CREDITS Lnone/cat$a;
+		FIELD e NETHER Lnone/cat$a;
+		FIELD f DRAGON Lnone/cat$a;
+		FIELD g END Lnone/cat$a;
+		FIELD h sound Lnone/nk;
+		FIELD i minDelay I
+		FIELD j maxDelay I
+		METHOD <init> (Ljava/lang/String;ILnone/nk;II)V
+			ARG 0 sound
+			ARG 1 minDelay
+			ARG 2 maxDelay
+		METHOD a getSound ()Lnone/nk;
+		METHOD b getMinDelay ()I
+		METHOD c getMaxDelay ()I
+	FIELD a rand Ljava/util/Random;
+	FIELD b game Lnone/bdq;
+	FIELD c current Lnone/cag;
+	FIELD d timeUntilNextSong I
+	METHOD <init> (Lnone/bdq;)V
+		ARG 0 minecraft
+	METHOD D_ update ()V
+	METHOD a play (Lnone/cat$a;)V
+		ARG 0 type

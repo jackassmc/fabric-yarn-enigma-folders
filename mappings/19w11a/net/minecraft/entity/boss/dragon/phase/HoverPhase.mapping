@@ -1,0 +1,3 @@
+CLASS are net/minecraft/entity/boss/dragon/phase/HoverPhase
+	METHOD <init> (Laqx;)V
+		ARG 1 dragon

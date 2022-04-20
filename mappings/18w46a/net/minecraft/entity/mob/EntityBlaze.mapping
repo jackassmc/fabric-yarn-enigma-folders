@@ -1,0 +1,21 @@
+CLASS aoh net/minecraft/entity/mob/EntityBlaze
+	CLASS aoh$a
+		METHOD a canStart ()Z
+		METHOD c start ()V
+		METHOD d onRemove ()V
+		METHOD e tick ()V
+	FIELD c BLAZE_FLAGS Lpm;
+	METHOD D getSoundAmbient ()Lxb;
+	METHOD H mobTick ()V
+	METHOD a setFireActive (Z)V
+	METHOD aA getLightmapCoordinates ()I
+	METHOD aX isOnFire ()Z
+	METHOD c handleFallDamage (FF)V
+		ARG 1 fallDistance
+	METHOD cb initAttributes ()V
+	METHOD cw getSoundDeath ()Lxb;
+	METHOD e getSoundHurt (Lafl;)Lxb;
+	METHOD k updateMovement ()V
+	METHOD l isFireActive ()Z
+	METHOD n initAi ()V
+	METHOD y_ initDataTracker ()V

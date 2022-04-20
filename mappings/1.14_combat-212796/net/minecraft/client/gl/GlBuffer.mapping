@@ -1,0 +1,13 @@
+CLASS cuu net/minecraft/client/gl/GlBuffer
+	FIELD a id I
+	FIELD b format Lcuw;
+	FIELD c vertexCount I
+	METHOD <init> (Lcuw;)V
+		ARG 1 format
+	METHOD a bind ()V
+	METHOD a draw (I)V
+		ARG 1 mode
+	METHOD a set (Ljava/nio/ByteBuffer;)V
+		ARG 1 buffer
+	METHOD b unbind ()V
+	METHOD c delete ()V

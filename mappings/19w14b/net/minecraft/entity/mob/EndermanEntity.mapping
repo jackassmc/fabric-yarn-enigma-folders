@@ -1,0 +1,37 @@
+CLASS atq net/minecraft/entity/mob/EndermanEntity
+	CLASS atq$a ChasePlayerGoal
+		FIELD a endermanEntity Latq;
+		METHOD <init> (Latq;)V
+			ARG 1 endermanEntity
+	CLASS atq$b PlaceBlockGoal
+		FIELD a owner Latq;
+	CLASS atq$c TeleportTowardsPlayerGoal
+		FIELD i endermanEntity Latq;
+		FIELD j targetPlayer Lavo;
+		FIELD k lookAtPlayerWarmup I
+		FIELD l ticksSinceUnseenTeleport I
+		FIELD m staringPlayerPredicate Lapq;
+		FIELD n validTargetPredicate Lapq;
+		METHOD <init> (Latq;)V
+			ARG 1 endermanEntity
+		METHOD a (Latq;Laij;)Z
+			ARG 1 playerEntity
+	CLASS atq$d PickUpBlockGoal
+		FIELD a owner Latq;
+	FIELD bA ANGRY Lqh;
+	FIELD bB PLAYER_ENDERMITE_PREDICATE Ljava/util/function/Predicate;
+	FIELD bC lastAngrySoundAge I
+	FIELD bD ageWhenTargetSet I
+	FIELD d CARRIED_BLOCK Lqh;
+	METHOD a teleportTo (Laia;)Z
+		ARG 1 targetEntity
+	METHOD b setCarriedBlock (Lbuz;)V
+	METHOD dT teleportRandomly ()Z
+	METHOD dU getCarriedBlock ()Lbuz;
+	METHOD dV isAngry ()Z
+	METHOD f isPlayerStaring (Lavo;)Z
+	METHOD k teleport (DDD)Z
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+	METHOD l playAngrySound ()V

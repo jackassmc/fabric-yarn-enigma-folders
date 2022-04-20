@@ -1,0 +1,4 @@
+CLASS com net/minecraft/world/loot/function/SetDamageLootFunction
+	CLASS com$a Factory
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD c durabilityRange Lcne;

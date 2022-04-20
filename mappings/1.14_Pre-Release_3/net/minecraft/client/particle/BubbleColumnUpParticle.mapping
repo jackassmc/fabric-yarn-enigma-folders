@@ -1,0 +1,7 @@
+CLASS dhs net/minecraft/client/particle/BubbleColumnUpParticle
+	CLASS dhs$a Factory
+	METHOD <init> (Lbhd;DDDDDD)V
+		ARG 1 world
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z

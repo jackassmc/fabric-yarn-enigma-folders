@@ -1,0 +1,2 @@
+CLASS clj net/minecraft/client/recipe/book/RecipeBookClient
+	FIELD g manager Laxc;

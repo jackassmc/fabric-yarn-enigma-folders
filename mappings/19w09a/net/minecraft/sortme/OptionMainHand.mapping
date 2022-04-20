@@ -1,0 +1,3 @@
+CLASS ahu net/minecraft/sortme/OptionMainHand
+	FIELD c name Lji;
+	METHOD a getOpposite ()Lahu;

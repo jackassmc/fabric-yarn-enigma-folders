@@ -1,0 +1,4 @@
+CLASS bfy net/minecraft/enchantment/ChannelingEnchantment
+	METHOD <init> (Lbfh$a;[Laij;)V
+		ARG 1 weight
+		ARG 2 slotTypes

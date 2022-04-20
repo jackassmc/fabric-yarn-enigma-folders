@@ -1,0 +1,21 @@
+CLASS bvw net/minecraft/world/chunk/ChunkManager
+	METHOD a isChunkLoaded (II)Z
+		ARG 1 x
+		ARG 2 z
+	METHOD a getChunkSync (IILbvx;Z)Lbvs;
+		ARG 1 x
+		ARG 2 z
+		ARG 3 status
+		ARG 4 create
+	METHOD a getWorldChunk (IIZ)Lbwe;
+	METHOD a isEntityInLoadedChunk (Lahy;)Z
+	METHOD a setChunkForced (Lbfs;Z)V
+		ARG 1 pos
+		ARG 2 forced
+	METHOD a tick (Ljava/util/function/BooleanSupplier;)V
+	METHOD a setMobSpawnOptions (ZZ)V
+		ARG 1 spawnMonsters
+		ARG 2 spawnAnimals
+	METHOD e getStatus ()Ljava/lang/String;
+	METHOD f getChunkGenerator ()Lbvt;
+	METHOD j getLightingProvider ()Lcjj;

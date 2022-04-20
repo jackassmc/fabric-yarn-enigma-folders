@@ -1,0 +1,4 @@
+CLASS dga net/minecraft/client/render/entity/EntityRendererParrot
+	FIELD a TEXTURES [Lpw;
+	METHOD a getTexture (Lafy;)Lpw;
+	METHOD a getTexture (Lall;)Lpw;

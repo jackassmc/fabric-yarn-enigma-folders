@@ -1,0 +1,68 @@
+CLASS bhq net/minecraft/world/ViewableWorld
+	METHOD A isBlockLoaded (Lev;)Z
+	METHOD O getLeastChunkStatusForCollisionCalculation ()Lbxi;
+	METHOD a getChunk (II)Lbxd;
+		ARG 1 chunkX
+		ARG 2 chunkZ
+	METHOD a isAreaLoaded (IIIIII)Z
+		ARG 1 minX
+		ARG 2 minY
+		ARG 3 minZ
+		ARG 4 maxX
+	METHOD a getChunk (IILbxi;)Lbxd;
+		ARG 1 chunkX
+		ARG 2 chunkZ
+		ARG 3 requiredState
+	METHOD a getChunk (IILbxi;Z)Lbxd;
+		ARG 1 chunkX
+		ARG 2 chunkZ
+		ARG 3 leastStatus
+		ARG 4 create
+	METHOD a intersectsEntities (Lail;Lcsw;)Z
+		ARG 1 except
+		ARG 2 shape
+	METHOD a canPlace (Lbvp;Lev;Lcsh;)Z
+		ARG 1 state
+		ARG 2 pos
+	METHOD a getTop (Lbyw$a;II)I
+		ARG 1 type
+		ARG 2 x
+	METHOD a getTopPosition (Lbyw$a;Lev;)Lev;
+		ARG 1 type
+	METHOD a isAreaLoaded (Lev;Lev;)Z
+		ARG 1 min
+		ARG 2 max
+	METHOD a_ doesNotCollide (Lail;Lcrx;)Z
+		ARG 1 entity
+		ARG 2 entityBoundingBox
+	METHOD a_ getLightLevel (Lev;I)I
+	METHOD b isChunkLoaded (II)Z
+		ARG 1 chunkX
+		ARG 2 chunkZ
+	METHOD b doesNotCollide (Lail;Lcrx;Ljava/util/Set;)Z
+		ARG 1 entity
+		ARG 2 entityBoundingBox
+		ARG 3 otherEntities
+	METHOD c getAmbientDarkness ()I
+	METHOD c getCollisionShapes (Lail;Lcrx;Ljava/util/Set;)Ljava/util/stream/Stream;
+	METHOD c doesNotCollide (Lcrx;)Z
+	METHOD c getEmittedStrongRedstonePower (Lev;Lfa;)I
+		ARG 1 pos
+	METHOD d intersectsFluid (Lcrx;)Z
+	METHOD d (Lev;I)I
+		ARG 2 darkness
+	METHOD e isClient ()Z
+	METHOD i getSeaLevel ()I
+	METHOD i intersectsEntities (Lail;)Z
+		ARG 1 entity
+	METHOD j doesNotCollide (Lail;)Z
+	METHOD q_ getWorldBorder ()Lbxb;
+	METHOD r_ getDimension ()Lbyi;
+	METHOD u isAir (Lev;)Z
+		ARG 1 pos
+	METHOD w getBrightness (Lev;)F
+	METHOD x getChunk (Lev;)Lbxd;
+		ARG 1 pos
+	METHOD y isWaterAt (Lev;)Z
+		ARG 1 pos
+	METHOD z getLightLevel (Lev;)I

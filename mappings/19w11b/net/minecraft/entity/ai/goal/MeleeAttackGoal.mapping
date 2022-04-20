@@ -1,0 +1,4 @@
+CLASS amb net/minecraft/entity/ai/goal/MeleeAttackGoal
+	FIELD a entity Laim;
+	METHOD <init> (Laim;DZ)V
+		ARG 1 entity

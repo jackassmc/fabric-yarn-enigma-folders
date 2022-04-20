@@ -1,0 +1,6 @@
+CLASS cbn net/minecraft/fluid/Fluids
+	FIELD a EMPTY Lcbk;
+	FIELD b WATER_FLOWING Lcbj;
+	FIELD c WATER Lcbj;
+	FIELD d LAVA_FLOWING Lcbj;
+	FIELD e LAVA Lcbj;

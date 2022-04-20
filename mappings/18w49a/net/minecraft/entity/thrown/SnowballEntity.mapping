@@ -1,0 +1,2 @@
+CLASS arc net/minecraft/entity/thrown/SnowballEntity
+	METHOD a onCollision (Lckw;)V

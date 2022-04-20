@@ -1,0 +1,6 @@
+CLASS bor net/minecraft/block/GrassPathBlock
+	FIELD a SHAPE Lcsl;
+	METHOD <init> (Lbmh$c;)V
+		ARG 1 settings
+	METHOD n (Lbvf;)Z
+		ARG 1 state

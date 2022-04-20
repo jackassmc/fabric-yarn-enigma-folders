@@ -1,0 +1,4 @@
+CLASS bon net/minecraft/block/LogBlock
+	FIELD b endMaterialColor Lcjx;
+	METHOD <init> (Lcjx;Lblg$c;)V
+		ARG 1 endMaterialColor

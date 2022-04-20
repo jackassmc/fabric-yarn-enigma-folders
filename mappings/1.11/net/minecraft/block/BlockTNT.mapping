@@ -1,0 +1,36 @@
+CLASS ari net/minecraft/block/BlockTNT
+	FIELD a EXPLODE Latv;
+	METHOD a deserializeState (I)Latj;
+		ARG 0 meta
+	METHOD a shouldDropItemsOnExplosion (Lajl;)Z
+		ARG 0 explosion
+	METHOD a onDestroyedByExplosion (Lajq;Lco;Lajl;)V
+		ARG 0 world
+		ARG 1 pos
+		ARG 2 explosion
+	METHOD a activate (Lajq;Lco;Latj;Laax;Lrh;Lcv;FFF)Z
+		ARG 0 world
+		ARG 1 pos
+		ARG 2 state
+		ARG 3 player
+		ARG 4 hand
+		ARG 5 facing
+		ARG 6 hitX
+		ARG 7 hitY
+		ARG 8 hitZ
+	METHOD a (Lajq;Lco;Latj;Lsm;)V
+		ARG 0 world
+		ARG 1 pos
+		ARG 2 state
+		ARG 3 entity
+	METHOD b createStateFactory ()Latk;
+	METHOD c (Lajq;Lco;Latj;)V
+		ARG 0 world
+		ARG 1 pos
+		ARG 2 state
+	METHOD d (Lajq;Lco;Latj;)V
+		ARG 0 world
+		ARG 1 pos
+		ARG 2 state
+	METHOD e serializeState (Latj;)I
+		ARG 0 state

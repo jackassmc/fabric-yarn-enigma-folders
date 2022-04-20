@@ -1,0 +1,3 @@
+CLASS axz net/minecraft/inventory/CraftingResultInventory
+	FIELD a stack Lfi;
+	FIELD b lastRecipe Lbda;

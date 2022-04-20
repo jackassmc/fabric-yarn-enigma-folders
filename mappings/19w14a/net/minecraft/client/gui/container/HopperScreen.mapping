@@ -1,0 +1,2 @@
+CLASS dap net/minecraft/client/gui/container/HopperScreen
+	FIELD k TEXTURE Lqr;

@@ -1,0 +1,3 @@
+CLASS bfd net/minecraft/enchantment/Enchantments
+	FIELD L ALL_ARMOR [Laif;
+	METHOD a register (Ljava/lang/String;Lbez;)Lbez;

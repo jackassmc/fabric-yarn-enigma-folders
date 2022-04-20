@@ -1,0 +1,21 @@
+CLASS cwl net/minecraft/client/particle/ParticleAnimated
+	FIELD J textureId I
+	FIELD K frameCount I
+	FIELD N targetColorRed F
+	FIELD O targetColorGreen F
+	FIELD P targetColorBlue F
+	FIELD Q changesColor Z
+	METHOD <init> (Laza;DDDIIF)V
+		ARG 0 world
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 textureId
+		ARG 5 frameCount
+	METHOD a update ()V
+	METHOD a getColorMultiplier (F)I
+	METHOD c hasAlpha ()Z
+	METHOD c setColor (I)V
+		ARG 0 color
+	METHOD d setTargetColor (I)V
+		ARG 0 color

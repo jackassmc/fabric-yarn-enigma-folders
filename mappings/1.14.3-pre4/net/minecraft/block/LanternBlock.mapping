@@ -1,0 +1,8 @@
+CLASS bpq net/minecraft/block/LanternBlock
+	FIELD a HANGING Lbwg;
+	FIELD b STANDING_SHAPE Lcsv;
+	FIELD c HANGING_SHAPE Lcsv;
+	METHOD <init> (Lbmq$c;)V
+		ARG 1 settings
+	METHOD j attachedDirection (Lbvo;)Lfa;
+		ARG 0 state

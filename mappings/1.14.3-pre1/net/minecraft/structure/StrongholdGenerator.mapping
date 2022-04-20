@@ -1,0 +1,40 @@
+CLASS cik net/minecraft/structure/StrongholdGenerator
+	CLASS cik$a ChestCorridor
+		FIELD a chestGenerated Z
+	CLASS cik$b SmallCorridor
+		FIELD a length I
+	CLASS cik$c FiveWayCrossing
+		FIELD a lowerLeftExists Z
+		FIELD b upperLeftExists Z
+		FIELD c lowerRightExists Z
+		FIELD e upperRightExists Z
+	CLASS cik$d LeftTurn
+	CLASS cik$e Library
+		FIELD a tall Z
+	CLASS cik$g PortalRoom
+		FIELD a spawnerPlaced Z
+	CLASS cik$h PrisonHall
+	CLASS cik$i RightTurn
+	CLASS cik$j SquareRoom
+		FIELD a roomType I
+	CLASS cik$k StoneBrickRandomizer
+	CLASS cik$l SpiralStaircase
+		FIELD a isStructureStart Z
+	CLASS cik$m Start
+	CLASS cik$n Corridor
+		FIELD a leftExitExists Z
+		FIELD b rightExitExixts Z
+	CLASS cik$o Stairs
+	CLASS cik$p Piece
+		CLASS cik$p$a EntranceType
+		FIELD d entryDoor Lcik$p$a;
+		METHOD a generateEntrance (Lbhk;Ljava/util/Random;Lchu;Lcik$p$a;III)V
+			ARG 1 world
+			ARG 2 random
+			ARG 3 boundingBox
+			ARG 4 type
+			ARG 5 x
+			ARG 6 y
+			ARG 7 z
+		METHOD a getRandomEntrance (Ljava/util/Random;)Lcik$p$a;
+			ARG 1 random

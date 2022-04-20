@@ -1,0 +1,2 @@
+CLASS ayc net/minecraft/enchantment/EnchantmentFireAspect
+	METHOD a getHighestLevel ()I

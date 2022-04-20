@@ -1,0 +1,8 @@
+CLASS blr net/minecraft/block/CommandBlock
+	FIELD a FACING Lbur;
+	FIELD b CONDITIONAL Lbuo;
+	FIELD c LOGGER Lorg/apache/logging/log4j/Logger;
+	METHOD <init> (Lbky$c;)V
+		ARG 1 settings
+	METHOD a (Lbtw;Lbfx;Leu;Lbfe;Z)V
+		ARG 4 executor

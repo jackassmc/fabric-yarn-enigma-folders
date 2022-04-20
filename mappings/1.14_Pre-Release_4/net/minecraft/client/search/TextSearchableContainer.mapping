@@ -1,0 +1,4 @@
+CLASS dwz net/minecraft/client/search/TextSearchableContainer
+	CLASS dwz$a Iterator
+	FIELD c byText Ldxc;
+	FIELD d textFinder Ljava/util/function/Function;

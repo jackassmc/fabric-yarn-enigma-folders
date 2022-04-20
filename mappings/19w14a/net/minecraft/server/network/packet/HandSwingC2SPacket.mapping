@@ -1,0 +1,5 @@
+CLASS pe net/minecraft/server/network/packet/HandSwingC2SPacket
+	FIELD a hand Lagt;
+	METHOD <init> (Lagt;)V
+		ARG 1 hand
+	METHOD b getHand ()Lagt;

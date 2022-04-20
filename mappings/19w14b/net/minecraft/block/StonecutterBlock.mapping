@@ -1,0 +1,6 @@
+CLASS brp net/minecraft/block/StonecutterBlock
+	FIELD a FACING Lbvu;
+	FIELD b SHAPE Lcsf;
+	FIELD c CONTAINER_NAME Ljw;
+	METHOD <init> (Lbmb$c;)V
+		ARG 1 settings

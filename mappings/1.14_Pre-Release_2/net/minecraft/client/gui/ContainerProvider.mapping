@@ -1,0 +1,2 @@
+CLASS dbe net/minecraft/client/gui/ContainerProvider
+	METHOD a getContainer ()Laxv;

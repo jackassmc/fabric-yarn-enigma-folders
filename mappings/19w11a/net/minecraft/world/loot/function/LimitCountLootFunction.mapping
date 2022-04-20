@@ -1,0 +1,3 @@
+CLASS coe net/minecraft/world/loot/function/LimitCountLootFunction
+	CLASS coe$a net/minecraft/world/loot/function/LimitCountLootFunction$Factory
+	FIELD a limit Lcmw;

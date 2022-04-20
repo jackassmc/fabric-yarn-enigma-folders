@@ -1,0 +1,25 @@
+CLASS buf net/minecraft/block/entity/LecternBlockEntity
+	FIELD a inventory Lagw;
+	FIELD b propertyDelegate Layl;
+	FIELD c book Lbcb;
+	FIELD g currentPage I
+	FIELD h pageCount I
+	METHOD a setCurrentPage (I)V
+		ARG 1 currentPage
+	METHOD a getCommandSource (Lavy;)Lcd;
+		ARG 1 player
+	METHOD a setBook (Lbcb;)V
+		ARG 1 book
+	METHOD a setBook (Lbcb;Lavy;)V
+		ARG 1 book
+		ARG 2 player
+	METHOD b resolveBook (Lbcb;Lavy;)Lbcb;
+		ARG 1 book
+		ARG 2 player
+	METHOD createMenu (ILavx;Lavy;)Layc;
+		ARG 1 syncId
+	METHOD f getBook ()Lbcb;
+	METHOD g hasBook ()Z
+	METHOD h getCurrentPage ()I
+	METHOD s getComparatorOutput ()I
+	METHOD t onBookRemoved ()V

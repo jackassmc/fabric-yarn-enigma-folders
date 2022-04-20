@@ -1,0 +1,31 @@
+CLASS cts net/minecraft/client/font/TrueTypeFont
+	CLASS a TtfGlyph
+		FIELD b width I
+		FIELD c height I
+		FIELD d bearingX F
+		FIELD e ascent F
+		FIELD f advance F
+		FIELD g glyphIndex I
+		METHOD <init> (Lcts;IIIIFFI)V
+			ARG 1 xMin
+			ARG 2 xMax
+			ARG 3 yMax
+			ARG 4 yMin
+			ARG 5 advance
+			ARG 7 glyphIndex
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD b info Lorg/lwjgl/stb/STBTTFontinfo;
+	FIELD c oversample F
+	FIELD d excludedCharacters Lit/unimi/dsi/fastutil/chars/CharSet;
+	FIELD e shiftX F
+	FIELD f shiftY F
+	FIELD g scaleFactor F
+	FIELD h ascent F
+	METHOD <init> (Lorg/lwjgl/stb/STBTTFontinfo;FFFFLjava/lang/String;)V
+		ARG 1 info
+		ARG 3 oversample
+		ARG 4 shiftX
+		ARG 5 shiftY
+		ARG 6 excludedCharacters
+	METHOD a getSTBTTFontInfo (Ljava/nio/ByteBuffer;)Lorg/lwjgl/stb/STBTTFontinfo;
+		ARG 0 font

@@ -1,0 +1,6 @@
+CLASS bsm net/minecraft/block/WeightedPressurePlateBlock
+	FIELD d POWER Lbvz;
+	FIELD e weight I
+	METHOD <init> (ILbmb$c;)V
+		ARG 1 weight
+		ARG 2 settings

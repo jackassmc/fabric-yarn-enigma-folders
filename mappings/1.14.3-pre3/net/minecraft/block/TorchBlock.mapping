@@ -1,0 +1,4 @@
+CLASS bsn net/minecraft/block/TorchBlock
+	FIELD d BOUNDING_SHAPE Lcsv;
+	METHOD <init> (Lbmq$c;)V
+		ARG 1 settings

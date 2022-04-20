@@ -1,0 +1,7 @@
+CLASS dah net/minecraft/client/model/Polygon
+	FIELD a vertices [Ldbg;
+	FIELD b vertexCount I
+	METHOD <init> ([Ldbg;IIIIFF)V
+		ARG 1 vertices
+	METHOD a flip ()V
+	METHOD a render (Lcpi;F)V

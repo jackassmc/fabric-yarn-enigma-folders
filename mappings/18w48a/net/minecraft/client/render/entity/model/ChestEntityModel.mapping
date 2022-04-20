@@ -1,0 +1,4 @@
+CLASS cwg net/minecraft/client/render/entity/model/ChestEntityModel
+	FIELD a lid Lcza;
+	FIELD b base Lcza;
+	FIELD c hatch Lcza;

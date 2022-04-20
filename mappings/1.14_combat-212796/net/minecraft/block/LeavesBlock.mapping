@@ -1,0 +1,14 @@
+CLASS bps net/minecraft/block/LeavesBlock
+	FIELD a DISTANCE Lbwp;
+	FIELD b PERSISTENT Lbwh;
+	FIELD c fancy Z
+	METHOD <init> (Lbmr$c;)V
+		ARG 1 settings
+	METHOD a updateDistanceFromLogs (Lbvp;Lbho;Lev;)Lbvp;
+		ARG 0 state
+		ARG 1 world
+		ARG 2 pos
+	METHOD a setRenderingMode (Z)V
+		ARG 0 fancy
+	METHOD j getDistanceFromLog (Lbvp;)I
+		ARG 0 state

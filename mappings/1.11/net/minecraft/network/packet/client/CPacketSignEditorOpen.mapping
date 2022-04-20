@@ -1,0 +1,13 @@
+CLASS hd net/minecraft/network/packet/client/CPacketSignEditorOpen
+	FIELD a pos Lco;
+	METHOD <init> (Lco;)V
+		ARG 0 pos
+	METHOD a getPos ()Lco;
+	METHOD a readPacket (Let;)V
+		ARG 0 packet
+	METHOD a applyPacket (Lew;)V
+		ARG 0 handler
+	METHOD a applyPacket (Lfp;)V
+		ARG 0 handler
+	METHOD b writePacket (Let;)V
+		ARG 0 packet

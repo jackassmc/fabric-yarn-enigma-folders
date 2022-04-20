@@ -1,0 +1,88 @@
+CLASS dle net/minecraft/client/render/block/BlockModelRenderer
+	CLASS dle$a NeighborData
+		FIELD g faces [Lfa;
+		FIELD h nonCubicWeight Z
+		METHOD a getData (Lfa;)Ldle$a;
+	CLASS dle$b AmbientOcclusionCalculator
+		FIELD b colorMultiplier [F
+		FIELD c brightness [I
+		METHOD a getAmbientOcclusionBrightness (IIII)I
+		METHOD a getBrightness (IIIIFFFF)I
+		METHOD a apply (Lbgp;Lbvj;Lev;Lfa;[FLjava/util/BitSet;)V
+	CLASS dle$c Translation
+		FIELD g firstCorner I
+		FIELD h secondCorner I
+		FIELD i thirdCorner I
+		FIELD j fourthCorner I
+		FIELD k VALUES [Ldle$c;
+		METHOD a getTranslations (Lfa;)Ldle$c;
+	CLASS dle$d NeighborOrientation
+		FIELD m shape I
+	FIELD a colorMap Lcvv;
+	FIELD b brightnessCache Ljava/lang/ThreadLocal;
+	FIELD c brightnessCacheEnabled Ljava/lang/ThreadLocal;
+	METHOD a enableBrightnessCache ()V
+	METHOD a renderQuad (FFFFLjava/util/List;)V
+		ARG 1 colorMultiplier
+		ARG 2 red
+		ARG 3 green
+		ARG 4 blue
+	METHOD a tesselateQuadsFlat (Lbgp;Lbvj;Lev;IZLcuj;Ljava/util/List;Ljava/util/BitSet;)V
+		ARG 1 view
+		ARG 2 state
+		ARG 3 pos
+		ARG 4 brightness
+		ARG 5 checkBrightness
+		ARG 6 buffer
+		ARG 7 quads
+	METHOD a tesselateQuadsSmooth (Lbgp;Lbvj;Lev;Lcuj;Ljava/util/List;[FLjava/util/BitSet;Ldle$b;)V
+		ARG 1 view
+		ARG 2 state
+		ARG 3 pos
+		ARG 4 buffer
+		ARG 5 quads
+		ARG 6 faceShape
+		ARG 7 shapeState
+	METHOD a updateShape (Lbgp;Lbvj;Lev;[ILfa;[FLjava/util/BitSet;)V
+		ARG 3 state
+		ARG 4 vertexData
+		ARG 5 facing
+		ARG 6 faceShape
+	METHOD a tesselate (Lbgp;Ldvu;Lbvj;Lev;Lcuj;ZLjava/util/Random;J)Z
+		ARG 1 view
+		ARG 2 model
+		ARG 3 state
+		ARG 4 pos
+		ARG 5 buffer
+		ARG 6 testSides
+	METHOD a render (Lbvj;Ldvu;FFFF)V
+		ARG 1 state
+		ARG 2 model
+		ARG 3 colorMultiplier
+		ARG 4 red
+		ARG 5 green
+	METHOD a render (Ldvu;FFFF)V
+		ARG 1 model
+		ARG 2 colorMultiplier
+		ARG 3 red
+		ARG 4 green
+	METHOD a render (Ldvu;Lbvj;FZ)V
+		ARG 1 model
+		ARG 2 state
+		ARG 3 colorMultiplier
+	METHOD b disableBrightnessCache ()V
+	METHOD b tesselateSmooth (Lbgp;Ldvu;Lbvj;Lev;Lcuj;ZLjava/util/Random;J)Z
+		ARG 1 view
+		ARG 2 model
+		ARG 3 state
+		ARG 4 pos
+		ARG 5 buffer
+		ARG 6 testSides
+	METHOD c tesselateFlat (Lbgp;Ldvu;Lbvj;Lev;Lcuj;ZLjava/util/Random;J)Z
+		ARG 1 view
+		ARG 2 model
+		ARG 3 state
+		ARG 4 pos
+		ARG 5 buffer
+		ARG 6 testSides
+		ARG 8 seed

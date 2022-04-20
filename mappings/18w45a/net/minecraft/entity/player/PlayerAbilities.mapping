@@ -1,0 +1,12 @@
+CLASS apt net/minecraft/entity/player/PlayerAbilities
+	FIELD a invulnerable Z
+	FIELD b flying Z
+	FIELD c allowFlying Z
+	FIELD d creativeMode Z
+	FIELD e allowModifyWorld Z
+	FIELD g walkSpeed F
+	METHOD a getFlySpeed ()F
+	METHOD a setWalkSpeed (F)V
+	METHOD a serialize (Lho;)V
+	METHOD b getWalkSpeed ()F
+	METHOD b deserialize (Lho;)V

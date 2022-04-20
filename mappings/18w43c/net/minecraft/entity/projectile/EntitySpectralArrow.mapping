@@ -1,0 +1,10 @@
+CLASS apt net/minecraft/entity/projectile/EntitySpectralArrow
+	FIELD au duration I
+	METHOD S_ update ()V
+	METHOD a onHit (Lafq;)V
+		ARG 0 entity
+	METHOD a deserializeCustomData (Lhl;)V
+		ARG 0 tag
+	METHOD b serializeCustomData (Lhl;)V
+		ARG 0 tag
+	METHOD l asItemStack ()Lauc;

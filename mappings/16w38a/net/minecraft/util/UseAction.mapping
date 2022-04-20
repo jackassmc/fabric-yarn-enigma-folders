@@ -1,0 +1,6 @@
+CLASS agc net/minecraft/util/UseAction
+	FIELD a DEFAULT Lagc;
+	FIELD b EAT Lagc;
+	FIELD c DRINK Lagc;
+	FIELD d GUARD Lagc;
+	FIELD e BOW Lagc;

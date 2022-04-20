@@ -1,0 +1,2 @@
+CLASS bfp net/minecraft/block/IBlockEntityProvider
+	METHOD a createBlockEntity (Layn;)Lbkf;

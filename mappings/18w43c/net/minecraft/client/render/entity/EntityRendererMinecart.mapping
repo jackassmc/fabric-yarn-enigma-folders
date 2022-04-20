@@ -1,0 +1,8 @@
+CLASS ddc net/minecraft/client/render/entity/EntityRendererMinecart
+	FIELD f SKIN Lpt;
+	METHOD <init> (Ldcb;)V
+		ARG 0 renderManager
+	METHOD a getTexture (Lafh;)Lpt;
+		ARG 0 model
+	METHOD a getTexture (Laqc;)Lpt;
+		ARG 0 model

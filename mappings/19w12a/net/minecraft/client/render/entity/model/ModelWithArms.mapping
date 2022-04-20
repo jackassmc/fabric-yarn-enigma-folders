@@ -1,0 +1,2 @@
+CLASS dne net/minecraft/client/render/entity/model/ModelWithArms
+	METHOD a setArmAngle (FLaig;)V

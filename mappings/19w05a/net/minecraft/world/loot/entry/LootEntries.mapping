@@ -1,0 +1,6 @@
+CLASS ckd net/minecraft/world/loot/entry/LootEntries
+	CLASS ckd$a Serializer
+		METHOD a getSerializer (Ljava/lang/Class;)Lckf$b;
+	FIELD a idSerializers Ljava/util/Map;
+	FIELD b classSerializers Ljava/util/Map;
+	METHOD a register (Lckf$b;)V

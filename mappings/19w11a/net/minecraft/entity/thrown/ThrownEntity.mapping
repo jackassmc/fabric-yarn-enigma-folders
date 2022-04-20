@@ -1,0 +1,19 @@
+CLASS avj net/minecraft/entity/thrown/ThrownEntity
+	FIELD b inGround Z
+	FIELD c shake I
+	FIELD d owner Laif;
+	FIELD e blockX I
+	FIELD f blockY I
+	FIELD g blockZ I
+	METHOD <init> (Laia;DDDLbfy;)V
+		ARG 1 world
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z
+	METHOD <init> (Laia;Laif;Lbfy;)V
+		ARG 1 world
+	METHOD <init> (Laia;Lbfy;)V
+		ARG 1 type
+	METHOD a onCollision (Lcqf;)V
+	METHOD l getGravity ()F
+	METHOD m getOwner ()Laif;

@@ -1,0 +1,12 @@
+CLASS bmf net/minecraft/block/ShulkerBoxBlock
+	FIELD a FACING Lbri;
+	FIELD c color Lawa;
+	METHOD a get (Lawa;)Lbhn;
+		ARG 0 dyeColor
+	METHOD b getItemStack (Lawa;)Laxd;
+		ARG 0 color
+	METHOD b getColor (Lawy;)Lawa;
+		ARG 0 item
+	METHOD d getColor ()Lawa;
+	METHOD f getColor (Lbhn;)Lawa;
+		ARG 0 block

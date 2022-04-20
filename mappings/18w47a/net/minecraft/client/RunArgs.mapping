@@ -1,0 +1,23 @@
+CLASS cvf net/minecraft/client/RunArgs
+	CLASS cvf$a Directories
+		FIELD a runDir Ljava/io/File;
+		FIELD b resourcePackDir Ljava/io/File;
+		FIELD c assetDir Ljava/io/File;
+		FIELD d assetIndex Ljava/lang/String;
+		METHOD a getResourceIndex ()Ldlh;
+	CLASS cvf$b Game
+		FIELD a demo Z
+		FIELD b version Ljava/lang/String;
+		FIELD c versionType Ljava/lang/String;
+	CLASS cvf$c AutoConnect
+		FIELD a serverIp Ljava/lang/String;
+		FIELD b serverPort I
+	CLASS cvf$d Network
+		FIELD a session Lcnr;
+		FIELD c profileProperties Lcom/mojang/authlib/properties/PropertyMap;
+		FIELD d netProxy Ljava/net/Proxy;
+	FIELD a network Lcvf$d;
+	FIELD b render Lclx;
+	FIELD c directories Lcvf$a;
+	FIELD d game Lcvf$b;
+	FIELD e autoConnect Lcvf$c;

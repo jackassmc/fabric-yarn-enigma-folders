@@ -1,0 +1,20 @@
+CLASS bxk net/minecraft/client/render/chunk/ChunkBatcher
+	CLASS bxk$1
+		METHOD run run ()V
+	CLASS bxk$2
+		METHOD run run ()V
+	CLASS bxk$3
+		METHOD run run ()V
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD b THREAD_FACTORY Ljava/util/concurrent/ThreadFactory;
+	FIELD d workerThreads Ljava/util/List;
+	FIELD e workers Ljava/util/List;
+	FIELD f pendingChunks Ljava/util/concurrent/PriorityBlockingQueue;
+	FIELD g availableBuffers Ljava/util/concurrent/BlockingQueue;
+	FIELD j pendingUploads Ljava/util/Queue;
+	FIELD k activeWorker Lbxl;
+	METHOD a getDebugString ()Ljava/lang/String;
+	METHOD a addAvailableBuffer (Lbuk;)V
+		ARG 0 buffer
+	METHOD c getNextAvailableBuffer ()Lbuk;
+	METHOD d getNextChunkRenderDataTask ()Lbxj;

@@ -1,0 +1,74 @@
+CLASS fm net/minecraft/util/registry/Registry
+	FIELD A CHUNK_STATUS Lez;
+	FIELD B STRUCTURE_FEATURE Lfm;
+	FIELD C STRUCTURE_PIECE Lfm;
+	FIELD D RULE_TEST Lfm;
+	FIELD E STRUCTURE_PROCESSOR Lfm;
+	FIELD F STRUCTURE_POOL_ELEMENT Lfm;
+	FIELD G CONTAINER Lfm;
+	FIELD H RECIPE_TYPE Lfm;
+	FIELD I RECIPE_SERIALIZER Lfm;
+	FIELD J STAT_TYPE Lfm;
+	FIELD K VILLAGER_TYPE Lez;
+	FIELD L VILLAGER_PROFESSION Lez;
+	FIELD M POINT_OF_INTEREST_TYPE Lez;
+	FIELD N MEMORY_MODULE_TYPE Lez;
+	FIELD O SENSOR_TYPE Lez;
+	FIELD P SCHEDULE Lfm;
+	FIELD Q ACTIVITY Lfm;
+	FIELD a DEFAULT_ENTRIES Ljava/util/Map;
+	FIELD e LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD f REGISTRIES Lfr;
+	FIELD g SOUND_EVENT Lfm;
+	FIELD h FLUID Lez;
+	FIELD i STATUS_EFFECT Lfm;
+	FIELD j BLOCK Lez;
+	FIELD k ENCHANTMENT Lfm;
+	FIELD l ENTITY_TYPE Lez;
+	FIELD m ITEM Lez;
+	FIELD n POTION Lez;
+	FIELD o CARVER Lfm;
+	FIELD p SURFACE_BUILDER Lfm;
+	FIELD q FEATURE Lfm;
+	FIELD r DECORATOR Lfm;
+	FIELD s BIOME Lfm;
+	FIELD t PARTICLE_TYPE Lfm;
+	FIELD u BIOME_SOURCE_TYPE Lfm;
+	FIELD v BLOCK_ENTITY Lfm;
+	FIELD w CHUNK_GENERATOR_TYPE Lfm;
+	FIELD x DIMENSION Lfm;
+	FIELD y MOTIVE Lez;
+	FIELD z CUSTOM_STAT Lfm;
+	METHOD a register (Lfm;ILjava/lang/String;Ljava/lang/Object;)Ljava/lang/Object;
+		ARG 0 registry
+		ARG 1 rawId
+		ARG 2 id
+		ARG 3 entry
+	METHOD a register (Lfm;Ljava/lang/String;Ljava/lang/Object;)Ljava/lang/Object;
+		ARG 0 registry
+		ARG 1 id
+		ARG 2 entry
+	METHOD a register (Lfm;Lqs;Ljava/lang/Object;)Ljava/lang/Object;
+		ARG 0 registry
+		ARG 1 id
+		ARG 2 entry
+	METHOD a getRawId (Ljava/lang/Object;)I
+		ARG 1 entry
+	METHOD a putDefaultEntry (Ljava/lang/String;Lfr;Ljava/util/function/Supplier;)Lfr;
+		ARG 0 id
+	METHOD a create (Ljava/lang/String;Ljava/lang/String;Ljava/util/function/Supplier;)Lez;
+		ARG 2 defaultEntry
+	METHOD a create (Ljava/lang/String;Ljava/util/function/Supplier;)Lfm;
+		ARG 0 id
+	METHOD a getRandom (Ljava/util/Random;)Ljava/lang/Object;
+		ARG 1 rand
+	METHOD a get (Lqs;)Ljava/lang/Object;
+		ARG 1 id
+	METHOD b getIds ()Ljava/util/Set;
+	METHOD b getId (Ljava/lang/Object;)Lqs;
+		ARG 1 entry
+	METHOD b getOrEmpty (Lqs;)Ljava/util/Optional;
+		ARG 1 id
+	METHOD c containsId (Lqs;)Z
+		ARG 1 id
+	METHOD d stream ()Ljava/util/stream/Stream;

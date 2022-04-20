@@ -1,0 +1,42 @@
+CLASS cgw net/minecraft/structure/StructureStart
+	CLASS cgw$1
+		METHOD <init> (Lccu;IILbgu;Lcgc;IJ)V
+			ARG 2 chunkX
+			ARG 3 chunkZ
+	FIELD a DEFAULT Lcgw;
+	FIELD b children Ljava/util/List;
+	FIELD c boundingBox Lcgc;
+	FIELD d random Lbxn;
+	FIELD e feature Lccu;
+	FIELD f chunkX I
+	FIELD g chunkZ I
+	FIELD h biome Lbgu;
+	FIELD i references I
+	METHOD <init> (Lccu;IILbgu;Lcgc;IJ)V
+		ARG 2 chunkX
+		ARG 3 chunkZ
+	METHOD a getPos ()Leu;
+	METHOD a toTag (II)Lia;
+		ARG 1 chunkX
+		ARG 2 chunkZ
+	METHOD a generateStructure (Lbfy;Ljava/util/Random;Lcgc;Lbfk;)V
+		ARG 1 world
+		ARG 2 random
+		ARG 3 boundingBox
+		ARG 4 pos
+	METHOD a initialize (Lbvl;Lchp;IILbgu;)V
+		ARG 1 chunkGenerator
+		ARG 2 structureManager
+		ARG 3 x
+		ARG 4 z
+		ARG 5 biome
+	METHOD b setBoundingBoxFromChildren ()V
+	METHOD c getBoundingBox ()Lcgc;
+	METHOD d getChildren ()Ljava/util/List;
+	METHOD e hasChildren ()Z
+	METHOD f getChunkX ()I
+	METHOD g getChunkZ ()I
+	METHOD h isInExistingChunk ()Z
+	METHOD i incrementReferences ()V
+	METHOD j getReferenceCountToBeInExistingChunk ()I
+	METHOD k getFeature ()Lccu;

@@ -1,0 +1,4 @@
+CLASS dso net/minecraft/client/render/entity/feature/ShoulderParrotFeatureRenderer
+	METHOD <init> (Ldqk;)V
+		ARG 1 context
+	METHOD a renderShoulderParrot (Lavo;FFFFFFZ)V

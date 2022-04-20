@@ -1,0 +1,75 @@
+CLASS aup net/minecraft/block/entity/BlockEntityStructureBlock
+	CLASS aup$a Mode
+		FIELD a SAVE Laup$a;
+		FIELD b LOAD Laup$a;
+		FIELD c CORNER Laup$a;
+		FIELD d DATA Laup$a;
+		FIELD e VALUES [Laup$a;
+		FIELD f translationKey Ljava/lang/String;
+		FIELD g id I
+		METHOD a getId ()I
+		METHOD a byId (I)Laup$a;
+		METHOD a getTranslationKey (Laup$a;)Ljava/lang/String;
+		METHOD m asString ()Ljava/lang/String;
+	FIELD a name Ljava/lang/String;
+	FIELD f author Ljava/lang/String;
+	FIELD g metadata Ljava/lang/String;
+	FIELD h offset Ldx;
+	FIELD i size Ldx;
+	FIELD j mirror Laqm;
+	FIELD k rotation Lasa;
+	FIELD l mode Laup$a;
+	FIELD m ignoreEntities Z
+	FIELD n powered Z
+	FIELD o showAir Z
+	FIELD p showBoundingBox Z
+	FIELD q integrity F
+	FIELD r seed J
+	METHOD F isPowered ()Z
+	METHOD G shouldShowAir ()Z
+	METHOD I shouldShowBoundingBox ()Z
+	METHOD a getName ()Ljava/lang/String;
+	METHOD a setIntegrity (F)V
+		ARG 0 value
+	METHOD a setSeed (J)V
+		ARG 0 value
+	METHOD a setMode (Laup$a;)V
+		ARG 0 value
+	METHOD a deserialize (Lfc;)V
+		ARG 0 tag
+	METHOD a setName (Ljava/lang/String;)V
+		ARG 0 value
+	METHOD a setAuthor (Luk;)V
+		ARG 0 entity
+	METHOD a setIgnoreEntities (Z)V
+		ARG 0 value
+	METHOD b setMirror (Laqm;)V
+		ARG 0 mirror
+	METHOD b setRotation (Lasa;)V
+		ARG 0 value
+	METHOD b setOffset (Ldx;)V
+		ARG 0 value
+	METHOD b serialize (Lfc;)Lfc;
+		ARG 0 tag
+	METHOD b setMetadata (Ljava/lang/String;)V
+		ARG 0 vallue
+	METHOD c getUpdatePacket ()Lhi;
+	METHOD c setSize (Ldx;)V
+		ARG 0 value
+	METHOD d serializeInitialChunkData ()Lfc;
+	METHOD d setPowered (Z)V
+		ARG 0 value
+	METHOD e getOffset ()Ldx;
+	METHOD e setShowAir (Z)V
+		ARG 0 value
+	METHOD f getSize ()Ldx;
+	METHOD f setShowBoundingBox (Z)V
+		ARG 0 value
+	METHOD h getMirror ()Laqm;
+	METHOD i getRotation ()Lasa;
+	METHOD i_ getNameAsComponent ()Lgk;
+	METHOD j getMetadata ()Ljava/lang/String;
+	METHOD k getMode ()Laup$a;
+	METHOD m shouldIgnoreEntities ()Z
+	METHOD n getIntegrity ()F
+	METHOD o getSeed ()J

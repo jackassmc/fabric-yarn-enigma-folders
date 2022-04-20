@@ -1,0 +1,8 @@
+CLASS cbi net/minecraft/client/render/entity/EntityRendererWitherSkeleton
+	FIELD a SKIN Lnd;
+	METHOD a getTexture (Lacn;)Lnd;
+		ARG 0 model
+	METHOD a getTexture (Lve;)Lnd;
+		ARG 0 model
+	METHOD a getTexture (Lvo;)Lnd;
+		ARG 0 model

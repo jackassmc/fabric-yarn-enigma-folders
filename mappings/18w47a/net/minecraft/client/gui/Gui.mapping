@@ -1,0 +1,64 @@
+CLASS crq net/minecraft/client/gui/Gui
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD f PROTOCOLS Ljava/util/Set;
+	FIELD g uri Ljava/net/URI;
+	FIELD j listeners Ljava/util/List;
+	FIELD k game Lcnl;
+	FIELD l itemRenderer Ldhb;
+	FIELD m width I
+	FIELD n height I
+	FIELD o buttonWidgets Ljava/util/List;
+	FIELD p labelWidgets Ljava/util/List;
+	FIELD r fontRenderer Lcny;
+	METHOD a draw (IIF)V
+		ARG 1 mouseX
+		ARG 2 mouseY
+	METHOD a getStackTooltip (Lavn;)Ljava/util/List;
+	METHOD a drawStackTooltip (Lavn;II)V
+		ARG 1 stack
+		ARG 2 x
+	METHOD a initialize (Lcnl;II)V
+		ARG 1 game
+		ARG 2 width
+	METHOD a addButton (Lcoi;)Lcoi;
+	METHOD a drawTextComponentHover (Liz;II)V
+		ARG 1 component
+		ARG 2 x
+	METHOD a drawTooltip (Ljava/lang/String;II)V
+		ARG 1 text
+		ARG 2 x
+	METHOD a openUri (Ljava/net/URI;)V
+	METHOD a drawTooltip (Ljava/util/List;II)V
+		ARG 1 text
+		ARG 2 x
+	METHOD aj_ canClose ()Z
+	METHOD b getListeners ()Ljava/util/List;
+	METHOD b onScaleChanged (Lcnl;II)V
+		ARG 1 game
+		ARG 2 width
+	METHOD c onInitialized ()V
+	METHOD c drawTextureBackground (I)V
+	METHOD c_ drawBackground (I)V
+	METHOD confirmResult handle (ZI)V
+		ARG 1 result
+	METHOD d drawBackground ()V
+	METHOD d isCutShortcutPressed (I)Z
+		ARG 0 code
+	METHOD d handleTextComponentClick (Liz;)Z
+	METHOD e isPauseScreen ()Z
+	METHOD e isPasteShortcutPressed (I)Z
+		ARG 0 code
+	METHOD f update ()V
+	METHOD f isCopyShortcutPressed (I)Z
+		ARG 0 code
+	METHOD g close ()V
+	METHOD g isSelectAllShortcutPressed (I)Z
+		ARG 0 code
+	METHOD keyPressed (III)Z
+		ARG 1 keyCode
+		ARG 2 scanCode
+		ARG 3 modifiers
+	METHOD n onClosed ()V
+	METHOD p isControlPressed ()Z
+	METHOD q isShiftPressed ()Z
+	METHOD r isAltPressed ()Z

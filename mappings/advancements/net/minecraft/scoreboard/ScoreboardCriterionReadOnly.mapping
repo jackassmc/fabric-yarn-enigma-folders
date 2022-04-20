@@ -1,0 +1,2 @@
+CLASS bgc net/minecraft/scoreboard/ScoreboardCriterionReadOnly
+	METHOD b isReadOnly ()Z

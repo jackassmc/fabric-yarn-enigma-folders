@@ -1,0 +1,3 @@
+CLASS dnt net/minecraft/client/render/entity/feature/TropicalFishSomethingFeatureRenderer
+	METHOD <init> (Ldlh;)V
+		ARG 1 context

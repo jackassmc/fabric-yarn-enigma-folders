@@ -1,0 +1,27 @@
+CLASS cvl net/minecraft/client/gui/WrittenBookScreen
+	FIELD a EMPTY_PAGE_PROVIDER Lcvl$a;
+	FIELD f BOOK_TEXTURE Lqd;
+	FIELD g pageProvider Lcvl$a;
+	FIELD h pageIndex I
+	FIELD i cachedPage Ljava/util/List;
+	FIELD s cachedPageIndex I
+	FIELD t lastPageButton Lcwi;
+	FIELD u nextPageButton Lcwi;
+	METHOD <init> (Lcvl$a;)V
+		ARG 1 pageProvider
+	METHOD a getLineAt (DD)Ljc;
+		ARG 1 x
+		ARG 3 y
+	METHOD a setPageProvider (Lcvl$a;)V
+		ARG 1 pageProvider
+	METHOD a getStringWidth (Ljava/lang/String;)I
+		ARG 1 string
+	METHOD b setPage (I)Z
+		ARG 1 index
+	METHOD h getPageCount ()I
+	METHOD i addCloseButton ()V
+	METHOD j addPageButtons ()V
+	METHOD k goToPreviousPage ()V
+	METHOD m goToNextPage ()V
+	METHOD o playPageTurnSound ()V
+	METHOD s updatePageButtons ()V

@@ -1,0 +1,12 @@
+CLASS cyv net/minecraft/client/gui/menu/LevelSelectScreen
+	FIELD a parent Lcvi;
+	FIELD b title Ljava/lang/String;
+	FIELD g searchBox Lcsd;
+	FIELD h LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD s deleteButton Lcrz;
+	FIELD t selectButton Lcrz;
+	FIELD u editButton Lcrz;
+	FIELD v recreateButton Lcrz;
+	FIELD w levelList Lcyx;
+	METHOD <init> (Lcvi;)V
+		ARG 1 parent

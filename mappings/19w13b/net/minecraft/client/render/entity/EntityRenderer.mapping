@@ -1,0 +1,31 @@
+CLASS doo net/minecraft/client/render/entity/EntityRenderer
+	FIELD a SHADOW_TEX Lqr;
+	FIELD b renderManager Ldon;
+	FIELD e renderOutlines Z
+	METHOD a hasSecondPass ()Z
+	METHOD a getTexture (Lahz;)Lqr;
+	METHOD a renderEntityOnFire (Lahz;DDDF)V
+		ARG 2 x
+		ARG 4 y
+	METHOD a render (Lahz;DDDFF)V
+	METHOD a isVisible (Lahz;Ldms;DDD)Z
+	METHOD a renderEntityLabel (Lahz;Ljava/lang/String;DDDI)V
+		ARG 1 entity
+		ARG 2 text
+		ARG 3 x
+		ARG 5 y
+		ARG 7 z
+		ARG 9 maxDistance
+	METHOD a projectShadow (Lbuw;Lbgy;Lev;DDDLev;FFDDD)V
+	METHOD a renderBox (Lcrb;DDD)V
+	METHOD a bindTexture (Lqr;)V
+	METHOD a setRenderOutlines (Z)V
+	METHOD b getFontRenderer ()Lcvk;
+	METHOD b renderRightArmOverlay (Lahz;)Z
+	METHOD b renderSecondPass (Lahz;DDDFF)V
+	METHOD c getRenderManager ()Ldon;
+	METHOD c getOutlineColor (Lahz;)I
+	METHOD c postRender (Lahz;DDDFF)V
+	METHOD d bindEntityTexture (Lahz;)Z
+	METHOD d renderShadow (Lahz;DDDFF)V
+	METHOD e applyLightmapCoordinates (Lahz;)V

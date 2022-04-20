@@ -1,0 +1,2 @@
+CLASS auz net/minecraft/item/ItemPropertyGetter
+	METHOD call (Lava;Lazy;Lagh;)F

@@ -1,0 +1,22 @@
+CLASS csp net/minecraft/client/gl/GlShader
+	CLASS csp$a net/minecraft/client/gl/GlShader$Type
+		FIELD a VERTEX Lcsp$a;
+		FIELD b FRAGMENT Lcsp$a;
+		FIELD c name Ljava/lang/String;
+		FIELD d fileExtension Ljava/lang/String;
+		FIELD e glType I
+		FIELD f loadedShaders Ljava/util/Map;
+		METHOD a getName ()Ljava/lang/String;
+		METHOD b getFileExtension ()Ljava/lang/String;
+		METHOD c getLoadedShaders ()Ljava/util/Map;
+		METHOD d getGlType ()I
+	FIELD a shaderType Lcsp$a;
+	FIELD b name Ljava/lang/String;
+	FIELD c shaderRef I
+	FIELD d refCount I
+	METHOD <init> (Lcsp$a;ILjava/lang/String;)V
+		ARG 1 shaderType
+		ARG 2 shaderRef
+	METHOD a attachTo (Lcso;)V
+	METHOD a createFromResource (Lcsp$a;Ljava/lang/String;Ljava/io/InputStream;)Lcsp;
+	METHOD b getName ()Ljava/lang/String;

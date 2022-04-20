@@ -1,0 +1,4 @@
+CLASS ctw net/minecraft/client/render/entity/model/EntityModelChest
+	FIELD a lid Lcwq;
+	FIELD b base Lcwq;
+	FIELD c hatch Lcwq;

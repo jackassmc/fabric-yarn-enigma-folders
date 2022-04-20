@@ -1,0 +1,33 @@
+CLASS dii net/minecraft/client/render/chunk/ChunkRenderTask
+	CLASS dii$a Stage
+	CLASS dii$b Mode
+	FIELD a chunkRenderer Ldin;
+	FIELD b lock Ljava/util/concurrent/locks/ReentrantLock;
+	FIELD c runnables Ljava/util/List;
+	FIELD d mode Ldii$b;
+	FIELD e distanceToPlayerSquared D
+	FIELD f worldView Ldip;
+	FIELD g bufferBuilder Ldfk;
+	FIELD h renderData Ldil;
+	FIELD i stage Ldii$a;
+	FIELD j cancelled Z
+	METHOD <init> (Ldin;Ldii$b;DLdip;)V
+		ARG 1 chunkRenderer
+		ARG 2 mode
+		ARG 3 distanceToPlayerSquared
+	METHOD a getStage ()Ldii$a;
+	METHOD a setBufferBuilders (Ldfk;)V
+	METHOD a setStage (Ldii$a;)V
+	METHOD a compareTo (Ldii;)I
+	METHOD a setRenderData (Ldil;)V
+		ARG 1 renderData
+	METHOD a add (Ljava/lang/Runnable;)V
+	METHOD b getChunkRenderer ()Ldin;
+	METHOD c getAndInvalidateWorldView ()Ldip;
+	METHOD d getRenderData ()Ldil;
+	METHOD e getBufferBuilders ()Ldfk;
+	METHOD f cancel ()V
+	METHOD g getLock ()Ljava/util/concurrent/locks/ReentrantLock;
+	METHOD h getMode ()Ldii$b;
+	METHOD i isCancelled ()Z
+	METHOD j getDistanceToPlayerSquared ()D

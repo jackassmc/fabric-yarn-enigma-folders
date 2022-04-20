@@ -1,0 +1,4 @@
+CLASS aia net/minecraft/entity/ai/AiGoalSwim
+	FIELD a entityMob Lagm;
+	METHOD a canStart ()Z
+	METHOD e tick ()V

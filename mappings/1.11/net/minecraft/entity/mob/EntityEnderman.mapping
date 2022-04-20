@@ -1,0 +1,48 @@
+CLASS zq net/minecraft/entity/mob/EntityEnderman
+	CLASS zq$a AiGoalPlaceBlock
+		FIELD a owner Lzq;
+		METHOD <init> (Lzq;)V
+			ARG 0 owner
+		METHOD a canStart ()Z
+		METHOD e tick ()V
+	CLASS zq$b
+		METHOD <init> (Lzq;)V
+		METHOD a canStart ()Z
+		METHOD b shouldContinue ()Z
+		METHOD c start ()V
+		METHOD d onRemove ()V
+		METHOD e tick ()V
+	CLASS zq$c AiGoalPickBlock
+		FIELD a owner Lzq;
+		METHOD a canStart ()Z
+		METHOD e tick ()V
+	FIELD bx CARRIED_BLOCK Lkk;
+	FIELD c CARRIABLE_BLOCKS Ljava/util/Set;
+	METHOD G getSoundAmbient ()Lnm;
+	METHOD J getLootTableId ()Lkq;
+	METHOD M mobTick ()V
+	METHOD a setCarriedBlock (Latj;)V
+		ARG 0 value
+	METHOD a deserializeCustomData (Ldu;)V
+		ARG 0 tag
+	METHOD a onTrackedDataSet (Lkk;)V
+		ARG 0 data
+	METHOD a damage (Lrx;F)Z
+		ARG 0 source
+		ARG 1 damage
+	METHOD a dropEquipment (ZI)V
+		ARG 0 recentlyHitByPlayer
+		ARG 1 looting
+	METHOD b serializeCustomData (Ldu;)V
+		ARG 0 tag
+	METHOD b registerTagUpgraders (Lph;)V
+		ARG 0 handler
+	METHOD bW getSoundDeath ()Lnm;
+	METHOD bX getSoundHurt ()Lnm;
+	METHOD bq getEyeHeight ()F
+	METHOD d setTarget (Lsv;)V
+		ARG 0 value
+	METHOD dj getCarriedBlock ()Latj;
+	METHOD i initDataTracker ()V
+	METHOD n updateMovement ()V
+	METHOD r initAi ()V

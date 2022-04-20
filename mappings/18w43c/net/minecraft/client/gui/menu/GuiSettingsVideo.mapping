@@ -1,0 +1,22 @@
+CLASS cnz net/minecraft/client/gui/menu/GuiSettingsVideo
+	FIELD a title Ljava/lang/String;
+	FIELD f parent Lcnt;
+	FIELD g settings Lcjn;
+	FIELD i MENU_OPTIONS [Lcjn$a;
+	METHOD <init> (Lcnt;Lcjn;)V
+		ARG 0 parent
+		ARG 1 settings
+	METHOD a draw (IIF)V
+		ARG 0 mouseX
+		ARG 1 mouseY
+		ARG 2 delta
+	METHOD c init ()V
+	METHOD g close ()V
+	METHOD mouseClicked (DDI)Z
+		ARG 0 mouseX
+		ARG 1 mouseY
+		ARG 2 keyCode
+	METHOD mouseReleased (DDI)Z
+		ARG 0 mouseX
+		ARG 1 mouseY
+		ARG 2 keyCode

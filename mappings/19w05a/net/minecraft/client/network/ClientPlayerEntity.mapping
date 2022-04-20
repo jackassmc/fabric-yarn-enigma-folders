@@ -1,0 +1,20 @@
+CLASS deo net/minecraft/client/network/ClientPlayerEntity
+	FIELD ch stats Lyc;
+	FIELD ci recipeBook Lcpw;
+	FIELD ck clientPermissionLevel I
+	FIELD cv serverBrand Ljava/lang/String;
+	FIELD cz activeHand Lafz;
+	FIELD d networkHandler Ldcg;
+	FIELD e input Ldem;
+	FIELD f client Lcqd;
+	METHOD <init> (Lcqd;Lbcq;Ldcg;Lyc;Lcpw;)V
+		ARG 1 client
+	METHOD A getServerBrand ()Ljava/lang/String;
+	METHOD B getStats ()Lyc;
+	METHOD D getRecipeBook ()Lcpw;
+	METHOD a setClientPermissionLevel (I)V
+	METHOD a onRecipeDisplayed (Lazs;)V
+	METHOD f sendChatMessage (Ljava/lang/String;)V
+	METHOD g setServerBrand (Ljava/lang/String;)V
+		ARG 1 serverBrand
+	METHOD s updateHealth (F)V

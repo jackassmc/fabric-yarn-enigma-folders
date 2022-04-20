@@ -1,0 +1,12 @@
+CLASS aih net/minecraft/sortme/SpawnRestriction
+	CLASS aih$a Entry
+		FIELD a heightMapType Lbuj$a;
+		FIELD b location Laih$b;
+		FIELD c blockTag Lyq;
+	CLASS aih$b Location
+	FIELD a mapping Ljava/util/Map;
+	METHOD a getLocation (Lahp;)Laih$b;
+	METHOD a register (Lahp;Laih$b;Lbuj$a;)V
+	METHOD a register (Lahp;Laih$b;Lbuj$a;Lyq;)V
+	METHOD a canSpawn (Lahp;Lbrd;)Z
+	METHOD b getHeightMapType (Lahp;)Lbuj$a;

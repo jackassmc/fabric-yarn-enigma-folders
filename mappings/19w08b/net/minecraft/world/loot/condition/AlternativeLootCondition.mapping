@@ -1,0 +1,6 @@
+CLASS cmf net/minecraft/world/loot/condition/AlternativeLootCondition
+	CLASS cmf$a Builder
+	CLASS cmf$b Factory
+	FIELD a terms [Lcmo;
+	FIELD b predicate Ljava/util/function/Predicate;
+	METHOD a or ([Lcmo$a;)Lcmf$a;

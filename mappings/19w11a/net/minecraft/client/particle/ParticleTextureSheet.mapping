@@ -1,0 +1,9 @@
+CLASS dhs net/minecraft/client/particle/ParticleTextureSheet
+	FIELD a TERRAIN_SHEET Ldhs;
+	FIELD b PARTICLE_SHEET_OPAQUE Ldhs;
+	FIELD c PARTICLE_SHEET_TRANSLUCENT Ldhs;
+	FIELD d PARTICLE_SHEET_LIT Ldhs;
+	FIELD e CUSTOM Ldhs;
+	FIELD f NO_RENDER Ldhs;
+	METHOD a begin (Lcss;Ldtd;)V
+	METHOD a draw (Lcsv;)V

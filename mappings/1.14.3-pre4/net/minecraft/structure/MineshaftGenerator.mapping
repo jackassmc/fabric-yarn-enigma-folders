@@ -1,0 +1,24 @@
+CLASS cie net/minecraft/structure/MineshaftGenerator
+	CLASS a MineshaftCorridor
+		FIELD b hasRails Z
+		FIELD c hasCobwebs Z
+		FIELD d hasSpawner Z
+		FIELD e length I
+	CLASS b MineshaftCrossing
+		FIELD b direction Lfa;
+		FIELD c twoFloors Z
+		METHOD a (Ljava/util/List;Ljava/util/Random;IIILfa;)Lchx;
+			ARG 5 facing
+	CLASS c MineshaftPart
+		FIELD a mineshaftType Lcct$b;
+	CLASS d MineshaftRoom
+		FIELD b entrances Ljava/util/List;
+		METHOD <init> (ILjava/util/Random;IILcct$b;)V
+			ARG 2 random
+	CLASS e MineshaftStairs
+		METHOD a (Ljava/util/List;Ljava/util/Random;IIILfa;)Lchx;
+			ARG 1 random
+	METHOD a (Ljava/util/List;Ljava/util/Random;IIILfa;ILcct$b;)Lcie$c;
+		ARG 1 random
+	METHOD b (Lciq;Ljava/util/List;Ljava/util/Random;IIILfa;I)Lcie$c;
+		ARG 2 random

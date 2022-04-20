@@ -1,0 +1,4 @@
+CLASS dfd net/minecraft/client/render/chunk/BlockLayeredBufferBuilder
+	FIELD a layerBuilders [Lcpq;
+	METHOD a get (I)Lcpq;
+	METHOD a get (Lbcg;)Lcpq;

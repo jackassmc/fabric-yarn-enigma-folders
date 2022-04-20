@@ -1,0 +1,4 @@
+CLASS amm net/minecraft/block/IBlockEntityProvider
+	METHOD a createBlockEntity (Laiw;I)Lare;
+		ARG 0 world
+		ARG 1 metadata

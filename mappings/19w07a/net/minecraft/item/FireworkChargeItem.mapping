@@ -1,0 +1,6 @@
+CLASS axe net/minecraft/item/FireworkChargeItem
+	METHOD a getColorTextComponent (I)Ljg;
+		ARG 0 colorRGB
+	METHOD a buildTooltip (Lhv;Ljava/util/List;)V
+	METHOD a appendColorNames (Ljg;[I)Ljg;
+		ARG 1 colors

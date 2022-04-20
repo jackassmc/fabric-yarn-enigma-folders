@@ -1,0 +1,32 @@
+CLASS bd net/minecraft/advancement/criterion/TriggerLocationArrival
+	CLASS bd$a Handler
+		FIELD a manager Lqg;
+		FIELD b conditions Ljava/util/Set;
+		METHOD <init> (Lqg;)V
+			ARG 0 manager
+		METHOD a isEmpty ()Z
+		METHOD a addCondition (Lt$a;)V
+			ARG 0 condition
+		METHOD a handle (Lud;DDD)V
+			ARG 0 world
+			ARG 1 x
+			ARG 2 y
+			ARG 3 z
+		METHOD b removeCondition (Lt$a;)V
+			ARG 0 condition
+	CLASS bd$b Conditions
+		FIELD a location Lbc;
+		METHOD a matches (Lud;DDD)Z
+	FIELD a id Lpw;
+	FIELD b handlers Ljava/util/Map;
+	METHOD a getId ()Lpw;
+	METHOD a deserializeConditions (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Lu;
+		ARG 1 obj
+	METHOD a removePlayer (Lqg;)V
+	METHOD a addCondition (Lqg;Lt$a;)V
+		ARG 1 manager
+	METHOD a handle (Luf;)V
+	METHOD b deserializeConditions (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Lbd$b;
+		ARG 1 obj
+	METHOD b removeCondition (Lqg;Lt$a;)V
+		ARG 1 manager

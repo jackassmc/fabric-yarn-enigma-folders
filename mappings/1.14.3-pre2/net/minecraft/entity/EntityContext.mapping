@@ -1,0 +1,11 @@
+CLASS csf net/minecraft/entity/EntityContext
+	METHOD a absent ()Lcsf;
+	METHOD a of (Lail;)Lcsf;
+		ARG 0 entity
+	METHOD a isHolding (Lbbz;)Z
+		ARG 1 item
+	METHOD a isAbove (Lcsu;Lev;Z)Z
+		ARG 1 shape
+		ARG 2 pos
+		ARG 3 defaultValue
+	METHOD b isSneaking ()Z

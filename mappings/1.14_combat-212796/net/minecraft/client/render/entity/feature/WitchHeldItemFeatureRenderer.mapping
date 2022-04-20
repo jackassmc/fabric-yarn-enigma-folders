@@ -1,0 +1,3 @@
+CLASS dtv net/minecraft/client/render/entity/feature/WitchHeldItemFeatureRenderer
+	METHOD <init> (Ldre;)V
+		ARG 1 context

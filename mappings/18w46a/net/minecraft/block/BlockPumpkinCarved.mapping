@@ -1,0 +1,7 @@
+CLASS bfs net/minecraft/block/BlockPumpkinCarved
+	METHOD a getPlacementState (Latj;)Lbnz;
+	METHOD a onBlockAdded (Lbnz;Lbae;Les;Lbnz;)V
+		ARG 1 world
+		ARG 2 world
+		ARG 3 pos
+	METHOD a appendProperties (Lboa$a;)V

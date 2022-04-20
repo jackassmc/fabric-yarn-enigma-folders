@@ -1,0 +1,8 @@
+CLASS ask
+	METHOD <init> (Laei;III)V
+		ARG 1 inventory
+		ARG 2 invSlot
+		ARG 3 xPosition
+		ARG 4 <Position
+	METHOD a canInsert (Lauv;)Z
+		ARG 1 stack

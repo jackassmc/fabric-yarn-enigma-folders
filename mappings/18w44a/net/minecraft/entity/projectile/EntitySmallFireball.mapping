@@ -1,0 +1,7 @@
+CLASS aqh net/minecraft/entity/projectile/EntitySmallFireball
+	METHOD a damage (Lafe;F)Z
+		ARG 1 source
+		ARG 2 damage
+	METHOD a onCollision (Lcij;)V
+		ARG 1 hit
+	METHOD aD doesCollide ()Z

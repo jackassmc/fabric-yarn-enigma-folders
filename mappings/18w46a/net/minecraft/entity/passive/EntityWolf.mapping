@@ -1,0 +1,34 @@
+CLASS amc net/minecraft/entity/passive/EntityWolf
+	CLASS amc$a
+		METHOD a canStart ()Z
+		METHOD c start ()V
+		METHOD e tick ()V
+	FIELD bG WOLF_HEALTH Lpm;
+	FIELD bI COLLAR_COLOR Lpm;
+	METHOD D getSoundAmbient ()Lxb;
+	METHOD H mobTick ()V
+	METHOD M getLimitPerChunk ()I
+	METHOD S_ update ()V
+	METHOD a damage (Lafl;F)Z
+		ARG 1 source
+	METHOD a createChild (Lafz;)Lafz;
+	METHOD a canBeLeashedBy (Laqa;)Z
+	METHOD a interactMob (Laqa;Laev;)Z
+		ARG 1 player
+	METHOD a playStepSound (Les;Lbnz;)V
+		ARG 1 pos
+	METHOD a deserializeCustomData (Lho;)V
+	METHOD b createChild (Lafz;)Lamc;
+	METHOD b serializeCustomData (Lho;)V
+	METHOD bH getEyeHeight ()F
+	METHOD cI getSoundVolume ()F
+	METHOD cb initAttributes ()V
+	METHOD cw getSoundDeath ()Lxb;
+	METHOD dK isAngry ()Z
+	METHOD e getSoundHurt (Lafl;)Lxb;
+	METHOD f setTarget (Lagl;)V
+	METHOD k updateMovement ()V
+	METHOD n initAi ()V
+	METHOD t setTamed (Z)V
+	METHOD v setAngry (Z)V
+	METHOD y_ initDataTracker ()V

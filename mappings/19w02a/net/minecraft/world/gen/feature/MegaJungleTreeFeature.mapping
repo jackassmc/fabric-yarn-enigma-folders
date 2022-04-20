@@ -1,0 +1,6 @@
+CLASS bxa net/minecraft/world/gen/feature/MegaJungleTreeFeature
+	METHOD a generate (Ljava/util/Set;Lbcl;Ljava/util/Random;Let;)Z
+		ARG 1 logPositions
+		ARG 2 world
+		ARG 3 random
+		ARG 4 pos

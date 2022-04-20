@@ -1,0 +1,14 @@
+CLASS ddu net/minecraft/client/render/entity/EntityRendererShulker
+	CLASS ddu$a
+		METHOD a shouldMergeTextures ()Z
+		METHOD a render (Lafq;FFFFFFF)V
+			ARG 0 entity
+		METHOD a render (Laog;FFFFFFF)V
+			ARG 0 entity
+	FIELD j SKIN [Lpt;
+	METHOD <init> (Ldcb;)V
+		ARG 0 renderManager
+	METHOD a getTexture (Lafh;)Lpt;
+		ARG 0 model
+	METHOD a getTexture (Laog;)Lpt;
+		ARG 0 model

@@ -1,0 +1,3 @@
+CLASS dcg net/minecraft/client/gui/ingame/RecipeBookProvider
+	METHOD X_ refreshRecipeBook ()V
+	METHOD c getRecipeBookGui ()Ldca;

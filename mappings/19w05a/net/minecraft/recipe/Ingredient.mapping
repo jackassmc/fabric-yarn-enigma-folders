@@ -1,0 +1,32 @@
+CLASS azp net/minecraft/recipe/Ingredient
+	CLASS azp$a StackEntry
+		FIELD a stack Laxi;
+	CLASS azp$b TagEntry
+		FIELD a tag Lyj;
+	CLASS azp$c Entry
+		METHOD a getStacks ()Ljava/util/Collection;
+		METHOD b toJson ()Lcom/google/gson/JsonObject;
+	FIELD a EMPTY Lazp;
+	FIELD b NON_EMPTY Ljava/util/function/Predicate;
+	FIELD c entries [Lazp$c;
+	FIELD d stackArray [Laxi;
+	FIELD e ids Lit/unimi/dsi/fastutil/ints/IntList;
+	METHOD <init> (Ljava/util/stream/Stream;)V
+		ARG 1 entries
+	METHOD a getStackArray ()[Laxi;
+	METHOD a matches (Laxi;)Z
+	METHOD a fromJson (Lcom/google/gson/JsonElement;)Lazp;
+		ARG 0 element
+	METHOD a entryFromJson (Lcom/google/gson/JsonObject;)Lazp$c;
+	METHOD a write (Lis;)V
+		ARG 1 buf
+	METHOD a ofEntries (Ljava/util/stream/Stream;)Lazp;
+	METHOD a fromTag (Lyj;)Lazp;
+	METHOD a ofStacks ([Laxi;)Lazp;
+	METHOD a ofItems ([Lbcp;)Lazp;
+	METHOD b getIds ()Lit/unimi/dsi/fastutil/ints/IntList;
+	METHOD b fromPacket (Lis;)Lazp;
+		ARG 0 buf
+	METHOD c toJson ()Lcom/google/gson/JsonElement;
+	METHOD d isEmpty ()Z
+	METHOD f createStackArray ()V

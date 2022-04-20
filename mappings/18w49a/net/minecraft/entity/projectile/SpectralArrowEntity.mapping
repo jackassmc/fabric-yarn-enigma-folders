@@ -1,0 +1,7 @@
+CLASS ard net/minecraft/entity/projectile/SpectralArrowEntity
+	FIELD ax duration I
+	METHOD T_ update ()V
+	METHOD a onHit (Lagt;)V
+	METHOD a readCustomDataFromTag (Lhq;)V
+	METHOD b writeCustomDataToTag (Lhq;)V
+	METHOD m asItemStack ()Lavu;

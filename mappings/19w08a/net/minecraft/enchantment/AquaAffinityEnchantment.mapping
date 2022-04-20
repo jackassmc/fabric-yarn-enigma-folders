@@ -1,0 +1,4 @@
+CLASS bce net/minecraft/enchantment/AquaAffinityEnchantment
+	METHOD <init> (Lbbg$a;[Lahq;)V
+		ARG 1 weight
+		ARG 2 slotTypes

@@ -1,0 +1,4 @@
+CLASS bdt net/minecraft/enchantment/InfinityEnchantment
+	METHOD <init> (Lbea$a;[Laib;)V
+		ARG 1 weight
+		ARG 2 slotTypes

@@ -1,0 +1,42 @@
+CLASS all net/minecraft/entity/passive/EntityRabbit
+	CLASS all$b
+		METHOD a canStart ()Z
+	CLASS all$d
+		METHOD b tick ()V
+	CLASS all$e
+		METHOD a tick ()V
+	CLASS all$f
+		METHOD e tick ()V
+	CLASS all$g
+		METHOD a canStart ()Z
+		METHOD b shouldContinue ()Z
+		METHOD e tick ()V
+	FIELD bC RABBIT_TYPE Lpj;
+	METHOD D getSoundAmbient ()Lww;
+	METHOD F getLootTableId ()Lpu;
+	METHOD I mobTick ()V
+	METHOD a damage (Lafe;F)Z
+		ARG 1 source
+		ARG 2 damage
+	METHOD a createChild (Lafs;)Lafs;
+		ARG 1 other
+	METHOD a (Lazu;Laen;Lagn;Lhm;)Lagn;
+		ARG 2 difficulty
+	METHOD a deserializeCustomData (Lhm;)V
+		ARG 1 tag
+	METHOD ax attemptSprintingParticles ()V
+	METHOD b createChild (Lafs;)Lall;
+		ARG 1 other
+	METHOD b serializeCustomData (Lhm;)V
+		ARG 1 tag
+	METHOD bX getSoundCategory ()Lwy;
+	METHOD cb initAttributes ()V
+	METHOD cw getSoundDeath ()Lww;
+	METHOD dB getRabbitType ()I
+	METHOD e getSoundHurt (Lafe;)Lww;
+	METHOD k updateMovement ()V
+	METHOD n initAi ()V
+	METHOD o doJump (Z)V
+	METHOD p setRabbitType (I)V
+		ARG 1 value
+	METHOD y_ initDataTracker ()V

@@ -1,0 +1,17 @@
+CLASS bku net/minecraft/block/BedBlock
+	FIELD a PART Lbuu;
+	FIELD b OCCUPIED Lbuo;
+	FIELD c TOP_SHAPE Lcra;
+	FIELD d LEG_1_SHAPE Lcra;
+	FIELD e LEG_2_SHAPE Lcra;
+	FIELD f LEG_3_SHAPE Lcra;
+	FIELD g LEG_4_SHAPE Lcra;
+	FIELD h NORTH_SHAPE Lcra;
+	FIELD i SOUTH_SHAPE Lcra;
+	FIELD j WEST_SHAPE Lcra;
+	FIELD k EAST_SHAPE Lcra;
+	FIELD w color Lazo;
+	METHOD a (Lbul;Lez;)Lez;
+		ARG 0 part
+		ARG 1 direction
+	METHOD d getColor ()Lazo;

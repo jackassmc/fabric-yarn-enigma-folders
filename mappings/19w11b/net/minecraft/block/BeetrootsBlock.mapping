@@ -1,0 +1,5 @@
+CLASS bkv net/minecraft/block/BeetrootsBlock
+	FIELD a AGE Lbuw;
+	FIELD c AGE_TO_SHAPE [Lcra;
+	METHOD <init> (Lbky$c;)V
+		ARG 1 settings

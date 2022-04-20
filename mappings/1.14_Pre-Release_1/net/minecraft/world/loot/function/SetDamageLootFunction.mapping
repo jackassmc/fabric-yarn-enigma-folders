@@ -1,0 +1,11 @@
+CLASS cpv net/minecraft/world/loot/function/SetDamageLootFunction
+	CLASS cpv$a Factory
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD c durabilityRange Lcom;
+	METHOD <init> ([Lcqr;Lcom;)V
+		ARG 1 contents
+		ARG 2 durabilityRange
+	METHOD a builder (Lcom;)Lcpn$a;
+		ARG 0 durabilityRange
+	METHOD a (Lcom;[Lcqr;)Lcpo;
+		ARG 1 conditions

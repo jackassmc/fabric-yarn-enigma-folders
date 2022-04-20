@@ -1,0 +1,4 @@
+CLASS ara net/minecraft/entity/mob/SpiderEntity
+	FIELD b SPIDER_FLAGS Lpx;
+	METHOD l getCanClimb ()Z
+	METHOD q setCanClimb (Z)V

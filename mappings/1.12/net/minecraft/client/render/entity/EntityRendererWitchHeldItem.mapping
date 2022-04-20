@@ -1,0 +1,9 @@
+CLASS ccm net/minecraft/client/render/entity/EntityRendererWitchHeldItem
+	FIELD a renderer Lcbg;
+	METHOD <init> (Lcbg;)V
+		ARG 0 renderer
+	METHOD a shouldMergeTextures ()Z
+	METHOD a render (Ladp;FFFFFFF)V
+		ARG 0 entity
+	METHOD a render (Lvn;FFFFFFF)V
+		ARG 0 entity

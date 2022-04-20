@@ -1,0 +1,168 @@
+CLASS com/mojang/blaze3d/platform/GlStateManager
+	CLASS com/mojang/blaze3d/platform/GlStateManager$a AlphaTestState
+		FIELD a capState Lcom/mojang/blaze3d/platform/GlStateManager$c;
+		FIELD b func I
+		FIELD c ref F
+	CLASS com/mojang/blaze3d/platform/GlStateManager$b BlendFuncState
+		FIELD a capState Lcom/mojang/blaze3d/platform/GlStateManager$c;
+		FIELD b sfactor I
+		FIELD c dfactor I
+		FIELD d srcAlpha I
+		FIELD e dstAlpha I
+	CLASS com/mojang/blaze3d/platform/GlStateManager$c CapabilityTracker
+		FIELD a cap I
+		FIELD b state Z
+		METHOD a disable ()V
+		METHOD a setState (Z)V
+		METHOD b enable ()V
+	CLASS com/mojang/blaze3d/platform/GlStateManager$d ClearState
+		FIELD a clearDepth D
+		FIELD b clearColor Lcom/mojang/blaze3d/platform/GlStateManager$e;
+	CLASS com/mojang/blaze3d/platform/GlStateManager$e Color4
+		FIELD a red F
+		FIELD b green F
+		FIELD c blue F
+		FIELD d alpha F
+	CLASS com/mojang/blaze3d/platform/GlStateManager$f LogicOpState
+		FIELD a capState Lcom/mojang/blaze3d/platform/GlStateManager$c;
+		FIELD b opcode I
+	CLASS com/mojang/blaze3d/platform/GlStateManager$g ColorMask
+		FIELD a red Z
+		FIELD b green Z
+		FIELD c blue Z
+		FIELD d alpha Z
+	CLASS com/mojang/blaze3d/platform/GlStateManager$h ColorMaterialState
+		FIELD a capState Lcom/mojang/blaze3d/platform/GlStateManager$c;
+		FIELD b face I
+		FIELD c mode I
+	CLASS com/mojang/blaze3d/platform/GlStateManager$i FaceSides
+		FIELD d glValue I
+	CLASS com/mojang/blaze3d/platform/GlStateManager$j CullFaceState
+		FIELD a capState Lcom/mojang/blaze3d/platform/GlStateManager$c;
+		FIELD b mode I
+	CLASS com/mojang/blaze3d/platform/GlStateManager$k DepthTestState
+		FIELD a capState Lcom/mojang/blaze3d/platform/GlStateManager$c;
+		FIELD b mask Z
+		FIELD c func I
+	CLASS com/mojang/blaze3d/platform/GlStateManager$l FogMode
+		FIELD d glValue I
+	CLASS com/mojang/blaze3d/platform/GlStateManager$m FogState
+		FIELD a capState Lcom/mojang/blaze3d/platform/GlStateManager$c;
+		FIELD b mode I
+		FIELD c density F
+		FIELD d start F
+		FIELD e end F
+	CLASS com/mojang/blaze3d/platform/GlStateManager$n LogicOp
+		FIELD q glValue I
+	CLASS com/mojang/blaze3d/platform/GlStateManager$o PolygonOffsetState
+		FIELD a capFill Lcom/mojang/blaze3d/platform/GlStateManager$c;
+		FIELD b capLine Lcom/mojang/blaze3d/platform/GlStateManager$c;
+		FIELD c factor F
+		FIELD d units F
+	CLASS com/mojang/blaze3d/platform/GlStateManager$p RenderMode
+		FIELD a DEFAULT Lcom/mojang/blaze3d/platform/GlStateManager$p;
+		FIELD b PLAYER_SKIN Lcom/mojang/blaze3d/platform/GlStateManager$p;
+		FIELD c TRANSPARENT_MODEL Lcom/mojang/blaze3d/platform/GlStateManager$p;
+		METHOD a begin ()V
+		METHOD b end ()V
+	CLASS com/mojang/blaze3d/platform/GlStateManager$q StencilSubState
+		FIELD a func I
+	CLASS com/mojang/blaze3d/platform/GlStateManager$r StencilState
+		FIELD a subState Lcom/mojang/blaze3d/platform/GlStateManager$q;
+	CLASS com/mojang/blaze3d/platform/GlStateManager$s TexCoord
+	CLASS com/mojang/blaze3d/platform/GlStateManager$t TexGenCoordState
+		FIELD a capState Lcom/mojang/blaze3d/platform/GlStateManager$c;
+		FIELD b coord I
+		FIELD c mode I
+	CLASS com/mojang/blaze3d/platform/GlStateManager$u TexGenState
+		FIELD a s Lcom/mojang/blaze3d/platform/GlStateManager$t;
+		FIELD b t Lcom/mojang/blaze3d/platform/GlStateManager$t;
+		FIELD c r Lcom/mojang/blaze3d/platform/GlStateManager$t;
+		FIELD d q Lcom/mojang/blaze3d/platform/GlStateManager$t;
+	CLASS com/mojang/blaze3d/platform/GlStateManager$v Texture2DState
+		FIELD a capState Lcom/mojang/blaze3d/platform/GlStateManager$c;
+		FIELD b boundTexture I
+	CLASS com/mojang/blaze3d/platform/GlStateManager$w Viewport
+		FIELD b x I
+		FIELD c y I
+		FIELD d width I
+		FIELD e height I
+	METHOD alphaFunc (IF)V
+		ARG 0 func
+		ARG 1 ref
+	METHOD bindTexture (I)V
+		ARG 0 texture
+	METHOD blendEquation (I)V
+		ARG 0 mode
+	METHOD blendFunc (II)V
+		ARG 0 sfactor
+		ARG 1 dfactor
+	METHOD blendFuncSeparate (IIII)V
+		ARG 0 sFactorRGB
+		ARG 1 dFactorRGB
+		ARG 2 sFactorAlpha
+		ARG 3 dFactorAlpha
+	METHOD color3f (FFF)V
+		ARG 0 red
+		ARG 1 green
+		ARG 2 blue
+	METHOD color4f (FFFF)V
+		ARG 0 red
+		ARG 1 green
+		ARG 2 blue
+		ARG 3 alpha
+	METHOD colorMaterial (II)V
+		ARG 0 face
+		ARG 1 mode
+	METHOD depthFunc (I)V
+		ARG 0 func
+	METHOD depthMask (Z)V
+		ARG 0 mask
+	METHOD drawArrays (III)V
+		ARG 0 mode
+		ARG 1 first
+		ARG 2 count
+	METHOD light (IILjava/nio/FloatBuffer;)V
+		ARG 0 light
+		ARG 1 pname
+		ARG 2 params
+	METHOD lightModel (ILjava/nio/FloatBuffer;)V
+		ARG 0 pname
+		ARG 1 params
+	METHOD normal3f (FFF)V
+		ARG 0 nx
+		ARG 1 ny
+		ARG 2 nz
+	METHOD pixelStore (II)V
+		ARG 0 pname
+		ARG 1 param
+	METHOD polygonOffset (FF)V
+		ARG 0 factor
+		ARG 1 units
+	METHOD rotatef (FFFF)V
+		ARG 0 angle
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD setupSolidRenderingTextureCombine (I)V
+		ARG 0 color
+	METHOD texImage2D (IIIIIIIILjava/nio/IntBuffer;)V
+		ARG 0 target
+		ARG 1 level
+		ARG 2 internalFormat
+		ARG 3 width
+		ARG 4 height
+		ARG 5 border
+		ARG 6 format
+		ARG 7 type
+		ARG 8 pixels
+	METHOD texSubImage2D (IIIIIIIIJ)V
+		ARG 0 target
+		ARG 1 level
+		ARG 2 xOffset
+		ARG 3 yOffset
+		ARG 4 width
+		ARG 5 height
+		ARG 6 format
+		ARG 7 type
+		ARG 8 pixels

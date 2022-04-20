@@ -1,0 +1,13 @@
+CLASS ayw net/minecraft/recipe/Recipe
+	METHOD a getPreviewInputs ()Lfh;
+	METHOD a fits (II)Z
+		ARG 1 width
+	METHOD a craft (Lafi;)Lawo;
+	METHOD a matches (Lafi;Lbbp;)Z
+		ARG 1 inv
+	METHOD ae_ isIgnoredInRecipeBook ()Z
+	METHOD af_ getSerializer ()Layy;
+	METHOD b getRemainingStacks (Lafi;)Lfh;
+	METHOD c getOutput ()Lawo;
+	METHOD d getGroup ()Ljava/lang/String;
+	METHOD f getId ()Lqc;

@@ -1,0 +1,2 @@
+CLASS dwb net/minecraft/client/audio/GuardianAttackSoundInstance
+	FIELD o guardian Latw;

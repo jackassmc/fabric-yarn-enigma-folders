@@ -1,0 +1,31 @@
+CLASS pz net/minecraft/server/ServerMetadata
+	CLASS pz$a Players
+		CLASS pz$a$a Deserializer
+		FIELD a max I
+		FIELD b online I
+		FIELD c sample [Lcom/mojang/authlib/GameProfile;
+		METHOD <init> (II)V
+			ARG 1 max
+		METHOD a getPlayerLimit ()I
+		METHOD a setSample ([Lcom/mojang/authlib/GameProfile;)V
+		METHOD b getOnlinePlayerCount ()I
+		METHOD c getSample ()[Lcom/mojang/authlib/GameProfile;
+	CLASS pz$b Deserializer
+	CLASS pz$c Version
+		CLASS pz$c$a Serializer
+		FIELD a gameVersion Ljava/lang/String;
+		FIELD b protocolVersion I
+		METHOD a getGameVersion ()Ljava/lang/String;
+		METHOD b getProtocolVersion ()I
+	FIELD a description Ljl;
+	FIELD b players Lpz$a;
+	FIELD c version Lpz$c;
+	FIELD d favicon Ljava/lang/String;
+	METHOD a getDescription ()Ljl;
+	METHOD a setFavicon (Ljava/lang/String;)V
+	METHOD a setDescription (Ljl;)V
+	METHOD a setPlayers (Lpz$a;)V
+	METHOD a setVersion (Lpz$c;)V
+	METHOD b getPlayers ()Lpz$a;
+	METHOD c getVersion ()Lpz$c;
+	METHOD d getFavicon ()Ljava/lang/String;

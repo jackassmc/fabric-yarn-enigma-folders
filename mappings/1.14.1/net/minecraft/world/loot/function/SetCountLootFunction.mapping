@@ -1,0 +1,10 @@
+CLASS cqd net/minecraft/world/loot/function/SetCountLootFunction
+	CLASS cqd$a Factory
+	FIELD a countRange Lcou;
+	METHOD <init> ([Lcra;Lcou;)V
+		ARG 1 conditions
+		ARG 2 countRange
+	METHOD a builder (Lcou;)Lcpw$a;
+		ARG 0 countRange
+	METHOD a (Lcou;[Lcra;)Lcpx;
+		ARG 1 conditions

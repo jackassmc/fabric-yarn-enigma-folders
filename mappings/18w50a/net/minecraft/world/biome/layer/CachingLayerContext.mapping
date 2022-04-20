@@ -1,0 +1,19 @@
+CLASS cfs net/minecraft/world/biome/layer/CachingLayerContext
+	FIELD b noiseSampler Lceg;
+	FIELD c cache Lit/unimi/dsi/fastutil/longs/Long2IntLinkedOpenHashMap;
+	FIELD e worldSeed J
+	FIELD f localSeed J
+	METHOD a getNoiseSampler ()Lceg;
+	METHOD a nextInt (I)I
+		ARG 1 bound
+	METHOD a initWorldSeed (J)V
+	METHOD a initSeed (JJ)V
+		ARG 1 x
+		ARG 3 y
+	METHOD a createSampler (Lchc;)Lcfm;
+		ARG 1 operator
+	METHOD a createSampler (Lchc;Lcfm;)Lcfm;
+		ARG 1 operator
+		ARG 2 parent
+	METHOD a createSampler (Lchc;Lcfm;Lcfm;)Lcfm;
+		ARG 1 operator

@@ -1,0 +1,30 @@
+CLASS jy net/minecraft/network/packet/client/CPacketWorldBorder
+	CLASS jy$a Type
+		FIELD a SET_SIZE Ljy$a;
+		FIELD b INTERPOLATE_SIZE Ljy$a;
+		FIELD c SET_CENTER Ljy$a;
+		FIELD d INITIALIZE Ljy$a;
+		FIELD e SET_WARNING_TIME Ljy$a;
+		FIELD f SET_WARNING_BLOCKS Ljy$a;
+	FIELD a type Ljy$a;
+	FIELD b portalTeleportPosLimit I
+	FIELD c centerX D
+	FIELD d centerZ D
+	FIELD e size D
+	FIELD f oldSize D
+	FIELD g interpolationDuration J
+	FIELD h warningTime I
+	FIELD i warningBlocks I
+	METHOD <init> (Laxl;Ljy$a;)V
+		ARG 0 border
+		ARG 1 type
+	METHOD a apply (Laxl;)V
+		ARG 0 border
+	METHOD a readPacket (Lgy;)V
+		ARG 0 buf
+	METHOD a applyPacket (Lhb;)V
+		ARG 0 handler
+	METHOD a applyPacket (Lhw;)V
+		ARG 0 handler
+	METHOD b writePacket (Lgy;)V
+		ARG 0 buf

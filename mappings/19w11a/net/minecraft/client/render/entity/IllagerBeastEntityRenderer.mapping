@@ -1,0 +1,2 @@
+CLASS dpr net/minecraft/client/render/entity/IllagerBeastEntityRenderer
+	FIELD a TEXTURE Lqp;

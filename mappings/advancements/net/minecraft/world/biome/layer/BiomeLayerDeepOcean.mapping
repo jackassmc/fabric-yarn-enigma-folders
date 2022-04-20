@@ -1,0 +1,2 @@
+CLASS bbp net/minecraft/world/biome/layer/BiomeLayerDeepOcean
+	METHOD a getBiomes (IIII)[I

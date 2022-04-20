@@ -1,0 +1,11 @@
+CLASS bot net/minecraft/block/entity/EnchantingTableBlockEntity
+	FIELD a ticks I
+	FIELD n RANDOM Ljava/util/Random;
+	FIELD o customName Ljd;
+	METHOD P getName ()Ljd;
+	METHOD R getCustomName ()Ljd;
+	METHOD a fromTag (Lhs;)V
+	METHOD a setCustomName (Ljd;)V
+		ARG 1 value
+	METHOD aa_ tick ()V
+	METHOD b toTag (Lhs;)Lhs;

@@ -1,0 +1,3 @@
+CLASS cjd net/minecraft/world/PlayerSaveHandler
+	METHOD a savePlayerData (Larj;)V
+	METHOD b loadPlayerData (Larj;)Lhr;

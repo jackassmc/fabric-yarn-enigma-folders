@@ -1,0 +1,17 @@
+CLASS avl net/minecraft/item/ItemPotion
+	METHOD a addStacksForDisplay (Latr;Lfg;)V
+	METHOD a onItemFinishedUsing (Lava;Lazy;Lagh;)Lava;
+		ARG 1 stack
+		ARG 2 world
+	METHOD a addInformation (Lava;Lazy;Ljava/util/List;Lawk;)V
+		ARG 1 stack
+		ARG 2 world
+		ARG 3 tooltip
+	METHOD a use (Lazy;Lapv;Laer;)Laeu;
+		ARG 1 world
+		ARG 2 player
+	METHOD b getMaxUseTime (Lava;)I
+	METHOD c getUseAction (Lava;)Lawm;
+	METHOD e_ hasEnchantmentGlow (Lava;)Z
+	METHOD h getTranslationKey (Lava;)Ljava/lang/String;
+	METHOD r getDefaultStack ()Lava;

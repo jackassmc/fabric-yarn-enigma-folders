@@ -1,0 +1,6 @@
+CLASS bpm net/minecraft/block/JigsawBlock
+	METHOD <init> (Lbmr$c;)V
+		ARG 1 settings
+	METHOD a attachmentMatches (Lcjp$b;Lcjp$b;)Z
+		ARG 0 info1
+		ARG 1 info2

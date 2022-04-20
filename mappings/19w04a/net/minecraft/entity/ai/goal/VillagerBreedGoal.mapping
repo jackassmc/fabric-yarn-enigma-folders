@@ -1,0 +1,8 @@
+CLASS ajs net/minecraft/entity/ai/goal/VillagerBreedGoal
+	FIELD a owner Laqz;
+	FIELD b mate Laqz;
+	FIELD c world Lbcl;
+	FIELD d delay I
+	FIELD e foundVillage Laly;
+	METHOD g needsMoreVillager ()Z
+	METHOD i spawnBabyVillager ()V

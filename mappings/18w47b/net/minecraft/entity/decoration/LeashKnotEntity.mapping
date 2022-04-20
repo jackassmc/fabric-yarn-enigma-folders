@@ -1,0 +1,14 @@
+CLASS any net/minecraft/entity/decoration/LeashKnotEntity
+	METHOD a shouldRender (D)Z
+	METHOD a copyEntityData (Lagf;)V
+	METHOD a setFacing (Ley;)V
+	METHOD a deserializeCustomData (Lhp;)V
+	METHOD b setPosition (DDD)V
+		ARG 1 x
+	METHOD b interact (Laqg;Laey;)Z
+		ARG 1 player
+	METHOD b serializeCustomData (Lhp;)V
+	METHOD bH getEyeHeight ()F
+	METHOD k getWidthPixels ()I
+	METHOD l getHeightPixels ()I
+	METHOD m onDecorationPlaced ()V

@@ -1,0 +1,4 @@
+CLASS afe net/minecraft/util/EntityNameable
+	METHOD Q getDisplayedName ()Liz;
+	METHOD R_ getName ()Liz;
+	METHOD S_ hasCustomName ()Z

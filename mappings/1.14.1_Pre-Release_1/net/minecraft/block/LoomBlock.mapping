@@ -1,0 +1,4 @@
+CLASS bpu net/minecraft/block/LoomBlock
+	FIELD a CONTAINER_NAME Ljw;
+	METHOD <init> (Lbmm$c;)V
+		ARG 1 settings

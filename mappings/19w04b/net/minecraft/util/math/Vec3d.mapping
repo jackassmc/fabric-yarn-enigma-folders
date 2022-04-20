@@ -1,0 +1,33 @@
+CLASS cmr net/minecraft/util/math/Vec3d
+	FIELD a ZERO Lcmr;
+	FIELD b x D
+	FIELD c y D
+	FIELD d z D
+	METHOD <init> (DDD)V
+		ARG 1 x
+	METHOD a normalize ()Lcmr;
+	METHOD a multiply (D)Lcmr;
+	METHOD a subtract (DDD)Lcmr;
+		ARG 1 x
+	METHOD a rotateX (F)Lcmr;
+	METHOD a fromPolar (FF)Lcmr;
+		ARG 0 pitch
+		ARG 1 yaw
+	METHOD a fromPolar (Lcmq;)Lcmr;
+		ARG 0 polar
+	METHOD a reverseSubtract (Lcmr;)Lcmr;
+	METHOD b length ()D
+	METHOD b add (DDD)Lcmr;
+		ARG 1 x
+	METHOD b rotateY (F)Lcmr;
+	METHOD b dotProduct (Lcmr;)D
+	METHOD c lengthSquared ()D
+	METHOD c squaredDistanceTo (DDD)D
+		ARG 1 x
+	METHOD c crossProduct (Lcmr;)Lcmr;
+	METHOD d subtract (Lcmr;)Lcmr;
+	METHOD e add (Lcmr;)Lcmr;
+	METHOD equals (Ljava/lang/Object;)Z
+		ARG 1 o
+	METHOD f distanceTo (Lcmr;)D
+	METHOD g squaredDistanceTo (Lcmr;)D

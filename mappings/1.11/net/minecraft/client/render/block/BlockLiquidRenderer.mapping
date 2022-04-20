@@ -1,0 +1,13 @@
+CLASS bqz net/minecraft/client/render/block/BlockLiquidRenderer
+	FIELD a colorMap Lbez;
+	FIELD b spritesLava [Lbyw;
+	FIELD c spritesWater [Lbyw;
+	FIELD d spriteWaterOverlay Lbyw;
+	METHOD <init> (Lbez;)V
+		ARG 0 colorMap
+	METHOD a loadSprites ()V
+	METHOD a render (Laju;Latj;Lco;Lbpw;)Z
+		ARG 0 view
+		ARG 1 state
+		ARG 2 pos
+		ARG 3 vertexBuffer

@@ -1,0 +1,23 @@
+CLASS bpe net/minecraft/block/HopperBlock
+	FIELD A WEST_RAY_TRACE_SHAPE Lcsu;
+	FIELD a FACING Lbwi;
+	FIELD b ENABLED Lbwf;
+	FIELD c TOP_SHAPE Lcsu;
+	FIELD d MIDDLE_SHAPE Lcsu;
+	FIELD e OUTSIDE_SHAPE Lcsu;
+	FIELD f DEFAULT_SHAPE Lcsu;
+	FIELD g DOWN_SHAPE Lcsu;
+	FIELD h EAST_SHAPE Lcsu;
+	FIELD i NORTH_SHAPE Lcsu;
+	FIELD j SOUTH_SHAPE Lcsu;
+	FIELD k WEST_SHAPE Lcsu;
+	FIELD w DOWN_RAY_TRACE_SHAPE Lcsu;
+	FIELD x EAST_RAY_TRACE_SHAPE Lcsu;
+	FIELD y NORTH_RAY_TRACE_SHAPE Lcsu;
+	FIELD z SOUTH_RAY_TRACE_SHAPE Lcsu;
+	METHOD <init> (Lbmp$c;)V
+		ARG 1 settings
+	METHOD a updateEnabled (Lbhl;Lev;Lbvn;)V
+		ARG 1 world
+		ARG 2 pos
+		ARG 3 state

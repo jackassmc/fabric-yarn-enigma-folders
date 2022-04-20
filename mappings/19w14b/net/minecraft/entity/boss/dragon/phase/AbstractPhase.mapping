@@ -1,0 +1,4 @@
+CLASS arz net/minecraft/entity/boss/dragon/phase/AbstractPhase
+	FIELD a dragon Larx;
+	METHOD <init> (Larx;)V
+		ARG 1 dragon

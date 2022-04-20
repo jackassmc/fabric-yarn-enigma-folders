@@ -1,0 +1,4 @@
+CLASS agl net/minecraft/inventory/DoubleInventory
+	FIELD a first Lagm;
+	FIELD b second Lagm;
+	METHOD a isPart (Lagm;)Z

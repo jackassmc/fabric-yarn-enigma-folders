@@ -1,0 +1,84 @@
+CLASS bhd net/minecraft/world/EntityView
+	METHOD A getPlayers ()Ljava/util/List;
+	METHOD a getClosestPlayer (DDD)Lawb;
+		ARG 1 x
+		ARG 3 z
+		ARG 5 maxDistance
+	METHOD a isPlayerInRange (DDDD)Z
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+		ARG 7 range
+	METHOD a getClosestPlayer (DDDDLjava/util/function/Predicate;)Lawb;
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+		ARG 7 maxDistance
+		ARG 9 targetPredicate
+	METHOD a getClosestPlayer (DDDDZ)Lawb;
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+		ARG 7 maxDistance
+		ARG 9 ignoreCreative
+	METHOD a getClosestPlayer (Lail;D)Lawb;
+		ARG 1 entity
+		ARG 2 maxDistance
+	METHOD a (Lail;Lail;)Ljava/util/stream/Stream;
+		ARG 1 e
+	METHOD a (Lail;Lail;)Z
+		ARG 1 e
+	METHOD a getEntities (Lail;Lcrv;)Ljava/util/List;
+		ARG 1 except
+		ARG 2 box
+	METHOD a getEntities (Lail;Lcrv;Ljava/util/function/Predicate;)Ljava/util/List;
+		ARG 1 except
+		ARG 2 box
+		ARG 3 predicate
+	METHOD a intersectsEntities (Lail;Lcsu;)Z
+		ARG 1 except
+		ARG 2 shape
+	METHOD a getClosestPlayer (Laqd;DDD)Lawb;
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z
+	METHOD a getClosestPlayer (Laqd;Laiu;)Lawb;
+	METHOD a getClosestPlayer (Laqd;Laiu;DDD)Lawb;
+		ARG 3 x
+		ARG 5 y
+		ARG 7 z
+	METHOD a getPlayersInBox (Laqd;Laiu;Lcrv;)Ljava/util/List;
+	METHOD a (Lcss;Lail;)Z
+		ARG 1 e
+	METHOD a getClosestEntity (Ljava/lang/Class;Laqd;Laiu;DDDLcrv;)Laiu;
+		ARG 1 entityClass
+		ARG 4 x
+		ARG 6 y
+		ARG 8 z
+	METHOD a getTargets (Ljava/lang/Class;Laqd;Laiu;Lcrv;)Ljava/util/List;
+		ARG 1 entityClass
+		ARG 2 targetPredicate
+		ARG 3 targettingEntity
+		ARG 4 box
+	METHOD a getEntities (Ljava/lang/Class;Lcrv;)Ljava/util/List;
+		ARG 1 entityClass
+		ARG 2 box
+	METHOD a getEntities (Ljava/lang/Class;Lcrv;Ljava/util/function/Predicate;)Ljava/util/List;
+		ARG 1 entityClass
+		ARG 2 box
+		ARG 3 predicate
+	METHOD a getClosestEntity (Ljava/util/List;Laqd;Laiu;DDD)Laiu;
+		ARG 1 entityList
+		ARG 4 x
+		ARG 6 y
+		ARG 8 z
+	METHOD a (Ljava/util/Set;Lail;)Z
+		ARG 1 e
+	METHOD a (Ljava/util/Set;Lail;Lail;)Z
+		ARG 2 e
+	METHOD b (Lail;Lail;)Z
+		ARG 1 e
+	METHOD b getPlayerByUuid (Ljava/util/UUID;)Lawb;
+		ARG 1 uuid
+	METHOD c (Lail;Lail;)Z
+		ARG 1 e

@@ -1,0 +1,13 @@
+CLASS clb net/minecraft/world/loot/function/CopyNameLootFunction
+	CLASS clb$a Source
+		FIELD a THIS Lclb$a;
+		FIELD b KILLER Lclb$a;
+		FIELD c KILLER_PLAYER Lclb$a;
+		FIELD d BLOCK_ENTITY Lclb$a;
+		FIELD e name Ljava/lang/String;
+		FIELD f parameter Lclz;
+		METHOD a get (Ljava/lang/String;)Lclb$a;
+	CLASS clb$b Factory
+	FIELD a source Lclb$a;
+	METHOD a create (Lclb$a;)Lclj$a;
+		ARG 0 source

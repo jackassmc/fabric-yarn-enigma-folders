@@ -1,0 +1,3 @@
+CLASS ali net/minecraft/entity/ai/goal/VillagerBreedingGoal
+	FIELD f delay I
+	FIELD g villager Larl;

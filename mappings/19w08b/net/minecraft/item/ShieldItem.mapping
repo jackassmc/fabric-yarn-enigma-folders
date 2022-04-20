@@ -1,0 +1,3 @@
+CLASS ays net/minecraft/item/ShieldItem
+	METHOD e getColor (Laxx;)Lawr;
+		ARG 0 stack

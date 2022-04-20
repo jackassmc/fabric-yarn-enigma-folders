@@ -1,0 +1,3 @@
+CLASS dpn net/minecraft/client/render/entity/model/ModelWithHead
+	METHOD a getHead ()Ldgx;
+	METHOD c setHeadAngle (F)V

@@ -1,0 +1,2 @@
+CLASS ayh net/minecraft/recipe/RecipeInputProvider
+	METHOD a provideRecipeInputs (Laup;)V

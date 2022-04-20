@@ -1,0 +1,14 @@
+CLASS auk net/minecraft/entity/player/PlayerAbilities
+	FIELD a invulnerable Z
+	FIELD b flying Z
+	FIELD c allowFlying Z
+	FIELD d creativeMode Z
+	FIELD e allowModifyWorld Z
+	FIELD f flySpeed F
+	FIELD g walkSpeed F
+	METHOD a getFlySpeed ()F
+	METHOD a setFlySpeed (F)V
+	METHOD a serialize (Lia;)V
+	METHOD b getWalkSpeed ()F
+	METHOD b setWalkSpeed (F)V
+	METHOD b deserialize (Lia;)V

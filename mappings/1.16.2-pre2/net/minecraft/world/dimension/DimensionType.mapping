@@ -1,0 +1,66 @@
+CLASS net/minecraft/class_2874 net/minecraft/world/dimension/DimensionType
+	FIELD field_13073 hasSkyLight Z
+	FIELD field_20658 biomeAccessType Lnet/minecraft/class_4545;
+	FIELD field_24504 hasCeiling Z
+	FIELD field_24505 ultrawarm Z
+	FIELD field_24752 MOON_SIZES [F
+	FIELD field_24753 OVERWORLD_REGISTRY_KEY Lnet/minecraft/class_5321;
+	FIELD field_24754 THE_NETHER_REGISTRY_KEY Lnet/minecraft/class_5321;
+	FIELD field_24755 THE_END_REGISTRY_KEY Lnet/minecraft/class_5321;
+	FIELD field_24757 CODEC Lcom/mojang/serialization/Codec;
+	FIELD field_24761 fixedTime Ljava/util/OptionalLong;
+	FIELD field_24762 natural Z
+	FIELD field_24764 hasEnderDragonFight Z
+	FIELD field_24766 ambientLight F
+	FIELD field_25407 OVERWORLD Lnet/minecraft/class_2874;
+	FIELD field_25408 THE_NETHER Lnet/minecraft/class_2874;
+	FIELD field_25409 THE_END Lnet/minecraft/class_2874;
+	FIELD field_25610 OVERWORLD_CAVES_REGISTRY_KEY Lnet/minecraft/class_5321;
+	FIELD field_25611 OVERWORLD_CAVES Lnet/minecraft/class_2874;
+	FIELD field_25612 piglinSafe Z
+	FIELD field_25613 bedWorks Z
+	FIELD field_25614 respawnAnchorWorks Z
+	FIELD field_25615 hasRaids Z
+	FIELD field_25616 logicalHeight I
+	FIELD field_25617 infiniburn Lnet/minecraft/class_2960;
+	METHOD <init> (Ljava/util/OptionalLong;ZZZZDZZZZILnet/minecraft/class_2960;F)V
+		ARG 1 fixedTime
+		ARG 2 hasSkylight
+		ARG 3 hasCeiling
+		ARG 4 ultrawarm
+		ARG 5 natural
+	METHOD <init> (Ljava/util/OptionalLong;ZZZZDZZZZZILnet/minecraft/class_4545;Lnet/minecraft/class_2960;F)V
+		ARG 1 fixedTime
+		ARG 2 hasSkylight
+		ARG 3 hasCeiling
+		ARG 4 ultrawarm
+		ARG 5 natural
+	METHOD method_12488 getSaveDirectory (Lnet/minecraft/class_5321;Ljava/io/File;)Ljava/io/File;
+		ARG 0 worldRef
+		ARG 1 root
+	METHOD method_12489 getSuffix ()Ljava/lang/String;
+	METHOD method_12491 hasSkyLight ()Z
+	METHOD method_22415 getBiomeAccessType ()Lnet/minecraft/class_4545;
+	METHOD method_27998 hasCeiling ()Z
+	METHOD method_27999 isUltrawarm ()Z
+	METHOD method_28523 addRegistryDefaults (Lnet/minecraft/class_5455$class_5457;)Lnet/minecraft/class_5455$class_5457;
+		ARG 0 registryManager
+	METHOD method_28528 (J)F
+		ARG 1 time
+	METHOD method_28531 getMoonPhase (J)I
+		COMMENT Gets the moon phase index of Minecraft's moon.
+		COMMENT
+		COMMENT <p>This is typically used to determine the size of the moon that should be rendered.
+		ARG 1 time
+			COMMENT the time to calculate the index from
+	METHOD method_28533 createEndGenerator (Lnet/minecraft/class_2378;Lnet/minecraft/class_2378;J)Lnet/minecraft/class_2794;
+	METHOD method_28535 createNetherGenerator (Lnet/minecraft/class_2378;Lnet/minecraft/class_2378;J)Lnet/minecraft/class_2794;
+	METHOD method_28537 isNatural ()Z
+	METHOD method_28540 hasEnderDragonFight ()Z
+	METHOD method_29955 isPiglinSafe ()Z
+	METHOD method_29956 isBedWorking ()Z
+	METHOD method_29957 isRespawnAnchorWorking ()Z
+	METHOD method_29958 hasRaids ()Z
+	METHOD method_29959 getLogicalHeight ()I
+	METHOD method_29960 hasFixedTime ()Z
+	METHOD method_29961 getInfiniburnBlocks ()Lnet/minecraft/class_3494;

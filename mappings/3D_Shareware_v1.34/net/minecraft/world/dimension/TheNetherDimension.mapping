@@ -1,0 +1,4 @@
+CLASS bxt net/minecraft/world/dimension/TheNetherDimension
+	METHOD <init> (Lbgx;Lbxs;)V
+		ARG 1 world
+		ARG 2 type

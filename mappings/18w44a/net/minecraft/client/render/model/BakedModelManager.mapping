@@ -1,0 +1,13 @@
+CLASS dkn net/minecraft/client/render/model/BakedModelManager
+	FIELD a modelMap Ljava/util/Map;
+	FIELD b spriteMap Ldja;
+	FIELD c blockStateMaps Ldal;
+	FIELD d missingModel Ldkj;
+	METHOD <init> (Ldja;)V
+		ARG 1 textures
+	METHOD a getMissingModel ()Ldkj;
+	METHOD a getModel (Ldko;)Ldkj;
+		ARG 1 identifier
+	METHOD a onResourceReload (Lvt;)V
+		ARG 1 manager
+	METHOD b getBlockStateMaps ()Ldal;

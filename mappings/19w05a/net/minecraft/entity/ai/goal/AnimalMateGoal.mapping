@@ -1,0 +1,9 @@
+CLASS aix net/minecraft/entity/ai/goal/AnimalMateGoal
+	FIELD a owner Lamk;
+	FIELD b world Lbcq;
+	FIELD c mate Lamk;
+	FIELD e timer I
+	FIELD f chance D
+	METHOD <init> (Lamk;D)V
+		ARG 1 owner
+	METHOD i findMate ()Lamk;

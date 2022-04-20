@@ -1,0 +1,4 @@
+CLASS bsx net/minecraft/world/gen/config/feature/BuriedTreasureFeatureConfig
+	FIELD a probability F
+	METHOD a make (Lcom/mojang/datafixers/Dynamic;)Lbsx;
+		ARG 0 dynamic

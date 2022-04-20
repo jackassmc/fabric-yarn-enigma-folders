@@ -1,0 +1,5 @@
+CLASS cgm net/minecraft/structure/generator/OceanMonumentGenerator
+	CLASS cgm$p net/minecraft/structure/generator/OceanMonumentGenerator$Entry
+	CLASS cgm$q net/minecraft/structure/generator/OceanMonumentGenerator$Penthouse
+	CLASS cgm$s net/minecraft/structure/generator/OceanMonumentGenerator$SimpleRoom
+	CLASS cgm$t net/minecraft/structure/generator/OceanMonumentGenerator$SimpleRoomTop

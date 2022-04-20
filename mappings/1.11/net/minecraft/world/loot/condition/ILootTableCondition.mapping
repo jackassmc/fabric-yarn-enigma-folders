@@ -1,0 +1,19 @@
+CLASS bdb net/minecraft/world/loot/condition/ILootTableCondition
+	CLASS bdb$a Provider
+		FIELD a id Lkq;
+		FIELD b conditionClass Ljava/lang/Class;
+		METHOD <init> (Lkq;Ljava/lang/Class;)V
+			ARG 0 id
+			ARG 1 conditionClass
+		METHOD a getId ()Lkq;
+		METHOD a serialize (Lcom/google/gson/JsonObject;Lbdb;Lcom/google/gson/JsonSerializationContext;)V
+			ARG 0 json
+			ARG 1 condition
+			ARG 2 context
+		METHOD b getConditionClass ()Ljava/lang/Class;
+		METHOD b deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Lbdb;
+			ARG 0 json
+			ARG 1 context
+	METHOD a matches (Ljava/util/Random;Lbcj;)Z
+		ARG 0 rand
+		ARG 1 context

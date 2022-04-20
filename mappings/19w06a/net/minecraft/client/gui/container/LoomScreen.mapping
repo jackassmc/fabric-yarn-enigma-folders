@@ -1,0 +1,2 @@
+CLASS cwh net/minecraft/client/gui/container/LoomScreen
+	FIELD y TEXTURE Lqd;

@@ -1,0 +1,134 @@
+CLASS asq net/minecraft/block/BlockStairs
+	CLASS asq$a Half
+		FIELD a TOP Lasq$a;
+		FIELD b BOTTOM Lasq$a;
+		FIELD c name Ljava/lang/String;
+		METHOD m asString ()Ljava/lang/String;
+	CLASS asq$b Shape
+		FIELD a STRAIGHT Lasq$b;
+		FIELD b INNER_LEFT Lasq$b;
+		FIELD c INNER_RIGHT Lasq$b;
+		FIELD d OUTER_LEFT Lasq$b;
+		FIELD e OUTER_RIGHT Lasq$b;
+		FIELD f name Ljava/lang/String;
+		METHOD m asString ()Ljava/lang/String;
+	FIELD P baseBlock Lank;
+	FIELD Q baseBlockState Lave;
+	FIELD a FACING Lavr;
+	FIELD b HALF Lavs;
+	FIELD c SHAPE Lavs;
+	METHOD <init> (Lave;)V
+		ARG 0 base
+	METHOD a deserializeState (I)Lave;
+		ARG 0 meta
+	METHOD a getTickRate (Lali;)I
+		ARG 0 world
+	METHOD a canPlaceAt (Lali;Ldx;)Z
+		ARG 0 world
+		ARG 1 pos
+	METHOD a onBlockBreakStart (Lali;Ldx;Lacu;)V
+		ARG 0 world
+		ARG 1 pos
+		ARG 2 player
+	METHOD a onDestroyedByExplosion (Lali;Ldx;Lald;)V
+		ARG 0 world
+		ARG 1 pos
+		ARG 2 explosion
+	METHOD a activate (Lali;Ldx;Lave;Lacu;Lsw;Lee;FFF)Z
+		ARG 0 world
+		ARG 1 pos
+		ARG 2 state
+		ARG 3 player
+		ARG 4 hand
+		ARG 5 facing
+		ARG 6 hitX
+		ARG 7 hitY
+		ARG 8 hitZ
+	METHOD a getStateForPlacement (Lali;Ldx;Lee;FFFILuk;)Lave;
+		ARG 0 world
+		ARG 1 pos
+		ARG 2 facing
+		ARG 3 hitX
+		ARG 4 hitY
+		ARG 5 hitZ
+		ARG 6 metadata
+		ARG 7 player
+	METHOD a onSteppedOn (Lali;Ldx;Lub;)V
+		ARG 0 world
+		ARG 1 pos
+		ARG 2 entity
+	METHOD a adjustMovement (Lali;Ldx;Lub;Lbfp;)Lbfp;
+		ARG 0 world
+		ARG 1 pos
+		ARG 2 entity
+		ARG 3 movement
+	METHOD a addBoundingBoxes (Lave;Lali;Ldx;Lbfm;Ljava/util/List;Lub;Z)V
+		ARG 0 state
+		ARG 1 world
+		ARG 2 pos
+		ARG 3 bounds
+		ARG 4 list
+		ARG 5 entity
+	METHOD a rayTrace (Lave;Lali;Ldx;Lbfp;Lbfp;)Lbfn;
+		ARG 0 state
+		ARG 1 world
+		ARG 2 pos
+		ARG 3 begin
+		ARG 4 end
+	METHOD a randomDisplayTick (Lave;Lali;Ldx;Ljava/util/Random;)V
+		ARG 0 state
+		ARG 1 world
+		ARG 2 pos
+		ARG 3 rand
+	METHOD a applyMirror (Lave;Laqm;)Lave;
+		ARG 0 state
+		ARG 1 mirror
+	METHOD a applyRotation (Lave;Lasa;)Lave;
+		ARG 0 state
+		ARG 1 rotation
+	METHOD a canCollideWith (Lave;Z)Z
+		ARG 0 state
+	METHOD a getExplosionResistance (Lub;)F
+		ARG 0 entity
+	METHOD b createStateFactory ()Lavf;
+	METHOD b onBlockRemoved (Lali;Ldx;Lave;)V
+		ARG 0 world
+		ARG 1 pos
+		ARG 2 state
+	METHOD b randomTick (Lali;Ldx;Lave;Ljava/util/Random;)V
+		ARG 0 world
+		ARG 1 pos
+		ARG 2 state
+		ARG 3 random
+	METHOD b isFullBoundsCubeForCulling (Lave;)Z
+		ARG 0 state
+	METHOD b getBoundingBoxClient (Lave;Lali;Ldx;)Lbfm;
+		ARG 0 state
+		ARG 1 world
+		ARG 2 pos
+	METHOD c onBlockAdded (Lali;Ldx;Lave;)V
+		ARG 0 world
+		ARG 1 pos
+		ARG 2 state
+	METHOD c isFullBoundsCubeForConnection (Lave;)Z
+		ARG 0 state
+	METHOD c getRenderingState (Lave;Lalm;Ldx;)Lave;
+		ARG 0 state
+		ARG 1 view
+		ARG 2 pos
+	METHOD d (Lali;Ldx;Lave;)V
+		ARG 0 world
+		ARG 1 pos
+		ARG 2 state
+	METHOD d getBlockBrightness (Lave;Lalm;Ldx;)I
+		ARG 0 state
+		ARG 1 view
+		ARG 2 pos
+	METHOD e serializeState (Lave;)I
+		ARG 0 state
+	METHOD f getRenderLayer ()Lala;
+	METHOD k hasSolidTopSurface (Lave;)Z
+		ARG 0 state
+	METHOD m canCollideWith ()Z
+	METHOD r getMapColor (Lave;)Lbbl;
+		ARG 0 state

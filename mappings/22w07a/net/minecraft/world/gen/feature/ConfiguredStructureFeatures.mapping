@@ -1,0 +1,5 @@
+CLASS net/minecraft/class_5470 net/minecraft/world/gen/feature/ConfiguredStructureFeatures
+	METHOD method_30603 register (Ljava/lang/String;Lnet/minecraft/class_5312;)Lnet/minecraft/class_6880;
+		ARG 0 id
+		ARG 1 configuredStructureFeature
+	METHOD method_38569 getDefault ()Lnet/minecraft/class_6880;

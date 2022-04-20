@@ -1,0 +1,26 @@
+CLASS apc net/minecraft/entity/mob/AbstractSkeletonEntity
+	CLASS apc$1
+		METHOD c start ()V
+		METHOD d onRemove ()V
+	FIELD a AIMING Lpr;
+	METHOD <init> (Lagz;Lbbp;)V
+		ARG 1 type
+	METHOD a initEquipment (Lafn;)V
+	METHOD a setEquippedStack (Laha;Lawo;)V
+		ARG 1 slot
+	METHOD a attack (Lahe;F)V
+		ARG 1 target
+	METHOD a prepareEntityData (Lbbq;Lafn;Lahh;Lahp;Lhs;)Lahp;
+		ARG 3 difficulty
+	METHOD a playStepSound (Let;Lbpm;)V
+		ARG 1 pos
+	METHOD a readCustomDataFromTag (Lhs;)V
+	METHOD aK getHeightOffset ()D
+	METHOD bG getEyeHeight ()F
+	METHOD cE getGroup ()Lahi;
+	METHOD ca initAttributes ()V
+	METHOD dz hasArmsRaised ()Z
+	METHOD k updateMovement ()V
+	METHOD n prepareGoals ()V
+	METHOD s setArmsRaised (Z)V
+	METHOD y_ initDataTracker ()V

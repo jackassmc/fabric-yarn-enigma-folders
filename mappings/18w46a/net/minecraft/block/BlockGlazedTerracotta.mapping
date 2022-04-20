@@ -1,0 +1,4 @@
+CLASS bhm net/minecraft/block/BlockGlazedTerracotta
+	METHOD a getPlacementState (Latj;)Lbnz;
+	METHOD a appendProperties (Lboa$a;)V
+	METHOD h getPistonBehavior (Lbnz;)Lccy;

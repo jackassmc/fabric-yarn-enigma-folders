@@ -1,0 +1,3 @@
+CLASS dbh net/minecraft/client/render/entity/model/WitchEntityModel
+	FIELD n mole Ldbs;
+	METHOD a setAngles (Lahd;FFFFFF)V

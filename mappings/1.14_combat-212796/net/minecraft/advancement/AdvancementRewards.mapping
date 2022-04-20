@@ -1,0 +1,27 @@
+CLASS t net/minecraft/advancement/AdvancementRewards
+	CLASS a Builder
+		FIELD a experience I
+		FIELD b loot Ljava/util/List;
+		FIELD c recipes Ljava/util/List;
+		FIELD d function Lqt;
+		METHOD a build ()Lt;
+		METHOD a experience (I)Lt$a;
+		METHOD b setExperience (I)Lt$a;
+		METHOD c recipe (Lqt;)Lt$a;
+		METHOD d addRecipe (Lqt;)Lt$a;
+	CLASS b Deserializer
+		METHOD deserialize (Lcom/google/gson/JsonElement;Ljava/lang/reflect/Type;Lcom/google/gson/JsonDeserializationContext;)Ljava/lang/Object;
+			ARG 1 functionJson
+			ARG 2 unused
+			ARG 3 context
+	FIELD a NONE Lt;
+	FIELD b experience I
+	FIELD c loot [Lqt;
+	FIELD d recipes [Lqt;
+	FIELD e function Lca$a;
+	METHOD <init> (I[Lqt;[Lqt;Lca$a;)V
+		ARG 1 experience
+		ARG 2 loot
+		ARG 3 recipes
+	METHOD a apply (Lvj;)V
+	METHOD b toJson ()Lcom/google/gson/JsonElement;

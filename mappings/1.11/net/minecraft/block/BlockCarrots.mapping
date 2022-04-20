@@ -1,0 +1,8 @@
+CLASS amc net/minecraft/block/BlockCarrots
+	FIELD a BOXES [Lbdr;
+	METHOD b getBoundingBox (Latj;Laju;Lco;)Lbdr;
+		ARG 0 state
+		ARG 1 view
+		ARG 2 pos
+	METHOD h getItemSeed ()Lafg;
+	METHOD i getItemMature ()Lafg;

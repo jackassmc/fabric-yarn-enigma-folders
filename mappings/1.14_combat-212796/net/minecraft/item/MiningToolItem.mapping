@@ -1,0 +1,7 @@
+CLASS bay net/minecraft/item/MiningToolItem
+	FIELD a effectiveBlocks Ljava/util/Set;
+	FIELD b miningSpeed F
+	METHOD a (Laiu;)V
+		ARG 0 e
+	METHOD b (Laiu;)V
+		ARG 0 e

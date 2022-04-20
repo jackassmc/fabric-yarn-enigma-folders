@@ -1,0 +1,2 @@
+CLASS byg net/minecraft/client/render/entity/EntityRendererLiving
+	METHOD a addLayer (Lcam;)Z

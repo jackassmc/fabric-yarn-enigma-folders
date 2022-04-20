@@ -1,0 +1,6 @@
+CLASS arh net/minecraft/entity/passive/TameableShoulderEntity
+	FIELD bC ticks I
+	METHOD <init> (Laih;Lbhd;)V
+		ARG 1 type
+	METHOD d mountOnto (Lvg;)Z
+	METHOD ef isReadyToSitOnPlayer ()Z

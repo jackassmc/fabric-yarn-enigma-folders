@@ -1,0 +1,19 @@
+CLASS afj net/minecraft/entity/vehicle/EntityMobSpawnerMinecart
+	CLASS afj$1
+		METHOD a getWorld ()Lams;
+		METHOD b getPos ()Let;
+	CLASS afj$2
+		METHOD a upgradeTag (Lrv;Lfy;I)Lfy;
+			ARG 0 handler
+			ARG 1 tag
+			ARG 2 version
+	FIELD a logic Lami;
+	METHOD B_ update ()V
+	METHOD a deserializeCustomData (Lfy;)V
+		ARG 0 tag
+	METHOD a registerTagUpgraders (Lrw;)V
+		ARG 0 handler
+	METHOD b serializeCustomData (Lfy;)V
+		ARG 0 tag
+	METHOD v getMinecartType ()Lafc$a;
+	METHOD x getDefaultContainedBlock ()Lawr;

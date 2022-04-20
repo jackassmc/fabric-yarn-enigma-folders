@@ -1,0 +1,6 @@
+CLASS azp net/minecraft/container/ShulkerBoxContainer
+	FIELD c inventory Lagz;
+	METHOD <init> (ILawa;)V
+		ARG 1 syncId
+	METHOD <init> (ILawa;Lagz;)V
+		ARG 1 syncId

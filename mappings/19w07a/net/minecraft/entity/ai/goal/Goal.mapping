@@ -1,0 +1,10 @@
+CLASS ajs net/minecraft/entity/ai/goal/Goal
+	FIELD a controlBits I
+	METHOD a canStart ()Z
+	METHOD a setControlBits (I)V
+	METHOD b shouldContinue ()Z
+	METHOD c start ()V
+	METHOD d onRemove ()V
+	METHOD e tick ()V
+	METHOD f canStop ()Z
+	METHOD i getControlBits ()I

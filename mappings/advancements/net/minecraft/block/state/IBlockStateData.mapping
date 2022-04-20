@@ -1,0 +1,6 @@
+CLASS awl net/minecraft/block/state/IBlockStateData
+	METHOD a getSizeBytes ()I
+	METHOD a getBlockState (I)Lave;
+	METHOD a getBlockStateId (Lave;)I
+	METHOD a readData (Lgb;)V
+	METHOD b writeData (Lgb;)V

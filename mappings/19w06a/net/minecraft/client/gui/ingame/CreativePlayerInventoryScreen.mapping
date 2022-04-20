@@ -1,0 +1,20 @@
+CLASS cvv net/minecraft/client/gui/ingame/CreativePlayerInventoryScreen
+	CLASS cvv$a
+		METHOD <init> (Lafx;III)V
+			ARG 1 invSlot
+			ARG 2 xPosition
+			ARG 3 <Position
+	CLASS cvv$b CreativeContainer
+		FIELD c itemList Lfh;
+	CLASS cvv$c CreativeSlot
+		FIELD b slot Lavb;
+	FIELD A inventory Lagj;
+	FIELD B selectedTab I
+	FIELD C scrollPosition F
+	FIELD E searchBox Lcri;
+	FIELD F slots Ljava/util/List;
+	FIELD G deleteItemSlot Lavb;
+	FIELD z TEXTURE Lqd;
+	METHOD a isClickInTab (Lawe;DD)Z
+	METHOD b setSelectedTab (Lawe;)V
+	METHOD o doRenderScrollBar ()Z

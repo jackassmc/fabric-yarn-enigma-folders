@@ -1,0 +1,84 @@
+CLASS aye net/minecraft/world/gen/structure/StructurePiecesNetherFortress
+	CLASS aye$a
+		METHOD a generate (Lajq;Ljava/util/Random;Laxx;)Z
+			ARG 0 world
+			ARG 1 rand
+			ARG 2 region
+	CLASS aye$b
+		METHOD a generate (Lajq;Ljava/util/Random;Laxx;)Z
+			ARG 0 world
+			ARG 1 rand
+			ARG 2 region
+		METHOD a serializeCustomData (Ldu;)V
+			ARG 0 tag
+	CLASS aye$c
+		METHOD a generate (Lajq;Ljava/util/Random;Laxx;)Z
+			ARG 0 world
+			ARG 1 rand
+			ARG 2 region
+	CLASS aye$d
+		METHOD a generate (Lajq;Ljava/util/Random;Laxx;)Z
+			ARG 0 world
+			ARG 1 rand
+			ARG 2 region
+	CLASS aye$e
+		METHOD a generate (Lajq;Ljava/util/Random;Laxx;)Z
+			ARG 0 world
+			ARG 1 rand
+			ARG 2 region
+	CLASS aye$f
+		METHOD a generate (Lajq;Ljava/util/Random;Laxx;)Z
+			ARG 0 world
+			ARG 1 rand
+			ARG 2 region
+	CLASS aye$g
+		METHOD a generate (Lajq;Ljava/util/Random;Laxx;)Z
+			ARG 0 world
+			ARG 1 rand
+			ARG 2 region
+	CLASS aye$h
+		METHOD a generate (Lajq;Ljava/util/Random;Laxx;)Z
+			ARG 0 world
+			ARG 1 rand
+			ARG 2 region
+		METHOD a serializeCustomData (Ldu;)V
+			ARG 0 tag
+	CLASS aye$i
+		METHOD a generate (Lajq;Ljava/util/Random;Laxx;)Z
+			ARG 0 world
+			ARG 1 rand
+			ARG 2 region
+	CLASS aye$j
+		METHOD a generate (Lajq;Ljava/util/Random;Laxx;)Z
+			ARG 0 world
+			ARG 1 rand
+			ARG 2 region
+		METHOD a serializeCustomData (Ldu;)V
+			ARG 0 tag
+	CLASS aye$k
+		METHOD a generate (Lajq;Ljava/util/Random;Laxx;)Z
+			ARG 0 world
+			ARG 1 rand
+			ARG 2 region
+	CLASS aye$l
+		METHOD a generate (Lajq;Ljava/util/Random;Laxx;)Z
+			ARG 0 world
+			ARG 1 rand
+			ARG 2 region
+		METHOD a serializeCustomData (Ldu;)V
+			ARG 0 tag
+	CLASS aye$m
+		METHOD a serializeCustomData (Ldu;)V
+			ARG 0 tag
+	CLASS aye$o
+		METHOD a generate (Lajq;Ljava/util/Random;Laxx;)Z
+			ARG 0 world
+			ARG 1 rand
+			ARG 2 region
+	CLASS aye$p
+		METHOD a generate (Lajq;Ljava/util/Random;Laxx;)Z
+			ARG 0 world
+			ARG 1 rand
+			ARG 2 region
+	CLASS aye$q
+	METHOD a registerPieces ()V

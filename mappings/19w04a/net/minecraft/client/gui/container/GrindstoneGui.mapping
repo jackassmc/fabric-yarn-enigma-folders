@@ -1,0 +1,2 @@
+CLASS cvt net/minecraft/client/gui/container/GrindstoneGui
+	FIELD y TEXTURE Lqd;

@@ -1,0 +1,14 @@
+CLASS cdc net/minecraft/client/resource/Resource
+	FIELD a metadataCache Ljava/util/Map;
+	FIELD b name Ljava/lang/String;
+	FIELD c id Lmd;
+	FIELD d input Ljava/io/InputStream;
+	FIELD e metadataInput Ljava/io/InputStream;
+	FIELD f metadataDeserializer Lcdm;
+	FIELD g metadataLoaded Z
+	FIELD h metadataJson Lcom/google/gson/JsonObject;
+	METHOD a getId ()Lmd;
+	METHOD a getMetadataSection (Ljava/lang/String;)Lcdk;
+	METHOD b getInputStream ()Ljava/io/InputStream;
+	METHOD c hasMetadata ()Z
+	METHOD d getName ()Ljava/lang/String;

@@ -1,0 +1,9 @@
+CLASS fw net/minecraft/particle/DefaultParticleType
+	CLASS fw$1
+		METHOD a read (Lfu;Lcom/mojang/brigadier/StringReader;)Lfw;
+			ARG 1 type
+			ARG 2 reader
+		METHOD a read (Lfu;Lis;)Lfw;
+			ARG 1 type
+			ARG 2 buf
+	FIELD a PARAMETER_FACTORY Lft$a;

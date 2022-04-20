@@ -1,0 +1,27 @@
+CLASS bqi net/minecraft/block/entity/EndGatewayBlockEntity
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD b age J
+	FIELD c teleportCooldown I
+	FIELD g exitPortalPos Les;
+	FIELD h exactTeleport Z
+	METHOD a getRecentlyGeneratedBeamHeight (F)F
+		ARG 1 tickDelta
+	METHOD a tryTeleportingEntity (Lahm;)V
+	METHOD a findExitPortalPos (Lbcq;Les;IZ)Les;
+		ARG 0 world
+		ARG 1 pos
+		ARG 2 searchRadius
+	METHOD a getChunk (Lbdf;Lcnl;)Lbte;
+		ARG 0 world
+		ARG 1 pos
+	METHOD a findPortalPosition (Lbte;)Les;
+	METHOD a setExitPortalPos (Les;Z)V
+	METHOD b getCooldownBeamHeight (F)F
+		ARG 1 tickDelta
+	METHOD b createPortal (Les;)V
+	METHOD c isRecentlyGenerated ()Z
+	METHOD d needsCooldownBeforeTeleporting ()Z
+	METHOD f startTeleportCooldown ()V
+	METHOD h getDrawnSidesCount ()I
+	METHOD i findBestPortalExitPos ()Les;
+	METHOD t createPortal ()V

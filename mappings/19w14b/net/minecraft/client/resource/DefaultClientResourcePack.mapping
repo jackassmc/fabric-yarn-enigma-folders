@@ -1,0 +1,2 @@
+CLASS dud net/minecraft/client/resource/DefaultClientResourcePack
+	FIELD d index Ldub;

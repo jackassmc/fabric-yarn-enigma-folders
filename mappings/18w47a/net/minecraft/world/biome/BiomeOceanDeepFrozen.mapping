@@ -1,0 +1,2 @@
+CLASS bbz net/minecraft/world/biome/BiomeOceanDeepFrozen
+	METHOD c getTemperature (Les;)F

@@ -1,0 +1,10 @@
+CLASS bbk net/minecraft/item/map/MapIcon
+	FIELD b x B
+	FIELD c z B
+	FIELD d type B
+	METHOD a getDirection ()B
+	METHOD c getZ ()B
+	METHOD d getType ()B
+	METHOD e getX ()B
+	METHOD equals (Ljava/lang/Object;)Z
+		ARG 0 other

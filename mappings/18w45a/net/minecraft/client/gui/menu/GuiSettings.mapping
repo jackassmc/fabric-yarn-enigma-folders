@@ -1,0 +1,54 @@
+CLASS cpw net/minecraft/client/gui/menu/GuiSettings
+	CLASS cpw$1
+		METHOD a onPressed (DD)V
+			ARG 0 mouseX
+	CLASS cpw$2
+		METHOD a onPressed (DD)V
+			ARG 0 mouseX
+	CLASS cpw$3
+		METHOD a onPressed (DD)V
+			ARG 0 mouseX
+	CLASS cpw$4
+		METHOD a onPressed (DD)V
+			ARG 0 mouseX
+	CLASS cpw$5
+		METHOD a onPressed (DD)V
+			ARG 0 mouseX
+	CLASS cpw$6
+		METHOD a onPressed (DD)V
+			ARG 0 mouseX
+	CLASS cpw$7
+		METHOD a onPressed (DD)V
+			ARG 0 mouseX
+	CLASS cpw$8
+		METHOD a onPressed (DD)V
+			ARG 0 mouseX
+	CLASS cpw$9
+		METHOD a onPressed (DD)V
+			ARG 0 mouseX
+	CLASS cpw$10
+		METHOD a onPressed (DD)V
+			ARG 0 mouseX
+	CLASS cpw$11
+		METHOD a onPressed (DD)V
+			ARG 0 mouseX
+	CLASS cpw$12
+		METHOD a onPressed (DD)V
+			ARG 0 mouseX
+	CLASS cpw$13
+		METHOD a onPressed (DD)V
+			ARG 0 mouseX
+	FIELD a title Ljava/lang/String;
+	FIELD g parent Lcqc;
+	FIELD h settings Lclz;
+	FIELD i difficultyButton Lcmu;
+	FIELD s lockDifficultyButton Lcnf;
+	METHOD <init> (Lcqc;Lclz;)V
+		ARG 1 parent
+	METHOD a draw (IIF)V
+		ARG 1 mouseX
+		ARG 2 mouseY
+	METHOD c onInitialized ()V
+	METHOD confirmResult handle (ZI)V
+		ARG 1 result
+	METHOD g close ()V

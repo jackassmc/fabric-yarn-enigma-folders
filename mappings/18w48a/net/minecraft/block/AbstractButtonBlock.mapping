@@ -1,0 +1,39 @@
+CLASS bfy net/minecraft/block/AbstractButtonBlock
+	METHOD a getTickRate (Lbau;)I
+	METHOD a getBoundingShape (Lboj;Lbac;Let;)Lclj;
+		ARG 1 state
+		ARG 2 view
+		ARG 3 pos
+	METHOD a getWeakRedstonePower (Lboj;Lbac;Let;Ley;)I
+		ARG 1 state
+		ARG 2 view
+		ARG 3 pos
+	METHOD a onEntityCollision (Lboj;Lbaq;Let;Lagi;)V
+		ARG 1 state
+		ARG 2 world
+		ARG 3 pos
+	METHOD a activate (Lboj;Lbaq;Let;Laqj;Lafb;Ley;FFF)Z
+		ARG 1 state
+		ARG 2 world
+		ARG 3 pos
+		ARG 4 player
+		ARG 5 hand
+		ARG 6 facing
+		ARG 7 hitX
+		ARG 8 hitY
+	METHOD a onBlockRemoved (Lboj;Lbaq;Let;Lboj;Z)V
+		ARG 1 world
+		ARG 2 world
+		ARG 3 pos
+		ARG 4 state
+	METHOD a scheduledTick (Lboj;Lbaq;Let;Ljava/util/Random;)V
+		ARG 1 world
+		ARG 2 state
+		ARG 3 pos
+	METHOD a appendProperties (Lbok$a;)V
+		ARG 1 builder
+	METHOD b getStrongRedstonePower (Lboj;Lbac;Let;Ley;)I
+		ARG 1 state
+		ARG 2 view
+		ARG 3 pos
+	METHOD g emitsRedstonePower (Lboj;)Z

@@ -1,0 +1,4 @@
+CLASS gi net/minecraft/data/report/BlockListProvider
+	FIELD c root Lfy;
+	METHOD a getName ()Ljava/lang/String;
+	METHOD a run (Lga;)V

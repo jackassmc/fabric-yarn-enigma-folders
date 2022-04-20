@@ -1,0 +1,7 @@
+CLASS cbu net/minecraft/client/audio/SoundEventMinecart
+	FIELD m player Laax;
+	FIELD n minecart Labx;
+	METHOD <init> (Laax;Labx;)V
+		ARG 0 player
+		ARG 1 minecart
+	METHOD F_ update ()V

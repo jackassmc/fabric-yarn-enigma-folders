@@ -1,0 +1,10 @@
+CLASS bfi net/minecraft/world/WorldFileIOThread
+	FIELD a INSTANCE Lbfi;
+	FIELD b tasks Ljava/util/List;
+	FIELD c tasksAdded J
+	FIELD d tasksCompleted J
+	FIELD e accelerated Z
+	METHOD a getInstance ()Lbfi;
+	METHOD a addTask (Lbfj;)V
+	METHOD b completeTasks ()V
+	METHOD c runTasks ()V

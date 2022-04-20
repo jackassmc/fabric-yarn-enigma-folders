@@ -1,0 +1,4 @@
+CLASS cld net/minecraft/world/loot/function/FurnaceSmeltLootFunction
+	CLASS cld$a Factory
+		METHOD a deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;[Lclu;)Lcld;
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;

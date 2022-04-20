@@ -1,0 +1,12 @@
+CLASS dbn net/minecraft/client/render/model/json/ModelVariant
+	FIELD a location Lpw;
+	FIELD b rotation Ldku;
+	FIELD c uvLock Z
+	FIELD d weight I
+	METHOD <init> (Lpw;Ldku;ZI)V
+		ARG 1 location
+		ARG 2 rotation
+		ARG 3 uvLock
+	METHOD a getLocation ()Lpw;
+	METHOD b getRotation ()Ldku;
+	METHOD d getWeight ()I

@@ -1,0 +1,2 @@
+CLASS agh net/minecraft/util/snooper/SnooperListener
+	METHOD a addSnooperInfo (Lagg;)V

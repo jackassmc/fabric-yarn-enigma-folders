@@ -1,0 +1,4 @@
+CLASS blk net/minecraft/block/CarrotsBlock
+	FIELD a AGE_TO_SHAPE [Lcrb;
+	METHOD <init> (Lbkz$c;)V
+		ARG 1 settings

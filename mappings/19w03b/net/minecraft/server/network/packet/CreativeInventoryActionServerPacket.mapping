@@ -1,0 +1,12 @@
+CLASS ol net/minecraft/server/network/packet/CreativeInventoryActionServerPacket
+	FIELD a slot I
+	FIELD b stack Laxc;
+	METHOD a read (Lir;)V
+		ARG 1 buf
+	METHOD a apply (Liu;)V
+		ARG 1 listener
+	METHOD a apply (Lnd;)V
+	METHOD b getSlot ()I
+	METHOD b write (Lir;)V
+		ARG 1 buf
+	METHOD c getItemStack ()Laxc;

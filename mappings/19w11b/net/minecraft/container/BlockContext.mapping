@@ -1,0 +1,11 @@
+CLASS axc net/minecraft/container/BlockContext
+	FIELD a EMPTY Laxc;
+	METHOD a create (Lbfx;Leu;)Laxc;
+		ARG 1 world
+	METHOD a run (Ljava/util/function/BiConsumer;)V
+		ARG 1 function
+	METHOD a run (Ljava/util/function/BiFunction;)Ljava/util/Optional;
+		ARG 1 function
+	METHOD a run (Ljava/util/function/BiFunction;Ljava/lang/Object;)Ljava/lang/Object;
+		ARG 1 function
+		ARG 2 defaultValue

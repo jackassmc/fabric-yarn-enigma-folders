@@ -1,0 +1,2 @@
+CLASS caw net/minecraft/sortme/structures/SwampHutGenerator
+	METHOD a toNbt (Lhp;)V

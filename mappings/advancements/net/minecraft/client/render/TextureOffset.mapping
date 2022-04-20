@@ -1,0 +1,3 @@
+CLASS bqc net/minecraft/client/render/TextureOffset
+	FIELD a offsetX I
+	FIELD b offsetY I

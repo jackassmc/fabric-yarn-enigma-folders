@@ -1,0 +1,60 @@
+CLASS alo net/minecraft/block/BlockRailBase
+	CLASS alo$b Shape
+		FIELD a NORTH_SOUTH Lalo$b;
+		FIELD b EAST_WEST Lalo$b;
+		FIELD c ASCENDING_EAST Lalo$b;
+		FIELD d ASCENDING_WEST Lalo$b;
+		FIELD e ASCENDING_NORTH Lalo$b;
+		FIELD f ASCENDING_SOUTH Lalo$b;
+		FIELD g SOUTH_EAST Lalo$b;
+		FIELD h SOUTH_WEST Lalo$b;
+		FIELD i NORTH_WEST Lalo$b;
+		FIELD j NORTH_EAST Lalo$b;
+		FIELD k VALUES [Lalo$b;
+		FIELD l id I
+		FIELD m name Ljava/lang/String;
+		METHOD <init> (Ljava/lang/String;IILjava/lang/String;)V
+		METHOD a getId ()I
+		METHOD a byId (I)Lalo$b;
+			ARG 0 id
+		METHOD c isAscending ()Z
+		METHOD m asString ()Ljava/lang/String;
+	FIELD a BOX_FLAT Lbdr;
+	FIELD b BOX_ASCENDING Lbdr;
+	METHOD a canPlaceAt (Lajq;Lco;)Z
+		ARG 0 world
+		ARG 1 pos
+	METHOD a update (Latj;Lajq;Lco;Lals;)V
+		ARG 0 state
+		ARG 1 world
+		ARG 2 pos
+		ARG 3 changedBlock
+	METHOD a getCollisionBox (Latj;Laju;Lco;)Lbdr;
+		ARG 0 state
+		ARG 1 view
+		ARG 2 pos
+	METHOD b isRail (Lajq;Lco;)Z
+		ARG 0 world
+		ARG 1 pos
+	METHOD b (Lajq;Lco;Latj;)V
+		ARG 0 world
+		ARG 1 pos
+		ARG 2 state
+	METHOD b isFullBoundsCubeForCulling (Latj;)Z
+		ARG 0 state
+	METHOD b getBoundingBox (Latj;Laju;Lco;)Lbdr;
+		ARG 0 state
+		ARG 1 view
+		ARG 2 pos
+	METHOD c (Lajq;Lco;Latj;)V
+		ARG 0 world
+		ARG 1 pos
+		ARG 2 state
+	METHOD c (Latj;)Z
+		ARG 0 state
+	METHOD f getRenderLayer ()Laji;
+	METHOD g getShapeProperty ()Latz;
+	METHOD h getPistonBehavior (Latj;)Lazt;
+		ARG 0 state
+	METHOD i isRail (Latj;)Z
+		ARG 0 state

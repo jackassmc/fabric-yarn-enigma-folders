@@ -1,0 +1,86 @@
+CLASS ctf net/minecraft/client/gui/ingame/CreativeInventoryGui
+	CLASS ctf$a
+		METHOD <init> (Laev;III)V
+			ARG 0 inventory
+			ARG 1 invSlot
+			ARG 2 xPosition
+			ARG 3 <Position
+		METHOD a canTakeItems (Laqj;)Z
+			ARG 0 player
+	CLASS ctf$b ContainerCreative
+		FIELD a itemList Lfh;
+		METHOD a canUse (Laqj;)Z
+			ARG 0 player
+		METHOD b getStack (Laqj;I)Lavs;
+			ARG 0 player
+			ARG 1 slot
+	CLASS ctf$c CreativeSlot
+		FIELD b slot Lath;
+		METHOD a getMaxStackAmount ()I
+		METHOD a takeStack (I)Lavs;
+			ARG 0 amount
+		METHOD a matches (Laev;I)Z
+			ARG 0 inventory
+			ARG 1 invSlot
+		METHOD a canTakeItems (Laqj;)Z
+			ARG 0 player
+		METHOD a onTakeItem (Laqj;Lavs;)Lavs;
+			ARG 0 player
+			ARG 1 stack
+		METHOD a canInsert (Lavs;)Z
+			ARG 0 stack
+		METHOD b doDrawHoveringEffect ()Z
+		METHOD b getMaxStackAmount (Lavs;)I
+			ARG 0 stack
+		METHOD c getBackgroundSprite ()Ljava/lang/String;
+		METHOD d getStack ()Lavs;
+		METHOD d setStack (Lavs;)V
+			ARG 0 stack
+		METHOD e hasStack ()Z
+		METHOD f markDirty ()V
+	FIELD A scrollPosition F
+	FIELD C searchBox Lcoy;
+	FIELD D slots Ljava/util/List;
+	FIELD E deleteItemSlot Lath;
+	FIELD x BG_TEX Lpy;
+	FIELD y inventory Lafk;
+	FIELD z selectedTab I
+	METHOD a isClickInContainerBounds (DDIII)Z
+		ARG 1 mouseX
+		ARG 3 mouseY
+	METHOD a drawBackground (FII)V
+		ARG 1 delta
+		ARG 2 mouseX
+	METHOD a draw (IIF)V
+		ARG 1 mouseX
+		ARG 2 mouseY
+	METHOD a onMouseClick (Lath;IILasi;)V
+		ARG 1 slot
+		ARG 2 invSlot
+		ARG 3 button
+	METHOD a drawStackTooltip (Lavs;II)V
+		ARG 1 stack
+		ARG 2 x
+	METHOD b setSelectedTab (Lauj;)V
+	METHOD b onScaleChanged (Lcnv;II)V
+		ARG 1 client
+		ARG 2 width
+	METHOD c onInitialized ()V
+	METHOD c drawForeground (II)V
+		ARG 1 mouseX
+	METHOD charTyped (CI)Z
+		ARG 1 chr
+	METHOD f update ()V
+	METHOD h calculateOffset ()V
+	METHOD keyPressed (III)Z
+		ARG 1 keyCode
+		ARG 2 scanCode
+	METHOD keyReleased (III)Z
+		ARG 1 keyCode
+		ARG 2 scanCode
+	METHOD m doRenderScrollBar ()Z
+	METHOD mouseClicked (DDI)Z
+		ARG 1 mouseX
+	METHOD mouseReleased (DDI)Z
+		ARG 1 mouseX
+	METHOD n onClosed ()V

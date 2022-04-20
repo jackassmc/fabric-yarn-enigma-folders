@@ -1,0 +1,103 @@
+CLASS ctp net/minecraft/client/gui/ingame/CreativeInventoryGui
+	CLASS ctp$a
+		METHOD <init> (Laex;III)V
+			ARG 0 inventory
+			ARG 1 invSlot
+			ARG 2 xPosition
+			ARG 3 <Position
+		METHOD a canTakeItems (Laql;)Z
+			ARG 0 player
+	CLASS ctp$b ContainerCreative
+		FIELD a itemList Lfh;
+		METHOD a canUse (Laql;)Z
+			ARG 0 player
+		METHOD b transferSlot (Laql;I)Lavu;
+			ARG 0 player
+			ARG 1 slot
+	CLASS ctp$c CreativeSlot
+		FIELD b slot Latj;
+		METHOD a getMaxStackAmount ()I
+		METHOD a takeStack (I)Lavu;
+			ARG 0 amount
+		METHOD a matches (Laex;I)Z
+			ARG 0 inventory
+			ARG 1 invSlot
+		METHOD a canTakeItems (Laql;)Z
+			ARG 0 player
+		METHOD a onTakeItem (Laql;Lavu;)Lavu;
+			ARG 0 player
+			ARG 1 stack
+		METHOD a canInsert (Lavu;)Z
+			ARG 0 stack
+		METHOD b doDrawHoveringEffect ()Z
+		METHOD b getMaxStackAmount (Lavu;)I
+			ARG 0 stack
+		METHOD c getBackgroundSprite ()Ljava/lang/String;
+		METHOD d getStack ()Lavu;
+		METHOD d setStack (Lavu;)V
+			ARG 0 stack
+		METHOD e hasStack ()Z
+		METHOD f markDirty ()V
+	FIELD A scrollPosition F
+	FIELD C searchBox Lcpi;
+	FIELD D slots Ljava/util/List;
+	FIELD E deleteItemSlot Latj;
+	FIELD x TEXTURE Lpz;
+	FIELD y inventory Lafm;
+	FIELD z selectedTab I
+	METHOD a charTyped (CI)Z
+		ARG 1 chr
+		ARG 2 keyCode
+	METHOD a mouseScrolled (D)Z
+		ARG 1 dY
+	METHOD a mouseClicked (DDI)Z
+		ARG 0 mouseX
+		ARG 1 mouseX
+		ARG 2 keyCode
+		ARG 3 mouseY
+		ARG 5 button
+	METHOD a mouseDragged (DDIDD)Z
+		ARG 1 mouseX
+		ARG 3 mouseY
+		ARG 5 button
+	METHOD a isClickInContainerBounds (DDIII)Z
+		ARG 1 mouseX
+		ARG 3 mouseY
+	METHOD a drawBackground (FII)V
+		ARG 1 mouseX
+		ARG 2 mouseY
+		ARG 3 delta
+	METHOD a draw (IIF)V
+		ARG 1 mouseX
+		ARG 2 mouseY
+	METHOD a keyPressed (III)Z
+		ARG 1 keyCode
+		ARG 2 scanCode
+	METHOD a onMouseClick (Latj;IILask;)V
+		ARG 1 slot
+		ARG 2 invSlot
+		ARG 3 button
+	METHOD a drawStackTooltip (Lavu;II)V
+		ARG 1 stack
+		ARG 2 x
+	METHOD b mouseReleased (DDI)Z
+		ARG 0 mouseX
+		ARG 1 mouseX
+		ARG 2 keyCode
+		ARG 3 mouseY
+		ARG 5 button
+	METHOD b setSelectedTab (Laul;)V
+	METHOD b onScaleChanged (Lcof;II)V
+		ARG 1 client
+		ARG 2 width
+	METHOD c onInitialized ()V
+	METHOD c drawForeground (II)V
+		ARG 1 mouseX
+		ARG 2 mouseY
+	METHOD c keyReleased (III)Z
+		ARG 1 keyCode
+		ARG 2 scanCode
+	METHOD f update ()V
+	METHOD h calculateOffset ()V
+	METHOD m doRenderScrollBar ()Z
+	METHOD n onClosed ()V

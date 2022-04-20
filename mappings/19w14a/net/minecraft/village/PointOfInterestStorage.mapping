@@ -1,0 +1,74 @@
+CLASS apw net/minecraft/village/PointOfInterestStorage
+	CLASS apw$a PointOfInterestDistanceTracker
+		FIELD b distances Lit/unimi/dsi/fastutil/longs/Long2ByteMap;
+		METHOD a update ()V
+	CLASS apw$b OccupationStatus
+		FIELD a HAS_SPACE Lapw$b;
+		FIELD b IS_OCCUPIED Lapw$b;
+		FIELD c ANY Lapw$b;
+		FIELD d predicate Ljava/util/function/Predicate;
+		METHOD a getPredicate ()Ljava/util/function/Predicate;
+	FIELD a pointOfInterestDistanceTracker Lapw$a;
+	METHOD a remove (Lev;)V
+		ARG 1 pos
+	METHOD a add (Lev;Lapz;)V
+		ARG 1 pos
+		ARG 2 type
+	METHOD a test (Lev;Ljava/util/function/Predicate;)Z
+		ARG 1 pos
+		ARG 2 predicate
+	METHOD a getDistanceFromNearestOccupied (Lfo;)I
+		ARG 1 pos
+	METHOD a get (Ljava/util/function/Predicate;JLapw$b;)Ljava/util/stream/Stream;
+		ARG 1 typePredicate
+		ARG 2 pos
+		ARG 4 occupationStatus
+	METHOD a get (Ljava/util/function/Predicate;Lbgj;Lapw$b;)Ljava/util/stream/Stream;
+		ARG 1 typePredicate
+		ARG 2 pos
+		ARG 3 occupationStatus
+	METHOD a count (Ljava/util/function/Predicate;Lev;ILapw$b;)J
+		ARG 1 typePredicate
+		ARG 2 pos
+		ARG 3 radius
+		ARG 4 occupationStatus
+	METHOD a getPosition (Ljava/util/function/Predicate;Ljava/util/function/Predicate;Lapw$b;Lev;ILjava/util/Random;)Ljava/util/Optional;
+		ARG 1 typePredicate
+		ARG 2 positionPredicate
+		ARG 3 occupationStatus
+		ARG 4 pos
+		ARG 5 radius
+		ARG 6 random
+	METHOD a getPosition (Ljava/util/function/Predicate;Ljava/util/function/Predicate;Lev;I)Ljava/util/Optional;
+		ARG 1 typePredicate
+		ARG 2 positionPredicate
+		ARG 3 pos
+		ARG 4 radius
+	METHOD a getPosition (Ljava/util/function/Predicate;Ljava/util/function/Predicate;Lev;ILapw$b;)Ljava/util/Optional;
+		ARG 1 typePredicate
+		ARG 2 positionPredicate
+		ARG 3 pos
+		ARG 4 radius
+		ARG 5 occupationStatus
+	METHOD b releaseTicket (Lev;)Z
+		ARG 1 pos
+	METHOD b get (Ljava/util/function/Predicate;Lev;ILapw$b;)Ljava/util/stream/Stream;
+		ARG 1 typePredicate
+		ARG 2 pos
+		ARG 3 radius
+		ARG 4 occupationStatus
+	METHOD b getNearestPosition (Ljava/util/function/Predicate;Ljava/util/function/Predicate;Lev;I)Ljava/util/Optional;
+		ARG 1 typePredicate
+		ARG 2 positionPredicate
+		ARG 3 pos
+		ARG 4 radius
+	METHOD b getNearestPosition (Ljava/util/function/Predicate;Ljava/util/function/Predicate;Lev;ILapw$b;)Ljava/util/Optional;
+		ARG 1 typePredicate
+		ARG 2 blockPosPredicate
+		ARG 3 pos
+		ARG 4 radius
+		ARG 5 occupationStatus
+	METHOD c getType (Lev;)Ljava/util/Optional;
+		ARG 1 pos
+	METHOD f isOccupied (J)Z
+		ARG 1 pos

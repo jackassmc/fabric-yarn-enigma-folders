@@ -1,0 +1,2 @@
+CLASS dog net/minecraft/client/render/entity/model/ModelWithArms
+	METHOD a setArmAngle (FLaim;)V

@@ -1,0 +1,4 @@
+CLASS bfv net/minecraft/enchantment/MultishotEnchantment
+	METHOD <init> (Lbfk$a;[Laio;)V
+		ARG 1 weight
+		ARG 2 slotTypes

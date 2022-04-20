@@ -1,0 +1,22 @@
+CLASS s net/minecraft/advancement/criterion/CriterionTrigger
+	CLASS s$a ConditionsContainer
+		FIELD a conditions Lt;
+		FIELD b advancement Ll;
+		FIELD c id Ljava/lang/String;
+		METHOD a getConditions ()Lt;
+		METHOD a apply (Lqe;)V
+			ARG 0 manager
+		METHOD equals (Ljava/lang/Object;)Z
+			ARG 0 other
+	METHOD a getId ()Lpu;
+	METHOD a deserializeConditions (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Lt;
+		ARG 1 obj
+		ARG 2 context
+	METHOD a removePlayer (Lqe;)V
+		ARG 1 manager
+	METHOD a addCondition (Lqe;Ls$a;)V
+		ARG 1 manager
+		ARG 2 condition
+	METHOD b removeCondition (Lqe;Ls$a;)V
+		ARG 1 manager
+		ARG 2 condition

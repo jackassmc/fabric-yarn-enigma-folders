@@ -1,0 +1,19 @@
+CLASS dag net/minecraft/client/gui/AbstractCommandBlockScreen
+	FIELD a consoleCommandTextField Lcwh;
+	FIELD b previousOutputTextField Lcwh;
+	FIELD c doneButton Lcwc;
+	FIELD d cancelButton Lcwc;
+	FIELD e toggleTrackingOutputButton Lcwc;
+	FIELD f trackingOutput Z
+	FIELD j parsedCommand Lcom/mojang/brigadier/ParseResults;
+	FIELD m suggestionsDisabled Z
+	METHOD a getCommandExecutor ()Lbge;
+	METHOD a syncSettingsToServer (Lbge;)V
+		ARG 1 commandExecutor
+	METHOD a setCommand (Ljava/lang/String;)V
+		ARG 1 command
+	METHOD b onCommandChanged (Ljava/lang/String;)V
+	METHOD c updateTrackedOutput ()V
+	METHOD d commitAndClose ()V
+	METHOD e cancelAndClose ()V
+	METHOD f updateCommand ()V

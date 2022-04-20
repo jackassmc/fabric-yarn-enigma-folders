@@ -1,0 +1,3 @@
+CLASS dje net/minecraft/client/particle/SpriteProvider
+	METHOD a getSprite (II)Ldue;
+	METHOD a getSprite (Ljava/util/Random;)Ldue;

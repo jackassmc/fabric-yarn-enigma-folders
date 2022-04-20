@@ -1,0 +1,51 @@
+CLASS anl net/minecraft/block/BlockFire
+	FIELD a AGE Laty;
+	FIELD b NORTH Latv;
+	FIELD c EAST Latv;
+	FIELD d SOUTH Latv;
+	FIELD e WEST Latv;
+	FIELD f UP Latv;
+	METHOD a deserializeState (I)Latj;
+		ARG 0 meta
+	METHOD a (Lajq;)I
+		ARG 0 world
+	METHOD a canPlaceAt (Lajq;Lco;)Z
+		ARG 0 world
+		ARG 1 pos
+	METHOD a registerFlammable (Lals;II)V
+		ARG 0 block
+	METHOD a (Latj;Lajq;Lco;Ljava/util/Random;)V
+		ARG 0 state
+		ARG 1 world
+		ARG 2 pos
+		ARG 3 random
+	METHOD a getCollisionBox (Latj;Laju;Lco;)Lbdr;
+		ARG 0 state
+		ARG 1 view
+		ARG 2 pos
+	METHOD a getDropAmount (Ljava/util/Random;)I
+		ARG 0 random
+	METHOD b createStateFactory ()Latk;
+	METHOD b randomTick (Lajq;Lco;Latj;Ljava/util/Random;)V
+		ARG 0 world
+		ARG 1 pos
+		ARG 2 state
+		ARG 3 random
+	METHOD b isFullBoundsCubeForCulling (Latj;)Z
+		ARG 0 state
+	METHOD c (Lajq;Lco;Latj;)V
+		ARG 0 world
+		ARG 1 pos
+		ARG 2 state
+	METHOD c (Latj;)Z
+		ARG 0 state
+	METHOD c getRenderingState (Latj;Laju;Lco;)Latj;
+		ARG 0 state
+		ARG 1 view
+		ARG 2 pos
+	METHOD e registerDefaultFlammables ()V
+	METHOD e serializeState (Latj;)I
+		ARG 0 state
+	METHOD f getRenderLayer ()Laji;
+	METHOD r getMapColor (Latj;)Lazr;
+		ARG 0 state

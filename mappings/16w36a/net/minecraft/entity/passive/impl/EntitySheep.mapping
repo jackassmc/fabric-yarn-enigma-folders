@@ -1,0 +1,34 @@
+CLASS none/wv net/minecraft/entity/passive/impl/EntitySheep
+	CLASS none/wv$1
+		METHOD a canUse (Lnone/aal;)Z
+			ARG 0 player
+	FIELD bx COLOR Lnone/kj;
+	FIELD bz DYE_COLORS_RGB Ljava/util/Map;
+	METHOD <init> (Lnone/aiv;)V
+		ARG 0 world
+	METHOD G getSoundAmbient ()Lnone/nk;
+	METHOD J ()Lnone/kp;
+	METHOD a interactMob (Lnone/aal;Lnone/ra;)Z
+		ARG 0 player
+		ARG 1 playerHand
+	METHOD a getRgbColor (Lnone/adu;)[F
+		ARG 0 dyeColor
+	METHOD a deserializeCustomData (Lnone/dt;)V
+		ARG 0 tag
+	METHOD a createChild (Lnone/sc;)Lnone/sc;
+		ARG 0 other
+	METHOD b setColor (Lnone/adu;)V
+		ARG 0 value
+	METHOD b serializeCustomData (Lnone/dt;)V
+		ARG 0 tag
+	METHOD b registerTagUpgraders (Lnone/pf;)V
+	METHOD b createChild (Lnone/sc;)Lnone/wv;
+		ARG 0 other
+	METHOD bD initAttributes ()V
+	METHOD bV getSoundHurt ()Lnone/nk;
+	METHOD bW getSoundDeath ()Lnone/nk;
+	METHOD de getColor ()Lnone/adu;
+	METHOD df isSheared ()Z
+	METHOD i initDataTracker ()V
+	METHOD p setSheared (Z)V
+		ARG 0 value

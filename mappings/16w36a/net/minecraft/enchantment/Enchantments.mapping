@@ -1,0 +1,30 @@
+CLASS none/ahr net/minecraft/enchantment/Enchantments
+	FIELD A MENDING Lnone/ahn;
+	FIELD a PROTECTION Lnone/ahn;
+	FIELD b FIRE_PROTECTION Lnone/ahn;
+	FIELD c FEATHER_FALLING Lnone/ahn;
+	FIELD d BLAST_PROTECTION Lnone/ahn;
+	FIELD e PROJECTILE_PROTECTION Lnone/ahn;
+	FIELD f RESPIRATION Lnone/ahn;
+	FIELD g AQUA_AFFINITY Lnone/ahn;
+	FIELD h THORNS Lnone/ahn;
+	FIELD i DEPTH_STRIDER Lnone/ahn;
+	FIELD j FROST_WALKER Lnone/ahn;
+	FIELD k SHARPNESS Lnone/ahn;
+	FIELD l SMITE Lnone/ahn;
+	FIELD m BANE_OF_ARTHROPODS Lnone/ahn;
+	FIELD n KNOCKBACK Lnone/ahn;
+	FIELD o FIRE_ASPECT Lnone/ahn;
+	FIELD p LOOTING Lnone/ahn;
+	FIELD q EFFICIENCY Lnone/ahn;
+	FIELD r SILK_TOUCH Lnone/ahn;
+	FIELD s UNBREAKING Lnone/ahn;
+	FIELD t FORTUNE Lnone/ahn;
+	FIELD u POWER Lnone/ahn;
+	FIELD v PUNCH Lnone/ahn;
+	FIELD w FLAME Lnone/ahn;
+	FIELD x INFINITY Lnone/ahn;
+	FIELD y LUCK_OF_THE_SEA Lnone/ahn;
+	FIELD z LURE Lnone/ahn;
+	METHOD a getEnchantment (Ljava/lang/String;)Lnone/ahn;
+		ARG 0 name

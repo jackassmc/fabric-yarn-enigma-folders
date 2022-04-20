@@ -1,0 +1,10 @@
+CLASS ded net/minecraft/client/render/entity/EntityRendererSnowball
+	FIELD a item Latx;
+	FIELD f itemRenderer Ldcv;
+	METHOD <init> (Ldcb;Latx;Ldcv;)V
+		ARG 0 renderManager
+		ARG 1 item
+		ARG 2 itemRenderer
+	METHOD a getTexture (Lafh;)Lpt;
+		ARG 0 model
+	METHOD e getItemStack (Lafh;)Lauc;

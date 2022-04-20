@@ -1,0 +1,4 @@
+CLASS bsh net/minecraft/block/LilyPadBlock
+	FIELD a SHAPE Lcsa;
+	METHOD <init> (Lbly$c;)V
+		ARG 1 settings

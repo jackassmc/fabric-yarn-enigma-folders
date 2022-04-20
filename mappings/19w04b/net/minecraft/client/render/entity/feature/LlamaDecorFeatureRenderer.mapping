@@ -1,0 +1,3 @@
+CLASS dnf net/minecraft/client/render/entity/feature/LlamaDecorFeatureRenderer
+	METHOD <init> (Ldlh;)V
+		ARG 1 context

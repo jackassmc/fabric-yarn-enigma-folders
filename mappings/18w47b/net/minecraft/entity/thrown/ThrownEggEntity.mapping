@@ -1,0 +1,2 @@
+CLASS ara net/minecraft/entity/thrown/ThrownEggEntity
+	METHOD a onCollision (Lcjv;)V

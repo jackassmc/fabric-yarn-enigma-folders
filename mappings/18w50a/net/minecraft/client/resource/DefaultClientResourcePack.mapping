@@ -1,0 +1,10 @@
+CLASS dnx net/minecraft/client/resource/DefaultClientResourcePack
+	FIELD d index Ldnv;
+	METHOD a getInputStream (Ljava/lang/String;)Ljava/io/InputStream;
+		ARG 1 path
+	METHOD a findResources (Lvq;Ljava/lang/String;ILjava/util/function/Predicate;)Ljava/util/Collection;
+		ARG 1 type
+		ARG 2 namespace
+	METHOD c findInputStream (Lvq;Lqc;)Ljava/io/InputStream;
+		ARG 1 type
+		ARG 2 id

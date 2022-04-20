@@ -1,0 +1,12 @@
+CLASS apv net/minecraft/entity/mob/GhastEntity
+	CLASS apv$b GhastMoveControl
+		FIELD i ghast Lapv;
+	CLASS apv$c ShootFireballGoal
+		FIELD a cooldown I
+		FIELD b owner Lapv;
+	CLASS apv$d FlyRandomlyGoal
+	FIELD b SHOOTING Lps;
+	FIELD c fireballStrength I
+	METHOD l isShooting ()Z
+	METHOD n getFireballStrength ()I
+	METHOD q setShooting (Z)V

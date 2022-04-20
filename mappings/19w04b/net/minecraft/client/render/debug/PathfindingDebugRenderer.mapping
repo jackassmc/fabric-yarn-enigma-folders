@@ -1,0 +1,2 @@
+CLASS dil net/minecraft/client/render/debug/PathfindingDebugRenderer
+	FIELD a client Lcpy;

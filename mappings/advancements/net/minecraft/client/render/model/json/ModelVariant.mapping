@@ -1,0 +1,9 @@
+CLASS bun net/minecraft/client/render/model/json/ModelVariant
+	FIELD a location Lmd;
+	FIELD b rotation Lcef;
+	FIELD c uvLock Z
+	FIELD d weight I
+	METHOD a getLocation ()Lmd;
+	METHOD b getRotation ()Lcef;
+	METHOD c isUvLocked ()Z
+	METHOD d getWeight ()I

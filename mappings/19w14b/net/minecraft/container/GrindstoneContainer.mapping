@@ -1,0 +1,8 @@
+CLASS aym net/minecraft/container/GrindstoneContainer
+	FIELD c resultInventory Lago;
+	FIELD d craftingInventory Lago;
+	FIELD e context Layc;
+	METHOD <init> (ILavn;)V
+		ARG 1 syncId
+	METHOD <init> (ILavn;Layc;)V
+		ARG 1 syncId

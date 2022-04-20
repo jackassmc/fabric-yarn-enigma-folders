@@ -1,0 +1,2 @@
+CLASS byh net/minecraft/structure/generator/village/PlainsVillageData
+	METHOD a initialize ()V

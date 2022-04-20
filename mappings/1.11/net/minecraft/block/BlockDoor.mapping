@@ -1,0 +1,83 @@
+CLASS amv net/minecraft/block/BlockDoor
+	CLASS amv$a Half
+		FIELD a UPPER Lamv$a;
+		FIELD b LOWER Lamv$a;
+		METHOD m asString ()Ljava/lang/String;
+	CLASS amv$b Hinge
+		FIELD a LEFT Lamv$b;
+		FIELD b RIGHT Lamv$b;
+		METHOD m asString ()Ljava/lang/String;
+	FIELD B BOX_EAST Lbdr;
+	FIELD C BOX_WEST Lbdr;
+	FIELD a FACING Latw;
+	FIELD b OPEN Latv;
+	FIELD c HINGE Latx;
+	FIELD d POWERED Latv;
+	FIELD e HALF Latx;
+	FIELD f BOX_NORTH Lbdr;
+	FIELD g BOX_SOUTH Lbdr;
+	METHOD a deserializeState (I)Latj;
+		ARG 0 meta
+	METHOD a canPlaceAt (Lajq;Lco;)Z
+		ARG 0 world
+		ARG 1 pos
+	METHOD a getPickStack (Lajq;Lco;Latj;)Lafi;
+		ARG 0 world
+		ARG 1 pos
+		ARG 2 state
+	METHOD a (Lajq;Lco;Latj;Laax;)V
+		ARG 0 world
+		ARG 1 pos
+		ARG 2 state
+		ARG 3 player
+	METHOD a activate (Lajq;Lco;Latj;Laax;Lrh;Lcv;FFF)Z
+		ARG 0 world
+		ARG 1 pos
+		ARG 2 state
+		ARG 3 player
+		ARG 4 hand
+		ARG 5 facing
+		ARG 6 hitX
+		ARG 7 hitY
+		ARG 8 hitZ
+	METHOD a setOpen (Lajq;Lco;Z)V
+		ARG 0 world
+		ARG 1 pos
+		ARG 2 open
+	METHOD a applyMirror (Latj;Laos;)Latj;
+		ARG 0 state
+		ARG 1 mirror
+	METHOD a applyRotation (Latj;Laqg;)Latj;
+		ARG 0 state
+		ARG 1 rotation
+	METHOD a getDropItem (Latj;Ljava/util/Random;I)Lafg;
+		ARG 0 state
+		ARG 1 random
+		ARG 2 fortune
+	METHOD b createStateFactory ()Latk;
+	METHOD b (Laju;Lco;)Z
+		ARG 0 view
+		ARG 1 pos
+	METHOD b isFullBoundsCubeForCulling (Latj;)Z
+		ARG 0 state
+	METHOD b getBoundingBox (Latj;Laju;Lco;)Lbdr;
+		ARG 0 state
+		ARG 1 view
+		ARG 2 pos
+	METHOD c getTranslatedName ()Ljava/lang/String;
+	METHOD c (Latj;)Z
+		ARG 0 state
+	METHOD c getRenderingState (Latj;Laju;Lco;)Latj;
+		ARG 0 state
+		ARG 1 view
+		ARG 2 pos
+	METHOD d isOpen (Laju;Lco;)Z
+	METHOD e serializeState (Latj;)I
+		ARG 0 state
+	METHOD f getRenderLayer ()Laji;
+	METHOD f getFacing (Laju;Lco;)Lcv;
+	METHOD h getDropItemInternal ()Lafg;
+	METHOD h getPistonBehavior (Latj;)Lazt;
+		ARG 0 state
+	METHOD r getMapColor (Latj;)Lazr;
+		ARG 0 state

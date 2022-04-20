@@ -1,0 +1,4 @@
+CLASS sy net/minecraft/util/ActionResult
+	FIELD a SUCCESS Lsy;
+	FIELD b PASS Lsy;
+	FIELD c FAILURE Lsy;

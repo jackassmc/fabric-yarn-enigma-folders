@@ -1,0 +1,26 @@
+CLASS nq net/minecraft/world/ChunkPlayerTracker
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD b owner Lnr;
+	FIELD c players Ljava/util/List;
+	FIELD d pos Lalb;
+	FIELD e pendingUpdatePosCache [S
+	FIELD f chunk Lawh;
+	FIELD g pendingUpdates I
+	FIELD h pendingUpdateStrips I
+	FIELD j initialized Z
+	METHOD a getChunkPos ()Lalb;
+	METHOD a matches (DLcom/google/common/base/Predicate;)Z
+	METHOD a markBlockDirty (III)V
+	METHOD a sendBlockEntityUpdate (Latu;)V
+	METHOD a matches (Lcom/google/common/base/Predicate;)Z
+	METHOD a sendPacket (Lgv;)V
+	METHOD a addPlayer (Lnn;)V
+	METHOD a loadChunk (Z)Z
+	METHOD b initialize ()Z
+	METHOD b removePlayer (Lnn;)V
+	METHOD c sendChunkData (Lnn;)V
+	METHOD d sendPendingUpdates ()V
+	METHOD d contains (Lnn;)Z
+	METHOD e isInitialized ()Z
+	METHOD f getChunk ()Lawh;
+	METHOD g getClosestDistanceToCenter ()D

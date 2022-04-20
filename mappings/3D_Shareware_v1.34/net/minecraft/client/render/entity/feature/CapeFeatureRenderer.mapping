@@ -1,0 +1,3 @@
+CLASS dsd net/minecraft/client/render/entity/feature/CapeFeatureRenderer
+	METHOD <init> (Ldqt;)V
+		ARG 1 context

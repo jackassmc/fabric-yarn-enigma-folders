@@ -1,0 +1,4 @@
+CLASS dkp net/minecraft/client/render/entity/LlamaEntityRenderer
+	FIELD a TEXTURES [Lqe;
+	METHOD a getTexture (Lahd;)Lqe;
+	METHOD a getTexture (Lann;)Lqe;

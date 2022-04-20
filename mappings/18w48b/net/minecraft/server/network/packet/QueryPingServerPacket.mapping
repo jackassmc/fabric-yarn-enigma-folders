@@ -1,0 +1,7 @@
+CLASS pk net/minecraft/server/network/packet/QueryPingServerPacket
+	FIELD a startTime J
+	METHOD a read (Liq;)V
+	METHOD a apply (Lit;)V
+	METHOD a apply (Lpj;)V
+	METHOD b getStartTime ()J
+	METHOD b write (Liq;)V

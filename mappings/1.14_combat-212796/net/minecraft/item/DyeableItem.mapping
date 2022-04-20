@@ -1,0 +1,13 @@
+CLASS bbf net/minecraft/item/DyeableItem
+	METHOD a hasColor (Lbce;)Z
+		ARG 1 stack
+	METHOD a setColor (Lbce;I)V
+		ARG 1 stack
+		ARG 2 color
+	METHOD a blendAndSetColor (Lbce;Ljava/util/List;)Lbce;
+		ARG 0 stack
+		ARG 1 colors
+	METHOD b getColor (Lbce;)I
+		ARG 1 stack
+	METHOD c removeColor (Lbce;)V
+		ARG 1 stack

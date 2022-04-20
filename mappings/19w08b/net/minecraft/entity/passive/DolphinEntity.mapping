@@ -1,0 +1,3 @@
+CLASS ana net/minecraft/entity/passive/DolphinEntity
+	CLASS ana$a DolphinMoveControl
+		FIELD i dolphin Lana;

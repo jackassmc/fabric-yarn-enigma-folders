@@ -1,0 +1,17 @@
+CLASS awz net/minecraft/item/PotionItem
+	METHOD a addStacksForDisplay (Lavg;Lfh;)V
+	METHOD a onItemFinishedUsing (Lawo;Lbbp;Lahe;)Lawo;
+		ARG 1 stack
+		ARG 2 world
+	METHOD a buildTooltip (Lawo;Lbbp;Ljava/util/List;Laxy;)V
+		ARG 1 stack
+		ARG 2 world
+		ARG 3 tooltip
+	METHOD a use (Lbbp;Larb;Lafo;)Lafr;
+		ARG 1 world
+		ARG 2 player
+	METHOD b getMaxUseTime (Lawo;)I
+	METHOD c getUseAction (Lawo;)Laya;
+	METHOD e_ hasEnchantmentGlow (Lawo;)Z
+	METHOD h getTranslationKey (Lawo;)Ljava/lang/String;
+	METHOD r getDefaultStack ()Lawo;

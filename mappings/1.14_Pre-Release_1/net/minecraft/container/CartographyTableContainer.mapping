@@ -1,0 +1,7 @@
+CLASS ayb net/minecraft/container/CartographyTableContainer
+	FIELD c inventory Lagr;
+	FIELD d context Layf;
+	METHOD <init> (ILavq;)V
+		ARG 1 syncId
+	METHOD <init> (ILavq;Layf;)V
+		ARG 1 syncId

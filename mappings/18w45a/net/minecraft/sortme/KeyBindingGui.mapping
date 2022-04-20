@@ -1,0 +1,25 @@
+CLASS cqt net/minecraft/sortme/KeyBindingGui
+	CLASS cqt$a
+		METHOD a drawEntry (IIIIZF)V
+	CLASS cqt$c
+		CLASS cqt$c$1
+			METHOD a onPressed (DD)V
+				ARG 0 mouseX
+		CLASS cqt$c$2
+			METHOD a onPressed (DD)V
+				ARG 0 mouseX
+		METHOD a drawEntry (IIIIZF)V
+		METHOD mouseClicked (DDI)Z
+			ARG 0 mouseX
+			ARG 1 mouseY
+			ARG 2 keyCode
+		METHOD mouseReleased (DDI)Z
+			ARG 0 mouseX
+			ARG 1 mouseY
+			ARG 2 keyCode
+	FIELD v gui Lcqu;
+	FIELD w game Lclx;
+	METHOD <init> (Lcqu;Lclx;)V
+		ARG 1 gui
+	METHOD e getEntryWidth ()I
+	METHOD f getScrollbarPosition ()I

@@ -1,0 +1,30 @@
+CLASS bne net/minecraft/block/entity/LootableContainerBlockEntity
+	FIELD g lootTableId Lpy;
+	FIELD h lootTableSeed J
+	FIELD i customName Lja;
+	METHOD S_ hasCustomName ()Z
+	METHOD U_ getLootTableId ()Lpy;
+	METHOD a getInvStack (I)Lavo;
+	METHOD a takeInvStack (II)Lavo;
+		ARG 1 slot
+	METHOD a setInvStack (ILavo;)V
+		ARG 1 slot
+	METHOD a canPlayerUseInv (Laqg;)Z
+	METHOD a setCustomName (Lja;)V
+	METHOD a setLootTable (Lpy;J)V
+		ARG 1 id
+	METHOD b removeInvStack (I)Lavo;
+	METHOD b setInvProperty (II)V
+		ARG 1 pos
+	METHOD b isValidInvStack (ILavo;)Z
+		ARG 1 slot
+	METHOD b onInvOpen (Laqg;)V
+	METHOD c getInvProperty (I)I
+	METHOD c onInvClose (Laqg;)V
+	METHOD d checkLootInteraction (Laqg;)V
+	METHOD d deserializeLootTable (Lhp;)Z
+	METHOD e getCustomName ()Lja;
+	METHOD e serializeLootTable (Lhp;)Z
+	METHOD h getInvPropertyCount ()I
+	METHOD m clearInv ()V
+	METHOD q getInvStackList ()Lfh;

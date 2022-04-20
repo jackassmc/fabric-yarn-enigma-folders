@@ -1,0 +1,2 @@
+CLASS dwp net/minecraft/client/sound/EntityTrackingSoundInstance
+	FIELD o entity Laii;

@@ -1,0 +1,8 @@
+CLASS ain net/minecraft/entity/ai/goal/FollowParentGoal
+	FIELD a owner Laln;
+	FIELD b parent Laln;
+	METHOD a canStart ()Z
+	METHOD b shouldContinue ()Z
+	METHOD c start ()V
+	METHOD d onRemove ()V
+	METHOD e tick ()V

@@ -1,0 +1,38 @@
+CLASS cqy net/minecraft/client/gui/menu/GuiPauseMenu
+	CLASS cqy$1
+		METHOD a onPressed (DD)V
+			ARG 0 mouseX
+			ARG 1 mouseY
+	CLASS cqy$2
+		METHOD a onPressed (DD)V
+			ARG 0 mouseX
+			ARG 1 mouseY
+	CLASS cqy$3
+		METHOD a onPressed (DD)V
+			ARG 0 mouseX
+			ARG 1 mouseY
+	CLASS cqy$4
+		METHOD a onPressed (DD)V
+			ARG 0 mouseX
+			ARG 1 mouseY
+	CLASS cqy$5
+		METHOD a onPressed (DD)V
+			ARG 0 mouseX
+			ARG 1 mouseY
+	CLASS cqy$6
+		METHOD a onPressed (DD)V
+			ARG 0 mouseX
+			ARG 1 mouseY
+	CLASS cqy$7
+		METHOD a onPressed (DD)V
+			ARG 0 mouseX
+			ARG 1 mouseY
+	CLASS cqy$8
+		METHOD a onPressed (DD)V
+			ARG 0 mouseX
+			ARG 1 mouseY
+	METHOD a draw (IIF)V
+		ARG 1 mouseX
+		ARG 2 mouseY
+	METHOD c onInitialized ()V
+	METHOD f update ()V

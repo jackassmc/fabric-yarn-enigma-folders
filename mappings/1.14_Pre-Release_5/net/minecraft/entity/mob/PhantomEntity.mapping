@@ -1,0 +1,12 @@
+CLASS aul net/minecraft/entity/mob/PhantomEntity
+	CLASS aul$a PhantomMovementType
+	CLASS aul$b
+		FIELD b PLAYERS_IN_RANGE_PREDICATE Lapz;
+	CLASS aul$d PhantomBodyControl
+	CLASS aul$f PhantomLookControl
+	CLASS aul$g PhantomMoveControl
+	FIELD b SIZE Lqh;
+	FIELD bz movementType Laul$a;
+	METHOD a setPhantomSize (I)V
+	METHOD dU onSizeChanged ()V
+	METHOD l getPhantomSize ()I

@@ -1,0 +1,2 @@
+CLASS dju net/minecraft/client/render/entity/BoatEntityRenderer
+	FIELD f SKIN [Lqh;

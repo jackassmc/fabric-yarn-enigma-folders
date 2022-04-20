@@ -1,0 +1,8 @@
+CLASS axs net/minecraft/recipe/crafting/FireworkRocketRecipe
+	METHOD a getSerializer ()Laya;
+	METHOD a fits (II)Z
+		ARG 1 width
+	METHOD a craft (Laev;)Lavs;
+	METHOD a matches (Laev;Lbaq;)Z
+		ARG 1 inv
+	METHOD d getOutput ()Lavs;

@@ -1,0 +1,4 @@
+CLASS dwp net/minecraft/client/audio/AmbientSoundPlayer
+	FIELD a player Ldjo;
+	FIELD b soundManager Ldxn;
+	FIELD c ticksUntilPlay I

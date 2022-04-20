@@ -1,0 +1,2 @@
+CLASS auj net/minecraft/entity/mob/SilverfishEntity
+	FIELD b CLOSE_PLAYER_PREDICATE Lapq;

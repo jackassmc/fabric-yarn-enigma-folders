@@ -1,0 +1,2 @@
+CLASS dbl net/minecraft/client/gui/ContainerProvider
+	METHOD a getContainer ()Layb;

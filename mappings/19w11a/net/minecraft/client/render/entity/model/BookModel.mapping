@@ -1,0 +1,18 @@
+CLASS dcw net/minecraft/client/render/entity/model/BookModel
+	FIELD a leftCover Ldfw;
+	FIELD b rightCover Ldfw;
+	FIELD c leftBlock Ldfw;
+	FIELD d rightBlock Ldfw;
+	FIELD e leftPage Ldfw;
+	FIELD f rightPage Ldfw;
+	FIELD g spine Ldfw;
+	METHOD a render (FFFFFF)V
+		ARG 1 ticks
+		ARG 2 leftPageAngle
+		ARG 3 rightPageAngle
+		ARG 4 pageTurningSpeed
+	METHOD b setPageAngles (FFFFFF)V
+		ARG 1 ticks
+		ARG 2 leftPageAngle
+		ARG 3 rightPageAngle
+		ARG 4 pageTurningSpeed

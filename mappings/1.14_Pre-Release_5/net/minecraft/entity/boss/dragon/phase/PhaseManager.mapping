@@ -1,0 +1,12 @@
+CLASS asx net/minecraft/entity/boss/dragon/phase/PhaseManager
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD b dragon Lasg;
+	FIELD c phases [Lasq;
+	FIELD d current Lasq;
+	METHOD <init> (Lasg;)V
+		ARG 1 dragon
+	METHOD a getCurrent ()Lasq;
+	METHOD a setPhase (Lasw;)V
+		ARG 1 type
+	METHOD b create (Lasw;)Lasq;
+		ARG 1 type

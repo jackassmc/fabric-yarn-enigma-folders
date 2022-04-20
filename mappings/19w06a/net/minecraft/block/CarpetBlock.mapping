@@ -1,0 +1,4 @@
+CLASS bom net/minecraft/block/CarpetBlock
+	FIELD a SHAPE Lcnt;
+	FIELD b color Lawj;
+	METHOD d getColor ()Lawj;

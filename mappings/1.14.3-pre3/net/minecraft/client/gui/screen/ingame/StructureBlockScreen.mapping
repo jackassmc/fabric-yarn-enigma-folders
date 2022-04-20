@@ -1,0 +1,62 @@
+CLASS dbz net/minecraft/client/gui/screen/ingame/StructureBlockScreen
+	CLASS dbz$1
+		METHOD charTyped (CI)Z
+			ARG 1 chr
+			ARG 2 keyCode
+	FIELD A buttonDetect Lcwu;
+	FIELD B buttonEntities Lcwu;
+	FIELD C buttonMirror Lcwu;
+	FIELD D buttonShowAir Lcwu;
+	FIELD E buttonShowBoundingBox Lcwu;
+	FIELD F decimalFormat Ljava/text/DecimalFormat;
+	FIELD a structureBlock Lbur;
+	FIELD b mirror Lbqb;
+	FIELD c rotation Lbrb;
+	FIELD d mode Lbww;
+	FIELD e ignoreEntities Z
+	FIELD f showAir Z
+	FIELD g showBoundingBox Z
+	FIELD h inputName Lcxa;
+	FIELD i inputPosX Lcxa;
+	FIELD j inputPosY Lcxa;
+	FIELD k inputPosZ Lcxa;
+	FIELD l inputSizeX Lcxa;
+	FIELD m inputSizeY Lcxa;
+	FIELD n inputSizeZ Lcxa;
+	FIELD o inputIntegrity Lcxa;
+	FIELD p inputSeed Lcxa;
+	FIELD q inputMetadata Lcxa;
+	FIELD r buttonDone Lcwu;
+	FIELD s buttonCancel Lcwu;
+	FIELD t buttonSave Lcwu;
+	FIELD u buttonLoad Lcwu;
+	FIELD v buttonRotate0 Lcwu;
+	FIELD w buttonRotate90 Lcwu;
+	FIELD x buttonRotate180 Lcwu;
+	FIELD y buttonRotate270 Lcwu;
+	FIELD z buttonMode Lcwu;
+	METHOD <init> (Lbur;)V
+		ARG 1 structureBlock
+	METHOD a done ()V
+	METHOD a parseLong (Ljava/lang/String;)J
+	METHOD b cancel ()V
+	METHOD b parseFloat (Ljava/lang/String;)F
+	METHOD c updateIgnoreEntitiesButton ()V
+	METHOD c parseInt (Ljava/lang/String;)I
+	METHOD d updateShowAirButton ()V
+	METHOD e updateShowBoundingBoxButton ()V
+	METHOD f updateMirrorButton ()V
+	METHOD g updateRotationButton ()V
+	METHOD h updateMode ()V
+	METHOD keyPressed (III)Z
+		ARG 1 keyCode
+		ARG 2 scanCode
+		ARG 3 modifiers
+	METHOD render (IIF)V
+		ARG 1 mouseX
+		ARG 2 mouseY
+		ARG 3 delta
+	METHOD resize (Lcvo;II)V
+		ARG 1 client
+		ARG 2 width
+		ARG 3 height

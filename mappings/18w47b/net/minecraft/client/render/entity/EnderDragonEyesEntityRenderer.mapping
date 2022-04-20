@@ -1,0 +1,5 @@
+CLASS djg net/minecraft/client/render/entity/EnderDragonEyesEntityRenderer
+	FIELD a SKIN Lpy;
+	METHOD a shouldMergeTextures ()Z
+	METHOD a render (Lago;FFFFFFF)V
+	METHOD a render (Lamz;FFFFFFF)V

@@ -1,0 +1,19 @@
+CLASS aps net/minecraft/entity/passive/CatEntity
+	CLASS aps$a CatFleeGoal
+		FIELD i entity Laps;
+	CLASS aps$b SleepWithOwnerGoal
+		FIELD a entity Laps;
+		FIELD b owner Lauv;
+	CLASS aps$c CatTemptGoal
+	FIELD bE TEXTURES Ljava/util/Map;
+	FIELD bF TAMING_INGREDIENT Lbde;
+	FIELD bG CAT_TYPE Lqf;
+	FIELD bH SHOULD_PURR Lqf;
+	FIELD bJ COLLAR_COLOR Lqf;
+	FIELD bK fleeGoal Laps$a;
+	METHOD a setCollarColor (Lazw;)V
+	METHOD dZ getOcelotType ()I
+	METHOD ea shouldPurr ()Z
+	METHOD ec getCollarColor ()Lazw;
+	METHOD r getOcelotType (I)V
+	METHOD u setShouldPurr (Z)V

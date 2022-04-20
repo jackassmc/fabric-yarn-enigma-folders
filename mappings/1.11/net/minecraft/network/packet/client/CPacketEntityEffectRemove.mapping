@@ -1,0 +1,17 @@
+CLASS hk net/minecraft/network/packet/client/CPacketEntityEffectRemove
+	FIELD a entityId I
+	FIELD b effectType Lsf;
+	METHOD <init> (ILsf;)V
+		ARG 0 entityId
+		ARG 1 effectType
+	METHOD a getEffectType ()Lsf;
+	METHOD a getEntity (Lajq;)Lsm;
+		ARG 0 world
+	METHOD a readPacket (Let;)V
+		ARG 0 packet
+	METHOD a applyPacket (Lew;)V
+		ARG 0 handler
+	METHOD a applyPacket (Lfp;)V
+		ARG 0 handler
+	METHOD b writePacket (Let;)V
+		ARG 0 packet

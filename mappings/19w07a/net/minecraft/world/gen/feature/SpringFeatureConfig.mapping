@@ -1,0 +1,6 @@
+CLASS bzs net/minecraft/world/gen/feature/SpringFeatureConfig
+	FIELD a state Lcgl;
+	METHOD <init> (Lcgl;)V
+		ARG 1 state
+	METHOD a deserialize (Lcom/mojang/datafixers/Dynamic;)Lbzs;
+		ARG 0 dynamic

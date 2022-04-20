@@ -1,0 +1,14 @@
+CLASS dgj net/minecraft/client/render/item/ItemModels
+	FIELD a modelIds Lit/unimi/dsi/fastutil/ints/Int2ObjectMap;
+	FIELD b models Lit/unimi/dsi/fastutil/ints/Int2ObjectMap;
+	FIELD c modelManager Ldru;
+	METHOD a getModelManager ()Ldru;
+	METHOD a getModel (Laxs;)Ldrq;
+	METHOD a putModel (Laxs;Ldrv;)V
+		ARG 1 item
+		ARG 2 modelId
+	METHOD a getSprite (Laxx;)Ldqc;
+	METHOD a getSprite (Lbde;)Ldqc;
+	METHOD b reloadModels ()V
+	METHOD b getModelId (Laxs;)I
+	METHOD b getModel (Laxx;)Ldrq;

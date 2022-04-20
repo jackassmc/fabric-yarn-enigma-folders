@@ -1,0 +1,11 @@
+CLASS auz net/minecraft/block/piston/PistonHandler
+	FIELD a world Lali;
+	FIELD b posFrom Ldx;
+	FIELD c posTo Ldx;
+	FIELD d direction Lee;
+	FIELD e movedBlocks Ljava/util/List;
+	FIELD f brokenBlocks Ljava/util/List;
+	METHOD a calculatePush ()Z
+	METHOD a tryMove (Ldx;)Z
+	METHOD c getMovedBlocks ()Ljava/util/List;
+	METHOD d getBrokenBlocks ()Ljava/util/List;

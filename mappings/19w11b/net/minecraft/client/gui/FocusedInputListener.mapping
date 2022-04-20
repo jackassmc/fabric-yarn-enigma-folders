@@ -1,0 +1,2 @@
+CLASS cvq net/minecraft/client/gui/FocusedInputListener
+	METHOD i getFocused ()Lcvp;

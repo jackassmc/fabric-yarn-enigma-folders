@@ -1,0 +1,5 @@
+CLASS dhu net/minecraft/client/render/entity/EntityRendererStray
+	FIELD a SKIN Lpx;
+	METHOD a getTexture (Lagc;)Lpx;
+	METHOD a getTexture (Lagm;)Lpx;
+	METHOD a getTexture (Laog;)Lpx;

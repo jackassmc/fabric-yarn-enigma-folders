@@ -1,0 +1,2 @@
+CLASS aiq net/minecraft/entity/attribute/EntityAttributeContainer
+	FIELD d instancesByName Ljava/util/Map;

@@ -1,0 +1,40 @@
+CLASS cio net/minecraft/structure/StrongholdGenerator
+	CLASS a ChestCorridor
+		FIELD a chestGenerated Z
+	CLASS b SmallCorridor
+		FIELD a length I
+	CLASS c FiveWayCrossing
+		FIELD a lowerLeftExists Z
+		FIELD b upperLeftExists Z
+		FIELD c lowerRightExists Z
+		FIELD e upperRightExists Z
+	CLASS d LeftTurn
+	CLASS e Library
+		FIELD a tall Z
+	CLASS g PortalRoom
+		FIELD a spawnerPlaced Z
+	CLASS h PrisonHall
+	CLASS i RightTurn
+	CLASS j SquareRoom
+		FIELD a roomType I
+	CLASS k StoneBrickRandomizer
+	CLASS l SpiralStaircase
+		FIELD a isStructureStart Z
+	CLASS m Start
+	CLASS n Corridor
+		FIELD a leftExitExists Z
+		FIELD b rightExitExixts Z
+	CLASS o Stairs
+	CLASS p Piece
+		CLASS a EntranceType
+		FIELD d entryDoor Lcio$p$a;
+		METHOD a generateEntrance (Lbho;Ljava/util/Random;Lchy;Lcio$p$a;III)V
+			ARG 1 world
+			ARG 2 random
+			ARG 3 boundingBox
+			ARG 4 type
+			ARG 5 x
+			ARG 6 y
+			ARG 7 z
+		METHOD a getRandomEntrance (Ljava/util/Random;)Lcio$p$a;
+			ARG 1 random

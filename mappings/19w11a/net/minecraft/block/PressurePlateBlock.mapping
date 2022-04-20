@@ -1,0 +1,9 @@
+CLASS boy net/minecraft/block/PressurePlateBlock
+	CLASS boy$a net/minecraft/block/PressurePlateBlock$Type
+		FIELD a WOOD Lboy$a;
+		FIELD b STONE Lboy$a;
+	FIELD d POWERED Lbup;
+	FIELD e type Lboy$a;
+	METHOD <init> (Lboy$a;Lbkz$c;)V
+		ARG 1 type
+		ARG 2 settings

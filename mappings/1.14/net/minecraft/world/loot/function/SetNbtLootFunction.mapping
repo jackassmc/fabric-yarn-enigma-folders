@@ -1,0 +1,10 @@
+CLASS cqf net/minecraft/world/loot/function/SetNbtLootFunction
+	CLASS cqf$a Builder
+	FIELD a tag Lib;
+	METHOD <init> ([Lcqy;Lib;)V
+		ARG 1 conditions
+		ARG 2 tag
+	METHOD a builder (Lib;)Lcpu$a;
+		ARG 0 tag
+	METHOD a (Lib;[Lcqy;)Lcpv;
+		ARG 1 conditions

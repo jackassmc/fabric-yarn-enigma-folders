@@ -1,0 +1,7 @@
+CLASS dib net/minecraft/client/render/entity/EntityRendererSheepWool
+	FIELD a SKIN Lpu;
+	METHOD a shouldMergeTextures ()Z
+	METHOD a render (Lage;FFFFFFF)V
+		ARG 1 entity
+	METHOD a render (Laln;FFFFFFF)V
+		ARG 1 entity

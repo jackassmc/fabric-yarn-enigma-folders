@@ -1,0 +1,2 @@
+CLASS dmg net/minecraft/client/render/block/entity/EndGatewayBlockEntityRenderer
+	FIELD c BEAM_TEXTURE Lqr;

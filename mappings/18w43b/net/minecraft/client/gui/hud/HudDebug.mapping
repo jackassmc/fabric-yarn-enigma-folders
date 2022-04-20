@@ -1,0 +1,7 @@
+CLASS ckm net/minecraft/client/gui/hud/HudDebug
+	FIELD a game Lcjj;
+	FIELD f fontRenderer Lcjz;
+	METHOD <init> (Lcjj;)V
+		ARG 0 game
+	METHOD c drawLeftInfoText ()V
+	METHOD j drawDebugGraph ()V

@@ -1,0 +1,6 @@
+CLASS cau net/minecraft/client/render/entity/EntityRendererSpider
+	FIELD a SKIN Lnd;
+	METHOD a getTexture (Ladl;)Lnd;
+		ARG 0 model
+	METHOD a getTexture (Lve;)Lnd;
+		ARG 0 model

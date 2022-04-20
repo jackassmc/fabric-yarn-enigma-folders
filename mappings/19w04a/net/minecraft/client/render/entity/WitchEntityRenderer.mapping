@@ -1,0 +1,2 @@
+CLASS dmh net/minecraft/client/render/entity/WitchEntityRenderer
+	FIELD a SKIN Lqd;

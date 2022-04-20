@@ -1,0 +1,22 @@
+CLASS jf net/minecraft/network/packet/client/CPacketWorldEvent
+	FIELD a eventId I
+	FIELD b pos Let;
+	FIELD c data I
+	FIELD d global Z
+	METHOD <init> (ILet;IZ)V
+		ARG 0 eventId
+		ARG 1 pos
+		ARG 2 data
+		ARG 3 global
+	METHOD a isGlobal ()Z
+	METHOD a readPacket (Lgy;)V
+		ARG 0 buf
+	METHOD a applyPacket (Lhb;)V
+		ARG 0 handler
+	METHOD a applyPacket (Lhw;)V
+		ARG 0 handler
+	METHOD b getEventId ()I
+	METHOD b writePacket (Lgy;)V
+		ARG 0 buf
+	METHOD c getEffectData ()I
+	METHOD d getPos ()Let;

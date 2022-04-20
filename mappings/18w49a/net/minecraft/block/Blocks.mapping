@@ -1,0 +1,4 @@
+CLASS bfu net/minecraft/block/Blocks
+	METHOD a register (Ljava/lang/String;Lbft;)Lbft;
+		ARG 0 id
+		ARG 1 block

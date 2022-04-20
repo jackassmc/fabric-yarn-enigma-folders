@@ -1,0 +1,2 @@
+CLASS dsl net/minecraft/client/render/entity/ZombieVillagerEntityRenderer
+	FIELD a SKIN Lqt;

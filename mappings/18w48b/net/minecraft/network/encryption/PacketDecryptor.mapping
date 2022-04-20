@@ -1,0 +1,2 @@
+CLASS ik net/minecraft/network/encryption/PacketDecryptor
+	FIELD a manager Lij;

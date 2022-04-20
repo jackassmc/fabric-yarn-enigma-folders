@@ -1,0 +1,5 @@
+CLASS dly net/minecraft/client/render/model/json/MultipartModelSelector
+	FIELD a TRUE Ldly;
+	FIELD b FALSE Ldly;
+	METHOD getPredicate (Lbvl;)Ljava/util/function/Predicate;
+		ARG 1 stateFactory

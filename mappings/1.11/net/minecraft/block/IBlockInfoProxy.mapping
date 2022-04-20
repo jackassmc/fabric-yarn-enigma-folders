@@ -1,0 +1,68 @@
+CLASS ati net/minecraft/block/IBlockInfoProxy
+	METHOD a getMaterial ()Lazq;
+	METHOD a calcBlockBreakingDelta (Laax;Lajq;Lco;)F
+		ARG 0 player
+		ARG 1 world
+		ARG 2 pos
+	METHOD a getComparatorOutput (Lajq;Lco;)I
+		ARG 0 world
+		ARG 1 pos
+	METHOD a addBoundingBox (Lajq;Lco;Lbdr;Ljava/util/List;Lsm;)V
+		ARG 0 world
+		ARG 1 pos
+		ARG 2 mask
+		ARG 3 boxes
+		ARG 4 entity
+	METHOD a rayTrace (Lajq;Lco;Lbdu;Lbdu;)Lbds;
+		ARG 0 world
+		ARG 1 pos
+	METHOD a getBlockBrightness (Laju;Lco;)I
+		ARG 0 view
+		ARG 1 pos
+	METHOD a getWeakRedstonePower (Laju;Lco;Lcv;)I
+		ARG 0 view
+		ARG 1 pos
+		ARG 2 facingFrom
+	METHOD a applyMirror (Laos;)Latj;
+		ARG 0 mirror
+	METHOD a applyRotation (Laqg;)Latj;
+		ARG 0 rotation
+	METHOD a allowsSpawning (Lsm;)Z
+		ARG 0 entity
+	METHOD b isFullBoundsCube ()Z
+	METHOD b getHardness (Lajq;Lco;)F
+		ARG 0 world
+		ARG 1 pos
+	METHOD b getRenderingState (Laju;Lco;)Latj;
+		ARG 0 view
+		ARG 1 pos
+	METHOD b getStrongRedstonePower (Laju;Lco;Lcv;)I
+		ARG 0 view
+		ARG 1 pos
+		ARG 2 facingFrom
+	METHOD c getLightOpacityLevel ()I
+	METHOD c getBoundingBoxClient (Lajq;Lco;)Lbdr;
+		ARG 0 world
+		ARG 1 pos
+	METHOD c getCollisionBox (Laju;Lco;)Lbdr;
+		ARG 0 view
+		ARG 1 pos
+	METHOD c shouldRenderSide (Laju;Lco;Lcv;)Z
+		ARG 0 view
+		ARG 1 pos
+		ARG 2 side
+	METHOD d getLightEmissionLevel ()I
+	METHOD d getBoundingBox (Laju;Lco;)Lbdr;
+		ARG 0 view
+		ARG 1 pos
+	METHOD e allowsLightTransmission ()Z
+	METHOD e getOffsetPos (Laju;Lco;)Lbdu;
+	METHOD g getMapColor ()Lazr;
+	METHOD h canBeConnectedTo ()Z
+	METHOD j getRenderType ()Laqd;
+	METHOD k getAmbientOcclusionLightLevel ()F
+	METHOD l isSimpleFullBlock ()Z
+	METHOD m emitsRedstonePower ()Z
+	METHOD n hasComparatorOutput ()Z
+	METHOD p getPistonBehavior ()Lazt;
+	METHOD q hasSolidTopSurface ()Z

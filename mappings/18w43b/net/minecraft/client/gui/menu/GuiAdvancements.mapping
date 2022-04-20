@@ -1,0 +1,27 @@
+CLASS coh net/minecraft/client/gui/menu/GuiAdvancements
+	FIELD a WINDOW_TEX Lpt;
+	FIELD f TABS_TEX Lpt;
+	FIELD g advancementHandler Lcut;
+	FIELD h widgetMap Ljava/util/Map;
+	FIELD i selectedWidget Lcod;
+	METHOD <init> (Lcut;)V
+		ARG 0 advancementHandler
+	METHOD a draw (IIF)V
+		ARG 0 mouseX
+		ARG 1 mouseY
+		ARG 2 delta
+	METHOD b drawWidgets (II)V
+		ARG 0 x
+		ARG 1 y
+	METHOD c init ()V
+	METHOD c drawAdvancementTree (IIII)V
+		ARG 0 mouseX
+		ARG 1 mouseY
+		ARG 2 x
+		ARG 3 y
+	METHOD d drawWidgetTooltip (IIII)V
+		ARG 0 mouseX
+		ARG 1 mouseY
+		ARG 2 x
+		ARG 3 y
+	METHOD n onClosed ()V

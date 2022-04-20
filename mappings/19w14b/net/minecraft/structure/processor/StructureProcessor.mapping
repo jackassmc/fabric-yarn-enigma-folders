@@ -1,0 +1,6 @@
+CLASS ciw net/minecraft/structure/processor/StructureProcessor
+	METHOD a getType ()Lcix;
+	METHOD a process (Lbha;Lev;Lciy$b;Lciy$b;Lciv;)Lciy$b;
+		ARG 1 world
+		ARG 2 pos
+		ARG 5 placementData

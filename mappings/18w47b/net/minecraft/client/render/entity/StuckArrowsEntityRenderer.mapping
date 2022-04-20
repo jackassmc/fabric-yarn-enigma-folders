@@ -1,0 +1,4 @@
+CLASS div net/minecraft/client/render/entity/StuckArrowsEntityRenderer
+	FIELD a renderer Ldgx;
+	METHOD a shouldMergeTextures ()Z
+	METHOD a render (Lago;FFFFFFF)V

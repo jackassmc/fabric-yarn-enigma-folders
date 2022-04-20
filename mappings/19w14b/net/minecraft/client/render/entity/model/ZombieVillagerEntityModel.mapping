@@ -1,0 +1,2 @@
+CLASS dgi net/minecraft/client/render/entity/model/ZombieVillagerEntityModel
+	FIELD a hat Ldgp;

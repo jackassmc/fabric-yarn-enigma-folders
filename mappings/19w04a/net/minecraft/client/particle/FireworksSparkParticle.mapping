@@ -1,0 +1,20 @@
+CLASS ddc net/minecraft/client/particle/FireworksSparkParticle
+	CLASS ddc$a
+		METHOD <init> (Lbcl;DDD)V
+			ARG 1 x
+			ARG 2 y
+	CLASS ddc$b Factory
+	CLASS ddc$d create
+		FIELD J age I
+		FIELD K particleManager Lddn;
+		FIELD L explosions Lhx;
+		FIELD M flicker Z
+		METHOD <init> (Lbcl;DDDDDDLddn;Lhr;)V
+			ARG 2 x
+			ARG 4 y
+			ARG 6 z
+			ARG 8 velocityX
+			ARG 10 velocityY
+			ARG 12 velocityZ
+			ARG 14 particleManager
+			ARG 15 tag

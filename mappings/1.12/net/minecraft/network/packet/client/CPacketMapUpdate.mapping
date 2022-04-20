@@ -1,0 +1,30 @@
+CLASS ji net/minecraft/network/packet/client/CPacketMapUpdate
+	FIELD a id I
+	FIELD b scale B
+	FIELD c showIcons Z
+	FIELD d icons [Lbes;
+	FIELD e updateLeft I
+	FIELD f updateTop I
+	FIELD g updateHeight I
+	FIELD h updateWidth I
+	FIELD i updateData [B
+	METHOD <init> (IBZLjava/util/Collection;[BIIII)V
+		ARG 0 id
+		ARG 1 scale
+		ARG 2 showIcons
+		ARG 3 mapIcons
+		ARG 4 updateData
+		ARG 5 updateLeft
+		ARG 6 updateTop
+		ARG 7 updateHeight
+		ARG 8 updateWidth
+	METHOD a getId ()I
+	METHOD a apply (Lbet;)V
+	METHOD a readPacket (Lgy;)V
+		ARG 0 buf
+	METHOD a applyPacket (Lhb;)V
+		ARG 0 handler
+	METHOD a applyPacket (Lhw;)V
+		ARG 0 handler
+	METHOD b writePacket (Lgy;)V
+		ARG 0 buf

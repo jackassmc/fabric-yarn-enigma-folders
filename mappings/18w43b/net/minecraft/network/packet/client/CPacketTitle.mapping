@@ -1,0 +1,36 @@
+CLASS mi net/minecraft/network/packet/client/CPacketTitle
+	CLASS mi$a Action
+		FIELD d DISPLAY Lmi$a;
+		FIELD e HIDE Lmi$a;
+		FIELD f RESET Lmi$a;
+	FIELD a action Lmi$a;
+	FIELD b text Liw;
+	FIELD c ticksFadeIn I
+	FIELD d ticksDisplay I
+	FIELD e ticksFadeOut I
+	METHOD <init> (III)V
+		ARG 0 ticksFadeIn
+		ARG 1 ticksDisplay
+		ARG 2 ticksFadeOut
+	METHOD <init> (Lmi$a;Liw;)V
+		ARG 0 action
+		ARG 1 text
+	METHOD <init> (Lmi$a;Liw;III)V
+		ARG 0 action
+		ARG 1 text
+		ARG 2 ticksFadeIn
+		ARG 3 ticksDisplay
+		ARG 4 ticksFadeOut
+	METHOD a readPacket (Lim;)V
+		ARG 0 buf
+	METHOD a applyPacket (Lip;)V
+		ARG 0 handler
+	METHOD a applyPacket (Ljn;)V
+		ARG 0 handler
+	METHOD b getAction ()Lmi$a;
+	METHOD b writePacket (Lim;)V
+		ARG 0 buf
+	METHOD c getText ()Liw;
+	METHOD d getTicksFadeIn ()I
+	METHOD e getTicksDisplay ()I
+	METHOD f getTicksFadeOut ()I

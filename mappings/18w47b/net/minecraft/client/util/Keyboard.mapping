@@ -1,0 +1,16 @@
+CLASS cnc net/minecraft/client/util/Keyboard
+	FIELD a game Lcnd;
+	FIELD b repeatEvents Z
+	FIELD c clipboard Lcln;
+	METHOD a getClipboard ()Ljava/lang/String;
+	METHOD a setup (J)V
+	METHOD a onChar (JII)V
+		ARG 1 window
+	METHOD a onKey (JIIII)V
+		ARG 1 window
+		ARG 3 key
+		ARG 4 scancode
+	METHOD a setClipbord (Ljava/lang/String;)V
+	METHOD a debugWarn (Ljava/lang/String;[Ljava/lang/Object;)V
+	METHOD a enableRepeatEvents (Z)V
+	METHOD b debugError (Ljava/lang/String;[Ljava/lang/Object;)V

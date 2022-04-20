@@ -1,0 +1,12 @@
+CLASS cyp net/minecraft/client/gui/menu/DirectConnectServerScreen
+	FIELD a selectServerButton Lcwc;
+	FIELD b parent Lczn;
+	FIELD c serverEntry Ldhk;
+	FIELD d addressField Lcwh;
+	METHOD <init> (Lczn;Ldhk;)V
+		ARG 1 parent
+		ARG 2 serverEntry
+	METHOD a saveAndClose ()V
+	METHOD a (Ljava/lang/String;)V
+		ARG 1 text
+	METHOD b onAddressFieldChanged ()V

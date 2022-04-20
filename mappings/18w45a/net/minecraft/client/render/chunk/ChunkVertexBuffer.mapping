@@ -1,0 +1,4 @@
+CLASS czu net/minecraft/client/render/chunk/ChunkVertexBuffer
+	FIELD a renderLayerVertexBuffers [Lcli;
+	METHOD a getVertexBuffer (I)Lcli;
+	METHOD a getVertexBuffer (Lazm;)Lcli;

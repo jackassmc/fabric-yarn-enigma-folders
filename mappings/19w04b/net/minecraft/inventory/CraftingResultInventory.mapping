@@ -1,0 +1,3 @@
+CLASS aum net/minecraft/inventory/CraftingResultInventory
+	FIELD a stack Lfh;
+	FIELD b lastRecipe Lazn;

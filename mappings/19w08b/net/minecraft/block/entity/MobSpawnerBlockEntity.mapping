@@ -1,0 +1,3 @@
+CLASS bqg net/minecraft/block/entity/MobSpawnerBlockEntity
+	FIELD a logic Lbcn;
+	METHOD c getLogic ()Lbcn;

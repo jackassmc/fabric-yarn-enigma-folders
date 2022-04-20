@@ -1,0 +1,4 @@
+CLASS bfj net/minecraft/enchantment/EfficiencyEnchantment
+	METHOD <init> (Lbfk$a;[Laio;)V
+		ARG 1 weight
+		ARG 2 slotTypes

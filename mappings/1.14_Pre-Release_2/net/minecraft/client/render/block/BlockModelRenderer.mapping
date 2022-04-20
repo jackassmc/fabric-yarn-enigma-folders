@@ -1,0 +1,112 @@
+CLASS dkx net/minecraft/client/render/block/BlockModelRenderer
+	CLASS dkx$a NeighborData
+		FIELD a DOWN Ldkx$a;
+		FIELD b UP Ldkx$a;
+		FIELD c NORTH Ldkx$a;
+		FIELD d SOUTH Ldkx$a;
+		FIELD e WEST Ldkx$a;
+		FIELD f EAST Ldkx$a;
+		FIELD g faces [Lfa;
+		FIELD h nonCubicWeight Z
+		METHOD a getData (Lfa;)Ldkx$a;
+	CLASS dkx$b AmbientOcclusionCalculator
+		FIELD b colorMultiplier [F
+		FIELD c brightness [I
+		METHOD a getAmbientOcclusionBrightness (IIII)I
+		METHOD a getBrightness (IIIIFFFF)I
+		METHOD a apply (Lbgj;Lbvc;Lev;Lfa;[FLjava/util/BitSet;)V
+	CLASS dkx$c Translation
+		FIELD a DOWN Ldkx$c;
+		FIELD b UP Ldkx$c;
+		FIELD c NORTH Ldkx$c;
+		FIELD d SOUTH Ldkx$c;
+		FIELD e WEST Ldkx$c;
+		FIELD f EAST Ldkx$c;
+		FIELD g firstCorner I
+		FIELD h secondCorner I
+		FIELD i thirdCorner I
+		FIELD j fourthCorner I
+		FIELD k VALUES [Ldkx$c;
+		METHOD a getTranslations (Lfa;)Ldkx$c;
+	CLASS dkx$d NeighborOrientation
+		FIELD a DOWN Ldkx$d;
+		FIELD b UP Ldkx$d;
+		FIELD c NORTH Ldkx$d;
+		FIELD d SOUTH Ldkx$d;
+		FIELD e WEST Ldkx$d;
+		FIELD f EAST Ldkx$d;
+		FIELD g FLIP_DOWN Ldkx$d;
+		FIELD h FLIP_UP Ldkx$d;
+		FIELD i FLIP_NORTH Ldkx$d;
+		FIELD j FLIP_SOUTH Ldkx$d;
+		FIELD k FLIP_WEST Ldkx$d;
+		FIELD l FLIP_EAST Ldkx$d;
+		FIELD m shape I
+	FIELD a colorMap Lcvo;
+	FIELD b brightnessCache Ljava/lang/ThreadLocal;
+	FIELD c brightnessCacheEnabled Ljava/lang/ThreadLocal;
+	METHOD a enableBrightnessCache ()V
+	METHOD a renderQuad (FFFFLjava/util/List;)V
+		ARG 1 colorMultiplier
+		ARG 2 red
+		ARG 3 green
+		ARG 4 blue
+	METHOD a tesselateQuadsFlat (Lbgj;Lbvc;Lev;IZLcuc;Ljava/util/List;Ljava/util/BitSet;)V
+		ARG 1 view
+		ARG 2 state
+		ARG 3 pos
+		ARG 4 brightness
+		ARG 5 checkBrightness
+		ARG 6 buffer
+		ARG 7 quads
+	METHOD a tesselateQuadsSmooth (Lbgj;Lbvc;Lev;Lcuc;Ljava/util/List;[FLjava/util/BitSet;Ldkx$b;)V
+		ARG 1 view
+		ARG 2 state
+		ARG 3 pos
+		ARG 4 buffer
+		ARG 5 quads
+		ARG 6 faceShape
+		ARG 7 shapeState
+	METHOD a updateShape (Lbgj;Lbvc;Lev;[ILfa;[FLjava/util/BitSet;)V
+		ARG 3 state
+		ARG 4 vertexData
+		ARG 5 facing
+		ARG 6 faceShape
+	METHOD a tesselate (Lbgj;Ldvn;Lbvc;Lev;Lcuc;ZLjava/util/Random;J)Z
+		ARG 1 view
+		ARG 2 model
+		ARG 3 state
+		ARG 4 pos
+		ARG 5 buffer
+		ARG 6 testSides
+	METHOD a render (Lbvc;Ldvn;FFFF)V
+		ARG 1 state
+		ARG 2 model
+		ARG 3 colorMultiplier
+		ARG 4 red
+		ARG 5 green
+	METHOD a render (Ldvn;FFFF)V
+		ARG 1 model
+		ARG 2 colorMultiplier
+		ARG 3 red
+		ARG 4 green
+	METHOD a render (Ldvn;Lbvc;FZ)V
+		ARG 1 model
+		ARG 2 state
+		ARG 3 colorMultiplier
+	METHOD b disableBrightnessCache ()V
+	METHOD b tesselateSmooth (Lbgj;Ldvn;Lbvc;Lev;Lcuc;ZLjava/util/Random;J)Z
+		ARG 1 view
+		ARG 2 model
+		ARG 3 state
+		ARG 4 pos
+		ARG 5 buffer
+		ARG 6 testSides
+	METHOD c tesselateFlat (Lbgj;Ldvn;Lbvc;Lev;Lcuc;ZLjava/util/Random;J)Z
+		ARG 1 view
+		ARG 2 model
+		ARG 3 state
+		ARG 4 pos
+		ARG 5 buffer
+		ARG 6 testSides
+		ARG 8 seed

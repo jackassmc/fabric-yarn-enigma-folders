@@ -1,0 +1,3 @@
+CLASS bmu net/minecraft/block/BlockEntityProvider
+	METHOD a createBlockEntity (Lbfj;)Lbsa;
+		ARG 1 view

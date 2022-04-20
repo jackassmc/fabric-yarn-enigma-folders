@@ -1,0 +1,5 @@
+CLASS uu net/minecraft/entity/IJumpingMount
+	METHOD a canJump ()Z
+	METHOD a_ setJumpStrength (I)V
+	METHOD b_ startJumping (I)V
+	METHOD r_ stopJumping ()V

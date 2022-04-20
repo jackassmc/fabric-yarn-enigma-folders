@@ -1,0 +1,5 @@
+CLASS dbf net/minecraft/client/render/model/BakedQuadRetextured
+	FIELD e texture Ldjl;
+	METHOD <init> (Lday;Ldjl;)V
+		ARG 1 parent
+	METHOD f recalculateUvs ()V

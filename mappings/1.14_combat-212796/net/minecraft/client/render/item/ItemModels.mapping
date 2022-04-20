@@ -1,0 +1,14 @@
+CLASS dks net/minecraft/client/render/item/ItemModels
+	FIELD a modelIds Lit/unimi/dsi/fastutil/ints/Int2ObjectMap;
+	FIELD b models Lit/unimi/dsi/fastutil/ints/Int2ObjectMap;
+	FIELD c modelManager Ldwg;
+	METHOD a getModelManager ()Ldwg;
+	METHOD a getModel (Lbbz;)Ldwc;
+	METHOD a putModel (Lbbz;Ldwh;)V
+		ARG 1 item
+		ARG 2 modelId
+	METHOD a getSprite (Lbce;)Lduo;
+	METHOD a getSprite (Lbhm;)Lduo;
+	METHOD b reloadModels ()V
+	METHOD b getModelId (Lbbz;)I
+	METHOD b getModel (Lbce;)Ldwc;

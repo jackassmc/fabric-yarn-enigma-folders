@@ -1,0 +1,2 @@
+CLASS avg net/minecraft/village/VillagerDataContainer
+	METHOD ee getVillagerData ()Lavf;

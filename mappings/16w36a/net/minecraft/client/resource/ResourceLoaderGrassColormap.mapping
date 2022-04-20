@@ -1,0 +1,4 @@
+CLASS none/bxz net/minecraft/client/resource/ResourceLoaderGrassColormap
+	FIELD a GRASS_COLORMAP_LOC Lnone/kp;
+	METHOD a onResourceReload (Lnone/byc;)V
+		ARG 0 container

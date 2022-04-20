@@ -1,0 +1,53 @@
+CLASS dpx net/minecraft/client/render/entity/LivingEntityRenderer
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD f model Ldeg;
+	FIELD g colorOverlayBuffer Ljava/nio/FloatBuffer;
+	FIELD h features Ljava/util/List;
+	FIELD i disableOutlineRender Z
+	FIELD j colorOverlayTexture Ldtp;
+	METHOD a scale (Laim;F)V
+		ARG 1 entity
+		ARG 2 tickDelta
+	METHOD a getOverlayColor (Laim;FF)I
+	METHOD a setupTransforms (Laim;FFF)V
+		ARG 1 entity
+		ARG 2 pitch
+		ARG 3 yaw
+		ARG 4 delta
+	METHOD a render (Laim;FFFFFF)V
+		ARG 1 entity
+		ARG 2 limbAngle
+		ARG 3 limbDistance
+		ARG 4 age
+		ARG 5 headYaw
+		ARG 6 headPitch
+		ARG 7 scale
+	METHOD a renderFeatures (Laim;FFFFFFF)V
+		ARG 1 entity
+		ARG 2 limbAngle
+		ARG 3 limbDistance
+		ARG 4 tickDelta
+		ARG 5 age
+		ARG 6 headYaw
+		ARG 7 headPitch
+		ARG 8 scale
+	METHOD a applyOverlayColor (Laim;FZ)Z
+		ARG 1 entity
+		ARG 2 tickDelta
+		ARG 3 hasHurtOverlay
+	METHOD a addFeature (Ldsw;)Z
+	METHOD b getLyingAngle (Laim;)F
+	METHOD b getAge (Laim;F)F
+		ARG 1 entity
+		ARG 2 tickDelta
+	METHOD c renderLeftArmOverlay (Laim;)Z
+	METHOD c scaleAndTranslate (Laim;F)F
+		ARG 1 entity
+		ARG 2 tickDelta
+	METHOD d beforeOutlineRender (Laim;)Z
+	METHOD d applyOverlayColor (Laim;F)Z
+	METHOD e afterOutlineRender ()V
+	METHOD e getHandSwingProgress (Laim;F)F
+		ARG 1 entity
+		ARG 2 tickDelta
+	METHOD f disableOverlayColor ()V

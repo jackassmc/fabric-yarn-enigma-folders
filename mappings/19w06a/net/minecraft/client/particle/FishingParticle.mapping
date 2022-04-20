@@ -1,0 +1,2 @@
+CLASS deq net/minecraft/client/particle/FishingParticle
+	CLASS deq$a Factory

@@ -1,0 +1,4 @@
+CLASS cla net/minecraft/world/biome/layer/LayerRandomnessSource
+	METHOD a getNoiseSampler ()Lcjp;
+	METHOD a nextInt (I)I
+		ARG 1 bound

@@ -1,0 +1,8 @@
+CLASS ath net/minecraft/container/ShulkerBoxContainer
+	FIELD a inventory Laex;
+	METHOD a canUse (Laql;)Z
+		ARG 0 player
+	METHOD b close (Laql;)V
+	METHOD b transferSlot (Laql;I)Lavu;
+		ARG 0 player
+		ARG 1 player

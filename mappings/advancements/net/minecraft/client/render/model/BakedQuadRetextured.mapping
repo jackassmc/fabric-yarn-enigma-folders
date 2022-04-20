@@ -1,0 +1,3 @@
+CLASS buf net/minecraft/client/render/model/BakedQuadRetextured
+	FIELD e texture Lcbw;
+	METHOD f recalculateUvs ()V

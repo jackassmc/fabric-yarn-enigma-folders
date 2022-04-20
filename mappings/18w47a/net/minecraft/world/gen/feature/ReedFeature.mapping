@@ -1,0 +1,2 @@
+CLASS bwg net/minecraft/world/gen/feature/ReedFeature
+	METHOD a generate (Lban;Lbqc;Ljava/util/Random;Les;Lbuf;)Z

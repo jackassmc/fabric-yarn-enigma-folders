@@ -1,0 +1,8 @@
+CLASS cyi net/minecraft/client/gui/menu/options/ChatOptionsScreen
+	FIELD a OPTIONS [Lcvd;
+	FIELD b parent Lczi;
+	FIELD c options Lcve;
+	FIELD d narratorOptionButton Lcwe;
+	METHOD <init> (Lczi;Lcve;)V
+		ARG 1 parent
+		ARG 2 options

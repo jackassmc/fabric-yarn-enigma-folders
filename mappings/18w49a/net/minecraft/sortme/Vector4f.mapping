@@ -1,0 +1,16 @@
+CLASS cno net/minecraft/sortme/Vector4f
+	FIELD a components [F
+	METHOD <init> (FFFF)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD a x ()F
+	METHOD a (FFFF)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD b y ()F
+	METHOD c z ()F
+	METHOD d w ()F
+	METHOD equals (Ljava/lang/Object;)Z
+		ARG 0 object

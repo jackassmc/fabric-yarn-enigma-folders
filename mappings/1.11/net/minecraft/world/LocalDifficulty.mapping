@@ -1,0 +1,5 @@
+CLASS rg net/minecraft/world/LocalDifficulty
+	FIELD a difficulty Lrf;
+	METHOD <init> (Lrf;JJF)V
+		ARG 0 difficulty
+		ARG 1 timeOfDay

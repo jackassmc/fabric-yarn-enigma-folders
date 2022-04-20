@@ -1,0 +1,2 @@
+CLASS bwa net/minecraft/world/gen/feature/PillagerOutpostFeature
+	METHOD b getName ()Ljava/lang/String;

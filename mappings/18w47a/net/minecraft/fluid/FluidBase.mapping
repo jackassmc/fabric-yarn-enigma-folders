@@ -1,0 +1,3 @@
+CLASS cde net/minecraft/fluid/FluidBase
+	METHOD e getFlowing ()Lcdf;
+	METHOD f getStill ()Lcdf;

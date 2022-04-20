@@ -1,0 +1,3 @@
+CLASS cma net/minecraft/world/loot/condition/LocationCheckLootCondition
+	CLASS cma$a Factory
+	FIELD a location Lbd;

@@ -1,0 +1,6 @@
+CLASS akb net/minecraft/entity/ai/goal/FormCaravanGoal
+	FIELD a owner Lanz;
+	FIELD b speed D
+	FIELD c counter I
+	METHOD a canFollow (Lanz;I)Z
+		ARG 2 length

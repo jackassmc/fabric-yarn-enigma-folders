@@ -1,0 +1,4 @@
+CLASS pl net/minecraft/migration/TagUpgraderMobSpawner
+	METHOD a getTargetVersion ()I
+	METHOD a upgradeTag (Ldu;)Ldu;
+		ARG 0 tag

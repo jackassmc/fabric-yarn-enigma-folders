@@ -1,0 +1,2 @@
+CLASS ddb net/minecraft/client/render/entity/model/ChickenEntityModel
+	FIELD a head Ldfx;

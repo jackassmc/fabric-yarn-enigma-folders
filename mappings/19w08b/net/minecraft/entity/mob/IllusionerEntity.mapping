@@ -1,0 +1,4 @@
+CLASS aql net/minecraft/entity/mob/IllusionerEntity
+	CLASS aql$a BlindTargetGoal
+		FIELD e targetId I
+	CLASS aql$b GiveInvisibilityGoal

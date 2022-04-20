@@ -1,0 +1,54 @@
+CLASS ctz net/minecraft/client/gui/menu/GuiNewLevel
+	CLASS ctz$1
+		METHOD a onPressed (DD)V
+			ARG 0 mouseX
+	CLASS ctz$2
+		METHOD a onPressed (DD)V
+			ARG 0 mouseX
+	CLASS ctz$3
+		METHOD a onPressed (DD)V
+			ARG 0 mouseX
+	CLASS ctz$4
+		METHOD a onPressed (DD)V
+			ARG 0 mouseX
+	CLASS ctz$5
+		METHOD a onPressed (DD)V
+			ARG 0 mouseX
+	CLASS ctz$6
+		METHOD a onPressed (DD)V
+			ARG 0 mouseX
+	CLASS ctz$7
+		METHOD a onPressed (DD)V
+			ARG 0 mouseX
+	CLASS ctz$8
+		METHOD a onPressed (DD)V
+			ARG 0 mouseX
+	CLASS ctz$9
+		METHOD a onPressed (DD)V
+			ARG 0 mouseX
+	FIELD C buttonGameModeSwitch Lcnu;
+	FIELD D buttonMoreOptions Lcnu;
+	FIELD E buttonGenerateStructures Lcnu;
+	FIELD F buttonGenerateBonusItems Lcnu;
+	FIELD G buttonMapTypeSwitch Lcnu;
+	FIELD H buttonCommandsAllowed Lcnu;
+	FIELD I buttonCustomizeType Lcnu;
+	FIELD L seed Ljava/lang/String;
+	FIELD M levelName Ljava/lang/String;
+	FIELD N generatorType I
+	FIELD O INVALID_LEVEL_NAMES [Ljava/lang/String;
+	FIELD f parent Lcrc;
+	FIELD s gameMode Ljava/lang/String;
+	FIELD u structures Z
+	FIELD v commandsAllowed Z
+	METHOD a draw (IIF)V
+		ARG 1 mouseX
+		ARG 2 mouseY
+	METHOD c onInitialized ()V
+	METHOD f update ()V
+	METHOD keyPressed (III)Z
+		ARG 1 keyCode
+		ARG 2 scanCode
+	METHOD mouseClicked (DDI)Z
+		ARG 1 mouseX
+	METHOD n onClosed ()V

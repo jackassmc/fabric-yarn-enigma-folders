@@ -1,0 +1,12 @@
+CLASS ddf net/minecraft/client/particle/ExplosionLargeParticle
+	CLASS ddf$a Factory
+	FIELD J TEX Lqd;
+	FIELD L age_ I
+	FIELD M maxAge_ I
+	FIELD N textureManager Ldon;
+	METHOD <init> (Ldon;Lbcl;DDDDDD)V
+		ARG 1 textureManager
+		ARG 2 world
+		ARG 3 x
+		ARG 5 y
+		ARG 7 rz

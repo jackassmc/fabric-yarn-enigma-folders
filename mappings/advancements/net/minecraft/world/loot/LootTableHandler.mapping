@@ -1,0 +1,11 @@
+CLASS beg net/minecraft/world/loot/LootTableHandler
+	CLASS beg$a Loader
+		METHOD a load (Lmd;)Lbed;
+		METHOD b loadFromFile (Lmd;)Lbed;
+		METHOD c loadFromAssets (Lmd;)Lbed;
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD b GSON Lcom/google/gson/Gson;
+	FIELD c lootTables Lcom/google/common/cache/LoadingCache;
+	FIELD d baseDir Ljava/io/File;
+	METHOD a reload ()V
+	METHOD a getLootTable (Lmd;)Lbed;

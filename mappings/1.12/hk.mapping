@@ -1,0 +1,5 @@
+CLASS hk
+	METHOD e getText ()Ljava/lang/String;
+	METHOD equals (Ljava/lang/Object;)Z
+		ARG 0 object
+	METHOD f getTextComponent ()Lhh;

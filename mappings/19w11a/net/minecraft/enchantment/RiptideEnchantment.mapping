@@ -1,0 +1,4 @@
+CLASS beu net/minecraft/enchantment/RiptideEnchantment
+	METHOD <init> (Lbea$a;[Laib;)V
+		ARG 1 weight
+		ARG 2 slotTypes

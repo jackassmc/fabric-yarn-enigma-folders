@@ -1,0 +1,35 @@
+CLASS civ net/minecraft/structure/StructurePlacementData
+	FIELD a mirror Lbpm;
+	FIELD b rotation Lbqm;
+	FIELD c position Lev;
+	FIELD d ignoreEntities Z
+	FIELD e chunkPosition Lbgk;
+	FIELD f boundingBox Lchh;
+	FIELD g placeFluids Z
+	FIELD h random Ljava/util/Random;
+	FIELD k processors Ljava/util/List;
+	METHOD a copy ()Lciv;
+	METHOD a setChunkPosition (Lbgk;)Lciv;
+		ARG 1 chunkPosition
+	METHOD a setMirrored (Lbpm;)Lciv;
+	METHOD a setRotation (Lbqm;)Lciv;
+	METHOD a setBoundingBox (Lchh;)Lciv;
+		ARG 1 boundingBox
+	METHOD a addProcessor (Lciw;)Lciv;
+		ARG 1 processor
+	METHOD a setPosition (Lev;)Lciv;
+		ARG 1 position
+	METHOD a setRandom (Ljava/util/Random;)Lciv;
+		ARG 1 random
+	METHOD a setIgnoreEntities (Z)Lciv;
+	METHOD b clearProcessors ()Lciv;
+	METHOD b removeProcessor (Lciw;)Lciv;
+		ARG 1 processor
+	METHOD b getRandom (Lev;)Ljava/util/Random;
+		ARG 1 pos
+	METHOD c getMirror ()Lbpm;
+	METHOD d getRotation ()Lbqm;
+	METHOD e getPosition ()Lev;
+	METHOD g shouldIgnoreEntities ()Z
+	METHOD j getProcessors ()Ljava/util/List;
+	METHOD l shouldPlaceFluids ()Z

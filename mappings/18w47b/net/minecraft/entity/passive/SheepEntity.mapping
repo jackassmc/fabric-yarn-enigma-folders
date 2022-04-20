@@ -1,0 +1,31 @@
+CLASS amb net/minecraft/entity/passive/SheepEntity
+	CLASS amb$1
+		METHOD a canUse (Laqg;)Z
+			ARG 0 player
+	FIELD bC COLOR Lpn;
+	METHOD D getSoundAmbient ()Lxd;
+	METHOD F getLootTableId ()Lpy;
+	METHOD H mobTick ()V
+	METHOD a createChild (Lagc;)Lagc;
+	METHOD a interactMob (Laqg;Laey;)Z
+		ARG 1 player
+	METHOD a getRgbColor (Lauk;)[F
+		ARG 0 dyeColor
+	METHOD a (Lbao;Laex;Lagr;Lagz;Lhp;)Lagz;
+		ARG 3 difficulty
+	METHOD a playStepSound (Let;Lboh;)V
+		ARG 1 pos
+	METHOD a deserializeCustomData (Lhp;)V
+	METHOD b createChild (Lagc;)Lamb;
+	METHOD b setColor (Lauk;)V
+	METHOD b serializeCustomData (Lhp;)V
+	METHOD bH getEyeHeight ()F
+	METHOD cb initAttributes ()V
+	METHOD cw getSoundDeath ()Lxd;
+	METHOD dA getColor ()Lauk;
+	METHOD dB isSheared ()Z
+	METHOD e getSoundHurt (Lafo;)Lxd;
+	METHOD k updateMovement ()V
+	METHOD n initAi ()V
+	METHOD s setSheared (Z)V
+	METHOD y_ initDataTracker ()V

@@ -1,0 +1,28 @@
+CLASS ahr net/minecraft/entity/effect/StatusEffect
+	FIELD a attributeModifiers Ljava/util/Map;
+	FIELD b type Lahs;
+	FIELD c color I
+	FIELD d translationKey Ljava/lang/String;
+	METHOD a isInstant ()Z
+	METHOD a byRawId (I)Lahr;
+		ARG 0 rawId
+	METHOD a canApplyUpdateEffect (II)Z
+		ARG 1 duration
+	METHOD a getRawId (Lahr;)I
+		ARG 0 type
+	METHOD a applyInstantEffect (Lahz;Lahz;Laii;ID)V
+		ARG 1 source
+		ARG 2 attacker
+		ARG 3 target
+		ARG 4 amplifier
+	METHOD a applyUpdateEffect (Laii;I)V
+		ARG 1 entity
+	METHOD a addAttributeModifier (Laiy;Ljava/lang/String;DLaja$a;)Lahr;
+		ARG 1 attribute
+		ARG 2 uuid
+		ARG 3 amount
+		ARG 5 operation
+	METHOD c getTranslationKey ()Ljava/lang/String;
+	METHOD e getType ()Lahs;
+	METHOD f getColor ()I
+	METHOD g getAttributeModifiers ()Ljava/util/Map;

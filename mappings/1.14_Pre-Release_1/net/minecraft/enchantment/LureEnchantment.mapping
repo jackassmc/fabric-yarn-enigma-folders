@@ -1,0 +1,5 @@
+CLASS bfi net/minecraft/enchantment/LureEnchantment
+	METHOD <init> (Lbfc$a;Lbfd;[Laii;)V
+		ARG 1 weight
+		ARG 2 type
+		ARG 3 slotTypes

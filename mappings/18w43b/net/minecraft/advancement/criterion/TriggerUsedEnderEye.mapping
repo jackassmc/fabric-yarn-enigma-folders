@@ -1,0 +1,39 @@
+CLASS bo net/minecraft/advancement/criterion/TriggerUsedEnderEye
+	CLASS bo$a Handler
+		FIELD a manager Lqd;
+		FIELD b conditions Ljava/util/Set;
+		METHOD <init> (Lqd;)V
+			ARG 0 manager
+		METHOD a isEmpty ()Z
+		METHOD a handle (D)V
+			ARG 0 distance
+		METHOD a addCondition (Ls$a;)V
+			ARG 0 condition
+		METHOD b removeCondition (Ls$a;)V
+			ARG 0 condition
+	CLASS bo$b Conditions
+		FIELD a distance Lbc$c;
+		METHOD <init> (Lbc$c;)V
+			ARG 0 distance
+		METHOD a matches (D)Z
+			ARG 0 disatnce
+	FIELD a id Lpt;
+	FIELD b handlers Ljava/util/Map;
+	METHOD a getId ()Lpt;
+	METHOD a deserializeConditions (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Lt;
+		ARG 0 obj
+		ARG 1 context
+	METHOD a removePlayer (Lqd;)V
+		ARG 0 manager
+	METHOD a addCondition (Lqd;Ls$a;)V
+		ARG 0 manager
+		ARG 1 condition
+	METHOD a handle (Lub;Leq;)V
+		ARG 0 player
+		ARG 1 dest
+	METHOD b deserializeConditions (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Lbo$b;
+		ARG 0 obj
+		ARG 1 context
+	METHOD b removeCondition (Lqd;Ls$a;)V
+		ARG 0 manager
+		ARG 1 condition

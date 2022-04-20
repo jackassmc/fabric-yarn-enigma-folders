@@ -1,0 +1,4 @@
+CLASS bll net/minecraft/block/DeadCoralFanBlock
+	FIELD a SHAPE Lcsa;
+	METHOD <init> (Lbly$c;)V
+		ARG 1 settings

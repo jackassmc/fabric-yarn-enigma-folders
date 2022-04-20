@@ -1,0 +1,3 @@
+CLASS aol net/minecraft/entity/boss/dragon/phase/SittingAttackingPhase
+	METHOD <init> (Laoa;)V
+		ARG 1 dragon

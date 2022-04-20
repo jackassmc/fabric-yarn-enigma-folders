@@ -1,0 +1,17 @@
+CLASS bpj net/minecraft/block/enums/Instrument
+	FIELD a HARP Lbpj;
+	FIELD b BASEDRUM Lbpj;
+	FIELD c SNARE Lbpj;
+	FIELD d HAT Lbpj;
+	FIELD e BAS Lbpj;
+	FIELD f FLUTE Lbpj;
+	FIELD g BELL Lbpj;
+	FIELD h GUITAR Lbpj;
+	FIELD i CHIME Lbpj;
+	FIELD j XYLOPHONE Lbpj;
+	FIELD k name Ljava/lang/String;
+	FIELD l sound Lxf;
+	METHOD a getSound ()Lxf;
+	METHOD a fromBlockState (Lboj;)Lbpj;
+		ARG 0 state
+	METHOD m asString ()Ljava/lang/String;

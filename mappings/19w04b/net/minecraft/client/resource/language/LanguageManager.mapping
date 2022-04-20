@@ -1,0 +1,10 @@
+CLASS dpg net/minecraft/client/resource/language/LanguageManager
+	FIELD a STORAGE Ldph;
+	FIELD b LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD c currentLanguageCode Ljava/lang/String;
+	FIELD d languageDefs Ljava/util/Map;
+	METHOD a isRightToLeft ()Z
+	METHOD a setLanguage (Ldpf;)V
+	METHOD a reloadResources (Ljava/util/List;)V
+	METHOD b getLanguage ()Ldpf;
+	METHOD c getAllLanguages ()Ljava/util/SortedSet;

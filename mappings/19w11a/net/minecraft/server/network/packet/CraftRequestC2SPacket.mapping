@@ -1,0 +1,10 @@
+CLASS ok net/minecraft/server/network/packet/CraftRequestC2SPacket
+	FIELD a syncId I
+	FIELD b recipe Lqp;
+	FIELD c craftAll Z
+	METHOD <init> (ILbda;Z)V
+		ARG 1 syncId
+		ARG 2 recipe
+	METHOD b getSyncId ()I
+	METHOD c getRecipe ()Lqp;
+	METHOD d shouldCraftAll ()Z

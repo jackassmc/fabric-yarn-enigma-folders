@@ -1,0 +1,3 @@
+CLASS bob net/minecraft/block/WoodButtonBlock
+	METHOD <init> (Lbhl$c;)V
+		ARG 1 settings

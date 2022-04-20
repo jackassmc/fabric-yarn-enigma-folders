@@ -1,0 +1,3 @@
+CLASS bsc net/minecraft/client/render/block/state/StateModelMapperSimple
+	METHOD a getModelName (Latj;)Lcbj;
+		ARG 0 state

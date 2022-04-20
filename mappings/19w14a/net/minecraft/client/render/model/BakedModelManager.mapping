@@ -1,0 +1,11 @@
+CLASS dvi net/minecraft/client/render/model/BakedModelManager
+	FIELD a modelMap Ljava/util/Map;
+	FIELD b spriteAtlas Ldtp;
+	FIELD c blockStateMaps Ldkl;
+	FIELD d missingModel Ldve;
+	METHOD <init> (Ldtp;)V
+		ARG 1 spriteAtlas
+	METHOD a getMissingModel ()Ldve;
+	METHOD a getModel (Ldvj;)Ldve;
+		ARG 1 id
+	METHOD b getBlockStateMaps ()Ldkl;

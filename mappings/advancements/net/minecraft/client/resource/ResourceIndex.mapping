@@ -1,0 +1,6 @@
+CLASS cck net/minecraft/client/resource/ResourceIndex
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD b index Ljava/util/Map;
+	METHOD a getIndexInfo ()Ljava/io/File;
+	METHOD a getResource (Lmd;)Ljava/io/File;
+	METHOD b isIndexed (Lmd;)Z

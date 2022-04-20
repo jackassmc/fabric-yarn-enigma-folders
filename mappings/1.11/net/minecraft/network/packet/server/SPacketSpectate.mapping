@@ -1,0 +1,14 @@
+CLASS jl net/minecraft/network/packet/server/SPacketSpectate
+	FIELD a targetUuid Ljava/util/UUID;
+	METHOD <init> (Ljava/util/UUID;)V
+		ARG 0 targetUuid
+	METHOD a readPacket (Let;)V
+		ARG 0 packet
+	METHOD a applyPacket (Lew;)V
+		ARG 0 handler
+	METHOD a applyPacket (Lim;)V
+		ARG 0 handler
+	METHOD a getTarget (Llw;)Lsm;
+		ARG 0 world
+	METHOD b writePacket (Let;)V
+		ARG 0 packet

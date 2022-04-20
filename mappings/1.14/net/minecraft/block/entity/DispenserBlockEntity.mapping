@@ -1,0 +1,6 @@
+CLASS btv net/minecraft/block/entity/DispenserBlockEntity
+	FIELD a RANDOM Ljava/util/Random;
+	FIELD b inventory Lfj;
+	METHOD a addToFirstFreeSlot (Lbca;)I
+		ARG 1 stack
+	METHOD r chooseNonEmptySlot ()I

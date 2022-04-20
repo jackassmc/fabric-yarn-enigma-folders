@@ -1,0 +1,13 @@
+CLASS dsg net/minecraft/client/tutorial/TutorialManager
+	FIELD a client Lcqe;
+	FIELD b currentHandler Ldsh;
+	METHOD a onInventoryOpened ()V
+	METHOD a onSlotUpdate (Laxc;)V
+	METHOD a onBlockAttacked (Ldcj;Let;Lbqi;F)V
+	METHOD a setStep (Ldsi;)V
+	METHOD a getKeybindName (Ljava/lang/String;)Ljb;
+	METHOD b destroyHandler ()V
+	METHOD c createHandler ()V
+	METHOD d tick ()V
+	METHOD e getClient ()Lcqe;
+	METHOD f getGameMode ()Lbcf;

@@ -1,0 +1,11 @@
+CLASS bae net/minecraft/recipe/cooking/CookingRecipeSerializer
+	CLASS bae$a RecipeFactory
+	FIELD t cookingTime I
+	FIELD u recipeFactory Lbae$a;
+	METHOD <init> (Lbae$a;I)V
+		ARG 1 recipeFactory
+		ARG 2 cookingTime
+	METHOD b read (Lqd;Lcom/google/gson/JsonObject;)Lazi;
+		ARG 1 id
+		ARG 2 json
+	METHOD b read (Lqd;Lis;)Lazi;

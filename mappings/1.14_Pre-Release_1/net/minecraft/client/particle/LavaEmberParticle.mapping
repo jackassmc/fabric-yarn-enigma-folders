@@ -1,0 +1,2 @@
+CLASS dig net/minecraft/client/particle/LavaEmberParticle
+	CLASS dig$a Factory

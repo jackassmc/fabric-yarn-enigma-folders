@@ -1,0 +1,5 @@
+CLASS caa net/minecraft/world/gen/feature/WildCropFeature
+	FIELD a crop Lbvk;
+	METHOD <init> (Ljava/util/function/Function;Lbvk;)V
+		ARG 1 configDeserializer
+		ARG 2 crop

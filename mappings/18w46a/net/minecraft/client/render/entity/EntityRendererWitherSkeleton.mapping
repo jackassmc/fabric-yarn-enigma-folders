@@ -1,0 +1,5 @@
+CLASS dij net/minecraft/client/render/entity/EntityRendererWitherSkeleton
+	FIELD a SKIN Lpx;
+	METHOD a getTexture (Lagc;)Lpx;
+	METHOD a getTexture (Lagm;)Lpx;
+	METHOD a getTexture (Laog;)Lpx;

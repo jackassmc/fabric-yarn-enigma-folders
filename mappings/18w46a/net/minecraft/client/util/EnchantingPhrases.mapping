@@ -1,0 +1,8 @@
+CLASS csj net/minecraft/client/util/EnchantingPhrases
+	FIELD a INSTANCE Lcsj;
+	FIELD b rand Ljava/util/Random;
+	FIELD c phrases [Ljava/lang/String;
+	METHOD a getInstance ()Lcsj;
+	METHOD a setSeed (J)V
+	METHOD a generatePhrase (Lcnk;I)Ljava/lang/String;
+		ARG 1 fontRenderer

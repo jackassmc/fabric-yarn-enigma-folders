@@ -1,0 +1,6 @@
+CLASS cpw net/minecraft/world/loot/function/FillPlayerHeadLootFunction
+	CLASS cpw$a Factory
+	FIELD a entity Lcor$c;
+	METHOD <init> ([Lcrd;Lcor$c;)V
+		ARG 1 conditions
+		ARG 2 entity

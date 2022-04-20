@@ -1,0 +1,6 @@
+CLASS dik net/minecraft/client/particle/RedDustParticle
+	CLASS a Factory
+	METHOD <init> (Lbhn;DDDDDDLgc;Ldjn;)V
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z

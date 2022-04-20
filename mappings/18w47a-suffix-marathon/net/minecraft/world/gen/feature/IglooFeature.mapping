@@ -1,0 +1,2 @@
+CLASS bux net/minecraft/world/gen/feature/IglooFeature
+	METHOD b getName ()Ljava/lang/String;

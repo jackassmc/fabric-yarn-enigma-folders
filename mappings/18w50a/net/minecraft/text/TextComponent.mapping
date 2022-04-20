@@ -1,0 +1,28 @@
+CLASS jd net/minecraft/text/TextComponent
+	CLASS jd$a Serializer
+		FIELD a GSON Lcom/google/gson/Gson;
+		FIELD b POS_FIELD Ljava/lang/reflect/Field;
+		FIELD c LINE_START_FIELD Ljava/lang/reflect/Field;
+		METHOD a fromJson (Lcom/google/gson/JsonElement;)Ljd;
+		METHOD a getReaderPosition (Lcom/google/gson/stream/JsonReader;)I
+		METHOD a fromJsonString (Lcom/mojang/brigadier/StringReader;)Ljd;
+		METHOD a fromJsonString (Ljava/lang/String;)Ljd;
+		METHOD a toJsonString (Ljd;)Ljava/lang/String;
+		METHOD b fromLenientJsonString (Ljava/lang/String;)Ljd;
+		METHOD b toJson (Ljd;)Lcom/google/gson/JsonElement;
+	METHOD a getChildren ()Ljava/util/List;
+	METHOD a getStringTruncated (I)Ljava/lang/String;
+	METHOD a applyFormat (La;)Ljd;
+	METHOD a append (Ljava/lang/String;)Ljd;
+	METHOD a modifyStyle (Ljava/util/function/Consumer;)Ljd;
+	METHOD a append (Ljd;)Ljd;
+	METHOD a setStyle (Ljl;)Ljd;
+	METHOD a applyFormat ([La;)Ljd;
+	METHOD b getStyle ()Ljl;
+	METHOD b copyWithoutChildren (Ljd;)Ljd;
+	METHOD c stream ()Ljava/util/stream/Stream;
+	METHOD d getText ()Ljava/lang/String;
+	METHOD e getFormattedText ()Ljava/lang/String;
+	METHOD f streamCopied ()Ljava/util/stream/Stream;
+	METHOD g copyShallow ()Ljd;
+	METHOD h copy ()Ljd;

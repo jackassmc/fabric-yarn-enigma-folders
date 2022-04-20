@@ -1,0 +1,6 @@
+CLASS dig net/minecraft/client/particle/RedDustParticle
+	CLASS dig$a Factory
+	METHOD <init> (Lbhj;DDDDDDLgb;Ldjj;)V
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z

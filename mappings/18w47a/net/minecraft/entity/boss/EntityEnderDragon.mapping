@@ -1,0 +1,34 @@
+CLASS amy net/minecraft/entity/boss/EntityEnderDragon
+	FIELD bC parts [Lamw;
+	FIELD bD partHead Lamw;
+	FIELD bE partNeck Lamw;
+	FIELD bF partBody Lamw;
+	FIELD bG partTail1 Lamw;
+	FIELD bH partTail2 Lamw;
+	FIELD bI partTail3 Lamw;
+	FIELD bJ partWingRight Lamw;
+	FIELD bK partWingLeft Lamw;
+	FIELD bQ LOGGER Lorg/apache/logging/log4j/Logger;
+	METHOD D getSoundAmbient ()Lxc;
+	METHOD G checkDespawn ()V
+	METHOD L_ getPartDamageWorld ()Lbam;
+	METHOD U kill ()V
+	METHOD a damage (Lafn;F)Z
+		ARG 1 source
+	METHOD a damage (Lamw;Lafn;F)Z
+		ARG 1 part
+		ARG 2 source
+	METHOD a deserializeCustomData (Lho;)V
+	METHOD a onTrackedDataSet (Lpm;)V
+	METHOD aD doesCollide ()Z
+	METHOD b serializeCustomData (Lho;)V
+	METHOD bX getSoundCategory ()Lxe;
+	METHOD bk getParts ()[Lage;
+	METHOD c addPotionEffect (Lafx;)Z
+	METHOD cI getSoundVolume ()F
+	METHOD cb initAttributes ()V
+	METHOD cd updatePostDeath ()V
+	METHOD e getSoundHurt (Lafn;)Lxc;
+	METHOD k updateMovement ()V
+	METHOD n canStartRiding (Lage;)Z
+	METHOD y_ initDataTracker ()V

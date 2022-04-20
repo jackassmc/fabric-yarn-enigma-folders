@@ -1,0 +1,6 @@
+CLASS dct net/minecraft/client/particle/CrackParticle
+	CLASS dct$a ItemFactory
+	CLASS dct$b SlimeballFactory
+	CLASS dct$c SnowballFactory
+	METHOD <init> (Lbcq;DDDDDDLaxi;)V
+		ARG 1 world

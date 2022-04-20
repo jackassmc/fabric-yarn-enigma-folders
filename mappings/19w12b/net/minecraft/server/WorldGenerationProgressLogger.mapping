@@ -1,0 +1,5 @@
+CLASS vo net/minecraft/server/WorldGenerationProgressLogger
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD d startTime J
+	FIELD e nextMessageTime J
+	METHOD c getProgressPercentage ()I

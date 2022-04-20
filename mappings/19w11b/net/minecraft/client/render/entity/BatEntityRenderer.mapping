@@ -1,0 +1,2 @@
+CLASS dng net/minecraft/client/render/entity/BatEntityRenderer
+	FIELD a SKIN Lqp;

@@ -1,0 +1,24 @@
+CLASS btm net/minecraft/client/gl/GlFramebuffer
+	FIELD a texWidth I
+	FIELD b texHeight I
+	FIELD c viewWidth I
+	FIELD d viewHeight I
+	FIELD e useDepthAttachment Z
+	FIELD f fbo I
+	FIELD g colorAttachment I
+	FIELD h depthAttachment I
+	FIELD i clearColor [F
+	FIELD j texFilter I
+	METHOD a delete ()V
+	METHOD a setClearColor (FFFF)V
+	METHOD a setTexFilter (I)V
+	METHOD a resize (II)V
+	METHOD a draw (IIZ)V
+	METHOD a beginWrite (Z)V
+	METHOD b checkFramebufferStatus ()V
+	METHOD b initFbo (II)V
+	METHOD c beginRead ()V
+	METHOD c draw (II)V
+	METHOD d endRead ()V
+	METHOD e endWrite ()V
+	METHOD f clear ()V

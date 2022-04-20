@@ -1,0 +1,4 @@
+CLASS coi net/minecraft/world/loot/entry/AlternativeEntry
+	CLASS coi$a Builder
+		FIELD a children Ljava/util/List;
+	METHOD a create ([Lcos$a;)Lcoi$a;

@@ -1,0 +1,34 @@
+CLASS coa net/minecraft/util/shape/VoxelShape
+	FIELD a shape Lcnp;
+	METHOD <init> (Lcnp;)V
+		ARG 1 shape
+	METHOD a getBoundingBox ()Lcnb;
+	METHOD a offset (DDD)Lcoa;
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+	METHOD a rayTrace (Lcng;Lcng;Les;)Lcnc;
+		ARG 1 start
+		ARG 2 end
+		ARG 3 pos
+	METHOD a (Ler;Lcnb;D)D
+		ARG 1 axisCycle
+		ARG 2 box
+		ARG 3 maxDist
+	METHOD a getIncludedPoints (Lew$a;)Lit/unimi/dsi/fastutil/doubles/DoubleList;
+		ARG 1 axis
+	METHOD a getCoord (Lew$a;I)D
+		ARG 1 axis
+		ARG 2 index
+	METHOD a (Lew$a;Lcnb;D)D
+		ARG 1 axis
+		ARG 2 box
+	METHOD a getFace (Lew;)Lcoa;
+		ARG 1 facing
+	METHOD b isEmpty ()Z
+	METHOD b getMinimum (Lew$a;)D
+		ARG 1 axis
+	METHOD c simplify ()Lcoa;
+	METHOD c getMaximum (Lew$a;)D
+		ARG 1 axis
+	METHOD d getBoundingBoxList ()Ljava/util/List;

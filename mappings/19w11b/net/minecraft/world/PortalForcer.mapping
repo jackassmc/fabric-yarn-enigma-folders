@@ -1,0 +1,8 @@
+CLASS bgj net/minecraft/world/PortalForcer
+	FIELD a PORTAL_BLOCK Lbom;
+	FIELD b world Lvc;
+	FIELD c random Ljava/util/Random;
+	METHOD <init> (Lvc;)V
+		ARG 1 world
+	METHOD a tick (J)V
+		ARG 1 time

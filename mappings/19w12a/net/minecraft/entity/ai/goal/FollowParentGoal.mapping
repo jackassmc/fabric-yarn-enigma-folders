@@ -1,0 +1,3 @@
+CLASS alx net/minecraft/entity/ai/goal/FollowParentGoal
+	FIELD a owner Lapr;
+	FIELD b parent Lapr;

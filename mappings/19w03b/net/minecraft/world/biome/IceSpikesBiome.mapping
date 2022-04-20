@@ -1,0 +1,2 @@
+CLASS ber net/minecraft/world/biome/IceSpikesBiome
+	METHOD d getMaxSpawnLimit ()F

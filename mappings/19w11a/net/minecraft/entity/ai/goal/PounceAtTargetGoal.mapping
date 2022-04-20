@@ -1,0 +1,5 @@
+CLASS alw net/minecraft/entity/ai/goal/PounceAtTargetGoal
+	FIELD a owner Laig;
+	FIELD b target Laif;
+	METHOD <init> (Laig;F)V
+		ARG 1 owner

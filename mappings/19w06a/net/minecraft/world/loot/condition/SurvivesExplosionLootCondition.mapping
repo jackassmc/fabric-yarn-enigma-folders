@@ -1,0 +1,3 @@
+CLASS cly net/minecraft/world/loot/condition/SurvivesExplosionLootCondition
+	CLASS cly$a Factory
+	FIELD a INSTANCE Lcly;

@@ -1,0 +1,10 @@
+CLASS cjf net/minecraft/world/loot/function/SetLootTableLootFunction
+	CLASS cjf$a Factory
+		METHOD a toJson (Lcom/google/gson/JsonObject;Lciz;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD a toJson (Lcom/google/gson/JsonObject;Lcja;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD b fromJson (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;[Lckd;)Lciz;
+	FIELD a id Lpz;
+	FIELD c seed J
+	METHOD a process (Lavu;Lchr;)Lavu;
+		ARG 1 stack
+	METHOD a check (Lchv;Ljava/util/function/Function;Ljava/util/Set;Lcjq;)V

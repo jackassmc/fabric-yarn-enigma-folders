@@ -1,0 +1,6 @@
+CLASS alc net/minecraft/entity/EntityGolem
+	METHOD D getSoundAmbient ()Lxb;
+	METHOD c handleFallDamage (FF)V
+		ARG 1 fallDistance
+	METHOD cw getSoundDeath ()Lxb;
+	METHOD e getSoundHurt (Lafl;)Lxb;

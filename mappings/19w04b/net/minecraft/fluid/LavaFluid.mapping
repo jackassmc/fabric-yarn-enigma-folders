@@ -1,0 +1,3 @@
+CLASS cfz net/minecraft/fluid/LavaFluid
+	CLASS cfz$a Flowing
+	CLASS cfz$b Still

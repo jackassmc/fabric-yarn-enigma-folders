@@ -1,0 +1,29 @@
+CLASS dum net/minecraft/client/texture/SpriteAtlasTexture
+	CLASS a Data
+		FIELD a spriteIds Ljava/util/Set;
+		FIELD b width I
+		FIELD c height I
+		FIELD d sprites Ljava/util/List;
+	FIELD f BLOCK_ATLAS_TEX Lqt;
+	FIELD g PARTICLE_ATLAS_TEX Lqt;
+	FIELD h PAINTING_ATLAS_TEX Lqt;
+	FIELD i STATUS_EFFECT_ATLAS_TEX Lqt;
+	FIELD j LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD k animatedSprites Ljava/util/List;
+	FIELD l spritesToLoad Ljava/util/Set;
+	FIELD m sprites Ljava/util/Map;
+	FIELD n atlasPath Ljava/lang/String;
+	FIELD o maxTextureSize I
+	FIELD p mipLevel I
+	FIELD q missingSprite Ldun;
+	METHOD a tickAnimatedSprites ()V
+	METHOD a setMipLevel (I)V
+	METHOD a upload (Ldum$a;)V
+	METHOD a getSprite (Ljava/lang/String;)Ldun;
+	METHOD a getSprite (Lqt;)Ldun;
+	METHOD a loadSprite (Lxg;Ldun;)Z
+		ARG 1 container
+	METHOD a stitch (Lxg;Ljava/lang/Iterable;Lagk;)Ldum$a;
+	METHOD a loadSprites (Lxg;Ljava/util/Set;)Ljava/util/Collection;
+	METHOD b getTexturePath (Lqt;)Lqt;
+	METHOD g clear ()V

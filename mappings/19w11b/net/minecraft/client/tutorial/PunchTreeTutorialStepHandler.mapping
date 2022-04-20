@@ -1,0 +1,5 @@
+CLASS dwt net/minecraft/client/tutorial/PunchTreeTutorialStepHandler
+	FIELD a TITLE Ljl;
+	FIELD b DESCRIPTION Ljl;
+	FIELD c manager Ldwu;
+	FIELD e ticks I

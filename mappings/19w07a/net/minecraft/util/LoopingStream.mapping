@@ -1,0 +1,2 @@
+CLASS zj net/minecraft/util/LoopingStream
+	METHOD a getStream ()Ljava/util/stream/Stream;

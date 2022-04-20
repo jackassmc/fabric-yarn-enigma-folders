@@ -1,0 +1,5 @@
+CLASS wz net/minecraft/resource/Resource
+	METHOD a getId ()Lqp;
+	METHOD a getMetadata (Lwh;)Ljava/lang/Object;
+	METHOD b getInputStream ()Ljava/io/InputStream;
+	METHOD d getResourcePackName ()Ljava/lang/String;

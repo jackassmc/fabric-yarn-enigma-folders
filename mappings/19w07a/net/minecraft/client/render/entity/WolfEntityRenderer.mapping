@@ -1,0 +1,4 @@
+CLASS dni net/minecraft/client/render/entity/WolfEntityRenderer
+	FIELD a WILD_SKIN Lqh;
+	FIELD j TAMED_SKIN Lqh;
+	FIELD k ANGRY_SKIN Lqh;

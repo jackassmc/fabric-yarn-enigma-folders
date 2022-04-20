@@ -1,0 +1,54 @@
+CLASS aqt net/minecraft/entity/vehicle/EntityStorageMinecart
+	FIELD a inventory Lfe;
+	FIELD c lootTableId Lpu;
+	FIELD d lootSeed J
+	METHOD Q_ isInvEmpty ()Z
+	METHOD R_ getLootTableId ()Lpu;
+	METHOD W_ hasContainerLock ()Z
+	METHOD X invalidate ()V
+	METHOD a getInvStack (I)Lauv;
+		ARG 1 slot
+	METHOD a takeInvStack (II)Lauv;
+		ARG 1 slot
+		ARG 2 amount
+	METHOD a setInvStack (ILauv;)V
+		ARG 1 slot
+		ARG 2 stack
+	METHOD a setContainerLock (Laet;)V
+		ARG 1 lock
+	METHOD a dropItems (Lafe;)V
+		ARG 1 source
+	METHOD a canPlayerUseInv (Lapr;)Z
+		ARG 1 player
+	METHOD a changeDimension (Lbqj;)Lafv;
+		ARG 1 dimension
+	METHOD a deserializeCustomData (Lhm;)V
+		ARG 1 tag
+	METHOD a setLootTable (Lpu;J)V
+		ARG 1 id
+		ARG 2 seed
+	METHOD b removeInvStack (I)Lauv;
+		ARG 1 slot
+	METHOD b setInvProperty (II)V
+		ARG 1 pos
+		ARG 2 value
+	METHOD b isValidInvStack (ILauv;)Z
+		ARG 1 slot
+		ARG 2 stack
+	METHOD b onInvOpen (Lapr;)V
+		ARG 1 player
+	METHOD b interact (Lapr;Laeo;)Z
+		ARG 1 player
+		ARG 2 hand
+	METHOD b serializeCustomData (Lhm;)V
+		ARG 1 tag
+	METHOD b setInWorld (Z)V
+	METHOD c getInvProperty (I)I
+		ARG 1 pos
+	METHOD c onInvClose (Lapr;)V
+		ARG 1 player
+	METHOD f getInvMaxStackAmount ()I
+	METHOD g markDirty ()V
+	METHOD h getInvPropertyCount ()I
+	METHOD j getContainerLock ()Laet;
+	METHOD m clearInv ()V

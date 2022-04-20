@@ -1,0 +1,2 @@
+CLASS djx net/minecraft/client/texture/ImageFilter
+	METHOD a filterImage (Lctm;)Lctm;

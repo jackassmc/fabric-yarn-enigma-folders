@@ -1,0 +1,14 @@
+CLASS aoq net/minecraft/entity/mob/EntityWitherSkeleton
+	METHOD D getSoundAmbient ()Lwv;
+	METHOD G getLootTableId ()Lpt;
+	METHOD a initEquipment (Ladz;)V
+		ARG 0 difficulty
+	METHOD a onDeath (Laeq;)V
+		ARG 0 damageSource
+	METHOD a (Lazb;Ladz;Lafz;Lhl;)Lafz;
+		ARG 1 difficulty
+	METHOD bH getEyeHeight ()F
+	METHOD cu getSoundDeath ()Lwv;
+	METHOD d getSoundHurt (Laeq;)Lwv;
+	METHOD d isPotionEffective (Lafa;)Z
+		ARG 0 effect

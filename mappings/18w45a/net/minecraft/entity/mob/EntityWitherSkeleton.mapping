@@ -1,0 +1,11 @@
+CLASS apk net/minecraft/entity/mob/EntityWitherSkeleton
+	METHOD D getSoundAmbient ()Lwz;
+	METHOD F getLootTableId ()Lpw;
+	METHOD a initEquipment (Laeq;)V
+	METHOD a dropEquipment (Lafh;IZ)V
+	METHOD a (Lazz;Laeq;Lagk;Lagr;Lho;)Lagr;
+		ARG 3 difficulty
+	METHOD bH getEyeHeight ()F
+	METHOD cw getSoundDeath ()Lwz;
+	METHOD d isPotionEffective (Lafr;)Z
+	METHOD e getSoundHurt (Lafh;)Lwz;

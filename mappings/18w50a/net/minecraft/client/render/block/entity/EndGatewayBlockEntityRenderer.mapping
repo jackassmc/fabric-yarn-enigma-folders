@@ -1,0 +1,9 @@
+CLASS dgn net/minecraft/client/render/block/entity/EndGatewayBlockEntityRenderer
+	FIELD c SKY_TEX Lqc;
+	FIELD d PORTAL_TEX Lqc;
+	FIELD e RANDOM Ljava/util/Random;
+	METHOD a render (Lbnq;DDDFI)V
+		ARG 1 entity
+		ARG 2 xOffset
+		ARG 4 yOffset
+	METHOD a render (Lbos;DDDFI)V

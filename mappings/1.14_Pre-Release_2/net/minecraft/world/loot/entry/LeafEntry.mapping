@@ -1,0 +1,44 @@
+CLASS coy net/minecraft/world/loot/entry/LeafEntry
+	CLASS coy$a Builder
+		FIELD a weight I
+		FIELD b quality I
+		FIELD c functions Ljava/util/List;
+		METHOD a getFunctions ()[Lcpo;
+		METHOD a setWeight (I)Lcoy$a;
+			ARG 1 weight
+		METHOD b setQuality (I)Lcoy$a;
+			ARG 1 quality
+	CLASS coy$b BasicBuilder
+		FIELD c factory Lcoy$d;
+		METHOD <init> (Lcoy$d;)V
+			ARG 1 leafEntryFactory
+	CLASS coy$c Choice
+	CLASS coy$d Factory
+		METHOD build (II[Lcqr;[Lcpo;)Lcoy;
+			ARG 1 weight
+			ARG 2 quality
+			ARG 3 conditions
+			ARG 4 functions
+	CLASS coy$e Serializer
+		METHOD b fromJson (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;II[Lcqr;[Lcpo;)Lcoy;
+			ARG 1 entryJson
+			ARG 2 context
+			ARG 3 weight
+			ARG 4 quality
+			ARG 5 conditions
+			ARG 6 functions
+	FIELD c compiledFunctions Ljava/util/function/BiFunction;
+	FIELD e weight I
+	FIELD f quality I
+	FIELD g functions [Lcpo;
+	FIELD h choice Lcow;
+	METHOD <init> (II[Lcqr;[Lcpo;)V
+		ARG 1 weight
+		ARG 2 quality
+		ARG 3 conditions
+		ARG 4 functions
+	METHOD a builder (Lcoy$d;)Lcoy$a;
+		ARG 0 leafEntryFactory
+	METHOD a drop (Ljava/util/function/Consumer;Lcoe;)V
+		ARG 1 itemDropper
+		ARG 2 context

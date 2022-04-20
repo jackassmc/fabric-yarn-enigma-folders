@@ -1,0 +1,3 @@
+CLASS aiy
+	METHOD <init> (Lahr;DFF)V
+		ARG 1 caller

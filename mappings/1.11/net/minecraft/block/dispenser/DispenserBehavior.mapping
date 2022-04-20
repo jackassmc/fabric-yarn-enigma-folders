@@ -1,0 +1,9 @@
+CLASS cw net/minecraft/block/dispenser/DispenserBehavior
+	CLASS cw$1
+		METHOD a dispense (Lcp;Lafi;)Lafi;
+			ARG 0 location
+			ARG 1 stack
+	FIELD a DEFAULT Lcw;
+	METHOD a dispense (Lcp;Lafi;)Lafi;
+		ARG 0 location
+		ARG 1 stack

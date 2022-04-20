@@ -1,0 +1,17 @@
+CLASS jw net/minecraft/network/packet/client/CPacketEntitySetHeadYaw
+	FIELD a entity I
+	FIELD b headYaw B
+	METHOD <init> (Lve;B)V
+		ARG 0 entity
+		ARG 1 headYaw
+	METHOD a getHeadYaw ()B
+	METHOD a getEntity (Lams;)Lve;
+		ARG 0 world
+	METHOD a readPacket (Lgy;)V
+		ARG 0 buf
+	METHOD a applyPacket (Lhb;)V
+		ARG 0 handler
+	METHOD a applyPacket (Lhw;)V
+		ARG 0 handler
+	METHOD b writePacket (Lgy;)V
+		ARG 0 buf

@@ -1,0 +1,34 @@
+CLASS ayh net/minecraft/potion/PotionUtil
+	METHOD a getPotionEffects (Lawo;)Ljava/util/List;
+		ARG 0 stack
+	METHOD a setPotion (Lawo;Layf;)Lawo;
+		ARG 0 stack
+		ARG 1 potion
+	METHOD a setCustomPotionEffects (Lawo;Ljava/util/Collection;)Lawo;
+		ARG 0 stack
+		ARG 1 effects
+	METHOD a addInformation (Lawo;Ljava/util/List;F)V
+		ARG 0 stack
+		ARG 1 list
+	METHOD a getColor (Layf;)I
+		ARG 0 potion
+	METHOD a getPotionEffects (Layf;Ljava/util/Collection;)Ljava/util/List;
+		ARG 0 potion
+		ARG 1 custom
+	METHOD a getPotionEffects (Lhs;)Ljava/util/List;
+		ARG 0 tag
+	METHOD a getCustomPotionEffects (Lhs;Ljava/util/List;)V
+		ARG 0 tag
+		ARG 1 list
+	METHOD a getColor (Ljava/util/Collection;)I
+		ARG 0 effects
+	METHOD b getCustomPotionEffects (Lawo;)Ljava/util/List;
+		ARG 0 stack
+	METHOD b getCustomPotionEffects (Lhs;)Ljava/util/List;
+		ARG 0 tag
+	METHOD c getColor (Lawo;)I
+		ARG 0 stack
+	METHOD c getPotion (Lhs;)Layf;
+		ARG 0 compound
+	METHOD d getPotion (Lawo;)Layf;
+		ARG 0 stack

@@ -1,0 +1,6 @@
+CLASS avh net/minecraft/item/DecorationItem
+	FIELD a entityType Ljava/lang/Class;
+	METHOD a useOnBlock (Laxb;)Lafa;
+	METHOD a createEntity (Lban;Let;Ley;)Lanw;
+		ARG 1 world
+		ARG 2 pos

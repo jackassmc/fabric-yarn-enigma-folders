@@ -1,0 +1,8 @@
+CLASS dnv net/minecraft/client/tutorial/TutorialStepHandlerCraftPlanks
+	FIELD a TITLE Liz;
+	FIELD b DESCRIPTION Liz;
+	FIELD c manager Ldoa;
+	FIELD e ticks I
+	METHOD a tick ()V
+	METHOD a onSlotUpdate (Lavf;)V
+	METHOD b destroy ()V

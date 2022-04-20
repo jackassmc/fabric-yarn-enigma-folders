@@ -1,0 +1,5 @@
+CLASS dgv net/minecraft/client/util/WindowProvider
+	FIELD a client Lcqw;
+	FIELD b monitorTracker Lcpl;
+	METHOD a createMonitor (J)Lcph;
+	METHOD a createWindow (Lcpc;Ljava/lang/String;Ljava/lang/String;)Lcpo;

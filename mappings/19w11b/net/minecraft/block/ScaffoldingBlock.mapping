@@ -1,0 +1,9 @@
+CLASS bpm net/minecraft/block/ScaffoldingBlock
+	FIELD a DISTANCE Lbuw;
+	FIELD b WATERLOGGED Lbuo;
+	FIELD c BOTTOM Lbuo;
+	FIELD d NORMAL_OUTLINE_SHAPE Lcra;
+	FIELD e BOTTOM_OUTLINE_SHAPE Lcra;
+	FIELD f COLLISION_SHAPE Lcra;
+	METHOD <init> (Lbky$c;)V
+		ARG 1 settings

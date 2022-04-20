@@ -1,0 +1,12 @@
+CLASS biz net/minecraft/block/HorizontalConnectedBlock
+	FIELD a NORTH Lbrk;
+	FIELD b EAST Lbrk;
+	FIELD c SOUTH Lbrk;
+	FIELD d WEST Lbrk;
+	FIELD e WATERLOGGED Lbrk;
+	FIELD f FACING_PROPERTIES Ljava/util/Map;
+	FIELD g collisionShapes [Lcnt;
+	FIELD h boundingShapes [Lcnt;
+	METHOD a createShapes (FFFFF)[Lcnt;
+	METHOD a getDirectionMask (Ley;)I
+	METHOD j getShapeIndex (Lbqs;)I

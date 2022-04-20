@@ -1,0 +1,3 @@
+CLASS bmz net/minecraft/block/StainedGlassBlock
+	FIELD a color Lawf;
+	METHOD d getColor ()Lawf;

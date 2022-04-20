@@ -1,0 +1,5 @@
+CLASS cdw net/minecraft/world/gen/surfacebuilder/MountainSurfaceBuilder
+	METHOD a generate (Ljava/util/Random;Lbra;Lbco;IIIDLbpm;Lbpm;IJLcec;)V
+		ARG 1 random
+		ARG 2 chunk
+		ARG 3 biome

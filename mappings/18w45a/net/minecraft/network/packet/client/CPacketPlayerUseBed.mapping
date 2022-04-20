@@ -1,0 +1,11 @@
+CLASS ln net/minecraft/network/packet/client/CPacketPlayerUseBed
+	FIELD a entityId I
+	FIELD b bedHeadPos Les;
+	METHOD <init> (Lapv;Les;)V
+		ARG 1 entityId
+	METHOD a getPlayer (Lazy;)Lapv;
+	METHOD a read (Lip;)V
+	METHOD a apply (Lis;)V
+	METHOD a apply (Ljq;)V
+	METHOD b getBedHeadPos ()Les;
+	METHOD b write (Lip;)V

@@ -1,0 +1,13 @@
+CLASS ahy net/minecraft/entity/mob/MobEntityWithAi
+	FIELD b aiHome Let;
+	FIELD c aiRadius F
+	METHOD <init> (Lahm;Lbcu;)V
+		ARG 1 type
+	METHOD a setAiHome (Let;I)V
+		ARG 1 home
+	METHOD dA getAiRadius ()F
+	METHOD dB setAiRangeUnlimited ()V
+	METHOD dC hasLimitedAiRange ()Z
+	METHOD dy isInAiRange ()Z
+	METHOD dz getAiHome ()Let;
+	METHOD f isInAiRange (Let;)Z

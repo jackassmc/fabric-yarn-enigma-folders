@@ -1,0 +1,172 @@
+CLASS cof net/minecraft/world/level/LevelProperties
+	FIELD A gameMode Lbhi;
+	FIELD B structures Z
+	FIELD C hardcore Z
+	FIELD D commandsAllowed Z
+	FIELD E initialized Z
+	FIELD F difficulty Lahd;
+	FIELD G difficultyLocked Z
+	FIELD H borderCenterX D
+	FIELD I borderCenterZ D
+	FIELD J borderSize D
+	FIELD K borderSizeLerpTime J
+	FIELD L borderSizeLerpTarget D
+	FIELD M borderSafeZone D
+	FIELD N borderDamagePerBlock D
+	FIELD O borderWarningBlocks I
+	FIELD P borderWarningTime I
+	FIELD Q disabledDataPacks Ljava/util/Set;
+	FIELD R enabledDataPacks Ljava/util/Set;
+	FIELD S worldData Ljava/util/Map;
+	FIELD T customBossEvents Lic;
+	FIELD U wanderingTraderSpawnDelay I
+	FIELD V wanderingTraderSpawnChance I
+	FIELD W wanderingTraderId Ljava/util/UUID;
+	FIELD X gameRules Lbhh;
+	FIELD Y scheduledEvents Lcrs;
+	FIELD a DEFAULT_DIFFICULTY Lahd;
+	FIELD b versionName Ljava/lang/String;
+	FIELD c versionId I
+	FIELD d versionSnapshot Z
+	FIELD e randomSeed J
+	FIELD f generatorType Lbhs;
+	FIELD g generatorOptions Lic;
+	FIELD h legacyCustomOptions Ljava/lang/String;
+	FIELD i spawnX I
+	FIELD j spawnY I
+	FIELD k spawnZ I
+	FIELD l time J
+	FIELD m timeOfDay J
+	FIELD n lastPlayed J
+	FIELD o sizeOnDisk J
+	FIELD p dataFixer Lcom/mojang/datafixers/DataFixer;
+	FIELD q playerWorldId I
+	FIELD r playerDataLoaded Z
+	FIELD s playerData Lic;
+	FIELD t levelName Ljava/lang/String;
+	FIELD u version I
+	FIELD v clearWeatherTime I
+	FIELD w raining Z
+	FIELD x rainTime I
+	FIELD y thundering Z
+	FIELD z thunderTime I
+	METHOD <init> (Lbhp;Ljava/lang/String;)V
+		ARG 2 levelName
+	METHOD A getGeneratorOptions ()Lic;
+	METHOD B getBorderCenterX ()D
+	METHOD C getBorderCenterZ ()D
+	METHOD D getBorderSize ()D
+	METHOD E getBorderSizeLerpTime ()J
+	METHOD F getBorderSizeLerpTarget ()D
+	METHOD G getBorderSafeZone ()D
+	METHOD H getBorderDamagePerBlock ()D
+	METHOD I getBorderWarningBlocks ()I
+	METHOD J getBorderWarningTime ()I
+	METHOD K getVersionId ()I
+	METHOD L isVersionSnapshot ()Z
+	METHOD M getVersionName ()Ljava/lang/String;
+	METHOD N getDisabledDataPacks ()Ljava/util/Set;
+	METHOD O getEnabledDataPacks ()Ljava/util/Set;
+	METHOD P getCustomBossEvents ()Lic;
+	METHOD Q getWanderingTraderSpawnDelay ()I
+	METHOD R getWanderingTraderSpawnChance ()I
+	METHOD T loadPlayerData ()V
+	METHOD a getSeed ()J
+	METHOD a setBorderSize (D)V
+		ARG 1 borderSize
+	METHOD a setSpawnX (I)V
+		ARG 1 spawnX
+	METHOD a setTime (J)V
+		ARG 1 time
+	METHOD a setDifficulty (Lahd;)V
+	METHOD a setGameMode (Lbhi;)V
+	METHOD a loadLevelInfo (Lbhp;)V
+		ARG 1 levelInfo
+	METHOD a setGeneratorType (Lbhs;)V
+	METHOD a getWorldData (Lbyh;)Lic;
+	METHOD a setWorldData (Lbyh;Lic;)V
+		ARG 1 type
+	METHOD a populateCrashReport (Le;)V
+	METHOD a setSpawnPos (Lev;)V
+	METHOD a cloneWorldTag (Lic;)Lic;
+		ARG 1 playerTag
+	METHOD a updateProperties (Lic;Lic;)V
+		ARG 1 levelTag
+		ARG 2 playerTag
+	METHOD a setLevelName (Ljava/lang/String;)V
+		ARG 1 levelName
+	METHOD a setWanderingTraderId (Ljava/util/UUID;)V
+		ARG 1 wanderingTraderId
+	METHOD a setThundering (Z)V
+		ARG 1 thundering
+	METHOD b getSpawnX ()I
+	METHOD b setBorderSizeLerpTarget (D)V
+		ARG 1 borderSizeLerpTarget
+	METHOD b setSpawnY (I)V
+		ARG 1 spawnY
+	METHOD b setTimeOfDay (J)V
+		ARG 1 timeOfDay
+	METHOD b setGeneratorOptions (Lic;)V
+	METHOD b setRaining (Z)V
+		ARG 1 raining
+	METHOD c getSpawnY ()I
+	METHOD c borderCenterZ (D)V
+		ARG 1 borderCenterZ
+	METHOD c setSpawnZ (I)V
+		ARG 1 spawnZ
+	METHOD c setBorderSizeLerpTime (J)V
+		ARG 1 borderSizeLerpTime
+	METHOD c setCustomBossEvents (Lic;)V
+	METHOD c setCommandsAllowed (Z)V
+		ARG 1 commandsAllowed
+	METHOD d getSpawnZ ()I
+	METHOD d setBorderCenterX (D)V
+		ARG 1 borderCenterX
+	METHOD d setVersion (I)V
+		ARG 1 version
+	METHOD d setInitialized (Z)V
+		ARG 1 initialized
+	METHOD e getTime ()J
+	METHOD e setBorderSafeZone (D)V
+		ARG 1 borderSafeZone
+	METHOD e setThunderTime (I)V
+		ARG 1 thunderTime
+	METHOD e setDifficultyLocked (Z)V
+		ARG 1 difficultyLocked
+	METHOD f getTimeOfDay ()J
+	METHOD f setBorderDamagePerBlock (D)V
+		ARG 1 borderDamagePerBlock
+	METHOD f setRainTime (I)V
+		ARG 1 rainTime
+	METHOD f setStructures (Z)V
+		ARG 1 structures
+	METHOD g setClearWeatherTime (I)V
+		ARG 1 clearWeatherTime
+	METHOD g setHardcore (Z)V
+		ARG 1 hardcore
+	METHOD h getPlayerData ()Lic;
+	METHOD h setBorderWarningBlocks (I)V
+		ARG 1 borderWarningBlocks
+	METHOD i getLevelName ()Ljava/lang/String;
+	METHOD i setBorderWarningTime (I)V
+		ARG 1 borderWarningTime
+	METHOD j getVersion ()I
+	METHOD j setWanderingTraderSpawnDelay (I)V
+		ARG 1 wanderingTraderSpawnDelay
+	METHOD k getLastPlayed ()J
+	METHOD k setWanderingTraderSpawnChance (I)V
+	METHOD l isThundering ()Z
+	METHOD m getThunderTime ()I
+	METHOD n isRaining ()Z
+	METHOD o getRainTime ()I
+	METHOD p getGameMode ()Lbhi;
+	METHOD q hasStructures ()Z
+	METHOD r isHardcore ()Z
+	METHOD s getGeneratorType ()Lbhs;
+	METHOD t areCommandsAllowed ()Z
+	METHOD u isInitialized ()Z
+	METHOD v getGameRules ()Lbhh;
+	METHOD w getDifficulty ()Lahd;
+	METHOD x isDifficultyLocked ()Z
+	METHOD y getScheduledEvents ()Lcrs;
+	METHOD z getClearWeatherTime ()I

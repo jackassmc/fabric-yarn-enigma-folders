@@ -1,0 +1,10 @@
+CLASS cpv net/minecraft/world/loot/function/LimitCountLootFunction
+	CLASS cpv$a Factory
+	FIELD a limit Lcom;
+	METHOD <init> ([Lcra;Lcom;)V
+		ARG 1 conditions
+		ARG 2 limit
+	METHOD a builder (Lcom;)Lcpw$a;
+		ARG 0 limit
+	METHOD a (Lcom;[Lcra;)Lcpx;
+		ARG 1 conditions

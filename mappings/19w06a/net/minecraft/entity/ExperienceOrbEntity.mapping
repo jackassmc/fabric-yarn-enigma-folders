@@ -1,0 +1,12 @@
+CLASS aho net/minecraft/entity/ExperienceOrbEntity
+	FIELD c xpAge I
+	FIELD e health I
+	FIELD f amount I
+	METHOD <init> (Lbcu;DDDI)V
+		ARG 1 world
+		ARG 2 x
+		ARG 4 y
+	METHOD a roundToOrbSize (I)I
+		ARG 0 value
+	METHOD e getExperienceAmount ()I
+	METHOD f getOrbSize ()I

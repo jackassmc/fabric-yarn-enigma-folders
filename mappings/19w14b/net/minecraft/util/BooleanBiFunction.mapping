@@ -1,0 +1,17 @@
+CLASS crp net/minecraft/util/BooleanBiFunction
+	FIELD a FALSE Lcrp;
+	FIELD b NOT_OR Lcrp;
+	FIELD c ONLY_SECOND Lcrp;
+	FIELD d NOT_FIRST Lcrp;
+	FIELD e ONLY_FIRST Lcrp;
+	FIELD f NOT_SECOND Lcrp;
+	FIELD g NOT_SAME Lcrp;
+	FIELD h NOT_AND Lcrp;
+	FIELD i AND Lcrp;
+	FIELD j SAME Lcrp;
+	FIELD k SECOND Lcrp;
+	FIELD l CAUSES Lcrp;
+	FIELD m FIRST Lcrp;
+	FIELD n CAUSED_BY Lcrp;
+	FIELD o OR Lcrp;
+	FIELD p TRUE Lcrp;

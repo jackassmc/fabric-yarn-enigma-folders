@@ -1,0 +1,12 @@
+CLASS abn net/minecraft/entity/projectile/EntitySpectralArrow
+	FIELD f duration I
+	METHOD A_ update ()V
+	METHOD a deserializeCustomData (Ldu;)V
+		ARG 0 tag
+	METHOD a onHit (Lsv;)V
+		ARG 0 entity
+	METHOD b serializeCustomData (Ldu;)V
+		ARG 0 tag
+	METHOD c registerTagUpgraders2 (Lph;)V
+		ARG 0 handler
+	METHOD j asItemStack ()Lafi;

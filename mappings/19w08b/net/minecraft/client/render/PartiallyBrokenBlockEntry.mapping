@@ -1,0 +1,12 @@
+CLASS ug net/minecraft/client/render/PartiallyBrokenBlockEntry
+	FIELD a breakingEntityId I
+	FIELD b pos Les;
+	FIELD c stage I
+	FIELD d lastUpdateTicks I
+	METHOD a setStage (I)V
+		ARG 1 value
+	METHOD b getPos ()Les;
+	METHOD b setLastUpdateTicks (I)V
+		ARG 1 value
+	METHOD c getStage ()I
+	METHOD d getLastUpdateTicks ()I

@@ -1,0 +1,10 @@
+CLASS crp net/minecraft/util/hit/HitResult
+	CLASS crp$a Type
+		FIELD a NONE Lcrp$a;
+		FIELD b BLOCK Lcrp$a;
+		FIELD c ENTITY Lcrp$a;
+	FIELD a pos Lcrr;
+	METHOD <init> (Lcrr;)V
+		ARG 1 pos
+	METHOD c getType ()Lcrp$a;
+	METHOD e getPos ()Lcrr;

@@ -1,0 +1,12 @@
+CLASS dif net/minecraft/client/particle/BlockCrackParticle
+	CLASS dif$a net/minecraft/client/particle/BlockCrackParticle$Factory
+	FIELD C block Lbtx;
+	FIELD F blockPos Leu;
+	METHOD <init> (Lbfy;DDDDDDLbtx;)V
+		ARG 1 world
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z
+	METHOD a setBlockPos (Leu;)Ldif;
+	METHOD b updateColor (Leu;)V
+	METHOD g setBlockPosFromPosition ()Ldif;

@@ -1,0 +1,8 @@
+CLASS ccl net/minecraft/world/gen/feature/PillagerOutpostFeature
+	CLASS ccl$a Start
+		METHOD <init> (Lcdw;IILbht;Lche;IJ)V
+			ARG 2 chunkX
+			ARG 3 chunkZ
+	FIELD a MONSTER_SPAWNS Ljava/util/List;
+	METHOD <init> (Ljava/util/function/Function;)V
+		ARG 1 configFactory

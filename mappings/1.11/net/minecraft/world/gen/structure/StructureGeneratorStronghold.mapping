@@ -1,0 +1,7 @@
+CLASS ayj net/minecraft/world/gen/structure/StructureGeneratorStronghold
+	CLASS ayj$a StructureStronghold
+	FIELD a allowedBiomes Ljava/util/List;
+	FIELD h distance D
+	FIELD i spread I
+	METHOD <init> (Ljava/util/Map;)V
+		ARG 0 settings

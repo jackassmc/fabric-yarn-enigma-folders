@@ -1,0 +1,4 @@
+CLASS dqu net/minecraft/client/audio/RidingMinecartSoundInstance
+	FIELD n minecart Lasq;
+	FIELD o distance F
+	METHOD ab_ tick ()V

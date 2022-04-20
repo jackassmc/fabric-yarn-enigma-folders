@@ -1,0 +1,34 @@
+CLASS axl net/minecraft/entity/vehicle/AbstractMinecartEntity
+	CLASS axl$a Type
+	FIELD e CUSTOM_BLOCK_ID Lqh;
+	FIELD f CUSTOM_BLOCK_OFFSET Lqh;
+	FIELD g CUSTOM_BLOCK_PRESENT Lqh;
+	METHOD <init> (Laij;Lbhh;)V
+		ARG 1 type
+	METHOD <init> (Laij;Lbhh;DDD)V
+		ARG 1 type
+		ARG 2 world
+		ARG 3 x
+		ARG 5 y
+		ARG 7 z
+	METHOD a onActivatorRail (IIIZ)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD a dropItems (Laho;)V
+		ARG 1 damageSource
+	METHOD a create (Lbhh;DDDLaxl$a;)Laxl;
+		ARG 0 world
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+		ARG 7 type
+	METHOD a setCustomBlockPresent (Z)V
+	METHOD b setCustomBlock (Lbvj;)V
+	METHOD k setCustomBlockOffset (I)V
+	METHOD o getMinecartType ()Laxl$a;
+	METHOD p getContainedBlock ()Lbvj;
+	METHOD q getDefaultContainedBlock ()Lbvj;
+	METHOD r getBlockOffset ()I
+	METHOD s getDefaultBlockOffset ()I
+	METHOD u hasCustomBlock ()Z

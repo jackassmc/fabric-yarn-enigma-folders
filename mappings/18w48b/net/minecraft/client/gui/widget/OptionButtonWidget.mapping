@@ -1,0 +1,7 @@
+CLASS cph net/minecraft/client/gui/widget/OptionButtonWidget
+	FIELD o option Lcnx$a;
+	METHOD <init> (IIILjava/lang/String;)V
+		ARG 1 id
+		ARG 2 x
+		ARG 3 y
+	METHOD c getOption ()Lcnx$a;

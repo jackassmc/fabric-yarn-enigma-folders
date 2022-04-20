@@ -1,0 +1,5 @@
+CLASS beo net/minecraft/enchantment/SweepingEnchantment
+	METHOD <init> (Lbdz$a;[Laib;)V
+		ARG 1 weight
+		ARG 2 slotTypes
+	METHOD e getMultiplier (I)F

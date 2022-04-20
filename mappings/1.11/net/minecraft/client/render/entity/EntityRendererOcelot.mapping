@@ -1,0 +1,8 @@
+CLASS bvp net/minecraft/client/render/entity/EntityRendererOcelot
+	FIELD a TAMED_BLACK_SKIN Lkq;
+	FIELD k TAMED_RED_SKIN Lkq;
+	FIELD l TAMED_SIAMEASE_SKIN Lkq;
+	METHOD a getTexture (Lsm;)Lkq;
+		ARG 0 model
+	METHOD a getTexture (Lxa;)Lkq;
+		ARG 0 model

@@ -1,0 +1,4 @@
+CLASS cax net/minecraft/world/gen/feature/ForestFlowerFeature
+	FIELD a FLOWERS [Lbma;
+	METHOD <init> (Ljava/util/function/Function;)V
+		ARG 1 configFactory

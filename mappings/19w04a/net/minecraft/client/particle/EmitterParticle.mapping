@@ -1,0 +1,14 @@
+CLASS deb net/minecraft/client/particle/EmitterParticle
+	FIELD J entity Lahc;
+	FIELD K emitterAge I
+	FIELD L maxEmitterAge I
+	FIELD M parameters Lft;
+	METHOD <init> (Lbcl;Lahc;Lft;)V
+		ARG 1 world
+		ARG 2 entity
+		ARG 3 parameters
+	METHOD <init> (Lbcl;Lahc;Lft;I)V
+		ARG 1 world
+		ARG 2 entity
+		ARG 3 parameters
+		ARG 4 maxAge

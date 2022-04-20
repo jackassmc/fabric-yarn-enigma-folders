@@ -1,0 +1,21 @@
+CLASS cqn net/minecraft/world/loot/context/LootContextType
+	CLASS cqn$a Builder
+		FIELD a required Ljava/util/Set;
+		FIELD b allowed Ljava/util/Set;
+		METHOD a build ()Lcqn;
+		METHOD a require (Lcqm;)Lcqn$a;
+			ARG 1 parameter
+		METHOD b allow (Lcqm;)Lcqn$a;
+			ARG 1 parameter
+	FIELD a required Ljava/util/Set;
+	FIELD b allowed Ljava/util/Set;
+	METHOD <init> (Ljava/util/Set;Ljava/util/Set;)V
+		ARG 1 required
+		ARG 2 allowed
+	METHOD a getRequired ()Ljava/util/Set;
+	METHOD a check (Lcos;Lcop;)V
+		ARG 1 reporter
+		ARG 2 parameterConsumer
+	METHOD b getAllowed ()Ljava/util/Set;
+	METHOD b (Lcqm;)Ljava/lang/String;
+		ARG 1 parameter

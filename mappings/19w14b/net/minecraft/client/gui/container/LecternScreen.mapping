@@ -1,0 +1,7 @@
+CLASS dax net/minecraft/client/gui/container/LecternScreen
+	FIELD c lecternContainer Layq;
+	FIELD d listener Layd;
+	METHOD c sendButtonPressPacket (I)V
+		ARG 1 id
+	METHOD g updatePageProvider ()V
+	METHOD h updatePage ()V

@@ -1,0 +1,4 @@
+CLASS cdt net/minecraft/sortme/structures/processor/JigsawReplacementStructureProcessor
+	FIELD a INSTANCE Lcdt;
+	METHOD a getStructureProcessor ()Lcee;
+	METHOD a process (Lbcm;Let;Lcef$b;Lcef$b;Lcec;)Lcef$b;

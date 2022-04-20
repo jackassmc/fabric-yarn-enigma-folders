@@ -1,0 +1,19 @@
+CLASS alg net/minecraft/world/GameMode
+	FIELD a INVALID Lalg;
+	FIELD b SURVIVAL Lalg;
+	FIELD c CREATIVE Lalg;
+	FIELD d ADVENTURE Lalg;
+	FIELD e SPECTATOR Lalg;
+	FIELD f id I
+	FIELD g name Ljava/lang/String;
+	FIELD h prefix Ljava/lang/String;
+	METHOD a getId ()I
+	METHOD a byId (I)Lalg;
+	METHOD a byId (ILalg;)Lalg;
+	METHOD a setAbilitites (Lacs;)V
+	METHOD a byName (Ljava/lang/String;)Lalg;
+	METHOD a byName (Ljava/lang/String;Lalg;)Lalg;
+	METHOD b getName ()Ljava/lang/String;
+	METHOD c shouldLimitWorldModification ()Z
+	METHOD d isCreative ()Z
+	METHOD e isSurvivalLike ()Z

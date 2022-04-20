@@ -1,0 +1,2 @@
+CLASS czs net/minecraft/client/particle/ParticleFactory
+	METHOD a createParticle (Lfs;Lbae;DDDDDD)Lczq;

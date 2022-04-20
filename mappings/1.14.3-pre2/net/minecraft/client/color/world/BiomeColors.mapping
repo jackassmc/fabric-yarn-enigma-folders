@@ -1,0 +1,28 @@
+CLASS dkf net/minecraft/client/color/world/BiomeColors
+	CLASS dkf$a Provider
+		METHOD getColor (Lbii;Lev;)I
+			ARG 1 biome
+			ARG 2 pos
+	FIELD a GRASS_COLOR Ldkf$a;
+	FIELD b FOLIAGE_COLOR Ldkf$a;
+	FIELD c WATER_COLOR Ldkf$a;
+	FIELD d WATER_FOG_COLOR Ldkf$a;
+	METHOD a getGrassColor (Lbgt;Lev;)I
+		ARG 0 view
+		ARG 1 pos
+	METHOD a getColor (Lbgt;Lev;Ldkf$a;)I
+		ARG 0 view
+		ARG 1 pos
+		ARG 2 provider
+	METHOD a (Lbii;Lev;)I
+		ARG 0 biome
+		ARG 1 pos
+	METHOD b getFoliageColor (Lbgt;Lev;)I
+		ARG 0 view
+		ARG 1 pos
+	METHOD b (Lbii;Lev;)I
+		ARG 0 biome
+		ARG 1 pos
+	METHOD c getWaterColor (Lbgt;Lev;)I
+		ARG 0 view
+		ARG 1 pos

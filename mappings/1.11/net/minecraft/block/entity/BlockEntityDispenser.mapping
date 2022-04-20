@@ -1,0 +1,13 @@
+CLASS asg net/minecraft/block/entity/BlockEntityDispenser
+	METHOD a createContainer (Laaw;Laax;)Lack;
+		ARG 0 playerInv
+		ARG 1 player
+	METHOD a deserialize (Ldu;)V
+		ARG 0 tag
+	METHOD a registerTagUpgraders (Lph;)V
+		ARG 0 handler
+	METHOD b serialize (Ldu;)Ldu;
+		ARG 0 tag
+	METHOD h_ getName ()Ljava/lang/String;
+	METHOD l getContainerId ()Ljava/lang/String;
+	METHOD w_ hasCustomName ()Z

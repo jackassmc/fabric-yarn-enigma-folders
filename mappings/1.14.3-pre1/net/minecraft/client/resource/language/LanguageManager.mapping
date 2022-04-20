@@ -1,0 +1,12 @@
+CLASS dvi net/minecraft/client/resource/language/LanguageManager
+	FIELD a STORAGE Ldvj;
+	FIELD b LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD c currentLanguageCode Ljava/lang/String;
+	FIELD d languageDefs Ljava/util/Map;
+	METHOD a isRightToLeft ()Z
+	METHOD a setLanguage (Ldvh;)V
+	METHOD a getLanguage (Ljava/lang/String;)Ldvh;
+		ARG 1 code
+	METHOD a reloadResources (Ljava/util/List;)V
+	METHOD b getLanguage ()Ldvh;
+	METHOD c getAllLanguages ()Ljava/util/SortedSet;

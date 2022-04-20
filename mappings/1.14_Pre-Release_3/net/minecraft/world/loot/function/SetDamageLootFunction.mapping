@@ -1,0 +1,11 @@
+CLASS cpy net/minecraft/world/loot/function/SetDamageLootFunction
+	CLASS cpy$a Factory
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD c durabilityRange Lcoq;
+	METHOD <init> ([Lcqu;Lcoq;)V
+		ARG 1 contents
+		ARG 2 durabilityRange
+	METHOD a builder (Lcoq;)Lcpq$a;
+		ARG 0 durabilityRange
+	METHOD a (Lcoq;[Lcqu;)Lcpr;
+		ARG 1 conditions

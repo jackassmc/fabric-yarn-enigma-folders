@@ -1,0 +1,14 @@
+CLASS aws net/minecraft/entity/thrown/ThrownItemEntity
+	FIELD e ITEM Lqh;
+	METHOD <init> (Laij;DDDLbhh;)V
+		ARG 1 type
+	METHOD <init> (Laij;Laio;Lbhh;)V
+		ARG 1 type
+		ARG 2 owner
+		ARG 3 world
+	METHOD <init> (Laij;Lbhh;)V
+		ARG 1 type
+	METHOD b setItem (Lbca;)V
+		ARG 1 item
+	METHOD i getDefaultItem ()Lbbv;
+	METHOD k getItem ()Lbca;

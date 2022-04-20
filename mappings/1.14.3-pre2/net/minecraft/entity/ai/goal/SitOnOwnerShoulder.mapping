@@ -1,0 +1,6 @@
+CLASS and net/minecraft/entity/ai/goal/SitOnOwnerShoulder
+	FIELD a tameable Laro;
+	FIELD b owner Lvj;
+	FIELD c mounted Z
+	METHOD <init> (Laro;)V
+		ARG 1 tameable

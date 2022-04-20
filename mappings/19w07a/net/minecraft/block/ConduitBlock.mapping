@@ -1,0 +1,5 @@
+CLASS biz net/minecraft/block/ConduitBlock
+	FIELD a WATERLOGGED Lbrr;
+	FIELD b SHAPE Lcoa;
+	METHOD <init> (Lbic$c;)V
+		ARG 1 settings

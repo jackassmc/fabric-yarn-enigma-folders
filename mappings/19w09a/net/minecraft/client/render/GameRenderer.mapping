@@ -1,0 +1,64 @@
+CLASS dgg net/minecraft/client/render/GameRenderer
+	FIELD E floatingItem Laxx;
+	FIELD F floatingItemTimeLeft I
+	FIELD G floatingItemWidth F
+	FIELD H floatingItemHeight F
+	FIELD I shader Ldgp;
+	FIELD L SHADERS_LOCATIONS [Lqi;
+	FIELD M forcedShaderIndex I
+	FIELD N shadersEnabled Z
+	FIELD a firstPersonRenderer Ldgi;
+	FIELD b SHADER_COUNT I
+	FIELD c LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD d RAIN_LOC Lqi;
+	FIELD e SNOW_LOC Lqi;
+	FIELD f client Lcqx;
+	FIELD g resourceContainer Lwt;
+	FIELD h random Ljava/util/Random;
+	FIELD i viewDistance F
+	FIELD j mapRenderer Lcrs;
+	FIELD p tickEndSkyDarkness F
+	FIELD q tickStartSkyDarkness F
+	FIELD s blockOutlineEnabled Z
+	FIELD t lastWorldIconUpdate J
+	FIELD u lastRenderTime J
+	FIELD v lightmapTextureManager Ldgl;
+	FIELD z backgroundRenderer Ldgf;
+	METHOD <init> (Lcqx;Lwt;)V
+		ARG 1 client
+	METHOD a updateTargetedEntity (F)V
+		ARG 1 tickDelta
+	METHOD a renderWorld (FJ)V
+		ARG 1 tickDelta
+	METHOD a render (FJZ)V
+		ARG 1 tickDelta
+		ARG 2 startTime
+		ARG 4 fullRender
+	METHOD a onResized (II)V
+	METHOD a renderFloatingItem (IIF)V
+		ARG 1 scaledWidth
+		ARG 2 scaledHeight
+		ARG 3 tickDelta
+	METHOD a onCameraEntitySet (Lahm;)V
+	METHOD a showFloatingItem (Laxx;)V
+		ARG 1 item
+	METHOD a (Ldgk;FDDD)V
+		ARG 2 tickDelta
+	METHOD a loadShader (Lqi;)V
+	METHOD a (Lwt;)V
+		ARG 1 arg1
+	METHOD b disableShader ()V
+	METHOD b renderCenter (FJ)V
+		ARG 1 tickDelta
+	METHOD c toggleShadersEnabled ()V
+	METHOD d getSkyDarkness (F)F
+		ARG 1 tickDelta
+	METHOD e tick ()V
+	METHOD f getShader ()Ldgp;
+	METHOD h disableLightmap ()V
+	METHOD i enableLightmap ()V
+	METHOD k getMapRenderer ()Lcrs;
+	METHOD l getClient ()Lcqx;
+	METHOD m getViewDistance ()F
+	METHOD o updateWorldIcon ()V
+	METHOD p shouldRenderBlockOutline ()Z

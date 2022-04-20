@@ -1,0 +1,5 @@
+CLASS awk net/minecraft/item/EnderPearlItem
+	METHOD a use (Lbcf;Lark;Lafy;)Laga;
+		ARG 1 world
+		ARG 2 player
+		ARG 3 hand

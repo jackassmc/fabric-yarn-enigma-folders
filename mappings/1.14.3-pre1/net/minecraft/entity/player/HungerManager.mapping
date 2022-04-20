@@ -1,0 +1,18 @@
+CLASS axz net/minecraft/entity/player/HungerManager
+	FIELD a foodLevel I
+	FIELD b foodSaturationLevel F
+	FIELD c exhaustion F
+	FIELD d foodStarvationTimer I
+	FIELD e prevFoodLevel I
+	METHOD a getFoodLevel ()I
+	METHOD a addExhaustion (F)V
+	METHOD a setFoodLevel (I)V
+	METHOD a add (IF)V
+		ARG 1 food
+	METHOD a update (Lavz;)V
+	METHOD a eat (Lbbx;Lbcc;)V
+	METHOD a deserialize (Lib;)V
+	METHOD b setSaturationLevelClient (F)V
+	METHOD b serialize (Lib;)V
+	METHOD c isNotFull ()Z
+	METHOD e getSaturationLevel ()F

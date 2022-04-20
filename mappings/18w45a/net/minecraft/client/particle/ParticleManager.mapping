@@ -1,0 +1,15 @@
+CLASS cyq net/minecraft/client/particle/ParticleManager
+	FIELD a world Lazy;
+	FIELD b PARTICLE_TEX Lpw;
+	FIELD c particleQueues [[Ljava/util/ArrayDeque;
+	FIELD e textureManager Ldjm;
+	FIELD f rand Ljava/util/Random;
+	FIELD h newParticles Ljava/util/Queue;
+	METHOD <init> (Lazy;Ldjm;)V
+		ARG 1 world
+	METHOD a tick ()V
+	METHOD a setWorld (Lazy;)V
+	METHOD a addParticle (Lcyp;)V
+	METHOD a updateParticleQueue (Ljava/util/Queue;)V
+	METHOD b updateParticle (Lcyp;)V
+	METHOD c registerDefaultFactories ()V

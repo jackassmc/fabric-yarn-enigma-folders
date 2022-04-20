@@ -1,0 +1,5 @@
+CLASS dkq net/minecraft/client/render/entity/LlamaDecorEntityRenderer
+	METHOD a shouldMergeTextures ()Z
+	METHOD a render (Lagt;FFFFFFF)V
+		ARG 0 entity
+	METHOD a render (Lamt;FFFFFFF)V

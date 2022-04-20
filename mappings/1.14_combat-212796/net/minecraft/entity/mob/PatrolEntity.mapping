@@ -1,0 +1,26 @@
+CLASS auo net/minecraft/entity/mob/PatrolEntity
+	CLASS a PatrolGoal
+		FIELD a actor Lauo;
+		FIELD b leaderSpeed D
+		FIELD c fellowSpeed D
+		METHOD <init> (Lauo;DD)V
+			ARG 1 actor
+			ARG 2 leaderSpeed
+			ARG 4 fellowSpeed
+		METHOD g wander ()V
+	FIELD b patrolTarget Lev;
+	FIELD c patrolLeader Z
+	FIELD d patrolling Z
+	METHOD <init> (Laip;Lbhn;)V
+		ARG 1 type
+	METHOD dY canLead ()Z
+	METHOD dZ getPatrolTarget ()Lev;
+	METHOD ea hasPatrolTarget ()Z
+	METHOD eb isPatrolLeader ()Z
+	METHOD ed hasNoRaid ()Z
+	METHOD ee setRandomPatrolTarget ()V
+	METHOD ef isRaidCenterSet ()Z
+	METHOD g setPatrolTarget (Lev;)V
+		ARG 1 targetPos
+	METHOD r setPatrolLeader (Z)V
+		ARG 1 patrolLeader

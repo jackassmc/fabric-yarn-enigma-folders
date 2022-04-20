@@ -1,0 +1,3 @@
+CLASS asg net/minecraft/entity/boss/dragon/phase/LandingPhase
+	METHOD <init> (Larx;)V
+		ARG 1 dragon

@@ -1,0 +1,107 @@
+CLASS none/ato net/minecraft/world/chunk/Chunk
+	FIELD a NULL_CHUNK_SECTION Lnone/atp;
+	FIELD b chunkX I
+	FIELD c chunkZ I
+	FIELD d dropped Z
+	FIELD e LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD f sections [Lnone/atp;
+	FIELD g biomeMap [B
+	FIELD j entitiesLoaded Z
+	FIELD k world Lnone/aiv;
+	FIELD l heightMap [I
+	FIELD n blockEntityMap Ljava/util/Map;
+	FIELD o entities [Lnone/od;
+	FIELD p terrainPopulated Z
+	FIELD q lightPopulated Z
+	FIELD s dirty Z
+	FIELD w inhabitedTime J
+	METHOD <init> (Lnone/aiv;II)V
+		ARG 0 world
+		ARG 1 x
+		ARG 2 z
+	METHOD <init> (Lnone/aiv;Lnone/auo;II)V
+		ARG 0 world
+	METHOD a matchesPos (II)Z
+		ARG 0 chunkX
+		ARG 1 chunkZ
+	METHOD a getBlockState (III)Lnone/asl;
+		ARG 0 x
+		ARG 1 y
+		ARG 2 z
+	METHOD a (Lnone/ajb;Lnone/cn;)I
+		ARG 1 pos
+	METHOD a (Lnone/ajb;Lnone/cn;I)V
+		ARG 1 pos
+	METHOD a addBlockEntity (Lnone/ard;)V
+		ARG 0 blockEntity
+	METHOD a populate (Lnone/ati;)V
+		ARG 0 generator
+	METHOD a populate (Lnone/atj;Lnone/ati;)V
+		ARG 0 provider
+		ARG 1 generator
+	METHOD a getBlockState (Lnone/cn;)Lnone/asl;
+		ARG 0 pos
+	METHOD a (Lnone/cn;I)I
+		ARG 0 pos
+	METHOD a getBiome (Lnone/cn;Lnone/ajm;)Lnone/aji;
+		ARG 0 pos
+	METHOD a addBlockEntity (Lnone/cn;Lnone/ard;)V
+		ARG 0 pos
+		ARG 1 blockEntity
+	METHOD a (Lnone/cn;Lnone/asl;)Lnone/asl;
+		ARG 0 pos
+		ARG 1 state
+	METHOD a (Lnone/cn;Lnone/ato$a;)Lnone/ard;
+		ARG 0 pos
+	METHOD a (Lnone/es;IZ)V
+		ARG 0 buffer
+	METHOD a addEntity (Lnone/sf;)V
+		ARG 0 entity
+	METHOD a removeEntity (Lnone/sf;I)V
+		ARG 0 entity
+		ARG 1 chunkY
+	METHOD a setBiomeMap ([B)V
+		ARG 0 biomeMap
+	METHOD a setHeightMap ([I)V
+		ARG 0 heightMap
+	METHOD a replaceSections ([Lnone/atp;)V
+		ARG 0 newSections
+	METHOD b getHeightAt (II)I
+		ARG 0 x
+		ARG 1 z
+	METHOD b (Lnone/cn;)I
+		ARG 0 pos
+	METHOD b removeEntity (Lnone/sf;)V
+		ARG 0 entity
+	METHOD b update (Z)V
+	METHOD c addEntities ()V
+	METHOD c setInhabitedTime (J)V
+		ARG 0 inhabitedTime
+	METHOD c setEntitiesLoaded (Z)V
+		ARG 0 value
+	METHOD d dropEntities ()V
+	METHOD d invalidateBlockEntityAt (Lnone/cn;)V
+		ARG 0 pos
+	METHOD d setTerrainPopulated (Z)V
+		ARG 0 terrainPopulated
+	METHOD e markDirty ()V
+	METHOD e getHeightFromBlockPos (Lnone/cn;)I
+		ARG 0 pos
+	METHOD e setLightPopulated (Z)V
+		ARG 0 lightPopulated
+	METHOD f isEmpty ()Z
+	METHOD f setDirty (Z)V
+		ARG 0 dirty
+	METHOD g getLevelOfTopSection ()I
+	METHOD h getSections ()[Lnone/atp;
+	METHOD k getPos ()Lnone/aio;
+	METHOD l getBiomeMap ()[B
+	METHOD p areEntitiesLoaded ()Z
+	METHOD q getWorld ()Lnone/aiv;
+	METHOD r getHeightMap ()[I
+	METHOD s getBlockEntityMap ()Ljava/util/Map;
+	METHOD t getEntitySets ()[Lnone/od;
+	METHOD u isTerrainPopulated ()Z
+	METHOD v isLightPopulated ()Z
+	METHOD x getInhabitedTime ()J
+	METHOD y getTopSection ()Lnone/atp;

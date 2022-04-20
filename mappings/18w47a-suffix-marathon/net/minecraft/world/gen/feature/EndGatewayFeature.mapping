@@ -1,0 +1,2 @@
+CLASS bub net/minecraft/world/gen/feature/EndGatewayFeature
+	METHOD a generate (Lban;Lbqc;Ljava/util/Random;Les;Lbuf;)Z

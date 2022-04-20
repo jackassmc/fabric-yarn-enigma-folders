@@ -1,0 +1,2 @@
+CLASS aub net/minecraft/village/VillagerDataContainer
+	METHOD dZ getVillagerData ()Laua;

@@ -1,0 +1,14 @@
+CLASS crp net/minecraft/client/toast/ToastManager
+	CLASS crp$a Entry
+		FIELD b instance Lcro;
+		METHOD <init> (Lcrp;Lcro;)V
+			ARG 1 instance
+		METHOD a getInstance ()Lcro;
+		METHOD a draw (II)Z
+	FIELD a client Lcpk;
+	FIELD f visibleEntries [Lcrp$a;
+	FIELD g toastQueue Ljava/util/Deque;
+	METHOD a draw ()V
+	METHOD a add (Lcro;)V
+	METHOD b clear ()V
+	METHOD c getGame ()Lcpk;

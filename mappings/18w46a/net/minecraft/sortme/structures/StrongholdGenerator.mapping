@@ -1,0 +1,41 @@
+CLASS cam net/minecraft/sortme/structures/StrongholdGenerator
+	CLASS cam$a
+		METHOD a toNbt (Lho;)V
+		METHOD a fromNbt (Lho;Lcaz;)V
+			ARG 1 tag
+	CLASS cam$b
+		METHOD a toNbt (Lho;)V
+		METHOD a fromNbt (Lho;Lcaz;)V
+			ARG 1 tag
+	CLASS cam$c
+		METHOD a toNbt (Lho;)V
+		METHOD a fromNbt (Lho;Lcaz;)V
+			ARG 1 tag
+	CLASS cam$e
+		METHOD a toNbt (Lho;)V
+		METHOD a fromNbt (Lho;Lcaz;)V
+			ARG 1 tag
+	CLASS cam$g
+		METHOD a toNbt (Lho;)V
+		METHOD a fromNbt (Lho;Lcaz;)V
+			ARG 1 tag
+	CLASS cam$j
+		METHOD a toNbt (Lho;)V
+		METHOD a fromNbt (Lho;Lcaz;)V
+			ARG 1 tag
+	CLASS cam$k
+		METHOD a (Ljava/util/Random;IIIZ)V
+			ARG 1 rand
+			ARG 2 x
+	CLASS cam$l
+		METHOD a toNbt (Lho;)V
+		METHOD a fromNbt (Lho;Lcaz;)V
+			ARG 1 tag
+	CLASS cam$n
+		METHOD a toNbt (Lho;)V
+		METHOD a fromNbt (Lho;Lcaz;)V
+			ARG 1 tag
+	CLASS cam$p
+		METHOD a toNbt (Lho;)V
+		METHOD a fromNbt (Lho;Lcaz;)V
+			ARG 1 tag

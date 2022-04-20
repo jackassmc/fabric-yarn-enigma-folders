@@ -1,0 +1,9 @@
+CLASS axx net/minecraft/container/CraftingContainer
+	METHOD a populateRecipeFinder (Lauo;)V
+	METHOD a matches (Lbda;)Z
+	METHOD a fillInputSlots (ZLbda;Lvd;)V
+	METHOD e clearCraftingSlots ()V
+	METHOD f getCraftingResultSlotIndex ()I
+	METHOD g getCraftingWidth ()I
+	METHOD h getCraftingHeight ()I
+	METHOD i getCraftingSlotCount ()I

@@ -1,0 +1,6 @@
+CLASS cio net/minecraft/structure/processor/GravityStructureProcessor
+	FIELD a heightmap Lbyj$a;
+	FIELD b offset I
+	METHOD <init> (Lbyj$a;I)V
+		ARG 1 heightmap
+		ARG 2 offset

@@ -1,0 +1,3 @@
+CLASS aty net/minecraft/item/ItemDebugStick
+	METHOD a useOnBlock (Laws;)Laex;
+	METHOD e_ hasEnchantmentGlow (Lavf;)Z

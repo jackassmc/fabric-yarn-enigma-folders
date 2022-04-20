@@ -1,0 +1,3 @@
+CLASS brt net/minecraft/block/SpawnerBlock
+	METHOD <init> (Lbmp$c;)V
+		ARG 1 settings

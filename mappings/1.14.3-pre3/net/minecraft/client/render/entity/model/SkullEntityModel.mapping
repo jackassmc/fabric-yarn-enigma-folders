@@ -1,0 +1,14 @@
+CLASS dgj net/minecraft/client/render/entity/model/SkullEntityModel
+	FIELD a skull Ldhh;
+	METHOD <init> (IIII)V
+		ARG 1 textureU
+		ARG 2 textureV
+		ARG 3 textureWidth
+		ARG 4 textureHeight
+	METHOD a render (FFFFFF)V
+		ARG 1 limbMoveAngle
+		ARG 2 limbMoveAmount
+		ARG 3 age
+		ARG 4 headYaw
+		ARG 5 headPitch
+		ARG 6 scale

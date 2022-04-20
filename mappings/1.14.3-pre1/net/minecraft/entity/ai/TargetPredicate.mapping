@@ -1,0 +1,21 @@
+CLASS aqb net/minecraft/entity/ai/TargetPredicate
+	FIELD a DEFAULT Laqb;
+	FIELD b baseMaxDistance D
+	FIELD c includeInvulnerable Z
+	FIELD d includeTeammates Z
+	FIELD e includeHidden Z
+	FIELD f ignoreEntityTargetRules Z
+	FIELD g useDistanceScalingFactor Z
+	FIELD h predicate Ljava/util/function/Predicate;
+	METHOD a includeInvulnerable ()Laqb;
+	METHOD a setBaseMaxDistance (D)Laqb;
+		ARG 1 baseMaxDistance
+	METHOD a test (Lais;Lais;)Z
+		ARG 1 baseEntity
+		ARG 2 targetEntity
+	METHOD a setPredicate (Ljava/util/function/Predicate;)Laqb;
+		ARG 1 predicate
+	METHOD b includeTeammates ()Laqb;
+	METHOD c includeHidden ()Laqb;
+	METHOD d ignoreEntityTargetRules ()Laqb;
+	METHOD e ignoreDistanceScalingFactor ()Laqb;

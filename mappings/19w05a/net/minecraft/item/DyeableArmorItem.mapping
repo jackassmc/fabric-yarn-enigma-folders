@@ -1,0 +1,9 @@
+CLASS awh net/minecraft/item/DyeableArmorItem
+	METHOD <init> (Lave;Lahj;Laxd$a;)V
+		ARG 1 material
+		ARG 2 slot
+		ARG 3 settings
+	METHOD a setColor (Laxi;I)V
+	METHOD e hasColor (Laxi;)Z
+	METHOD f getColor (Laxi;)I
+	METHOD g removeColor (Laxi;)V

@@ -1,0 +1,4 @@
+CLASS bax net/minecraft/enchantment/PowerEnchantment
+	METHOD <init> (Lbbg$a;[Lahq;)V
+		ARG 1 weight
+		ARG 2 slotTypes

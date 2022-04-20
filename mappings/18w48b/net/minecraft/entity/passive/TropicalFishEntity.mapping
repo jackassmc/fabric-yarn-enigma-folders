@@ -1,0 +1,11 @@
+CLASS ami net/minecraft/entity/passive/TropicalFishEntity
+	METHOD D getAmbientSound ()Lxf;
+	METHOD a (Lbar;Lafa;Lagu;Lahc;Lhp;)Lahc;
+		ARG 3 difficulty
+	METHOD a readCustomDataFromTag (Lhp;)V
+		ARG 1 tag
+	METHOD b writeCustomDataToTag (Lhp;)V
+		ARG 1 tag
+	METHOD cw getDeathSound ()Lxf;
+	METHOD e getHurtSound (Lafr;)Lxf;
+	METHOD x_ initDataTracker ()V

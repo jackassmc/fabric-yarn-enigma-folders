@@ -1,0 +1,14 @@
+CLASS arp net/minecraft/entity/projectile/ArrowEntity
+	FIELD au COLOR Lps;
+	FIELD av potion Layu;
+	FIELD aw effects Ljava/util/Set;
+	METHOD <init> (Lbcl;DDD)V
+		ARG 1 world
+		ARG 2 x
+	METHOD <init> (Lbcl;Lahl;)V
+		ARG 1 world
+	METHOD a addEffect (Lagv;)V
+	METHOD b spawnParticles (I)V
+	METHOD b initFromStack (Laxd;)V
+	METHOD t getColor ()I
+	METHOD u initColor ()V

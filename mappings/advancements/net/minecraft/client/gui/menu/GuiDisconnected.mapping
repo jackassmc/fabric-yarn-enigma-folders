@@ -1,0 +1,10 @@
+CLASS bjb net/minecraft/client/gui/menu/GuiDisconnected
+	FIELD a title Ljava/lang/String;
+	FIELD f reason Lgk;
+	FIELD g reasonFormatted Ljava/util/List;
+	FIELD h parent Lbjn;
+	FIELD i reasonHeight I
+	METHOD a onKeyPressed (CI)V
+	METHOD a draw (IIF)V
+	METHOD a onWidgetPressed (Lbhk;)V
+	METHOD b init ()V

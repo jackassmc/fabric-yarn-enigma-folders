@@ -1,0 +1,7 @@
+CLASS lw net/minecraft/client/network/packet/RemoveEntityEffectClientPacket
+	FIELD a entityId I
+	FIELD b effectType Lagu;
+	METHOD <init> (ILagu;)V
+		ARG 1 entityId
+	METHOD a getEntity (Lbcl;)Lahc;
+	METHOD b getEffectType ()Lagu;

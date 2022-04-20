@@ -1,0 +1,15 @@
+CLASS anc net/minecraft/entity/parts/EntityPart
+	FIELD a damageDelegate Lanb;
+	FIELD b name Ljava/lang/String;
+	METHOD <init> (Lanb;Ljava/lang/String;FF)V
+		ARG 1 damageDelegate
+		ARG 2 name
+		ARG 3 width
+	METHOD a damage (Laft;F)Z
+		ARG 1 source
+		ARG 2 amount
+	METHOD a readCustomDataFromTag (Lhq;)V
+	METHOD aD doesCollide ()Z
+	METHOD b writeCustomDataToTag (Lhq;)V
+	METHOD s isPartOf (Lagk;)Z
+	METHOD y_ initDataTracker ()V

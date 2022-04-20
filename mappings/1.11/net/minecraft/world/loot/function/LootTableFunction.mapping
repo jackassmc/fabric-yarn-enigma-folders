@@ -1,0 +1,25 @@
+CLASS bcp net/minecraft/world/loot/function/LootTableFunction
+	CLASS bcp$a Serializer
+		FIELD a id Lkq;
+		FIELD b function Ljava/lang/Class;
+		METHOD <init> (Lkq;Ljava/lang/Class;)V
+			ARG 0 id
+			ARG 1 functionClass
+		METHOD a getId ()Lkq;
+		METHOD a serialize (Lcom/google/gson/JsonObject;Lbcp;Lcom/google/gson/JsonSerializationContext;)V
+			ARG 0 json
+			ARG 1 functionClass
+			ARG 2 context
+		METHOD b getFunctionClass ()Ljava/lang/Class;
+		METHOD b deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;[Lbdb;)Lbcp;
+			ARG 0 json
+			ARG 1 context
+			ARG 2 conditions
+	FIELD a conditions [Lbdb;
+	METHOD <init> ([Lbdb;)V
+		ARG 0 conditions
+	METHOD a getConditions ()[Lbdb;
+	METHOD a apply (Lafi;Ljava/util/Random;Lbcj;)Lafi;
+		ARG 0 stack
+		ARG 1 rand
+		ARG 2 context

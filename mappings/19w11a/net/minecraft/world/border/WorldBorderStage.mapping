@@ -1,0 +1,6 @@
+CLASS bvi net/minecraft/world/border/WorldBorderStage
+	FIELD a GROWING Lbvi;
+	FIELD b SHRINKING Lbvi;
+	FIELD c STATIC Lbvi;
+	FIELD d color I
+	METHOD a getColor ()I

@@ -1,0 +1,15 @@
+CLASS agg net/minecraft/entity/EntityType
+	FIELD a MONSTER Lagg;
+	FIELD b CREATURE Lagg;
+	FIELD c AMBIENT Lagg;
+	FIELD d WATER_CREATURE Lagg;
+	FIELD f entityClass Ljava/lang/Class;
+	FIELD g spawnCap I
+	FIELD h peaceful Z
+	FIELD i animal Z
+	FIELD j name Ljava/lang/String;
+	METHOD a getName ()Ljava/lang/String;
+	METHOD b getEntityClass ()Ljava/lang/Class;
+	METHOD c getSpawnCap ()I
+	METHOD d isPeaceful ()Z
+	METHOD e isAnimal ()Z

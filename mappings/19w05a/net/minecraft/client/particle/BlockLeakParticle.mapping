@@ -1,0 +1,4 @@
+CLASS ddb net/minecraft/client/particle/BlockLeakParticle
+	CLASS ddb$a LavaFactory
+	CLASS ddb$b WaterFactory
+	FIELD K slowedTimer I

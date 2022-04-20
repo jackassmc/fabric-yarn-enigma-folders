@@ -1,0 +1,2 @@
+CLASS drj net/minecraft/client/render/entity/SilverfishEntityRenderer
+	FIELD a SKIN Lqt;

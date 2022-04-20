@@ -1,0 +1,47 @@
+CLASS bny net/minecraft/block/AbstractRedstoneGateBlock
+	FIELD b SHAPE Lcsv;
+	FIELD c POWERED Lbwg;
+	METHOD <init> (Lbmq$c;)V
+		ARG 1 settings
+	METHOD a hasPower (Lbhm;Lev;Lbvo;)Z
+		ARG 1 world
+		ARG 2 pos
+		ARG 3 state
+	METHOD a isLocked (Lbhp;Lev;Lbvo;)Z
+		ARG 1 world
+		ARG 2 pos
+		ARG 3 state
+	METHOD b getOutputLevel (Lbgw;Lev;Lbvo;)I
+		ARG 1 view
+		ARG 2 pos
+		ARG 3 state
+	METHOD b getPower (Lbhm;Lev;Lbvo;)I
+		ARG 1 world
+		ARG 2 pos
+		ARG 3 state
+	METHOD b getMaxInputLevelSides (Lbhp;Lev;Lbvo;)I
+		ARG 1 view
+		ARG 2 pos
+		ARG 3 state
+	METHOD b getInputLevel (Lbhp;Lev;Lfa;)I
+		ARG 1 view
+		ARG 2 pos
+		ARG 3 dir
+	METHOD c isTargetNotAligned (Lbgw;Lev;Lbvo;)Z
+		ARG 1 world
+		ARG 2 pos
+		ARG 3 state
+	METHOD c updatePowered (Lbhm;Lev;Lbvo;)V
+		ARG 1 world
+		ARG 2 pos
+		ARG 3 state
+	METHOD d updateTarget (Lbhm;Lev;Lbvo;)V
+		ARG 1 world
+		ARG 2 pos
+		ARG 3 state
+	METHOD j getUpdateDelayInternal (Lbvo;)I
+		ARG 1 state
+	METHOD q isValidInput (Lbvo;)Z
+		ARG 1 state
+	METHOD r isRedstoneGate (Lbvo;)Z
+		ARG 0 state

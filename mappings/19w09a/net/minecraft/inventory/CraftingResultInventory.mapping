@@ -1,0 +1,3 @@
+CLASS avd net/minecraft/inventory/CraftingResultInventory
+	FIELD a stack Lff;
+	FIELD b lastRecipe Lbah;

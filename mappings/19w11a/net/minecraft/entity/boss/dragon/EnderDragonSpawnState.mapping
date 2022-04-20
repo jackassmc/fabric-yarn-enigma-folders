@@ -1,0 +1,7 @@
+CLASS bwu net/minecraft/entity/boss/dragon/EnderDragonSpawnState
+	FIELD a START Lbwu;
+	FIELD b PREPARE_CREATE_SPIKES Lbwu;
+	FIELD c CREATE_SPIKES Lbwu;
+	FIELD d SPAWN_DRAGON Lbwu;
+	FIELD e END Lbwu;
+	METHOD a run (Lvc;Lbwv;Ljava/util/List;ILeu;)V

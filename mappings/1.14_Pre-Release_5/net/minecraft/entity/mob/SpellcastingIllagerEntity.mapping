@@ -1,0 +1,21 @@
+CLASS auv net/minecraft/entity/mob/SpellcastingIllagerEntity
+	CLASS auv$b LookAtTargetGoal
+	CLASS auv$c CastSpellGoal
+		FIELD b spellCooldown I
+		FIELD c startTime I
+		METHOD g getSpellTicks ()I
+		METHOD h startTimeDelay ()I
+		METHOD j castSpell ()V
+		METHOD k getSoundPrepare ()Lyj;
+		METHOD m getInitialCooldown ()I
+	FIELD bA spell Lauv$a;
+	FIELD b spellTicks I
+	FIELD bz SPELL Lqh;
+	METHOD <init> (Laij;Lbhh;)V
+		ARG 1 type
+	METHOD a setSpell (Lauv$a;)V
+		ARG 1 spell
+	METHOD dX getCastSpellSound ()Lyj;
+	METHOD eg isSpellcasting ()Z
+	METHOD eh getSpell ()Lauv$a;
+	METHOD ei getSpellTicks ()I

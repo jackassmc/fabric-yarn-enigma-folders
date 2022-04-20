@@ -1,0 +1,22 @@
+CLASS ga net/minecraft/network/packet/client/CPacketBlockAction
+	FIELD a pos Lco;
+	FIELD b arg1 I
+	FIELD c arg2 I
+	FIELD d block Lals;
+	METHOD <init> (Lco;Lals;II)V
+		ARG 0 pos
+		ARG 1 block
+		ARG 2 arg1
+		ARG 3 arg2
+	METHOD a getPos ()Lco;
+	METHOD a readPacket (Let;)V
+		ARG 0 packet
+	METHOD a applyPacket (Lew;)V
+		ARG 0 handler
+	METHOD a applyPacket (Lfp;)V
+		ARG 0 handler
+	METHOD b getArgumentFirst ()I
+	METHOD b writePacket (Let;)V
+		ARG 0 packet
+	METHOD c getArgumentSecond ()I
+	METHOD d getBlock ()Lals;

@@ -1,0 +1,18 @@
+CLASS czy net/minecraft/client/render/entity/model/BookModel
+	FIELD a leftCover Ldcy;
+	FIELD b rightCover Ldcy;
+	FIELD c leftBlock Ldcy;
+	FIELD d rightBlock Ldcy;
+	FIELD e leftPage Ldcy;
+	FIELD f rightPage Ldcy;
+	FIELD g spine Ldcy;
+	METHOD a render (FFFFFF)V
+		ARG 1 ticks
+		ARG 2 leftPageAngle
+		ARG 3 rightPageAngle
+		ARG 4 pageTurningSpeed
+	METHOD b setPageAngles (FFFFFF)V
+		ARG 1 ticks
+		ARG 2 leftPageAngle
+		ARG 3 rightPageAngle
+		ARG 4 pageTurningSpeed

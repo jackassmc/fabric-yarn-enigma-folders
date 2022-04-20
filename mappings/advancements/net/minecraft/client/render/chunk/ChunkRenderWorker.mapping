@@ -1,0 +1,7 @@
+CLASS bvv net/minecraft/client/render/chunk/ChunkRenderWorker
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD b batcher Lbvu;
+	FIELD d running Z
+	METHOD a stop ()V
+	METHOD a runTask (Lbvt;)V
+	METHOD a loadChunk (Ldx;Lali;)Z

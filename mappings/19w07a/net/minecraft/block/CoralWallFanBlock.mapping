@@ -1,0 +1,2 @@
+CLASS bjd net/minecraft/block/CoralWallFanBlock
+	FIELD c deadCoralBlock Lbic;

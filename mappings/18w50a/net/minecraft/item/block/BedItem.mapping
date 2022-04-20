@@ -1,0 +1,2 @@
+CLASS auq net/minecraft/item/block/BedItem
+	METHOD a setBlockState (Laus;Lbpm;)Z

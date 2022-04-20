@@ -1,0 +1,2 @@
+CLASS blq net/minecraft/stat/IStatFormatter
+	METHOD a format (Lmd;)V

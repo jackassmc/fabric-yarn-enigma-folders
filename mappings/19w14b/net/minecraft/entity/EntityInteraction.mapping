@@ -1,0 +1,3 @@
+CLASS apu net/minecraft/entity/EntityInteraction
+	METHOD a create (Ljava/lang/String;)Lapu;
+		ARG 0 key

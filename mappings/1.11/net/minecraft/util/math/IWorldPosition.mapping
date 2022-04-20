@@ -1,0 +1,2 @@
+CLASS da net/minecraft/util/math/IWorldPosition
+	METHOD h getWorld ()Lajq;

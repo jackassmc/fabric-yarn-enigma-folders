@@ -1,0 +1,13 @@
+CLASS dbs net/minecraft/client/gui/menu/MultiplayerScreen
+	FIELD a serverListWidget Ldbt;
+	FIELD b LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD d parent Lczn;
+	FIELD f buttonEdit Lcwc;
+	FIELD g buttonSelect Lcwc;
+	FIELD h buttonDelete Lcwc;
+	METHOD <init> (Lczn;)V
+		ARG 1 parent
+	METHOD a selectEntry (Ldbt$a;)V
+		ARG 1 arg1
+	METHOD confirmResult (ZI)V
+		ARG 1 result

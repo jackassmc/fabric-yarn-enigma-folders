@@ -1,0 +1,22 @@
+CLASS bmr net/minecraft/block/DoorBlock
+	FIELD a FACING Lbuz;
+	FIELD b OPEN Lbuw;
+	FIELD c HINGE Lbvc;
+	FIELD d POWERED Lbuw;
+	FIELD e HALF Lbvc;
+	FIELD f NORTH_SHAPE Lcri;
+	FIELD g SOUTH_SHAPE Lcri;
+	FIELD h EAST_SHAPE Lcri;
+	FIELD i WEST_SHAPE Lcri;
+	METHOD <init> (Lblg$c;)V
+		ARG 1 settings
+	METHOD a setOpen (Lbgf;Lev;Z)V
+		ARG 1 world
+		ARG 2 pos
+		ARG 3 open
+	METHOD b getHinge (Lazd;)Lbva;
+		ARG 1 ctx
+	METHOD b playOpenCloseSound (Lbgf;Lev;Z)V
+		ARG 3 open
+	METHOD d getOpenSoundEventId ()I
+	METHOD e getCloseSoundEventId ()I

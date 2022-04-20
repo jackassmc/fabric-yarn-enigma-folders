@@ -1,0 +1,3 @@
+CLASS aze net/minecraft/enchantment/EnchantmentDepthStrider
+	METHOD a getHighestLevel ()I
+	METHOD a differs (Layh;)Z

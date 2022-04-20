@@ -1,0 +1,8 @@
+CLASS aic net/minecraft/entity/ai/AiGoalFollowParent
+	FIELD a owner Lala;
+	FIELD b parent Lala;
+	METHOD a canStart ()Z
+	METHOD b shouldContinue ()Z
+	METHOD c start ()V
+	METHOD d onRemove ()V
+	METHOD e tick ()V

@@ -1,0 +1,4 @@
+CLASS dip net/minecraft/client/input/KeyboardInput
+	FIELD i settings Lctu;
+	METHOD <init> (Lctu;)V
+		ARG 1 settings

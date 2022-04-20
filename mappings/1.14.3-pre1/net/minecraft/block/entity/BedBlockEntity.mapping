@@ -1,0 +1,5 @@
+CLASS btl net/minecraft/block/entity/BedBlockEntity
+	FIELD a color Lbaz;
+	METHOD a setColor (Lbaz;)V
+		ARG 1 color
+	METHOD d getColor ()Lbaz;

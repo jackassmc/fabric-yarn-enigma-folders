@@ -1,0 +1,31 @@
+CLASS dgz net/minecraft/client/texture/Sprite
+	FIELD g rotated Z
+	FIELD h x I
+	FIELD j framePos I
+	FIELD k ticks I
+	FIELD m animationMetadata Ldhw;
+	FIELD n uMin F
+	FIELD o uMax F
+	FIELD p vMin F
+	FIELD q vMax F
+	METHOD a interpolateFrames ()V
+	METHOD a getU (D)F
+		ARG 0 x
+	METHOD a init (IIIIZ)V
+		ARG 0 width
+		ARG 1 height
+		ARG 2 x
+		ARG 3 y
+		ARG 4 rotated
+	METHOD a load (Lvr;I)V
+		ARG 0 resource
+		ARG 1 mipLevel
+	METHOD b getV (D)F
+		ARG 0 y
+	METHOD g getWidth ()I
+	METHOD h getHeight ()I
+	METHOD i getMinU ()F
+	METHOD j getMaxU ()F
+	METHOD k getMinV ()F
+	METHOD l getMaxV ()F
+	METHOD n update ()V

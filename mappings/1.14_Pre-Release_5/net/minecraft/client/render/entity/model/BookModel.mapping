@@ -1,0 +1,18 @@
+CLASS deb net/minecraft/client/render/entity/model/BookModel
+	FIELD a leftCover Ldhb;
+	FIELD b rightCover Ldhb;
+	FIELD c leftBlock Ldhb;
+	FIELD d rightBlock Ldhb;
+	FIELD e leftPage Ldhb;
+	FIELD f rightPage Ldhb;
+	FIELD g spine Ldhb;
+	METHOD a render (FFFFFF)V
+		ARG 1 ticks
+		ARG 2 leftPageAngle
+		ARG 3 rightPageAngle
+		ARG 4 pageTurningSpeed
+	METHOD b setPageAngles (FFFFFF)V
+		ARG 1 ticks
+		ARG 2 leftPageAngle
+		ARG 3 rightPageAngle
+		ARG 4 pageTurningSpeed

@@ -1,0 +1,6 @@
+CLASS alv net/minecraft/entity/passive/MooshroomEntity
+	METHOD a createChild (Lagf;)Lagf;
+	METHOD a interactMob (Laqj;Lafb;)Z
+		ARG 1 player
+	METHOD b createChild (Lagf;)Lalr;
+	METHOD c createChild (Lagf;)Lalv;

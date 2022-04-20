@@ -1,0 +1,9 @@
+CLASS ceh net/minecraft/structure/generator/village/VillageGenerator
+	CLASS ceh$a Piece
+	METHOD a addPieces (Lbwn;Lcis;Lev;Ljava/util/List;Lbyp;Lcef;)V
+		ARG 0 chunkGenerator
+		ARG 1 structureManager
+		ARG 2 pos
+		ARG 3 pieces
+		ARG 4 random
+		ARG 5 config

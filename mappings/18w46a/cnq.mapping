@@ -1,0 +1,3 @@
+CLASS cnq
+	FIELD a game Lcmx;
+	METHOD a onChatMessage (Lix;Liz;)V

@@ -1,0 +1,3 @@
+CLASS dtb net/minecraft/client/render/entity/feature/MooshroomMushroomFeatureRenderer
+	METHOD <init> (Ldqz;)V
+		ARG 1 context

@@ -1,0 +1,3 @@
+CLASS ckl net/minecraft/fluid/FluidStateImpl
+	METHOD <init> (Lckj;Lcom/google/common/collect/ImmutableMap;)V
+		ARG 1 fluid

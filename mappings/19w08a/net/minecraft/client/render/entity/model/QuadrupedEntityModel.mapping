@@ -1,0 +1,7 @@
+CLASS dbo net/minecraft/client/render/entity/model/QuadrupedEntityModel
+	FIELD a head Ldcy;
+	FIELD b body Ldcy;
+	FIELD f leg1 Ldcy;
+	FIELD g leg2 Ldcy;
+	FIELD h leg3 Ldcy;
+	FIELD i leg4 Ldcy;

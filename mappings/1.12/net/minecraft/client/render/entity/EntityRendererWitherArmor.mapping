@@ -1,0 +1,7 @@
+CLASS ccn net/minecraft/client/render/entity/EntityRendererWitherArmor
+	FIELD a SKIN Lnd;
+	METHOD a shouldMergeTextures ()Z
+	METHOD a render (Labv;FFFFFFF)V
+		ARG 0 entity
+	METHOD a render (Lvn;FFFFFFF)V
+		ARG 0 entity

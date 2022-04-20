@@ -1,0 +1,18 @@
+CLASS akx net/minecraft/entity/passive/EntityFish
+	CLASS akx$a
+		METHOD a tick ()V
+	CLASS akx$b
+		METHOD a canStart ()Z
+	METHOD N getLimitPerChunk ()I
+	METHOD a interactMob (Lapv;Laer;)Z
+		ARG 1 player
+	METHOD a deserializeCustomData (Lho;)V
+	METHOD af getSoundSwim ()Lwz;
+	METHOD b createNavigation (Lazy;)Lakg;
+	METHOD b serializeCustomData (Lho;)V
+	METHOD bH getEyeHeight ()F
+	METHOD cb initAttributes ()V
+	METHOD dm isPersistent ()Z
+	METHOD k updateMovement ()V
+	METHOD n initAi ()V
+	METHOD y_ initDataTracker ()V

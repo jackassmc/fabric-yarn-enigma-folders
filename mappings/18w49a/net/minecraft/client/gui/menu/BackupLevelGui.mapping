@@ -1,0 +1,53 @@
+CLASS cvk net/minecraft/client/gui/menu/BackupLevelGui
+	CLASS cvk$1
+		METHOD a onPressed (DD)V
+			ARG 0 mouseX
+			ARG 1 mouseY
+	CLASS cvk$2
+		METHOD a onPressed (DD)V
+			ARG 0 mouseX
+			ARG 1 mouseY
+	CLASS cvk$3
+		METHOD a onPressed (DD)V
+			ARG 0 mouseX
+			ARG 1 mouseY
+	CLASS cvk$4
+		METHOD a onPressed (DD)V
+			ARG 0 mouseX
+			ARG 1 mouseY
+	CLASS cvk$5
+		METHOD a onPressed (DD)V
+			ARG 0 mouseX
+			ARG 1 mouseY
+	CLASS cvk$6
+		METHOD a onPressed (DD)V
+			ARG 0 mouseX
+			ARG 1 mouseY
+	CLASS cvk$7
+		METHOD a onPressed (DD)V
+			ARG 0 mouseX
+			ARG 1 mouseY
+	FIELD a saveButton Lcpe;
+	FIELD f callback Lcrq;
+	FIELD h levelName Ljava/lang/String;
+	METHOD <init> (Lcrq;Ljava/lang/String;)V
+		ARG 1 callback
+	METHOD a charTyped (CI)Z
+		ARG 1 chr
+		ARG 2 keyCode
+	METHOD a draw (IIF)V
+		ARG 1 mouseX
+		ARG 2 mouseY
+	METHOD a keyPressed (III)Z
+		ARG 1 keyCode
+		ARG 2 scanCode
+	METHOD a backupLevel (Lchg;Ljava/lang/String;)V
+		ARG 0 level
+		ARG 1 name
+	METHOD b onScaleChanged (Lcof;II)V
+		ARG 1 client
+		ARG 2 width
+	METHOD c onInitialized ()V
+	METHOD f update ()V
+	METHOD h commit ()V
+	METHOD n onClosed ()V

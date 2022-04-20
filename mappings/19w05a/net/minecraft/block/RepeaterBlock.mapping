@@ -1,0 +1,4 @@
+CLASS bmb net/minecraft/block/RepeaterBlock
+	FIELD a LOCKED Lbrh;
+	METHOD <init> (Lbhs$c;)V
+		ARG 1 settings

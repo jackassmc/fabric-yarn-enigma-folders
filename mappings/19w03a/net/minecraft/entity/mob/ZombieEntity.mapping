@@ -1,0 +1,48 @@
+CLASS aqu net/minecraft/entity/mob/ZombieEntity
+	CLASS aqu$a DestroyEggGoal
+		METHOD a onDestroyBlock (Lbci;Let;)V
+		METHOD a tickStepping (Lbcj;Let;)V
+		METHOD i getDesiredSquaredDistanceToTarget ()D
+	FIELD bC BABY Lpr;
+	FIELD bE ARMS_RAISED Lpr;
+	FIELD b BABY_SPEED_ID Ljava/util/UUID;
+	FIELD c BABY_SPEED_BONUS Laib;
+	FIELD d SPAWN_REINFORCEMENTS Lahz;
+	METHOD <init> (Lahg;Lbci;)V
+		ARG 1 type
+	METHOD D getAmbientSound ()Lxr;
+	METHOD a setSize (FF)V
+		ARG 1 width
+		ARG 2 height
+	METHOD a initEquipment (Lafv;)V
+	METHOD a damage (Lagl;F)Z
+		ARG 1 source
+		ARG 2 amount
+	METHOD a dropEquipment (Lagl;IZ)V
+	METHOD a prepareEntityData (Lbcj;Lafv;Laho;Lahw;Lhq;)Lahw;
+		ARG 3 difficulty
+	METHOD a playStepSound (Let;Lbqi;)V
+		ARG 1 pos
+	METHOD a readCustomDataFromTag (Lhq;)V
+	METHOD a onTrackedDataSet (Lpr;)V
+	METHOD aL getHeightOffset ()D
+	METHOD b writeCustomDataToTag (Lhq;)V
+	METHOD bH getEyeHeight ()F
+	METHOD cH getGroup ()Lahp;
+	METHOD cd initAttributes ()V
+	METHOD cy getDeathSound ()Lxr;
+	METHOD d getCurrentExperience (Larj;)I
+	METHOD dC hasArmsRaised ()Z
+	METHOD dE getSoundStep ()Lxr;
+	METHOD dF getSkull ()Laxc;
+	METHOD dL isDrowning ()Z
+	METHOD dM canBreakDoors ()Z
+	METHOD e getHurtSound (Lagl;)Lxr;
+	METHOD h update ()V
+	METHOD k updateMovement ()V
+	METHOD n ()V
+	METHOD s setArmsRaised (Z)V
+	METHOD t setBreakDoors (Z)V
+	METHOD u setChild (Z)V
+	METHOD w_ initDataTracker ()V
+	METHOD x_ isChild ()Z

@@ -1,0 +1,2 @@
+CLASS dah net/minecraft/client/gui/ingame/CreativePlayerInventoryContainerListener
+	FIELD a client Lcuu;

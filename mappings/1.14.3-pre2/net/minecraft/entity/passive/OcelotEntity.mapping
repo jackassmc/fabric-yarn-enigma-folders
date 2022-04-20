@@ -1,0 +1,27 @@
+CLASS arf net/minecraft/entity/passive/OcelotEntity
+	CLASS arf$a FleeGoal
+		FIELD i ocelot Larf;
+		METHOD <init> (Larf;Ljava/lang/Class;FDD)V
+			ARG 1 ocelot
+			ARG 2 fleeFromType
+			ARG 3 distance
+			ARG 4 slowSpeed
+			ARG 6 fastSpeed
+	CLASS arf$b OcelotTemptGoal
+		FIELD c ocelot Larf;
+		METHOD <init> (Larf;DLbej;Z)V
+			ARG 1 ocelot
+			ARG 2 speed
+			ARG 4 food
+			ARG 5 canBeScared
+	FIELD bA TRUSTING Lqi;
+	FIELD bB fleeGoal Larf$a;
+	FIELD bC temptGoal Larf$b;
+	FIELD bz TAMING_INGREDIENT Lbej;
+	METHOD dV updateFleeing ()V
+	METHOD dW spawnKittens ()V
+	METHOD dX isTrusting ()Z
+	METHOD r setTrusting (Z)V
+		ARG 1 trusting
+	METHOD s showEmoteParticle (Z)V
+		ARG 1 positive

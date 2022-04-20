@@ -1,0 +1,5 @@
+CLASS bzi net/minecraft/client/render/entity/EntityRendererFallingBlock
+	METHOD a getTexture (Laci;)Lnd;
+		ARG 0 model
+	METHOD a getTexture (Lve;)Lnd;
+		ARG 0 model

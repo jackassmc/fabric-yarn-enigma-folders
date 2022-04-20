@@ -1,0 +1,3 @@
+CLASS ccf net/minecraft/client/server/CommandManagerIntegratedServer
+	METHOD <init> (Lcce;)V
+		ARG 0 integratedServer

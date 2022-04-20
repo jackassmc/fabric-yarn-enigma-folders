@@ -1,0 +1,5 @@
+CLASS cab net/minecraft/world/gen/decorator/CountChanceHeightmapDoubleDecorator
+	METHOD a (Lbbq;Lbrb;Ljava/util/Random;Lbuq;Let;)Ljava/util/stream/Stream;
+		ARG 1 world
+		ARG 2 generator
+		ARG 3 random

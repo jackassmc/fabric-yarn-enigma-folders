@@ -1,0 +1,2 @@
+CLASS dau net/minecraft/client/render/block/BiomeColorHandler
+	CLASS dau$a Proxy

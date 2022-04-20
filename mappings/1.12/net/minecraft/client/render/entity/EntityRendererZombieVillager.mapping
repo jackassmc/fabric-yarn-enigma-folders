@@ -1,0 +1,13 @@
+CLASS cbm net/minecraft/client/render/entity/EntityRendererZombieVillager
+	FIELD a VILLAGER_SKIN Lnd;
+	FIELD j FARMER_SKIN Lnd;
+	FIELD k LIBRARIAN_SKIN Lnd;
+	FIELD l PRIEST_SKIN Lnd;
+	FIELD m SMITH_SKIN Lnd;
+	FIELD n BUTCHER_SKIN Lnd;
+	METHOD a getTexture (Lads;)Lnd;
+		ARG 0 model
+	METHOD a getTexture (Lve;)Lnd;
+		ARG 0 model
+	METHOD a getTexture (Lvo;)Lnd;
+		ARG 0 model

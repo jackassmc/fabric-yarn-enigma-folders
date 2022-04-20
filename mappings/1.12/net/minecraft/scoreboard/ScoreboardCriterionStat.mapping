@@ -1,0 +1,4 @@
+CLASS bhq net/minecraft/scoreboard/ScoreboardCriterionStat
+	FIELD o stat Lqm;
+	METHOD <init> (Lqm;)V
+		ARG 0 stat

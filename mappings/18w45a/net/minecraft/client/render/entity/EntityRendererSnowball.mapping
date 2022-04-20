@@ -1,0 +1,8 @@
+CLASS dgu net/minecraft/client/render/entity/EntityRendererSnowball
+	FIELD a item Lauu;
+	FIELD f itemRenderer Ldfm;
+	METHOD <init> (Lder;Lauu;Ldfm;)V
+		ARG 1 renderManager
+		ARG 2 item
+	METHOD a getTexture (Lafy;)Lpw;
+	METHOD e getItemStack (Lafy;)Lava;

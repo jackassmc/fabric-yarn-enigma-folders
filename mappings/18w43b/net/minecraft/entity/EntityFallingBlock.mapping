@@ -1,0 +1,31 @@
+CLASS and net/minecraft/entity/EntityFallingBlock
+	FIELD au hurtEntities Z
+	FIELD b dropItem Z
+	FIELD c blockEntityData Lhl;
+	FIELD d BLOCK_POS Lpi;
+	FIELD e block Lblz;
+	METHOD <init> (Laza;DDDLblz;)V
+		ARG 0 world
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 block
+	METHOD S_ update ()V
+	METHOD a addCrashReportDetails (Lc;)V
+		ARG 0 element
+	METHOD a setFallingBlockPos (Leq;)V
+		ARG 0 pos
+	METHOD a deserializeCustomData (Lhl;)V
+		ARG 0 tag
+	METHOD a setHurtEntities (Z)V
+		ARG 0 value
+	METHOD aD doesCollide ()Z
+	METHOD b serializeCustomData (Lhl;)V
+		ARG 0 tag
+	METHOD bu doesRenderOnFire ()Z
+	METHOD c handleFallDamage (FF)V
+		ARG 0 fallDistance
+	METHOD f getFallingBlockPos ()Leq;
+	METHOD i getWorldClient ()Laza;
+	METHOD k getBlockState ()Lblz;
+	METHOD y_ initDataTracker ()V

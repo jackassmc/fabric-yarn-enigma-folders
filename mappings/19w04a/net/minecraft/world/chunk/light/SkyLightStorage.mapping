@@ -1,0 +1,13 @@
+CLASS cfq net/minecraft/world/chunk/light/SkyLightStorage
+	CLASS cfq$a Data
+		FIELD b defaultHeight I
+		FIELD c heightMap Lit/unimi/dsi/fastutil/longs/Long2IntOpenHashMap;
+	FIELD k DIRECTIONS_SKYLIGHT [Ley;
+	FIELD p hasSkyLightUpdates Z
+	METHOD <init> (Lbsm;)V
+		ARG 1 chunkProvider
+	METHOD a isAboveMinimumHeight (I)Z
+		ARG 1 blockY
+	METHOD d checkForUpdates ()V
+	METHOD f (J)V
+		ARG 1 blockPos

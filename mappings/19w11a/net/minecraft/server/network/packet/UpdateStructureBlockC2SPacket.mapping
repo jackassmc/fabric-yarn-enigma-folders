@@ -1,0 +1,44 @@
+CLASS pa net/minecraft/server/network/packet/UpdateStructureBlockC2SPacket
+	FIELD a pos Leu;
+	FIELD b action Lbta$a;
+	FIELD c mode Lbvf;
+	FIELD d structureName Ljava/lang/String;
+	FIELD e offset Leu;
+	FIELD f size Leu;
+	FIELD g mirror Lbok;
+	FIELD h rotation Lbpk;
+	FIELD i metadata Ljava/lang/String;
+	FIELD j ignoreEntities Z
+	FIELD k showAir Z
+	FIELD l showBoundingBox Z
+	FIELD m integrity F
+	FIELD n seed J
+	METHOD <init> (Leu;Lbta$a;Lbvf;Ljava/lang/String;Leu;Leu;Lbok;Lbpk;Ljava/lang/String;ZZZFJ)V
+		ARG 1 pos
+		ARG 2 action
+		ARG 3 mode
+		ARG 4 structureName
+		ARG 5 offset
+		ARG 6 size
+		ARG 7 mirror
+		ARG 8 rotation
+		ARG 9 metadata
+		ARG 10 ignoreEntities
+		ARG 11 showAir
+		ARG 12 showBoundingBox
+		ARG 13 integrity
+		ARG 14 seed
+	METHOD b getPos ()Leu;
+	METHOD c getAction ()Lbta$a;
+	METHOD d getMode ()Lbvf;
+	METHOD e getStructureName ()Ljava/lang/String;
+	METHOD f getOffset ()Leu;
+	METHOD g getSize ()Leu;
+	METHOD h getMirror ()Lbok;
+	METHOD i getRotation ()Lbpk;
+	METHOD j getMetadata ()Ljava/lang/String;
+	METHOD k getIgnoreEntities ()Z
+	METHOD l shouldShowAir ()Z
+	METHOD m shouldShowBoundingBox ()Z
+	METHOD n getIntegrity ()F
+	METHOD o getSeed ()J

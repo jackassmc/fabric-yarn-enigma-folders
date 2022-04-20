@@ -1,0 +1,11 @@
+CLASS bke net/minecraft/block/BlockSignStanding
+	METHOD a getPlacementState (Late;)Lbno;
+	METHOD a canPlaceAt (Lbno;Lbac;Les;)Z
+		ARG 1 world
+	METHOD a applyMirror (Lbno;Lbif;)Lbno;
+		ARG 1 state
+	METHOD a applyRotation (Lbno;Lbjf;)Lbno;
+		ARG 1 state
+	METHOD a getRenderingState (Lbno;Lex;Lbno;Lazz;Les;Les;)Lbno;
+		ARG 1 state
+	METHOD a appendProperties (Lbnp$a;)V

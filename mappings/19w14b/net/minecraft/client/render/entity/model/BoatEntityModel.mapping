@@ -1,0 +1,2 @@
+CLASS ddo net/minecraft/client/render/entity/model/BoatEntityModel
+	METHOD c renderPass (Laia;FFFFFF)V

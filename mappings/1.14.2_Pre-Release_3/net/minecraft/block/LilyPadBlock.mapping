@@ -1,0 +1,4 @@
+CLASS bsv net/minecraft/block/LilyPadBlock
+	FIELD a SHAPE Lcsr;
+	METHOD <init> (Lbmm$c;)V
+		ARG 1 settings

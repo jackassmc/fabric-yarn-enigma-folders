@@ -1,0 +1,5 @@
+CLASS dwt net/minecraft/client/sound/ElytraSoundInstance
+	FIELD o player Ldkc;
+	FIELD p tickCount I
+	METHOD <init> (Ldkc;)V
+		ARG 1 player

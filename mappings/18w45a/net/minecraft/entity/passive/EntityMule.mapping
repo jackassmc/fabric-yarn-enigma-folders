@@ -1,0 +1,5 @@
+CLASS amf net/minecraft/entity/passive/EntityMule
+	METHOD D getSoundAmbient ()Lwz;
+	METHOD F getLootTableId ()Lpw;
+	METHOD cw getSoundDeath ()Lwz;
+	METHOD e getSoundHurt (Lafh;)Lwz;

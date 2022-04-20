@@ -1,0 +1,2 @@
+CLASS afo
+	METHOD U_ clearInv ()V

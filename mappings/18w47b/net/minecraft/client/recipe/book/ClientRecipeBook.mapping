@@ -1,0 +1,2 @@
+CLASS cmx net/minecraft/client/recipe/book/ClientRecipeBook
+	FIELD g manager Laxv;

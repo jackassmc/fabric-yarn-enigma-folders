@@ -1,0 +1,15 @@
+CLASS kj net/minecraft/network/packet/client/CPacketEntityPassengersSet
+	FIELD a id I
+	FIELD b passengerIds [I
+	METHOD <init> (Lve;)V
+		ARG 0 entity
+	METHOD a getPassengerIds ()[I
+	METHOD a readPacket (Lgy;)V
+		ARG 0 buf
+	METHOD a applyPacket (Lhb;)V
+		ARG 0 handler
+	METHOD a applyPacket (Lhw;)V
+		ARG 0 handler
+	METHOD b getId ()I
+	METHOD b writePacket (Lgy;)V
+		ARG 0 buf

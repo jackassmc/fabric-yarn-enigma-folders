@@ -1,0 +1,10 @@
+CLASS km net/minecraft/client/network/packet/BlockEntityUpdateS2CPacket
+	FIELD a pos Leu;
+	FIELD b actionId I
+	FIELD c tag Lia;
+	METHOD <init> (Leu;ILia;)V
+		ARG 1 pos
+		ARG 2 action
+	METHOD b getPos ()Leu;
+	METHOD c getActionId ()I
+	METHOD d getCompoundTag ()Lia;

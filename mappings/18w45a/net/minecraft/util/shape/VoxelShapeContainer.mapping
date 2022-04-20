@@ -1,0 +1,10 @@
+CLASS cjm net/minecraft/util/shape/VoxelShapeContainer
+	FIELD a shape Lcjb;
+	METHOD a getBoundingBox ()Lcio;
+	METHOD a rayTrace (Lcis;Lcis;Les;)Lcip;
+		ARG 1 start
+		ARG 2 end
+	METHOD b isEmpty ()Z
+	METHOD b getMinimum (Lex$a;)D
+	METHOD c getMaximum (Lex$a;)D
+	METHOD d getBoundingBoxList ()Ljava/util/List;

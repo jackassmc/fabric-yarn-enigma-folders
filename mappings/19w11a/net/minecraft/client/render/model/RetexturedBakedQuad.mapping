@@ -1,0 +1,5 @@
+CLASS dkh net/minecraft/client/render/model/RetexturedBakedQuad
+	FIELD e spriteRetextured Ldtc;
+	METHOD <init> (Ldka;Ldtc;)V
+		ARG 1 parent
+	METHOD f recalculateUvs ()V

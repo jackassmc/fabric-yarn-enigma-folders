@@ -1,0 +1,28 @@
+CLASS none/bzt net/minecraft/client/render/model/BakedModelWeighted
+	CLASS none/bzt$a Builder
+		FIELD a models Ljava/util/List;
+		METHOD a build ()Lnone/bzt;
+		METHOD a add (Lnone/bzl;I)Lnone/bzt$a;
+			ARG 0 model
+			ARG 1 weight
+		METHOD b getFirst ()Lnone/bzl;
+	CLASS none/bzt$b WeightedBakedModel
+		FIELD b model Lnone/bzl;
+		METHOD <init> (Lnone/bzl;I)V
+			ARG 0 model
+			ARG 1 weight
+	FIELD a totalWeight I
+	FIELD b models Ljava/util/List;
+	FIELD c defaultModel Lnone/bzl;
+	METHOD a useAmbientOcclusion ()Z
+	METHOD a getRandomModel (J)Lnone/bzl;
+		ARG 0 rand
+	METHOD a getQuads (Lnone/asl;Lnone/cu;J)Ljava/util/List;
+		ARG 0 state
+		ARG 1 face
+		ARG 2 rand
+	METHOD b isThreeDimensionalInGUI ()Z
+	METHOD c isBuiltin ()Z
+	METHOD d getSprite ()Lnone/bxd;
+	METHOD e getTransformationList ()Lnone/bqe;
+	METHOD f getItemPropertyOverrides ()Lnone/bqc;

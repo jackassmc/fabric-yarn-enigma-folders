@@ -1,0 +1,4 @@
+CLASS dkl net/minecraft/client/render/entity/MagmaCubeEntityRenderer
+	FIELD a SKIN Lqe;
+	METHOD a getTexture (Lahd;)Lqe;
+	METHOD a getTexture (Laqc;)Lqe;

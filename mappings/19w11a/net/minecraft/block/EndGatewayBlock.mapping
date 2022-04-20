@@ -1,0 +1,3 @@
+CLASS bmp net/minecraft/block/EndGatewayBlock
+	METHOD <init> (Lbkz$c;)V
+		ARG 1 settings

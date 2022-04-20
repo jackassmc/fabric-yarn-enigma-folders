@@ -1,0 +1,3 @@
+CLASS ahj net/minecraft/entity/ai/action/ActionMove
+	FIELD a entity Lagi;
+	METHOD a tick ()V

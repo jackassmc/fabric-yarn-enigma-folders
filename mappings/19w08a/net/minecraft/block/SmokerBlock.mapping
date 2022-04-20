@@ -1,0 +1,3 @@
+CLASS bne net/minecraft/block/SmokerBlock
+	METHOD <init> (Lbif$c;)V
+		ARG 1 settings

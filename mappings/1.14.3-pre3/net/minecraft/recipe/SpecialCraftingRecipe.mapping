@@ -1,0 +1,2 @@
+CLASS bef net/minecraft/recipe/SpecialCraftingRecipe
+	FIELD a id Lqt;

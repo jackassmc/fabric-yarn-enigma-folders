@@ -1,0 +1,2 @@
+CLASS dgi net/minecraft/client/texture/ImageFilter
+	METHOD a filterImage (Lcpk;)Lcpk;

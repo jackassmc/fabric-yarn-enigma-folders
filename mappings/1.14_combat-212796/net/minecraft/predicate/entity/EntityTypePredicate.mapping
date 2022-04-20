@@ -1,0 +1,15 @@
+CLASS aw net/minecraft/predicate/entity/EntityTypePredicate
+	CLASS a Tagged
+		FIELD b tag Lze;
+	CLASS b Single
+		FIELD b type Laip;
+	FIELD a ANY Law;
+	FIELD b COMMA_JOINER Lcom/google/common/base/Joiner;
+	METHOD a toJson ()Lcom/google/gson/JsonElement;
+	METHOD a matches (Laip;)Z
+	METHOD a deserialize (Lcom/google/gson/JsonElement;)Law;
+		ARG 0 element
+	METHOD a create (Lze;)Law;
+		ARG 0 tag
+	METHOD b create (Laip;)Law;
+		ARG 0 type

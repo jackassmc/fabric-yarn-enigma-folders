@@ -1,0 +1,89 @@
+CLASS uv net/minecraft/server/network/ServerPlayerEntity
+	FIELD b networkHandler Lvn;
+	FIELD cC enteredNetherPos Lcms;
+	FIELD cD chunkPos Lbbt;
+	FIELD cE containerSyncId I
+	FIELD c server Lnet/minecraft/server/MinecraftServer;
+	FIELD cc LOGGER_PLAYER Lorg/apache/logging/log4j/Logger;
+	FIELD cd clientLanguage Ljava/lang/String;
+	FIELD cf advancementManager Lqo;
+	FIELD cs clientChatVisibility Lark$b;
+	FIELD cx seenCredits Z
+	FIELD cy recipeBook Lxy;
+	FIELD d interactionManager Luw;
+	METHOD B getRecipeBook ()Lxy;
+	METHOD C updatePotionVisibility ()V
+	METHOD E updatePortalCooldown ()V
+	METHOD L getAdvancementManager ()Lqo;
+	METHOD M getEnteredNetherPosition ()Lcms;
+	METHOD O getChunkPos ()Lbbt;
+	METHOD a sendVillagerRecipes (ILbbl;)V
+		ARG 1 syncId
+		ARG 2 recipeList
+	METHOD a swingHand (Lafy;)V
+	METHOD a openContainer (Lagc;)Ljava/util/OptionalInt;
+	METHOD a onDeath (Lagm;)V
+	METHOD a damage (Lagm;F)Z
+		ARG 1 source
+		ARG 2 amount
+	METHOD a addCritParticles (Lahd;)V
+	METHOD a startRiding (Lahd;Z)Z
+		ARG 1 entity
+	METHOD a openHorseInventory (Lanj;Lafs;)V
+	METHOD a shouldDamagePlayer (Lark;)Z
+	METHOD a onContainerPropertyUpdate (Latf;II)V
+		ARG 1 container
+		ARG 2 propertyId
+	METHOD a onContainerSlotUpdate (Latf;ILaxd;)V
+		ARG 1 container
+		ARG 2 slotId
+	METHOD a onContainerRegistered (Latf;Lfh;)V
+		ARG 1 container
+	METHOD a openBookEditorGui (Laxd;Lafy;)V
+	METHOD a sendRemoveChunkPacket (Lbbt;)V
+	METHOD a sendInitialChunkPackets (Lbbt;Ljr;Ljr;)V
+	METHOD a setGameMode (Lbcc;)V
+	METHOD a sendBlockEntityUpdate (Lboi;)V
+	METHOD a openCommandBlockGui (Lbon;)V
+	METHOD a openSignEditorGui (Lbpe;)V
+	METHOD a onBlockCollision (Lbqe;)V
+	METHOD a changeDimension (Lbsy;)Lahd;
+	METHOD a lookAt (Lch$a;Lcms;)V
+		ARG 1 anchor
+		ARG 2 target
+	METHOD a trySleep (Let;)Lark$a;
+	METHOD a readCustomDataFromTag (Lhs;)V
+	METHOD a unlockRecipes (Ljava/util/Collection;)I
+		ARG 1 recipes
+	METHOD a appendCommandFeedback (Ljd;)V
+	METHOD a sendChatMessage (Ljd;Ljb;)V
+	METHOD a addChatMessage (Ljd;Z)V
+		ARG 1 message
+	METHOD a setClientSettings (Lnk;)V
+	METHOD a resetStat (Lya;)V
+	METHOD a incrementStat (Lya;I)V
+		ARG 1 stat
+	METHOD a unlockRecipes ([Lqe;)V
+		ARG 1 ids
+	METHOD b isInvulnerableTo (Lagm;)Z
+	METHOD b addEnchantedHitParticles (Lahd;)V
+	METHOD b writeCustomDataToTag (Lhs;)V
+	METHOD b lockRecipes (Ljava/util/Collection;)I
+		ARG 1 recipes
+	METHOD d addExperience (I)V
+	METHOD d onStartedTracking (Lahd;)V
+	METHOD dR incrementContainerSyncId ()V
+	METHOD f attack (Lahd;)V
+	METHOD g createCooldownManager ()Lawz;
+	METHOD h update ()V
+	METHOD j stopRiding ()V
+	METHOD l ()V
+	METHOD m closeContainer ()V
+	METHOD n prepareGoals ()V
+	METHOD s getServerWorld ()Lut;
+	METHOD t isSpectator ()Z
+	METHOD u isCreative ()Z
+	METHOD v getServerBrand ()Ljava/lang/String;
+	METHOD v_ closeGui ()V
+	METHOD x getClientChatVisibility ()Lark$b;
+	METHOD y getPermissionLevel ()I

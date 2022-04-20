@@ -1,0 +1,4 @@
+CLASS bbp net/minecraft/enchantment/DepthStriderEnchantment
+	METHOD <init> (Lbas$a;[Lahj;)V
+		ARG 1 weight
+		ARG 2 slotTypes

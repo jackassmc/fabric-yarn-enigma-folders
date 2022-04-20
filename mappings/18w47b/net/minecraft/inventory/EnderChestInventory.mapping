@@ -1,0 +1,8 @@
+CLASS asw net/minecraft/inventory/EnderChestInventory
+	FIELD a currentBlockEntity Lbmv;
+	METHOD a canPlayerUseInv (Laqg;)Z
+	METHOD a setCurrentBlockEntity (Lbmv;)V
+	METHOD a readTags (Lhv;)V
+	METHOD b onInvOpen (Laqg;)V
+	METHOD c onInvClose (Laqg;)V
+	METHOD i getTags ()Lhv;

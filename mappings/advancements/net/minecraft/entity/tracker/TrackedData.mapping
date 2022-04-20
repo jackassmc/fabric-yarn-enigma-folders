@@ -1,0 +1,5 @@
+CLASS lx net/minecraft/entity/tracker/TrackedData
+	FIELD a id I
+	FIELD b dataType Lly;
+	METHOD a getId ()I
+	METHOD b getType ()Lly;

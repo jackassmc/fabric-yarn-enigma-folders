@@ -1,0 +1,15 @@
+CLASS avc net/minecraft/item/ItemBucketMilk
+	METHOD <init> (Lauq$a;)V
+		ARG 1 builder
+	METHOD a onItemFinishedUsing (Lauv;Lazt;Lage;)Lauv;
+		ARG 1 stack
+		ARG 2 world
+		ARG 3 user
+	METHOD a onRightClick (Lazt;Lapr;Laeo;)Laer;
+		ARG 1 world
+		ARG 2 player
+		ARG 3 hand
+	METHOD b getMaxUseTime (Lauv;)I
+		ARG 1 stack
+	METHOD c getUseAction (Lauv;)Lawh;
+		ARG 1 stack

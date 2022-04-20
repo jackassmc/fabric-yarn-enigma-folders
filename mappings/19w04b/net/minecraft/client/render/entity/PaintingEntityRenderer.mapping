@@ -1,0 +1,2 @@
+CLASS dkx net/minecraft/client/render/entity/PaintingEntityRenderer
+	FIELD a TEX Lqd;

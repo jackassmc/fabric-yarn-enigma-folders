@@ -1,0 +1,33 @@
+CLASS xb net/minecraft/entity/passive/EntityPig
+	FIELD bw SADDLED Lkk;
+	METHOD G getSoundAmbient ()Lnm;
+	METHOD J getLootTableId ()Lkq;
+	METHOD a interactMob (Laax;Lrh;)Z
+		ARG 0 player
+		ARG 1 playerHand
+	METHOD a playStepSound (Lco;Lals;)V
+		ARG 0 pos
+		ARG 1 block
+	METHOD a deserializeCustomData (Ldu;)V
+		ARG 0 tag
+	METHOD a onDeath (Lrx;)V
+		ARG 0 damageSource
+	METHOD a createChild (Lsj;)Lsj;
+		ARG 0 other
+	METHOD a onStruckByLightning (Lzf;)V
+		ARG 0 lightning
+	METHOD b serializeCustomData (Ldu;)V
+		ARG 0 tag
+	METHOD b registerTagUpgraders (Lph;)V
+		ARG 0 handler
+	METHOD b createChild (Lsj;)Lxb;
+		ARG 0 other
+	METHOD bE initAttributes ()V
+	METHOD bW getSoundDeath ()Lnm;
+	METHOD bX getSoundHurt ()Lnm;
+	METHOD e handleFallDamage (FF)V
+		ARG 0 fallDistance
+	METHOD i initDataTracker ()V
+	METHOD p setSaddled (Z)V
+		ARG 0 value
+	METHOD r initAi ()V

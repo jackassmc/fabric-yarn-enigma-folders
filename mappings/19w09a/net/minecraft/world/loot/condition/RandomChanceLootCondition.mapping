@@ -1,0 +1,3 @@
+CLASS cms net/minecraft/world/loot/condition/RandomChanceLootCondition
+	CLASS cms$a Factory
+	FIELD a chance F

@@ -1,0 +1,3 @@
+CLASS dld net/minecraft/client/render/block/entity/BedBlockEntityRenderer
+	FIELD c TEXTURES [Lqq;
+	FIELD d model Ldct;

@@ -1,0 +1,11 @@
+CLASS atw net/minecraft/entity/passive/AbstractTraderEntity
+	FIELD bA recipes Lbfd;
+	FIELD bB customer Laum;
+	FIELD bC inventory Lagw;
+	METHOD b afterUsing (Lbfc;)V
+	METHOD dP hasCustomer ()Z
+	METHOD dS getYesSound ()Lyf;
+	METHOD dT getInventory ()Lagw;
+	METHOD dV fillRecipes ()V
+	METHOD q getTradingSound (Z)Lyf;
+		ARG 1 sold

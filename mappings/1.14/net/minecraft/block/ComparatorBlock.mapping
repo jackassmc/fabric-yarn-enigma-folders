@@ -1,0 +1,16 @@
+CLASS bnf net/minecraft/block/ComparatorBlock
+	FIELD a MODE Lbwh;
+	METHOD <init> (Lbml$c;)V
+		ARG 1 settings
+	METHOD a getAttachedItemFrame (Lbhh;Lfa;Lev;)Late;
+		ARG 1 world
+		ARG 2 facing
+		ARG 3 pos
+	METHOD e calculateOutputSignal (Lbhh;Lev;Lbvj;)I
+		ARG 1 world
+		ARG 2 pos
+		ARG 3 state
+	METHOD f update (Lbhh;Lev;Lbvj;)V
+		ARG 1 world
+		ARG 2 pos
+		ARG 3 state

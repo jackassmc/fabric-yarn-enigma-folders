@@ -1,0 +1,11 @@
+CLASS aso net/minecraft/block/entity/BlockEntityLockableContainer
+	FIELD a lock Lrm;
+	METHOD a deserialize (Ldu;)V
+		ARG 0 tag
+	METHOD a setContainerLock (Lrm;)V
+		ARG 0 lock
+	METHOD b serialize (Ldu;)Ldu;
+		ARG 0 tag
+	METHOD i_ getNameAsComponent ()Lfb;
+	METHOD j getContainerLock ()Lrm;
+	METHOD z_ hasContainerLock ()Z

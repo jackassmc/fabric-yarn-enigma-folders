@@ -1,0 +1,22 @@
+CLASS aro net/minecraft/entity/projectile/ExplosiveProjectileEntity
+	FIELD b owner Lahl;
+	METHOD <init> (Lahg;DDDDDDLbci;)V
+		ARG 1 world
+	METHOD <init> (Lahg;Lahl;DDDLbci;)V
+		ARG 1 world
+		ARG 2 owner
+	METHOD <init> (Lahg;Lbci;)V
+		ARG 1 type
+	METHOD a shouldRenderAtDistance (D)Z
+	METHOD a damage (Lagl;F)Z
+		ARG 1 source
+		ARG 2 amount
+	METHOD a onCollision (Lcmv;)V
+	METHOD a readCustomDataFromTag (Lhq;)V
+	METHOD aB getLightmapCoordinates ()I
+	METHOD aE doesCollide ()Z
+	METHOD aP getBoundingBoxMarginForTargeting ()F
+	METHOD b writeCustomDataToTag (Lhq;)V
+	METHOD f getParticleType ()Lft;
+	METHOD h update ()V
+	METHOD w_ initDataTracker ()V

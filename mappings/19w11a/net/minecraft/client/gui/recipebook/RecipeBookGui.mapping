@@ -1,0 +1,59 @@
+CLASS dax net/minecraft/client/gui/recipebook/RecipeBookGui
+	FIELD a TEXTURE Lqp;
+	FIELD b ghostSlots Ldav;
+	FIELD g toggleCraftableButton Lcvk;
+	FIELD h craftingContainer Laxx;
+	FIELD i client Lctq;
+	FIELD j recipeBook Lcth;
+	FIELD k recipesArea Lday;
+	FIELD l recipeFinder Lauo;
+	FIELD m leftOffset I
+	FIELD n parentWidth I
+	FIELD o parentHeight I
+	FIELD p tabButtons Ljava/util/List;
+	FIELD q currentTab Ldaz;
+	FIELD r searchField Lcuy;
+	FIELD s searchText Ljava/lang/String;
+	FIELD t cachedInvChangeCount I
+	METHOD a toggleFilteringCraftable ()Z
+	METHOD a isClickOutsideBounds (DDIIIII)Z
+	METHOD a initialize (IILctq;ZLaxx;)V
+		ARG 1 parentWidth
+		ARG 2 parentHeight
+		ARG 3 client
+		ARG 4 isNarrow
+		ARG 5 craftingContainer
+	METHOD a drawGhostSlots (IIZF)V
+		ARG 1 left
+		ARG 2 top
+		ARG 4 lastFrameDuration
+	METHOD a slotClicked (Laye;)V
+	METHOD a showGhostRecipe (Lbda;Ljava/util/List;)V
+	METHOD a triggerPirateSpeakEasterEgg (Ljava/lang/String;)V
+	METHOD a refreshResults (Z)V
+		ARG 1 resetCurrentPage
+	METHOD a findLeftEdge (ZII)I
+		ARG 1 narrow
+		ARG 2 width
+		ARG 3 containerWidth
+	METHOD b refreshTabButtons ()V
+	METHOD c isOpen ()Z
+	METHOD c drawTooltip (IIII)V
+		ARG 1 left
+		ARG 2 top
+		ARG 3 mouseX
+		ARG 4 mouseY
+	METHOD c setOpen (Z)V
+	METHOD d refreshInputs ()V
+	METHOD d drawGhostSlotTooltip (IIII)V
+	METHOD e reset (Z)V
+		ARG 1 isNarrow
+	METHOD f setBookButtonTexture ()V
+	METHOD g getCraftableButtonText ()Ljava/lang/String;
+	METHOD h refreshSearchResults ()V
+	METHOD i isWide ()Z
+	METHOD j close ()V
+	METHOD k toggleOpen ()V
+	METHOD l update ()V
+	METHOD m refresh ()V
+	METHOD n sendBookDataPacket ()V

@@ -1,0 +1,30 @@
+CLASS auy net/minecraft/item/ArmorItem
+	CLASS auy$1
+		METHOD a (Leu;Laxd;)Laxd;
+			ARG 1 stack
+	FIELD a DISPENSER_BEHAVIOR Lfa;
+	FIELD b slot Lahi;
+	FIELD c protection I
+	FIELD d toughness F
+	FIELD e type Lauz;
+	FIELD k MODIFIERS [Ljava/util/UUID;
+	METHOD <init> (Lauz;Lahi;Lawy$a;)V
+		ARG 1 material
+		ARG 2 slot
+		ARG 3 settings
+	METHOD a getAttributeModifiers (Lahi;)Lcom/google/common/collect/Multimap;
+		ARG 1 equiptmentSlot
+	METHOD a canRepair (Laxd;Laxd;)Z
+		ARG 1 tool
+		ARG 2 ingredient
+	METHOD a use (Lbcf;Lark;Lafy;)Laga;
+		ARG 1 world
+		ARG 2 player
+		ARG 3 hand
+	METHOD a dispenseArmor (Leu;Laxd;)Laxd;
+		ARG 0 block
+		ARG 1 armor
+	METHOD b getSlotType ()Lahi;
+	METHOD c getEnchantability ()I
+	METHOD d getMaterial ()Lauz;
+	METHOD e getProtection ()I

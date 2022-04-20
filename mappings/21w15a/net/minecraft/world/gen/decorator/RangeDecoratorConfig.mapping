@@ -1,0 +1,2 @@
+CLASS net/minecraft/class_2997 net/minecraft/world/gen/decorator/RangeDecoratorConfig
+	FIELD field_24879 CODEC Lcom/mojang/serialization/Codec;

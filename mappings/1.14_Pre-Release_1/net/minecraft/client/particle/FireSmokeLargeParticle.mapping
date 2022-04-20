@@ -1,0 +1,7 @@
+CLASS dif net/minecraft/client/particle/FireSmokeLargeParticle
+	CLASS dif$a Factory
+	METHOD <init> (Lbha;DDDDDDLdix;)V
+		ARG 1 world
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z

@@ -1,0 +1,18 @@
+CLASS cie net/minecraft/entity/ai/pathing/PathNodeType
+	FIELD a BLOCKED Lcie;
+	FIELD b AIR Lcie;
+	FIELD c NORMAL Lcie;
+	FIELD d TRAPDOOR Lcie;
+	FIELD e FENCE Lcie;
+	FIELD f LAVA Lcie;
+	FIELD g WATER Lcie;
+	FIELD i RAIL Lcie;
+	FIELD j FIRE_NEAR Lcie;
+	FIELD k FIRE Lcie;
+	FIELD l CACTUS_NEAR Lcie;
+	FIELD m CACTUS Lcie;
+	FIELD p DOOR_OPEN Lcie;
+	FIELD q DOOR_WOOD Lcie;
+	FIELD r DOOR_METAL Lcie;
+	FIELD u weight F
+	METHOD a getWeight ()F

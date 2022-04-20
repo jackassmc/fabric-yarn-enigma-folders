@@ -1,0 +1,12 @@
+CLASS att net/minecraft/entity/mob/GhastEntity
+	CLASS att$b GhastMoveControl
+		FIELD i ghast Latt;
+	CLASS att$c ShootFireballGoal
+		FIELD a cooldown I
+		FIELD b owner Latt;
+	CLASS att$d FlyRandomlyGoal
+	FIELD b SHOOTING Lqg;
+	FIELD c fireballStrength I
+	METHOD dQ getFireballStrength ()I
+	METHOD l isShooting ()Z
+	METHOD r setShooting (Z)V

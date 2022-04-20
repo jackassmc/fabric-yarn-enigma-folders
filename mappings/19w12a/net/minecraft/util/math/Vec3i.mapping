@@ -1,0 +1,11 @@
+CLASS fq net/minecraft/util/math/Vec3i
+	FIELD a x I
+	FIELD b y I
+	FIELD c z I
+	FIELD e ZERO Lfq;
+	METHOD a squaredDistanceToCenter (DDDZ)D
+	METHOD d crossProduct (Lfq;)Lfq;
+	METHOD m squaredDistanceTo (Lfq;)D
+	METHOD o getX ()I
+	METHOD p getY ()I
+	METHOD q getZ ()I

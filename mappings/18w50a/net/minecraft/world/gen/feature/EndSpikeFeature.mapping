@@ -1,0 +1,33 @@
+CLASS byi net/minecraft/world/gen/feature/EndSpikeFeature
+	CLASS byi$a Spike
+		FIELD a centerX I
+		FIELD b centerZ I
+		FIELD c radius I
+		FIELD d height I
+		FIELD e guarded Z
+		FIELD f boundingBox Lclz;
+		METHOD <init> (IIIIZ)V
+			ARG 1 centerX
+			ARG 2 centerZ
+			ARG 3 radius
+			ARG 4 height
+		METHOD a getCenterX ()I
+		METHOD a deserialize (Lcom/mojang/datafixers/Dynamic;)Lbyi$a;
+			ARG 0 dynamic
+		METHOD a serialize (Lcom/mojang/datafixers/types/DynamicOps;)Lcom/mojang/datafixers/Dynamic;
+		METHOD b getCenterZ ()I
+		METHOD c getRadius ()I
+		METHOD d getHeight ()I
+		METHOD e isGuarded ()Z
+		METHOD f getBoundingBox ()Lclz;
+	CLASS byi$b SpikeCache
+	FIELD a CACHE Lcom/google/common/cache/LoadingCache;
+	METHOD <init> (Ljava/util/function/Function;)V
+		ARG 1 configFactory
+	METHOD a getSpikes (Lbbq;)Ljava/util/List;
+	METHOD a generate (Lbbq;Lbrb;Ljava/util/Random;Let;Lbvh;)Z
+		ARG 1 world
+		ARG 2 generator
+		ARG 3 random
+		ARG 4 pos
+		ARG 5 config

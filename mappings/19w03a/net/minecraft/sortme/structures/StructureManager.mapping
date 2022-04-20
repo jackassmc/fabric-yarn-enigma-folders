@@ -1,0 +1,5 @@
+CLASS ceb net/minecraft/sortme/structures/StructureManager
+	FIELD a logger Lorg/apache/logging/log4j/Logger;
+	FIELD d server Lnet/minecraft/server/MinecraftServer;
+	METHOD a onResourceReload (Lwo;)V
+		ARG 1 manager

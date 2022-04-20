@@ -1,0 +1,19 @@
+CLASS dlf net/minecraft/client/render/block/FluidRenderer
+	FIELD a lavaSprites [Lduj;
+	FIELD b waterSprites [Lduj;
+	FIELD c waterOverlaySprite Lduj;
+	METHOD a onResourceReload ()V
+	METHOD a tesselate (Lbgq;Lev;Lcul;Lclb;)Z
+		ARG 1 world
+		ARG 2 pos
+		ARG 3 bufferBuilder
+		ARG 4 state
+	METHOD a getNorthWestCornerFluidHeight (Lbgs;Lev;Lcla;)F
+		ARG 1 world
+		ARG 2 pos
+		ARG 3 fluid
+	METHOD a isSameFluid (Lbgs;Lev;Lfa;Lclb;)Z
+		ARG 0 world
+		ARG 1 pos
+		ARG 2 side
+		ARG 3 state

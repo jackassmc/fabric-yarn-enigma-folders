@@ -1,0 +1,41 @@
+CLASS fz net/minecraft/network/ClientConnection
+	CLASS fz$1
+		METHOD a createInstance ()Lio/netty/channel/nio/NioEventLoopGroup;
+		METHOD b createInstance ()Ljava/lang/Object;
+	CLASS fz$2
+		METHOD a createInstance ()Lio/netty/channel/epoll/EpollEventLoopGroup;
+		METHOD b createInstance ()Ljava/lang/Object;
+	CLASS fz$3
+		METHOD a createInstance ()Lio/netty/channel/local/LocalEventLoopGroup;
+		METHOD b createInstance ()Ljava/lang/Object;
+	FIELD c ATTR_KEY_PROTOCOL Lio/netty/util/AttributeKey;
+	FIELD d CLIENT_IO_GROUP Lqe;
+	FIELD e CLIENT_IO_GROUP_EPOLL Lqe;
+	FIELD f CLIENT_IO_GROUP_LOCAL Lqe;
+	FIELD g LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD h side Lgw;
+	FIELD j lock Ljava/util/concurrent/locks/ReentrantReadWriteLock;
+	FIELD k channel Lio/netty/channel/Channel;
+	FIELD l address Ljava/net/SocketAddress;
+	FIELD m packetListener Lge;
+	FIELD n disconnectReason Lgk;
+	FIELD o encrypted Z
+	FIELD p disconnected Z
+	METHOD a tick ()V
+	METHOD a setMinCompressedSize (I)V
+	METHOD a setState (Lga;)V
+	METHOD a setPacketListener (Lge;)V
+	METHOD a disconnect (Lgk;)V
+	METHOD a sendPacket (Lgv;)V
+	METHOD a sendPacket (Lgv;Lio/netty/util/concurrent/GenericFutureListener;[Lio/netty/util/concurrent/GenericFutureListener;)V
+	METHOD a connect (Ljava/net/InetAddress;IZ)Lfz;
+	METHOD a connect (Ljava/net/SocketAddress;)Lfz;
+	METHOD a setupEncryption (Ljavax/crypto/SecretKey;)V
+	METHOD b getAddress ()Ljava/net/SocketAddress;
+	METHOD c isLocal ()Z
+	METHOD f isEncrypted ()Z
+	METHOD g isOpen ()Z
+	METHOD h hasChannel ()Z
+	METHOD i getPacketListener ()Lge;
+	METHOD j getDisconnectReason ()Lgk;
+	METHOD l handleDisconnection ()V

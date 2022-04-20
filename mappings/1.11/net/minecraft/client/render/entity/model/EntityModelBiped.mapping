@@ -1,0 +1,46 @@
+CLASS bll net/minecraft/client/render/entity/model/EntityModelBiped
+	CLASS bll$a ArmState
+		FIELD a DEFAULT Lbll$a;
+		FIELD b ITEM Lbll$a;
+		FIELD c BLOCK Lbll$a;
+		FIELD d CHARGING Lbll$a;
+	FIELD e head Lbng;
+	FIELD f headwear Lbng;
+	FIELD g body Lbng;
+	FIELD h armRight Lbng;
+	FIELD i armLeft Lbng;
+	FIELD j legRight Lbng;
+	FIELD k legLeft Lbng;
+	FIELD l armStateLeft Lbll$a;
+	FIELD m armStateRight Lbll$a;
+	FIELD n isSneaking Z
+	METHOD <init> (F)V
+		ARG 0 scale
+	METHOD <init> (FFII)V
+		ARG 0 scale
+		ARG 2 textureWidth
+		ARG 3 textureHeight
+	METHOD a setRotationAngles (FFFFFFLsm;)V
+		ARG 0 swingAmount
+		ARG 1 swingDelta
+		ARG 2 age
+		ARG 3 yaw
+		ARG 4 pitch
+		ARG 5 scale
+		ARG 6 entity
+	METHOD a setAttributes (Lblt;)V
+		ARG 0 model
+	METHOD a getPreferedHand (Lsm;)Lsu;
+		ARG 0 entity
+	METHOD a render (Lsm;FFFFFF)V
+		ARG 0 entity
+		ARG 1 swingAmount
+		ARG 2 swingDelta
+		ARG 3 age
+		ARG 4 yaw
+		ARG 5 pitch
+		ARG 6 scale
+	METHOD a getArm (Lsu;)Lbng;
+		ARG 0 hand
+	METHOD a setVisible (Z)V
+		ARG 0 visibility

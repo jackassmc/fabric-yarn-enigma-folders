@@ -1,0 +1,18 @@
+CLASS cxz net/minecraft/client/toast/TutorialToast
+	CLASS cxz$a Type
+		FIELD f textureSlotX I
+		FIELD g textureSlotY I
+		METHOD a drawIcon (Lcwh;II)V
+	FIELD c type Lcxz$a;
+	FIELD d title Ljava/lang/String;
+	FIELD e description Ljava/lang/String;
+	FIELD f visibility Lcxx$a;
+	FIELD g lastTime J
+	FIELD h lastProgress F
+	FIELD i progress F
+	FIELD j hasProgressBar Z
+	METHOD <init> (Lcxz$a;Ljn;Ljn;Z)V
+		ARG 4 hasProgressBar
+	METHOD a hide ()V
+	METHOD a setProgress (F)V
+		ARG 1 progress

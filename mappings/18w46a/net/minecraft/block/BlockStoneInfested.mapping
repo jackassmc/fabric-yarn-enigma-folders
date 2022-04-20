@@ -1,0 +1,2 @@
+CLASS bhx net/minecraft/block/BlockStoneInfested
+	METHOD a onStacksDropped (Lbnz;Lbae;Les;Lavf;)V

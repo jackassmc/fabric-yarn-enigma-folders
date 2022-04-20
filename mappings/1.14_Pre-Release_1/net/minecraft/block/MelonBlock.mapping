@@ -1,0 +1,3 @@
+CLASS bpo net/minecraft/block/MelonBlock
+	METHOD <init> (Lbme$c;)V
+		ARG 1 settings

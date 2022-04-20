@@ -1,0 +1,11 @@
+CLASS bqg net/minecraft/block/ObserverBlock
+	FIELD b POWERED Lbwf;
+	METHOD <init> (Lbmp$c;)V
+		ARG 1 settings
+	METHOD a updateNeighbors (Lbhl;Lev;Lbvn;)V
+		ARG 1 world
+		ARG 2 pos
+		ARG 3 state
+	METHOD a scheduleTick (Lbhm;Lev;)V
+		ARG 1 world
+		ARG 2 pos

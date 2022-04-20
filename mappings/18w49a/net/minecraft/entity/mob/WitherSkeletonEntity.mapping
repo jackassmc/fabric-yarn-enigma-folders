@@ -1,0 +1,10 @@
+CLASS aqa net/minecraft/entity/mob/WitherSkeletonEntity
+	METHOD D getAmbientSound ()Lxg;
+	METHOD a initEquipment (Lafc;)V
+	METHOD a dropEquipment (Laft;IZ)V
+	METHOD a (Lbat;Lafc;Lagw;Lahe;Lhq;)Lahe;
+		ARG 3 difficulty
+	METHOD bG getEyeHeight ()F
+	METHOD cv getDeathSound ()Lxg;
+	METHOD d isPotionEffective (Lagd;)Z
+	METHOD e getHurtSound (Laft;)Lxg;

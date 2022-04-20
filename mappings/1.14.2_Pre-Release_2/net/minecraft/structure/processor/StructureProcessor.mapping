@@ -1,0 +1,6 @@
+CLASS cji net/minecraft/structure/processor/StructureProcessor
+	METHOD a getType ()Lcjj;
+	METHOD a process (Lbhl;Lev;Lcjk$b;Lcjk$b;Lcjh;)Lcjk$b;
+		ARG 1 world
+		ARG 2 pos
+		ARG 5 placementData

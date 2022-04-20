@@ -1,0 +1,3 @@
+CLASS bok net/minecraft/block/FurnaceBlock
+	METHOD <init> (Lbme$c;)V
+		ARG 1 settings

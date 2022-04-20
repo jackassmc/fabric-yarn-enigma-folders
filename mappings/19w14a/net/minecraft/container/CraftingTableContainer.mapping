@@ -1,0 +1,9 @@
+CLASS aye net/minecraft/container/CraftingTableContainer
+	FIELD c craftingInv Layd;
+	FIELD d resultInv Layz;
+	FIELD e context Layb;
+	FIELD f player Lavn;
+	METHOD <init> (ILavm;)V
+		ARG 1 syncId
+	METHOD <init> (ILavm;Layb;)V
+		ARG 1 syncId

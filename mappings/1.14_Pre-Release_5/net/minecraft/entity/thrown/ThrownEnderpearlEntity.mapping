@@ -1,0 +1,2 @@
+CLASS awv net/minecraft/entity/thrown/ThrownEnderpearlEntity
+	FIELD e owner Laio;

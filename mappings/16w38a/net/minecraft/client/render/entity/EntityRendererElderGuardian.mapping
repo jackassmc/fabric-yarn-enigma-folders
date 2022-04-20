@@ -1,0 +1,6 @@
+CLASS bsy net/minecraft/client/render/entity/EntityRendererElderGuardian
+	FIELD b SKIN Lkp;
+	METHOD a getTexture (Lsg;)Lkp;
+		ARG 0 model
+	METHOD a getTexture (Lzn;)Lkp;
+		ARG 0 model

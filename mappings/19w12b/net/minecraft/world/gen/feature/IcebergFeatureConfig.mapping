@@ -1,0 +1,6 @@
+CLASS car net/minecraft/world/gen/feature/IcebergFeatureConfig
+	FIELD a state Lbue;
+	METHOD <init> (Lbue;)V
+		ARG 1 state
+	METHOD a deserialize (Lcom/mojang/datafixers/Dynamic;)Lcar;
+		ARG 0 dynamic

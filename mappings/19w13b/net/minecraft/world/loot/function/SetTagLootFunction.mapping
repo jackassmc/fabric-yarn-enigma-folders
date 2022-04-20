@@ -1,0 +1,3 @@
+CLASS cpq net/minecraft/world/loot/function/SetTagLootFunction
+	CLASS cpq$a Factory
+	FIELD a tag Lib;

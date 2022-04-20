@@ -1,0 +1,12 @@
+CLASS cqg net/minecraft/world/loot/function/SetStewEffectLootFunction
+	CLASS cqg$a Builder
+		FIELD a map Ljava/util/Map;
+		METHOD a withEffect (Lahx;Lcou;)Lcqg$a;
+			ARG 1 effect
+			ARG 2 durationRange
+	CLASS cqg$b Factory
+	FIELD a effects Ljava/util/Map;
+	METHOD <init> ([Lcqy;Ljava/util/Map;)V
+		ARG 1 conditions
+		ARG 2 effects
+	METHOD b builder ()Lcqg$a;

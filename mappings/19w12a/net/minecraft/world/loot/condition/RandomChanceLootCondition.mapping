@@ -1,0 +1,3 @@
+CLASS cpv net/minecraft/world/loot/condition/RandomChanceLootCondition
+	CLASS cpv$a Factory
+	FIELD a chance F

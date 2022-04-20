@@ -1,0 +1,19 @@
+CLASS atd net/minecraft/entity/player/HungerManager
+	FIELD a foodLevel I
+	FIELD b foodSaturationLevel F
+	FIELD c exhaustion F
+	FIELD d foodStarvationTimer I
+	FIELD e prevFoodLevel I
+	METHOD a getFoodLevel ()I
+	METHOD a addExhaustion (F)V
+	METHOD a setFoodLevel (I)V
+	METHOD a add (IF)V
+		ARG 1 food
+	METHOD a update (Lark;)V
+	METHOD a eat (Lawt;Laxd;)V
+		ARG 1 item
+	METHOD a deserialize (Lhs;)V
+	METHOD b setSaturationLevelClient (F)V
+	METHOD b serialize (Lhs;)V
+	METHOD c isNotFull ()Z
+	METHOD e getSaturationLevel ()F

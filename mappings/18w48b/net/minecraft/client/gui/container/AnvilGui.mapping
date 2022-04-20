@@ -1,0 +1,30 @@
+CLASS csx net/minecraft/client/gui/container/AnvilGui
+	FIELD w BG_TEX Lpy;
+	FIELD x anvilContainer Lasc;
+	FIELD y nameField Lcoy;
+	FIELD z playerInv Laqi;
+	METHOD <init> (Laqi;Lbaq;)V
+		ARG 1 playerInv
+	METHOD a drawBackground (FII)V
+		ARG 1 delta
+		ARG 2 mouseX
+	METHOD a draw (IIF)V
+		ARG 1 mouseX
+		ARG 2 mouseY
+	METHOD a onContainerPropertyUpdate (Lasb;II)V
+		ARG 1 container
+		ARG 2 propertyId
+	METHOD a onContainerSlotUpdate (Lasb;ILavs;)V
+		ARG 1 container
+		ARG 2 slotId
+	METHOD a onContainerInvRegistered (Lasb;Laev;)V
+		ARG 1 container
+	METHOD a onContainerRegistered (Lasb;Lfh;)V
+		ARG 1 container
+	METHOD b onScaleChanged (Lcnv;II)V
+		ARG 1 client
+		ARG 2 width
+	METHOD c onInitialized ()V
+	METHOD c drawForeground (II)V
+		ARG 1 mouseX
+	METHOD n onClosed ()V

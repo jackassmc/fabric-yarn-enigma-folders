@@ -1,0 +1,3 @@
+CLASS dji net/minecraft/client/particle/SpriteProvider
+	METHOD a getSprite (II)Lduj;
+	METHOD a getSprite (Ljava/util/Random;)Lduj;

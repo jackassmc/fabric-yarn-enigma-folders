@@ -1,0 +1,9 @@
+CLASS det net/minecraft/client/render/entity/EntityRendererGuardian
+	FIELD a SKIN Lpu;
+	FIELD j EXPLOSION_BEAM_TEX Lpu;
+	METHOD <init> (Ldei;)V
+		ARG 1 renderManager
+	METHOD a getTexture (Lafv;)Lpu;
+		ARG 1 model
+	METHOD a getTexture (Laok;)Lpu;
+		ARG 1 model

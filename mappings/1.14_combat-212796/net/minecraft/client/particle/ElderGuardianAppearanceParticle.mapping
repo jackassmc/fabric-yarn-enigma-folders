@@ -1,0 +1,7 @@
+CLASS dix net/minecraft/client/particle/ElderGuardianAppearanceParticle
+	CLASS a Factory
+	FIELD C guardian Laiu;
+	METHOD <init> (Lbhn;DDD)V
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z

@@ -1,0 +1,35 @@
+CLASS asm net/minecraft/sound/BlockSoundGroup
+	FIELD a WOOD Lasm;
+	FIELD b GRAVEL Lasm;
+	FIELD c GRASS Lasm;
+	FIELD d STONE Lasm;
+	FIELD e METAL Lasm;
+	FIELD f GLASS Lasm;
+	FIELD g CLOTH Lasm;
+	FIELD h SAND Lasm;
+	FIELD i SNOW Lasm;
+	FIELD j LADDER Lasm;
+	FIELD k ANVIL Lasm;
+	FIELD l SLIME Lasm;
+	FIELD m volume F
+	FIELD n pitch F
+	FIELD o breakSound Lpb;
+	FIELD p stepSound Lpb;
+	FIELD q placeSound Lpb;
+	FIELD r hitSound Lpb;
+	FIELD s fallSound Lpb;
+	METHOD <init> (FFLpb;Lpb;Lpb;Lpb;Lpb;)V
+		ARG 0 volume
+		ARG 1 pitch
+		ARG 2 breakSound
+		ARG 3 stepSound
+		ARG 4 placeSound
+		ARG 5 hitSound
+		ARG 6 fallSound
+	METHOD a getVolume ()F
+	METHOD b getPitch ()F
+	METHOD c getBreakSound ()Lpb;
+	METHOD d getStepSound ()Lpb;
+	METHOD e getPlaceSound ()Lpb;
+	METHOD f getHitSound ()Lpb;
+	METHOD g getFallSound ()Lpb;

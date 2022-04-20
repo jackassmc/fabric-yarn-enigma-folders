@@ -1,0 +1,75 @@
+CLASS anf net/minecraft/entity/passive/TurtleEntity
+	CLASS anf$a TurtleMateGoal
+		METHOD a canStart ()Z
+	CLASS anf$b
+		METHOD a canStart ()Z
+		METHOD b shouldContinue ()Z
+		METHOD c start ()V
+		METHOD d onRemove ()V
+		METHOD e tick ()V
+	CLASS anf$c
+		METHOD a canStart ()Z
+		METHOD a isTargetPos (Lbcj;Let;)Z
+		METHOD b shouldContinue ()Z
+		METHOD j shouldResetPath ()Z
+	CLASS anf$d
+		METHOD a canStart ()Z
+		METHOD a isTargetPos (Lbcj;Let;)Z
+		METHOD b shouldContinue ()Z
+		METHOD e tick ()V
+	CLASS anf$e TurtleMoveControl
+		FIELD i turtle Lanf;
+		METHOD a tick ()V
+	CLASS anf$f
+		METHOD a canStart ()Z
+	CLASS anf$g TurtleSwimNavigation
+		METHOD a createPathNodeNavigator ()Lcib;
+		METHOD a isValidPosition (Let;)Z
+		METHOD b isAtValidPosition ()Z
+	CLASS anf$h
+		METHOD a canStart ()Z
+	CLASS anf$i
+		METHOD a canStart ()Z
+		METHOD b shouldContinue ()Z
+		METHOD d onRemove ()V
+		METHOD e tick ()V
+	CLASS anf$j
+		METHOD a canStart ()Z
+		METHOD b shouldContinue ()Z
+		METHOD c start ()V
+		METHOD d onRemove ()V
+		METHOD e tick ()V
+	FIELD bF HOME_POS Lpt;
+	FIELD bG HAS_EGG Lpt;
+	FIELD bJ TRAVEL_POS Lpt;
+	METHOD D getAmbientSound ()Lxt;
+	METHOD a createChild (Laha;)Laha;
+	METHOD a onStruckByLightning (Lape;)V
+	METHOD a canBeLeashedBy (Lark;)Z
+	METHOD a prepareEntityData (Lbcg;Lafx;Lahp;Lahx;Lhs;)Lahx;
+		ARG 3 difficulty
+	METHOD a canSpawn (Lbcg;Lahp;)Z
+	METHOD a playStepSound (Let;Lbqe;)V
+		ARG 1 pos
+	METHOD a readCustomDataFromTag (Lhs;)V
+	METHOD a setSize (Z)V
+		ARG 1 child
+	METHOD ag getSoundSwim ()Lxt;
+	METHOD b createNavigation (Lbcf;)Lalp;
+	METHOD b writeCustomDataToTag (Lhs;)V
+	METHOD by canFly ()Z
+	METHOD cF getGroup ()Lahq;
+	METHOD cb initAttributes ()V
+	METHOD cw getDeathSound ()Lxt;
+	METHOD dB getHasEgg ()Z
+	METHOD dD getHomePos ()Let;
+	METHOD dE getTravelPos ()Let;
+	METHOD e getHurtSound (Lagm;)Lxt;
+	METHOD f isBreedingItem (Laxd;)Z
+	METHOD g setHomePos (Let;)V
+	METHOD h setTravelPos (Let;)V
+	METHOD k updateMovement ()V
+	METHOD l ()V
+	METHOD n prepareGoals ()V
+	METHOD s setHasEgg (Z)V
+	METHOD w_ initDataTracker ()V

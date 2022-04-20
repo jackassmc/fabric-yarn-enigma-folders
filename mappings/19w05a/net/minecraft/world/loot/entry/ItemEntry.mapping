@@ -1,0 +1,4 @@
+CLASS ckc net/minecraft/world/loot/entry/ItemEntry
+	CLASS ckc$a Serializer
+	FIELD c item Laxd;
+	METHOD a builder (Lbcp;)Lckg$a;

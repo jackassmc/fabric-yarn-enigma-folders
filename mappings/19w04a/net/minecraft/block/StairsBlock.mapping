@@ -1,0 +1,6 @@
+CLASS bmw net/minecraft/block/StairsBlock
+	FIELD C baseBlock Lbhn;
+	FIELD D baseBlockState Lbqk;
+	FIELD a FACING Lbrf;
+	METHOD n (Lbqk;)Z
+		ARG 1 state

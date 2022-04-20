@@ -1,0 +1,11 @@
+CLASS vw net/minecraft/entity/ai/AiGoalFindNearestPlayer
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD b owner Lsw;
+	FIELD c searchCoditions Lcom/google/common/base/Predicate;
+	FIELD e target Lsv;
+	METHOD <init> (Lsw;)V
+		ARG 0 owner
+	METHOD a canStart ()Z
+	METHOD b shouldContinue ()Z
+	METHOD c start ()V
+	METHOD d onRemove ()V

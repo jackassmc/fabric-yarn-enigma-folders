@@ -1,0 +1,5 @@
+CLASS anx net/minecraft/entity/ai/goal/CreeperIgniteGoal
+	FIELD a owner Latp;
+	FIELD b target Laim;
+	METHOD <init> (Latp;)V
+		ARG 1 owner

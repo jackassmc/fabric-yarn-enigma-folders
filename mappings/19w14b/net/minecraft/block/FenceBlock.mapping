@@ -1,0 +1,9 @@
+CLASS boa net/minecraft/block/FenceBlock
+	FIELD i SHAPES [Lcsf;
+	METHOD <init> (Lbmb$c;)V
+		ARG 1 settings
+	METHOD a canConnect (Lbuz;ZLfa;)Z
+	METHOD h (Lbuz;Lbgi;Lev;)Lcsf;
+		ARG 1 state
+		ARG 2 view
+		ARG 3 pos

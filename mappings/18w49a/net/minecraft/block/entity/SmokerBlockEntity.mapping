@@ -1,0 +1,5 @@
+CLASS bno net/minecraft/block/entity/SmokerBlockEntity
+	METHOD a createContainer (Laqk;Laql;)Lasd;
+		ARG 0 playerInv
+		ARG 1 playerInv
+	METHOD m getContainerId ()Ljava/lang/String;

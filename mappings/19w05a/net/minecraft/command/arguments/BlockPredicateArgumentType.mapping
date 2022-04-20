@@ -1,0 +1,14 @@
+CLASS dc net/minecraft/command/arguments/BlockPredicateArgumentType
+	CLASS dc$a BlockStatePredicate
+		FIELD a state Lbqp;
+		FIELD b properties Ljava/util/Set;
+		FIELD c compound Lhr;
+	CLASS dc$b BlockPredicateFactory
+	CLASS dc$c TagPredicate
+		FIELD a tag Lyj;
+		FIELD b compound Lhr;
+		FIELD c properties Ljava/util/Map;
+	FIELD a EXAMPLES Ljava/util/Collection;
+	FIELD b UNKNOWN_TAG_EXCEPTION Lcom/mojang/brigadier/exceptions/DynamicCommandExceptionType;
+	METHOD a create ()Ldc;
+	METHOD a getPredicateArgument (Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Ljava/util/function/Predicate;

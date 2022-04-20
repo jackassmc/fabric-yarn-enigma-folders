@@ -1,0 +1,3 @@
+CLASS cle net/minecraft/world/biome/layer/AddMushroomIslandLayer
+	FIELD a INSTANCE Lcle;
+	FIELD b MUSHROOM_FIELDS_ID I

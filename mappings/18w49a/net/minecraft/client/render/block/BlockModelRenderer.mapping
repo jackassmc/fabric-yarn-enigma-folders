@@ -1,0 +1,3 @@
+CLASS dde net/minecraft/client/render/block/BlockModelRenderer
+	METHOD a renderBlockModel (Lbft;F)V
+		ARG 1 block

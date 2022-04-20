@@ -1,0 +1,8 @@
+CLASS cka net/minecraft/util/BoundedIntUnaryOperator
+	CLASS cka$a Serializer
+	FIELD a min Ljava/lang/Integer;
+	FIELD b max Ljava/lang/Integer;
+	FIELD c operator Ljava/util/function/IntUnaryOperator;
+	METHOD a createMin (I)Lcka;
+	METHOD a create (II)Lcka;
+	METHOD b createMax (I)Lcka;

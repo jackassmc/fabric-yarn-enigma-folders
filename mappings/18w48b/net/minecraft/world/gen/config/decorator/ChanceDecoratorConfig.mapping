@@ -1,0 +1,5 @@
+CLASS byz net/minecraft/world/gen/config/decorator/ChanceDecoratorConfig
+	FIELD a chance I
+	METHOD a deserialize (Lcom/mojang/datafixers/Dynamic;)Lbyz;
+		ARG 0 dynamic
+	METHOD a serialize (Lcom/mojang/datafixers/types/DynamicOps;)Lcom/mojang/datafixers/Dynamic;

@@ -1,0 +1,10 @@
+CLASS kj net/minecraft/client/network/packet/BlockEntityUpdateS2CPacket
+	FIELD a pos Les;
+	FIELD b actionId I
+	FIELD c tag Lhx;
+	METHOD <init> (Les;ILhx;)V
+		ARG 1 pos
+		ARG 2 action
+	METHOD b getPos ()Les;
+	METHOD c getActionId ()I
+	METHOD d getCompoundTag ()Lhx;

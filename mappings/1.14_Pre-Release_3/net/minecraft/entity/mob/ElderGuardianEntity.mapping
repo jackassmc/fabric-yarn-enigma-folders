@@ -1,0 +1,2 @@
+CLASS atv net/minecraft/entity/mob/ElderGuardianEntity
+	METHOD dU straightenTail ()V

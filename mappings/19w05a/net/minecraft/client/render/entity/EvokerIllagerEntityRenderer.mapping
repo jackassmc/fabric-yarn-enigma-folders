@@ -1,0 +1,2 @@
+CLASS djz net/minecraft/client/render/entity/EvokerIllagerEntityRenderer
+	FIELD a EVOKER_TEXTURE Lqd;

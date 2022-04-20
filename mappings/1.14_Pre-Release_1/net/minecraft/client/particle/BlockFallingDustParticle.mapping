@@ -1,0 +1,7 @@
+CLASS dhy net/minecraft/client/particle/BlockFallingDustParticle
+	CLASS dhy$a Factory
+	METHOD <init> (Lbha;DDDFFFLdix;)V
+		ARG 1 world
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z

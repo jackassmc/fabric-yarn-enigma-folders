@@ -1,0 +1,6 @@
+CLASS ank net/minecraft/entity/mob/EntityCaveSpider
+	METHOD G getLootTableId ()Lpt;
+	METHOD a (Lazb;Ladz;Lafz;Lhl;)Lafz;
+		ARG 1 difficulty
+	METHOD bH getEyeHeight ()F
+	METHOD cb initAttributes ()V

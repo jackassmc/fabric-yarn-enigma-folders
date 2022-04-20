@@ -1,0 +1,33 @@
+CLASS ddc net/minecraft/client/gui/screen/world/CreateWorldScreen
+	FIELD A generatorType I
+	FIELD a generatorOptionsTag Lic;
+	FIELD b parent Lczx;
+	FIELD c textFieldLevelName Lcxa;
+	FIELD d textFieldSeed Lcxa;
+	FIELD f gameMode Ljava/lang/String;
+	FIELD h structures Z
+	FIELD i commandsAllowed Z
+	FIELD k enableBonusItems Z
+	FIELD m isCreatingLevel Z
+	FIELD o buttonCreateLevel Lcwu;
+	FIELD p buttonGameModeSwitch Lcwu;
+	FIELD q buttonMoreOptions Lcwu;
+	FIELD r buttonGenerateStructures Lcwu;
+	FIELD s buttonGenerateBonusItems Lcwu;
+	FIELD t buttonMapTypeSwitch Lcwu;
+	FIELD u buttonCommandsAllowed Lcwu;
+	FIELD v buttonCustomizeType Lcwu;
+	FIELD y seed Ljava/lang/String;
+	FIELD z levelName Ljava/lang/String;
+	METHOD <init> (Lczx;)V
+		ARG 1 parent
+	METHOD a recreateLevel (Lcog;)V
+	METHOD c createLevel ()V
+	METHOD keyPressed (III)Z
+		ARG 1 keyCode
+		ARG 2 scanCode
+		ARG 3 modifiers
+	METHOD render (IIF)V
+		ARG 1 mouseX
+		ARG 2 mouseY
+		ARG 3 delta

@@ -1,0 +1,2 @@
+CLASS aro net/minecraft/village/VillagerDataContainer
+	METHOD dP getVillagerData ()Larn;

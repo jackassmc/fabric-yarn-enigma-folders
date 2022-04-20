@@ -1,0 +1,5 @@
+CLASS no net/minecraft/sortme/DebugRendererInfoManager
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	METHOD a sendPathfindingData (Lbgx;Laij;Lcmu;F)V
+	METHOD a sendBlockUpdate (Lbgx;Lev;)V
+	METHOD a sendStructureStart (Lbgy;Lchz;)V

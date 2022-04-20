@@ -1,0 +1,13 @@
+CLASS civ net/minecraft/client/gl/GlBuffer
+	FIELD a id I
+	FIELD b format Lcix;
+	FIELD c vertexCount I
+	METHOD <init> (Lcix;)V
+		ARG 0 vertexFormat
+	METHOD a bind ()V
+	METHOD a draw (I)V
+		ARG 0 glMode
+	METHOD a set (Ljava/nio/ByteBuffer;)V
+		ARG 0 byteBuffer
+	METHOD b unbind ()V
+	METHOD c delete ()V

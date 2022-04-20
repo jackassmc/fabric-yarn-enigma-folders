@@ -1,0 +1,10 @@
+CLASS bgm net/minecraft/block/BlockEndGateway
+	METHOD a createBlockEntity (Lazl;)Lbls;
+	METHOD a getPickStack (Lazl;Les;Lbno;)Lava;
+		ARG 1 world
+		ARG 2 pos
+	METHOD a (Lbno;)Z
+	METHOD b randomDisplayTick (Lbno;Lazy;Les;Ljava/util/Random;)V
+		ARG 1 state
+		ARG 2 world
+		ARG 3 pos

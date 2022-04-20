@@ -1,0 +1,2 @@
+CLASS cib net/minecraft/sortme/rule/AlwaysTrueRuleTest
+	FIELD a INSTANCE Lcib;

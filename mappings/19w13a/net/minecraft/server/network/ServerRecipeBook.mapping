@@ -1,0 +1,9 @@
+CLASS ym net/minecraft/server/network/ServerRecipeBook
+	FIELD k LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD l manager Lbdy;
+	METHOD a fromTag (Lib;)V
+	METHOD a unlockRecipes (Ljava/util/Collection;Lvf;)I
+	METHOD a sendUnlockRecipesPacket (Lmd$a;Lvf;Ljava/util/List;)V
+	METHOD a sendInitRecipesPacket (Lvf;)V
+	METHOD b lockRecipes (Ljava/util/Collection;Lvf;)I
+	METHOD i toTag ()Lib;

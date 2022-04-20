@@ -1,0 +1,82 @@
+CLASS mi net/minecraft/network/handler/NetworkGameHandlerServer
+	CLASS mi$1
+		METHOD operationComplete (Lio/netty/util/concurrent/Future;)V
+	CLASS mi$2
+		METHOD run ()V
+	CLASS mi$3
+		METHOD a call ()Ljava/lang/String;
+	FIELD a connection Ler;
+	FIELD b player Lly;
+	FIELD c LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD d server Lnet/minecraft/server/MinecraftServer;
+	FIELD r topmostRiddenEntity Lsm;
+	METHOD <init> (Lnet/minecraft/server/MinecraftServer;Ler;Lly;)V
+		ARG 0 server
+		ARG 1 connection
+		ARG 2 player
+	METHOD a getConnection ()Ler;
+	METHOD a (DDDFF)V
+	METHOD a onConnectionLost (Lfb;)V
+		ARG 0 reason
+	METHOD a sendPacket (Lfm;)V
+		ARG 0 packet
+	METHOD a onTeleportConfirm (Lin;)V
+		ARG 0 packet
+	METHOD a onChatTabCompleteRequest (Lio;)V
+		ARG 0 packet
+	METHOD a onChatMessage (Lip;)V
+		ARG 0 packet
+	METHOD a onClientStatus (Liq;)V
+		ARG 0 packet
+	METHOD a onClientSettings (Lir;)V
+		ARG 0 packet
+	METHOD a onGuiActionConfirm (Lis;)V
+		ARG 0 packet
+	METHOD a onItemEnchant (Lit;)V
+		ARG 0 packet
+	METHOD a onGuiSlotUpdate (Liu;)V
+		ARG 0 packet
+	METHOD a onGuiClose (Liv;)V
+		ARG 0 packet
+	METHOD a onCustomPayload (Liw;)V
+		ARG 0 packet
+	METHOD a onEntityUse (Lix;)V
+		ARG 0 packet
+	METHOD a onKeepAlive (Liy;)V
+		ARG 0 packet
+	METHOD a onPlayerUpdate (Liz;)V
+		ARG 0 packet
+	METHOD a onEntityVehicleMove (Lja;)V
+		ARG 0 packet
+	METHOD a onBoatRenderUpdate (Ljb;)V
+		ARG 0 packet
+	METHOD a onPlayerAbilities (Ljc;)V
+		ARG 0 packet
+	METHOD a onPlayerState (Ljd;)V
+		ARG 0 packet
+	METHOD a onEntityAction (Lje;)V
+		ARG 0 packet
+	METHOD a onVehicleSteer (Ljf;)V
+		ARG 0 packet
+	METHOD a onResourcePackStatus (Ljg;)V
+		ARG 0 packet
+	METHOD a onPlayerHeldItemUpdate (Ljh;)V
+		ARG 0 packet
+	METHOD a onInventoryUpdateCreative (Lji;)V
+		ARG 0 packet
+	METHOD a onSignUpdate (Ljj;)V
+		ARG 0 packet
+	METHOD a onClientHandSwing (Ljk;)V
+		ARG 0 packet
+	METHOD a onSpectate (Ljl;)V
+		ARG 0 packet
+	METHOD a onPlayerBlockPlace (Ljm;)V
+		ARG 0 packet
+	METHOD a onPlayerSwingHand (Ljn;)V
+		ARG 0 packet
+	METHOD b isInvalidPlayerUpdate (Liz;)Z
+	METHOD b isInvalidEntityVehicleMove (Lja;)Z
+	METHOD c kick (Ljava/lang/String;)V
+		ARG 0 reason
+	METHOD d executeCommand (Ljava/lang/String;)V
+		ARG 0 command

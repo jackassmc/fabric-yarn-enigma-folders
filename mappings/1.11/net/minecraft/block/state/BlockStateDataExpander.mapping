@@ -1,0 +1,34 @@
+CLASS auf net/minecraft/block/state/BlockStateDataExpander
+	FIELD a BLOCK_AIR Latj;
+	FIELD b packedData Loe;
+	FIELD c blockStateData Lauq;
+	FIELD d BLOCK_STATE_DATA_COMPLETE Lauq;
+	FIELD e sizeBits I
+	METHOD a getSizeBytes ()I
+	METHOD a getBlockState (I)Latj;
+		ARG 0 index
+	METHOD a getBlockState (III)Latj;
+		ARG 0 x
+		ARG 1 y
+		ARG 2 z
+	METHOD a setBlockState (IIILatj;)V
+		ARG 0 x
+		ARG 1 y
+		ARG 2 z
+		ARG 3 state
+	METHOD a expandDataAndGetStateId (ILatj;)I
+		ARG 0 expandedBitSize
+		ARG 1 state
+	METHOD a readData (Let;)V
+		ARG 0 buffer
+	METHOD b setSizeBits (I)V
+		ARG 0 value
+	METHOD b getIndex (III)I
+		ARG 0 x
+		ARG 1 y
+		ARG 2 z
+	METHOD b setBlockState (ILatj;)V
+		ARG 0 index
+		ARG 1 state
+	METHOD b writeData (Let;)V
+		ARG 0 buffer

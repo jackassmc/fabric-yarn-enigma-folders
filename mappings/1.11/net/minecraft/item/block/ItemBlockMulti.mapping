@@ -1,0 +1,21 @@
+CLASS afr net/minecraft/item/block/ItemBlockMulti
+	CLASS afr$1
+		METHOD a apply (Lafi;)Ljava/lang/String;
+			ARG 0 stack
+	CLASS afr$a VariantNameProvider
+		METHOD a apply (Lafi;)Ljava/lang/String;
+			ARG 0 stack
+	FIELD b block2 Lals;
+	FIELD c variantNameProvider Lafr$a;
+	METHOD <init> (Lals;Lals;Lafr$a;)V
+		ARG 0 block
+		ARG 1 block2
+		ARG 2 variantNameProvider
+	METHOD <init> (Lals;Lals;[Ljava/lang/String;)V
+		ARG 0 block
+		ARG 1 block2
+		ARG 2 variantNames
+	METHOD a getPlacementMetadata (I)I
+		ARG 0 meta
+	METHOD a getTranslationKey (Lafi;)Ljava/lang/String;
+		ARG 0 stack

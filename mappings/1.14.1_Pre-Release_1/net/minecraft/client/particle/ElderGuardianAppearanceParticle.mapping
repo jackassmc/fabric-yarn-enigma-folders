@@ -1,0 +1,3 @@
+CLASS dis net/minecraft/client/particle/ElderGuardianAppearanceParticle
+	CLASS dis$a Factory
+	FIELD C guardian Lair;

@@ -1,0 +1,4 @@
+CLASS dfw net/minecraft/client/render/entity/EntityRendererMooshroom
+	FIELD a SKIN Lpw;
+	METHOD a getTexture (Lafy;)Lpw;
+	METHOD a getTexture (Lali;)Lpw;

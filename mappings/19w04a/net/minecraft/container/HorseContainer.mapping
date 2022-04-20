@@ -1,0 +1,3 @@
+CLASS aua net/minecraft/container/HorseContainer
+	FIELD c playerInv Lafq;
+	FIELD d entity Lani;

@@ -1,0 +1,35 @@
+CLASS none/biv net/minecraft/client/gui/menu/GuiNewLevel
+	FIELD A buttonGameModeSwitch Lnone/bek;
+	FIELD B buttonMoreOptions Lnone/bek;
+	FIELD C buttonGenerateStructures Lnone/bek;
+	FIELD D buttonGenerateBonusItems Lnone/bek;
+	FIELD E buttonMapTypeSwitch Lnone/bek;
+	FIELD F buttonCommandsAllowed Lnone/bek;
+	FIELD G buttonCustomizeType Lnone/bek;
+	FIELD J seed Ljava/lang/String;
+	FIELD K levelName Ljava/lang/String;
+	FIELD L generatorType I
+	FIELD M INVALID_LEVEL_NAMES [Ljava/lang/String;
+	FIELD a generatorOptions Ljava/lang/String;
+	FIELD f parent Lnone/bgm;
+	FIELD r gameMode Ljava/lang/String;
+	FIELD t structures Z
+	FIELD u commandsAllowed Z
+	METHOD <init> (Lnone/bgm;)V
+		ARG 0 parent
+	METHOD a handleKeyPress (CI)V
+		ARG 0 keyChar
+		ARG 1 keyCode
+	METHOD a draw (IIF)V
+		ARG 0 mouseX
+		ARG 1 mouseY
+		ARG 2 delta
+	METHOD a handleMouseClick (III)V
+		ARG 0 mouseX
+		ARG 1 mouseY
+		ARG 2 mouseButton
+	METHOD a handleButtonPressed (Lnone/bek;)V
+		ARG 0 button
+	METHOD b init ()V
+	METHOD e update ()V
+	METHOD m onClosed ()V

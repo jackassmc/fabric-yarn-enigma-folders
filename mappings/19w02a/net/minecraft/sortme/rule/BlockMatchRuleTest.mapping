@@ -1,0 +1,6 @@
+CLASS cdl net/minecraft/sortme/rule/BlockMatchRuleTest
+	FIELD a block Lbhi;
+	METHOD <init> (Lbhi;)V
+		ARG 1 block
+	METHOD a getRuleTest ()Lcdw;
+	METHOD a test (Lbqe;Ljava/util/Random;)Z

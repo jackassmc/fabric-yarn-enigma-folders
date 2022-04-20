@@ -1,0 +1,6 @@
+CLASS ccu net/minecraft/fluid/Fluids
+	FIELD a EMPTY Lccr;
+	FIELD b WATER_FLOWING Lccq;
+	FIELD c WATER Lccq;
+	FIELD d LAVA_FLOWING Lccq;
+	FIELD e LAVA Lccq;

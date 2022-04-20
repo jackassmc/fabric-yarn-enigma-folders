@@ -1,0 +1,16 @@
+CLASS arg net/minecraft/entity/passive/PolarBearEntity
+	CLASS arg$a FollowPlayersGoal
+	CLASS arg$b PolarBearEntityData
+	CLASS arg$c PolarBearRevengeGoal
+	CLASS arg$d AttackGoal
+	CLASS arg$e PolarBearEscapeDangerGoal
+	FIELD bA lastWarningAnimationProgress F
+	FIELD bB warningAnimationProgress F
+	FIELD bD warningSoundCooldown I
+	FIELD bz WARNING Lqh;
+	METHOD dV playWarningSound ()V
+	METHOD dW isWarning ()Z
+	METHOD r setWarning (Z)V
+		ARG 1 warning
+	METHOD v getWarningAnimationProgress (F)F
+		ARG 1 tickDelta

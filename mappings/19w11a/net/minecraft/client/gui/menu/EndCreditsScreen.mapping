@@ -1,0 +1,5 @@
+CLASS cyn net/minecraft/client/gui/menu/EndCreditsScreen
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD b MINECRAFT_TITLE_TEXTURE Lqp;
+	FIELD g EDITION_TITLE_TEXTURE Lqp;
+	FIELD h VIGNETTE_TEXTURE Lqp;

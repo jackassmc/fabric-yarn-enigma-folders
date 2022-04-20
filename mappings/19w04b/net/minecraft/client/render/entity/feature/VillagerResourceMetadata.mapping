@@ -1,0 +1,9 @@
+CLASS dpm net/minecraft/client/render/entity/feature/VillagerResourceMetadata
+	CLASS dpm$a HatType
+		FIELD d byName Ljava/util/Map;
+		FIELD e name Ljava/lang/String;
+		METHOD a getName ()Ljava/lang/String;
+		METHOD a from (Ljava/lang/String;)Ldpm$a;
+	FIELD a READER Ldpn;
+	FIELD b hatType Ldpm$a;
+	METHOD a getHatType ()Ldpm$a;

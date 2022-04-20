@@ -1,0 +1,22 @@
+CLASS ali net/minecraft/block/BlockAir
+	METHOD a dropItems (Lajq;Lco;Latj;FI)V
+		ARG 0 world
+		ARG 1 pos
+		ARG 2 state
+		ARG 3 dropChance
+		ARG 4 fortune
+	METHOD a isAir (Laju;Lco;)Z
+		ARG 0 view
+		ARG 1 pos
+	METHOD a getRenderType (Latj;)Laqd;
+		ARG 0 state
+	METHOD a getCollisionBox (Latj;Laju;Lco;)Lbdr;
+		ARG 0 state
+		ARG 1 view
+		ARG 2 pos
+	METHOD a (Latj;Z)Z
+		ARG 0 state
+	METHOD b isFullBoundsCubeForCulling (Latj;)Z
+		ARG 0 state
+	METHOD c (Latj;)Z
+		ARG 0 state

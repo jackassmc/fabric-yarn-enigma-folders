@@ -1,0 +1,4 @@
+CLASS dtr net/minecraft/client/render/entity/feature/WitherArmorFeatureRenderer
+	FIELD a SKIN Lqs;
+	METHOD <init> (Ldqz;)V
+		ARG 1 context

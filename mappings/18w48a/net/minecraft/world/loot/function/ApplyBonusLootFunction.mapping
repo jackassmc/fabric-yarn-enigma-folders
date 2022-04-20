@@ -1,0 +1,37 @@
+CLASS cig net/minecraft/world/loot/function/ApplyBonusLootFunction
+	CLASS cig$a BinomialWithBonusCount
+		FIELD a ID Lpy;
+		METHOD a getId ()Lpy;
+		METHOD a fromJson (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Lcig$b;
+		METHOD a toJson (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD a getValue (Ljava/util/Random;II)I
+	CLASS cig$b Formula
+		METHOD a getId ()Lpy;
+		METHOD a toJson (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD a getValue (Ljava/util/Random;II)I
+	CLASS cig$c FormulaFactory
+	CLASS cig$d OreDrops
+		FIELD a ID Lpy;
+		METHOD a getId ()Lpy;
+		METHOD a fromJson (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Lcig$b;
+		METHOD a toJson (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD a getValue (Ljava/util/Random;II)I
+	CLASS cig$e Factory
+		METHOD a toJson (Lcom/google/gson/JsonObject;Lcip;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD a toJson (Lcom/google/gson/JsonObject;Lciq;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD b fromJson (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;[Lcjt;)Lcip;
+	CLASS cig$f UniformBonusCount
+		FIELD a ID Lpy;
+		METHOD a getId ()Lpy;
+		METHOD a fromJson (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Lcig$b;
+		METHOD a toJson (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD a getValue (Ljava/util/Random;II)I
+	FIELD a FACTORIES Ljava/util/Map;
+	FIELD c enchantment Layt;
+	FIELD d formula Lcig$b;
+	METHOD a process (Lavs;Lchi;)Lavs;
+		ARG 1 stack
+	METHOD a oreDrops (Layt;)Lcip$a;
+	METHOD a binomialWithBonusCount (Layt;FI)Lcip$a;
+	METHOD a builder (Layt;I)Lcip$a;
+	METHOD b one (Layt;)Lcip$a;

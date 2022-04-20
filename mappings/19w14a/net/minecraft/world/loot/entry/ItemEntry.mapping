@@ -1,0 +1,4 @@
+CLASS coo net/minecraft/world/loot/entry/ItemEntry
+	CLASS coo$a Serializer
+	FIELD c item Lbbl;
+	METHOD a builder (Lbgv;)Lcos$a;

@@ -1,0 +1,3 @@
+CLASS cku net/minecraft/fluid/WaterFluid
+	CLASS cku$a Flowing
+	CLASS cku$b Still

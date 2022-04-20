@@ -1,0 +1,4 @@
+CLASS bfx net/minecraft/enchantment/QuickChargeEnchantment
+	METHOD <init> (Lbfj$a;[Lain;)V
+		ARG 1 weight
+		ARG 2 slot

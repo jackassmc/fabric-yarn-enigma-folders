@@ -1,0 +1,7 @@
+CLASS bgn net/minecraft/block/AbstractSkullBlock
+	FIELD a type Lbmc$a;
+	METHOD a createBlockEntity (Lbbr;)Lboi;
+		ARG 1 view
+	METHOD b getSkullType ()Lbmc$a;
+	METHOD d hasBlockEntityBreakingRender (Lbqe;)Z
+		ARG 1 state

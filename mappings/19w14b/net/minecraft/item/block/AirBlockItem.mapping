@@ -1,0 +1,2 @@
+CLASS azk net/minecraft/item/block/AirBlockItem
+	FIELD a block Lbmb;

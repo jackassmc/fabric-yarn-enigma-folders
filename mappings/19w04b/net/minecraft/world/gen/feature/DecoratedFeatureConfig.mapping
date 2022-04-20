@@ -1,0 +1,13 @@
+CLASS bvk net/minecraft/world/gen/feature/DecoratedFeatureConfig
+	FIELD a feature Lbvb;
+	FIELD b decorator Lcat;
+	METHOD <init> (Lbvb;Lcat;)V
+		ARG 1 feature
+		ARG 2 decorator
+	METHOD <init> (Lbwd;Lbwe;Lcbr;Lbvn;)V
+		ARG 1 feature
+		ARG 2 featureConfig
+		ARG 3 decorator
+		ARG 4 decoratorConfig
+	METHOD a deserialize (Lcom/mojang/datafixers/Dynamic;)Lbvk;
+		ARG 0 dynamic

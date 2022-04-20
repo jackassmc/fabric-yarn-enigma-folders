@@ -1,0 +1,4 @@
+CLASS bgk net/minecraft/enchantment/VanishingCurseEnchantment
+	METHOD <init> (Lbfo$a;[Laiq;)V
+		ARG 1 weight
+		ARG 2 slotTypes

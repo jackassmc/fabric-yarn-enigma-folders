@@ -1,0 +1,34 @@
+CLASS ir net/minecraft/network/packet/client/CPacketPlayerPositionLook
+	CLASS ir$a Flag
+		FIELD a X Lir$a;
+		FIELD b Y Lir$a;
+		FIELD c Z Lir$a;
+		FIELD d Y_ROT Lir$a;
+		FIELD e X_ROT Lir$a;
+		FIELD f shift I
+		METHOD a getMask ()I
+		METHOD a getFlags (I)Ljava/util/Set;
+		METHOD a getBitfield (Ljava/util/Set;)I
+		METHOD b isSet (I)Z
+	FIELD a x D
+	FIELD b y D
+	FIELD c z D
+	FIELD d yaw F
+	FIELD e pitch F
+	FIELD f flags Ljava/util/Set;
+	FIELD g teleportId I
+	METHOD a getX ()D
+	METHOD a readPacket (Lgb;)V
+		ARG 0 buf
+	METHOD a applyPacket (Lge;)V
+		ARG 0 handler
+	METHOD a applyPacket (Lgy;)V
+		ARG 0 handler
+	METHOD b getY ()D
+	METHOD b writePacket (Lgb;)V
+		ARG 0 buf
+	METHOD c getZ ()D
+	METHOD d getYaw ()F
+	METHOD e getPitch ()F
+	METHOD f getTeleportId ()I
+	METHOD g getFlags ()Ljava/util/Set;

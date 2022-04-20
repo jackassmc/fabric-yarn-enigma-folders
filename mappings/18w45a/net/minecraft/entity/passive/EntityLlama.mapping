@@ -1,0 +1,35 @@
+CLASS ame net/minecraft/entity/passive/EntityLlama
+	CLASS ame$a
+		METHOD a canStart ()Z
+		METHOD i getFollowRange ()D
+	CLASS ame$c
+		METHOD b shouldContinue ()Z
+	FIELD bM ATTR_STRENGTH Lpl;
+	FIELD bO ATTR_VARIANT Lpl;
+	METHOD D getSoundAmbient ()Lwz;
+	METHOD F getLootTableId ()Lpw;
+	METHOD a onInvChange (Lael;)V
+	METHOD a createChild (Lafv;)Lafv;
+	METHOD a attackDistant (Lagh;F)V
+		ARG 1 target
+	METHOD a (Lazz;Laeq;Lagk;Lagr;Lho;)Lagr;
+		ARG 3 difficulty
+	METHOD a playStepSound (Les;Lbno;)V
+		ARG 1 pos
+	METHOD a deserializeCustomData (Lho;)V
+	METHOD aL getMountedHeightOffset ()D
+	METHOD b createChild (Lafv;)Lame;
+	METHOD b serializeCustomData (Lho;)V
+	METHOD c handleFallDamage (FF)V
+		ARG 1 fallDistance
+	METHOD cb initAttributes ()V
+	METHOD cw getSoundDeath ()Lwz;
+	METHOD dC getInventorySize ()I
+	METHOD e getSoundHurt (Lafh;)Lwz;
+	METHOD ei getStrength ()I
+	METHOD ej getVariant ()I
+	METHOD n initAi ()V
+	METHOD s setVariant (I)V
+	METHOD s setArmsRaised (Z)V
+	METHOD t setStrength (I)V
+	METHOD y_ initDataTracker ()V

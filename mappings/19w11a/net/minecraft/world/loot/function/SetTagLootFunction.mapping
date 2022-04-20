@@ -1,0 +1,3 @@
+CLASS cor net/minecraft/world/loot/function/SetTagLootFunction
+	CLASS cor$a net/minecraft/world/loot/function/SetTagLootFunction$Factory
+	FIELD a tag Lia;

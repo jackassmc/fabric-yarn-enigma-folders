@@ -1,0 +1,2 @@
+CLASS rg net/minecraft/command/CommandMe
+	METHOD a register (Lcom/mojang/brigadier/CommandDispatcher;)V

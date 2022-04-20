@@ -1,0 +1,3 @@
+CLASS dei net/minecraft/client/particle/EmotionParticle
+	CLASS dei$a AngryVillagerFactory
+	CLASS dei$b HeartFactory

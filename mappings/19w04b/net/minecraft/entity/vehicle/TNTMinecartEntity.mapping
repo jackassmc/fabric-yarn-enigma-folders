@@ -1,0 +1,6 @@
+CLASS asz net/minecraft/entity/vehicle/TNTMinecartEntity
+	FIELD b fuseTicks I
+	METHOD c explode (D)V
+	METHOD e prime ()V
+	METHOD u getFuseTicks ()I
+	METHOD w isPrimed ()Z

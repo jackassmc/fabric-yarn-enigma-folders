@@ -1,0 +1,5 @@
+CLASS dny net/minecraft/client/render/entity/feature/TropicalFishSomethingFeatureRenderer
+	METHOD <init> (Ldlm;)V
+		ARG 1 context
+	METHOD a render (Lahc;FFFFFFF)V
+	METHOD a render (Land;FFFFFFF)V

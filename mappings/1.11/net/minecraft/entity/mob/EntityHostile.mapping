@@ -1,0 +1,12 @@
+CLASS zz net/minecraft/entity/mob/EntityHostile
+	METHOD a damage (Lrx;F)Z
+		ARG 0 source
+		ARG 1 damage
+	METHOD aa getSoundSwim ()Lnm;
+	METHOD ab getSoundSplash ()Lnm;
+	METHOD bC getSoundCategory ()Lno;
+	METHOD bW getSoundDeath ()Lnm;
+	METHOD bX getSoundHurt ()Lnm;
+	METHOD e getSoundFall (I)Lnm;
+		ARG 0 height
+	METHOD n updateMovement ()V

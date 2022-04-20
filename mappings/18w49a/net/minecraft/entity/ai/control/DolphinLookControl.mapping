@@ -1,0 +1,4 @@
+CLASS ahs net/minecraft/entity/ai/control/DolphinLookControl
+	METHOD <init> (Lagu;I)V
+		ARG 1 entity
+	METHOD a tick ()V

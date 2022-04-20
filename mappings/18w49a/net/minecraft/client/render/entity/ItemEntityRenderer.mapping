@@ -1,0 +1,7 @@
+CLASS dhv net/minecraft/client/render/entity/ItemEntityRenderer
+	FIELD a itemRenderer Ldhx;
+	FIELD f random Ljava/util/Random;
+	METHOD <init> (Ldhc;Ldhx;)V
+		ARG 1 renderManager
+	METHOD a getTexture (Lagk;)Lpz;
+	METHOD a getTexture (Laon;)Lpz;

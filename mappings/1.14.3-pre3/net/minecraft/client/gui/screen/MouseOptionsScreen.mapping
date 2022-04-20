@@ -1,0 +1,8 @@
+CLASS czp net/minecraft/client/gui/screen/MouseOptionsScreen
+	FIELD a parent Lczx;
+	FIELD b buttonList Lcxg;
+	FIELD c OPTIONS [Lcvr;
+	METHOD render (IIF)V
+		ARG 1 mouseX
+		ARG 2 mouseY
+		ARG 3 delta

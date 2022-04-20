@@ -1,0 +1,4 @@
+CLASS bob net/minecraft/block/EnchantingTableBlock
+	FIELD a SHAPE Lcsr;
+	METHOD <init> (Lbmm$c;)V
+		ARG 1 settings

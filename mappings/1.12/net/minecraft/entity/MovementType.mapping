@@ -1,0 +1,6 @@
+CLASS vt net/minecraft/entity/MovementType
+	FIELD a SELF Lvt;
+	FIELD b PLAYER Lvt;
+	FIELD c PISTON Lvt;
+	FIELD d SHULKER_BOX Lvt;
+	FIELD e SHULKER_ENTITY Lvt;

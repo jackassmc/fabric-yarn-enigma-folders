@@ -1,0 +1,11 @@
+CLASS czw net/minecraft/client/gui/menu/options/ControlsOptionsScreen
+	FIELD a focusedBinding Lcuv;
+	FIELD b time J
+	FIELD c OPTIONS [Lcva;
+	FIELD d parent Lczf;
+	FIELD e options Lcvb;
+	FIELD f keyBindingListWidget Lczv;
+	FIELD g resetButton Lcwd;
+	METHOD <init> (Lczf;Lcvb;)V
+		ARG 1 parent
+		ARG 2 options

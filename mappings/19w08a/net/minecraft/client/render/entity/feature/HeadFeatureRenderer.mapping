@@ -1,0 +1,3 @@
+CLASS dog net/minecraft/client/render/entity/feature/HeadFeatureRenderer
+	METHOD <init> (Ldms;)V
+		ARG 1 context

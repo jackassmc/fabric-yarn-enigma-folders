@@ -1,0 +1,3 @@
+CLASS ard net/minecraft/village/VillagerProfession
+	METHOD a register (Ljava/lang/String;)Lard;
+		ARG 0 id

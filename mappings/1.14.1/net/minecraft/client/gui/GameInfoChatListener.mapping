@@ -1,0 +1,2 @@
+CLASS cwi net/minecraft/client/gui/GameInfoChatListener
+	FIELD a client Lcvk;

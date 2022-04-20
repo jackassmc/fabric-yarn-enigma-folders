@@ -1,0 +1,7 @@
+CLASS atg net/minecraft/entity/mob/RavagerEntity
+	CLASS atg$b
+		METHOD <init> (Laig;Lbfy;)V
+			ARG 1 world
+	FIELD bA stunTick I
+	FIELD bB roarTick I
+	FIELD c attackTick I

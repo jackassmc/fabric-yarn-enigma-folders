@@ -1,0 +1,15 @@
+CLASS lz net/minecraft/entity/player/PlayerProperties
+	FIELD a world Lajq;
+	FIELD b player Lly;
+	FIELD c gameMode Lajo;
+	METHOD <init> (Lajq;)V
+		ARG 0 world
+	METHOD a updateGameMode (Lajo;)V
+		ARG 0 gameMode
+	METHOD a setWorld (Llw;)V
+		ARG 0 value
+	METHOD b getGameMode ()Lajo;
+	METHOD b setGameMode (Lajo;)V
+		ARG 0 value
+	METHOD c isSurvivalLike ()Z
+	METHOD d isCreative ()Z

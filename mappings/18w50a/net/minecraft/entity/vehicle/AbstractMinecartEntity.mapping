@@ -1,0 +1,54 @@
+CLASS asi net/minecraft/entity/vehicle/AbstractMinecartEntity
+	CLASS asi$a Type
+		FIELD h VALUES [Lasi$a;
+		FIELD i id I
+		METHOD a getId ()I
+		METHOD a byId (I)Lasi$a;
+			ARG 0 id
+	FIELD d CUSTOM_BLOCK_ID Lpr;
+	FIELD e CUSTOM_BLOCK_OFFSET Lpr;
+	FIELD f CUSTOM_BLOCK_PRESENT Lpr;
+	METHOD <init> (Lagz;Lbbp;)V
+		ARG 1 type
+	METHOD <init> (Lagz;Lbbp;DDD)V
+		ARG 1 world
+		ARG 3 x
+	METHOD A hasCustomBlock ()Z
+	METHOD W_ update ()V
+	METHOD a setPositionAndRotations (DDDFFIZ)V
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+	METHOD a onActivatorRail (IIIZ)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD a dropItems (Lage;)V
+	METHOD a damage (Lage;F)Z
+		ARG 1 source
+		ARG 2 amount
+	METHOD a create (Lbbp;DDDLasi$a;)Lasi;
+		ARG 0 world
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+		ARG 7 type
+	METHOD a readCustomDataFromTag (Lhs;)V
+	METHOD a setCustomBlockPresent (Z)V
+	METHOD aD doesCollide ()Z
+	METHOD aE isPushable ()Z
+	METHOD aL getMountedHeightOffset ()D
+	METHOD b setPosition (DDD)V
+		ARG 1 x
+	METHOD b setCustomBlock (Lbpm;)V
+	METHOD b writeCustomDataToTag (Lhs;)V
+	METHOD h setVelocityClient (DDD)V
+		ARG 1 x
+	METHOD i pushAwayFrom (Lagv;)V
+	METHOD k setCustomBlockOffset (I)V
+	METHOD t getMinecartType ()Lasi$a;
+	METHOD u getContainedBlock ()Lbpm;
+	METHOD v getDefaultContainedBlock ()Lbpm;
+	METHOD w getBlockOffset ()I
+	METHOD y_ initDataTracker ()V
+	METHOD z getDefaultBlockOffset ()I

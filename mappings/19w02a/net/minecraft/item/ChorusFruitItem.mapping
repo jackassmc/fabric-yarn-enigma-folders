@@ -1,0 +1,5 @@
+CLASS avr net/minecraft/item/ChorusFruitItem
+	METHOD a onItemFinishedUsing (Laxd;Lbcf;Lahm;)Laxd;
+		ARG 1 stack
+		ARG 2 world
+		ARG 3 livingEntity

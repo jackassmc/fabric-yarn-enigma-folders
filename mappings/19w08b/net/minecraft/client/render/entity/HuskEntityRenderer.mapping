@@ -1,0 +1,2 @@
+CLASS dlr net/minecraft/client/render/entity/HuskEntityRenderer
+	FIELD a SKIN Lqi;

@@ -1,0 +1,15 @@
+CLASS dhv net/minecraft/client/render/chunk/ChunkRenderData
+	CLASS dhv$1
+		METHOD c markBufferInitialized (Lbbu;)V
+	FIELD a EMPTY Ldhv;
+	FIELD c initialized [Z
+	FIELD d empty Z
+	FIELD e blockEntities Ljava/util/List;
+	FIELD g bufferState Lcpo$a;
+	METHOD a isEmpty ()Z
+	METHOD a addBlockEntity (Lbom;)V
+	METHOD a setBufferState (Lcpo$a;)V
+	METHOD b getBlockEntities ()Ljava/util/List;
+	METHOD c getBufferState ()Lcpo$a;
+	METHOD c markBufferInitialized (Lbbu;)V
+	METHOD d isBufferInitialized (Lbbu;)Z

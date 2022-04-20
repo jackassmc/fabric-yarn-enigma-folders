@@ -1,0 +1,8 @@
+CLASS blr net/minecraft/block/BlockSkullWither
+	METHOD a onPlaced (Lbae;Les;Lbnz;Lagl;Lavf;)V
+		ARG 1 world
+		ARG 2 pos
+		ARG 3 state
+		ARG 4 placer
+	METHOD d getWitherBossPattern ()Lboe;
+	METHOD e getWitherDispenserPattern ()Lboe;

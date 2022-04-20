@@ -1,0 +1,9 @@
+CLASS axp net/minecraft/container/LecternContainer
+	FIELD c inventory Lagk;
+	FIELD d propertyDelegate Laxa;
+	METHOD <init> (I)V
+		ARG 1 syncId
+	METHOD <init> (ILagk;Laxa;)V
+		ARG 1 syncId
+	METHOD e getBookItem ()Lbar;
+	METHOD f getPage ()I

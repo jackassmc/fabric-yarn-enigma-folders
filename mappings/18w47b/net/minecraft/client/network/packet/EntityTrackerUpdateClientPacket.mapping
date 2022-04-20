@@ -1,0 +1,12 @@
+CLASS ma net/minecraft/client/network/packet/EntityTrackerUpdateClientPacket
+	FIELD a id I
+	FIELD b trackedValues Ljava/util/List;
+	METHOD <init> (ILpq;Z)V
+		ARG 1 id
+		ARG 2 tracker
+	METHOD a read (Liq;)V
+	METHOD a apply (Lit;)V
+	METHOD a apply (Ljr;)V
+	METHOD b getTrackedValues ()Ljava/util/List;
+	METHOD b write (Liq;)V
+	METHOD c id ()I

@@ -1,0 +1,6 @@
+CLASS bod net/minecraft/block/enums/BambooLeaves
+	FIELD a NONE Lbod;
+	FIELD b SMALL Lbod;
+	FIELD c LARGE Lbod;
+	FIELD d name Ljava/lang/String;
+	METHOD m asString ()Ljava/lang/String;

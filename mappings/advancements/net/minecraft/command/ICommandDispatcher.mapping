@@ -1,0 +1,2 @@
+CLASS ap net/minecraft/command/ICommandDispatcher
+	METHOD a dispatch (Lau;Las;ILjava/lang/String;[Ljava/lang/Object;)V

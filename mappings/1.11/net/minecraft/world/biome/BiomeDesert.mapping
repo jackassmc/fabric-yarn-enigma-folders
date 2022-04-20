@@ -1,0 +1,5 @@
+CLASS akk net/minecraft/world/biome/BiomeDesert
+	METHOD a decorate (Lajq;Ljava/util/Random;Lco;)V
+		ARG 0 world
+		ARG 1 rand
+		ARG 2 chunkPos

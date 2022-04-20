@@ -1,0 +1,43 @@
+CLASS apl net/minecraft/entity/mob/PhantomEntity
+	CLASS apl$b
+		METHOD a canStart ()Z
+		METHOD b shouldContinue ()Z
+	CLASS apl$c
+		METHOD a canStart ()Z
+		METHOD c start ()V
+		METHOD d onRemove ()V
+		METHOD e tick ()V
+	CLASS apl$e
+		METHOD a canStart ()Z
+		METHOD c start ()V
+		METHOD e tick ()V
+	CLASS apl$f PhantomLookControl
+		METHOD a tick ()V
+	CLASS apl$g PhantomMoveControl
+		METHOD a tick ()V
+	CLASS apl$i
+		METHOD a canStart ()Z
+		METHOD b shouldContinue ()Z
+		METHOD c start ()V
+		METHOD d onRemove ()V
+		METHOD e tick ()V
+	METHOD D getAmbientSound ()Lxg;
+	METHOD H mobTick ()V
+	METHOD T_ update ()V
+	METHOD a shouldRenderAtDistance (D)Z
+	METHOD a (Lbat;Lafc;Lagw;Lahe;Lhq;)Lahe;
+		ARG 3 difficulty
+	METHOD a readCustomDataFromTag (Lhq;)V
+	METHOD a onTrackedDataSet (Lpo;)V
+	METHOD b writeCustomDataToTag (Lhq;)V
+	METHOD b canTrack (Ljava/lang/Class;)Z
+	METHOD bG getEyeHeight ()F
+	METHOD bW getSoundCategory ()Lxi;
+	METHOD cH getSoundVolume ()F
+	METHOD ca initAttributes ()V
+	METHOD cv getDeathSound ()Lxg;
+	METHOD e getHurtSound (Laft;)Lxg;
+	METHOD k updateMovement ()V
+	METHOD n initAi ()V
+	METHOD o createBodyControl ()Lahq;
+	METHOD y_ initDataTracker ()V

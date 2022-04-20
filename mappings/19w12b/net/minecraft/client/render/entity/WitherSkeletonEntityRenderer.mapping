@@ -1,0 +1,2 @@
+CLASS dqv net/minecraft/client/render/entity/WitherSkeletonEntityRenderer
+	FIELD a SKIN Lqq;

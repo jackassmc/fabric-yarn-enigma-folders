@@ -1,0 +1,8 @@
+CLASS dkw net/minecraft/client/render/model/ModelManager
+	FIELD B resourceContainer Lvw;
+	FIELD C spriteAtlas Ldjk;
+	FIELD E modelRegistry Ldbe$a;
+	FIELD p MISSING Ldky;
+	FIELD t DEFAULT_TEXTURES Ljava/util/Set;
+	FIELD u LOGGER Lorg/apache/logging/log4j/Logger;
+	METHOD c loadModel (Lpw;)Ldbd;

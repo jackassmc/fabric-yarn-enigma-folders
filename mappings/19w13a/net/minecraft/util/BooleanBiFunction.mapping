@@ -1,0 +1,17 @@
+CLASS crk net/minecraft/util/BooleanBiFunction
+	FIELD a FALSE Lcrk;
+	FIELD b NOT_OR Lcrk;
+	FIELD c ONLY_SECOND Lcrk;
+	FIELD d NOT_FIRST Lcrk;
+	FIELD e ONLY_FIRST Lcrk;
+	FIELD f NOT_SECOND Lcrk;
+	FIELD g NOT_SAME Lcrk;
+	FIELD h NOT_AND Lcrk;
+	FIELD i AND Lcrk;
+	FIELD j SAME Lcrk;
+	FIELD k SECOND Lcrk;
+	FIELD l CAUSES Lcrk;
+	FIELD m FIRST Lcrk;
+	FIELD n CAUSED_BY Lcrk;
+	FIELD o OR Lcrk;
+	FIELD p TRUE Lcrk;

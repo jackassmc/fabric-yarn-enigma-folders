@@ -1,0 +1,9 @@
+CLASS azi net/minecraft/container/CraftingContainer
+	METHOD a populateRecipeFinder (Lawa;)V
+	METHOD a matches (Lbej;)Z
+	METHOD a fillInputSlots (ZLbej;Lvh;)V
+	METHOD e clearCraftingSlots ()V
+	METHOD f getCraftingResultSlotIndex ()I
+	METHOD g getCraftingWidth ()I
+	METHOD h getCraftingHeight ()I
+	METHOD i getCraftingSlotCount ()I

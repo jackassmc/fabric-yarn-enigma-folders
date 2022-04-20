@@ -1,0 +1,5 @@
+CLASS dgd net/minecraft/client/render/entity/EntityRendererGuardian
+	FIELD a SKIN Lpx;
+	FIELD j EXPLOSION_BEAM_TEX Lpx;
+	METHOD a getTexture (Lagc;)Lpx;
+	METHOD a getTexture (Laot;)Lpx;

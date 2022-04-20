@@ -1,0 +1,5 @@
+CLASS none/rg net/minecraft/container/ILockableContainer
+	METHOD a setContainerLock (Lnone/rf;)V
+		ARG 0 lock
+	METHOD j getContainerLock ()Lnone/rf;
+	METHOD x_ hasContainerLock ()Z

@@ -1,0 +1,4 @@
+CLASS chg net/minecraft/sortme/rule/BlockStateMatchRuleTest
+	FIELD a blockState Lbtx;
+	METHOD <init> (Lbtx;)V
+		ARG 1 blockState

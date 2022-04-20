@@ -1,0 +1,26 @@
+CLASS aqw net/minecraft/entity/mob/ZombieVillagerEntity
+	FIELD bE conversionTimer I
+	FIELD bF converter Ljava/util/UUID;
+	FIELD bG offerData Lhs;
+	FIELD b CONVERTING Lpt;
+	FIELD c VILLAGER_DATA Lpt;
+	METHOD D getAmbientSound ()Lxt;
+	METHOD a setVillagerData (Larb;)V
+	METHOD a interactMob (Lark;Lafy;)Z
+		ARG 1 player
+	METHOD a readCustomDataFromTag (Lhs;)V
+	METHOD a setConverting (Ljava/util/UUID;I)V
+	METHOD b writeCustomDataToTag (Lhs;)V
+	METHOD c canImmediatelyDespawn (D)Z
+		ARG 1 distanceSquared
+	METHOD cJ getSoundPitch ()F
+	METHOD cw getDeathSound ()Lxt;
+	METHOD dD getSoundStep ()Lxt;
+	METHOD dE getSkull ()Laxd;
+	METHOD dJ isConverting ()Z
+	METHOD dM finishConversion ()V
+	METHOD dO getVillagerData ()Larb;
+	METHOD e getHurtSound (Lagm;)Lxt;
+	METHOD g setOfferData (Lhs;)V
+	METHOD h update ()V
+	METHOD w_ initDataTracker ()V

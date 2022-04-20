@@ -1,0 +1,5 @@
+CLASS cwt net/minecraft/client/gui/ParentElement
+	METHOD setDragging (Z)V
+		ARG 1 dragging
+	METHOD setFocused (Lcwu;)V
+		ARG 1 focused

@@ -1,0 +1,8 @@
+CLASS auy net/minecraft/container/MerchantContainer
+	FIELD c villager Lbci;
+	FIELD d villagerInventory Lauw;
+	METHOD <init> (ILary;)V
+		ARG 1 syncId
+	METHOD <init> (ILary;Lbci;)V
+		ARG 1 syncId
+	METHOD d setRecipeIndex (I)V

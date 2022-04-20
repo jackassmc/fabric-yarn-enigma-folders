@@ -1,0 +1,3 @@
+CLASS dfb net/minecraft/client/render/entity/EntityRendererOcelot
+	METHOD a getTexture (Lagc;)Lpx;
+	METHOD a getTexture (Lalf;)Lpx;

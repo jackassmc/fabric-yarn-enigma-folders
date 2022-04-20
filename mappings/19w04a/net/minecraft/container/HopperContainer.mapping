@@ -1,0 +1,2 @@
+CLASS atz net/minecraft/container/HopperContainer
+	FIELD c inventory Lafq;

@@ -1,0 +1,5 @@
+CLASS alr net/minecraft/entity/ai/brain/task/PanicTask
+	METHOD a isHostileNearby (Lais;)Z
+		ARG 0 entity
+	METHOD b wasHurt (Lais;)Z
+		ARG 0 entity

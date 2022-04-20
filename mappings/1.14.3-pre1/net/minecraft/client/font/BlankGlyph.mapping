@@ -1,0 +1,2 @@
+CLASS cyg net/minecraft/client/font/BlankGlyph
+	FIELD b IMAGE Lctz;

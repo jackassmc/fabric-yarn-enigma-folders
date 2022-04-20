@@ -1,0 +1,3 @@
+CLASS bct net/minecraft/world/LightType
+	FIELD a SKY_LIGHT Lbct;
+	FIELD b BLOCK_LIGHT Lbct;

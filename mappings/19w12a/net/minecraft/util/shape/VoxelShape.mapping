@@ -1,0 +1,34 @@
+CLASS cri net/minecraft/util/shape/VoxelShape
+	FIELD a shape Lcqx;
+	METHOD <init> (Lcqx;)V
+		ARG 1 shape
+	METHOD a getBoundingBox ()Lcqj;
+	METHOD a offset (DDD)Lcri;
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+	METHOD a rayTrace (Lcqo;Lcqo;Lev;)Lcqk;
+		ARG 1 start
+		ARG 2 end
+		ARG 3 pos
+	METHOD a (Leu;Lcqj;D)D
+		ARG 1 axisCycle
+		ARG 2 box
+		ARG 3 maxDist
+	METHOD a getIncludedPoints (Lfa$a;)Lit/unimi/dsi/fastutil/doubles/DoubleList;
+		ARG 1 axis
+	METHOD a getCoord (Lfa$a;I)D
+		ARG 1 axis
+		ARG 2 index
+	METHOD a (Lfa$a;Lcqj;D)D
+		ARG 1 axis
+		ARG 2 box
+	METHOD a getFace (Lfa;)Lcri;
+		ARG 1 facing
+	METHOD b isEmpty ()Z
+	METHOD b getMinimum (Lfa$a;)D
+		ARG 1 axis
+	METHOD c simplify ()Lcri;
+	METHOD c getMaximum (Lfa$a;)D
+		ARG 1 axis
+	METHOD d getBoundingBoxList ()Ljava/util/List;

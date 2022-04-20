@@ -1,0 +1,3 @@
+CLASS cqw net/minecraft/world/timer/FunctionTimerCallback
+	CLASS cqw$a Serializer
+	FIELD a name Lqr;

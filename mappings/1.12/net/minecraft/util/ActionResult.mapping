@@ -1,0 +1,4 @@
+CLASS ub net/minecraft/util/ActionResult
+	FIELD a SUCCESS Lub;
+	FIELD b PASS Lub;
+	FIELD c FAILURE Lub;

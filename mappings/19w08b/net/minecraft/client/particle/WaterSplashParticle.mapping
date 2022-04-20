@@ -1,0 +1,2 @@
+CLASS dfd net/minecraft/client/particle/WaterSplashParticle
+	CLASS dfd$a SplashFactory

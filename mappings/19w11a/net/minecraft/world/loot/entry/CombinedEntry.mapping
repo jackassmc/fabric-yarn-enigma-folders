@@ -1,0 +1,7 @@
+CLASS cni net/minecraft/world/loot/entry/CombinedEntry
+	CLASS cni$a net/minecraft/world/loot/entry/CombinedEntry$Factory
+	CLASS cni$b net/minecraft/world/loot/entry/CombinedEntry$Serializer
+	FIELD c children [Lcnp;
+	FIELD e predicate Lcnh;
+	METHOD a createSerializer (Lqp;Ljava/lang/Class;Lcni$a;)Lcni$b;
+	METHOD a combine ([Lcnh;)Lcnh;

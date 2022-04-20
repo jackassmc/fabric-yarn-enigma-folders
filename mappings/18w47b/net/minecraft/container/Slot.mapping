@@ -1,0 +1,24 @@
+CLASS atd net/minecraft/container/Slot
+	FIELD a invSlot I
+	FIELD d inventory Laes;
+	FIELD e id I
+	FIELD f xPosition I
+	FIELD g yPosition I
+	METHOD a getMaxStackAmount ()I
+	METHOD a takeStack (I)Lavo;
+	METHOD a matches (Laes;I)Z
+	METHOD a canTakeItems (Laqg;)Z
+	METHOD a onTakeItem (Laqg;Lavo;)Lavo;
+	METHOD a canInsert (Lavo;)Z
+	METHOD a onCrafted (Lavo;I)V
+		ARG 1 stack
+	METHOD a onStackChanged (Lavo;Lavo;)V
+		ARG 1 originalItem
+	METHOD b doDrawHoveringEffect ()Z
+	METHOD b getMaxStackAmount (Lavo;)I
+	METHOD c getBackgroundSprite ()Ljava/lang/String;
+	METHOD c onCrafted (Lavo;)V
+	METHOD d getStack ()Lavo;
+	METHOD d setStack (Lavo;)V
+	METHOD e hasStack ()Z
+	METHOD f markDirty ()V

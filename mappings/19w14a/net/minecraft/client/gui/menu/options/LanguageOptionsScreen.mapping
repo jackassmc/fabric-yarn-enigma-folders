@@ -1,0 +1,19 @@
+CLASS cyq net/minecraft/client/gui/menu/options/LanguageOptionsScreen
+	CLASS cyq$a LanguageSelectionListWidget
+		CLASS cyq$a$a LanguageItem
+			FIELD c languageDefinition Ldun;
+			METHOD <init> (Lcyq$a;Ldun;)V
+				ARG 2 languageDefinition
+			METHOD a onPressed ()V
+		METHOD <init> (Lcyq;Lcuu;)V
+			ARG 2 client
+	FIELD a parent Lczb;
+	FIELD b languageSelectionList Lcyq$a;
+	FIELD c options Lcuy;
+	FIELD d languageManager Lduo;
+	FIELD e forceUnicodeButton Lcwj;
+	FIELD f doneButton Lcvz;
+	METHOD <init> (Lczb;Lcuy;Lduo;)V
+		ARG 1 parent
+		ARG 2 options
+		ARG 3 languageManager

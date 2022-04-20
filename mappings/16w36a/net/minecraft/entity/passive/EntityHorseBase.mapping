@@ -1,0 +1,50 @@
+CLASS none/xc net/minecraft/entity/passive/EntityHorseBase
+	FIELD bD temper I
+	FIELD bI HORSE_FLAGS Lnone/kj;
+	FIELD bJ OWNER_UUID Lnone/kj;
+	FIELD bx ATTR_JUMP_STRENGTH Lnone/ta;
+	METHOD G getSoundAmbient ()Lnone/nk;
+	METHOD a canBeLeashedBy (Lnone/aal;)Z
+		ARG 0 player
+	METHOD a deserializeCustomData (Lnone/dt;)V
+		ARG 0 tag
+	METHOD a onInvChange (Lnone/qu;)V
+		ARG 0 inventory
+	METHOD a damage (Lnone/rq;F)Z
+		ARG 0 source
+		ARG 1 damage
+	METHOD a createChild (Lnone/sc;)Lnone/sc;
+		ARG 0 other
+	METHOD b setOwnerUuid (Ljava/util/UUID;)V
+		ARG 0 uuid
+	METHOD b serializeCustomData (Lnone/dt;)V
+		ARG 0 tag
+	METHOD bD initAttributes ()V
+	METHOD bV getSoundHurt ()Lnone/nk;
+	METHOD bW getSoundDeath ()Lnone/nk;
+	METHOD c setHorseFlag (IZ)V
+		ARG 0 index
+		ARG 1 value
+	METHOD dh isTame ()Z
+	METHOD di getOwnerUuid ()Ljava/util/UUID;
+	METHOD do isEating ()Z
+	METHOD dq isBred ()Z
+	METHOD dr getTemper ()I
+	METHOD dv isSaddled ()Z
+	METHOD e handleFallDamage (FF)V
+		ARG 0 fallDistance
+	METHOD g getHorseFlag (I)Z
+		ARG 0 index
+	METHOD i initDataTracker ()V
+	METHOD m setTemper (I)V
+		ARG 0 value
+	METHOD m_ canClimb ()Z
+	METHOD q setTame (Z)V
+		ARG 0 value
+	METHOD s setBred (Z)V
+		ARG 0 value
+	METHOD t setSaddled (Z)V
+		ARG 0 value
+	METHOD u setEating (Z)V
+		ARG 0 value
+	METHOD y_ update ()V

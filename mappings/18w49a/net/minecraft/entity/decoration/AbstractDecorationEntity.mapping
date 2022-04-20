@@ -1,0 +1,38 @@
+CLASS aob net/minecraft/entity/decoration/AbstractDecorationEntity
+	FIELD a PREDICATE Ljava/util/function/Predicate;
+	FIELD b blockPos Let;
+	FIELD c facing Ley;
+	METHOD <init> (Lago;Lbas;)V
+		ARG 1 type
+	METHOD <init> (Lago;Lbas;Let;)V
+		ARG 1 world
+	METHOD T_ update ()V
+	METHOD a damage (Laft;F)Z
+		ARG 1 source
+		ARG 2 amount
+	METHOD a copyEntityData (Lagk;)V
+	METHOD a move (Lagy;DDD)V
+		ARG 1 type
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z
+	METHOD a onStruckByLightning (Laok;)V
+	METHOD a dropStack (Lavu;F)Laon;
+		ARG 1 stack
+	METHOD a applyMirror (Lbjc;)F
+	METHOD a applyRotation (Lbkc;)F
+	METHOD a setFacing (Ley;)V
+	METHOD a readCustomDataFromTag (Lhq;)V
+	METHOD aD doesCollide ()Z
+	METHOD aF shouldSetPositionOnLoad ()Z
+	METHOD b setPosition (DDD)V
+		ARG 1 x
+	METHOD b writeCustomDataToTag (Lhq;)V
+	METHOD bB getHorizontalFacing ()Ley;
+	METHOD f addVelocity (DDD)V
+		ARG 1 deltaX
+	METHOD l getWidthPixels ()I
+	METHOD m getHeightPixels ()I
+	METHOD n onDecorationPlaced ()V
+	METHOD o getDecorationBlockPos ()Let;
+	METHOD y_ initDataTracker ()V

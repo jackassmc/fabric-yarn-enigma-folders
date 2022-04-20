@@ -1,0 +1,5 @@
+CLASS aob net/minecraft/entity/ai/goal/GoToVillageGoal
+	FIELD a owner Laiu;
+	FIELD b searchRange I
+	FIELD c targetPosition Lev;
+	METHOD g findOtherWaypoint ()V

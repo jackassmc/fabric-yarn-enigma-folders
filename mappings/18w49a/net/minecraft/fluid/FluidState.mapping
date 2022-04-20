@@ -1,0 +1,15 @@
+CLASS cdz net/minecraft/fluid/FluidState
+	METHOD a deserialize (Lcom/mojang/datafixers/Dynamic;)Lcdz;
+		ARG 0 dynamic
+	METHOD a serialize (Lcom/mojang/datafixers/types/DynamicOps;Lcdz;)Lcom/mojang/datafixers/Dynamic;
+		ARG 0 ops
+		ARG 1 state
+	METHOD a matches (Lxy;)Z
+	METHOD b onRandomTick (Lbas;Let;Ljava/util/Random;)V
+	METHOD c getFluid ()Lcdy;
+	METHOD d isStill ()Z
+	METHOD e isEmpty ()Z
+	METHOD h hasRandomTicks ()Z
+	METHOD i getBlockState ()Lbom;
+	METHOD k getRenderLayer ()Lbaf;
+	METHOD l getBlastResistance ()F

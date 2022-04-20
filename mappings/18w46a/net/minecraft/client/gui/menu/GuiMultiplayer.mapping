@@ -1,0 +1,36 @@
+CLASS csy net/minecraft/client/gui/menu/GuiMultiplayer
+	CLASS csy$1
+		METHOD a onPressed (DD)V
+			ARG 0 mouseX
+	CLASS csy$2
+		METHOD a onPressed (DD)V
+			ARG 0 mouseX
+	CLASS csy$3
+		METHOD a onPressed (DD)V
+			ARG 0 mouseX
+	CLASS csy$4
+		METHOD a onPressed (DD)V
+			ARG 0 mouseX
+	CLASS csy$5
+		METHOD a onPressed (DD)V
+			ARG 0 mouseX
+	CLASS csy$6
+		METHOD a onPressed (DD)V
+			ARG 0 mouseX
+	CLASS csy$7
+		METHOD a onPressed (DD)V
+			ARG 0 mouseX
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD g parent Lcrc;
+	METHOD a draw (IIF)V
+		ARG 1 mouseX
+		ARG 2 mouseY
+	METHOD b setIndex (I)V
+	METHOD c onInitialized ()V
+	METHOD confirmResult handle (ZI)V
+		ARG 1 result
+	METHOD f update ()V
+	METHOD keyPressed (III)Z
+		ARG 1 keyCode
+		ARG 2 scanCode
+	METHOD n onClosed ()V

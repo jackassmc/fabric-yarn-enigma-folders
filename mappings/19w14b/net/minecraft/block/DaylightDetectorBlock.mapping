@@ -1,0 +1,7 @@
+CLASS bng net/minecraft/block/DaylightDetectorBlock
+	FIELD a POWER Lbvz;
+	FIELD b INVERTED Lbvr;
+	FIELD c SHAPE Lcsf;
+	METHOD <init> (Lbmb$c;)V
+		ARG 1 settings
+	METHOD d updateState (Lbuz;Lbgx;Lev;)V

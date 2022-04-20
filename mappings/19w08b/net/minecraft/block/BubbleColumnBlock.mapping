@@ -1,0 +1,4 @@
+CLASS bik net/minecraft/block/BubbleColumnBlock
+	FIELD a DRAG Lbrw;
+	METHOD <init> (Lbig$c;)V
+		ARG 1 settings

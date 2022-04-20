@@ -1,0 +1,3 @@
+CLASS cpa net/minecraft/world/loot/function/EnchantWithLevelsLootFunction
+	CLASS cpa$b Factory
+	FIELD c treasureEnchantmentsAllowed Z

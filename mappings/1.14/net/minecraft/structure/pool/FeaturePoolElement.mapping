@@ -1,0 +1,5 @@
+CLASS cfb net/minecraft/structure/pool/FeaturePoolElement
+	FIELD a feature Lcab;
+	FIELD b tag Lib;
+	METHOD <init> (Lcab;)V
+		ARG 1 feature

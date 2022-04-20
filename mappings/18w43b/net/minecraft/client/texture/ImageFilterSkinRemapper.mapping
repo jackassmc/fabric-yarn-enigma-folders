@@ -1,0 +1,2 @@
+CLASS cxv net/minecraft/client/texture/ImageFilterSkinRemapper
+	METHOD a filterImage (Ldgl;)Ldgl;

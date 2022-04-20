@@ -1,0 +1,36 @@
+CLASS amu net/minecraft/entity/passive/ParrotEntity
+	FIELD bN ATTR_VARIANT Lpt;
+	FIELD bQ TAMING_INGREDIENTS Ljava/util/Set;
+	METHOD C pushAway (Lahd;)V
+	METHOD D getAmbientSound ()Lxt;
+	METHOD a damage (Lagm;F)Z
+		ARG 1 source
+		ARG 2 amount
+	METHOD a createChild (Laha;)Laha;
+	METHOD a canBreedWith (Lamj;)Z
+		ARG 1 other
+	METHOD a interactMob (Lark;Lafy;)Z
+		ARG 1 player
+	METHOD a prepareEntityData (Lbcg;Lafx;Lahp;Lahx;Lhs;)Lahx;
+		ARG 3 difficulty
+	METHOD a canSpawn (Lbcg;Lahp;)Z
+	METHOD a playStepSound (Let;Lbqe;)V
+		ARG 1 pos
+	METHOD a readCustomDataFromTag (Lhs;)V
+	METHOD aF isPushable ()Z
+	METHOD b createNavigation (Lbcf;)Lalp;
+	METHOD b writeCustomDataToTag (Lhs;)V
+	METHOD bH getEyeHeight ()F
+	METHOD bX getSoundCategory ()Lxv;
+	METHOD c handleFallDamage (FF)V
+		ARG 1 fallDistance
+	METHOD cJ getSoundPitch ()F
+	METHOD cb initAttributes ()V
+	METHOD cw getDeathSound ()Lxt;
+	METHOD dL getVariant ()I
+	METHOD e getHurtSound (Lagm;)Lxt;
+	METHOD f isBreedingItem (Laxd;)Z
+	METHOD k updateMovement ()V
+	METHOD n prepareGoals ()V
+	METHOD q setVariant (I)V
+	METHOD w_ initDataTracker ()V

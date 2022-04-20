@@ -1,0 +1,7 @@
+CLASS cca net/minecraft/client/render/entity/EntityRendererHeldItem
+	FIELD b renderer Lbzy;
+	METHOD <init> (Lbzy;)V
+		ARG 0 renderer
+	METHOD a shouldMergeTextures ()Z
+	METHOD a render (Lvn;FFFFFFF)V
+		ARG 0 entity

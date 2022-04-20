@@ -1,0 +1,20 @@
+CLASS aok net/minecraft/entity/boss/dragon/EnderDragonEntity
+	FIELD bC parts [Laoi;
+	FIELD bD partHead Laoi;
+	FIELD bE partNeck Laoi;
+	FIELD bF partBody Laoi;
+	FIELD bG partTail1 Laoi;
+	FIELD bH partTail2 Laoi;
+	FIELD bI partTail3 Laoi;
+	FIELD bJ partWingRight Laoi;
+	FIELD bK partWingLeft Laoi;
+	FIELD b PHASE_TYPE Lpw;
+	FIELD bQ LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD bR fight Lbtw;
+	FIELD bS phaseManager Lapb;
+	METHOD a crystalDestroyed (Laoj;Les;Lagv;)V
+		ARG 1 crystal
+		ARG 2 pos
+		ARG 3 source
+	METHOD dx getFight ()Lbtw;
+	METHOD n getPhaseManager ()Lapb;

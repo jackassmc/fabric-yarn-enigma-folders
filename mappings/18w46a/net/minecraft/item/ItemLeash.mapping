@@ -1,0 +1,2 @@
+CLASS avi net/minecraft/item/ItemLeash
+	METHOD a useOnBlock (Laws;)Laex;

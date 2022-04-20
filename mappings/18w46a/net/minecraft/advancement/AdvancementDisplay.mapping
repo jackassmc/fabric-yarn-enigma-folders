@@ -1,0 +1,34 @@
+CLASS v net/minecraft/advancement/AdvancementDisplay
+	FIELD a title Liz;
+	FIELD b description Liz;
+	FIELD c icon Lavf;
+	FIELD d background Lpx;
+	FIELD e frame Lw;
+	FIELD f showToast Z
+	FIELD g announceToChat Z
+	FIELD h hidden Z
+	FIELD i xPos F
+	FIELD j yPos F
+	METHOD <init> (Lavf;Liz;Liz;Lpx;Lw;ZZZ)V
+		ARG 3 title
+		ARG 4 background
+		ARG 5 frame
+	METHOD a getTitle ()Liz;
+	METHOD a setPosition (FF)V
+		ARG 1 xPos
+	METHOD a deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Lv;
+		ARG 0 obj
+		ARG 1 context
+	METHOD a writeToBuffer (Lip;)V
+	METHOD b getDescription ()Liz;
+	METHOD b readFromBuffer (Lip;)Lv;
+		ARG 0 buf
+	METHOD c getIcon ()Lavf;
+	METHOD d getBackground ()Lpx;
+	METHOD e getFrame ()Lw;
+	METHOD f getX ()F
+	METHOD g getY ()F
+	METHOD h shouldShowToast ()Z
+	METHOD i shouldAnnounceToChat ()Z
+	METHOD j isHidden ()Z
+	METHOD k toJson ()Lcom/google/gson/JsonElement;

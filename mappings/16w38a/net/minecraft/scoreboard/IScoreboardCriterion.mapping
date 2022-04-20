@@ -1,0 +1,29 @@
+CLASS bdh net/minecraft/scoreboard/IScoreboardCriterion
+	CLASS bdh$a Type
+		FIELD a INTEGER Lbdh$a;
+		FIELD b HEARTS Lbdh$a;
+		FIELD c BY_NAME Ljava/util/Map;
+		FIELD d name Ljava/lang/String;
+		METHOD <init> (Ljava/lang/String;ILjava/lang/String;)V
+			ARG 0 name
+		METHOD a getName ()Ljava/lang/String;
+		METHOD a byName (Ljava/lang/String;)Lbdh$a;
+			ARG 0 name
+		METHOD values values ()[Lbdh$a;
+	FIELD a OBJECTIVES Ljava/util/Map;
+	FIELD b DUMMY Lbdh;
+	FIELD c TRIGGER Lbdh;
+	FIELD d DEATH_COUNT Lbdh;
+	FIELD e PLAYER_KILL_COUNT Lbdh;
+	FIELD f TOTAL_KILL_COUNT Lbdh;
+	FIELD g HEALTH Lbdh;
+	FIELD h FOOD Lbdh;
+	FIELD i AIR Lbdh;
+	FIELD j ARMOR Lbdh;
+	FIELD k XP Lbdh;
+	FIELD l LEVEL Lbdh;
+	FIELD m TEAM_KILLS [Lbdh;
+	FIELD n TEAM_KILLED_BY [Lbdh;
+	METHOD a getName ()Ljava/lang/String;
+	METHOD b isReadOnly ()Z
+	METHOD c getType ()Lbdh$a;

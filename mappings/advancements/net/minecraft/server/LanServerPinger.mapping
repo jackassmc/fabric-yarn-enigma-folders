@@ -1,0 +1,10 @@
+CLASS cfi net/minecraft/server/LanServerPinger
+	FIELD a THREAD_ID Ljava/util/concurrent/atomic/AtomicInteger;
+	FIELD b LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD c motd Ljava/lang/String;
+	FIELD d socket Ljava/net/DatagramSocket;
+	FIELD e isRunning Z
+	FIELD f addressPort Ljava/lang/String;
+	METHOD a parseAnnouncementMotd (Ljava/lang/String;)Ljava/lang/String;
+	METHOD a createAnnouncement (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+	METHOD b parseAnnouncementAddressPort (Ljava/lang/String;)Ljava/lang/String;

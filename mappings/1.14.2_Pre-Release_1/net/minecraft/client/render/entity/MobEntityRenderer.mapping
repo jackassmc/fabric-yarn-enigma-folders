@@ -1,0 +1,4 @@
+CLASS dql net/minecraft/client/render/entity/MobEntityRenderer
+	METHOD <init> (Ldpi;Ldep;F)V
+		ARG 1 renderManager
+		ARG 2 model

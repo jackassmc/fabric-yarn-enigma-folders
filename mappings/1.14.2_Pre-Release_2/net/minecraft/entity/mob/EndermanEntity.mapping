@@ -1,0 +1,44 @@
+CLASS aua net/minecraft/entity/mob/EndermanEntity
+	CLASS aua$a ChasePlayerGoal
+		FIELD a enderman Laua;
+		METHOD <init> (Laua;)V
+			ARG 1 enderman
+	CLASS aua$b PlaceBlockGoal
+		FIELD a enderman Laua;
+		METHOD <init> (Laua;)V
+			ARG 1 enderman
+	CLASS aua$c TeleportTowardsPlayerGoal
+		FIELD i enderman Laua;
+		FIELD j targetPlayer Lavy;
+		FIELD k lookAtPlayerWarmup I
+		FIELD l ticksSinceUnseenTeleport I
+		FIELD m staringPlayerPredicate Laqa;
+		FIELD n validTargetPredicate Laqa;
+		METHOD <init> (Laua;)V
+			ARG 1 enderman
+		METHOD a (Laua;Lair;)Z
+			ARG 1 playerEntity
+	CLASS aua$d PickUpBlockGoal
+		FIELD a enderman Laua;
+		METHOD <init> (Laua;)V
+			ARG 1 enderman
+	FIELD bA PLAYER_ENDERMITE_PREDICATE Ljava/util/function/Predicate;
+	FIELD bB lastAngrySoundAge I
+	FIELD bC ageWhenTargetSet I
+	FIELD b ATTACKING_SPEED_BOOST_UUID Ljava/util/UUID;
+	FIELD bz ANGRY Lqh;
+	FIELD c ATTACKING_SPEED_BOOST Lajj;
+	FIELD d CARRIED_BLOCK Lqh;
+	METHOD a teleportTo (Laii;)Z
+		ARG 1 targetEntity
+	METHOD b setCarriedBlock (Lbvk;)V
+	METHOD dW teleportRandomly ()Z
+	METHOD dX getCarriedBlock ()Lbvk;
+	METHOD dY isAngry ()Z
+	METHOD f isPlayerStaring (Lavy;)Z
+		ARG 1 player
+	METHOD k teleport (DDD)Z
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+	METHOD l playAngrySound ()V

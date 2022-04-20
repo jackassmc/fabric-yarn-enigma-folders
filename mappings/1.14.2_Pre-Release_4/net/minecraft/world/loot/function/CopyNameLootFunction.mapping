@@ -1,0 +1,18 @@
+CLASS cpo net/minecraft/world/loot/function/CopyNameLootFunction
+	CLASS cpo$a Source
+		FIELD e name Ljava/lang/String;
+		FIELD f parameter Lcqm;
+		METHOD <init> (Ljava/lang/String;ILjava/lang/String;Lcqm;)V
+			ARG 3 name
+			ARG 4 parameter
+		METHOD a get (Ljava/lang/String;)Lcpo$a;
+			ARG 0 name
+	CLASS cpo$b Factory
+	FIELD a source Lcpo$a;
+	METHOD <init> ([Lcra;Lcpo$a;)V
+		ARG 1 conditions
+		ARG 2 source
+	METHOD a builder (Lcpo$a;)Lcpw$a;
+		ARG 0 source
+	METHOD a (Lcpo$a;[Lcra;)Lcpx;
+		ARG 1 conditions

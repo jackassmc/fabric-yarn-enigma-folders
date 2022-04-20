@@ -1,0 +1,8 @@
+CLASS cyq net/minecraft/client/gui/menu/AddServerScreen
+	FIELD a buttonAdd Lcwd;
+	FIELD b parent Lczf;
+	FIELD c serverEntry Ldhc;
+	FIELD d addressField Lcwi;
+	FIELD e serverNameField Lcwi;
+	FIELD f resourcePackOptionButton Lcwd;
+	METHOD a addAndClose ()V

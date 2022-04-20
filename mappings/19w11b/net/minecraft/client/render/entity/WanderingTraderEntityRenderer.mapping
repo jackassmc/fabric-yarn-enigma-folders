@@ -1,0 +1,2 @@
+CLASS dqr net/minecraft/client/render/entity/WanderingTraderEntityRenderer
+	FIELD a TEXTURE Lqp;

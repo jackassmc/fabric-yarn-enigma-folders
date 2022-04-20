@@ -1,0 +1,35 @@
+CLASS a net/minecraft/text/TextFormat
+	FIELD B code Ljava/lang/String;
+	FIELD C id I
+	FIELD a BLACK La;
+	FIELD b DARK_BLUE La;
+	FIELD d DARK_AQUA La;
+	FIELD e DARK_RED La;
+	FIELD f DARK_PURPLE La;
+	FIELD g GOLD La;
+	FIELD h GRAY La;
+	FIELD i DARK_GRAY La;
+	FIELD j BLUE La;
+	FIELD k GREEN La;
+	FIELD l AQUA La;
+	FIELD m RED La;
+	FIELD n LIGHT_PURPLE La;
+	FIELD o YELLOW La;
+	FIELD p WHITE La;
+	FIELD q OBFUSCATED La;
+	FIELD r BOLD La;
+	FIELD s STRIKETHROUGH La;
+	FIELD t UNDERLINE La;
+	FIELD u ITALIC La;
+	FIELD v RESET La;
+	FIELD x FORMAT_PATTERN Ljava/util/regex/Pattern;
+	METHOD a byId (I)La;
+		ARG 0 id
+	METHOD b getId ()I
+	METHOD b stripFormatting (Ljava/lang/String;)Ljava/lang/String;
+		ARG 0 str
+	METHOD c getFormatByName (Ljava/lang/String;)La;
+		ARG 0 name
+	METHOD d sanitizeName (Ljava/lang/String;)Ljava/lang/String;
+		ARG 0 name
+	METHOD g getFormatName ()Ljava/lang/String;

@@ -1,0 +1,3 @@
+CLASS afd net/minecraft/util/Hand
+	FIELD a MAIN Lafd;
+	FIELD b OFF Lafd;

@@ -1,0 +1,8 @@
+CLASS ui net/minecraft/server/world/ChunkLevelIndexedProcessor
+	METHOD <init> (III)V
+		ARG 1 levelCount
+		ARG 2 initLevelCapacity
+		ARG 3 initTotalCapacity
+	METHOD b scheduleNewLevelUpdate (JIZ)V
+	METHOD d getLevel (J)I
+		ARG 1 chunkPos

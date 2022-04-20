@@ -1,0 +1,7 @@
+CLASS axl net/minecraft/world/gen/feature/FeatureGeneratorCave
+	FIELD a LAVA Lave;
+	FIELD b AIR Lave;
+	FIELD c SANDSTONE Lave;
+	FIELD d RED_SANDSTONE Lave;
+	METHOD a generate (Lali;IIIILaxh;)V
+	METHOD a canRemove (Lave;Lave;)Z

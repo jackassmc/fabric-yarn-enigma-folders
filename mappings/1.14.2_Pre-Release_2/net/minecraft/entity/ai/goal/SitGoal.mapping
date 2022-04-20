@@ -1,0 +1,7 @@
+CLASS aoc net/minecraft/entity/ai/goal/SitGoal
+	FIELD a tameable Lajf;
+	FIELD b enabledWithOwner Z
+	METHOD <init> (Lajf;)V
+		ARG 1 tameable
+	METHOD a setEnabledWithOwner (Z)V
+		ARG 1 enabledWithOwner

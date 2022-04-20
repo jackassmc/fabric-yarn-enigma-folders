@@ -1,0 +1,111 @@
+CLASS ly net/minecraft/entity/player/EntityPlayerServer
+	FIELD a networkHandler Lmi;
+	FIELD b server Lnet/minecraft/server/MinecraftServer;
+	FIELD bX lastScoreFood I
+	FIELD bY lastScoreBreath I
+	FIELD bZ lastScoreArmor I
+	FIELD c properties Llz;
+	FIELD ca lastScoreExperience I
+	FIELD cf lastSyncedExperienceLevel I
+	FIELD h changingWorlds Z
+	METHOD <init> (Lnet/minecraft/server/MinecraftServer;Llw;Lcom/mojang/authlib/GameProfile;Llz;)V
+		ARG 0 server
+		ARG 1 world
+		ARG 2 gameProfile
+		ARG 3 properties
+	METHOD A getIpAddress ()Ljava/lang/String;
+	METHOD C getChatVisibility ()Laax$b;
+	METHOD D updateLastActionTime ()V
+	METHOD E getStatManager ()Lnv;
+	METHOD F updatePotionVisibility ()V
+	METHOD G getCameraEntity ()Lsm;
+	METHOD H updatePortalCooldown ()V
+	METHOD I getLastActionTime ()J
+	METHOD a hasPermission (ILjava/lang/String;)Z
+		ARG 0 permissionLevel
+		ARG 1 commandName
+	METHOD a shouldDamagePlayer (Laax;)Z
+		ARG 0 target
+	METHOD a respawn (Laax;Z)V
+		ARG 0 player
+		ARG 1 changedWorlds
+	METHOD a onContainerPropertyUpdate (Lack;II)V
+		ARG 0 container
+		ARG 1 propertyId
+		ARG 2 newValue
+	METHOD a onContainerSlotUpdate (Lack;ILafi;)V
+		ARG 0 container
+		ARG 1 slotId
+		ARG 2 newStack
+	METHOD a onContainerRegistered (Lack;Ldd;)V
+		ARG 0 container
+		ARG 1 stacks
+	METHOD a onContainerInvRegistered (Lack;Lrb;)V
+		ARG 0 container
+		ARG 1 inventory
+	METHOD a openBookEditor (Lafi;Lrh;)V
+	METHOD a openVillagerGui (Lajb;)V
+	METHOD a setGameMode (Lajo;)V
+		ARG 0 value
+	METHOD a openCommandBlock (Lasd;)V
+	METHOD a openSignEditor (Last;)V
+		ARG 0 sign
+	METHOD a setScore (Lbeg;I)V
+		ARG 0 criterion
+		ARG 1 value
+	METHOD a trySleep (Lco;)Laax$a;
+		ARG 0 pos
+	METHOD a deserializeCustomData (Ldu;)V
+		ARG 0 tag
+	METHOD a appendCommandFeedback (Lfb;)V
+		ARG 0 component
+	METHOD a addChatMessage (Lfb;Z)V
+		ARG 0 message
+	METHOD a setClientSettings (Lir;)V
+		ARG 0 clientSettings
+	METHOD a sendResourcePackInfo (Ljava/lang/String;Ljava/lang/String;)V
+		ARG 0 url
+		ARG 1 hash
+	METHOD a hasAchievementUnlocked (Lnq;)Z
+		ARG 0 achievement
+	METHOD a resetStat (Lnw;)V
+		ARG 0 stat
+	METHOD a incrementStat (Lnw;I)V
+		ARG 0 stat
+		ARG 1 amount
+	METHOD a openInventory (Lrb;)V
+		ARG 0 inv
+	METHOD a swingHand (Lrh;)V
+		ARG 0 hand
+	METHOD a openContainer (Lri;)V
+	METHOD a onDeath (Lrx;)V
+		ARG 0 damageSource
+	METHOD a damage (Lrx;F)Z
+		ARG 0 source
+		ARG 1 damage
+	METHOD a (Lsm;)V
+		ARG 0 entity
+	METHOD a startRiding (Lsm;Z)Z
+		ARG 0 entity
+		ARG 1 ignoreRequirements
+	METHOD a openHorseInventory (Lxl;Lrb;)V
+	METHOD b serializeCustomData (Ldu;)V
+		ARG 0 tag
+	METHOD b isInvulnerableTo (Lrx;)Z
+		ARG 0 source
+	METHOD c getBlockPos ()Lco;
+	METHOD c changeWorld (I)Lsm;
+		ARG 0 worldId
+	METHOD e setCameraEntity (Lsm;)V
+		ARG 0 entity
+	METHOD f attack (Lsm;)V
+		ARG 0 entity
+	METHOD k_ updateNetwork ()V
+	METHOD l createCooldownManager ()Lafh;
+	METHOD o checkBiomeExplorationAchievement ()V
+	METHOD p stopRiding ()V
+	METHOD r initAi ()V
+	METHOD s closeGui ()V
+	METHOD x getWorldServer ()Llw;
+	METHOD y isSpectator ()Z
+	METHOD z isCreative ()Z

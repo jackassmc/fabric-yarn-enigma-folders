@@ -1,0 +1,54 @@
+CLASS bht net/minecraft/block/CropBlock
+	METHOD <init> (Lbgs$c;)V
+		ARG 1 settings
+		ARG 2 stateBuilder
+	METHOD a getPickStack (Lbbb;Let;Lbpm;)Lawo;
+		ARG 1 world
+		ARG 2 pos
+		ARG 3 state
+	METHOD a isFertilizable (Lbbb;Let;Lbpm;Z)Z
+		ARG 1 world
+		ARG 2 pos
+		ARG 3 state
+	METHOD a getGrowthAmount (Lbbp;)I
+	METHOD a applyGrowth (Lbbp;Let;Lbpm;)V
+	METHOD a canGrow (Lbbp;Ljava/util/Random;Let;Lbpm;)Z
+		ARG 1 world
+		ARG 2 random
+		ARG 3 pos
+		ARG 4 state
+	METHOD a getBoundingShape (Lbpm;Lbbb;Let;)Lcmx;
+		ARG 1 state
+		ARG 2 view
+		ARG 3 pos
+	METHOD a onEntityCollision (Lbpm;Lbbp;Let;Lagv;)V
+		ARG 1 state
+		ARG 2 world
+		ARG 3 pos
+		ARG 4 entity
+	METHOD a canPlaceAt (Lbpm;Lbbt;Let;)Z
+		ARG 1 state
+		ARG 2 world
+		ARG 3 pos
+	METHOD a appendProperties (Lbpn$a;)V
+		ARG 1 builder
+	METHOD b withCropAge (I)Lbpm;
+	METHOD b grow (Lbbp;Ljava/util/Random;Let;Lbpm;)V
+		ARG 1 world
+		ARG 2 random
+		ARG 3 pos
+		ARG 4 state
+	METHOD b canPlantOnTop (Lbpm;Lbbb;Let;)Z
+		ARG 1 floor
+		ARG 2 view
+		ARG 3 pos
+	METHOD b scheduledTick (Lbpm;Lbbp;Let;Ljava/util/Random;)V
+		ARG 1 world
+		ARG 2 state
+		ARG 3 pos
+		ARG 4 rnd
+	METHOD d getAgeProperty ()Lbqm;
+	METHOD e getCropAgeMaximum ()I
+	METHOD f getCropItem ()Lbbo;
+	METHOD k getCropAge (Lbpm;)I
+	METHOD r isValidState (Lbpm;)Z

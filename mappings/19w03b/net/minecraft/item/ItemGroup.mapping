@@ -1,0 +1,90 @@
+CLASS avu net/minecraft/item/ItemGroup
+	CLASS avu$1
+		METHOD <init> (ILjava/lang/String;)V
+			ARG 1 unlocalizedName
+		METHOD f getIconItem ()Laxc;
+	CLASS avu$2
+		METHOD <init> (ILjava/lang/String;)V
+			ARG 1 unlocalizedName
+		METHOD f getIconItem ()Laxc;
+	CLASS avu$3
+		METHOD <init> (ILjava/lang/String;)V
+			ARG 1 unlocalizedName
+		METHOD a getStacksForDisplay (Lfh;)V
+		METHOD f getIconItem ()Laxc;
+		METHOD n isTabRightAligned ()Z
+	CLASS avu$4
+		METHOD <init> (ILjava/lang/String;)V
+			ARG 1 unlocalizedName
+		METHOD f getIconItem ()Laxc;
+	CLASS avu$5
+		METHOD <init> (ILjava/lang/String;)V
+			ARG 1 unlocalizedName
+		METHOD f getIconItem ()Laxc;
+	CLASS avu$6
+		METHOD <init> (ILjava/lang/String;)V
+			ARG 1 unlocalizedName
+		METHOD f getIconItem ()Laxc;
+	CLASS avu$7
+		METHOD <init> (ILjava/lang/String;)V
+			ARG 1 unlocalizedName
+		METHOD f getIconItem ()Laxc;
+	CLASS avu$8
+		METHOD <init> (ILjava/lang/String;)V
+			ARG 1 unlocalizedName
+		METHOD f getIconItem ()Laxc;
+	CLASS avu$9
+		METHOD <init> (ILjava/lang/String;)V
+			ARG 1 unlocalizedName
+		METHOD f getIconItem ()Laxc;
+	CLASS avu$10
+		METHOD <init> (ILjava/lang/String;)V
+			ARG 1 unlocalizedName
+		METHOD f getIconItem ()Laxc;
+	CLASS avu$11
+		METHOD <init> (ILjava/lang/String;)V
+			ARG 1 unlocalizedName
+		METHOD f getIconItem ()Laxc;
+	CLASS avu$12
+		METHOD <init> (ILjava/lang/String;)V
+			ARG 1 unlocalizedName
+		METHOD f getIconItem ()Laxc;
+	FIELD a GROUPS [Lavu;
+	FIELD b BUILDING_BLOCKS Lavu;
+	FIELD c DECORATIONS Lavu;
+	FIELD d REDSTONE Lavu;
+	FIELD e TRANSPORTATION Lavu;
+	FIELD f MISC Lavu;
+	FIELD g SEARCH Lavu;
+	FIELD h FOOD Lavu;
+	FIELD i TOOLS Lavu;
+	FIELD j COMBAT Lavu;
+	FIELD k BREWING Lavu;
+	FIELD l MATERIALS Lavu;
+	FIELD m HOTBAR Lavu;
+	FIELD n INVENTORY Lavu;
+	FIELD o id I
+	FIELD p unlocalizedName Ljava/lang/String;
+	FIELD r texture Ljava/lang/String;
+	FIELD s useScrollBar Z
+	FIELD t tooltip Z
+	FIELD u enchantmentTypes [Lbal;
+	FIELD v stack Laxc;
+	METHOD a getId ()I
+	METHOD a containsEnchantmentType (Lbal;)Z
+	METHOD a getStacksForDisplay (Lfh;)V
+	METHOD a setTexture (Ljava/lang/String;)Lavu;
+	METHOD a setEnchantmentTypes ([Lbal;)Lavu;
+	METHOD b getUntranslatedName ()Ljava/lang/String;
+	METHOD d getTranslationKey ()Ljava/lang/String;
+	METHOD e getIconItemStack ()Laxc;
+	METHOD f getIconItem ()Laxc;
+	METHOD g getTexture ()Ljava/lang/String;
+	METHOD h hasTooltip ()Z
+	METHOD i disableTooltip ()Lavu;
+	METHOD j useScrollBar ()Z
+	METHOD k setNotUseScrollBar ()Lavu;
+	METHOD l getColumn ()I
+	METHOD m isTopRow ()Z
+	METHOD n isTabRightAligned ()Z
+	METHOD o getEnchantmentTypes ()[Lbal;

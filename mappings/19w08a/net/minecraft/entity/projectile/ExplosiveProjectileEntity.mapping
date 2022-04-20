@@ -1,0 +1,11 @@
+CLASS asd net/minecraft/entity/projectile/ExplosiveProjectileEntity
+	FIELD b owner Lahu;
+	METHOD <init> (Lahp;DDDDDDLbde;)V
+		ARG 1 world
+	METHOD <init> (Lahp;Lahu;DDDLbde;)V
+		ARG 1 world
+		ARG 2 owner
+	METHOD <init> (Lahp;Lbde;)V
+		ARG 1 type
+	METHOD a onCollision (Lcni;)V
+	METHOD i getParticleType ()Lfz;

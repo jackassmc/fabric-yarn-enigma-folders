@@ -1,0 +1,3 @@
+CLASS ez net/minecraft/block/dispenser/DispenserBehavior
+	METHOD dispense (Let;Lavn;)Lavn;
+		ARG 1 location

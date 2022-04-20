@@ -1,0 +1,89 @@
+CLASS none/apd net/minecraft/block/impl/BlockRedstoneWire
+	CLASS none/apd$a ConnectionType
+		FIELD a UP Lnone/apd$a;
+		FIELD b SIDE Lnone/apd$a;
+		FIELD c NONE Lnone/apd$a;
+		FIELD d name Ljava/lang/String;
+		METHOD <init> (Ljava/lang/String;ILjava/lang/String;)V
+			ARG 0 name
+		METHOD m asString ()Ljava/lang/String;
+	FIELD a NORTH Lnone/asz;
+	FIELD b EAST Lnone/asz;
+	FIELD c SOUTH Lnone/asz;
+	FIELD d WEST Lnone/asz;
+	FIELD e POWER Lnone/ata;
+	FIELD f BOUNDING_BOXES [Lnone/bcr;
+	FIELD g wiresGivePower Z
+	METHOD a deserializeState (I)Lnone/asl;
+		ARG 0 meta
+	METHOD a canPlaceAt (Lnone/aiv;Lnone/cn;)Z
+		ARG 0 world
+		ARG 1 pos
+	METHOD a getPickStack (Lnone/aiv;Lnone/cn;Lnone/asl;)Lnone/aer;
+		ARG 0 world
+		ARG 1 pos
+		ARG 2 state
+	METHOD a getDropItem (Lnone/asl;Ljava/util/Random;I)Lnone/aep;
+		ARG 0 state
+		ARG 1 random
+		ARG 2 fortune
+	METHOD a (Lnone/asl;Lnone/aiv;Lnone/cn;Ljava/util/Random;)V
+		ARG 0 state
+		ARG 1 world
+		ARG 2 pos
+		ARG 3 random
+	METHOD a (Lnone/asl;Lnone/aiv;Lnone/cn;Lnone/akx;)V
+		ARG 0 state
+		ARG 1 world
+		ARG 2 pos
+		ARG 3 block
+	METHOD a getCollisionBox (Lnone/asl;Lnone/aiz;Lnone/cn;)Lnone/bcr;
+		ARG 0 state
+		ARG 1 view
+		ARG 2 pos
+	METHOD a applyMirror (Lnone/asl;Lnone/anx;)Lnone/asl;
+		ARG 0 state
+		ARG 1 mirror
+	METHOD a applyRotation (Lnone/asl;Lnone/apk;)Lnone/asl;
+		ARG 0 state
+		ARG 1 rotation
+	METHOD b createStateFactory ()Lnone/asm;
+	METHOD b (Lnone/aiv;Lnone/cn;Lnone/asl;)V
+		ARG 0 world
+		ARG 1 pos
+		ARG 2 state
+	METHOD b getRenderConnectionType (Lnone/aiz;Lnone/cn;Lnone/cu;)Lnone/apd$a;
+		ARG 0 view
+		ARG 1 pos
+		ARG 2 facing
+	METHOD b (Lnone/asl;)Z
+		ARG 0 state
+	METHOD b getBoundingBox (Lnone/asl;Lnone/aiz;Lnone/cn;)Lnone/bcr;
+		ARG 0 state
+		ARG 1 view
+		ARG 2 pos
+	METHOD b getWeakRedstonePower (Lnone/asl;Lnone/aiz;Lnone/cn;Lnone/cu;)I
+		ARG 0 state
+		ARG 1 view
+		ARG 2 pos
+		ARG 3 facingFrom
+	METHOD c (Lnone/aiv;Lnone/cn;Lnone/asl;)V
+		ARG 0 world
+		ARG 1 pos
+		ARG 2 state
+	METHOD c (Lnone/asl;)Z
+		ARG 0 state
+	METHOD c getRenderingState (Lnone/asl;Lnone/aiz;Lnone/cn;)Lnone/asl;
+		ARG 0 state
+		ARG 1 view
+		ARG 2 pos
+	METHOD c getStrongRedstonePower (Lnone/asl;Lnone/aiz;Lnone/cn;Lnone/cu;)I
+		ARG 0 state
+		ARG 1 view
+		ARG 2 pos
+		ARG 3 facingFrom
+	METHOD e serializeState (Lnone/asl;)I
+		ARG 0 state
+	METHOD f getRenderLayer ()Lnone/ain;
+	METHOD g emitsRedstonePower (Lnone/asl;)Z
+		ARG 0 state

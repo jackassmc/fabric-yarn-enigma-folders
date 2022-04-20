@@ -1,0 +1,3 @@
+CLASS dfs net/minecraft/client/render/entity/EntityRendererLlamaSpit
+	METHOD a getTexture (Lafy;)Lpw;
+	METHOD a getTexture (Laqh;)Lpw;

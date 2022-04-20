@@ -1,0 +1,19 @@
+CLASS jh net/minecraft/network/packet/client/CPacketExperienceBarUpdate
+	FIELD a barProgress F
+	FIELD b experienceLevel I
+	FIELD c experience I
+	METHOD <init> (FII)V
+		ARG 0 barProgress
+		ARG 1 experienceLevel
+		ARG 2 experience
+	METHOD a getBarProgress ()F
+	METHOD a readPacket (Lgb;)V
+		ARG 0 buf
+	METHOD a applyPacket (Lge;)V
+		ARG 0 handler
+	METHOD a applyPacket (Lgy;)V
+		ARG 0 handler
+	METHOD b getExperienceLevel ()I
+	METHOD b writePacket (Lgb;)V
+		ARG 0 buf
+	METHOD c getExperience ()I

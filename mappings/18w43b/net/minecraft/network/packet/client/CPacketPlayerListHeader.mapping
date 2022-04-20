@@ -1,0 +1,13 @@
+CLASS mm net/minecraft/network/packet/client/CPacketPlayerListHeader
+	FIELD a header Liw;
+	FIELD b footer Liw;
+	METHOD a readPacket (Lim;)V
+		ARG 0 buf
+	METHOD a applyPacket (Lip;)V
+		ARG 0 handler
+	METHOD a applyPacket (Ljn;)V
+		ARG 0 handler
+	METHOD b getHeader ()Liw;
+	METHOD b writePacket (Lim;)V
+		ARG 0 buf
+	METHOD c getFooter ()Liw;

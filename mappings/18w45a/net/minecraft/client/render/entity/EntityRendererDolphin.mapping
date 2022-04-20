@@ -1,0 +1,3 @@
+CLASS dej net/minecraft/client/render/entity/EntityRendererDolphin
+	METHOD a getTexture (Lafy;)Lpw;
+	METHOD a getTexture (Lalf;)Lpw;

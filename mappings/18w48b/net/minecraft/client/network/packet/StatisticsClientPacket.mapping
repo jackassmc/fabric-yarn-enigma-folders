@@ -1,0 +1,9 @@
+CLASS jz net/minecraft/client/network/packet/StatisticsClientPacket
+	FIELD a stats Lit/unimi/dsi/fastutil/objects/Object2IntMap;
+	METHOD a read (Liq;)V
+	METHOD a apply (Lit;)V
+	METHOD a apply (Ljr;)V
+	METHOD a readStat (Lxo;Liq;)V
+		ARG 1 type
+	METHOD b getStatMap ()Ljava/util/Map;
+	METHOD b write (Liq;)V

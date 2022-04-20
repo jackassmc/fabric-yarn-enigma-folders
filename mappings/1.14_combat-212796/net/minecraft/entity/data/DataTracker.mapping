@@ -1,0 +1,46 @@
+CLASS ql net/minecraft/entity/data/DataTracker
+	CLASS a Entry
+		FIELD a data Lqi;
+		FIELD b value Ljava/lang/Object;
+		FIELD c dirty Z
+		METHOD <init> (Lqi;Ljava/lang/Object;)V
+			ARG 1 data
+			ARG 2 value
+		METHOD a getData ()Lqi;
+		METHOD a set (Ljava/lang/Object;)V
+			ARG 1 value
+		METHOD a setDirty (Z)V
+			ARG 1 dirty
+		METHOD b get ()Ljava/lang/Object;
+		METHOD c isDirty ()Z
+		METHOD d copy ()Lql$a;
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD b trackedEntities Ljava/util/Map;
+	FIELD c trackedEntity Lail;
+	FIELD d entries Ljava/util/Map;
+	FIELD e lock Ljava/util/concurrent/locks/ReadWriteLock;
+	FIELD f empty Z
+	FIELD g dirty Z
+	METHOD a isDirty ()Z
+	METHOD a registerData (Ljava/lang/Class;Lqj;)Lqi;
+		ARG 0 entityClass
+		ARG 1 dataHandler
+	METHOD a writeUpdatedEntries (Ljava/util/List;)V
+	METHOD a entriesToPacket (Ljava/util/List;Ljd;)V
+	METHOD a toPacketByteBuf (Ljd;)V
+	METHOD a entryFromPacket (Ljd;ILqj;)Lql$a;
+	METHOD a writeEntryToPacket (Ljd;Lql$a;)V
+	METHOD a get (Lqi;)Ljava/lang/Object;
+	METHOD a startTracking (Lqi;Ljava/lang/Object;)V
+		ARG 1 key
+		ARG 2 initialValue
+	METHOD a copyToFrom (Lql$a;Lql$a;)V
+	METHOD b getDirtyEntries ()Ljava/util/List;
+	METHOD b deserializePacket (Ljd;)Ljava/util/List;
+	METHOD b getEntry (Lqi;)Lql$a;
+	METHOD b set (Lqi;Ljava/lang/Object;)V
+		ARG 1 key
+	METHOD c getAllEntries ()Ljava/util/List;
+	METHOD c addTrackedData (Lqi;Ljava/lang/Object;)V
+	METHOD d isEmpty ()Z
+	METHOD e clearDirty ()V

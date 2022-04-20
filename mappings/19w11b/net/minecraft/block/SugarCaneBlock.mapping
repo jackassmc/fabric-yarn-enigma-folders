@@ -1,0 +1,5 @@
+CLASS bqp net/minecraft/block/SugarCaneBlock
+	FIELD a AGE Lbuw;
+	FIELD b SHAPE Lcra;
+	METHOD <init> (Lbky$c;)V
+		ARG 1 settings

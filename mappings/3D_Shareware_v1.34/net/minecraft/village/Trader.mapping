@@ -1,0 +1,14 @@
+CLASS bga net/minecraft/village/Trader
+	METHOD a sendRecipes (Lavm;Ljm;I)V
+	METHOD a useRecipe (Lbgb;)V
+	METHOD a setRecipesFromServer (Lbgc;)V
+	METHOD dP getExperience ()I
+	METHOD dQ getCurrentCustomer ()Lavm;
+	METHOD dS getRecipes ()Lbgc;
+	METHOD dT isLevelledTrader ()Z
+	METHOD dX getTraderWorld ()Lbgx;
+	METHOD e setCurrentCustomer (Lavm;)V
+		ARG 1 customer
+	METHOD j onSellingItem (Lbbp;)V
+	METHOD q setExperienceFromServer (I)V
+		ARG 1 experience

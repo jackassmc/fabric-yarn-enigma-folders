@@ -1,0 +1,5 @@
+CLASS dje net/minecraft/client/render/entity/CreeperEntityRenderer
+	FIELD a SKIN Lqe;
+	METHOD a getTexture (Lahd;)Lqe;
+	METHOD a getOverlayColor (Lahm;FF)I
+	METHOD a getTexture (Lapo;)Lqe;

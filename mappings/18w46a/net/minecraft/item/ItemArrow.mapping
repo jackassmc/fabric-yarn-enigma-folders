@@ -1,0 +1,4 @@
+CLASS atd net/minecraft/item/ItemArrow
+	METHOD a createEntityArrow (Lbae;Lavf;Lagl;)Laqe;
+		ARG 1 world
+		ARG 2 stack

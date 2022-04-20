@@ -1,0 +1,38 @@
+CLASS aur net/minecraft/entity/projectile/ProjectileEntity
+	CLASS aur$a PickupType
+		FIELD a NO_PICKUP Laur$a;
+		FIELD b PICKUP Laur$a;
+		FIELD c CREATIVE_PICKUP Laur$a;
+		METHOD a fromOrdinal (I)Laur$a;
+	FIELD aA sound Lyf;
+	FIELD aq FLAGS Lqe;
+	FIELD ar PIERCE_LEVEL Lqe;
+	FIELD as xTile I
+	FIELD at yTile I
+	FIELD au zTIle I
+	FIELD av inBlockState Lbtw;
+	FIELD aw life I
+	FIELD ay damage D
+	FIELD c inGround Z
+	FIELD e pickupType Laur$a;
+	FIELD f shake I
+	FIELD g ownerUuid Ljava/util/UUID;
+	METHOD <init> (Laia;Lbfx;)V
+		ARG 1 type
+	METHOD a setFlag (IZ)V
+		ARG 1 index
+	METHOD a setOwner (Lahw;)V
+	METHOD a onHit (Laif;)V
+	METHOD a setSound (Lyf;)V
+	METHOD a setCritical (Z)V
+	METHOD b setFlagByte (B)V
+	METHOD c setDamage (D)V
+	METHOD k getSound ()Lyf;
+	METHOD l getOwner ()Lahw;
+	METHOD m asItemStack ()Lbar;
+	METHOD n getDamage ()D
+	METHOD n setNoClip (Z)V
+	METHOD o setShotFromCrossbow (Z)V
+	METHOD q isShotFromCrossbow ()Z
+	METHOD r getPierceLevel ()B
+	METHOD u isNoClip ()Z

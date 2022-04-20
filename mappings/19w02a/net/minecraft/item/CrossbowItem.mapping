@@ -1,0 +1,18 @@
+CLASS avw net/minecraft/item/CrossbowItem
+	METHOD a getChargeSound (I)Lxt;
+		ARG 1 quickChargeLevel
+	METHOD a onItemStopUsing (Laxd;Lbcf;Lahm;I)V
+		ARG 1 stack
+		ARG 2 world
+		ARG 3 player
+	METHOD a setCharged (Laxd;Z)Lhs;
+	METHOD a use (Lbcf;Lark;Lafy;)Laga;
+		ARG 1 world
+		ARG 2 player
+		ARG 3 hand
+	METHOD b getHeldFireworks (Lark;)Laxd;
+	METHOD b getMaxUseTime (Laxd;)I
+		ARG 1 stack
+	METHOD c getUseAction (Laxd;)Layp;
+		ARG 1 stack
+	METHOD d isCharged (Laxd;)Z

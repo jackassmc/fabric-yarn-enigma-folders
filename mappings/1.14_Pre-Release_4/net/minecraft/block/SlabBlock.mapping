@@ -1,0 +1,9 @@
+CLASS brf net/minecraft/block/SlabBlock
+	FIELD a TYPE Lbwf;
+	FIELD b WATERLOGGED Lbvz;
+	FIELD c BOTTOM_SHAPE Lcsn;
+	FIELD d TOP_SHAPE Lcsn;
+	METHOD <init> (Lbmj$c;)V
+		ARG 1 settings
+	METHOD n (Lbvh;)Z
+		ARG 1 state

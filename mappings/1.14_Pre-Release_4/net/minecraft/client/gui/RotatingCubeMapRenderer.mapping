@@ -1,0 +1,9 @@
+CLASS dko net/minecraft/client/gui/RotatingCubeMapRenderer
+	FIELD a client Lcvg;
+	FIELD b cubeMap Ldkb;
+	FIELD c time F
+	METHOD <init> (Ldkb;)V
+		ARG 1 cubeMap
+	METHOD a render (FF)V
+		ARG 1 delta
+		ARG 2 alpha

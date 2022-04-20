@@ -1,0 +1,2 @@
+CLASS aez net/minecraft/inventory/InventoryListener
+	METHOD a onInvChange (Laex;)V

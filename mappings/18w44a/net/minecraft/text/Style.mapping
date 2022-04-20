@@ -1,0 +1,88 @@
+CLASS jf net/minecraft/text/Style
+	CLASS jf$1
+		METHOD a getColor ()La;
+		METHOD a setColor (La;)Ljf;
+			ARG 0 format
+		METHOD a setClickEvent (Liw;)Ljf;
+			ARG 0 event
+		METHOD a setHoverEvent (Lja;)Ljf;
+			ARG 0 event
+		METHOD a setBold (Ljava/lang/Boolean;)Ljf;
+			ARG 0 bold
+		METHOD a setParent (Ljf;)Ljf;
+			ARG 0 parent
+		METHOD b isBold ()Z
+		METHOD b setItalic (Ljava/lang/Boolean;)Ljf;
+			ARG 0 italic
+		METHOD c isItalic ()Z
+		METHOD c setStrikethrough (Ljava/lang/Boolean;)Ljf;
+			ARG 0 strikethrough
+		METHOD d isStrikethrough ()Z
+		METHOD d setUnderline (Ljava/lang/Boolean;)Ljf;
+			ARG 0 underline
+		METHOD e isUnderlined ()Z
+		METHOD e setObfuscated (Ljava/lang/Boolean;)Ljf;
+			ARG 0 obfuscated
+		METHOD f isObfuscated ()Z
+		METHOD h getClickEvent ()Liw;
+		METHOD i getHoverEvent ()Lja;
+		METHOD j getInsertion ()Ljava/lang/String;
+		METHOD k getFormatString ()Ljava/lang/String;
+		METHOD m clone ()Ljf;
+		METHOD n copy ()Ljf;
+	CLASS jf$a DeSerializer
+		METHOD a deserialize (Lcom/google/gson/JsonElement;Ljava/lang/reflect/Type;Lcom/google/gson/JsonDeserializationContext;)Ljf;
+			ARG 0 element
+			ARG 1 type
+			ARG 2 deserializationContext
+		METHOD a serialize (Ljf;Ljava/lang/reflect/Type;Lcom/google/gson/JsonSerializationContext;)Lcom/google/gson/JsonElement;
+			ARG 0 style
+			ARG 1 type
+			ARG 2 serializationContext
+	FIELD a parent Ljf;
+	FIELD b color La;
+	FIELD c bold Ljava/lang/Boolean;
+	FIELD d italic Ljava/lang/Boolean;
+	FIELD e underline Ljava/lang/Boolean;
+	FIELD f strikethrough Ljava/lang/Boolean;
+	FIELD g obfuscated Ljava/lang/Boolean;
+	FIELD h clickEvent Liw;
+	FIELD i hoverEvent Lja;
+	FIELD j insertion Ljava/lang/String;
+	FIELD k ROOT Ljf;
+	METHOD a getColor ()La;
+	METHOD a setColor (La;)Ljf;
+		ARG 1 format
+	METHOD a setClickEvent (Liw;)Ljf;
+		ARG 1 event
+	METHOD a setHoverEvent (Lja;)Ljf;
+		ARG 1 event
+	METHOD a setBold (Ljava/lang/Boolean;)Ljf;
+		ARG 1 bold
+	METHOD a setInsertion (Ljava/lang/String;)Ljf;
+		ARG 1 insertion
+	METHOD a setParent (Ljf;)Ljf;
+		ARG 1 parent
+	METHOD b isBold ()Z
+	METHOD b setItalic (Ljava/lang/Boolean;)Ljf;
+		ARG 1 italic
+	METHOD c isItalic ()Z
+	METHOD c setStrikethrough (Ljava/lang/Boolean;)Ljf;
+		ARG 1 strikethrough
+	METHOD d isStrikethrough ()Z
+	METHOD d setUnderline (Ljava/lang/Boolean;)Ljf;
+		ARG 1 underline
+	METHOD e isUnderlined ()Z
+	METHOD e setObfuscated (Ljava/lang/Boolean;)Ljf;
+		ARG 1 obfuscated
+	METHOD equals (Ljava/lang/Object;)Z
+		ARG 1 object
+	METHOD f isObfuscated ()Z
+	METHOD g isEmpty ()Z
+	METHOD h getClickEvent ()Liw;
+	METHOD i getHoverEvent ()Lja;
+	METHOD j getInsertion ()Ljava/lang/String;
+	METHOD k getFormatString ()Ljava/lang/String;
+	METHOD m clone ()Ljf;
+	METHOD n copy ()Ljf;
+	METHOD o getParent ()Ljf;

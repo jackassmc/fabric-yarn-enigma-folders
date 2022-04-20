@@ -1,0 +1,3 @@
+CLASS dlq
+	METHOD a onResourceReload (Lvt;)V
+		ARG 1 manager

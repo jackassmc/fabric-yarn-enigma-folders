@@ -1,0 +1,27 @@
+CLASS cuj net/minecraft/client/gui/menu/settings/SnooperSettingsGui
+	CLASS cuj$1
+		METHOD a onPressed (DD)V
+			ARG 1 mouseX
+			ARG 3 mouseY
+	CLASS cuj$2
+		METHOD a onPressed (DD)V
+			ARG 1 mouseX
+			ARG 3 mouseY
+	CLASS cuj$a
+		METHOD a drawBackground ()V
+		METHOD a isSelectedEntry (I)Z
+			ARG 1 index
+		METHOD a drawEntry (IIIIIIF)V
+			ARG 1 index
+			ARG 2 y
+		METHOD d getEntryCount ()I
+		METHOD f getScrollbarPosition ()I
+	FIELD a parent Lcug;
+	FIELD f settings Lcqb;
+	METHOD <init> (Lcug;Lcqb;)V
+		ARG 1 parent
+	METHOD a draw (IIF)V
+		ARG 1 mouseX
+		ARG 2 mouseY
+		ARG 3 delta
+	METHOD c onInitialized ()V

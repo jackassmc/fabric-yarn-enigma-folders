@@ -1,0 +1,11 @@
+CLASS aek net/minecraft/item/ItemDoor
+	FIELD a block Lals;
+	METHOD a activate (Laax;Lajq;Lco;Lrh;Lcv;FFF)Lrj;
+		ARG 0 player
+		ARG 1 world
+		ARG 2 pos
+		ARG 3 hand
+		ARG 4 facing
+		ARG 5 hitX
+		ARG 6 hitY
+		ARG 7 hitZ

@@ -1,0 +1,2 @@
+CLASS awf net/minecraft/item/ItemSeeds
+	METHOD a useOnBlock (Laxa;)Laez;

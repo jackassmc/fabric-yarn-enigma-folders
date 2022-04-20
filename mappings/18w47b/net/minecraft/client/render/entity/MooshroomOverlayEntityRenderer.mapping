@@ -1,0 +1,4 @@
+CLASS djn net/minecraft/client/render/entity/MooshroomOverlayEntityRenderer
+	METHOD a shouldMergeTextures ()Z
+	METHOD a render (Lago;FFFFFFF)V
+	METHOD a render (Lals;FFFFFFF)V

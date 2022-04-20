@@ -1,0 +1,2 @@
+CLASS but net/minecraft/block/entity/EndPortalBlockEntity
+	METHOD a shouldDrawSide (Lfa;)Z

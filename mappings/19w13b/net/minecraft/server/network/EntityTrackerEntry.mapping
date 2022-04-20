@@ -1,0 +1,19 @@
+CLASS vd net/minecraft/server/network/EntityTrackerEntry
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD c entity Lahz;
+	FIELD d tickInterval I
+	FIELD e alwaysUpdateVelocity Z
+	FIELD g lastX J
+	FIELD h lastY J
+	FIELD i lastZ J
+	FIELD j lastYaw I
+	FIELD k lastPitch I
+	FIELD l lastHeadPitch I
+	FIELD p lastPassengers Ljava/util/List;
+	FIELD r lastOnGround Z
+	METHOD <init> (Lve;Lahz;IZLjava/util/function/Consumer;)V
+		ARG 3 tickInterval
+	METHOD a sendPackets (Ljava/util/function/Consumer;)V
+		ARG 1 sender
+	METHOD a stopTracking (Lvf;)V
+	METHOD b startTracking (Lvf;)V

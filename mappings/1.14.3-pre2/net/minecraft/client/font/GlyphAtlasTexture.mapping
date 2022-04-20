@@ -1,0 +1,19 @@
+CLASS cye net/minecraft/client/font/GlyphAtlasTexture
+	CLASS cye$a Slot
+		FIELD a x I
+		FIELD b y I
+		FIELD c width I
+		FIELD d height I
+		FIELD e subSlot1 Lcye$a;
+		FIELD f subSlot2 Lcye$a;
+		FIELD g isOccupied Z
+		METHOD a findSlotFor (Lctp;)Lcye$a;
+			ARG 1 glyph
+	FIELD f id Lqt;
+	FIELD g hasColor Z
+	FIELD h rootSlot Lcye$a;
+	METHOD <init> (Lqt;Z)V
+		ARG 2 hasColor
+	METHOD a getId ()Lqt;
+	METHOD a getGlyphRenderer (Lctp;)Lcyg;
+		ARG 1 glyph

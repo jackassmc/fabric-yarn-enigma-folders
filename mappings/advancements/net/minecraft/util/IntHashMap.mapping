@@ -1,0 +1,24 @@
+CLASS qd net/minecraft/util/IntHashMap
+	CLASS qd$a Element
+		FIELD a key I
+		FIELD b value Ljava/lang/Object;
+		FIELD c next Lqd$a;
+		FIELD d hash I
+		METHOD a getKey ()I
+		METHOD b getValue ()Ljava/lang/Object;
+	FIELD a elements [Lqd$a;
+	FIELD b count I
+	FIELD c capacity I
+	FIELD d capacityFactor F
+	METHOD a get (I)Ljava/lang/Object;
+	METHOD a getMinElementIndex (II)I
+	METHOD a addInternal (IILjava/lang/Object;I)V
+	METHOD a put (ILjava/lang/Object;)V
+	METHOD a reorder ([Lqd$a;)V
+	METHOD b containsKey (I)Z
+	METHOD c clear ()V
+	METHOD c getElement (I)Lqd$a;
+	METHOD d remove (I)Ljava/lang/Object;
+	METHOD e removeInternal (I)Lqd$a;
+	METHOD g getHash (I)I
+	METHOD h ensureCapacity (I)V

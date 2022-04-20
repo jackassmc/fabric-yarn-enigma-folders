@@ -1,0 +1,8 @@
+CLASS caw net/minecraft/client/render/entity/EntityRendererStray
+	FIELD a SKIN Lnd;
+	METHOD a getTexture (Lacn;)Lnd;
+		ARG 0 model
+	METHOD a getTexture (Lve;)Lnd;
+		ARG 0 model
+	METHOD a getTexture (Lvo;)Lnd;
+		ARG 0 model

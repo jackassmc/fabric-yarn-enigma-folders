@@ -1,0 +1,7 @@
+CLASS aml net/minecraft/entity/ai/goal/FollowOwnerGoal
+	FIELD a caller Laix;
+	FIELD b world Lbha;
+	FIELD c owner Laij;
+	FIELD h minDistance F
+	METHOD <init> (Laix;DFF)V
+		ARG 1 caller

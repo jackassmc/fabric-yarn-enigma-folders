@@ -1,0 +1,29 @@
+CLASS afl net/minecraft/world/updater/WorldUpdater
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD b UPDATE_THREAD_FACTORY Ljava/util/concurrent/ThreadFactory;
+	FIELD c levelName Ljava/lang/String;
+	FIELD d worldSaveHandler Lcjb;
+	FIELD e persistentStateManager Lcjj;
+	FIELD f updateThread Ljava/lang/Thread;
+	FIELD g keepUpgradingChunks Z
+	FIELD h isDone Z
+	FIELD i progress F
+	FIELD j totalChunkCount I
+	FIELD k upgradedChunkCount I
+	FIELD l skippedChunkCount I
+	FIELD m dimensionProgress Lit/unimi/dsi/fastutil/objects/Object2FloatMap;
+	FIELD n status Ljb;
+	METHOD a cancel ()V
+	METHOD a upgradeChunks (Lbsu;Ljava/util/ListIterator;Lbtc;)Z
+		ARG 1 chunkSaveHandler
+		ARG 2 chunks
+		ARG 3 dimension
+	METHOD a getProgress (Lbtc;)F
+	METHOD b isDone ()Z
+	METHOD c getProgress ()F
+	METHOD d getTotalChunkCount ()I
+	METHOD e getUpgradedChunkCount ()I
+	METHOD f getSkippedChunkCount ()I
+	METHOD g getStatus ()Ljb;
+	METHOD h getLevelName ()Ljava/lang/String;
+	METHOD i updateWorld ()V

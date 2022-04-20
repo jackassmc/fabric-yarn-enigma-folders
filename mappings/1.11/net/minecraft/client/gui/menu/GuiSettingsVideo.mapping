@@ -1,0 +1,25 @@
+CLASS bhu net/minecraft/client/gui/menu/GuiSettingsVideo
+	FIELD a title Ljava/lang/String;
+	FIELD f parent Lbhm;
+	FIELD g settings Lbes;
+	FIELD h widgetList Lbfw;
+	FIELD i MENU_OPTIONS [Lbes$a;
+	METHOD <init> (Lbhm;Lbes;)V
+		ARG 0 parent
+		ARG 1 settings
+	METHOD a draw (IIF)V
+		ARG 0 mouseX
+		ARG 1 mouseY
+		ARG 2 delta
+	METHOD a onMousePressed (III)V
+		ARG 0 mouseX
+		ARG 1 mouseY
+		ARG 2 mouseButton
+	METHOD a onWidgetPressed (Lbfk;)V
+		ARG 0 widget
+	METHOD b init ()V
+	METHOD b onMouseReleased (III)V
+		ARG 0 mouseX
+		ARG 1 mouseY
+		ARG 2 mouseButton
+	METHOD k handleMouseEvent ()V

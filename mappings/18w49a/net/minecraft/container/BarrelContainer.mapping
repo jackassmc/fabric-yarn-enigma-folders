@@ -1,0 +1,4 @@
+CLASS asf net/minecraft/container/BarrelContainer
+	METHOD <init> (Laex;Laex;Laql;)V
+		ARG 1 playerInv
+		ARG 2 inventory

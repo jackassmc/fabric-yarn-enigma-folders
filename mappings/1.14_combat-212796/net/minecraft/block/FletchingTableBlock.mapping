@@ -1,0 +1,3 @@
+CLASS bot net/minecraft/block/FletchingTableBlock
+	METHOD <init> (Lbmr$c;)V
+		ARG 1 settings

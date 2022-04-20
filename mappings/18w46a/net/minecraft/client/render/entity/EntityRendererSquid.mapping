@@ -1,0 +1,4 @@
+CLASS dht net/minecraft/client/render/entity/EntityRendererSquid
+	FIELD a SKIN Lpx;
+	METHOD a getTexture (Lagc;)Lpx;
+	METHOD a getTexture (Laly;)Lpx;

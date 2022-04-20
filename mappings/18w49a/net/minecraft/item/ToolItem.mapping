@@ -1,0 +1,8 @@
+CLASS axb net/minecraft/item/ToolItem
+	FIELD a material Laxa;
+	METHOD <init> (Laxa;Lavp$a;)V
+		ARG 1 material
+	METHOD a canRepair (Lavu;Lavu;)Z
+		ARG 1 tool
+	METHOD c getEnchantability ()I
+	METHOD e getType ()Laxa;

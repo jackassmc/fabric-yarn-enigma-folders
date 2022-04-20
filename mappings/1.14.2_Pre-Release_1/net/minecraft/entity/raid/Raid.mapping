@@ -1,0 +1,125 @@
+CLASS axc net/minecraft/entity/raid/Raid
+	CLASS axc$a Status
+		FIELD e VALUES [Laxc$a;
+		METHOD a getName ()Ljava/lang/String;
+		METHOD b fromName (Ljava/lang/String;)Laxc$a;
+	CLASS axc$b Member
+		FIELD f VALUES [Laxc$b;
+		FIELD g type Laim;
+		FIELD h countInWave [I
+		METHOD <init> (Ljava/lang/String;ILaim;[I)V
+			ARG 3 type
+			ARG 4 countInWave
+	FIELD a OMINOUS_BANNER Lbcb;
+	FIELD b EVENT_TEXT Ljw;
+	FIELD c VICTORY_SUFFIX_TEXT Ljw;
+	FIELD d DEFEAT_SUFFIX_TEXT Ljw;
+	FIELD e VICTORY_TITLE Ljm;
+	FIELD f DEFEAT_TITLE Ljm;
+	FIELD g waveToCaptain Ljava/util/Map;
+	FIELD h waveToRaiders Ljava/util/Map;
+	FIELD i heroesOfTheVillage Ljava/util/Set;
+	FIELD j ticksActive J
+	FIELD k center Lev;
+	FIELD l world Lvg;
+	FIELD m started Z
+	FIELD n id I
+	FIELD o totalHealth F
+	FIELD p badOmenLevel I
+	FIELD q active Z
+	FIELD r wavesSpawned I
+	FIELD s bar Lvd;
+	FIELD t postRaidTicks I
+	FIELD u preRaidTicks I
+	FIELD v random Ljava/util/Random;
+	FIELD w waveCount I
+	FIELD x status Laxc$a;
+	FIELD y finishCooldown I
+	FIELD z preCalculatedRavagerSpawnLocation Ljava/util/Optional;
+	METHOD <init> (ILvg;Lev;)V
+		ARG 1 id
+		ARG 2 world
+		ARG 3 pos
+	METHOD <init> (Lvg;Lib;)V
+		ARG 1 world
+		ARG 2 tag
+	METHOD A hasSpawnedFinalWave ()Z
+	METHOD B hasExtraWave ()Z
+	METHOD C hasSpawnedExtraWave ()Z
+	METHOD D isSpawningExtraWave ()Z
+	METHOD E removeObsoleteRaiders ()V
+	METHOD F canSpawnRaiders ()Z
+	METHOD G markDirty ()V
+	METHOD H getIllagerBanner ()Lbcb;
+	METHOD a isFinished ()Z
+	METHOD a getRavagerSpawnLocation (II)Lev;
+		ARG 1 proximity
+		ARG 2 tries
+	METHOD a setWaveCaptain (ILaxd;)V
+		ARG 1 wave
+		ARG 2 entity
+	METHOD a addRaider (ILaxd;Lev;Z)V
+		ARG 1 wave
+		ARG 2 raider
+		ARG 3 pos
+		ARG 4 existing
+	METHOD a addToWave (ILaxd;Z)Z
+		ARG 1 wave
+		ARG 2 entity
+		ARG 3 countHealth
+	METHOD a getMaxWaves (Laha;)I
+		ARG 1 difficulty
+	METHOD a addHero (Laii;)V
+		ARG 1 entity
+	METHOD a start (Lavy;)V
+		ARG 1 player
+	METHOD a getCount (Laxc$b;IZ)I
+		ARG 1 member
+		ARG 2 wave
+		ARG 3 extra
+	METHOD a getBonusCount (Laxc$b;Ljava/util/Random;ILahb;Z)I
+		ARG 1 member
+		ARG 2 random
+		ARG 3 wave
+		ARG 4 localDifficulty
+		ARG 5 extra
+	METHOD a removeFromWave (Laxd;Z)V
+		ARG 1 entity
+		ARG 2 countHealth
+	METHOD a playRaidHorn (Lev;)V
+		ARG 1 pos
+	METHOD a toTag (Lib;)Lib;
+		ARG 1 tag
+	METHOD b isPreRaid ()Z
+	METHOD b getCaptain (I)Laxd;
+		ARG 1 wave
+	METHOD b addToWave (ILaxd;)Z
+		ARG 1 wave
+		ARG 2 entity
+	METHOD b spawnNextWave (Lev;)V
+		ARG 1 pos
+	METHOD c hasSpawned ()Z
+	METHOD c removeLeader (I)V
+		ARG 1 wave
+	METHOD d hasStopped ()Z
+	METHOD d preCalculateRavagerSpawnLocation (I)Ljava/util/Optional;
+		ARG 1 proximity
+	METHOD e hasWon ()Z
+	METHOD f hasLost ()Z
+	METHOD i getWorld ()Lbhi;
+	METHOD j hasStarted ()Z
+	METHOD k getGroupsSpawned ()I
+	METHOD l getMaxAcceptableBadOmenLevel ()I
+	METHOD m getBadOmenLevel ()I
+	METHOD n invalidate ()V
+	METHOD o tick ()V
+	METHOD p updateBar ()V
+	METHOD q getCurrentRaiderHealth ()F
+	METHOD r getRaiderCount ()I
+	METHOD s getCenter ()Lev;
+	METHOD t getRaidId ()I
+	METHOD u isActive ()Z
+	METHOD v getEnchantmentChance ()F
+	METHOD w isInRaidDistance ()Ljava/util/function/Predicate;
+	METHOD x updateBarToPlayers ()V
+	METHOD z shouldSpawnMoreGroups ()Z

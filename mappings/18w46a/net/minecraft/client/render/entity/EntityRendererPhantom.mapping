@@ -1,0 +1,3 @@
+CLASS dhc net/minecraft/client/render/entity/EntityRendererPhantom
+	METHOD a getTexture (Lagc;)Lpx;
+	METHOD a getTexture (Lapa;)Lpx;

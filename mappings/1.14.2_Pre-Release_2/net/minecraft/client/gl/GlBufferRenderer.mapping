@@ -1,0 +1,4 @@
+CLASS cuq net/minecraft/client/gl/GlBufferRenderer
+	FIELD a glBuffer Lcup;
+	METHOD a setGlBuffer (Lcup;)V
+		ARG 1 glBuffer

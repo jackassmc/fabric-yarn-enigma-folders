@@ -1,0 +1,43 @@
+CLASS bwa net/minecraft/client/render/model/json/ModelTransformationList
+	CLASS bwa$b Type
+		FIELD a ORIGIN Lbwa$b;
+		FIELD b THIRD_PERSON_LEFT_HAND Lbwa$b;
+		FIELD c THIRD_PERSON_RIGHT_HAND Lbwa$b;
+		FIELD d FIRST_PERSON_LEFT_HAND Lbwa$b;
+		FIELD e FIRST_PERSON_RIGHT_HAND Lbwa$b;
+		FIELD f HEAD Lbwa$b;
+		FIELD g GUI Lbwa$b;
+		FIELD h GROUND Lbwa$b;
+		FIELD i FIXED Lbwa$b;
+	FIELD a ORIGIN Lbwa;
+	FIELD b globalTranslationX F
+	FIELD c globalTranslationY F
+	FIELD d globalTranslationZ F
+	FIELD e globalRotationX F
+	FIELD f globalRotationY F
+	FIELD g globalRotationZ F
+	FIELD h globalScaleOffsetX F
+	FIELD i globalScaleOffsetY F
+	FIELD j globalScaleOffsetZ F
+	FIELD k thirdPersonLeftHand Lbvz;
+	FIELD l thirdPersonRightHand Lbvz;
+	FIELD m firstPersonLeftHand Lbvz;
+	FIELD n firstPersonRightHand Lbvz;
+	FIELD o head Lbvz;
+	FIELD p gui Lbvz;
+	FIELD q ground Lbvz;
+	FIELD r fixed Lbvz;
+	METHOD <init> (Lbwa;)V
+		ARG 0 list
+	METHOD a getRotQuaternion (FFF)Lorg/lwjgl/util/vector/Quaternion;
+		ARG 0 rotX
+		ARG 1 rotY
+		ARG 2 rotZ
+	METHOD a applyGl (Lbvz;Z)V
+		ARG 0 transform
+	METHOD a applyGl (Lbwa$b;)V
+		ARG 0 type
+	METHOD b getTransformation (Lbwa$b;)Lbvz;
+		ARG 0 type
+	METHOD c isTransformationDefined (Lbwa$b;)Z
+		ARG 0 type

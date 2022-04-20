@@ -1,0 +1,18 @@
+CLASS et net/minecraft/block/dispenser/DispenserBehaviorItem
+	METHOD a dispenseItem (Laza;Lauc;ILev;Lff;)V
+		ARG 0 world
+		ARG 1 stack
+		ARG 2 force
+		ARG 3 facing
+		ARG 4 pos
+	METHOD a playSound (Ler;)V
+		ARG 0 block
+	METHOD a doDispense (Ler;Lauc;)Lauc;
+		ARG 0 location
+		ARG 1 stack
+	METHOD a spawnParticles (Ler;Lev;)V
+		ARG 0 block
+		ARG 1 facing
+	METHOD dispense (Ler;Lauc;)Lauc;
+		ARG 0 location
+		ARG 1 stack

@@ -1,0 +1,14 @@
+CLASS dai net/minecraft/client/gui/CommandBlockScreen
+	FIELD m blockEntity Lbth;
+	FIELD n modeButton Lcwd;
+	FIELD o conditionalModeButton Lcwd;
+	FIELD p redstoneTriggerButton Lcwd;
+	FIELD q mode Lbth$a;
+	FIELD r conditional Z
+	FIELD s autoActivate Z
+	METHOD <init> (Lbth;)V
+		ARG 1 blockEntity
+	METHOD h updateMode ()V
+	METHOD i cycleType ()V
+	METHOD j updateConditionalMode ()V
+	METHOD k updateActivationMode ()V

@@ -1,0 +1,17 @@
+CLASS bio net/minecraft/sound/BlockSoundGroup
+	FIELD a WOOD Lbio;
+	FIELD d STONE Lbio;
+	FIELD q volume F
+	FIELD r pitch F
+	FIELD s breakSound Lwv;
+	FIELD t stepSound Lwv;
+	FIELD u placeSound Lwv;
+	FIELD v hitSound Lwv;
+	FIELD w fallSound Lwv;
+	METHOD a getVolume ()F
+	METHOD b getPitch ()F
+	METHOD c getBreakSound ()Lwv;
+	METHOD d getStepSound ()Lwv;
+	METHOD e getPlaceSound ()Lwv;
+	METHOD f getHitSound ()Lwv;
+	METHOD g getFallSound ()Lwv;

@@ -1,0 +1,2 @@
+CLASS bou net/minecraft/block/entity/DaylightDetectorBlockEntity
+	METHOD ab_ tick ()V

@@ -1,0 +1,7 @@
+CLASS ahu net/minecraft/util/Rarity
+	FIELD a COMMON Lahu;
+	FIELD b UNCOMMON Lahu;
+	FIELD c RARE Lahu;
+	FIELD d EPIC Lahu;
+	FIELD e formatting La;
+	FIELD f name Ljava/lang/String;

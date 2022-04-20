@@ -1,0 +1,7 @@
+CLASS atq net/minecraft/container/BeaconContainer
+	CLASS atq$a SlotPayment
+	FIELD f propertyDelegate Latw;
+	METHOD <init> (ILafx;)V
+		ARG 1 syncId
+	METHOD <init> (ILafx;Latw;Latx;)V
+		ARG 1 syncId

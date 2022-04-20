@@ -1,0 +1,15 @@
+CLASS amz net/minecraft/entity/passive/AbstractDonkeyEntity
+	FIELD bN CHEST Lpr;
+	METHOD <init> (Lagz;Lbbp;)V
+		ARG 1 type
+	METHOD a interactMob (Larb;Lafo;)Z
+		ARG 1 player
+	METHOD a readCustomDataFromTag (Lhs;)V
+	METHOD aL getMountedHeightOffset ()D
+	METHOD b writeCustomDataToTag (Lhs;)V
+	METHOD ca initAttributes ()V
+	METHOD ct dropInventory ()V
+	METHOD dA hasChest ()Z
+	METHOD dB getInventorySize ()I
+	METHOD t setHasChest (Z)V
+	METHOD y_ initDataTracker ()V

@@ -1,0 +1,4 @@
+CLASS amg net/minecraft/entity/ai/goal/BreatheAirGoal
+	FIELD a owner Laiv;
+	METHOD a isAirPos (Lbhk;Lev;)Z
+	METHOD g moveToAir ()V

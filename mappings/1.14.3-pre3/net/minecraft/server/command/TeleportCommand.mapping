@@ -1,0 +1,32 @@
+CLASS tt net/minecraft/server/command/TeleportCommand
+	CLASS tt$a LookTarget
+		FIELD a targetPos Lcsb;
+		FIELD b targetEntity Lail;
+		FIELD c targetEntityAnchor Lck$a;
+		METHOD a look (Lcd;Lail;)V
+			ARG 1 source
+			ARG 2 entity
+	METHOD a teleport (Lcd;Lail;Lvi;DDDLjava/util/Set;FFLtt$a;)V
+		ARG 0 source
+		ARG 1 target
+		ARG 2 world
+		ARG 3 x
+		ARG 5 y
+		ARG 7 z
+		ARG 9 movementFlags
+		ARG 10 yaw
+		ARG 11 pitch
+		ARG 12 facingLocation
+	METHOD a execute (Lcd;Ljava/util/Collection;Lail;)I
+		ARG 0 source
+		ARG 1 targets
+		ARG 2 destination
+	METHOD a execute (Lcd;Ljava/util/Collection;Lvi;Ldl;Ldl;Ltt$a;)I
+		ARG 0 source
+		ARG 1 targets
+		ARG 2 world
+		ARG 3 location
+		ARG 4 rotation
+		ARG 5 facingLocation
+	METHOD a register (Lcom/mojang/brigadier/CommandDispatcher;)V
+		ARG 0 dispatcher

@@ -1,0 +1,9 @@
+CLASS auk net/minecraft/container/PlayerContainer
+	FIELD c local Z
+	FIELD e EQUIPMENT_SLOT_ORDER [Lahn;
+	FIELD f invCrafting Latz;
+	FIELD g invCraftingResult Lauv;
+	FIELD h owner Lars;
+	METHOD <init> (Larr;ZLars;)V
+		ARG 1 inventory
+		ARG 2 local

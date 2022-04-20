@@ -1,0 +1,22 @@
+CLASS bot net/minecraft/block/entity/CommandBlockBlockEntity
+	CLASS bot$a Type
+		FIELD a CHAIN Lbot$a;
+		FIELD b REPEATING Lbot$a;
+		FIELD c NORMAL Lbot$a;
+	FIELD a powered Z
+	FIELD b auto Z
+	FIELD c conditionMet Z
+	FIELD g needsUpdatePacket Z
+	FIELD h commandExecutor Lbbs;
+	METHOD a setPowered (Z)V
+	METHOD b setAuto (Z)V
+	METHOD c getCommandExecutor ()Lbbs;
+	METHOD c setNeedsUpdatePacket (Z)V
+		ARG 1 needsUpdatePacket
+	METHOD d isPowered ()Z
+	METHOD f isAuto ()Z
+	METHOD g isConditionMet ()Z
+	METHOD h updateConditionMet ()Z
+	METHOD s needsUpdatePacket ()Z
+	METHOD t getType ()Lbot$a;
+	METHOD u isConditionalCommandBlock ()Z

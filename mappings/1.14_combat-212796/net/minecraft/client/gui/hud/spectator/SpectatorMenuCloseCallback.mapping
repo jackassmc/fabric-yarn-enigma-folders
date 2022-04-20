@@ -1,0 +1,3 @@
+CLASS ddo net/minecraft/client/gui/hud/spectator/SpectatorMenuCloseCallback
+	METHOD a close (Lddl;)V
+		ARG 1 menu

@@ -1,0 +1,8 @@
+CLASS clc net/minecraft/world/loot/function/SetStewEffectLootFunction
+	CLASS clc$a Builder
+		FIELD a map Ljava/util/Map;
+		METHOD a create ()Lclc$a;
+		METHOD a withEffect (Lagu;Lcjq;)Lclc$a;
+	CLASS clc$b Factory
+	FIELD a effects Ljava/util/Map;
+	METHOD b create ()Lclc$a;

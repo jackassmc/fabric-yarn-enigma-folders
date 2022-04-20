@@ -1,0 +1,78 @@
+CLASS dqe net/minecraft/client/render/item/ItemRenderer
+	FIELD a ENCHANTMENT_GLINT_TEX Lqs;
+	FIELD b zOffset F
+	FIELD c WITHOUT_MODELS Ljava/util/Set;
+	FIELD d models Ldko;
+	FIELD e textureManager Ldul;
+	FIELD f colorMap Lcwb;
+	METHOD a getModels ()Ldko;
+	METHOD a prepareGuiItemRender (IIZ)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 depth
+	METHOD a renderGuiItem (Lais;Lbcc;II)V
+		ARG 2 itemStack
+		ARG 3 x
+		ARG 4 y
+	METHOD a hasDepthInGui (Lbcc;)Z
+	METHOD a renderGuiItemIcon (Lbcc;II)V
+		ARG 1 stack
+		ARG 2 x
+		ARG 3 y
+	METHOD a renderGuiItemModel (Lbcc;IILdvy;)V
+		ARG 1 itemStack
+		ARG 2 x
+		ARG 3 y
+	METHOD a renderHeldItem (Lbcc;Lais;Ldlv$b;Z)V
+		ARG 1 stack
+		ARG 2 entity
+		ARG 3 type
+	METHOD a getModel (Lbcc;Lbhj;Lais;)Ldvy;
+	METHOD a renderItem (Lbcc;Ldlv$b;)V
+		ARG 1 stack
+	METHOD a renderItemAndGlow (Lbcc;Ldvy;)V
+	METHOD a renderItem (Lbcc;Ldvy;Ldlv$b;Z)V
+		ARG 1 stack
+		ARG 2 model
+		ARG 3 type
+	METHOD a renderGuiQuad (Lcum;IIIIIIII)V
+		ARG 2 x
+		ARG 3 y
+		ARG 4 width
+		ARG 5 height
+		ARG 6 red
+		ARG 7 green
+		ARG 8 blue
+		ARG 9 alpha
+	METHOD a postNormalQuad (Lcum;Ldli;)V
+		ARG 1 buffer
+	METHOD a renderQuad (Lcum;Ldli;I)V
+		ARG 3 color
+	METHOD a renderQuads (Lcum;Ljava/util/List;ILbcc;)V
+		ARG 2 quads
+		ARG 3 forcedColor
+		ARG 4 stack
+	METHOD a renderGuiItemOverlay (Lcwd;Lbcc;II)V
+		ARG 1 fontRenderer
+		ARG 2 stack
+		ARG 3 x
+		ARG 4 y
+	METHOD a renderGuiItemOverlay (Lcwd;Lbcc;IILjava/lang/String;)V
+		ARG 1 fontRenderer
+		ARG 2 stack
+		ARG 3 x
+		ARG 4 y
+		ARG 5 amountText
+	METHOD a areFacesFlippedBy (Ldlu;)Z
+	METHOD a renderGlint (Ldul;Ljava/lang/Runnable;I)V
+		ARG 1 renderer
+	METHOD a renderModelWithTint (Ldvy;I)V
+	METHOD a renderModel (Ldvy;ILbcc;)V
+	METHOD a renderItemModel (Ldvy;Lbcc;)V
+	METHOD a getOverriddenModel (Ldvy;Lbcc;Lbhj;Lais;)Ldvy;
+	METHOD b getModel (Lbcc;)Ldvy;
+	METHOD b renderGuiItem (Lbcc;II)V
+		ARG 1 stack
+		ARG 2 x
+		ARG 3 y
+	METHOD b getHeldItemModel (Lbcc;Lbhj;Lais;)Ldvy;

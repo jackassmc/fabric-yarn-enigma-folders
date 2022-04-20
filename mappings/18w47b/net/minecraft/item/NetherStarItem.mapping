@@ -1,0 +1,2 @@
+CLASS awm net/minecraft/item/NetherStarItem
+	METHOD e_ hasEnchantmentGlow (Lavo;)Z

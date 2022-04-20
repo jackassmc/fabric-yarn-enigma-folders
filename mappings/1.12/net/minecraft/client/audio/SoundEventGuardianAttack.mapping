@@ -1,0 +1,5 @@
+CLASS cgk net/minecraft/client/audio/SoundEventGuardianAttack
+	FIELD m guardian Lacy;
+	METHOD <init> (Lacy;)V
+		ARG 0 guardian
+	METHOD e update ()V

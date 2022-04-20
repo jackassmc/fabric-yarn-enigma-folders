@@ -1,0 +1,2 @@
+CLASS dxm net/minecraft/client/tutorial/NoneTutorialStepHandler
+	FIELD a manager Ldxs;

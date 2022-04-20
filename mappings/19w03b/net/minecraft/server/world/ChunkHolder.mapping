@@ -1,0 +1,75 @@
+CLASS ud net/minecraft/server/world/ChunkHolder
+	CLASS ud$a Unloaded
+		FIELD b INSTANCE Lud$a;
+	CLASS ud$b LevelType
+		FIELD a BORDER Lud$b;
+		FIELD b TICKING Lud$b;
+		FIELD c ENTITY_TICKING Lud$b;
+		METHOD a isAfter (Lud$b;)Z
+			ARG 1 levelType
+	CLASS ud$c LevelUpdateListener
+		METHOD a updateLevel (Lbbv;Ljava/util/function/IntSupplier;ILjava/util/function/IntConsumer;)V
+			ARG 1 pos
+			ARG 2 lastLevelUpdatedToProvider
+			ARG 3 newLevel
+			ARG 4 lastLevelUpdatedToConsumer
+	CLASS ud$d PlayersWatchingChunkProvider
+		METHOD a getPlayersWatchingChunk (Lbbv;Z)Ljava/util/stream/Stream;
+			ARG 1 chunkPos
+			ARG 2 onlyOnWatchDistanceEdge
+		METHOD a getPlayersWatchingChunk (Lbbv;ZZ)Ljava/util/stream/Stream;
+			ARG 1 chunkPos
+			ARG 2 onlyOnWatchDistanceEdge
+	FIELD a UNLOADED_CHUNK Lcom/mojang/datafixers/util/Either;
+	FIELD b UNLOADED_CHUNK_FUTURE Ljava/util/concurrent/CompletableFuture;
+	FIELD c UNLOADED_WORLD_CHUNK Lcom/mojang/datafixers/util/Either;
+	FIELD d UNLOADED_WORLD_CHUNK_FUTURE Ljava/util/concurrent/CompletableFuture;
+	FIELD e CHUNK_STATUSES Ljava/util/List;
+	FIELD f LEVEL_TYPES [Lud$b;
+	FIELD g statusToChunk Ljava/util/concurrent/atomic/AtomicReferenceArray;
+	FIELD j chunk Ljava/util/concurrent/CompletableFuture;
+	FIELD l level I
+	FIELD m lastLevelUpdatedTo I
+	FIELD n pos Lbbv;
+	FIELD o blockUpdatePositions [S
+	FIELD p blockUpdateCount I
+	FIELD q sectionsNeedingUpdateMask I
+	FIELD u lightingProvider Lcfn;
+	FIELD v levelUpdateListener Lud$c;
+	FIELD w playersWatchingChunkProvider Lud$d;
+	METHOD <init> (Lbbv;ILcfn;Lud$c;Lud$d;)V
+		ARG 1 pos
+		ARG 2 level
+		ARG 5 playersWatchingChunkProvider
+	METHOD a setLevel (I)V
+		ARG 1 level
+	METHOD a markForUpdate (III)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD a sendBlockEntityUpdatePacket (Lbci;Let;)V
+	METHOD a getChunkForStatus (Lbsb;)Ljava/util/concurrent/CompletableFuture;
+		ARG 1 status
+	METHOD a getChunk (Lbsb;Lue;)Ljava/util/concurrent/CompletableFuture;
+		ARG 1 status
+		ARG 2 chunkHolderManager
+	METHOD a flushUpdates (Lbsi;)V
+	METHOD a updateChunk (Ljava/util/concurrent/CompletableFuture;)V
+	METHOD a sendPacketToPlayersWatching (Ljp;Z)V
+		ARG 2 onlyOnWatchDistanceEdge
+	METHOD a update (Lue;)V
+		ARG 1 chunkHolderManager
+	METHOD b getTargetGenerationStatus (I)Lbsb;
+		ARG 0 level
+	METHOD b getChunkMinimumStatus (Lbsb;)Ljava/util/concurrent/CompletableFuture;
+		ARG 1 status
+	METHOD c getWorldChunk ()Lbsi;
+	METHOD c getLevelType (I)Lud$b;
+		ARG 0 distance
+	METHOD d setLastLevelUpdatedTo (I)V
+	METHOD e getChunk ()Lbrw;
+	METHOD f getChunkFuture ()Ljava/util/concurrent/CompletableFuture;
+	METHOD g getLevelType ()Lud$b;
+	METHOD h getPos ()Lbbv;
+	METHOD i getLevel ()I
+	METHOD j getLastLevelUpdatedTo ()I

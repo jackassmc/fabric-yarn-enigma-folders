@@ -1,0 +1,8 @@
+CLASS bkk net/minecraft/block/BlockStructureVoid
+	METHOD a (Lbno;)Z
+	METHOD a getBoundingShape (Lbno;Lazl;Les;)Lcjm;
+		ARG 1 state
+		ARG 2 view
+	METHOD c getRenderType (Lbno;)Lbjc;
+	METHOD g getAmbientOcclusionLightLevel (Lbno;)F
+	METHOD j getPistonBehavior (Lbno;)Lcbx;

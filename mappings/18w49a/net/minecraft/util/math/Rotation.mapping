@@ -1,0 +1,13 @@
+CLASS fl net/minecraft/util/math/Rotation
+	FIELD a x F
+	FIELD b y F
+	FIELD c z F
+	METHOD <init> (FFF)V
+		ARG 1 x
+		ARG 2 y
+	METHOD a serialize ()Lhw;
+	METHOD b getX ()F
+	METHOD c getY ()F
+	METHOD d getZ ()F
+	METHOD equals (Ljava/lang/Object;)Z
+		ARG 0 object

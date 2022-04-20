@@ -1,0 +1,13 @@
+CLASS bzt net/minecraft/client/render/entity/EntityRendererItemFrame
+	FIELD a MAP_BACKGROUND_TEX Lnd;
+	FIELD f game Lbhz;
+	FIELD g MODEL_NORMAL Lcgb;
+	FIELD h MODEL_MAP Lcgb;
+	FIELD i itemRenderer Lbzu;
+	METHOD <init> (Lbzd;Lbzu;)V
+		ARG 0 renderManager
+		ARG 1 itemRenderer
+	METHOD a getTexture (Labz;)Lnd;
+		ARG 0 model
+	METHOD a getTexture (Lve;)Lnd;
+		ARG 0 model

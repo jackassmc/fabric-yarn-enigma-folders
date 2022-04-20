@@ -1,0 +1,4 @@
+CLASS bpu net/minecraft/block/entity/JukeboxBlockEntity
+	FIELD a record Laxt;
+	METHOD a setRecord (Laxt;)V
+	METHOD c getRecord ()Laxt;

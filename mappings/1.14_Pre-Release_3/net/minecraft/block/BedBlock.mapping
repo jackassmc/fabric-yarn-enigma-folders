@@ -1,0 +1,17 @@
+CLASS bmc net/minecraft/block/BedBlock
+	FIELD a PART Lbwd;
+	FIELD b OCCUPIED Lbvx;
+	FIELD c TOP_SHAPE Lcsl;
+	FIELD d LEG_1_SHAPE Lcsl;
+	FIELD e LEG_2_SHAPE Lcsl;
+	FIELD f LEG_3_SHAPE Lcsl;
+	FIELD g LEG_4_SHAPE Lcsl;
+	FIELD h NORTH_SHAPE Lcsl;
+	FIELD i SOUTH_SHAPE Lcsl;
+	FIELD j WEST_SHAPE Lcsl;
+	FIELD k EAST_SHAPE Lcsl;
+	FIELD w color Lbau;
+	METHOD a (Lbvu;Lfa;)Lfa;
+		ARG 0 part
+		ARG 1 direction
+	METHOD d getColor ()Lbau;

@@ -1,0 +1,10 @@
+CLASS cpr net/minecraft/client/gui/menu/ListEntryLocalServer
+	FIELD c mc Lcjk;
+	FIELD d entry Ldjr;
+	FIELD e gui Lcpp;
+	FIELD f lastUpdateMillis J
+	METHOD <init> (Lcpp;Ldjr;)V
+		ARG 0 gui
+		ARG 1 entry
+	METHOD a drawEntry (IIIIZF)V
+	METHOD e getLanServerEntry ()Ldjr;

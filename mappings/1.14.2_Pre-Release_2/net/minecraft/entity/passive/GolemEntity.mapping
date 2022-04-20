@@ -1,0 +1,3 @@
+CLASS aqq net/minecraft/entity/passive/GolemEntity
+	METHOD <init> (Laim;Lbhi;)V
+		ARG 1 type

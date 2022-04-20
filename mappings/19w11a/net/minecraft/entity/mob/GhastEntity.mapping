@@ -1,0 +1,12 @@
+CLASS asu net/minecraft/entity/mob/GhastEntity
+	CLASS asu$b net/minecraft/entity/mob/GhastEntity$GhastMoveControl
+		FIELD i ghast Lasu;
+	CLASS asu$c net/minecraft/entity/mob/GhastEntity$ShootFireballGoal
+		FIELD a cooldown I
+		FIELD b owner Lasu;
+	CLASS asu$d net/minecraft/entity/mob/GhastEntity$FlyRandomlyGoal
+	FIELD b SHOOTING Lqe;
+	FIELD c fireballStrength I
+	METHOD dL getFireballStrength ()I
+	METHOD l isShooting ()Z
+	METHOD q setShooting (Z)V

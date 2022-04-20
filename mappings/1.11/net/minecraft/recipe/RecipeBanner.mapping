@@ -1,0 +1,25 @@
+CLASS ahe net/minecraft/recipe/RecipeBanner
+	CLASS ahe$a AddPattern
+		METHOD a getSize ()I
+		METHOD a craft (Lacr;)Lafi;
+			ARG 0 craftingInv
+		METHOD a matches (Lacr;Lajq;)Z
+			ARG 0 craftingInv
+			ARG 1 world
+		METHOD b getOutput ()Lafi;
+		METHOD b getRemainingStacks (Lacr;)Ldd;
+			ARG 0 craftingInv
+		METHOD c getPattern (Lacr;)Lary;
+			ARG 0 inventory
+	CLASS ahe$b Clone
+		METHOD a getSize ()I
+		METHOD a craft (Lacr;)Lafi;
+			ARG 0 craftingInv
+		METHOD a matches (Lacr;Lajq;)Z
+			ARG 0 craftingInv
+			ARG 1 world
+		METHOD b getOutput ()Lafi;
+		METHOD b getRemainingStacks (Lacr;)Ldd;
+			ARG 0 craftingInv
+	METHOD a register (Laho;)V
+		ARG 0 registry

@@ -1,0 +1,3 @@
+CLASS dqt net/minecraft/client/audio/GuardianAttackSoundInstance
+	FIELD n guardian Lapx;
+	METHOD ab_ tick ()V

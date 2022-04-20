@@ -1,0 +1,3 @@
+CLASS bat net/minecraft/item/ElytraItem
+	METHOD e isUsable (Lbbq;)Z
+		ARG 0 stack

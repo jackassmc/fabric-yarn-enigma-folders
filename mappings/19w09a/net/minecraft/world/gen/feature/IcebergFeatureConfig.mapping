@@ -1,0 +1,6 @@
+CLASS bxq net/minecraft/world/gen/feature/IcebergFeatureConfig
+	FIELD a state Lbre;
+	METHOD <init> (Lbre;)V
+		ARG 1 state
+	METHOD a deserialize (Lcom/mojang/datafixers/Dynamic;)Lbxq;
+		ARG 0 dynamic

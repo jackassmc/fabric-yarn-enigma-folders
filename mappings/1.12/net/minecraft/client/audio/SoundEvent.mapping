@@ -1,0 +1,32 @@
+CLASS cgh net/minecraft/client/audio/SoundEvent
+	FIELD a sound Lcgo;
+	FIELD b category Lqe;
+	FIELD c id Lnd;
+	FIELD d volume F
+	FIELD e pitch F
+	FIELD f x F
+	FIELD g y F
+	FIELD h z F
+	FIELD i repeat Z
+	FIELD j repeatDelay I
+	FIELD k attenuationType Lcgr$a;
+	FIELD l accessor Lcho;
+	METHOD <init> (Lnd;Lqe;)V
+		ARG 0 soundId
+		ARG 1 category
+	METHOD <init> (Lqc;Lqe;)V
+		ARG 0 sound
+		ARG 1 category
+	METHOD a getId ()Lnd;
+	METHOD a getAccess (Lchm;)Lcho;
+		ARG 0 loader
+	METHOD b getSound ()Lcgo;
+	METHOD c getCategory ()Lqe;
+	METHOD d isRepeatable ()Z
+	METHOD f getRepeatDelay ()I
+	METHOD g getVolume ()F
+	METHOD h getPitch ()F
+	METHOD i getX ()F
+	METHOD j getY ()F
+	METHOD k getZ ()F
+	METHOD l getAttenuationType ()Lcgr$a;

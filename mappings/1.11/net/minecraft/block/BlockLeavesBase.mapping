@@ -1,0 +1,42 @@
+CLASS aol net/minecraft/block/BlockLeavesBase
+	FIELD a DECAYABLE Latv;
+	FIELD b CHECK_DECAY Latv;
+	FIELD c fancyRender Z
+	METHOD a dropItems (Lajq;Lco;Latj;FI)V
+		ARG 0 world
+		ARG 1 pos
+		ARG 2 state
+		ARG 3 dropChance
+		ARG 4 fortune
+	METHOD a (Latj;Lajq;Lco;Ljava/util/Random;)V
+		ARG 0 state
+		ARG 1 world
+		ARG 2 pos
+		ARG 3 random
+	METHOD a shouldRenderSide (Latj;Laju;Lco;Lcv;)Z
+		ARG 0 state
+		ARG 1 view
+		ARG 2 pos
+		ARG 3 facing
+	METHOD a getDropItem (Latj;Ljava/util/Random;I)Lafg;
+		ARG 0 state
+		ARG 1 random
+		ARG 2 fortune
+	METHOD a getDropAmount (Ljava/util/Random;)I
+		ARG 0 random
+	METHOD b (Lajq;Lco;Latj;)V
+		ARG 0 world
+		ARG 1 pos
+		ARG 2 state
+	METHOD b randomTick (Lajq;Lco;Latj;Ljava/util/Random;)V
+		ARG 0 world
+		ARG 1 pos
+		ARG 2 state
+		ARG 3 random
+	METHOD b isFullBoundsCubeForCulling (Latj;)Z
+		ARG 0 state
+	METHOD b setFancyRender (Z)V
+		ARG 0 value
+	METHOD e getType (I)Lapl$a;
+		ARG 0 metadata
+	METHOD f getRenderLayer ()Laji;

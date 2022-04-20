@@ -1,0 +1,4 @@
+CLASS dfr net/minecraft/client/render/entity/EntityRendererLlama
+	FIELD a TEXTURES [Lpw;
+	METHOD a getTexture (Lafy;)Lpw;
+	METHOD a getTexture (Lame;)Lpw;

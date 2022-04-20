@@ -1,0 +1,7 @@
+CLASS none/ahw net/minecraft/enchantment/impl/EnchantmentLuck
+	METHOD <init> (Lnone/ahn$a;Lnone/aho;[Lnone/sk;)V
+		ARG 0 weight
+		ARG 2 slotTypes
+	METHOD a isEqual (Lnone/ahn;)Z
+		ARG 0 other
+	METHOD b getHighestLevel ()I

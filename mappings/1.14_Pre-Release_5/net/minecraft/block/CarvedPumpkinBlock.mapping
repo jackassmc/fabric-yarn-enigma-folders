@@ -1,0 +1,5 @@
+CLASS bmy net/minecraft/block/CarvedPumpkinBlock
+	FIELD a FACING Lbwe;
+	FIELD f IS_PUMPKIN_PREDICATE Ljava/util/function/Predicate;
+	METHOD <init> (Lbml$c;)V
+		ARG 1 settings

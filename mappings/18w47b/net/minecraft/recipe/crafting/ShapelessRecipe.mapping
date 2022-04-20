@@ -1,0 +1,26 @@
+CLASS aya net/minecraft/recipe/crafting/ShapelessRecipe
+	CLASS aya$a Serializer
+		METHOD a getId ()Ljava/lang/String;
+		METHOD a write (Liq;Laxu;)V
+			ARG 0 buf
+			ARG 1 recipe
+		METHOD a read (Lpy;Lcom/google/gson/JsonObject;)Laxu;
+			ARG 0 id
+			ARG 1 json
+		METHOD a read (Lpy;Liq;)Laxu;
+			ARG 0 id
+			ARG 1 buf
+	FIELD a id Lpy;
+	FIELD b group Ljava/lang/String;
+	FIELD c output Lavo;
+	FIELD d input Lfh;
+	METHOD a getSerializer ()Laxw;
+	METHOD a fits (II)Z
+		ARG 1 width
+	METHOD a craft (Laes;)Lavo;
+	METHOD a matches (Laes;Lban;)Z
+		ARG 1 inv
+	METHOD b getId ()Lpy;
+	METHOD d getOutput ()Lavo;
+	METHOD e getPreviewInputs ()Lfh;
+	METHOD f getGroup ()Ljava/lang/String;

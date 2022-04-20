@@ -1,0 +1,26 @@
+CLASS aop net/minecraft/entity/mob/CreeperEntity
+	FIELD a FUSE_SPEED Lpn;
+	FIELD bE fuse I
+	FIELD bF explosionRadius I
+	FIELD b CHARGED Lpn;
+	FIELD c IGNITED Lpn;
+	METHOD V_ update ()V
+	METHOD a setFuseSpeed (I)V
+	METHOD a dropEquipment (Lafo;IZ)V
+	METHOD a onStruckByLightning (Laof;)V
+	METHOD a interactMob (Laqg;Laey;)Z
+		ARG 1 player
+	METHOD a deserializeCustomData (Lhp;)V
+	METHOD b serializeCustomData (Lhp;)V
+	METHOD bp getSafeFallDistance ()I
+	METHOD c handleFallDamage (FF)V
+		ARG 1 fallDistance
+	METHOD cb initAttributes ()V
+	METHOD cw getSoundDeath ()Lxd;
+	METHOD dA getFuseSpeed ()I
+	METHOD dB getIgnited ()Z
+	METHOD dC setIgnited ()V
+	METHOD e getSoundHurt (Lafo;)Lxd;
+	METHOD l isCharged ()Z
+	METHOD n initAi ()V
+	METHOD y_ initDataTracker ()V

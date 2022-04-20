@@ -1,0 +1,3 @@
+CLASS dpx net/minecraft/client/render/entity/GiantEntityRenderer
+	FIELD a SKIN Lqt;
+	FIELD j scale F

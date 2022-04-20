@@ -1,0 +1,21 @@
+CLASS cew net/minecraft/client/audio/Sound
+	CLASS cew$a RegistrationType
+		FIELD a FILE Lcew$a;
+		FIELD b EVENT Lcew$a;
+		FIELD c name Ljava/lang/String;
+		METHOD a getByName (Ljava/lang/String;)Lcew$a;
+	FIELD a id Lmd;
+	FIELD b volume F
+	FIELD c pitch F
+	FIELD d weight I
+	FIELD e registrationType Lcew$a;
+	FIELD f stream Z
+	METHOD a getIdentifier ()Lmd;
+	METHOD b getLocation ()Lmd;
+	METHOD c getVolume ()F
+	METHOD d getPitch ()F
+	METHOD e getWeight ()I
+	METHOD f getSound ()Lcew;
+	METHOD g getRegistrationType ()Lcew$a;
+	METHOD h isStreamed ()Z
+	METHOD i getSound ()Ljava/lang/Object;

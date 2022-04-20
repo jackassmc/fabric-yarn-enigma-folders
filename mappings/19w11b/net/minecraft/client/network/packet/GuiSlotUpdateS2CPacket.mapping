@@ -1,0 +1,10 @@
+CLASS kz net/minecraft/client/network/packet/GuiSlotUpdateS2CPacket
+	FIELD a id I
+	FIELD b slot I
+	FIELD c itemStack Lbar;
+	METHOD <init> (IILbar;)V
+		ARG 1 id
+		ARG 2 slot
+	METHOD b getId ()I
+	METHOD c getSlot ()I
+	METHOD d getItemStack ()Lbar;

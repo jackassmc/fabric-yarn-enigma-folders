@@ -1,0 +1,5 @@
+CLASS atr net/minecraft/container/CraftingTableContainer
+	FIELD c craftingInv Latq;
+	FIELD d resultInv Laum;
+	FIELD e world Lato;
+	FIELD f player Larj;

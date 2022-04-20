@@ -1,0 +1,3 @@
+CLASS dev net/minecraft/client/render/entity/EntityRendererAreaEffectCloud
+	METHOD a getTexture (Laga;)Lpx;
+	METHOD a getTexture (Lagc;)Lpx;

@@ -1,0 +1,4 @@
+CLASS dgk net/minecraft/client/render/entity/EntityRendererShulkerBullet
+	FIELD a SKIN Lpw;
+	METHOD a getTexture (Lafy;)Lpw;
+	METHOD a getTexture (Laqk;)Lpw;

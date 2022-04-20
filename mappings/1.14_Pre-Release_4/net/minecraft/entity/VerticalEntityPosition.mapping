@@ -1,0 +1,7 @@
+CLASS cry net/minecraft/entity/VerticalEntityPosition
+	METHOD a minValue ()Lcry;
+	METHOD a fromEntity (Laie;)Lcry;
+		ARG 0 entity
+	METHOD a isAboveBlock (Lcsn;Lev;Z)Z
+		ARG 1 shape
+	METHOD b isSneaking ()Z

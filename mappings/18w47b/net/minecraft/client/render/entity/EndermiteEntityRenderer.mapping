@@ -1,0 +1,4 @@
+CLASS dfx net/minecraft/client/render/entity/EndermiteEntityRenderer
+	FIELD a SKIN Lpy;
+	METHOD a getTexture (Lagf;)Lpy;
+	METHOD b getTexture (Laou;)Lpy;

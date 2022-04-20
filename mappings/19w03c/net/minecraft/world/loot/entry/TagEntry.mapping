@@ -1,0 +1,11 @@
+CLASS ckk net/minecraft/world/loot/entry/TagEntry
+	CLASS ckk$1
+		METHOD a drop (Ljava/util/function/Consumer;Lcjo;)V
+			ARG 1 consumer
+	CLASS ckk$a Serializer
+		METHOD a toJson (Lcom/google/gson/JsonObject;Lckg;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD a toJson (Lcom/google/gson/JsonObject;Lckh;Lcom/google/gson/JsonSerializationContext;)V
+	FIELD c name Lyj;
+	FIELD h expand Z
+	METHOD a drop (Ljava/util/function/Consumer;Lcjo;)V
+	METHOD b create (Lyj;)Lckh$a;

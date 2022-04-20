@@ -1,0 +1,55 @@
+CLASS apz net/minecraft/entity/projectile/EntityProjectile
+	CLASS apz$a PickupType
+		FIELD a NO_PICKUP Lapz$a;
+		FIELD b PICKUP Lapz$a;
+		FIELD c CREATIVE_PICKUP Lapz$a;
+		METHOD a fromOrdinal (I)Lapz$a;
+	FIELD aA inBlockState Lbno;
+	FIELD aB life I
+	FIELD aD damage D
+	FIELD aF sound Lwz;
+	FIELD au COLLIDABLE_ENTITIES Ljava/util/function/Predicate;
+	FIELD av FLAGS Lpl;
+	FIELD aw PIERCE_LEVEL Lpl;
+	FIELD ax xTile I
+	FIELD ay yTile I
+	FIELD az zTIle I
+	FIELD b inGround Z
+	FIELD d pickupType Lapz$a;
+	FIELD e shake I
+	FIELD f ownerUuid Ljava/util/UUID;
+	METHOD S_ update ()V
+	METHOD a shouldRender (D)Z
+	METHOD a setPositionAndRotations (DDDFFIZ)V
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+	METHOD a setFlag (IZ)V
+		ARG 1 index
+	METHOD a setOwner (Lafy;)V
+	METHOD a onHit (Lagh;)V
+	METHOD a move (Lagm;DDD)V
+		ARG 2 x
+	METHOD a deserializeCustomData (Lho;)V
+	METHOD a setSound (Lwz;)V
+	METHOD a setCritical (Z)V
+	METHOD b setFlagByte (B)V
+	METHOD b serializeCustomData (Lho;)V
+	METHOD bH getEyeHeight ()F
+	METHOD c setDamage (D)V
+	METHOD c setVelocity (DDDFF)V
+		ARG 1 dirX
+		ARG 3 dirY
+	METHOD h setVelocityClient (DDD)V
+		ARG 1 x
+	METHOD i getSound ()Lwz;
+	METHOD k getOwner ()Lafy;
+	METHOD l asItemStack ()Lava;
+	METHOD m getDamage ()D
+	METHOD o isCritical ()Z
+	METHOD o setNoClip (Z)V
+	METHOD p isShotFromCrossbow ()Z
+	METHOD p setShotFromCrossbow (Z)V
+	METHOD q getPierceLevel ()B
+	METHOD s isNoClip ()Z
+	METHOD y_ initDataTracker ()V

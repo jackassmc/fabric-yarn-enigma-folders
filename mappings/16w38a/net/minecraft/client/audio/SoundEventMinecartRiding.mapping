@@ -1,0 +1,6 @@
+CLASS cab net/minecraft/client/audio/SoundEventMinecartRiding
+	FIELD m minecart Labk;
+	FIELD n distance F
+	METHOD <init> (Labk;)V
+		ARG 0 minecart
+	METHOD D_ update ()V

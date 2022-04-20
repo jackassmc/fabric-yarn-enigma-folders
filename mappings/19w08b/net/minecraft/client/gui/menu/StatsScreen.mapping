@@ -1,0 +1,3 @@
+CLASS cvr net/minecraft/client/gui/menu/StatsScreen
+	METHOD <init> (Lcvj;Lyj;)V
+		ARG 1 parent

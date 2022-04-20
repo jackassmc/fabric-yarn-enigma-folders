@@ -1,0 +1,4 @@
+CLASS bes net/minecraft/enchantment/LoyaltyEnchantment
+	METHOD <init> (Lbdz$a;[Laib;)V
+		ARG 1 weight
+		ARG 2 slotTypes

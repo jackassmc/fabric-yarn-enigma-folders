@@ -1,0 +1,3 @@
+CLASS aya net/minecraft/container/ContainerProvider
+	METHOD createMenu (ILauu;Lauv;)Laxa;
+		ARG 1 syncId

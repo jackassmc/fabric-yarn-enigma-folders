@@ -1,0 +1,5 @@
+CLASS dhv net/minecraft/client/render/model/json/MultipartModelSelector
+	FIELD a TRUE Ldhv;
+	FIELD b FALSE Ldhv;
+	METHOD getPredicate (Lbrf;)Ljava/util/function/Predicate;
+		ARG 1 stateFactory

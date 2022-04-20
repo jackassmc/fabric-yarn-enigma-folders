@@ -1,0 +1,6 @@
+CLASS boj net/minecraft/block/entity/BedBlockEntity
+	FIELD a color Lavz;
+	METHOD a toUpdatePacket ()Lkc;
+	METHOD a setColor (Lavz;)V
+		ARG 1 color
+	METHOD c getColor ()Lavz;

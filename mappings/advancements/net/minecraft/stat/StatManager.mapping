@@ -1,0 +1,5 @@
+CLASS pq net/minecraft/stat/StatManager
+	FIELD a stats Ljava/util/Map;
+	METHOD a set (Lacu;Lpl;I)V
+	METHOD a get (Lpl;)I
+	METHOD b increase (Lacu;Lpl;I)V

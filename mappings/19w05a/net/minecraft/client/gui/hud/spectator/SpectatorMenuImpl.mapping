@@ -1,0 +1,2 @@
+CLASS cyd net/minecraft/client/gui/hud/spectator/SpectatorMenuImpl
+	METHOD a selectElement (Lcye;)V

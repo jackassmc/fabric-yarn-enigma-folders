@@ -1,0 +1,5 @@
+CLASS cir net/minecraft/structure/processor/BlockIgnoreStructureProcessor
+	FIELD a IGNORE_STRUCTURE_BLOCKS Lcir;
+	FIELD b IGNORE_AIR Lcir;
+	FIELD c IGNORE_AIR_AND_STRUCTURE_BLOCKS Lcir;
+	FIELD d blocks Lcom/google/common/collect/ImmutableList;

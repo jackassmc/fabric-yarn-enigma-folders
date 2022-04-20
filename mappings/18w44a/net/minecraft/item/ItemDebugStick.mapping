@@ -1,0 +1,7 @@
+CLASS atp net/minecraft/item/ItemDebugStick
+	METHOD <init> (Lauq$a;)V
+		ARG 1 builder
+	METHOD a activate (Lawi;)Laeq;
+		ARG 1 context
+	METHOD e_ hasEnchantmentGlow (Lauv;)Z
+		ARG 1 stack

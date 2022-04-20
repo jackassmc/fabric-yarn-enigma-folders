@@ -1,0 +1,14 @@
+CLASS cfu net/minecraft/fluid/BaseFluid
+	FIELD a FALLING Lbrc;
+	FIELD b LEVEL Lbrk;
+	METHOD a (IZ)Lcfw;
+		ARG 1 level
+		ARG 2 still
+	METHOD a (Lbcp;Let;Lbqk;)Lcfw;
+		ARG 1 world
+		ARG 2 pos
+		ARG 3 state
+	METHOD a getState (Z)Lcfw;
+		ARG 1 still
+	METHOD e getFlowing ()Lcfv;
+	METHOD f getStill ()Lcfv;

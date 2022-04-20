@@ -1,0 +1,8 @@
+CLASS bld net/minecraft/block/OreBlock
+	METHOD <init> (Lbhl$c;)V
+		ARG 1 settings
+	METHOD a onStacksDropped (Lbqi;Lbci;Let;Laxc;)V
+		ARG 1 state
+		ARG 2 world
+		ARG 3 pos
+		ARG 4 stack

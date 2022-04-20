@@ -1,0 +1,11 @@
+CLASS hq net/minecraft/nbt/AbstractListTag
+	METHOD a setTag (ILii;)Z
+		ARG 1 index
+	METHOD b addTag (ILii;)Z
+		ARG 1 index
+	METHOD c remove (I)Lii;
+	METHOD c add (ILii;)V
+		ARG 1 index
+	METHOD d set (ILii;)Lii;
+	METHOD set (ILjava/lang/Object;)Ljava/lang/Object;
+		ARG 1 index

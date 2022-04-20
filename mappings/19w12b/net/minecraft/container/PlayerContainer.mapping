@@ -1,0 +1,10 @@
+CLASS axx net/minecraft/container/PlayerContainer
+	FIELD c local Z
+	FIELD d EMPTY_ARMOR_SLOT_IDS [Ljava/lang/String;
+	FIELD e EQUIPMENT_SLOT_ORDER [Laid;
+	FIELD f invCrafting Laxm;
+	FIELD g invCraftingResult Layi;
+	FIELD h owner Lauv;
+	METHOD <init> (Lauu;ZLauv;)V
+		ARG 1 inventory
+		ARG 2 local

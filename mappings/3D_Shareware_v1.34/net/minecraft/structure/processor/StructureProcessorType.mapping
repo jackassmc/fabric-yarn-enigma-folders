@@ -1,0 +1,4 @@
+CLASS civ net/minecraft/structure/processor/StructureProcessorType
+	METHOD a register (Ljava/lang/String;Lciv;)Lciv;
+		ARG 0 id
+		ARG 1 processor

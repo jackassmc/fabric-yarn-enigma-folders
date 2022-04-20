@@ -1,0 +1,60 @@
+CLASS aqp net/minecraft/entity/projectile/ProjectileEntity
+	CLASS aqp$a PickupType
+		FIELD a NO_PICKUP Laqp$a;
+		FIELD b PICKUP Laqp$a;
+		FIELD c CREATIVE_PICKUP Laqp$a;
+		METHOD a fromOrdinal (I)Laqp$a;
+	FIELD aA xTile I
+	FIELD aB yTile I
+	FIELD aC zTIle I
+	FIELD aD inBlockState Lbom;
+	FIELD aE life I
+	FIELD aG damage D
+	FIELD aI sound Lxg;
+	FIELD ax COLLIDABLE_ENTITIES Ljava/util/function/Predicate;
+	FIELD ay FLAGS Lpo;
+	FIELD az PIERCE_LEVEL Lpo;
+	FIELD b inGround Z
+	FIELD d pickupType Laqp$a;
+	FIELD e shake I
+	FIELD f ownerUuid Ljava/util/UUID;
+	METHOD <init> (Lago;Lbas;)V
+		ARG 1 type
+	METHOD T_ update ()V
+	METHOD a shouldRenderAtDistance (D)Z
+	METHOD a setPositionAndRotations (DDDFFIZ)V
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+	METHOD a setFlag (IZ)V
+		ARG 1 index
+	METHOD a setOwner (Lagk;)V
+	METHOD a onHit (Lagt;)V
+	METHOD a move (Lagy;DDD)V
+		ARG 1 type
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z
+	METHOD a readCustomDataFromTag (Lhq;)V
+	METHOD a setSound (Lxg;)V
+	METHOD a setCritical (Z)V
+	METHOD b setFlagByte (B)V
+	METHOD b writeCustomDataToTag (Lhq;)V
+	METHOD bG getEyeHeight ()F
+	METHOD c setDamage (D)V
+	METHOD c setVelocity (DDDFF)V
+		ARG 1 dirX
+		ARG 3 dirY
+	METHOD h setVelocityClient (DDD)V
+		ARG 1 x
+	METHOD k getSound ()Lxg;
+	METHOD l getOwner ()Lagk;
+	METHOD m asItemStack ()Lavu;
+	METHOD n getDamage ()D
+	METHOD o setNoClip (Z)V
+	METHOD p ()Z
+	METHOD p setShotFromCrossbow (Z)V
+	METHOD q isShotFromCrossbow ()Z
+	METHOD r getPierceLevel ()B
+	METHOD t isNoClip ()Z
+	METHOD y_ initDataTracker ()V

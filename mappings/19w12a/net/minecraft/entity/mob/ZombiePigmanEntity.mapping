@@ -1,0 +1,4 @@
+CLASS atm net/minecraft/entity/mob/ZombiePigmanEntity
+	FIELD bA anger I
+	FIELD bC angerTarget Ljava/util/UUID;
+	METHOD a copyEntityData (Lahy;)V

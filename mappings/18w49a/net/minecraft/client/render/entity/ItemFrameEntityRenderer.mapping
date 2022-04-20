@@ -1,0 +1,8 @@
+CLASS dhw net/minecraft/client/render/entity/ItemFrameEntityRenderer
+	FIELD a MAP_BACKGROUND_TEX Lpz;
+	FIELD h client Lcof;
+	FIELD i itemRenderer Ldhx;
+	METHOD <init> (Ldhc;Ldhx;)V
+		ARG 1 renderManager
+	METHOD a getTexture (Lagk;)Lpz;
+	METHOD a getTexture (Laoc;)Lpz;

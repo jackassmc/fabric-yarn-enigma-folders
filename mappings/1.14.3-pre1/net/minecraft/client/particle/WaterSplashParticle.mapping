@@ -1,0 +1,2 @@
+CLASS dji net/minecraft/client/particle/WaterSplashParticle
+	CLASS dji$a SplashFactory

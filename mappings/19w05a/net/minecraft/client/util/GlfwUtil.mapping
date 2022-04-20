@@ -1,0 +1,2 @@
+CLASS coc net/minecraft/client/util/GlfwUtil
+	METHOD b getTime ()D

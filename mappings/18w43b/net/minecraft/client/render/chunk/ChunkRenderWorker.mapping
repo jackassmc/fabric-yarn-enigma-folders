@@ -1,0 +1,13 @@
+CLASS dab net/minecraft/client/render/chunk/ChunkRenderWorker
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD b batcher Ldaa;
+	FIELD d running Z
+	METHOD <init> (Ldaa;)V
+		ARG 0 batcher
+	METHOD <init> (Ldaa;Lcxj;)V
+		ARG 0 batcher
+		ARG 1 vertexBuffer
+	METHOD a stop ()V
+	METHOD a runTask (Lczz;)V
+		ARG 0 chunkRenderDataTask
+	METHOD run ()V

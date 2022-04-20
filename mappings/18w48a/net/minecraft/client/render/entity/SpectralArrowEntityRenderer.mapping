@@ -1,0 +1,4 @@
+CLASS dir net/minecraft/client/render/entity/SpectralArrowEntityRenderer
+	FIELD a SKIN Lpy;
+	METHOD a getTexture (Lagi;)Lpy;
+	METHOD a getTexture (Larb;)Lpy;

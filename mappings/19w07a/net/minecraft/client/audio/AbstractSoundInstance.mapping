@@ -1,0 +1,17 @@
+CLASS drl net/minecraft/client/audio/AbstractSoundInstance
+	FIELD a sound Ldru;
+	FIELD b category Lxz;
+	FIELD c id Lqh;
+	FIELD d volume F
+	FIELD e pitch F
+	FIELD f x F
+	FIELD g y F
+	FIELD h z F
+	FIELD i repeat Z
+	FIELD j repeatDelay I
+	FIELD k attenuationType Ldrx$a;
+	FIELD m accessor Ldsu;
+	METHOD <init> (Lqh;Lxz;)V
+		ARG 1 soundId
+	METHOD <init> (Lxx;Lxz;)V
+		ARG 1 sound

@@ -1,0 +1,6 @@
+CLASS bpn net/minecraft/block/enums/WireConnection
+	FIELD a UP Lbpn;
+	FIELD b SIDE Lbpn;
+	FIELD c NONE Lbpn;
+	FIELD d name Ljava/lang/String;
+	METHOD m asString ()Ljava/lang/String;

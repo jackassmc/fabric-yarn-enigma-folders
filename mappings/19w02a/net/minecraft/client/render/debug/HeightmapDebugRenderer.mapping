@@ -1,0 +1,3 @@
+CLASS dig net/minecraft/client/render/debug/HeightmapDebugRenderer
+	FIELD a client Lcpz;
+	METHOD a render (FJ)V

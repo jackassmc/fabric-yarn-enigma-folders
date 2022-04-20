@@ -1,0 +1,3 @@
+CLASS brm net/minecraft/block/SmokerBlock
+	METHOD <init> (Lbmn$c;)V
+		ARG 1 settings

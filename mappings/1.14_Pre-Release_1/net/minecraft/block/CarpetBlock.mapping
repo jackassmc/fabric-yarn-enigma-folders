@@ -1,0 +1,4 @@
+CLASS bsv net/minecraft/block/CarpetBlock
+	FIELD a SHAPE Lcsi;
+	FIELD b color Lbar;
+	METHOD d getColor ()Lbar;

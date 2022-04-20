@@ -1,0 +1,15 @@
+CLASS dez net/minecraft/client/render/entity/model/PlayerEntityModel
+	FIELD a leftArmOverlay Ldgp;
+	FIELD b rightArmOverlay Ldgp;
+	FIELD t leftLegOverlay Ldgp;
+	FIELD u rightLegOverlay Ldgp;
+	FIELD v bodyOverlay Ldgp;
+	FIELD w cape Ldgp;
+	FIELD x ears Ldgp;
+	FIELD y thinArms Z
+	METHOD <init> (FZ)V
+		ARG 1 scale
+	METHOD a renderEars (F)V
+		ARG 1 scale
+	METHOD b renderCape (F)V
+		ARG 1 scale

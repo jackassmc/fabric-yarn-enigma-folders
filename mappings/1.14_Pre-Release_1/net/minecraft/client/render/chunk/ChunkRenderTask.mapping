@@ -1,0 +1,32 @@
+CLASS dmq net/minecraft/client/render/chunk/ChunkRenderTask
+	CLASS dmq$a Stage
+	CLASS dmq$b Mode
+	FIELD a chunkRenderer Ldmv;
+	FIELD b lock Ljava/util/concurrent/locks/ReentrantLock;
+	FIELD c runnables Ljava/util/List;
+	FIELD d mode Ldmq$b;
+	FIELD e distanceToPlayerSquared D
+	FIELD f worldView Ldmx;
+	FIELD g bufferBuilder Ldjs;
+	FIELD h renderData Ldmt;
+	FIELD i stage Ldmq$a;
+	FIELD j cancelled Z
+	METHOD <init> (Ldmv;Ldmq$b;DLdmx;)V
+		ARG 1 chunkRenderer
+		ARG 2 mode
+		ARG 3 distanceToPlayerSquared
+	METHOD a getStage ()Ldmq$a;
+	METHOD a setBufferBuilders (Ldjs;)V
+	METHOD a setStage (Ldmq$a;)V
+	METHOD a setRenderData (Ldmt;)V
+		ARG 1 renderData
+	METHOD a add (Ljava/lang/Runnable;)V
+	METHOD b getChunkRenderer ()Ldmv;
+	METHOD c getAndInvalidateWorldView ()Ldmx;
+	METHOD d getRenderData ()Ldmt;
+	METHOD e getBufferBuilders ()Ldjs;
+	METHOD f cancel ()V
+	METHOD g getLock ()Ljava/util/concurrent/locks/ReentrantLock;
+	METHOD h getMode ()Ldmq$b;
+	METHOD i isCancelled ()Z
+	METHOD j getDistanceToPlayerSquared ()D

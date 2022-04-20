@@ -1,0 +1,22 @@
+CLASS auh net/minecraft/entity/mob/GhastEntity
+	CLASS a LookAtTargetGoal
+		FIELD a ghast Lauh;
+		METHOD <init> (Lauh;)V
+			ARG 1 ghast
+	CLASS b GhastMoveControl
+		FIELD i ghast Lauh;
+	CLASS c ShootFireballGoal
+		FIELD a cooldown I
+		FIELD b ghast Lauh;
+		METHOD <init> (Lauh;)V
+			ARG 1 ghast
+	CLASS d FlyRandomlyGoal
+		FIELD a ghast Lauh;
+		METHOD <init> (Lauh;)V
+			ARG 1 ghast
+	FIELD b SHOOTING Lqi;
+	FIELD c fireballStrength I
+	METHOD dU getFireballStrength ()I
+	METHOD l isShooting ()Z
+	METHOD r setShooting (Z)V
+		ARG 1 shooting

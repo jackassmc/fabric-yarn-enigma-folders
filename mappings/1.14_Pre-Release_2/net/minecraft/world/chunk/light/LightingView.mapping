@@ -1,0 +1,7 @@
+CLASS ckk net/minecraft/world/chunk/light/LightingView
+	METHOD a updateSectionStatus (Lev;Z)V
+		ARG 1 pos
+		ARG 2 status
+	METHOD a updateSectionStatus (Lfo;Z)V
+		ARG 1 pos
+		ARG 2 status

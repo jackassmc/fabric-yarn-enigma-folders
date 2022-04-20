@@ -1,0 +1,3 @@
+CLASS biv net/minecraft/block/CoralBlock
+	FIELD a SHAPE Lcnt;
+	FIELD c deadCoralBlock Lbhv;

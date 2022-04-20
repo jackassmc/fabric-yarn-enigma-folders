@@ -1,0 +1,5 @@
+CLASS awh net/minecraft/entity/vehicle/CommandBlockMinecartEntity
+	FIELD b COMMAND Lqe;
+	FIELD c LAST_OUTPUT Lqe;
+	FIELD d commandExecutor Lbfe;
+	METHOD v getCommandExecutor ()Lbfe;

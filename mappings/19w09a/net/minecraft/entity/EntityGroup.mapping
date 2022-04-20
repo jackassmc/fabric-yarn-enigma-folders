@@ -1,0 +1,6 @@
+CLASS ahz net/minecraft/entity/EntityGroup
+	FIELD a DEFAULT Lahz;
+	FIELD b UNDEAD Lahz;
+	FIELD c ARTHROPOD Lahz;
+	FIELD d ILLAGER Lahz;
+	FIELD e AQUATIC Lahz;

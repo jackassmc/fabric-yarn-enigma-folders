@@ -1,0 +1,10 @@
+CLASS coo net/minecraft/world/loot/entry/AlternativeEntry
+	CLASS coo$a Builder
+		FIELD a children Ljava/util/List;
+		METHOD <init> ([Lcox$a;)V
+			ARG 1 children
+	METHOD a ([Lcop;Lcoe;Ljava/util/function/Consumer;)Z
+		ARG 1 context
+		ARG 2 lootChoiceExpander
+	METHOD a builder ([Lcox$a;)Lcoo$a;
+		ARG 0 children

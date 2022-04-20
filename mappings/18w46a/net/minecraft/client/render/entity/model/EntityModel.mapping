@@ -1,0 +1,29 @@
+CLASS cwe net/minecraft/client/render/entity/model/EntityModel
+	FIELD a textureMap Ljava/util/Map;
+	FIELD n swingProgress F
+	FIELD o isRiding Z
+	FIELD p isChild Z
+	FIELD q boxes Ljava/util/List;
+	FIELD r textureWidth I
+	FIELD s textureHeight I
+	METHOD a setRotationAngles (FFFFFFLagc;)V
+		ARG 1 limbMoveAngle
+		ARG 2 limbMoveAmount
+		ARG 3 age
+		ARG 4 headYaw
+		ARG 5 headPitch
+		ARG 6 scale
+	METHOD a render (Lagc;FFFFFF)V
+	METHOD a animateModel (Lagl;FFF)V
+		ARG 1 entity
+		ARG 2 swingAmount
+		ARG 3 swingDelta
+	METHOD a setAttributes (Lcwe;)V
+	METHOD a copyAngles (Lcya;Lcya;)V
+		ARG 0 original
+		ARG 1 copy
+	METHOD a getTextureOffset (Ljava/lang/String;)Lcyb;
+	METHOD a setTextureOffset (Ljava/lang/String;II)V
+		ARG 1 id
+		ARG 2 x
+	METHOD a getRandomBox (Ljava/util/Random;)Lcya;

@@ -1,0 +1,10 @@
+CLASS auy net/minecraft/item/BowItem
+	METHOD a onItemStopUsing (Lawo;Lbbp;Lahe;I)V
+		ARG 1 stack
+		ARG 2 world
+		ARG 3 player
+	METHOD a use (Lbbp;Larb;Lafo;)Lafr;
+		ARG 1 world
+		ARG 2 player
+	METHOD b getMaxUseTime (Lawo;)I
+	METHOD c getUseAction (Lawo;)Laya;

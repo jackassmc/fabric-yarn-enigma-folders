@@ -1,0 +1,8 @@
+CLASS axs net/minecraft/recipe/crafting/BookCloningRecipe
+	METHOD a getSerializer ()Layc;
+	METHOD a fits (II)Z
+		ARG 1 width
+	METHOD a craft (Laex;)Lavu;
+	METHOD a matches (Laex;Lbas;)Z
+		ARG 1 inv
+	METHOD b getRemainingStacks (Laex;)Lfh;

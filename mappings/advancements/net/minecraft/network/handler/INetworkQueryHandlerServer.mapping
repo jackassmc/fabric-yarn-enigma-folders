@@ -1,0 +1,3 @@
+CLASS lt net/minecraft/network/handler/INetworkQueryHandlerServer
+	METHOD a onQueryPing (Llu;)V
+	METHOD a onQueryRequest (Llv;)V

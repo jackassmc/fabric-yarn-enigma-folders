@@ -1,0 +1,8 @@
+CLASS ahg net/minecraft/entity/passive/PassiveEntity
+	FIELD bC CHILD Lps;
+	FIELD b breedingAge I
+	METHOD <init> (Lahm;Lbcu;)V
+		ARG 1 type
+	METHOD a createChild (Lahg;)Lahg;
+	METHOD b_ setBreedingAge (I)V
+	METHOD i getBreedingAge ()I

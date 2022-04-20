@@ -1,0 +1,38 @@
+CLASS atc net/minecraft/container/BrewingStandContainer
+	CLASS atc$a SlotFuel
+		METHOD <init> (Lafi;III)V
+			ARG 1 invSlot
+			ARG 2 xPosition
+			ARG 3 <Position
+		METHOD a getMaxStackAmount ()I
+		METHOD a canInsert (Lawo;)Z
+		METHOD b_ matches (Lawo;)Z
+	CLASS atc$b SlotIngredient
+		METHOD <init> (Lafi;III)V
+			ARG 1 invSlot
+			ARG 2 xPosition
+			ARG 3 <Position
+		METHOD a getMaxStackAmount ()I
+		METHOD a canInsert (Lawo;)Z
+	CLASS atc$c SlotPotion
+		METHOD <init> (Lafi;III)V
+			ARG 1 invSlot
+			ARG 2 xPosition
+			ARG 3 <Position
+		METHOD a getMaxStackAmount ()I
+		METHOD a onTakeItem (Larb;Lawo;)Lawo;
+			ARG 1 stack
+		METHOD a canInsert (Lawo;)Z
+		METHOD c_ matches (Lawo;)Z
+	FIELD a inventory Lafi;
+	FIELD f slotIngredient Laud;
+	METHOD <init> (Lara;Lafi;)V
+		ARG 1 playerInv
+	METHOD a canUse (Larb;)Z
+	METHOD a addListener (Latf;)V
+		ARG 1 listener
+	METHOD b sendContentUpdates ()V
+	METHOD b setProperty (II)V
+		ARG 1 pos
+	METHOD b transferSlot (Larb;I)Lawo;
+		ARG 1 player

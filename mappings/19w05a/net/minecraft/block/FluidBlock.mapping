@@ -1,0 +1,3 @@
+CLASS bkx net/minecraft/block/FluidBlock
+	FIELD b fluid Lcfz;
+	FIELD c statesByLevel Ljava/util/List;

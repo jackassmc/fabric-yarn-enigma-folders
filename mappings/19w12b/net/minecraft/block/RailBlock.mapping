@@ -1,0 +1,4 @@
+CLASS bph net/minecraft/block/RailBlock
+	FIELD c SHAPE Lbvc;
+	METHOD <init> (Lblg$c;)V
+		ARG 1 settings

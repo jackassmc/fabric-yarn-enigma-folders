@@ -1,0 +1,6 @@
+CLASS bdj net/minecraft/item/ToolItem
+	FIELD a material Lbdi;
+	METHOD <init> (Lbdi;Lbbz$a;)V
+		ARG 1 material
+		ARG 2 settings
+	METHOD e getMaterial ()Lbdi;

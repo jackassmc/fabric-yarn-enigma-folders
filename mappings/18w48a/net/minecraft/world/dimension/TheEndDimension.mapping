@@ -1,0 +1,6 @@
+CLASS brh net/minecraft/world/dimension/TheEndDimension
+	METHOD <init> (Lbaq;Lbrc;)V
+		ARG 1 world
+	METHOD d getForcedSpawnPoint ()Let;
+	METHOD n hasVisibleSky ()Z
+	METHOD p getType ()Lbrc;

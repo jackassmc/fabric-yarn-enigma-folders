@@ -1,0 +1,51 @@
+CLASS bcp net/minecraft/world/ViewableWorld
+	METHOD C getChunk (Let;)Lbry;
+		ARG 1 pos
+	METHOD D isWaterAt (Let;)Z
+		ARG 1 pos
+	METHOD F isBlockLoaded (Let;)Z
+	METHOD a getClosestPlayer (DDDDLjava/util/function/Predicate;)Larj;
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+	METHOD a getClosestPlayer (DDDDZ)Larj;
+	METHOD a getChunk (II)Lbry;
+		ARG 1 chunkX
+		ARG 2 chunkZ
+	METHOD a isAreaLoaded (IIIIII)Z
+		ARG 1 minX
+		ARG 2 minY
+		ARG 3 minZ
+		ARG 4 maxX
+	METHOD a getChunk (IILbsd;)Lbry;
+		ARG 1 chunkX
+		ARG 2 chunkZ
+		ARG 3 requiredState
+	METHOD a getChunk (IILbsd;Z)Lbry;
+		ARG 1 chunkX
+		ARG 2 chunkZ
+		ARG 3 status
+		ARG 4 create
+	METHOD a getClosestPlayer (Lahc;D)Larj;
+	METHOD a getTop (Lbtq$a;II)I
+		ARG 1 type
+		ARG 2 x
+	METHOD a getTopPosition (Lbtq$a;Let;)Let;
+		ARG 1 type
+	METHOD a getLightLevel (Let;I)I
+	METHOD a isAreaLoaded (Let;Let;)Z
+		ARG 1 min
+		ARG 2 max
+	METHOD a getEmittedStrongRedstonePower (Let;Ley;)I
+		ARG 1 pos
+	METHOD b isChunkLoaded (II)Z
+	METHOD b getClosestSurvivalPlayer (Lahc;D)Larj;
+	METHOD c getAmbientDarkness ()I
+	METHOD d (Let;I)I
+		ARG 2 darkness
+	METHOD i getSeaLevel ()I
+	METHOD m getDimension ()Lbtc;
+	METHOD o_ isClient ()Z
+	METHOD r_ getWorldBorder ()Lbrw;
+	METHOD z isAir (Let;)Z
+		ARG 1 pos

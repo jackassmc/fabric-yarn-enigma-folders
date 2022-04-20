@@ -1,0 +1,13 @@
+CLASS cui net/minecraft/client/render/entity/model/EntityModelZombie
+	METHOD <init> (FFII)V
+		ARG 0 scale
+		ARG 2 textureWidth
+		ARG 3 textureHeight
+	METHOD a setRotationAngles (FFFFFFLafh;)V
+		ARG 0 limbMoveAngle
+		ARG 1 limbMoveAmount
+		ARG 2 age
+		ARG 3 headYaw
+		ARG 4 headPitch
+		ARG 5 scale
+		ARG 6 entity

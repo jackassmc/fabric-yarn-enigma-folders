@@ -1,0 +1,33 @@
+CLASS avi net/minecraft/container/Slot
+	FIELD a invSlot I
+	FIELD d inventory Laga;
+	FIELD e id I
+	FIELD f xPosition I
+	FIELD g yPosition I
+	METHOD <init> (Laga;III)V
+		ARG 2 invSlot
+		ARG 3 xPosition
+		ARG 4 yPosition
+	METHOD a getMaxStackAmount ()I
+	METHOD a takeStack (I)Laxx;
+		ARG 1 amount
+	METHOD a canTakeItems (Larz;)Z
+	METHOD a onTakeItem (Larz;Laxx;)Laxx;
+		ARG 1 stack
+	METHOD a canInsert (Laxx;)Z
+	METHOD a onCrafted (Laxx;I)V
+		ARG 1 stack
+		ARG 2 amount
+	METHOD a onStackChanged (Laxx;Laxx;)V
+		ARG 1 originalItem
+	METHOD b doDrawHoveringEffect ()Z
+	METHOD b onTake (I)V
+		ARG 1 amount
+	METHOD b getMaxStackAmount (Laxx;)I
+	METHOD c getBackgroundSprite ()Ljava/lang/String;
+	METHOD c onCrafted (Laxx;)V
+		ARG 1 stack
+	METHOD d markDirty ()V
+	METHOD d setStack (Laxx;)V
+	METHOD e getStack ()Laxx;
+	METHOD f hasStack ()Z

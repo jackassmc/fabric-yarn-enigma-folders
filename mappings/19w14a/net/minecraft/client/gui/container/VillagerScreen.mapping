@@ -1,0 +1,4 @@
+CLASS daw net/minecraft/client/gui/container/VillagerScreen
+	CLASS daw$a WidgetButtonPage
+	FIELD k TEXTURE Lqr;
+	METHOD b syncRecipeIndex ()V

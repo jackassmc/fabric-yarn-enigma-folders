@@ -1,0 +1,9 @@
+CLASS blu net/minecraft/block/ConcretePowderBlock
+	FIELD a hardenedState Lbtw;
+	METHOD <init> (Lbky;Lbky$c;)V
+		ARG 1 hardened
+	METHOD a hardensOnAnySide (Lbfi;Leu;)Z
+		ARG 0 view
+		ARG 1 pos
+	METHOD r hardensIn (Lbtw;)Z
+		ARG 0 state

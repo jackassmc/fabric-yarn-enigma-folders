@@ -1,0 +1,12 @@
+CLASS cnc net/minecraft/world/timer/TimerCallbackSerializer
+	FIELD a INSTANCE Lcnc;
+	FIELD b LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD c serializersByType Ljava/util/Map;
+	FIELD d serializersByClass Ljava/util/Map;
+	METHOD a registerSerializer (Lcnb$a;)Lcnc;
+		ARG 1 serializer
+	METHOD a serialize (Lcnb;)Lhx;
+		ARG 1 callback
+	METHOD a deserialize (Lhx;)Lcnb;
+		ARG 1 tag
+	METHOD a getSerializer (Ljava/lang/Class;)Lcnb$a;

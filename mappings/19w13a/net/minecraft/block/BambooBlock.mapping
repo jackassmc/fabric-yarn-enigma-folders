@@ -1,0 +1,9 @@
+CLASS blg net/minecraft/block/BambooBlock
+	FIELD a SMALL_LEAVES_SHAPE Lcsa;
+	FIELD b LARGE_LEAVES_SHAPE Lcsa;
+	FIELD c NO_LEAVES_SHAPE Lcsa;
+	FIELD d AGE Lbvw;
+	FIELD e LEAVES Lbvu;
+	FIELD f STAGE Lbvw;
+	METHOD <init> (Lbly$c;)V
+		ARG 1 settings

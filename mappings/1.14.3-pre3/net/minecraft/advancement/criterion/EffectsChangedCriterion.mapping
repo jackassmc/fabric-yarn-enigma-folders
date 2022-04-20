@@ -1,0 +1,15 @@
+CLASS ao net/minecraft/advancement/criterion/EffectsChangedCriterion
+	CLASS ao$a Handler
+		FIELD a manager Lrc;
+		FIELD b conditions Ljava/util/Set;
+		METHOD a isEmpty ()Z
+		METHOD a handle (Lvj;)V
+		METHOD a addCondition (Lx$a;)V
+		METHOD b removeCondition (Lx$a;)V
+	CLASS ao$b Conditions
+		FIELD a effects Lbj;
+		METHOD a create (Lbj;)Lao$b;
+		METHOD a matches (Lvj;)Z
+	FIELD a ID Lqt;
+	FIELD b handlers Ljava/util/Map;
+	METHOD a handle (Lvj;)V

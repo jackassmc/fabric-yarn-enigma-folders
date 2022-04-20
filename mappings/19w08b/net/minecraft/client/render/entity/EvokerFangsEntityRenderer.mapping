@@ -1,0 +1,6 @@
+CLASS dle net/minecraft/client/render/entity/EvokerFangsEntityRenderer
+	FIELD f model Ldam;
+	METHOD a (Lash;DDDFF)V
+		ARG 1 model
+		ARG 2 x
+		ARG 4 y

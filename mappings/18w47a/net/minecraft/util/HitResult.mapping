@@ -1,0 +1,20 @@
+CLASS ckd net/minecraft/util/HitResult
+	CLASS ckd$a Type
+		FIELD a NONE Lckd$a;
+		FIELD b BLOCK Lckd$a;
+		FIELD c ENTITY Lckd$a;
+	FIELD a type Lckd$a;
+	FIELD b side Lex;
+	FIELD c pos Lckg;
+	FIELD d entity Lage;
+	FIELD e blockPos Les;
+	METHOD <init> (Lage;Lckg;)V
+		ARG 1 entity
+	METHOD <init> (Lckd$a;Lckg;Lex;Les;)V
+		ARG 1 type
+		ARG 2 pos
+		ARG 3 side
+	METHOD <init> (Lckg;Lex;Les;)V
+		ARG 1 pos
+		ARG 2 side
+	METHOD a getBlockPos ()Les;

@@ -1,0 +1,6 @@
+CLASS bkn net/minecraft/block/SnowyBlock
+	FIELD a snowy Lboy;
+	METHOD a getPlacementState (Lats;)Lboh;
+	METHOD a getRenderingState (Lboh;Ley;Lboh;Lbao;Let;Let;)Lboh;
+		ARG 1 state
+	METHOD a appendProperties (Lboi$a;)V

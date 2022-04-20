@@ -1,0 +1,2 @@
+CLASS bcp net/minecraft/item/ItemProvider
+	METHOD h getItem ()Laxd;

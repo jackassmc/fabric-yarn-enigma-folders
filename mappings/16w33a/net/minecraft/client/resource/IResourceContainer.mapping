@@ -1,0 +1,6 @@
+CLASS none/bya net/minecraft/client/resource/IResourceContainer
+	METHOD a getProvidedAssets ()Ljava/util/Set;
+	METHOD a getResource (Lnone/kp;)Lnone/bxz;
+		ARG 0 id
+	METHOD b getAllResources (Lnone/kp;)Ljava/util/List;
+		ARG 0 id

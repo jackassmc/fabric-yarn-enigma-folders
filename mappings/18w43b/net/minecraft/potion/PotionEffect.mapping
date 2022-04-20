@@ -1,0 +1,49 @@
+CLASS afa net/minecraft/potion/PotionEffect
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD b type Laez;
+	FIELD c duration I
+	FIELD d amplifier I
+	FIELD e splash Z
+	FIELD f ambient Z
+	FIELD g permanent Z
+	FIELD h showParticles Z
+	METHOD <init> (Laez;)V
+		ARG 0 type
+	METHOD <init> (Laez;I)V
+		ARG 0 type
+		ARG 1 duration
+	METHOD <init> (Laez;II)V
+		ARG 0 type
+		ARG 1 duration
+		ARG 2 amplifier
+	METHOD <init> (Laez;IIZZZ)V
+		ARG 0 type
+		ARG 1 duration
+		ARG 2 amplifier
+		ARG 5 showParticles
+	METHOD <init> (Lafa;)V
+		ARG 0 other
+	METHOD a getEffectType ()Laez;
+	METHOD a upgrade (Lafa;)Z
+		ARG 0 other
+	METHOD a update (Lafq;)Z
+		ARG 0 entity
+	METHOD a serialize (Lhl;)Lhl;
+		ARG 0 tag
+	METHOD b getDuration ()I
+	METHOD b compareTo (Lafa;)I
+		ARG 0 other
+	METHOD b applyUpdateEffect (Lafq;)V
+		ARG 0 update
+	METHOD b deserialize (Lhl;)Lafa;
+		ARG 0 tag
+	METHOD b setPermanent (Z)V
+		ARG 0 value
+	METHOD c getAmplifier ()I
+	METHOD d isAmbient ()Z
+	METHOD e shouldShowParticles ()Z
+	METHOD equals (Ljava/lang/Object;)Z
+		ARG 0 object
+	METHOD g getTranslationKey ()Ljava/lang/String;
+	METHOD h isPermanent ()Z
+	METHOD i updateDuration ()I

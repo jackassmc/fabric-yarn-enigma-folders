@@ -1,0 +1,42 @@
+CLASS apa net/minecraft/entity/mob/EntityPhantom
+	CLASS apa$b
+		METHOD a canStart ()Z
+		METHOD b shouldContinue ()Z
+	CLASS apa$c
+		METHOD a canStart ()Z
+		METHOD c start ()V
+		METHOD d onRemove ()V
+		METHOD e tick ()V
+	CLASS apa$e
+		METHOD a canStart ()Z
+		METHOD c start ()V
+		METHOD e tick ()V
+	CLASS apa$f
+		METHOD a tick ()V
+	CLASS apa$g
+		METHOD a tick ()V
+	CLASS apa$i
+		METHOD a canStart ()Z
+		METHOD b shouldContinue ()Z
+		METHOD c start ()V
+		METHOD d onRemove ()V
+		METHOD e tick ()V
+	METHOD D getSoundAmbient ()Lxb;
+	METHOD H mobTick ()V
+	METHOD S_ update ()V
+	METHOD a shouldRender (D)Z
+	METHOD a (Lbaf;Laeu;Lago;Lagv;Lho;)Lagv;
+		ARG 3 difficulty
+	METHOD a deserializeCustomData (Lho;)V
+	METHOD a onTrackedDataSet (Lpm;)V
+	METHOD b serializeCustomData (Lho;)V
+	METHOD b canTrack (Ljava/lang/Class;)Z
+	METHOD bH getEyeHeight ()F
+	METHOD bX getSoundCategory ()Lxd;
+	METHOD cI getSoundVolume ()F
+	METHOD cb initAttributes ()V
+	METHOD cw getSoundDeath ()Lxb;
+	METHOD e getSoundHurt (Lafl;)Lxb;
+	METHOD k updateMovement ()V
+	METHOD n initAi ()V
+	METHOD y_ initDataTracker ()V

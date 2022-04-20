@@ -1,0 +1,10 @@
+CLASS hy net/minecraft/nbt/PositionTracker
+	CLASS hy$1
+		METHOD <init> (J)V
+			ARG 0 max
+		METHOD a add (J)V
+			ARG 0 amount
+	FIELD a DEFAULT Lhy;
+	FIELD b max J
+	FIELD c pos J
+	METHOD a add (J)V

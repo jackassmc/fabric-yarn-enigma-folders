@@ -1,0 +1,7 @@
+CLASS awy net/minecraft/client/item/TooltipOptions
+	CLASS awy$a Instance
+		FIELD a NORMAL Lawy$a;
+		FIELD b ADVANCED Lawy$a;
+		FIELD c advanced Z
+		METHOD a isAdvanced ()Z
+	METHOD a isAdvanced ()Z

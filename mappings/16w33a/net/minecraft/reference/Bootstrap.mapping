@@ -1,0 +1,15 @@
+CLASS none/ks net/minecraft/reference/Bootstrap
+	CLASS none/ks$16
+		METHOD a dispense (Lnone/co;Lnone/aeq;)Lnone/aeq;
+			ARG 1 stack
+	CLASS none/ks$17
+		METHOD a dispense (Lnone/co;Lnone/aeq;)Lnone/aeq;
+			ARG 1 stack
+	FIELD a OUTPUT Ljava/io/PrintStream;
+	FIELD b initialized Z
+	FIELD c LOGGER Lorg/apache/logging/log4j/Logger;
+	METHOD a isInitialized ()Z
+	METHOD a printStdout (Ljava/lang/String;)V
+	METHOD b initDispenserBehaviors ()V
+	METHOD c init ()V
+	METHOD d redirectOutputStreams ()V

@@ -1,0 +1,2 @@
+CLASS dpv net/minecraft/client/resource/DefaultClientResourcePack
+	FIELD d index Ldpt;

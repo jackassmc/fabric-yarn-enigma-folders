@@ -1,0 +1,2 @@
+CLASS czt net/minecraft/client/render/block/BiomeColorHandler
+	CLASS czt$a Proxy

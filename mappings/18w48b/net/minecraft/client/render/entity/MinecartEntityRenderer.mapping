@@ -1,0 +1,4 @@
+CLASS dhu net/minecraft/client/render/entity/MinecartEntityRenderer
+	FIELD f SKIN Lpy;
+	METHOD a getTexture (Lagi;)Lpy;
+	METHOD a getTexture (Larn;)Lpy;

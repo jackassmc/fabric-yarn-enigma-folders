@@ -1,0 +1,2 @@
+CLASS dmr net/minecraft/client/render/entity/TridentEntityRenderer
+	FIELD f model Ldbq;

@@ -1,0 +1,8 @@
+CLASS avp net/minecraft/item/ElytraItem
+	METHOD a canRepair (Lawo;Lawo;)Z
+		ARG 1 tool
+	METHOD a use (Lbbp;Larb;Lafo;)Lafr;
+		ARG 1 world
+		ARG 2 player
+	METHOD e isUsable (Lawo;)Z
+		ARG 0 stack

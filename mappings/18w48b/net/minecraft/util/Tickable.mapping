@@ -1,0 +1,2 @@
+CLASS qp net/minecraft/util/Tickable
+	METHOD ab_ tick ()V

@@ -1,0 +1,44 @@
+CLASS bpe net/minecraft/block/entity/BlockEntityType
+	CLASS bpe$a Builder
+		FIELD a supplier Ljava/util/function/Supplier;
+		METHOD a build (Lcom/mojang/datafixers/types/Type;)Lbpe;
+		METHOD a create (Ljava/util/function/Supplier;)Lbpe$a;
+			ARG 0 supplier
+	FIELD A SMOKER Lbpe;
+	FIELD B BLAST_FURNACE Lbpe;
+	FIELD C LECTERN Lbpe;
+	FIELD D BELL Lbpe;
+	FIELD E JIGSAW Lbpe;
+	FIELD F CAMPFIRE Lbpe;
+	FIELD G LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD H supplier Ljava/util/function/Supplier;
+	FIELD I type Lcom/mojang/datafixers/types/Type;
+	FIELD a FURNACE Lbpe;
+	FIELD b CHEST Lbpe;
+	FIELD c TRAPPED_CHEST Lbpe;
+	FIELD d ENDER_CHEST Lbpe;
+	FIELD e JUKEBOX Lbpe;
+	FIELD f DISPENSER Lbpe;
+	FIELD g DROPPER Lbpe;
+	FIELD h SIGN Lbpe;
+	FIELD i MOB_SPAWNER Lbpe;
+	FIELD j PISTON Lbpe;
+	FIELD k BREWING_STAND Lbpe;
+	FIELD l ENCHANTING_TABLE Lbpe;
+	FIELD m END_PORTAL Lbpe;
+	FIELD n BEACON Lbpe;
+	FIELD o SKULL Lbpe;
+	FIELD p DAYLIGHT_DETECTOR Lbpe;
+	FIELD q HOPPER Lbpe;
+	FIELD r COMPARATOR Lbpe;
+	FIELD s BANNER Lbpe;
+	FIELD t STRUCTURE_BLOCK Lbpe;
+	FIELD u END_GATEWAY Lbpe;
+	FIELD v COMMAND_BLOCK Lbpe;
+	FIELD w SHUlKER_BOX Lbpe;
+	FIELD x BED Lbpe;
+	FIELD y CONDUIT Lbpe;
+	FIELD z BARREL Lbpe;
+	METHOD a instantiate ()Lbpd;
+	METHOD a getId (Lbpe;)Lqh;
+	METHOD a create (Ljava/lang/String;Lbpe$a;)Lbpe;

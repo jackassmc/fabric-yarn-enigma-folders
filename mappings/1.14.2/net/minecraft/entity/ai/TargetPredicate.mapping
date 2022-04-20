@@ -1,0 +1,21 @@
+CLASS aqa net/minecraft/entity/ai/TargetPredicate
+	FIELD a DEFAULT Laqa;
+	FIELD b baseMaxDistance D
+	FIELD c includeInvulnerable Z
+	FIELD d includeTeammates Z
+	FIELD e includeHidden Z
+	FIELD f ignoreEntityTargetRules Z
+	FIELD g useDistanceScalingFactor Z
+	FIELD h predicate Ljava/util/function/Predicate;
+	METHOD a includeInvulnerable ()Laqa;
+	METHOD a setBaseMaxDistance (D)Laqa;
+		ARG 1 baseMaxDistance
+	METHOD a test (Lair;Lair;)Z
+		ARG 1 baseEntity
+		ARG 2 targetEntity
+	METHOD a setPredicate (Ljava/util/function/Predicate;)Laqa;
+		ARG 1 predicate
+	METHOD b includeTeammates ()Laqa;
+	METHOD c includeHidden ()Laqa;
+	METHOD d ignoreEntityTargetRules ()Laqa;
+	METHOD e ignoreDistanceScalingFactor ()Laqa;

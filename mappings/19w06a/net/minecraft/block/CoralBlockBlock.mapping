@@ -1,0 +1,5 @@
+CLASS bit net/minecraft/block/CoralBlockBlock
+	FIELD a deadCoralBlock Lbhv;
+	METHOD a isInWater (Lbcf;Let;)Z
+		ARG 1 world
+		ARG 2 pos

@@ -1,0 +1,3 @@
+CLASS chk net/minecraft/world/biome/layer/AddMushroomIslandLayer
+	FIELD a INSTANCE Lchk;
+	FIELD b MUSHROOM_FIELDS_ID I

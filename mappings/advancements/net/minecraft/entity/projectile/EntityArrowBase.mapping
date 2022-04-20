@@ -1,0 +1,37 @@
+CLASS acx net/minecraft/entity/projectile/EntityArrowBase
+	CLASS acx$a PickupType
+		FIELD a NO_PICKUP Lacx$a;
+		FIELD b PICKUP Lacx$a;
+		FIELD c CREATIVE_PICKUP Lacx$a;
+		METHOD a fromOrdinal (I)Lacx$a;
+	FIELD a inGround Z
+	FIELD av inBlock Lank;
+	FIELD aw inMetaData I
+	FIELD az damage D
+	FIELD c pickupType Lacx$a;
+	FIELD d shake I
+	FIELD e owner Lub;
+	FIELD f CAN_HIT Lcom/google/common/base/Predicate;
+	FIELD g ARROW_FLAGS Llx;
+	METHOD B_ update ()V
+	METHOD a shouldRender (D)Z
+	METHOD a setPositionAndRotations (DDDFFIZ)V
+	METHOD a onCollision (Lbfn;)V
+	METHOD a deserializeCustomData (Lfc;)V
+		ARG 0 tag
+	METHOD a registerTagUpgraders (Lqv;)V
+	METHOD a registerTagUpgradersFor (Lqv;Ljava/lang/String;)V
+	METHOD a setVelocityFromEntity (Lub;FFFFF)V
+	METHOD a move (Luq;DDD)V
+	METHOD a setCritical (Z)V
+	METHOD b serializeCustomData (Lfc;)V
+		ARG 0 tag
+	METHOD b onHit (Luk;)V
+	METHOD bt getEyeHeight ()F
+	METHOD c setDamage (D)V
+	METHOD c setVelocity (DDDFF)V
+	METHOD h setVelocityClient (DDD)V
+	METHOD i initDataTracker ()V
+	METHOD j asItemStack ()Lahf;
+	METHOD k getDamage ()D
+	METHOD n isCritical ()Z

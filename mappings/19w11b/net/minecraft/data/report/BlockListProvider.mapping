@@ -1,0 +1,2 @@
+CLASS gr net/minecraft/data/report/BlockListProvider
+	FIELD c root Lgh;

@@ -1,0 +1,3 @@
+CLASS bjy net/minecraft/block/GravelBlock
+	METHOD <init> (Lbhn$c;)V
+		ARG 1 settings

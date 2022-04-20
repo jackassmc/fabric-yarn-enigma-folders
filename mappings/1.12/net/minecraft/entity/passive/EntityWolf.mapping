@@ -1,0 +1,48 @@
+CLASS aak net/minecraft/entity/passive/EntityWolf
+	CLASS aak$a
+		METHOD a canStart ()Z
+		METHOD c start ()V
+		METHOD e tick ()V
+	FIELD bB WOLF_HEALTH Lmx;
+	FIELD bD COLLAR_COLOR Lmx;
+	METHOD B_ update ()V
+	METHOD F getSoundAmbient ()Lqc;
+	METHOD J getLootTableId ()Lnd;
+	METHOD M mobTick ()V
+	METHOD a canBeLeashedBy (Laeb;)Z
+		ARG 0 player
+	METHOD a interactMob (Laeb;Ltz;)Z
+		ARG 0 player
+		ARG 1 playerHand
+	METHOD a playStepSound (Let;Laou;)V
+		ARG 0 pos
+		ARG 1 block
+	METHOD a deserializeCustomData (Lfy;)V
+		ARG 0 tag
+	METHOD a registerTagUpgraders (Lrw;)V
+		ARG 0 handler
+	METHOD a damage (Lup;F)Z
+		ARG 0 source
+		ARG 1 damage
+	METHOD a createChild (Lvb;)Lvb;
+		ARG 0 other
+	METHOD b serializeCustomData (Lfy;)V
+		ARG 0 tag
+	METHOD b createChild (Lvb;)Laak;
+		ARG 0 other
+	METHOD bM initAttributes ()V
+	METHOD by getEyeHeight ()F
+	METHOD cU getLimitPerChunk ()I
+	METHOD cf getSoundDeath ()Lqc;
+	METHOD cq getSoundVolume ()F
+	METHOD d getSoundHurt (Lup;)Lqc;
+	METHOD d setTarget (Lvn;)V
+		ARG 0 value
+	METHOD dv isAngry ()Z
+	METHOD i initDataTracker ()V
+	METHOD n updateMovement ()V
+	METHOD q setTamed (Z)V
+		ARG 0 value
+	METHOD r initAi ()V
+	METHOD s setAngry (Z)V
+		ARG 0 value

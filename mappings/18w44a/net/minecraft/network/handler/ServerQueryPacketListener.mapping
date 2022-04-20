@@ -1,0 +1,5 @@
+CLASS pf net/minecraft/network/handler/ServerQueryPacketListener
+	METHOD a onPing (Lpg;)V
+		ARG 1 packet
+	METHOD a onRequest (Lph;)V
+		ARG 1 packet

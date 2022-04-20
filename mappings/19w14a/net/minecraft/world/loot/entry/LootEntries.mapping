@@ -1,0 +1,6 @@
+CLASS cop net/minecraft/world/loot/entry/LootEntries
+	CLASS cop$a Serializer
+		METHOD a getSerializer (Ljava/lang/Class;)Lcor$b;
+	FIELD a idSerializers Ljava/util/Map;
+	FIELD b classSerializers Ljava/util/Map;
+	METHOD a register (Lcor$b;)V

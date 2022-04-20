@@ -1,0 +1,18 @@
+CLASS jm net/minecraft/network/packet/client/CPacketScoreboardUpdate
+	CLASS jm$a MODE
+		FIELD a UPDATE Ljm$a;
+		FIELD b DELETE Ljm$a;
+	FIELD a playerName Ljava/lang/String;
+	FIELD b objectiveName Ljava/lang/String;
+	FIELD c score I
+	FIELD d mode Ljm$a;
+	METHOD a getPlayerName ()Ljava/lang/String;
+	METHOD a readPacket (Lgb;)V
+		ARG 0 buf
+	METHOD a applyPacket (Lge;)V
+	METHOD a applyPacket (Lgy;)V
+	METHOD b getObjectiveName ()Ljava/lang/String;
+	METHOD b writePacket (Lgb;)V
+		ARG 0 buf
+	METHOD c getScore ()I
+	METHOD d getMode ()Ljm$a;

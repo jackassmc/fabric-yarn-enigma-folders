@@ -1,0 +1,15 @@
+CLASS cpx net/minecraft/world/loot/function/SetContentsLootFunction
+	CLASS cpx$a Builer
+		FIELD a entries Ljava/util/List;
+		METHOD a withEntry (Lcpc$a;)Lcpx$a;
+			ARG 1 entryBuilder
+	CLASS cpx$b Factory
+	FIELD a entries Ljava/util/List;
+	METHOD <init> ([Lcqw;Ljava/util/List;)V
+		ARG 1 conditions
+		ARG 2 entries
+	METHOD a (Lcoj;Lfj;Lcpc;)V
+		ARG 2 entry
+	METHOD a (Lfj;Lcoj;Lcpb;)V
+		ARG 2 choice
+	METHOD b builder ()Lcpx$a;

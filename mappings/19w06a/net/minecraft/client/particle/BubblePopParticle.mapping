@@ -1,0 +1,2 @@
+CLASS dcz net/minecraft/client/particle/BubblePopParticle
+	CLASS dcz$a Factory

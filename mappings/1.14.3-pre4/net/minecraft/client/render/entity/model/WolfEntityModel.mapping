@@ -1,0 +1,2 @@
+CLASS dgy net/minecraft/client/render/entity/model/WolfEntityModel
+	FIELD a head Ldhh;

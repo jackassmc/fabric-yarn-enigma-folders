@@ -1,0 +1,65 @@
+CLASS cgy net/minecraft/util/math/BoundingBox
+	FIELD a minX D
+	FIELD b minY D
+	FIELD c minZ D
+	FIELD d maxX D
+	FIELD e maxY D
+	FIELD f maxZ D
+	METHOD <init> (DDDDDD)V
+		ARG 0 x1
+		ARG 1 y1
+		ARG 2 z1
+		ARG 3 x2
+		ARG 4 y2
+		ARG 5 z2
+	METHOD <init> (Lchc;Lchc;)V
+		ARG 0 min
+		ARG 1 max
+	METHOD <init> (Leq;)V
+		ARG 0 pos
+	METHOD <init> (Leq;Leq;)V
+		ARG 0 min
+		ARG 1 max
+	METHOD a averageDimension ()D
+	METHOD a intersects (DDDDDD)Z
+		ARG 0 minX
+		ARG 1 minY
+		ARG 2 minZ
+		ARG 3 maxX
+		ARG 4 maxY
+		ARG 5 maxZ
+	METHOD a offset (Lchc;)Lcgy;
+		ARG 0 offset
+	METHOD a intersects (Lchc;Lchc;)Z
+		ARG 0 a
+		ARG 1 b
+	METHOD a offset (Leq;)Lcgy;
+		ARG 0 pos
+	METHOD b isValid ()Z
+	METHOD b stretch (DDD)Lcgy;
+		ARG 0 x
+		ARG 1 y
+		ARG 2 z
+	METHOD b union (Lcgy;)Lcgy;
+		ARG 0 other
+	METHOD c getCenter ()Lchc;
+	METHOD c expand (DDD)Lcgy;
+		ARG 0 x
+		ARG 1 y
+		ARG 2 z
+	METHOD c intersects (Lcgy;)Z
+		ARG 0 box
+	METHOD d offset (DDD)Lcgy;
+		ARG 0 x
+		ARG 1 y
+		ARG 2 z
+	METHOD equals (Ljava/lang/Object;)Z
+		ARG 0 object
+	METHOD f contract (DDD)Lcgy;
+		ARG 0 x
+		ARG 1 y
+		ARG 2 z
+	METHOD g expand (D)Lcgy;
+		ARG 0 value
+	METHOD h contract (D)Lcgy;
+		ARG 0 value

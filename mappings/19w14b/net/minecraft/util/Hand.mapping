@@ -1,0 +1,3 @@
+CLASS agu net/minecraft/util/Hand
+	FIELD a MAIN Lagu;
+	FIELD b OFF Lagu;

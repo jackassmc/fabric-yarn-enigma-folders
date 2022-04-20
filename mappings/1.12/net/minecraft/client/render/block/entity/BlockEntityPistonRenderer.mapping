@@ -1,0 +1,3 @@
+CLASS bxb net/minecraft/client/render/block/entity/BlockEntityPistonRenderer
+	METHOD a render (Lavh;DDDFIF)V
+	METHOD a render (Lawk;DDDFIF)V

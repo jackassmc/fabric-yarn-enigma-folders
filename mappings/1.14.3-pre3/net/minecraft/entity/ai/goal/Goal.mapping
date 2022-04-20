@@ -1,0 +1,11 @@
+CLASS amz net/minecraft/entity/ai/goal/Goal
+	CLASS amz$a Control
+	FIELD a controls Ljava/util/EnumSet;
+	METHOD C_ canStop ()Z
+	METHOD a canStart ()Z
+	METHOD a setControls (Ljava/util/EnumSet;)V
+	METHOD b shouldContinue ()Z
+	METHOD c start ()V
+	METHOD d stop ()V
+	METHOD e tick ()V
+	METHOD i getControls ()Ljava/util/EnumSet;

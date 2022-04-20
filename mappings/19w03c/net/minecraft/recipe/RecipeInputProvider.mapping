@@ -1,0 +1,2 @@
+CLASS aut net/minecraft/recipe/RecipeInputProvider
+	METHOD a provideRecipeInputs (Larl;)V

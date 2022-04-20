@@ -1,0 +1,3 @@
+CLASS arc net/minecraft/entity/boss/dragon/phase/DyingPhase
+	METHOD <init> (Laqx;)V
+		ARG 1 dragon

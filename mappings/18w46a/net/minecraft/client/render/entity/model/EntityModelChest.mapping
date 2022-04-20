@@ -1,0 +1,4 @@
+CLASS cvg net/minecraft/client/render/entity/model/EntityModelChest
+	FIELD a lid Lcya;
+	FIELD b base Lcya;
+	FIELD c hatch Lcya;

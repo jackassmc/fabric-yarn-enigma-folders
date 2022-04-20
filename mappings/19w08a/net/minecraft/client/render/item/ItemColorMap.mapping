@@ -1,0 +1,7 @@
+CLASS crm net/minecraft/client/render/item/ItemColorMap
+	FIELD a mappers Lfa;
+	METHOD a getRenderColor (Laxw;I)I
+		ARG 1 item
+	METHOD a create (Lcrj;)Lcrm;
+	METHOD a register (Lcrl;[Lbdd;)V
+		ARG 1 mapper

@@ -1,0 +1,23 @@
+CLASS avi net/minecraft/item/FoodItem
+	FIELD a hungerRestored I
+	FIELD b saturationRestored F
+	FIELD c wolfFood Z
+	FIELD d alwaysConsumable Z
+	FIELD k statusEffect Lagb;
+	FIELD l statusEffectChance F
+	METHOD a setStatusEffect (Lagb;F)Lavi;
+		ARG 1 effect
+	METHOD a onItemFinishedUsing (Lavs;Lbaq;Lagr;)Lavs;
+		ARG 1 stack
+		ARG 2 world
+	METHOD a onConsumed (Lavs;Lbaq;Laqj;)V
+		ARG 1 stack
+		ARG 2 world
+	METHOD a use (Lbaq;Laqj;Lafb;)Lafe;
+		ARG 1 world
+		ARG 2 player
+	METHOD b getMaxUseTime (Lavs;)I
+	METHOD c getUseAction (Lavs;)Laxe;
+	METHOD d isWolfFood ()Z
+	METHOD e getHungerRestored (Lavs;)I
+	METHOD f getSaturatationRestored (Lavs;)F

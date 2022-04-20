@@ -1,0 +1,4 @@
+CLASS blb net/minecraft/block/BrewingStandBlock
+	FIELD a BOTTLE_PROPERTIES [Lbuo;
+	METHOD <init> (Lbky$c;)V
+		ARG 1 settings

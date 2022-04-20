@@ -1,0 +1,3 @@
+CLASS aya net/minecraft/item/MinecartItem
+	FIELD a DISPENSER_BEHAVIOR Lfp;
+	FIELD b type Latf$a;

@@ -1,0 +1,52 @@
+CLASS agy net/minecraft/recipe/BrewingRecipeRegistry
+	CLASS agy$1
+		METHOD a (Lafi;)Z
+			ARG 0 stack
+	CLASS agy$a ItemMatcher
+		FIELD a item Lafg;
+		FIELD b metadata I
+		METHOD <init> (Lafg;)V
+			ARG 0 item
+		METHOD <init> (Lafg;I)V
+			ARG 0 item
+			ARG 1 metadata
+	CLASS agy$b Recipe
+		FIELD a input Ljava/lang/Object;
+		FIELD b ingredient Lcom/google/common/base/Predicate;
+		FIELD c output Ljava/lang/Object;
+		METHOD <init> (Ljava/lang/Object;Lcom/google/common/base/Predicate;Ljava/lang/Object;)V
+			ARG 0 input
+			ARG 1 output
+	FIELD a POTION_RECIPES Ljava/util/List;
+	FIELD b ITEM_RECIPES Ljava/util/List;
+	FIELD c POTION_TYPES Ljava/util/List;
+	FIELD d POTION_TYPE_MATCHER Lcom/google/common/base/Predicate;
+	METHOD a registerDefaults ()V
+	METHOD a isValidIngredient (Lafi;)Z
+		ARG 0 stack
+	METHOD a hasRecipe (Lafi;Lafi;)Z
+		ARG 0 input
+		ARG 1 ingredient
+	METHOD a registerItemRecipe (Lafv;Lagy$a;Lafv;)V
+		ARG 0 input
+		ARG 1 ingredient
+		ARG 2 output
+	METHOD a registerPotionRecipe (Lagx;Lcom/google/common/base/Predicate;Lagx;)V
+		ARG 0 input
+		ARG 1 ingredient
+		ARG 2 output
+	METHOD a registerPotionType (Lagy$a;)V
+		ARG 0 matcher
+	METHOD b isItemRecipeIngredient (Lafi;)Z
+		ARG 0 stack
+	METHOD b hasItemRecipe (Lafi;Lafi;)Z
+		ARG 0 input
+		ARG 1 ingredien
+	METHOD c isPotionRecipeIngredient (Lafi;)Z
+		ARG 0 stack
+	METHOD c hasPotionRecipe (Lafi;Lafi;)Z
+		ARG 0 input
+		ARG 1 ingredient
+	METHOD d craft (Lafi;Lafi;)Lafi;
+		ARG 0 input
+		ARG 1 ingredient

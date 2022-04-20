@@ -1,0 +1,7 @@
+CLASS arv net/minecraft/container/ContainerDispenser
+	FIELD a inventory Lael;
+	METHOD <init> (Lael;Lael;)V
+		ARG 1 playerInv
+	METHOD a canUse (Lapv;)Z
+	METHOD b getStack (Lapv;I)Lava;
+		ARG 1 player

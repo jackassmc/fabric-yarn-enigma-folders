@@ -1,0 +1,14 @@
+CLASS none/bzp net/minecraft/client/render/model/BakedModelManager
+	FIELD a modelRegistry Lnone/dg;
+	FIELD b spriteMap Lnone/bxc;
+	FIELD c blockStateMaps Lnone/bpn;
+	FIELD d missingModel Lnone/bzl;
+	METHOD <init> (Lnone/bxc;)V
+		ARG 0 textures
+	METHOD a getMissingModel ()Lnone/bzl;
+	METHOD a onResourceReload (Lnone/byc;)V
+		ARG 0 container
+	METHOD a getModel (Lnone/bzq;)Lnone/bzl;
+		ARG 0 identifier
+	METHOD b getSpriteMap ()Lnone/bxc;
+	METHOD c getBlockStateMaps ()Lnone/bpn;

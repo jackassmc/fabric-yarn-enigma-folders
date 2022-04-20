@@ -1,0 +1,4 @@
+CLASS bdv net/minecraft/enchantment/PiercingEnchantment
+	METHOD <init> (Lbea$a;[Laib;)V
+		ARG 1 weight
+		ARG 2 slotTypes

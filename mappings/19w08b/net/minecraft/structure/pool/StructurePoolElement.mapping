@@ -1,0 +1,22 @@
+CLASS cay net/minecraft/structure/pool/StructurePoolElement
+	FIELD a projection Lcba$a;
+	METHOD a getType ()Lcaz;
+	METHOD a setProjection (Lcba$a;)Lcay;
+		ARG 1 projection
+	METHOD a generate (Lcev;Lbdg;Les;Lbmr;Lcdi;Ljava/util/Random;)Z
+		ARG 1 structureManager
+		ARG 2 world
+		ARG 3 pos
+		ARG 4 rotation
+		ARG 5 boundingBox
+		ARG 6 random
+	METHOD a getBoundingBox (Lcev;Les;Lbmr;)Lcdi;
+		ARG 1 structureManager
+		ARG 2 pos
+		ARG 3 rotation
+	METHOD a getStructureBlockInfos (Lcev;Les;Lbmr;Ljava/util/Random;)Ljava/util/List;
+		ARG 1 structureManager
+		ARG 2 pos
+		ARG 3 rotation
+		ARG 4 random
+	METHOD b getProjection ()Lcba$a;

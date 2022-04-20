@@ -1,0 +1,37 @@
+CLASS ad net/minecraft/advancement/criterion/TriggerConstructBeacon
+	CLASS ad$a Handler
+		FIELD a manager Lqe;
+		FIELD b conditions Ljava/util/Set;
+		METHOD <init> (Lqe;)V
+			ARG 0 manager
+		METHOD a isEmpty ()Z
+		METHOD a handle (Lblh;)V
+			ARG 0 beacon
+		METHOD a addCondition (Ls$a;)V
+			ARG 0 condition
+		METHOD b removeCondition (Ls$a;)V
+			ARG 0 condition
+	CLASS ad$b Conditions
+		FIELD a level Lbc$d;
+		METHOD a level (Lbc$d;)Lad$b;
+		METHOD a matches (Lblh;)Z
+	FIELD a ID Lpu;
+	FIELD b handlers Ljava/util/Map;
+	METHOD a getId ()Lpu;
+	METHOD a deserializeConditions (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Lt;
+		ARG 1 obj
+		ARG 2 context
+	METHOD a removePlayer (Lqe;)V
+		ARG 1 manager
+	METHOD a addCondition (Lqe;Ls$a;)V
+		ARG 1 manager
+		ARG 2 condition
+	METHOD a handle (Luc;Lblh;)V
+		ARG 1 player
+		ARG 2 beacon
+	METHOD b deserializeConditions (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Lad$b;
+		ARG 1 obj
+		ARG 2 context
+	METHOD b removeCondition (Lqe;Ls$a;)V
+		ARG 1 manager
+		ARG 2 condition

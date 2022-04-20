@@ -1,0 +1,4 @@
+CLASS none/xi net/minecraft/entity/ai/impl/mob/AiGoalSkeletonHorse
+	FIELD a owner Lnone/xh;
+	METHOD a canStart ()Z
+	METHOD e tick ()V

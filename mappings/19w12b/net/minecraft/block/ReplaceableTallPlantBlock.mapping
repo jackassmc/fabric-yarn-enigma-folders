@@ -1,0 +1,2 @@
+CLASS bpx net/minecraft/block/ReplaceableTallPlantBlock
+	FIELD b HALF Lbvc;

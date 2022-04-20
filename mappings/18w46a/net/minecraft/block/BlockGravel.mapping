@@ -1,0 +1,2 @@
+CLASS bhp net/minecraft/block/BlockGravel
+	METHOD r getColor (Lbnz;)I

@@ -1,0 +1,9 @@
+CLASS cfn net/minecraft/world/loot/function/LootTableFunctionSetTag
+	CLASS cfn$a DeSerializer
+		METHOD a serialize (Lcom/google/gson/JsonObject;Lcfn;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD a deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;[Lcgh;)Lcfn;
+		METHOD b deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;[Lcgh;)Lcfd;
+	FIELD a tag Lhl;
+	METHOD a apply (Lauc;Lcdx;)Lauc;
+		ARG 0 stack
+		ARG 1 context

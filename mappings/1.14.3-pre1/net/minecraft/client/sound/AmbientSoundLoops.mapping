@@ -1,0 +1,9 @@
+CLASS dxb net/minecraft/client/sound/AmbientSoundLoops
+	CLASS dxb$a MusicLoop
+		FIELD o player Ldjy;
+		METHOD <init> (Ldjy;Lyk;)V
+			ARG 1 player
+			ARG 2 soundEvent
+	CLASS dxb$b Underwater
+		FIELD o player Ldjy;
+		FIELD p transitionTimer I

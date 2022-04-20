@@ -1,0 +1,2 @@
+CLASS cla net/minecraft/world/loot/function/ExplosionDecayLootFunction
+	CLASS cla$a Factory

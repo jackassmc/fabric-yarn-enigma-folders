@@ -1,0 +1,22 @@
+CLASS cmy net/minecraft/world/loot/LootPool
+	CLASS cmy$a Builder
+		FIELD a entries Ljava/util/List;
+		FIELD b conditions Ljava/util/List;
+		FIELD c functions Ljava/util/List;
+		FIELD d rolls Lcnc;
+		FIELD e range Lcne;
+		METHOD a withRolls (Lcnc;)Lcmy$a;
+		METHOD a withEntry (Lcno$a;)Lcmy$a;
+		METHOD b build ()Lcmy;
+	CLASS cmy$b Serializer
+	FIELD a entries [Lcno;
+	FIELD b conditions [Lcpj;
+	FIELD c predicate Ljava/util/function/Predicate;
+	FIELD d functions [Lcof;
+	FIELD e javaFunctions Ljava/util/function/BiFunction;
+	FIELD f rolls Lcnc;
+	FIELD g bonusRolls Lcne;
+	METHOD a create ()Lcmy$a;
+	METHOD a check (Lcna;Ljava/util/function/Function;Ljava/util/Set;Lcow;)V
+	METHOD a drop (Ljava/util/function/Consumer;Lcmw;)V
+	METHOD b supplyOnce (Ljava/util/function/Consumer;Lcmw;)V

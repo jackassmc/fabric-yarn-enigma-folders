@@ -1,0 +1,8 @@
+CLASS amx net/minecraft/entity/mob/ZombieHorseEntity
+	METHOD D getAmbientSound ()Lxg;
+	METHOD a createChild (Lagh;)Lagh;
+	METHOD a interactMob (Laql;Lafd;)Z
+		ARG 1 player
+	METHOD ca initAttributes ()V
+	METHOD cv getDeathSound ()Lxg;
+	METHOD e getHurtSound (Laft;)Lxg;

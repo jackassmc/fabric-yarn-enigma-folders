@@ -1,0 +1,40 @@
+CLASS cqy net/minecraft/util/shape/VoxelShapes
+	CLASS cqy$a net/minecraft/util/shape/VoxelShapes$ShapeConsumer
+		METHOD consume (DDDDDD)V
+			ARG 1 minX
+	FIELD b FULL_CUBE Lcrb;
+	FIELD c EMPTY Lcrb;
+	METHOD a empty ()Lcrb;
+	METHOD a findRequiredBitResolution (DD)I
+		ARG 0 min
+		ARG 2 max
+	METHOD a cube (DDDDDD)Lcrb;
+		ARG 0 xMin
+		ARG 2 yMin
+		ARG 4 zMin
+		ARG 6 xMax
+		ARG 8 yMax
+		ARG 10 zMax
+	METHOD a lcm (II)J
+	METHOD a cube (Lcqc;)Lcrb;
+		ARG 0 box
+	METHOD a union (Lcrb;Lcrb;)Lcrb;
+		ARG 0 first
+		ARG 1 second
+	METHOD a combineAndSimplify (Lcrb;Lcrb;Lcql;)Lcrb;
+		ARG 0 first
+		ARG 1 second
+		ARG 2 function
+	METHOD a union (Lcrb;[Lcrb;)Lcrb;
+		ARG 0 first
+		ARG 1 others
+	METHOD a calculateMaxOffset (Lez$a;Lcqc;Ljava/util/stream/Stream;D)D
+		ARG 0 axis
+		ARG 1 box
+		ARG 2 shapes
+	METHOD b fullCube ()Lcrb;
+	METHOD b combine (Lcrb;Lcrb;Lcql;)Lcrb;
+	METHOD c compareShapes (Lcrb;Lcrb;Lcql;)Z
+		ARG 0 shape1
+		ARG 1 shape2
+		ARG 2 comparator

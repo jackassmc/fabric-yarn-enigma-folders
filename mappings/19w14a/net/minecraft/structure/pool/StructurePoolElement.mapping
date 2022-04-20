@@ -1,0 +1,22 @@
+CLASS cet net/minecraft/structure/pool/StructurePoolElement
+	FIELD a projection Lcev$a;
+	METHOD a getType ()Lceu;
+	METHOD a setProjection (Lcev$a;)Lcet;
+		ARG 1 projection
+	METHOD a generate (Lcir;Lbgx;Lev;Lbql;Lche;Ljava/util/Random;)Z
+		ARG 1 structureManager
+		ARG 2 world
+		ARG 3 pos
+		ARG 4 rotation
+		ARG 5 boundingBox
+		ARG 6 random
+	METHOD a getBoundingBox (Lcir;Lev;Lbql;)Lche;
+		ARG 1 structureManager
+		ARG 2 pos
+		ARG 3 rotation
+	METHOD a getStructureBlockInfos (Lcir;Lev;Lbql;Ljava/util/Random;)Ljava/util/List;
+		ARG 1 structureManager
+		ARG 2 pos
+		ARG 3 rotation
+		ARG 4 random
+	METHOD c getProjection ()Lcev$a;

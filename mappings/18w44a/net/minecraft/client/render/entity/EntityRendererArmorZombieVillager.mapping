@@ -1,0 +1,4 @@
+CLASS dii net/minecraft/client/render/entity/EntityRendererArmorZombieVillager
+	METHOD <init> (Ldfg;)V
+		ARG 1 renderer
+	METHOD am_ init ()V

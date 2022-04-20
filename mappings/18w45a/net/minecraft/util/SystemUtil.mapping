@@ -1,0 +1,35 @@
+CLASS l net/minecraft/util/SystemUtil
+	CLASS l$a IdentityHashStrategy
+		FIELD a INSTANCE Ll$a;
+	CLASS l$b OperatingSystem
+		CLASS l$b$1
+			METHOD b getURLOpenCommand (Ljava/net/URL;)[Ljava/lang/String;
+		CLASS l$b$2
+			METHOD b getURLOpenCommand (Ljava/net/URL;)[Ljava/lang/String;
+		FIELD a UNIX Ll$b;
+		FIELD b SOLARIS Ll$b;
+		FIELD c WINDOWS Ll$b;
+		FIELD d MAC Ll$b;
+		FIELD e UNKNOWN Ll$b;
+		METHOD a open (Ljava/io/File;)V
+			ARG 0 file
+		METHOD a open (Ljava/lang/String;)V
+			ARG 0 url
+		METHOD a open (Ljava/net/URI;)V
+			ARG 0 uri
+		METHOD a open (Ljava/net/URL;)V
+			ARG 0 url
+		METHOD b getURLOpenCommand (Ljava/net/URL;)[Ljava/lang/String;
+	FIELD a NANO_TIME_SUPPLIER Ljava/util/function/LongSupplier;
+	FIELD b LOGGER Lorg/apache/logging/log4j/Logger;
+	METHOD a createTranslationKey (Ljava/lang/String;Lpw;)Ljava/lang/String;
+		ARG 0 type
+		ARG 1 id
+	METHOD a get (Ljava/util/function/Supplier;)Ljava/lang/Object;
+		ARG 0 supplier
+	METHOD b getMeasuringTimeMili ()J
+	METHOD c getMeasuringTimeNano ()J
+	METHOD d getEpochTimeMili ()J
+	METHOD e getOperatingSystem ()Ll$b;
+	METHOD g identityHashStrategy ()Lit/unimi/dsi/fastutil/Hash$Strategy;
+	METHOD h getLogger ()Lorg/apache/logging/log4j/Logger;

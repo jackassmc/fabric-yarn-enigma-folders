@@ -1,0 +1,5 @@
+CLASS dba net/minecraft/client/render/debug/RenderDebugWater
+	FIELD a game Lcjj;
+	METHOD <init> (Lcjj;)V
+		ARG 0 game
+	METHOD a render (FJ)V

@@ -1,0 +1,10 @@
+CLASS chx net/minecraft/world/loot/function/LootFunctionSetContents
+	CLASS chx$a
+		METHOD b build ()Lcht;
+		METHOD d build ()Lchs$a;
+	CLASS chx$b Factory
+		METHOD a toJson (Lcom/google/gson/JsonObject;Lchs;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD a toJson (Lcom/google/gson/JsonObject;Lcht;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD b fromJson (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;[Lciw;)Lchs;
+	METHOD a process (Lavf;Lcgl;)Lavf;
+		ARG 1 stack

@@ -1,0 +1,14 @@
+CLASS us net/minecraft/entity/boss/ServerBossBar
+	FIELD h players Ljava/util/Set;
+	FIELD j visible Z
+	METHOD <init> (Lji;Lafx$a;Lafx$b;)V
+		ARG 1 name
+		ARG 2 color
+	METHOD a sendPacket (Lkm$a;)V
+	METHOD a addPlayer (Luw;)V
+	METHOD b clearPlayers ()V
+	METHOD b removePlayer (Luw;)V
+	METHOD d setVisible (Z)V
+		ARG 1 visible
+	METHOD g isVisible ()Z
+	METHOD h getPlayers ()Ljava/util/Collection;

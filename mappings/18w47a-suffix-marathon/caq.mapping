@@ -1,0 +1,3 @@
+CLASS caq
+	CLASS caq$r
+		METHOD a toNbt (Lho;)V

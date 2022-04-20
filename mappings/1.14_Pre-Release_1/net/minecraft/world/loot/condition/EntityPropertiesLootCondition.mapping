@@ -1,0 +1,14 @@
+CLASS cqt net/minecraft/world/loot/condition/EntityPropertiesLootCondition
+	CLASS cqt$a Factory
+	FIELD a predicate Lav;
+	FIELD b entity Lcoe$c;
+	METHOD <init> (Lav;Lcoe$c;)V
+		ARG 1 predicate
+		ARG 2 entity
+	METHOD a create (Lcoe$c;)Lcqr$a;
+		ARG 0 entity
+	METHOD a builder (Lcoe$c;Lav$a;)Lcqr$a;
+		ARG 0 entity
+		ARG 1 predicateBuilder
+	METHOD test (Ljava/lang/Object;)Z
+		ARG 1 context

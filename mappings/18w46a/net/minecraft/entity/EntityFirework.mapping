@@ -1,0 +1,11 @@
+CLASS aqk net/minecraft/entity/EntityFirework
+	FIELD a ITEM_STACK Lpm;
+	METHOD S_ update ()V
+	METHOD a shouldRender (D)Z
+	METHOD a deserializeCustomData (Lho;)V
+	METHOD b serializeCustomData (Lho;)V
+	METHOD g shouldRenderFrom (DDD)Z
+		ARG 1 x
+	METHOD h setVelocityClient (DDD)V
+		ARG 1 x
+	METHOD y_ initDataTracker ()V

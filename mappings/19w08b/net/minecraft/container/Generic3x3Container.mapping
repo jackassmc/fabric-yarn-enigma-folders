@@ -1,0 +1,6 @@
+CLASS auj net/minecraft/container/Generic3x3Container
+	FIELD c inventory Laga;
+	METHOD <init> (ILary;)V
+		ARG 1 syncId
+	METHOD <init> (ILary;Laga;)V
+		ARG 1 syncId

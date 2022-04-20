@@ -1,0 +1,5 @@
+CLASS dwj net/minecraft/client/audio/ElytraSoundInstance
+	FIELD o player Ldjt;
+	FIELD p tickCount I
+	METHOD <init> (Ldjt;)V
+		ARG 1 player

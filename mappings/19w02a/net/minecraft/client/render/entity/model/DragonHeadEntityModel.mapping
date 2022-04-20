@@ -1,0 +1,10 @@
+CLASS dbm net/minecraft/client/render/entity/model/DragonHeadEntityModel
+	FIELD b head Ldbs;
+	FIELD c jaw Ldbs;
+	METHOD a setRotationAngles (FFFFFF)V
+		ARG 1 limbMoveAngle
+		ARG 2 limbMoveAmount
+		ARG 3 age
+		ARG 4 headYaw
+		ARG 5 headPitch
+		ARG 6 scale

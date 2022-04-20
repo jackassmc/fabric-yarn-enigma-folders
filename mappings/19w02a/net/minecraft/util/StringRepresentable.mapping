@@ -1,0 +1,2 @@
+CLASS zh net/minecraft/util/StringRepresentable
+	METHOD m asString ()Ljava/lang/String;

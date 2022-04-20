@@ -1,0 +1,8 @@
+CLASS byb net/minecraft/client/render/entity/EntityRendererItemFrame
+	FIELD a MAP_BACKGROUND_TEX Lmd;
+	FIELD f game Lbgm;
+	FIELD g MODEL_NORMAL Lcej;
+	FIELD h MODEL_MAP Lcej;
+	FIELD i itemRenderer Lbyc;
+	METHOD a getTexture (Laav;)Lmd;
+	METHOD a getTexture (Lub;)Lmd;

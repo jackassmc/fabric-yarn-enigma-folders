@@ -1,0 +1,4 @@
+CLASS dxj net/minecraft/client/search/TextSearchableContainer
+	CLASS a Iterator
+	FIELD c byText Ldxm;
+	FIELD d textFinder Ljava/util/function/Function;

@@ -1,0 +1,19 @@
+CLASS bro net/minecraft/world/gen/GenerationStep
+	CLASS bro$a Carver
+		FIELD a AIR Lbro$a;
+		FIELD b LIQUID Lbro$a;
+		FIELD c nameMap Ljava/util/Map;
+		FIELD d name Ljava/lang/String;
+		METHOD a getName ()Ljava/lang/String;
+	CLASS bro$b Feature
+		FIELD a RAW_GENERATION Lbro$b;
+		FIELD b LOCAL_MODIFICATIONS Lbro$b;
+		FIELD c UNDERGROUND_STRUCTURES Lbro$b;
+		FIELD d SURFACE_STRUCTURES Lbro$b;
+		FIELD e UNDERGROUND_ORES Lbro$b;
+		FIELD f UNDERGROUND_DECORATION Lbro$b;
+		FIELD g VEGETAL_DECORATION Lbro$b;
+		FIELD h TOP_LAYER_MODIFICATION Lbro$b;
+		FIELD i nameMap Ljava/util/Map;
+		FIELD j name Ljava/lang/String;
+		METHOD a getName ()Ljava/lang/String;

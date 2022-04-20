@@ -1,0 +1,3 @@
+CLASS ava net/minecraft/entity/mob/VindicatorEntity
+	CLASS ava$a VindicatorBreakDoorGoal
+	FIELD bz isJohnny Z

@@ -1,0 +1,6 @@
+CLASS aox net/minecraft/entity/ai/goal/TrackOwnerAttackerGoal
+	FIELD a tameable Laji;
+	FIELD b attacker Laiu;
+	FIELD c lastAttackedTime I
+	METHOD <init> (Laji;)V
+		ARG 1 tameable

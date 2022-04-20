@@ -1,0 +1,4 @@
+CLASS bmy net/minecraft/block/ChorusPlantBlock
+	METHOD <init> (Lbmh$c;)V
+		ARG 1 settings
+	METHOD a withConnectionProperties (Lbgo;Lev;)Lbvf;

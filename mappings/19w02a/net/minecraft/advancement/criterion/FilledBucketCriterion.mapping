@@ -1,0 +1,17 @@
+CLASS au net/minecraft/advancement/criterion/FilledBucketCriterion
+	CLASS au$b Conditions
+		FIELD a item Laz;
+		METHOD a matches (Laxd;)Z
+		METHOD a create (Laz;)Lau$b;
+		METHOD b toJson ()Lcom/google/gson/JsonElement;
+	FIELD a ID Lqe;
+	METHOD a getId ()Lqe;
+	METHOD a deserializeConditions (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Lv;
+		ARG 1 obj
+	METHOD a endTracking (Lqo;)V
+	METHOD a beginTrackingCondition (Lqo;Lu$a;)V
+		ARG 1 manager
+	METHOD b deserializeConditions (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Lau$b;
+		ARG 1 obj
+	METHOD b endTrackingCondition (Lqo;Lu$a;)V
+		ARG 1 manager

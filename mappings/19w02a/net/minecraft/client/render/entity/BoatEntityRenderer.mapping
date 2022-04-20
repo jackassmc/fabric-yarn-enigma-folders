@@ -1,0 +1,8 @@
+CLASS dix net/minecraft/client/render/entity/BoatEntityRenderer
+	FIELD f SKIN [Lqe;
+	METHOD a hasSecondPass ()Z
+	METHOD a getTexture (Lahd;)Lqe;
+	METHOD a render (Lahd;DDDFF)V
+	METHOD a getTexture (Last;)Lqe;
+	METHOD a render (Last;DDDFF)V
+	METHOD b renderSecondPass (Lahd;DDDFF)V

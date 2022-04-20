@@ -1,0 +1,36 @@
+CLASS deq net/minecraft/client/gl/GlProgram
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD b dummyUniform Lcoy;
+	FIELD c activeProgram Ldeq;
+	FIELD d activeProgramRef I
+	FIELD e samplerBinds Ljava/util/Map;
+	FIELD f samplerNames Ljava/util/List;
+	FIELD g samplerShaderLocs Ljava/util/List;
+	FIELD h uniformData Ljava/util/List;
+	FIELD i uniformLocs Ljava/util/List;
+	FIELD j uniformByName Ljava/util/Map;
+	FIELD k programRef I
+	FIELD l name Ljava/lang/String;
+	FIELD m useCullFace Z
+	FIELD n uniformStateDirty Z
+	FIELD o blendState Lcoz;
+	FIELD p attribLocs Ljava/util/List;
+	FIELD q attribNames Ljava/util/List;
+	FIELD r vertexShader Lcpb;
+	FIELD s fragmentShader Lcpb;
+	METHOD <init> (Lwq;Ljava/lang/String;)V
+		ARG 1 resource
+		ARG 2 name
+	METHOD a getProgramRef ()I
+	METHOD a addSampler (Lcom/google/gson/JsonElement;)V
+	METHOD a getUniformByName (Ljava/lang/String;)Lcpd;
+	METHOD a bindSampler (Ljava/lang/String;Ljava/lang/Object;)V
+		ARG 1 samplerName
+	METHOD b markUniformStateDirty ()V
+	METHOD b addUniform (Lcom/google/gson/JsonElement;)V
+	METHOD b getUniformByNameOrDummy (Ljava/lang/String;)Lcoy;
+	METHOD c getVertexShader ()Lcpb;
+	METHOD d getFragmentShader ()Lcpb;
+	METHOD e disable ()V
+	METHOD f enable ()V
+	METHOD h finalizeUniformsAndSamplers ()V

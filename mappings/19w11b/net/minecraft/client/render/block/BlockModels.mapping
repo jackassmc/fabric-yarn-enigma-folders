@@ -1,0 +1,11 @@
+CLASS djv net/minecraft/client/render/block/BlockModels
+	FIELD a models Ljava/util/Map;
+	FIELD b modelManager Ldut;
+	METHOD a getModelManager ()Ldut;
+	METHOD a getSprite (Lbtw;)Ldtb;
+	METHOD a propertyValueToString (Lbuz;Ljava/lang/Comparable;)Ljava/lang/String;
+	METHOD a propertyMapToString (Ljava/util/Map;)Ljava/lang/String;
+	METHOD a getModelId (Lqp;Lbtw;)Lduu;
+	METHOD b reload ()V
+	METHOD b getModel (Lbtw;)Ldup;
+	METHOD c getModelId (Lbtw;)Lduu;

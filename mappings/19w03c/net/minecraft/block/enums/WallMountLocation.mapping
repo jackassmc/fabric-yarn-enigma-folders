@@ -1,0 +1,3 @@
+CLASS bqv net/minecraft/block/enums/WallMountLocation
+	FIELD d name Ljava/lang/String;
+	METHOD m asString ()Ljava/lang/String;

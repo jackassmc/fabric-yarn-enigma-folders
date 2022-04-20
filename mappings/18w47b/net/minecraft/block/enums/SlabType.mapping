@@ -1,0 +1,6 @@
+CLASS bpm net/minecraft/block/enums/SlabType
+	FIELD a TOP Lbpm;
+	FIELD b BOTTOM Lbpm;
+	FIELD c DOUBLE Lbpm;
+	FIELD d name Ljava/lang/String;
+	METHOD m asString ()Ljava/lang/String;

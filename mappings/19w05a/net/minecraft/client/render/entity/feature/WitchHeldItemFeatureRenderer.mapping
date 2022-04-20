@@ -1,0 +1,3 @@
+CLASS doa net/minecraft/client/render/entity/feature/WitchHeldItemFeatureRenderer
+	METHOD <init> (Ldlm;)V
+		ARG 1 context

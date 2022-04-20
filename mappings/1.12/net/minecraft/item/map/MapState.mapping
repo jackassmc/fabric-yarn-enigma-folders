@@ -1,0 +1,9 @@
+CLASS bet net/minecraft/item/map/MapState
+	FIELD e showIcons Z
+	FIELD g scale B
+	FIELD h colorArray [B
+	FIELD j icons Ljava/util/Map;
+	METHOD a deserialize (Lfy;)V
+		ARG 0 tag
+	METHOD b serialize (Lfy;)Lfy;
+		ARG 0 tag

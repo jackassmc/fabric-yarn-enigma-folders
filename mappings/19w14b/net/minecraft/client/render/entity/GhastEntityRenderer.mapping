@@ -1,0 +1,3 @@
+CLASS dpc net/minecraft/client/render/entity/GhastEntityRenderer
+	FIELD a SKIN Lqs;
+	FIELD j ANGRY_SKIN Lqs;

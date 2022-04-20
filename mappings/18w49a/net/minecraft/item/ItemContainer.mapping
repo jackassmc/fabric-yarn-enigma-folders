@@ -1,0 +1,2 @@
+CLASS bar net/minecraft/item/ItemContainer
+	METHOD h getItem ()Lavp;

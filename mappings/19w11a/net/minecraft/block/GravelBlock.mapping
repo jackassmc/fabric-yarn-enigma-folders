@@ -1,0 +1,3 @@
+CLASS bnk net/minecraft/block/GravelBlock
+	METHOD <init> (Lbkz$c;)V
+		ARG 1 settings

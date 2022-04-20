@@ -1,0 +1,2 @@
+CLASS dme net/minecraft/client/render/entity/MinecartEntityRenderer
+	FIELD f SKIN Lqi;

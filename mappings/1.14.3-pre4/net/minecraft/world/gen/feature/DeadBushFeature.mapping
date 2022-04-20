@@ -1,0 +1,4 @@
+CLASS can net/minecraft/world/gen/feature/DeadBushFeature
+	FIELD a DEAD_BUSH Lbnw;
+	METHOD <init> (Ljava/util/function/Function;)V
+		ARG 1 configFactory

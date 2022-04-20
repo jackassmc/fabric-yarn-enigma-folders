@@ -1,0 +1,86 @@
+CLASS fa net/minecraft/util/math/Facing
+	CLASS fa$a Axis
+		FIELD a X Lfa$a;
+		FIELD b Y Lfa$a;
+		FIELD c Z Lfa$a;
+		FIELD d BY_NAME_MAP Ljava/util/Map;
+		FIELD e name Ljava/lang/String;
+		FIELD f plane Lfa$c;
+		METHOD a getName ()Ljava/lang/String;
+		METHOD a matches (Lfa;)Z
+		METHOD a byName (Ljava/lang/String;)Lfa$a;
+		METHOD b isVertical ()Z
+		METHOD c isHorizontal ()Z
+		METHOD d getPlane ()Lfa$c;
+		METHOD m asString ()Ljava/lang/String;
+	CLASS fa$b Direction
+		FIELD a POSITIVE Lfa$b;
+		FIELD b NEGATIVE Lfa$b;
+		FIELD c offset I
+		FIELD d desc Ljava/lang/String;
+		METHOD a offset ()I
+	CLASS fa$c Plane
+		FIELD a HORIZONTAL Lfa$c;
+		FIELD b VERTICAL Lfa$c;
+		METHOD a getFacings ()[Lfa;
+		METHOD a apply (Lfa;)Z
+		METHOD a getRandomFacing (Ljava/util/Random;)Lfa;
+	FIELD a DOWN Lfa;
+	FIELD b UP Lfa;
+	FIELD c NORTH Lfa;
+	FIELD d SOUTH Lfa;
+	FIELD e WEST Lfa;
+	FIELD f EAST Lfa;
+	FIELD g id I
+	FIELD h idOpposite I
+	FIELD i idHorizontal I
+	FIELD j name Ljava/lang/String;
+	FIELD k axis Lfa$a;
+	FIELD l direction Lfa$b;
+	FIELD m vector Lfq;
+	FIELD n ALL [Lfa;
+	FIELD o HORIZONTAL [Lfa;
+	FIELD p nameToFacing Ljava/util/Map;
+	METHOD <init> (Ljava/lang/String;IIIILjava/lang/String;Lfa$b;Lfa$a;Lfq;)V
+		ARG 0 id
+		ARG 1 idOpposite
+		ARG 2 idHorizontal
+		ARG 3 name
+		ARG 4 direction
+		ARG 5 axis
+		ARG 6 vector
+	METHOD a getId ()I
+	METHOD a fromRotation (D)Lfa;
+		ARG 0 rotation
+	METHOD a getFacing (FFF)Lfa;
+		ARG 0 x
+		ARG 1 y
+		ARG 2 z
+	METHOD a byId (I)Lfa;
+		ARG 0 id
+	METHOD a rotateClockwise (Lfa$a;)Lfa;
+		ARG 0 axis
+	METHOD a get (Lfa$b;Lfa$a;)Lfa;
+		ARG 0 direction
+		ARG 1 axis
+	METHOD a byName (Ljava/lang/String;)Lfa;
+		ARG 0 name
+	METHOD a random (Ljava/util/Random;)Lfa;
+		ARG 0 rand
+	METHOD b getHorizontal ()I
+	METHOD b fromHorizontal (I)Lfa;
+		ARG 0 value
+	METHOD c getDirection ()Lfa$b;
+	METHOD d getOpposite ()Lfa;
+	METHOD e rotateYClockwise ()Lfa;
+	METHOD f rotateYCounterclockwise ()Lfa;
+	METHOD g getOffsetX ()I
+	METHOD h getOffsetY ()I
+	METHOD i getOffsetZ ()I
+	METHOD j getName ()Ljava/lang/String;
+	METHOD k getAxis ()Lfa$a;
+	METHOD l asRotation ()F
+	METHOD m asString ()Ljava/lang/String;
+	METHOD n getVector ()Lfq;
+	METHOD o rotateXClockwise ()Lfa;
+	METHOD q rotateZClockwise ()Lfa;

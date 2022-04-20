@@ -1,0 +1,73 @@
+CLASS fi net/minecraft/util/registry/Registry
+	FIELD A CHUNK_STATUS Lew;
+	FIELD B STRUCTURE_FEATURE Lfi;
+	FIELD C STRUCTURE_PIECE Lfi;
+	FIELD D RULE_TEST Lfi;
+	FIELD E STRUCTURE_PROCESSOR Lfi;
+	FIELD F STRUCTURE_POOL_ELEMENT Lfi;
+	FIELD G CONTAINER Lfi;
+	FIELD H RECIPE_TYPE Lfi;
+	FIELD I RECIPE_SERIALIZER Lfi;
+	FIELD J STAT_TYPE Lfi;
+	FIELD K VILLAGER_TYPE Lew;
+	FIELD L VILLAGER_PROFESSION Lew;
+	FIELD a DEFAULT_ENTRIES Ljava/util/Map;
+	FIELD e LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD f REGISTRIES Lfn;
+	FIELD g SOUND_EVENT Lfi;
+	FIELD h FLUID Lew;
+	FIELD i STATUS_EFFECT Lfi;
+	FIELD j BLOCK Lew;
+	FIELD k ENCHANTMENT Lfi;
+	FIELD l ENTITY_TYPE Lew;
+	FIELD m ITEM Lew;
+	FIELD n POTION Lew;
+	FIELD o CARVER Lfi;
+	FIELD p SURFACE_BUILDER Lfi;
+	FIELD q FEATURE Lfi;
+	FIELD r DECORATOR Lfi;
+	FIELD s BIOME Lfi;
+	FIELD t PARTICLE_TYPE Lfi;
+	FIELD u BIOME_SOURCE_TYPE Lfi;
+	FIELD v BLOCK_ENTITY Lfi;
+	FIELD w CHUNK_GENERATOR_TYPE Lfi;
+	FIELD x DIMENSION Lfi;
+	FIELD y MOTIVE Lew;
+	FIELD z CUSTOM_STAT Lfi;
+	METHOD a register (Lfi;ILjava/lang/String;Ljava/lang/Object;)Ljava/lang/Object;
+		ARG 0 registry
+		ARG 1 rawId
+		ARG 2 id
+		ARG 3 entry
+	METHOD a register (Lfi;Ljava/lang/String;Ljava/lang/Object;)Ljava/lang/Object;
+		ARG 0 registry
+		ARG 1 id
+		ARG 2 entry
+	METHOD a register (Lfi;Lqi;Ljava/lang/Object;)Ljava/lang/Object;
+		ARG 0 registry
+		ARG 1 id
+		ARG 2 entry
+	METHOD a getRawId (Ljava/lang/Object;)I
+		ARG 1 entry
+	METHOD a create (Ljava/lang/String;Lfn;)Lfi;
+		ARG 0 id
+		ARG 1 registry
+	METHOD a create (Ljava/lang/String;Lfn;Ljava/util/function/Supplier;)Lfn;
+		ARG 0 id
+		ARG 1 registry
+		ARG 2 defaultEntry
+	METHOD a putDefaultEntry (Ljava/lang/String;Ljava/util/function/Supplier;)V
+		ARG 0 id
+		ARG 1 defaultEntry
+	METHOD a getRandom (Ljava/util/Random;)Ljava/lang/Object;
+		ARG 1 rand
+	METHOD a get (Lqi;)Ljava/lang/Object;
+		ARG 1 id
+	METHOD b getIds ()Ljava/util/Set;
+	METHOD b getId (Ljava/lang/Object;)Lqi;
+		ARG 1 entry
+	METHOD b getOrEmpty (Lqi;)Ljava/util/Optional;
+		ARG 1 id
+	METHOD c containsId (Lqi;)Z
+		ARG 1 id
+	METHOD d stream ()Ljava/util/stream/Stream;

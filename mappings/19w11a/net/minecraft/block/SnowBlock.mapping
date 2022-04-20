@@ -1,0 +1,7 @@
+CLASS bpz net/minecraft/block/SnowBlock
+	FIELD a LAYERS Lbux;
+	FIELD b LAYERS_TO_SHAPE [Lcrb;
+	METHOD <init> (Lbkz$c;)V
+		ARG 1 settings
+	METHOD n (Lbtx;)Z
+		ARG 1 state

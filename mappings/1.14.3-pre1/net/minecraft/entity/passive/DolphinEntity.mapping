@@ -1,0 +1,34 @@
+CLASS aqy net/minecraft/entity/passive/DolphinEntity
+	CLASS aqy$a DolphinMoveControl
+		FIELD i dolphin Laqy;
+	CLASS aqy$b LeadToNearbyTreasureGoal
+		FIELD a dolphin Laqy;
+		METHOD <init> (Laqy;)V
+			ARG 1 dolphin
+	CLASS aqy$c SwimWithPlayerGoal
+		FIELD a dolphin Laqy;
+		FIELD b speed D
+		FIELD c closestPlayer Lavz;
+		METHOD <init> (Laqy;D)V
+			ARG 1 dolphin
+			ARG 2 speed
+	CLASS aqy$d PlayWithItemsGoal
+		METHOD a spitOutItem (Lbcc;)V
+			ARG 1 stack
+	FIELD bA CLOSE_PLAYER_PREDICATE Laqb;
+	FIELD b CAN_TAKE Ljava/util/function/Predicate;
+	FIELD bz MOISTNESS Lqh;
+	FIELD c TREASURE_POS Lqh;
+	FIELD d HAS_FISH Lqh;
+	METHOD a spawnParticlesAround (Lgd;)V
+		ARG 1 parameters
+	METHOD b setMoistness (I)V
+		ARG 1 moistness
+	METHOD dV hasFish ()Z
+	METHOD dW getMoistness ()I
+	METHOD dX isCloseToTarget ()Z
+	METHOD g setTreasurePos (Lev;)V
+		ARG 1 treasurePos
+	METHOD l getTreasurePos ()Lev;
+	METHOD r setHasFish (Z)V
+		ARG 1 hasFish

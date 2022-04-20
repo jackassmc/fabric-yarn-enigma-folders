@@ -1,0 +1,4 @@
+CLASS bmd net/minecraft/block/RailBlock
+	FIELD c RAIL_SHAPE Lbrx;
+	METHOD <init> (Lbic$c;)V
+		ARG 1 settings

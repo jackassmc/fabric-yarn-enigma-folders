@@ -1,0 +1,57 @@
+CLASS aro net/minecraft/block/BlockWall
+	CLASS aro$a Variant
+		FIELD a NORMAL Laro$a;
+		FIELD b MOSSY Laro$a;
+		FIELD c VALUES [Laro$a;
+		FIELD d rawId I
+		FIELD e name Ljava/lang/String;
+		FIELD f id Ljava/lang/String;
+		METHOD a getRawId ()I
+		METHOD a get (I)Laro$a;
+			ARG 0 rawId
+		METHOD c getId ()Ljava/lang/String;
+		METHOD m asString ()Ljava/lang/String;
+	FIELD a UP Latv;
+	FIELD b NORTH Latv;
+	FIELD c EAST Latv;
+	FIELD d SOUTH Latv;
+	FIELD e WEST Latv;
+	FIELD f VARIANT Latx;
+	METHOD <init> (Lals;)V
+		ARG 0 base
+	METHOD a deserializeState (I)Latj;
+		ARG 0 meta
+	METHOD a addStacksForDisplay (Lafg;Laei;Ldd;)V
+		ARG 0 item
+		ARG 1 tab
+		ARG 2 list
+	METHOD a getCollisionBox (Latj;Laju;Lco;)Lbdr;
+		ARG 0 state
+		ARG 1 view
+		ARG 2 pos
+	METHOD a shouldRenderSide (Latj;Laju;Lco;Lcv;)Z
+		ARG 0 state
+		ARG 1 view
+		ARG 2 pos
+		ARG 3 facing
+	METHOD b createStateFactory ()Latk;
+	METHOD b (Laju;Lco;)Z
+		ARG 0 view
+		ARG 1 pos
+	METHOD b isFullBoundsCubeForCulling (Latj;)Z
+		ARG 0 state
+	METHOD b getBoundingBox (Latj;Laju;Lco;)Lbdr;
+		ARG 0 state
+		ARG 1 view
+		ARG 2 pos
+	METHOD c getTranslatedName ()Ljava/lang/String;
+	METHOD c (Latj;)Z
+		ARG 0 state
+	METHOD c getRenderingState (Latj;Laju;Lco;)Latj;
+		ARG 0 state
+		ARG 1 view
+		ARG 2 pos
+	METHOD d getDropItemDamage (Latj;)I
+		ARG 0 state
+	METHOD e serializeState (Latj;)I
+		ARG 0 state

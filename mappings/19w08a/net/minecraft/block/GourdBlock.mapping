@@ -1,0 +1,5 @@
+CLASS bnr net/minecraft/block/GourdBlock
+	METHOD <init> (Lbif$c;)V
+		ARG 1 settings
+	METHOD d getStem ()Lbnq;
+	METHOD e getAttachedStem ()Lbhn;

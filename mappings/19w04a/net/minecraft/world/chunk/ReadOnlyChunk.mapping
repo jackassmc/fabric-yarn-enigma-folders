@@ -1,0 +1,5 @@
+CLASS bsj net/minecraft/world/chunk/ReadOnlyChunk
+	FIELD a wrapped Lbsk;
+	METHOD <init> (Lbsk;)V
+		ARG 1 wrapped
+	METHOD u getWrappedChunk ()Lbsk;

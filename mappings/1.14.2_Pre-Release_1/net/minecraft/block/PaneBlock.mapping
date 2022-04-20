@@ -1,0 +1,5 @@
+CLASS bpg net/minecraft/block/PaneBlock
+	METHOD <init> (Lbmm$c;)V
+		ARG 1 settings
+	METHOD a connectsTo (Lbvk;Z)Z
+		ARG 1 state

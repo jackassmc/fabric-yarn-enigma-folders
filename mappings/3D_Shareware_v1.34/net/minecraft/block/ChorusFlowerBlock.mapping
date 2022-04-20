@@ -1,0 +1,24 @@
+CLASS bmq net/minecraft/block/ChorusFlowerBlock
+	FIELD a AGE Lbvy;
+	FIELD b plantBlock Lbmr;
+	METHOD a die (Lbgx;Lev;)V
+		ARG 2 pos
+	METHOD a generate (Lbgy;Lev;Ljava/util/Random;I)V
+		ARG 0 world
+		ARG 1 pos
+		ARG 2 random
+		ARG 3 size
+	METHOD a generate (Lbgy;Lev;Ljava/util/Random;Lev;II)V
+		ARG 0 world
+		ARG 1 pos
+		ARG 2 random
+		ARG 4 size
+		ARG 5 layer
+	METHOD b grow (Lbgx;Lev;I)V
+		ARG 1 world
+		ARG 2 pos
+		ARG 3 age
+	METHOD b isSurroundedByAir (Lbha;Lev;Lfa;)Z
+		ARG 0 world
+		ARG 1 pos
+		ARG 2 exceptDirection

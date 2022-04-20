@@ -1,0 +1,5 @@
+CLASS aot net/minecraft/entity/mob/CaveSpiderEntity
+	METHOD a (Lbat;Lafc;Lagw;Lahe;Lhq;)Lahe;
+		ARG 3 difficulty
+	METHOD bG getEyeHeight ()F
+	METHOD ca initAttributes ()V

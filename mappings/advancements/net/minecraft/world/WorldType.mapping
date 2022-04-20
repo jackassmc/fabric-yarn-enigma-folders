@@ -1,0 +1,13 @@
+CLASS awy net/minecraft/world/WorldType
+	FIELD a OVERWORLD Lawy;
+	FIELD b NETHER Lawy;
+	FIELD c END Lawy;
+	FIELD d id I
+	FIELD e name Ljava/lang/String;
+	FIELD f suffix Ljava/lang/String;
+	FIELD g providerClass Ljava/lang/Class;
+	METHOD a getID ()I
+	METHOD a getById (I)Lawy;
+	METHOD b getName ()Ljava/lang/String;
+	METHOD c getSuffix ()Ljava/lang/String;
+	METHOD d createProvider ()Lawx;

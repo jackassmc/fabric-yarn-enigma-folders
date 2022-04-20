@@ -1,0 +1,3 @@
+CLASS dhu net/minecraft/client/particle/EmotionParticle
+	CLASS dhu$a AngryVillagerFactory
+	CLASS dhu$b HeartFactory

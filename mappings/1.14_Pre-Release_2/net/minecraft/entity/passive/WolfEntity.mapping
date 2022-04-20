@@ -1,0 +1,30 @@
+CLASS ark net/minecraft/entity/passive/WolfEntity
+	CLASS ark$a AvoidLlamaGoal
+		FIELD j wolf Lark;
+		METHOD a isScaredOf (Larp;)Z
+			ARG 1 llama
+	FIELD bC FOLLOW_TAMED_PREDICATE Ljava/util/function/Predicate;
+	FIELD bD WOLF_HEALTH Lqh;
+	FIELD bE BEGGING Lqh;
+	FIELD bF COLLAR_COLOR Lqh;
+	FIELD bG begAnimationProgress F
+	FIELD bH lastBegAnimationProgress F
+	FIELD bI wet Z
+	FIELD bJ canShakeWaterOff Z
+	FIELD bK shakeProgress F
+	FIELD bL lastShakeProgress F
+	METHOD a setCollarColor (Lbar;)V
+		ARG 1 color
+	METHOD eb isWet ()Z
+	METHOD ed isAngry ()Z
+	METHOD ee getCollarColor ()Lbar;
+	METHOD ef isBegging ()Z
+	METHOD f getShakeAnimationProgress (FF)F
+		ARG 1 tickDelta
+	METHOD u setAngry (Z)V
+	METHOD v getWetBrightnessMultiplier (F)F
+		ARG 1 tickDelta
+	METHOD v setBegging (Z)V
+		ARG 1 begging
+	METHOD w getBegAnimationProgress (F)F
+		ARG 1 tickDelta

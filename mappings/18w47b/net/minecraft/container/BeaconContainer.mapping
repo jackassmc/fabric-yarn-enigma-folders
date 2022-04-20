@@ -1,0 +1,17 @@
+CLASS asb net/minecraft/container/BeaconContainer
+	CLASS asb$a SlotPayment
+		METHOD a getMaxStackAmount ()I
+		METHOD a canInsert (Lavo;)Z
+			ARG 0 stack
+	FIELD a inventory Laes;
+	FIELD f slotPayment Lasb$a;
+	METHOD <init> (Laes;Laes;)V
+		ARG 1 playerInv
+	METHOD a canUse (Laqg;)Z
+	METHOD a addListener (Lasg;)V
+	METHOD b setProperty (II)V
+		ARG 1 pos
+	METHOD b close (Laqg;)V
+	METHOD b getStack (Laqg;I)Lavo;
+		ARG 1 player
+	METHOD d getInventory ()Laes;

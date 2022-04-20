@@ -1,0 +1,15 @@
+CLASS dbp net/minecraft/client/render/entity/model/DragonEntityModel
+	FIELD a head Ldbu;
+	FIELD b neck Ldbu;
+	FIELD f jaw Ldbu;
+	FIELD g body Ldbu;
+	FIELD h rearLeg Ldbu;
+	FIELD i frontLeg Ldbu;
+	FIELD j rearLegTip Ldbu;
+	FIELD k frontLegTip Ldbu;
+	FIELD l rearFoot Ldbu;
+	FIELD m frontFoot Ldbu;
+	FIELD n wing Ldbu;
+	FIELD o wingTip Ldbu;
+	FIELD p delta F
+	METHOD a updateRotations (D)F

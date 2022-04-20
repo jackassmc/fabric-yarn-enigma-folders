@@ -1,0 +1,7 @@
+CLASS me net/minecraft/client/network/packet/RemoveEntityEffectS2CPacket
+	FIELD a entityId I
+	FIELD b effectType Laho;
+	METHOD <init> (ILaho;)V
+		ARG 1 entityId
+	METHOD a getEntity (Lbfy;)Lahw;
+	METHOD b getEffectType ()Laho;

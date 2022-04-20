@@ -1,0 +1,2 @@
+CLASS agu net/minecraft/inventory/InventoryListener
+	METHOD a onInvChange (Lags;)V

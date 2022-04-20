@@ -1,0 +1,3 @@
+CLASS dha net/minecraft/client/render/entity/model/DragonHeadEntityModel
+	FIELD b head Ldhg;
+	FIELD c jaw Ldhg;

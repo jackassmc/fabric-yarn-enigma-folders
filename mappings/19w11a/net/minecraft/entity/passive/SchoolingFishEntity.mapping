@@ -1,0 +1,18 @@
+CLASS aph net/minecraft/entity/passive/SchoolingFishEntity
+	CLASS aph$a net/minecraft/entity/passive/SchoolingFishEntity$Data
+		FIELD a leader Laph;
+	FIELD b leader Laph;
+	FIELD c groupSize I
+	METHOD <init> (Laia;Lbfy;)V
+		ARG 1 type
+	METHOD a joinGroupOf (Laph;)Laph;
+	METHOD a pullInOtherFish (Ljava/util/stream/Stream;)V
+	METHOD dP getMaxGroupSize ()I
+	METHOD dQ hasLeader ()Z
+	METHOD dR leaveGroup ()V
+	METHOD dS canHaveMoreFishInGroup ()Z
+	METHOD dT hasOtherFishInGroup ()Z
+	METHOD dU isCloseEnoughToLeader ()Z
+	METHOD dV moveTowardLeader ()V
+	METHOD dW increaseGroupSize ()V
+	METHOD dX decreaseGroupSize ()V

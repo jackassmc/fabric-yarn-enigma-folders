@@ -1,0 +1,6 @@
+CLASS cxm net/minecraft/client/render/item/ItemBuiltinRenderer
+	FIELD a INSTANCE Lcxm;
+	FIELD d renderChestNormal Lbki;
+	FIELD f renderChestEnder Lbkq;
+	FIELD g renderBanner Lbkb;
+	FIELD i renderSkull Lbla;

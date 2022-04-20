@@ -1,0 +1,96 @@
+CLASS cru net/minecraft/client/gui/ingame/GuiStructureBlock
+	CLASS cru$1
+		METHOD a onPressed (DD)V
+			ARG 0 mouseX
+	CLASS cru$2
+		METHOD a onPressed (DD)V
+			ARG 0 mouseX
+	CLASS cru$3
+		METHOD a onPressed (DD)V
+			ARG 0 mouseX
+	CLASS cru$4
+		METHOD a onPressed (DD)V
+			ARG 0 mouseX
+	CLASS cru$5
+		METHOD a onPressed (DD)V
+			ARG 0 mouseX
+	CLASS cru$6
+		METHOD a onPressed (DD)V
+			ARG 0 mouseX
+	CLASS cru$9
+		METHOD a onPressed (DD)V
+			ARG 0 mouseX
+	CLASS cru$10
+		METHOD a onPressed (DD)V
+			ARG 0 mouseX
+	CLASS cru$11
+		METHOD a onPressed (DD)V
+			ARG 0 mouseX
+	CLASS cru$12
+		METHOD a onPressed (DD)V
+			ARG 0 mouseX
+	CLASS cru$13
+		METHOD a onPressed (DD)V
+			ARG 0 mouseX
+	CLASS cru$14
+		METHOD a onPressed (DD)V
+			ARG 0 mouseX
+	CLASS cru$15
+		METHOD a onPressed (DD)V
+			ARG 0 mouseX
+	CLASS cru$16
+		METHOD a onPressed (DD)V
+			ARG 0 mouseX
+	FIELD A inputSizeY Lcmy;
+	FIELD B inputSizeZ Lcmy;
+	FIELD C inputIntegrity Lcmy;
+	FIELD D inputSeed Lcmy;
+	FIELD E inputMetadata Lcmy;
+	FIELD H buttonSave Lcmu;
+	FIELD I buttonLoad Lcmu;
+	FIELD J buttonRotate0 Lcmu;
+	FIELD K buttonRotate90 Lcmu;
+	FIELD L buttonRotate180 Lcmu;
+	FIELD M buttonRotate270 Lcmu;
+	FIELD N buttonMode Lcmu;
+	FIELD O buttonDetect Lcmu;
+	FIELD P buttonEntities Lcmu;
+	FIELD Q buttonMirror Lcmu;
+	FIELD R buttonShowAir Lcmu;
+	FIELD S buttonShowBoundingBox Lcmu;
+	FIELD T textFields Ljava/util/List;
+	FIELD U decimalFormat Ljava/text/DecimalFormat;
+	FIELD f structureBlock Lbmr;
+	FIELD g mirror Lbif;
+	FIELD h rotation Lbjf;
+	FIELD i mode Lbpc;
+	FIELD v inputName Lcmy;
+	FIELD w inputPosX Lcmy;
+	FIELD x inputPosY Lcmy;
+	FIELD y inputPosZ Lcmy;
+	FIELD z inputSizeX Lcmy;
+	METHOD a draw (IIF)V
+		ARG 1 mouseX
+		ARG 2 mouseY
+	METHOD a parseLong (Ljava/lang/String;)J
+	METHOD b onScaleChanged (Lclx;II)V
+		ARG 1 game
+		ARG 2 width
+	METHOD b parseFloat (Ljava/lang/String;)F
+	METHOD c onInitialized ()V
+	METHOD c parseInt (Ljava/lang/String;)I
+	METHOD e isPauseScreen ()Z
+	METHOD f update ()V
+	METHOD g close ()V
+	METHOD j updateIgnoreEntitiesButton ()V
+	METHOD k updateShowAirButton ()V
+	METHOD keyPressed (III)Z
+		ARG 1 keyCode
+		ARG 2 scanCode
+	METHOD m updateShowBoundingBoxButton ()V
+	METHOD mouseClicked (DDI)Z
+		ARG 1 mouseX
+	METHOD n onClosed ()V
+	METHOD o updateMirrorButton ()V
+	METHOD s updateRotationButton ()V
+	METHOD u updateMode ()V

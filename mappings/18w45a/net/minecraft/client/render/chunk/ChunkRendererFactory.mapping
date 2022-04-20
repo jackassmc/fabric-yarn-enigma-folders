@@ -1,0 +1,3 @@
+CLASS dcv net/minecraft/client/render/chunk/ChunkRendererFactory
+	METHOD create (Lazy;Ldaf;)Ldcu;
+		ARG 1 world

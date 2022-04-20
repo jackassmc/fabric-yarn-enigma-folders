@@ -1,0 +1,15 @@
+CLASS buw net/minecraft/block/PistonBlock
+	FIELD b EXTENDED Lbvu;
+	FIELD i isSticky Z
+	METHOD a move (Lbha;Lev;Lfa;Z)Z
+		ARG 1 world
+		ARG 2 pos
+		ARG 3 dir
+	METHOD a isMovable (Lbvc;Lbha;Lev;Lfa;ZLfa;)Z
+		ARG 0 state
+		ARG 1 world
+		ARG 2 pos
+		ARG 3 facing
+		ARG 4 canBreak
+	METHOD n (Lbvc;)Z
+		ARG 1 state

@@ -1,0 +1,58 @@
+CLASS atd net/minecraft/block/BlockTorch
+	FIELD a FACING Lavr;
+	FIELD b BOX_UP Lbfm;
+	FIELD c BOX_NORTH Lbfm;
+	FIELD d BOX_SOUTH Lbfm;
+	FIELD e BOX_WEST Lbfm;
+	FIELD f BOX_EAST Lbfm;
+	METHOD a deserializeState (I)Lave;
+		ARG 0 meta
+	METHOD a canPlaceAt (Lali;Ldx;)Z
+		ARG 0 world
+		ARG 1 pos
+	METHOD a getStateForPlacement (Lali;Ldx;Lee;FFFILuk;)Lave;
+		ARG 0 world
+		ARG 1 pos
+		ARG 2 facing
+		ARG 3 hitX
+		ARG 4 hitY
+		ARG 5 hitZ
+		ARG 6 metadata
+		ARG 7 player
+	METHOD a update (Lave;Lali;Ldx;Lank;Ldx;)V
+		ARG 0 state
+		ARG 1 world
+		ARG 2 pos
+		ARG 3 block
+		ARG 4 updatePos
+	METHOD a randomDisplayTick (Lave;Lali;Ldx;Ljava/util/Random;)V
+		ARG 0 state
+		ARG 1 world
+		ARG 2 pos
+		ARG 3 rand
+	METHOD a getCollisionBox (Lave;Lalm;Ldx;)Lbfm;
+		ARG 0 state
+		ARG 1 view
+		ARG 2 pos
+	METHOD a applyMirror (Lave;Laqm;)Lave;
+		ARG 0 state
+		ARG 1 mirror
+	METHOD a applyRotation (Lave;Lasa;)Lave;
+		ARG 0 state
+		ARG 1 rotation
+	METHOD b createStateFactory ()Lavf;
+	METHOD b isFullBoundsCubeForCulling (Lave;)Z
+		ARG 0 state
+	METHOD b getBoundingBox (Lave;Lalm;Ldx;)Lbfm;
+		ARG 0 state
+		ARG 1 view
+		ARG 2 pos
+	METHOD c onBlockAdded (Lali;Ldx;Lave;)V
+		ARG 0 world
+		ARG 1 pos
+		ARG 2 state
+	METHOD c isFullBoundsCubeForConnection (Lave;)Z
+		ARG 0 state
+	METHOD e serializeState (Lave;)I
+		ARG 0 state
+	METHOD f getRenderLayer ()Lala;

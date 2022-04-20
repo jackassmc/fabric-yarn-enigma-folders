@@ -1,0 +1,6 @@
+CLASS dky net/minecraft/client/render/entity/SnowmanPumpkinEntityRenderer
+	FIELD a renderer Ldja;
+	METHOD a shouldMergeTextures ()Z
+	METHOD a render (Lagt;FFFFFFF)V
+		ARG 0 entity
+	METHOD a render (Lami;FFFFFFF)V

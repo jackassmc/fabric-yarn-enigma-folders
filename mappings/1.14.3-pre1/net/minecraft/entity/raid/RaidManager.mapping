@@ -1,0 +1,23 @@
+CLASS axf net/minecraft/entity/raid/RaidManager
+	FIELD a raids Ljava/util/Map;
+	FIELD b world Lvg;
+	FIELD c nextAvailableId I
+	FIELD d currentTime I
+	METHOD <init> (Lvg;)V
+		ARG 1 world
+	METHOD a tick ()V
+	METHOD a getRaid (I)Laxd;
+		ARG 1 id
+	METHOD a isValidRaiderFor (Laxe;Laxd;)Z
+		ARG 0 raider
+		ARG 1 raid
+	METHOD a nameFor (Lbye;)Ljava/lang/String;
+		ARG 0 dimension
+	METHOD a getRaidAt (Lev;I)Laxd;
+		ARG 1 pos
+	METHOD a getOrCreateRaid (Lvg;Lev;)Laxd;
+		ARG 1 world
+		ARG 2 pos
+	METHOD a startRaid (Lvh;)Laxd;
+		ARG 1 player
+	METHOD e nextId ()I

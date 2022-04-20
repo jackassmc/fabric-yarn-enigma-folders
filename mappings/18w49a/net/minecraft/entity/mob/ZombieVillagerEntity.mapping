@@ -1,0 +1,23 @@
+CLASS aqc net/minecraft/entity/mob/ZombieVillagerEntity
+	FIELD a CONVERTING Lpo;
+	FIELD bF conversionTimer I
+	FIELD b PROFESSION Lpo;
+	METHOD D getAmbientSound ()Lxg;
+	METHOD T_ update ()V
+	METHOD a setProfession (I)V
+	METHOD a interactMob (Laql;Lafd;)Z
+		ARG 1 player
+	METHOD a (Lbat;Lafc;Lagw;Lahe;Lhq;)Lahe;
+		ARG 3 difficulty
+	METHOD a readCustomDataFromTag (Lhq;)V
+	METHOD a setConverting (Ljava/util/UUID;I)V
+	METHOD b writeCustomDataToTag (Lhq;)V
+	METHOD cI getSoundPitch ()F
+	METHOD cv getDeathSound ()Lxg;
+	METHOD dA getSoundStep ()Lxg;
+	METHOD dB getSkull ()Lavu;
+	METHOD dG getProfession ()I
+	METHOD dJ isConverting ()Z
+	METHOD dK finishConversion ()V
+	METHOD e getHurtSound (Laft;)Lxg;
+	METHOD y_ initDataTracker ()V

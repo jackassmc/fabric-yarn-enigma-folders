@@ -1,0 +1,2 @@
+CLASS anj net/minecraft/entity/ai/goal/MoveIntoWaterGoal
+	FIELD a owner Laio;

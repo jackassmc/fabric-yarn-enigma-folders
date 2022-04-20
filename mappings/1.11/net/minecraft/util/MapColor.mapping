@@ -1,0 +1,45 @@
+CLASS azr net/minecraft/util/MapColor
+	FIELD A BLUE Lazr;
+	FIELD B BROWN Lazr;
+	FIELD C GREEN Lazr;
+	FIELD D RED Lazr;
+	FIELD E BLACK Lazr;
+	FIELD F GOLD Lazr;
+	FIELD G DIAMOND Lazr;
+	FIELD H LAPIS Lazr;
+	FIELD I EMERALD Lazr;
+	FIELD J SPRUCE Lazr;
+	FIELD K NETHER Lazr;
+	FIELD L color I
+	FIELD M id I
+	FIELD a COLORS [Lazr;
+	FIELD b AIR Lazr;
+	FIELD c GRASS Lazr;
+	FIELD d SAND Lazr;
+	FIELD e WEB Lazr;
+	FIELD f LAVA Lazr;
+	FIELD g ICE Lazr;
+	FIELD h IRON Lazr;
+	FIELD i LEAVES Lazr;
+	FIELD j WHITE Lazr;
+	FIELD k CLAY Lazr;
+	FIELD l DIRT Lazr;
+	FIELD m STONE Lazr;
+	FIELD n WATER Lazr;
+	FIELD o WOOD Lazr;
+	FIELD p QUARTZ Lazr;
+	FIELD q ORANGE Lazr;
+	FIELD r MAGENTA Lazr;
+	FIELD s LIGHT_BLUE Lazr;
+	FIELD t YELLOW Lazr;
+	FIELD u LIME Lazr;
+	FIELD v PINK Lazr;
+	FIELD w GRAY Lazr;
+	FIELD x LIGHT_GRAY Lazr;
+	FIELD y CYAN Lazr;
+	FIELD z PURPLE Lazr;
+	METHOD <init> (II)V
+		ARG 0 id
+		ARG 1 color
+	METHOD a getRenderColor (I)I
+		ARG 0 shade

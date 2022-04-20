@@ -1,0 +1,5 @@
+CLASS ams net/minecraft/entity/passive/PandaEntity
+	CLASS ams$b PandaFleeGoal
+	CLASS ams$c PandaMateGoal
+	CLASS ams$f PandaMoveControl
+		FIELD i panda Lams;

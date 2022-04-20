@@ -1,0 +1,10 @@
+CLASS bfs net/minecraft/client/gui/hud/BossBarClient
+	FIELD h healthLatest F
+	FIELD i timeHealthSet J
+	METHOD <init> (Lgc;)V
+		ARG 0 packet
+	METHOD a setHealth (F)V
+		ARG 0 health
+	METHOD a handlePacket (Lgc;)V
+		ARG 0 packet
+	METHOD f getHealth ()F

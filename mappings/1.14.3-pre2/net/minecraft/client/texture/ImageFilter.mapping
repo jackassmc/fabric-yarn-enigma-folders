@@ -1,0 +1,2 @@
+CLASS dko net/minecraft/client/texture/ImageFilter
+	METHOD a filterImage (Lcub;)Lcub;

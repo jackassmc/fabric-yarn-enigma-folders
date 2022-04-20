@@ -1,0 +1,13 @@
+CLASS dnc net/minecraft/client/render/chunk/ChunkRenderData
+	FIELD a EMPTY Ldnc;
+	FIELD c initialized [Z
+	FIELD d empty Z
+	FIELD e blockEntities Ljava/util/List;
+	FIELD g bufferState Lcuj$a;
+	METHOD a isEmpty ()Z
+	METHOD a addBlockEntity (Lbtm;)V
+	METHOD a setBufferState (Lcuj$a;)V
+	METHOD b getBlockEntities ()Ljava/util/List;
+	METHOD c getBufferState ()Lcuj$a;
+	METHOD c markBufferInitialized (Lbgs;)V
+	METHOD d isBufferInitialized (Lbgs;)Z

@@ -1,0 +1,3 @@
+CLASS bqn net/minecraft/block/StainedGlassBlock
+	FIELD a color Lazw;
+	METHOD d getColor ()Lazw;

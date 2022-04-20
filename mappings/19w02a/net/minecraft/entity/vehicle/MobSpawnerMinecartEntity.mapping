@@ -1,0 +1,10 @@
+CLASS asz net/minecraft/entity/vehicle/MobSpawnerMinecartEntity
+	CLASS asz$1
+		METHOD a getWorld ()Lbcf;
+		METHOD b getPos ()Let;
+	FIELD b logic Lbbo;
+	METHOD a readCustomDataFromTag (Lhs;)V
+	METHOD b writeCustomDataToTag (Lhs;)V
+	METHOD h update ()V
+	METHOD o getMinecartType ()Lasr$a;
+	METHOD q getDefaultContainedBlock ()Lbqe;

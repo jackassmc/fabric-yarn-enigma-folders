@@ -1,0 +1,11 @@
+CLASS cvj net/minecraft/client/gui/hud/ChatHudLine
+	FIELD a timestamp I
+	FIELD b text Ljn;
+	FIELD c id I
+	METHOD <init> (ILjn;I)V
+		ARG 1 timestamp
+		ARG 2 text
+		ARG 3 id
+	METHOD a getText ()Ljn;
+	METHOD b getTimestamp ()I
+	METHOD c getId ()I

@@ -1,0 +1,23 @@
+CLASS uo net/minecraft/server/network/EntityTracker
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD b world Lut;
+	FIELD c trackedEntities Ljava/util/Set;
+	FIELD d trackedEntitiesById Lyz;
+	METHOD a toFixedPoint (D)J
+	METHOD a setViewDistance (I)V
+	METHOD a add (Lahd;)V
+		ARG 1 entity
+	METHOD a (Lahd;DDD)V
+		ARG 0 entity
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+	METHOD a add (Lahd;II)V
+		ARG 2 trackingRange
+		ARG 3 updateIntervalTicks
+	METHOD a add (Lahd;IIZ)V
+		ARG 2 trackingRange
+		ARG 3 updateIntervalTicks
+		ARG 4 alwaysUpdateVelocity
+	METHOD a sendEntitiesInChunk (Luv;II)V
+	METHOD b remove (Lahd;)V

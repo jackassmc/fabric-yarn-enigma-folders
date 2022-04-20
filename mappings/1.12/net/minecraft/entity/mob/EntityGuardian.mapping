@@ -1,0 +1,28 @@
+CLASS acy net/minecraft/entity/mob/EntityGuardian
+	CLASS acy$a
+		METHOD a canStart ()Z
+		METHOD b shouldContinue ()Z
+		METHOD c start ()V
+		METHOD d onRemove ()V
+		METHOD e tick ()V
+	CLASS acy$c
+		METHOD a tick ()V
+	METHOD F getSoundAmbient ()Lqc;
+	METHOD J getLootTableId ()Lnd;
+	METHOD P canSpawn ()Z
+	METHOD a onTrackedDataSet (Lmx;)V
+		ARG 0 data
+	METHOD a damage (Lup;F)Z
+		ARG 0 source
+		ARG 1 damage
+	METHOD b createNavigation (Lams;)Lzc;
+		ARG 0 world
+	METHOD bM initAttributes ()V
+	METHOD by getEyeHeight ()F
+	METHOD c registerTagUpgraders2 (Lrw;)V
+		ARG 0 handler
+	METHOD cf getSoundDeath ()Lqc;
+	METHOD d getSoundHurt (Lup;)Lqc;
+	METHOD i initDataTracker ()V
+	METHOD n updateMovement ()V
+	METHOD r initAi ()V

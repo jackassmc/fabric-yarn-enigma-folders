@@ -1,0 +1,2 @@
+CLASS djf net/minecraft/client/particle/WaterSplashParticle
+	CLASS djf$a SplashFactory

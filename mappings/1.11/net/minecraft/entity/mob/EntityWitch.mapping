@@ -1,0 +1,18 @@
+CLASS aal net/minecraft/entity/mob/EntityWitch
+	FIELD c DRINKING Lkk;
+	METHOD G getSoundAmbient ()Lnm;
+	METHOD J getLootTableId ()Lkq;
+	METHOD a attackDistant (Lsv;F)V
+		ARG 0 target
+	METHOD a setDrinking (Z)V
+		ARG 0 value
+	METHOD b registerTagUpgraders (Lph;)V
+		ARG 0 handler
+	METHOD bE initAttributes ()V
+	METHOD bW getSoundDeath ()Lnm;
+	METHOD bX getSoundHurt ()Lnm;
+	METHOD bq getEyeHeight ()F
+	METHOD i initDataTracker ()V
+	METHOD n updateMovement ()V
+	METHOD o isDrinking ()Z
+	METHOD r initAi ()V

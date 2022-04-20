@@ -1,0 +1,5 @@
+CLASS bpn net/minecraft/world/chunk/ChunkProvider
+	METHOD a getLightingProvider ()Lcbi;
+	METHOD b get (II)Lazl;
+		ARG 1 chunkX
+	METHOD f getStatus ()Ljava/lang/String;

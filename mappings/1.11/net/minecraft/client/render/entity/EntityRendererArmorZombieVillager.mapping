@@ -1,0 +1,2 @@
+CLASS bxs net/minecraft/client/render/entity/EntityRendererArmorZombieVillager
+	METHOD L_ init ()V

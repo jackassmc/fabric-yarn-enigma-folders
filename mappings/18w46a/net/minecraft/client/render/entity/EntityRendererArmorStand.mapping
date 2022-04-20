@@ -1,0 +1,6 @@
+CLASS dew net/minecraft/client/render/entity/EntityRendererArmorStand
+	CLASS dew$1
+		METHOD an_ init ()V
+	FIELD a TEX Lpx;
+	METHOD a getTexture (Lagc;)Lpx;
+	METHOD a getTexture (Lanp;)Lpx;

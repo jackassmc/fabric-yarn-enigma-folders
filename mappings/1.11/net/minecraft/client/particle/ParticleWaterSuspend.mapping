@@ -1,0 +1,2 @@
+CLASS bpe net/minecraft/client/particle/ParticleWaterSuspend
+	METHOD a update ()V

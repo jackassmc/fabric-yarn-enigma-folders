@@ -1,0 +1,4 @@
+CLASS bit net/minecraft/block/DeadBushBlock
+	FIELD a SHAPE Lcnl;
+	METHOD <init> (Lbhn$c;)V
+		ARG 1 settings

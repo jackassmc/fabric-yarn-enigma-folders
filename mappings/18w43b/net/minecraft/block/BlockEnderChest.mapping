@@ -1,0 +1,42 @@
+CLASS bfo net/minecraft/block/BlockEnderChest
+	FIELD a FACING Lbnb;
+	METHOD <init> (Lbdx$c;)V
+		ARG 0 builder
+	METHOD a createBlockEntity (Layn;)Lbkf;
+	METHOD a isFullBoundsCubeForConnection (Lblz;)Z
+		ARG 0 state
+	METHOD a getBoundingBox (Lblz;Layn;Leq;)Lchu;
+		ARG 0 state
+		ARG 1 view
+		ARG 2 pos
+	METHOD a canPlaceAtSide (Lblz;Layn;Leq;Lccm;)Z
+		ARG 0 world
+		ARG 2 pos
+	METHOD a activate (Lblz;Laza;Leq;Lapb;Laea;Lev;FFF)Z
+		ARG 0 state
+		ARG 1 world
+		ARG 2 pos
+		ARG 3 player
+		ARG 4 hand
+		ARG 5 facing
+		ARG 6 hitX
+		ARG 7 hitY
+		ARG 8 hitZ
+	METHOD a applyMirror (Lblz;Lbha;)Lblz;
+		ARG 0 state
+		ARG 1 mirror
+	METHOD a applyRotation (Lblz;Lbia;)Lblz;
+		ARG 0 state
+		ARG 1 rotation
+	METHOD a getRenderingState (Lblz;Lev;Lblz;Lazb;Leq;Leq;)Lblz;
+		ARG 0 state
+		ARG 5 pos
+	METHOD b hasBlockEntityBreakingRender (Lblz;)Z
+		ARG 0 state
+	METHOD c getRenderType (Lblz;)Lbhx;
+		ARG 0 state
+	METHOD c randomDisplayTick (Lblz;Laza;Leq;Ljava/util/Random;)V
+		ARG 0 state
+		ARG 1 world
+		ARG 2 pos
+		ARG 3 rand

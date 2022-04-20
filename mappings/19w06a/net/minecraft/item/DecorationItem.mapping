@@ -1,0 +1,2 @@
+CLASS axf net/minecraft/item/DecorationItem
+	FIELD a entityType Lahm;

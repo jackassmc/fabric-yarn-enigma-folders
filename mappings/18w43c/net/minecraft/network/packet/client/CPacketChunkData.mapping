@@ -1,0 +1,17 @@
+CLASS kv net/minecraft/network/packet/client/CPacketChunkData
+	FIELD c verticalStripBitmask I
+	FIELD d data [B
+	FIELD e blockEntityList Ljava/util/List;
+	FIELD f containsVerticalStrip Z
+	METHOD a readPacket (Lim;)V
+		ARG 0 buf
+	METHOD a applyPacket (Lip;)V
+		ARG 0 handler
+	METHOD a applyPacket (Ljn;)V
+		ARG 0 handler
+	METHOD b getReadBuffer ()Lim;
+	METHOD b writePacket (Lim;)V
+		ARG 0 buf
+	METHOD e getVerticalStripBitmask ()I
+	METHOD f containsVerticalStrip ()Z
+	METHOD g getBlockEntityTagList ()Ljava/util/List;

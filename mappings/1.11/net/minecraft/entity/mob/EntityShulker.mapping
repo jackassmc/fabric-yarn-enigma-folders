@@ -1,0 +1,57 @@
+CLASS aad net/minecraft/entity/mob/EntityShulker
+	CLASS aad$a
+		METHOD a canStart ()Z
+		METHOD c start ()V
+		METHOD d onRemove ()V
+		METHOD e tick ()V
+	CLASS aad$c
+		METHOD a canStart ()Z
+	CLASS aad$d
+		METHOD a canStart ()Z
+	CLASS aad$e
+		METHOD a canStart ()Z
+		METHOD b shouldContinue ()Z
+		METHOD c start ()V
+		METHOD d onRemove ()V
+		METHOD e tick ()V
+	FIELD a ATTACHED_FACE Lkk;
+	FIELD b ATTACHED_BLOCK Lkk;
+	FIELD c PEEK_AMOUNT Lkk;
+	METHOD D playSoundAmbient ()V
+	METHOD G getSoundAmbient ()Lnm;
+	METHOD J getLootTableId ()Lkq;
+	METHOD a setPositionAndRotations (DDDFFIZ)V
+		ARG 0 x
+		ARG 1 y
+		ARG 2 z
+		ARG 3 yaw
+		ARG 4 pitch
+	METHOD a setPeekAmount (I)V
+		ARG 0 value
+	METHOD a deserializeCustomData (Ldu;)V
+		ARG 0 tag
+	METHOD a onTrackedDataSet (Lkk;)V
+		ARG 0 data
+	METHOD a damage (Lrx;F)Z
+		ARG 0 source
+		ARG 1 damage
+	METHOD b setPosition (DDD)V
+		ARG 0 x
+		ARG 1 y
+		ARG 2 z
+	METHOD b serializeCustomData (Ldu;)V
+		ARG 0 tag
+	METHOD b registerTagUpgraders (Lph;)V
+		ARG 0 handler
+	METHOD bC getSoundCategory ()Lno;
+	METHOD bW getSoundDeath ()Lnm;
+	METHOD bX getSoundHurt ()Lnm;
+	METHOD bq getEyeHeight ()F
+	METHOD dh getAttachedFace ()Lcv;
+	METHOD g setAttachedBlock (Lco;)V
+		ARG 0 value
+	METHOD i initDataTracker ()V
+	METHOD i pushAwayFrom (Lsm;)V
+		ARG 0 other
+	METHOD n updateMovement ()V
+	METHOD r initAi ()V

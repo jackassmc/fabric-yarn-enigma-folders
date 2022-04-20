@@ -1,0 +1,34 @@
+CLASS bc net/minecraft/advancement/criterion/LevitationCriterion
+	CLASS bc$a Handler
+		FIELD a manager Lqi;
+		FIELD b conditions Ljava/util/Set;
+		METHOD <init> (Lqi;)V
+			ARG 0 manager
+		METHOD a isEmpty ()Z
+		METHOD a addCondition (Lu$a;)V
+			ARG 0 condition
+		METHOD a handle (Luj;Lcjy;I)V
+			ARG 0 player
+			ARG 1 coord
+			ARG 2 duration
+		METHOD b removeCondition (Lu$a;)V
+			ARG 0 condition
+	CLASS bc$b Conditions
+		FIELD a distance Lak;
+		FIELD b duration Lbf$d;
+		METHOD a matches (Luj;Lcjy;I)Z
+	FIELD a ID Lpy;
+	FIELD b handlers Ljava/util/Map;
+	METHOD a getId ()Lpy;
+	METHOD a deserializeConditions (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Lv;
+		ARG 1 obj
+	METHOD a removePlayer (Lqi;)V
+	METHOD a addCondition (Lqi;Lu$a;)V
+		ARG 1 manager
+	METHOD a handle (Luj;Lcjy;I)V
+		ARG 1 player
+		ARG 2 coord
+	METHOD b deserializeConditions (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Lbc$b;
+		ARG 1 obj
+	METHOD b removeCondition (Lqi;Lu$a;)V
+		ARG 1 manager

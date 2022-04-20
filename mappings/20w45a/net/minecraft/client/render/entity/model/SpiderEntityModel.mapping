@@ -1,0 +1,2 @@
+CLASS net/minecraft/class_611 net/minecraft/client/render/entity/model/SpiderEntityModel
+	FIELD field_3583 head Lnet/minecraft/class_630;

@@ -1,0 +1,3 @@
+CLASS dor net/minecraft/client/render/entity/feature/TropicalFishSomethingFeatureRenderer
+	METHOD <init> (Ldmd;)V
+		ARG 1 context

@@ -1,0 +1,5 @@
+CLASS boi net/minecraft/block/enums/ComparatorMode
+	FIELD a COMPARE Lboi;
+	FIELD b SUBTRACT Lboi;
+	FIELD c name Ljava/lang/String;
+	METHOD m asString ()Ljava/lang/String;

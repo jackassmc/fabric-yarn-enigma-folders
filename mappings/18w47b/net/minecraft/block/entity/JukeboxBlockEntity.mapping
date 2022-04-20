@@ -1,0 +1,6 @@
+CLASS bna net/minecraft/block/entity/JukeboxBlockEntity
+	FIELD a record Lavo;
+	METHOD a setRecord (Lavo;)V
+	METHOD a serialize (Lhp;)Lhp;
+	METHOD b deserialize (Lhp;)V
+	METHOD c getRecord ()Lavo;

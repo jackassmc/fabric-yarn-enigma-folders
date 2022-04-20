@@ -1,0 +1,2 @@
+CLASS deb net/minecraft/client/particle/RedDustParticle
+	CLASS deb$a Factory

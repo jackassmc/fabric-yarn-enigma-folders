@@ -1,0 +1,17 @@
+CLASS cee net/minecraft/structure/SimpleStructurePiece
+	FIELD a structure Lcez;
+	FIELD b placementData Lcew;
+	FIELD c pos Les;
+	FIELD d LOGGER Lorg/apache/logging/log4j/Logger;
+	METHOD a (Lbdg;Ljava/util/Random;Lcdi;Lbcs;)Z
+		ARG 2 random
+	METHOD a setStructureData (Lcez;Les;Lcew;)V
+		ARG 1 structure
+		ARG 2 pos
+		ARG 3 placementData
+	METHOD a handleMetadata (Ljava/lang/String;Les;Lbdg;Ljava/util/Random;Lcdi;)V
+		ARG 1 metadata
+		ARG 2 pos
+		ARG 3 world
+		ARG 4 random
+		ARG 5 boundingBox

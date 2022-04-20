@@ -1,0 +1,2 @@
+CLASS arw net/minecraft/block/BlockFlowerDandelion
+	METHOD e getBlockType ()Lanm$b;

@@ -1,0 +1,7 @@
+CLASS chp net/minecraft/world/loot/ConstantLootTableRange
+	CLASS chp$a Serializer
+	FIELD d value I
+	METHOD a getType ()Lpz;
+	METHOD a create (I)Lchp;
+		ARG 0 value
+	METHOD a next (Ljava/util/Random;)I

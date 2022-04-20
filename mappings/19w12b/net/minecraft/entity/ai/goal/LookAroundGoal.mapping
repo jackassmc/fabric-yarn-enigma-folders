@@ -1,0 +1,7 @@
+CLASS amu net/minecraft/entity/ai/goal/LookAroundGoal
+	FIELD a owner Laii;
+	FIELD b deltaX D
+	FIELD c deltaZ D
+	FIELD d lookTime I
+	METHOD <init> (Laii;)V
+		ARG 1 owner

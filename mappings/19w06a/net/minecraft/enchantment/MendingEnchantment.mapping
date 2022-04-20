@@ -1,0 +1,4 @@
+CLASS bbg net/minecraft/enchantment/MendingEnchantment
+	METHOD <init> (Lbaw$a;[Lahn;)V
+		ARG 1 weight
+		ARG 2 slotTypes

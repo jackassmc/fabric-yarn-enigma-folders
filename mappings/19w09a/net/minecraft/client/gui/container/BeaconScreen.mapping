@@ -1,0 +1,15 @@
+CLASS cwh net/minecraft/client/gui/container/BeaconScreen
+	CLASS cwh$a WidgetButtonIconCancel
+	CLASS cwh$b WidgetButtonIconDone
+	CLASS cwh$c WidgetButtonIconEffect
+		FIELD b effect Lahe;
+		FIELD q primary Z
+	CLASS cwh$d WidgetButtonIcon
+		FIELD a disabled Z
+		METHOD c isDisabled ()Z
+		METHOD c setDisabled (Z)V
+	FIELD A canConsumeGem Z
+	FIELD B primaryEffect Lahe;
+	FIELD C secondaryEffect Lahe;
+	FIELD y BG_TEX Lqi;
+	FIELD z doneButton Lcwh$b;

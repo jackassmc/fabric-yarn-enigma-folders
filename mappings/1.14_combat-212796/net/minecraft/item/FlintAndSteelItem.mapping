@@ -1,0 +1,11 @@
+CLASS bbu net/minecraft/item/FlintAndSteelItem
+	METHOD a (Lbdp;Lawb;)V
+		ARG 1 p
+	METHOD a isIgnitable (Lbvp;)Z
+		ARG 0 state
+	METHOD a canIgnite (Lbvp;Lbho;Lev;)Z
+		ARG 0 block
+		ARG 1 world
+		ARG 2 pos
+	METHOD b (Lbdp;Lawb;)V
+		ARG 1 p

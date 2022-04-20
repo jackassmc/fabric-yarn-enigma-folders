@@ -1,0 +1,5 @@
+CLASS cfd net/minecraft/structure/pool/FeaturePoolElement
+	FIELD a feature Lcac;
+	FIELD b tag Lib;
+	METHOD <init> (Lcac;)V
+		ARG 1 feature

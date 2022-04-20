@@ -1,0 +1,4 @@
+CLASS bju net/minecraft/world/biome/source/TheEndBiomeSource
+	FIELD c noise Lcir;
+	FIELD d random Lbxo;
+	FIELD e biomes [Lbgv;

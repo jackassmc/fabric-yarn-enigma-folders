@@ -1,0 +1,9 @@
+CLASS bmw net/minecraft/block/ConcretePowderBlock
+	FIELD a hardenedState Lbuy;
+	METHOD <init> (Lbma;Lbma$c;)V
+		ARG 1 hardened
+	METHOD a hardensOnAnySide (Lbgh;Lev;)Z
+		ARG 0 view
+		ARG 1 pos
+	METHOD r hardensIn (Lbuy;)Z
+		ARG 0 state

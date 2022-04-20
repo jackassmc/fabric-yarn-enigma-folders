@@ -1,0 +1,8 @@
+CLASS ddp net/minecraft/client/particle/CloudParticle
+	CLASS ddp$a CloudFactory
+	CLASS ddp$b SneezeFactory
+	METHOD <init> (Lbcl;DDDDDD)V
+		ARG 1 world
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z

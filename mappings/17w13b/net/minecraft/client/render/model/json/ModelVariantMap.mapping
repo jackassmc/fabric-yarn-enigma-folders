@@ -1,0 +1,11 @@
+CLASS bue net/minecraft/client/render/model/json/ModelVariantMap
+	CLASS bue$b VariantNotFoundException
+	FIELD a GSON Lcom/google/gson/Gson;
+	FIELD b variantMap Ljava/util/Map;
+	METHOD a getAll ()Ljava/util/Set;
+	METHOD a load (Ljava/io/Reader;)Lbue;
+		ARG 0 reader
+	METHOD b contains (Ljava/lang/String;)Z
+		ARG 0 variant
+	METHOD c get (Ljava/lang/String;)Lbum;
+		ARG 0 variant

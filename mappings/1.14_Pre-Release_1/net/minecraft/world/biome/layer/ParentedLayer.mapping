@@ -1,0 +1,9 @@
+CLASS cmi net/minecraft/world/biome/layer/ParentedLayer
+	METHOD a sample (Lclf;Lclb;II)I
+		ARG 1 context
+		ARG 2 parent
+		ARG 3 x
+		ARG 4 z
+	METHOD a create (Lclf;Lclc;)Lclc;
+		ARG 1 context
+		ARG 2 parent

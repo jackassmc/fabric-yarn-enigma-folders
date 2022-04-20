@@ -1,0 +1,6 @@
+CLASS cpx net/minecraft/world/loot/function/FillPlayerHeadLootFunction
+	CLASS cpx$a Factory
+	FIELD a entity Lcos$c;
+	METHOD <init> ([Lcre;Lcos$c;)V
+		ARG 1 conditions
+		ARG 2 entity

@@ -1,0 +1,4 @@
+CLASS avl net/minecraft/util/predicates/MaterialBlockPredicate
+	FIELD a material Lbbk;
+	METHOD a apply (Lave;)Z
+	METHOD a from (Lbbk;)Lavl;

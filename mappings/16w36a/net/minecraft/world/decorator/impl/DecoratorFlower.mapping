@@ -1,0 +1,13 @@
+CLASS none/avo net/minecraft/world/decorator/impl/DecoratorFlower
+	FIELD a block Lnone/amr;
+	FIELD b state Lnone/asl;
+	METHOD <init> (Lnone/amr;Lnone/amr$a;)V
+		ARG 0 blockFlower
+		ARG 1 flowerType
+	METHOD a (Lnone/amr;Lnone/amr$a;)V
+		ARG 0 blockFlower
+		ARG 1 flowerType
+	METHOD b generate (Lnone/aiv;Ljava/util/Random;Lnone/cn;)Z
+		ARG 0 world
+		ARG 1 random
+		ARG 2 pos

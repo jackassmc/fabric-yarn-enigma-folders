@@ -1,0 +1,22 @@
+CLASS dbn net/minecraft/client/gui/screen/ingame/JigsawBlockScreen
+	FIELD a jigsaw Lbug;
+	FIELD b attachmentTypeField Lcwz;
+	FIELD c targetPoolField Lcwz;
+	FIELD d finalStateField Lcwz;
+	METHOD <init> (Lbug;)V
+		ARG 1 jigsaw
+	METHOD b onDone ()V
+	METHOD c onCancel ()V
+	METHOD d updateServer ()V
+	METHOD keyPressed (III)Z
+		ARG 1 keyCode
+		ARG 2 scanCode
+		ARG 3 modifiers
+	METHOD render (IIF)V
+		ARG 1 mouseX
+		ARG 2 mouseY
+		ARG 3 delta
+	METHOD resize (Lcvn;II)V
+		ARG 1 client
+		ARG 2 width
+		ARG 3 height

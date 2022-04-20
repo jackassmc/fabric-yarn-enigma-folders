@@ -1,0 +1,5 @@
+CLASS cxc net/minecraft/client/gui/ParentElement
+	METHOD setDragging (Z)V
+		ARG 1 dragging
+	METHOD setFocused (Lcxd;)V
+		ARG 1 focused

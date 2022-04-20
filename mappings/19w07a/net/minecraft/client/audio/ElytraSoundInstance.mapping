@@ -1,0 +1,3 @@
+CLASS dro net/minecraft/client/audio/ElytraSoundInstance
+	FIELD n player Ldfe;
+	FIELD o tickCount I

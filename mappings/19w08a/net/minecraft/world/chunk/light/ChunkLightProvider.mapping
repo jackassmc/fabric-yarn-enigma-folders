@@ -1,0 +1,22 @@
+CLASS cgd net/minecraft/world/chunk/light/ChunkLightProvider
+	FIELD a chunkProvider Lbtf;
+	FIELD b type Lbdn;
+	FIELD c lightStorage Lcgf;
+	FIELD d DIRECTIONS [Lex;
+	FIELD f srcMutablePos Les$a;
+	FIELD g destMutablePos Les$a;
+	FIELD h mutablePosGetLightBlockedBetween Les$a;
+	METHOD <init> (Lbtf;Lbdn;Lcgf;)V
+		ARG 1 chunkProvider
+		ARG 2 type
+		ARG 3 lightStorage
+	METHOD a doLightUpdates (IZZ)I
+		ARG 1 stepCount
+	METHOD a getLightBlockedBetween (JJ)I
+		ARG 1 src
+		ARG 3 dest
+	METHOD a setSection (JLbsx;)V
+	METHOD a getCurrentLevelFromArray (Lbsx;J)I
+		ARG 1 array
+		ARG 2 blockPos
+	METHOD a queueLightCheck (Les;)V

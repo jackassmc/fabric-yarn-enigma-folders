@@ -1,0 +1,5 @@
+CLASS dcm net/minecraft/client/gui/ingame/UpdateWorldScreen
+	FIELD b callback Lcyh;
+	FIELD c updater Lagj;
+	METHOD <init> (Lcyh;Ljava/lang/String;Lcnt;)V
+		ARG 1 ballback

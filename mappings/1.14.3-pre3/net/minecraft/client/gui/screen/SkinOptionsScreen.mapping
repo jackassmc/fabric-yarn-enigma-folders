@@ -1,0 +1,10 @@
+CLASS czz net/minecraft/client/gui/screen/SkinOptionsScreen
+	FIELD a parent Lczx;
+	METHOD <init> (Lczx;)V
+		ARG 1 parent
+	METHOD a getPlayerModelPartDisplayString (Lawc;)Ljava/lang/String;
+		ARG 1 part
+	METHOD render (IIF)V
+		ARG 1 mouseX
+		ARG 2 mouseY
+		ARG 3 delta

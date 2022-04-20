@@ -1,0 +1,3 @@
+CLASS anl net/minecraft/entity/WaterCreatureEntity
+	METHOD <init> (Lahm;Lbcu;)V
+		ARG 1 type

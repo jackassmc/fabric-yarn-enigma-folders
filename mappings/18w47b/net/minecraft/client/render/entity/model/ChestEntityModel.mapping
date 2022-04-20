@@ -1,0 +1,4 @@
+CLASS cvm net/minecraft/client/render/entity/model/ChestEntityModel
+	FIELD a lid Lcyg;
+	FIELD b base Lcyg;
+	FIELD c hatch Lcyg;

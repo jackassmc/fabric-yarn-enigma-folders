@@ -1,0 +1,3 @@
+CLASS lk net/minecraft/client/network/packet/OpenWrittenBookClientPacket
+	FIELD a hand Lafz;
+	METHOD b getHand ()Lafz;

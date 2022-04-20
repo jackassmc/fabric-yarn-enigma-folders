@@ -1,0 +1,2 @@
+CLASS bhu net/minecraft/world/biome/source/FixedBiomeSource
+	FIELD c biome Lbgv;

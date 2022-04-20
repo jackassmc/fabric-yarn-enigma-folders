@@ -1,0 +1,3 @@
+CLASS ait net/minecraft/util/AbsoluteHand
+	FIELD c name Ljn;
+	METHOD a getOpposite ()Lait;

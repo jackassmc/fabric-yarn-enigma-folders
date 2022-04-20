@@ -1,0 +1,8 @@
+CLASS cmy net/minecraft/client/gl/GlProgramManager
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD b INSTANCE Lcmy;
+	METHOD a init ()V
+	METHOD a deleteProgram (Lcmw;)V
+	METHOD b getInstance ()Lcmy;
+	METHOD b linkProgram (Lcmw;)V
+	METHOD c createProgram ()I

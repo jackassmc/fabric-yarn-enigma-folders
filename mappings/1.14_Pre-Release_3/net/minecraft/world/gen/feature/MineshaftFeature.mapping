@@ -1,0 +1,17 @@
+CLASS ccj net/minecraft/world/gen/feature/MineshaftFeature
+	CLASS ccj$a Start
+		METHOD <init> (Lcef;IILbia;Lchn;IJ)V
+			ARG 2 chunkX
+			ARG 3 chunkZ
+	CLASS ccj$b Type
+		FIELD a NORMAL Lccj$b;
+		FIELD b MESA Lccj$b;
+		FIELD c nameMap Ljava/util/Map;
+		FIELD d name Ljava/lang/String;
+		METHOD a getName ()Ljava/lang/String;
+		METHOD a byIndex (I)Lccj$b;
+			ARG 0 index
+		METHOD a byName (Ljava/lang/String;)Lccj$b;
+			ARG 0 nam
+	METHOD <init> (Ljava/util/function/Function;)V
+		ARG 1 configFactory

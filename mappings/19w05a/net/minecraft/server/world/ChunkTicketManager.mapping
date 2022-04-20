@@ -1,0 +1,59 @@
+CLASS ul net/minecraft/server/world/ChunkTicketManager
+	CLASS ul$a
+		FIELD a currentLevels Lit/unimi/dsi/fastutil/longs/Long2ByteMap;
+		METHOD a updateLevels ()V
+	CLASS ul$b
+		FIELD e viewDistance I
+		FIELD f posToLastLevelUpdatedTo Lit/unimi/dsi/fastutil/longs/Long2IntMap;
+		FIELD g chunkPositions Lit/unimi/dsi/fastutil/longs/LongSet;
+		METHOD a (I)V
+			ARG 1 viewDistance
+		METHOD a (JIZZ)V
+			ARG 1 pos
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD d positionToTicketSet Lit/unimi/dsi/fastutil/longs/Long2ObjectOpenHashMap;
+	FIELD g chunkHolders Ljava/util/Set;
+	FIELD h levelUpdateListener Lue$c;
+	FIELD i playerTicketThrottler Lafj;
+	FIELD j playerTicketThrottlerSorter Lafj;
+	FIELD k chunkPositions Lit/unimi/dsi/fastutil/longs/LongSet;
+	FIELD m location J
+	METHOD a purge ()V
+	METHOD a (I)V
+		ARG 1 viewDistance
+	METHOD a setLevel (JILue;I)Lue;
+		ARG 1 pos
+		ARG 3 level
+		ARG 4 holder
+	METHOD a addTicket (JLuw;)V
+		ARG 1 position
+		ARG 3 ticket
+	METHOD a setChunkForced (Lbcd;Z)V
+		ARG 2 forced
+	METHOD a getLevel (Lit/unimi/dsi/fastutil/objects/ObjectSortedSet;)I
+		ARG 1 ticketSet
+	METHOD a update (Luf;)Z
+		ARG 1 chunkStorage
+	METHOD a addTicketWithLevel (Lux;Lbcd;ILjava/lang/Object;)V
+		ARG 1 type
+		ARG 2 pos
+		ARG 3 level
+		ARG 4 argument
+	METHOD b getLevelCount ()I
+	METHOD b getChunkHolder (J)Lue;
+		ARG 1 pos
+	METHOD b removeTicket (JLuw;)V
+		ARG 1 pos
+		ARG 3 ticket
+	METHOD b addTicket (Lux;Lbcd;ILjava/lang/Object;)V
+		ARG 1 type
+		ARG 2 pos
+		ARG 3 radius
+		ARG 4 argument
+	METHOD c removeTicket (Lux;Lbcd;ILjava/lang/Object;)V
+		ARG 1 type
+		ARG 2 pos
+		ARG 3 radius
+		ARG 4 argument
+	METHOD i getTicketSet (J)Lit/unimi/dsi/fastutil/objects/ObjectSortedSet;
+		ARG 1 position

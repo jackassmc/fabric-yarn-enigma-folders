@@ -1,0 +1,19 @@
+CLASS kq net/minecraft/network/packet/client/CPacketCustomPayload
+	FIELD a TRADER_LIST Lpw;
+	FIELD b BRAND Lpw;
+	FIELD c BOOK_OPEN Lpw;
+	FIELD d DEBUG_PATH Lpw;
+	FIELD e DEBUG_NEIGHBORS_UPDATE Lpw;
+	FIELD f DEBUG_CAVES Lpw;
+	FIELD g DEBUG_STRUCTURES Lpw;
+	FIELD h DEBUG_WORLDGEN_ATTEMPT Lpw;
+	FIELD i channel Lpw;
+	FIELD j data Lip;
+	METHOD <init> (Lpw;Lip;)V
+		ARG 1 channel
+	METHOD a read (Lip;)V
+	METHOD a apply (Lis;)V
+	METHOD a apply (Ljq;)V
+	METHOD b getChannel ()Lpw;
+	METHOD b write (Lip;)V
+	METHOD c getData ()Lip;

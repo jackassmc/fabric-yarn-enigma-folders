@@ -1,0 +1,14 @@
+CLASS cgc net/minecraft/fluid/BaseFluid
+	FIELD a FALLING Lbrk;
+	FIELD b LEVEL Lbrs;
+	METHOD a (IZ)Lcge;
+		ARG 1 level
+		ARG 2 still
+	METHOD a (Lbcx;Let;Lbqs;)Lcge;
+		ARG 1 world
+		ARG 2 pos
+		ARG 3 state
+	METHOD a getState (Z)Lcge;
+		ARG 1 still
+	METHOD e getFlowing ()Lcgd;
+	METHOD f getStill ()Lcgd;

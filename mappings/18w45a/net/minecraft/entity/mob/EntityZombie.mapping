@@ -1,0 +1,38 @@
+CLASS apl net/minecraft/entity/mob/EntityZombie
+	FIELD a BABY_SPEED_ID Ljava/util/UUID;
+	FIELD bC BABY Lpl;
+	FIELD bE ARMS_RAISED Lpl;
+	FIELD b BABY_SPEED_BONUS Lagw;
+	FIELD c SPAWN_REINFORCEMENTS Lagu;
+	METHOD D getSoundAmbient ()Lwz;
+	METHOD F getLootTableId ()Lpw;
+	METHOD S_ update ()V
+	METHOD a setSize (FF)V
+		ARG 1 width
+	METHOD a initEquipment (Laeq;)V
+	METHOD a damage (Lafh;F)Z
+		ARG 1 source
+	METHOD a dropEquipment (Lafh;IZ)V
+	METHOD a (Lazz;Laeq;Lagk;Lagr;Lho;)Lagr;
+		ARG 3 difficulty
+	METHOD a playStepSound (Les;Lbno;)V
+		ARG 1 pos
+	METHOD a deserializeCustomData (Lho;)V
+	METHOD a onTrackedDataSet (Lpl;)V
+	METHOD aK getHeightOffset ()D
+	METHOD b serializeCustomData (Lho;)V
+	METHOD bH getEyeHeight ()F
+	METHOD cb initAttributes ()V
+	METHOD cw getSoundDeath ()Lwz;
+	METHOD dA hasArmsRaised ()Z
+	METHOD dC getSoundStep ()Lwz;
+	METHOD dD getSkull ()Lava;
+	METHOD dJ canBreakDoors ()Z
+	METHOD e getSoundHurt (Lafh;)Lwz;
+	METHOD k updateMovement ()V
+	METHOD n initAi ()V
+	METHOD s setArmsRaised (Z)V
+	METHOD t setBreakDoors (Z)V
+	METHOD u setChild (Z)V
+	METHOD y_ initDataTracker ()V
+	METHOD z_ isChild ()Z

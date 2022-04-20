@@ -1,0 +1,50 @@
+CLASS ckr net/minecraft/world/chunk/light/LightStorage
+	FIELD a EMPTY Lbxe;
+	FIELD e dataStorageUncached Lckm;
+	FIELD f dataStorage Lckm;
+	FIELD h toNotify Lit/unimi/dsi/fastutil/longs/LongSet;
+	FIELD i toUpdate Lit/unimi/dsi/fastutil/longs/Long2ObjectMap;
+	FIELD j hasLightUpdates Z
+	FIELD k DIRECTIONS [Lfa;
+	FIELD l lightType Lbhr;
+	FIELD m chunkProvider Lbxm;
+	FIELD o toRemove Lit/unimi/dsi/fastutil/longs/LongSet;
+	METHOD <init> (Lbhr;Lbxm;Lckm;)V
+		ARG 1 lightType
+		ARG 2 chunkProvider
+		ARG 3 lightData
+	METHOD a hasLightUpdates ()Z
+	METHOD a scheduleToUpdate (JLbxe;)V
+		ARG 1 blockChunkPos
+		ARG 3 array
+	METHOD a getDataForChunk (JZ)Lbxe;
+		ARG 1 chunkPos
+		ARG 3 cached
+	METHOD a getDataForChunk (Lckm;J)Lbxe;
+		ARG 1 storage
+		ARG 2 chunkPos
+	METHOD a removeChunkData (Lckp;J)V
+		ARG 1 storage
+		ARG 2 blockChunkPos
+	METHOD a processUpdates (Lckp;ZZ)V
+		ARG 1 lightProvider
+		ARG 2 doSkylight
+		ARG 3 doEdgeLightPropagation
+	METHOD b set (JI)V
+		ARG 1 blockPos
+		ARG 3 value
+	METHOD c updateAll ()V
+	METHOD d notifyChunkProvider ()V
+	METHOD d getLight (J)I
+		ARG 1 blockPos
+	METHOD d scheduleChunkLightUpdate (JZ)V
+		ARG 1 chunkBlockPos
+		ARG 3 isEmpty
+	METHOD g hasChunk (J)Z
+		ARG 1 chunkPos
+	METHOD i get (J)I
+		ARG 1 blockPos
+	METHOD j getDataForChunk (J)Lbxe;
+	METHOD k (J)V
+		ARG 1 blockPos
+	METHOD l onChunkRemoved (J)V

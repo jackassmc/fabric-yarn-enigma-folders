@@ -1,0 +1,12 @@
+CLASS cmu net/minecraft/client/gui/menu/GuiSettingsChat
+	FIELD a SETTINGS [Lcjm$a;
+	FIELD f parent Lcns;
+	FIELD g settings Lcjm;
+	METHOD <init> (Lcns;Lcjm;)V
+		ARG 0 parent
+		ARG 1 settings
+	METHOD a draw (IIF)V
+		ARG 0 mouseX
+		ARG 1 mouseY
+		ARG 2 delta
+	METHOD c init ()V

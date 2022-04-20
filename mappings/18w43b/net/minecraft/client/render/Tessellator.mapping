@@ -1,0 +1,6 @@
+CLASS cis net/minecraft/client/render/Tessellator
+	FIELD a buffer Lcip;
+	FIELD c INSTANCE Lcis;
+	METHOD a getInstance ()Lcis;
+	METHOD b draw ()V
+	METHOD c getVertexBuffer ()Lcip;

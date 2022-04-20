@@ -1,0 +1,4 @@
+CLASS dch net/minecraft/client/render/model/QuadBakery
+	METHOD a bake (Lcmg;Lcmg;Ldcb;Ldkm;Lex;Ldma;Ldcc;Z)Ldbz;
+		ARG 3 face
+		ARG 4 texture

@@ -1,0 +1,16 @@
+CLASS ayl net/minecraft/container/CartographyTableContainer
+	FIELD c inventory Laha;
+	FIELD d context Layp;
+	FIELD e currentlyTakingItem Z
+	FIELD f resultSlot Lazn;
+	METHOD <init> (ILawa;)V
+		ARG 1 syncId
+		ARG 2 inventory
+	METHOD <init> (ILawa;Layp;)V
+		ARG 1 syncId
+		ARG 2 inventory
+		ARG 3 context
+	METHOD a updateResult (Lbce;Lbce;Lbce;)V
+		ARG 1 map
+		ARG 2 item
+		ARG 3 oldResult

@@ -1,0 +1,60 @@
+CLASS dpm net/minecraft/client/render/entity/EntityRenderDispatcher
+	FIELD a textureManager Lduo;
+	FIELD b world Lbhm;
+	FIELD c camera Lcvd;
+	FIELD d targetedEntity Lail;
+	FIELD e cameraYaw F
+	FIELD f cameraPitch F
+	FIELD g gameOptions Lcvs;
+	FIELD h renderers Ljava/util/Map;
+	FIELD i modelRenderers Ljava/util/Map;
+	FIELD j playerRenderer Ldtz;
+	FIELD k textRenderer Lcwg;
+	FIELD l renderPosX D
+	FIELD m renderPosY D
+	FIELD n renderPosZ D
+	FIELD o renderOutlines Z
+	FIELD p renderShadows Z
+	FIELD q renderHitboxes Z
+	METHOD <init> (Lduo;Ldqh;Lxe;)V
+		ARG 1 textureManager
+	METHOD a shouldRenderShadows ()Z
+	METHOD a setRenderPosition (DDD)V
+		ARG 1 x
+	METHOD a getRenderer (Lail;)Ldpn;
+	METHOD a renderHitbox (Lail;DDDFF)V
+	METHOD a render (Lail;DDDFFZ)V
+		ARG 1 entity
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z
+		ARG 8 yaw
+		ARG 9 tickDelta
+		ARG 10 forceHideHitbox
+	METHOD a renderSecondPass (Lail;F)V
+	METHOD a render (Lail;FZ)V
+		ARG 1 entity
+		ARG 2 tickDelta
+	METHOD a shouldRender (Lail;Ldnq;DDD)Z
+	METHOD a setWorld (Lbhm;)V
+	METHOD a configure (Lbhm;Lcwg;Lcvd;Lail;Lcvs;)V
+		ARG 1 world
+		ARG 2 textRenderer
+		ARG 3 camera
+		ARG 4 targetedEntity
+		ARG 5 gameOptions
+	METHOD a getRenderer (Ljava/lang/Class;)Ldpn;
+	METHOD a register (Ljava/lang/Class;Ldpn;)V
+	METHOD a setRenderShadows (Z)V
+		ARG 1 value
+	METHOD b shouldRenderHitboxes ()Z
+	METHOD b squaredDistanceToCamera (DDD)D
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+	METHOD b hasSecondPass (Lail;)Z
+	METHOD b setRenderHitboxes (Z)V
+		ARG 1 value
+	METHOD c getTextRenderer ()Lcwg;
+	METHOD c setRenderOutlines (Z)V
+		ARG 1 renderOutlines

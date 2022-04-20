@@ -1,0 +1,9 @@
+CLASS dia net/minecraft/client/particle/CrackParticle
+	CLASS dia$a ItemFactory
+	CLASS dia$b SlimeballFactory
+	CLASS dia$c SnowballFactory
+	METHOD <init> (Lbhl;DDDDDDLbce;)V
+		ARG 1 world
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z

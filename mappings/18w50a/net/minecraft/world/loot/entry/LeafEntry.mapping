@@ -1,0 +1,34 @@
+CLASS cjo net/minecraft/world/loot/entry/LeafEntry
+	CLASS cjo$1
+		METHOD a drop (Ljava/util/function/Consumer;Lciv;)V
+			ARG 1 consumer
+	CLASS cjo$a Builder
+		FIELD a weight I
+		FIELD b quality I
+		FIELD c functions Ljava/util/List;
+		METHOD a getFunctions ()[Lcke;
+		METHOD a setWeight (I)Lcjo$a;
+		METHOD a withFunction (Lcke$a;)Lcjo$a;
+		METHOD b setQuality (I)Lcjo$a;
+		METHOD b withFunction (Lcke$a;)Ljava/lang/Object;
+	CLASS cjo$b BasicBuilder
+		FIELD c factory Lcjo$d;
+		METHOD b build ()Lcjn;
+		METHOD d getThisBuilder ()Lcjn$a;
+		METHOD g getThis ()Lcjo$b;
+	CLASS cjo$c Choice
+		METHOD a getWeight (F)I
+	CLASS cjo$d Factory
+	CLASS cjo$e Serializer
+		METHOD a toJson (Lcom/google/gson/JsonObject;Lcjn;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD a toJson (Lcom/google/gson/JsonObject;Lcjo;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD a fromJson (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;[Lclh;)Lcjo;
+		METHOD b fromJson (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;[Lclh;)Lcjn;
+	FIELD c compiledFunctions Ljava/util/function/BiFunction;
+	FIELD d weight I
+	FIELD f quality I
+	FIELD g functions [Lcke;
+	FIELD h choice Lcjm;
+	METHOD a check (Lciz;Ljava/util/function/Function;Ljava/util/Set;Lcku;)V
+	METHOD a create (Lcjo$d;)Lcjo$a;
+	METHOD a drop (Ljava/util/function/Consumer;Lciv;)V

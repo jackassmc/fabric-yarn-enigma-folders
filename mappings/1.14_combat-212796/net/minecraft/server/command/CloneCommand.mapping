@@ -1,0 +1,27 @@
+CLASS rs net/minecraft/server/command/CloneCommand
+	CLASS a BlockInfo
+		FIELD a pos Lev;
+		FIELD b state Lbvp;
+		FIELD c blockEntityTag Lic;
+		METHOD <init> (Lev;Lbvp;Lic;)V
+			ARG 1 pos
+			ARG 2 state
+			ARG 3 blockEntityTag
+	CLASS b Mode
+		FIELD d allowsOverlap Z
+		METHOD <init> (Ljava/lang/String;IZ)V
+			ARG 3 allowsOverlap
+		METHOD a allowsOverlap ()Z
+	FIELD a IS_AIR_PREDICATE Ljava/util/function/Predicate;
+	FIELD b OVERLAP_EXCEPTION Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
+	FIELD c TOOBIG_EXCEPTION Lcom/mojang/brigadier/exceptions/Dynamic2CommandExceptionType;
+	FIELD d FAILED_EXCEPTION Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
+	METHOD a execute (Lcd;Lev;Lev;Lev;Ljava/util/function/Predicate;Lrs$b;)I
+		ARG 0 source
+		ARG 1 begin
+		ARG 2 end
+		ARG 3 destination
+		ARG 4 filter
+		ARG 5 mode
+	METHOD a register (Lcom/mojang/brigadier/CommandDispatcher;)V
+		ARG 0 dispatcher

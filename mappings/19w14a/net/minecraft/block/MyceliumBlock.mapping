@@ -1,0 +1,3 @@
+CLASS bpn net/minecraft/block/MyceliumBlock
+	METHOD <init> (Lbma$c;)V
+		ARG 1 settings

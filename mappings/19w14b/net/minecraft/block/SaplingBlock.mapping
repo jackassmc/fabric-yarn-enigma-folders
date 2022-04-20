@@ -1,0 +1,9 @@
+CLASS bqo net/minecraft/block/SaplingBlock
+	FIELD a STAGE Lbvz;
+	FIELD b SHAPE Lcsf;
+	FIELD c generator Lbuj;
+	METHOD a generate (Lbgy;Lev;Lbuz;Ljava/util/Random;)V
+		ARG 1 world
+		ARG 2 pos
+		ARG 3 state
+		ARG 4 random

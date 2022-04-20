@@ -1,0 +1,3 @@
+CLASS vl net/minecraft/entity/ai/action/ActionMove
+	FIELD a entity Lul;
+	METHOD a tick ()V

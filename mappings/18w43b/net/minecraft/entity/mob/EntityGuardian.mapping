@@ -1,0 +1,26 @@
+CLASS anu net/minecraft/entity/mob/EntityGuardian
+	CLASS anu$a
+		METHOD a canStart ()Z
+		METHOD b shouldContinue ()Z
+		METHOD c start ()V
+		METHOD d onRemove ()V
+		METHOD e tick ()V
+	CLASS anu$c
+		METHOD a tick ()V
+	METHOD D getSoundAmbient ()Lwv;
+	METHOD G getLootTableId ()Lpt;
+	METHOD a damage (Laeq;F)Z
+		ARG 0 source
+		ARG 1 damage
+	METHOD a onTrackedDataSet (Lpi;)V
+		ARG 0 data
+	METHOD b createNavigation (Laza;)Lajn;
+		ARG 0 world
+	METHOD bH getEyeHeight ()F
+	METHOD cC getEntityAttribute ()Laft;
+	METHOD cb initAttributes ()V
+	METHOD cu getSoundDeath ()Lwv;
+	METHOD d getSoundHurt (Laeq;)Lwv;
+	METHOD k updateMovement ()V
+	METHOD n initAi ()V
+	METHOD y_ initDataTracker ()V

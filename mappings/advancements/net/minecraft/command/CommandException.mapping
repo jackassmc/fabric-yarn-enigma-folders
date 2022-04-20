@@ -1,0 +1,3 @@
+CLASS dl net/minecraft/command/CommandException
+	FIELD a params [Ljava/lang/Object;
+	METHOD a getParams ()[Ljava/lang/Object;

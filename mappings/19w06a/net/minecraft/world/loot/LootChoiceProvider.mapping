@@ -1,0 +1,6 @@
+CLASS cka net/minecraft/world/loot/LootChoiceProvider
+	FIELD a ALWAYS_FALSE Lcka;
+	FIELD b ALWAYS_TRUE Lcka;
+	METHOD a doExpand (Lcjq;Ljava/util/function/Consumer;)Z
+	METHOD a and (Lcka;)Lcka;
+	METHOD b or (Lcka;)Lcka;

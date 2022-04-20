@@ -1,0 +1,27 @@
+CLASS bvg net/minecraft/state/AbstractPropertyContainer
+	CLASS bvg$1
+		METHOD a valueToString (Lbwk;Ljava/lang/Comparable;)Ljava/lang/String;
+			ARG 1 property
+			ARG 2 value
+	FIELD a owner Ljava/lang/Object;
+	FIELD c PROPERTY_MAP_PRINTER Ljava/util/function/Function;
+	FIELD d entries Lcom/google/common/collect/ImmutableMap;
+	FIELD e hashCode I
+	FIELD f withTable Lcom/google/common/collect/Table;
+	METHOD <init> (Ljava/lang/Object;Lcom/google/common/collect/ImmutableMap;)V
+		ARG 1 owner
+		ARG 2 entries
+	METHOD a getProperties ()Ljava/util/Collection;
+	METHOD a cycle (Lbwk;)Ljava/lang/Object;
+		ARG 1 property
+	METHOD a getNext (Ljava/util/Collection;Ljava/lang/Object;)Ljava/lang/Object;
+		ARG 0 values
+		ARG 1 value
+	METHOD a createWithTable (Ljava/util/Map;)V
+		ARG 1 states
+	METHOD b contains (Lbwk;)Z
+	METHOD c toMapWith (Lbwk;Ljava/lang/Comparable;)Ljava/util/Map;
+		ARG 1 property
+		ARG 2 value
+	METHOD equals (Ljava/lang/Object;)Z
+		ARG 1 o

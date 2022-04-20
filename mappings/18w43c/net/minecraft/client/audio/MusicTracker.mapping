@@ -1,0 +1,24 @@
+CLASS djz net/minecraft/client/audio/MusicTracker
+	CLASS djz$a MusicType
+		FIELD a MENU Ldjz$a;
+		FIELD b GAME Ldjz$a;
+		FIELD c CREATIVE Ldjz$a;
+		FIELD d CREDITS Ldjz$a;
+		FIELD e NETHER Ldjz$a;
+		FIELD f DRAGON Ldjz$a;
+		FIELD g END Ldjz$a;
+		FIELD i sound Lwv;
+		FIELD j minDelay I
+		FIELD k maxDelay I
+		METHOD a getSound ()Lwv;
+		METHOD b getMinDelay ()I
+		METHOD c getMaxDelay ()I
+	FIELD a rand Ljava/util/Random;
+	FIELD b game Lcjk;
+	FIELD c current Ldjd;
+	FIELD d timeUntilNextSong I
+	METHOD <init> (Lcjk;)V
+		ARG 0 minecraft
+	METHOD Z_ tick ()V
+	METHOD a play (Ldjz$a;)V
+		ARG 0 type

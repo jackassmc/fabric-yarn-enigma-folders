@@ -1,0 +1,4 @@
+CLASS bnr net/minecraft/block/DragonEggBlock
+	FIELD a SHAPE Lcsi;
+	METHOD <init> (Lbme$c;)V
+		ARG 1 settings

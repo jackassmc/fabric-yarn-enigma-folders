@@ -1,0 +1,2 @@
+CLASS fc net/minecraft/util/math/WorldPosition
+	METHOD h getWorld ()Lbdf;

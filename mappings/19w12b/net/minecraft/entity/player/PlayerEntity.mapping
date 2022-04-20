@@ -1,0 +1,127 @@
+CLASS auv net/minecraft/entity/player/PlayerEntity
+	CLASS auv$a SleepResult
+		FIELD a INVALID_WORLD Lauv$a;
+		FIELD b WRONG_TIME Lauv$a;
+		FIELD c TOO_FAR_AWAY Lauv$a;
+		FIELD e INVALID_ATTEMPT Lauv$a;
+		FIELD f NOT_SAFE Lauv$a;
+	FIELD bA playerContainer Laxx;
+	FIELD bB container Laxa;
+	FIELD bC hungerManager Laww;
+	FIELD b SIZES Ljava/util/Map;
+	FIELD bN isInWater Z
+	FIELD bO abilities Laus;
+	FIELD bP experience I
+	FIELD bQ experienceLevel I
+	FIELD bR experienceBarProgress F
+	FIELD bS enchantmentTableSeed I
+	FIELD bU fishHook Lasj;
+	FIELD bV spawnForced Z
+	FIELD bX gameProfile Lcom/mojang/authlib/GameProfile;
+	FIELD bY reducedDebugInfo Z
+	FIELD bt STANDING_SIZE Lahz;
+	FIELD bu PLAYER_MODEL_BIT_MASK Lqf;
+	FIELD bv MAIN_HAND Lqf;
+	FIELD bw LEFT_SHOULDER_ENTITY Lqf;
+	FIELD bx RIGHT_SHOULDER_ENTITY Lqf;
+	FIELD by inventory Lauu;
+	FIELD bz enderChestInventory Layf;
+	FIELD c ABSORPTION_AMOUNT Lqf;
+	FIELD ca itemCooldownManager Lbav;
+	FIELD d SCORE Lqf;
+	FIELD e sleepTimer I
+	FIELD g spawnPosition Lev;
+	METHOD a sendVillagerRecipes (ILbfk;IIZ)V
+		ARG 1 syncId
+	METHOD a openContainer (Lagw;)Ljava/util/OptionalInt;
+	METHOD a addCritParticles (Lahy;)V
+	METHOD a interact (Lahy;Lags;)Lagt;
+		ARG 1 entity
+	METHOD a setMainHand (Laig;)V
+	METHOD a openHorseInventory (Laqs;Lagm;)V
+	METHOD a shouldDamagePlayer (Lauv;)Z
+	METHOD a isSkinOverlayVisible (Lauw;)Z
+	METHOD a openEditBookScreen (Lbaz;Lags;)V
+	METHOD a dropItem (Lbaz;Z)Laso;
+		ARG 1 stack
+	METHOD a dropItem (Lbaz;ZZ)Laso;
+		ARG 1 stack
+	METHOD a openCommandBlockMinecartScreen (Lbfm;)V
+	METHOD a setGameMode (Lbgc;)V
+	METHOD a openCommandBlockScreen (Lbsm;)V
+	METHOD a openJigsawScreen (Lbsx;)V
+	METHOD a openEditSignScreen (Lbtd;)V
+	METHOD a openStructureBlockScreen (Lbth;)V
+	METHOD a getUuidFromProfile (Lcom/mojang/authlib/GameProfile;)Ljava/util/UUID;
+		ARG 0 profile
+	METHOD a trySleep (Lev;)Lcom/mojang/datafixers/util/Either;
+	METHOD a isWithinSleepingRange (Lev;Lfa;)Z
+		ARG 1 sleepPos
+	METHOD a canPlaceBlock (Lev;Lfa;Lbaz;)Z
+		ARG 1 pos
+		ARG 2 side
+	METHOD a spawnParticles (Lgd;)V
+	METHOD a unlockRecipes (Ljava/util/Collection;)I
+		ARG 1 recipes
+	METHOD a addChatMessage (Ljm;Z)V
+		ARG 1 message
+	METHOD a increaseStat (Lqq;)V
+	METHOD a playSound (Lyg;Lyi;FF)V
+	METHOD a resetStat (Lyn;)V
+	METHOD a incrementStat (Lyn;I)V
+		ARG 1 stat
+	METHOD a wakeUp (ZZZ)V
+	METHOD a unlockRecipes ([Lqq;)V
+		ARG 1 ids
+	METHOD b addEnchantedHitParticles (Lahy;)V
+	METHOD b getBlockBreakingSpeed (Lbue;)F
+	METHOD b setPlayerSpawn (Lev;Z)V
+		ARG 1 pos
+	METHOD b lockRecipes (Ljava/util/Collection;)I
+		ARG 1 recipes
+	METHOD b incrementStat (Lyn;)V
+	METHOD c collideWithEntity (Lahy;)V
+	METHOD c isUsingEffectiveTool (Lbue;)Z
+	METHOD c getOfflinePlayerUuid (Ljava/lang/String;)Ljava/util/UUID;
+		ARG 0 nickname
+	METHOD d addExperience (I)V
+	METHOD dB requestRespawn ()V
+	METHOD dD getGameProfile ()Lcom/mojang/authlib/GameProfile;
+	METHOD dE isSleepingLongEnough ()Z
+	METHOD dF getSleepTimer ()I
+	METHOD dG getSpawnPosition ()Lev;
+	METHOD dH isSpawnForced ()Z
+	METHOD dI getEnchantmentTableSeed ()I
+	METHOD dK getHungerManager ()Laww;
+	METHOD dL canFoodHeal ()Z
+	METHOD dM canModifyWorld ()Z
+	METHOD dN getEnderChestInventory ()Layf;
+	METHOD dO dropShoulderEntities ()V
+	METHOD dP getScoreboard ()Lcro;
+	METHOD dR getReducedDebugInfo ()Z
+	METHOD dS getShoulderEntityLeft ()Lib;
+	METHOD dT getShoulderEntityRight ()Lib;
+	METHOD dW getItemCooldownManager ()Lbav;
+	METHOD dX getLuck ()F
+	METHOD dY isCreativeLevelTwoOp ()Z
+	METHOD dw updateInWater ()Z
+	METHOD dx updateSize ()V
+	METHOD dy getScore ()I
+	METHOD dz vanishCursedItems ()V
+	METHOD f attack (Lahy;)V
+	METHOD g createCooldownManager ()Lbav;
+	METHOD h giveItemStack (Lbaz;)Z
+		ARG 1 stack
+	METHOD h setShoulderEntityLeft (Lib;)V
+	METHOD i setShoulderEntityRight (Lib;)V
+	METHOD j updateShoulderEntity (Lib;)V
+	METHOD l updateTurtleHelmet ()V
+	METHOD n updateBubbleColumn ()V
+	METHOD n dropSelectedItem (Z)Laso;
+	METHOD p canConsume (Z)Z
+	METHOD q setScore (I)V
+	METHOD q setReducedDebugInfo (Z)V
+	METHOD r addExhaustion (F)V
+	METHOD r addScore (I)V
+	METHOD t_ closeGui ()V
+	METHOD u isCreative ()Z

@@ -1,0 +1,2 @@
+CLASS cqc net/minecraft/client/render/BufferRenderer
+	METHOD a draw (Lcqb;)V

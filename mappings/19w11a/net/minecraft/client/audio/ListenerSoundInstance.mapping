@@ -1,0 +1,3 @@
+CLASS dwk net/minecraft/client/audio/ListenerSoundInstance
+	METHOD a onSoundPlayed (Ldvp;Ldwm;)V
+		ARG 1 sound

@@ -1,0 +1,8 @@
+CLASS dx net/minecraft/command/arguments/ItemStackArgument
+	FIELD a OVERSTACKED_EXCEPTION Lcom/mojang/brigadier/exceptions/Dynamic2CommandExceptionType;
+	FIELD b item Lbbw;
+	FIELD c tag Lib;
+	METHOD a getItem ()Lbbw;
+	METHOD a createStack (IZ)Lbcb;
+		ARG 1 amount
+		ARG 2 checkOverstack

@@ -1,0 +1,11 @@
+CLASS brs net/minecraft/block/SpreadableBlock
+	METHOD <init> (Lbmm$c;)V
+		ARG 1 settings
+	METHOD b canSurvive (Lbvk;Lbhl;Lev;)Z
+		ARG 0 state
+		ARG 1 world
+		ARG 2 pos
+	METHOD c canSpread (Lbvk;Lbhl;Lev;)Z
+		ARG 0 state
+		ARG 1 world
+		ARG 2 pos

@@ -1,0 +1,2 @@
+CLASS dso net/minecraft/client/render/entity/PlayerEntityRenderer
+	METHOD d setModelPose (Ldio;)V

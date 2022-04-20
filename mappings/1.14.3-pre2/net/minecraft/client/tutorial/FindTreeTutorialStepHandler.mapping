@@ -1,0 +1,7 @@
+CLASS dyg net/minecraft/client/tutorial/FindTreeTutorialStepHandler
+	FIELD a MATCHING_BLOCKS Ljava/util/Set;
+	FIELD b TITLE Ljn;
+	FIELD c DESCRIPTION Ljn;
+	FIELD d manager Ldyk;
+	FIELD e toast Lcxz;
+	FIELD f ticks I

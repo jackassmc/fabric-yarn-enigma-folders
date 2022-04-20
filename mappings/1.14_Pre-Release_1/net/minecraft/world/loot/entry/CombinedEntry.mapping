@@ -1,0 +1,22 @@
+CLASS coq net/minecraft/world/loot/entry/CombinedEntry
+	CLASS coq$a Factory
+		METHOD create ([Lcox;[Lcqr;)Lcoq;
+			ARG 1 children
+			ARG 2 conditions
+	CLASS coq$b Serializer
+		METHOD a fromJson (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;[Lcox;[Lcqr;)Lcoq;
+			ARG 1 entryJsonObject
+			ARG 2 context
+			ARG 3 children
+			ARG 4 conditions
+	FIELD c children [Lcox;
+	FIELD e predicate Lcop;
+	METHOD <init> ([Lcox;[Lcqr;)V
+		ARG 1 children
+		ARG 2 conditions
+	METHOD a createSerializer (Lqs;Ljava/lang/Class;Lcoq$a;)Lcoq$b;
+		ARG 0 id
+		ARG 1 type
+		ARG 2 combinedEntryFactory
+	METHOD a combine ([Lcop;)Lcop;
+		ARG 1 children

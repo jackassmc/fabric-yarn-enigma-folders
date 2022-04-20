@@ -1,0 +1,5 @@
+CLASS bsd net/minecraft/world/gen/carver/ConfiguredCarver
+	FIELD a carver Lbsi;
+	FIELD b config Lbsb;
+	METHOD <init> (Lbsi;Lbsb;)V
+		ARG 1 carver

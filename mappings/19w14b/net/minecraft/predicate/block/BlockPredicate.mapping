@@ -1,0 +1,4 @@
+CLASS bvi net/minecraft/predicate/block/BlockPredicate
+	FIELD a block Lbmb;
+	METHOD a make (Lbmb;)Lbvi;
+		ARG 0 block

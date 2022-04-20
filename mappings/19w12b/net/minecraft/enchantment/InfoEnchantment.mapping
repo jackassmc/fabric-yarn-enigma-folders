@@ -1,0 +1,6 @@
+CLASS bek net/minecraft/enchantment/InfoEnchantment
+	FIELD b enchantment Lbeh;
+	FIELD c level I
+	METHOD <init> (Lbeh;I)V
+		ARG 1 enchantment
+		ARG 2 level

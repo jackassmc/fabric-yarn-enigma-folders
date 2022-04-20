@@ -1,0 +1,17 @@
+CLASS cvi net/minecraft/client/gui/hud/spectator/SpectatorMenuImpl
+	CLASS cvi$1
+		METHOD a renderIcon (FI)V
+		METHOD a selectElement (Lcvi;)V
+			ARG 0 menu
+		METHOD am_ enabled ()Z
+	CLASS cvi$a
+		METHOD a renderIcon (FI)V
+		METHOD a selectElement (Lcvi;)V
+			ARG 0 menu
+		METHOD am_ enabled ()Z
+	CLASS cvi$b
+		METHOD a renderIcon (FI)V
+		METHOD a selectElement (Lcvi;)V
+			ARG 0 menu
+		METHOD am_ enabled ()Z
+	METHOD a selectElement (Lcvj;)V

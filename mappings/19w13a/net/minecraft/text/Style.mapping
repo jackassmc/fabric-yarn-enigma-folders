@@ -1,0 +1,39 @@
+CLASS ju net/minecraft/text/Style
+	CLASS ju$a Serializer
+	FIELD a parent Lju;
+	FIELD b color Lc;
+	FIELD c bold Ljava/lang/Boolean;
+	FIELD d italic Ljava/lang/Boolean;
+	FIELD e underline Ljava/lang/Boolean;
+	FIELD f strikethrough Ljava/lang/Boolean;
+	FIELD g obfuscated Ljava/lang/Boolean;
+	FIELD h clickEvent Ljl;
+	FIELD i hoverEvent Ljp;
+	FIELD j insertion Ljava/lang/String;
+	FIELD k ROOT Lju;
+	METHOD a getColor ()Lc;
+	METHOD a setColor (Lc;)Lju;
+	METHOD a setBold (Ljava/lang/Boolean;)Lju;
+	METHOD a setInsertion (Ljava/lang/String;)Lju;
+	METHOD a setClickEvent (Ljl;)Lju;
+	METHOD a setHoverEvent (Ljp;)Lju;
+	METHOD a setParent (Lju;)Lju;
+	METHOD b isBold ()Z
+	METHOD b setItalic (Ljava/lang/Boolean;)Lju;
+	METHOD c isItalic ()Z
+	METHOD c setStrikethrough (Ljava/lang/Boolean;)Lju;
+	METHOD d isStrikethrough ()Z
+	METHOD d setUnderline (Ljava/lang/Boolean;)Lju;
+	METHOD e isUnderlined ()Z
+	METHOD e setObfuscated (Ljava/lang/Boolean;)Lju;
+	METHOD equals (Ljava/lang/Object;)Z
+		ARG 1 o
+	METHOD f isObfuscated ()Z
+	METHOD g isEmpty ()Z
+	METHOD h getClickEvent ()Ljl;
+	METHOD i getHoverEvent ()Ljp;
+	METHOD j getInsertion ()Ljava/lang/String;
+	METHOD k getFormatString ()Ljava/lang/String;
+	METHOD m clone ()Lju;
+	METHOD n copy ()Lju;
+	METHOD o getParent ()Lju;

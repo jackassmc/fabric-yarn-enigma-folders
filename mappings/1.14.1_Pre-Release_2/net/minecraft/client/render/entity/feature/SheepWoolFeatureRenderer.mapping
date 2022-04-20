@@ -1,0 +1,4 @@
+CLASS dth net/minecraft/client/render/entity/feature/SheepWoolFeatureRenderer
+	FIELD a SKIN Lqs;
+	METHOD <init> (Ldqz;)V
+		ARG 1 context

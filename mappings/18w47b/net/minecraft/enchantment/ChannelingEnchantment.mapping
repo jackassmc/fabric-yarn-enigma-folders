@@ -1,0 +1,3 @@
+CLASS azh net/minecraft/enchantment/ChannelingEnchantment
+	METHOD a getHighestLevel ()I
+	METHOD a differs (Layq;)Z

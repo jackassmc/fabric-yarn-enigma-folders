@@ -1,0 +1,6 @@
+CLASS azo net/minecraft/item/CompassItem
+	CLASS azo$1
+		METHOD call (Lbaz;Lbgf;Laih;)F
+			ARG 1 stack
+			ARG 2 world
+			ARG 3 user

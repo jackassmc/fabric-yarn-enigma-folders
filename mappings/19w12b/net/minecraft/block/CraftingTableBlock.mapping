@@ -1,0 +1,4 @@
+CLASS bmi net/minecraft/block/CraftingTableBlock
+	FIELD a CONTAINER_NAME Ljm;
+	METHOD <init> (Lblg$c;)V
+		ARG 1 settings

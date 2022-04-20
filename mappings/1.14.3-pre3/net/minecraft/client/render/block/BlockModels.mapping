@@ -1,0 +1,11 @@
+CLASS dlh net/minecraft/client/render/block/BlockModels
+	FIELD a models Ljava/util/Map;
+	FIELD b modelManager Ldwf;
+	METHOD a getModelManager ()Ldwf;
+	METHOD a getSprite (Lbvo;)Ldun;
+	METHOD a propertyValueToString (Lbwr;Ljava/lang/Comparable;)Ljava/lang/String;
+	METHOD a propertyMapToString (Ljava/util/Map;)Ljava/lang/String;
+	METHOD a getModelId (Lqt;Lbvo;)Ldwg;
+	METHOD b reload ()V
+	METHOD b getModel (Lbvo;)Ldwb;
+	METHOD c getModelId (Lbvo;)Ldwg;

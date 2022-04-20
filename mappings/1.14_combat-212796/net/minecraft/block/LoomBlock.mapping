@@ -1,0 +1,4 @@
+CLASS bpz net/minecraft/block/LoomBlock
+	FIELD a CONTAINER_NAME Ljx;
+	METHOD <init> (Lbmr$c;)V
+		ARG 1 settings

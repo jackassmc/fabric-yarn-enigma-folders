@@ -1,0 +1,7 @@
+CLASS cmy net/minecraft/util/math/Vec2f
+	FIELD a ZERO Lcmy;
+	FIELD i x F
+	FIELD j y F
+	METHOD <init> (FF)V
+		ARG 1 x
+	METHOD c equals (Lcmy;)Z

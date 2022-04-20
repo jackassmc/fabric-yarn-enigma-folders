@@ -1,0 +1,9 @@
+CLASS aws net/minecraft/item/DyeableArmorItem
+	METHOD <init> (Lavo;Lahq;Laxo$a;)V
+		ARG 1 material
+		ARG 2 slot
+		ARG 3 settings
+	METHOD a setColor (Laxt;I)V
+	METHOD e hasColor (Laxt;)Z
+	METHOD f getColor (Laxt;)I
+	METHOD g removeColor (Laxt;)V

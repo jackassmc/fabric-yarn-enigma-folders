@@ -1,0 +1,8 @@
+CLASS dpy net/minecraft/client/render/model/BuiltinBakedModel
+	FIELD a transformation Ldgg;
+	FIELD b itemPropertyOverrides Ldge;
+	FIELD c sprite Ldom;
+	METHOD <init> (Ldgg;Ldge;Ldom;)V
+		ARG 1 transformation
+		ARG 2 itemPropertyOverrides
+		ARG 3 sprite

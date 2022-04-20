@@ -1,0 +1,5 @@
+CLASS bcs net/minecraft/item/SuspiciousStewItem
+	METHOD a addEffectToStew (Lbbq;Lahr;I)V
+		ARG 0 stew
+		ARG 1 effect
+		ARG 2 duration

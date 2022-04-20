@@ -1,0 +1,14 @@
+CLASS kp net/minecraft/client/network/packet/GuiSlotUpdateClientPacket
+	FIELD a id I
+	FIELD b slot I
+	FIELD c itemStack Lavo;
+	METHOD <init> (IILavo;)V
+		ARG 1 id
+		ARG 2 slot
+	METHOD a read (Liq;)V
+	METHOD a apply (Lit;)V
+	METHOD a apply (Ljr;)V
+	METHOD b getId ()I
+	METHOD b write (Liq;)V
+	METHOD c getSlot ()I
+	METHOD d getItemStack ()Lavo;

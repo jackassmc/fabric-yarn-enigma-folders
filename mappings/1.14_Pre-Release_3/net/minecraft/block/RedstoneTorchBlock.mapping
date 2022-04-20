@@ -1,0 +1,4 @@
+CLASS bqn net/minecraft/block/RedstoneTorchBlock
+	FIELD a LIT Lbvx;
+	METHOD <init> (Lbmh$c;)V
+		ARG 1 settings

@@ -1,0 +1,13 @@
+CLASS bsc net/minecraft/block/TrapdoorBlock
+	FIELD a OPEN Lbvu;
+	FIELD b HALF Lbwa;
+	FIELD c POWERED Lbvu;
+	FIELD d WATERLOGGED Lbvu;
+	FIELD e EAST_SHAPE Lcsi;
+	FIELD f WEST_SHAPE Lcsi;
+	FIELD g SOUTH_SHAPE Lcsi;
+	FIELD h NORTH_SHAPE Lcsi;
+	FIELD i OPEN_BOTTOM_SHAPE Lcsi;
+	FIELD j OPEN_TOP_SHAPE Lcsi;
+	METHOD <init> (Lbme$c;)V
+		ARG 1 settings

@@ -1,0 +1,6 @@
+CLASS bti net/minecraft/world/dimension/TheEndDimension
+	FIELD f SPAWN_POINT Let;
+	FIELD g enderDragonFight Lbth;
+	METHOD <init> (Lbcl;Lbtd;)V
+		ARG 1 world
+		ARG 2 type

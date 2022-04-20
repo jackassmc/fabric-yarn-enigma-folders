@@ -1,0 +1,3 @@
+CLASS dfz net/minecraft/client/render/entity/EntityRendererPanda
+	METHOD a getTexture (Lafy;)Lpw;
+	METHOD a getTexture (Lalk;)Lpw;

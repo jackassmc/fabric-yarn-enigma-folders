@@ -1,0 +1,4 @@
+CLASS dnm net/minecraft/client/render/chunk/ChunkRendererFactory
+	METHOD create (Lbhn;Ldkt;)Ldnl;
+		ARG 1 world
+		ARG 2 worldRenderer

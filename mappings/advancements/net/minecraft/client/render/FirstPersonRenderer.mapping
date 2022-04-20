@@ -1,0 +1,27 @@
+CLASS btd net/minecraft/client/render/FirstPersonRenderer
+	FIELD a MAP_BACKGROUND_TEX Lmd;
+	FIELD b UNDERWATER_TEX Lmd;
+	FIELD c game Lbgm;
+	FIELD d mainHand Lahf;
+	FIELD e offHand Lahf;
+	FIELD f equipProgressMainHand F
+	FIELD g prevEquipProgressMainHand F
+	FIELD h equipProgressOffHand F
+	FIELD i prevEquipProgressOffHand F
+	FIELD j renderManager Lbxm;
+	FIELD k itemRenderer Lbyc;
+	METHOD a updateHeldItems ()V
+	METHOD a renderFirstPersonItem (F)V
+	METHOD a rotate (FF)V
+	METHOD a renderFirstPersonMap (FFF)V
+	METHOD a renderBlock (FLcbw;)V
+	METHOD a renderFirstPersonMap (Lahf;)V
+	METHOD a renderFirstPersonItem (Lbsj;FFLsw;FLahf;F)V
+	METHOD a resetEquipProgress (Lsw;)V
+	METHOD a renderArm (Luj;)V
+	METHOD a renderItem (Luk;Lahf;Lbul$b;)V
+	METHOD a renderItemFromSide (Luk;Lahf;Lbul$b;Z)V
+	METHOD b renderOverlays (F)V
+	METHOD c renderArms ()V
+	METHOD e renderWaterOverlay (F)V
+	METHOD f renderFireOverlay (F)V

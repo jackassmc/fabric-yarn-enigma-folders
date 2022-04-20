@@ -1,0 +1,5 @@
+CLASS dle net/minecraft/client/util/WindowProvider
+	FIELD a client Lcvp;
+	FIELD b monitorTracker Lcuf;
+	METHOD a createMonitor (J)Lcub;
+	METHOD a createWindow (Lctw;Ljava/lang/String;Ljava/lang/String;)Lcui;

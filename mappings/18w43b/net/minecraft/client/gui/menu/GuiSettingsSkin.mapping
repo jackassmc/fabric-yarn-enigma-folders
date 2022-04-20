@@ -1,0 +1,10 @@
+CLASS cnu net/minecraft/client/gui/menu/GuiSettingsSkin
+	FIELD a parent Lcns;
+	FIELD f title Ljava/lang/String;
+	METHOD <init> (Lcns;)V
+		ARG 0 parent
+	METHOD a draw (IIF)V
+		ARG 0 mouseX
+		ARG 1 mouseY
+		ARG 2 delta
+	METHOD c init ()V

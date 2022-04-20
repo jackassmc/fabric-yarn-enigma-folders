@@ -1,0 +1,6 @@
+CLASS dvk net/minecraft/client/audio/MinecartSoundInstance
+	FIELD o player Lauv;
+	FIELD p minecart Lawk;
+	METHOD <init> (Lauv;Lawk;)V
+		ARG 1 player
+		ARG 2 minecart

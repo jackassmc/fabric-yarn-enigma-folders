@@ -1,0 +1,4 @@
+CLASS ex net/minecraft/util/registry/DefaultMappedRegistry
+	FIELD M defaultId Lqd;
+	FIELD N defaultValue Ljava/lang/Object;
+	METHOD a getDefaultId ()Lqd;

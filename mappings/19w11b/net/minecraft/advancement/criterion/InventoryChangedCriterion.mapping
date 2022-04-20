@@ -1,0 +1,20 @@
+CLASS az net/minecraft/advancement/criterion/InventoryChangedCriterion
+	CLASS az$a Handler
+		FIELD a manager Lqy;
+		FIELD b conditions Ljava/util/Set;
+		METHOD a isEmpty ()Z
+		METHOD a handle (Laum;)V
+		METHOD a addCondition (Lw$a;)V
+		METHOD b removeCondition (Lw$a;)V
+	CLASS az$b Conditions
+		FIELD a occupied Lbh$d;
+		FIELD b full Lbh$d;
+		FIELD c empty Lbh$d;
+		FIELD d items [Lbb;
+		METHOD a matches (Laum;)Z
+		METHOD a items ([Lbb;)Laz$b;
+		METHOD a items ([Lbfw;)Laz$b;
+	FIELD a ID Lqp;
+	FIELD b handlers Ljava/util/Map;
+	METHOD a handle (Lvd;Laum;)V
+		ARG 1 player

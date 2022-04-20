@@ -1,0 +1,10 @@
+CLASS bod net/minecraft/client/particle/ParticleEnchantGlyph
+	FIELD L startY D
+	FIELD M startZ D
+	FIELD b startX D
+	METHOD a update ()V
+	METHOD a addPos (DDD)V
+		ARG 0 dx
+		ARG 1 dy
+		ARG 2 dz
+	METHOD a getColorMultiplier (F)I

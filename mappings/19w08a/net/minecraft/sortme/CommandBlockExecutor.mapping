@@ -1,0 +1,25 @@
+CLASS bcl net/minecraft/sortme/CommandBlockExecutor
+	FIELD b DATE_FORMAT Ljava/text/SimpleDateFormat;
+	FIELD c lastExecution J
+	FIELD d updateLastExecution Z
+	FIELD e successCount I
+	FIELD f trackOutput Z
+	FIELD g lastOutput Lji;
+	FIELD h command Ljava/lang/String;
+	FIELD i customName Lji;
+	METHOD a setSuccessCount (I)V
+	METHOD a interact (Lary;)Z
+	METHOD a execute (Lbde;)Z
+	METHOD a serialize (Lhx;)Lhx;
+	METHOD a setCommand (Ljava/lang/String;)V
+	METHOD a shouldTrackOutput (Z)V
+	METHOD b deserialize (Lhx;)V
+	METHOD b setCustomName (Lji;)V
+	METHOD c setLastOutput (Lji;)V
+	METHOD d getWorld ()Luv;
+	METHOD f getPos ()Lcnk;
+	METHOD i getSuccessCount ()I
+	METHOD j getLastOutput ()Lji;
+	METHOD k getCommand ()Ljava/lang/String;
+	METHOD l getCustomName ()Lji;
+	METHOD m isTrackingOutput ()Z

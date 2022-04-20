@@ -1,0 +1,42 @@
+CLASS baa net/minecraft/world/level/LevelGeneratorType
+	FIELD a TYPES [Lbaa;
+	FIELD b DEFAULT Lbaa;
+	FIELD c FLAT Lbaa;
+	FIELD d LARGE_BIOMES Lbaa;
+	FIELD e AMPLIFIED Lbaa;
+	FIELD f CUSTOMIZED Lbaa;
+	FIELD g BUFFET Lbaa;
+	FIELD h DEBUG_ALL_BLOCK_STATES Lbaa;
+	FIELD i DEFAULT_1_1 Lbaa;
+	FIELD j id I
+	FIELD k name Ljava/lang/String;
+	FIELD m version I
+	FIELD n visible Z
+	FIELD o versioned Z
+	FIELD p info Z
+	FIELD q customizable Z
+	METHOD <init> (ILjava/lang/String;)V
+		ARG 1 id
+		ARG 2 name
+	METHOD <init> (ILjava/lang/String;Ljava/lang/String;I)V
+		ARG 1 id
+		ARG 4 version
+	METHOD a getName ()Ljava/lang/String;
+	METHOD a getTypeForVersion (I)Lbaa;
+		ARG 1 version
+	METHOD a getTypeFromName (Ljava/lang/String;)Lbaa;
+		ARG 0 name
+	METHOD a setCustomizable (Z)Lbaa;
+		ARG 1 value
+	METHOD b setVisible (Z)Lbaa;
+		ARG 1 value
+	METHOD c getTranslationKey ()Ljava/lang/String;
+	METHOD d getInfoTranslationKey ()Ljava/lang/String;
+	METHOD e getVersion ()I
+	METHOD f isCustomizable ()Z
+	METHOD g isVisible ()Z
+	METHOD h isVersioned ()Z
+	METHOD i getId ()I
+	METHOD j hasInfo ()Z
+	METHOD k setVersioned ()Lbaa;
+	METHOD l setHasInfo ()Lbaa;

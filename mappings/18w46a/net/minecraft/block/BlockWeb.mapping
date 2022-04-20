@@ -1,0 +1,6 @@
+CLASS bln net/minecraft/block/BlockWeb
+	METHOD a onEntityCollision (Lbnz;Lbae;Les;Lagc;)V
+		ARG 1 state
+		ARG 2 world
+		ARG 3 pos
+	METHOD c getRenderLayer ()Lazr;

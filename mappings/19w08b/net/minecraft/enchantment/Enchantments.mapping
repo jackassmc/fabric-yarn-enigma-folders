@@ -1,0 +1,3 @@
+CLASS bbl net/minecraft/enchantment/Enchantments
+	FIELD L ALL_ARMOR [Lahr;
+	METHOD a register (Ljava/lang/String;Lbbh;)Lbbh;

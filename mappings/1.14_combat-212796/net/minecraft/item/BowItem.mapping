@@ -1,0 +1,13 @@
+CLASS ban net/minecraft/item/BowItem
+	METHOD a getPullProgress (I)F
+		ARG 0 useTicks
+	METHOD a (Lawb;Lawb;)V
+		ARG 1 p
+	METHOD b (Lbce;Lbhn;Laiu;)F
+		ARG 0 stack
+		ARG 1 world
+		ARG 2 entity
+	METHOD c (Lbce;Lbhn;Laiu;)F
+		ARG 0 stack
+		ARG 1 world
+		ARG 2 entity

@@ -1,0 +1,37 @@
+CLASS axy net/minecraft/item/FoodItemSetting
+	CLASS axy$a Builder
+		FIELD a hunger I
+		FIELD b saturationModifier F
+		FIELD c wolfFood Z
+		FIELD d alwaysEdible Z
+		FIELD e eatenFast Z
+		FIELD f statusEffectChances Ljava/util/List;
+		METHOD a wolfFood ()Laxy$a;
+		METHOD a saturationModifier (F)Laxy$a;
+			ARG 1 amount
+		METHOD a hunger (I)Laxy$a;
+			ARG 1 amount
+		METHOD a statusEffect (Lahz;F)Laxy$a;
+			ARG 2 chance
+		METHOD b alwaysEdible ()Laxy$a;
+		METHOD c eatenFast ()Laxy$a;
+		METHOD d build ()Laxy;
+	FIELD a hunger I
+	FIELD b saturationModifier F
+	FIELD c wolfFood Z
+	FIELD d alwaysEdible Z
+	FIELD e eatenFast Z
+	FIELD f statusEffectChances Ljava/util/List;
+	METHOD <init> (IFZZZLjava/util/List;)V
+		ARG 1 hunger
+		ARG 2 saturationModifier
+		ARG 3 isWolfFood
+		ARG 4 isAlwaysEdible
+		ARG 5 isEatenFaster
+		ARG 6 statusEffects
+	METHOD a getHunger ()I
+	METHOD b getSaturationModifier ()F
+	METHOD c isWolfFood ()Z
+	METHOD d isAlwaysEdible ()Z
+	METHOD e isEatenFast ()Z
+	METHOD f getStatusEffectChances ()Ljava/util/List;

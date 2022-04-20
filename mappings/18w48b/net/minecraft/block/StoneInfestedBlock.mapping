@@ -1,0 +1,2 @@
+CLASS bii net/minecraft/block/StoneInfestedBlock
+	METHOD a onStacksDropped (Lboj;Lbaq;Let;Lavs;)V

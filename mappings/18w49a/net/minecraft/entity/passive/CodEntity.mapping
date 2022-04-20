@@ -1,0 +1,4 @@
+CLASS als net/minecraft/entity/passive/CodEntity
+	METHOD D getAmbientSound ()Lxg;
+	METHOD cv getDeathSound ()Lxg;
+	METHOD e getHurtSound (Laft;)Lxg;

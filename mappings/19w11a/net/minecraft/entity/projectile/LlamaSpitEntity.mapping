@@ -1,0 +1,2 @@
+CLASS avb net/minecraft/entity/projectile/LlamaSpitEntity
+	FIELD b owner Laqm;

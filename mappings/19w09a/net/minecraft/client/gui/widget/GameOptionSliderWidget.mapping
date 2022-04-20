@@ -1,0 +1,2 @@
+CLASS csp net/minecraft/client/gui/widget/GameOptionSliderWidget
+	FIELD p option Lcrd;

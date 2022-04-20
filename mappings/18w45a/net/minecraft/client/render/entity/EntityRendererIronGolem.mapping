@@ -1,0 +1,4 @@
+CLASS dfj net/minecraft/client/render/entity/EntityRendererIronGolem
+	FIELD a SKIN Lpw;
+	METHOD a getTexture (Lafy;)Lpw;
+	METHOD a getTexture (Lalh;)Lpw;

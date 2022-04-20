@@ -1,0 +1,13 @@
+CLASS bmv net/minecraft/block/entity/DispenserBlockEntity
+	FIELD a RANDOM Ljava/util/Random;
+	FIELD e inventory Lfh;
+	METHOD Q_ getName ()Lja;
+	METHOD S_ isInvEmpty ()Z
+	METHOD W_ getInvSize ()I
+	METHOD a createContainer (Laqi;Laqj;)Lasb;
+		ARG 1 playerInv
+	METHOD a toTag (Lhp;)Lhp;
+	METHOD b fromTag (Lhp;)V
+	METHOD f getInvMaxStackAmount ()I
+	METHOD l getContainerId ()Ljava/lang/String;
+	METHOD q getInvStackList ()Lfh;

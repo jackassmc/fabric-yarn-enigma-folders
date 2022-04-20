@@ -1,0 +1,63 @@
+CLASS bmk net/minecraft/block/entity/BlockEntityStructureBlock
+	FIELD a structureName Lpu;
+	FIELD e author Ljava/lang/String;
+	FIELD f metadata Ljava/lang/String;
+	FIELD g offset Leq;
+	FIELD h size Leq;
+	FIELD i mirror Lbia;
+	FIELD j rotation Lbja;
+	FIELD k mode Lbow;
+	FIELD l ignoreEntities Z
+	FIELD m powered Z
+	FIELD n showAir Z
+	FIELD o showBoundingBox Z
+	FIELD p integrity F
+	FIELD q seed J
+	METHOD E isPowered ()Z
+	METHOD G shouldShowAir ()Z
+	METHOD H shouldShowBoundingBox ()Z
+	METHOD a setIntegrity (F)V
+		ARG 1 value
+	METHOD a setSeed (J)V
+		ARG 1 value
+	METHOD a setAuthor (Lage;)V
+		ARG 1 entity
+	METHOD a setMode (Lbow;)V
+		ARG 1 value
+	METHOD a serialize (Lhm;)Lhm;
+		ARG 1 tag
+	METHOD a setStructureName (Ljava/lang/String;)V
+	METHOD a setStructureName (Lpu;)V
+	METHOD a setIgnoreEntities (Z)V
+		ARG 1 value
+	METHOD aa_ getUpdatePacket ()Ljy;
+	METHOD ab_ serializeInitialChunkData ()Lhm;
+	METHOD b setMirror (Lbia;)V
+		ARG 1 mirror
+	METHOD b setRotation (Lbja;)V
+		ARG 1 value
+	METHOD b setOffset (Leq;)V
+		ARG 1 value
+	METHOD b deserialize (Lhm;)V
+		ARG 1 tag
+	METHOD b setMetadata (Ljava/lang/String;)V
+		ARG 1 vallue
+	METHOD c getStructureName ()Ljava/lang/String;
+	METHOD c setSize (Leq;)V
+		ARG 1 value
+	METHOD d hasStructureName ()Z
+	METHOD d setPowered (Z)V
+		ARG 1 value
+	METHOD e getOffset ()Leq;
+	METHOD e setShowAir (Z)V
+		ARG 1 value
+	METHOD f getSize ()Leq;
+	METHOD f setShowBoundingBox (Z)V
+		ARG 1 value
+	METHOD h getMirror ()Lbia;
+	METHOD i getRotation ()Lbja;
+	METHOD j getMetadata ()Ljava/lang/String;
+	METHOD k getMode ()Lbow;
+	METHOD m shouldIgnoreEntities ()Z
+	METHOD n getIntegrity ()F
+	METHOD o getSeed ()J

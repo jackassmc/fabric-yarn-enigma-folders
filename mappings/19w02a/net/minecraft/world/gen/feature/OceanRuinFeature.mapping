@@ -1,0 +1,16 @@
+CLASS cct net/minecraft/world/gen/feature/OceanRuinFeature
+	CLASS cct$a
+		METHOD <init> (Lbzc;IILbde;Lccj;IJ)V
+			ARG 2 chunkX
+			ARG 3 chunkZ
+	CLASS cct$b BiomeTemperature
+		FIELD a WARM Lcct$b;
+		FIELD b COLD Lcct$b;
+		FIELD c nameMap Ljava/util/Map;
+		FIELD d name Ljava/lang/String;
+		METHOD a getName ()Ljava/lang/String;
+		METHOD a byName (Ljava/lang/String;)Lcct$b;
+			ARG 0 name
+	METHOD <init> (Ljava/util/function/Function;)V
+		ARG 1 configFactory
+	METHOD b getName ()Ljava/lang/String;

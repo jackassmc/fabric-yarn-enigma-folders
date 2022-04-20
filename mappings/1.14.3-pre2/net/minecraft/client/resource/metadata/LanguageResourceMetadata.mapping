@@ -1,0 +1,4 @@
+CLASS dvt net/minecraft/client/resource/metadata/LanguageResourceMetadata
+	FIELD a READER Ldvu;
+	FIELD b definitions Ljava/util/Collection;
+	METHOD a getLanguageDefinitions ()Ljava/util/Collection;

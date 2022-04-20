@@ -1,0 +1,33 @@
+CLASS akl net/minecraft/village/VillageDoor
+	FIELD a position Leq;
+	FIELD c facing Lev;
+	FIELD d lastTimeSeenByVillager I
+	FIELD f entityInsideTicks I
+	METHOD <init> (Leq;III)V
+		ARG 1 position
+		ARG 2 insideDirectionX
+		ARG 3 insideDirectionZ
+		ARG 4 lastTickSeenByVillager
+	METHOD <init> (Leq;Lev;I)V
+		ARG 1 position
+		ARG 2 facing
+		ARG 3 lastTimeSeenByVillager
+	METHOD a clearEntityInsideTicks ()V
+	METHOD a setLastTimeSeenByVillager (I)V
+		ARG 1 value
+	METHOD a getFacing (II)Lev;
+		ARG 0 insideDirectionX
+		ARG 1 insideDirectionZ
+	METHOD a squaredDistanceTo (Leq;)I
+		ARG 1 otherPosition
+	METHOD b entityInsideTick ()V
+	METHOD b squaredDistance (III)I
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD c getEntityInsideTicks ()I
+	METHOD d getPosition ()Leq;
+	METHOD f insideDirectionX ()I
+	METHOD g insideDirectionY ()I
+	METHOD h getLastTimeSeenByVillager ()I
+	METHOD j getFacing ()Lev;

@@ -1,0 +1,18 @@
+CLASS aqa net/minecraft/entity/projectile/EntityExplodingWitherSkull
+	FIELD e CHARGED Lpi;
+	METHOD a damage (Laeq;F)Z
+		ARG 0 source
+		ARG 1 damage
+	METHOD a getEffectiveExplosionResistance (Layt;Layn;Leq;Lblz;Lcad;F)F
+		ARG 0 explosion
+		ARG 1 world
+		ARG 2 pos
+		ARG 4 state
+	METHOD a onCollision (Lcha;)V
+		ARG 0 hit
+	METHOD a setCharged (Z)V
+		ARG 0 value
+	METHOD aD doesCollide ()Z
+	METHOD aX isOnFire ()Z
+	METHOD l isCharged ()Z
+	METHOD y_ initDataTracker ()V

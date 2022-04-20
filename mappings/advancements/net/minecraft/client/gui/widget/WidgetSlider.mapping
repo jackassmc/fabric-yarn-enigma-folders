@@ -1,0 +1,19 @@
+CLASS bhp net/minecraft/client/gui/widget/WidgetSlider
+	CLASS bhp$a IFormatter
+		METHOD a formatValue (ILjava/lang/String;F)Ljava/lang/String;
+	FIELD o dragging Z
+	FIELD p caretPosition F
+	FIELD q text Ljava/lang/String;
+	FIELD r minValue F
+	FIELD s maxValue F
+	FIELD t parent Lbhz$b;
+	FIELD u formatter Lbhp$a;
+	METHOD a setCaretPosition (F)V
+	METHOD a setValue (FZ)V
+	METHOD a onReleased (II)V
+	METHOD a drawBackground (Lbgm;II)V
+	METHOD a getTextureId (Z)I
+	METHOD b isWithinBounds (Lbgm;II)Z
+	METHOD c getValue ()F
+	METHOD d getCaretPosition ()F
+	METHOD e getDisplayString ()Ljava/lang/String;

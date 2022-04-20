@@ -1,0 +1,2 @@
+CLASS ams net/minecraft/block/BlockFacing
+	FIELD H FACING Latw;

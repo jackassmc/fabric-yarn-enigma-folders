@@ -1,0 +1,7 @@
+CLASS buc net/minecraft/client/render/entity/EntityRendererBoat
+	METHOD a getTexture (Labw;)Lkq;
+		ARG 0 model
+	METHOD a (Labw;DDDFF)V
+	METHOD a getTexture (Lsm;)Lkq;
+		ARG 0 model
+	METHOD a (Lsm;DDDFF)V

@@ -1,0 +1,17 @@
+CLASS dqm net/minecraft/client/render/model/WeightedBakedModel
+	CLASS dqm$a Builder
+		FIELD a models Ljava/util/List;
+		METHOD a getFirst ()Ldqc;
+		METHOD a add (Ldqc;I)Ldqm$a;
+			ARG 1 model
+			ARG 2 weight
+	CLASS dqm$b ModelEntry
+		FIELD b model Ldqc;
+		METHOD <init> (Ldqc;I)V
+			ARG 1 model
+			ARG 2 weight
+	FIELD a totalWeight I
+	FIELD b models Ljava/util/List;
+	FIELD c defaultModel Ldqc;
+	METHOD <init> (Ljava/util/List;)V
+		ARG 1 models

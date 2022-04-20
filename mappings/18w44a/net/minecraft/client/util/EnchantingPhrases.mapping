@@ -1,0 +1,10 @@
+CLASS cra net/minecraft/client/util/EnchantingPhrases
+	FIELD a INSTANCE Lcra;
+	FIELD b rand Ljava/util/Random;
+	FIELD c phrases [Ljava/lang/String;
+	METHOD a getInstance ()Lcra;
+	METHOD a setSeed (J)V
+		ARG 1 seed
+	METHOD a generatePhrase (Lcmc;I)Ljava/lang/String;
+		ARG 1 fontRenderer
+		ARG 2 width

@@ -1,0 +1,6 @@
+CLASS zs net/minecraft/entity/sortme/IMob
+	CLASS zs$2
+		METHOD a apply (Lsm;)Z
+			ARG 0 entity
+	FIELD d MOBS Lcom/google/common/base/Predicate;
+	FIELD e VISIBLE_MOBS Lcom/google/common/base/Predicate;

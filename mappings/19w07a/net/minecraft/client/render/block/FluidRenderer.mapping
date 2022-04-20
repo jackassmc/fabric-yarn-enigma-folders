@@ -1,0 +1,6 @@
+CLASS dgm net/minecraft/client/render/block/FluidRenderer
+	FIELD a lavaSprites [Ldpm;
+	FIELD b waterSprites [Ldpm;
+	FIELD c waterOverlaySprite Ldpm;
+	METHOD a onResourceReload ()V
+	METHOD a tesselate (Lbck;Les;Lcpx;Lcgl;)Z

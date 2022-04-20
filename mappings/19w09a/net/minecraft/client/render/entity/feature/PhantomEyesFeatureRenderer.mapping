@@ -1,0 +1,3 @@
+CLASS dox net/minecraft/client/render/entity/feature/PhantomEyesFeatureRenderer
+	METHOD <init> (Ldms;)V
+		ARG 1 context

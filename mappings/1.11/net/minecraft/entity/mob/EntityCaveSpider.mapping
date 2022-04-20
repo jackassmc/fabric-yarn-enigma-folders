@@ -1,0 +1,6 @@
+CLASS zn net/minecraft/entity/mob/EntityCaveSpider
+	METHOD J getLootTableId ()Lkq;
+	METHOD b registerTagUpgraders (Lph;)V
+		ARG 0 handler
+	METHOD bE initAttributes ()V
+	METHOD bq getEyeHeight ()F

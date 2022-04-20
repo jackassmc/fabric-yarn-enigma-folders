@@ -1,0 +1,6 @@
+CLASS ddv net/minecraft/client/render/entity/EntityRendererArmorStand
+	CLASS ddv$1
+		METHOD am_ init ()V
+	FIELD a TEX Lpw;
+	METHOD a getTexture (Lafy;)Lpw;
+	METHOD a getTexture (Lanl;)Lpw;

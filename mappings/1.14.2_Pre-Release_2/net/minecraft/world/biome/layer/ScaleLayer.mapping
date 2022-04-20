@@ -1,0 +1,2 @@
+CLASS cmo net/minecraft/world/biome/layer/ScaleLayer
+	FIELD b FUZZY Lcmo;

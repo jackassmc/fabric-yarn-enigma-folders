@@ -1,0 +1,2 @@
+CLASS dig net/minecraft/client/particle/TotemParticle
+	CLASS dig$a Factory

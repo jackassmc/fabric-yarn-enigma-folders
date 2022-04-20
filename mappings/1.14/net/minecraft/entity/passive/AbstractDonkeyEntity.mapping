@@ -1,0 +1,8 @@
+CLASS arr net/minecraft/entity/passive/AbstractDonkeyEntity
+	FIELD bJ CHEST Lqh;
+	METHOD <init> (Laij;Lbhh;)V
+		ARG 1 type
+	METHOD dV hasChest ()Z
+	METHOD dY playAddChestSound ()V
+	METHOD r setHasChest (Z)V
+		ARG 1 hasChest

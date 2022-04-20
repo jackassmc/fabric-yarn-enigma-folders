@@ -1,0 +1,204 @@
+CLASS bvk net/minecraft/block/BlockState
+	CLASS bvk$a ShapeCache
+		FIELD a DIRECTIONS [Lfa;
+		FIELD b opaque Z
+		FIELD c fullOpaque Z
+		FIELD d translucent Z
+		FIELD e lightSubtracted I
+		FIELD f shapes [Lcsr;
+		METHOD <init> (Lbvk;)V
+			ARG 1 state
+	FIELD c shapeCache Lbvk$a;
+	FIELD d luminance I
+	FIELD e hasSidedTransparency Z
+	METHOD <init> (Lbmm;Lcom/google/common/collect/ImmutableMap;)V
+		ARG 1 block
+		ARG 2 propertyMap
+	METHOD a calcBlockBreakingDelta (Lavy;Lbgs;Lev;)F
+		ARG 1 player
+		ARG 2 view
+		ARG 3 pos
+	METHOD a canReplace (Lbaf;)Z
+		ARG 1 ctx
+	METHOD a getBlockBrightness (Lbgq;Lev;)I
+		ARG 1 view
+		ARG 2 pos
+	METHOD a isTranslucent (Lbgs;Lev;)Z
+		ARG 1 view
+		ARG 2 pos
+	METHOD a hasSolidTopSurface (Lbgs;Lev;Laii;)Z
+		ARG 1 view
+		ARG 2 pos
+		ARG 3 entity
+	METHOD a allowsSpawning (Lbgs;Lev;Laim;)Z
+		ARG 1 view
+		ARG 2 pos
+		ARG 3 type
+	METHOD a canPlaceAtSide (Lbgs;Lev;Lcnj;)Z
+		ARG 1 view
+		ARG 2 pos
+		ARG 3 env
+	METHOD a getOutlineShape (Lbgs;Lev;Lcsc;)Lcsr;
+		ARG 1 view
+		ARG 2 pos
+	METHOD a getCullShape (Lbgs;Lev;Lfa;)Lcsr;
+		ARG 1 view
+		ARG 2 pos
+		ARG 3 facing
+	METHOD a activate (Lbhi;Lavy;Lahc;Lcrt;)Z
+		ARG 1 world
+		ARG 2 player
+		ARG 3 hand
+		ARG 4 hit
+	METHOD a onProjectileHit (Lbhi;Lbvk;Lcrt;Laii;)V
+		ARG 1 world
+		ARG 2 state
+		ARG 3 hitResult
+		ARG 4 projectile
+	METHOD a getComparatorOutput (Lbhi;Lev;)I
+		ARG 1 world
+		ARG 2 pos
+	METHOD a onBlockAction (Lbhi;Lev;II)Z
+		ARG 1 world
+		ARG 2 pos
+		ARG 3 type
+		ARG 4 data
+	METHOD a onEntityCollision (Lbhi;Lev;Laii;)V
+		ARG 1 world
+		ARG 2 pos
+		ARG 3 entity
+	METHOD a onBlockBreakStart (Lbhi;Lev;Lavy;)V
+		ARG 1 world
+		ARG 2 pos
+		ARG 3 player
+	METHOD a onStacksDropped (Lbhi;Lev;Lbcb;)V
+		ARG 1 world
+		ARG 2 pos
+		ARG 3 stack
+	METHOD a neighborUpdate (Lbhi;Lev;Lbmm;Lev;Z)V
+		ARG 1 world
+		ARG 2 pos
+		ARG 3 neighborBlock
+		ARG 4 neighborPos
+	METHOD a onBlockAdded (Lbhi;Lev;Lbvk;Z)V
+		ARG 1 world
+		ARG 2 pos
+		ARG 3 oldState
+		ARG 4 moved
+	METHOD a scheduledTick (Lbhi;Lev;Ljava/util/Random;)V
+		ARG 1 world
+		ARG 2 pos
+		ARG 3 rnd
+	METHOD a updateNeighborStates (Lbhj;Lev;I)V
+		ARG 1 world
+		ARG 2 pos
+		ARG 3 flags
+	METHOD a canPlaceAt (Lbhl;Lev;)Z
+		ARG 1 world
+		ARG 2 pos
+	METHOD a mirror (Lbpx;)Lbvk;
+		ARG 1 mirror
+	METHOD a rotate (Lbqx;)Lbvk;
+		ARG 1 rotation
+	METHOD a isSideInvisible (Lbvk;Lfa;)Z
+		ARG 1 neighbor
+		ARG 2 facing
+	METHOD a deserialize (Lcom/mojang/datafixers/Dynamic;)Lbvk;
+		ARG 0 dynamic
+	METHOD a serialize (Lcom/mojang/datafixers/types/DynamicOps;Lbvk;)Lcom/mojang/datafixers/Dynamic;
+		ARG 0 ops
+		ARG 1 state
+	METHOD a getDroppedStacks (Lcoo$a;)Ljava/util/List;
+		ARG 1 builder
+	METHOD a getRenderingSeed (Lev;)J
+		ARG 1 pos
+	METHOD a getStateForNeighborUpdate (Lfa;Lbvk;Lbhj;Lev;Lev;)Lbvk;
+		ARG 1 facing
+		ARG 2 neighborState
+		ARG 3 world
+		ARG 4 pos
+		ARG 5 neighborPos
+	METHOD a matches (Lzb;)Z
+		ARG 1 tag
+	METHOD b getLightSubtracted (Lbgs;Lev;)I
+		ARG 1 view
+		ARG 2 pos
+	METHOD b getCollisionShape (Lbgs;Lev;Lcsc;)Lcsr;
+		ARG 1 view
+		ARG 2 pos
+		ARG 3 ePos
+	METHOD b getWeakRedstonePower (Lbgs;Lev;Lfa;)I
+		ARG 1 view
+		ARG 2 pos
+		ARG 3 facing
+	METHOD b createContainerProvider (Lbhi;Lev;)Lahg;
+		ARG 1 world
+		ARG 2 pos
+	METHOD b onBlockRemoved (Lbhi;Lev;Lbvk;Z)V
+		ARG 1 world
+		ARG 2 pos
+		ARG 3 newState
+		ARG 4 moved
+	METHOD b onRandomTick (Lbhi;Lev;Ljava/util/Random;)V
+		ARG 1 world
+		ARG 2 pos
+		ARG 3 rnd
+	METHOD b (Lbhj;Lev;I)V
+		ARG 1 world
+		ARG 2 pos
+		ARG 3 flags
+	METHOD c initShapeCache ()V
+	METHOD c getTopMaterialColor (Lbgs;Lev;)Lclg;
+		ARG 1 view
+		ARG 2 pos
+	METHOD c getStrongRedstonePower (Lbgs;Lev;Lfa;)I
+		ARG 1 view
+		ARG 2 pos
+		ARG 3 facing
+	METHOD d getBlock ()Lbmm;
+	METHOD d getAmbientOcclusionLightLevel (Lbgs;Lev;)F
+		ARG 1 view
+		ARG 2 pos
+	METHOD e getMaterial ()Lclf;
+	METHOD e isSimpleFullBlock (Lbgs;Lev;)Z
+		ARG 1 view
+		ARG 2 pos
+	METHOD f getHardness (Lbgs;Lev;)F
+		ARG 1 view
+		ARG 2 pos
+	METHOD g hasSidedTransparency ()Z
+	METHOD g isFullOpaque (Lbgs;Lev;)Z
+		ARG 1 view
+		ARG 2 pos
+	METHOD h getLuminance ()I
+	METHOD h getOutlineShape (Lbgs;Lev;)Lcsr;
+		ARG 1 view
+		ARG 2 pos
+	METHOD i isAir ()Z
+	METHOD i getCollisionShape (Lbgs;Lev;)Lcsr;
+		ARG 1 view
+		ARG 2 pos
+	METHOD j hasBlockEntityBreakingRender ()Z
+	METHOD j (Lbgs;Lev;)Lcsr;
+		ARG 1 view
+		ARG 2 pos
+	METHOD k getRenderType ()Lbqu;
+	METHOD k getRayTraceShape (Lbgs;Lev;)Lcsr;
+		ARG 1 view
+		ARG 2 pos
+	METHOD l emitsRedstonePower ()Z
+	METHOD l getOffsetPos (Lbgs;Lev;)Lcrx;
+		ARG 1 view
+		ARG 2 pos
+	METHOD m hasComparatorOutput ()Z
+	METHOD m canSuffocate (Lbgs;Lev;)Z
+		ARG 1 view
+		ARG 2 pos
+	METHOD n getPistonBehavior ()Lclh;
+	METHOD n shouldPostProcess (Lbgs;Lev;)Z
+		ARG 1 view
+		ARG 2 pos
+	METHOD o isOpaque ()Z
+	METHOD p getFluidState ()Lclb;
+	METHOD q hasRandomTicks ()Z
+	METHOD r getSoundGroup ()Lbrp;

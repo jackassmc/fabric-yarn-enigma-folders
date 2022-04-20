@@ -1,0 +1,2 @@
+CLASS dpb net/minecraft/client/render/entity/LlamaEntityRenderer
+	FIELD a TEXTURES [Lqq;

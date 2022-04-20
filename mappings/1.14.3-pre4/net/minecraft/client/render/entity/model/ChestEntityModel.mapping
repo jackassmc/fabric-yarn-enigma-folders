@@ -1,0 +1,4 @@
+CLASS dej net/minecraft/client/render/entity/model/ChestEntityModel
+	FIELD a lid Ldhh;
+	FIELD b base Ldhh;
+	FIELD c hatch Ldhh;

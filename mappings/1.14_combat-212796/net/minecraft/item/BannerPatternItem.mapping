@@ -1,0 +1,7 @@
+CLASS baf net/minecraft/item/BannerPatternItem
+	FIELD a pattern Lbtl;
+	METHOD <init> (Lbtl;Lbbz$a;)V
+		ARG 1 pattern
+		ARG 2 settings
+	METHOD b getPattern ()Lbtl;
+	METHOD d getDescription ()Ljn;

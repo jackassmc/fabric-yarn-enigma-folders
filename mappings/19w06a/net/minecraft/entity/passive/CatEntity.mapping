@@ -1,0 +1,16 @@
+CLASS amp net/minecraft/entity/passive/CatEntity
+	CLASS amp$a CatFleeGoal
+		FIELD c entity Lamp;
+	CLASS amp$b SleepWithOwnerGoal
+		FIELD a entity Lamp;
+		FIELD b owner Lars;
+	CLASS amp$c CatTemptGoal
+	FIELD bH TAMING_INGREDIENT Lazt;
+	FIELD bI CAT_TYPE Lps;
+	FIELD bL COLLAR_COLOR Lps;
+	FIELD bM fleeGoal Lamp$a;
+	METHOD a setCollarColor (Lawj;)V
+	METHOD b createChild (Lahg;)Lamp;
+	METHOD dO getOcelotType ()I
+	METHOD dR getCollarColor ()Lawj;
+	METHOD q getOcelotType (I)V

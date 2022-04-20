@@ -1,0 +1,2 @@
+CLASS dii net/minecraft/client/render/debug/CaveDebugRenderer
+	METHOD a render (FJ)V

@@ -1,0 +1,5 @@
+CLASS apx net/minecraft/entity/mob/GuardianEntity
+	CLASS apx$c GuardianMoveControl
+		FIELD i guardian Lapx;
+	METHOD <init> (Lahg;Lbcl;)V
+		ARG 1 type

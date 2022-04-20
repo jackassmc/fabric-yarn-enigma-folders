@@ -1,0 +1,7 @@
+CLASS cne net/minecraft/entity/VerticalEntityPosition
+	METHOD a minValue ()Lcne;
+	METHOD a fromEntity (Lahi;)Lcne;
+		ARG 0 entity
+	METHOD a isAboveBlock (Lcnt;Let;Z)Z
+		ARG 1 shape
+	METHOD b isSneaking ()Z

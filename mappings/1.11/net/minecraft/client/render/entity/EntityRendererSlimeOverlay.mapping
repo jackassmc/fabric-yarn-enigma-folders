@@ -1,0 +1,23 @@
+CLASS bxo net/minecraft/client/render/entity/EntityRendererSlimeOverlay
+	FIELD a renderer Lbwa;
+	FIELD b model Lblt;
+	METHOD <init> (Lbwa;)V
+		ARG 0 renderer
+	METHOD a shouldMergeTextures ()Z
+	METHOD a render (Laag;FFFFFFF)V
+		ARG 0 entity
+		ARG 1 limbSwing
+		ARG 2 limbSwingAmount
+		ARG 3 deltaTicks
+		ARG 4 age
+		ARG 5 yaw
+		ARG 6 pitch
+		ARG 7 scale
+	METHOD a render (Lsv;FFFFFFF)V
+		ARG 0 entity
+		ARG 2 limbSwingAmount
+		ARG 3 deltaTicks
+		ARG 4 age
+		ARG 5 yaw
+		ARG 6 pitch
+		ARG 7 scale

@@ -1,0 +1,4 @@
+CLASS bns net/minecraft/client/render/entity/model/EntityModelChest
+	FIELD a lid Lbqb;
+	FIELD b base Lbqb;
+	FIELD c hatch Lbqb;

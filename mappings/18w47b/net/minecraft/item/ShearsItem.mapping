@@ -1,0 +1,9 @@
+CLASS awi net/minecraft/item/ShearsItem
+	METHOD a onBlockBroken (Lavo;Lban;Lboh;Let;Lago;)Z
+		ARG 1 stack
+		ARG 2 world
+		ARG 3 state
+		ARG 4 pos
+	METHOD a getBlockBreakingSpeed (Lavo;Lboh;)F
+		ARG 1 stack
+	METHOD a isEffectiveOn (Lboh;)Z

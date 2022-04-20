@@ -1,0 +1,12 @@
+CLASS ciz net/minecraft/world/gen/surfacebuilder/BadlandsSurfaceBuilder
+	FIELD S WHITE_TERACOTTA Lbuy;
+	FIELD T ORANGE_TERRACOTTA Lbuy;
+	FIELD U TERACOTTA Lbuy;
+	FIELD V YELLOW_TERACOTTA Lbuy;
+	FIELD W BROWN_TERACOTTA Lbuy;
+	FIELD X RED_TERACOTTA Lbuy;
+	FIELD Y LIGHT_GRAY_TERACOTTA Lbuy;
+	FIELD a layerBlocks [Lbuy;
+	FIELD b seed J
+	METHOD b initLayerBlocks (J)V
+		ARG 1 seed

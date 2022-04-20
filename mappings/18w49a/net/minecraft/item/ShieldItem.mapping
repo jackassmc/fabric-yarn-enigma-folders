@@ -1,0 +1,15 @@
+CLASS awp net/minecraft/item/ShieldItem
+	METHOD a canRepair (Lavu;Lavu;)Z
+		ARG 1 tool
+	METHOD a addInformation (Lavu;Lbas;Ljava/util/List;Laxe;)V
+		ARG 1 stack
+		ARG 2 world
+		ARG 3 tooltip
+	METHOD a use (Lbas;Laql;Lafd;)Lafg;
+		ARG 1 world
+		ARG 2 player
+	METHOD b getMaxUseTime (Lavu;)I
+	METHOD c getUseAction (Lavu;)Laxg;
+	METHOD e getColor (Lavu;)Lauq;
+		ARG 0 stack
+	METHOD h getTranslationKey (Lavu;)Ljava/lang/String;

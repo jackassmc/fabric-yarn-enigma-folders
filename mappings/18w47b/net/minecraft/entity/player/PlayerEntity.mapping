@@ -1,0 +1,164 @@
+CLASS aqg net/minecraft/entity/player/PlayerEntity
+	CLASS aqg$a SleepResult
+		FIELD a SUCCESS Laqg$a;
+		FIELD b INVALID_WORLD Laqg$a;
+		FIELD c WRONG_TIME Laqg$a;
+		FIELD d TOO_FAR_AWAY Laqg$a;
+		FIELD e INVALID_ATTEMPT Laqg$a;
+		FIELD f NOT_SAFE Laqg$a;
+	CLASS aqg$b ChatVisibility
+		FIELD a FULL Laqg$b;
+		FIELD b COMMANDS Laqg$b;
+		FIELD c HIDDEN Laqg$b;
+		FIELD e id I
+		FIELD f key Ljava/lang/String;
+		METHOD a getId ()I
+		METHOD a byId (I)Laqg$b;
+		METHOD b getTranslationKey ()Ljava/lang/String;
+	FIELD a ABSORPTION_AMOUNT Lpn;
+	FIELD bA enderChestInventory Lasw;
+	FIELD bB containerPlayer Lary;
+	FIELD bC container Lary;
+	FIELD bD hungerManager Larw;
+	FIELD b SCORE Lpn;
+	FIELD bO sleeping Z
+	FIELD bP sleepingPos Let;
+	FIELD bT abilities Laqe;
+	FIELD bU experience I
+	FIELD bV experienceLevel I
+	FIELD bW experienceBarProgress F
+	FIELD bX enchantmentTableSeed I
+	FIELD bZ fishHook Laoc;
+	FIELD bv SKIN_CUSTOMIZATION Lpn;
+	FIELD bw MAIN_HAND Lpn;
+	FIELD by SHOULDER_ENTITY_RIGHT Lpn;
+	FIELD bz inventory Laqf;
+	FIELD cE renderOffsetY F
+	FIELD c sleepTimer I
+	FIELD cb gameProfile Lcom/mojang/authlib/GameProfile;
+	FIELD cc reducedDebugInfo Z
+	FIELD ce itemCooldownManager Lavk;
+	FIELD e spawnPosition Let;
+	FIELD f spawnForced Z
+	METHOD Q getDisplayName ()Lja;
+	METHOD R_ getName ()Lja;
+	METHOD V_ update ()V
+	METHOD W_ stopRiding ()V
+	METHOD X invalidate ()V
+	METHOD Z getMaxPortalTime ()I
+	METHOD a addExhaustion (F)V
+	METHOD a openInventory (Laes;)V
+	METHOD a openContainer (Laez;)V
+	METHOD a canUnlock (Lafd;)Z
+	METHOD a onDeath (Lafo;)V
+	METHOD a damage (Lafo;F)Z
+		ARG 1 source
+	METHOD a copyEntityData (Lagf;)V
+	METHOD a interact (Lagf;Laey;)Lafa;
+		ARG 1 entity
+	METHOD a setEquippedStack (Lagk;Lavo;)V
+		ARG 1 slot
+	METHOD a setMainHand (Lagn;)V
+	METHOD a openHorseInventory (Lamk;Laes;)V
+	METHOD a spawnEntityItem (Laoi;)Lavo;
+	METHOD a shouldDamagePlayer (Laqg;)Z
+	METHOD a isSkinOverlayVisible (Laqh;)Z
+	METHOD a openBookEditor (Lavo;Laey;)V
+	METHOD a dropItem (Lavo;Z)Laoi;
+		ARG 1 stack
+	METHOD a dropItem (Lavo;ZZ)Laoi;
+		ARG 1 stack
+	METHOD a openVillagerGui (Lazr;)V
+	METHOD a openCommandBlockMinecart (Lazv;)V
+	METHOD a setGameMode (Lbak;)V
+	METHOD a openCommandBlock (Lbmo;)V
+	METHOD a openSignEditor (Lbng;)V
+	METHOD a openStructureBlock (Lbnk;)V
+	METHOD a getUuidFromProfile (Lcom/mojang/authlib/GameProfile;)Ljava/util/UUID;
+		ARG 0 profile
+	METHOD a trySleep (Let;)Laqg$a;
+	METHOD a isWithinSleepingRange (Let;Ley;)Z
+		ARG 1 sleepPos
+	METHOD a canPlaceBlock (Let;Ley;Lavo;)Z
+		ARG 1 pos
+		ARG 2 side
+	METHOD a deserializeCustomData (Lhp;)V
+	METHOD a addChatMessage (Lja;Z)V
+		ARG 1 message
+	METHOD a playSoundAtEntity (Lxd;FF)V
+		ARG 1 sound
+		ARG 2 volume
+	METHOD a resetStat (Lxk;)V
+	METHOD a incrementStat (Lxk;I)V
+		ARG 1 stat
+	METHOD a dropSelectedItem (Z)Laoi;
+	METHOD aI isInsideWall ()Z
+	METHOD aK getHeightOffset ()D
+	METHOD aS getDefaultPortalCooldown ()I
+	METHOD aU getItemsHand ()Ljava/lang/Iterable;
+	METHOD aV getItemsArmor ()Ljava/lang/Iterable;
+	METHOD af getSoundSwim ()Lxd;
+	METHOD ag getSoundSplash ()Lxd;
+	METHOD aw onSwimmingStart ()V
+	METHOD b getEquippedStack (Lagk;)Lavo;
+	METHOD b getBlockBreakingSpeed (Lboh;)F
+	METHOD b setPlayerSpawn (Let;Z)V
+		ARG 1 pos
+	METHOD b serializeCustomData (Lhp;)V
+	METHOD b incrementStat (Lxk;)V
+	METHOD bB shouldRenderName ()Z
+	METHOD bH getEyeHeight ()F
+	METHOD bX getSoundCategory ()Lxf;
+	METHOD bd isSwimming ()Z
+	METHOD bj stickInWeb ()V
+	METHOD bx getEntityName ()Ljava/lang/String;
+	METHOD by canFly ()Z
+	METHOD c handleFallDamage (FF)V
+		ARG 1 fallDistance
+	METHOD c isUsingEffectiveTool (Lboh;)Z
+	METHOD c getOfflinePlayerUuid (Ljava/lang/String;)Ljava/util/UUID;
+		ARG 0 nickname
+	METHOD cQ isSleeping ()Z
+	METHOD cV getAbsorptionAmount ()F
+	METHOD cX getMainHand ()Lagn;
+	METHOD cb initAttributes ()V
+	METHOD cw getSoundDeath ()Lxd;
+	METHOD d addExperience (I)V
+	METHOD d applyDamage (Lafo;F)V
+		ARG 1 damageSource
+	METHOD dB getHungerManager ()Larw;
+	METHOD dC canFoodHeal ()Z
+	METHOD dD canModifyWorld ()Z
+	METHOD dE getEnderChestInventory ()Lasw;
+	METHOD dG getScoreboard ()Lcky;
+	METHOD dI getReducedDebugInfo ()Z
+	METHOD dJ getShoulderEntityLeft ()Lhp;
+	METHOD dK getShoulderEntityRight ()Lhp;
+	METHOD dN getItemCooldownManager ()Lavk;
+	METHOD dO getLuck ()F
+	METHOD dn getScore ()I
+	METHOD dt getGameProfile ()Lcom/mojang/authlib/GameProfile;
+	METHOD dw getSleepTimer ()I
+	METHOD dx getSpawnPosition ()Let;
+	METHOD dy isSpawnForced ()Z
+	METHOD dz getEnchantmentTableSeed ()I
+	METHOD e getSoundHurt (Lafo;)Lxd;
+	METHOD e canSeePlayer (Laqg;)Z
+	METHOD f attack (Lagf;)V
+	METHOD g createCooldownManager ()Lavk;
+	METHOD h setShoulderEntityLeft (Lhp;)V
+	METHOD i pushAwayFrom (Lagf;)V
+	METHOD i setShoulderEntityRight (Lhp;)V
+	METHOD k updateMovement ()V
+	METHOD m getSoundFall (I)Lxd;
+	METHOD n initAi ()V
+	METHOD p isShotFromCrossbow ()Z
+	METHOD p setScore (I)V
+	METHOD q setAbsorptionAmount (F)V
+	METHOD q addScore (I)V
+	METHOD q canConsume (Z)Z
+	METHOD r setReducedDebugInfo (Z)V
+	METHOD t isSpectator ()Z
+	METHOD u isCreative ()Z
+	METHOD x_ closeGui ()V
+	METHOD y_ initDataTracker ()V

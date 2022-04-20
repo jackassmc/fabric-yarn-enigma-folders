@@ -1,0 +1,2 @@
+CLASS czv net/minecraft/client/gui/container/HopperScreen
+	FIELD y TEXTURE Lqp;

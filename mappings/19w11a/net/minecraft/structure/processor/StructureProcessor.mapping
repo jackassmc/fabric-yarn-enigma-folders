@@ -1,0 +1,6 @@
+CLASS chs net/minecraft/structure/processor/StructureProcessor
+	METHOD a getType ()Lcht;
+	METHOD a process (Lbgb;Leu;Lchu$b;Lchu$b;Lchr;)Lchu$b;
+		ARG 1 world
+		ARG 2 pos
+		ARG 5 placementData

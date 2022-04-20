@@ -1,0 +1,10 @@
+CLASS bgp net/minecraft/village/TraderOfferList
+	METHOD a toTag ()Lic;
+	METHOD a getValidRecipe (Lbce;Lbce;I)Lbgo;
+		ARG 1 firstBuyItem
+		ARG 2 secondBuyItem
+		ARG 3 index
+	METHOD a toPacket (Ljd;)V
+		ARG 1 buffer
+	METHOD b fromPacket (Ljd;)Lbgp;
+		ARG 0 byteBuf

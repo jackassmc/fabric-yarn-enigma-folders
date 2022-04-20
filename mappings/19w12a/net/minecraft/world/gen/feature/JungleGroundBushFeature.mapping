@@ -1,0 +1,7 @@
+CLASS cai net/minecraft/world/gen/feature/JungleGroundBushFeature
+	FIELD a leaves Lbue;
+	FIELD aR log Lbue;
+	METHOD <init> (Ljava/util/function/Function;Lbue;Lbue;)V
+		ARG 1 configFactory
+		ARG 2 log
+		ARG 3 leaves

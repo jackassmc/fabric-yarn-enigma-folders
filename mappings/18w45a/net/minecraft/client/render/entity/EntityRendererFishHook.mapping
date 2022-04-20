@@ -1,0 +1,4 @@
+CLASS dez net/minecraft/client/render/entity/EntityRendererFishHook
+	FIELD a TEX Lpw;
+	METHOD a getTexture (Lafy;)Lpw;
+	METHOD a getTexture (Lans;)Lpw;

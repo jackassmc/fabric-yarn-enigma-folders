@@ -1,0 +1,30 @@
+CLASS bnv net/minecraft/block/VineBlock
+	FIELD a UP Lbrh;
+	FIELD b NORTH Lbrh;
+	FIELD c EAST Lbrh;
+	FIELD d SOUTH Lbrh;
+	FIELD e WEST Lbrh;
+	FIELD f FACING_PROPERTIES Ljava/util/Map;
+	FIELD g UP_SHAPE Lcnq;
+	FIELD h WEST_SHAPE Lcnq;
+	FIELD i EAST_SHAPE Lcnq;
+	FIELD j NORTH_SHAPE Lcnq;
+	FIELD k SOUTH_SHAPE Lcnq;
+	METHOD <init> (Lbhs$c;)V
+		ARG 1 settings
+	METHOD a shouldConnectTo (Lbcb;Let;Ley;)Z
+		ARG 0 world
+		ARG 1 pos
+		ARG 2 direction
+	METHOD a getFacingProperty (Ley;)Lbrh;
+		ARG 0 direction
+	METHOD f cannotConnectTo (Lbhs;)Z
+		ARG 0 block
+	METHOD j hasAdjacentBlocks (Lbqp;)Z
+		ARG 1 state
+	METHOD q getAdjacentBlockCount (Lbqp;)I
+		ARG 1 state
+	METHOD q getPlacementShape (Lbqp;Lbcb;Let;)Lbqp;
+		ARG 1 state
+		ARG 2 world
+		ARG 3 pos

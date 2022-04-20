@@ -1,0 +1,4 @@
+CLASS dnn net/minecraft/client/audio/RidingMinecartSoundEvent
+	FIELD n minecart Larn;
+	FIELD o distance F
+	METHOD ab_ tick ()V

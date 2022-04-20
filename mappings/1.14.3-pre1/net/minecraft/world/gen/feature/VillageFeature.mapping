@@ -1,0 +1,7 @@
+CLASS cev net/minecraft/world/gen/feature/VillageFeature
+	CLASS cev$a Start
+		METHOD <init> (Lcem;IILbig;Lchu;IJ)V
+			ARG 2 chunkX
+			ARG 3 chunkZ
+	METHOD <init> (Ljava/util/function/Function;)V
+		ARG 1 configFactory

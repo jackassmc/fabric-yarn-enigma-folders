@@ -1,0 +1,7 @@
+CLASS aef net/minecraft/item/ItemCoal
+	METHOD a addStacksForDisplay (Lafg;Laei;Ldd;)V
+		ARG 0 item
+		ARG 1 tab
+		ARG 2 list
+	METHOD a getTranslationKey (Lafi;)Ljava/lang/String;
+		ARG 0 stack

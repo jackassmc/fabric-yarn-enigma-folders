@@ -1,0 +1,14 @@
+CLASS amg net/minecraft/entity/mob/EntitySkeletonHorse
+	METHOD D getSoundAmbient ()Lwz;
+	METHOD F getLootTableId ()Lpw;
+	METHOD a createChild (Lafv;)Lafv;
+	METHOD a interactMob (Lapv;Laer;)Z
+		ARG 1 player
+	METHOD a deserializeCustomData (Lho;)V
+	METHOD aL getMountedHeightOffset ()D
+	METHOD af getSoundSwim ()Lwz;
+	METHOD b serializeCustomData (Lho;)V
+	METHOD cb initAttributes ()V
+	METHOD cw getSoundDeath ()Lwz;
+	METHOD e getSoundHurt (Lafh;)Lwz;
+	METHOD k updateMovement ()V

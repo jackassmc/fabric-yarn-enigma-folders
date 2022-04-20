@@ -1,0 +1,22 @@
+CLASS azf net/minecraft/world/level/LevelInfo
+	FIELD a seed J
+	FIELD b gameMode Layx;
+	FIELD c structures Z
+	FIELD d hardcore Z
+	FIELD e generatorType Lazh;
+	FIELD f commands Z
+	FIELD g bonusChest Z
+	METHOD <init> (Lcdi;)V
+		ARG 0 properties
+	METHOD a setBonusChest ()Lazf;
+	METHOD a getGameModeById (I)Layx;
+		ARG 0 id
+	METHOD b enableCommands ()Lazf;
+	METHOD c hasBonusChest ()Z
+	METHOD d getSeed ()J
+	METHOD e getGameMode ()Layx;
+	METHOD f isHardcore ()Z
+	METHOD g hasStructures ()Z
+	METHOD h getGeneratorType ()Lazh;
+	METHOD i allowCommands ()Z
+	METHOD j getGeneratorOptions ()Lcom/google/gson/JsonElement;

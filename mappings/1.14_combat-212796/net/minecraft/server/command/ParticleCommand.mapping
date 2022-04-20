@@ -1,0 +1,13 @@
+CLASS su net/minecraft/server/command/ParticleCommand
+	FIELD a FAILED_EXCPETION Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
+	METHOD a execute (Lcd;Lge;Lcsc;Lcsc;FIZLjava/util/Collection;)I
+		ARG 0 source
+		ARG 1 parameters
+		ARG 2 pos
+		ARG 3 delta
+		ARG 4 speed
+		ARG 5 count
+		ARG 6 force
+		ARG 7 viewers
+	METHOD a register (Lcom/mojang/brigadier/CommandDispatcher;)V
+		ARG 0 dispatcher

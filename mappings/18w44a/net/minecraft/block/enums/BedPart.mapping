@@ -1,0 +1,5 @@
+CLASS boe net/minecraft/block/enums/BedPart
+	FIELD a HEAD Lboe;
+	FIELD b FOOT Lboe;
+	FIELD c name Ljava/lang/String;
+	METHOD m asString ()Ljava/lang/String;

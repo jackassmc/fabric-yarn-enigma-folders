@@ -1,0 +1,13 @@
+CLASS aju net/minecraft/entity/ai/brain/task/LookTargetUtil
+	METHOD a lookAtAndWalkTowardsEachOther (Lais;Lais;)V
+	METHOD a walkTowards (Lais;Lais;I)V
+	METHOD a give (Lais;Lbcc;Lais;)V
+	METHOD a canSee (Lajh;Lais;)Z
+	METHOD a canSee (Lajh;Lapc;Lain;)Z
+	METHOD a getPosClosestToOccupiedPointOfInterest (Lvg;Lfo;I)Lfo;
+		ARG 0 world
+		ARG 1 center
+		ARG 2 radius
+	METHOD b lookAtEachOther (Lais;Lais;)V
+	METHOD c lookAt (Lais;Lais;)V
+	METHOD d walkTowardsEachOther (Lais;Lais;)V

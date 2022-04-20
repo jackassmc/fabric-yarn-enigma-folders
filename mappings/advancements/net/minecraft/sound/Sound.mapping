@@ -1,0 +1,7 @@
+CLASS pb net/minecraft/sound/Sound
+	FIELD a REGISTRY Lel;
+	FIELD b soundId Lmd;
+	FIELD c amountRegistered I
+	METHOD a getSoundId ()Lmd;
+	METHOD a registerSound (Ljava/lang/String;)V
+	METHOD b registerDefaults ()V

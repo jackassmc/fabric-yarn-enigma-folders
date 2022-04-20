@@ -1,0 +1,53 @@
+CLASS afl net/minecraft/item/ItemArmor
+	CLASS afl$1
+		METHOD b doDispense (Ldy;Lahf;)Lahf;
+	CLASS afl$a ArmorMaterial
+		FIELD a LEATHER Lafl$a;
+		FIELD b CHAINMAIL Lafl$a;
+		FIELD c IRON Lafl$a;
+		FIELD d GOLD Lafl$a;
+		FIELD e DIAMOND Lafl$a;
+		FIELD f name Ljava/lang/String;
+		FIELD h protectionAmounts [I
+		FIELD i enchantability I
+		FIELD j equipSound Lpb;
+		FIELD k toughness F
+		METHOD a getEnchantability ()I
+		METHOD b getEquipSound ()Lpb;
+		METHOD b getProtection (Lug;)I
+		METHOD c getRepairItem ()Lahd;
+		METHOD d getName ()Ljava/lang/String;
+		METHOD e getToughness ()F
+	FIELD a SLOT_TEXTURE_LOCATIONS [Ljava/lang/String;
+	FIELD b DISPENSER_BEHAVIOR Lef;
+	FIELD c slotType Lug;
+	FIELD d protection I
+	FIELD e toughness F
+	FIELD o MODIFIERS [Ljava/util/UUID;
+	FIELD p material Lafl$a;
+	METHOD <init> (Lafl$a;ILug;)V
+		ARG 0 material
+	METHOD E_ getSlotType ()Lug;
+	METHOD a setDisplayColor (Lahf;I)V
+		ARG 0 stack
+		ARG 1 color
+	METHOD a canRepair (Lahf;Lahf;)Z
+		ARG 0 item
+		ARG 1 repairItem
+	METHOD a onRightClick (Lali;Lacu;Lsw;)Lsz;
+		ARG 0 world
+		ARG 1 player
+		ARG 2 hand
+	METHOD a dispenseArmor (Ldy;Lahf;)Lahf;
+		ARG 0 block
+		ARG 1 stack
+	METHOD a getAttributeModifiers (Lug;)Lcom/google/common/collect/Multimap;
+		ARG 0 effectiveSlot
+	METHOD c getEnchantability ()I
+	METHOD c getDisplayColor (Lahf;)I
+		ARG 0 stack
+	METHOD d getMaterial ()Lafl$a;
+	METHOD d removeDisplayColor (Lahf;)V
+		ARG 0 stack
+	METHOD e_ hasDisplayColor (Lahf;)Z
+		ARG 0 stack

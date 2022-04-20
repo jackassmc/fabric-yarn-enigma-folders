@@ -1,0 +1,12 @@
+CLASS wv net/minecraft/resource/NamespaceResourceManager
+	CLASS wv$a DebugInputStream
+		FIELD a parent Ljava/io/InputStream;
+		FIELD b leakMessage Ljava/lang/String;
+		FIELD c closed Z
+	FIELD a packList Ljava/util/List;
+	FIELD b LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD c type Lwf;
+	METHOD a open (Lqq;Lwe;)Ljava/io/InputStream;
+	METHOD d getMetadataPath (Lqq;)Lqq;
+	METHOD e validate (Lqq;)V
+	METHOD f isPathAbsolute (Lqq;)Z

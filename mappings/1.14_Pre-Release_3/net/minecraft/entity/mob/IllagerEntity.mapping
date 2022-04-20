@@ -1,0 +1,5 @@
+CLASS ato net/minecraft/entity/mob/IllagerEntity
+	CLASS ato$a State
+	METHOD <init> (Laih;Lbhd;)V
+		ARG 1 type
+	METHOD l getState ()Lato$a;

@@ -1,0 +1,3 @@
+CLASS aws net/minecraft/item/FlintAndSteelItem
+	METHOD a useOnBlock (Layq;)Lafz;
+		ARG 1 usageContext

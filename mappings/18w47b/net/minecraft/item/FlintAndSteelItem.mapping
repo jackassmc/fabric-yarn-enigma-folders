@@ -1,0 +1,2 @@
+CLASS avd net/minecraft/item/FlintAndSteelItem
+	METHOD a useOnBlock (Laxb;)Lafa;

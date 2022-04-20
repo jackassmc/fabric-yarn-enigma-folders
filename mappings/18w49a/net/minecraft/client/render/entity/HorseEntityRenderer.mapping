@@ -1,0 +1,4 @@
+CLASS dho net/minecraft/client/render/entity/HorseEntityRenderer
+	FIELD a TEXTURES Ljava/util/Map;
+	METHOD a getTexture (Lagk;)Lpz;
+	METHOD a getTexture (Lamp;)Lpz;

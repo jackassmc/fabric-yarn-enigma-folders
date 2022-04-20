@@ -1,0 +1,3 @@
+CLASS dms net/minecraft/client/audio/GuardianAttackSoundEvent
+	FIELD n guardian Laoz;
+	METHOD ac_ tick ()V

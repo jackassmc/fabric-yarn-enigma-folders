@@ -1,0 +1,10 @@
+CLASS dfj net/minecraft/client/render/block/BiomeColors
+	CLASS dfj$a Proxy
+	FIELD a GRASS_COLOR Ldfj$a;
+	FIELD b FOLIAGE_COLOR Ldfj$a;
+	FIELD c WATER_COLOR Ldfj$a;
+	FIELD d WATER_FOG_COLOR Ldfj$a;
+	METHOD a grassColorAt (Lbck;Les;)I
+	METHOD a colorAt (Lbck;Les;Ldfj$a;)I
+	METHOD b foliageColorAt (Lbck;Les;)I
+	METHOD c waterColorAt (Lbck;Les;)I

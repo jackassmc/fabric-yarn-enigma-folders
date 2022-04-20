@@ -1,0 +1,8 @@
+CLASS none/bxv net/minecraft/client/resource/pack/DirectoryResourcePack
+	FIELD b WINDOWS Z
+	FIELD c PATH_SEP_WINDOWS Lcom/google/common/base/CharMatcher;
+	METHOD a openByPath (Ljava/lang/String;)Ljava/io/InputStream;
+		ARG 0 path
+	METHOD b canHandleByPath (Ljava/lang/String;)Z
+		ARG 0 path
+	METHOD c getProvidedAssets ()Ljava/util/Set;

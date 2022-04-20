@@ -1,0 +1,4 @@
+CLASS cge net/minecraft/world/PlayerSaveHandler
+	METHOD a savePlayerData (Laqa;)V
+	METHOD b loadPlayerData (Laqa;)Lho;
+	METHOD e getSavedPlayerIds ()[Ljava/lang/String;

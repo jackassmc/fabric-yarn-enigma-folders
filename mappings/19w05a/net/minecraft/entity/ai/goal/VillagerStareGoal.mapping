@@ -1,0 +1,5 @@
+CLASS akf net/minecraft/entity/ai/goal/VillagerStareGoal
+	FIELD a owner Larc;
+	FIELD b target Lahn;
+	FIELD c speed D
+	FIELD d timeLeft I

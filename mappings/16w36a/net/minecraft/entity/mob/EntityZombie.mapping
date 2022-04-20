@@ -1,0 +1,26 @@
+CLASS none/aab net/minecraft/entity/mob/EntityZombie
+	FIELD bx BABY Lnone/kj;
+	FIELD bz ARMS_RAISED Lnone/kj;
+	METHOD G getSoundAmbient ()Lnone/nk;
+	METHOD J ()Lnone/kp;
+	METHOD a deserializeCustomData (Lnone/dt;)V
+		ARG 0 tag
+	METHOD a onTrackedDataSet (Lnone/kj;)V
+		ARG 0 data
+	METHOD a damage (Lnone/rq;F)Z
+		ARG 0 source
+		ARG 1 damage
+	METHOD a setArmsRaised (Z)V
+		ARG 0 value
+	METHOD b serializeCustomData (Lnone/dt;)V
+		ARG 0 tag
+	METHOD bD initAttributes ()V
+	METHOD bV getSoundHurt ()Lnone/nk;
+	METHOD bW getSoundDeath ()Lnone/nk;
+	METHOD c registerTagUpgraders (Lnone/pf;)V
+	METHOD dj hasArmsRaised ()Z
+	METHOD i initDataTracker ()V
+	METHOD l_ isChild ()Z
+	METHOD p setBreakDoors (Z)V
+	METHOD q setChild (Z)V
+		ARG 0 value

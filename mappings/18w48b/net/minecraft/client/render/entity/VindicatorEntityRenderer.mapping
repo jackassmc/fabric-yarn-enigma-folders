@@ -1,0 +1,6 @@
+CLASS djg net/minecraft/client/render/entity/VindicatorEntityRenderer
+	CLASS djg$1
+		METHOD a render (Lagr;FFFFFFF)V
+			ARG 0 entity
+	METHOD a getTexture (Lagi;)Lpy;
+	METHOD a getTexture (Laph;)Lpy;

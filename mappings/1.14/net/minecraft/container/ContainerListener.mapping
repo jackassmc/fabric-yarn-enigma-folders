@@ -1,0 +1,9 @@
+CLASS aym net/minecraft/container/ContainerListener
+	METHOD a onContainerPropertyUpdate (Layb;II)V
+		ARG 1 container
+		ARG 2 propertyId
+	METHOD a onContainerSlotUpdate (Layb;ILbca;)V
+		ARG 1 container
+		ARG 2 slotId
+	METHOD a onContainerRegistered (Layb;Lfj;)V
+		ARG 1 container

@@ -1,0 +1,3 @@
+CLASS art net/minecraft/entity/boss/dragon/phase/SittingScanningPhase
+	METHOD <init> (Larg;)V
+		ARG 1 dragon

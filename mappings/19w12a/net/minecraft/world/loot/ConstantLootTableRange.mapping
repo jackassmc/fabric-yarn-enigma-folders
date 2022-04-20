@@ -1,0 +1,5 @@
+CLASS cnc net/minecraft/world/loot/ConstantLootTableRange
+	CLASS cnc$a Serializer
+	FIELD d value I
+	METHOD a create (I)Lcnc;
+		ARG 0 value

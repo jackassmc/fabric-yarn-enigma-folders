@@ -1,0 +1,9 @@
+CLASS bqu net/minecraft/block/SlabBlock
+	FIELD a TYPE Lbvu;
+	FIELD b WATERLOGGED Lbvo;
+	FIELD c BOTTOM_SHAPE Lcsa;
+	FIELD d TOP_SHAPE Lcsa;
+	METHOD <init> (Lbly$c;)V
+		ARG 1 settings
+	METHOD n (Lbuw;)Z
+		ARG 1 state

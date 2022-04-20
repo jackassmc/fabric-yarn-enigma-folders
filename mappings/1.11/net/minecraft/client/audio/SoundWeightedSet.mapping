@@ -1,0 +1,15 @@
+CLASS ccr net/minecraft/client/audio/SoundWeightedSet
+	FIELD a sounds Ljava/util/List;
+	FIELD b rand Ljava/util/Random;
+	FIELD c id Lkq;
+	FIELD d subtitle Lfb;
+	METHOD <init> (Lkq;Ljava/lang/String;)V
+		ARG 0 id
+		ARG 1 subtitle
+	METHOD a getSound ()Lcbw;
+	METHOD a add (Lccs;)V
+		ARG 0 sound
+	METHOD b getId ()Lkq;
+	METHOD c getSubtitle ()Lfb;
+	METHOD e getWeight ()I
+	METHOD i getSound ()Ljava/lang/Object;

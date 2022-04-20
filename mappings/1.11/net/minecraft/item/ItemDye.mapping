@@ -1,0 +1,29 @@
+CLASS aem net/minecraft/item/ItemDye
+	FIELD a COLOR [I
+	METHOD a activate (Laax;Lajq;Lco;Lrh;Lcv;FFF)Lrj;
+		ARG 0 player
+		ARG 1 world
+		ARG 2 pos
+		ARG 3 hand
+		ARG 4 facing
+		ARG 5 hitX
+		ARG 6 hitY
+		ARG 7 hitZ
+	METHOD a addStacksForDisplay (Lafg;Laei;Ldd;)V
+		ARG 0 item
+		ARG 1 tab
+		ARG 2 list
+	METHOD a getTranslationKey (Lafi;)Ljava/lang/String;
+		ARG 0 stack
+	METHOD a interactWithEntity (Lafi;Laax;Lsv;Lrh;)Z
+		ARG 0 stack
+		ARG 1 user
+		ARG 2 target
+		ARG 3 hand
+	METHOD a applyBonemeal (Lafi;Lajq;Lco;)Z
+		ARG 0 stack
+		ARG 1 world
+		ARG 2 pos
+	METHOD a (Lajq;Lco;I)V
+		ARG 0 world
+		ARG 1 pos

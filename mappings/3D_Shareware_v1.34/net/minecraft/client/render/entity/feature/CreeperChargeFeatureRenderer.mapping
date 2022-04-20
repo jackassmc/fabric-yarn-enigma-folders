@@ -1,0 +1,4 @@
+CLASS dsh net/minecraft/client/render/entity/feature/CreeperChargeFeatureRenderer
+	FIELD a SKIN Lqr;
+	METHOD <init> (Ldqt;)V
+		ARG 1 context

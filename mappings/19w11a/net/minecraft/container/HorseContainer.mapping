@@ -1,0 +1,5 @@
+CLASS axn net/minecraft/container/HorseContainer
+	FIELD c playerInv Lagk;
+	FIELD d entity Laqj;
+	METHOD <init> (ILaul;Lagk;Laqj;)V
+		ARG 1 syncId

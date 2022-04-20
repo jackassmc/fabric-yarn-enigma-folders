@@ -1,0 +1,3 @@
+CLASS dns net/minecraft/client/render/entity/feature/IronGolemFlowerFeatureRenderer
+	METHOD <init> (Ldlv;)V
+		ARG 1 context

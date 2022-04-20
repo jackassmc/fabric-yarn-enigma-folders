@@ -1,0 +1,2 @@
+CLASS dfa net/minecraft/client/texture/SkinRemappingImageFilter
+	METHOD a filterImage (Lcor;)Lcor;

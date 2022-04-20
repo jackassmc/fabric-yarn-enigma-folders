@@ -1,0 +1,7 @@
+CLASS cuu net/minecraft/world/chunk/ChunkProviderClient
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD b emptyChunk Lboh;
+	FIELD d chunkByIdMap Lit/unimi/dsi/fastutil/longs/Long2ObjectMap;
+	METHOD <init> (Laza;)V
+		ARG 0 world
+	METHOD d getStatus ()Ljava/lang/String;

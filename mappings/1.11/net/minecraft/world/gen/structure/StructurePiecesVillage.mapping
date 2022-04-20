@@ -1,0 +1,77 @@
+CLASS ays net/minecraft/world/gen/structure/StructurePiecesVillage
+	CLASS ays$a
+		METHOD a generate (Lajq;Ljava/util/Random;Laxx;)Z
+			ARG 0 world
+			ARG 1 rand
+			ARG 2 region
+	CLASS ays$b
+		METHOD a generate (Lajq;Ljava/util/Random;Laxx;)Z
+			ARG 0 world
+			ARG 1 rand
+			ARG 2 region
+		METHOD a serializeCustomData (Ldu;)V
+			ARG 0 tag
+	CLASS ays$c
+		METHOD a generate (Lajq;Ljava/util/Random;Laxx;)Z
+			ARG 0 world
+			ARG 1 rand
+			ARG 2 region
+		METHOD a serializeCustomData (Ldu;)V
+			ARG 0 tag
+	CLASS ays$d
+		METHOD a generate (Lajq;Ljava/util/Random;Laxx;)Z
+			ARG 0 world
+			ARG 1 rand
+			ARG 2 region
+	CLASS ays$f
+		METHOD a generate (Lajq;Ljava/util/Random;Laxx;)Z
+			ARG 0 world
+			ARG 1 rand
+			ARG 2 region
+	CLASS ays$g
+		METHOD a generate (Lajq;Ljava/util/Random;Laxx;)Z
+			ARG 0 world
+			ARG 1 rand
+			ARG 2 region
+		METHOD a serializeCustomData (Ldu;)V
+			ARG 0 tag
+	CLASS ays$h
+		METHOD a generate (Lajq;Ljava/util/Random;Laxx;)Z
+			ARG 0 world
+			ARG 1 rand
+			ARG 2 region
+		METHOD a serializeCustomData (Ldu;)V
+			ARG 0 tag
+	CLASS ays$i
+		METHOD a generate (Lajq;Ljava/util/Random;Laxx;)Z
+			ARG 0 world
+			ARG 1 rand
+			ARG 2 region
+	CLASS ays$j
+		METHOD a generate (Lajq;Ljava/util/Random;Laxx;)Z
+			ARG 0 world
+			ARG 1 rand
+			ARG 2 region
+		METHOD a serializeCustomData (Ldu;)V
+			ARG 0 tag
+	CLASS ays$l
+		METHOD a generate (Lajq;Ljava/util/Random;Laxx;)Z
+			ARG 0 world
+			ARG 1 rand
+			ARG 2 region
+		METHOD a serializeCustomData (Ldu;)V
+			ARG 0 tag
+	CLASS ays$m
+		METHOD a generate (Lajq;Ljava/util/Random;Laxx;)Z
+			ARG 0 world
+			ARG 1 rand
+			ARG 2 region
+	CLASS ays$n
+		METHOD a serializeCustomData (Ldu;)V
+			ARG 0 tag
+	CLASS ays$p
+		METHOD a generate (Lajq;Ljava/util/Random;Laxx;)Z
+			ARG 0 world
+			ARG 1 rand
+			ARG 2 region
+	METHOD a registerPieces ()V

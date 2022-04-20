@@ -1,0 +1,9 @@
+CLASS ayq net/minecraft/container/LecternContainer
+	FIELD c inventory Lago;
+	FIELD d propertyDelegate Layb;
+	METHOD <init> (I)V
+		ARG 1 syncId
+	METHOD <init> (ILago;Layb;)V
+		ARG 1 syncId
+	METHOD e getBookItem ()Lbbr;
+	METHOD f getPage ()I

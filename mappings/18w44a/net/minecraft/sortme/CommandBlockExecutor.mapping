@@ -1,0 +1,39 @@
+CLASS azc net/minecraft/sortme/CommandBlockExecutor
+	FIELD a DATE_FORMAT Ljava/text/SimpleDateFormat;
+	FIELD b lastExecution J
+	FIELD c updateLastExecution Z
+	FIELD d successCount I
+	FIELD e trackOutput Z
+	FIELD f lastOutput Lix;
+	FIELD g command Ljava/lang/String;
+	FIELD h customName Lix;
+	METHOD C_ shouldBroadcastConsoleToOps ()Z
+	METHOD a sendCommandFeedback ()Z
+	METHOD a setSuccessCount (I)V
+		ARG 1 successCount
+	METHOD a interact (Lapr;)Z
+		ARG 1 player
+	METHOD a execute (Lazt;)Z
+		ARG 1 world
+	METHOD a serialize (Lhm;)Lhm;
+		ARG 1 tag
+	METHOD a appendCommandFeedback (Lix;)V
+		ARG 1 feedback
+	METHOD a setCommand (Ljava/lang/String;)V
+		ARG 1 command
+	METHOD a shouldTrackOutput (Z)V
+		ARG 1 trackOutput
+	METHOD b shouldTrackOutput ()Z
+	METHOD b deserialize (Lhm;)V
+		ARG 1 tag
+	METHOD b setCustomName (Lix;)V
+		ARG 1 name
+	METHOD c setLastOutput (Lix;)V
+		ARG 1 lastOutput
+	METHOD d getWorld ()Lua;
+	METHOD f getPos ()Lcim;
+	METHOD i getSuccessCount ()I
+	METHOD j getLastOutput ()Lix;
+	METHOD k getCommand ()Ljava/lang/String;
+	METHOD l getCustomName ()Lix;
+	METHOD m isTrackingOutput ()Z

@@ -1,0 +1,2 @@
+CLASS byy net/minecraft/world/gen/carver/CarverConfig
+	FIELD a DEFAULT Lbzc;

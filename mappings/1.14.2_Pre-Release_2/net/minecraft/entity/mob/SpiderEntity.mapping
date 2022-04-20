@@ -1,0 +1,15 @@
+CLASS auy net/minecraft/entity/mob/SpiderEntity
+	CLASS auy$a AttackGoal
+		METHOD <init> (Lauy;)V
+			ARG 1 spider
+	CLASS auy$b SpawnEffectData
+		FIELD a effect Laia;
+		METHOD a setEffect (Ljava/util/Random;)V
+			ARG 1 random
+	CLASS auy$c FollowTargetGoal
+		METHOD <init> (Lauy;Ljava/lang/Class;)V
+			ARG 1 spider
+			ARG 2 targetEntityClass
+	FIELD b SPIDER_FLAGS Lqh;
+	METHOD l getCanClimb ()Z
+	METHOD r setCanClimb (Z)V

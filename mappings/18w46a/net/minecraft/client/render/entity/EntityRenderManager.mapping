@@ -1,0 +1,19 @@
+CLASS dfs net/minecraft/client/render/entity/EntityRenderManager
+	FIELD a textureManager Ldkn;
+	FIELD b world Lbae;
+	FIELD g settings Lcmz;
+	FIELD k RENDER_MAP Ljava/util/Map;
+	FIELD l SKIN_MAP Ljava/util/Map;
+	FIELD m PLAYER_RENDERER Ldjz;
+	FIELD n fontRenderer Lcnk;
+	FIELD o renderPosX D
+	FIELD p renderPosY D
+	FIELD q renderPosZ D
+	METHOD <init> (Ldkn;Ldgn;)V
+		ARG 1 textureManager
+	METHOD a setRenderPosition (DDD)V
+		ARG 1 posX
+	METHOD a getRenderer (Lagc;)Ldft;
+	METHOD a getRenderer (Ljava/lang/Class;)Ldft;
+	METHOD b hasSecondPass (Lagc;)Z
+	METHOD c getFontRenderer ()Lcnk;

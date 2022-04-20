@@ -1,0 +1,3 @@
+CLASS aun net/minecraft/container/ContainerProvider
+	METHOD createMenu (ILarr;Lars;)Latn;
+		ARG 1 syncId

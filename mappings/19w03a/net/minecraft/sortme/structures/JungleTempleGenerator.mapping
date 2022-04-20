@@ -1,0 +1,8 @@
+CLASS ccs net/minecraft/sortme/structures/JungleTempleGenerator
+	CLASS ccs$a
+		METHOD a (Ljava/util/Random;IIIZ)V
+			ARG 1 random
+			ARG 2 x
+	METHOD a (Lbcj;Ljava/util/Random;Lccn;Lbbv;)Z
+		ARG 2 random
+	METHOD a toNbt (Lhq;)V

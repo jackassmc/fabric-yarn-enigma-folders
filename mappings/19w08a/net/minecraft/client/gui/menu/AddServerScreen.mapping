@@ -1,0 +1,8 @@
+CLASS cut net/minecraft/client/gui/menu/AddServerScreen
+	FIELD a buttonAdd Lcrz;
+	FIELD b parent Lcvi;
+	FIELD g serverEntry Lddl;
+	FIELD h addressField Lcsd;
+	FIELD i serverNameField Lcsd;
+	FIELD s resourcePackOptionButton Lcrz;
+	METHOD i addAndClose ()V

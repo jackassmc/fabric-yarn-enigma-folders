@@ -1,0 +1,4 @@
+CLASS dws net/minecraft/client/audio/AmbientSoundPlayer
+	FIELD a player Ldjr;
+	FIELD b soundManager Ldxq;
+	FIELD c ticksUntilPlay I

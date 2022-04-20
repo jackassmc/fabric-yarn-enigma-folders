@@ -1,0 +1,7 @@
+CLASS bxm net/minecraft/client/render/chunk/ChunkRenderData
+	FIELD a EMPTY Lbxm;
+	FIELD d empty Z
+	FIELD e blockEntities Ljava/util/List;
+	METHOD a isEmpty ()Z
+	METHOD a getBlockEntities (Lavh;)V
+		ARG 0 blockEntity

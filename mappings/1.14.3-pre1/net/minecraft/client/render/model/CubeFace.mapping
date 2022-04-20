@@ -1,0 +1,14 @@
+CLASS dkj net/minecraft/client/render/model/CubeFace
+	CLASS dkj$a DirectionIds
+		FIELD a SOUTH I
+		FIELD b UP I
+		FIELD c EAST I
+		FIELD d NORTH I
+		FIELD e DOWN I
+		FIELD f WEST I
+	CLASS dkj$b Corner
+		FIELD a xSide I
+		FIELD b ySide I
+		FIELD c zSide I
+	FIELD h corners [Ldkj$b;
+	METHOD a getCorner (I)Ldkj$b;

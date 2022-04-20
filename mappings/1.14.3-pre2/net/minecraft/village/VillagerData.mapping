@@ -1,0 +1,22 @@
+CLASS avp net/minecraft/village/VillagerData
+	FIELD a LEVEL_BASE_EXPERIENCE [I
+	FIELD b type Lavt;
+	FIELD c profession Lavr;
+	FIELD d level I
+	METHOD <init> (Lavt;Lavr;I)V
+		ARG 3 level
+	METHOD a getType ()Lavt;
+	METHOD a withLevel (I)Lavp;
+		ARG 1 level
+	METHOD a withProfession (Lavr;)Lavp;
+	METHOD a withType (Lavt;)Lavp;
+	METHOD a serialize (Lcom/mojang/datafixers/types/DynamicOps;)Ljava/lang/Object;
+		ARG 1 ops
+	METHOD b getProfession ()Lavr;
+	METHOD b getLowerLevelExperience (I)I
+		ARG 0 level
+	METHOD c getLevel ()I
+	METHOD c getUpperLevelExperience (I)I
+		ARG 0 level
+	METHOD d canLevelUp (I)Z
+		ARG 0 level

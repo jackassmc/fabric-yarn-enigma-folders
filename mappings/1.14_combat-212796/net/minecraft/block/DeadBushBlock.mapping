@@ -1,0 +1,4 @@
+CLASS bnx net/minecraft/block/DeadBushBlock
+	FIELD a SHAPE Lcsw;
+	METHOD <init> (Lbmr$c;)V
+		ARG 1 settings

@@ -1,0 +1,3 @@
+CLASS bmk net/minecraft/block/BlastFurnaceBlock
+	METHOD <init> (Lbml$c;)V
+		ARG 1 settings

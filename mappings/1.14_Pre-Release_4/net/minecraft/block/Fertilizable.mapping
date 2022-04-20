@@ -1,0 +1,15 @@
+CLASS bml net/minecraft/block/Fertilizable
+	METHOD a isFertilizable (Lbgq;Lev;Lbvh;Z)Z
+		ARG 1 world
+		ARG 2 pos
+		ARG 3 state
+	METHOD a canGrow (Lbhf;Ljava/util/Random;Lev;Lbvh;)Z
+		ARG 1 world
+		ARG 2 random
+		ARG 3 pos
+		ARG 4 state
+	METHOD b grow (Lbhf;Ljava/util/Random;Lev;Lbvh;)V
+		ARG 1 world
+		ARG 2 random
+		ARG 3 pos
+		ARG 4 state

@@ -1,0 +1,4 @@
+CLASS bpz net/minecraft/block/RailBlock
+	FIELD c SHAPE Lbvu;
+	METHOD <init> (Lbly$c;)V
+		ARG 1 settings

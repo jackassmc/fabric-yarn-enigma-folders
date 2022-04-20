@@ -1,0 +1,3 @@
+CLASS ddl net/minecraft/client/particle/EmotionParticle
+	CLASS ddl$a AngryVillagerFactory
+	CLASS ddl$b HeartFactory

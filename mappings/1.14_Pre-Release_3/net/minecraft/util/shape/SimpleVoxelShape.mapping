@@ -1,0 +1,3 @@
+CLASS cry net/minecraft/util/shape/SimpleVoxelShape
+	METHOD <init> (Lcsa;)V
+		ARG 1 shape

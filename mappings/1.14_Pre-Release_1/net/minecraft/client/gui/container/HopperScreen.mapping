@@ -1,0 +1,2 @@
+CLASS daw net/minecraft/client/gui/container/HopperScreen
+	FIELD k TEXTURE Lqs;

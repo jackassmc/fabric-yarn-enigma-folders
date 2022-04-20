@@ -1,0 +1,128 @@
+CLASS aqz net/minecraft/entity/passive/PandaEntity
+	CLASS aqz$a Gene
+		FIELD h VALUES [Laqz$a;
+		FIELD i id I
+		FIELD j name Ljava/lang/String;
+		FIELD k recessive Z
+		METHOD <init> (Ljava/lang/String;IILjava/lang/String;Z)V
+			ARG 3 id
+			ARG 4 name
+			ARG 5 recessive
+		METHOD a getId ()I
+		METHOD a byId (I)Laqz$a;
+		METHOD a byName (Ljava/lang/String;)Laqz$a;
+		METHOD a createRandom (Ljava/util/Random;)Laqz$a;
+		METHOD b getName ()Ljava/lang/String;
+		METHOD b getProductGene (Laqz$a;Laqz$a;)Laqz$a;
+			ARG 0 mainGene
+			ARG 1 hiddenGene
+		METHOD c isRecessive ()Z
+	CLASS aqz$b AttackGoal
+		FIELD d panda Laqz;
+	CLASS aqz$c PandaFleeGoal
+		FIELD i owner Laqz;
+	CLASS aqz$d PandaMateGoal
+		FIELD d CLOSE_PLAYER_PREDICATE Lapw;
+		FIELD e panda Laqz;
+		FIELD f nextAskPlayerForBambooAge I
+		METHOD <init> (Laqz;D)V
+			ARG 1 panda
+			ARG 2 chance
+		METHOD h isBambooClose ()Z
+	CLASS aqz$e SpawnData
+	CLASS aqz$f PandaRevengeGoal
+		FIELD a panda Laqz;
+		METHOD <init> (Laqz;[Ljava/lang/Class;)V
+			ARG 1 panda
+	CLASS aqz$g LieOnBackGoal
+		FIELD a panda Laqz;
+		FIELD b nextLieOnBackAge I
+	CLASS aqz$h PandaLookAtEntityGoal
+		FIELD f panda Laqz;
+		METHOD <init> (Laqz;Ljava/lang/Class;F)V
+			ARG 1 panda
+	CLASS aqz$i PandaMoveControl
+		FIELD i panda Laqz;
+	CLASS aqz$j ExtinguishFireGoal
+		FIELD f panda Laqz;
+	CLASS aqz$k PlayGoal
+		FIELD a panda Laqz;
+		METHOD <init> (Laqz;)V
+			ARG 1 panda
+	CLASS aqz$l PickUpFoodGoal
+		FIELD b startAge I
+	CLASS aqz$m SneezeGoal
+		FIELD a panda Laqz;
+		METHOD <init> (Laqz;)V
+			ARG 1 panda
+	FIELD bA SNEEZE_PROGRESS Lqh;
+	FIELD bC EATING_TICKS Lqh;
+	FIELD bD MAIN_GENE Lqh;
+	FIELD bE HIDDEN_GENE Lqh;
+	FIELD bF PANDA_FLAGS Lqh;
+	FIELD bG shouldGetRevenge Z
+	FIELD bH shouldAttack Z
+	FIELD bI playingJump Lcrr;
+	FIELD bJ scaredAnimationProgress F
+	FIELD bK lastScaredAnimationProgress F
+	FIELD bL lieOnBackAnimationProgress F
+	FIELD bM lastLieOnBackAnimationProgress F
+	FIELD bN rollOverAnimationProgress F
+	FIELD bO lastRollOverAnimationProgress F
+	FIELD bP IS_FOOD Ljava/util/function/Predicate;
+	FIELD by playingTicks I
+	FIELD bz ASK_FOR_BAMBOO_TICKS Lqh;
+	METHOD a setMainGene (Laqz$a;)V
+	METHOD a initGenes (Laqz;Laqz;)V
+	METHOD b setHiddenGene (Laqz$a;)V
+	METHOD d setPandaFlag (IZ)V
+		ARG 1 mask
+		ARG 2 value
+	METHOD dT getAskForBambooTicks ()I
+	METHOD dU isSneezing ()Z
+	METHOD dV isScared ()Z
+	METHOD dW isLyingOnBack ()Z
+	METHOD dX isEating ()Z
+	METHOD ec getSneezeProgress ()I
+	METHOD ed getMainGene ()Laqz$a;
+	METHOD ee getHiddenGene ()Laqz$a;
+	METHOD ef isPlaying ()Z
+	METHOD eg getProductGene ()Laqz$a;
+	METHOD eh isLazy ()Z
+	METHOD ei isWorried ()Z
+	METHOD ej isPlayful ()Z
+	METHOD el isWeak ()Z
+	METHOD en resetAttributes ()V
+	METHOD eq getEatingTicks ()I
+	METHOD er updateEatingAnimation ()V
+	METHOD es playEatingAnimation ()V
+	METHOD et updateScaredAnimation ()V
+	METHOD eu updateLieOnBackAnimation ()V
+	METHOD ev updateRollOverAnimation ()V
+	METHOD ew updatePlaying ()V
+	METHOD ex sneeze ()V
+	METHOD ey getRandomGene ()Laqz$a;
+	METHOD ez stop ()V
+	METHOD j canEat (Lbbx;)Z
+	METHOD r setAskForBambooTicks (I)V
+		ARG 1 askForBambooTicks
+	METHOD r setScared (Z)V
+		ARG 1 scared
+	METHOD s setSneezeProgress (I)V
+		ARG 1 sneezeProgress
+	METHOD s setLyingOnBack (Z)V
+	METHOD t setEatingTicks (I)V
+		ARG 1 eatingTicks
+	METHOD t setEating (Z)V
+		ARG 1 eating
+	METHOD u hasPandaFlag (I)Z
+	METHOD u setSneezing (Z)V
+		ARG 1 sneezing
+	METHOD v getScaredAnimationProgress (F)F
+		ARG 1 tickDelta
+	METHOD v setPlaying (Z)V
+		ARG 1 playing
+	METHOD w getLieOnBackAnimationProgress (F)F
+		ARG 1 tickDelta
+	METHOD x getRollOverAnimationProgress (F)F
+		ARG 1 tickDelta

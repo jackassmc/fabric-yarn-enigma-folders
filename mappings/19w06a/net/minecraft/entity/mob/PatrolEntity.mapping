@@ -1,0 +1,16 @@
+CLASS aqi net/minecraft/entity/mob/PatrolEntity
+	CLASS aqi$a PatrolGoal
+	FIELD b patrolTarget Let;
+	FIELD c patrolLeader Z
+	FIELD d patrolling Z
+	METHOD <init> (Lahm;Lbcu;)V
+		ARG 1 type
+	METHOD dF canLead ()Z
+	METHOD dG getPatrolTarget ()Let;
+	METHOD dH hasPatrolTarget ()Z
+	METHOD dI isPatrolLeader ()Z
+	METHOD dJ hasNoRaid ()Z
+	METHOD dL setRandomRaidCenter ()V
+	METHOD dM isRaidCenterSet ()Z
+	METHOD g setRaidCenter (Let;)V
+	METHOD q setPatrolLeader (Z)V

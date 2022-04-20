@@ -1,0 +1,4 @@
+CLASS bwn net/minecraft/world/gen/config/feature/ShipwreckFeatureConfig
+	FIELD a isBeached Z
+	METHOD a make (Lcom/mojang/datafixers/Dynamic;)Lbwn;
+		ARG 0 dynamic

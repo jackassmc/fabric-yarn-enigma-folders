@@ -1,0 +1,5 @@
+CLASS dqx net/minecraft/client/render/entity/PufferfishEntityRenderer
+	FIELD a SKIN Lqs;
+	FIELD k smallModel Ldft;
+	FIELD l mediumModel Ldfs;
+	FIELD m largeModel Ldfr;

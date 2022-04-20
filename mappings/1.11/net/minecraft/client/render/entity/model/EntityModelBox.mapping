@@ -1,0 +1,36 @@
+CLASS bng net/minecraft/client/render/entity/model/EntityModelBox
+	FIELD a textureWidth F
+	FIELD b textureHeight F
+	FIELD c rotationPointX F
+	FIELD d rotationPointY F
+	FIELD e rotationPointZ F
+	FIELD f pitch F
+	FIELD g yaw F
+	FIELD h roll F
+	FIELD i mirror Z
+	FIELD j visible Z
+	FIELD m children Ljava/util/List;
+	FIELD v owner Lblt;
+	METHOD <init> (Lblt;)V
+		ARG 0 owner
+	METHOD <init> (Lblt;II)V
+		ARG 0 owner
+	METHOD <init> (Lblt;Ljava/lang/String;)V
+		ARG 0 owner
+	METHOD a render (F)V
+		ARG 0 delta
+	METHOD a setRotationPoint (FFF)V
+		ARG 0 x
+		ARG 1 y
+		ARG 2 z
+	METHOD a addBox (FFFIIIF)V
+	METHOD a addChild (Lbng;)V
+		ARG 0 box
+	METHOD a add (Ljava/lang/String;FFFIII)Lbng;
+	METHOD b (F)V
+		ARG 0 delta
+	METHOD b setTextureSize (II)Lbng;
+		ARG 0 width
+		ARG 1 height
+	METHOD c (F)V
+		ARG 0 delta

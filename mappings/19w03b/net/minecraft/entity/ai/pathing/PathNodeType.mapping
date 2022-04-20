@@ -1,0 +1,18 @@
+CLASS chz net/minecraft/entity/ai/pathing/PathNodeType
+	FIELD a BLOCKED Lchz;
+	FIELD b AIR Lchz;
+	FIELD c NORMAL Lchz;
+	FIELD d TRAPDOOR Lchz;
+	FIELD e FENCE Lchz;
+	FIELD f LAVA Lchz;
+	FIELD g WATER Lchz;
+	FIELD i RAIL Lchz;
+	FIELD j FIRE_NEAR Lchz;
+	FIELD k FIRE Lchz;
+	FIELD l CACTUS_NEAR Lchz;
+	FIELD m CACTUS Lchz;
+	FIELD p DOOR_OPEN Lchz;
+	FIELD q DOOR_WOOD Lchz;
+	FIELD r DOOR_METAL Lchz;
+	FIELD u weight F
+	METHOD a getWeight ()F

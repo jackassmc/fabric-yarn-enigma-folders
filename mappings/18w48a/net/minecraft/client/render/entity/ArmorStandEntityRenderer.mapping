@@ -1,0 +1,6 @@
+CLASS dfw net/minecraft/client/render/entity/ArmorStandEntityRenderer
+	CLASS dfw$1
+		METHOD ao_ init ()V
+	FIELD a TEX Lpy;
+	METHOD a getTexture (Lagi;)Lpy;
+	METHOD a getTexture (Lany;)Lpy;

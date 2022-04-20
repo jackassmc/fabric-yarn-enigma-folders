@@ -1,0 +1,4 @@
+CLASS brv net/minecraft/block/TorchBlock
+	FIELD d BOUNDING_SHAPE Lcsa;
+	METHOD <init> (Lbly$c;)V
+		ARG 1 settings

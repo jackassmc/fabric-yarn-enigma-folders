@@ -1,0 +1,8 @@
+CLASS bys net/minecraft/client/render/entity/EntityRendererCaveSpider
+	FIELD a SKIN Lnd;
+	METHOD a getTexture (Lacp;)Lnd;
+		ARG 0 model
+	METHOD a getTexture (Ladl;)Lnd;
+		ARG 0 model
+	METHOD a getTexture (Lve;)Lnd;
+		ARG 0 model

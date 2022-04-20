@@ -1,0 +1,9 @@
+CLASS avz net/minecraft/client/options/ChatVisibility
+	FIELD a FULL Lavz;
+	FIELD b SYSTEM Lavz;
+	FIELD c HIDDEN Lavz;
+	FIELD e id I
+	FIELD f key Ljava/lang/String;
+	METHOD a getId ()I
+	METHOD a byId (I)Lavz;
+	METHOD b getTranslationKey ()Ljava/lang/String;

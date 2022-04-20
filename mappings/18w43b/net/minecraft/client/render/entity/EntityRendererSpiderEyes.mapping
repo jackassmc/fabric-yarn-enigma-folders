@@ -1,0 +1,7 @@
+CLASS dfv net/minecraft/client/render/entity/EntityRendererSpiderEyes
+	FIELD a SKIN Lpt;
+	METHOD a shouldMergeTextures ()Z
+	METHOD a render (Lafq;FFFFFFF)V
+		ARG 0 entity
+	METHOD a render (Laol;FFFFFFF)V
+		ARG 0 entity

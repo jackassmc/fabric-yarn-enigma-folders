@@ -1,0 +1,3 @@
+CLASS cpe net/minecraft/world/loot/function/EnchantWithLevelsLootFunction
+	CLASS cpe$b Factory
+	FIELD c treasureEnchantmentsAllowed Z

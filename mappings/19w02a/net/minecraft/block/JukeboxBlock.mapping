@@ -1,0 +1,33 @@
+CLASS bkd net/minecraft/block/JukeboxBlock
+	METHOD <init> (Lbhi$c;)V
+		ARG 1 settings
+	METHOD a createBlockEntity (Lbbr;)Lboi;
+		ARG 1 view
+	METHOD a removeRecord (Lbcf;Let;)V
+	METHOD a setRecord (Lbcg;Let;Lbqe;Laxd;)V
+		ARG 2 pos
+		ARG 3 state
+	METHOD a getComparatorOutput (Lbqe;Lbcf;Let;)I
+		ARG 1 state
+		ARG 2 world
+		ARG 3 pos
+	METHOD a activate (Lbqe;Lbcf;Let;Lark;Lafy;Ley;FFF)Z
+		ARG 1 state
+		ARG 2 world
+		ARG 3 pos
+		ARG 4 player
+		ARG 5 hand
+		ARG 6 facing
+		ARG 7 hitX
+		ARG 8 hitY
+	METHOD a onBlockRemoved (Lbqe;Lbcf;Let;Lbqe;Z)V
+		ARG 1 state
+		ARG 2 world
+		ARG 3 pos
+		ARG 4 newState
+	METHOD a appendProperties (Lbqf$a;)V
+		ARG 1 builder
+	METHOD b hasComparatorOutput (Lbqe;)Z
+		ARG 1 state
+	METHOD c getRenderType (Lbqe;)Lblp;
+		ARG 1 state

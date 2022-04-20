@@ -1,0 +1,10 @@
+CLASS det net/minecraft/client/render/chunk/ChunkRenderData
+	FIELD a EMPTY Ldet;
+	FIELD d empty Z
+	FIELD e blockEntities Ljava/util/List;
+	FIELD g bufferState Lcnf$a;
+	METHOD a isEmpty ()Z
+	METHOD a addBlockEntity (Lbmn;)V
+	METHOD a setBufferState (Lcnf$a;)V
+	METHOD b getBlockEntities ()Ljava/util/List;
+	METHOD c getBufferState ()Lcnf$a;

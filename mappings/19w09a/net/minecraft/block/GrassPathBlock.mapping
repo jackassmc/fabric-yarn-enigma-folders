@@ -1,0 +1,6 @@
+CLASS bkq net/minecraft/block/GrassPathBlock
+	FIELD a SHAPE Lcof;
+	METHOD <init> (Lbig$c;)V
+		ARG 1 settings
+	METHOD n (Lbre;)Z
+		ARG 1 state

@@ -1,0 +1,15 @@
+CLASS abz net/minecraft/entity/attribute/AttributeManager
+	FIELD a MAX_HEALTH Lux;
+	FIELD b FOLLOW_RANGE Lux;
+	FIELD c KNOCKBACK_RESISTANCE Lux;
+	FIELD d MOVEMENT_SPEED Lux;
+	FIELD e ATTACK_DAMAGE Lux;
+	FIELD f ATTACK_SPEED Lux;
+	FIELD g ARMOR Lux;
+	FIELD h ARMOR_TOUGHNESS Lux;
+	FIELD i LUCK Lux;
+	FIELD j LOGGER Lorg/apache/logging/log4j/Logger;
+	METHOD a deserializeFromTag (Lfc;)Luz;
+	METHOD a serializeToTag (Luy;)Lfc;
+	METHOD a serializeToTag (Luz;)Lfc;
+	METHOD a serializeToTag (Lvb;)Lfi;

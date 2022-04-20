@@ -1,0 +1,7 @@
+CLASS bxs net/minecraft/world/gen/feature/IglooFeature
+	CLASS bxs$a Start
+		METHOD <init> (Lcab;IILbec;Lcdi;IJ)V
+			ARG 2 chunkX
+			ARG 3 chunkZ
+	METHOD <init> (Ljava/util/function/Function;)V
+		ARG 1 configFactory

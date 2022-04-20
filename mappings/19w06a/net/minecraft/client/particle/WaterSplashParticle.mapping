@@ -1,0 +1,2 @@
+CLASS deg net/minecraft/client/particle/WaterSplashParticle
+	CLASS deg$a SplashFactory

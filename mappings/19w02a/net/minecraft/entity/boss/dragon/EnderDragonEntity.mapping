@@ -1,0 +1,46 @@
+CLASS any net/minecraft/entity/boss/dragon/EnderDragonEntity
+	FIELD bE parts [Lanw;
+	FIELD bF partHead Lanw;
+	FIELD bG partNeck Lanw;
+	FIELD bH partBody Lanw;
+	FIELD bI partTail1 Lanw;
+	FIELD bJ partTail2 Lanw;
+	FIELD bK partTail3 Lanw;
+	FIELD bL partWingRight Lanw;
+	FIELD b PHASE_TYPE Lpt;
+	FIELD bM partWingLeft Lanw;
+	FIELD bS LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD bT fight Lbtc;
+	FIELD bU phaseManager Laop;
+	METHOD D getAmbientSound ()Lxt;
+	METHOD H checkDespawn ()V
+	METHOD J_ getPartDamageWorld ()Lbcf;
+	METHOD V kill ()V
+	METHOD a damage (Lagm;F)Z
+		ARG 1 source
+		ARG 2 amount
+	METHOD a damage (Lanw;Lagm;F)Z
+		ARG 1 part
+		ARG 2 source
+		ARG 3 amount
+	METHOD a crystalDestroyed (Lanx;Let;Lagm;)V
+		ARG 1 crystal
+		ARG 2 pos
+		ARG 3 source
+	METHOD a readCustomDataFromTag (Lhs;)V
+	METHOD a onTrackedDataSet (Lpt;)V
+	METHOD aE doesCollide ()Z
+	METHOD b writeCustomDataToTag (Lhs;)V
+	METHOD bX getSoundCategory ()Lxv;
+	METHOD bk getParts ()[Lahd;
+	METHOD bo canUsePortals ()Z
+	METHOD c addPotionEffect (Lagw;)Z
+	METHOD cI getSoundVolume ()F
+	METHOD cb initAttributes ()V
+	METHOD cd updatePostDeath ()V
+	METHOD du getPhaseManager ()Laop;
+	METHOD dv getFight ()Lbtc;
+	METHOD e getHurtSound (Lagm;)Lxt;
+	METHOD k updateMovement ()V
+	METHOD n canStartRiding (Lahd;)Z
+	METHOD w_ initDataTracker ()V

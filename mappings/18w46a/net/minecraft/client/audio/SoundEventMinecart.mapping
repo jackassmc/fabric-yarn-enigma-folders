@@ -1,0 +1,6 @@
+CLASS dmo net/minecraft/client/audio/SoundEventMinecart
+	FIELD n player Laqa;
+	FIELD o minecart Larb;
+	METHOD <init> (Laqa;Larb;)V
+		ARG 1 player
+	METHOD Z_ tick ()V

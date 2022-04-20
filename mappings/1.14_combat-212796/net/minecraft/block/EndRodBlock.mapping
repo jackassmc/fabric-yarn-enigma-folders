@@ -1,0 +1,6 @@
+CLASS bok net/minecraft/block/EndRodBlock
+	FIELD b Y_SHAPE Lcsw;
+	FIELD c Z_SHAPE Lcsw;
+	FIELD d X_SHAPE Lcsw;
+	METHOD <init> (Lbmr$c;)V
+		ARG 1 settings

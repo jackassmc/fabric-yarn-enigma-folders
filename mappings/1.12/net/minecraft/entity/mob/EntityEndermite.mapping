@@ -1,0 +1,23 @@
+CLASS act net/minecraft/entity/mob/EntityEndermite
+	METHOD B_ update ()V
+	METHOD F getSoundAmbient ()Lqc;
+	METHOD J getLootTableId ()Lnd;
+	METHOD P canSpawn ()Z
+	METHOD a playStepSound (Let;Laou;)V
+		ARG 0 pos
+		ARG 1 block
+	METHOD a deserializeCustomData (Lfy;)V
+		ARG 0 tag
+	METHOD a registerTagUpgraders (Lrw;)V
+		ARG 0 handler
+	METHOD aF getHeightOffset ()D
+	METHOD b serializeCustomData (Lfy;)V
+		ARG 0 tag
+	METHOD bM initAttributes ()V
+	METHOD by getEyeHeight ()F
+	METHOD cf getSoundDeath ()Lqc;
+	METHOD cn getEntityAttribute ()Lvs;
+	METHOD d getSoundHurt (Lup;)Lqc;
+	METHOD h setYaw (F)V
+	METHOD n updateMovement ()V
+	METHOD r initAi ()V

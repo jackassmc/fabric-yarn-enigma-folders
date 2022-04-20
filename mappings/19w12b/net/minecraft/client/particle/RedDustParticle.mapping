@@ -1,0 +1,2 @@
+CLASS dgz net/minecraft/client/particle/RedDustParticle
+	CLASS dgz$a Factory

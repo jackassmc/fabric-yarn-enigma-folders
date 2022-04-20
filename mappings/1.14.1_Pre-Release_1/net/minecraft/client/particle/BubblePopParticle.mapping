@@ -1,0 +1,2 @@
+CLASS dia net/minecraft/client/particle/BubblePopParticle
+	CLASS dia$a Factory

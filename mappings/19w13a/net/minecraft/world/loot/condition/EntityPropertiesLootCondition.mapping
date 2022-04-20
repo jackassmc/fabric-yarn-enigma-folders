@@ -1,0 +1,4 @@
+CLASS cql net/minecraft/world/loot/condition/EntityPropertiesLootCondition
+	CLASS cql$a Factory
+	FIELD a predicate Lav;
+	FIELD b entity Lcnw$c;

@@ -1,0 +1,4 @@
+CLASS cvg net/minecraft/client/gui/container/AbstractFurnaceScreen
+	FIELD y recipeBook Lcwx;
+	FIELD z RECIPE_BUTTON_TEXTURE Lqd;
+	METHOD i getBackgroundTexture ()Lqd;

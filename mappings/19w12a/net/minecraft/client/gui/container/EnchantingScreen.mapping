@@ -1,0 +1,9 @@
+CLASS czt net/minecraft/client/gui/container/EnchantingScreen
+	FIELD m nextPageAngle F
+	FIELD n pageAngle F
+	FIELD q nextPageTurningSpeed F
+	FIELD r pageTurningSpeed F
+	FIELD s TEXTURE Lqq;
+	FIELD t BOOK_TEXURE Lqq;
+	FIELD u bookModel Ldcx;
+	FIELD v random Ljava/util/Random;

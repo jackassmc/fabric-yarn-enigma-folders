@@ -1,0 +1,3 @@
+CLASS wl net/minecraft/server/config/WhitelistEntry
+	METHOD a serialize (Lcom/google/gson/JsonObject;)V
+		ARG 1 json

@@ -1,0 +1,2 @@
+CLASS dil net/minecraft/client/particle/CurrentDownParticle
+	CLASS dil$a Factory

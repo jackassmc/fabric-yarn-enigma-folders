@@ -1,0 +1,3 @@
+CLASS diy net/minecraft/client/render/entity/EntityRendererPlayer
+	METHOD a getTexture (Lafy;)Lpw;
+	METHOD a getTexture (Lczj;)Lpw;

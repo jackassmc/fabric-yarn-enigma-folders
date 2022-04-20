@@ -1,0 +1,6 @@
+CLASS blt net/minecraft/block/ComparatorBlock
+	METHOD <init> (Lbkz$c;)V
+		ARG 1 settings
+	METHOD a getAttachedItemFrame (Lbfy;Lez;Leu;)Larv;
+		ARG 1 world
+		ARG 2 facing

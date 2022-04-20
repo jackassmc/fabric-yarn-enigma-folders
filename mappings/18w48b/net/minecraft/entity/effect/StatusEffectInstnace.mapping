@@ -1,0 +1,38 @@
+CLASS agb net/minecraft/entity/effect/StatusEffectInstnace
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD b type Laga;
+	FIELD c duration I
+	FIELD d amplifier I
+	FIELD e splash Z
+	FIELD f ambient Z
+	FIELD g permanent Z
+	FIELD h showParticles Z
+	FIELD i showIcon Z
+	METHOD <init> (Laga;I)V
+		ARG 1 type
+	METHOD <init> (Laga;II)V
+		ARG 1 type
+		ARG 2 duration
+	METHOD <init> (Laga;IIZZZ)V
+		ARG 1 type
+		ARG 2 duration
+		ARG 3 amplifier
+		ARG 4 ambient
+		ARG 5 showParticles
+	METHOD a getEffectType ()Laga;
+	METHOD a upgrade (Lagb;)Z
+	METHOD a update (Lagr;)Z
+	METHOD a serialize (Lhp;)Lhp;
+	METHOD b getDuration ()I
+	METHOD b compareTo (Lagb;)I
+	METHOD b applyUpdateEffect (Lagr;)V
+	METHOD b deserialize (Lhp;)Lagb;
+		ARG 0 tag
+	METHOD b setPermanent (Z)V
+	METHOD c getAmplifier ()I
+	METHOD d isAmbient ()Z
+	METHOD e shouldShowParticles ()Z
+	METHOD f shouldShowIcon ()Z
+	METHOD g getTranslationKey ()Ljava/lang/String;
+	METHOD h isPermanent ()Z
+	METHOD i updateDuration ()I

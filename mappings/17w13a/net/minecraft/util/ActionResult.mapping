@@ -1,0 +1,4 @@
+CLASS rd net/minecraft/util/ActionResult
+	FIELD a SUCCESS Lrd;
+	FIELD b PASS Lrd;
+	FIELD c FAILURE Lrd;

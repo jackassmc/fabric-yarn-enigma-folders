@@ -1,0 +1,23 @@
+CLASS bnt net/minecraft/sortme/ServerEntryNetworkPart
+	CLASS bnt$1
+		METHOD a onConnectionLost (Lfb;)V
+			ARG 0 reason
+		METHOD a onQueryPong (Lkd;)V
+			ARG 0 packet
+		METHOD a onQueryResponse (Lke;)V
+			ARG 0 packet
+	CLASS bnt$2
+		CLASS bnt$2$1
+			METHOD channelActive channelActive (Lio/netty/channel/ChannelHandlerContext;)V
+			METHOD exceptionCaught exceptionCaught (Lio/netty/channel/ChannelHandlerContext;Ljava/lang/Throwable;)V
+		METHOD initChannel initChannel (Lio/netty/channel/Channel;)V
+			ARG 0 channel
+	FIELD a ZERO_SPLITTER Lcom/google/common/base/Splitter;
+	FIELD b LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD c clientConnections Ljava/util/List;
+	METHOD a refresh (Lbnr;)V
+		ARG 0 serverEntry
+	METHOD b ping (Lbnr;)V
+		ARG 0 serverEntry
+	METHOD c getLogger ()Lorg/apache/logging/log4j/Logger;
+	METHOD d getZeroSplitter ()Lcom/google/common/base/Splitter;

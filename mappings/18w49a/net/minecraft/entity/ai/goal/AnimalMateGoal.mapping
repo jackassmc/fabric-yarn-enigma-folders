@@ -1,0 +1,13 @@
+CLASS aid net/minecraft/entity/ai/goal/AnimalMateGoal
+	FIELD a owner Lalp;
+	FIELD b world Lbas;
+	FIELD c mate Lalp;
+	FIELD e timer I
+	FIELD f chance D
+	METHOD <init> (Lalp;D)V
+		ARG 1 owner
+	METHOD a canStart ()Z
+	METHOD b shouldContinue ()Z
+	METHOD d onRemove ()V
+	METHOD e tick ()V
+	METHOD i findMate ()Lalp;

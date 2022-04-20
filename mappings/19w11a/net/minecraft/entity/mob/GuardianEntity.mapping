@@ -1,0 +1,37 @@
+CLASS asw net/minecraft/entity/mob/GuardianEntity
+	CLASS asw$a net/minecraft/entity/mob/GuardianEntity$FireBeamGoal
+		FIELD a owner Lasw;
+		FIELD b beamTicks I
+		FIELD c elderOwner Z
+		METHOD <init> (Lasw;)V
+			ARG 1 owner
+	CLASS asw$b net/minecraft/entity/mob/GuardianEntity$GuardianTargetPredicate
+		FIELD a owner Lasw;
+		METHOD <init> (Lasw;)V
+			ARG 1 owner
+	CLASS asw$c net/minecraft/entity/mob/GuardianEntity$GuardianMoveControl
+		FIELD i guardian Lasw;
+	FIELD bA spikesExtensionRate F
+	FIELD bB tailAngle F
+	FIELD bC prevTailAngle F
+	FIELD bE BEAM_TARGET_ID Lqe;
+	FIELD bF cachedBeamTarget Laif;
+	FIELD bG beamTicks I
+	FIELD bH flopping Z
+	FIELD b SPIKES_RETRACTED Lqe;
+	FIELD c spikesExtension F
+	FIELD d prevSpikesExtension F
+	METHOD a setBeamTarget (I)V
+		ARG 1 progress
+	METHOD dQ areSpikesRetracted ()Z
+	METHOD dR hasBeamTarget ()Z
+	METHOD dS getBeamTarget ()Laif;
+	METHOD l getWarmupTime ()I
+	METHOD q setSpikesRetracted (Z)V
+		ARG 1 retracted
+	METHOD v getSpikesExtension (F)F
+		ARG 1 tickDelta
+	METHOD w getTailAngle (F)F
+		ARG 1 tickDelta
+	METHOD x getBeamProgress (F)F
+		ARG 1 tickDelta

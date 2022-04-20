@@ -1,0 +1,154 @@
+CLASS vn net/minecraft/entity/EntityLiving
+	FIELD aB deathCounter I
+	FIELD a LOGGER_LIVING Lorg/apache/logging/log4j/Logger;
+	FIELD aP headPitch F
+	FIELD aQ prevHeadPitch F
+	FIELD aT playerHitTimer I
+	FIELD aU dead Z
+	FIELD at LIVING_FLAGS Lmx;
+	FIELD av preferredHand Ltz;
+	FIELD ax stuckArrowTimer I
+	FIELD ay hurtTime I
+	FIELD bE absorptionAmount F
+	FIELD b ATTR_SPRINTING_SPEED_BOOST_ID Ljava/util/UUID;
+	FIELD br STUCK_ARROWS Lmx;
+	FIELD bs attributeContainer Lwe;
+	FIELD bt damageTracker Luo;
+	FIELD bu activePotionEffects Ljava/util/Map;
+	FIELD by attacker Lvn;
+	FIELD bz lastAttackedTime I
+	FIELD c ATTR_SPRINTING_SPEED_BOOST Lwc;
+	FIELD f HEALTH Lmx;
+	FIELD g POTION_SWIRLS_COLOR Lmx;
+	FIELD h POTION_SWIRLS_AMBIENT Lmx;
+	METHOD B_ update ()V
+	METHOD C pushAway (Lve;)V
+		ARG 0 entity
+	METHOD D canSee (Lve;)Z
+		ARG 0 other
+	METHOD G updatePotionVisibility ()V
+	METHOD Y updateLogic ()V
+	METHOD a setPositionAndRotations (DDDFFIZ)V
+		ARG 0 x
+		ARG 1 y
+		ARG 2 z
+		ARG 3 yaw
+		ARG 4 pitch
+	METHOD a deserializeCustomData (Lfy;)V
+		ARG 0 tag
+	METHOD a containsOnlyAmbientEffects (Ljava/util/Collection;)Z
+		ARG 0 effects
+	METHOD a onTrackedDataSet (Lmx;)V
+		ARG 0 data
+	METHOD a swingHand (Ltz;)V
+		ARG 0 hand
+	METHOD a setStackInHand (Ltz;Lain;)V
+		ARG 0 hand
+		ARG 1 stack
+	METHOD a onDeath (Lup;)V
+		ARG 0 damageSource
+	METHOD a damage (Lup;F)Z
+		ARG 0 source
+		ARG 1 damage
+	METHOD a hasPotionEffect (Lux;)Z
+		ARG 0 type
+	METHOD a isEquippedStackValid (Lvj;)Z
+		ARG 0 slot
+	METHOD a setEquippedStack (Lvj;Lain;)V
+		ARG 0 slot
+		ARG 1 stack
+	METHOD a setAttacker (Lvn;)V
+		ARG 0 value
+	METHOD a getAttributeInstance (Lwa;)Lwb;
+		ARG 0 attribute
+	METHOD a dropEquipment (ZI)V
+		ARG 0 recentlyHitByPlayer
+		ARG 1 looting
+	METHOD a dropLoot (ZILup;)V
+		ARG 0 recentlyHitByPlayer
+		ARG 1 looting
+		ARG 2 damageSource
+	METHOD aC isValid ()Z
+	METHOD aP getItemsArmor ()Ljava/lang/Iterable;
+	METHOD a_ onEquipStack (Lain;)V
+		ARG 0 stack
+	METHOD ac kill ()V
+	METHOD ay doesCollide ()Z
+	METHOD b heal (F)V
+		ARG 0 amount
+	METHOD b onBreakItem (Lain;)V
+		ARG 0 stack
+	METHOD b serializeCustomData (Lfy;)V
+		ARG 0 tag
+	METHOD b getStackInHand (Ltz;)Lain;
+		ARG 0 hand
+	METHOD b getPotionEffect (Lux;)Luy;
+		ARG 0 type
+	METHOD b getEquippedStack (Lvj;)Lain;
+		ARG 0 slot
+	METHOD b dropDefaultLoot (ZI)V
+		ARG 0 recentlyHitByPlayer
+		ARG 1 looting
+	METHOD bM initAttributes ()V
+	METHOD bO updatePostDeath ()V
+	METHOD bP canDropLootAndXp ()Z
+	METHOD bR getRand ()Ljava/util/Random;
+	METHOD bS getAttacker ()Lvn;
+	METHOD bT getLastAttackedTime ()I
+	METHOD bY clearPotionSwirls ()V
+	METHOD bZ clearPotionEffects ()V
+	METHOD bc getHeadPitch ()F
+	METHOD bs shouldRenderName ()Z
+	METHOD c setHealth (F)V
+		ARG 0 value
+	METHOD c setCurrentHand (Ltz;)V
+	METHOD c removePotionEffect (Lux;)Luy;
+		ARG 0 effect
+	METHOD c addPotionEffect (Luy;)V
+		ARG 0 effect
+	METHOD cB doPushLogic ()V
+	METHOD cD getAbsorptionAmount ()F
+	METHOD cF getMainHand ()Lvm;
+	METHOD cP isFallFlying ()Z
+	METHOD ca getPotionEffects ()Ljava/util/Collection;
+	METHOD cc isUndead ()Z
+	METHOD cd getHealth ()F
+	METHOD cf getSoundDeath ()Lqc;
+	METHOD ch getDamageTracker ()Luo;
+	METHOD cj getHealthMaximum ()F
+	METHOD ck getStuckArrows ()I
+	METHOD cm getAttributeContainer ()Lwe;
+	METHOD cn getEntityAttribute ()Lvs;
+	METHOD co getMainHandStack ()Lain;
+	METHOD cp getOffHandStack ()Lain;
+	METHOD cq getSoundVolume ()F
+	METHOD cr getSoundPitch ()F
+	METHOD cz isSleeping ()Z
+	METHOD d getSoundHurt (Lup;)Lqc;
+	METHOD d damage (Lup;F)V
+		ARG 0 damageSource
+		ARG 1 damage
+	METHOD d isPotionEffective (Luy;)Z
+		ARG 0 effect
+	METHOD e getForwardVector (F)Lbhc;
+		ARG 0 lerpTime
+	METHOD e handleFallDamage (FF)V
+		ARG 0 fallDistance
+	METHOD e getSoundFall (I)Lqc;
+		ARG 0 height
+	METHOD f setStuckArrows (I)V
+		ARG 0 value
+	METHOD f setSprinting (Z)V
+		ARG 0 value
+	METHOD g setHeadPitch (F)V
+		ARG 0 value
+	METHOD h setYaw (F)V
+	METHOD i initDataTracker ()V
+	METHOD l doJump (Z)V
+	METHOD l_ isChild ()Z
+	METHOD m setAbsorptionAmount (F)V
+		ARG 0 value
+	METHOD m_ canClimb ()Z
+	METHOD n updateMovement ()V
+	METHOD o stopRiding ()V
+	METHOD r initAi ()V

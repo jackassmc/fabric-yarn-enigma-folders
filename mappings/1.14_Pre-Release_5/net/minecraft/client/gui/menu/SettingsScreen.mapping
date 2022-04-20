@@ -1,0 +1,18 @@
+CLASS czk net/minecraft/client/gui/menu/SettingsScreen
+	FIELD a OPTIONS [Lcvl;
+	FIELD b parent Lczr;
+	FIELD c settings Lcvm;
+	FIELD d difficultyButton Lcwo;
+	FIELD e lockDifficultyButton Lcwx;
+	FIELD f difficulty Lagx;
+	METHOD <init> (Lczr;Lcvm;)V
+		ARG 1 parent
+		ARG 2 gameOptions
+	METHOD a getDifficultyButtonText (Lagx;)Ljava/lang/String;
+		ARG 1 difficulty
+	METHOD a tmp (Z)V
+		ARG 1 difficultyLocked
+	METHOD render (IIF)V
+		ARG 1 mouseX
+		ARG 2 mouseY
+		ARG 3 delta

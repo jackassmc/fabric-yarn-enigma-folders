@@ -1,0 +1,22 @@
+CLASS lq net/minecraft/client/network/packet/LookAtClientPacket
+	FIELD a targetX D
+	FIELD b targetY D
+	FIELD c targetZ D
+	FIELD d entityId I
+	FIELD e selfAnchor Lch$a;
+	FIELD f targetAnchor Lch$a;
+	FIELD g lookAtEntity Z
+	METHOD <init> (Lch$a;Lahc;Lch$a;)V
+		ARG 1 selfAnchor
+		ARG 2 entity
+		ARG 3 targetAnchor
+	METHOD a getTargetPosition (Lbci;)Lcmx;
+		ARG 1 world
+	METHOD a read (Lir;)V
+		ARG 1 buf
+	METHOD a apply (Liu;)V
+		ARG 1 listener
+	METHOD a apply (Ljs;)V
+	METHOD b getSelfAnchor ()Lch$a;
+	METHOD b write (Lir;)V
+		ARG 1 buf

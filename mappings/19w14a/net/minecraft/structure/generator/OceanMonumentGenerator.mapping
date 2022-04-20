@@ -1,0 +1,5 @@
+CLASS chn net/minecraft/structure/generator/OceanMonumentGenerator
+	CLASS chn$p Entry
+	CLASS chn$q Penthouse
+	CLASS chn$s SimpleRoom
+	CLASS chn$t SimpleRoomTop

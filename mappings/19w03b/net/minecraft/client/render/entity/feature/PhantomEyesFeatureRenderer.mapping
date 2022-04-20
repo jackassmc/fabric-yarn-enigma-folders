@@ -1,0 +1,4 @@
+CLASS dno net/minecraft/client/render/entity/feature/PhantomEyesFeatureRenderer
+	METHOD <init> (Ldlm;)V
+		ARG 1 context
+	METHOD a render (Lahc;FFFFFFF)V

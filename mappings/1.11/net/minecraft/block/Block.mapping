@@ -1,0 +1,374 @@
+CLASS als net/minecraft/block/Block
+	CLASS als$a EnumOffsetType
+		FIELD a NONE Lals$a;
+		FIELD b XZ Lals$a;
+		FIELD c XYZ Lals$a;
+	FIELD A stateFactory Latk;
+	FIELD a AIR_ID Lkq;
+	FIELD b creativeTab Laei;
+	FIELD c defaultState Latj;
+	FIELD d translationKey Ljava/lang/String;
+	FIELD h REGISTRY Lct;
+	FIELD i BLOCKSTATE_ID_LIST Lcy;
+	FIELD j FULL_BLOCK_BOX Lbdr;
+	FIELD k NULL_BOX Lbdr;
+	FIELD m lightOpacityLevel I
+	FIELD n allowsLightTransmission Z
+	FIELD o lightEmissionLevel I
+	FIELD q hardness F
+	FIELD r explosionResistance F
+	FIELD s miningStats Z
+	FIELD t tickRandomly Z
+	FIELD u hasBlockEntity Z
+	FIELD v soundGroup Laqs;
+	FIELD x material Lazq;
+	FIELD y mapColor Lazr;
+	FIELD z friction F
+	METHOD <init> (Lazq;)V
+		ARG 0 material
+	METHOD <init> (Lazq;Lazr;)V
+		ARG 0 material
+		ARG 1 color
+	METHOD a getTranslationKey ()Ljava/lang/String;
+	METHOD a setLightEmission (F)Lals;
+		ARG 0 emission
+	METHOD a deserializeState (I)Latj;
+		ARG 0 meta
+	METHOD a register (ILjava/lang/String;Lals;)V
+		ARG 0 id
+		ARG 1 identifier
+		ARG 2 block
+	METHOD a getDropAmount (ILjava/util/Random;)I
+		ARG 0 fortune
+		ARG 1 random
+	METHOD a register (ILkq;Lals;)V
+		ARG 0 id
+		ARG 1 identifier
+		ARG 2 block
+	METHOD a setCreativeTab (Laei;)Lals;
+		ARG 0 creativeTab
+	METHOD a getBlockFromItem (Lafg;)Lals;
+		ARG 0 item
+	METHOD a addStacksForDisplay (Lafg;Laei;Ldd;)V
+		ARG 0 item
+		ARG 1 tab
+		ARG 2 list
+	METHOD a shouldDropItemsOnExplosion (Lajl;)Z
+		ARG 0 explosion
+	METHOD a (Lajq;)I
+		ARG 0 world
+	METHOD a afterBreak (Lajq;Laax;Lco;Latj;Lasa;Lafi;)V
+		ARG 0 world
+		ARG 1 player
+		ARG 2 pos
+		ARG 3 state
+		ARG 4 blockEntity
+		ARG 5 stack
+	METHOD a canPlaceAt (Lajq;Lco;)Z
+		ARG 0 world
+		ARG 1 pos
+	METHOD a (Lajq;Lco;Laax;)V
+		ARG 0 world
+		ARG 1 pos
+		ARG 2 player
+	METHOD a dropStack (Lajq;Lco;Lafi;)V
+		ARG 0 world
+		ARG 1 pos
+		ARG 2 stack
+	METHOD a onDestroyedByExplosion (Lajq;Lco;Lajl;)V
+		ARG 0 world
+		ARG 1 pos
+		ARG 2 explosion
+	METHOD a getPickStack (Lajq;Lco;Latj;)Lafi;
+		ARG 0 world
+		ARG 1 pos
+		ARG 2 state
+	METHOD a dropItems (Lajq;Lco;Latj;FI)V
+		ARG 0 world
+		ARG 1 pos
+		ARG 2 state
+		ARG 3 dropChance
+		ARG 4 fortune
+	METHOD a (Lajq;Lco;Latj;Laax;)V
+		ARG 0 world
+		ARG 1 pos
+		ARG 2 state
+		ARG 3 player
+	METHOD a activate (Lajq;Lco;Latj;Laax;Lrh;Lcv;FFF)Z
+		ARG 0 world
+		ARG 1 pos
+		ARG 2 state
+		ARG 3 player
+		ARG 4 hand
+		ARG 5 facing
+		ARG 6 hitX
+		ARG 7 hitY
+		ARG 8 hitZ
+	METHOD a (Lajq;Lco;Latj;Ljava/util/Random;)V
+		ARG 0 world
+		ARG 1 pos
+		ARG 2 state
+		ARG 3 random
+	METHOD a (Lajq;Lco;Latj;Lsm;)V
+		ARG 0 world
+		ARG 1 pos
+		ARG 2 state
+		ARG 3 entity
+	METHOD a onPlaced (Lajq;Lco;Latj;Lsv;Lafi;)V
+		ARG 0 world
+		ARG 1 pos
+		ARG 2 state
+		ARG 3 placer
+		ARG 4 stack
+	METHOD a getStateForPlacement (Lajq;Lco;Lcv;FFFILsv;)Latj;
+		ARG 0 world
+		ARG 1 pos
+		ARG 2 facing
+		ARG 3 hitX
+		ARG 4 hitY
+		ARG 5 hitZ
+		ARG 6 metadata
+		ARG 7 player
+	METHOD a (Lajq;Lco;Lsm;)V
+		ARG 0 world
+		ARG 1 pos
+		ARG 2 entity
+	METHOD a onLandedUpon (Lajq;Lco;Lsm;F)V
+		ARG 0 world
+		ARG 1 pos
+		ARG 2 entity
+		ARG 3 fallDistance
+	METHOD a (Lajq;Lco;Lsm;Lbdu;)Lbdu;
+		ARG 0 world
+		ARG 1 pos
+		ARG 2 entity
+	METHOD a (Lajq;Lsm;)V
+		ARG 0 world
+		ARG 1 entity
+	METHOD a isAir (Laju;Lco;)Z
+		ARG 0 view
+		ARG 1 pos
+	METHOD a (Laju;Lco;Lcv;)Z
+		ARG 0 view
+		ARG 1 pos
+		ARG 2 facing
+	METHOD a getRawIdFromBlock (Lals;)I
+		ARG 0 block
+	METHOD a areEqual (Lals;Lals;)Z
+		ARG 0 a
+		ARG 1 b
+	METHOD a setSoundGroup (Laqs;)Lals;
+		ARG 0 value
+	METHOD a getRenderType (Latj;)Laqd;
+		ARG 0 state
+	METHOD a calcBlockBreakingDelta (Latj;Laax;Lajq;Lco;)F
+		ARG 0 state
+		ARG 1 player
+		ARG 2 world
+		ARG 3 pos
+	METHOD a getHardness (Latj;Lajq;Lco;)F
+		ARG 0 state
+		ARG 1 world
+		ARG 2 pos
+	METHOD a (Latj;Lajq;Lco;II)Z
+		ARG 0 state
+		ARG 1 world
+		ARG 2 pos
+	METHOD a addBoundingBoxes (Latj;Lajq;Lco;Lbdr;Ljava/util/List;Lsm;)V
+		ARG 0 state
+		ARG 1 world
+		ARG 2 pos
+		ARG 3 mask
+		ARG 4 list
+		ARG 5 entity
+	METHOD a rayTrace (Latj;Lajq;Lco;Lbdu;Lbdu;)Lbds;
+		ARG 0 state
+		ARG 1 world
+		ARG 2 pos
+		ARG 3 begin
+		ARG 4 end
+	METHOD a (Latj;Lajq;Lco;Ljava/util/Random;)V
+		ARG 0 state
+		ARG 1 world
+		ARG 2 pos
+		ARG 3 random
+	METHOD a getCollisionBox (Latj;Laju;Lco;)Lbdr;
+		ARG 0 state
+		ARG 1 view
+		ARG 2 pos
+	METHOD a shouldRenderSide (Latj;Laju;Lco;Lcv;)Z
+		ARG 0 state
+		ARG 1 view
+		ARG 2 pos
+		ARG 3 facing
+	METHOD a applyMirror (Latj;Laos;)Latj;
+		ARG 0 state
+		ARG 1 mirror
+	METHOD a applyRotation (Latj;Laqg;)Latj;
+		ARG 0 state
+		ARG 1 rotation
+	METHOD a getDropItem (Latj;Ljava/util/Random;I)Lafg;
+		ARG 0 state
+		ARG 1 random
+		ARG 2 fortune
+	METHOD a allowsSpawning (Latj;Lsm;)Z
+		ARG 0 state
+		ARG 1 entity
+	METHOD a (Latj;Z)Z
+		ARG 0 state
+	METHOD a addCollisionBox (Lco;Lbdr;Ljava/util/List;Lbdr;)V
+		ARG 0 pos
+		ARG 1 mask
+		ARG 2 list
+		ARG 3 box
+	METHOD a rayTrace (Lco;Lbdu;Lbdu;Lbdr;)Lbds;
+		ARG 0 pos
+		ARG 1 begin
+		ARG 2 end
+		ARG 3 box
+	METHOD a getDropAmount (Ljava/util/Random;)I
+		ARG 0 random
+	METHOD a getExplosionResistance (Lsm;)F
+		ARG 0 entity
+	METHOD a setTickRandomly (Z)Lals;
+		ARG 0 tickRandomly
+	METHOD b createStateFactory ()Latk;
+	METHOD b setExplosionResistance (F)Lals;
+		ARG 0 value
+	METHOD b getBlockByRawId (I)Lals;
+		ARG 0 id
+	METHOD b dropExperience (Lajq;Lco;I)V
+		ARG 0 world
+		ARG 1 pos
+		ARG 2 amount
+	METHOD b (Lajq;Lco;Latj;)V
+		ARG 0 world
+		ARG 1 pos
+		ARG 2 state
+	METHOD b dropItems (Lajq;Lco;Latj;I)V
+		ARG 0 world
+		ARG 1 pos
+		ARG 2 state
+		ARG 3 fortune
+	METHOD b randomTick (Lajq;Lco;Latj;Ljava/util/Random;)V
+		ARG 0 world
+		ARG 1 pos
+		ARG 2 state
+		ARG 3 random
+	METHOD b (Lajq;Lco;Lcv;)Z
+		ARG 0 world
+		ARG 1 pos
+		ARG 2 facing
+	METHOD b (Laju;Lco;)Z
+		ARG 0 view
+		ARG 1 pos
+	METHOD b isEqual (Lals;)Z
+		ARG 0 block
+	METHOD b isFullBoundsCubeForCulling (Latj;)Z
+		ARG 0 state
+	METHOD b getBoundingBoxClient (Latj;Lajq;Lco;)Lbdr;
+		ARG 0 state
+		ARG 1 world
+		ARG 2 pos
+	METHOD b getBoundingBox (Latj;Laju;Lco;)Lbdr;
+		ARG 0 state
+		ARG 1 view
+		ARG 2 pos
+	METHOD b getWeakRedstonePower (Latj;Laju;Lco;Lcv;)I
+		ARG 0 state
+		ARG 1 view
+		ARG 2 pos
+		ARG 3 facingFrom
+	METHOD b getByBlockById (Ljava/lang/String;)Lals;
+		ARG 0 id
+	METHOD c getTranslatedName ()Ljava/lang/String;
+	METHOD c setHardness (F)Lals;
+		ARG 0 hardness
+	METHOD c getStateByRawId (I)Latj;
+		ARG 0 id
+	METHOD c (Lajq;Lco;Latj;)V
+		ARG 0 world
+		ARG 1 pos
+		ARG 2 state
+	METHOD c (Latj;)Z
+		ARG 0 state
+	METHOD c getComparatorOutput (Latj;Lajq;Lco;)I
+		ARG 0 state
+		ARG 1 world
+		ARG 2 pos
+	METHOD c getRenderingState (Latj;Laju;Lco;)Latj;
+		ARG 0 state
+		ARG 1 view
+		ARG 2 pos
+	METHOD c getStrongRedstonePower (Latj;Laju;Lco;Lcv;)I
+		ARG 0 state
+		ARG 1 view
+		ARG 2 pos
+		ARG 3 facingFrom
+	METHOD c setTranslationKey (Ljava/lang/String;)Lals;
+		ARG 0 value
+	METHOD d setLightOpacityLevel (I)Lals;
+		ARG 0 value
+	METHOD d (Lajq;Lco;Latj;)V
+		ARG 0 world
+		ARG 1 pos
+		ARG 2 state
+	METHOD d getDropItemDamage (Latj;)I
+		ARG 0 state
+	METHOD d getBlockBrightness (Latj;Laju;Lco;)I
+		ARG 0 state
+		ARG 1 view
+		ARG 2 pos
+	METHOD e serializeState (Latj;)I
+		ARG 0 state
+	METHOD e getOffsetPos (Latj;Laju;Lco;)Lbdu;
+		ARG 0 state
+		ARG 1 view
+		ARG 2 pos
+	METHOD f getRenderLayer ()Laji;
+	METHOD f getAmbientOcclusionLightLevel (Latj;)F
+		ARG 0 state
+	METHOD g emitsRedstonePower (Latj;)Z
+		ARG 0 state
+	METHOD h (Lajq;Lco;)V
+		ARG 0 world
+		ARG 1 pos
+	METHOD h getPistonBehavior (Latj;)Lazt;
+		ARG 0 state
+	METHOD j getRawIdFromBlockState (Latj;)I
+		ARG 0 state
+	METHOD k hasSolidTopSurface (Latj;)Z
+		ARG 0 state
+	METHOD l shouldTickRandomly ()Z
+	METHOD l isFullBoundsCube (Latj;)Z
+		ARG 0 state
+	METHOD m hasBlockEntity ()Z
+	METHOD m getLightOpacityLevel (Latj;)I
+		ARG 0 state
+	METHOD n allowsLightTransmission (Latj;)Z
+		ARG 0 state
+	METHOD o shouldDropSilkTouch ()Z
+	METHOD o getLightEmissionLevel (Latj;)I
+		ARG 0 state
+	METHOD p (Latj;)Z
+		ARG 0 state
+	METHOD q getCreativeTab ()Laei;
+	METHOD q getMaterial (Latj;)Lazq;
+		ARG 0 state
+	METHOD r getMapColor (Latj;)Lazr;
+		ARG 0 state
+	METHOD s getStateFactory ()Latk;
+	METHOD s isFullBoundsCubeForRendering (Latj;)Z
+		ARG 0 state
+	METHOD t getDefaultState ()Latj;
+	METHOD t isSimpleFullBlock (Latj;)Z
+		ARG 0 state
+	METHOD u getOffsetType ()Lals$a;
+	METHOD v getSoundGroup ()Laqs;
+	METHOD v hasComparatorOutput (Latj;)Z
+		ARG 0 state
+	METHOD w registerDefaults ()V
+	METHOD w getStackFromState (Latj;)Lafi;
+		ARG 0 state
+	METHOD y setDefaultState (Latj;)V
+		ARG 0 state

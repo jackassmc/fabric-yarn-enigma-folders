@@ -1,0 +1,2 @@
+CLASS avr net/minecraft/item/LeashItem
+	METHOD a useOnBlock (Laxb;)Lafa;

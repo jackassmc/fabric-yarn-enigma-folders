@@ -1,0 +1,5 @@
+CLASS bma net/minecraft/block/DeadCoralWallFanBlock
+	FIELD a FACING Lbwe;
+	FIELD c FACING_TO_SHAPE Ljava/util/Map;
+	METHOD <init> (Lbml$c;)V
+		ARG 1 settings

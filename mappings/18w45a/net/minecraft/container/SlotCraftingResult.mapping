@@ -1,0 +1,16 @@
+CLASS asm net/minecraft/container/SlotCraftingResult
+	FIELD a craftingInv Lart;
+	FIELD b player Lapv;
+	METHOD <init> (Lapv;Lart;Lael;III)V
+		ARG 1 player
+		ARG 2 craftingInv
+		ARG 3 inventory
+		ARG 4 invSlot
+		ARG 5 x
+	METHOD a takeStack (I)Lava;
+	METHOD a onTakeItem (Lapv;Lava;)Lava;
+		ARG 1 player
+	METHOD a canInsert (Lava;)Z
+	METHOD a onCrafted (Lava;I)V
+		ARG 1 stack
+	METHOD c onCrafted (Lava;)V

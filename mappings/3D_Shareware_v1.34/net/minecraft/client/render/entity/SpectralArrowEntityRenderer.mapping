@@ -1,0 +1,2 @@
+CLASS drc net/minecraft/client/render/entity/SpectralArrowEntityRenderer
+	FIELD a SKIN Lqr;

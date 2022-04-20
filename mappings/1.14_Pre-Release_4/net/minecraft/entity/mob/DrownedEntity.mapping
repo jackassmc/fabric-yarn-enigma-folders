@@ -1,0 +1,8 @@
+CLASS atw net/minecraft/entity/mob/DrownedEntity
+	CLASS atw$d DrownedMoveControl
+		FIELD i drowned Latw;
+	FIELD b waterNavigation Lapi;
+	FIELD bz targettingUnderwater Z
+	FIELD c landNavigation Lapf;
+	METHOD eg isTargettingUnderwater ()Z
+	METHOD r setTargettingUnderwater (Z)V

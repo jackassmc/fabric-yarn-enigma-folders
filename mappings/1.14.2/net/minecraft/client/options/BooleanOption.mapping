@@ -1,0 +1,19 @@
+CLASS cuy net/minecraft/client/options/BooleanOption
+	FIELD Q getter Ljava/util/function/Predicate;
+	FIELD R setter Ljava/util/function/BiConsumer;
+	METHOD <init> (Ljava/lang/String;Ljava/util/function/Predicate;Ljava/util/function/BiConsumer;)V
+		ARG 1 key
+		ARG 2 getter
+		ARG 3 setter
+	METHOD a set (Lcvo;)V
+		ARG 1 options
+	METHOD a set (Lcvo;Ljava/lang/String;)V
+		ARG 1 options
+		ARG 2 value
+	METHOD a set (Lcvo;Z)V
+		ARG 1 options
+		ARG 2 value
+	METHOD b get (Lcvo;)Z
+		ARG 1 options
+	METHOD c getDisplayString (Lcvo;)Ljava/lang/String;
+		ARG 1 options

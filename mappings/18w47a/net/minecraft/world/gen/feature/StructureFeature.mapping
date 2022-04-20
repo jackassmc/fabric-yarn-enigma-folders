@@ -1,0 +1,3 @@
+CLASS bxb net/minecraft/world/gen/feature/StructureFeature
+	METHOD a generate (Lban;Lbqc;Ljava/util/Random;Les;Lbuf;)Z
+	METHOD b getName ()Ljava/lang/String;

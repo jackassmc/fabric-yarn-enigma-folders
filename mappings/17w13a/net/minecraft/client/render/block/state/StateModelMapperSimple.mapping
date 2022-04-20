@@ -1,0 +1,3 @@
+CLASS bqt net/minecraft/client/render/block/state/StateModelMapperSimple
+	METHOD a getModelName (Lasm;)Lbzr;
+		ARG 0 state

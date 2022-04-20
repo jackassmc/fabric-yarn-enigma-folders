@@ -1,0 +1,8 @@
+CLASS dhb net/minecraft/client/network/ClientAdvancementManager
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD b client Lcux;
+	FIELD c manager Lr;
+	METHOD a getManager ()Lr;
+	METHOD a setGui (Ldhb$a;)V
+	METHOD a onAdvancements (Lnj;)V
+	METHOD a selectTab (Lq;Z)V

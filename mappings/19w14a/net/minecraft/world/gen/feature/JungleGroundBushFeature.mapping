@@ -1,0 +1,7 @@
+CLASS cbc net/minecraft/world/gen/feature/JungleGroundBushFeature
+	FIELD a leaves Lbuy;
+	FIELD aR log Lbuy;
+	METHOD <init> (Ljava/util/function/Function;Lbuy;Lbuy;)V
+		ARG 1 configFactory
+		ARG 2 log
+		ARG 3 leaves

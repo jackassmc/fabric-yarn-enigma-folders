@@ -1,0 +1,2 @@
+CLASS afu net/minecraft/util/profiler/DummyProfiler
+	FIELD a INSTANCE Lafu;

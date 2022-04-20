@@ -1,0 +1,15 @@
+CLASS ans net/minecraft/entity/ai/goal/EscapeDangerGoal
+	FIELD a mob Lajb;
+	FIELD b speed D
+	FIELD c targetX D
+	FIELD d targetY D
+	FIELD e targetZ D
+	METHOD <init> (Lajb;D)V
+		ARG 1 mob
+		ARG 2 speed
+	METHOD a locateClosestWater (Lbgx;Lail;II)Lev;
+		ARG 1 blockView
+		ARG 2 entity
+		ARG 3 rangeX
+		ARG 4 rangeY
+	METHOD g findTarget ()Z

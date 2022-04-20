@@ -1,0 +1,30 @@
+CLASS awx net/minecraft/recipe/BrewingRecipeRegistry
+	CLASS awx$a Recipe
+		FIELD a input Ljava/lang/Object;
+		FIELD b ingredient Laxi;
+		FIELD c output Ljava/lang/Object;
+	FIELD a POTION_RECIPES Ljava/util/List;
+	FIELD b ITEM_RECIPES Ljava/util/List;
+	FIELD c POTION_TYPES Ljava/util/List;
+	METHOD a registerDefaults ()V
+	METHOD a isValidIngredient (Lavf;)Z
+		ARG 0 stack
+	METHOD a hasRecipe (Lavf;Lavf;)Z
+		ARG 0 input
+		ARG 1 ingredient
+	METHOD a registerPotionRecipe (Laww;Lava;Laww;)V
+		ARG 0 input
+		ARG 2 output
+	METHOD b isItemRecipeIngredient (Lavf;)Z
+		ARG 0 stack
+	METHOD b hasItemRecipe (Lavf;Lavf;)Z
+		ARG 0 input
+		ARG 1 ingredien
+	METHOD c isPotionRecipeIngredient (Lavf;)Z
+		ARG 0 stack
+	METHOD c hasPotionRecipe (Lavf;Lavf;)Z
+		ARG 0 input
+		ARG 1 ingredient
+	METHOD d craft (Lavf;Lavf;)Lavf;
+		ARG 0 input
+		ARG 1 ingredient

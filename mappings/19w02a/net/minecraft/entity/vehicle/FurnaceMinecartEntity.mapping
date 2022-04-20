@@ -1,0 +1,16 @@
+CLASS asx net/minecraft/entity/vehicle/FurnaceMinecartEntity
+	FIELD b pushX D
+	FIELD c pushZ D
+	FIELD d LIT Lpt;
+	FIELD e fuel I
+	METHOD a dropItems (Lagm;)V
+	METHOD a readCustomDataFromTag (Lhs;)V
+	METHOD b interact (Lark;Lafy;)Z
+		ARG 1 player
+	METHOD b writeCustomDataToTag (Lhs;)V
+	METHOD e isLit ()Z
+	METHOD h update ()V
+	METHOD o getMinecartType ()Lasr$a;
+	METHOD o setLit (Z)V
+	METHOD q getDefaultContainedBlock ()Lbqe;
+	METHOD w_ initDataTracker ()V

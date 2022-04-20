@@ -1,0 +1,4 @@
+CLASS bqj net/minecraft/block/StandingSignBlock
+	FIELD c ROTATION Lbux;
+	METHOD <init> (Lbkz$c;)V
+		ARG 1 settings

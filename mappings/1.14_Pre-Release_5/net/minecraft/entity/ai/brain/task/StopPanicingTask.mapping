@@ -1,0 +1,3 @@
+CLASS ajs net/minecraft/entity/ai/brain/task/StopPanicingTask
+	METHOD a wasHurtByNearbyEntity (Laio;)Z
+		ARG 0 entity

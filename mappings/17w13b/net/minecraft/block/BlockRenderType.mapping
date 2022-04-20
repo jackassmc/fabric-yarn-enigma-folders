@@ -1,0 +1,4 @@
+CLASS arx net/minecraft/block/BlockRenderType
+	FIELD a NONE Larx;
+	FIELD b LIQUID Larx;
+	FIELD d MODEL Larx;

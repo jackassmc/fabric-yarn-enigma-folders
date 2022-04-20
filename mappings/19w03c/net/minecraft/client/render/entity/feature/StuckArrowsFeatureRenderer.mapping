@@ -1,0 +1,2 @@
+CLASS dmu net/minecraft/client/render/entity/feature/StuckArrowsFeatureRenderer
+	METHOD a render (Lahc;FFFFFFF)V

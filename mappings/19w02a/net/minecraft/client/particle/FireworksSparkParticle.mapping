@@ -1,0 +1,33 @@
+CLASS dda net/minecraft/client/particle/FireworksSparkParticle
+	CLASS dda$a
+		METHOD <init> (Lbcf;DDD)V
+			ARG 1 x
+			ARG 2 y
+		METHOD a buildGeometry (Lcpj;Lahd;FFFFFF)V
+			ARG 1 vertexBuffer
+			ARG 2 entity
+			ARG 3 delta
+	CLASS dda$b Factory
+		METHOD a createParticle (Lft;Lbcf;DDDDDD)Lddk;
+			ARG 1 parameters
+			ARG 2 world
+			ARG 3 x
+			ARG 5 y
+			ARG 7 z
+			ARG 9 velocityX
+			ARG 11 velocityY
+			ARG 13 velocityZ
+	CLASS dda$c
+		METHOD a update ()V
+		METHOD a buildGeometry (Lcpj;Lahd;FFFFFF)V
+			ARG 1 vertexBuffer
+			ARG 2 entity
+			ARG 3 delta
+		METHOD c hasAlpha ()Z
+	CLASS dda$d
+		METHOD a update ()V
+		METHOD a buildGeometry (Lcpj;Lahd;FFFFFF)V
+			ARG 1 vertexBuffer
+			ARG 2 entity
+			ARG 3 delta
+		METHOD b getParticleGroup ()I

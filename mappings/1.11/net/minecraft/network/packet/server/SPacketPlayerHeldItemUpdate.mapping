@@ -1,0 +1,13 @@
+CLASS jh net/minecraft/network/packet/server/SPacketPlayerHeldItemUpdate
+	FIELD a slot I
+	METHOD <init> (I)V
+		ARG 0 slot
+	METHOD a getSlot ()I
+	METHOD a readPacket (Let;)V
+		ARG 0 packet
+	METHOD a applyPacket (Lew;)V
+		ARG 0 handler
+	METHOD a applyPacket (Lim;)V
+		ARG 0 handler
+	METHOD b writePacket (Let;)V
+		ARG 0 packet

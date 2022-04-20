@@ -1,0 +1,34 @@
+CLASS none/abl net/minecraft/entity/vehicle/impl/EntityCommandBlockMinecart
+	CLASS none/abl$1
+		METHOD c getBlockPos ()Lnone/cn;
+		METHOD d getPos ()Lnone/bcu;
+		METHOD e getWorld ()Lnone/aiv;
+		METHOD f getEntity ()Lnone/sf;
+		METHOD z_ getServer ()Lnet/minecraft/server/MinecraftServer;
+	CLASS none/abl$2
+		METHOD a upgradeTag (Lnone/pe;Lnone/dt;I)Lnone/dt;
+			ARG 0 handler
+			ARG 1 tag
+			ARG 2 version
+	FIELD a COMMAND Lnone/kj;
+	FIELD b LAST_OUTPUT Lnone/kj;
+	FIELD c commandExecutor Lnone/aik;
+	METHOD a onActivatorRail (IIIZ)V
+		ARG 0 x
+		ARG 1 y
+		ARG 2 z
+		ARG 3 powered
+	METHOD a deserializeCustomData (Lnone/dt;)V
+		ARG 0 tag
+	METHOD a onTrackedDataSet (Lnone/kj;)V
+		ARG 0 data
+	METHOD b interact (Lnone/aal;Lnone/ra;)Z
+		ARG 0 player
+		ARG 1 hand
+	METHOD b serializeCustomData (Lnone/dt;)V
+		ARG 0 tag
+	METHOD b registerTagUpgraders (Lnone/pf;)V
+	METHOD i initDataTracker ()V
+	METHOD j getCommandExecutor ()Lnone/aik;
+	METHOD v getMinecartType ()Lnone/abj$a;
+	METHOD x getDefaultContainedBlock ()Lnone/asl;

@@ -1,0 +1,10 @@
+CLASS ddm net/minecraft/client/render/entity/EntityRendererArmorStand
+	CLASS ddm$1
+		METHOD am_ init ()V
+	FIELD a TEX Lpu;
+	METHOD <init> (Ldei;)V
+		ARG 1 renderManager
+	METHOD a getTexture (Lafv;)Lpu;
+		ARG 1 model
+	METHOD a getTexture (Lanh;)Lpu;
+		ARG 1 model

@@ -1,0 +1,6 @@
+CLASS ys net/minecraft/tag/BlockTags
+	FIELD aq container Lyy;
+	FIELD ar containerChanges I
+	METHOD a getContainer ()Lyy;
+	METHOD a register (Ljava/lang/String;)Lyx;
+	METHOD a setContainer (Lyy;)V

@@ -1,0 +1,3 @@
+CLASS dsp net/minecraft/client/render/entity/feature/HeldItemFeatureRenderer
+	METHOD <init> (Ldqp;)V
+		ARG 1 context

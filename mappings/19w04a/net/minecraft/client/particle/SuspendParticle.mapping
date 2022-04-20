@@ -1,0 +1,9 @@
+CLASS ddy net/minecraft/client/particle/SuspendParticle
+	CLASS ddy$a DolphinFactory
+	CLASS ddy$b HappyVillagerFactory
+	CLASS ddy$c MyceliumFactory
+	METHOD <init> (Lbcl;DDDDDD)V
+		ARG 1 world
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z

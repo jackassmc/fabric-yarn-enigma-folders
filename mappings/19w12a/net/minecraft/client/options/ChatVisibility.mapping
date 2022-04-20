@@ -1,0 +1,9 @@
+CLASS aut net/minecraft/client/options/ChatVisibility
+	FIELD a FULL Laut;
+	FIELD b COMMANDS Laut;
+	FIELD c HIDDEN Laut;
+	FIELD e id I
+	FIELD f key Ljava/lang/String;
+	METHOD a getId ()I
+	METHOD a byId (I)Laut;
+	METHOD b getTranslationKey ()Ljava/lang/String;

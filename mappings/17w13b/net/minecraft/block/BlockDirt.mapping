@@ -1,0 +1,34 @@
+CLASS aom net/minecraft/block/BlockDirt
+	CLASS aom$a Type
+		FIELD a DIRT Laom$a;
+		FIELD b COARSE_DIRT Laom$a;
+		FIELD c PODZOL Laom$a;
+		FIELD d VALUES [Laom$a;
+		FIELD e id I
+		FIELD h mapColor Lbbl;
+		METHOD a getId ()I
+		METHOD d getMapColor ()Lbbl;
+		METHOD m asString ()Ljava/lang/String;
+	FIELD a TYPE Lavs;
+	FIELD b SNOWY Lavq;
+	METHOD a deserializeState (I)Lave;
+		ARG 0 meta
+	METHOD a addStacksForDisplay (Lahd;Lagf;Lem;)V
+		ARG 0 item
+		ARG 1 tab
+		ARG 2 list
+	METHOD a getPickStack (Lali;Ldx;Lave;)Lahf;
+		ARG 0 world
+		ARG 1 pos
+		ARG 2 state
+	METHOD b createStateFactory ()Lavf;
+	METHOD c getRenderingState (Lave;Lalm;Ldx;)Lave;
+		ARG 0 state
+		ARG 1 view
+		ARG 2 pos
+	METHOD d getDropItemDamage (Lave;)I
+		ARG 0 state
+	METHOD e serializeState (Lave;)I
+		ARG 0 state
+	METHOD r getMapColor (Lave;)Lbbl;
+		ARG 0 state

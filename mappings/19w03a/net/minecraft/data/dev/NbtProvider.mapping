@@ -1,0 +1,5 @@
+CLASS hb net/minecraft/data/dev/NbtProvider
+	FIELD b LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD c root Lfy;
+	METHOD a getName ()Ljava/lang/String;
+	METHOD a run (Lga;)V

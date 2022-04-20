@@ -1,0 +1,9 @@
+CLASS bkj net/minecraft/world/biome/source/VanillaLayeredBiomeSourceConfig
+	FIELD a levelProperties Lcof;
+	FIELD b generatorSettings Lbyy;
+	METHOD a getLevelProperties ()Lcof;
+	METHOD a setGeneratorSettings (Lbyy;)Lbkj;
+		ARG 1 generatorSettings
+	METHOD a setLevelProperties (Lcof;)Lbkj;
+		ARG 1 properties
+	METHOD b getGeneratorSettings ()Lbyy;

@@ -1,0 +1,4 @@
+CLASS djb net/minecraft/client/render/entity/DeadmauEntityRenderer5
+	METHOD a shouldMergeTextures ()Z
+	METHOD a render (Lago;FFFFFFF)V
+	METHOD a render (Ldaq;FFFFFFF)V

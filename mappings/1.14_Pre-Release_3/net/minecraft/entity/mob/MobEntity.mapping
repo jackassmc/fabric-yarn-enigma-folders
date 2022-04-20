@@ -1,0 +1,140 @@
+CLASS ain net/minecraft/entity/mob/MobEntity
+	FIELD bA armorItems Lfj;
+	FIELD bB pickUpLoot Z
+	FIELD bC persistent Z
+	FIELD bD pathNodeTypeWeights Ljava/util/Map;
+	FIELD bE lootTable Lqs;
+	FIELD bF lootTableSeed J
+	FIELD bG holdingEntity Laid;
+	FIELD bH holdingEntityId I
+	FIELD bI leashTag Lib;
+	FIELD bJ walkTarget Lev;
+	FIELD bK walkTargetRange F
+	FIELD b MOB_FLAGS Lqh;
+	FIELD br moveControl Lalx;
+	FIELD bs jumpControl Lalv;
+	FIELD bt navigation Lape;
+	FIELD bu goalSelector Lamt;
+	FIELD bv targetSelector Lamt;
+	FIELD bw handDropChances [F
+	FIELD bx armorDropChances [F
+	FIELD by visibilityCache Lapq;
+	FIELD bz handItems Lfj;
+	FIELD c bodyControl Lalr;
+	FIELD d target Laim;
+	FIELD e ambientSoundChance I
+	FIELD f experiencePoints I
+	FIELD g lookControl Lalw;
+	METHOD <init> (Laih;Lbhd;)V
+		ARG 1 type
+	METHOD A getMinAmbientSoundDelay ()I
+	METHOD B playAmbientSound ()V
+	METHOD D playSpawnEffects ()V
+	METHOD G getAmbientSound ()Lyi;
+	METHOD H getLootTableId ()Lqs;
+	METHOD I cannotDespawn ()Z
+	METHOD J checkDespawn ()V
+	METHOD K sendAiDebugData ()V
+	METHOD L mobTick ()V
+	METHOD M getLookPitchSpeed ()I
+	METHOD a changeAngle (FFF)F
+		ARG 1 oldAngle
+		ARG 2 newAngle
+		ARG 3 maxChangeInAngle
+	METHOD a initEquipment (Lagw;)V
+	METHOD a lookAtEntity (Laid;FF)V
+		ARG 1 targetEntity
+		ARG 2 maxYawChange
+		ARG 3 maxPitchChange
+	METHOD a setEquipmentDropChance (Laii;F)V
+		ARG 1 slot
+	METHOD a getEquipmentForSlot (Laii;I)Lbbs;
+		ARG 0 equipmentSlot
+		ARG 1 equipmentLevel
+	METHOD a loot (Latl;)V
+		ARG 1 item
+	METHOD a canBeLeashedBy (Lavu;)Z
+		ARG 1 player
+	METHOD a interactMob (Lavu;Lagx;)Z
+		ARG 1 player
+		ARG 2 hand
+	METHOD a isHolding (Lbbs;)Z
+	METHOD a isBetterItemFor (Lbbx;Lbbx;Laii;)Z
+		ARG 1 current
+		ARG 2 previous
+		ARG 3 slot
+	METHOD a initialize (Lbhe;Lagw;Laip;Laiy;Lib;)Laiy;
+		ARG 3 difficulty
+	METHOD a canSpawn (Lbhe;Laip;)Z
+	METHOD a canSpawn (Lbhg;)Z
+		ARG 1 world
+	METHOD a getPathNodeTypeWeight (Lcmy;)F
+	METHOD a setPathNodeTypeWeight (Lcmy;F)V
+		ARG 1 type
+	METHOD a isInWalkTargetRange (Lev;)Z
+	METHOD a setWalkTarget (Lev;I)V
+	METHOD a detachLeash (ZZ)V
+		ARG 1 sendPacket
+	METHOD b updateEnchantments (Lagw;)V
+		ARG 1 difficulty
+	METHOD b attachLeash (Laid;Z)V
+		ARG 1 entity
+	METHOD b canEquipmentSlotContain (Laii;Lbbx;)Z
+		ARG 0 slot
+		ARG 1 item
+	METHOD b createNavigation (Lbhd;)Lape;
+		ARG 1 world
+	METHOD c canImmediatelyDespawn (D)Z
+		ARG 1 distanceSquared
+	METHOD c spawnsTooManyForEachTry (I)Z
+		ARG 1 count
+	METHOD d setHoldingEntityId (I)V
+		ARG 1 id
+	METHOD d getDropChance (Laii;)F
+	METHOD dA getLimitPerChunk ()I
+	METHOD dB canBeControlledByRider ()Z
+	METHOD dC setPersistent ()V
+	METHOD dD canPickUpLoot ()Z
+	METHOD dE isPersistent ()Z
+	METHOD dF isInWalkTargetRange ()Z
+	METHOD dG getWalkTarget ()Lev;
+	METHOD dH getWalkTargetRange ()F
+	METHOD dJ hasWalkTargetRange ()Z
+	METHOD dK updateLeash ()V
+	METHOD dL isLeashed ()Z
+	METHOD dM getHoldingEntity ()Laid;
+	METHOD dN isAiDisabled ()Z
+	METHOD dO isLeftHanded ()Z
+	METHOD dP isAttacking ()Z
+	METHOD dQ isInDaylight ()Z
+	METHOD dR deserializeLeashTag ()V
+	METHOD dz getLookYawSpeed ()I
+	METHOD e (FF)F
+		ARG 1 yaw
+	METHOD g setTarget (Laim;)V
+		ARG 1 target
+	METHOD g canPickupItem (Lbbx;)Z
+	METHOD h getPreferredEquipmentSlot (Lbbx;)Laii;
+		ARG 0 stack
+	METHOD l resetSoundDelay ()V
+	METHOD n initGoals ()V
+	METHOD n setCanPickUpLoot (Z)V
+	METHOD o createBodyControl ()Lalr;
+	METHOD o setAiDisabled (Z)V
+	METHOD p getLookControl ()Lalw;
+	METHOD p setLeftHanded (Z)V
+		ARG 1 leftHanded
+	METHOD q setAttacking (Z)V
+		ARG 1 attacking
+	METHOD r getMoveControl ()Lalx;
+	METHOD r setForwardSpeed (F)V
+		ARG 1 forwardSpeed
+	METHOD s getJumpControl ()Lalv;
+	METHOD s setUpwardSpeed (F)V
+		ARG 1 upwardSpeed
+	METHOD t setSidewaysSpeed (F)V
+		ARG 1 sidewaysMovement
+	METHOD u getNavigation ()Lape;
+	METHOD v getVisibilityCache ()Lapq;
+	METHOD w getTarget ()Laim;
+	METHOD z onEatingGrass ()V

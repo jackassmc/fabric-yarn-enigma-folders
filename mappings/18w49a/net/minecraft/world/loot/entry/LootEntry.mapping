@@ -1,0 +1,22 @@
+CLASS cij net/minecraft/world/loot/entry/LootEntry
+	CLASS cij$a Builder
+		FIELD a children Ljava/util/List;
+		METHOD a withChild (Lcij$a;)Lcia$a;
+		METHOD a withCondition (Lckd$a;)Lcij$a;
+		METHOD b build ()Lcij;
+		METHOD b withCondition (Lckd$a;)Ljava/lang/Object;
+		METHOD c getThis ()Ljava/lang/Object;
+		METHOD d getThisBuilder ()Lcij$a;
+		METHOD e getThis ()Lcij$a;
+		METHOD f getConditions ()[Lckd;
+	CLASS cij$b Serializer
+		FIELD a id Lpz;
+		FIELD b type Ljava/lang/Class;
+		METHOD a getIdentifier ()Lpz;
+		METHOD a toJson (Lcom/google/gson/JsonObject;Lcij;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD b getType ()Ljava/lang/Class;
+		METHOD b fromJson (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;[Lckd;)Lcij;
+	FIELD c conditionPredicate Ljava/util/function/Predicate;
+	FIELD e conditions [Lckd;
+	METHOD a test (Lchr;)Z
+	METHOD a check (Lchv;Ljava/util/function/Function;Ljava/util/Set;Lcjq;)V

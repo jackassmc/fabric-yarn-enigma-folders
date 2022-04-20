@@ -1,0 +1,10 @@
+CLASS aku net/minecraft/entity/ai/pathing/EntityMobNavigation
+	METHOD <init> (Lagu;Lbas;)V
+		ARG 1 entity
+	METHOD a createPathNodeNavigator ()Lcgi;
+	METHOD a findPathTo (Lagk;)Lcgg;
+	METHOD a setCanPathThroughDoors (Z)V
+	METHOD b isAtValidPosition ()Z
+	METHOD b findPathTo (Let;)Lcgg;
+	METHOD b setCanEnterOpenDoors (Z)V
+	METHOD g canEnterOpenDoors ()Z

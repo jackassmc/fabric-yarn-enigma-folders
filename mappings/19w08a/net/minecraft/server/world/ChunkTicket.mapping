@@ -1,0 +1,17 @@
+CLASS uz net/minecraft/server/world/ChunkTicket
+	FIELD a type Lva;
+	FIELD b level I
+	FIELD c argument Ljava/lang/Object;
+	FIELD d location J
+	METHOD <init> (Lva;ILjava/lang/Object;J)V
+		ARG 1 type
+		ARG 2 level
+		ARG 3 argument
+		ARG 4 location
+	METHOD a getType ()Lva;
+	METHOD a compareTo (Luz;)I
+		ARG 1 o
+	METHOD b getLevel ()I
+	METHOD c getLocation ()J
+	METHOD equals (Ljava/lang/Object;)Z
+		ARG 1 obj

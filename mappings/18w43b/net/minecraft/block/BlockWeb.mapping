@@ -1,0 +1,11 @@
+CLASS bjt net/minecraft/block/BlockWeb
+	METHOD <init> (Lbdx$c;)V
+		ARG 0 builder
+	METHOD a isFullBoundsCubeForConnection (Lblz;)Z
+		ARG 0 state
+	METHOD a onEntityCollision (Lblz;Laza;Leq;Lafh;)V
+		ARG 0 world
+		ARG 1 state
+		ARG 2 pos
+		ARG 3 entity
+	METHOD c getRenderLayer ()Layo;

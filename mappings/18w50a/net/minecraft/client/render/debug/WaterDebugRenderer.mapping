@@ -1,0 +1,7 @@
+CLASS dhq net/minecraft/client/render/debug/WaterDebugRenderer
+	FIELD a client Lcpk;
+	FIELD b player Larb;
+	FIELD c playerX D
+	FIELD d playerY D
+	FIELD e playerZ D
+	METHOD a render (FJ)V

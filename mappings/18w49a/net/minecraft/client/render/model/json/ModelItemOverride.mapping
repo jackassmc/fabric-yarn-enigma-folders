@@ -1,0 +1,9 @@
+CLASS ddt net/minecraft/client/render/model/json/ModelItemOverride
+	FIELD a modelId Lpz;
+	FIELD b minPropertyValues Ljava/util/Map;
+	METHOD <init> (Lpz;Ljava/util/Map;)V
+		ARG 1 modelId
+	METHOD a getModelId ()Lpz;
+	METHOD a matches (Lavu;Lbas;Lagt;)Z
+		ARG 1 stack
+		ARG 2 world

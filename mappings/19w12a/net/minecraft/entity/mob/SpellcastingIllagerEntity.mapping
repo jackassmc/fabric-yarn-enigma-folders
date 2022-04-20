@@ -1,0 +1,13 @@
+CLASS atv net/minecraft/entity/mob/SpellcastingIllagerEntity
+	CLASS atv$b LookAtTargetGoal
+	CLASS atv$c CastSpellGoal
+		FIELD b spellCooldown I
+		FIELD c startTime I
+		METHOD g getSpellTicks ()I
+		METHOD h startTimeDelay ()I
+		METHOD j castSpell ()V
+		METHOD k getSoundPrepare ()Lyg;
+		METHOD m getInitialCooldown ()I
+	FIELD b spellTicks I
+	METHOD <init> (Laic;Lbgf;)V
+		ARG 1 type

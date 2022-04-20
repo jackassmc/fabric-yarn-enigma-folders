@@ -1,0 +1,4 @@
+CLASS dmq net/minecraft/client/render/entity/feature/CatCollarFeatureRenderer
+	METHOD <init> (Ldlf;)V
+		ARG 1 context
+	METHOD a render (Lahd;FFFFFFF)V

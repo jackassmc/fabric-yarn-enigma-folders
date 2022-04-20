@@ -1,0 +1,9 @@
+CLASS cup net/minecraft/client/render/Tessellator
+	FIELD a buffer Lcum;
+	FIELD b renderer Lcun;
+	FIELD c INSTANCE Lcup;
+	METHOD <init> (I)V
+		ARG 1 bufferCapacity
+	METHOD a getInstance ()Lcup;
+	METHOD b draw ()V
+	METHOD c getBufferBuilder ()Lcum;

@@ -1,0 +1,2 @@
+CLASS dql net/minecraft/client/resource/DefaultClientResourcePack
+	FIELD d index Ldqj;

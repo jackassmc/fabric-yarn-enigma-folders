@@ -1,0 +1,10 @@
+CLASS cth net/minecraft/client/toast/TutorialToast
+	CLASS cth$a Type
+		FIELD f textureSlotX I
+		FIELD g textureSlotY I
+		METHOD a drawIcon (Lcrr;II)V
+	FIELD c type Lcth$a;
+	FIELD d title Ljava/lang/String;
+	FIELD e description Ljava/lang/String;
+	FIELD f visibility Lctf$a;
+	METHOD a hide ()V

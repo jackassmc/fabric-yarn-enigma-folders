@@ -1,0 +1,27 @@
+CLASS djm net/minecraft/client/render/entity/EnderDragonEntityRenderer
+	FIELD a CRYSTAL_BEAM Lqe;
+	FIELD j EXPLOSION_TEX Lqe;
+	FIELD k SKIN Lqe;
+	METHOD a getTexture (Lahd;)Lqe;
+	METHOD a render (Lahd;DDDFF)V
+	METHOD a render (Lahm;DDDFF)V
+		ARG 9 delta
+	METHOD a setupTransforms (Lahm;FFF)V
+		ARG 1 entity
+		ARG 2 pitch
+		ARG 3 yaw
+		ARG 4 delta
+	METHOD a render (Lahm;FFFFFF)V
+		ARG 1 entity
+		ARG 2 limbMoveAngle
+		ARG 3 limbMoveAmount
+		ARG 5 headYaw
+		ARG 6 headPitch
+	METHOD a render (Lahn;DDDFF)V
+	METHOD a getTexture (Lany;)Lqe;
+	METHOD a render (Lany;FFFFFF)V
+		ARG 1 entity
+		ARG 2 limbMoveAngle
+		ARG 3 limbMoveAmount
+		ARG 5 headYaw
+		ARG 6 headPitch

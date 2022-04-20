@@ -1,0 +1,7 @@
+CLASS dkj net/minecraft/client/render/entity/BipedEntityRenderer
+	FIELD a SKIN Lqc;
+	METHOD <init> (Ldjw;Lczt;F)V
+		ARG 1 renderManager
+		ARG 2 model
+	METHOD a getTexture (Lahc;)Lqc;
+	METHOD a getTexture (Lahm;)Lqc;

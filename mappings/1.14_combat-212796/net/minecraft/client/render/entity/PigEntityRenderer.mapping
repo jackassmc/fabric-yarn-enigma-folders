@@ -1,0 +1,2 @@
+CLASS dqx net/minecraft/client/render/entity/PigEntityRenderer
+	FIELD a SKIN Lqt;

@@ -1,0 +1,4 @@
+CLASS cdb net/minecraft/sortme/structures/processor/NopStructureProcessor
+	FIELD a INSTANCE Lcdb;
+	METHOD a getStructureProcessor ()Lcdl;
+	METHOD a process (Lbbt;Let;Lcdm$b;Lcdm$b;Lcdj;)Lcdm$b;

@@ -1,0 +1,32 @@
+CLASS aru net/minecraft/entity/vehicle/HopperMinecartEntity
+	FIELD d enabled Z
+	FIELD e transferCooldown I
+	FIELD f currentBlockPos Let;
+	METHOD B getDefaultBlockOffset ()I
+	METHOD D isEnabled ()Z
+	METHOD F getWorld ()Lbaq;
+	METHOD G getHopperX ()D
+	METHOD H getHopperY ()D
+	METHOD I getHopperZ ()D
+	METHOD J updateLogic ()Z
+	METHOD K isCoolingDown ()Z
+	METHOD U_ update ()V
+	METHOD W_ getInvSize ()I
+	METHOD a onActivatorRail (IIIZ)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD a dropItems (Lafr;)V
+	METHOD a createContainer (Laqi;Laqj;)Lasb;
+		ARG 1 playerInv
+	METHOD a readCustomDataFromTag (Lhp;)V
+		ARG 1 tag
+	METHOD b interact (Laqj;Lafb;)Z
+		ARG 1 player
+	METHOD b writeCustomDataToTag (Lhp;)V
+		ARG 1 tag
+	METHOD l getContainerId ()Ljava/lang/String;
+	METHOD m setTransferCooldown (I)V
+	METHOD o setEnabled (Z)V
+	METHOD v getMinecartType ()Larn$a;
+	METHOD z getDefaultContainedBlock ()Lboj;

@@ -1,0 +1,4 @@
+CLASS bpm net/minecraft/block/RedstoneTorchBlock
+	FIELD a LIT Lbuw;
+	METHOD <init> (Lblg$c;)V
+		ARG 1 settings

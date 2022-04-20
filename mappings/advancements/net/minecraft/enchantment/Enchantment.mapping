@@ -1,0 +1,31 @@
+CLASS ajy net/minecraft/enchantment/Enchantment
+	CLASS ajy$a Weight
+		FIELD a COMMON Lajy$a;
+		FIELD b UNCOMMON Lajy$a;
+		FIELD c RARE Lajy$a;
+		FIELD d LEGENDARY Lajy$a;
+		FIELD e weight I
+		METHOD a getWeight ()I
+	FIELD a slotTypes [Lug;
+	FIELD b REGISTRY Lel;
+	FIELD c type Lajz;
+	FIELD d translationName Ljava/lang/String;
+	FIELD e weight Lajy$a;
+	METHOD a getTranslationKey ()Ljava/lang/String;
+	METHOD a getProtectionAmount (ILtm;)I
+	METHOD a getAdditionalDamge (ILup;)F
+	METHOD a isAcceptableItem (Lahf;)Z
+	METHOD a isEqual (Lajy;)Z
+	METHOD a getEquipment (Luk;)Ljava/util/List;
+	METHOD a onTargetDamaged (Luk;Lub;I)V
+	METHOD b getHighestLevel ()I
+	METHOD b getRawIdFromEnchantment (Lajy;)I
+	METHOD b getEnchantmentById (Ljava/lang/String;)Lajy;
+	METHOD b onUserDamaged (Luk;Lub;I)V
+	METHOD c isLootOnly ()Z
+	METHOD c getEnchantmentByRawId (I)Lajy;
+	METHOD c setTranslationName (Ljava/lang/String;)Lajy;
+	METHOD d getTranslatedNameWithLevel (I)Ljava/lang/String;
+	METHOD e getWeight ()Lajy$a;
+	METHOD f getLowestLevel ()I
+	METHOD g registerDefaults ()V

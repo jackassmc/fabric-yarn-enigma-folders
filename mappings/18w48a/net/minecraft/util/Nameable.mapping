@@ -1,0 +1,4 @@
+CLASS afi net/minecraft/util/Nameable
+	METHOD Q getDisplayName ()Lja;
+	METHOD Q_ getName ()Lja;
+	METHOD R_ hasCustomName ()Z

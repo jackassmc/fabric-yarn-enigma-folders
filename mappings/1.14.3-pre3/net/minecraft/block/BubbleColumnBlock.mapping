@@ -1,0 +1,14 @@
+CLASS bmu net/minecraft/block/BubbleColumnBlock
+	FIELD a DRAG Lbwg;
+	METHOD <init> (Lbmq$c;)V
+		ARG 1 settings
+	METHOD a calculateDrag (Lbgw;Lev;)Z
+		ARG 0 world
+		ARG 1 pos
+	METHOD a isStillWater (Lbhn;Lev;)Z
+		ARG 0 world
+		ARG 1 pos
+	METHOD a update (Lbhn;Lev;Z)V
+		ARG 0 world
+		ARG 1 pos
+		ARG 2 drag

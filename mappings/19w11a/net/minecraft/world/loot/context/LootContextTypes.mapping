@@ -1,0 +1,13 @@
+CLASS coy net/minecraft/world/loot/context/LootContextTypes
+	FIELD a EMPTY Lcox;
+	FIELD b CHEST Lcox;
+	FIELD c FISHING Lcox;
+	FIELD d ENTITY Lcox;
+	FIELD e GIFT Lcox;
+	FIELD f ADVANCEMENT_REWARD Lcox;
+	FIELD g GENERIC Lcox;
+	FIELD h BLOCK Lcox;
+	FIELD i MAP Lcom/google/common/collect/BiMap;
+	METHOD a getId (Lcox;)Lqp;
+	METHOD a register (Ljava/lang/String;Ljava/util/function/Consumer;)Lcox;
+	METHOD a get (Lqp;)Lcox;

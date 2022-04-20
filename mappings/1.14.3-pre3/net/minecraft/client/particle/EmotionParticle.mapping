@@ -1,0 +1,7 @@
+CLASS diq net/minecraft/client/particle/EmotionParticle
+	CLASS diq$a AngryVillagerFactory
+	CLASS diq$b HeartFactory
+	METHOD <init> (Lbhm;DDD)V
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z

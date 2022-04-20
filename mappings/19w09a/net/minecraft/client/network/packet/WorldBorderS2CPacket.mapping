@@ -1,0 +1,20 @@
+CLASS mg net/minecraft/client/network/packet/WorldBorderS2CPacket
+	CLASS mg$a Type
+		FIELD a SET_SIZE Lmg$a;
+		FIELD b INTERPOLATE_SIZE Lmg$a;
+		FIELD c SET_CENTER Lmg$a;
+		FIELD d INITIALIZE Lmg$a;
+		FIELD e SET_WARNING_TIME Lmg$a;
+		FIELD f SET_WARNING_BLOCKS Lmg$a;
+	FIELD a type Lmg$a;
+	FIELD b portalTeleportPosLimit I
+	FIELD c centerX D
+	FIELD d centerZ D
+	FIELD e size D
+	FIELD f oldSize D
+	FIELD g interpolationDuration J
+	FIELD h warningTime I
+	FIELD i warningBlocks I
+	METHOD <init> (Lbsq;Lmg$a;)V
+		ARG 1 border
+	METHOD a apply (Lbsq;)V

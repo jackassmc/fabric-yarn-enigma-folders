@@ -1,0 +1,9 @@
+CLASS dib net/minecraft/client/resource/metadata/ResourceMetadataTexture
+	FIELD a READER Ldic;
+	FIELD b blur Z
+	FIELD c clamp Z
+	METHOD <init> (ZZ)V
+		ARG 0 blur
+		ARG 1 clamp
+	METHOD a shouldBlur ()Z
+	METHOD b shouldClamp ()Z

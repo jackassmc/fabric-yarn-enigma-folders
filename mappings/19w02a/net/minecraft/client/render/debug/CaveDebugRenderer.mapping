@@ -1,0 +1,2 @@
+CLASS dib net/minecraft/client/render/debug/CaveDebugRenderer
+	METHOD a render (FJ)V

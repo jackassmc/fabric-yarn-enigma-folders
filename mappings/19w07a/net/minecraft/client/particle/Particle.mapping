@@ -1,0 +1,61 @@
+CLASS deb net/minecraft/client/particle/Particle
+	FIELD A cameraY D
+	FIELD B cameraZ D
+	FIELD C cameraRotation Lcng;
+	FIELD D EMPTY_BOUNDING_BOX Lcnb;
+	FIELD E boundingBox Lcnb;
+	FIELD a world Lbdb;
+	FIELD b prevPosX D
+	FIELD c prevPosY D
+	FIELD d prevPosZ D
+	FIELD e posX D
+	FIELD f posY D
+	FIELD g posZ D
+	FIELD h velocityX D
+	FIELD i velocityY D
+	FIELD j velocityZ D
+	FIELD k onGround Z
+	FIELD l collidesWithWorld Z
+	FIELD m dead Z
+	FIELD n spacingXZ F
+	FIELD o spacingY F
+	FIELD p random Ljava/util/Random;
+	FIELD q age I
+	FIELD r maxAge I
+	FIELD s gravityStrength F
+	FIELD t colorRed F
+	FIELD u colorGreen F
+	FIELD v colorBlue F
+	FIELD w colorAlpha F
+	FIELD z cameraX D
+	METHOD <init> (Lbdb;DDDDDD)V
+		ARG 1 world
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z
+	METHOD a update ()V
+	METHOD a move (DDD)V
+		ARG 1 dx
+		ARG 3 dy
+		ARG 5 dz
+	METHOD a getColorMultiplier (F)I
+	METHOD a setBoundingBoxSpacing (FF)V
+		ARG 1 spacingXZ
+	METHOD a setColor (FFF)V
+		ARG 1 red
+		ARG 2 green
+	METHOD a setMaxAge (I)V
+	METHOD a setBoundingBox (Lcnb;)V
+	METHOD a buildGeometry (Lcpx;Lahl;FFFFFF)V
+		ARG 1 vertexBuffer
+		ARG 2 entity
+	METHOD b setPos (DDD)V
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+	METHOD f setColorAlpha (F)V
+	METHOD g getMaxAge ()I
+	METHOD h markDead ()V
+	METHOD i repositionFromBoundingBox ()V
+	METHOD j isAlive ()Z
+	METHOD k getBoundingBox ()Lcnb;

@@ -1,0 +1,9 @@
+CLASS aww net/minecraft/recipe/crafting/RecipeArmorDye
+	METHOD <init> (Lpw;)V
+		ARG 1 id
+	METHOD a getSerializer ()Laxi;
+	METHOD a fits (II)Z
+		ARG 1 width
+	METHOD a craft (Lael;)Lava;
+	METHOD a matches (Lael;Lazy;)Z
+		ARG 1 inv

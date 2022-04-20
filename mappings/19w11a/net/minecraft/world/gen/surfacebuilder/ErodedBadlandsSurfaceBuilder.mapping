@@ -1,0 +1,4 @@
+CLASS cia net/minecraft/world/gen/surfacebuilder/ErodedBadlandsSurfaceBuilder
+	FIELD S WHITE_TERRACOTTA Lbtx;
+	FIELD T ORANGE_TERRACOTTA Lbtx;
+	FIELD U TERACOTTA Lbtx;

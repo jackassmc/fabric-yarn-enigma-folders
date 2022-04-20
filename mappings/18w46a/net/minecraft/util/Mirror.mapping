@@ -1,0 +1,6 @@
+CLASS bip net/minecraft/util/Mirror
+	FIELD a NONE Lbip;
+	FIELD b LEFT_RIGHT Lbip;
+	FIELD c FRONT_BACK Lbip;
+	METHOD a getRotation (Lex;)Lbjp;
+	METHOD b apply (Lex;)Lex;

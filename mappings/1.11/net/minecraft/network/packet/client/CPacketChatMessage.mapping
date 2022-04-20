@@ -1,0 +1,19 @@
+CLASS gf net/minecraft/network/packet/client/CPacketChatMessage
+	FIELD a message Lfb;
+	FIELD b location B
+	METHOD <init> (Lfb;)V
+		ARG 0 message
+	METHOD <init> (Lfb;B)V
+		ARG 0 message
+		ARG 1 location
+	METHOD a getMessage ()Lfb;
+	METHOD a readPacket (Let;)V
+		ARG 0 packet
+	METHOD a applyPacket (Lew;)V
+		ARG 0 handler
+	METHOD a applyPacket (Lfp;)V
+		ARG 0 handler
+	METHOD b isNonChat ()Z
+	METHOD b writePacket (Let;)V
+		ARG 0 packet
+	METHOD c getLocation ()B

@@ -1,0 +1,2 @@
+CLASS djr net/minecraft/client/render/entity/ChickenEntityRenderer
+	FIELD a SKIN Lqd;

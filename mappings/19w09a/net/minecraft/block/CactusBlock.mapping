@@ -1,0 +1,3 @@
+CLASS bio net/minecraft/block/CactusBlock
+	METHOD <init> (Lbig$c;)V
+		ARG 1 settings

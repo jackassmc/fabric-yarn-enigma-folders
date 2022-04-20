@@ -1,0 +1,3 @@
+CLASS dwd net/minecraft/client/audio/AmbientSoundManager
+	FIELD a player Ldjd;
+	FIELD b soundManager Ldxb;

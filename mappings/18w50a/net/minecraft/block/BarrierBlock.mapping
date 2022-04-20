@@ -1,0 +1,16 @@
+CLASS bgf net/minecraft/block/BarrierBlock
+	METHOD <init> (Lbgs$c;)V
+		ARG 1 settings
+		ARG 2 stateBuilder
+	METHOD a_ isTranslucent (Lbpm;Lbbb;Let;)Z
+		ARG 1 state
+		ARG 2 view
+		ARG 3 pos
+	METHOD c getRenderType (Lbpm;)Lbky;
+		ARG 1 state
+	METHOD c getAmbientOcclusionLightLevel (Lbpm;Lbbb;Let;)F
+		ARG 1 state
+		ARG 2 view
+		ARG 3 pos
+	METHOD g isFullBoundsCubeForCulling (Lbpm;)Z
+		ARG 1 state

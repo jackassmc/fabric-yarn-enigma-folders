@@ -1,0 +1,11 @@
+CLASS cst net/minecraft/client/audio/SoundEngine
+	CLASS cst$a
+		FIELD b sources Ljava/util/Set;
+		METHOD b close ()V
+	CLASS cst$b RunMode
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD f listener Lcsu;
+	METHOD a init ()V
+	METHOD a release (Lcsr;)V
+	METHOD b close ()V
+	METHOD c getListener ()Lcsu;

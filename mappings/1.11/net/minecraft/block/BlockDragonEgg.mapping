@@ -1,0 +1,46 @@
+CLASS amx net/minecraft/block/BlockDragonEgg
+	FIELD a BOX Lbdr;
+	METHOD a (Lajq;)I
+		ARG 0 world
+	METHOD a (Lajq;Lco;Laax;)V
+		ARG 0 world
+		ARG 1 pos
+		ARG 2 player
+	METHOD a activate (Lajq;Lco;Latj;Laax;Lrh;Lcv;FFF)Z
+		ARG 0 world
+		ARG 1 pos
+		ARG 2 state
+		ARG 3 player
+		ARG 4 hand
+		ARG 5 facing
+		ARG 6 hitX
+		ARG 7 hitY
+		ARG 8 hitZ
+	METHOD a shouldRenderSide (Latj;Laju;Lco;Lcv;)Z
+		ARG 0 state
+		ARG 1 view
+		ARG 2 pos
+		ARG 3 facing
+	METHOD b (Lajq;Lco;)V
+		ARG 0 world
+		ARG 1 pos
+	METHOD b randomTick (Lajq;Lco;Latj;Ljava/util/Random;)V
+		ARG 0 world
+		ARG 1 pos
+		ARG 2 state
+		ARG 3 random
+	METHOD b isFullBoundsCubeForCulling (Latj;)Z
+		ARG 0 state
+	METHOD b getBoundingBox (Latj;Laju;Lco;)Lbdr;
+		ARG 0 state
+		ARG 1 view
+		ARG 2 pos
+	METHOD c (Lajq;Lco;)V
+		ARG 0 world
+		ARG 1 pos
+	METHOD c (Lajq;Lco;Latj;)V
+		ARG 0 world
+		ARG 1 pos
+		ARG 2 state
+	METHOD c (Latj;)Z
+		ARG 0 state

@@ -1,0 +1,3 @@
+CLASS bsx net/minecraft/block/CobwebBlock
+	METHOD <init> (Lbmn$c;)V
+		ARG 1 settings

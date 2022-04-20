@@ -1,0 +1,10 @@
+CLASS ddj net/minecraft/client/render/block/entity/BlockEntityRenderer
+	FIELD a DESTROY_STAGE_TEXTURES [Lpy;
+	FIELD b renderManager Lddi;
+	METHOD a getWorld ()Lban;
+	METHOD a render (Lbmk;DDDFI)V
+		ARG 1 entity
+		ARG 2 xOffset
+	METHOD a setRenderManager (Lddi;)V
+	METHOD a bindTexture (Lpy;)V
+	METHOD b getFontRenderer ()Lcnq;

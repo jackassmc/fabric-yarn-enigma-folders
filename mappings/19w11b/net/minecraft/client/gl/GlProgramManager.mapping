@@ -1,0 +1,8 @@
+CLASS csp net/minecraft/client/gl/GlProgramManager
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD b INSTANCE Lcsp;
+	METHOD a init ()V
+	METHOD a deleteProgram (Lcsn;)V
+	METHOD b getInstance ()Lcsp;
+	METHOD b linkProgram (Lcsn;)V
+	METHOD c createProgram ()I

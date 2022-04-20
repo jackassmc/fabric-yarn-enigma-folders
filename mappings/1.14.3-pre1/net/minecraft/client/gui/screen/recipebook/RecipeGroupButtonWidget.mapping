@@ -1,0 +1,10 @@
+CLASS dcj net/minecraft/client/gui/screen/recipebook/RecipeGroupButtonWidget
+	FIELD g category Lcvs;
+	FIELD h bounce F
+	METHOD a hasKnownRecipes (Lcvb;)Z
+	METHOD a checkForNewRecipes (Lcvl;)V
+	METHOD b getCategory ()Lcvs;
+	METHOD renderButton (IIF)V
+		ARG 1 mouseX
+		ARG 2 mouseY
+		ARG 3 delta

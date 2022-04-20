@@ -1,0 +1,7 @@
+CLASS ali net/minecraft/entity/passive/EntityMooshroom
+	METHOD F getLootTableId ()Lpw;
+	METHOD a createChild (Lafv;)Lafv;
+	METHOD a interactMob (Lapv;Laer;)Z
+		ARG 1 player
+	METHOD b createChild (Lafv;)Lale;
+	METHOD c createChild (Lafv;)Lali;

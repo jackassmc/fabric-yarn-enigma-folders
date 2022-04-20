@@ -1,0 +1,28 @@
+CLASS csa net/minecraft/client/gui/menu/settings/ControlsSettingsGui
+	CLASS csa$1
+		METHOD a onPressed (DD)V
+			ARG 0 mouseX
+	CLASS csa$2
+		METHOD a onPressed (DD)V
+			ARG 0 mouseX
+	CLASS csa$3
+		METHOD a onPressed (DD)V
+			ARG 0 mouseX
+	FIELD a title Ljava/lang/String;
+	FIELD h SETTINGS [Lcnf$a;
+	FIELD i parent Lcri;
+	FIELD s settings Lcnf;
+	FIELD u resetButton Lcoa;
+	METHOD <init> (Lcri;Lcnf;)V
+		ARG 1 parent
+	METHOD a draw (IIF)V
+		ARG 1 mouseX
+		ARG 2 mouseY
+	METHOD c onInitialized ()V
+	METHOD keyPressed (III)Z
+		ARG 1 keyCode
+		ARG 2 scanCode
+	METHOD mouseClicked (DDI)Z
+		ARG 1 mouseX
+	METHOD mouseReleased (DDI)Z
+		ARG 1 mouseX

@@ -1,0 +1,3 @@
+CLASS cdg net/minecraft/sortme/rule/AbstractRuleTest
+	METHOD a getRuleTest ()Lcdh;
+	METHOD a test (Lbpm;Ljava/util/Random;)Z

@@ -1,0 +1,2 @@
+CLASS bvb net/minecraft/client/render/block/state/IStateModelMapper
+	METHOD a getStateMap (Lank;)Ljava/util/Map;

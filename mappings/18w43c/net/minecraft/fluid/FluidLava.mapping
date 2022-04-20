@@ -1,0 +1,6 @@
+CLASS cag net/minecraft/fluid/FluidLava
+	CLASS cag$a Flowing
+	CLASS cag$b Still
+	METHOD a getRenderLayer ()Layo;
+	METHOD e getFlowing ()Lcac;
+	METHOD f getStill ()Lcac;

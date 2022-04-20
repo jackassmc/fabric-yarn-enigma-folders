@@ -1,0 +1,4 @@
+CLASS bqi net/minecraft/block/RedstoneTorchWallBlock
+	FIELD b FACING Lbvu;
+	METHOD <init> (Lbmb$c;)V
+		ARG 1 settings

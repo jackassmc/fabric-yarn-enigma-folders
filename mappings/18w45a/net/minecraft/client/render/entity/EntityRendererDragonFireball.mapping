@@ -1,0 +1,4 @@
+CLASS dek net/minecraft/client/render/entity/EntityRendererDragonFireball
+	FIELD a SKIN Lpw;
+	METHOD a getTexture (Lafy;)Lpw;
+	METHOD a getTexture (Laqc;)Lpw;

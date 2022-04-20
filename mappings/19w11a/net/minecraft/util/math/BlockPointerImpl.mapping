@@ -1,0 +1,5 @@
+CLASS ew net/minecraft/util/math/BlockPointerImpl
+	FIELD a world Lbfy;
+	FIELD b pos Leu;
+	METHOD <init> (Lbfy;Leu;)V
+		ARG 1 world

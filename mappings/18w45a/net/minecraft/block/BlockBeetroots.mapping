@@ -1,0 +1,13 @@
+CLASS bev net/minecraft/block/BlockBeetroots
+	METHOD a getGrowthAmount (Lazy;)I
+	METHOD a getBoundingShape (Lbno;Lazl;Les;)Lcjm;
+		ARG 1 state
+		ARG 2 view
+	METHOD a (Lbno;Lazy;Les;Ljava/util/Random;)V
+		ARG 1 world
+		ARG 2 state
+		ARG 3 pos
+	METHOD a appendProperties (Lbnp$a;)V
+	METHOD d getAgeProperty ()Lbou;
+	METHOD e getCropAgeMaximum ()I
+	METHOD f getCropItem ()Lazx;

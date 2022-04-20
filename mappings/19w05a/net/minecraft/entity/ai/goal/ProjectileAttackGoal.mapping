@@ -1,0 +1,6 @@
+CLASS akk net/minecraft/entity/ai/goal/ProjectileAttackGoal
+	FIELD a mobEntity Laho;
+	FIELD b rangedAttacker Laqi;
+	FIELD c target Lahn;
+	METHOD <init> (Laqi;DIIF)V
+		ARG 1 entity

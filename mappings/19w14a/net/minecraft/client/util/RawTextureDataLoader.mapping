@@ -1,0 +1,2 @@
+CLASS duf net/minecraft/client/util/RawTextureDataLoader
+	METHOD a loadRawTextureData (Lxc;Lqr;)[I

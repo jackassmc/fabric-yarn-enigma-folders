@@ -1,0 +1,2 @@
+CLASS doi net/minecraft/client/render/entity/ElderGuardianEntityRenderer
+	FIELD a SKIN Lqr;

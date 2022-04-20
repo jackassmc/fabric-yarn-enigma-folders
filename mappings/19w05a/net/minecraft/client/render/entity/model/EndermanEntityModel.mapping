@@ -1,0 +1,3 @@
+CLASS czk net/minecraft/client/render/entity/model/EndermanEntityModel
+	FIELD a carryingBlock Z
+	FIELD b angry Z

@@ -1,0 +1,3 @@
+CLASS ays net/minecraft/item/WritableBookItem
+	METHOD <init> (Lawy$a;)V
+		ARG 1 settings

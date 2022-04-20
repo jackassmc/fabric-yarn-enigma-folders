@@ -1,0 +1,6 @@
+CLASS bim net/minecraft/block/ComparatorBlock
+	METHOD <init> (Lbhs$c;)V
+		ARG 1 settings
+	METHOD a getAttachedItemFrame (Lbcq;Ley;Let;)Laoy;
+		ARG 1 world
+		ARG 2 facing

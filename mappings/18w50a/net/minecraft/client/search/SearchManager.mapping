@@ -1,0 +1,12 @@
+CLASS dqf net/minecraft/client/search/SearchManager
+	CLASS dqf$a Key
+	FIELD a ITEMS_TOOLTIP Ldqf$a;
+	FIELD b ITEMS_TAG Ldqf$a;
+	FIELD d instances Ljava/util/Map;
+	METHOD a get (Ldqf$a;)Ldqc;
+		ARG 1 key
+	METHOD a put (Ldqf$a;Ldqc;)V
+		ARG 1 key
+		ARG 2 value
+	METHOD a onResourceReload (Lwj;)V
+		ARG 1 manager

@@ -1,0 +1,6 @@
+CLASS amx net/minecraft/entity/ai/goal/ProjectileAttackGoal
+	FIELD a mobEntity Laii;
+	FIELD b rangedAttacker Lato;
+	FIELD c target Laih;
+	METHOD <init> (Lato;DIIF)V
+		ARG 1 entity

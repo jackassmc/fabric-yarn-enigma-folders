@@ -1,0 +1,3 @@
+CLASS asq net/minecraft/entity/boss/dragon/phase/SittingAttackingPhase
+	METHOD <init> (Lasf;)V
+		ARG 1 dragon

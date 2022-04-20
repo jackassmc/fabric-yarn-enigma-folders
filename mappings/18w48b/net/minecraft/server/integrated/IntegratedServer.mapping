@@ -1,0 +1,35 @@
+CLASS dog net/minecraft/server/integrated/IntegratedServer
+	FIELD g LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD h client Lcnv;
+	FIELD i levelInfo Lbav;
+	FIELD k lanPort I
+	FIELD l lanPinger Ldoj;
+	METHOD <init> (Lcnv;Ljava/lang/String;Ljava/lang/String;Lbav;Lcom/mojang/authlib/yggdrasil/YggdrasilAuthenticationService;Lcom/mojang/authlib/minecraft/MinecraftSessionService;Lcom/mojang/authlib/GameProfileRepository;Lwi;)V
+		ARG 1 client
+		ARG 2 levelName
+		ARG 3 displayName
+		ARG 4 levelInfo
+		ARG 5 authService
+		ARG 6 sessionService
+		ARG 7 profileRepo
+	METHOD B_ shouldBroadcastConsoleToOps ()Z
+	METHOD H getServerPort ()I
+	METHOD S isDedicated ()Z
+	METHOD X isUsingNativeTransport ()Z
+	METHOD a setDifficulty (Laez;)V
+	METHOD a addSnooperInfo (Lafl;)V
+	METHOD a setCrashReport (Lb;)V
+	METHOD a setDefaultGameMode (Lban;)V
+	METHOD a stop (Z)V
+	METHOD aa areCommandBlocksEnabled ()Z
+	METHOD af isRemote ()Z
+	METHOD b addServerInfoToCrashReport (Lb;)Lb;
+	METHOD d setupServer ()Z
+	METHOD f shouldGenerateStructures ()Z
+	METHOD g getDefaultGameMode ()Lban;
+	METHOD h getDefaultDifficulty ()Laez;
+	METHOD h_ shutdown ()V
+	METHOD i isHardcore ()Z
+	METHOD j getOpPermissionLevel ()I
+	METHOD k shouldBroadcastRconToOps ()Z
+	METHOD t getRunDirectory ()Ljava/io/File;

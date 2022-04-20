@@ -1,0 +1,3 @@
+CLASS cab net/minecraft/fluid/Fluid
+	METHOD e getFlowing ()Lcac;
+	METHOD f getStill ()Lcac;

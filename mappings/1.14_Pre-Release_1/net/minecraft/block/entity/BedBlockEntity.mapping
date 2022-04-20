@@ -1,0 +1,5 @@
+CLASS btc net/minecraft/block/entity/BedBlockEntity
+	FIELD a color Lbar;
+	METHOD a setColor (Lbar;)V
+		ARG 1 color
+	METHOD c getColor ()Lbar;

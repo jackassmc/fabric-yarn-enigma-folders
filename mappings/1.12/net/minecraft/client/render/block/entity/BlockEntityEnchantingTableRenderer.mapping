@@ -1,0 +1,4 @@
+CLASS bwy net/minecraft/client/render/block/entity/BlockEntityEnchantingTableRenderer
+	FIELD a BOOK_TEX Lnd;
+	METHOD a render (Lavh;DDDFIF)V
+	METHOD a render (Lavp;DDDFIF)V

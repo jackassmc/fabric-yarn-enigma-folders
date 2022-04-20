@@ -1,0 +1,55 @@
+CLASS ayd net/minecraft/enchantment/EnchantmentType
+	CLASS ayd$1
+		METHOD a isAcceptableItem (Lauu;)Z
+			ARG 0 item
+	CLASS ayd$2
+		METHOD a isAcceptableItem (Lauu;)Z
+			ARG 0 item
+	CLASS ayd$3
+		METHOD a isAcceptableItem (Lauu;)Z
+			ARG 0 item
+	CLASS ayd$4
+		METHOD a isAcceptableItem (Lauu;)Z
+			ARG 0 item
+	CLASS ayd$5
+		METHOD a isAcceptableItem (Lauu;)Z
+			ARG 0 item
+	CLASS ayd$6
+		METHOD a isAcceptableItem (Lauu;)Z
+			ARG 0 item
+	CLASS ayd$7
+		METHOD a isAcceptableItem (Lauu;)Z
+			ARG 0 item
+	CLASS ayd$8
+		METHOD a isAcceptableItem (Lauu;)Z
+			ARG 0 item
+	CLASS ayd$9
+		METHOD a isAcceptableItem (Lauu;)Z
+			ARG 0 item
+	CLASS ayd$10
+		METHOD a isAcceptableItem (Lauu;)Z
+			ARG 0 item
+	CLASS ayd$11
+		METHOD a isAcceptableItem (Lauu;)Z
+			ARG 0 item
+	CLASS ayd$12
+		METHOD a isAcceptableItem (Lauu;)Z
+			ARG 0 item
+	CLASS ayd$13
+		METHOD a isAcceptableItem (Lauu;)Z
+			ARG 0 item
+	CLASS ayd$14
+		METHOD a isAcceptableItem (Lauu;)Z
+			ARG 0 item
+	FIELD a ALL Layd;
+	FIELD b ARMOR Layd;
+	FIELD c FEET Layd;
+	FIELD d LEGS Layd;
+	FIELD e CHEST Layd;
+	FIELD f HELM Layd;
+	FIELD g WEAPON Layd;
+	FIELD h BREAKER Layd;
+	FIELD i FISHING Layd;
+	FIELD k TOOL Layd;
+	FIELD l BOW Layd;
+	METHOD a isAcceptableItem (Lauu;)Z

@@ -1,0 +1,73 @@
+CLASS cnb net/minecraft/util/math/BoundingBox
+	FIELD a minX D
+	FIELD b minY D
+	FIELD c minZ D
+	FIELD d maxX D
+	FIELD e maxY D
+	FIELD f maxZ D
+	METHOD <init> (DDDDDD)V
+		ARG 1 x1
+		ARG 3 y1
+		ARG 5 z1
+	METHOD <init> (Lcng;Lcng;)V
+		ARG 1 min
+		ARG 2 max
+	METHOD <init> (Les;Les;)V
+		ARG 1 min
+	METHOD a averageDimension ()D
+	METHOD a shrink (DDD)Lcnb;
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+	METHOD a intersects (DDDDDD)Z
+		ARG 1 minX
+		ARG 3 minY
+		ARG 5 minZ
+		ARG 7 maxX
+		ARG 9 maxY
+		ARG 11 maxZ
+	METHOD a intersection (Lcnb;)Lcnb;
+	METHOD a offset (Lcng;)Lcnb;
+		ARG 1 vec3d
+	METHOD a intersects (Lcng;Lcng;)Z
+	METHOD a offset (Les;)Lcnb;
+		ARG 1 blockPos
+	METHOD a ([DLew;DDDDDDDDLew;DDD)Lew;
+		ARG 18 maxZ
+	METHOD b getXSize ()D
+	METHOD b stretch (DDD)Lcnb;
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+	METHOD b union (Lcnb;)Lcnb;
+	METHOD b contains (Lcng;)Z
+		ARG 1 vec
+	METHOD b rayTrace (Lcng;Lcng;)Ljava/util/Optional;
+	METHOD c getYSize ()D
+	METHOD c expand (DDD)Lcnb;
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+	METHOD c intersects (Lcnb;)Z
+		ARG 1 boundingBox
+	METHOD d getZSize ()D
+	METHOD d offset (DDD)Lcnb;
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+	METHOD e isValid ()Z
+	METHOD e contains (DDD)Z
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+	METHOD equals (Ljava/lang/Object;)Z
+		ARG 1 o
+	METHOD f getCenter ()Lcng;
+	METHOD f contract (DDD)Lcnb;
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+	METHOD g expand (D)Lcnb;
+		ARG 1 value
+	METHOD h contract (D)Lcnb;
+		ARG 1 value

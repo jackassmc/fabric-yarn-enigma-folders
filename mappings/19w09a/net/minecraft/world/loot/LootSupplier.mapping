@@ -1,0 +1,25 @@
+CLASS ckf net/minecraft/world/loot/LootSupplier
+	CLASS ckf$a Builder
+		FIELD a pools Ljava/util/List;
+		FIELD b functions Ljava/util/List;
+		FIELD c type Lcmb;
+		METHOD a withPool (Lcke$a;)Lckf$a;
+		METHOD a withType (Lcmb;)Lckf$a;
+		METHOD b create ()Lckf;
+	CLASS ckf$b Serializer
+	FIELD a EMPTY Lckf;
+	FIELD b GENERIC Lcmb;
+	FIELD c LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD d type Lcmb;
+	FIELD e pools [Lcke;
+	FIELD f functions [Lcll;
+	FIELD g combinedFunction Ljava/util/function/BiFunction;
+	METHOD a getType ()Lcmb;
+	METHOD a supplyInventory (Laga;Lckc;)V
+	METHOD a getFreeSlots (Laga;Ljava/util/Random;)Ljava/util/List;
+	METHOD a getDrops (Lckc;)Ljava/util/List;
+	METHOD a drop (Lckc;Ljava/util/function/Consumer;)V
+	METHOD a check (Lckg;Ljava/util/function/Function;Ljava/util/Set;Lcmb;)V
+	METHOD a limitedConsumer (Ljava/util/function/Consumer;)Ljava/util/function/Consumer;
+	METHOD b create ()Lckf$a;
+	METHOD b dropLimited (Lckc;Ljava/util/function/Consumer;)V

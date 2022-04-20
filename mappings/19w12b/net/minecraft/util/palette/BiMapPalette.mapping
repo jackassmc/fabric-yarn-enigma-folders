@@ -1,0 +1,15 @@
+CLASS bwc net/minecraft/util/palette/BiMapPalette
+	FIELD a idList Lfe;
+	FIELD b map Lzf;
+	FIELD c resizeHandler Lbwk;
+	FIELD d elementDeserializer Ljava/util/function/Function;
+	FIELD e elementSerializer Ljava/util/function/Function;
+	FIELD f indexBits I
+	METHOD <init> (Lfe;ILbwk;Ljava/util/function/Function;Ljava/util/function/Function;)V
+		ARG 2 indexBits
+		ARG 3 resizeHandler
+		ARG 4 elementDeserializer
+		ARG 5 elementSerializer
+	METHOD b getIndexBits ()I
+	METHOD b toTag (Lii;)V
+		ARG 1 tag

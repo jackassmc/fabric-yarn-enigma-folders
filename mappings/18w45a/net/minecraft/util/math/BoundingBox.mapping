@@ -1,0 +1,38 @@
+CLASS cio net/minecraft/util/math/BoundingBox
+	FIELD a minX D
+	FIELD b minY D
+	FIELD c minZ D
+	FIELD d maxX D
+	FIELD e maxY D
+	FIELD f maxZ D
+	METHOD <init> (DDDDDD)V
+		ARG 1 x1
+		ARG 3 y1
+		ARG 5 z1
+	METHOD <init> (Lcis;Lcis;)V
+		ARG 1 min
+	METHOD <init> (Les;Les;)V
+		ARG 1 min
+	METHOD a averageDimension ()D
+	METHOD a intersects (DDDDDD)Z
+		ARG 1 minX
+		ARG 3 minY
+		ARG 5 minZ
+	METHOD a offset (Lcis;)Lcio;
+	METHOD a intersects (Lcis;Lcis;)Z
+		ARG 1 a
+	METHOD a offset (Les;)Lcio;
+	METHOD b isValid ()Z
+	METHOD b stretch (DDD)Lcio;
+		ARG 1 x
+	METHOD b union (Lcio;)Lcio;
+	METHOD c getCenter ()Lcis;
+	METHOD c expand (DDD)Lcio;
+		ARG 1 x
+	METHOD c intersects (Lcio;)Z
+	METHOD d offset (DDD)Lcio;
+		ARG 1 x
+	METHOD f contract (DDD)Lcio;
+		ARG 1 x
+	METHOD g expand (D)Lcio;
+	METHOD h contract (D)Lcio;

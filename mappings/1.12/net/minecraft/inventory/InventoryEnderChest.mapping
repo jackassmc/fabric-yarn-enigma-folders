@@ -1,0 +1,13 @@
+CLASS agk net/minecraft/inventory/InventoryEnderChest
+	FIELD a currentBlockEntity Lavq;
+	METHOD a canPlayerUseInv (Laeb;)Z
+		ARG 0 player
+	METHOD a setCurrentBlockEntity (Lavq;)V
+		ARG 0 value
+	METHOD a readTags (Lge;)V
+		ARG 0 tags
+	METHOD b onInvOpen (Laeb;)V
+		ARG 0 player
+	METHOD c onInvClose (Laeb;)V
+		ARG 0 player
+	METHOD i getTags ()Lge;

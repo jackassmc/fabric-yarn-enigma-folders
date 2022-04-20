@@ -1,0 +1,7 @@
+CLASS bdi net/minecraft/recipe/cooking/CookingRecipeSerializer
+	CLASS bdi$a net/minecraft/recipe/cooking/CookingRecipeSerializer$RecipeFactory
+	FIELD t cookingTime I
+	FIELD u recipeFactory Lbdi$a;
+	METHOD <init> (Lbdi$a;I)V
+		ARG 1 recipeFactory
+		ARG 2 cookingTime

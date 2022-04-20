@@ -1,0 +1,3 @@
+CLASS dbt net/minecraft/client/render/entity/model/DragonHeadEntityModel
+	FIELD b head Ldbz;
+	FIELD c jaw Ldbz;

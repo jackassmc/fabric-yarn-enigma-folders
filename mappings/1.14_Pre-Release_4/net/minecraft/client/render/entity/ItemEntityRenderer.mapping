@@ -1,0 +1,5 @@
+CLASS dpw net/minecraft/client/render/entity/ItemEntityRenderer
+	FIELD a itemRenderer Ldpy;
+	FIELD f random Ljava/util/Random;
+	METHOD <init> (Ldpd;Ldpy;)V
+		ARG 1 renderManager

@@ -1,0 +1,43 @@
+CLASS auf net/minecraft/entity/mob/GuardianEntity
+	CLASS auf$a FireBeamGoal
+		FIELD a guardian Lauf;
+		FIELD b beamTicks I
+		FIELD c elder Z
+		METHOD <init> (Lauf;)V
+			ARG 1 guardian
+	CLASS auf$b GuardianTargetPredicate
+		FIELD a owner Lauf;
+		METHOD <init> (Lauf;)V
+			ARG 1 owner
+		METHOD test (Ljava/lang/Object;)Z
+			ARG 1 context
+	CLASS auf$c GuardianMoveControl
+		FIELD i guardian Lauf;
+		METHOD <init> (Lauf;)V
+			ARG 1 guardian
+	FIELD bA tailAngle F
+	FIELD bB prevTailAngle F
+	FIELD bC wanderGoal Lant;
+	FIELD bD BEAM_TARGET_ID Lqh;
+	FIELD bE cachedBeamTarget Laio;
+	FIELD bF beamTicks I
+	FIELD bG flopping Z
+	FIELD b SPIKES_RETRACTED Lqh;
+	FIELD bz spikesExtensionRate F
+	FIELD c spikesExtension F
+	FIELD d prevSpikesExtension F
+	METHOD a setBeamTarget (I)V
+		ARG 1 progress
+	METHOD dX getFlopSound ()Lyj;
+	METHOD dY areSpikesRetracted ()Z
+	METHOD dZ hasBeamTarget ()Z
+	METHOD ea getBeamTarget ()Laio;
+	METHOD l getWarmupTime ()I
+	METHOD r setSpikesRetracted (Z)V
+		ARG 1 retracted
+	METHOD v getSpikesExtension (F)F
+		ARG 1 tickDelta
+	METHOD w getTailAngle (F)F
+		ARG 1 tickDelta
+	METHOD x getBeamProgress (F)F
+		ARG 1 tickDelta

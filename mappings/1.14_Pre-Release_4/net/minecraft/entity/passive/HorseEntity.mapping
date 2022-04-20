@@ -1,0 +1,16 @@
+CLASS art net/minecraft/entity/passive/HorseEntity
+	FIELD bK VARIANT Lqh;
+	FIELD bL HORSE_TEX [Ljava/lang/String;
+	FIELD bM HORSE_TEX_ID [Ljava/lang/String;
+	FIELD bN HORSE_MARKING_TEX [Ljava/lang/String;
+	FIELD bO HORSE_MARKING_TEX_ID [Ljava/lang/String;
+	FIELD bP textureLocation Ljava/lang/String;
+	FIELD bQ textureLayers [Ljava/lang/String;
+	METHOD dV getArmorType ()Lbbz;
+	METHOD dY getVariant ()I
+	METHOD dZ getTextureLocation ()Ljava/lang/String;
+	METHOD eB getTextureLayers ()[Ljava/lang/String;
+	METHOD eC clearTextureInfo ()V
+	METHOD eD initTextureInfo ()V
+	METHOD l setArmorTypeFromStack (Lbbz;)V
+	METHOD u setVariant (I)V

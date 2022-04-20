@@ -1,0 +1,7 @@
+CLASS dgr net/minecraft/client/render/entity/ItemEntityRenderer
+	FIELD a itemRenderer Ldgt;
+	FIELD f rand Ljava/util/Random;
+	METHOD <init> (Ldfy;Ldgt;)V
+		ARG 1 renderManager
+	METHOD a getTexture (Lagf;)Lpy;
+	METHOD a getTexture (Laoi;)Lpy;

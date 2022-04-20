@@ -1,0 +1,4 @@
+CLASS cbu net/minecraft/world/gen/feature/LakeFeature
+	FIELD a CAVE_AIR Lbuy;
+	METHOD <init> (Ljava/util/function/Function;)V
+		ARG 1 configFactory

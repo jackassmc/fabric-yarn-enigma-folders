@@ -1,0 +1,2 @@
+CLASS bxf net/minecraft/world/gen/feature/WitchHutFeature
+	METHOD b getName ()Ljava/lang/String;

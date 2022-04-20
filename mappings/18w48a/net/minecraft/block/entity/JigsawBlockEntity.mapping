@@ -1,0 +1,5 @@
+CLASS bnc net/minecraft/block/entity/JigsawBlockEntity
+	METHOD a serialize (Lhp;)Lhp;
+	METHOD ac_ getUpdatePacket ()Lkb;
+	METHOD ad_ serializeInitialChunkData ()Lhp;
+	METHOD b deserialize (Lhp;)V

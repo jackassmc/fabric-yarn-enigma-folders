@@ -1,0 +1,12 @@
+CLASS ge net/minecraft/particle/ParticleEffect
+	CLASS a Factory
+		METHOD b read (Lgf;Lcom/mojang/brigadier/StringReader;)Lge;
+			ARG 1 type
+			ARG 2 reader
+		METHOD b read (Lgf;Ljd;)Lge;
+			ARG 1 type
+			ARG 2 buf
+	METHOD a asString ()Ljava/lang/String;
+	METHOD a write (Ljd;)V
+		ARG 1 buf
+	METHOD b getType ()Lgf;

@@ -1,0 +1,8 @@
+CLASS bvv net/minecraft/util/MaterialPredicate
+	CLASS bvv$1
+		METHOD test (Ljava/lang/Object;)Z
+			ARG 1 context
+	FIELD a IS_AIR Lbvv;
+	FIELD b material Lcli;
+	METHOD a create (Lcli;)Lbvv;
+		ARG 0 material

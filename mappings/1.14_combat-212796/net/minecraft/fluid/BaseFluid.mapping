@@ -1,0 +1,47 @@
+CLASS cle net/minecraft/fluid/BaseFluid
+	FIELD a FALLING Lbwh;
+	FIELD b LEVEL Lbwp;
+	FIELD f shapeCache Ljava/util/Map;
+	METHOD a getFlowing (IZ)Lclg;
+		ARG 1 level
+		ARG 2 falling
+	METHOD a getNextTickDelay (Lbhn;Lev;Lclg;Lclg;)I
+		ARG 1 world
+		ARG 2 pos
+		ARG 3 oldState
+		ARG 4 newState
+	METHOD a beforeBreakingBlock (Lbho;Lev;Lbvp;)V
+		ARG 1 world
+		ARG 2 pos
+		ARG 3 state
+	METHOD a flow (Lbho;Lev;Lbvp;Lfa;Lclg;)V
+		ARG 1 world
+		ARG 2 pos
+		ARG 3 state
+		ARG 5 fluidState
+	METHOD a (Lbho;Lev;Lclg;)V
+		ARG 1 world
+		ARG 2 pos
+		ARG 3 state
+	METHOD a getUpdatedState (Lbhq;Lev;Lbvp;)Lclg;
+		ARG 1 world
+		ARG 2 pos
+		ARG 3 state
+	METHOD a receivesFlow (Lfa;Lbgx;Lev;Lbvp;Lev;Lbvp;)Z
+		ARG 1 face
+		ARG 2 world
+		ARG 3 pos
+		ARG 4 state
+		ARG 5 fromPos
+		ARG 6 fromState
+	METHOD a getStill (Z)Lclg;
+		ARG 1 falling
+	METHOD c getLevelDecreasePerBlock (Lbhq;)I
+		ARG 1 world
+	METHOD c isFluidAboveEqual (Lclg;Lbgx;Lev;)Z
+		ARG 0 state
+		ARG 1 view
+		ARG 2 pos
+	METHOD e getFlowing ()Lclf;
+	METHOD f getStill ()Lclf;
+	METHOD g isInfinite ()Z

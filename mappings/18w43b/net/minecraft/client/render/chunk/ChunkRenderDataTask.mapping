@@ -1,0 +1,26 @@
+CLASS czz net/minecraft/client/render/chunk/ChunkRenderDataTask
+	CLASS czz$a Stage
+		FIELD a INIT Lczz$a;
+	CLASS czz$b MODE
+	FIELD a chunkRenderer Ldae;
+	FIELD b lock Ljava/util/concurrent/locks/ReentrantLock;
+	FIELD c runnables Ljava/util/List;
+	FIELD d mode Lczz$b;
+	FIELD e distanceToPlayerSquared D
+	FIELD h chunkRenderData Ldac;
+	FIELD i stage Lczz$a;
+	METHOD <init> (Ldae;Lczz$b;DLdag;)V
+		ARG 0 chunkRenderer
+		ARG 1 mode
+		ARG 2 distanceToPlayerSquared
+	METHOD a getStage ()Lczz$a;
+	METHOD a setStage (Lczz$a;)V
+		ARG 0 value
+	METHOD a compareTask (Lczz;)I
+		ARG 0 other
+	METHOD a setChunkRenderData (Ldac;)V
+		ARG 0 chunkRenderData
+	METHOD b getChunkRenderer ()Ldae;
+	METHOD d getChunkRenderData ()Ldac;
+	METHOD g getLock ()Ljava/util/concurrent/locks/ReentrantLock;
+	METHOD h getMode ()Lczz$b;

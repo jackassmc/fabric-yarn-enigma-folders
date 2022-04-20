@@ -1,0 +1,8 @@
+CLASS dnu net/minecraft/client/render/debug/PathfindingDebugRenderer
+	FIELD a client Lcve;
+	FIELD b paths Ljava/util/Map;
+	FIELD d pathTimes Ljava/util/Map;
+	FIELD e camera Lcut;
+	METHOD a addPath (ILcnc;F)V
+		ARG 1 id
+		ARG 2 path

@@ -1,0 +1,2 @@
+CLASS bbq net/minecraft/server/network/ServerItemCooldownManager
+	FIELD a player Lve;

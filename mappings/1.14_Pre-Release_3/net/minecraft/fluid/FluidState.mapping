@@ -1,0 +1,24 @@
+CLASS ckv net/minecraft/fluid/FluidState
+	METHOD a getHeight (Lbgo;Lev;)F
+	METHOD a onScheduledTick (Lbhd;Lev;)V
+	METHOD a randomDisplayTick (Lbhd;Lev;Ljava/util/Random;)V
+	METHOD a deserialize (Lcom/mojang/datafixers/Dynamic;)Lckv;
+		ARG 0 dynamic
+	METHOD a serialize (Lcom/mojang/datafixers/types/DynamicOps;Lckv;)Lcom/mojang/datafixers/Dynamic;
+		ARG 0 ops
+		ARG 1 state
+	METHOD a matches (Lza;)Z
+	METHOD b onRandomTick (Lbhd;Lev;Ljava/util/Random;)V
+	METHOD c getFluid ()Lcku;
+	METHOD c getVelocity (Lbgo;Lev;)Lcrr;
+		ARG 1 world
+		ARG 2 pos
+	METHOD d isStill ()Z
+	METHOD d getShape (Lbgo;Lev;)Lcsl;
+	METHOD e isEmpty ()Z
+	METHOD f getLevel ()I
+	METHOD g hasRandomTicks ()Z
+	METHOD h getBlockState ()Lbvf;
+	METHOD i getParticle ()Lgd;
+	METHOD j getRenderLayer ()Lbgp;
+	METHOD k getBlastResistance ()F

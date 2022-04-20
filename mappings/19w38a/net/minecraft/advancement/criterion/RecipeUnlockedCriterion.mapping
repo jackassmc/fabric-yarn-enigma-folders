@@ -1,0 +1,6 @@
+CLASS net/minecraft/class_2119 net/minecraft/advancement/criterion/RecipeUnlockedCriterion
+	CLASS class_2121 Conditions
+		FIELD field_9742 recipe Lnet/minecraft/class_2960;
+		METHOD method_9112 matches (Lnet/minecraft/class_1860;)Z
+	FIELD field_9738 ID Lnet/minecraft/class_2960;
+	METHOD method_9107 handle (Lnet/minecraft/class_3222;Lnet/minecraft/class_1860;)V

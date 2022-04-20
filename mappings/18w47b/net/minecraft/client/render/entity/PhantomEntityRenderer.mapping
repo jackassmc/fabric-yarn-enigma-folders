@@ -1,0 +1,3 @@
+CLASS dhi net/minecraft/client/render/entity/PhantomEntityRenderer
+	METHOD a getTexture (Lagf;)Lpy;
+	METHOD a getTexture (Lapg;)Lpy;

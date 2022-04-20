@@ -1,0 +1,15 @@
+CLASS any net/minecraft/entity/ai/goal/ProjectileAttackGoal
+	FIELD a mob Laiv;
+	FIELD b owner Laus;
+	FIELD c target Laiu;
+	FIELD e mobSpeed D
+	FIELD i maxShootRange F
+	FIELD j squaredMaxShootRange F
+	METHOD <init> (Laus;DIF)V
+		ARG 1 mob
+		ARG 2 mobSpeed
+		ARG 5 maxShootRange
+	METHOD <init> (Laus;DIIF)V
+		ARG 1 mob
+		ARG 2 mobSpeed
+		ARG 6 maxShootRange

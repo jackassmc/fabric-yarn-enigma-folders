@@ -1,0 +1,21 @@
+CLASS cgs net/minecraft/world/loot/function/ConditionalLootFunction
+	CLASS cgs$a Builder
+		FIELD a conditionList Ljava/util/List;
+		METHOD a withCondition (Lchw$a;)Lcgs$a;
+			ARG 0 builder
+		METHOD g getConditions ()[Lchw;
+	CLASS cgs$b Joiner
+		FIELD a joiner Ljava/util/function/Function;
+		METHOD a create ()Lcgs$b;
+		METHOD b build ()Lcgt;
+	CLASS cgs$c Factory
+		METHOD a toJson (Lcom/google/gson/JsonObject;Lcgs;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD a toJson (Lcom/google/gson/JsonObject;Lcgt;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD a fromJson (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Lcgs;
+		METHOD b fromJson (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Lcgt;
+		METHOD b fromJson (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;[Lchw;)Lcgs;
+	FIELD a predicate Ljava/util/function/Predicate;
+	FIELD b conditions [Lchw;
+	METHOD a process (Lava;Lcfl;)Lava;
+		ARG 1 stack
+	METHOD b apply (Lava;Lcfl;)Lava;

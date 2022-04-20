@@ -1,0 +1,3 @@
+CLASS afc net/minecraft/container/ContainerProvider
+	METHOD a createContainer (Laqi;Laqj;)Lasb;
+	METHOD l getContainerId ()Ljava/lang/String;

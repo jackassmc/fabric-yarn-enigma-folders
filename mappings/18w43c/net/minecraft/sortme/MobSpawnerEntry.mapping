@@ -1,0 +1,9 @@
+CLASS azo net/minecraft/sortme/MobSpawnerEntry
+	FIELD b entityTag Lhl;
+	METHOD <init> (ILhl;)V
+		ARG 0 weight
+		ARG 1 entityTag
+	METHOD <init> (Lhl;)V
+		ARG 0 tag
+	METHOD a serialize ()Lhl;
+	METHOD b getEntityTag ()Lhl;

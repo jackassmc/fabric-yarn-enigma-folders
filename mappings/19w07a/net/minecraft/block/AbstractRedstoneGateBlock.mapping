@@ -1,0 +1,20 @@
+CLASS bjk net/minecraft/block/AbstractRedstoneGateBlock
+	FIELD b SHAPE Lcoa;
+	FIELD c POWERED Lbrr;
+	METHOD <init> (Lbic$c;)V
+		ARG 1 settings
+	METHOD a isLocked (Lbde;Les;Lbqz;)Z
+		ARG 1 world
+		ARG 2 pos
+		ARG 3 state
+	METHOD a getInputLevel (Lbde;Les;Lew;)I
+		ARG 1 view
+		ARG 2 pos
+	METHOD b getOutputLevel (Lbcm;Les;Lbqz;)I
+		ARG 1 view
+		ARG 2 pos
+	METHOD b getMaxInputLevelSides (Lbde;Les;Lbqz;)I
+		ARG 1 view
+		ARG 2 pos
+	METHOD j getUpdateDelayInternal (Lbqz;)I
+	METHOD q isValidInput (Lbqz;)Z

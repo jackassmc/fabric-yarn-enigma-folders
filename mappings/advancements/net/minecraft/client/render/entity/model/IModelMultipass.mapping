@@ -1,0 +1,2 @@
+CLASS bpk net/minecraft/client/render/entity/model/IModelMultipass
+	METHOD b renderPass (Lub;FFFFFF)V

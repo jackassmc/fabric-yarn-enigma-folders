@@ -1,0 +1,16 @@
+CLASS bnu net/minecraft/block/WaterlilyBlock
+	METHOD <init> (Lbhl$c;)V
+		ARG 1 settings
+	METHOD a canPlantOnTop (Lbqi;Lbbt;Let;)Z
+		ARG 1 floor
+		ARG 2 view
+		ARG 3 pos
+	METHOD a getOutlineShape (Lbqi;Lbbt;Let;Lcnc;)Lcnr;
+		ARG 1 state
+		ARG 2 view
+		ARG 3 pos
+	METHOD a onEntityCollision (Lbqi;Lbci;Let;Lahc;)V
+		ARG 1 state
+		ARG 2 world
+		ARG 3 pos
+		ARG 4 entity

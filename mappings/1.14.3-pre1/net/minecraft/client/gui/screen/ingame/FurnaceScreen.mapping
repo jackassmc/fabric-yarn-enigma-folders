@@ -1,0 +1,2 @@
+CLASS dbg net/minecraft/client/gui/screen/ingame/FurnaceScreen
+	FIELD l BG_TEX Lqs;

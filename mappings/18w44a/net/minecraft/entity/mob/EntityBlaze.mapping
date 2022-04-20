@@ -1,0 +1,23 @@
+CLASS anz net/minecraft/entity/mob/EntityBlaze
+	CLASS anz$a
+		METHOD a canStart ()Z
+		METHOD c start ()V
+		METHOD d onRemove ()V
+		METHOD e tick ()V
+	FIELD c BLAZE_FLAGS Lpj;
+	METHOD D getSoundAmbient ()Lww;
+	METHOD F getLootTableId ()Lpu;
+	METHOD I mobTick ()V
+	METHOD a setFireActive (Z)V
+		ARG 1 value
+	METHOD aA getLightmapCoordinates ()I
+	METHOD aX isOnFire ()Z
+	METHOD c handleFallDamage (FF)V
+		ARG 1 fallDistance
+	METHOD cb initAttributes ()V
+	METHOD cw getSoundDeath ()Lww;
+	METHOD e getSoundHurt (Lafe;)Lww;
+	METHOD k updateMovement ()V
+	METHOD l isFireActive ()Z
+	METHOD n initAi ()V
+	METHOD y_ initDataTracker ()V

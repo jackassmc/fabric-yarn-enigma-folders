@@ -1,0 +1,5 @@
+CLASS px net/minecraft/migration/TagUpgraderCookedFish
+	FIELD a ID Lkp;
+	METHOD a getTargetVersion ()I
+	METHOD a upgradeTag (Ldt;)Ldt;
+		ARG 0 tag

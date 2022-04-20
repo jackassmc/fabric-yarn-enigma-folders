@@ -1,0 +1,18 @@
+CLASS cpi net/minecraft/client/gui/widget/VideoSettingsListWidget
+	CLASS cpi$1
+		METHOD a onPressed (DD)V
+			ARG 0 mouseX
+	CLASS cpi$a
+		METHOD a mouseClicked (DDI)Z
+			ARG 0 mouseX
+			ARG 1 mouseX
+			ARG 2 keyCode
+		METHOD a drawEntry (IIIIZF)V
+		METHOD b mouseReleased (DDI)Z
+			ARG 0 mouseX
+			ARG 1 mouseX
+			ARG 2 keyCode
+	METHOD <init> (Lcnv;IIIII[Lcnx$a;)V
+		ARG 1 client
+	METHOD e getEntryWidth ()I
+	METHOD f getScrollbarPosition ()I

@@ -1,0 +1,21 @@
+CLASS cdi net/minecraft/sortme/structures/StructureStart
+	CLASS cdi$1
+		METHOD <init> (Lbzg;IILbdh;Lccn;IJ)V
+			ARG 2 chunkX
+			ARG 3 chunkZ
+	FIELD b children Ljava/util/List;
+	FIELD c boundingBox Lccn;
+	FIELD e feature Lbzg;
+	FIELD f chunkX I
+	FIELD g chunkZ I
+	FIELD h biome Lbdh;
+	FIELD i references I
+	METHOD <init> (Lbzg;IILbdh;Lccn;IJ)V
+		ARG 2 chunkX
+		ARG 3 chunkZ
+	METHOD a toTag (II)Lhq;
+		ARG 1 chunkX
+		ARG 2 chunkZ
+	METHOD e hasChildren ()Z
+	METHOD i incrementReferences ()V
+	METHOD k getFeature ()Lbzg;

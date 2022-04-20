@@ -1,0 +1,5 @@
+CLASS asv net/minecraft/entity/vehicle/CommandBlockMinecartEntity
+	FIELD b COMMAND Lps;
+	FIELD c LAST_OUTPUT Lps;
+	FIELD d commandExecutor Lbbs;
+	METHOD e getCommandExecutor ()Lbbs;

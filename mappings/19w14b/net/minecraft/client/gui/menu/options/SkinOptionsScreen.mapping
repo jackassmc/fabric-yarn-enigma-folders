@@ -1,0 +1,6 @@
+CLASS czh net/minecraft/client/gui/menu/options/SkinOptionsScreen
+	FIELD a parent Lczf;
+	METHOD <init> (Lczf;)V
+		ARG 1 parent
+	METHOD a getPlayerModelPartDisplayString (Lavp;)Ljava/lang/String;
+		ARG 1 part

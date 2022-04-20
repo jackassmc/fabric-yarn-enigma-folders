@@ -1,0 +1,4 @@
+CLASS bfm net/minecraft/enchantment/QuickChargeEnchantment
+	METHOD <init> (Lbey$a;[Laie;)V
+		ARG 1 weight
+		ARG 2 slot

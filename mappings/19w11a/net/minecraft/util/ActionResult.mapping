@@ -1,0 +1,2 @@
+CLASS agr net/minecraft/util/ActionResult
+	FIELD b PASS Lagr;

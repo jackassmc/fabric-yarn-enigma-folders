@@ -1,0 +1,39 @@
+CLASS cyx net/minecraft/client/player/PlayerCapabilitites
+	FIELD a game Lcnl;
+	FIELD b networkHandler Lcyv;
+	FIELD c currentBreakingPos Les;
+	FIELD e currentBreakingProgress F
+	FIELD h breakingBlock Z
+	FIELD i currentGameMode Lbaj;
+	FIELD j lastSelectedSlot I
+	METHOD <init> (Lcnl;Lcyv;)V
+		ARG 1 game
+	METHOD a hasStatusBars ()Z
+	METHOD a copyAbilities (Laqf;)V
+	METHOD a attackEntity (Laqf;Lage;)V
+	METHOD a useEntity (Laqf;Lage;Laex;)Laez;
+	METHOD a useEntityLocation (Laqf;Lage;Lckd;Laex;)Laez;
+	METHOD a useItem (Laqf;Lbam;Laex;)Laez;
+	METHOD a setCurrentGameMode (Lbaj;)V
+	METHOD a useBlock (Ldbb;Lcyy;Les;Lex;Lckg;Laex;)Laez;
+		ARG 1 player
+		ARG 2 world
+		ARG 3 pos
+		ARG 4 facing
+		ARG 5 hitLocation
+	METHOD a breakBlock (Les;)Z
+	METHOD a attackBlock (Les;Lex;)Z
+		ARG 1 pos
+	METHOD b cancelBlockBreaking ()V
+	METHOD b isCurrentlyBreaking (Les;)Z
+	METHOD c getReachDistance ()F
+	METHOD d tick ()V
+	METHOD e hasExperienceBar ()Z
+	METHOD f hasLimitedAttackSpeed ()Z
+	METHOD g hasCreativeInventory ()Z
+	METHOD h hasExtendedReach ()Z
+	METHOD i hasRidingInventory ()Z
+	METHOD j isFlyingLocked ()Z
+	METHOD k getCurrentGameMode ()Lbaj;
+	METHOD l isBreakingBlock ()Z
+	METHOD m syncSelectedSlot ()V

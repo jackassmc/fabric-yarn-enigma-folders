@@ -1,0 +1,2 @@
+CLASS dlb net/minecraft/client/render/entity/PaintingEntityRenderer
+	FIELD a TEX Lqd;

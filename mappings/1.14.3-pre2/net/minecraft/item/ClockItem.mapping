@@ -1,0 +1,12 @@
+CLASS bas net/minecraft/item/ClockItem
+	CLASS bas$1
+		FIELD b time D
+		FIELD c step D
+		FIELD d lastTick J
+		METHOD a getTime (Lbhl;D)D
+			ARG 1 world
+			ARG 2 skyAngle
+		METHOD call (Lbce;Lbhl;Laiu;)F
+			ARG 1 stack
+			ARG 2 world
+			ARG 3 user

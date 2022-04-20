@@ -1,0 +1,14 @@
+CLASS bem net/minecraft/enchantment/ProtectionEnchantment
+	CLASS bem$a Type
+		FIELD a ALL Lbem$a;
+		FIELD b FIRE Lbem$a;
+		FIELD c FALL Lbem$a;
+		FIELD d EXPLOSION Lbem$a;
+		FIELD e PROJECTILE Lbem$a;
+		METHOD <init> (Ljava/lang/String;ILjava/lang/String;II)V
+			ARG 3 name
+	FIELD a type Lbem$a;
+	METHOD <init> (Lbdz$a;Lbem$a;[Laib;)V
+		ARG 1 weight
+		ARG 2 type
+		ARG 3 slotTypes

@@ -1,0 +1,27 @@
+CLASS cnl net/minecraft/client/gui/hud/HudInGame
+	FIELD H scaledWidth I
+	FIELD I scaledHeight I
+	FIELD J listeners Ljava/util/Map;
+	FIELD f VIGNETTE_TEX Lpx;
+	FIELD g WIDGETS_TEX Lpx;
+	FIELD h PUMPKIN_BLUR Lpx;
+	FIELD i rand Ljava/util/Random;
+	FIELD j game Lcmx;
+	FIELD k itemRenderer Ldgn;
+	FIELD l hudChat Lcnv;
+	FIELD r currentStack Lavf;
+	FIELD s hudDebug Lcnx;
+	FIELD t hudSubtitles Lcop;
+	FIELD u hudSpectator Lcow;
+	FIELD v hudScoreboard Lcok;
+	FIELD w hudBossBar Lcnt;
+	METHOD a draw (F)V
+	METHOD a addChatMessage (Lix;Liz;)V
+	METHOD d renderDemoTimer ()V
+	METHOD f getHudChat ()Lcnv;
+	METHOD h getFontRenderer ()Lcnk;
+	METHOD i getSpectatorWidget ()Lcow;
+	METHOD j getScoreboardWidget ()Lcok;
+	METHOD k clear ()V
+	METHOD l getHudBossBar ()Lcnt;
+	METHOD n getCameraPlayer ()Laqa;

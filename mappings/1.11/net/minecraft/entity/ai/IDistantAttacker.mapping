@@ -1,0 +1,3 @@
+CLASS aab net/minecraft/entity/ai/IDistantAttacker
+	METHOD a attackDistant (Lsv;F)V
+		ARG 0 target

@@ -1,0 +1,2 @@
+CLASS bta net/minecraft/world/chunk/storage/RegionFileCache
+	METHOD a getRegionFile (Lbby;)Lbsz;

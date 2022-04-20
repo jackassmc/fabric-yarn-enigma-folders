@@ -1,0 +1,3 @@
+CLASS cvv net/minecraft/client/render/item/ItemColorMapper
+	METHOD getColor (Lbbz;I)I
+		ARG 1 stack

@@ -1,0 +1,45 @@
+CLASS apj net/minecraft/entity/mob/PhantomEntity
+	CLASS apj$b
+		METHOD a canStart ()Z
+		METHOD b shouldContinue ()Z
+	CLASS apj$c
+		METHOD a canStart ()Z
+		METHOD c start ()V
+		METHOD d onRemove ()V
+		METHOD e tick ()V
+	CLASS apj$e
+		METHOD a canStart ()Z
+		METHOD c start ()V
+		METHOD e tick ()V
+	CLASS apj$f
+		METHOD a tick ()V
+	CLASS apj$g
+		METHOD a tick ()V
+	CLASS apj$h
+	CLASS apj$i
+		METHOD a canStart ()Z
+		METHOD b shouldContinue ()Z
+		METHOD c start ()V
+		METHOD d onRemove ()V
+		METHOD e tick ()V
+	METHOD D getSoundAmbient ()Lxf;
+	METHOD H mobTick ()V
+	METHOD U_ update ()V
+	METHOD a shouldRender (D)Z
+	METHOD a (Lbar;Lafa;Lagu;Lahc;Lhp;)Lahc;
+		ARG 3 difficulty
+	METHOD a deserializeCustomData (Lhp;)V
+		ARG 1 tag
+	METHOD a onTrackedDataSet (Lpn;)V
+	METHOD b serializeCustomData (Lhp;)V
+		ARG 1 tag
+	METHOD b canTrack (Ljava/lang/Class;)Z
+	METHOD bH getEyeHeight ()F
+	METHOD bX getSoundCategory ()Lxh;
+	METHOD cI getSoundVolume ()F
+	METHOD cb initAttributes ()V
+	METHOD cw getSoundDeath ()Lxf;
+	METHOD e getSoundHurt (Lafr;)Lxf;
+	METHOD k updateMovement ()V
+	METHOD n initAi ()V
+	METHOD x_ initDataTracker ()V

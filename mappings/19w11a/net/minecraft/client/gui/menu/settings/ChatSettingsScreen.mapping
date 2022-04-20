@@ -1,0 +1,6 @@
+CLASS cxg net/minecraft/client/gui/menu/settings/ChatSettingsScreen
+	FIELD a SETTINGS [Lctt;
+	FIELD b parent Lcyh;
+	FIELD g settings Lctu;
+	METHOD <init> (Lcyh;Lctu;)V
+		ARG 1 parent

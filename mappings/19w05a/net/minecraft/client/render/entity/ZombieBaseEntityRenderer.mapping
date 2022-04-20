@@ -1,0 +1,2 @@
+CLASS dix net/minecraft/client/render/entity/ZombieBaseEntityRenderer
+	FIELD a SKIN Lqd;

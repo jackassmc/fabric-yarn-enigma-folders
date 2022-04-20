@@ -1,0 +1,3 @@
+CLASS axf net/minecraft/item/FoodCropItem
+	FIELD a crop Lbpm;
+	METHOD a useOnBlock (Layb;)Lafq;

@@ -1,0 +1,10 @@
+CLASS cne net/minecraft/util/hit/HitResult
+	CLASS cne$a Type
+		FIELD a NONE Lcne$a;
+		FIELD b BLOCK Lcne$a;
+		FIELD c ENTITY Lcne$a;
+	FIELD a pos Lcng;
+	METHOD <init> (Lcng;)V
+		ARG 1 pos
+	METHOD c getType ()Lcne$a;
+	METHOD e getPos ()Lcng;

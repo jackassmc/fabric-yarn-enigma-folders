@@ -1,0 +1,3 @@
+CLASS dib net/minecraft/client/render/entity/EntityRendererTropicalFish
+	METHOD a getTexture (Lagc;)Lpx;
+	METHOD a getTexture (Lalz;)Lpx;

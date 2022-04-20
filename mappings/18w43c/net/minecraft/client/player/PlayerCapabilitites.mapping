@@ -1,0 +1,24 @@
+CLASS cuz net/minecraft/client/player/PlayerCapabilitites
+	FIELD a game Lcjk;
+	FIELD b networkHandler Lcux;
+	FIELD c currentBreakingPos Leq;
+	FIELD e currentBreakingProgress F
+	FIELD h breakingBlock Z
+	FIELD i currentGameMode Layx;
+	METHOD <init> (Lcjk;Lcux;)V
+		ARG 0 game
+		ARG 1 networkHandler
+	METHOD a hasStatusBars ()Z
+	METHOD a copyAbilities (Lapb;)V
+		ARG 0 playerEntity
+	METHOD a setCurrentGameMode (Layx;)V
+		ARG 0 value
+	METHOD b cancelBlockBreaking ()V
+	METHOD e hasExperienceBar ()Z
+	METHOD f hasLimitedAttackSpeed ()Z
+	METHOD g hasCreativeInventory ()Z
+	METHOD h hasExtendedReach ()Z
+	METHOD i hasRidingInventory ()Z
+	METHOD j isFlyingLocked ()Z
+	METHOD k getCurrentGameMode ()Layx;
+	METHOD l isBreakingBlock ()Z

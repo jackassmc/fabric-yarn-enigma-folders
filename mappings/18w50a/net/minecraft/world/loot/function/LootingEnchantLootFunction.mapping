@@ -1,0 +1,15 @@
+CLASS ckg net/minecraft/world/loot/function/LootingEnchantLootFunction
+	CLASS ckg$a
+		METHOD b build ()Lcke;
+		METHOD d build ()Lckd$a;
+	CLASS ckg$b Factory
+		METHOD a toJson (Lcom/google/gson/JsonObject;Lckd;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD a toJson (Lcom/google/gson/JsonObject;Lcke;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD a serialize (Lcom/google/gson/JsonObject;Lckg;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD a deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;[Lclh;)Lckg;
+		METHOD b fromJson (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;[Lclh;)Lckd;
+	FIELD a range Lcjd;
+	FIELD c amount I
+	METHOD a getRequiredParameters ()Ljava/util/Set;
+	METHOD a process (Lawo;Lciv;)Lawo;
+		ARG 1 stack

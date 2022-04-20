@@ -1,0 +1,16 @@
+CLASS bvb net/minecraft/world/gen/feature/ConfiguredFeature
+	FIELD a feature Lbwd;
+	FIELD b config Lbwe;
+	METHOD <init> (Lbwd;Lbwe;)V
+		ARG 1 feature
+		ARG 2 config
+	METHOD <init> (Lbwd;Lcom/mojang/datafixers/Dynamic;)V
+		ARG 1 feature
+	METHOD a generate (Lbcm;Lbrz;Ljava/util/Random;Let;)Z
+		ARG 1 world
+		ARG 2 generator
+		ARG 3 random
+	METHOD a deserialize (Lcom/mojang/datafixers/Dynamic;)Lbvb;
+		ARG 0 dynamic
+	METHOD a serialize (Lcom/mojang/datafixers/types/DynamicOps;)Lcom/mojang/datafixers/Dynamic;
+		ARG 1 ops

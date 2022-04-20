@@ -1,0 +1,58 @@
+CLASS blc net/minecraft/block/entity/BlockEntityStructureBlock
+	FIELD e author Ljava/lang/String;
+	FIELD f metadata Ljava/lang/String;
+	FIELD g offset Leq;
+	FIELD h size Leq;
+	FIELD i mirror Lbha;
+	FIELD j rotation Lbia;
+	FIELD k mode Lbno;
+	FIELD l ignoreEntities Z
+	FIELD m powered Z
+	FIELD n showAir Z
+	FIELD o showBoundingBox Z
+	FIELD p integrity F
+	FIELD q seed J
+	METHOD E isPowered ()Z
+	METHOD G shouldShowAir ()Z
+	METHOD H shouldShowBoundingBox ()Z
+	METHOD a setIntegrity (F)V
+		ARG 0 value
+	METHOD a setSeed (J)V
+		ARG 0 value
+	METHOD a setAuthor (Lafq;)V
+		ARG 0 entity
+	METHOD a setMode (Lbno;)V
+		ARG 0 value
+	METHOD a serialize (Lhl;)Lhl;
+		ARG 0 tag
+	METHOD a setIgnoreEntities (Z)V
+		ARG 0 value
+	METHOD aa_ getUpdatePacket ()Ljx;
+	METHOD ab_ serializeInitialChunkData ()Lhl;
+	METHOD b setMirror (Lbha;)V
+		ARG 0 mirror
+	METHOD b setRotation (Lbia;)V
+		ARG 0 value
+	METHOD b setOffset (Leq;)V
+		ARG 0 value
+	METHOD b deserialize (Lhl;)V
+		ARG 0 tag
+	METHOD b setMetadata (Ljava/lang/String;)V
+		ARG 0 vallue
+	METHOD c setSize (Leq;)V
+		ARG 0 value
+	METHOD d setPowered (Z)V
+		ARG 0 value
+	METHOD e getOffset ()Leq;
+	METHOD e setShowAir (Z)V
+		ARG 0 value
+	METHOD f getSize ()Leq;
+	METHOD f setShowBoundingBox (Z)V
+		ARG 0 value
+	METHOD h getMirror ()Lbha;
+	METHOD i getRotation ()Lbia;
+	METHOD j getMetadata ()Ljava/lang/String;
+	METHOD k getMode ()Lbno;
+	METHOD m shouldIgnoreEntities ()Z
+	METHOD n getIntegrity ()F
+	METHOD o getSeed ()J

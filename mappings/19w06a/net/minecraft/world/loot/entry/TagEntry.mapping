@@ -1,0 +1,5 @@
+CLASS ckm net/minecraft/world/loot/entry/TagEntry
+	CLASS ckm$a Serializer
+	FIELD c name Lyn;
+	FIELD h expand Z
+	METHOD b create (Lyn;)Lckj$a;

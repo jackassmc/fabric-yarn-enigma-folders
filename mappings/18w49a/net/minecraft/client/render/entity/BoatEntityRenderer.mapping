@@ -1,0 +1,5 @@
+CLASS dgk net/minecraft/client/render/entity/BoatEntityRenderer
+	FIELD f SKIN [Lpz;
+	METHOD a getTexture (Lagk;)Lpz;
+	METHOD a getTexture (Larr;)Lpz;
+	METHOD am_ hasSecondPass ()Z

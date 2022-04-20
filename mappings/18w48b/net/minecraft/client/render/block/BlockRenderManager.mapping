@@ -1,0 +1,14 @@
+CLASS dcw net/minecraft/client/render/block/BlockRenderManager
+	FIELD a maps Ldcv;
+	FIELD b renderer Ldcy;
+	METHOD <init> (Ldcv;Lcoe;)V
+		ARG 1 maps
+	METHOD a getStateMaps ()Ldcv;
+	METHOD a getModel (Lboj;)Ldmu;
+	METHOD a render (Lboj;F)V
+		ARG 1 state
+	METHOD a tesselate (Lboj;Let;Ldlm;Lbaa;)V
+		ARG 1 state
+		ARG 2 pos
+	METHOD a onResourceReload (Lwc;)V
+	METHOD b getRenderer ()Ldcy;

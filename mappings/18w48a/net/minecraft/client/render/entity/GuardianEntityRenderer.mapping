@@ -1,0 +1,5 @@
+CLASS dhd net/minecraft/client/render/entity/GuardianEntityRenderer
+	FIELD a SKIN Lpy;
+	FIELD j EXPLOSION_BEAM_TEX Lpy;
+	METHOD a getTexture (Lagi;)Lpy;
+	METHOD a getTexture (Lapc;)Lpy;

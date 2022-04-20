@@ -1,0 +1,54 @@
+CLASS vn net/minecraft/server/network/ServerPlayNetworkHandler
+	FIELD A teleportRequestTick I
+	FIELD B floating Z
+	FIELD C floatingTicks I
+	FIELD D ridingEntity Z
+	FIELD E vehicleFloatingTicks I
+	FIELD F movePacketsCount I
+	FIELD G lastTickMovePacketsCount I
+	FIELD a client Liu;
+	FIELD b player Luv;
+	FIELD c LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD d server Lnet/minecraft/server/MinecraftServer;
+	FIELD e ticks I
+	FIELD f lastKeepAliveTime J
+	FIELD g waitingForKeepAlive Z
+	FIELD h keepAliveId J
+	FIELD i messageCooldown I
+	FIELD j creativeItemDropThreshold I
+	FIELD k transactions Lzd;
+	FIELD l lastTickX D
+	FIELD m lastTickY D
+	FIELD n lastTickZ D
+	FIELD o updatedX D
+	FIELD p updatedY D
+	FIELD q updatedZ D
+	FIELD r topmostRiddenEntity Lahl;
+	FIELD s lastTickRiddenX D
+	FIELD t lastTickRiddenY D
+	FIELD u lastTickRiddenZ D
+	FIELD v updatedRiddenX D
+	FIELD w updatedRiddenY D
+	FIELD x updatedRiddenZ D
+	FIELD y requestedTeleportPos Lcng;
+	FIELD z requestedTeleportId I
+	METHOD a getConnection ()Liu;
+	METHOD a teleportRequest (DDDFF)V
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+		ARG 7 yaw
+		ARG 8 pitch
+	METHOD a teleportRequest (DDDFFLjava/util/Set;)V
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+		ARG 7 yaw
+		ARG 8 pitch
+	METHOD a sendPacket (Lju;)V
+	METHOD a sendPacket (Lju;Lio/netty/util/concurrent/GenericFutureListener;)V
+	METHOD b syncWithPlayerPosition ()V
+	METHOD b disconnect (Ljg;)V
+	METHOD b validatePlayerMove (Lny;)Z
+	METHOD b validateVehicleMove (Lnz;)Z
+	METHOD c executeCommand (Ljava/lang/String;)V

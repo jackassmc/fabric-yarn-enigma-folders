@@ -1,0 +1,2 @@
+CLASS cnu net/minecraft/world/level/UnmodifiableLevelProperties
+	FIELD b properties Lcnw;

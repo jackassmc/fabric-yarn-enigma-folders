@@ -1,0 +1,32 @@
+CLASS bl net/minecraft/advancement/criterion/RecipeUnlockedCriterion
+	CLASS bl$a Handler
+		FIELD a manager Lqi;
+		FIELD b conditions Ljava/util/Set;
+		METHOD <init> (Lqi;)V
+			ARG 0 manage
+		METHOD a isEmpty ()Z
+		METHOD a handle (Laxy;)V
+		METHOD a addCondition (Lu$a;)V
+			ARG 0 condition
+		METHOD b removeCondition (Lu$a;)V
+			ARG 0 condition
+	CLASS bl$b Conditions
+		FIELD a recipe Lpy;
+		METHOD <init> (Lpy;)V
+			ARG 0 id
+		METHOD a matches (Laxy;)Z
+			ARG 0 recipe
+	FIELD a ID Lpy;
+	FIELD b handlers Ljava/util/Map;
+	METHOD a getId ()Lpy;
+	METHOD a deserializeConditions (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Lv;
+		ARG 1 obj
+	METHOD a removePlayer (Lqi;)V
+	METHOD a addCondition (Lqi;Lu$a;)V
+		ARG 1 manager
+	METHOD a handle (Lul;Laxy;)V
+		ARG 1 player
+	METHOD b deserializeConditions (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Lbl$b;
+		ARG 1 obj
+	METHOD b removeCondition (Lqi;Lu$a;)V
+		ARG 1 manager

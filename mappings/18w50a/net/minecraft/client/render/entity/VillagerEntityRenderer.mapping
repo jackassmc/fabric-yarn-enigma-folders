@@ -1,0 +1,4 @@
+CLASS dlh net/minecraft/client/render/entity/VillagerEntityRenderer
+	FIELD a VILLAGER_SKIN Lqc;
+	METHOD a getTexture (Lagv;)Lqc;
+	METHOD a getTexture (Laqr;)Lqc;

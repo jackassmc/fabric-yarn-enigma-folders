@@ -1,0 +1,3 @@
+CLASS cro net/minecraft/world/timer/FunctionTimerCallback
+	CLASS cro$a Serializer
+	FIELD a name Lqt;

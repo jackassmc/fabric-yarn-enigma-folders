@@ -1,0 +1,4 @@
+CLASS dty net/minecraft/client/render/entity/PlayerEntityRenderer
+	METHOD b renderRightArm (Ldjx;)V
+	METHOD c renderLeftArm (Ldjx;)V
+	METHOD d setModelPose (Ldjx;)V

@@ -1,0 +1,30 @@
+CLASS iz net/minecraft/network/packet/client/CPacketWorldBorder
+	CLASS iz$a Type
+		FIELD a SET_SIZE Liz$a;
+		FIELD b INTERPOLATE_SIZE Liz$a;
+		FIELD c SET_CENTER Liz$a;
+		FIELD d INITIALIZE Liz$a;
+		FIELD e SET_WARNING_TIME Liz$a;
+		FIELD f SET_WARNING_BLOCKS Liz$a;
+	FIELD a type Liz$a;
+	FIELD b portalTeleportPosLimit I
+	FIELD c centerX D
+	FIELD d centerZ D
+	FIELD e size D
+	FIELD f oldSize D
+	FIELD g interpolationDuration J
+	FIELD h warningTime I
+	FIELD i warningBlocks I
+	METHOD <init> (Lavy;Liz$a;)V
+		ARG 0 border
+		ARG 1 type
+	METHOD a apply (Lavy;)V
+		ARG 0 border
+	METHOD a readPacket (Lgb;)V
+		ARG 0 buf
+	METHOD a applyPacket (Lge;)V
+		ARG 0 handler
+	METHOD a applyPacket (Lgy;)V
+		ARG 0 handler
+	METHOD b writePacket (Lgb;)V
+		ARG 0 buf

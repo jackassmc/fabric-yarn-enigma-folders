@@ -1,0 +1,21 @@
+CLASS aqo net/minecraft/entity/attribute/EntityAttributes
+	FIELD a MAX_HEALTH Laif;
+	FIELD b FOLLOW_RANGE Laif;
+	FIELD c KNOCKBACK_RESISTANCE Laif;
+	FIELD d MOVEMENT_SPEED Laif;
+	FIELD e FLYING_SPEED Laif;
+	FIELD f ATTACK_DAMAGE Laif;
+	FIELD g ATTACK_KNOCKBACK Laif;
+	FIELD h ATTACK_SPEED Laif;
+	FIELD i ARMOR Laif;
+	FIELD j ARMOR_TOUGHNESS Laif;
+	FIELD k LUCK Laif;
+	FIELD l LOGGER Lorg/apache/logging/log4j/Logger;
+	METHOD a toTag (Laig;)Lhr;
+		ARG 0 instance
+	METHOD a toTag (Laih;)Lhr;
+		ARG 0 modifier
+	METHOD a toTag (Laij;)Lhx;
+		ARG 0 container
+	METHOD a createFromTag (Lhr;)Laih;
+		ARG 0 tag

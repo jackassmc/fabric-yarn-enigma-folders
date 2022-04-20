@@ -1,0 +1,3 @@
+CLASS ccj net/minecraft/world/chunk/light/LightingProvider
+	METHOD a get (Lbap;)Lcch;
+	METHOD a queueLightCheck (Les;)V

@@ -1,0 +1,7 @@
+CLASS dig net/minecraft/client/particle/NoteParticle
+	CLASS dig$a Factory
+	METHOD <init> (Lbgx;DDDD)V
+		ARG 1 world
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z

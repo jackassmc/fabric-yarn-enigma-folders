@@ -1,0 +1,3 @@
+CLASS bmz net/minecraft/block/entity/DropperBlockEntity
+	METHOD d getName ()Ljb;
+	METHOD m getContainerId ()Ljava/lang/String;

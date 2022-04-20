@@ -1,0 +1,7 @@
+CLASS bxi net/minecraft/world/gen/config/feature/VillageFeatureConfig
+	FIELD a sizeModifier I
+	FIELD b type Lcbf$n;
+	METHOD <init> (ILcbf$n;)V
+		ARG 1 sizeModifier
+	METHOD a (Lcom/mojang/datafixers/Dynamic;)Lbxi;
+		ARG 0 dynamic

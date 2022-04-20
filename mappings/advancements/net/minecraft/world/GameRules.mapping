@@ -1,0 +1,26 @@
+CLASS alf net/minecraft/world/GameRules
+	CLASS alf$a Value
+		FIELD a asString Ljava/lang/String;
+		FIELD b asBoolean Z
+		FIELD c asInteger I
+		FIELD d asDouble D
+		FIELD e type Lalf$b;
+		METHOD a getString ()Ljava/lang/String;
+		METHOD a set (Ljava/lang/String;)V
+		METHOD b getBoolean ()Z
+		METHOD c getInteger ()I
+		METHOD e getType ()Lalf$b;
+	CLASS alf$b Type
+		FIELD a STRING Lalf$b;
+		FIELD b BOOLEAN Lalf$b;
+		FIELD c INTEGER Lalf$b;
+	FIELD a rules Ljava/util/TreeMap;
+	METHOD a serialize ()Lfc;
+	METHOD a deserialize (Lfc;)V
+	METHOD a getString (Ljava/lang/String;)Ljava/lang/String;
+	METHOD a set (Ljava/lang/String;Ljava/lang/String;)V
+	METHOD a add (Ljava/lang/String;Ljava/lang/String;Lalf$b;)V
+	METHOD b getNames ()[Ljava/lang/String;
+	METHOD b getBoolean (Ljava/lang/String;)Z
+	METHOD c getInteger (Ljava/lang/String;)I
+	METHOD e contains (Ljava/lang/String;)Z

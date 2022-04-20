@@ -1,0 +1,52 @@
+CLASS avo net/minecraft/entity/passive/VillagerEntity
+	FIELD bA ITEM_FOOD_VALUES Ljava/util/Map;
+	FIELD bB POINTS_OF_INTEREST Ljava/util/Map;
+	FIELD bC VILLAGER_DATA Lqi;
+	FIELD bD GATHERABLE_ITEMS Ljava/util/Set;
+	FIELD bE levelUpTimer I
+	FIELD bF levellingUp Z
+	FIELD bG lastCustomer Lawb;
+	FIELD bI foodLevel B
+	FIELD bJ gossip Lapb;
+	FIELD bK gossipStartTime J
+	FIELD bM experience I
+	FIELD bN lastRestock J
+	FIELD bO MEMORY_MODULES Lcom/google/common/collect/ImmutableList;
+	FIELD bP SENSORS Lcom/google/common/collect/ImmutableList;
+	METHOD <init> (Laip;Lbhm;Lavt;)V
+		ARG 1 entityType
+		ARG 2 world
+		ARG 3 type
+	METHOD a initBrain (Lajj;)V
+		ARG 1 brain
+	METHOD a releaseTicketFor (Lape;)V
+	METHOD a talkWithVillager (Lavo;J)V
+		ARG 2 time
+	METHOD a setVillagerData (Lavp;)V
+		ARG 1 villagerData
+	METHOD a reinitializeBrain (Lvi;)V
+		ARG 1 world
+	METHOD b setOffers (Lbgq;)V
+		ARG 1 offers
+	METHOD eA getAvailableFood ()I
+	METHOD eD spawnIronGolem ()Lard;
+	METHOD ek restock ()V
+	METHOD el playWorkSound ()V
+	METHOD en isReadyToBreed ()Z
+	METHOD eo consumeAvailableFood ()V
+	METHOD eq wantsToStartBreeding ()Z
+	METHOD er canBreed ()Z
+	METHOD es hasSeedToPlant ()Z
+	METHOD et getLastRestock ()J
+	METHOD ev sayNo ()V
+	METHOD ew clearCurrentBonus ()V
+	METHOD ey canLevelUp ()Z
+	METHOD ez levelUp ()V
+	METHOD g beginTradeWith (Lawb;)V
+		ARG 1 customer
+	METHOD h prepareRecipesFor (Lawb;)V
+		ARG 1 player
+	METHOD t setExperience (I)V
+		ARG 1 amount
+	METHOD u depleteFood (I)V
+		ARG 1 amount

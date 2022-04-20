@@ -1,0 +1,4 @@
+CLASS als net/minecraft/sortme/MobSpawnerEntry
+	FIELD b entityTag Lfc;
+	METHOD a serialize ()Lfc;
+	METHOD b getEntityTag ()Lfc;

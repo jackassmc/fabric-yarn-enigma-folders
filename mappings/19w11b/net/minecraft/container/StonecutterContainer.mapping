@@ -1,0 +1,22 @@
+CLASS ayi net/minecraft/container/StonecutterContainer
+	FIELD d inputSlot Layf;
+	FIELD e outputSlot Layf;
+	FIELD f inventory Lagk;
+	FIELD g context Laxc;
+	FIELD h selectedRecipe Laxg;
+	FIELD i world Lbfx;
+	FIELD j availableRecipes Ljava/util/List;
+	FIELD k inputStack Lbar;
+	FIELD l lastTakeTime J
+	FIELD m contentsChangedListener Ljava/lang/Runnable;
+	METHOD <init> (ILaum;)V
+		ARG 1 syncId
+	METHOD <init> (ILaum;Laxc;)V
+		ARG 1 syncId
+	METHOD a updateInput (Lagk;Lbar;)V
+	METHOD a setContentsChangedListener (Ljava/lang/Runnable;)V
+	METHOD e getSelectedRecipe ()I
+	METHOD f getAvailableRecipes ()Ljava/util/List;
+	METHOD g getAvailableRecipeCount ()I
+	METHOD h canCraft ()Z
+	METHOD i populateResult ()V

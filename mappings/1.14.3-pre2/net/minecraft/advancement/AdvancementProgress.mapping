@@ -1,0 +1,28 @@
+CLASS s net/minecraft/advancement/AdvancementProgress
+	CLASS s$a Serializer
+		METHOD deserialize (Lcom/google/gson/JsonElement;Ljava/lang/reflect/Type;Lcom/google/gson/JsonDeserializationContext;)Ljava/lang/Object;
+			ARG 1 functionJson
+			ARG 2 unused
+			ARG 3 context
+		METHOD serialize (Ljava/lang/Object;Ljava/lang/reflect/Type;Lcom/google/gson/JsonSerializationContext;)Lcom/google/gson/JsonElement;
+			ARG 1 entry
+			ARG 2 unused
+			ARG 3 context
+	FIELD a criteriaProgresses Ljava/util/Map;
+	FIELD b requirements [[Ljava/lang/String;
+	METHOD a isDone ()Z
+	METHOD a obtain (Ljava/lang/String;)Z
+	METHOD a init (Ljava/util/Map;[[Ljava/lang/String;)V
+		ARG 1 criteria
+	METHOD a toPacket (Ljd;)V
+	METHOD b isAnyObtained ()Z
+	METHOD b reset (Ljava/lang/String;)Z
+	METHOD b fromPacket (Ljd;)Ls;
+		ARG 0 buf
+	METHOD c getProgressBarPercentage ()F
+	METHOD c getCriterionProgress (Ljava/lang/String;)Lw;
+	METHOD d getProgressBarFraction ()Ljava/lang/String;
+	METHOD e getUnobtainedCriteria ()Ljava/lang/Iterable;
+	METHOD f getObtainedCriteria ()Ljava/lang/Iterable;
+	METHOD g getEarliestProgressObtainDate ()Ljava/util/Date;
+	METHOD h countObtainedRequirements ()I

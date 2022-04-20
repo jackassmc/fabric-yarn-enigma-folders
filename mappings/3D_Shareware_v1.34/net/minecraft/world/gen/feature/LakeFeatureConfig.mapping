@@ -1,0 +1,6 @@
+CLASS cbt net/minecraft/world/gen/feature/LakeFeatureConfig
+	FIELD a state Lbuy;
+	METHOD <init> (Lbuy;)V
+		ARG 1 state
+	METHOD a deserialize (Lcom/mojang/datafixers/Dynamic;)Lcbt;
+		ARG 0 dynamic

@@ -1,0 +1,2 @@
+CLASS aru net/minecraft/entity/thrown/SnowballEntity
+	METHOD a onCollision (Lcma;)V

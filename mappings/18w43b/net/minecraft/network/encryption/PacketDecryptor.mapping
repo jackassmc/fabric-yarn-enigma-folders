@@ -1,0 +1,4 @@
+CLASS ig net/minecraft/network/encryption/PacketDecryptor
+	FIELD a manager Lie;
+	METHOD <init> (Ljavax/crypto/Cipher;)V
+		ARG 0 cipher

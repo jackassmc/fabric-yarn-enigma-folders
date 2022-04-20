@@ -1,0 +1,2 @@
+CLASS aui net/minecraft/item/ItemFireCharge
+	METHOD a useOnBlock (Lawn;)Laet;

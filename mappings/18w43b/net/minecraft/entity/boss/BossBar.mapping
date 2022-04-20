@@ -1,0 +1,37 @@
+CLASS ads net/minecraft/entity/boss/BossBar
+	CLASS ads$a Color
+	FIELD a name Liw;
+	FIELD b health F
+	FIELD c color Lads$a;
+	FIELD d division Lads$b;
+	FIELD e darkenSky Z
+	FIELD f dragonMusic Z
+	FIELD g thickenFog Z
+	FIELD h uuid Ljava/util/UUID;
+	METHOD <init> (Ljava/util/UUID;Liw;Lads$a;Lads$b;)V
+		ARG 0 uuid
+		ARG 1 name
+		ARG 2 color
+		ARG 3 division
+	METHOD a setHealth (F)V
+		ARG 0 health
+	METHOD a setColor (Lads$a;)V
+		ARG 0 color
+	METHOD a setDivision (Lads$b;)V
+		ARG 0 division
+	METHOD a setName (Liw;)V
+		ARG 0 name
+	METHOD a setDarkenSky (Z)Lads;
+		ARG 0 darkenSky
+	METHOD b setDragonMusic (Z)Lads;
+		ARG 0 dragonMusic
+	METHOD c setThickenFog (Z)Lads;
+		ARG 0 thickenFog
+	METHOD i getUuid ()Ljava/util/UUID;
+	METHOD j getName ()Liw;
+	METHOD k getHealth ()F
+	METHOD l getColor ()Lads$a;
+	METHOD m getDivision ()Lads$b;
+	METHOD n getDarkenSky ()Z
+	METHOD o hasDragonMusic ()Z
+	METHOD p getThickenFog ()Z

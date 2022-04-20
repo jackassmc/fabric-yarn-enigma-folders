@@ -1,0 +1,3 @@
+CLASS dru net/minecraft/client/render/entity/feature/CapeFeatureRenderer
+	METHOD <init> (Ldqk;)V
+		ARG 1 context

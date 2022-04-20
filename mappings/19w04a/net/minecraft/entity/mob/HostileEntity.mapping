@@ -1,0 +1,4 @@
+CLASS aqc net/minecraft/entity/mob/HostileEntity
+	METHOD <init> (Lahg;Lbcl;)V
+		ARG 1 type
+	METHOD J_ checkLightLevelForSpawn ()Z

@@ -1,0 +1,7 @@
+CLASS djb net/minecraft/client/particle/CloudParticle
+	CLASS djb$a CloudFactory
+	CLASS djb$b SneezeFactory
+	METHOD <init> (Lbhj;DDDDDDLdjj;)V
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z

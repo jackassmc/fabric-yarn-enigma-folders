@@ -1,0 +1,8 @@
+CLASS akd net/minecraft/entity/ai/goal/VillagerBreedGoal
+	FIELD b owner Larl;
+	FIELD c mate Larl;
+	FIELD d world Lbde;
+	FIELD e delay I
+	FIELD f foundVillage Lamk;
+	METHOD g needsMoreVillager ()Z
+	METHOD h spawnBabyVillager ()V

@@ -1,0 +1,3 @@
+CLASS dbb net/minecraft/client/render/entity/model/TridentEntityModel
+	FIELD a TEXTURE Lqd;
+	METHOD a renderItem ()V

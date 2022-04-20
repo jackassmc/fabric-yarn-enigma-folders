@@ -1,0 +1,22 @@
+CLASS anh net/minecraft/block/BlockFalling
+	FIELD f fallInstantly Z
+	METHOD a (Lajq;)I
+		ARG 0 world
+	METHOD a (Latj;Lajq;Lco;Ljava/util/Random;)V
+		ARG 0 state
+		ARG 1 world
+		ARG 2 pos
+		ARG 3 random
+	METHOD b randomTick (Lajq;Lco;Latj;Ljava/util/Random;)V
+		ARG 0 world
+		ARG 1 pos
+		ARG 2 state
+		ARG 3 random
+	METHOD c (Lajq;Lco;Latj;)V
+		ARG 0 world
+		ARG 1 pos
+		ARG 2 state
+	METHOD i canFallThrough (Latj;)Z
+		ARG 0 state
+	METHOD z getColor (Latj;)I
+		ARG 0 state

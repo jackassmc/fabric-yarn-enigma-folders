@@ -1,0 +1,5 @@
+CLASS ahj net/minecraft/entity/damage/ProjectileDamageSource
+	FIELD y attacker Lahy;
+	METHOD <init> (Ljava/lang/String;Lahy;Lahy;)V
+		ARG 1 name
+		ARG 2 projectile

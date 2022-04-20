@@ -1,0 +1,36 @@
+CLASS in net/minecraft/network/ClientConnection
+	FIELD c ATTR_KEY_PROTOCOL Lio/netty/util/AttributeKey;
+	FIELD d CLIENT_IO_GROUP Lyf;
+	FIELD e CLIENT_IO_GROUP_EPOLL Lyf;
+	FIELD f CLIENT_IO_GROUP_LOCAL Lyf;
+	FIELD g LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD h side Ljo;
+	FIELD j lock Ljava/util/concurrent/locks/ReentrantReadWriteLock;
+	FIELD k channel Lio/netty/channel/Channel;
+	FIELD l address Ljava/net/SocketAddress;
+	FIELD m packetListener Lis;
+	FIELD n disconnectReason Liz;
+	FIELD o encrypted Z
+	FIELD p disconnected Z
+	METHOD a tick ()V
+	METHOD a setMinCompressedSize (I)V
+	METHOD a setState (Lio;)V
+	METHOD a setPacketListener (Lis;)V
+	METHOD a disconnect (Liz;)V
+	METHOD a connect (Ljava/net/InetAddress;IZ)Lin;
+		ARG 0 address
+		ARG 1 port
+		ARG 2 shouldUseNativeTransport
+	METHOD a connect (Ljava/net/SocketAddress;)Lin;
+		ARG 0 address
+	METHOD a setupEncryption (Ljavax/crypto/SecretKey;)V
+	METHOD a sendPacket (Ljn;)V
+	METHOD a sendPacket (Ljn;Lio/netty/util/concurrent/GenericFutureListener;)V
+	METHOD b getAddress ()Ljava/net/SocketAddress;
+	METHOD c isLocal ()Z
+	METHOD f isEncrypted ()Z
+	METHOD g isOpen ()Z
+	METHOD h hasChannel ()Z
+	METHOD i getPacketListener ()Lis;
+	METHOD j getDisconnectReason ()Liz;
+	METHOD l handleDisconnection ()V

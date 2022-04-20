@@ -1,0 +1,7 @@
+CLASS dji net/minecraft/client/particle/SpellParticle
+	CLASS dji$a EntityAmbientFactory
+	CLASS dji$b InstantFactory
+	CLASS dji$c EntityFactory
+	CLASS dji$d DefaultFactory
+	CLASS dji$e WitchFactory
+	FIELD C RANDOM Ljava/util/Random;

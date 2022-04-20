@@ -1,0 +1,11 @@
+CLASS bsb net/minecraft/block/TripwireBlock
+	FIELD a POWERED Lbvr;
+	FIELD b ATTACHED Lbvr;
+	FIELD c DISARMED Lbvr;
+	FIELD d NORTH Lbvr;
+	FIELD e EAST Lbvr;
+	FIELD f SOUTH Lbvr;
+	FIELD g WEST Lbvr;
+	FIELD h ATTACHED_SHAPE Lcsf;
+	FIELD i DETACHED_SHAPE Lcsf;
+	FIELD j FACING_PROPERTIES Ljava/util/Map;

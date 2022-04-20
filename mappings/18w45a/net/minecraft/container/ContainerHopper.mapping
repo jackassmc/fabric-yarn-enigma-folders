@@ -1,0 +1,9 @@
+CLASS asa net/minecraft/container/ContainerHopper
+	FIELD a inventory Lael;
+	METHOD <init> (Lapu;Lael;Lapv;)V
+		ARG 1 playerInv
+		ARG 2 inventory
+	METHOD a canUse (Lapv;)Z
+	METHOD b close (Lapv;)V
+	METHOD b getStack (Lapv;I)Lava;
+		ARG 1 player

@@ -1,0 +1,19 @@
+CLASS an net/minecraft/util/StackPredicate
+	FIELD a ANY Lan;
+	FIELD b item Lail;
+	FIELD c data Ljava/lang/Integer;
+	FIELD d count Las;
+	FIELD f enchantments [Lag;
+	FIELD g potion Lake;
+	METHOD <init> (Lail;Ljava/lang/Integer;Las;Las;[Lag;Lake;Lau;)V
+		ARG 0 item
+		ARG 1 data
+		ARG 2 count
+		ARG 4 enchantments
+		ARG 5 potion
+	METHOD a matches (Lain;)Z
+		ARG 0 stack
+	METHOD a deserialize (Lcom/google/gson/JsonElement;)Lan;
+		ARG 0 el
+	METHOD b deserializeAll (Lcom/google/gson/JsonElement;)[Lan;
+		ARG 0 el

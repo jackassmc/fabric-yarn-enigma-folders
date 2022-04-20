@@ -1,0 +1,3 @@
+CLASS cdh net/minecraft/sortme/structures/MansionGenerator
+	CLASS cdh$i
+		METHOD a toNbt (Lhs;)V

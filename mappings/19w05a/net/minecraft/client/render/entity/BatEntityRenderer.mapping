@@ -1,0 +1,2 @@
+CLASS djc net/minecraft/client/render/entity/BatEntityRenderer
+	FIELD a SKIN Lqd;

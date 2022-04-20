@@ -1,0 +1,14 @@
+CLASS cwa net/minecraft/client/gui/widget/KeyBindingListWidget
+	CLASS cwa$a CategoryEntry
+		FIELD d name Ljava/lang/String;
+		FIELD e nameWidth I
+	CLASS cwa$b Entry
+	CLASS cwa$c KeyBindingEntry
+		FIELD d binding Lcqv;
+		FIELD e bindingName Ljava/lang/String;
+		FIELD f editButton Lcsa;
+		FIELD g resetButton Lcsa;
+	FIELD t gui Lcwb;
+	FIELD u client Lcqx;
+	METHOD <init> (Lcwb;Lcqx;)V
+		ARG 1 gui

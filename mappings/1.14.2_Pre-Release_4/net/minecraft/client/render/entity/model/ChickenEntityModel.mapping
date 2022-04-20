@@ -1,0 +1,2 @@
+CLASS deh net/minecraft/client/render/entity/model/ChickenEntityModel
+	FIELD a head Ldhd;

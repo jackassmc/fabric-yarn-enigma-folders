@@ -1,0 +1,4 @@
+CLASS dms net/minecraft/client/render/entity/feature/FeatureRendererContext
+	METHOD a bindTexture (Lqi;)V
+	METHOD d getModel ()Ldak;
+	METHOD e applyLightmapCoordinates (Lahl;)V

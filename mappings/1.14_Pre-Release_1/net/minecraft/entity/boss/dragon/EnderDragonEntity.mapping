@@ -1,0 +1,22 @@
+CLASS asa net/minecraft/entity/boss/dragon/EnderDragonEntity
+	FIELD bA parts [Lary;
+	FIELD bB partHead Lary;
+	FIELD bC partNeck Lary;
+	FIELD bD partBody Lary;
+	FIELD bE partTail1 Lary;
+	FIELD bF partTail2 Lary;
+	FIELD bG partTail3 Lary;
+	FIELD bH partWingRight Lary;
+	FIELD bI partWingLeft Lary;
+	FIELD b PHASE_TYPE Lqh;
+	FIELD bO LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD bP CLOSE_PLAYER_PREDICATE Lapt;
+	FIELD bQ fight Lbya;
+	FIELD bR phaseManager Lasr;
+	METHOD a damagePart (Lary;Lahm;F)Z
+	METHOD a crystalDestroyed (Larz;Lev;Lahm;)V
+		ARG 1 crystal
+		ARG 2 pos
+		ARG 3 source
+	METHOD dR getPhaseManager ()Lasr;
+	METHOD dS getFight ()Lbya;

@@ -1,0 +1,3 @@
+CLASS bmo net/minecraft/block/EndGatewayBlock
+	METHOD <init> (Lbky$c;)V
+		ARG 1 settings

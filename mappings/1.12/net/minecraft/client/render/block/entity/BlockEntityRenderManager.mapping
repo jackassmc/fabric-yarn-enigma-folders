@@ -1,0 +1,17 @@
+CLASS bwv net/minecraft/client/render/block/entity/BlockEntityRenderManager
+	FIELD a instance Lbwv;
+	FIELD e textureManager Lcdp;
+	FIELD f world Lams;
+	FIELD n blockEntityRenderers Ljava/util/Map;
+	FIELD o fontRenderer Lbin;
+	METHOD a getFontRenderer ()Lbin;
+	METHOD a setWorld (Lams;)V
+		ARG 0 world
+	METHOD a get (Lavh;)Lbww;
+		ARG 0 blockEntity
+	METHOD a render (Lavh;DDDF)V
+		ARG 0 blockEntity
+		ARG 4 deltaTicks
+	METHOD a render (Lavh;DDDFIF)V
+	METHOD a get (Ljava/lang/Class;)Lbww;
+		ARG 0 blockEntityClass

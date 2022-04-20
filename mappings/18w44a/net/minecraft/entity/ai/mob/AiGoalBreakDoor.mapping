@@ -1,0 +1,10 @@
+CLASS ahk net/minecraft/entity/ai/mob/AiGoalBreakDoor
+	FIELD d breakProgress I
+	FIELD e prevBreakProgress I
+	METHOD <init> (Lagf;)V
+		ARG 1 owner
+	METHOD a canStart ()Z
+	METHOD b shouldContinue ()Z
+	METHOD c start ()V
+	METHOD d onRemove ()V
+	METHOD e tick ()V

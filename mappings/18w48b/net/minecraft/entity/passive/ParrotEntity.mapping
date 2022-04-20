@@ -1,0 +1,31 @@
+CLASS aly net/minecraft/entity/passive/ParrotEntity
+	FIELD bL ATTR_VARIANT Lpn;
+	METHOD C pushAway (Lagi;)V
+	METHOD D getAmbientSound ()Lxf;
+	METHOD a damage (Lafr;F)Z
+		ARG 1 source
+	METHOD a createChild (Lagf;)Lagf;
+	METHOD a interactMob (Laqj;Lafb;)Z
+		ARG 1 player
+	METHOD a (Lbar;Lafa;Lagu;Lahc;Lhp;)Lahc;
+		ARG 3 difficulty
+	METHOD a playStepSound (Let;Lboj;)V
+		ARG 1 pos
+	METHOD a readCustomDataFromTag (Lhp;)V
+		ARG 1 tag
+	METHOD b createNavigation (Lbaq;)Lakt;
+	METHOD b writeCustomDataToTag (Lhp;)V
+		ARG 1 tag
+	METHOD bH getEyeHeight ()F
+	METHOD bX getSoundCategory ()Lxh;
+	METHOD c handleFallDamage (FF)V
+		ARG 1 fallDistance
+	METHOD cJ getSoundPitch ()F
+	METHOD cb initAttributes ()V
+	METHOD cw getDeathSound ()Lxf;
+	METHOD dJ getVariant ()I
+	METHOD e getHurtSound (Lafr;)Lxf;
+	METHOD k updateMovement ()V
+	METHOD n initAi ()V
+	METHOD p setVariant (I)V
+	METHOD x_ initDataTracker ()V

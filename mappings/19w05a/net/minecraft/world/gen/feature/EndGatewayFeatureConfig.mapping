@@ -1,0 +1,5 @@
+CLASS bwe net/minecraft/world/gen/feature/EndGatewayFeatureConfig
+	FIELD b exitsAtSpawn Z
+	METHOD a deserialize (Lcom/mojang/datafixers/Dynamic;)Lbwe;
+		ARG 0 dynamic
+	METHOD c exitsAtSpawn ()Z

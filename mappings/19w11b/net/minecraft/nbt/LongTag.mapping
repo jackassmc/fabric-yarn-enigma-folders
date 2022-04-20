@@ -1,0 +1,4 @@
+CLASS ij net/minecraft/nbt/LongTag
+	FIELD f value J
+	METHOD equals (Ljava/lang/Object;)Z
+		ARG 1 o

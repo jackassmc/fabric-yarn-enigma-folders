@@ -1,0 +1,7 @@
+CLASS dex net/minecraft/client/render/entity/EntityRendererStuckArrows
+	FIELD a renderer Ldcz;
+	METHOD <init> (Ldcz;)V
+		ARG 0 renderer
+	METHOD a shouldMergeTextures ()Z
+	METHOD a render (Lafq;FFFFFFF)V
+		ARG 0 entity

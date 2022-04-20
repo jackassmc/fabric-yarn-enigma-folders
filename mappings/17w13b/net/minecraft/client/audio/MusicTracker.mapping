@@ -1,0 +1,24 @@
+CLASS cfm net/minecraft/client/audio/MusicTracker
+	CLASS cfm$a MusicType
+		FIELD a MENU Lcfm$a;
+		FIELD b GAME Lcfm$a;
+		FIELD c CREATIVE Lcfm$a;
+		FIELD d CREDITS Lcfm$a;
+		FIELD e NETHER Lcfm$a;
+		FIELD f DRAGON Lcfm$a;
+		FIELD g END Lcfm$a;
+		FIELD h sound Lpb;
+		FIELD i minDelay I
+		FIELD j maxDelay I
+		METHOD a getSound ()Lpb;
+		METHOD b getMinDelay ()I
+		METHOD c getMaxDelay ()I
+	FIELD a rand Ljava/util/Random;
+	FIELD b game Lbgm;
+	FIELD c current Lcez;
+	FIELD d timeUntilNextSong I
+	METHOD <init> (Lbgm;)V
+		ARG 0 minecraft
+	METHOD G_ update ()V
+	METHOD a play (Lcfm$a;)V
+		ARG 0 type

@@ -1,0 +1,6 @@
+CLASS bav net/minecraft/item/DyeableItem
+	METHOD a hasColor (Lbbu;)Z
+	METHOD a setColor (Lbbu;I)V
+	METHOD a applyDyes (Lbbu;Ljava/util/List;)Lbbu;
+	METHOD b getColor (Lbbu;)I
+	METHOD c removeColor (Lbbu;)V

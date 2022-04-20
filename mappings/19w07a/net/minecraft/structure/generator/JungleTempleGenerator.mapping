@@ -1,0 +1,11 @@
+CLASS cdi net/minecraft/structure/generator/JungleTempleGenerator
+	CLASS cdi$a
+		METHOD a (Ljava/util/Random;IIIZ)V
+			ARG 1 random
+			ARG 2 x
+	FIELD e placedMainChest Z
+	FIELD f placedHiddenChest Z
+	FIELD g placedTrap1 Z
+	FIELD h placedTrap2 Z
+	METHOD a (Lbdc;Ljava/util/Random;Lcdd;Lbco;)Z
+		ARG 2 random

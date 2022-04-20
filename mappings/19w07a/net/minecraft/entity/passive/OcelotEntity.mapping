@@ -1,0 +1,5 @@
+CLASS and net/minecraft/entity/passive/OcelotEntity
+	CLASS and$a OcelotFleeGoal
+	FIELD bC TAMING_INGREDIENT Lbaa;
+	METHOD dG isTrusting ()Z
+	METHOD q setTrusting (Z)V

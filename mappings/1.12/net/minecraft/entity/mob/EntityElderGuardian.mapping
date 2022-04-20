@@ -1,0 +1,9 @@
+CLASS acr net/minecraft/entity/mob/EntityElderGuardian
+	METHOD F getSoundAmbient ()Lqc;
+	METHOD J getLootTableId ()Lnd;
+	METHOD M mobTick ()V
+	METHOD a registerTagUpgraders (Lrw;)V
+		ARG 0 handler
+	METHOD bM initAttributes ()V
+	METHOD cf getSoundDeath ()Lqc;
+	METHOD d getSoundHurt (Lup;)Lqc;

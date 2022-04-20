@@ -1,0 +1,48 @@
+CLASS cfk net/minecraft/world/gen/chunk/FlatChunkGeneratorConfig
+	FIELD A SWAMP_HUT Lbzz;
+	FIELD B DESERT_PYRAMID Lbzz;
+	FIELD C JUNGLE_TEMPLE Lbzz;
+	FIELD D IGLOO Lbzz;
+	FIELD E SHIPWRECK Lbzz;
+	FIELD F OCEAN_MONUMENT Lbzz;
+	FIELD G WATER_LAKE Lbzz;
+	FIELD H LAVA_LAKE Lbzz;
+	FIELD I END_CITY Lbzz;
+	FIELD J WOODLAND_MANSION Lbzz;
+	FIELD K NETHER_BRIDGE Lbzz;
+	FIELD L OCEAN_RUIN Lbzz;
+	FIELD N layers Ljava/util/List;
+	FIELD O structures Ljava/util/Map;
+	FIELD P biome Lbic;
+	FIELD Q layerBlocks [Lbvh;
+	FIELD R hasNoTerrain Z
+	FIELD S groundHeight I
+	FIELD t FEATURE_TO_GENERATION_STEP Ljava/util/Map;
+	FIELD u STRUCTURE_TO_FEATURES Ljava/util/Map;
+	FIELD v FEATURE_TO_FEATURE_CONFIG Ljava/util/Map;
+	FIELD w LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD x MINESHAFT Lbzz;
+	FIELD y VILLAGE Lbzz;
+	FIELD z STRONGHOLD Lbzz;
+	METHOD A hasNoTerrain ()Z
+	METHOD C getLayerBlocks ()[Lbvh;
+	METHOD a setBiome (Lbic;)V
+	METHOD a fromDynamic (Lcom/mojang/datafixers/Dynamic;)Lcfk;
+		ARG 0 dynamic
+	METHOD a toDynamic (Lcom/mojang/datafixers/types/DynamicOps;)Lcom/mojang/datafixers/Dynamic;
+		ARG 1 dynamicOps
+	METHOD a parseBlock (Ljava/lang/String;)Lbmj;
+	METHOD a parseLayerString (Ljava/lang/String;I)Lcfj;
+		ARG 0 string
+		ARG 1 startY
+	METHOD b fromString (Ljava/lang/String;)Lcfk;
+		ARG 0 string
+	METHOD c parseLayersString (Ljava/lang/String;)Ljava/util/List;
+		ARG 0 string
+	METHOD d addStructure (Ljava/lang/String;)V
+		ARG 1 id
+	METHOD v getBiome ()Lbic;
+	METHOD w getStructures ()Ljava/util/Map;
+	METHOD x getLayers ()Ljava/util/List;
+	METHOD y updateLayerBlocks ()V
+	METHOD z getDefaultConfig ()Lcfk;

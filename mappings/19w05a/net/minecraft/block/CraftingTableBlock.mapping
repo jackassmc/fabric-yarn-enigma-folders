@@ -1,0 +1,4 @@
+CLASS biu net/minecraft/block/CraftingTableBlock
+	FIELD a CONTAINER_NAME Ljc;
+	METHOD <init> (Lbhs$c;)V
+		ARG 1 settings

@@ -1,0 +1,9 @@
+CLASS del net/minecraft/client/render/entity/EntityRendererVex
+	METHOD <init> (Ldca;)V
+		ARG 0 renderManager
+	METHOD a getTexture (Lafh;)Lpt;
+		ARG 0 model
+	METHOD a getTexture (Lafr;)Lpt;
+		ARG 0 model
+	METHOD a getTexture (Laon;)Lpt;
+		ARG 0 model

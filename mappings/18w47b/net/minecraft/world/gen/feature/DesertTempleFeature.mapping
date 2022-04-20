@@ -1,0 +1,2 @@
+CLASS btm net/minecraft/world/gen/feature/DesertTempleFeature
+	METHOD b getName ()Ljava/lang/String;

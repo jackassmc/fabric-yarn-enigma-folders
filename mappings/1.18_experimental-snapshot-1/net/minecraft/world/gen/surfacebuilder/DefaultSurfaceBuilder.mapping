@@ -1,0 +1,5 @@
+CLASS net/minecraft/class_3510 net/minecraft/world/gen/surfacebuilder/DefaultSurfaceBuilder
+	METHOD method_15218 generate (Ljava/util/Random;Lnet/minecraft/class_2791;Lnet/minecraft/class_1959;IIIDLnet/minecraft/class_2680;Lnet/minecraft/class_2680;Lnet/minecraft/class_2680;Lnet/minecraft/class_2680;Lnet/minecraft/class_2680;I)V
+		ARG 10 fluidBlock
+		ARG 11 topBlock
+		ARG 12 underBlock

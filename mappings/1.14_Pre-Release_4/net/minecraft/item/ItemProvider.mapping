@@ -1,0 +1,2 @@
+CLASS bhe net/minecraft/item/ItemProvider
+	METHOD g getItem ()Lbbu;

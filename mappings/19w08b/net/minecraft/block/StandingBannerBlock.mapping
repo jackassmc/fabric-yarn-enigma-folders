@@ -1,0 +1,2 @@
+CLASS bhr net/minecraft/block/StandingBannerBlock
+	FIELD a ROTATION Lbse;

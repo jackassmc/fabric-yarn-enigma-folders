@@ -1,0 +1,26 @@
+CLASS beg net/minecraft/client/gui/hud/HudInGame
+	FIELD f VIGNETTE_TEX Lkp;
+	FIELD g WIDGETS_TEX Lkp;
+	FIELD h PUMPKIN_BLUR Lkp;
+	FIELD i rand Ljava/util/Random;
+	FIELD j game Lbdr;
+	FIELD k itemRenderer Lbtr;
+	FIELD l hudChat Lbem;
+	FIELD r currentStack Laes;
+	FIELD s hudDebug Lbeo;
+	FIELD t hudSubtitles Lbfe;
+	FIELD u hudSpectator Lbfg;
+	FIELD v hudScoreboard Lbfb;
+	FIELD w hudBossBar Lbek;
+	METHOD <init> (Lbdr;)V
+		ARG 0 game
+	METHOD a draw (F)V
+		ARG 0 deltaTicks
+	METHOD a (Lbej;F)V
+		ARG 0 displayScale
+		ARG 1 deltaTicks
+	METHOD d getHudChat ()Lbem;
+	METHOD f getFontRenderer ()Lbef;
+	METHOD g getSpectatorWidget ()Lbfg;
+	METHOD h getScoreboardWidget ()Lbfb;
+	METHOD j getHudBossBar ()Lbek;

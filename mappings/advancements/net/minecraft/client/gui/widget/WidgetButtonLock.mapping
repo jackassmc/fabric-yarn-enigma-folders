@@ -1,0 +1,16 @@
+CLASS bhv net/minecraft/client/gui/widget/WidgetButtonLock
+	CLASS bhv$a IconLocation
+		FIELD a LOCKED Lbhv$a;
+		FIELD b LOCKED_HOVERED Lbhv$a;
+		FIELD c LOCKED_DISABLED Lbhv$a;
+		FIELD d UNLOCKED Lbhv$a;
+		FIELD e UNLOCKED_HOVERED Lbhv$a;
+		FIELD f UNLOCKED_DISABLED Lbhv$a;
+		FIELD g u I
+		FIELD h v I
+		METHOD a getU ()I
+		METHOD b getV ()I
+	FIELD o locked Z
+	METHOD a draw (Lbgm;IIF)V
+	METHOD b setLocked (Z)V
+	METHOD c isLocked ()Z

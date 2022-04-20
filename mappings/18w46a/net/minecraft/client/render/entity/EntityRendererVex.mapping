@@ -1,0 +1,4 @@
+CLASS die net/minecraft/client/render/entity/EntityRendererVex
+	METHOD a getTexture (Lagc;)Lpx;
+	METHOD a getTexture (Lagm;)Lpx;
+	METHOD a getTexture (Lapm;)Lpx;

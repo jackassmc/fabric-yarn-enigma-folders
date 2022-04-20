@@ -1,0 +1,10 @@
+CLASS awd net/minecraft/world/chunk/ChunkNibbleArray
+	FIELD a nibbleData [B
+	METHOD a getNibbleData ()[B
+	METHOD a getNibble (I)I
+	METHOD a setNibble (II)V
+	METHOD a getNibble (III)I
+	METHOD a setNibble (IIII)V
+	METHOD b isEven (I)Z
+	METHOD b getNibbleIndex (III)I
+	METHOD c toArrayPos (I)I

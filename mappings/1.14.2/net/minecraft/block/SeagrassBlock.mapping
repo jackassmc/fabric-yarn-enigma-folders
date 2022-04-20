@@ -1,0 +1,4 @@
+CLASS brc net/minecraft/block/SeagrassBlock
+	FIELD a SHAPE Lcsr;
+	METHOD <init> (Lbmm$c;)V
+		ARG 1 settings

@@ -1,0 +1,6 @@
+CLASS drf net/minecraft/server/integrated/IntegratedPlayerManager
+	FIELD f userData Lhs;
+	METHOD b getServer ()Ldrg;
+	METHOD b savePlayerData (Luv;)V
+	METHOD c getServer ()Lnet/minecraft/server/MinecraftServer;
+	METHOD s getUserData ()Lhs;

@@ -1,0 +1,3 @@
+CLASS adw net/minecraft/inventory/IInventoryListener
+	METHOD a onInvChange (Ladu;)V
+		ARG 0 inventory

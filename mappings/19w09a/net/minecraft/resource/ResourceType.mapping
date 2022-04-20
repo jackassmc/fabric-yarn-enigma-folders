@@ -1,0 +1,5 @@
+CLASS vx net/minecraft/resource/ResourceType
+	FIELD a ASSETS Lvx;
+	FIELD b DATA Lvx;
+	FIELD c name Ljava/lang/String;
+	METHOD a getName ()Ljava/lang/String;

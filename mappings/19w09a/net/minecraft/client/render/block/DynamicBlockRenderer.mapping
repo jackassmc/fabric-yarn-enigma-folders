@@ -1,0 +1,3 @@
+CLASS dgy net/minecraft/client/render/block/DynamicBlockRenderer
+	METHOD a render (Lbig;F)V
+		ARG 1 block

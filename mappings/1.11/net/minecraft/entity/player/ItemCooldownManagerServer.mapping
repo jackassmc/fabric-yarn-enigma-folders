@@ -1,0 +1,9 @@
+CLASS agc net/minecraft/entity/player/ItemCooldownManagerServer
+	FIELD a player Lly;
+	METHOD <init> (Lly;)V
+		ARG 0 player
+	METHOD b onCooldownUpdate (Lafg;I)V
+		ARG 0 item
+		ARG 1 cooldown
+	METHOD c onCooldownUpdate (Lafg;)V
+		ARG 0 item

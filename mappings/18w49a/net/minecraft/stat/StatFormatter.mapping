@@ -1,0 +1,6 @@
+CLASS xo net/minecraft/stat/StatFormatter
+	FIELD a DECIMAL_FORMAT Ljava/text/DecimalFormat;
+	FIELD b DEFAULT Lxo;
+	FIELD c DIVIDE_BY_TEN Lxo;
+	FIELD d DISTANCE Lxo;
+	FIELD e TIME Lxo;

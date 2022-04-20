@@ -1,0 +1,3 @@
+CLASS bqz net/minecraft/block/SmokerBlock
+	METHOD <init> (Lbma$c;)V
+		ARG 1 settings

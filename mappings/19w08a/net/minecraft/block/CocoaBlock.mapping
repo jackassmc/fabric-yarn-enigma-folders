@@ -1,0 +1,8 @@
+CLASS bix net/minecraft/block/CocoaBlock
+	FIELD a AGE Lbsd;
+	FIELD b AGE_TO_EAST_SHAPE [Lcoe;
+	FIELD c AGE_TO_WEST_SHAPE [Lcoe;
+	FIELD d AGE_TO_NORTH_SHAPE [Lcoe;
+	FIELD e AGE_TO_SOUTH_SHAPE [Lcoe;
+	METHOD <init> (Lbif$c;)V
+		ARG 1 settings

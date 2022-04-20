@@ -1,0 +1,4 @@
+CLASS brc net/minecraft/block/SoulSandBlock
+	FIELD a COLLISION_SHAPE Lcse;
+	METHOD <init> (Lbma$c;)V
+		ARG 1 settings

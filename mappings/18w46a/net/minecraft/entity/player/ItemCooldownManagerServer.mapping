@@ -1,0 +1,5 @@
+CLASS avy net/minecraft/entity/player/ItemCooldownManagerServer
+	FIELD a player Luh;
+	METHOD b onCooldownUpdate (Lava;I)V
+		ARG 1 item
+	METHOD c onCooldownUpdate (Lava;)V

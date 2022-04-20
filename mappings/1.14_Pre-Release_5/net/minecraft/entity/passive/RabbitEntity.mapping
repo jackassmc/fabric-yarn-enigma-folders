@@ -1,0 +1,39 @@
+CLASS arh net/minecraft/entity/passive/RabbitEntity
+	CLASS arh$a RabbitAttackGoal
+	CLASS arh$b RabbitFleeGoal
+		FIELD i rabbit Larh;
+	CLASS arh$c RabbitEntityData
+		FIELD a type I
+		METHOD <init> (I)V
+			ARG 1 type
+	CLASS arh$d RabbitJumpControl
+		FIELD c rabbit Larh;
+		METHOD c isActive ()Z
+	CLASS arh$e RabbitMoveControl
+		FIELD i rabbit Larh;
+	CLASS arh$f RabbitEscapeDangerGoal
+		FIELD f owner Larh;
+	CLASS arh$g
+		FIELD g rabbit Larh;
+	FIELD bA KILLER_BUNNY Lqs;
+	FIELD bB jumpTicks I
+	FIELD bD jumpDuration I
+	FIELD bE lastOnGround Z
+	FIELD bF ticksUntilJump I
+	FIELD bG moreCarrotTicks I
+	FIELD bz RABBIT_TYPE Lqh;
+	METHOD a chooseType (Lbhi;)I
+		ARG 1 world
+	METHOD b lookTowards (DD)V
+		ARG 1 x
+		ARG 3 z
+	METHOD b isBreedingItem (Lbbv;)Z
+	METHOD d setSpeed (D)V
+		ARG 1 speed
+	METHOD dV startJump ()V
+	METHOD dW getJumpSound ()Lyj;
+	METHOD dX getRabbitType ()I
+	METHOD ee scheduleJump ()V
+	METHOD eg wantsCarrots ()Z
+	METHOD r setRabbitType (I)V
+		ARG 1 rabbitType

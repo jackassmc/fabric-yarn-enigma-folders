@@ -1,0 +1,17 @@
+CLASS cnp net/minecraft/util/BooleanBiFunction
+	FIELD a FALSE Lcnp;
+	FIELD b NOT_OR Lcnp;
+	FIELD c ONLY_SECOND Lcnp;
+	FIELD d NOT_FIRST Lcnp;
+	FIELD e ONLY_FIRST Lcnp;
+	FIELD f NOT_SECOND Lcnp;
+	FIELD g NOT_SAME Lcnp;
+	FIELD h NOT_AND Lcnp;
+	FIELD i AND Lcnp;
+	FIELD j SAME Lcnp;
+	FIELD k SECOND Lcnp;
+	FIELD l CAUSES Lcnp;
+	FIELD m FIRST Lcnp;
+	FIELD n CAUSED_BY Lcnp;
+	FIELD o OR Lcnp;
+	FIELD p TRUE Lcnp;

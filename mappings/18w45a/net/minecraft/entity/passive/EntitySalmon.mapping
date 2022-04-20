@@ -1,0 +1,5 @@
+CLASS alq net/minecraft/entity/passive/EntitySalmon
+	METHOD D getSoundAmbient ()Lwz;
+	METHOD F getLootTableId ()Lpw;
+	METHOD cw getSoundDeath ()Lwz;
+	METHOD e getSoundHurt (Lafh;)Lwz;

@@ -1,0 +1,4 @@
+CLASS age net/minecraft/util/ActionResult
+	FIELD a SUCCESS Lage;
+	FIELD b PASS Lage;
+	FIELD c FAILURE Lage;

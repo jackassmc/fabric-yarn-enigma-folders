@@ -1,0 +1,2 @@
+CLASS dms net/minecraft/client/render/debug/SkyLightDebugRenderer
+	FIELD a client Lctq;

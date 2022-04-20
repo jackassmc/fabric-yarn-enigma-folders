@@ -1,0 +1,5 @@
+CLASS aqd net/minecraft/entity/mob/SkeletonEntity
+	METHOD D getAmbientSound ()Lxm;
+	METHOD a dropEquipment (Lage;IZ)V
+	METHOD cv getDeathSound ()Lxm;
+	METHOD e getHurtSound (Lage;)Lxm;

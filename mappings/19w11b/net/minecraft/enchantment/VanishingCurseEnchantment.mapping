@@ -1,0 +1,4 @@
+CLASS bev net/minecraft/enchantment/VanishingCurseEnchantment
+	METHOD <init> (Lbdz$a;[Laib;)V
+		ARG 1 weight
+		ARG 2 slotTypes

@@ -1,0 +1,15 @@
+CLASS ale net/minecraft/entity/passive/EntityCow
+	METHOD D getSoundAmbient ()Lwz;
+	METHOD F getLootTableId ()Lpw;
+	METHOD a createChild (Lafv;)Lafv;
+	METHOD a interactMob (Lapv;Laer;)Z
+		ARG 1 player
+	METHOD a playStepSound (Les;Lbno;)V
+		ARG 1 pos
+	METHOD b createChild (Lafv;)Lale;
+	METHOD bH getEyeHeight ()F
+	METHOD cI getSoundVolume ()F
+	METHOD cb initAttributes ()V
+	METHOD cw getSoundDeath ()Lwz;
+	METHOD e getSoundHurt (Lafh;)Lwz;
+	METHOD n initAi ()V

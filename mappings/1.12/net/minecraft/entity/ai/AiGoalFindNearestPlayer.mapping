@@ -1,0 +1,14 @@
+CLASS yt net/minecraft/entity/ai/AiGoalFindNearestPlayer
+	CLASS yt$1
+		METHOD a test (Lve;)Z
+			ARG 0 target
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD b owner Lvo;
+	FIELD c searchCoditions Lcom/google/common/base/Predicate;
+	FIELD e target Lvn;
+	METHOD <init> (Lvo;)V
+		ARG 0 owner
+	METHOD a canStart ()Z
+	METHOD b shouldContinue ()Z
+	METHOD c start ()V
+	METHOD d onRemove ()V

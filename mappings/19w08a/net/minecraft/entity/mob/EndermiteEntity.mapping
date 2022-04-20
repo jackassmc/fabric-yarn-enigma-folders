@@ -1,0 +1,3 @@
+CLASS aqd net/minecraft/entity/mob/EndermiteEntity
+	FIELD c lifeTime I
+	FIELD d playerSpawned Z

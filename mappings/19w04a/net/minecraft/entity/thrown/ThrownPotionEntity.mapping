@@ -1,0 +1,14 @@
+CLASS asj net/minecraft/entity/thrown/ThrownPotionEntity
+	FIELD au LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD g ITEM_STACK Lps;
+	METHOD <init> (Lbcl;DDD)V
+		ARG 1 world
+		ARG 2 x
+		ARG 4 y
+	METHOD <init> (Lbcl;Lahl;)V
+		ARG 1 world
+	METHOD a doesWaterHurt (Lahl;)Z
+		ARG 0 entityHit
+	METHOD a extinguishFire (Let;Ley;)V
+	METHOD b setItemStack (Laxd;)V
+	METHOD i isLingering ()Z

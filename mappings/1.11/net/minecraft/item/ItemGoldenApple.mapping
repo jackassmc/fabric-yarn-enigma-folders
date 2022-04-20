@@ -1,0 +1,9 @@
+CLASS afd net/minecraft/item/ItemGoldenApple
+	METHOD a addStacksForDisplay (Lafg;Laei;Ldd;)V
+		ARG 0 item
+		ARG 1 tab
+		ARG 2 list
+	METHOD f_ hasEnchantmentGlow (Lafi;)Z
+		ARG 0 stack
+	METHOD g getRarity (Lafi;)Lafw;
+		ARG 0 stack

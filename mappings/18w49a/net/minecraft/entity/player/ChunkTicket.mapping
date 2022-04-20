@@ -1,0 +1,8 @@
+CLASS up net/minecraft/entity/player/ChunkTicket
+	FIELD a type Luq;
+	FIELD c argument Ljava/lang/Object;
+	FIELD d location J
+	METHOD a compareTo (Lup;)I
+	METHOD c getLocation ()J
+	METHOD equals (Ljava/lang/Object;)Z
+		ARG 0 object

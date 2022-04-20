@@ -1,0 +1,5 @@
+CLASS ahl net/minecraft/entity/ai/action/ActionJump
+	FIELD a active Z
+	FIELD b entity Lagm;
+	METHOD a setActive ()V
+	METHOD b tick ()V

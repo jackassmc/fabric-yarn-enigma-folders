@@ -1,0 +1,13 @@
+CLASS awv net/minecraft/container/BeaconContainer
+	CLASS awv$a SlotPayment
+	FIELD c paymentInv Lagk;
+	FIELD d paymentSlot Lawv$a;
+	FIELD e context Laxc;
+	FIELD f propertyDelegate Laxb;
+	METHOD <init> (ILagk;)V
+		ARG 1 syncId
+	METHOD <init> (ILagk;Laxb;Laxc;)V
+		ARG 1 syncId
+	METHOD f getPrimaryEffect ()Laho;
+	METHOD g getSecondaryEffect ()Laho;
+	METHOD h hasPayment ()Z

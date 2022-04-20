@@ -1,0 +1,17 @@
+CLASS cpe net/minecraft/client/gui/menu/GuiSettingsChat
+	CLASS cpe$1
+		METHOD a onPressed (DD)V
+			ARG 0 mouseX
+	CLASS cpe$2
+		METHOD a onPressed (DD)V
+			ARG 0 mouseX
+	FIELD a SETTINGS [Lclz$a;
+	FIELD f parent Lcqc;
+	FIELD g settings Lclz;
+	METHOD <init> (Lcqc;Lclz;)V
+		ARG 1 parent
+	METHOD a draw (IIF)V
+		ARG 1 mouseX
+		ARG 2 mouseY
+	METHOD c onInitialized ()V
+	METHOD g close ()V

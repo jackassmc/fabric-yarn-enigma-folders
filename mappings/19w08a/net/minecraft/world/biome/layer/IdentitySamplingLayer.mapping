@@ -1,0 +1,4 @@
+CLASS cii net/minecraft/world/biome/layer/IdentitySamplingLayer
+	METHOD a sample (Lchd;I)I
+		ARG 1 context
+		ARG 2 value

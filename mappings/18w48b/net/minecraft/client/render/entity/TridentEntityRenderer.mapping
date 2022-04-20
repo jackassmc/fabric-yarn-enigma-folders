@@ -1,0 +1,4 @@
+CLASS dix net/minecraft/client/render/entity/TridentEntityRenderer
+	FIELD f model Lcyh;
+	METHOD a getTexture (Lagi;)Lpy;
+	METHOD a getTexture (Larh;)Lpy;

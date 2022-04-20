@@ -1,0 +1,8 @@
+CLASS afm net/minecraft/item/block/ItemBlockLeaves
+	FIELD b blockLeaves Laol;
+	METHOD <init> (Laol;)V
+		ARG 0 blockLeaves
+	METHOD a getPlacementMetadata (I)I
+		ARG 0 meta
+	METHOD a getTranslationKey (Lafi;)Ljava/lang/String;
+		ARG 0 stack

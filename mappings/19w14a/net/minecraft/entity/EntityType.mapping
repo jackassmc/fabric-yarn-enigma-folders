@@ -1,0 +1,172 @@
+CLASS aid net/minecraft/entity/EntityType
+	CLASS aid$a Builder
+		FIELD a function Laid$b;
+		FIELD b entityClass Laik;
+		FIELD c saveable Z
+		FIELD d summonable Z
+		FIELD f size Laia;
+		METHOD a disableSummon ()Laid$a;
+		METHOD a setSize (FF)Laid$a;
+			ARG 1 width
+			ARG 2 height
+		METHOD a create (Laid$b;Laik;)Laid$a;
+		METHOD a create (Laik;)Laid$a;
+		METHOD a build (Ljava/lang/String;)Laid;
+		METHOD b disableSaving ()Laid$a;
+	CLASS aid$b EntityFactory
+	FIELD A FIREWORK_ROCKET Laid;
+	FIELD C GHAST Laid;
+	FIELD D GIANT Laid;
+	FIELD E GUARDIAN Laid;
+	FIELD F HORSE Laid;
+	FIELD G HUSK Laid;
+	FIELD H ILLUSIONER Laid;
+	FIELD I ITEM Laid;
+	FIELD J ITEM_FRAME Laid;
+	FIELD K FIREBALL Laid;
+	FIELD L LEASH_KNOT Laid;
+	FIELD M LLAMA Laid;
+	FIELD N LLAMA_SPIT Laid;
+	FIELD O MAGMA_CUBE Laid;
+	FIELD P MINECART Laid;
+	FIELD Q CHEST_MINECART Laid;
+	FIELD R COMMAND_BLOCK_MINECART Laid;
+	FIELD S FURNACE_MINECART Laid;
+	FIELD T HOPPER_MINECART Laid;
+	FIELD U SPAWNER_MINECART Laid;
+	FIELD V TNT_MINECART Laid;
+	FIELD W MULE Laid;
+	FIELD X MOOSHROOM Laid;
+	FIELD Y OCELOT Laid;
+	FIELD Z PAINTING Laid;
+	FIELD aA EGG Laid;
+	FIELD aB ENDER_PEARL Laid;
+	FIELD aC EXPERIENCE_BOTTLE Laid;
+	FIELD aD POTION Laid;
+	FIELD aE TRIDENT Laid;
+	FIELD aF VEX Laid;
+	FIELD aG VILLAGER Laid;
+	FIELD aH IRON_GOLEM Laid;
+	FIELD aI VINDICATOR Laid;
+	FIELD aJ PILLAGER Laid;
+	FIELD aL WITCH Laid;
+	FIELD a AREA_EFFECT_CLOUD Laid;
+	FIELD aM WITHER Laid;
+	FIELD aN WITHER_SKELETON Laid;
+	FIELD aO WITHER_SKULL Laid;
+	FIELD aP WOLF Laid;
+	FIELD aQ ZOMBIE Laid;
+	FIELD aR ZOMBIE_HORSE Laid;
+	FIELD aS ZOMBIE_VILLAGER Laid;
+	FIELD aT PHANTOM Laid;
+	FIELD aU RAVAGER Laid;
+	FIELD aV LIGHTNING_BOLT Laid;
+	FIELD aW PLAYER Laid;
+	FIELD aX FISHING_BOBBER Laid;
+	FIELD aY LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD aZ factory Laid$b;
+	FIELD aa PANDA Laid;
+	FIELD ab PARROT Laid;
+	FIELD ac PIG Laid;
+	FIELD ad PUFFERFISH Laid;
+	FIELD ae ZOMBIE_PIGMAN Laid;
+	FIELD af POLAR_BEAR Laid;
+	FIELD ag TNT Laid;
+	FIELD ah RABBIT Laid;
+	FIELD ai SALMON Laid;
+	FIELD aj SHEEP Laid;
+	FIELD ak SHULKER Laid;
+	FIELD al SHULKER_BULLET Laid;
+	FIELD am SILVERFISH Laid;
+	FIELD an SKELETON Laid;
+	FIELD ao SKELETON_HORSE Laid;
+	FIELD ap SLIME Laid;
+	FIELD aq SMALL_FIREBALL Laid;
+	FIELD ar SNOW_GOLEM Laid;
+	FIELD as SNOWBALL Laid;
+	FIELD at SPECTRAL_ARROW Laid;
+	FIELD au SPIDER Laid;
+	FIELD av SQUID Laid;
+	FIELD aw STRAY Laid;
+	FIELD ay TROPICAL_FISH Laid;
+	FIELD az TURTLE Laid;
+	FIELD b ARMOR_STAND Laid;
+	FIELD ba category Laik;
+	FIELD bb saveable Z
+	FIELD bc summonable Z
+	FIELD bd fireImmune Z
+	FIELD be translationKey Ljava/lang/String;
+	FIELD bf textComponent Ljm;
+	FIELD bg lootTableId Lqr;
+	FIELD bh dataFixerType Lcom/mojang/datafixers/types/Type;
+	FIELD bi size Laia;
+	FIELD c ARROW Laid;
+	FIELD d BAT Laid;
+	FIELD e BLAZE Laid;
+	FIELD f BOAT Laid;
+	FIELD g CAT Laid;
+	FIELD h CAVE_SPIDER Laid;
+	FIELD i CHICKEN Laid;
+	FIELD j COD Laid;
+	FIELD k COW Laid;
+	FIELD l CREEPER Laid;
+	FIELD m DONKEY Laid;
+	FIELD n DOLPHIN Laid;
+	FIELD o DRAGON_FIREBALL Laid;
+	FIELD p DROWNED Laid;
+	FIELD q ELDER_GUARDIAN Laid;
+	FIELD r END_CRYSTAL Laid;
+	FIELD s ENDER_DRAGON Laid;
+	FIELD t ENDERMAN Laid;
+	FIELD u ENDERMITE Laid;
+	FIELD v EVOKER_FANGS Laid;
+	FIELD w EVOKER Laid;
+	FIELD x EXPERIENCE_ORB Laid;
+	FIELD y EYE_OF_ENDER Laid;
+	FIELD z FALLING_BLOCK Laid;
+	METHOD <init> (Laid$b;Laik;ZZZLcom/mojang/datafixers/types/Type;Laia;)V
+		ARG 1 factory
+		ARG 2 category
+		ARG 3 saveable
+		ARG 4 summonable
+		ARG 5 fireImmune
+		ARG 6 dataFixerType
+		ARG 7 size
+	METHOD a isSaveable ()Z
+	METHOD a createSimpleBoundingBox (DDD)Lcrd;
+	METHOD a createInstanceFromId (ILbgw;)Lahz;
+	METHOD a getId (Laid;)Lqr;
+	METHOD a create (Lbgw;)Lahz;
+	METHOD a newInstance (Lbgw;Laid;)Lahz;
+		ARG 0 world
+		ARG 1 type
+	METHOD a loadFromEntityTag (Lbgw;Lavn;Lahz;Lib;)V
+	METHOD a spawnFromItemStack (Lbgw;Lbbq;Lavn;Lev;Lail;ZZ)Lahz;
+	METHOD a spawn (Lbgw;Lib;Ljm;Lavn;Lev;Lail;ZZ)Lahz;
+	METHOD a getOriginY (Lbgz;Lev;ZLcrd;)D
+	METHOD a fromTag (Lib;)Ljava/util/Optional;
+		ARG 0 compoundTag
+	METHOD a getEntityFromTag (Lib;Lbgw;)Ljava/util/Optional;
+	METHOD a loadEntityWithPassengers (Lib;Lbgw;Ljava/util/function/Function;)Lahz;
+		ARG 0 compoundTag
+		ARG 1 world
+		ARG 2 entityProcessor
+	METHOD a get (Ljava/lang/String;)Ljava/util/Optional;
+	METHOD a register (Ljava/lang/String;Laid$a;)Laid;
+	METHOD a isTaggedWith (Lyz;)Z
+	METHOD b isSummonable ()Z
+	METHOD b create (Lbgw;Lib;Ljm;Lavn;Lev;Lail;ZZ)Lahz;
+	METHOD b loadEntityFromTag (Lib;Lbgw;)Ljava/util/Optional;
+		ARG 0 compoundTag
+		ARG 1 world
+	METHOD c isFireImmune ()Z
+	METHOD d getCategory ()Laik;
+	METHOD e getTranslationKey ()Ljava/lang/String;
+	METHOD f getTextComponent ()Ljm;
+	METHOD g getLootTableId ()Lqr;
+	METHOD h getWidth ()F
+	METHOD i getHeight ()F
+	METHOD j getDefaultSize ()Laia;
+	METHOD k getMaxTrackDistance ()I
+	METHOD l getTrackTickInterval ()I
+	METHOD m alwaysUpdateVelocity ()Z

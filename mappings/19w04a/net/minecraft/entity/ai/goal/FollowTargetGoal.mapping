@@ -1,0 +1,6 @@
+CLASS ale net/minecraft/entity/ai/goal/FollowTargetGoal
+	CLASS ale$a ClosestSelector
+		FIELD a target Lahc;
+		METHOD a compare (Lahc;Lahc;)I
+	METHOD a getSearchBox (D)Lcmm;
+		ARG 1 distance

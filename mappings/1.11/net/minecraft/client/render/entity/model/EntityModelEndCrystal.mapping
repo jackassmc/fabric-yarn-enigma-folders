@@ -1,0 +1,14 @@
+CLASS bnc net/minecraft/client/render/entity/model/EntityModelEndCrystal
+	FIELD a cube Lbng;
+	FIELD b glass Lbng;
+	FIELD c base Lbng;
+	METHOD <init> (FZ)V
+		ARG 1 renderBase
+	METHOD a render (Lsm;FFFFFF)V
+		ARG 0 entity
+		ARG 1 swingAmount
+		ARG 2 swingDelta
+		ARG 3 age
+		ARG 4 yaw
+		ARG 5 pitch
+		ARG 6 scale

@@ -1,0 +1,3 @@
+CLASS ddq net/minecraft/client/render/debug/RenderDebugWater
+	FIELD a game Lclx;
+	METHOD a render (FJ)V

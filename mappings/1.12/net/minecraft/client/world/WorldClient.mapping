@@ -1,0 +1,71 @@
+CLASS brz net/minecraft/client/world/WorldClient
+	FIELD M game Lbhz;
+	FIELD b netHandler Lbrx;
+	FIELD c chunkProvider Lbrv;
+	METHOD <init> (Lbrx;Lamv;ILtx;Lrj;)V
+		ARG 0 netHandler
+		ARG 1 levelInfo
+		ARG 2 worldTypeId
+		ARG 3 difficulty
+		ARG 4 profiler
+	METHOD B getChunkProvider ()Laxp;
+	METHOD O quitClient ()V
+	METHOD a playSound (DDDLqc;Lqe;FFZ)V
+		ARG 0 x
+		ARG 1 y
+		ARG 2 z
+		ARG 3 sound
+		ARG 4 category
+		ARG 5 volume
+		ARG 6 pitch
+	METHOD a getEntityById (I)Lve;
+		ARG 0 id
+	METHOD a randomBlockDisplayTick (IIIILjava/util/Random;ZLet$a;)V
+		ARG 0 xCenter
+		ARG 1 yCenter
+		ARG 2 zCenter
+		ARG 3 radius
+		ARG 4 rand
+		ARG 5 spawnBarrierParticles
+		ARG 6 posMutable
+	METHOD a isChunkLoaded (IIZ)Z
+		ARG 0 chunkX
+		ARG 1 chunkZ
+		ARG 2 ignoreRemote
+	METHOD a playSound (Laeb;DDDLqc;Lqe;FF)V
+		ARG 0 player
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 sound
+		ARG 5 category
+		ARG 6 volume
+		ARG 7 pitch
+	METHOD a setScoreboardClient (Lbhi;)V
+		ARG 0 value
+	METHOD a playSoundClient (Let;Lqc;Lqe;FFZ)V
+		ARG 0 pos
+		ARG 1 sound
+		ARG 2 category
+		ARG 3 volume
+		ARG 4 pitch
+	METHOD a sendPacket (Lht;)V
+		ARG 0 packet
+	METHOD a spawnEntity (Lve;)Z
+		ARG 0 entity
+	METHOD b doRandomBlockDisplayTicks (III)V
+		ARG 0 xCenter
+		ARG 1 yCenter
+		ARG 2 zCenter
+	METHOD b setTimeOfDay (J)V
+		ARG 0 time
+	METHOD b onEntityAdded (Lve;)V
+		ARG 0 entity
+	METHOD c getGameInstance (Lbrz;)Lbhz;
+	METHOD c onEntityRemoved (Lve;)V
+		ARG 0 entity
+	METHOD d update ()V
+	METHOD f getChunkProvider ()Lbrv;
+	METHOD j tickRandomBlocks ()V
+	METHOD n createChunkProvider ()Laxp;
+	METHOD t updateWeather ()V

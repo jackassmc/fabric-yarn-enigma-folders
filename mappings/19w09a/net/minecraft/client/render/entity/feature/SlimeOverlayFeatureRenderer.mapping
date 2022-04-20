@@ -1,0 +1,4 @@
+CLASS dpc net/minecraft/client/render/entity/feature/SlimeOverlayFeatureRenderer
+	FIELD a model Ldal;
+	METHOD <init> (Ldms;)V
+		ARG 1 context

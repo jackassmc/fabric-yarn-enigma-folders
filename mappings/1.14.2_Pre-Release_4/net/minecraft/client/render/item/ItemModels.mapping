@@ -1,0 +1,14 @@
+CLASS dkn net/minecraft/client/render/item/ItemModels
+	FIELD a modelIds Lit/unimi/dsi/fastutil/ints/Int2ObjectMap;
+	FIELD b models Lit/unimi/dsi/fastutil/ints/Int2ObjectMap;
+	FIELD c modelManager Ldwb;
+	METHOD a getModelManager ()Ldwb;
+	METHOD a getModel (Lbbw;)Ldvx;
+	METHOD a putModel (Lbbw;Ldwc;)V
+		ARG 1 item
+		ARG 2 modelId
+	METHOD a getSprite (Lbcb;)Lduj;
+	METHOD a getSprite (Lbhh;)Lduj;
+	METHOD b reloadModels ()V
+	METHOD b getModelId (Lbbw;)I
+	METHOD b getModel (Lbcb;)Ldvx;

@@ -1,0 +1,75 @@
+CLASS ayx net/minecraft/enchantment/EnchantmentHelper
+	CLASS ayx$a Consumer
+		METHOD accept handle (Layv;I)V
+			ARG 0 enchantment
+			ARG 1 level
+	METHOD a getHighestApplicableEnchantmentsAtPower (ILavu;Z)Ljava/util/List;
+		ARG 0 power
+		ARG 1 stack
+	METHOD a getSweepingMultiplier (Lagt;)F
+		ARG 0 entity
+		ARG 1 level
+	METHOD a onUserDamaged (Lagt;Lagk;)V
+	METHOD a getEnchantments (Lavu;)Ljava/util/Map;
+		ARG 0 stack
+	METHOD a getAttackDamage (Lavu;Lagx;)F
+	METHOD a getEquipmentLevel (Layv;Lagt;)I
+		ARG 0 ench
+		ARG 1 entity
+	METHOD a getLevel (Layv;Lavu;)I
+	METHOD a accept (Layx$a;Lavu;)V
+	METHOD a accept (Layx$a;Ljava/lang/Iterable;)V
+		ARG 0 EnchantmentHandler
+		ARG 1 stacks
+	METHOD a getProtectionAmount (Ljava/lang/Iterable;Laft;)I
+	METHOD a contains (Ljava/util/Collection;Layv;)Z
+		ARG 0 collection
+		ARG 1 enchantment
+	METHOD a remove (Ljava/util/List;Layy;)V
+		ARG 0 infos
+		ARG 1 info
+	METHOD a set (Ljava/util/Map;Lavu;)V
+	METHOD a calculateEnchantmentPower (Ljava/util/Random;IILavu;)I
+		ARG 0 random
+		ARG 1 num
+		ARG 2 enchantmentPower
+		ARG 3 rstack
+	METHOD a (Ljava/util/Random;Lavu;IZ)Lavu;
+		ARG 0 random
+	METHOD b getKnockback (Lagt;)I
+		ARG 0 entity
+	METHOD b onTargetDamaged (Lagt;Lagk;)V
+	METHOD b getLuckOfTheSea (Lavu;)I
+		ARG 0 stack
+	METHOD b getRandomEnchantedEquipment (Layv;Lagt;)Lavu;
+		ARG 0 enchantment
+		ARG 1 entity
+	METHOD b (Ljava/util/Random;Lavu;IZ)Ljava/util/List;
+		ARG 0 random
+		ARG 1 stack
+	METHOD c getFireAspect (Lagt;)I
+		ARG 0 entity
+	METHOD c getLure (Lavu;)I
+		ARG 0 stack
+	METHOD d getRespiration (Lagt;)I
+		ARG 0 entity
+	METHOD d hasBindingCurse (Lavu;)Z
+		ARG 0 stack
+	METHOD e getDepthStrider (Lagt;)I
+		ARG 0 entity
+	METHOD e hasVanishingCurse (Lavu;)Z
+		ARG 0 stack
+	METHOD f getEfficiency (Lagt;)I
+		ARG 0 entity
+	METHOD f getLoyalty (Lavu;)I
+		ARG 0 stack
+	METHOD g getLooting (Lagt;)I
+		ARG 0 entity
+	METHOD g getRiptide (Lavu;)I
+		ARG 0 stack
+	METHOD h hasAquaAffinity (Lagt;)Z
+		ARG 0 entity
+	METHOD h hasChanneling (Lavu;)Z
+		ARG 0 stack
+	METHOD i hasFrostWalker (Lagt;)Z
+		ARG 0 entity

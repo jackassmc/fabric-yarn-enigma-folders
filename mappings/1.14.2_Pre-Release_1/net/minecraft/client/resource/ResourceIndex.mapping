@@ -1,0 +1,14 @@
+CLASS duq net/minecraft/client/resource/ResourceIndex
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD b index Ljava/util/Map;
+	METHOD <init> (Ljava/io/File;Ljava/lang/String;)V
+		ARG 1 directory
+		ARG 2 indexName
+	METHOD a findFile (Ljava/lang/String;)Ljava/io/File;
+		ARG 1 path
+	METHOD a getFilesRecursively (Ljava/lang/String;ILjava/util/function/Predicate;)Ljava/util/Collection;
+		ARG 1 namespace
+		ARG 2 maxDepth
+		ARG 3 filter
+	METHOD a getResource (Lqs;)Ljava/io/File;
+		ARG 1 identifier

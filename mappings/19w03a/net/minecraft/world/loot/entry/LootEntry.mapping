@@ -1,0 +1,22 @@
+CLASS ckg net/minecraft/world/loot/entry/LootEntry
+	CLASS ckg$a Builder
+		FIELD a children Ljava/util/List;
+		METHOD a withChild (Lckg$a;)Lcjx$a;
+		METHOD a withCondition (Lcma$a;)Lckg$a;
+		METHOD b build ()Lckg;
+		METHOD b withCondition (Lcma$a;)Ljava/lang/Object;
+		METHOD c getThis ()Ljava/lang/Object;
+		METHOD d getThisBuilder ()Lckg$a;
+		METHOD e getThis ()Lckg$a;
+		METHOD f getConditions ()[Lcma;
+	CLASS ckg$b Serializer
+		FIELD a id Lqc;
+		FIELD b type Ljava/lang/Class;
+		METHOD a getIdentifier ()Lqc;
+		METHOD a toJson (Lcom/google/gson/JsonObject;Lckg;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD b getType ()Ljava/lang/Class;
+		METHOD b fromJson (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;[Lcma;)Lckg;
+	FIELD c conditionPredicate Ljava/util/function/Predicate;
+	FIELD d conditions [Lcma;
+	METHOD a test (Lcjo;)Z
+	METHOD a check (Lcjs;Ljava/util/function/Function;Ljava/util/Set;Lcln;)V

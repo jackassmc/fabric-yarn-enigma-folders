@@ -1,0 +1,35 @@
+CLASS doo net/minecraft/client/texture/TextureStitcher
+	CLASS doo$a Holder
+		FIELD a sprite Ldor;
+		FIELD b width I
+		FIELD c height I
+		FIELD d mipLevel I
+		METHOD a getSprite ()Ldor;
+	CLASS doo$b Slot
+		FIELD a x I
+		FIELD b y I
+		FIELD c width I
+		FIELD d height I
+		FIELD e subSlots Ljava/util/List;
+		FIELD f spriteHolder Ldoo$a;
+		METHOD a getSpriteHolder ()Ldoo$a;
+		METHOD a tryFit (Ldoo$a;)Z
+		METHOD a addAllFilledSlots (Ljava/util/List;)V
+		METHOD b getX ()I
+		METHOD c getY ()I
+	FIELD a mipLevel I
+	FIELD b holders Ljava/util/Set;
+	FIELD c slots Ljava/util/List;
+	FIELD d width I
+	FIELD e height I
+	FIELD f maxWidth I
+	FIELD g maxHeight I
+	METHOD <init> (IIII)V
+		ARG 1 maxWidth
+		ARG 2 maxHeight
+	METHOD a getWidth ()I
+	METHOD a tryFit (Ldoo$a;)Z
+	METHOD a add (Ldor;)V
+	METHOD b getHeight ()I
+	METHOD c stitch ()V
+	METHOD d getStitchedSprites ()Ljava/util/List;

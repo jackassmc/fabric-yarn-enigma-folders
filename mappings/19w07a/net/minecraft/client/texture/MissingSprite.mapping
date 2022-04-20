@@ -1,0 +1,7 @@
+CLASS dpg net/minecraft/client/texture/MissingSprite
+	FIELD k MISSINGNO Lqh;
+	FIELD l TEXTURE Ldpc;
+	FIELD m IMAGE Lze;
+	METHOD a getMissingSprite ()Ldpg;
+	METHOD b getMissingSpriteId ()Lqh;
+	METHOD d getMissingSpriteTexture ()Ldpc;

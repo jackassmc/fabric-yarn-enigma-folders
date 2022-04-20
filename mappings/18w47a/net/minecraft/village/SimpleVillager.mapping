@@ -1,0 +1,16 @@
+CLASS apy net/minecraft/village/SimpleVillager
+	FIELD a villagerInventory Lass;
+	FIELD b player Laqf;
+	FIELD c recipeList Lazs;
+	FIELD d displayName Liz;
+	METHOD <init> (Laqf;Liz;)V
+		ARG 1 player
+	METHOD P_ getCurrentCustomer ()Laqf;
+	METHOD Q getDisplayedName ()Liz;
+	METHOD a onSellingItem (Lavn;)V
+	METHOD a useRecipe (Lazr;)V
+	METHOD a setRecipeList (Lazs;)V
+	METHOD a_ setCurrentCustomer (Laqf;)V
+	METHOD b_ getRecipes (Laqf;)Lazs;
+	METHOD c getVillagerWorld ()Lbam;
+	METHOD d getVillagerPos ()Les;

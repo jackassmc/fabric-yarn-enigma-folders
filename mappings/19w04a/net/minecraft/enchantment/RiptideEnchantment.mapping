@@ -1,0 +1,4 @@
+CLASS bbh net/minecraft/enchantment/RiptideEnchantment
+	METHOD <init> (Lban$a;[Lahh;)V
+		ARG 1 weight
+		ARG 2 slotTypes

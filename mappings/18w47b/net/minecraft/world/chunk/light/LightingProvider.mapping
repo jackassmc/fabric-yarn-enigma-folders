@@ -1,0 +1,3 @@
+CLASS ccq net/minecraft/world/chunk/light/LightingProvider
+	METHOD a get (Lbay;)Lcco;
+	METHOD a queueLightCheck (Let;)V

@@ -1,0 +1,3 @@
+CLASS diq net/minecraft/client/particle/ElderGuardianAppearanceParticle
+	CLASS diq$a Factory
+	FIELD C guardian Laio;

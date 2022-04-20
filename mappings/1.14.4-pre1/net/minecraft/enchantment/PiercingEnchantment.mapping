@@ -1,0 +1,4 @@
+CLASS net/minecraft/class_1881 net/minecraft/enchantment/PiercingEnchantment
+	METHOD <init> (Lbfp$a;[Lair;)V
+		ARG 1 weight
+		ARG 2 slotTypes

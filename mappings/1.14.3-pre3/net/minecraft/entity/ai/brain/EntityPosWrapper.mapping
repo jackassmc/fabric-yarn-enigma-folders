@@ -1,0 +1,4 @@
+CLASS aka net/minecraft/entity/ai/brain/EntityPosWrapper
+	FIELD a entity Laiu;
+	METHOD <init> (Laiu;)V
+		ARG 1 entity

@@ -1,0 +1,9 @@
+CLASS cxr net/minecraft/client/gui/menu/DisconnectedScreen
+	FIELD a title Ljava/lang/String;
+	FIELD b reason Ljl;
+	FIELD g reasonFormatted Ljava/util/List;
+	FIELD h parent Lcyh;
+	FIELD i reasonHeight I
+	METHOD <init> (Lcyh;Ljava/lang/String;Ljl;)V
+		ARG 1 parent
+		ARG 2 title

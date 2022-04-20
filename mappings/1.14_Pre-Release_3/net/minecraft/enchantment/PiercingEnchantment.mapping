@@ -1,0 +1,4 @@
+CLASS bfa net/minecraft/enchantment/PiercingEnchantment
+	METHOD <init> (Lbff$a;[Laii;)V
+		ARG 1 weight
+		ARG 2 slotTypes

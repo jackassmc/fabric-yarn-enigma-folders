@@ -1,0 +1,7 @@
+CLASS brm net/minecraft/block/SlabBlock
+	FIELD a TYPE Lbwm;
+	FIELD b WATERLOGGED Lbwg;
+	FIELD c BOTTOM_SHAPE Lcsv;
+	FIELD d TOP_SHAPE Lcsv;
+	METHOD <init> (Lbmq$c;)V
+		ARG 1 settings

@@ -1,0 +1,3 @@
+CLASS cli net/minecraft/fluid/WaterFluid
+	CLASS cli$a Flowing
+	CLASS cli$b Still

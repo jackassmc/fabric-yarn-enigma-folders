@@ -1,0 +1,21 @@
+CLASS bbx net/minecraft/entity/player/ItemCooldownManager
+	CLASS bbx$a Entry
+		FIELD b startTick I
+		FIELD c endTick I
+		METHOD <init> (Lbbx;II)V
+			ARG 2 startTick
+			ARG 3 endTick
+	FIELD a entries Ljava/util/Map;
+	FIELD b tick I
+	METHOD a update ()V
+	METHOD a isCoolingDown (Lbbw;)Z
+	METHOD a getCooldownProgress (Lbbw;F)F
+		ARG 2 partialTicks
+	METHOD a set (Lbbw;I)V
+		ARG 1 item
+		ARG 2 duration
+	METHOD b remove (Lbbw;)V
+		ARG 1 item
+	METHOD b onCooldownUpdate (Lbbw;I)V
+		ARG 1 item
+	METHOD c onCooldownUpdate (Lbbw;)V

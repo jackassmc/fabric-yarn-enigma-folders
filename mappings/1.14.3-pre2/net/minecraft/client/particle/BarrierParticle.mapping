@@ -1,0 +1,7 @@
+CLASS dhz net/minecraft/client/particle/BarrierParticle
+	CLASS dhz$a Factory
+	METHOD <init> (Lbhl;DDDLbhk;)V
+		ARG 1 world
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z

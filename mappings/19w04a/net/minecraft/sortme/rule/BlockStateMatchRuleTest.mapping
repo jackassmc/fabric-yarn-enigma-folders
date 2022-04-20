@@ -1,0 +1,4 @@
+CLASS cdr net/minecraft/sortme/rule/BlockStateMatchRuleTest
+	FIELD a blockState Lbqk;
+	METHOD <init> (Lbqk;)V
+		ARG 1 blockState

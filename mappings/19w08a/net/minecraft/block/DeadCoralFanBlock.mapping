@@ -1,0 +1,4 @@
+CLASS bht net/minecraft/block/DeadCoralFanBlock
+	FIELD a SHAPE Lcoe;
+	METHOD <init> (Lbif$c;)V
+		ARG 1 settings

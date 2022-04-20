@@ -1,0 +1,8 @@
+CLASS bow net/minecraft/block/JukeboxBlock
+	FIELD a HAS_RECORD Lbvq;
+	METHOD <init> (Lbma$c;)V
+		ARG 1 settings
+	METHOD a removeRecord (Lbgx;Lev;)V
+	METHOD a setRecord (Lbgy;Lev;Lbuy;Lbbp;)V
+		ARG 2 pos
+		ARG 3 state

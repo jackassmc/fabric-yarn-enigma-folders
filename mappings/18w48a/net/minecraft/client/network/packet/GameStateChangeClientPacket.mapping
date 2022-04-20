@@ -1,0 +1,12 @@
+CLASS kx net/minecraft/client/network/packet/GameStateChangeClientPacket
+	FIELD a REASON_MESSAGES [Ljava/lang/String;
+	FIELD b reason I
+	FIELD c value F
+	METHOD <init> (IF)V
+		ARG 1 reason
+	METHOD a read (Liq;)V
+	METHOD a apply (Lit;)V
+	METHOD a apply (Ljr;)V
+	METHOD b getReason ()I
+	METHOD b write (Liq;)V
+	METHOD c getValue ()F

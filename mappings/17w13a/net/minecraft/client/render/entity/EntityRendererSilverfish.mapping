@@ -1,0 +1,6 @@
+CLASS buj net/minecraft/client/render/entity/EntityRendererSilverfish
+	FIELD a SKIN Lkp;
+	METHOD a getTexture (Lsg;)Lkp;
+		ARG 0 model
+	METHOD b getTexture (Lzv;)Lkp;
+		ARG 0 model

@@ -1,0 +1,13 @@
+CLASS dja net/minecraft/client/render/chunk/ChunkRenderData
+	FIELD a EMPTY Ldja;
+	FIELD c initialized [Z
+	FIELD d empty Z
+	FIELD e blockEntities Ljava/util/List;
+	FIELD g bufferState Lcqc$a;
+	METHOD a isEmpty ()Z
+	METHOD a addBlockEntity (Lbph;)V
+	METHOD a setBufferState (Lcqc$a;)V
+	METHOD b getBlockEntities ()Ljava/util/List;
+	METHOD c getBufferState ()Lcqc$a;
+	METHOD c markBufferInitialized (Lbcr;)V
+	METHOD d isBufferInitialized (Lbcr;)Z

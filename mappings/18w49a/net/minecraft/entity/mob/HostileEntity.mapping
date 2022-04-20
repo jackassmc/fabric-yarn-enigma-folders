@@ -1,0 +1,16 @@
+CLASS apj net/minecraft/entity/mob/HostileEntity
+	METHOD <init> (Lago;Lbas;)V
+		ARG 1 type
+	METHOD T_ update ()V
+	METHOD a damage (Laft;F)Z
+		ARG 1 source
+		ARG 2 amount
+	METHOD af getSoundSwim ()Lxg;
+	METHOD ag getSoundSplash ()Lxg;
+	METHOD bW getSoundCategory ()Lxi;
+	METHOD ca initAttributes ()V
+	METHOD cd canDropLootAndXp ()Z
+	METHOD cv getDeathSound ()Lxg;
+	METHOD e getHurtSound (Laft;)Lxg;
+	METHOD k updateMovement ()V
+	METHOD n getFallSound (I)Lxg;

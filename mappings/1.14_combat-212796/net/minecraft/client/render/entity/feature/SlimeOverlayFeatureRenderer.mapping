@@ -1,0 +1,4 @@
+CLASS dto net/minecraft/client/render/entity/feature/SlimeOverlayFeatureRenderer
+	FIELD a model Ldeu;
+	METHOD <init> (Ldre;)V
+		ARG 1 context

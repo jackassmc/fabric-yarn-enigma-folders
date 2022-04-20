@@ -1,0 +1,7 @@
+CLASS atz net/minecraft/entity/passive/VillagerEntity
+	FIELD bC VILLAGER_DATA Lqe;
+	METHOD a setVillagerData (Laua;)V
+	METHOD b setRecipes (Lbfd;)V
+	METHOD ee wantsToStartBreeding ()Z
+	METHOD ef canBreed ()Z
+	METHOD ek levelUp ()V

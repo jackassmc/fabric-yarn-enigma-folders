@@ -1,0 +1,5 @@
+CLASS cdt net/minecraft/structure/generator/WoodlandMansionGenerator
+	CLASS cdt$i Piece
+		FIELD d template Ljava/lang/String;
+		FIELD e rotation Lbmg;
+		FIELD f mirror Lblg;

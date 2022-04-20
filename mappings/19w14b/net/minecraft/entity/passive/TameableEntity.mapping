@@ -1,0 +1,22 @@
+CLASS aix net/minecraft/entity/passive/TameableEntity
+	FIELD bA TAMEABLE_FLAGS Lqh;
+	FIELD bB OWNER_UUID Lqh;
+	FIELD bC sitGoal Lans;
+	METHOD <init> (Laie;Lbgx;)V
+		ARG 1 type
+	METHOD A_ getOwnerUuid ()Ljava/util/UUID;
+	METHOD a canAttackWithOwner (Laij;Laij;)Z
+		ARG 1 target
+		ARG 2 owner
+	METHOD b setOwnerUuid (Ljava/util/UUID;)V
+	METHOD dS isTamed ()Z
+	METHOD dT onTamedChanged ()V
+	METHOD dU isSitting ()Z
+	METHOD dV getOwner ()Laij;
+	METHOD dW getSitGoal ()Lans;
+	METHOD e setOwner (Lavo;)V
+	METHOD h isOwner (Laij;)Z
+	METHOD r showEmoteParticle (Z)V
+		ARG 1 positive
+	METHOD s setTamed (Z)V
+	METHOD t setSitting (Z)V

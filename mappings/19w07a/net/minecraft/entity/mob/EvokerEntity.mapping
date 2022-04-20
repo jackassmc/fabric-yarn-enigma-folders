@@ -1,0 +1,13 @@
+CLASS aqg net/minecraft/entity/mob/EvokerEntity
+	CLASS aqg$a ConjureFangsGoal
+		METHOD a conjureFangs (DDDDFI)V
+			ARG 1 z
+			ARG 3 maxY
+			ARG 5 warmup
+	CLASS aqg$b LookAtTargetOrWololoTarget
+	CLASS aqg$c SummonVexGoal
+	CLASS aqg$d WololoGoal
+		FIELD e purpleSheepPredicate Ljava/util/function/Predicate;
+	FIELD bC wololoTarget Lanl;
+	METHOD a setWololoTarget (Lanl;)V
+	METHOD dW getWololoTarget ()Lanl;

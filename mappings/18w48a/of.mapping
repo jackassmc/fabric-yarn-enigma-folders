@@ -1,0 +1,8 @@
+CLASS of
+	METHOD a read (Liq;)V
+	METHOD a apply (Lit;)V
+	METHOD a apply (Lmz;)V
+	METHOD b getBlockPos ()Let;
+	METHOD b write (Liq;)V
+	METHOD c getCommand ()Ljava/lang/String;
+	METHOD d shouldTrackOutput ()Z

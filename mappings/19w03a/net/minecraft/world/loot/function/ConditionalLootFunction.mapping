@@ -1,0 +1,26 @@
+CLASS ckw net/minecraft/world/loot/function/ConditionalLootFunction
+	CLASS ckw$a Builder
+		FIELD a conditionList Ljava/util/List;
+		METHOD a withCondition (Lcma$a;)Lckw$a;
+		METHOD b withCondition (Lcma$a;)Ljava/lang/Object;
+		METHOD c getThis ()Ljava/lang/Object;
+		METHOD d build ()Lckw$a;
+		METHOD g getConditions ()[Lcma;
+	CLASS ckw$b Joiner
+		FIELD a joiner Ljava/util/function/Function;
+		METHOD a create ()Lckw$b;
+		METHOD b build ()Lckx;
+		METHOD d build ()Lckw$a;
+	CLASS ckw$c Factory
+		METHOD a toJson (Lcom/google/gson/JsonObject;Lckw;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD a toJson (Lcom/google/gson/JsonObject;Lckx;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD a fromJson (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Lckw;
+		METHOD b fromJson (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Lckx;
+		METHOD b fromJson (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;[Lcma;)Lckw;
+	FIELD a predicate Ljava/util/function/Predicate;
+	FIELD b conditions [Lcma;
+	METHOD a process (Laxc;Lcjo;)Laxc;
+		ARG 1 stack
+	METHOD a check (Lcjs;Ljava/util/function/Function;Ljava/util/Set;Lcln;)V
+	METHOD a create (Ljava/util/function/Function;)Lckw$a;
+	METHOD b apply (Laxc;Lcjo;)Laxc;

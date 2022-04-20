@@ -1,0 +1,10 @@
+CLASS cxt net/minecraft/client/render/item/ItemModelMap
+	FIELD c blockModelManager Ldii;
+	METHOD <init> (Ldii;)V
+		ARG 0 blockModelManager
+	METHOD a getBlockModelManager ()Ldii;
+	METHOD a getSprite (Layz;)Ldgx;
+		ARG 0 item
+	METHOD b reloadModels ()V
+	METHOD b getModel (Lauc;)Ldie;
+		ARG 0 stack

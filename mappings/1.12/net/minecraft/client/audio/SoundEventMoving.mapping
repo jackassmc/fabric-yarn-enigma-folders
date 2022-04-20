@@ -1,0 +1,3 @@
+CLASS cgi net/minecraft/client/audio/SoundEventMoving
+	FIELD l done Z
+	METHOD m isDone ()Z

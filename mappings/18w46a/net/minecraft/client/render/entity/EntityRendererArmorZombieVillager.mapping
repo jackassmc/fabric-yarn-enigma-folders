@@ -1,0 +1,2 @@
+CLASS djt net/minecraft/client/render/entity/EntityRendererArmorZombieVillager
+	METHOD an_ init ()V

@@ -1,0 +1,3 @@
+CLASS dtj net/minecraft/client/render/entity/feature/WitchHeldItemFeatureRenderer
+	METHOD <init> (Ldqs;)V
+		ARG 1 context

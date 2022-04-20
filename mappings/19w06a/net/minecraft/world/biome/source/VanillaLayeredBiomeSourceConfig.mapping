@@ -1,0 +1,9 @@
+CLASS bfs net/minecraft/world/biome/source/VanillaLayeredBiomeSourceConfig
+	FIELD a levelProperties Lcjf;
+	FIELD b generatorSettings Lbuc;
+	METHOD a getLevelProperties ()Lcjf;
+	METHOD a setGeneratorSettings (Lbuc;)Lbfs;
+		ARG 1 generatorSettings
+	METHOD a setLevelProperties (Lcjf;)Lbfs;
+		ARG 1 properties
+	METHOD b getGeneratorSettings ()Lbuc;

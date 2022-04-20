@@ -1,0 +1,5 @@
+CLASS ccr net/minecraft/client/render/entity/EntityRendererPlayer
+	METHOD a getTexture (Lbty;)Lnd;
+		ARG 0 model
+	METHOD a getTexture (Lve;)Lnd;
+		ARG 0 model

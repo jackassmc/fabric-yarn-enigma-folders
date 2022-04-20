@@ -1,0 +1,20 @@
+CLASS dbt net/minecraft/client/gui/widget/MultiplayerServerListWidget
+	CLASS dbt$a Entry
+	CLASS dbt$c LanServerListEntry
+		FIELD b client Lcux;
+		FIELD c server Ldxf;
+		FIELD d screen Ldbs;
+		FIELD e time J
+		METHOD a getLanServerEntry ()Ldxf;
+	CLASS dbt$d ServerItem
+		FIELD c screen Ldbs;
+		FIELD d client Lcux;
+		FIELD e server Ldhk;
+		FIELD f iconLocation Lqr;
+		FIELD h iconTexture Ldtu;
+		FIELD i time J
+		METHOD <init> (Ldbt;Ldbs;Ldhk;)V
+			ARG 2 screen
+			ARG 3 server
+		METHOD a getServer ()Ldhk;
+	FIELD n LOGGER Lorg/apache/logging/log4j/Logger;

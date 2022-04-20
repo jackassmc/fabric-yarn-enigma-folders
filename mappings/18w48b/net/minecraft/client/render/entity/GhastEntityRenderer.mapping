@@ -1,0 +1,5 @@
+CLASS dhb net/minecraft/client/render/entity/GhastEntityRenderer
+	FIELD a SKIN Lpy;
+	FIELD j ANGRY_SKIN Lpy;
+	METHOD a getTexture (Lagi;)Lpy;
+	METHOD a getTexture (Lapa;)Lpy;

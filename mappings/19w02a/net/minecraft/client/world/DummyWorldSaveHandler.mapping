@@ -1,0 +1,14 @@
+CLASS cjc net/minecraft/client/world/DummyWorldSaveHandler
+	METHOD a getWorldDir ()Ljava/io/File;
+	METHOD a createChunkSaveHandler (Lbsx;)Lbsr;
+	METHOD a getDataFile (Lbsy;Ljava/lang/String;)Ljava/io/File;
+	METHOD a saveWorld (Lciw;)V
+		ARG 1 properties
+	METHOD a saveWorld (Lciw;Lhs;)V
+		ARG 1 properties
+		ARG 2 tag
+	METHOD b checkSessionLock ()V
+	METHOD c readProperties ()Lciw;
+	METHOD d getPlayerSaveHandler ()Lcjd;
+	METHOD g getStructureManager ()Lcdx;
+	METHOD h getDataFixer ()Lcom/mojang/datafixers/DataFixer;

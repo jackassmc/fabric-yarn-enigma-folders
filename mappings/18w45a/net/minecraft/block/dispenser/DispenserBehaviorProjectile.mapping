@@ -1,0 +1,7 @@
+CLASS py net/minecraft/block/dispenser/DispenserBehaviorProjectile
+	METHOD a getVariation ()F
+	METHOD a createProjectile (Lazy;Lfh;Lava;)Laqi;
+	METHOD a playSound (Let;)V
+	METHOD a doDispense (Let;Lava;)Lava;
+		ARG 1 location
+	METHOD b getForce ()F

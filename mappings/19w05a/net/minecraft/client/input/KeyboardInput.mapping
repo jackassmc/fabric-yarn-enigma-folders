@@ -1,0 +1,4 @@
+CLASS den net/minecraft/client/input/KeyboardInput
+	FIELD i settings Lcqf;
+	METHOD <init> (Lcqf;)V
+		ARG 1 settings

@@ -1,0 +1,18 @@
+CLASS bfu net/minecraft/client/gui/widget/WidgetToggle
+	FIELD o value Z
+	FIELD p label Ljava/lang/String;
+	FIELD q parent Lbfz$b;
+	METHOD <init> (Lbfz$b;IIILjava/lang/String;Z)V
+		ARG 0 parent
+		ARG 1 id
+		ARG 2 x
+		ARG 3 y
+		ARG 4 label
+		ARG 5 value
+	METHOD b setState (Z)V
+		ARG 0 isYesButton
+	METHOD c getDisplayValue ()Ljava/lang/String;
+	METHOD c isWithinBounds (Lbeq;II)Z
+		ARG 0 game
+		ARG 1 mouseX
+		ARG 2 mouseY

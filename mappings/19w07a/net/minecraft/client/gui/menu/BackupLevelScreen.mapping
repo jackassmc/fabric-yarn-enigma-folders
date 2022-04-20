@@ -1,0 +1,10 @@
+CLASS cye net/minecraft/client/gui/menu/BackupLevelScreen
+	FIELD a saveButton Lcrm;
+	FIELD f callback Lctw;
+	FIELD h levelName Ljava/lang/String;
+	METHOD <init> (Lctw;Ljava/lang/String;)V
+		ARG 1 callback
+	METHOD a backupLevel (Lcjp;Ljava/lang/String;)V
+		ARG 0 level
+		ARG 1 name
+	METHOD h commit ()V

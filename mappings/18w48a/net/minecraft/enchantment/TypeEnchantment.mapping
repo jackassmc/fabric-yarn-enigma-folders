@@ -1,0 +1,55 @@
+CLASS ayu net/minecraft/enchantment/TypeEnchantment
+	CLASS ayu$1
+		METHOD a isAcceptableItem (Lavn;)Z
+			ARG 0 item
+	CLASS ayu$2
+		METHOD a isAcceptableItem (Lavn;)Z
+			ARG 0 item
+	CLASS ayu$3
+		METHOD a isAcceptableItem (Lavn;)Z
+			ARG 0 item
+	CLASS ayu$4
+		METHOD a isAcceptableItem (Lavn;)Z
+			ARG 0 item
+	CLASS ayu$5
+		METHOD a isAcceptableItem (Lavn;)Z
+			ARG 0 item
+	CLASS ayu$6
+		METHOD a isAcceptableItem (Lavn;)Z
+			ARG 0 item
+	CLASS ayu$7
+		METHOD a isAcceptableItem (Lavn;)Z
+			ARG 0 item
+	CLASS ayu$8
+		METHOD a isAcceptableItem (Lavn;)Z
+			ARG 0 item
+	CLASS ayu$9
+		METHOD a isAcceptableItem (Lavn;)Z
+			ARG 0 item
+	CLASS ayu$10
+		METHOD a isAcceptableItem (Lavn;)Z
+			ARG 0 item
+	CLASS ayu$11
+		METHOD a isAcceptableItem (Lavn;)Z
+			ARG 0 item
+	CLASS ayu$12
+		METHOD a isAcceptableItem (Lavn;)Z
+			ARG 0 item
+	CLASS ayu$13
+		METHOD a isAcceptableItem (Lavn;)Z
+			ARG 0 item
+	CLASS ayu$14
+		METHOD a isAcceptableItem (Lavn;)Z
+			ARG 0 item
+	FIELD a ALL Layu;
+	FIELD b ARMOR Layu;
+	FIELD c FEET Layu;
+	FIELD d LEGS Layu;
+	FIELD e CHEST Layu;
+	FIELD f HELM Layu;
+	FIELD g WEAPON Layu;
+	FIELD h BREAKER Layu;
+	FIELD i FISHING Layu;
+	FIELD k TOOL Layu;
+	FIELD l BOW Layu;
+	METHOD a isAcceptableItem (Lavn;)Z

@@ -1,0 +1,4 @@
+CLASS dnz net/minecraft/client/render/debug/GoalSelectorDebugRenderer
+	FIELD a client Lcvn;
+	FIELD b goalSelectors Ljava/util/Map;
+	METHOD a setGoalSelectorList (ILjava/util/List;)V

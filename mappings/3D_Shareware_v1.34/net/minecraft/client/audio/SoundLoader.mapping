@@ -1,0 +1,2 @@
+CLASS dxn net/minecraft/client/audio/SoundLoader
+	FIELD b loadedSounds Ljava/util/Map;

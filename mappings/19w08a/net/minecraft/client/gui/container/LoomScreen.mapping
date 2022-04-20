@@ -1,0 +1,19 @@
+CLASS cxc net/minecraft/client/gui/container/LoomScreen
+	FIELD A PATTERN_BUTTON_BACKGROUND_COLOR Lawq;
+	FIELD B PATTERN_BUTTON_FOREGROUND_COLOR Lawq;
+	FIELD C PATTERN_BUTTON_COLORS Ljava/util/List;
+	FIELD D output Lqi;
+	FIELD E banner Laxw;
+	FIELD F dye Laxw;
+	FIELD G pattern Laxw;
+	FIELD H patternButtonTextureIds [Lqi;
+	FIELD I canApplyDyePattern Z
+	FIELD J canApplySpecialPattern Z
+	FIELD K hasTooManyPatterns Z
+	FIELD L scrollPosition F
+	FIELD M scrollbarClicked Z
+	FIELD N firstPatternButtonId I
+	FIELD O lastCachedPatternButtonTextureId I
+	FIELD y TEXTURE Lqi;
+	FIELD z PATTERN_BUTTON_ROW_COUNT I
+	METHOD j onInventoryChanged ()V

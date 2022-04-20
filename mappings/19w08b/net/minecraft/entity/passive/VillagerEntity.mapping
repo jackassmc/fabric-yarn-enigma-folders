@@ -1,0 +1,30 @@
+CLASS arm net/minecraft/entity/passive/VillagerEntity
+	FIELD bA VILLAGER_DATA Lpx;
+	FIELD bC findVillageCountdown I
+	FIELD bD unlockTradeCountdown I
+	FIELD bE unlockTrade Z
+	FIELD bF customerName Ljava/lang/String;
+	FIELD bG willingToMate Z
+	FIELD bH inMating Z
+	FIELD bI staring Z
+	FIELD bJ village Laml;
+	FIELD bK recentlyRescued Z
+	FIELD bL goalsSet Z
+	METHOD a setVillagerData (Larn;)V
+	METHOD a canPickUp (Laxs;)Z
+	METHOD b setRecipes (Lbck;)V
+	METHOD d hasEnoughFood (I)Z
+	METHOD dT isInMating ()Z
+	METHOD dU isStaring ()Z
+	METHOD dV setRecentlyRescued ()V
+	METHOD dW hasFoodForWilling ()Z
+	METHOD dY wantsToStartBreeding ()Z
+	METHOD dZ canBreed ()Z
+	METHOD ea hasSeed ()Z
+	METHOD eb setSpecificGoals ()V
+	METHOD ec levelUp ()V
+	METHOD r setInMating (Z)V
+	METHOD s setStaring (Z)V
+	METHOD t isWillingToMate (Z)Z
+		ARG 1 update
+	METHOD u setWillingToMate (Z)V

@@ -1,0 +1,22 @@
+CLASS ey net/minecraft/util/CuboidBlockIterator
+	FIELD a startX I
+	FIELD b startY I
+	FIELD c startZ I
+	FIELD d endX I
+	FIELD e endY I
+	FIELD f endZ I
+	FIELD g x I
+	FIELD h y I
+	FIELD i z I
+	FIELD j complete Z
+	METHOD <init> (IIIIII)V
+		ARG 1 startX
+		ARG 2 startY
+		ARG 3 startZ
+		ARG 4 endX
+		ARG 5 endY
+		ARG 6 endZ
+	METHOD a step ()Z
+	METHOD b getX ()I
+	METHOD c getY ()I
+	METHOD d getZ ()I

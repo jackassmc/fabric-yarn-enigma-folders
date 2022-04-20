@@ -1,0 +1,3 @@
+CLASS dwe net/minecraft/client/render/model/ModelBakeSettings
+	METHOD b getRotation ()Ldvz;
+	METHOD c isUvLocked ()Z

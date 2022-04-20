@@ -1,0 +1,9 @@
+CLASS cfa net/minecraft/structure/VillageGenerator
+	CLASS a Piece
+	METHOD a addPieces (Lbxe;Lcjl;Lev;Ljava/util/List;Lbzg;Lcey;)V
+		ARG 0 chunkGenerator
+		ARG 1 structureManager
+		ARG 2 pos
+		ARG 3 pieces
+		ARG 4 random
+		ARG 5 config

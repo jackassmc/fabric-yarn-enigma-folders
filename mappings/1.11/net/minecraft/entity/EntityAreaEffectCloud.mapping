@@ -1,0 +1,61 @@
+CLASS sk net/minecraft/entity/EntityAreaEffectCloud
+	FIELD aA radiusStart F
+	FIELD a RADIUS Lkk;
+	FIELD av duration I
+	FIELD aw waitTime I
+	FIELD b COLOR Lkk;
+	FIELD c WAITING Lkk;
+	FIELD d PARTICLE_ID Lkk;
+	FIELD e PARTICLE_PARAM_1 Lkk;
+	FIELD f PARTICLE_PARAM_2 Lkk;
+	FIELD g potion Lagx;
+	FIELD h effects Ljava/util/List;
+	METHOD <init> (Lajq;DDD)V
+		ARG 0 world
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD A_ update ()V
+	METHOD C updateColor ()V
+	METHOD a setRadius (F)V
+		ARG 0 value
+	METHOD a setColor (I)V
+		ARG 0 value
+	METHOD a setPotion (Lagx;)V
+		ARG 0 value
+	METHOD a setParticleType (Lde;)V
+		ARG 0 value
+	METHOD a deserializeCustomData (Ldu;)V
+		ARG 0 tag
+	METHOD a onTrackedDataSet (Lkk;)V
+		ARG 0 data
+	METHOD a setPotionEffect (Lsg;)V
+		ARG 0 value
+	METHOD a setOwner (Lsv;)V
+		ARG 0 value
+	METHOD a setWaiting (Z)V
+		ARG 0 value
+	METHOD b setRadiusStart (F)V
+		ARG 0 value
+	METHOD b setParticleParam1 (I)V
+		ARG 0 value
+	METHOD b serializeCustomData (Ldu;)V
+		ARG 0 tag
+	METHOD c setRadiusGrowth (F)V
+		ARG 0 value
+	METHOD d setParticleParam2 (I)V
+		ARG 0 value
+	METHOD e setDuration (I)V
+		ARG 0 value
+	METHOD g setWaitTime (I)V
+		ARG 0 value
+	METHOD i initDataTracker ()V
+	METHOD j getRadius ()F
+	METHOD k getColor ()I
+	METHOD l getParticleType ()Lde;
+	METHOD n getParticleParam1 ()I
+	METHOD o getParticleParam2 ()I
+	METHOD o_ getPistonBehavior ()Lazt;
+	METHOD q isWaiting ()Z
+	METHOD r getDuration ()I
+	METHOD y getOwner ()Lsv;

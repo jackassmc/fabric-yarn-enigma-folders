@@ -1,0 +1,15 @@
+CLASS dfk net/minecraft/client/texture/TextureCache
+	CLASS dfk$a Manager
+		FIELD a cacheMap Ljava/util/Map;
+		FIELD b filename Lqe;
+		FIELD c baseDir Ljava/lang/String;
+		FIELD d id Ljava/lang/String;
+		METHOD a removeOldEntries ()Z
+		METHOD a get (Ljava/lang/String;Ljava/util/List;Ljava/util/List;)Lqe;
+	CLASS dfk$b Entry
+		FIELD a lastRequestTimeMillis J
+		FIELD b filename Lqe;
+	FIELD a BANNER Ldfk$a;
+	FIELD b SHIELD Ldfk$a;
+	FIELD c DEFAULT_SHIELD Lqe;
+	FIELD d DEFAULT_BANNER Lqe;

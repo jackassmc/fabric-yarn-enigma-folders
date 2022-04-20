@@ -1,0 +1,13 @@
+CLASS ckv net/minecraft/world/loot/context/LootContextTypes
+	FIELD a EMPTY Lcku;
+	FIELD b CHEST Lcku;
+	FIELD c FISHING Lcku;
+	FIELD d ENTITY Lcku;
+	FIELD e GIFT Lcku;
+	FIELD f ADVANCEMENT_REWARD Lcku;
+	FIELD g GENERIC Lcku;
+	FIELD h BLOCK Lcku;
+	FIELD i MAP Lcom/google/common/collect/BiMap;
+	METHOD a getId (Lcku;)Lqc;
+	METHOD a register (Ljava/lang/String;Ljava/util/function/Consumer;)Lcku;
+	METHOD a get (Lqc;)Lcku;

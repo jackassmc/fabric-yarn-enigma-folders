@@ -1,0 +1,3 @@
+CLASS dre net/minecraft/client/render/entity/ShulkerEntityRenderer
+	FIELD a SKIN Lqs;
+	FIELD j SKIN_COLOR [Lqs;

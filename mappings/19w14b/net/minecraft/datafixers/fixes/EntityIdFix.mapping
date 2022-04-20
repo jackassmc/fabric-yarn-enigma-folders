@@ -1,0 +1,2 @@
+CLASS abn net/minecraft/datafixers/fixes/EntityIdFix
+	FIELD a RENAMED_ENTITIES Ljava/util/Map;

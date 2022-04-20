@@ -1,0 +1,4 @@
+CLASS cng net/minecraft/world/loot/entry/AlternativeEntry
+	CLASS cng$a net/minecraft/world/loot/entry/AlternativeEntry$Builder
+		FIELD a children Ljava/util/List;
+	METHOD a create ([Lcnp$a;)Lcng$a;

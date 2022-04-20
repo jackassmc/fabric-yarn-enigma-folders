@@ -1,0 +1,4 @@
+CLASS cio net/minecraft/world/PlayerSaveHandler
+	METHOD a savePlayerData (Larb;)V
+	METHOD b loadPlayerData (Larb;)Lhs;
+	METHOD e getSavedPlayerIds ()[Ljava/lang/String;

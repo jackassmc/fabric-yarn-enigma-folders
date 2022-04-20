@@ -1,0 +1,16 @@
+CLASS cku net/minecraft/scoreboard/ScoreboardTeamBase
+	CLASS cku$a CollisionRule
+	CLASS cku$b VisibilityRule
+		FIELD a ALWAYS Lcku$b;
+		FIELD b NEVER Lcku$b;
+		FIELD c HIDDEN_FOR_OTHER_TEAMS Lcku$b;
+		FIELD d HIDDEN_FOR_TEAM Lcku$b;
+	METHOD a isEqual (Lcku;)Z
+	METHOD b getName ()Ljava/lang/String;
+	METHOD g getPlayerList ()Ljava/util/Collection;
+	METHOD h isFriendlyFireAllowed ()Z
+	METHOD i shouldShowFriendlyInvisibles ()Z
+	METHOD j getNameTagVisibilityRule ()Lcku$b;
+	METHOD k getDeathMessageVisibilityRule ()Lcku$b;
+	METHOD l getCollisionRule ()Lcku$a;
+	METHOD n getColor ()La;

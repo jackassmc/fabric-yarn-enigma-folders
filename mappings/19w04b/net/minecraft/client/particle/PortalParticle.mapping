@@ -1,0 +1,10 @@
+CLASS ddq net/minecraft/client/particle/PortalParticle
+	CLASS ddq$a Factory
+	FIELD K startX D
+	FIELD L startY D
+	FIELD M startZ D
+	METHOD <init> (Lbcl;DDDDDD)V
+		ARG 1 world
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z

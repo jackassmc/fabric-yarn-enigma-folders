@@ -1,0 +1,219 @@
+CLASS bfy net/minecraft/world/World
+	FIELD a DIRECTIONS [Lez;
+	FIELD b unusedWhite J
+	FIELD c thread Ljava/lang/Thread;
+	FIELD d ambientDarkness I
+	FIELD e LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD f blockEntities Ljava/util/List;
+	FIELD g tickingBlockEntities Ljava/util/List;
+	FIELD h pendingBlockEntities Ljava/util/List;
+	FIELD j lcgBlockSeed I
+	FIELD k unusedIncrement I
+	FIELD l rainGradientPrev F
+	FIELD m rainGradient F
+	FIELD n thunderGradientPrev F
+	FIELD o thunderGradient F
+	FIELD p random Ljava/util/Random;
+	FIELD q dimension Lbwq;
+	FIELD r chunkManager Lbvp;
+	FIELD s properties Lcmm;
+	FIELD t isClient Z
+	FIELD u iteratingTickingBlockEntities Z
+	FIELD v ticksSinceLightning I
+	FIELD w profiler Lafv;
+	FIELD x border Lbvj;
+	METHOD <init> (Lcmm;Lbwr;Ljava/util/function/BiFunction;Lafv;Z)V
+		ARG 1 levelProperties
+		ARG 2 dimensionType
+		ARG 3 chunkManagerProvider
+		ARG 4 profiler
+		ARG 5 isClient
+	METHOD D getScoreboard ()Lcrh;
+	METHOD D getPendingBlockEntity (Leu;)Lbsa;
+	METHOD J isDaylight ()Z
+	METHOD L getChunkProviderStatus ()Ljava/lang/String;
+	METHOD M calculateAmbientDarkness ()V
+	METHOD N initWeatherGradients ()V
+	METHOD O getGeneratorType ()Lbgf;
+	METHOD P disconnect ()V
+	METHOD Q getTime ()J
+	METHOD R getTimeOfDay ()J
+	METHOD S getGameRules ()Lbfu;
+	METHOD T isThundering ()Z
+	METHOD U isRaining ()Z
+	METHOD V getEffectiveHeight ()I
+	METHOD W getHorizonHeight ()D
+	METHOD X getTicksSinceLightning ()I
+	METHOD Y getProfiler ()Lafv;
+	METHOD a tickTime ()V
+	METHOD a addFireworkParticle (DDDDDDLia;)V
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+		ARG 7 velocityX
+		ARG 9 velocityY
+		ARG 11 velocityZ
+		ARG 13 tag
+	METHOD a playSound (DDDLyf;Lyh;FFZ)V
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+		ARG 7 sound
+	METHOD a getAmbientLight (F)F
+		ARG 1 delta
+	METHOD a getEntityById (I)Lahw;
+	METHOD a getRandomPosInChunk (IIII)Leu;
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD a setBlockBreakingProgress (ILeu;I)V
+	METHOD a setTime (J)V
+	METHOD a summonParticle (Lahw;B)V
+	METHOD a createExplosion (Lahw;DDDFLbfr$a;)Lbfr;
+		ARG 1 entity
+		ARG 2 x
+		ARG 4 y
+	METHOD a createExplosion (Lahw;DDDFZLbfr$a;)Lbfr;
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z
+	METHOD a createExplosion (Lahw;Lahf;DDDFZLbfr$a;)Lbfr;
+		ARG 1 entity
+		ARG 3 x
+		ARG 5 y
+		ARG 7 z
+	METHOD a playSound (Laum;DDDLyf;Lyh;FF)V
+		ARG 1 player
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z
+	METHOD a playEvent (Laum;ILeu;I)V
+		ARG 1 source
+		ARG 2 type
+		ARG 3 pos
+		ARG 4 data
+	METHOD a playSoundFromEntity (Laum;Lahw;Lyf;Lyh;FF)V
+	METHOD a canPlayerModifyAt (Laum;Leu;)Z
+		ARG 1 player
+	METHOD a addBlockEntity (Lbsa;)Z
+	METHOD a putMapState (Lcmh;)V
+		ARG 1 mapState
+	METHOD a isAreaNotEmpty (Lcqc;)Z
+	METHOD a getBlockState (Lcqc;Lbkz;)Lbtx;
+		ARG 1 area
+		ARG 2 block
+	METHOD a containsBlockWithMaterial (Lcqc;Lcjp;)Z
+		ARG 1 area
+		ARG 2 material
+	METHOD a addDetailsToCrashReport (Ld;)Le;
+		ARG 1 report
+	METHOD a getSkyColor (Leu;F)Lcqh;
+	METHOD a addBlockAction (Leu;Lbkz;II)V
+		ARG 1 pos
+		ARG 2 block
+		ARG 3 type
+		ARG 4 data
+	METHOD a updateNeighbor (Leu;Lbkz;Leu;)V
+		ARG 1 pos
+		ARG 2 sourceBlock
+	METHOD a updateNeighborsExcept (Leu;Lbkz;Lez;)V
+		ARG 1 pos
+		ARG 2 sourceBlock
+	METHOD a setBlockEntity (Leu;Lbsa;)V
+		ARG 1 pos
+	METHOD a setBlockState (Leu;Lbtx;)Z
+		ARG 1 pos
+	METHOD a updateListeners (Leu;Lbtx;Lbtx;I)V
+	METHOD a addParticle (Lgc;ZDDDDDD)V
+		ARG 1 parameters
+		ARG 2 alwaysSpawn
+		ARG 3 x
+		ARG 5 y
+		ARG 7 z
+		ARG 9 velocityX
+		ARG 11 velocityY
+		ARG 13 velocityZ
+	METHOD a getMapState (Ljava/lang/String;)Lcmh;
+		ARG 1 id
+	METHOD a locateStructure (Ljava/lang/String;Leu;IZ)Leu;
+		ARG 1 id
+		ARG 2 center
+		ARG 3 radius
+		ARG 4 skipExistingChunks
+	METHOD a addBlockEntities (Ljava/util/Collection;)V
+	METHOD a sendPacket (Ljz;)V
+		ARG 1 packet
+	METHOD a setMobSpawnOptions (ZZ)V
+		ARG 1 spawnMonsters
+		ARG 2 spawnAnimals
+	METHOD a_ setSpawnPos (Leu;)V
+	METHOD b isHeightInvalid (I)Z
+		ARG 0 y
+	METHOD b playGlobalEvent (ILeu;I)V
+		ARG 1 type
+		ARG 2 pos
+		ARG 3 data
+	METHOD b setTimeOfDay (J)V
+	METHOD b doesAreaContainFireSource (Lcqc;)Z
+	METHOD b updateNeighborsAlways (Leu;Lbkz;)V
+		ARG 1 pos
+	METHOD b markDirty (Leu;Lbsa;)V
+		ARG 1 pos
+	METHOD b isEmittingRedstonePower (Leu;Lez;)Z
+		ARG 1 pos
+	METHOD b addImportantParticle (Lgc;DDDDDD)V
+		ARG 1 parameters
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z
+		ARG 8 velocityX
+		ARG 10 velocityY
+		ARG 12 velocityZ
+	METHOD b addImportantParticle (Lgc;ZDDDDDD)V
+		ARG 1 parameters
+		ARG 2 alwaysSpawn
+		ARG 3 x
+		ARG 5 y
+		ARG 7 z
+		ARG 9 velocityX
+		ARG 11 velocityY
+		ARG 13 velocityZ
+	METHOD c getCloudColor (F)Lcqh;
+	METHOD c setTicksSinceLightning (I)V
+		ARG 1 ticksSinceLightning
+	METHOD c playEvent (ILeu;I)V
+		ARG 1 type
+		ARG 2 pos
+		ARG 3 data
+	METHOD c updateHorizontalAdjacent (Leu;Lbkz;)V
+		ARG 1 pos
+	METHOD c getEmittedRedstonePower (Leu;Lez;)I
+		ARG 1 pos
+	METHOD d getFogColor (F)Lcqh;
+	METHOD e getStarsBrightness (F)F
+	METHOD f getThunderGradient (F)F
+	METHOD g setThunderGradient (F)V
+	METHOD h getRainGradient (F)F
+	METHOD i setRainGradient (F)V
+	METHOD j getTopNonAirState (Leu;)Lbtx;
+	METHOD j_ setDefaultSpawnClient ()V
+	METHOD k isValid (Leu;)Z
+		ARG 0 pos
+	METHOD l isHeightInvalid (Leu;)Z
+		ARG 0 pos
+	METHOD m getWorldChunk (Leu;)Lbvx;
+	METHOD n scheduleBlockRender (Leu;)V
+	METHOD o removeBlockEntity (Leu;)V
+	METHOD p getServer ()Lnet/minecraft/server/MinecraftServer;
+	METHOD p isHeightValidAndBlockLoaded (Leu;)Z
+	METHOD q doesBlockHaveSolidTopSurface (Leu;)Z
+	METHOD r getReceivedStrongRedstonePower (Leu;)I
+	METHOD s getRecipeManager ()Lbdb;
+	METHOD s isReceivingRedstonePower (Leu;)Z
+	METHOD t getTagManager ()Lyz;
+	METHOD t getReceivedRedstonePower (Leu;)I
+	METHOD u isSavingDisabled ()Z
+	METHOD u hasRain (Leu;)Z
+		ARG 1 pos
+	METHOD v hasHighHumidity (Leu;)Z
+	METHOD y getNextMapId ()I

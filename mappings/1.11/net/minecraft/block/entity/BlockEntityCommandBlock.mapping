@@ -1,0 +1,35 @@
+CLASS asd net/minecraft/block/entity/BlockEntityCommandBlock
+	CLASS asd$1
+		METHOD B_ getServer ()Lnet/minecraft/server/MinecraftServer;
+		METHOD a setCommand (Ljava/lang/String;)V
+			ARG 0 command
+		METHOD c getBlockPos ()Lco;
+		METHOD d getPos ()Lbdu;
+		METHOD e getWorld ()Lajq;
+		METHOD f getEntity ()Lsm;
+	CLASS asd$a Type
+		FIELD a CHAIN Lasd$a;
+		FIELD b REPEATING Lasd$a;
+		FIELD c NORMAL Lasd$a;
+	FIELD a powered Z
+	FIELD f auto Z
+	FIELD g conditionMet Z
+	FIELD i commandExecutor Lajf;
+	METHOD A validate ()V
+	METHOD a getCommandExecutor ()Lajf;
+	METHOD a deserialize (Ldu;)V
+		ARG 0 tag
+	METHOD a setPowered (Z)V
+		ARG 0 powered
+	METHOD b serialize (Ldu;)Ldu;
+		ARG 0 tag
+	METHOD b setAuto (Z)V
+		ARG 0 auto
+	METHOD c getUpdatePacket ()Lfz;
+	METHOD c setConditionMet (Z)V
+		ARG 0 conditionMet
+	METHOD f isPowered ()Z
+	METHOD h isAuto ()Z
+	METHOD i isConditionMet ()Z
+	METHOD k getType ()Lasd$a;
+	METHOD l isConditionalCommandBlock ()Z

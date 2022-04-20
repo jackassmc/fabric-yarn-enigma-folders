@@ -1,0 +1,32 @@
+CLASS dlx net/minecraft/client/render/block/entity/BlockEntityRenderDispatcher
+	FIELD a INSTANCE Ldlx;
+	FIELD b renderOffsetX D
+	FIELD c renderOffsetY D
+	FIELD d renderOffsetZ D
+	FIELD e textureManager Ldtv;
+	FIELD f world Lbgx;
+	FIELD g cameraEntity Lcun;
+	FIELD h hitResult Lcrj;
+	FIELD i renderers Ljava/util/Map;
+	FIELD j fontRenderer Lcvp;
+	METHOD a getFontRenderer ()Lcvp;
+	METHOD a setWorld (Lbgx;)V
+	METHOD a configure (Lbgx;Ldtv;Lcvp;Lcun;Lcrj;)V
+	METHOD a get (Lbtc;)Ldly;
+	METHOD a renderEntity (Lbtc;DDDF)V
+		ARG 1 blockEntity
+		ARG 2 xOffset
+		ARG 4 yOffset
+		ARG 6 zOffset
+		ARG 8 tickDelta
+	METHOD a renderEntity (Lbtc;DDDFIZ)V
+		ARG 2 xOffset
+		ARG 4 yOffset
+		ARG 6 zOffset
+		ARG 8 tickDelta
+		ARG 9 blockBreakStage
+	METHOD a render (Lbtc;FI)V
+		ARG 2 tickDelta
+		ARG 3 blockBreakStage
+	METHOD a get (Ljava/lang/Class;)Ldly;
+	METHOD b renderEntity (Lbtc;)V

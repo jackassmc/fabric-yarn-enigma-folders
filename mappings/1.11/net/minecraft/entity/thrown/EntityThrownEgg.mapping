@@ -1,0 +1,5 @@
+CLASS abp net/minecraft/entity/thrown/EntityThrownEgg
+	METHOD a onCollision (Lbds;)V
+		ARG 0 hit
+	METHOD b registerTagUpgraders (Lph;)V
+		ARG 0 handler

@@ -1,0 +1,6 @@
+CLASS daz net/minecraft/client/render/model/json/ModelElement
+	FIELD c faces Ljava/util/Map;
+	FIELD d rotation Ldbb;
+	FIELD e shade Z
+	METHOD <init> (Lclg;Lclg;Ljava/util/Map;Ldbb;Z)V
+		ARG 4 rotation

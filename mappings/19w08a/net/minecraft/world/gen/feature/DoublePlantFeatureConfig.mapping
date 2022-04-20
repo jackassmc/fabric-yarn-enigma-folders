@@ -1,0 +1,6 @@
+CLASS bwp net/minecraft/world/gen/feature/DoublePlantFeatureConfig
+	FIELD a state Lbrd;
+	METHOD <init> (Lbrd;)V
+		ARG 1 state
+	METHOD a deserialize (Lcom/mojang/datafixers/Dynamic;)Lbwp;
+		ARG 0 dynamic

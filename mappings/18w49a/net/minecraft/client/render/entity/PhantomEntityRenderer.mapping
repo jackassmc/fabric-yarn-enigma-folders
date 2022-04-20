@@ -1,0 +1,3 @@
+CLASS dim net/minecraft/client/render/entity/PhantomEntityRenderer
+	METHOD a getTexture (Lagk;)Lpz;
+	METHOD a getTexture (Lapl;)Lpz;

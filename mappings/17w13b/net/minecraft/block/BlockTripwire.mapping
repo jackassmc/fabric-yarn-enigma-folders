@@ -1,0 +1,72 @@
+CLASS atf net/minecraft/block/BlockTripwire
+	FIELD a POWERED Lavq;
+	FIELD b ATTACHED Lavq;
+	FIELD c DISARMED Lavq;
+	FIELD d NORTH Lavq;
+	FIELD e EAST Lavq;
+	FIELD f SOUTH Lavq;
+	FIELD g WEST Lavq;
+	METHOD a deserializeState (I)Lave;
+		ARG 0 meta
+	METHOD a getPickStack (Lali;Ldx;Lave;)Lahf;
+		ARG 0 world
+		ARG 1 pos
+		ARG 2 state
+	METHOD a onBreak (Lali;Ldx;Lave;Lacu;)V
+		ARG 0 world
+		ARG 1 pos
+		ARG 2 state
+		ARG 3 player
+	METHOD a (Lali;Ldx;Lave;Ljava/util/Random;)V
+		ARG 0 world
+		ARG 1 pos
+		ARG 2 state
+		ARG 3 random
+	METHOD a onEntityCollision (Lali;Ldx;Lave;Lub;)V
+		ARG 0 world
+		ARG 1 pos
+		ARG 2 state
+		ARG 3 entity
+	METHOD a getCollisionBox (Lave;Lalm;Ldx;)Lbfm;
+		ARG 0 state
+		ARG 1 view
+		ARG 2 pos
+	METHOD a applyMirror (Lave;Laqm;)Lave;
+		ARG 0 state
+		ARG 1 mirror
+	METHOD a applyRotation (Lave;Lasa;)Lave;
+		ARG 0 state
+		ARG 1 rotation
+	METHOD a getDropItem (Lave;Ljava/util/Random;I)Lahd;
+		ARG 0 state
+		ARG 1 random
+		ARG 2 fortune
+	METHOD b createStateFactory ()Lavf;
+	METHOD b onBlockRemoved (Lali;Ldx;Lave;)V
+		ARG 0 world
+		ARG 1 pos
+		ARG 2 state
+	METHOD b randomTick (Lali;Ldx;Lave;Ljava/util/Random;)V
+		ARG 0 world
+		ARG 1 pos
+		ARG 2 state
+		ARG 3 random
+	METHOD b isFullBoundsCubeForCulling (Lave;)Z
+		ARG 0 state
+	METHOD b getBoundingBox (Lave;Lalm;Ldx;)Lbfm;
+		ARG 0 state
+		ARG 1 view
+		ARG 2 pos
+	METHOD c onBlockAdded (Lali;Ldx;Lave;)V
+		ARG 0 world
+		ARG 1 pos
+		ARG 2 state
+	METHOD c isFullBoundsCubeForConnection (Lave;)Z
+		ARG 0 state
+	METHOD c getRenderingState (Lave;Lalm;Ldx;)Lave;
+		ARG 0 state
+		ARG 1 view
+		ARG 2 pos
+	METHOD e serializeState (Lave;)I
+		ARG 0 state
+	METHOD f getRenderLayer ()Lala;

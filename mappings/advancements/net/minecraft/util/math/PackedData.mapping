@@ -1,0 +1,9 @@
+CLASS pt net/minecraft/util/math/PackedData
+	FIELD a data [J
+	FIELD b elementSize I
+	FIELD c maxElementValue J
+	FIELD d elementCount I
+	METHOD a getData ()[J
+	METHOD a getValue (I)I
+	METHOD a setValue (II)V
+	METHOD b getCount ()I

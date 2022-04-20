@@ -1,0 +1,5 @@
+CLASS atk net/minecraft/entity/vehicle/CommandBlockMinecartEntity
+	FIELD b COMMAND Lpw;
+	FIELD c LAST_OUTPUT Lpw;
+	FIELD d commandExecutor Lbci;
+	METHOD e getCommandExecutor ()Lbci;

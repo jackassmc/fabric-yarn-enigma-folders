@@ -1,0 +1,27 @@
+CLASS ip net/minecraft/sortme/JsonLikeTagParser
+	FIELD a TRAILING Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
+	FIELD b EXPECTED_KEY Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
+	FIELD c EXPECTED_VALUE Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
+	FIELD d LIST_MIXED Lcom/mojang/brigadier/exceptions/Dynamic2CommandExceptionType;
+	FIELD e ARRAY_MIXED Lcom/mojang/brigadier/exceptions/Dynamic2CommandExceptionType;
+	FIELD f ARRAY_INVALID Lcom/mojang/brigadier/exceptions/DynamicCommandExceptionType;
+	FIELD g DOUBLE_PATTERN_IMPLICIT Ljava/util/regex/Pattern;
+	FIELD h DOUBLE_PATTERN Ljava/util/regex/Pattern;
+	FIELD i FLOAT_PATTERN Ljava/util/regex/Pattern;
+	FIELD j BYTE_PATTERN Ljava/util/regex/Pattern;
+	FIELD k LONG_PATTERN Ljava/util/regex/Pattern;
+	FIELD l SHORT_PATTERN Ljava/util/regex/Pattern;
+	FIELD m INT_PATTERN Ljava/util/regex/Pattern;
+	FIELD n reader Lcom/mojang/brigadier/StringReader;
+	METHOD a readCompoundTag ()Lhx;
+	METHOD a expect (C)V
+	METHOD a parse (Ljava/lang/String;)Lhx;
+		ARG 0 string
+	METHOD b readString ()Ljava/lang/String;
+	METHOD b parsePrimitive (Ljava/lang/String;)Lio;
+	METHOD c parseTagPrimitive ()Lio;
+	METHOD d parseTag ()Lio;
+	METHOD e parseTagArray ()Lio;
+	METHOD f parseCompoundTag ()Lhx;
+	METHOD g parseListTag ()Lio;
+	METHOD h parseTagPrimitiveArray ()Lio;

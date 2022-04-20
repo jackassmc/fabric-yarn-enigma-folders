@@ -1,0 +1,26 @@
+CLASS bii net/minecraft/block/BlockPortal
+	METHOD a getPickStack (Lazl;Les;Lbno;)Lava;
+		ARG 1 world
+		ARG 2 pos
+	METHOD a (Lbno;)Z
+	METHOD a getBoundingShape (Lbno;Lazl;Les;)Lcjm;
+		ARG 1 state
+		ARG 2 view
+	METHOD a onEntityCollision (Lbno;Lazy;Les;Lafy;)V
+		ARG 1 state
+		ARG 2 world
+		ARG 3 pos
+	METHOD a (Lbno;Lazy;Les;Ljava/util/Random;)V
+		ARG 1 world
+		ARG 2 state
+		ARG 3 pos
+	METHOD a applyRotation (Lbno;Lbjf;)Lbno;
+		ARG 1 state
+	METHOD a getRenderingState (Lbno;Lex;Lbno;Lazz;Les;Les;)Lbno;
+		ARG 1 state
+	METHOD a appendProperties (Lbnp$a;)V
+	METHOD b randomDisplayTick (Lbno;Lazy;Les;Ljava/util/Random;)V
+		ARG 1 state
+		ARG 2 world
+		ARG 3 pos
+	METHOD c getRenderLayer ()Lazm;

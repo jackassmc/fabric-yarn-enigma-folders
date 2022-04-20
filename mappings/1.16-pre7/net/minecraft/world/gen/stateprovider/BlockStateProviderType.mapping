@@ -1,0 +1,3 @@
+CLASS net/minecraft/class_4652 net/minecraft/world/gen/stateprovider/BlockStateProviderType
+	METHOD method_23457 register (Ljava/lang/String;Lcom/mojang/serialization/Codec;)Lnet/minecraft/class_4652;
+		ARG 0 id

@@ -1,0 +1,4 @@
+CLASS anf net/minecraft/entity/ai/goal/LongDoorInteractGoal
+	FIELD b ticksLeft I
+	METHOD <init> (Laik;Z)V
+		ARG 1 owner

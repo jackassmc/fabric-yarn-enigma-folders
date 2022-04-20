@@ -1,0 +1,9 @@
+CLASS bno net/minecraft/block/StairsBlock
+	FIELD C baseBlock Lbif;
+	FIELD D baseBlockState Lbrd;
+	FIELD a FACING Lbry;
+	FIELD b HALF Lbsb;
+	FIELD c SHAPE Lbsb;
+	FIELD d WATERLOGGED Lbrv;
+	METHOD n (Lbrd;)Z
+		ARG 1 state

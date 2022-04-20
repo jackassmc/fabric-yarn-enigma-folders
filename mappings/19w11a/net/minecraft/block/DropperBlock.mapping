@@ -1,0 +1,4 @@
+CLASS bmn net/minecraft/block/DropperBlock
+	FIELD c BEHAVIOR Lfu;
+	METHOD <init> (Lbkz$c;)V
+		ARG 1 settings

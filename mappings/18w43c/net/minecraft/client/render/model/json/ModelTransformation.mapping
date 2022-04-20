@@ -1,0 +1,4 @@
+CLASS cyv net/minecraft/client/render/model/json/ModelTransformation
+	FIELD a ORIGIN Lcyv;
+	METHOD equals (Ljava/lang/Object;)Z
+		ARG 0 object

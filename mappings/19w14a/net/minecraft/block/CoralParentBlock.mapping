@@ -1,0 +1,10 @@
+CLASS blo net/minecraft/block/CoralParentBlock
+	FIELD a SHAPE Lcsc;
+	FIELD b WATERLOGGED Lbvq;
+	METHOD <init> (Lbma$c;)V
+		ARG 1 settings
+	METHOD a checkLivingConditions (Lbuy;Lbgx;Lev;)V
+	METHOD b_ isInWater (Lbuy;Lbgh;Lev;)Z
+		ARG 0 state
+		ARG 1 world
+		ARG 2 pos

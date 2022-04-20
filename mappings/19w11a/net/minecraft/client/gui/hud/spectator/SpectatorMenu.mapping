@@ -1,0 +1,30 @@
+CLASS dbz net/minecraft/client/gui/hud/spectator/SpectatorMenu
+	CLASS dbz$a net/minecraft/client/gui/hud/spectator/SpectatorMenu$CloseSpectatorMenuCommand
+	CLASS dbz$b net/minecraft/client/gui/hud/spectator/SpectatorMenu$ChangePageSpectatorMenuCommand
+		FIELD a direction I
+		FIELD b enabled Z
+		METHOD <init> (IZ)V
+			ARG 1 direction
+			ARG 2 enabled
+	FIELD a BLANK_COMMAND Ldcb;
+	FIELD b CLOSE_COMMAND Ldcb;
+	FIELD c PREVIOUS_PAGE_COMMAND Ldcb;
+	FIELD d NEXT_PAGE_COMMAND Ldcb;
+	FIELD e DISABLED_NEXT_PAGE_COMMAND Ldcb;
+	FIELD f closeCallback Ldcc;
+	FIELD g stateStack Ljava/util/List;
+	FIELD h currentGroup Ldca;
+	FIELD i selectedSlot I
+	FIELD j page I
+	METHOD <init> (Ldcc;)V
+		ARG 1 closeCallback
+	METHOD a getCommands ()Ljava/util/List;
+	METHOD a getCommand (I)Ldcb;
+		ARG 1 slot
+	METHOD a selectElement (Ldca;)V
+	METHOD b getSelectedCommand ()Ldcb;
+	METHOD b setSelectedSlot (I)V
+	METHOD c getCurrentGroup ()Ldca;
+	METHOD d close ()V
+	METHOD e getSelectedSlot ()I
+	METHOD f getCurrentState ()Ldcd;

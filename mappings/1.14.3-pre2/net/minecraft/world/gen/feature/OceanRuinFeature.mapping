@@ -1,0 +1,13 @@
+CLASS cig net/minecraft/world/gen/feature/OceanRuinFeature
+	CLASS cig$a Start
+		METHOD <init> (Lceo;IILbii;Lchw;IJ)V
+			ARG 2 chunkX
+			ARG 3 chunkZ
+	CLASS cig$b BiomeType
+		FIELD c nameMap Ljava/util/Map;
+		FIELD d name Ljava/lang/String;
+		METHOD a getName ()Ljava/lang/String;
+		METHOD a byName (Ljava/lang/String;)Lcig$b;
+			ARG 0 name
+	METHOD <init> (Ljava/util/function/Function;)V
+		ARG 1 configFactory

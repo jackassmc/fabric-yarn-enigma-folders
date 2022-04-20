@@ -1,0 +1,2 @@
+CLASS dmf net/minecraft/client/render/entity/VillagerEntityRenderer
+	FIELD a VILLAGER_SKIN Lqd;

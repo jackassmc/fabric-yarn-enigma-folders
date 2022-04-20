@@ -1,0 +1,32 @@
+CLASS cmf net/minecraft/world/biome/layer/BiomeLayers
+	FIELD a WARM_OCEAN_ID I
+	FIELD b LUKEWARM_OCEAN_ID I
+	FIELD c OCEAN_ID I
+	FIELD d COLD_OCEAN_ID I
+	FIELD e FROZEN_OCEAN_ID I
+	FIELD f DEEP_WARM_OCEAN_ID I
+	FIELD g DEEP_LUKEWARM_OCEAN_ID I
+	FIELD h DEEP_OCEAN_ID I
+	FIELD i DEEP_COLD_OCEAN_ID I
+	FIELD j DEEP_FROZEN_OCEAN_ID I
+	METHOD a isOcean (I)Z
+		ARG 0 id
+	METHOD a areSimilar (II)Z
+		ARG 0 id1
+		ARG 1 id2
+	METHOD a build (JLbht;Lbyz;)[Lcme;
+		ARG 0 seed
+		ARG 2 generatorType
+		ARG 3 settings
+	METHOD a stack (JLcmv;Lclp;ILjava/util/function/LongFunction;)Lclp;
+		ARG 0 seed
+		ARG 2 layer
+		ARG 3 parent
+		ARG 4 count
+		ARG 5 contextProvider
+	METHOD a build (Lbht;Lbyz;Ljava/util/function/LongFunction;)Lcom/google/common/collect/ImmutableList;
+		ARG 0 generatorType
+		ARG 1 settings
+		ARG 2 contextProvider
+	METHOD b isShallowOcean (I)Z
+		ARG 0 id

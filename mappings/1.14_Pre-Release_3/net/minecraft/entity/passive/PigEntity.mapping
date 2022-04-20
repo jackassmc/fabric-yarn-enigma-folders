@@ -1,0 +1,6 @@
+CLASS arb net/minecraft/entity/passive/PigEntity
+	FIELD bA BREEDING_INGREDIENT Lbec;
+	FIELD by SADDLED Lqh;
+	METHOD dT isSaddled ()Z
+	METHOD r setSaddled (Z)V
+		ARG 1 saddled

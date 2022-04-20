@@ -1,0 +1,4 @@
+CLASS aja net/minecraft/entity/ai/goal/BreatheAirGoal
+	FIELD a owner Lahy;
+	METHOD a isAirPos (Lbcx;Let;)Z
+	METHOD g moveToAir ()V

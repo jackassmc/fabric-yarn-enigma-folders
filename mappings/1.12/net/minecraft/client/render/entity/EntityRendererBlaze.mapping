@@ -1,0 +1,6 @@
+CLASS byq net/minecraft/client/render/entity/EntityRendererBlaze
+	FIELD a SKIN Lnd;
+	METHOD a getTexture (Laco;)Lnd;
+		ARG 0 model
+	METHOD a getTexture (Lve;)Lnd;
+		ARG 0 model

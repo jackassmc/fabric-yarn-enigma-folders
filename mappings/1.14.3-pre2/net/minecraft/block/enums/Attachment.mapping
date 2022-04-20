@@ -1,0 +1,2 @@
+CLASS bwd net/minecraft/block/enums/Attachment
+	FIELD e name Ljava/lang/String;

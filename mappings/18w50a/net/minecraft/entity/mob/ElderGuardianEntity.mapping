@@ -1,0 +1,6 @@
+CLASS api net/minecraft/entity/mob/ElderGuardianEntity
+	METHOD D getAmbientSound ()Lxm;
+	METHOD I mobTick ()V
+	METHOD ca initAttributes ()V
+	METHOD cv getDeathSound ()Lxm;
+	METHOD e getHurtSound (Lage;)Lxm;

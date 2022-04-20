@@ -1,0 +1,3 @@
+CLASS btc net/minecraft/block/WallWitherSkullBlock
+	METHOD <init> (Lbmn$c;)V
+		ARG 1 settings

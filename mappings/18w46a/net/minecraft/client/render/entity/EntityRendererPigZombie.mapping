@@ -1,0 +1,7 @@
+CLASS dhe net/minecraft/client/render/entity/EntityRendererPigZombie
+	CLASS dhe$1
+		METHOD an_ init ()V
+	FIELD a SKIN Lpx;
+	METHOD a getTexture (Lagc;)Lpx;
+	METHOD a getTexture (Lagm;)Lpx;
+	METHOD a getTexture (Lapb;)Lpx;

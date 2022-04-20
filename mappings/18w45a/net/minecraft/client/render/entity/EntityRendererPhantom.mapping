@@ -1,0 +1,3 @@
+CLASS dgb net/minecraft/client/render/entity/EntityRendererPhantom
+	METHOD a getTexture (Lafy;)Lpw;
+	METHOD a getTexture (Laov;)Lpw;

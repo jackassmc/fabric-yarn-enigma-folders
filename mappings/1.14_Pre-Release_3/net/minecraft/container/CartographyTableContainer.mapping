@@ -1,0 +1,11 @@
+CLASS aye net/minecraft/container/CartographyTableContainer
+	FIELD c inventory Lagr;
+	FIELD d context Layi;
+	METHOD <init> (ILavt;)V
+		ARG 1 syncId
+	METHOD <init> (ILavt;Layi;)V
+		ARG 1 syncId
+	METHOD a updateResult (Lbbx;Lbbx;Lbbx;)V
+		ARG 1 map
+		ARG 2 item
+		ARG 3 oldResult

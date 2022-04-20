@@ -1,0 +1,15 @@
+CLASS awn net/minecraft/entity/projectile/LlamaSpitEntity
+	FIELD b owner Larx;
+	FIELD c tag Lib;
+	METHOD <init> (Lbhj;DDDDDD)V
+		ARG 1 world
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z
+		ARG 8 velocityX
+		ARG 10 velocityY
+		ARG 12 velocityZ
+	METHOD <init> (Lbhj;Larx;)V
+		ARG 1 world
+		ARG 2 owner
+	METHOD f readTag ()V

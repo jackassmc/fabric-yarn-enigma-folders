@@ -1,0 +1,9 @@
+CLASS bpm net/minecraft/block/SaplingBlock
+	FIELD a STAGE Lbux;
+	FIELD b SHAPE Lcrb;
+	FIELD c generator Lbth;
+	METHOD a generate (Lbfz;Leu;Lbtx;Ljava/util/Random;)V
+		ARG 1 world
+		ARG 2 pos
+		ARG 3 state
+		ARG 4 random

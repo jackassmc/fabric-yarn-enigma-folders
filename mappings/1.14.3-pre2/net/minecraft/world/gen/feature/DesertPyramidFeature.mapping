@@ -1,0 +1,7 @@
+CLASS cav net/minecraft/world/gen/feature/DesertPyramidFeature
+	CLASS cav$a Start
+		METHOD <init> (Lceo;IILbii;Lchw;IJ)V
+			ARG 2 chunkX
+			ARG 3 chunkZ
+	METHOD <init> (Ljava/util/function/Function;)V
+		ARG 1 configFactory

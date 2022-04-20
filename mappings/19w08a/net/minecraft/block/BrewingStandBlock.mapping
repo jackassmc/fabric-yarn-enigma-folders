@@ -1,0 +1,4 @@
+CLASS bii net/minecraft/block/BrewingStandBlock
+	FIELD a BOTTLE_PROPERTIES [Lbrv;
+	METHOD <init> (Lbif$c;)V
+		ARG 1 settings

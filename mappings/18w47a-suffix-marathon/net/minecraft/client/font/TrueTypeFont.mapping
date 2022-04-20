@@ -1,0 +1,7 @@
+CLASS clt net/minecraft/client/font/TrueTypeFont
+	CLASS clt$a
+		FIELD f advance F
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD b info Lorg/lwjgl/stb/STBTTFontinfo;
+	FIELD g stbScaleFactor F
+	FIELD h ascent F

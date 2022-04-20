@@ -1,0 +1,21 @@
+CLASS blo net/minecraft/block/ChestBlock
+	CLASS blo$2
+		CLASS blo$2$1
+			METHOD createMenu (ILaul;Laum;)Lawr;
+				ARG 1 syncId
+	FIELD a FACING Lbus;
+	FIELD b CHEST_TYPE Lbuv;
+	FIELD c WATERLOGGED Lbup;
+	FIELD d DOUBLE_NORTH_SHAPE Lcrb;
+	FIELD e DOUBLE_SOUTH_SHAPE Lcrb;
+	FIELD f DOUBLE_WEST_SHAPE Lcrb;
+	FIELD g DOUBLE_EAST_SHAPE Lcrb;
+	FIELD h SINGLE_SHAPE Lcrb;
+	METHOD <init> (Lbkz$c;)V
+		ARG 1 settings
+	METHOD a hasBlockOnTop (Lbfj;Leu;)Z
+	METHOD a isChestBlocked (Lbfz;Leu;)Z
+	METHOD b hasOcelotOnTop (Lbfz;Leu;)Z
+	METHOD d getOpenStat ()Lym;
+	METHOD j getFacing (Lbtx;)Lez;
+		ARG 0 state

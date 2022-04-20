@@ -1,0 +1,25 @@
+CLASS cia net/minecraft/structure/IglooGenerator
+	CLASS cia$a Piece
+		FIELD d template Lqt;
+		FIELD e rotation Lbra;
+		METHOD <init> (Lcjj;Lic;)V
+			ARG 1 manager
+			ARG 2 tag
+		METHOD <init> (Lcjj;Lqt;Lev;Lbra;I)V
+			ARG 1 manager
+			ARG 2 identifier
+			ARG 3 pos
+			ARG 4 rotation
+			ARG 5 yOffset
+		METHOD a initializeStructureData (Lcjj;)V
+			ARG 1 manager
+	FIELD a TOP_TEMPLATE Lqt;
+	FIELD b MIDDLE_TEMPLATE Lqt;
+	FIELD c BOTTOM_TEMPLATE Lqt;
+	METHOD a addPieces (Lcjj;Lev;Lbra;Ljava/util/List;Ljava/util/Random;Lccx;)V
+		ARG 0 manager
+		ARG 1 pos
+		ARG 2 rotation
+		ARG 3 pieces
+		ARG 4 random
+		ARG 5 defaultConfig

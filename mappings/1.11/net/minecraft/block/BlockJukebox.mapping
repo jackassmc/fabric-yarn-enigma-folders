@@ -1,0 +1,55 @@
+CLASS aoj net/minecraft/block/BlockJukebox
+	CLASS aoj$a Entity
+		FIELD a record Lafi;
+		METHOD a getRecord ()Lafi;
+		METHOD a setRecord (Lafi;)V
+			ARG 0 stack
+		METHOD a deserialize (Ldu;)V
+			ARG 0 tag
+		METHOD b serialize (Ldu;)Ldu;
+			ARG 0 tag
+	FIELD a HAS_RECORD Latv;
+	METHOD a deserializeState (I)Latj;
+		ARG 0 meta
+	METHOD a createBlockEntity (Lajq;I)Lasa;
+		ARG 0 world
+		ARG 1 metadata
+	METHOD a dropItems (Lajq;Lco;Latj;FI)V
+		ARG 0 world
+		ARG 1 pos
+		ARG 2 state
+		ARG 3 dropChance
+		ARG 4 fortune
+	METHOD a activate (Lajq;Lco;Latj;Laax;Lrh;Lcv;FFF)Z
+		ARG 0 world
+		ARG 1 pos
+		ARG 2 state
+		ARG 3 player
+		ARG 4 hand
+		ARG 5 facing
+		ARG 6 hitX
+		ARG 7 hitY
+		ARG 8 hitZ
+	METHOD a setRecord (Lajq;Lco;Latj;Lafi;)V
+		ARG 0 world
+		ARG 1 pos
+		ARG 2 state
+		ARG 3 recordStack
+	METHOD a getRenderType (Latj;)Laqd;
+		ARG 0 state
+	METHOD a registerTagUpgraders (Lph;)V
+		ARG 0 handler
+	METHOD b createStateFactory ()Latk;
+	METHOD b (Lajq;Lco;Latj;)V
+		ARG 0 world
+		ARG 1 pos
+		ARG 2 state
+	METHOD c getComparatorOutput (Latj;Lajq;Lco;)I
+		ARG 0 state
+		ARG 1 world
+		ARG 2 pos
+	METHOD e removeRecord (Lajq;Lco;Latj;)V
+	METHOD e serializeState (Latj;)I
+		ARG 0 state
+	METHOD x hasComparatorOutput (Latj;)Z
+		ARG 0 state

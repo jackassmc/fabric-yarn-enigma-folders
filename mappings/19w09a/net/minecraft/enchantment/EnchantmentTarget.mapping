@@ -1,0 +1,17 @@
+CLASS bbi net/minecraft/enchantment/EnchantmentTarget
+	FIELD a ALL Lbbi;
+	FIELD b ARMOR Lbbi;
+	FIELD c FEET Lbbi;
+	FIELD d LEGS Lbbi;
+	FIELD e CHEST Lbbi;
+	FIELD f HELM Lbbi;
+	FIELD g WEAPON Lbbi;
+	FIELD h BREAKER Lbbi;
+	FIELD i FISHING Lbbi;
+	FIELD j TRIDENT Lbbi;
+	FIELD k TOOL Lbbi;
+	FIELD l BOW Lbbi;
+	FIELD m WEARABLE Lbbi;
+	FIELD n CROSSBOW Lbbi;
+	METHOD a isAcceptableItem (Laxs;)Z
+		ARG 1 item

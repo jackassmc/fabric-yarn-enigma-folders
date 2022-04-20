@@ -1,0 +1,6 @@
+CLASS dja net/minecraft/client/network/AbstractClientPlayerEntity
+	METHOD a loadSkin (Lqr;Ljava/lang/String;)Ldtf;
+		ARG 0 id
+		ARG 1 playerName
+	METHOD d getSkinId (Ljava/lang/String;)Lqr;
+		ARG 0 playerName

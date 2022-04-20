@@ -1,0 +1,12 @@
+CLASS bmd net/minecraft/block/pattern/BlockProxy
+	FIELD b pos Leq;
+	FIELD c forceLoad Z
+	FIELD d state Lblz;
+	FIELD e blockEntity Lbkf;
+	FIELD f cachedEntity Z
+	METHOD <init> (Laze;Leq;Z)V
+		ARG 1 pos
+		ARG 2 forceLoad
+	METHOD a getBlockState ()Lblz;
+	METHOD b getBlockEntity ()Lbkf;
+	METHOD d getPos ()Leq;

@@ -1,0 +1,2 @@
+CLASS auz net/minecraft/entity/FireworkEntity
+	FIELD b ITEM_STACK Lqe;

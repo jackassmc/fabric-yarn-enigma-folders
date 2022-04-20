@@ -1,0 +1,19 @@
+CLASS cro net/minecraft/client/gui/menu/settings/VideoSettingsGui
+	CLASS cro$1
+		METHOD a onPressed (DD)V
+			ARG 0 mouseX
+	FIELD a title Ljava/lang/String;
+	FIELD f parent Lcri;
+	FIELD g settings Lcnf;
+	FIELD i MENU_OPTIONS [Lcnf$a;
+	METHOD <init> (Lcri;Lcnf;)V
+		ARG 1 parent
+	METHOD a draw (IIF)V
+		ARG 1 mouseX
+		ARG 2 mouseY
+	METHOD c onInitialized ()V
+	METHOD g close ()V
+	METHOD mouseClicked (DDI)Z
+		ARG 1 mouseX
+	METHOD mouseReleased (DDI)Z
+		ARG 1 mouseX

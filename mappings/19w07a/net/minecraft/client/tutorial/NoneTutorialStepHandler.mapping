@@ -1,0 +1,2 @@
+CLASS dsx net/minecraft/client/tutorial/NoneTutorialStepHandler
+	FIELD a manager Ldtd;

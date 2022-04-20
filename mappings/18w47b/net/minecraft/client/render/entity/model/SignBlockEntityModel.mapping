@@ -1,0 +1,3 @@
+CLASS cxf net/minecraft/client/render/entity/model/SignBlockEntityModel
+	FIELD b signpost Lcyg;
+	METHOD b getSignpostModel ()Lcyg;

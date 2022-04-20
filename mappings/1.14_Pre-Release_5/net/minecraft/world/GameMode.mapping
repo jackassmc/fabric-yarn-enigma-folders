@@ -1,0 +1,25 @@
+CLASS bhe net/minecraft/world/GameMode
+	FIELD a INVALID Lbhe;
+	FIELD f id I
+	FIELD g name Ljava/lang/String;
+	METHOD <init> (Ljava/lang/String;IILjava/lang/String;)V
+		ARG 3 id
+		ARG 4 name
+	METHOD a getId ()I
+	METHOD a byId (I)Lbhe;
+		ARG 0 id
+	METHOD a byId (ILbhe;)Lbhe;
+		ARG 0 id
+		ARG 1 defaultMode
+	METHOD a setAbilitites (Lavu;)V
+		ARG 1 abilities
+	METHOD a byName (Ljava/lang/String;)Lbhe;
+		ARG 0 name
+	METHOD a byName (Ljava/lang/String;Lbhe;)Lbhe;
+		ARG 0 name
+		ARG 1 defaultMode
+	METHOD b getName ()Ljava/lang/String;
+	METHOD c getTextComponent ()Ljm;
+	METHOD d shouldLimitWorldModification ()Z
+	METHOD e isCreative ()Z
+	METHOD f isSurvivalLike ()Z

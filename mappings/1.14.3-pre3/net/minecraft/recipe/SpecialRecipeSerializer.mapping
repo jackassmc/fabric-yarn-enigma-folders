@@ -1,0 +1,2 @@
+CLASS bew net/minecraft/recipe/SpecialRecipeSerializer
+	FIELD u id Ljava/util/function/Function;

@@ -1,0 +1,4 @@
+CLASS czf net/minecraft/client/render/entity/model/ChestEntityModel
+	FIELD a lid Ldcc;
+	FIELD b base Ldcc;
+	FIELD c hatch Ldcc;

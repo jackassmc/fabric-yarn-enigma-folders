@@ -1,0 +1,16 @@
+CLASS arv net/minecraft/entity/vehicle/FurnaceMinecartEntity
+	FIELD a pushX D
+	FIELD b pushZ D
+	FIELD c LIT Lpo;
+	FIELD d fuel I
+	METHOD T_ update ()V
+	METHOD a dropItems (Laft;)V
+	METHOD a readCustomDataFromTag (Lhq;)V
+	METHOD b interact (Laql;Lafd;)Z
+		ARG 1 player
+	METHOD b writeCustomDataToTag (Lhq;)V
+	METHOD i isLit ()Z
+	METHOD o setLit (Z)V
+	METHOD v getMinecartType ()Larp$a;
+	METHOD y_ initDataTracker ()V
+	METHOD z getDefaultContainedBlock ()Lbom;

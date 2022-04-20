@@ -1,0 +1,4 @@
+CLASS dog net/minecraft/client/texture/ResourceTexture
+	FIELD f location Lqe;
+	FIELD g LOGGER Lorg/apache/logging/log4j/Logger;
+	METHOD a load (Lwq;)V

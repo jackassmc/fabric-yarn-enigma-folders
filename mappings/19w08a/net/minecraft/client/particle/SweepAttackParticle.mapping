@@ -1,0 +1,2 @@
+CLASS ddq net/minecraft/client/particle/SweepAttackParticle
+	CLASS ddq$a Factory

@@ -1,0 +1,2 @@
+CLASS awg net/minecraft/entity/FlyingItemEntity
+	METHOD f getStack ()Lbbx;

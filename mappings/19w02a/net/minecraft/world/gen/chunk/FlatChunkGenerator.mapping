@@ -1,0 +1,31 @@
+CLASS btj net/minecraft/world/gen/chunk/FlatChunkGenerator
+	FIELD e biome Lbde;
+	FIELD f phantomSpawner Lbts;
+	METHOD <init> (Lbcg;Lbdg;Lcaf;)V
+		ARG 1 world
+		ARG 3 config
+	METHOD a produceHeight (IILbtl$a;)I
+		ARG 1 x
+		ARG 2 z
+		ARG 3 type
+	METHOD a locateStructure (Lbcf;Ljava/lang/String;Let;IZ)Let;
+		ARG 1 world
+		ARG 2 structureKey
+		ARG 3 origin
+		ARG 4 radius
+	METHOD a spawnEntities (Lbcf;ZZ)V
+		ARG 1 world
+		ARG 2 spawnMonsters
+		ARG 3 spawnAnimals
+	METHOD a hasStructure (Lbde;Lbzc;)Z
+	METHOD a getDecorationBiome (Lvb;II)Lbde;
+		ARG 2 chunkX
+		ARG 3 chunkZ
+	METHOD b getSpawnHeight ()I
+	METHOD b populateNoise (Lbcg;Lbrs;)V
+		ARG 1 world
+		ARG 2 chunk
+	METHOD b getStructureConfig (Lbde;Lbzc;)Lbvz;
+	METHOD b getDecorationBiome (Lbrs;)Lbde;
+	METHOD c buildSurface (Lbrs;)V
+		ARG 1 chunk

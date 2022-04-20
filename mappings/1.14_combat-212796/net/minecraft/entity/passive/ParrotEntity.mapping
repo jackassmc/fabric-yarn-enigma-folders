@@ -1,0 +1,24 @@
+CLASS arh net/minecraft/entity/passive/ParrotEntity
+	FIELD bH ATTR_VARIANT Lqi;
+	FIELD bI CAN_IMITATE Ljava/util/function/Predicate;
+	FIELD bJ COOKIE Lbbz;
+	FIELD bK TAMING_INGREDIENTS Ljava/util/Set;
+	FIELD bL MOB_SOUNDS Ljava/util/Map;
+	FIELD bM songPlaying Z
+	FIELD bN songSource Lev;
+	METHOD E_ isInAir ()Z
+	METHOD a playMobSound (Lbhn;Lail;)V
+		ARG 0 world
+		ARG 1 parrot
+	METHOD a getRandomSound (Ljava/util/Random;)Lym;
+		ARG 0 random
+	METHOD b getSound (Laip;)Lym;
+		ARG 0 imitate
+	METHOD b imitateNearbyMob (Lbhn;Lail;)Z
+		ARG 0 world
+		ARG 1 parrot
+	METHOD b getSoundPitch (Ljava/util/Random;)F
+		ARG 0 random
+	METHOD ef getSongPlaying ()Z
+	METHOD eg getVariant ()I
+	METHOD s setVariant (I)V

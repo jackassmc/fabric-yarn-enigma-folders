@@ -1,0 +1,26 @@
+CLASS apo net/minecraft/entity/mob/CreeperEntity
+	FIELD bG fuse I
+	FIELD bH explosionRadius I
+	FIELD b FUSE_SPEED Lpt;
+	FIELD c CHARGED Lpt;
+	FIELD d IGNITED Lpt;
+	METHOD a setFuseSpeed (I)V
+	METHOD a dropEquipment (Lagm;IZ)V
+	METHOD a onStruckByLightning (Lape;)V
+	METHOD a interactMob (Lark;Lafy;)Z
+		ARG 1 player
+	METHOD a readCustomDataFromTag (Lhs;)V
+	METHOD b writeCustomDataToTag (Lhs;)V
+	METHOD bp getSafeFallDistance ()I
+	METHOD c handleFallDamage (FF)V
+		ARG 1 fallDistance
+	METHOD cb initAttributes ()V
+	METHOD cw getDeathSound ()Lxt;
+	METHOD dC getFuseSpeed ()I
+	METHOD dD getIgnited ()Z
+	METHOD dE setIgnited ()V
+	METHOD e getHurtSound (Lagm;)Lxt;
+	METHOD h update ()V
+	METHOD l isCharged ()Z
+	METHOD n prepareGoals ()V
+	METHOD w_ initDataTracker ()V

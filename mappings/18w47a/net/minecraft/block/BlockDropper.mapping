@@ -1,0 +1,3 @@
+CLASS bha net/minecraft/block/BlockDropper
+	METHOD a getBehaviorForItem (Lavn;)Lez;
+	METHOD a createBlockEntity (Lazy;)Lbmk;

@@ -1,0 +1,10 @@
+CLASS cqe net/minecraft/util/hit/HitResult
+	CLASS cqe$a Type
+		FIELD a NONE Lcqe$a;
+		FIELD b BLOCK Lcqe$a;
+		FIELD c ENTITY Lcqe$a;
+	FIELD a pos Lcqg;
+	METHOD <init> (Lcqg;)V
+		ARG 1 pos
+	METHOD c getType ()Lcqe$a;
+	METHOD e getPos ()Lcqg;

@@ -1,0 +1,4 @@
+CLASS bxf net/minecraft/world/chunk/EmptyChunk
+	FIELD b BIOMES [Lbif;
+	METHOD <init> (Lbhi;Lbgu;)V
+		ARG 1 world

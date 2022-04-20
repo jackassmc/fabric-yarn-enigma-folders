@@ -1,0 +1,3 @@
+CLASS auf net/minecraft/entity/ai/RangedAttacker
+	METHOD a attack (Laij;F)V
+		ARG 1 target

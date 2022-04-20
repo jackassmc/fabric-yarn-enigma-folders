@@ -1,0 +1,5 @@
+CLASS avt net/minecraft/item/MapItem
+	METHOD X_ isMap ()Z
+	METHOD a createMapPacket (Laxc;Lbci;Larj;)Ljp;
+		ARG 1 stack
+		ARG 2 world

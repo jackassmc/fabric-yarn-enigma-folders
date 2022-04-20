@@ -1,0 +1,3 @@
+CLASS cdl net/minecraft/sortme/structures/MansionGenerator
+	CLASS cdl$i
+		METHOD a toNbt (Lhq;)V

@@ -1,0 +1,13 @@
+CLASS bfr net/minecraft/scoreboard/ScoreboardObjective
+	FIELD a scoreboard Lbfv;
+	FIELD b name Ljava/lang/String;
+	FIELD c criterion Lbgb;
+	FIELD d criterionType Lbgb$a;
+	FIELD e displayName Ljava/lang/String;
+	METHOD a getScoreboard ()Lbfv;
+	METHOD a setCriterionType (Lbgb$a;)V
+	METHOD a setDisplayName (Ljava/lang/String;)V
+	METHOD b getName ()Ljava/lang/String;
+	METHOD c getCriterion ()Lbgb;
+	METHOD d getDisplayName ()Ljava/lang/String;
+	METHOD e getCriterionType ()Lbgb$a;

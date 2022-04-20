@@ -1,0 +1,6 @@
+CLASS btc net/minecraft/block/WeightedPressurePlateBlock
+	FIELD d POWER Lbwp;
+	FIELD e weight I
+	METHOD <init> (ILbmr$c;)V
+		ARG 1 weight
+		ARG 2 settings

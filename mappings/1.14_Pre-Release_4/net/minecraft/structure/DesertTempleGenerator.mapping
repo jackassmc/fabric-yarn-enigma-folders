@@ -1,0 +1,2 @@
+CLASS chr net/minecraft/structure/DesertTempleGenerator
+	FIELD e hasPlacedChest [Z

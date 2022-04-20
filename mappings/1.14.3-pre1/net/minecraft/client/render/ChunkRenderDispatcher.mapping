@@ -1,0 +1,20 @@
+CLASS dkz net/minecraft/client/render/ChunkRenderDispatcher
+	FIELD a renderer Ldkp;
+	FIELD b world Lbhj;
+	FIELD c sizeY I
+	FIELD d sizeX I
+	FIELD e sizeZ I
+	FIELD f renderers [Ldnh;
+	METHOD <init> (Lbhj;ILdkp;Ldni;)V
+		ARG 1 world
+		ARG 3 renderer
+	METHOD a delete ()V
+	METHOD a updateCameraPosition (DD)V
+	METHOD a getChunkIndex (III)I
+	METHOD a scheduleChunkRender (IIIZ)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD a createChunks (Ldni;)V
+	METHOD a getChunkRenderer (Lev;)Ldnh;
+		ARG 1 pos

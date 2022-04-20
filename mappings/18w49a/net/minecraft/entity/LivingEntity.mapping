@@ -1,0 +1,119 @@
+CLASS agt net/minecraft/entity/LivingEntity
+	FIELD aB stuckArrowTimer I
+	FIELD aC hurtTime I
+	FIELD aF deathCounter I
+	FIELD a LOGGER_LIVING Lorg/apache/logging/log4j/Logger;
+	FIELD aT headPitch F
+	FIELD aU prevHeadPitch F
+	FIELD aX playerHitTimer I
+	FIELD aY dead Z
+	FIELD ax LIVING_FLAGS Lpo;
+	FIELD az preferredHand Lafd;
+	FIELD bA STUCK_ARROWS Lpo;
+	FIELD bB attributeContainer Lahl;
+	FIELD bC damageTracker Lafs;
+	FIELD bD activePotionEffects Ljava/util/Map;
+	FIELD bE equippedHand Lfh;
+	FIELD bF equippedArmor Lfh;
+	FIELD bH attacker Lagt;
+	FIELD bI lastAttackedTime I
+	FIELD b ATTR_SPRINTING_SPEED_BOOST_ID Ljava/util/UUID;
+	FIELD bN absorptionAmount F
+	FIELD bu activeItemStack Lavu;
+	FIELD by POTION_SWIRLS_COLOR Lpo;
+	FIELD bz POTION_SWIRLS_AMBIENT Lpo;
+	FIELD c ATTR_SPRINTING_SPEED_BOOST Lahj;
+	FIELD f HEALTH Lpo;
+	METHOD <init> (Lago;Lbas;)V
+		ARG 1 type
+	METHOD A_ canClimb ()Z
+	METHOD C updatePotionVisibility ()V
+	METHOD C pushAway (Lagk;)V
+	METHOD D canSee (Lagk;)Z
+	METHOD T_ update ()V
+	METHOD U kill ()V
+	METHOD U_ stopRiding ()V
+	METHOD Y updateLogic ()V
+	METHOD a setPositionAndRotations (DDDFFIZ)V
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+	METHOD a swingHand (Lafd;)V
+	METHOD a setStackInHand (Lafd;Lavu;)V
+		ARG 1 hand
+	METHOD a onDeath (Laft;)V
+	METHOD a damage (Laft;F)Z
+		ARG 1 source
+		ARG 2 amount
+	METHOD a dropEquipment (Laft;IZ)V
+	METHOD a hasPotionEffect (Lagc;)Z
+	METHOD a isEquippedStackValid (Lagp;)Z
+	METHOD a setEquippedStack (Lagp;Lavu;)V
+		ARG 1 slot
+	METHOD a setAttacker (Lagt;)V
+	METHOD a getAttributeInstance (Lahh;)Lahi;
+	METHOD a readCustomDataFromTag (Lhq;)V
+	METHOD a onTrackedDataSet (Lpo;)V
+	METHOD aD doesCollide ()Z
+	METHOD aH isValid ()Z
+	METHOD aV getItemsArmor ()Ljava/lang/Iterable;
+	METHOD ac destroy ()V
+	METHOD b getStackInHand (Lafd;)Lavu;
+	METHOD b getPotionEffect (Lagc;)Lagd;
+	METHOD b getEquippedStack (Lagp;)Lavu;
+	METHOD b onEquipStack (Lavu;)V
+	METHOD b writeCustomDataToTag (Lhq;)V
+	METHOD bA shouldRenderName ()Z
+	METHOD bk getHeadPitch ()F
+	METHOD c heal (F)V
+	METHOD c handleFallDamage (FF)V
+		ARG 1 fallDistance
+	METHOD c setCurrentHand (Lafd;)V
+	METHOD c removePotionEffect (Lagc;)Lagd;
+	METHOD c addPotionEffect (Lagd;)Z
+	METHOD c containsOnlyAmbientEffects (Ljava/util/Collection;)Z
+		ARG 0 effects
+	METHOD cA getHealthMaximum ()F
+	METHOD cB getStuckArrows ()I
+	METHOD cD getAttributeContainer ()Lahl;
+	METHOD cF getMainHandStack ()Lavu;
+	METHOD cG getOffHandStack ()Lavu;
+	METHOD cH getSoundVolume ()F
+	METHOD cI getSoundPitch ()F
+	METHOD cP isSleeping ()Z
+	METHOD cR doPushLogic ()V
+	METHOD cU getAbsorptionAmount ()F
+	METHOD cW getMainHand ()Lags;
+	METHOD cY getActiveHand ()Lafd;
+	METHOD ca initAttributes ()V
+	METHOD cc updatePostDeath ()V
+	METHOD cd canDropLootAndXp ()Z
+	METHOD cf getRand ()Ljava/util/Random;
+	METHOD cg getAttacker ()Lagt;
+	METHOD ch getLastAttackedTime ()I
+	METHOD cm clearPotionSwirls ()V
+	METHOD cn clearPotionEffects ()Z
+	METHOD co getPotionEffects ()Ljava/util/Collection;
+	METHOD cq isUndead ()Z
+	METHOD cr getHealth ()F
+	METHOD cv getDeathSound ()Lxg;
+	METHOD cy getDamageTracker ()Lafs;
+	METHOD d applyDamage (Laft;F)V
+		ARG 1 damageSource
+	METHOD d isPotionEffective (Lagd;)Z
+	METHOD da getActiveItem ()Lavu;
+	METHOD dg isFallFlying ()Z
+	METHOD e getHurtSound (Laft;)Lxg;
+	METHOD f setSprinting (Z)V
+	METHOD h getYaw (F)F
+	METHOD j setHeadPitch (F)V
+	METHOD k updateMovement ()V
+	METHOD k setYaw (F)V
+	METHOD l setHealth (F)V
+	METHOD n initAi ()V
+	METHOD n getFallSound (I)Lxg;
+	METHOD o setStuckArrows (I)V
+	METHOD o doJump (Z)V
+	METHOD q setAbsorptionAmount (F)V
+	METHOD y_ initDataTracker ()V
+	METHOD z_ isChild ()Z

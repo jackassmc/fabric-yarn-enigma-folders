@@ -1,0 +1,4 @@
+CLASS biq net/minecraft/block/CarrotsBlock
+	FIELD a AGE_TO_SHAPE [Lcoe;
+	METHOD <init> (Lbif$c;)V
+		ARG 1 settings

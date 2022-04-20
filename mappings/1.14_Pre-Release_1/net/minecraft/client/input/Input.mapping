@@ -1,0 +1,11 @@
+CLASS djk net/minecraft/client/input/Input
+	FIELD a movementSideways F
+	FIELD b movementForward F
+	FIELD c pressingForward Z
+	FIELD d pressingBack Z
+	FIELD e pressingLeft Z
+	FIELD f pressingRight Z
+	FIELD g jumping Z
+	FIELD h sneaking Z
+	METHOD a getMovementInput ()Lcrn;
+	METHOD a tick (Z)V

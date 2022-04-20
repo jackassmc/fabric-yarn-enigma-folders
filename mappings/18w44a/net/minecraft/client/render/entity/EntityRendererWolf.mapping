@@ -1,0 +1,10 @@
+CLASS dha net/minecraft/client/render/entity/EntityRendererWolf
+	FIELD a WILD_SKIN Lpu;
+	FIELD j TAMED_SKIN Lpu;
+	FIELD k ANGRY_SKIN Lpu;
+	METHOD <init> (Ldei;)V
+		ARG 1 renderManager
+	METHOD a getTexture (Lafv;)Lpu;
+		ARG 1 model
+	METHOD a getTexture (Lalu;)Lpu;
+		ARG 1 model

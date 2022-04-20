@@ -1,0 +1,9 @@
+CLASS mq net/minecraft/client/network/packet/PlayerListHeaderClientPacket
+	FIELD a header Lja;
+	FIELD b footer Lja;
+	METHOD a read (Liq;)V
+	METHOD a apply (Lit;)V
+	METHOD a apply (Ljr;)V
+	METHOD b getHeader ()Lja;
+	METHOD b write (Liq;)V
+	METHOD c getFooter ()Lja;

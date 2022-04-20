@@ -1,0 +1,13 @@
+CLASS cwp net/minecraft/client/gui/hud/SubtitlesHud
+	CLASS cwp$a SubtitleEntry
+		FIELD b text Ljava/lang/String;
+		FIELD c time J
+		FIELD d pos Lcri;
+		METHOD a getText ()Ljava/lang/String;
+		METHOD a reset (Lcri;)V
+		METHOD b getTime ()J
+		METHOD c getPosition ()Lcri;
+	FIELD a client Lcuu;
+	FIELD b entries Ljava/util/List;
+	FIELD c enabled Z
+	METHOD a draw ()V

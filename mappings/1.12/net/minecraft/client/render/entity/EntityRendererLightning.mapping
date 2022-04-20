@@ -1,0 +1,5 @@
+CLASS bzx net/minecraft/client/render/entity/EntityRendererLightning
+	METHOD a getTexture (Lacg;)Lnd;
+		ARG 0 model
+	METHOD a getTexture (Lve;)Lnd;
+		ARG 0 model

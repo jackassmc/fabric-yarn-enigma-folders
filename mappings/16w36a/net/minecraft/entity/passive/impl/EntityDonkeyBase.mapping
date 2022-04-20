@@ -1,0 +1,14 @@
+CLASS none/xb net/minecraft/entity/passive/impl/EntityDonkeyBase
+	FIELD bH CHEST Lnone/kj;
+	METHOD a interactMob (Lnone/aal;Lnone/ra;)Z
+		ARG 0 player
+		ARG 1 playerHand
+	METHOD a deserializeCustomData (Lnone/dt;)V
+		ARG 0 tag
+	METHOD b serializeCustomData (Lnone/dt;)V
+		ARG 0 tag
+	METHOD bD initAttributes ()V
+	METHOD de hasChest ()Z
+	METHOD i initDataTracker ()V
+	METHOD p setHasChest (Z)V
+		ARG 0 value

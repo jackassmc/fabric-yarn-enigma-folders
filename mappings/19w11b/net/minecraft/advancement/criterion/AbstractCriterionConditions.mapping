@@ -1,0 +1,2 @@
+CLASS ac net/minecraft/advancement/criterion/AbstractCriterionConditions
+	FIELD a id Lqp;

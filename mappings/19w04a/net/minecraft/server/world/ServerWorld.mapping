@@ -1,0 +1,29 @@
+CLASS ur net/minecraft/server/world/ServerWorld
+	FIELD A server Lnet/minecraft/server/MinecraftServer;
+	FIELD C entityTracker Lum;
+	FIELD D entitiesByUuid Ljava/util/Map;
+	FIELD G portalForcer Lbcx;
+	FIELD H blockTickScheduler Lbcz;
+	FIELD I fluidTickScheduler Lbcz;
+	FIELD J pendingBlockActions Lit/unimi/dsi/fastutil/objects/ObjectLinkedOpenHashSet;
+	FIELD a savingDisabled Z
+	FIELD z LOGGER Lorg/apache/logging/log4j/Logger;
+	METHOD <init> (Lnet/minecraft/server/MinecraftServer;Ljava/util/concurrent/Executor;Lciy;Lcix;Lbtd;Lafc;Lvc;)V
+		ARG 1 server
+	METHOD a init (Lbcq;)V
+		ARG 1 levelInfo
+	METHOD a save (Lzc;ZZ)V
+		ARG 1 progressListener
+	METHOD aj shouldSpawnNpcs ()Z
+	METHOD ak shouldSpawnAnimals ()Z
+	METHOD al sendBlockActions ()V
+	METHOD d getScoreboard ()Lqs;
+	METHOD m_ tickScheduledTicks ()V
+	METHOD n saveLevel ()V
+	METHOD n_ getForcedSpawnPoint ()Let;
+	METHOD o getChunkManager ()Luq;
+	METHOD q getBlockTickScheduler ()Lbcz;
+	METHOD r getFluidTickScheduler ()Lbcz;
+	METHOD t getEntityTracker ()Lum;
+	METHOD u getPortalForcer ()Lbcx;
+	METHOD v getStructureManager ()Lceb;

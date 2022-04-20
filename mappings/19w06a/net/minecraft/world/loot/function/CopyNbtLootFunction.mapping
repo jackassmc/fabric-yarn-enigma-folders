@@ -1,0 +1,17 @@
+CLASS ckr net/minecraft/world/loot/function/CopyNbtLootFunction
+	CLASS ckr$c Source
+		FIELD e name Ljava/lang/String;
+		FIELD f parameter Lclo;
+		FIELD g getter Ljava/util/function/Function;
+		METHOD a get (Ljava/lang/String;)Lckr$c;
+	CLASS ckr$d MergeStrategy
+		FIELD a REPLACE Lckr$d;
+		FIELD b APPEND Lckr$d;
+		FIELD c MERGE Lckr$d;
+		FIELD d name Ljava/lang/String;
+		METHOD a merge (Lii;Lco$h;Ljava/util/List;)V
+		METHOD a get (Ljava/lang/String;)Lckr$d;
+	CLASS ckr$e Factory
+	FIELD a source Lckr$c;
+	FIELD d ENTITY_TAG_GETTER Ljava/util/function/Function;
+	FIELD e BLOCK_ENTITY_TAG_GETTER Ljava/util/function/Function;

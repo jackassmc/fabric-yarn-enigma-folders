@@ -1,0 +1,12 @@
+CLASS atw net/minecraft/item/ItemElytra
+	METHOD <init> (Lauq$a;)V
+		ARG 1 builder
+	METHOD a canRepair (Lauv;Lauv;)Z
+		ARG 1 item
+		ARG 2 repairItem
+	METHOD a onRightClick (Lazt;Lapr;Laeo;)Laer;
+		ARG 1 world
+		ARG 2 player
+		ARG 3 hand
+	METHOD e isUsable (Lauv;)Z
+		ARG 0 stack

@@ -1,0 +1,7 @@
+CLASS aop net/minecraft/entity/mob/EntityHusk
+	METHOD D getSoundAmbient ()Lwz;
+	METHOD F getLootTableId ()Lpw;
+	METHOD cw getSoundDeath ()Lwz;
+	METHOD dC getSoundStep ()Lwz;
+	METHOD dD getSkull ()Lava;
+	METHOD e getSoundHurt (Lafh;)Lwz;

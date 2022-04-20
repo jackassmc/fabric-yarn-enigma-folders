@@ -1,0 +1,5 @@
+CLASS aog net/minecraft/entity/ai/goal/CreeperIgniteGoal
+	FIELD a creeper Latz;
+	FIELD b target Laiu;
+	METHOD <init> (Latz;)V
+		ARG 1 creeper

@@ -1,0 +1,5 @@
+CLASS bjo net/minecraft/block/BlockPillar
+	METHOD a getPlacementState (Latj;)Lbnz;
+	METHOD a applyRotation (Lbnz;Lbjp;)Lbnz;
+		ARG 1 state
+	METHOD a appendProperties (Lboa$a;)V

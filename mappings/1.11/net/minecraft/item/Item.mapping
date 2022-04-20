@@ -1,0 +1,214 @@
+CLASS afg net/minecraft/item/Item
+	CLASS afg$1
+		METHOD a getProperty (Lafi;Lajq;Lsv;)F
+			ARG 0 stack
+			ARG 1 world
+			ARG 2 user
+	CLASS afg$3
+		METHOD a apply (Lafi;)Ljava/lang/String;
+			ARG 0 stack
+	CLASS afg$4
+		METHOD a apply (Lafi;)Ljava/lang/String;
+			ARG 0 stack
+	CLASS afg$6
+		METHOD a apply (Lafi;)Ljava/lang/String;
+			ARG 0 stack
+	CLASS afg$7
+		METHOD a apply (Lafi;)Ljava/lang/String;
+			ARG 0 stack
+	CLASS afg$a ToolMaterial
+		FIELD a WOOD Lafg$a;
+		FIELD b COBBLESTONE Lafg$a;
+		FIELD c IRON Lafg$a;
+		FIELD d DIAMOND Lafg$a;
+		FIELD e GOLD Lafg$a;
+		FIELD f miningLevel I
+		FIELD g durability I
+		FIELD h efficiency F
+		FIELD i damage F
+		FIELD j enchantability I
+		METHOD <init> (Ljava/lang/String;IIIFFI)V
+			ARG 0 miningLevel
+			ARG 1 durability
+			ARG 2 efficiency
+			ARG 3 damage
+			ARG 4 enchantability
+		METHOD a getDurability ()I
+		METHOD b getEfficiency ()F
+		METHOD c getWeaponDamage ()F
+		METHOD d getMiningLevel ()I
+		METHOD e getEnchantability ()I
+		METHOD f getRepairItem ()Lafg;
+	CLASS afg$12
+		METHOD a getProperty (Lafi;Lajq;Lsv;)F
+			ARG 0 stack
+			ARG 1 world
+			ARG 2 user
+	CLASS afg$15
+		METHOD a getProperty (Lafi;Lajq;Lsv;)F
+			ARG 0 stack
+			ARG 1 world
+			ARG 2 user
+	CLASS afg$16
+		METHOD a getProperty (Lafi;Lajq;Lsv;)F
+			ARG 0 stack
+			ARG 1 world
+			ARG 2 user
+	CLASS afg$17
+		METHOD a apply (Lafi;)Ljava/lang/String;
+			ARG 0 stack
+	CLASS afg$21
+		METHOD a apply (Lafi;)Ljava/lang/String;
+			ARG 0 stack
+	FIELD a BLOCK_ITEM_MAP Ljava/util/Map;
+	FIELD b GETTER_DAMAGED Lafj;
+	FIELD c GETTER_DAMAGE Lafj;
+	FIELD d GETTER_HAND Lafj;
+	FIELD e GETTER_COOLDOWN Lafj;
+	FIELD f PROPERTIES Ldh;
+	FIELD g REGISTRY Ldc;
+	FIELD h MODIFIER_DAMAGE Ljava/util/UUID;
+	FIELD i MODIFIER_SWING_SPEED Ljava/util/UUID;
+	FIELD j rand Ljava/util/Random;
+	FIELD k maxAmount I
+	FIELD l is3D Z
+	FIELD m hasVariants Z
+	FIELD n creativeTab Laei;
+	FIELD o durability I
+	FIELD p containerItem Lafg;
+	FIELD q translationKey Ljava/lang/String;
+	METHOD C_ requireRenderRotation ()Z
+	METHOD a getTranslationKey ()Ljava/lang/String;
+	METHOD a getPlacementMetadata (I)I
+		ARG 0 meta
+	METHOD a register (ILjava/lang/String;Lafg;)V
+		ARG 0 id
+		ARG 1 identifier
+		ARG 2 item
+	METHOD a register (ILkq;Lafg;)V
+		ARG 0 id
+		ARG 1 identifier
+		ARG 2 item
+	METHOD a activate (Laax;Lajq;Lco;Lrh;Lcv;FFF)Lrj;
+		ARG 0 player
+		ARG 1 world
+		ARG 2 pos
+		ARG 3 hand
+		ARG 4 facing
+		ARG 5 hitX
+		ARG 6 hitY
+		ARG 7 hitZ
+	METHOD a setCreativeTab (Laei;)Lafg;
+		ARG 0 tab
+	METHOD a getRawIdByItem (Lafg;)I
+		ARG 0 item
+	METHOD a addStacksForDisplay (Lafg;Laei;Ldd;)V
+		ARG 0 item
+		ARG 1 tab
+		ARG 2 list
+	METHOD a getTranslatedNameTrimmed (Lafi;)Ljava/lang/String;
+		ARG 0 stack
+	METHOD a addInformation (Lafi;Laax;Ljava/util/List;Z)V
+		ARG 0 stack
+		ARG 1 player
+		ARG 2 list
+		ARG 3 advancedTooltips
+	METHOD a interactWithEntity (Lafi;Laax;Lsv;Lrh;)Z
+		ARG 0 stack
+		ARG 1 user
+		ARG 2 target
+		ARG 3 hand
+	METHOD a canRepair (Lafi;Lafi;)Z
+		ARG 0 tool
+		ARG 1 repairItem
+	METHOD a onBlockBroken (Lafi;Lajq;Latj;Lco;Lsv;)Z
+		ARG 0 stack
+		ARG 1 world
+		ARG 2 state
+		ARG 3 pos
+		ARG 4 user
+	METHOD a onUpdate (Lafi;Lajq;Lsm;IZ)V
+		ARG 0 stack
+		ARG 1 world
+		ARG 2 entity
+		ARG 3 invSlot
+		ARG 4 held
+	METHOD a onItemFinishedUsing (Lafi;Lajq;Lsv;)Lafi;
+		ARG 0 stack
+		ARG 1 world
+		ARG 2 entity
+	METHOD a onItemStopUsing (Lafi;Lajq;Lsv;I)V
+		ARG 0 stack
+		ARG 1 world
+		ARG 2 player
+		ARG 3 remainingTime
+	METHOD a getBlockBreakingSpeed (Lafi;Latj;)F
+		ARG 0 stack
+		ARG 1 state
+	METHOD a onEntityDamaged (Lafi;Lsv;Lsv;)Z
+		ARG 0 stack
+		ARG 1 target
+		ARG 2 user
+	METHOD a onRightClick (Lajq;Laax;Lrh;)Lrk;
+		ARG 0 world
+		ARG 1 player
+		ARG 2 hand
+	METHOD a getHitResult (Lajq;Laax;Z)Lbds;
+		ARG 0 world
+		ARG 1 player
+		ARG 2 hitLiquids
+	METHOD a getItemFromBlock (Lals;)Lafg;
+		ARG 0 block
+	METHOD a register (Lals;Lafg;)V
+		ARG 0 block
+		ARG 1 itemBlock
+	METHOD a isEffectiveOn (Latj;)Z
+		ARG 0 state
+	METHOD a onDeserialize (Ldu;)Z
+		ARG 0 tag
+	METHOD a getProperty (Lkq;)Lafj;
+		ARG 0 id
+	METHOD a addProperty (Lkq;Lafj;)V
+		ARG 0 id
+		ARG 1 property
+	METHOD a getAttributeModifiers (Lsr;)Lcom/google/common/collect/Multimap;
+		ARG 0 slotType
+	METHOD a setHasVariants (Z)Lafg;
+		ARG 0 hasVariants
+	METHOD b getCreativeTab ()Laei;
+	METHOD b setContainerItem (Lafg;)Lafg;
+		ARG 0 containerItem
+	METHOD b getTranslationKey (Lafi;)Ljava/lang/String;
+		ARG 0 stack
+	METHOD b onCrafted (Lafi;Lajq;Laax;)V
+		ARG 0 stack
+		ARG 1 world
+		ARG 2 player
+	METHOD b registerItemBlock (Lals;)V
+		ARG 0 block
+	METHOD b getItemById (Ljava/lang/String;)Lafg;
+		ARG 0 id
+	METHOD c getEnchantability ()I
+	METHOD c getItemByRawId (I)Lafg;
+		ARG 0 id
+	METHOD c setTranslationKey (Ljava/lang/String;)Lafg;
+		ARG 0 key
+	METHOD d setMaxAmount (I)Lafg;
+		ARG 0 value
+	METHOD e setDurability (I)Lafg;
+		ARG 0 durability
+	METHOD e getMaxUseTime (Lafi;)I
+		ARG 0 stack
+	METHOD f isMap ()Z
+	METHOD f getUseAction (Lafi;)Lagt;
+		ARG 0 stack
+	METHOD f_ hasEnchantmentGlow (Lafi;)Z
+		ARG 0 stack
+	METHOD g getRarity (Lafi;)Lafw;
+		ARG 0 stack
+	METHOD g_ isTool (Lafi;)Z
+		ARG 0 stack
+	METHOD j getTranslatedName (Lafi;)Ljava/lang/String;
+		ARG 0 stack
+	METHOD s hasBlockInteraction ()Z
+	METHOD u registerDefaults ()V

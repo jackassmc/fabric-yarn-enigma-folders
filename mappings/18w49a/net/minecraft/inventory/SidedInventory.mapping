@@ -1,0 +1,8 @@
+CLASS afp net/minecraft/inventory/SidedInventory
+	METHOD a canInsertInvStack (ILavu;Ley;)Z
+		ARG 1 slot
+		ARG 2 stack
+	METHOD a getInvAvailableSlots (Ley;)[I
+	METHOD b canExtractInvStack (ILavu;Ley;)Z
+		ARG 1 slot
+		ARG 2 stack

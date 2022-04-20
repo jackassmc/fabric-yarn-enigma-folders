@@ -1,0 +1,38 @@
+CLASS aol net/minecraft/entity/mob/EntityDrowned
+	CLASS aol$a
+		METHOD a canStart ()Z
+		METHOD b shouldContinue ()Z
+	CLASS aol$c
+		METHOD a canStart ()Z
+		METHOD b shouldContinue ()Z
+		METHOD c start ()V
+		METHOD d onRemove ()V
+	CLASS aol$d
+		METHOD a canStart ()Z
+		METHOD b shouldContinue ()Z
+		METHOD c start ()V
+	CLASS aol$e
+		METHOD a tick ()V
+	CLASS aol$f
+		METHOD a canStart ()Z
+		METHOD b shouldContinue ()Z
+		METHOD c start ()V
+		METHOD d onRemove ()V
+		METHOD e tick ()V
+	CLASS aol$g
+		METHOD a canStart ()Z
+		METHOD c start ()V
+		METHOD d onRemove ()V
+	METHOD D getSoundAmbient ()Lxb;
+	METHOD a initEquipment (Laeu;)V
+	METHOD a attackDistant (Lagl;F)V
+		ARG 1 target
+	METHOD a (Lbaf;Laeu;Lago;Lagv;Lho;)Lagv;
+		ARG 3 difficulty
+	METHOD af getSoundSwim ()Lxb;
+	METHOD b createNavigation (Lbae;)Lakk;
+	METHOD by canFly ()Z
+	METHOD cw getSoundDeath ()Lxb;
+	METHOD dB getSoundStep ()Lxb;
+	METHOD dC getSkull ()Lavf;
+	METHOD e getSoundHurt (Lafl;)Lxb;

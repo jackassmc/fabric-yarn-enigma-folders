@@ -1,0 +1,9 @@
+CLASS bnx net/minecraft/block/LadderBlock
+	FIELD a FACING Lbur;
+	FIELD b WATERLOGGED Lbuo;
+	FIELD c EAST_SHAPE Lcra;
+	FIELD d WEST_SHAPE Lcra;
+	FIELD e SOUTH_SHAPE Lcra;
+	FIELD f NORTH_SHAPE Lcra;
+	METHOD <init> (Lbky$c;)V
+		ARG 1 settings

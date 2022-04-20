@@ -1,0 +1,6 @@
+CLASS kd net/minecraft/network/NetworkThreadUtils
+	METHOD a forceMainThread (Lkb;Ljg;Lagn;)V
+		ARG 0 packet
+		ARG 1 packetListener
+		ARG 2 thread
+	METHOD a forceMainThread (Lkb;Ljg;Lvi;)V

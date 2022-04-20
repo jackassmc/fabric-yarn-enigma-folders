@@ -1,0 +1,20 @@
+CLASS apk net/minecraft/entity/mob/EndermiteEntity
+	FIELD a lifeTime I
+	FIELD b playerSpawned Z
+	METHOD D getAmbientSound ()Lxm;
+	METHOD M_ checkLightLevelForSpawn ()Z
+	METHOD W_ update ()V
+	METHOD a canSpawn (Lbbq;Lahh;)Z
+	METHOD a playStepSound (Let;Lbpm;)V
+		ARG 1 pos
+	METHOD a readCustomDataFromTag (Lhs;)V
+	METHOD aK getHeightOffset ()D
+	METHOD b writeCustomDataToTag (Lhs;)V
+	METHOD bG getEyeHeight ()F
+	METHOD cE getGroup ()Lahi;
+	METHOD ca initAttributes ()V
+	METHOD cv getDeathSound ()Lxm;
+	METHOD e getHurtSound (Lage;)Lxm;
+	METHOD k updateMovement ()V
+	METHOD k setYaw (F)V
+	METHOD n prepareGoals ()V

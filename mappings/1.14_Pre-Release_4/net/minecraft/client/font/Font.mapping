@@ -1,0 +1,2 @@
+CLASS cth net/minecraft/client/font/Font
+	METHOD a getGlyph (C)Lcti;

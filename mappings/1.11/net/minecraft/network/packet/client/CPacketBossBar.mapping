@@ -1,0 +1,40 @@
+CLASS gc net/minecraft/network/packet/client/CPacketBossBar
+	CLASS gc$a Type
+		FIELD a ADD Lgc$a;
+		FIELD b REMOVE Lgc$a;
+		FIELD c UPDATE_HEALTH Lgc$a;
+		FIELD d UPDATE_TITLE Lgc$a;
+		FIELD e UPDATE_STYLE Lgc$a;
+		FIELD f UPDATE_FLAGS Lgc$a;
+	FIELD a uuid Ljava/util/UUID;
+	FIELD b type Lgc$a;
+	FIELD c name Lfb;
+	FIELD d health F
+	FIELD e color Lqz$a;
+	FIELD f division Lqz$b;
+	FIELD g darkenSky Z
+	FIELD h dragonMusic Z
+	FIELD i thickenFog Z
+	METHOD <init> (Lgc$a;Lqz;)V
+		ARG 0 action
+		ARG 1 bar
+	METHOD a getUuid ()Ljava/util/UUID;
+	METHOD a setFlagBitfield (I)V
+		ARG 0 flags
+	METHOD a readPacket (Let;)V
+		ARG 0 packet
+	METHOD a applyPacket (Lew;)V
+		ARG 0 handler
+	METHOD a applyPacket (Lfp;)V
+		ARG 0 handler
+	METHOD b getType ()Lgc$a;
+	METHOD b writePacket (Let;)V
+		ARG 0 packet
+	METHOD c getName ()Lfb;
+	METHOD d getHealth ()F
+	METHOD e getBarColor ()Lqz$a;
+	METHOD f getBarDivision ()Lqz$b;
+	METHOD g shouldDarkenSky ()Z
+	METHOD h hasDragonMusic ()Z
+	METHOD i shouldThickenFog ()Z
+	METHOD j getFlagBitfield ()I

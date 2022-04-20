@@ -1,0 +1,2 @@
+CLASS bww net/minecraft/block/enums/StairShape
+	FIELD f name Ljava/lang/String;

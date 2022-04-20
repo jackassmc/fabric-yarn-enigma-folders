@@ -1,0 +1,10 @@
+CLASS none/ach net/minecraft/container/slot/impl/SlotFurnaceFuel
+	METHOD <init> (Lnone/qu;III)V
+		ARG 2 x
+		ARG 3 y
+	METHOD a canInsert (Lnone/aer;)Z
+		ARG 0 stack
+	METHOD b getMaxStackAmount (Lnone/aer;)I
+		ARG 0 stack
+	METHOD d_ isBucket (Lnone/aer;)Z
+		ARG 0 stack

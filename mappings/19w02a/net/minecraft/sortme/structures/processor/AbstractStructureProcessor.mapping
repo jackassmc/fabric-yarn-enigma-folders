@@ -1,0 +1,3 @@
+CLASS cdz net/minecraft/sortme/structures/processor/AbstractStructureProcessor
+	METHOD a getStructureProcessor ()Lcea;
+	METHOD a process (Lbcj;Let;Lceb$b;Lceb$b;Lcdy;)Lceb$b;

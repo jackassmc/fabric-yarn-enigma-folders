@@ -1,0 +1,20 @@
+CLASS dlu net/minecraft/client/render/block/entity/BeaconBlockEntityRenderer
+	FIELD c BEAM_TEX Lqs;
+	METHOD a renderLightBeam (DDDDDJII[FDD)V
+		ARG 0 x
+		ARG 2 y
+		ARG 4 z
+		ARG 6 tickDelta
+		ARG 8 textureOffset
+		ARG 10 worldTime
+		ARG 12 startHeight
+		ARG 13 height
+		ARG 14 beamColor
+		ARG 15 innerRadius
+		ARG 17 outerRadius
+	METHOD a renderBeaconLightBeam (DDDDJII[F)V
+		ARG 0 x
+		ARG 2 y
+		ARG 4 z
+		ARG 6 tickDelta
+	METHOD a render (DDDDLjava/util/List;J)V

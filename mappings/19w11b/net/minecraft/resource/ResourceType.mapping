@@ -1,0 +1,5 @@
+CLASS we net/minecraft/resource/ResourceType
+	FIELD a ASSETS Lwe;
+	FIELD b DATA Lwe;
+	FIELD c name Ljava/lang/String;
+	METHOD a getName ()Ljava/lang/String;

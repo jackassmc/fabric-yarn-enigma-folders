@@ -1,0 +1,10 @@
+CLASS bwg net/minecraft/client/render/entity/EntityRendererSnowball
+	FIELD a item Lafg;
+	METHOD <init> (Lbuo;Lafg;Lbve;)V
+		ARG 0 renderManager
+		ARG 1 item
+		ARG 2 itemRenderer
+	METHOD a getTexture (Lsm;)Lkq;
+		ARG 0 model
+	METHOD a (Lsm;DDDFF)V
+	METHOD e getItemStack (Lsm;)Lafi;

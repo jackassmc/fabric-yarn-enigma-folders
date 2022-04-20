@@ -1,0 +1,3 @@
+CLASS cpd net/minecraft/world/loot/ConditionConsumerBuilder
+	METHOD b withCondition (Lcpk$a;)Ljava/lang/Object;
+	METHOD c getThis ()Ljava/lang/Object;

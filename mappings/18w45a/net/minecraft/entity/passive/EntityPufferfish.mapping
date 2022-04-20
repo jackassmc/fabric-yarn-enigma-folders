@@ -1,0 +1,19 @@
+CLASS alo net/minecraft/entity/passive/EntityPufferfish
+	CLASS alo$a
+		METHOD a canStart ()Z
+		METHOD b shouldContinue ()Z
+		METHOD c start ()V
+		METHOD d onRemove ()V
+	METHOD D getSoundAmbient ()Lwz;
+	METHOD F getLootTableId ()Lpw;
+	METHOD S_ update ()V
+	METHOD a setSize (FF)V
+		ARG 1 width
+	METHOD a deserializeCustomData (Lho;)V
+	METHOD a onTrackedDataSet (Lpl;)V
+	METHOD b serializeCustomData (Lho;)V
+	METHOD cw getSoundDeath ()Lwz;
+	METHOD e getSoundHurt (Lafh;)Lwz;
+	METHOD k updateMovement ()V
+	METHOD n initAi ()V
+	METHOD y_ initDataTracker ()V

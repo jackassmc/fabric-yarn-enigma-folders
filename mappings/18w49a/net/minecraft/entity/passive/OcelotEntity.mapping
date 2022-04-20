@@ -1,0 +1,23 @@
+CLASS aly net/minecraft/entity/passive/OcelotEntity
+	CLASS aly$a OcelotFleeGoal
+		METHOD a canStart ()Z
+		METHOD b shouldContinue ()Z
+	METHOD D getAmbientSound ()Lxg;
+	METHOD H mobTick ()V
+	METHOD a damage (Laft;F)Z
+		ARG 1 source
+		ARG 2 amount
+	METHOD a createChild (Lagh;)Lagh;
+	METHOD a interactMob (Laql;Lafd;)Z
+		ARG 1 player
+	METHOD a (Lbat;Lafc;Lagw;Lahe;Lhq;)Lahe;
+		ARG 3 difficulty
+	METHOD a readCustomDataFromTag (Lhq;)V
+	METHOD b writeCustomDataToTag (Lhq;)V
+	METHOD c handleFallDamage (FF)V
+		ARG 1 fallDistance
+	METHOD ca initAttributes ()V
+	METHOD cv getDeathSound ()Lxg;
+	METHOD e getHurtSound (Laft;)Lxg;
+	METHOD n initAi ()V
+	METHOD y_ initDataTracker ()V

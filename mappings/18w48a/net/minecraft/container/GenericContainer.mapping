@@ -1,0 +1,11 @@
+CLASS ash net/minecraft/container/GenericContainer
+	FIELD a inventory Laev;
+	FIELD f rows I
+	METHOD <init> (Laev;Laev;Laqj;)V
+		ARG 1 playerInv
+		ARG 2 inventory
+	METHOD a canUse (Laqj;)Z
+	METHOD b close (Laqj;)V
+	METHOD b getStack (Laqj;I)Lavs;
+		ARG 1 player
+	METHOD d getInventory ()Laev;

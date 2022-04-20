@@ -1,0 +1,15 @@
+CLASS ans net/minecraft/entity/passive/TurtleEntity
+	CLASS ans$a TurtleMateGoal
+	CLASS ans$e TurtleMoveControl
+		FIELD i turtle Lans;
+	CLASS ans$g TurtleSwimNavigation
+	FIELD bA HOME_POS Lpx;
+	FIELD bB HAS_EGG Lpx;
+	FIELD bE TRAVEL_POS Lpx;
+	FIELD bz BABY_TURTLE_ON_LAND_FILTER Ljava/util/function/Predicate;
+	METHOD dM getHasEgg ()Z
+	METHOD dO getHomePos ()Les;
+	METHOD dP getTravelPos ()Les;
+	METHOD i setHomePos (Les;)V
+	METHOD j setTravelPos (Les;)V
+	METHOD q setHasEgg (Z)V

@@ -1,0 +1,4 @@
+CLASS dgy net/minecraft/client/render/entity/LlamaEntityRenderer
+	FIELD a TEXTURES [Lpy;
+	METHOD a getTexture (Lagf;)Lpy;
+	METHOD a getTexture (Lamo;)Lpy;

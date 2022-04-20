@@ -1,0 +1,38 @@
+CLASS cut net/minecraft/client/Mouse
+	FIELD a client Lcus;
+	FIELD b leftButtonClicked Z
+	FIELD c middleButtonClicked Z
+	FIELD d rightButtonClicked Z
+	FIELD e x D
+	FIELD f y D
+	FIELD g controlLeftTicks I
+	FIELD h activeButton I
+	FIELD i hasResolutionChanged Z
+	FIELD k glfwTime D
+	FIELD l cursorXSmoother Lzu;
+	FIELD m cursorYSmoother Lzu;
+	FIELD n cursorDeltaX D
+	FIELD o cursorDeltaY D
+	FIELD p eventDeltaWheel D
+	FIELD r isCursorLocked Z
+	METHOD <init> (Lcus;)V
+		ARG 1 client
+	METHOD a updateMouse ()V
+	METHOD a setup (J)V
+	METHOD a onMouseScroll (JDD)V
+		ARG 1 window
+	METHOD a onMouseButton (JIII)V
+		ARG 1 window
+		ARG 3 button
+		ARG 4 action
+		ARG 5 mods
+	METHOD b wasLeftButtonClicked ()Z
+	METHOD b onCursorPos (JDD)V
+		ARG 1 window
+	METHOD d wasRightButtonClicked ()Z
+	METHOD e getX ()D
+	METHOD f getY ()D
+	METHOD g onResolutionChanged ()V
+	METHOD h isCursorLocked ()Z
+	METHOD i lockCursor ()V
+	METHOD j unlockCursor ()V

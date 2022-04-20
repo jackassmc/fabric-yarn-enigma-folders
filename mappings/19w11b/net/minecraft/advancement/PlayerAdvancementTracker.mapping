@@ -1,0 +1,34 @@
+CLASS qy net/minecraft/advancement/PlayerAdvancementTracker
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD b GSON Lcom/google/gson/Gson;
+	FIELD c JSON_TYPE Lcom/google/gson/reflect/TypeToken;
+	FIELD d server Lnet/minecraft/server/MinecraftServer;
+	FIELD e advancementFile Ljava/io/File;
+	FIELD f advancementToProgress Ljava/util/Map;
+	FIELD g visibleAdvancements Ljava/util/Set;
+	FIELD h visibilityUpdates Ljava/util/Set;
+	FIELD i progressUpdates Ljava/util/Set;
+	FIELD j owner Lvd;
+	FIELD k currentDisplayTab Lp;
+	FIELD l dirty Z
+	METHOD a clearCriterions ()V
+	METHOD a setDisplayTab (Lp;)V
+	METHOD a grantCriterion (Lp;Ljava/lang/String;)Z
+		ARG 2 criterion
+	METHOD a initProgress (Lp;Lr;)V
+	METHOD a setOwner (Lvd;)V
+	METHOD b reload ()V
+	METHOD b getProgress (Lp;)Lr;
+	METHOD b revokeCriterion (Lp;Ljava/lang/String;)Z
+		ARG 2 criterion
+	METHOD b sendUpdate (Lvd;)V
+	METHOD c save ()V
+	METHOD c beginTracking (Lp;)V
+	METHOD d beginTrackingAllAdvancements ()V
+	METHOD d endTrackingCompleted (Lp;)V
+	METHOD e updateCompleted ()V
+	METHOD e updateDisplay (Lp;)V
+	METHOD f rewardEmptyAdvancements ()V
+	METHOD f canSee (Lp;)Z
+	METHOD g load ()V
+	METHOD g hasChildrenDone (Lp;)Z

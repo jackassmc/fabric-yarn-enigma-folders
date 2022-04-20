@@ -1,0 +1,14 @@
+CLASS bit net/minecraft/client/gui/container/GuiHopper
+	FIELD u BG_TEX Lkq;
+	FIELD v playerInv Lrb;
+	FIELD w inventory Lrb;
+	METHOD <init> (Laaw;Lrb;)V
+		ARG 0 playerInv
+		ARG 1 inventory
+	METHOD a drawBackground (FII)V
+		ARG 0 delta
+		ARG 1 mouseX
+		ARG 2 mouseY
+	METHOD b drawForeground (II)V
+		ARG 0 mouseX
+		ARG 1 mouseY

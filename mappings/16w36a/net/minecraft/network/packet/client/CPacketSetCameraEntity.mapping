@@ -1,0 +1,14 @@
+CLASS none/ho net/minecraft/network/packet/client/CPacketSetCameraEntity
+	FIELD a id I
+	METHOD <init> (Lnone/sf;)V
+		ARG 0 entity
+	METHOD a getEntity (Lnone/aiv;)Lnone/sf;
+		ARG 0 world
+	METHOD a readPacket (Lnone/es;)V
+		ARG 0 packet
+	METHOD a applyPacket (Lnone/ev;)V
+		ARG 0 handler
+	METHOD a applyPacket (Lnone/fo;)V
+		ARG 0 handler
+	METHOD b writePacket (Lnone/es;)V
+		ARG 0 packet

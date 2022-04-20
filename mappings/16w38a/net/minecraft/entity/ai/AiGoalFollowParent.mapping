@@ -1,0 +1,8 @@
+CLASS tz net/minecraft/entity/ai/AiGoalFollowParent
+	FIELD a owner Lwn;
+	FIELD b parent Lwn;
+	METHOD a canStart ()Z
+	METHOD b shouldContinue ()Z
+	METHOD c start ()V
+	METHOD d onRemove ()V
+	METHOD e tick ()V

@@ -1,0 +1,8 @@
+CLASS cqf net/minecraft/world/loot/function/SetLootTableLootFunction
+	CLASS cqf$a Factory
+	FIELD a id Lqt;
+	FIELD c seed J
+	METHOD <init> ([Lcrd;Lqt;J)V
+		ARG 1 conditions
+		ARG 2 id
+		ARG 3 seed

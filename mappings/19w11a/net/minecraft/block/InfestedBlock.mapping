@@ -1,0 +1,8 @@
+CLASS bns net/minecraft/block/InfestedBlock
+	FIELD a regularBlock Lbkz;
+	FIELD b INFESTED_TO_REGULAR Ljava/util/Map;
+	METHOD d getRegularBlock ()Lbkz;
+	METHOD f getRegularBlock (Lbkz;)Lbtx;
+		ARG 0 infestedBlockState
+	METHOD j hasRegularBlock (Lbtx;)Z
+		ARG 0 infestedBlockState

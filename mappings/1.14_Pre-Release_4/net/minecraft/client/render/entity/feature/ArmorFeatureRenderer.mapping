@@ -1,0 +1,16 @@
+CLASS dsc net/minecraft/client/render/entity/feature/ArmorFeatureRenderer
+	FIELD a SKIN Lqs;
+	FIELD b modelLeggings Ldet;
+	FIELD c modelBody Ldet;
+	FIELD d alpha F
+	FIELD e red F
+	FIELD f green F
+	FIELD g blue F
+	FIELD h ignoreGlint Z
+	FIELD i ARMOR_TEXTURE_CACHE Ljava/util/Map;
+	METHOD a getArmor (Laij;)Ldet;
+	METHOD a renderArmor (Lain;FFFFFFFLaij;)V
+	METHOD a getArmorTexture (Lazt;Z)Lqs;
+		ARG 1 armor
+	METHOD a renderEnchantedGlint (Ljava/util/function/Consumer;Laie;Ldel;FFFFFFF)V
+	METHOD b isLegs (Laij;)Z

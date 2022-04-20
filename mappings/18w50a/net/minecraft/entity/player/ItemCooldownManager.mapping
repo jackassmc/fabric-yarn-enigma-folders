@@ -1,0 +1,12 @@
+CLASS awk net/minecraft/entity/player/ItemCooldownManager
+	CLASS awk$a Cooldown
+	FIELD a cooldowns Ljava/util/Map;
+	FIELD b tick I
+	METHOD a update ()V
+	METHOD a isCoolingDown (Lawj;)Z
+	METHOD a set (Lawj;I)V
+		ARG 1 item
+	METHOD b remove (Lawj;)V
+	METHOD b onCooldownUpdate (Lawj;I)V
+		ARG 1 item
+	METHOD c onCooldownUpdate (Lawj;)V

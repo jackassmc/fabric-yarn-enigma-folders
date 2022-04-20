@@ -1,0 +1,3 @@
+CLASS bdt net/minecraft/potion/Potions
+	METHOD a register (Ljava/lang/String;Lbdq;)Lbdq;
+		ARG 0 name

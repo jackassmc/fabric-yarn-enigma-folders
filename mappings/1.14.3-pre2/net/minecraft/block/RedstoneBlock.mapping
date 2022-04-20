@@ -1,0 +1,3 @@
+CLASS bqm net/minecraft/block/RedstoneBlock
+	METHOD <init> (Lbmp$c;)V
+		ARG 1 settings

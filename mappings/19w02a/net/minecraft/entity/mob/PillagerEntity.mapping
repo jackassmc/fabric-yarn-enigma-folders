@@ -1,0 +1,27 @@
+CLASS aqh net/minecraft/entity/mob/PillagerEntity
+	FIELD bE inventory Lage;
+	METHOD D getAmbientSound ()Lxt;
+	METHOD G cannotDespawn ()Z
+	METHOD K_ checkLightLevelForSpawn ()Z
+	METHOD N getLimitPerChunk ()I
+	METHOD a initEquipment (Lafx;)V
+	METHOD a attack (Lahm;F)V
+		ARG 1 target
+	METHOD a pickupItem (Laph;)V
+	METHOD a prepareEntityData (Lbcg;Lafx;Lahp;Lahx;Lhs;)Lahx;
+		ARG 3 difficulty
+	METHOD a canSpawn (Lbcg;Lahp;)Z
+	METHOD a readCustomDataFromTag (Lhs;)V
+	METHOD b writeCustomDataToTag (Lhs;)V
+	METHOD c canImmediatelyDespawn (D)Z
+		ARG 1 distanceSquared
+	METHOD cb initAttributes ()V
+	METHOD cw getDeathSound ()Lxt;
+	METHOD d addBonusForWave (IZ)V
+		ARG 1 wave
+	METHOD dB hasArmsRaised ()Z
+	METHOD e getHurtSound (Lagm;)Lxt;
+	METHOD n prepareGoals ()V
+	METHOD r isTeammate (Lahd;)Z
+	METHOD s setArmsRaised (Z)V
+	METHOD w_ initDataTracker ()V

@@ -1,0 +1,3 @@
+CLASS ath net/minecraft/container/BeaconContainer
+	CLASS ath$a SlotPayment
+	FIELD f propertyDelegate Latn;

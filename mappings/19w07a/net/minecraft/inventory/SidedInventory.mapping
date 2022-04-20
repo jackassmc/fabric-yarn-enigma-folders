@@ -1,0 +1,9 @@
+CLASS agq net/minecraft/inventory/SidedInventory
+	METHOD a canInsertInvStack (ILaxt;Lew;)Z
+		ARG 1 slot
+		ARG 2 stack
+	METHOD a getInvAvailableSlots (Lew;)[I
+		ARG 1 side
+	METHOD b canExtractInvStack (ILaxt;Lew;)Z
+		ARG 1 slot
+		ARG 2 stack

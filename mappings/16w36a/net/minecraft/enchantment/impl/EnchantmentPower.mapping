@@ -1,0 +1,2 @@
+CLASS none/ahg net/minecraft/enchantment/impl/EnchantmentPower
+	METHOD b getHighestLevel ()I

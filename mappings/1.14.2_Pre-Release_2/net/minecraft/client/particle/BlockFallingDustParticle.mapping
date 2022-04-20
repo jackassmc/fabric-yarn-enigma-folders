@@ -1,0 +1,7 @@
+CLASS dij net/minecraft/client/particle/BlockFallingDustParticle
+	CLASS dij$a Factory
+	METHOD <init> (Lbhi;DDDFFFLdji;)V
+		ARG 1 world
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z

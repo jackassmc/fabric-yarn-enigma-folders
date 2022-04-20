@@ -1,0 +1,47 @@
+CLASS axe net/minecraft/enchantment/Enchantment
+	CLASS axe$a Weight
+		FIELD a COMMON Laxe$a;
+		FIELD b UNCOMMON Laxe$a;
+		FIELD c RARE Laxe$a;
+		FIELD d LEGENDARY Laxe$a;
+		FIELD e weight I
+		METHOD a getWeight ()I
+	FIELD a slotTypes [Lafm;
+	FIELD b type Laxf;
+	FIELD c translationName Ljava/lang/String;
+	FIELD d weight Laxe$a;
+	METHOD <init> (Laxe$a;Laxf;[Lafm;)V
+		ARG 0 weight
+		ARG 1 type
+		ARG 2 slotTypes
+	METHOD a getHighestLevel ()I
+	METHOD a getProtectionAmount (ILaeq;)I
+		ARG 0 level
+		ARG 1 source
+	METHOD a getAdditionalDamge (ILaft;)F
+		ARG 0 level
+		ARG 1 entityType
+	METHOD a getEquipment (Lafq;)Ljava/util/List;
+		ARG 0 entity
+	METHOD a onTargetDamaged (Lafq;Lafh;I)V
+		ARG 0 user
+		ARG 1 target
+		ARG 2 level
+	METHOD a isAcceptableItem (Lauc;)Z
+		ARG 0 item
+	METHOD a differs (Laxe;)Z
+		ARG 0 other
+	METHOD b isLootOnly ()Z
+	METHOD b onUserDamaged (Lafq;Lafh;I)V
+		ARG 0 user
+		ARG 1 attacker
+		ARG 2 level
+	METHOD b isDifferent (Laxe;)Z
+		ARG 0 other
+	METHOD c isCursed ()Z
+	METHOD d getWeight ()Laxe$a;
+	METHOD d getTextComponent (I)Liw;
+		ARG 0 level
+	METHOD e getLowestLevel ()I
+	METHOD f getOrCreateTranslationKey ()Ljava/lang/String;
+	METHOD g getTranslationKey ()Ljava/lang/String;

@@ -1,0 +1,27 @@
+CLASS amw net/minecraft/entity/decoration/EntityPainting
+	FIELD d type Lamv;
+	METHOD <init> (Laza;Leq;Lev;)V
+		ARG 0 world
+		ARG 1 pos
+		ARG 2 facing
+	METHOD a setPositionAndRotations (DDDFFIZ)V
+		ARG 0 x
+		ARG 1 y
+		ARG 2 z
+		ARG 3 yaw
+		ARG 4 pitch
+	METHOD a copyEntityData (Lafh;)V
+		ARG 0 entity
+	METHOD a deserializeCustomData (Lhl;)V
+		ARG 0 tag
+	METHOD b setPositionAndAngles (DDDFF)V
+		ARG 0 x
+		ARG 1 y
+		ARG 2 z
+		ARG 3 yaw
+		ARG 4 pitch
+	METHOD b serializeCustomData (Lhl;)V
+		ARG 0 tag
+	METHOD k getWidthPixels ()I
+	METHOD l getHeightPixels ()I
+	METHOD m onDecorationPlaced ()V

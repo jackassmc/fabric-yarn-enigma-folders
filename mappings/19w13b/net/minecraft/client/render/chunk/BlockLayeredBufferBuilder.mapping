@@ -1,0 +1,4 @@
+CLASS djj net/minecraft/client/render/chunk/BlockLayeredBufferBuilder
+	FIELD a layerBuilders [Lctu;
+	METHOD a get (I)Lctu;
+	METHOD a get (Lbgh;)Lctu;

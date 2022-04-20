@@ -1,0 +1,44 @@
+CLASS none/boe net/minecraft/client/player/EntityPlayerClient
+	FIELD bY statManager Lnone/nz;
+	FIELD d networkHandler Lnone/bmc;
+	FIELD f mc Lnone/bdo;
+	METHOD <init> (Lnone/bdo;Lnone/aiu;Lnone/bmc;Lnone/nz;)V
+		ARG 0 mc
+		ARG 1 world
+		ARG 2 networkHandler
+		ARG 3 statManager
+	METHOD G getStatManager ()Lnone/nz;
+	METHOD a hasPermission (ILjava/lang/String;)Z
+		ARG 0 permissionLevel
+		ARG 1 commandName
+	METHOD a appendCommandFeedback (Lnone/fa;)V
+		ARG 0 component
+	METHOD a addChatMsg (Lnone/fa;Z)V
+	METHOD a onTrackedDataSet (Lnone/kj;)V
+		ARG 0 data
+	METHOD a playSoundAtEntity (Lnone/nk;FF)V
+		ARG 0 sound
+		ARG 1 volume
+		ARG 2 pitch
+	METHOD a increaseStat (Lnone/nu;I)V
+		ARG 0 stat
+		ARG 1 points
+	METHOD a (Lnone/qt;)V
+	METHOD a swingHand (Lnone/qz;)V
+		ARG 0 hand
+	METHOD a openContainer (Lnone/ra;)V
+	METHOD a damage (Lnone/rp;F)Z
+		ARG 0 source
+		ARG 1 damage
+	METHOD a spawnEntityItem (Lnone/yy;)Lnone/aeq;
+	METHOD a dropSelectedItem (Z)Lnone/yy;
+	METHOD b heal (F)V
+		ARG 0 amount
+	METHOD c getBlockPos ()Lnone/cn;
+	METHOD c setCurrentHand (Lnone/qz;)V
+	METHOD cy ()Lnone/qz;
+	METHOD d move (DDD)V
+	METHOD g sendChatMessage (Ljava/lang/String;)V
+		ARG 0 message
+	METHOD m update ()V
+	METHOD p dismountVehicle ()V

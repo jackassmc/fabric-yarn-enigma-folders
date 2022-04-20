@@ -1,0 +1,18 @@
+CLASS aqq net/minecraft/entity/passive/SchoolingFishEntity
+	CLASS aqq$a Data
+		FIELD a leader Laqq;
+	FIELD b leader Laqq;
+	FIELD c groupSize I
+	METHOD <init> (Laij;Lbhh;)V
+		ARG 1 type
+	METHOD a joinGroupOf (Laqq;)Laqq;
+	METHOD a pullInOtherFish (Ljava/util/stream/Stream;)V
+	METHOD dX getMaxGroupSize ()I
+	METHOD dY hasLeader ()Z
+	METHOD dZ leaveGroup ()V
+	METHOD ea canHaveMoreFishInGroup ()Z
+	METHOD eb hasOtherFishInGroup ()Z
+	METHOD ec isCloseEnoughToLeader ()Z
+	METHOD ed moveTowardLeader ()V
+	METHOD ee increaseGroupSize ()V
+	METHOD ef decreaseGroupSize ()V

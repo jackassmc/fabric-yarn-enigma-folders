@@ -1,0 +1,2 @@
+CLASS dhy net/minecraft/client/particle/EndRodParticle
+	CLASS dhy$a Factory

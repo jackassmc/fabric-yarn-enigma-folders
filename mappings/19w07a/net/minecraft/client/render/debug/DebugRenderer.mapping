@@ -1,0 +1,24 @@
+CLASS djc net/minecraft/client/render/debug/DebugRenderer
+	CLASS djc$a DebugRenderer
+		METHOD a render (FJ)V
+	FIELD a pathfindingDebugRenderer Ldjg;
+	FIELD b waterDebugRenderer Ldjc$a;
+	FIELD c chunkBorderDebugRenderer Ldjc$a;
+	FIELD d heightmapDebugRenderer Ldjc$a;
+	FIELD e voxelDebugRenderer Ldjc$a;
+	FIELD f neighborUpdateDebugRenderer Ldjc$a;
+	FIELD g caveDebugRenderer Ldiy;
+	FIELD h structureDebugRenderer Ldji;
+	FIELD j worldGenAttemptDebugRenderer Ldjc$a;
+	FIELD m showChunkBorder Z
+	FIELD n showPathfinding Z
+	FIELD o showWater Z
+	FIELD p showHeightmap Z
+	FIELD q showVoxels Z
+	FIELD r showNeighborUpdates Z
+	FIELD s showCaves Z
+	FIELD t showStructures Z
+	FIELD v showWorldGenAttempts Z
+	METHOD a shouldRender ()Z
+	METHOD a renderDebuggers (FJ)V
+	METHOD b toggleShowChunkBorder ()Z

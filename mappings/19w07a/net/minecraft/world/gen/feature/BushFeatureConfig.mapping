@@ -1,0 +1,6 @@
+CLASS bvl net/minecraft/world/gen/feature/BushFeatureConfig
+	FIELD a state Lbqz;
+	METHOD <init> (Lbqz;)V
+		ARG 1 state
+	METHOD a deserialize (Lcom/mojang/datafixers/Dynamic;)Lbvl;
+		ARG 0 dynamic

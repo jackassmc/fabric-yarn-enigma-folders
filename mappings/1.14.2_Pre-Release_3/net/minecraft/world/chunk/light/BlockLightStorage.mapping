@@ -1,0 +1,6 @@
+CLASS ckl net/minecraft/world/chunk/light/BlockLightStorage
+	CLASS ckl$a Data
+		METHOD <init> (Lit/unimi/dsi/fastutil/longs/Long2ObjectOpenHashMap;)V
+			ARG 1 map
+	METHOD <init> (Lbxm;)V
+		ARG 1 chunkProvider

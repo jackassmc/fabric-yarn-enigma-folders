@@ -1,0 +1,8 @@
+CLASS dhr net/minecraft/client/particle/DamageParticle
+	CLASS dhr$a DefaultFactory
+	CLASS dhr$b EnchantedHitFactory
+	METHOD <init> (Lbha;DDDDDD)V
+		ARG 1 world
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z

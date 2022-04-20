@@ -1,0 +1,4 @@
+CLASS avr net/minecraft/block/property/BlockPropertyFacing
+	METHOD a create (Ljava/lang/String;)Lavr;
+	METHOD a create (Ljava/lang/String;Lcom/google/common/base/Predicate;)Lavr;
+	METHOD a create (Ljava/lang/String;Ljava/util/Collection;)Lavr;

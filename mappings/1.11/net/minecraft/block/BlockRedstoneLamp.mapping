@@ -1,0 +1,23 @@
+CLASS aqa net/minecraft/block/BlockRedstoneLamp
+	FIELD a lit Z
+	METHOD <init> (Z)V
+		ARG 0 lit
+	METHOD a getPickStack (Lajq;Lco;Latj;)Lafi;
+		ARG 0 world
+		ARG 1 pos
+		ARG 2 state
+	METHOD a getDropItem (Latj;Ljava/util/Random;I)Lafg;
+		ARG 0 state
+		ARG 1 random
+		ARG 2 fortune
+	METHOD b randomTick (Lajq;Lco;Latj;Ljava/util/Random;)V
+		ARG 0 world
+		ARG 1 pos
+		ARG 2 state
+		ARG 3 random
+	METHOD c (Lajq;Lco;Latj;)V
+		ARG 0 world
+		ARG 1 pos
+		ARG 2 state
+	METHOD w getStackFromState (Latj;)Lafi;
+		ARG 0 state

@@ -1,0 +1,17 @@
+CLASS aza net/minecraft/village/VillagerRecipeList
+	METHOD <init> (Lhm;)V
+		ARG 1 tag
+	METHOD a deserialize ()Lhm;
+	METHOD a itemsAreEqual (Lauv;Lauv;)Z
+		ARG 1 firstItem
+		ARG 2 secondItem
+	METHOD a getValidRecipe (Lauv;Lauv;I)Layz;
+		ARG 1 firstBuyItem
+		ARG 2 secondBuyItem
+		ARG 3 recipeIndex
+	METHOD a serialize (Lhm;)V
+		ARG 1 tag
+	METHOD a writeToBuf (Lin;)V
+		ARG 1 byteBuf
+	METHOD b readFromBuf (Lin;)Laza;
+		ARG 0 byteBuf

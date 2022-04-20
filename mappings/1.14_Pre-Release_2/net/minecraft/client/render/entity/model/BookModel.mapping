@@ -1,0 +1,18 @@
+CLASS ddu net/minecraft/client/render/entity/model/BookModel
+	FIELD a leftCover Ldgu;
+	FIELD b rightCover Ldgu;
+	FIELD c leftBlock Ldgu;
+	FIELD d rightBlock Ldgu;
+	FIELD e leftPage Ldgu;
+	FIELD f rightPage Ldgu;
+	FIELD g spine Ldgu;
+	METHOD a render (FFFFFF)V
+		ARG 1 ticks
+		ARG 2 leftPageAngle
+		ARG 3 rightPageAngle
+		ARG 4 pageTurningSpeed
+	METHOD b setPageAngles (FFFFFF)V
+		ARG 1 ticks
+		ARG 2 leftPageAngle
+		ARG 3 rightPageAngle
+		ARG 4 pageTurningSpeed

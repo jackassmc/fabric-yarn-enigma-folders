@@ -1,0 +1,4 @@
+CLASS apj net/minecraft/entity/mob/IllagerEntity
+	CLASS apj$a State
+	METHOD <init> (Lahg;Lbcl;)V
+		ARG 1 type

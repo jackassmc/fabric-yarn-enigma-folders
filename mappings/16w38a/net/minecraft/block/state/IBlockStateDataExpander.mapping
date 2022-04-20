@@ -1,0 +1,4 @@
+CLASS atu net/minecraft/block/state/IBlockStateDataExpander
+	METHOD a expandDataAndGetStateId (ILasm;)I
+		ARG 0 expandedBitSize
+		ARG 1 state

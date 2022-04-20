@@ -1,0 +1,33 @@
+CLASS boi net/minecraft/block/entity/BlockEntity
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD b type Lboj;
+	FIELD c cachedState Lbqe;
+	FIELD d world Lbcf;
+	FIELD e pos Let;
+	FIELD f invalid Z
+	METHOD a toUpdatePacket ()Lke;
+	METHOD a getSquaredDistance (DDD)D
+		ARG 1 x
+	METHOD a setWorld (Lbcf;)V
+	METHOD a applyMirror (Lbks;)V
+	METHOD a applyRotation (Lbls;)V
+	METHOD a populateCrashReport (Lc;)V
+	METHOD a setPos (Let;)V
+	METHOD a fromTag (Lhs;)V
+	METHOD a_ onBlockAction (II)Z
+	METHOD b toInitialChunkDataTag ()Lhs;
+	METHOD b toTag (Lhs;)Lhs;
+	METHOD c createFromTag (Lhs;)Lboi;
+		ARG 0 tag
+	METHOD d writeIdentifyingData (Lhs;)Lhs;
+	METHOD e markDirty ()V
+	METHOD i getSquaredRenderDistance ()D
+	METHOD j hasWorld ()Z
+	METHOD k getPos ()Let;
+	METHOD l getCachedState ()Lbqe;
+	METHOD m isInvalid ()Z
+	METHOD n invalidate ()V
+	METHOD o validate ()V
+	METHOD p resetBlock ()V
+	METHOD r getType ()Lboj;
+	METHOD w getWorld ()Lbcf;

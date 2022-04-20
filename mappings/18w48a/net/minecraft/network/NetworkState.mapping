@@ -1,0 +1,30 @@
+CLASS ip net/minecraft/network/NetworkState
+	CLASS ip$1
+		METHOD <init> (Ljava/lang/String;II)V
+			ARG 0 id
+	CLASS ip$2
+		METHOD <init> (Ljava/lang/String;II)V
+			ARG 0 id
+	CLASS ip$3
+		METHOD <init> (Ljava/lang/String;II)V
+			ARG 0 id
+	CLASS ip$4
+		METHOD <init> (Ljava/lang/String;II)V
+			ARG 0 id
+	FIELD a HANDSHAKE Lip;
+	FIELD b GAME Lip;
+	FIELD c QUERY Lip;
+	FIELD d LOGIN Lip;
+	FIELD e STATES [Lip;
+	FIELD f HANDLER_STATE_MAP Ljava/util/Map;
+	FIELD g id I
+	FIELD h packetHandlerMap Ljava/util/Map;
+	METHOD a getId ()I
+	METHOD a byId (I)Lip;
+		ARG 0 id
+	METHOD a getPacketHandlerState (Ljo;)Lip;
+		ARG 0 handler
+	METHOD a getPacketHandler (Ljp;I)Ljo;
+		ARG 1 side
+	METHOD a getPacketId (Ljp;Ljo;)Ljava/lang/Integer;
+		ARG 1 side

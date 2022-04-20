@@ -1,0 +1,2 @@
+CLASS cod net/minecraft/client/font/Font
+	METHOD a getGlyph (C)Lcoe;

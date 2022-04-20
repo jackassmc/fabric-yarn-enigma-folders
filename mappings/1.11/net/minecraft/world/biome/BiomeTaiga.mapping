@@ -1,0 +1,13 @@
+CLASS alc net/minecraft/world/biome/BiomeTaiga
+	CLASS alc$a Type
+		FIELD a NORMAL Lalc$a;
+		FIELD b REDWOOD Lalc$a;
+		FIELD c MUTATED_REDWOOD Lalc$a;
+	METHOD a decorate (Lajq;Ljava/util/Random;Lco;)V
+		ARG 0 world
+		ARG 1 rand
+		ARG 2 chunkPos
+	METHOD a getSurfaceDecorator (Ljava/util/Random;)Lavx;
+		ARG 0 random
+	METHOD b createTallGrassDecorator (Ljava/util/Random;)Lawl;
+		ARG 0 random

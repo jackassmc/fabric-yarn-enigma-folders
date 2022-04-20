@@ -1,0 +1,3 @@
+CLASS none/ajd
+	FIELD a world Lnone/lu;
+	FIELD b random Ljava/util/Random;

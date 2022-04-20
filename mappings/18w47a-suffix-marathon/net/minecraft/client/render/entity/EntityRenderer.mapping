@@ -1,0 +1,14 @@
+CLASS dgh net/minecraft/client/render/entity/EntityRenderer
+	FIELD a SHADOW_TEX Lpx;
+	FIELD b renderManager Ldgg;
+	METHOD a getTexture (Lage;)Lpx;
+	METHOD a renderEntityOnFire (Lage;DDDF)V
+		ARG 2 x
+		ARG 4 y
+	METHOD a renderEntityLabel (Lage;Ljava/lang/String;DDDI)V
+		ARG 1 entity
+		ARG 2 text
+	METHOD a bindTexture (Lpx;)V
+	METHOD an_ hasSecondPass ()Z
+	METHOD d getFontRenderer ()Lcny;
+	METHOD e getRenderManager ()Ldgg;

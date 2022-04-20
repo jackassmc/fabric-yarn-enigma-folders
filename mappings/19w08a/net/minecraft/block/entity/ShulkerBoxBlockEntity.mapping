@@ -1,0 +1,20 @@
+CLASS bqb net/minecraft/block/entity/ShulkerBoxBlockEntity
+	CLASS bqb$a AnimationStage
+		FIELD a CLOSED Lbqb$a;
+		FIELD c OPENED Lbqb$a;
+	FIELD a AVAILABLE_SLOTS [I
+	FIELD b inventory Lff;
+	FIELD c viewerCount I
+	FIELD i animationStage Lbqb$a;
+	FIELD j animationProgress F
+	FIELD k prevAnimationProgress F
+	FIELD l cachedColor Lawq;
+	FIELD m cachedColorUpdateNeeded Z
+	METHOD a getAnimationProgress (F)F
+	METHOD a getBoundingBox (Lbrd;)Lcnf;
+		ARG 1 state
+	METHOD b getBoundingBox (Lex;)Lcnf;
+		ARG 1 openDirection
+	METHOD i updateAnimation ()V
+	METHOD t getAnimationStage ()Lbqb$a;
+	METHOD u getColor ()Lawq;

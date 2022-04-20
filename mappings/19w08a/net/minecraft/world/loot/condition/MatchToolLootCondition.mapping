@@ -1,0 +1,3 @@
+CLASS cmt net/minecraft/world/loot/condition/MatchToolLootCondition
+	CLASS cmt$a Factory
+	FIELD a predicate Laz;

@@ -1,0 +1,4 @@
+CLASS cpz net/minecraft/world/loot/FunctionConsumerBuilder
+	METHOD b withFunction (Lcqc$a;)Ljava/lang/Object;
+		ARG 1 lootFunctionBuilder
+	METHOD c getThis ()Ljava/lang/Object;

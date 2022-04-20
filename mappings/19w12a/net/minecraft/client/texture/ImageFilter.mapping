@@ -1,0 +1,2 @@
+CLASS djf net/minecraft/client/texture/ImageFilter
+	METHOD a filterImage (Lcsp;)Lcsp;

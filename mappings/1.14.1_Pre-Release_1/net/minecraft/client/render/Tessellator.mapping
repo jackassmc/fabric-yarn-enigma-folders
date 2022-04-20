@@ -1,0 +1,9 @@
+CLASS cuo net/minecraft/client/render/Tessellator
+	FIELD a buffer Lcul;
+	FIELD b renderer Lcum;
+	FIELD c INSTANCE Lcuo;
+	METHOD <init> (I)V
+		ARG 1 bufferCapacity
+	METHOD a getInstance ()Lcuo;
+	METHOD b draw ()V
+	METHOD c getBufferBuilder ()Lcul;

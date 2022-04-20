@@ -1,0 +1,5 @@
+CLASS bmi net/minecraft/block/Blocks
+	FIELD a AIR Lbmh;
+	METHOD a register (Ljava/lang/String;Lbmh;)Lbmh;
+		ARG 0 id
+		ARG 1 block

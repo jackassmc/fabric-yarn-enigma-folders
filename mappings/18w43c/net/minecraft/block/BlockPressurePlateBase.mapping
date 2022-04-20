@@ -1,0 +1,52 @@
+CLASS bds net/minecraft/block/BlockPressurePlateBase
+	METHOD <init> (Lbdx$c;)V
+		ARG 0 builder
+	METHOD a canMobSpawnInside ()Z
+	METHOD a getTickRate (Laze;)I
+		ARG 0 world
+	METHOD a isFullBoundsCubeForConnection (Lblz;)Z
+		ARG 0 state
+	METHOD a setRedstoneOutput (Lblz;I)Lblz;
+		ARG 0 state
+		ARG 1 amount
+	METHOD a getBoundingShape (Lblz;Layn;Leq;)Lchv;
+		ARG 0 state
+		ARG 1 view
+		ARG 2 pos
+	METHOD a getWeakRedstonePower (Lblz;Layn;Leq;Lev;)I
+		ARG 0 state
+		ARG 1 view
+		ARG 2 pos
+		ARG 3 facingFrom
+	METHOD a onEntityCollision (Lblz;Laza;Leq;Lafh;)V
+		ARG 0 state
+		ARG 1 world
+		ARG 2 pos
+		ARG 3 entity
+	METHOD a onBlockRemoved (Lblz;Laza;Leq;Lblz;Z)V
+		ARG 0 world
+		ARG 1 world
+		ARG 2 pos
+		ARG 3 state
+	METHOD a randomTick (Lblz;Laza;Leq;Ljava/util/Random;)V
+		ARG 0 world
+		ARG 1 state
+		ARG 2 pos
+		ARG 3 random
+	METHOD a canPlaceAt (Lblz;Laze;Leq;)Z
+		ARG 0 world
+		ARG 2 pos
+	METHOD a getRenderingState (Lblz;Lev;Lblz;Lazb;Leq;Leq;)Lblz;
+		ARG 0 state
+		ARG 5 pos
+	METHOD b getStrongRedstonePower (Lblz;Layn;Leq;Lev;)I
+		ARG 0 state
+		ARG 1 view
+		ARG 2 pos
+		ARG 3 facingFrom
+	METHOD i emitsRedstonePower (Lblz;)Z
+		ARG 0 state
+	METHOD j getPistonBehavior (Lblz;)Lcaj;
+		ARG 0 state
+	METHOD k getRedstoneOutput (Lblz;)I
+		ARG 0 state

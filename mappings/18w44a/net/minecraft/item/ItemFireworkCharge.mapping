@@ -1,0 +1,9 @@
+CLASS aug net/minecraft/item/ItemFireworkCharge
+	METHOD <init> (Lauq$a;)V
+		ARG 1 builder
+	METHOD a getColorTextComponent (I)Lix;
+		ARG 0 colorRGB
+	METHOD a addInformation (Lauv;Lazt;Ljava/util/List;Lawf;)V
+		ARG 1 stack
+		ARG 2 world
+		ARG 3 tooltip

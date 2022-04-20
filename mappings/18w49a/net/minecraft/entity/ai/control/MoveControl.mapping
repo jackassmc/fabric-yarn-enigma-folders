@@ -1,0 +1,3 @@
+CLASS ahw net/minecraft/entity/ai/control/MoveControl
+	FIELD a entity Lagu;
+	METHOD a tick ()V

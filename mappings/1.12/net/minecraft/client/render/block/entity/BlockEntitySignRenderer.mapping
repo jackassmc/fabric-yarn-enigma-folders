@@ -1,0 +1,4 @@
+CLASS bxd net/minecraft/client/render/block/entity/BlockEntitySignRenderer
+	FIELD a SIGN_TEX Lnd;
+	METHOD a render (Lavh;DDDFIF)V
+	METHOD a render (Lawa;DDDFIF)V

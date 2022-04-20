@@ -1,0 +1,2 @@
+CLASS aby net/minecraft/entity/ai/IDistantAttacker
+	METHOD a attackDistant (Luk;F)V

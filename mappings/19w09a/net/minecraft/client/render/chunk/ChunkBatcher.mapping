@@ -1,0 +1,17 @@
+CLASS diy net/minecraft/client/render/chunk/ChunkBatcher
+	CLASS diy$a ChunkUploadTask
+		FIELD b task Lcom/google/common/util/concurrent/ListenableFutureTask;
+		FIELD c priority D
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD b THREAD_FACTORY Ljava/util/concurrent/ThreadFactory;
+	FIELD d workerThreads Ljava/util/List;
+	FIELD e workers Ljava/util/List;
+	FIELD f pendingChunks Ljava/util/concurrent/PriorityBlockingQueue;
+	FIELD g availableBuffers Ljava/util/concurrent/BlockingQueue;
+	FIELD h bufferRenderer Lcqd;
+	FIELD j pendingUploads Ljava/util/Queue;
+	FIELD k activeWorker Ldiz;
+	METHOD a getDebugString ()Ljava/lang/String;
+	METHOD a addAvailableBuffer (Ldfz;)V
+	METHOD c getNextAvailableBuffer ()Ldfz;
+	METHOD d getNextChunkRenderDataTask ()Ldix;

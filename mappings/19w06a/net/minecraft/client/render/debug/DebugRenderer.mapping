@@ -1,0 +1,24 @@
+CLASS div net/minecraft/client/render/debug/DebugRenderer
+	CLASS div$a DebugRenderer
+		METHOD a render (FJ)V
+	FIELD a pathfindingDebugRenderer Ldiz;
+	FIELD b waterDebugRenderer Ldiv$a;
+	FIELD c chunkBorderDebugRenderer Ldiv$a;
+	FIELD d heightmapDebugRenderer Ldiv$a;
+	FIELD e voxelDebugRenderer Ldiv$a;
+	FIELD f neighborUpdateDebugRenderer Ldiv$a;
+	FIELD g caveDebugRenderer Ldir;
+	FIELD h structureDebugRenderer Ldjb;
+	FIELD j worldGenAttemptDebugRenderer Ldiv$a;
+	FIELD m showChunkBorder Z
+	FIELD n showPathfinding Z
+	FIELD o showWater Z
+	FIELD p showHeightmap Z
+	FIELD q showVoxels Z
+	FIELD r showNeighborUpdates Z
+	FIELD s showCaves Z
+	FIELD t showStructures Z
+	FIELD v showWorldGenAttempts Z
+	METHOD a shouldRender ()Z
+	METHOD a renderDebuggers (FJ)V
+	METHOD b toggleShowChunkBorder ()Z

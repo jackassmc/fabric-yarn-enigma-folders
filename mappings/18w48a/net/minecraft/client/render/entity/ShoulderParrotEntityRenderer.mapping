@@ -1,0 +1,23 @@
+CLASS dkc net/minecraft/client/render/entity/ShoulderParrotEntityRenderer
+	CLASS dkc$a ParrotData
+		FIELD a uuid Ljava/util/UUID;
+		FIELD b renderer Ldhr;
+		FIELD c model Lcxe;
+		FIELD d variant Lpy;
+		METHOD <init> (Ldkc;Ljava/util/UUID;Ldhr;Lcxe;Lpy;Lagm;)V
+			ARG 0 uuid
+			ARG 1 renderer
+			ARG 2 model
+			ARG 3 variant
+			ARG 4 entityClass
+	FIELD c renderManager Ldgs;
+	METHOD a shouldMergeTextures ()Z
+	METHOD a render (Lagr;FFFFFFF)V
+	METHOD a render (Laqj;FFFFFFF)V
+	METHOD a renderShoulderParrot (Laqj;Ljava/util/UUID;Lhp;Ldhr;Lcxe;Lpy;Lagm;FFFFFFFZ)Ldkc$a;
+		ARG 1 player
+		ARG 2 uuid
+		ARG 3 dataTag
+		ARG 4 renderer
+		ARG 5 model
+		ARG 6 variant

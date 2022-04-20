@@ -1,0 +1,8 @@
+CLASS cwv net/minecraft/client/gui/widget/LocalServerListEntry
+	FIELD c client Lcqg;
+	FIELD d entry Ldsb;
+	FIELD e gui Lcwt;
+	FIELD f lastUpdateMillis J
+	METHOD <init> (Lcwt;Ldsb;)V
+		ARG 1 gui
+	METHOD e getLanServerEntry ()Ldsb;

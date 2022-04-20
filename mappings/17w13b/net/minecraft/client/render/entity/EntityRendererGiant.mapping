@@ -1,0 +1,8 @@
+CLASS bxv net/minecraft/client/render/entity/EntityRendererGiant
+	CLASS bxv$1
+		METHOD N_ init ()V
+	FIELD a SKIN Lmd;
+	METHOD a getTexture (Labs;)Lmd;
+		ARG 0 model
+	METHOD a getTexture (Lub;)Lmd;
+		ARG 0 model

@@ -1,0 +1,15 @@
+CLASS clq net/minecraft/scoreboard/ScoreboardState
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD b scoreboard Lclp;
+	FIELD c tag Lhp;
+	METHOD a serializeTeams ()Lhv;
+	METHOD a deserializeTeamPlayers (Lcln;Lhv;)V
+		ARG 1 team
+	METHOD a setScoreboard (Lclp;)V
+	METHOD a deserialize (Lhp;)V
+	METHOD a deserializeTeams (Lhv;)V
+	METHOD b serializeObjectives ()Lhv;
+	METHOD b serialize (Lhp;)Lhp;
+	METHOD b deserializeObjectives (Lhv;)V
+	METHOD c deserializeDisplaySlots (Lhp;)V
+	METHOD d serializeSlots (Lhp;)V

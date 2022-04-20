@@ -1,0 +1,10 @@
+CLASS dll net/minecraft/client/render/model/json/ModelRotation
+	FIELD a origin Lb;
+	FIELD b axis Lfa$a;
+	FIELD c angle F
+	FIELD d rescale Z
+	METHOD <init> (Lb;Lfa$a;FZ)V
+		ARG 1 origin
+		ARG 2 axis
+		ARG 3 angle
+		ARG 4 rescale

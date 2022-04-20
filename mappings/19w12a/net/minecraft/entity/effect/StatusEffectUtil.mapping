@@ -1,0 +1,7 @@
+CLASS aht net/minecraft/entity/effect/StatusEffectUtil
+	METHOD a durationToString (Lahs;F)Ljava/lang/String;
+		ARG 0 effect
+		ARG 1 multiplier
+	METHOD a hasHaste (Laih;)Z
+	METHOD b getHasteAmplifier (Laih;)I
+	METHOD c hasWaterBreathing (Laih;)Z

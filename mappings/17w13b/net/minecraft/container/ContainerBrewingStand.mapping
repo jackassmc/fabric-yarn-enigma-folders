@@ -1,0 +1,30 @@
+CLASS aek net/minecraft/container/ContainerBrewingStand
+	CLASS aek$a SlotFuel
+		METHOD a getMaxStackAmount ()I
+		METHOD a canInsert (Lahf;)Z
+		METHOD b_ matches (Lahf;)Z
+	CLASS aek$b SlotIngredient
+		METHOD a getMaxStackAmount ()I
+		METHOD a canInsert (Lahf;)Z
+	CLASS aek$c SlotPotion
+		FIELD a player Lacu;
+		METHOD a getMaxStackAmount ()I
+		METHOD a onTakeItem (Lacu;Lahf;)Lahf;
+		METHOD a canInsert (Lahf;)Z
+		METHOD c_ matches (Lahf;)Z
+	FIELD a inventory Lsq;
+	FIELD f slotIngredient Lafh;
+	METHOD <init> (Lact;Lsq;)V
+		ARG 0 playerInv
+		ARG 1 inventory
+	METHOD a canUse (Lacu;)Z
+		ARG 0 player
+	METHOD a addListener (Laen;)V
+		ARG 0 listener
+	METHOD b sendContentUpdates ()V
+	METHOD b setProperty (II)V
+		ARG 0 pos
+		ARG 1 value
+	METHOD b getStack (Lacu;I)Lahf;
+		ARG 0 player
+		ARG 1 slot

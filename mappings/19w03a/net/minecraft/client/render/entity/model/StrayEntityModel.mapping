@@ -1,0 +1,5 @@
+CLASS dba net/minecraft/client/render/entity/model/StrayEntityModel
+	METHOD a animateModel (Lahc;FFF)V
+		ARG 2 swingAmount
+		ARG 3 swingDelta
+	METHOD a setAngles (Lahc;FFFFFF)V

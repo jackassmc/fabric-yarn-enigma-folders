@@ -1,0 +1,2 @@
+CLASS djp net/minecraft/client/render/debug/ChunkBorderDebugRenderer
+	FIELD a client Lcqx;

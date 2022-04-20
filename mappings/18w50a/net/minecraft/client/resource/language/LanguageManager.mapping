@@ -1,0 +1,12 @@
+CLASS doi net/minecraft/client/resource/language/LanguageManager
+	FIELD a STORAGE Ldoj;
+	FIELD b LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD c currentLanguageCode Ljava/lang/String;
+	FIELD d languageDefs Ljava/util/Map;
+	METHOD a isRightToLeft ()Z
+	METHOD a setLanguage (Ldoh;)V
+	METHOD a reloadResources (Ljava/util/List;)V
+	METHOD a onResourceReload (Lwj;)V
+		ARG 1 manager
+	METHOD b getLanguage ()Ldoh;
+	METHOD c getAllLanguages ()Ljava/util/SortedSet;

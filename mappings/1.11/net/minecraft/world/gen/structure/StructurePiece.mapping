@@ -1,0 +1,26 @@
+CLASS ayo net/minecraft/world/gen/structure/StructurePiece
+	FIELD a orientation Lcv;
+	FIELD b mirror Laos;
+	FIELD c rotation Laqg;
+	FIELD l boundingBox Laxx;
+	METHOD a translate (III)V
+		ARG 0 x
+		ARG 1 y
+		ARG 2 z
+	METHOD a deserialize (Lajq;Ldu;)V
+		ARG 0 world
+		ARG 1 tag
+	METHOD a generate (Lajq;Ljava/util/Random;Laxx;)Z
+		ARG 0 world
+		ARG 1 rand
+		ARG 2 region
+	METHOD a setOrientation (Lcv;)V
+		ARG 0 orientation
+	METHOD a serializeCustomData (Ldu;)V
+		ARG 0 tag
+	METHOD a (Ljava/util/List;Laxx;)Layo;
+		ARG 0 pieces
+		ARG 1 region
+	METHOD c serialize ()Ldu;
+	METHOD d getBoundingBox ()Laxx;
+	METHOD f getOrientation ()Lcv;

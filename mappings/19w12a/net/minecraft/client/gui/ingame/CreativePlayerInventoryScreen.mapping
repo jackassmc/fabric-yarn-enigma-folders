@@ -1,0 +1,21 @@
+CLASS czp net/minecraft/client/gui/ingame/CreativePlayerInventoryScreen
+	CLASS czp$a
+		METHOD <init> (Lagm;III)V
+			ARG 1 invSlot
+			ARG 2 xPosition
+			ARG 3 <Position
+	CLASS czp$b CreativeContainer
+		FIELD c itemList Lfj;
+	CLASS czp$c CreativeSlot
+		FIELD b slot Layn;
+	FIELD m TEXTURE Lqq;
+	FIELD n inventory Lagy;
+	FIELD o selectedTab I
+	FIELD p scrollPosition F
+	FIELD r searchBox Lcvi;
+	FIELD s slots Ljava/util/List;
+	FIELD t deleteItemSlot Layn;
+	METHOD a isClickInTab (Lazq;DD)Z
+	METHOD a onHotbarKeyPress (Lcua;IZZ)V
+	METHOD b setSelectedTab (Lazq;)V
+	METHOD h doRenderScrollBar ()Z

@@ -1,0 +1,2 @@
+CLASS u net/minecraft/advancement/criterion/CriterionConditions
+	METHOD a getId ()Lpx;

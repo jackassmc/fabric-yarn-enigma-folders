@@ -1,0 +1,28 @@
+CLASS bhz net/minecraft/block/AbstractPressurePlateBlock
+	FIELD a DEPRESSED_SHAPE Lcof;
+	FIELD b DEFAULT_SHAPE Lcof;
+	FIELD c BOX Lcng;
+	METHOD <init> (Lbig$c;)V
+		ARG 1 settings
+	METHOD a updateNeighbors (Lbdf;Les;)V
+		ARG 1 world
+		ARG 2 pos
+	METHOD a updatePlateState (Lbdf;Les;Lbre;I)V
+		ARG 1 world
+		ARG 2 pos
+		ARG 3 state
+		ARG 4 rsOut
+	METHOD a playPressSound (Lbdg;Les;)V
+		ARG 1 world
+		ARG 2 pos
+	METHOD a setRedstoneOutput (Lbre;I)Lbre;
+		ARG 1 state
+		ARG 2 rsOut
+	METHOD b getRedstoneOutput (Lbdf;Les;)I
+		ARG 1 world
+		ARG 2 pos
+	METHOD b playDepressSound (Lbdg;Les;)V
+		ARG 1 world
+		ARG 2 pos
+	METHOD j getRedstoneOutput (Lbre;)I
+		ARG 1 state

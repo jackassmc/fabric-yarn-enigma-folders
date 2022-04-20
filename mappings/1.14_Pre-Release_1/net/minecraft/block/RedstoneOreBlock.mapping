@@ -1,0 +1,11 @@
+CLASS bqh net/minecraft/block/RedstoneOreBlock
+	FIELD a LIT Lbvu;
+	METHOD <init> (Lbme$c;)V
+		ARG 1 settings
+	METHOD a spawnParticles (Lbha;Lev;)V
+		ARG 0 world
+		ARG 1 pos
+	METHOD d light (Lbvc;Lbha;Lev;)V
+		ARG 0 state
+		ARG 1 world
+		ARG 2 pos

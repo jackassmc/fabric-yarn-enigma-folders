@@ -1,0 +1,2 @@
+CLASS bug net/minecraft/client/render/model/QuadBakery
+	METHOD a bake (Lorg/lwjgl/util/vector/Vector3f;Lorg/lwjgl/util/vector/Vector3f;Lbua;Lcbw;Lee;Lcef;Lbub;ZZ)Lbty;

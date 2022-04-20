@@ -1,0 +1,3 @@
+CLASS arg net/minecraft/entity/boss/dragon/phase/LandingPhase
+	METHOD <init> (Laqx;)V
+		ARG 1 dragon

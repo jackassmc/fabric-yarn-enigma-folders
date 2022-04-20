@@ -1,0 +1,6 @@
+CLASS alx net/minecraft/entity/ai/goal/FormCaravanGoal
+	FIELD a owner Laqm;
+	FIELD b speed D
+	FIELD c counter I
+	METHOD a canFollow (Laqm;I)Z
+		ARG 2 length

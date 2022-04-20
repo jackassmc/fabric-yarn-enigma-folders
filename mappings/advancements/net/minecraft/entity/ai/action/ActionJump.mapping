@@ -1,0 +1,5 @@
+CLASS vj net/minecraft/entity/ai/action/ActionJump
+	FIELD a active Z
+	FIELD b entity Lul;
+	METHOD a setActive ()V
+	METHOD b tick ()V

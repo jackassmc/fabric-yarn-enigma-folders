@@ -1,0 +1,3 @@
+CLASS bul net/minecraft/block/entity/MobSpawnerBlockEntity
+	FIELD a logic Lbgo;
+	METHOD c getLogic ()Lbgo;

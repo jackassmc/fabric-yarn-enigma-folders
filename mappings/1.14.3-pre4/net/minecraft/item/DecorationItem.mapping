@@ -1,0 +1,10 @@
+CLASS bbw net/minecraft/item/DecorationItem
+	FIELD a entityType Laip;
+	METHOD <init> (Laip;Lbbz$a;)V
+		ARG 1 type
+		ARG 2 settings
+	METHOD a canPlaceOn (Lawb;Lfa;Lbce;Lev;)Z
+		ARG 1 player
+		ARG 2 side
+		ARG 3 stack
+		ARG 4 pos

@@ -1,0 +1,3 @@
+CLASS brv net/minecraft/block/WallWitherSkullBlock
+	METHOD <init> (Lblg$c;)V
+		ARG 1 settings

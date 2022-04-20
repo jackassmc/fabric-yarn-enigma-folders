@@ -1,0 +1,4 @@
+CLASS bqw net/minecraft/block/TorchBlock
+	FIELD d BOUNDING_SHAPE Lcrb;
+	METHOD <init> (Lbkz$c;)V
+		ARG 1 settings

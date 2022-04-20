@@ -1,0 +1,3 @@
+CLASS doh net/minecraft/client/render/entity/feature/Deadmau5FeatureRenderer
+	METHOD <init> (Ldms;)V
+		ARG 1 context

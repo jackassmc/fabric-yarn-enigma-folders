@@ -1,0 +1,44 @@
+CLASS anf net/minecraft/entity/passive/PandaEntity
+	CLASS anf$a Gene
+		FIELD h VALUES [Lanf$a;
+		FIELD i id I
+		FIELD j name Ljava/lang/String;
+		FIELD k recessive Z
+		METHOD <init> (Ljava/lang/String;IILjava/lang/String;Z)V
+			ARG 3 id
+			ARG 4 name
+			ARG 5 recessive
+		METHOD a getId ()I
+		METHOD a byId (I)Lanf$a;
+		METHOD a byName (Ljava/lang/String;)Lanf$a;
+		METHOD a createRandom (Ljava/util/Random;)Lanf$a;
+		METHOD b getName ()Ljava/lang/String;
+		METHOD b getProductGene (Lanf$a;Lanf$a;)Lanf$a;
+			ARG 0 mainGene
+			ARG 1 hiddenGene
+		METHOD c isRecessive ()Z
+	CLASS anf$c PandaFleeGoal
+	CLASS anf$d PandaMateGoal
+	CLASS anf$e SpawnData
+	CLASS anf$i PandaMoveControl
+		FIELD i panda Lanf;
+	CLASS anf$j ExtinguishFireGoal
+	FIELD bI MAIN_GENE Lpx;
+	FIELD bJ HIDDEN_GENE Lpx;
+	FIELD bK FLAGS Lpx;
+	METHOD a setMainGene (Lanf$a;)V
+	METHOD a initGenes (Lanf;Lanf;)V
+	METHOD b setHiddenGene (Lanf$a;)V
+	METHOD d setFlag (IZ)V
+	METHOD dU getMainGene ()Lanf$a;
+	METHOD dV getHiddenGene ()Lanf$a;
+	METHOD dX getProductGene ()Lanf$a;
+	METHOD dY isLazy ()Z
+	METHOD dZ isWorried ()Z
+	METHOD ea isPlayful ()Z
+	METHOD ec isWeak ()Z
+	METHOD ed isAggressive ()Z
+	METHOD ef initAttributes ()V
+	METHOD ep sneeze ()V
+	METHOD eq getRandomGene ()Lanf$a;
+	METHOD t hasFlag (I)Z

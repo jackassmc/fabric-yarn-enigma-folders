@@ -1,0 +1,9 @@
+CLASS yf net/minecraft/stat/Stat
+	FIELD o formatter Lyg;
+	FIELD p value Ljava/lang/Object;
+	FIELD q type Lyh;
+	METHOD a getType ()Lyh;
+	METHOD a format (I)Ljava/lang/String;
+	METHOD b getValue ()Ljava/lang/Object;
+	METHOD equals (Ljava/lang/Object;)Z
+		ARG 1 o

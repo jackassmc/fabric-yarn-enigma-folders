@@ -1,0 +1,3 @@
+CLASS net/minecraft/class_2629 net/minecraft/network/packet/s2c/play/BossBarS2CPacket
+	FIELD field_12074 uuid Ljava/util/UUID;
+	FIELD field_12075 type Lnet/minecraft/class_2629$class_5882;

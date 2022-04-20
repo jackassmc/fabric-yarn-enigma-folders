@@ -1,0 +1,4 @@
+CLASS bkq net/minecraft/block/BambooSaplingBlock
+	FIELD a SHAPE Lcri;
+	METHOD <init> (Lblg$c;)V
+		ARG 1 settings

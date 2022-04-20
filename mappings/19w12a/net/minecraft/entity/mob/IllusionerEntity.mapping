@@ -1,0 +1,4 @@
+CLASS ath net/minecraft/entity/mob/IllusionerEntity
+	CLASS ath$a BlindTargetGoal
+		FIELD e targetId I
+	CLASS ath$b GiveInvisibilityGoal

@@ -1,0 +1,7 @@
+CLASS csv net/minecraft/client/render/Tessellator
+	FIELD a buffer Lcss;
+	FIELD b renderer Lcst;
+	FIELD c INSTANCE Lcsv;
+	METHOD a getInstance ()Lcsv;
+	METHOD b draw ()V
+	METHOD c getBufferBuilder ()Lcss;

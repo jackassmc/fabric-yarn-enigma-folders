@@ -1,0 +1,4 @@
+CLASS ciz net/minecraft/sortme/rule/TagMatchRuleTest
+	FIELD a tag Lza;
+	METHOD <init> (Lza;)V
+		ARG 1 tag

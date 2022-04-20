@@ -1,0 +1,3 @@
+CLASS dja net/minecraft/client/render/entity/TNTPrimedEntityRenderer
+	METHOD a getTexture (Lagi;)Lpy;
+	METHOD a getTexture (Laom;)Lpy;

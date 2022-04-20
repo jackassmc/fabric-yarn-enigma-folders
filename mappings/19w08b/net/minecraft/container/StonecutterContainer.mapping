@@ -1,0 +1,22 @@
+CLASS avl net/minecraft/container/StonecutterContainer
+	FIELD d inputSlot Lavi;
+	FIELD e outputSlot Lavi;
+	FIELD f inventory Laga;
+	FIELD g context Laue;
+	FIELD h selectedRecipe Laui;
+	FIELD i world Lbdf;
+	FIELD j availableRecipes Ljava/util/List;
+	FIELD k inputStack Laxx;
+	FIELD l lastTakeTime J
+	FIELD m contentsChangedListener Ljava/lang/Runnable;
+	METHOD <init> (ILary;)V
+		ARG 1 syncId
+	METHOD <init> (ILary;Laue;)V
+		ARG 1 syncId
+	METHOD a updateInput (Laga;Laxx;)V
+	METHOD a setContentsChangedListener (Ljava/lang/Runnable;)V
+	METHOD e getSelectedRecipe ()I
+	METHOD f getAvailableRecipes ()Ljava/util/List;
+	METHOD g getAvailableRecipeCount ()I
+	METHOD h canCraft ()Z
+	METHOD i populateResult ()V

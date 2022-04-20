@@ -1,0 +1,13 @@
+CLASS dng net/minecraft/client/render/model/BuiltinBakedModel
+	FIELD a transformations Lddw;
+	FIELD b itemOverrideList Lddu;
+	FIELD c sprite Ldlw;
+	METHOD a useAmbientOcclusion ()Z
+	METHOD a getQuads (Lbom;Ley;Ljava/util/Random;)Ljava/util/List;
+		ARG 1 state
+		ARG 2 face
+	METHOD b hasDepthInGui ()Z
+	METHOD c isBuiltin ()Z
+	METHOD d getSprite ()Ldlw;
+	METHOD e getTransformations ()Lddw;
+	METHOD f getItemPropertyOverrides ()Lddu;

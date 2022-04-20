@@ -1,0 +1,8 @@
+CLASS byn net/minecraft/client/render/entity/EntityRendererArmorStand
+	CLASS byn$1
+		METHOD M_ init ()V
+	FIELD a TEX Lnd;
+	METHOD a getTexture (Labx;)Lnd;
+		ARG 0 model
+	METHOD a getTexture (Lve;)Lnd;
+		ARG 0 model

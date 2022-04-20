@@ -1,0 +1,35 @@
+CLASS cry net/minecraft/client/gui/DrawableContainer
+	FIELD a focused Lcrz;
+	FIELD f active Z
+	METHOD a isActive ()Z
+	METHOD a mouseClicked (DDI)Z
+		ARG 1 mouseX
+		ARG 3 mouseY
+		ARG 5 button
+	METHOD a mouseDragged (DDIDD)Z
+		ARG 1 mouseX
+		ARG 3 mouseY
+		ARG 5 button
+		ARG 6 deltaX
+		ARG 8 deltaY
+	METHOD a getNextFocusable (I)Lcrz;
+		ARG 1 startIndex
+	METHOD a keyPressed (III)Z
+		ARG 1 keyCode
+		ARG 2 scanCode
+		ARG 3 modifiers
+	METHOD a setFocused (Lcrz;)V
+		ARG 1 listener
+	METHOD a switchFocus (Lcrz;I)V
+		ARG 1 listever
+		ARG 2 prevFocus
+	METHOD b getEntries ()Ljava/util/List;
+	METHOD b mouseReleased (DDI)Z
+		ARG 1 mouseX
+		ARG 3 mouseY
+		ARG 5 button
+	METHOD b focusOn (Lcrz;)V
+		ARG 1 listener
+	METHOD e setActive (Z)V
+		ARG 1 active
+	METHOD t focusNext ()V

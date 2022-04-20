@@ -1,0 +1,118 @@
+CLASS cuf net/minecraft/client/gui/ingame/StructureBlockGui
+	CLASS cuf$1
+		METHOD a onPressed (DD)V
+			ARG 0 mouseX
+			ARG 1 mouseY
+	CLASS cuf$2
+		METHOD a onPressed (DD)V
+			ARG 0 mouseX
+			ARG 1 mouseY
+	CLASS cuf$3
+		METHOD a onPressed (DD)V
+			ARG 0 mouseX
+			ARG 1 mouseY
+	CLASS cuf$4
+		METHOD a onPressed (DD)V
+			ARG 0 mouseX
+			ARG 1 mouseY
+	CLASS cuf$5
+		METHOD a onPressed (DD)V
+			ARG 0 mouseX
+			ARG 1 mouseY
+	CLASS cuf$6
+		METHOD a onPressed (DD)V
+			ARG 0 mouseX
+			ARG 1 mouseY
+	CLASS cuf$7
+		METHOD a charTyped (CI)Z
+			ARG 1 chr
+			ARG 2 keyCode
+	CLASS cuf$9
+		METHOD a onPressed (DD)V
+			ARG 0 mouseX
+			ARG 1 mouseY
+	CLASS cuf$10
+		METHOD a onPressed (DD)V
+			ARG 0 mouseX
+			ARG 1 mouseY
+	CLASS cuf$11
+		METHOD a onPressed (DD)V
+			ARG 0 mouseX
+			ARG 1 mouseY
+	CLASS cuf$12
+		METHOD a onPressed (DD)V
+			ARG 0 mouseX
+			ARG 1 mouseY
+	CLASS cuf$13
+		METHOD a onPressed (DD)V
+			ARG 0 mouseX
+			ARG 1 mouseY
+	CLASS cuf$14
+		METHOD a onPressed (DD)V
+			ARG 0 mouseX
+			ARG 1 mouseY
+	CLASS cuf$15
+		METHOD a onPressed (DD)V
+			ARG 0 mouseX
+			ARG 1 mouseY
+	CLASS cuf$16
+		METHOD a onPressed (DD)V
+			ARG 0 mouseX
+			ARG 1 mouseY
+	FIELD A inputSizeY Lcpi;
+	FIELD B inputSizeZ Lcpi;
+	FIELD C inputIntegrity Lcpi;
+	FIELD D inputSeed Lcpi;
+	FIELD E inputMetadata Lcpi;
+	FIELD H buttonSave Lcpe;
+	FIELD I buttonLoad Lcpe;
+	FIELD J buttonRotate0 Lcpe;
+	FIELD K buttonRotate90 Lcpe;
+	FIELD L buttonRotate180 Lcpe;
+	FIELD M buttonRotate270 Lcpe;
+	FIELD N buttonMode Lcpe;
+	FIELD O buttonDetect Lcpe;
+	FIELD P buttonEntities Lcpe;
+	FIELD Q buttonMirror Lcpe;
+	FIELD R buttonShowAir Lcpe;
+	FIELD S buttonShowBoundingBox Lcpe;
+	FIELD T textFields Ljava/util/List;
+	FIELD U decimalFormat Ljava/text/DecimalFormat;
+	FIELD f structureBlock Lbnq;
+	FIELD g mirror Lbjc;
+	FIELD h rotation Lbkc;
+	FIELD i mode Lbpt;
+	FIELD v inputName Lcpi;
+	FIELD w inputPosX Lcpi;
+	FIELD x inputPosY Lcpi;
+	FIELD y inputPosZ Lcpi;
+	FIELD z inputSizeX Lcpi;
+	METHOD a mouseClicked (DDI)Z
+		ARG 0 mouseX
+		ARG 1 mouseX
+		ARG 2 keyCode
+		ARG 3 mouseY
+		ARG 5 button
+	METHOD a draw (IIF)V
+		ARG 1 mouseX
+		ARG 2 mouseY
+	METHOD a keyPressed (III)Z
+		ARG 1 keyCode
+		ARG 2 scanCode
+	METHOD a parseLong (Ljava/lang/String;)J
+	METHOD b onScaleChanged (Lcof;II)V
+		ARG 1 client
+		ARG 2 width
+	METHOD b parseFloat (Ljava/lang/String;)F
+	METHOD c onInitialized ()V
+	METHOD c parseInt (Ljava/lang/String;)I
+	METHOD e isPauseScreen ()Z
+	METHOD f update ()V
+	METHOD g close ()V
+	METHOD j updateIgnoreEntitiesButton ()V
+	METHOD k updateShowAirButton ()V
+	METHOD m updateShowBoundingBoxButton ()V
+	METHOD n onClosed ()V
+	METHOD o updateMirrorButton ()V
+	METHOD s updateRotationButton ()V
+	METHOD u updateMode ()V

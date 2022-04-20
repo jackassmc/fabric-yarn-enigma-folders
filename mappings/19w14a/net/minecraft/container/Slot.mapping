@@ -1,0 +1,34 @@
+CLASS aze net/minecraft/container/Slot
+	FIELD a invSlot I
+	FIELD d inventory Lagn;
+	FIELD e id I
+	FIELD f xPosition I
+	FIELD g yPosition I
+	METHOD <init> (Lagn;III)V
+		ARG 2 invSlot
+		ARG 3 xPosition
+		ARG 4 yPosition
+	METHOD a getMaxStackAmount ()I
+	METHOD a takeStack (I)Lbbq;
+		ARG 1 amount
+	METHOD a canTakeItems (Lavn;)Z
+	METHOD a onTakeItem (Lavn;Lbbq;)Lbbq;
+		ARG 1 player
+		ARG 2 stack
+	METHOD a canInsert (Lbbq;)Z
+	METHOD a onCrafted (Lbbq;I)V
+		ARG 1 stack
+		ARG 2 amount
+	METHOD a onStackChanged (Lbbq;Lbbq;)V
+		ARG 1 originalItem
+	METHOD b doDrawHoveringEffect ()Z
+	METHOD b onTake (I)V
+		ARG 1 amount
+	METHOD b getMaxStackAmount (Lbbq;)I
+	METHOD c getBackgroundSprite ()Ljava/lang/String;
+	METHOD c onCrafted (Lbbq;)V
+		ARG 1 stack
+	METHOD d markDirty ()V
+	METHOD d setStack (Lbbq;)V
+	METHOD e getStack ()Lbbq;
+	METHOD f hasStack ()Z

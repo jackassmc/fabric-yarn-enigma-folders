@@ -1,0 +1,3 @@
+CLASS dgx net/minecraft/client/particle/BlockLeakParticle
+	CLASS dgx$f net/minecraft/client/particle/BlockLeakParticle$LavaFactory
+	CLASS dgx$h net/minecraft/client/particle/BlockLeakParticle$WaterFactory

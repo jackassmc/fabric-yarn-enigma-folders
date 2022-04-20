@@ -1,0 +1,36 @@
+CLASS alp net/minecraft/entity/passive/EntityRabbit
+	CLASS alp$b
+		METHOD a canStart ()Z
+	CLASS alp$d
+		METHOD b tick ()V
+	CLASS alp$e
+		METHOD a tick ()V
+	CLASS alp$f
+		METHOD e tick ()V
+	CLASS alp$g
+		METHOD a canStart ()Z
+		METHOD b shouldContinue ()Z
+		METHOD e tick ()V
+	FIELD bC RABBIT_TYPE Lpl;
+	METHOD D getSoundAmbient ()Lwz;
+	METHOD F getLootTableId ()Lpw;
+	METHOD I mobTick ()V
+	METHOD a damage (Lafh;F)Z
+		ARG 1 source
+	METHOD a createChild (Lafv;)Lafv;
+	METHOD a (Lazz;Laeq;Lagk;Lagr;Lho;)Lagr;
+		ARG 3 difficulty
+	METHOD a deserializeCustomData (Lho;)V
+	METHOD ax attemptSprintingParticles ()V
+	METHOD b createChild (Lafv;)Lalp;
+	METHOD b serializeCustomData (Lho;)V
+	METHOD bX getSoundCategory ()Lxb;
+	METHOD cb initAttributes ()V
+	METHOD cw getSoundDeath ()Lwz;
+	METHOD dC getRabbitType ()I
+	METHOD e getSoundHurt (Lafh;)Lwz;
+	METHOD k updateMovement ()V
+	METHOD n initAi ()V
+	METHOD o doJump (Z)V
+	METHOD p setRabbitType (I)V
+	METHOD y_ initDataTracker ()V

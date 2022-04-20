@@ -1,0 +1,6 @@
+CLASS bfi net/minecraft/world/IPlayerSaveHandler
+	METHOD a savePlayerData (Laeb;)V
+		ARG 0 player
+	METHOD b loadPlayerData (Laeb;)Lfy;
+		ARG 0 player
+	METHOD f getSavedPlayerIds ()[Ljava/lang/String;

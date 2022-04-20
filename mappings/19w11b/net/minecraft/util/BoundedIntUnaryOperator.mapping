@@ -1,0 +1,8 @@
+CLASS cmv net/minecraft/util/BoundedIntUnaryOperator
+	CLASS cmv$a Serializer
+	FIELD a min Ljava/lang/Integer;
+	FIELD b max Ljava/lang/Integer;
+	FIELD c operator Ljava/util/function/IntUnaryOperator;
+	METHOD a createMin (I)Lcmv;
+	METHOD a create (II)Lcmv;
+	METHOD b createMax (I)Lcmv;

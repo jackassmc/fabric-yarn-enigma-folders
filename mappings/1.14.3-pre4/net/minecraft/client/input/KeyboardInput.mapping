@@ -1,0 +1,4 @@
+CLASS dka net/minecraft/client/input/KeyboardInput
+	FIELD i settings Lcvs;
+	METHOD <init> (Lcvs;)V
+		ARG 1 settings

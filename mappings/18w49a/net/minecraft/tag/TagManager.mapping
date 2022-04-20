@@ -1,0 +1,14 @@
+CLASS ya net/minecraft/tag/TagManager
+	FIELD a blocks Lxx;
+	FIELD b items Lxx;
+	FIELD c fluids Lxx;
+	FIELD d entities Lxx;
+	METHOD a blocks ()Lxx;
+	METHOD a toPacket (Lir;)V
+	METHOD a onResourceReload (Lwd;)V
+		ARG 1 manager
+	METHOD b items ()Lxx;
+	METHOD b fromPacket (Lir;)Lya;
+	METHOD c fluids ()Lxx;
+	METHOD d entities ()Lxx;
+	METHOD e clear ()V

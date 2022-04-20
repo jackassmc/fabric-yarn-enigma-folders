@@ -1,0 +1,3 @@
+CLASS cpp net/minecraft/world/loot/condition/MatchToolLootCondition
+	CLASS cpp$a Factory
+	FIELD a predicate Lbb;

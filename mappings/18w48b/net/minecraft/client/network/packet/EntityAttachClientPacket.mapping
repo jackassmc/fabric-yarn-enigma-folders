@@ -1,0 +1,11 @@
+CLASS mb net/minecraft/client/network/packet/EntityAttachClientPacket
+	FIELD a attachedId I
+	FIELD b holdingId I
+	METHOD <init> (Lagi;Lagi;)V
+		ARG 1 attachedEntity
+	METHOD a read (Liq;)V
+	METHOD a apply (Lit;)V
+	METHOD a apply (Ljr;)V
+	METHOD b getAttachedEntityId ()I
+	METHOD b write (Liq;)V
+	METHOD c getHoldingEntityId ()I

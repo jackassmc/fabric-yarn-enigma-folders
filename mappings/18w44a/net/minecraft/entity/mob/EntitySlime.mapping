@@ -1,0 +1,39 @@
+CLASS aoz net/minecraft/entity/mob/EntitySlime
+	CLASS aoz$a
+		METHOD a canStart ()Z
+		METHOD b shouldContinue ()Z
+		METHOD c start ()V
+		METHOD e tick ()V
+	CLASS aoz$b
+		METHOD a canStart ()Z
+		METHOD e tick ()V
+	CLASS aoz$c
+		METHOD a canStart ()Z
+		METHOD e tick ()V
+	CLASS aoz$d
+		METHOD a tick ()V
+	CLASS aoz$e
+		METHOD a canStart ()Z
+		METHOD e tick ()V
+	FIELD bC SLIME_SIZE Lpj;
+	METHOD F getLootTableId ()Lpu;
+	METHOD R getFactory ()Lafz;
+	METHOD S_ update ()V
+	METHOD X invalidate ()V
+	METHOD a (Lazu;Laen;Lagn;Lhm;)Lagn;
+		ARG 2 difficulty
+	METHOD a deserializeCustomData (Lhm;)V
+		ARG 1 tag
+	METHOD a onTrackedDataSet (Lpj;)V
+		ARG 1 data
+	METHOD b serializeCustomData (Lhm;)V
+		ARG 1 tag
+	METHOD bH getEyeHeight ()F
+	METHOD cH getSoundVolume ()F
+	METHOD cw getSoundDeath ()Lww;
+	METHOD dy getSize ()I
+	METHOD e getSoundHurt (Lafe;)Lww;
+	METHOD i pushAwayFrom (Lafv;)V
+		ARG 1 other
+	METHOD n initAi ()V
+	METHOD y_ initDataTracker ()V

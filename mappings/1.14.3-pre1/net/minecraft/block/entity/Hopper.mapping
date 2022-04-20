@@ -1,0 +1,9 @@
+CLASS buc net/minecraft/block/entity/Hopper
+	FIELD a INSIDE_SHAPE Lcss;
+	FIELD b ABOVE_SHAPE Lcss;
+	FIELD c INPUT_AREA_SHAPE Lcss;
+	METHOD A getHopperY ()D
+	METHOD B getHopperZ ()D
+	METHOD N_ getInputAreaShape ()Lcss;
+	METHOD w getWorld ()Lbhj;
+	METHOD z getHopperX ()D

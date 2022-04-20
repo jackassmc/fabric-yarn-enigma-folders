@@ -1,0 +1,182 @@
+CLASS none/aer net/minecraft/item/ItemStack
+	FIELD a NULL_STACK Lnone/aer;
+	FIELD b MODIFIER_FORMAT Ljava/text/DecimalFormat;
+	FIELD c amount I
+	FIELD d updateCooldown I
+	FIELD e item Lnone/aep;
+	FIELD f tag Lnone/dt;
+	FIELD g isInvalid Z
+	FIELD h metadata I
+	FIELD i holdingItemFrame Lnone/yo;
+	FIELD j lastCheckedCanHarvestBlock Lnone/akx;
+	FIELD k lastCheckedCanHarvestResult Z
+	FIELD l lastCheckedCanPlaceBlock Lnone/akx;
+	FIELD m lastCheckedCanPlaceResult Z
+	METHOD <init> (Lnone/aep;)V
+		ARG 0 item
+	METHOD <init> (Lnone/aep;I)V
+		ARG 0 item
+		ARG 1 amount
+	METHOD <init> (Lnone/aep;II)V
+		ARG 0 item
+		ARG 1 amount
+		ARG 2 metadata
+	METHOD <init> (Lnone/akx;)V
+		ARG 0 block
+	METHOD <init> (Lnone/akx;I)V
+		ARG 0 block
+		ARG 1 amount
+	METHOD <init> (Lnone/akx;II)V
+		ARG 0 block
+		ARG 1 amount
+		ARG 2 metadata
+	METHOD <init> (Lnone/dt;)V
+		ARG 0 tag
+	METHOD A getHoldingItemFrame ()Lnone/yo;
+	METHOD B getRepairCost ()I
+	METHOD C toTextComponent ()Lnone/fa;
+	METHOD D getUpdateCooldown ()I
+	METHOD E getAmount ()I
+	METHOD F updateIsInvalid ()V
+	METHOD a getTranslationKey ()Ljava/lang/String;
+	METHOD a split (I)Lnone/aer;
+		ARG 0 amount
+	METHOD a damageDirect (ILjava/util/Random;)Z
+		ARG 0 points
+		ARG 1 rand
+	METHOD a damage (ILnone/so;)V
+		ARG 0 points
+		ARG 1 user
+	METHOD a setChildTag (Ljava/lang/String;Lnone/eh;)V
+		ARG 0 key
+		ARG 1 value
+	METHOD a addAttributeModifier (Ljava/lang/String;Lnone/tc;Lnone/sk;)V
+		ARG 0 name
+		ARG 1 modifier
+	METHOD a activate (Lnone/aal;Lnone/aiv;Lnone/cn;Lnone/ra;Lnone/cu;FFF)Lnone/rc;
+		ARG 0 player
+		ARG 1 world
+		ARG 2 pos
+		ARG 3 hand
+		ARG 4 facing
+		ARG 5 hitX
+		ARG 6 hitY
+		ARG 7 hitZ
+	METHOD a interactWithEntity (Lnone/aal;Lnone/so;Lnone/ra;)Z
+		ARG 0 user
+		ARG 1 target
+		ARG 2 hand
+	METHOD a getTooltip (Lnone/aal;Z)Ljava/util/List;
+		ARG 0 player
+		ARG 1 advanced
+	METHOD a isEqualIgnoreTags (Lnone/aer;)Z
+		ARG 0 other
+	METHOD a areTagsEqual (Lnone/aer;Lnone/aer;)Z
+		ARG 0 a
+		ARG 1 b
+	METHOD a addEnchantment (Lnone/ahn;I)V
+		ARG 0 enchantment
+		ARG 1 level
+	METHOD a onCrafted (Lnone/aiv;Lnone/aal;I)V
+		ARG 0 world
+		ARG 1 player
+		ARG 2 amount
+	METHOD a onRightClick (Lnone/aiv;Lnone/aal;Lnone/ra;)Lnone/rd;
+		ARG 0 world
+		ARG 1 player
+		ARG 2 hand
+	METHOD a onBlockBroken (Lnone/aiv;Lnone/asl;Lnone/cn;Lnone/aal;)V
+		ARG 0 world
+		ARG 1 state
+		ARG 2 pos
+		ARG 3 user
+	METHOD a update (Lnone/aiv;Lnone/sf;IZ)V
+		ARG 0 world
+		ARG 1 entity
+		ARG 2 invSlot
+		ARG 3 held
+	METHOD a onItemFinishedUsing (Lnone/aiv;Lnone/so;)Lnone/aer;
+		ARG 0 world
+		ARG 1 entity
+	METHOD a onItemStopUsing (Lnone/aiv;Lnone/so;I)V
+		ARG 0 world
+		ARG 1 user
+		ARG 2 remainingTime
+	METHOD a getCustomCanHarvest (Lnone/akx;)Z
+		ARG 0 target
+	METHOD a getMiningStrength (Lnone/asl;)F
+		ARG 0 state
+	METHOD a serialize (Lnone/dt;)Lnone/dt;
+		ARG 0 tag
+	METHOD a registerTagUpgraders (Lnone/pf;)V
+	METHOD a getAttributeModifiers (Lnone/sk;)Lcom/google/common/collect/Multimap;
+		ARG 0 slot
+	METHOD a onEntityDamaged (Lnone/so;Lnone/aal;)V
+		ARG 0 target
+		ARG 1 user
+	METHOD a setHoldingItemFrame (Lnone/yo;)V
+		ARG 0 value
+	METHOD b isInvalid ()Z
+	METHOD b setDamage (I)V
+		ARG 0 damage
+	METHOD b isEqualIgnoreDurability (Lnone/aer;)Z
+		ARG 0 other
+	METHOD b areEqual (Lnone/aer;Lnone/aer;)Z
+		ARG 0 a
+		ARG 1 b
+	METHOD b getCustomCanPlace (Lnone/akx;)Z
+		ARG 0 target
+	METHOD b canHarvestBlock (Lnone/asl;)Z
+		ARG 0 state
+	METHOD b setTag (Lnone/dt;)V
+		ARG 0 tag
+	METHOD c getItem ()Lnone/aep;
+	METHOD c setRepairCost (I)V
+		ARG 0 value
+	METHOD c getOrCreateTagCompound (Ljava/lang/String;)Lnone/dt;
+		ARG 0 key
+	METHOD c areEqualIgnoreTags (Lnone/aer;Lnone/aer;)Z
+		ARG 0 a
+		ARG 1 b
+	METHOD d getMaxAmount ()I
+	METHOD d getUpdateCooldown (I)V
+		ARG 0 value
+	METHOD d getTagCompound (Ljava/lang/String;)Lnone/dt;
+		ARG 0 key
+	METHOD d isEqual (Lnone/aer;)Z
+		ARG 0 other
+	METHOD d areEqualIgnoreDurability (Lnone/aer;Lnone/aer;)Z
+		ARG 0 a
+		ARG 1 b
+	METHOD e canBeStacked ()Z
+	METHOD e setAmount (I)V
+		ARG 0 amount
+	METHOD e removeTagCompound (Ljava/lang/String;)V
+		ARG 0 key
+	METHOD f hasDurability ()Z
+	METHOD f addAmount (I)V
+		ARG 0 amount
+	METHOD f setDisplayName (Ljava/lang/String;)Lnone/aer;
+		ARG 0 name
+	METHOD g hasVariants ()Z
+	METHOD g subtractAmount (I)V
+		ARG 0 amount
+	METHOD h isDamaged ()Z
+	METHOD i getDamage ()I
+	METHOD j getMetadata ()I
+	METHOD k getDurability ()I
+	METHOD l copy ()Lnone/aer;
+	METHOD m getMaxUseTime ()I
+	METHOD n getUseAction ()Lnone/agb;
+	METHOD o hasTag ()Z
+	METHOD p getTag ()Lnone/dt;
+	METHOD q getEnchantmentList ()Lnone/dz;
+	METHOD r getDisplayName ()Ljava/lang/String;
+	METHOD s removeDisplayName ()V
+	METHOD t hasDisplayName ()Z
+	METHOD u hasEnchantmentGlow ()Z
+	METHOD v getRarity ()Lnone/aff;
+	METHOD w isEnchantable ()Z
+	METHOD x hasEnchantments ()Z
+	METHOD y hasBlockInteraction ()Z
+	METHOD z isHeldInItemFrame ()Z

@@ -1,0 +1,2 @@
+CLASS bos net/minecraft/block/entity/DropperBlockEntity
+	METHOD g getName ()Ljd;

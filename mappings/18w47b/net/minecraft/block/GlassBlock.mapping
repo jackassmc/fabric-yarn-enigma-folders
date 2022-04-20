@@ -1,0 +1,3 @@
+CLASS bht net/minecraft/block/GlassBlock
+	METHOD c getRenderLayer ()Lbaa;
+	METHOD d isSimpleFullBlock (Lboh;Lazz;Let;)Z

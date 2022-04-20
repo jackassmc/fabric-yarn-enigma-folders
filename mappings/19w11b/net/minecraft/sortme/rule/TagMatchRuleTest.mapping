@@ -1,0 +1,4 @@
+CLASS chu net/minecraft/sortme/rule/TagMatchRuleTest
+	FIELD a tag Lyx;
+	METHOD <init> (Lyx;)V
+		ARG 1 tag

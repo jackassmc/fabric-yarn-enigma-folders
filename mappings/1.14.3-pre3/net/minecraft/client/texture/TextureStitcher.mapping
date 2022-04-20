@@ -1,0 +1,39 @@
+CLASS duk net/minecraft/client/texture/TextureStitcher
+	CLASS duk$a Holder
+		FIELD a sprite Ldun;
+		FIELD b width I
+		FIELD c height I
+		METHOD <init> (Ldun;I)V
+			ARG 2 mipLevel
+	CLASS duk$b Slot
+		FIELD a x I
+		FIELD b y I
+		FIELD c width I
+		FIELD d height I
+		FIELD e subSlots Ljava/util/List;
+		FIELD f texture Lduk$a;
+		METHOD a getTexture ()Lduk$a;
+		METHOD a tryFit (Lduk$a;)Z
+		METHOD a addAllFilledSlots (Ljava/util/function/Consumer;)V
+		METHOD b getX ()I
+		METHOD c getY ()I
+	FIELD a comparator Ljava/util/Comparator;
+	FIELD b mipLevel I
+	FIELD c holders Ljava/util/Set;
+	FIELD d slots Ljava/util/List;
+	FIELD e width I
+	FIELD f height I
+	FIELD g maxWidth I
+	FIELD h maxHeight I
+	METHOD <init> (III)V
+		ARG 1 maxWidth
+		ARG 2 maxHeight
+	METHOD a getWidth ()I
+	METHOD a tryFit (Lduk$a;)Z
+	METHOD a add (Ldun;)V
+	METHOD b getHeight ()I
+	METHOD b applyMipLevel (II)I
+		ARG 0 size
+		ARG 1 mipLevel
+	METHOD c stitch ()V
+	METHOD d getStitchedSprites ()Ljava/util/List;

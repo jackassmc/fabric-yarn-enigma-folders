@@ -1,0 +1,15 @@
+CLASS atj net/minecraft/item/ArmorMaterial
+	FIELD a LEATHER Latj;
+	FIELD b CHAINMAIL Latj;
+	FIELD c IRON Latj;
+	FIELD d GOLD Latj;
+	FIELD e DIAMOND Latj;
+	FIELD f TURTLE Latj;
+	FIELD h name Ljava/lang/String;
+	FIELD j protectionAmounts [I
+	FIELD l equipSound Lxc;
+	FIELD m toughness F
+	METHOD b getEquipSound ()Lxc;
+	METHOD b getProtectionAmount (Lagj;)I
+	METHOD d getName ()Ljava/lang/String;
+	METHOD e getToughness ()F

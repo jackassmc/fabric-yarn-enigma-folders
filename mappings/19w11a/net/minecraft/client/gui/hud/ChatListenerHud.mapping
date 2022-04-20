@@ -1,0 +1,2 @@
+CLASS cup net/minecraft/client/gui/hud/ChatListenerHud
+	FIELD a client Lctq;

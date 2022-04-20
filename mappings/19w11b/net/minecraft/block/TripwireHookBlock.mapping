@@ -1,0 +1,4 @@
+CLASS bqz net/minecraft/block/TripwireHookBlock
+	FIELD a FACING Lbur;
+	METHOD <init> (Lbky$c;)V
+		ARG 1 settings

@@ -1,0 +1,10 @@
+CLASS cko net/minecraft/world/loot/function/SetTagLootFunction
+	CLASS cko$a Factory
+		METHOD a toJson (Lcom/google/gson/JsonObject;Lckd;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD a toJson (Lcom/google/gson/JsonObject;Lcke;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD a serialize (Lcom/google/gson/JsonObject;Lcko;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD a deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;[Lclh;)Lcko;
+		METHOD b fromJson (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;[Lclh;)Lckd;
+	FIELD a tag Lhs;
+	METHOD a process (Lawo;Lciv;)Lawo;
+		ARG 1 stack

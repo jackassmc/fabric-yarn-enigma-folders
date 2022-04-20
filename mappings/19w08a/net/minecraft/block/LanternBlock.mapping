@@ -1,0 +1,6 @@
+CLASS blf net/minecraft/block/LanternBlock
+	FIELD a HANGING Lbrv;
+	FIELD b STANDING_SHAPE Lcoe;
+	FIELD c HANGING_SHAPE Lcoe;
+	METHOD <init> (Lbif$c;)V
+		ARG 1 settings

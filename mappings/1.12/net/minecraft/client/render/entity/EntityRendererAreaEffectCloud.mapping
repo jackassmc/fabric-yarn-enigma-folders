@@ -1,0 +1,5 @@
+CLASS bym net/minecraft/client/render/entity/EntityRendererAreaEffectCloud
+	METHOD a getTexture (Lvc;)Lnd;
+		ARG 0 model
+	METHOD a getTexture (Lve;)Lnd;
+		ARG 0 model

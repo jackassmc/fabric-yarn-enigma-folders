@@ -1,0 +1,9 @@
+CLASS bio net/minecraft/block/ConcretePowderBlock
+	FIELD a hardenedState Lbqp;
+	METHOD <init> (Lbhs;Lbhs$c;)V
+		ARG 1 hardened
+	METHOD a hardensOnAnySide (Lbcb;Let;)Z
+		ARG 0 view
+		ARG 1 pos
+	METHOD r hardensIn (Lbqp;)Z
+		ARG 0 state

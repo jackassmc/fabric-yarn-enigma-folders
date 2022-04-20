@@ -1,0 +1,17 @@
+CLASS aur net/minecraft/entity/player/ItemCooldownManager
+	CLASS aur$a Cooldown
+	FIELD a cooldowns Ljava/util/Map;
+	FIELD b tick I
+	METHOD a update ()V
+	METHOD a isCoolingDown (Lauq;)Z
+		ARG 1 item
+	METHOD a set (Lauq;I)V
+		ARG 1 item
+		ARG 2 duration
+	METHOD b remove (Lauq;)V
+		ARG 1 item
+	METHOD b onCooldownUpdate (Lauq;I)V
+		ARG 1 item
+		ARG 2 cooldown
+	METHOD c onCooldownUpdate (Lauq;)V
+		ARG 1 item

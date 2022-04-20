@@ -1,0 +1,4 @@
+CLASS bzr net/minecraft/client/resource/ResourceLoaderFoliageColormap
+	FIELD a FOLIAGE_COLORMAP_LOC Lkq;
+	METHOD a onResourceReload (Lbzv;)V
+		ARG 0 container

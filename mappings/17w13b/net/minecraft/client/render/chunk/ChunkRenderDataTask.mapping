@@ -1,0 +1,26 @@
+CLASS bvt net/minecraft/client/render/chunk/ChunkRenderDataTask
+	CLASS bvt$a Stage
+		FIELD a INIT Lbvt$a;
+	CLASS bvt$b MODE
+	FIELD a chunkRenderer Lbvz;
+	FIELD b lock Ljava/util/concurrent/locks/ReentrantLock;
+	FIELD c runnables Ljava/util/List;
+	FIELD d mode Lbvt$b;
+	FIELD e distanceToPlayerSquared D
+	FIELD g chunkRenderData Lbvw;
+	FIELD h stage Lbvt$a;
+	METHOD <init> (Lbvz;Lbvt$b;D)V
+		ARG 0 chunkRenderer
+		ARG 1 mode
+		ARG 2 distanceToPlayerSquared
+	METHOD a getStage ()Lbvt$a;
+	METHOD a setStage (Lbvt$a;)V
+		ARG 0 value
+	METHOD a compareTask (Lbvt;)I
+		ARG 0 other
+	METHOD a setChunkRenderData (Lbvw;)V
+		ARG 0 chunkRenderData
+	METHOD b getChunkRenderer ()Lbvz;
+	METHOD c getChunkRenderData ()Lbvw;
+	METHOD f getLock ()Ljava/util/concurrent/locks/ReentrantLock;
+	METHOD g getMode ()Lbvt$b;

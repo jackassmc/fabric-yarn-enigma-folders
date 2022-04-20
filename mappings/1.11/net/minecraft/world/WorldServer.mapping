@@ -1,0 +1,96 @@
+CLASS lw net/minecraft/world/WorldServer
+	FIELD I server Lnet/minecraft/server/MinecraftServer;
+	FIELD J entityTrackingManager Llt;
+	FIELD K chunkPlayerTrackerMap Lmc;
+	FIELD L blockTicksScheduled Ljava/util/Set;
+	FIELD M blockTicksScheduledTreeSet Ljava/util/TreeSet;
+	FIELD U blockTicksPending Ljava/util/List;
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD b autoSaveDisabled Z
+	METHOD <init> (Lnet/minecraft/server/MinecraftServer;Lbbu;Lbbt;ILou;)V
+		ARG 0 server
+		ARG 1 saveHandler
+		ARG 2 levelProperties
+		ARG 3 worldTypeId
+		ARG 4 profiler
+	METHOD a saveLevel ()V
+	METHOD a isChunkLoaded (IIZ)Z
+		ARG 0 chunkX
+		ARG 1 chunkZ
+	METHOD a init (Lajt;)V
+		ARG 0 info
+	METHOD a getScheduledBlockTicks (Laum;Z)Ljava/util/List;
+		ARG 0 chunk
+		ARG 1 remove
+	METHOD a getScheduledBlockTicks (Laxx;Z)Ljava/util/List;
+		ARG 0 region
+		ARG 1 remove
+	METHOD a hasBlockTickPending (Lco;Lals;)Z
+		ARG 0 pos
+		ARG 1 block
+	METHOD a scheduleBlockTick (Lco;Lals;I)V
+		ARG 0 pos
+		ARG 1 block
+		ARG 2 delay
+	METHOD a scheduleBlockTick (Lco;Lals;II)V
+		ARG 0 pos
+		ARG 1 block
+		ARG 2 delay
+		ARG 3 priority
+	METHOD a scheduleOnMainThread (Ljava/lang/Runnable;)Lcom/google/common/util/concurrent/ListenableFuture;
+		ARG 0 runnable
+	METHOD a addEntities (Ljava/util/Collection;)V
+		ARG 0 entities
+	METHOD a getEntityByUuid (Ljava/util/UUID;)Lsm;
+	METHOD a spawnEntity (Lsm;)Z
+		ARG 0 entity
+	METHOD a createExplosion (Lsm;DDDFZZ)Lajl;
+		ARG 0 entity
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 power
+		ARG 5 createFire
+		ARG 6 destroyBlocks
+	METHOD a tickScheduledBlocks (Z)Z
+		ARG 0 tickAllNow
+	METHOD a save (ZLov;)V
+		ARG 0 entities
+		ARG 1 progress
+	METHOD aF isMainThread ()Z
+	METHOD al shouldSpawnNpcs ()Z
+	METHOD am shouldSpawnAnimals ()Z
+	METHOD an initDebugWorldProperties ()V
+	METHOD b ()Lajq;
+	METHOD b createSpawn (Lajt;)V
+		ARG 0 info
+	METHOD b hasBlockTickScheduled (Lco;Lals;)Z
+		ARG 0 pos
+		ARG 1 block
+	METHOD b scheduleBlockTickGuaranteedDelay (Lco;Lals;II)V
+		ARG 0 pos
+		ARG 1 block
+		ARG 2 delay
+		ARG 3 priority
+	METHOD b onEntityAdded (Lsm;)V
+		ARG 0 entity
+	METHOD c onEntityRemoved (Lsm;)V
+		ARG 0 entity
+	METHOD d update ()V
+	METHOD d addGlobalEntity (Lsm;)Z
+		ARG 0 entity
+	METHOD e updateSleepingStatus ()V
+	METHOD h setDefaultSpawnClient ()V
+	METHOD i addEntity (Lsm;)Z
+		ARG 0 entity
+	METHOD j tickRandomBlocks ()V
+	METHOD k updateEntities ()V
+	METHOD n createChunkProvider ()Lauh;
+	METHOD o generateBonusChest ()V
+	METHOD q flushChunks ()V
+	METHOD r getServerChunkProvider ()Llv;
+	METHOD s saveRegions ()V
+	METHOD t updateWeather ()V
+	METHOD u getServer ()Lnet/minecraft/server/MinecraftServer;
+	METHOD v getEntityTrackingManager ()Llt;
+	METHOD w getChunkPlayerTrackerMap ()Lmc;

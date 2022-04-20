@@ -1,0 +1,45 @@
+CLASS csw net/minecraft/util/shape/VoxelShape
+	FIELD a voxels Lcsl;
+	FIELD b shapeCache [Lcsw;
+	METHOD <init> (Lcsl;)V
+		ARG 1 voxels
+	METHOD a getBoundingBox ()Lcrx;
+	METHOD a offset (DDD)Lcsw;
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+	METHOD a rayTrace (Lcsc;Lcsc;Lev;)Lcry;
+		ARG 1 start
+		ARG 2 end
+		ARG 3 pos
+	METHOD a forEachEdge (Lcst$a;)V
+	METHOD a (Leu;Lcrx;D)D
+		ARG 1 axisCycle
+		ARG 2 box
+		ARG 3 maxDist
+	METHOD a getPointPositions (Lfa$a;)Lit/unimi/dsi/fastutil/doubles/DoubleList;
+		ARG 1 axis
+	METHOD a getCoordIndex (Lfa$a;D)I
+		ARG 2 coord
+	METHOD a getPointPosition (Lfa$a;I)D
+		ARG 1 axis
+		ARG 2 index
+	METHOD a (Lfa$a;Lcrx;D)D
+		ARG 1 axis
+		ARG 2 box
+	METHOD a getFace (Lfa;)Lcsw;
+		ARG 1 facing
+	METHOD b isEmpty ()Z
+	METHOD b contains (DDD)Z
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+	METHOD b forEachBox (Lcst$a;)V
+	METHOD b getMinimum (Lfa$a;)D
+		ARG 1 axis
+	METHOD b getUncachedFace (Lfa;)Lcsw;
+		ARG 1 facing
+	METHOD c simplify ()Lcsw;
+	METHOD c getMaximum (Lfa$a;)D
+		ARG 1 axis
+	METHOD d getBoundingBoxes ()Ljava/util/List;

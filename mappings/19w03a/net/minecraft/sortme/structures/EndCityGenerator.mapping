@@ -1,0 +1,3 @@
+CLASS ccq net/minecraft/sortme/structures/EndCityGenerator
+	CLASS ccq$a
+		METHOD a toNbt (Lhq;)V

@@ -1,0 +1,31 @@
+CLASS apx net/minecraft/block/BlockRedSandstone
+	CLASS apx$a Type
+		FIELD a NORMAL Lapx$a;
+		FIELD b CHIESELED Lapx$a;
+		FIELD c SMOOTH Lapx$a;
+		FIELD d VALUES [Lapx$a;
+		FIELD e id I
+		FIELD f name Ljava/lang/String;
+		FIELD g translationKey Ljava/lang/String;
+		METHOD <init> (Ljava/lang/String;IILjava/lang/String;Ljava/lang/String;)V
+			ARG 0 id
+			ARG 1 name
+			ARG 2 translationKey
+		METHOD a getId ()I
+		METHOD a byId (I)Lapx$a;
+			ARG 0 id
+		METHOD c getTranslationKey ()Ljava/lang/String;
+		METHOD m asString ()Ljava/lang/String;
+		METHOD values values ()[Lapx$a;
+	FIELD a Type Latx;
+	METHOD a deserializeState (I)Latj;
+		ARG 0 meta
+	METHOD a addStacksForDisplay (Lafg;Laei;Ldd;)V
+		ARG 0 item
+		ARG 1 tab
+		ARG 2 list
+	METHOD b createStateFactory ()Latk;
+	METHOD d getDropItemDamage (Latj;)I
+		ARG 0 state
+	METHOD e serializeState (Latj;)I
+		ARG 0 state

@@ -1,0 +1,7 @@
+CLASS vb net/minecraft/server/WorldGenerationProgressListener
+	METHOD a start (Lbch;)V
+		ARG 1 spawnPos
+	METHOD a setChunkStatus (Lbch;Lbsl;)V
+		ARG 1 pos
+		ARG 2 status
+	METHOD b stop ()V

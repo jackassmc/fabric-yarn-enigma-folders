@@ -1,0 +1,27 @@
+CLASS bme net/minecraft/block/BedBlock
+	FIELD a PART Lbwf;
+	FIELD b OCCUPIED Lbvz;
+	FIELD c TOP_SHAPE Lcsn;
+	FIELD d LEG_1_SHAPE Lcsn;
+	FIELD e LEG_2_SHAPE Lcsn;
+	FIELD f LEG_3_SHAPE Lcsn;
+	FIELD g LEG_4_SHAPE Lcsn;
+	FIELD h NORTH_SHAPE Lcsn;
+	FIELD i SOUTH_SHAPE Lcsn;
+	FIELD j WEST_SHAPE Lcsn;
+	FIELD k EAST_SHAPE Lcsn;
+	FIELD w color Lbaw;
+	METHOD a getDirection (Lbgq;Lev;)Lfa;
+		ARG 0 world
+		ARG 1 pos
+	METHOD a findWakeUpPosition (Lbgq;Lev;I)Lev;
+		ARG 0 world
+		ARG 1 pos
+		ARG 2 ordinal
+	METHOD a getDirectionTowardsOtherPart (Lbvw;Lfa;)Lfa;
+		ARG 0 part
+		ARG 1 direction
+	METHOD b canWakeUpAt (Lbgq;Lev;)Z
+		ARG 0 world
+		ARG 1 pos
+	METHOD d getColor ()Lbaw;

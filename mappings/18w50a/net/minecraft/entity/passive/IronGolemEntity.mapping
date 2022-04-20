@@ -1,0 +1,21 @@
+CLASS amh net/minecraft/entity/passive/IronGolemEntity
+	FIELD a IRON_GOLEM_FLAGS Lpr;
+	FIELD b findVillageDelay I
+	FIELD c villageProperties Lalq;
+	METHOD C pushAway (Lagv;)V
+	METHOD I mobTick ()V
+	METHOD a onDeath (Lage;)V
+	METHOD a playStepSound (Let;Lbpm;)V
+		ARG 1 pos
+	METHOD a readCustomDataFromTag (Lhs;)V
+	METHOD b writeCustomDataToTag (Lhs;)V
+	METHOD b canTrack (Ljava/lang/Class;)Z
+	METHOD ca initAttributes ()V
+	METHOD cv getDeathSound ()Lxm;
+	METHOD dB isPlayerCreated ()Z
+	METHOD e getHurtSound (Lage;)Lxm;
+	METHOD k updateMovement ()V
+	METHOD l getVillageProperties ()Lalq;
+	METHOD n prepareGoals ()V
+	METHOD s setPlayerCreated (Z)V
+	METHOD y_ initDataTracker ()V

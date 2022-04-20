@@ -1,0 +1,4 @@
+CLASS avq net/minecraft/item/BookKnowledgeItem
+	METHOD a use (Lban;Laqg;Laey;)Lafb;
+		ARG 1 world
+		ARG 2 player

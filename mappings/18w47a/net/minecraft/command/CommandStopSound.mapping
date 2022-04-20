@@ -1,0 +1,2 @@
+CLASS su net/minecraft/command/CommandStopSound
+	METHOD a register (Lcom/mojang/brigadier/CommandDispatcher;)V

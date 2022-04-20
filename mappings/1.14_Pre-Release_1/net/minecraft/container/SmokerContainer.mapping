@@ -1,0 +1,5 @@
+CLASS azj net/minecraft/container/SmokerContainer
+	METHOD <init> (ILavq;)V
+		ARG 1 syncId
+	METHOD <init> (ILavq;Lagr;Laye;)V
+		ARG 1 syncId

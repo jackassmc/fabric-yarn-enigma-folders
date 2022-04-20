@@ -1,0 +1,6 @@
+CLASS crx net/minecraft/client/gui/hud/SpectatorHud
+	FIELD a SPECTATOR_TEX Lqd;
+	FIELD f WIDGETS_TEX Lqd;
+	FIELD g client Lcpy;
+	FIELD i spectatorMenu Lcxy;
+	METHOD a draw (F)V

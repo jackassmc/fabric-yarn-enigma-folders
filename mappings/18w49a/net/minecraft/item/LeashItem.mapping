@@ -1,0 +1,2 @@
+CLASS avx net/minecraft/item/LeashItem
+	METHOD a useOnBlock (Laxh;)Laff;

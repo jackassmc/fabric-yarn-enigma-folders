@@ -1,0 +1,4 @@
+CLASS che net/minecraft/world/biome/layer/BambooJungleReplaceLayer
+	FIELD a INSTANCE Lche;
+	FIELD b JUNGLE_ID I
+	FIELD c BAMBOO_JUNGLE_ID I

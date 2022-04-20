@@ -1,0 +1,23 @@
+CLASS amq net/minecraft/entity/passive/HorseArmorType
+	FIELD a NONE Lamq;
+	FIELD b IRON Lamq;
+	FIELD c GOLD Lamq;
+	FIELD d DIAMOND Lamq;
+	FIELD e texturePath Ljava/lang/String;
+	FIELD f id Ljava/lang/String;
+	FIELD g protection I
+	METHOD <init> (Ljava/lang/String;IILjava/lang/String;Ljava/lang/String;)V
+		ARG 3 protection
+		ARG 4 textureName
+	METHOD a getOrdinal ()I
+	METHOD a getByOrdinal (I)Lamq;
+		ARG 0 value
+	METHOD a getByItem (Lavn;)Lamq;
+		ARG 0 item
+	METHOD a getByStack (Lavs;)Lamq;
+		ARG 0 stack
+	METHOD b getId ()Ljava/lang/String;
+	METHOD b isHorseArmor (Lavn;)Z
+		ARG 0 item
+	METHOD c getProtectionAmount ()I
+	METHOD d getTexturePath ()Ljava/lang/String;

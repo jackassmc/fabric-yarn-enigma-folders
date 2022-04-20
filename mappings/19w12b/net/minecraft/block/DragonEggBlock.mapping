@@ -1,0 +1,4 @@
+CLASS bmt net/minecraft/block/DragonEggBlock
+	FIELD a SHAPE Lcri;
+	METHOD <init> (Lblg$c;)V
+		ARG 1 settings

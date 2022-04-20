@@ -1,0 +1,2 @@
+CLASS amf net/minecraft/entity/ai/GoToOwnerAndPurrGoal
+	FIELD g cat Laqp;

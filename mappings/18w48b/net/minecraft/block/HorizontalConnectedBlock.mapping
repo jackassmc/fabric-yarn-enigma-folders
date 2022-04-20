@@ -1,0 +1,22 @@
+CLASS bgt net/minecraft/block/HorizontalConnectedBlock
+	FIELD a NORTH Lbpa;
+	FIELD b EAST Lbpa;
+	FIELD c SOUTH Lbpa;
+	FIELD d WEST Lbpa;
+	FIELD e WATERLOGGED Lbpa;
+	METHOD a getBoundingShape (Lboj;Lbac;Let;)Lclj;
+		ARG 1 state
+		ARG 2 view
+		ARG 3 pos
+	METHOD a canPlaceAtSide (Lboj;Lbac;Let;Lcfy;)Z
+		ARG 1 world
+		ARG 3 pos
+	METHOD a (Lboj;Lbac;Let;Lcku;)Lclj;
+		ARG 1 state
+		ARG 2 view
+	METHOD a applyMirror (Lboj;Lbja;)Lboj;
+		ARG 1 state
+	METHOD a applyRotation (Lboj;Lbka;)Lboj;
+		ARG 1 state
+		ARG 2 rotation
+	METHOD f getFluidState (Lboj;)Lcdq;

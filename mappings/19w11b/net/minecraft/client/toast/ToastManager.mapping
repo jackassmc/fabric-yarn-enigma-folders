@@ -1,0 +1,14 @@
+CLASS cvz net/minecraft/client/toast/ToastManager
+	CLASS cvz$a Entry
+		FIELD b instance Lcvy;
+		METHOD <init> (Lcvz;Lcvy;)V
+			ARG 1 instance
+		METHOD a getInstance ()Lcvy;
+		METHOD a draw (II)Z
+	FIELD a client Lctp;
+	FIELD b visibleEntries [Lcvz$a;
+	FIELD g toastQueue Ljava/util/Deque;
+	METHOD a draw ()V
+	METHOD a add (Lcvy;)V
+	METHOD b clear ()V
+	METHOD c getGame ()Lctp;

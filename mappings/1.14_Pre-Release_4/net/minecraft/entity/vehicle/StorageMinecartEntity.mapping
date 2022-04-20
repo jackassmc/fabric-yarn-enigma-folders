@@ -1,0 +1,10 @@
+CLASS axl net/minecraft/entity/vehicle/StorageMinecartEntity
+	FIELD b inventory Lfj;
+	FIELD d lootTableId Lqs;
+	FIELD e lootSeed J
+	METHOD <init> (Laii;Lbhf;)V
+		ARG 1 type
+	METHOD a setLootTable (Lqs;J)V
+		ARG 1 id
+	METHOD createMenu (ILavv;Lavw;)Laya;
+		ARG 1 syncId

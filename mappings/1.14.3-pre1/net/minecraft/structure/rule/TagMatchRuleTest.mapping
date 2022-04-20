@@ -1,0 +1,4 @@
+CLASS cjm net/minecraft/structure/rule/TagMatchRuleTest
+	FIELD a tag Lzc;
+	METHOD <init> (Lzc;)V
+		ARG 1 tag

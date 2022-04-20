@@ -1,0 +1,5 @@
+CLASS bqa net/minecraft/client/render/item/ItemBuiltinRenderer
+	FIELD a INSTANCE Lbqa;
+	FIELD c renderChestTrapped Lasc;
+	METHOD a render (Lafi;)V
+		ARG 0 stack

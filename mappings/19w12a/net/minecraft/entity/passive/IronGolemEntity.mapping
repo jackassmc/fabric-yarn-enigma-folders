@@ -1,0 +1,4 @@
+CLASS apz net/minecraft/entity/passive/IronGolemEntity
+	FIELD b IRON_GOLEM_FLAGS Lqf;
+	METHOD dQ isPlayerCreated ()Z
+	METHOD s setPlayerCreated (Z)V

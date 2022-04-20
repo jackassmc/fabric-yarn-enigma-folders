@@ -1,0 +1,20 @@
+CLASS ke net/minecraft/network/packet/client/CPacketChunkDeltaUpdate
+	CLASS ke$a ChunkDeltaRecord
+		FIELD b pos S
+		FIELD c state Lbnh;
+		METHOD a getBlockPos ()Leq;
+		METHOD b getPosShort ()S
+		METHOD c getState ()Lbnh;
+	FIELD a chunkPos Lazi;
+	FIELD b records [Lke$a;
+	METHOD <init> (I[SLbpp;)V
+		ARG 3 chunk
+	METHOD a read (Lin;)V
+		ARG 1 buf
+	METHOD a apply (Liq;)V
+		ARG 1 handler
+	METHOD a apply (Ljo;)V
+		ARG 1 handler
+	METHOD b getRecords ()[Lke$a;
+	METHOD b write (Lin;)V
+		ARG 1 buf

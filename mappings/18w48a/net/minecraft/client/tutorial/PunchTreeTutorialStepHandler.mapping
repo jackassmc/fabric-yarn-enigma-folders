@@ -1,0 +1,9 @@
+CLASS doz net/minecraft/client/tutorial/PunchTreeTutorialStepHandler
+	FIELD a TITLE Lja;
+	FIELD b DESCRIPTION Lja;
+	FIELD c manager Ldpa;
+	FIELD e ticks I
+	METHOD a tick ()V
+	METHOD a onSlotUpdate (Lavs;)V
+	METHOD a onBlockAttacked (Lczk;Let;Lboj;F)V
+	METHOD b destroy ()V

@@ -1,0 +1,18 @@
+CLASS api net/minecraft/entity/passive/SchoolingFishEntity
+	CLASS api$a Data
+		FIELD a leader Lapi;
+	FIELD b leader Lapi;
+	FIELD c groupSize I
+	METHOD <init> (Laia;Lbfx;)V
+		ARG 1 type
+	METHOD a joinGroupOf (Lapi;)Lapi;
+	METHOD a pullInOtherFish (Ljava/util/stream/Stream;)V
+	METHOD dP getMaxGroupSize ()I
+	METHOD dQ hasLeader ()Z
+	METHOD dR leaveGroup ()V
+	METHOD dS canHaveMoreFishInGroup ()Z
+	METHOD dT hasOtherFishInGroup ()Z
+	METHOD dU isCloseEnoughToLeader ()Z
+	METHOD dV moveTowardLeader ()V
+	METHOD dW increaseGroupSize ()V
+	METHOD dX decreaseGroupSize ()V

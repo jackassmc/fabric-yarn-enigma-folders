@@ -1,0 +1,2 @@
+CLASS axp net/minecraft/enchantment/EnchantmentFlame
+	METHOD a getHighestLevel ()I

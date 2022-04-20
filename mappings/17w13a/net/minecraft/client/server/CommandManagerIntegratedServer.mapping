@@ -1,0 +1,3 @@
+CLASS can net/minecraft/client/server/CommandManagerIntegratedServer
+	METHOD <init> (Lcam;)V
+		ARG 0 integratedServer

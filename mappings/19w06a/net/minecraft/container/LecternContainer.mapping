@@ -1,0 +1,8 @@
+CLASS aul net/minecraft/container/LecternContainer
+	FIELD c inventory Lafx;
+	FIELD d propertyDelegate Latw;
+	METHOD <init> (I)V
+		ARG 1 syncId
+	METHOD <init> (ILafx;Latw;)V
+		ARG 1 syncId
+	METHOD e getBookItem ()Laxm;

@@ -1,0 +1,5 @@
+CLASS dlp net/minecraft/client/render/model/RetexturedBakedQuad
+	FIELD e spriteRetextured Lduk;
+	METHOD <init> (Ldli;Lduk;)V
+		ARG 1 parent
+	METHOD f recalculateUvs ()V

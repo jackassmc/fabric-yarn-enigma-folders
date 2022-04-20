@@ -1,0 +1,4 @@
+CLASS xh net/minecraft/server/config/WhitelistList
+	METHOD a getNames ()[Ljava/lang/String;
+	METHOD a fromJson (Lcom/google/gson/JsonObject;)Lxd;
+	METHOD a toString (Ljava/lang/Object;)Ljava/lang/String;

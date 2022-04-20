@@ -1,0 +1,29 @@
+CLASS beg net/minecraft/scoreboard/IScoreboardCriterion
+	CLASS beg$a Type
+		FIELD a INTEGER Lbeg$a;
+		FIELD b HEARTS Lbeg$a;
+		FIELD c BY_NAME Ljava/util/Map;
+		FIELD d name Ljava/lang/String;
+		METHOD <init> (Ljava/lang/String;ILjava/lang/String;)V
+			ARG 0 name
+		METHOD a getName ()Ljava/lang/String;
+		METHOD a byName (Ljava/lang/String;)Lbeg$a;
+			ARG 0 name
+		METHOD values values ()[Lbeg$a;
+	FIELD a OBJECTIVES Ljava/util/Map;
+	FIELD b DUMMY Lbeg;
+	FIELD c TRIGGER Lbeg;
+	FIELD d DEATH_COUNT Lbeg;
+	FIELD e PLAYER_KILL_COUNT Lbeg;
+	FIELD f TOTAL_KILL_COUNT Lbeg;
+	FIELD g HEALTH Lbeg;
+	FIELD h FOOD Lbeg;
+	FIELD i AIR Lbeg;
+	FIELD j ARMOR Lbeg;
+	FIELD k XP Lbeg;
+	FIELD l LEVEL Lbeg;
+	FIELD m TEAM_KILLS [Lbeg;
+	FIELD n TEAM_KILLED_BY [Lbeg;
+	METHOD a getName ()Ljava/lang/String;
+	METHOD b isReadOnly ()Z
+	METHOD c getType ()Lbeg$a;

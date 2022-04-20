@@ -1,0 +1,2 @@
+CLASS bvb net/minecraft/world/gen/feature/KelpFeature
+	METHOD a generate (Lban;Lbqc;Ljava/util/Random;Les;Lbuf;)Z

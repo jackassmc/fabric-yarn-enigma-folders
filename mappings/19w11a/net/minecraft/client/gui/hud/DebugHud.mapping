@@ -1,0 +1,29 @@
+CLASS cux net/minecraft/client/gui/hud/DebugHud
+	FIELD a client Lctq;
+	FIELD b fontRenderer Lcui;
+	FIELD g blockHit Lcqf;
+	FIELD h fluidHit Lcqf;
+	FIELD i pos Lbfl;
+	FIELD j chunk Lbvx;
+	FIELD k chunkFuture Ljava/util/concurrent/CompletableFuture;
+	METHOD <init> (Lctq;)V
+		ARG 1 client
+	METHOD a resetChunk ()V
+	METHOD a interpolateColor (IIF)I
+		ARG 1 color1
+		ARG 2 color2
+		ARG 3 dt
+	METHOD a propertyToString (Ljava/util/Map$Entry;)Ljava/lang/String;
+		ARG 1 propEntry
+	METHOD a drawMetricsData (Lzh;IIZ)V
+		ARG 2 startY
+		ARG 3 firstSample
+		ARG 4 isClient
+	METHOD b draw ()V
+	METHOD c drawLeftText ()V
+	METHOD d drawRightText ()V
+	METHOD e getLeftText ()Ljava/util/List;
+	METHOD f getRightText ()Ljava/util/List;
+	METHOD g getWorld ()Lbfy;
+	METHOD h getChunk ()Lbvx;
+	METHOD i getClientChunk ()Lbvx;

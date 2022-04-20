@@ -1,0 +1,2 @@
+CLASS brq net/minecraft/client/particle/IParticleFactory
+	METHOD a createParticle (ILali;DDDDDD[I)Lbro;

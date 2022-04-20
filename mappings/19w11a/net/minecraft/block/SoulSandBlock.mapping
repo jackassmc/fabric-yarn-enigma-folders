@@ -1,0 +1,4 @@
+CLASS bqb net/minecraft/block/SoulSandBlock
+	FIELD a COLLISION_SHAPE Lcrb;
+	METHOD <init> (Lbkz$c;)V
+		ARG 1 settings

@@ -1,0 +1,3 @@
+CLASS diz net/minecraft/client/particle/SpriteProvider
+	METHOD a getSprite (II)Ldtz;
+	METHOD a getSprite (Ljava/util/Random;)Ldtz;

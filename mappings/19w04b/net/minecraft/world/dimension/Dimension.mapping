@@ -1,0 +1,20 @@
+CLASS btc net/minecraft/world/dimension/Dimension
+	FIELD b world Lbcl;
+	FIELD c waterVaporizes Z
+	FIELD d isNether Z
+	FIELD f type Lbtd;
+	METHOD <init> (Lbcl;Lbtd;)V
+		ARG 1 world
+		ARG 2 type
+	METHOD a getSkyAngle (JF)F
+		ARG 1 timeOfDay
+		ARG 3 delta
+	METHOD d getForcedSpawnPoint ()Let;
+	METHOD f doesWaterVaporize ()Z
+	METHOD g hasSkyLight ()Z
+	METHOD h isNether ()Z
+	METHOD j createWorldBorder ()Lbrw;
+	METHOD k saveWorldData ()V
+	METHOD m createChunkGenerator ()Lbrz;
+	METHOD n hasVisibleSky ()Z
+	METHOD p getType ()Lbtd;

@@ -1,0 +1,16 @@
+CLASS anr net/minecraft/entity/ai/goal/TrackTargetGoal
+	FIELD a checkCanNavigate Z
+	FIELD b canNavigateFlag I
+	FIELD c checkCanNavigateCooldown I
+	FIELD d timeWithoutVisibility I
+	FIELD e entity Laig;
+	FIELD f checkVisibility Z
+	FIELD g target Laif;
+	FIELD h maxTimeWithoutVisibility I
+	METHOD <init> (Laig;ZZ)V
+		ARG 2 checkVisibility
+	METHOD a setMaxTimeWithoutVisibility (I)Lanr;
+	METHOD a canNavigateToEntity (Laif;)Z
+	METHOD a canTrack (Laif;Laor;)Z
+		ARG 1 target
+	METHOD k getFollowRange ()D

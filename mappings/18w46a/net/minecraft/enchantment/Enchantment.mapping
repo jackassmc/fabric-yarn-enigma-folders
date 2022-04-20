@@ -1,0 +1,37 @@
+CLASS ayh net/minecraft/enchantment/Enchantment
+	CLASS ayh$a Weight
+		FIELD a COMMON Layh$a;
+		FIELD b UNCOMMON Layh$a;
+		FIELD c RARE Layh$a;
+		FIELD d LEGENDARY Layh$a;
+		FIELD e weight I
+		METHOD a getWeight ()I
+	FIELD a slotTypes [Lagh;
+	FIELD b type Layi;
+	FIELD c translationName Ljava/lang/String;
+	FIELD d weight Layh$a;
+	METHOD <init> (Layh$a;Layi;[Lagh;)V
+		ARG 1 weight
+		ARG 2 type
+	METHOD a getHighestLevel ()I
+	METHOD a getProtectionAmount (ILafl;)I
+		ARG 1 level
+	METHOD a getAdditionalDamge (ILagp;)F
+		ARG 1 level
+	METHOD a getEquipment (Lagl;)Ljava/util/List;
+	METHOD a onTargetDamaged (Lagl;Lagc;I)V
+		ARG 1 user
+		ARG 2 target
+	METHOD a isAcceptableItem (Lavf;)Z
+	METHOD a differs (Layh;)Z
+	METHOD b isLootOnly ()Z
+	METHOD b onUserDamaged (Lagl;Lagc;I)V
+		ARG 1 user
+		ARG 2 attacker
+	METHOD b isDifferent (Layh;)Z
+	METHOD c isCursed ()Z
+	METHOD d getWeight ()Layh$a;
+	METHOD d getTextComponent (I)Liz;
+	METHOD e getLowestLevel ()I
+	METHOD f getOrCreateTranslationKey ()Ljava/lang/String;
+	METHOD g getTranslationKey ()Ljava/lang/String;

@@ -1,0 +1,4 @@
+CLASS djf net/minecraft/client/particle/SuspendParticle
+	CLASS djf$b DolphinFactory
+	CLASS djf$c HappyVillagerFactory
+	CLASS djf$d MyceliumFactory

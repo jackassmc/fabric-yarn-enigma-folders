@@ -1,0 +1,7 @@
+CLASS bpv net/minecraft/block/enums/StructureMode
+	FIELD a SAVE Lbpv;
+	FIELD b LOAD Lbpv;
+	FIELD c CORNER Lbpv;
+	FIELD d DATA Lbpv;
+	FIELD e name Ljava/lang/String;
+	METHOD m asString ()Ljava/lang/String;

@@ -1,0 +1,4 @@
+CLASS afk net/minecraft/util/Nameable
+	METHOD Q getDisplayName ()Ljb;
+	METHOD d getName ()Ljb;
+	METHOD e hasCustomName ()Z

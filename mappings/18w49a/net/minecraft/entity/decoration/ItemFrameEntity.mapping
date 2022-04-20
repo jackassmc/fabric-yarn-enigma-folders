@@ -1,0 +1,28 @@
+CLASS aoc net/minecraft/entity/decoration/ItemFrameEntity
+	FIELD ax itemDropChance F
+	FIELD e ITEM_STACK Lpo;
+	FIELD f ROTATION Lpo;
+	METHOD a shouldRenderAtDistance (D)Z
+	METHOD a setRotation (I)V
+	METHOD a setRotation (IZ)V
+		ARG 1 value
+	METHOD a damage (Laft;F)Z
+		ARG 1 source
+		ARG 2 amount
+	METHOD a copyEntityData (Lagk;)V
+	METHOD a setHeldItemStack (Lavu;Z)V
+		ARG 1 value
+	METHOD a setFacing (Ley;)V
+	METHOD a readCustomDataFromTag (Lhq;)V
+	METHOD a onTrackedDataSet (Lpo;)V
+	METHOD b interact (Laql;Lafd;)Z
+		ARG 1 player
+	METHOD b setHeldItemStack (Lavu;)V
+	METHOD b writeCustomDataToTag (Lhq;)V
+	METHOD bG getEyeHeight ()F
+	METHOD l getWidthPixels ()I
+	METHOD m getHeightPixels ()I
+	METHOD n onDecorationPlaced ()V
+	METHOD p getHeldItemStack ()Lavu;
+	METHOD q getRotation ()I
+	METHOD y_ initDataTracker ()V

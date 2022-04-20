@@ -1,0 +1,4 @@
+CLASS asq net/minecraft/entity/boss/dragon/phase/HoldingPatternPhase
+	FIELD b PLAYERS_IN_RANGE_PREDICATE Laqd;
+	METHOD <init> (Lask;)V
+		ARG 1 dragon

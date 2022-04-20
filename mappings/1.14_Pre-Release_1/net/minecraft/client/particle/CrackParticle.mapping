@@ -1,0 +1,6 @@
+CLASS dhm net/minecraft/client/particle/CrackParticle
+	CLASS dhm$a ItemFactory
+	CLASS dhm$b SlimeballFactory
+	CLASS dhm$c SnowballFactory
+	METHOD <init> (Lbha;DDDDDDLbbu;)V
+		ARG 1 world

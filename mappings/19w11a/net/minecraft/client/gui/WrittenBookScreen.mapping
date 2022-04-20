@@ -1,0 +1,44 @@
+CLASS czh net/minecraft/client/gui/WrittenBookScreen
+	CLASS czh$a net/minecraft/client/gui/WrittenBookScreen$Contents
+		METHOD a getLineCount ()I
+		METHOD a getLine (I)Ljl;
+			ARG 1 line
+		METHOD a create (Lbar;)Lczh$a;
+			ARG 0 stack
+		METHOD b getLineOrDefault (I)Ljl;
+			ARG 1 line
+	CLASS czh$b net/minecraft/client/gui/WrittenBookScreen$WritableBookContents
+		FIELD a lines Ljava/util/List;
+		METHOD b getLines (Lbar;)Ljava/util/List;
+	CLASS czh$c net/minecraft/client/gui/WrittenBookScreen$WrittenBookContents
+		FIELD a lines Ljava/util/List;
+		METHOD b getLines (Lbar;)Ljava/util/List;
+	FIELD a EMPTY_PROVIDER Lczh$a;
+	FIELD b BOOK_TEXTURE Lqp;
+	FIELD g contents Lczh$a;
+	FIELD h pageIndex I
+	FIELD i cachedPage Ljava/util/List;
+	FIELD s cachedPageIndex I
+	FIELD t lastPageButton Ldae;
+	FIELD u nextPageButton Ldae;
+	METHOD <init> (Lczh$a;)V
+		ARG 1 pageProvider
+	METHOD a setPageProvider (Lczh$a;)V
+		ARG 1 pageProvider
+	METHOD a getLines (Lia;)Ljava/util/List;
+	METHOD a getStringWidth (Ljava/lang/String;)I
+		ARG 1 string
+	METHOD b setPage (I)Z
+		ARG 1 index
+	METHOD d getLineAt (DD)Ljl;
+		ARG 1 x
+		ARG 3 y
+	METHOD j jumpToPage (I)Z
+		ARG 1 page
+	METHOD k getPageCount ()I
+	METHOD l addCloseButton ()V
+	METHOD m addPageButtons ()V
+	METHOD n goToPreviousPage ()V
+	METHOD o goToNextPage ()V
+	METHOD s playPageTurnSound ()V
+	METHOD w updatePageButtons ()V

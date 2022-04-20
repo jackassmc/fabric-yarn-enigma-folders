@@ -1,0 +1,9 @@
+CLASS bfk net/minecraft/world/biome/source/VanillaLayeredBiomeSourceConfig
+	FIELD a levelProperties Lcix;
+	FIELD b generatorSettings Lbtu;
+	METHOD a getLevelProperties ()Lcix;
+	METHOD a setGeneratorSettings (Lbtu;)Lbfk;
+		ARG 1 generatorSettings
+	METHOD a setLevelProperties (Lcix;)Lbfk;
+		ARG 1 properties
+	METHOD b getGeneratorSettings ()Lbtu;

@@ -1,0 +1,2 @@
+CLASS aui net/minecraft/world/gen/WorldProviderOverworld
+	METHOD p getWorldType ()Laug;

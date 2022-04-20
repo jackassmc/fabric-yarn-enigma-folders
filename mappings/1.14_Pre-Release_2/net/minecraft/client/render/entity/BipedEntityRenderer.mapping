@@ -1,0 +1,5 @@
+CLASS dpm net/minecraft/client/render/entity/BipedEntityRenderer
+	FIELD a SKIN Lqs;
+	METHOD <init> (Ldoy;Ldeo;F)V
+		ARG 1 renderManager
+		ARG 2 model

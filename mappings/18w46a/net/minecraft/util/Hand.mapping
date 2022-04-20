@@ -1,0 +1,3 @@
+CLASS aev net/minecraft/util/Hand
+	FIELD a MAIN Laev;
+	FIELD b OFF Laev;

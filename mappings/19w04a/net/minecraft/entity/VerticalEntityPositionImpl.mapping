@@ -1,0 +1,11 @@
+CLASS cnb net/minecraft/entity/VerticalEntityPositionImpl
+	CLASS cnb$1
+		METHOD <init> (ZDLawy;)V
+			ARG 1 sneaking
+	FIELD a MIN_VALUE Lcmw;
+	FIELD b sneaking Z
+	FIELD c posY D
+	METHOD <init> (Lahc;)V
+		ARG 1 entity
+	METHOD <init> (ZDLawy;)V
+		ARG 1 sneaking

@@ -1,0 +1,4 @@
+CLASS brr net/minecraft/block/SnowyBlock
+	FIELD a SNOWY Lbwg;
+	METHOD <init> (Lbmq$c;)V
+		ARG 1 settings

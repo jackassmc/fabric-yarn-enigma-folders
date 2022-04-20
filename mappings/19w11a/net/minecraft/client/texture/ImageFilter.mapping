@@ -1,0 +1,2 @@
+CLASS dje net/minecraft/client/texture/ImageFilter
+	METHOD a filterImage (Lcsf;)Lcsf;

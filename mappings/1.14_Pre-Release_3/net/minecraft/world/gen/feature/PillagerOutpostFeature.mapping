@@ -1,0 +1,8 @@
+CLASS ccu net/minecraft/world/gen/feature/PillagerOutpostFeature
+	CLASS ccu$a Start
+		METHOD <init> (Lcef;IILbia;Lchn;IJ)V
+			ARG 2 chunkX
+			ARG 3 chunkZ
+	FIELD a MONSTER_SPAWNS Ljava/util/List;
+	METHOD <init> (Ljava/util/function/Function;)V
+		ARG 1 configFactory

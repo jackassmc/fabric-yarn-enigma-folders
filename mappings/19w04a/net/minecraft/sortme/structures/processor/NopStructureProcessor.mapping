@@ -1,0 +1,2 @@
+CLASS cdu net/minecraft/sortme/structures/processor/NopStructureProcessor
+	FIELD a INSTANCE Lcdu;

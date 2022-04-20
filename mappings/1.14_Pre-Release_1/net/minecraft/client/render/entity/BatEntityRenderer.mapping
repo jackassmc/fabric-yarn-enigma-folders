@@ -1,0 +1,2 @@
+CLASS doc net/minecraft/client/render/entity/BatEntityRenderer
+	FIELD a SKIN Lqs;

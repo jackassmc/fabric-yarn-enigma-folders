@@ -1,0 +1,4 @@
+CLASS awp net/minecraft/entity/projectile/ExplodingWitherSkullEntity
+	FIELD f CHARGED Lqg;
+	METHOD a setCharged (Z)V
+	METHOD l isCharged ()Z

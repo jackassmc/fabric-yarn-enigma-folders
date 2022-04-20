@@ -1,0 +1,18 @@
+CLASS cuf net/minecraft/client/util/VideoMode
+	FIELD a width I
+	FIELD b height I
+	FIELD c redBits I
+	FIELD d greenBits I
+	FIELD e blueBits I
+	FIELD f refreshRate I
+	FIELD g PATTERN Ljava/util/regex/Pattern;
+	METHOD a getWidth ()I
+	METHOD a fromString (Ljava/lang/String;)Ljava/util/Optional;
+	METHOD b getHeight ()I
+	METHOD c getRedBits ()I
+	METHOD d getGreenBits ()I
+	METHOD e getBlueBits ()I
+	METHOD equals (Ljava/lang/Object;)Z
+		ARG 1 o
+	METHOD f getRefreshRate ()I
+	METHOD g asString ()Ljava/lang/String;

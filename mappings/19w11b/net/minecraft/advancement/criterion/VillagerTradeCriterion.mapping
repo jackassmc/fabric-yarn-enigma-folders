@@ -1,0 +1,18 @@
+CLASS bs net/minecraft/advancement/criterion/VillagerTradeCriterion
+	CLASS bs$a Handler
+		FIELD a manager Lqy;
+		FIELD b conditions Ljava/util/Set;
+		METHOD a isEmpty ()Z
+		METHOD a handle (Lvd;Latx;Lbar;)V
+			ARG 1 villager
+		METHOD a addCondition (Lw$a;)V
+		METHOD b removeCondition (Lw$a;)V
+	CLASS bs$b Conditions
+		FIELD a item Lau;
+		FIELD b villager Lbb;
+		METHOD a matches (Lvd;Latx;Lbar;)Z
+		METHOD c any ()Lbs$b;
+	FIELD a ID Lqp;
+	FIELD b handlers Ljava/util/Map;
+	METHOD a handle (Lvd;Latx;Lbar;)V
+		ARG 1 player

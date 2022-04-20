@@ -1,0 +1,2 @@
+CLASS cbu net/minecraft/world/gen/surfacebuilder/DefaultSurfaceBuilder
+	METHOD a generate (Ljava/util/Random;Lbqb;Lbbl;IIIDLboh;Lboh;IJLccf;)V

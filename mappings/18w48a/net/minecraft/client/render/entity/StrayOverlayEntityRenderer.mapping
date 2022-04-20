@@ -1,0 +1,7 @@
+CLASS dkr net/minecraft/client/render/entity/StrayOverlayEntityRenderer
+	FIELD a SKIN Lpy;
+	FIELD b renderer Ldhr;
+	FIELD c model Lcyc;
+	METHOD a shouldMergeTextures ()Z
+	METHOD a render (Lagr;FFFFFFF)V
+	METHOD a render (Lapu;FFFFFFF)V

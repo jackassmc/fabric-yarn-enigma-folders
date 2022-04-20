@@ -1,0 +1,9 @@
+CLASS aos net/minecraft/entity/mob/EntityMagmaCube
+	METHOD F getLootTableId ()Lpw;
+	METHOD aA getLightmapCoordinates ()I
+	METHOD aX isOnFire ()Z
+	METHOD c handleFallDamage (FF)V
+		ARG 1 fallDistance
+	METHOD cb initAttributes ()V
+	METHOD cw getSoundDeath ()Lwz;
+	METHOD e getSoundHurt (Lafh;)Lwz;

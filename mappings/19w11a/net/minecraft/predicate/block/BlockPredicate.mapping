@@ -1,0 +1,4 @@
+CLASS bug net/minecraft/predicate/block/BlockPredicate
+	FIELD a block Lbkz;
+	METHOD a make (Lbkz;)Lbug;
+		ARG 0 block

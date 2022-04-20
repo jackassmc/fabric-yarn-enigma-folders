@@ -1,0 +1,2 @@
+CLASS cut net/minecraft/client/gui/widget/ButtonWidget
+	METHOD a onPressed ()V

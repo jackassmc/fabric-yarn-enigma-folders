@@ -1,0 +1,4 @@
+CLASS bmp net/minecraft/block/EndPortalBlock
+	FIELD a SHAPE Lcra;
+	METHOD <init> (Lbky$c;)V
+		ARG 1 settings

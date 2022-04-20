@@ -1,0 +1,3 @@
+CLASS blm net/minecraft/block/AbstractSkullBlock
+	FIELD a type Lbre$a;
+	METHOD b getSkullType ()Lbre$a;

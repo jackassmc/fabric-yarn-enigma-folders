@@ -1,0 +1,7 @@
+CLASS ki net/minecraft/client/network/packet/CommandSuggestionsClientPacket
+	FIELD b suggestions Lcom/mojang/brigadier/suggestion/Suggestions;
+	METHOD a read (Liq;)V
+	METHOD a apply (Lit;)V
+	METHOD a apply (Ljr;)V
+	METHOD b write (Liq;)V
+	METHOD c getSuggestions ()Lcom/mojang/brigadier/suggestion/Suggestions;

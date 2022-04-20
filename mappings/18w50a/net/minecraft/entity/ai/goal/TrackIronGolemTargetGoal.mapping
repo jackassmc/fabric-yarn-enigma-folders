@@ -1,0 +1,5 @@
+CLASS akt net/minecraft/entity/ai/goal/TrackIronGolemTargetGoal
+	FIELD a ironGolem Lamh;
+	FIELD b target Lahe;
+	METHOD a canStart ()Z
+	METHOD c start ()V

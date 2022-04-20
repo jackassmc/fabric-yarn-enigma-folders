@@ -1,0 +1,24 @@
+CLASS bsp net/minecraft/block/TurtleEggBlock
+	FIELD a HATCH Lbwl;
+	FIELD b EGGS Lbwl;
+	FIELD c SMALL_SHAPE Lcss;
+	FIELD d LARGE_SHAPE Lcss;
+	METHOD <init> (Lbmn$c;)V
+		ARG 1 settings
+	METHOD a isSand (Lbgt;Lev;)Z
+		ARG 1 world
+		ARG 2 pos
+	METHOD a shouldHatchProgress (Lbhj;)Z
+		ARG 1 world
+	METHOD a breaksEgg (Lbhj;Laij;)Z
+		ARG 1 world
+		ARG 2 entity
+	METHOD a tryBreakEgg (Lbhj;Lev;Laij;I)V
+		ARG 1 world
+		ARG 2 pos
+		ARG 3 entity
+		ARG 4 inverseChance
+	METHOD a breakEgg (Lbhj;Lev;Lbvl;)V
+		ARG 1 world
+		ARG 2 pos
+		ARG 3 state

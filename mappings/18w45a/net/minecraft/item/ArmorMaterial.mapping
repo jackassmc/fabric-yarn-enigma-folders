@@ -1,0 +1,15 @@
+CLASS asw net/minecraft/item/ArmorMaterial
+	FIELD a LEATHER Lasw;
+	FIELD b CHAINMAIL Lasw;
+	FIELD c IRON Lasw;
+	FIELD d GOLD Lasw;
+	FIELD e DIAMOND Lasw;
+	FIELD f TURTLE Lasw;
+	FIELD h name Ljava/lang/String;
+	FIELD j protectionAmounts [I
+	FIELD l equipSound Lwz;
+	FIELD m toughness F
+	METHOD b getEquipSound ()Lwz;
+	METHOD b getProtectionAmount (Lagd;)I
+	METHOD d getName ()Ljava/lang/String;
+	METHOD e getToughness ()F

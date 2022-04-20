@@ -1,0 +1,3 @@
+CLASS bqo net/minecraft/world/chunk/ChunkSection
+	METHOD a getBlockState (III)Lboh;
+	METHOD b getFluidState (III)Lcdg;

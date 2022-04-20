@@ -1,0 +1,4 @@
+CLASS afx net/minecraft/util/ActionResult
+	FIELD a SUCCESS Lafx;
+	FIELD b PASS Lafx;
+	FIELD c FAILURE Lafx;

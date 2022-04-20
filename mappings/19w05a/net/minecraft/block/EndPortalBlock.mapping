@@ -1,0 +1,4 @@
+CLASS bjj net/minecraft/block/EndPortalBlock
+	FIELD a SHAPE Lcnq;
+	METHOD <init> (Lbhs$c;)V
+		ARG 1 settings

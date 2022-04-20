@@ -1,0 +1,10 @@
+CLASS diw net/minecraft/client/render/block/BiomeColors
+	CLASS diw$a Proxy
+	FIELD a GRASS_COLOR Ldiw$a;
+	FIELD b FOLIAGE_COLOR Ldiw$a;
+	FIELD c WATER_COLOR Ldiw$a;
+	FIELD d WATER_FOG_COLOR Ldiw$a;
+	METHOD a grassColorAt (Lbfo;Lev;)I
+	METHOD a colorAt (Lbfo;Lev;Ldiw$a;)I
+	METHOD b foliageColorAt (Lbfo;Lev;)I
+	METHOD c waterColorAt (Lbfo;Lev;)I

@@ -1,0 +1,7 @@
+CLASS djj net/minecraft/client/particle/SpriteBillboardParticle
+	FIELD E sprite Ldue;
+	METHOD a setSprite (Ldje;)V
+		ARG 1 spriteProvider
+	METHOD a setSprite (Ldue;)V
+	METHOD b setSpriteForAge (Ldje;)V
+		ARG 1 spriteProvider

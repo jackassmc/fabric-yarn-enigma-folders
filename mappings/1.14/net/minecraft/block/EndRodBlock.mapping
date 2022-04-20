@@ -1,0 +1,6 @@
+CLASS boe net/minecraft/block/EndRodBlock
+	FIELD b Y_SHAPE Lcsp;
+	FIELD c Z_SHAPE Lcsp;
+	FIELD d X_SHAPE Lcsp;
+	METHOD <init> (Lbml$c;)V
+		ARG 1 settings

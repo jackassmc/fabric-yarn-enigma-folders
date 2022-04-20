@@ -1,0 +1,5 @@
+CLASS bts net/minecraft/block/PistonHeadBlock
+	METHOD <init> (Lbkz$c;)V
+		ARG 1 settings
+	METHOD n (Lbtx;)Z
+		ARG 1 state

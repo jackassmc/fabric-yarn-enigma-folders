@@ -1,0 +1,6 @@
+CLASS dod net/minecraft/client/render/entity/EvokerFangsEntityRenderer
+	FIELD f model Lddk;
+	METHOD a (Lave;DDDFF)V
+		ARG 1 model
+		ARG 2 x
+		ARG 4 y

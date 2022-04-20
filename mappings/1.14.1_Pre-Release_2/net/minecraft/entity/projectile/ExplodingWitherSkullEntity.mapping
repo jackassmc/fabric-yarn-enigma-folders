@@ -1,0 +1,19 @@
+CLASS axa net/minecraft/entity/projectile/ExplodingWitherSkullEntity
+	FIELD f CHARGED Lqh;
+	METHOD <init> (Lbhi;DDDDDD)V
+		ARG 1 world
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z
+		ARG 8 directionX
+		ARG 10 directionY
+		ARG 12 directionZ
+	METHOD <init> (Lbhi;Lair;DDD)V
+		ARG 1 world
+		ARG 2 owner
+		ARG 3 directionX
+		ARG 5 directionY
+		ARG 7 directionZ
+	METHOD a setCharged (Z)V
+		ARG 1 charged
+	METHOD l isCharged ()Z

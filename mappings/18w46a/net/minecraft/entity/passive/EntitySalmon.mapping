@@ -1,0 +1,4 @@
+CLASS alu net/minecraft/entity/passive/EntitySalmon
+	METHOD D getSoundAmbient ()Lxb;
+	METHOD cw getSoundDeath ()Lxb;
+	METHOD e getSoundHurt (Lafl;)Lxb;

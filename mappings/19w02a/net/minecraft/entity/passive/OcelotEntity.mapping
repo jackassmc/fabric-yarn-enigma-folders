@@ -1,0 +1,28 @@
+CLASS ams net/minecraft/entity/passive/OcelotEntity
+	CLASS ams$a OcelotFleeGoal
+		METHOD a canStart ()Z
+		METHOD b shouldContinue ()Z
+	FIELD bE TAMING_INGREDIENT Lazj;
+	METHOD D getAmbientSound ()Lxt;
+	METHOD I mobTick ()V
+	METHOD a damage (Lagm;F)Z
+		ARG 1 source
+		ARG 2 amount
+	METHOD a createChild (Laha;)Laha;
+	METHOD a interactMob (Lark;Lafy;)Z
+		ARG 1 player
+	METHOD a prepareEntityData (Lbcg;Lafx;Lahp;Lahx;Lhs;)Lahx;
+		ARG 3 difficulty
+	METHOD a canSpawn (Lbcg;Lahp;)Z
+	METHOD a readCustomDataFromTag (Lhs;)V
+	METHOD b writeCustomDataToTag (Lhs;)V
+	METHOD c canImmediatelyDespawn (D)Z
+		ARG 1 distanceSquared
+	METHOD c handleFallDamage (FF)V
+		ARG 1 fallDistance
+	METHOD cb initAttributes ()V
+	METHOD cw getDeathSound ()Lxt;
+	METHOD e getHurtSound (Lagm;)Lxt;
+	METHOD f isBreedingItem (Laxd;)Z
+	METHOD n prepareGoals ()V
+	METHOD w_ initDataTracker ()V

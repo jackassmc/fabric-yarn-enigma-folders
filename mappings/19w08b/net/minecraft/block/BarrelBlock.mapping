@@ -1,0 +1,4 @@
+CLASS bhs net/minecraft/block/BarrelBlock
+	FIELD a FACING Lbrz;
+	METHOD <init> (Lbig$c;)V
+		ARG 1 settings

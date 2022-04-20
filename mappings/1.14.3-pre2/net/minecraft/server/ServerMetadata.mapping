@@ -1,0 +1,43 @@
+CLASS qd net/minecraft/server/ServerMetadata
+	CLASS qd$a Players
+		CLASS qd$a$a Deserializer
+			METHOD serialize (Ljava/lang/Object;Ljava/lang/reflect/Type;Lcom/google/gson/JsonSerializationContext;)Lcom/google/gson/JsonElement;
+				ARG 1 entry
+				ARG 2 unused
+				ARG 3 context
+		FIELD a max I
+		FIELD b online I
+		FIELD c sample [Lcom/mojang/authlib/GameProfile;
+		METHOD <init> (II)V
+			ARG 1 max
+		METHOD a getPlayerLimit ()I
+		METHOD a setSample ([Lcom/mojang/authlib/GameProfile;)V
+		METHOD b getOnlinePlayerCount ()I
+		METHOD c getSample ()[Lcom/mojang/authlib/GameProfile;
+	CLASS qd$b Deserializer
+		METHOD deserialize (Lcom/google/gson/JsonElement;Ljava/lang/reflect/Type;Lcom/google/gson/JsonDeserializationContext;)Ljava/lang/Object;
+			ARG 1 functionJson
+			ARG 2 unused
+			ARG 3 context
+	CLASS qd$c Version
+		CLASS qd$c$a Serializer
+			METHOD serialize (Ljava/lang/Object;Ljava/lang/reflect/Type;Lcom/google/gson/JsonSerializationContext;)Lcom/google/gson/JsonElement;
+				ARG 1 entry
+				ARG 2 unused
+				ARG 3 context
+		FIELD a gameVersion Ljava/lang/String;
+		FIELD b protocolVersion I
+		METHOD a getGameVersion ()Ljava/lang/String;
+		METHOD b getProtocolVersion ()I
+	FIELD a description Ljn;
+	FIELD b players Lqd$a;
+	FIELD c version Lqd$c;
+	FIELD d favicon Ljava/lang/String;
+	METHOD a getDescription ()Ljn;
+	METHOD a setFavicon (Ljava/lang/String;)V
+	METHOD a setDescription (Ljn;)V
+	METHOD a setPlayers (Lqd$a;)V
+	METHOD a setVersion (Lqd$c;)V
+	METHOD b getPlayers ()Lqd$a;
+	METHOD c getVersion ()Lqd$c;
+	METHOD d getFavicon ()Ljava/lang/String;

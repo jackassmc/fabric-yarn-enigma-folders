@@ -1,0 +1,22 @@
+CLASS chz net/minecraft/scoreboard/ScoreboardPlayerScore
+	FIELD b scoreboard Lcia;
+	FIELD c objective Lchx;
+	FIELD d playerName Ljava/lang/String;
+	FIELD e score I
+	FIELD f disabled Z
+	FIELD g forceUpdate Z
+	METHOD <init> (Lcia;Lchx;Ljava/lang/String;)V
+		ARG 0 scoreboard
+		ARG 1 objective
+		ARG 2 playerName
+	METHOD a incrementScore (I)V
+		ARG 0 value
+	METHOD a setDisabled (Z)V
+		ARG 0 value
+	METHOD b getScore ()I
+	METHOD c setScore (I)V
+		ARG 0 value
+	METHOD d getObjective ()Lchx;
+	METHOD e getPlayerName ()Ljava/lang/String;
+	METHOD f getScoreboard ()Lcia;
+	METHOD g isDisabled ()Z

@@ -1,0 +1,13 @@
+CLASS cwy net/minecraft/client/gui/recipebook/GroupButtonWidget
+	FIELD u category Lcqc;
+	FIELD v bounce F
+	METHOD <init> (ILcqc;)V
+		ARG 1 id
+		ARG 2 category
+	METHOD a draw (IIF)V
+		ARG 1 mouseX
+		ARG 2 mouseY
+		ARG 3 delta
+	METHOD a hasKnownRecipes (Lcps;)Z
+	METHOD a checkForNewRecipes (Lcpz;)V
+	METHOD d getCategory ()Lcqc;

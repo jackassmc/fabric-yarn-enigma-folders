@@ -1,0 +1,79 @@
+CLASS asv net/minecraft/block/entity/BlockEntityStructureBlock
+	CLASS asv$a Mode
+		FIELD a SAVE Lasv$a;
+		FIELD b LOAD Lasv$a;
+		FIELD c CORNER Lasv$a;
+		FIELD d DATA Lasv$a;
+		FIELD e VALUES [Lasv$a;
+		FIELD f translationKey Ljava/lang/String;
+		FIELD g id I
+		METHOD <init> (Ljava/lang/String;ILjava/lang/String;I)V
+		METHOD a getId ()I
+		METHOD a byId (I)Lasv$a;
+			ARG 0 id
+		METHOD a getTranslationKey (Lasv$a;)Ljava/lang/String;
+			ARG 0 mode
+		METHOD m asString ()Ljava/lang/String;
+		METHOD values values ()[Lasv$a;
+	FIELD a name Ljava/lang/String;
+	FIELD f author Ljava/lang/String;
+	FIELD g metadata Ljava/lang/String;
+	FIELD h offset Lco;
+	FIELD i size Lco;
+	FIELD j mirror Laos;
+	FIELD k rotation Laqg;
+	FIELD l mode Lasv$a;
+	FIELD m ignoreEntities Z
+	FIELD n powered Z
+	FIELD o showAir Z
+	FIELD p showBoundingBox Z
+	FIELD q integrity F
+	FIELD r seed J
+	METHOD F isPowered ()Z
+	METHOD G shouldShowAir ()Z
+	METHOD I shouldShowBoundingBox ()Z
+	METHOD a getName ()Ljava/lang/String;
+	METHOD a setIntegrity (F)V
+		ARG 0 value
+	METHOD a setSeed (J)V
+		ARG 0 value
+	METHOD a setMode (Lasv$a;)V
+		ARG 0 value
+	METHOD a deserialize (Ldu;)V
+		ARG 0 tag
+	METHOD a setName (Ljava/lang/String;)V
+		ARG 0 value
+	METHOD a setAuthor (Lsv;)V
+		ARG 0 entity
+	METHOD a setIgnoreEntities (Z)V
+		ARG 0 value
+	METHOD b setMirror (Laos;)V
+		ARG 0 mirror
+	METHOD b setRotation (Laqg;)V
+		ARG 0 value
+	METHOD b setOffset (Lco;)V
+		ARG 0 value
+	METHOD b serialize (Ldu;)Ldu;
+		ARG 0 tag
+	METHOD b setMetadata (Ljava/lang/String;)V
+		ARG 0 vallue
+	METHOD c getUpdatePacket ()Lfz;
+	METHOD c setSize (Lco;)V
+		ARG 0 value
+	METHOD d serializeInitialChunkData ()Ldu;
+	METHOD d setPowered (Z)V
+		ARG 0 value
+	METHOD e getOffset ()Lco;
+	METHOD e setShowAir (Z)V
+		ARG 0 value
+	METHOD f getSize ()Lco;
+	METHOD f setShowBoundingBox (Z)V
+		ARG 0 value
+	METHOD h getMirror ()Laos;
+	METHOD i getRotation ()Laqg;
+	METHOD i_ getNameAsComponent ()Lfb;
+	METHOD j getMetadata ()Ljava/lang/String;
+	METHOD k getMode ()Lasv$a;
+	METHOD m shouldIgnoreEntities ()Z
+	METHOD n getIntegrity ()F
+	METHOD o getSeed ()J

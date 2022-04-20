@@ -1,0 +1,14 @@
+CLASS none/auy net/minecraft/world/chunk/generator/impl/ChunkGeneratorEnd
+	FIELD a END_STONE Lnone/asl;
+	FIELD b AIR Lnone/asl;
+	FIELD h random Ljava/util/Random;
+	FIELD l world Lnone/aiv;
+	METHOD a generateChunk (II)Lnone/ato;
+		ARG 0 x
+		ARG 1 y
+	METHOD a getClosestStructureVector (Lnone/aiv;Ljava/lang/String;Lnone/cn;)Lnone/cn;
+		ARG 0 world
+		ARG 1 structureName
+	METHOD a getSpawnableEntites (Lnone/sq;Lnone/cn;)Ljava/util/List;
+	METHOD b (Lnone/ato;II)V
+		ARG 0 chunk

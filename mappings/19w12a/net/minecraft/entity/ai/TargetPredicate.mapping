@@ -1,0 +1,17 @@
+CLASS aoz net/minecraft/entity/ai/TargetPredicate
+	FIELD a DEFAULT Laoz;
+	FIELD b baseMaxDistance D
+	FIELD c includeInvulnerable Z
+	FIELD d includeTeammates Z
+	FIELD e includeHidden Z
+	FIELD f ignoreEntityTargetRules Z
+	FIELD g useDistanceScalingFactor Z
+	FIELD h predicate Ljava/util/function/Predicate;
+	METHOD a includeInvulnerable ()Laoz;
+	METHOD a setBaseMaxDistance (D)Laoz;
+	METHOD a test (Laih;Laih;)Z
+	METHOD a setPredicate (Ljava/util/function/Predicate;)Laoz;
+	METHOD b includeTeammates ()Laoz;
+	METHOD c includeHidden ()Laoz;
+	METHOD d ignoreEntityTargetRules ()Laoz;
+	METHOD e ignoreDistanceScalingFactor ()Laoz;

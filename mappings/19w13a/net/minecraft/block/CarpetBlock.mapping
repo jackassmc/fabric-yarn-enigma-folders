@@ -1,0 +1,4 @@
+CLASS bsp net/minecraft/block/CarpetBlock
+	FIELD a SHAPE Lcsa;
+	FIELD b color Lbam;
+	METHOD d getColor ()Lbam;

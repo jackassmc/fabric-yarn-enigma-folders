@@ -1,0 +1,22 @@
+CLASS bsj net/minecraft/world/border/WorldBorderListener
+	CLASS bsj$a WorldBorderSyncer
+		FIELD a border Lbsl;
+		METHOD <init> (Lbsl;)V
+			ARG 1 border
+	METHOD a onSizeChange (Lbsl;D)V
+	METHOD a onCenterChanged (Lbsl;DD)V
+		ARG 1 centerX
+		ARG 2 centerZ
+	METHOD a onInterpolateSize (Lbsl;DDJ)V
+		ARG 1 border
+		ARG 2 fromSize
+		ARG 4 toSize
+		ARG 6 time
+	METHOD a onWarningTimeChanged (Lbsl;I)V
+		ARG 1 warningTime
+	METHOD b onDamagePerBlockChanged (Lbsl;D)V
+		ARG 1 damagePerBlock
+	METHOD b onWarningBlocksChanged (Lbsl;I)V
+		ARG 1 warningBlocks
+	METHOD c onSafeZoneChanged (Lbsl;D)V
+		ARG 1 safeZoneRadius

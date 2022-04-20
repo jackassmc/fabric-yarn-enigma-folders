@@ -1,0 +1,3 @@
+CLASS blm net/minecraft/block/PlayerSkullBlock
+	METHOD <init> (Lbhs$c;)V
+		ARG 1 settings

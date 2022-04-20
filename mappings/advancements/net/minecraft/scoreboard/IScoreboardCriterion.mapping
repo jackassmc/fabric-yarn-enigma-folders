@@ -1,0 +1,25 @@
+CLASS bgb net/minecraft/scoreboard/IScoreboardCriterion
+	CLASS bgb$a Type
+		FIELD a INTEGER Lbgb$a;
+		FIELD b HEARTS Lbgb$a;
+		FIELD c BY_NAME Ljava/util/Map;
+		FIELD d name Ljava/lang/String;
+		METHOD a getName ()Ljava/lang/String;
+		METHOD a byName (Ljava/lang/String;)Lbgb$a;
+	FIELD a OBJECTIVES Ljava/util/Map;
+	FIELD b DUMMY Lbgb;
+	FIELD c TRIGGER Lbgb;
+	FIELD d DEATH_COUNT Lbgb;
+	FIELD e PLAYER_KILL_COUNT Lbgb;
+	FIELD f TOTAL_KILL_COUNT Lbgb;
+	FIELD g HEALTH Lbgb;
+	FIELD h FOOD Lbgb;
+	FIELD i AIR Lbgb;
+	FIELD j ARMOR Lbgb;
+	FIELD k XP Lbgb;
+	FIELD l LEVEL Lbgb;
+	FIELD m TEAM_KILLS [Lbgb;
+	FIELD n TEAM_KILLED_BY [Lbgb;
+	METHOD a getName ()Ljava/lang/String;
+	METHOD b isReadOnly ()Z
+	METHOD c getType ()Lbgb$a;

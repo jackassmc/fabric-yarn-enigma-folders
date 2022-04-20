@@ -1,0 +1,11 @@
+CLASS csd net/minecraft/entity/EntityContext
+	METHOD a absent ()Lcsd;
+	METHOD a of (Laij;)Lcsd;
+		ARG 0 entity
+	METHOD a isHolding (Lbbx;)Z
+		ARG 1 item
+	METHOD a isAbove (Lcss;Lev;Z)Z
+		ARG 1 shape
+		ARG 2 pos
+		ARG 3 defaultValue
+	METHOD b isSneaking ()Z

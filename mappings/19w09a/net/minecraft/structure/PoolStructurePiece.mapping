@@ -1,0 +1,17 @@
+CLASS cdv net/minecraft/structure/PoolStructurePiece
+	FIELD a poolElement Lcay;
+	FIELD b pos Les;
+	FIELD c rotation Lbmr;
+	FIELD d groundLevelDelta I
+	FIELD e junctions Ljava/util/List;
+	FIELD f structureManager Lcev;
+	METHOD <init> (Lcac;Lcev;Lcay;Les;ILbmr;)V
+		ARG 3 poolElement
+	METHOD a (Lbdg;Ljava/util/Random;Lcdi;Lbcs;)Z
+		ARG 2 random
+	METHOD a addJunction (Lcau;)V
+		ARG 1 junction
+	METHOD b getPoolElement ()Lcay;
+	METHOD c getPos ()Les;
+	METHOD d getGroundLevelDelta ()I
+	METHOD e getJunctions ()Ljava/util/List;

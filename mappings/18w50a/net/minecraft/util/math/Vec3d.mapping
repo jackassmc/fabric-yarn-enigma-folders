@@ -1,0 +1,31 @@
+CLASS cmd net/minecraft/util/math/Vec3d
+	FIELD a ZERO Lcmd;
+	FIELD b x D
+	FIELD c y D
+	FIELD d z D
+	METHOD <init> (DDD)V
+		ARG 1 x
+	METHOD a normalize ()Lcmd;
+	METHOD a multiply (D)Lcmd;
+	METHOD a subtract (DDD)Lcmd;
+		ARG 1 x
+	METHOD a rotateX (F)Lcmd;
+	METHOD a fromPolar (FF)Lcmd;
+		ARG 0 pitch
+		ARG 1 yaw
+	METHOD a fromPolar (Lcmc;)Lcmd;
+		ARG 0 polar
+	METHOD a reverseSubtract (Lcmd;)Lcmd;
+	METHOD b length ()D
+	METHOD b add (DDD)Lcmd;
+		ARG 1 x
+	METHOD b rotateY (F)Lcmd;
+	METHOD b dotProduct (Lcmd;)D
+	METHOD c lengthSquared ()D
+	METHOD c squaredDistanceTo (DDD)D
+		ARG 1 x
+	METHOD c crossProduct (Lcmd;)Lcmd;
+	METHOD d subtract (Lcmd;)Lcmd;
+	METHOD e add (Lcmd;)Lcmd;
+	METHOD f distanceTo (Lcmd;)D
+	METHOD g squaredDistanceTo (Lcmd;)D

@@ -1,0 +1,18 @@
+CLASS czd net/minecraft/client/render/entity/model/BookModel
+	FIELD a leftCover Ldcc;
+	FIELD b rightCover Ldcc;
+	FIELD c leftBlock Ldcc;
+	FIELD d rightBlock Ldcc;
+	FIELD e leftPage Ldcc;
+	FIELD f rightPage Ldcc;
+	FIELD g spine Ldcc;
+	METHOD a render (FFFFFF)V
+		ARG 1 ticks
+		ARG 2 leftPageAngle
+		ARG 3 rightPageAngle
+		ARG 4 pageTurningSpeed
+	METHOD b setPageAngles (FFFFFF)V
+		ARG 1 ticks
+		ARG 2 leftPageAngle
+		ARG 3 rightPageAngle
+		ARG 4 pageTurningSpeed

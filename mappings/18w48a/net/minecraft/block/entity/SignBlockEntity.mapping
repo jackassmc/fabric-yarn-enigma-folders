@@ -1,0 +1,17 @@
+CLASS bnj net/minecraft/block/entity/SignBlockEntity
+	FIELD a text [Lja;
+	FIELD i editable Z
+	FIELD j editor Laqj;
+	METHOD B_ shouldBroadcastConsoleToOps ()Z
+	METHOD a sendCommandFeedback ()Z
+	METHOD a setEditor (Laqj;)V
+	METHOD a serialize (Lhp;)Lhp;
+	METHOD a appendCommandFeedback (Lja;)V
+	METHOD a setEditable (Z)V
+	METHOD ac_ getUpdatePacket ()Lkb;
+	METHOD ad_ serializeInitialChunkData ()Lhp;
+	METHOD b shouldTrackOutput ()Z
+	METHOD b onActivate (Laqj;)Z
+	METHOD b deserialize (Lhp;)V
+	METHOD d isEditable ()Z
+	METHOD e getEditor ()Laqj;

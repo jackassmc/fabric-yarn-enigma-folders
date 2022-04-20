@@ -1,0 +1,3 @@
+CLASS bjc net/minecraft/block/BlockEntityProvider
+	METHOD a createBlockEntity (Lbbr;)Lboi;
+		ARG 1 view

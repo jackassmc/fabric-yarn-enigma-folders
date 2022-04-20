@@ -1,0 +1,11 @@
+CLASS bya net/minecraft/world/gen/feature/MegaPineTreeFeature
+	FIELD aU LOG Lbre;
+	FIELD aV LEAVES Lbre;
+	FIELD aW PODZOL Lbre;
+	METHOD a makeTopLeaves (Lbdk;IIIILjava/util/Random;)V
+	METHOD a replaceGround (Lbdk;Ljava/util/Random;Les;)V
+		ARG 1 world
+		ARG 2 random
+		ARG 3 pos
+	METHOD b replaceGroundNear (Lbdk;Les;)V
+	METHOD c prepareGroundColumn (Lbdk;Les;)V

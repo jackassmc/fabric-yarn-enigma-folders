@@ -1,0 +1,4 @@
+CLASS oi
+	METHOD a read (Liq;)V
+	METHOD a apply (Lit;)V
+	METHOD b write (Liq;)V

@@ -1,0 +1,3 @@
+CLASS dea net/minecraft/client/render/entity/EntityRendererOcelot
+	METHOD a getTexture (Lafy;)Lpw;
+	METHOD a getTexture (Lalb;)Lpw;

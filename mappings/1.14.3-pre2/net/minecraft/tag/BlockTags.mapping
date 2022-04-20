@@ -1,0 +1,11 @@
+CLASS yz net/minecraft/tag/BlockTags
+	CLASS yz$a CachingTag
+		FIELD a version I
+		FIELD b delegate Lze;
+	FIELD Y container Lzf;
+	FIELD Z latestVersion I
+	METHOD a getContainer ()Lzf;
+	METHOD a register (Ljava/lang/String;)Lze;
+		ARG 0 id
+	METHOD a setContainer (Lzf;)V
+		ARG 0 container

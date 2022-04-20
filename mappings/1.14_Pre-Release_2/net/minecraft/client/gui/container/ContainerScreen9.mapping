@@ -1,0 +1,2 @@
+CLASS das net/minecraft/client/gui/container/ContainerScreen9
+	FIELD k TEXTURE Lqs;

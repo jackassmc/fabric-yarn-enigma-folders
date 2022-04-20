@@ -1,0 +1,4 @@
+CLASS big net/minecraft/block/BubbleColumnBlock
+	FIELD a DRAG Lbrr;
+	METHOD <init> (Lbic$c;)V
+		ARG 1 settings

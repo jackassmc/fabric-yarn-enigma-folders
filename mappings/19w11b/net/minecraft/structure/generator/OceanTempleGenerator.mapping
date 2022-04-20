@@ -1,0 +1,35 @@
+CLASS cgn net/minecraft/structure/generator/OceanTempleGenerator
+	CLASS cgn$a Piece
+		FIELD d biomeType Lcgm$b;
+		FIELD e integrity F
+		FIELD f template Lqp;
+		FIELD g rotation Lbpj;
+		FIELD h large Z
+		METHOD <init> (Lchp;Lqp;Leu;Lbpj;FLcgm$b;Z)V
+			ARG 1 structureManager
+			ARG 2 template
+			ARG 3 pos
+			ARG 4 rotation
+			ARG 5 integrity
+			ARG 6 biomeType
+			ARG 7 large
+		METHOD a initialize (Lchp;)V
+			ARG 1 structureManager
+	FIELD a WARM_RUINS [Lqp;
+	FIELD b BRICK_RUINS [Lqp;
+	FIELD c CRACKED_RUINS [Lqp;
+	FIELD d MOSSY_RUINS [Lqp;
+	FIELD e BIG_BRICK_RUINS [Lqp;
+	FIELD f BIG_MOSSY_RUINS [Lqp;
+	FIELD g BIG_CRACKED_RUINS [Lqp;
+	FIELD h BIG_WARM_RUINS [Lqp;
+	METHOD a (Lchp;Leu;Lbpj;Ljava/util/List;Ljava/util/Random;Lcbf;ZF)V
+		ARG 1 pos
+		ARG 2 rotation
+		ARG 5 config
+		ARG 6 large
+		ARG 7 integrity
+	METHOD a getRandomWarmRuin (Ljava/util/Random;)Lqp;
+		ARG 0 random
+	METHOD b getRandomBigWarmRuin (Ljava/util/Random;)Lqp;
+		ARG 0 random

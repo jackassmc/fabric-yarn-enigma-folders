@@ -1,0 +1,2 @@
+CLASS abf net/minecraft/datafixers/fixes/ItemPotionFix
+	FIELD a potions [Ljava/lang/String;

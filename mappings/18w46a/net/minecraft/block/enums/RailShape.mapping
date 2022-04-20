@@ -1,0 +1,16 @@
+CLASS bpj net/minecraft/block/enums/RailShape
+	FIELD a NORTH_SOUTH Lbpj;
+	FIELD b EAST_WEST Lbpj;
+	FIELD c ASCENDING_EAST Lbpj;
+	FIELD d ASCENDING_WEST Lbpj;
+	FIELD e ASCENDING_NORTH Lbpj;
+	FIELD f ASCENDING_SOUTH Lbpj;
+	FIELD g SOUTH_EAST Lbpj;
+	FIELD h SOUTH_WEST Lbpj;
+	FIELD i NORTH_WEST Lbpj;
+	FIELD j NORTH_EAST Lbpj;
+	FIELD k id I
+	FIELD l name Ljava/lang/String;
+	METHOD a getId ()I
+	METHOD c isAscending ()Z
+	METHOD m asString ()Ljava/lang/String;

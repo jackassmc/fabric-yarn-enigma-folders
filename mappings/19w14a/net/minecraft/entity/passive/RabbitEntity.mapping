@@ -1,0 +1,17 @@
+CLASS aqx net/minecraft/entity/passive/RabbitEntity
+	CLASS aqx$b RabbitFleeGoal
+	CLASS aqx$d RabbitJumpControl
+		FIELD c rabbit Laqx;
+		METHOD c isActive ()Z
+	CLASS aqx$e RabbitMoveControl
+		FIELD i rabbit Laqx;
+	CLASS aqx$f
+		FIELD f owner Laqx;
+	FIELD bA KILLER_BUNNY Lqr;
+	FIELD bG moreCarrotTicks I
+	FIELD bz RABBIT_TYPE Lqg;
+	METHOD b isBreedingItem (Lbbl;)Z
+	METHOD d setSpeed (D)V
+		ARG 1 speed
+	METHOD dU getRabbitType ()I
+	METHOD r setRabbitType (I)V

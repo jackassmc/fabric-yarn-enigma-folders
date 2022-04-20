@@ -1,0 +1,3 @@
+CLASS cad net/minecraft/fluid/FluidState
+	METHOD c getFluid ()Lcac;
+	METHOD k getRenderLayer ()Layo;

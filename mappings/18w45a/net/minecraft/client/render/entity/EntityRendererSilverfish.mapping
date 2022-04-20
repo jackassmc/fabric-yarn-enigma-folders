@@ -1,0 +1,4 @@
+CLASS dgm net/minecraft/client/render/entity/EntityRendererSilverfish
+	FIELD a SKIN Lpw;
+	METHOD a getTexture (Lafy;)Lpw;
+	METHOD b getTexture (Lapb;)Lpw;

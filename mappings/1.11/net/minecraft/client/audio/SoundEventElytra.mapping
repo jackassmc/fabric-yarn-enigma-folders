@@ -1,0 +1,6 @@
+CLASS cbr net/minecraft/client/audio/SoundEventElytra
+	FIELD m player Lbpq;
+	FIELD n tickCount I
+	METHOD <init> (Lbpq;)V
+		ARG 0 player
+	METHOD F_ update ()V

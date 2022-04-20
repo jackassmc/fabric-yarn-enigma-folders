@@ -1,0 +1,40 @@
+CLASS apw net/minecraft/entity/mob/GhastEntity
+	CLASS apw$a
+		METHOD a canStart ()Z
+		METHOD e tick ()V
+	CLASS apw$b GhastMoveControl
+		FIELD i ghast Lapw;
+		METHOD a tick ()V
+	CLASS apw$c ShootFireballGoal
+		FIELD a cooldown I
+		FIELD b owner Lapw;
+		METHOD a canStart ()Z
+		METHOD c start ()V
+		METHOD d onRemove ()V
+		METHOD e tick ()V
+	CLASS apw$d FlyRandomlyGoal
+		METHOD a canStart ()Z
+		METHOD b shouldContinue ()Z
+		METHOD c start ()V
+	FIELD b SHOOTING Lpt;
+	FIELD c fireballStrength I
+	METHOD D getAmbientSound ()Lxt;
+	METHOD N getLimitPerChunk ()I
+	METHOD a damage (Lagm;F)Z
+		ARG 1 source
+		ARG 2 amount
+	METHOD a canSpawn (Lbcg;Lahp;)Z
+	METHOD a readCustomDataFromTag (Lhs;)V
+	METHOD a setShooting (Z)V
+	METHOD b writeCustomDataToTag (Lhs;)V
+	METHOD bH getEyeHeight ()F
+	METHOD bX getSoundCategory ()Lxv;
+	METHOD cI getSoundVolume ()F
+	METHOD cb initAttributes ()V
+	METHOD cw getDeathSound ()Lxt;
+	METHOD du getFireballStrength ()I
+	METHOD e getHurtSound (Lagm;)Lxt;
+	METHOD h update ()V
+	METHOD l isShooting ()Z
+	METHOD n prepareGoals ()V
+	METHOD w_ initDataTracker ()V

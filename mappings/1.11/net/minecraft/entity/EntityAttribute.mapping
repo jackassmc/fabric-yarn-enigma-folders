@@ -1,0 +1,4 @@
+CLASS ta net/minecraft/entity/EntityAttribute
+	FIELD a UNKNOWN Lta;
+	FIELD b UNDEAD Lta;
+	FIELD c ARTHROPOD Lta;

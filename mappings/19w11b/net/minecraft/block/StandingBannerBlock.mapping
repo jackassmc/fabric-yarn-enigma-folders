@@ -1,0 +1,2 @@
+CLASS bkj net/minecraft/block/StandingBannerBlock
+	FIELD a ROTATION Lbuw;

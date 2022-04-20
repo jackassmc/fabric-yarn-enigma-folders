@@ -1,0 +1,3 @@
+CLASS cvf net/minecraft/client/gui/container/BlastFurnaceGui
+	FIELD z BG_TEX Lqe;
+	METHOD i getBackgroundTexture ()Lqe;

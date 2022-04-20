@@ -1,0 +1,10 @@
+CLASS dfm net/minecraft/client/render/entity/model/OcelotEntityModel
+	FIELD a frontLegLeft Ldhi;
+	FIELD b frontLegRight Ldhi;
+	FIELD f backLegLeft Ldhi;
+	FIELD g backLegRight Ldhi;
+	FIELD h tail1 Ldhi;
+	FIELD i tail2 Ldhi;
+	FIELD j head Ldhi;
+	FIELD k body Ldhi;
+	FIELD l animationState I

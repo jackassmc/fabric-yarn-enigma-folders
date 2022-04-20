@@ -1,0 +1,7 @@
+CLASS bvv net/minecraft/world/chunk/ReadOnlyChunk
+	FIELD a wrapped Lbvw;
+	METHOD <init> (Lbvw;)V
+		ARG 1 wrapped
+	METHOD d transformHeightmapType (Lbxd$a;)Lbxd$a;
+		ARG 1 type
+	METHOD u getWrappedChunk ()Lbvw;

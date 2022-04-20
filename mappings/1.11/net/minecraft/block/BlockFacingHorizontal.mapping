@@ -1,0 +1,7 @@
+CLASS aog net/minecraft/block/BlockFacingHorizontal
+	FIELD D FACING Latw;
+	METHOD <init> (Lazq;)V
+		ARG 0 material
+	METHOD <init> (Lazq;Lazr;)V
+		ARG 0 material
+		ARG 1 color

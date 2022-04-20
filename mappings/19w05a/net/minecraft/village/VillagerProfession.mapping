@@ -1,0 +1,3 @@
+CLASS arf net/minecraft/village/VillagerProfession
+	METHOD a register (Ljava/lang/String;)Larf;
+		ARG 0 id

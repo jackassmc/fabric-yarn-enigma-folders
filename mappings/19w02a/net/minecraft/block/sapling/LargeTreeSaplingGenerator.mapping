@@ -1,0 +1,3 @@
+CLASS bpn net/minecraft/block/sapling/LargeTreeSaplingGenerator
+	METHOD a generate (Lbcg;Let;Lbqe;Ljava/util/Random;)Z
+	METHOD a createLargeTreeFeature (Ljava/util/Random;)Lbug;

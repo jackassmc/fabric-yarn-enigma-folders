@@ -1,0 +1,27 @@
+CLASS aag net/minecraft/entity/passive/EntitySnowman
+	FIELD a SNOWMAN_FLAGS Lmx;
+	METHOD F getSoundAmbient ()Lqc;
+	METHOD J getLootTableId ()Lnd;
+	METHOD a interactMob (Laeb;Ltz;)Z
+		ARG 0 player
+		ARG 1 playerHand
+	METHOD a deserializeCustomData (Lfy;)V
+		ARG 0 tag
+	METHOD a registerTagUpgraders (Lrw;)V
+		ARG 0 handler
+	METHOD a attackDistant (Lvn;F)V
+		ARG 0 target
+	METHOD a setHasPumpkin (Z)V
+		ARG 0 value
+	METHOD b serializeCustomData (Lfy;)V
+		ARG 0 tag
+	METHOD bM initAttributes ()V
+	METHOD by getEyeHeight ()F
+	METHOD cf getSoundDeath ()Lqc;
+	METHOD d getSoundHurt (Lup;)Lqc;
+	METHOD i initDataTracker ()V
+	METHOD n updateMovement ()V
+	METHOD p hasPumpkin ()Z
+	METHOD p setAiming (Z)V
+		ARG 0 value
+	METHOD r initAi ()V

@@ -1,0 +1,3 @@
+CLASS z net/minecraft/advancement/criterion/AbstractCriterionConditions
+	FIELD a id Lpw;
+	METHOD a getId ()Lpw;

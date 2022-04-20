@@ -1,0 +1,17 @@
+CLASS dva net/minecraft/client/render/model/WeightedBakedModel
+	CLASS dva$a Builder
+		FIELD a models Ljava/util/List;
+		METHOD a getFirst ()Lduq;
+		METHOD a add (Lduq;I)Ldva$a;
+			ARG 1 model
+			ARG 2 weight
+	CLASS dva$b ModelEntry
+		FIELD b model Lduq;
+		METHOD <init> (Lduq;I)V
+			ARG 1 model
+			ARG 2 weight
+	FIELD a totalWeight I
+	FIELD b models Ljava/util/List;
+	FIELD c defaultModel Lduq;
+	METHOD <init> (Ljava/util/List;)V
+		ARG 1 models

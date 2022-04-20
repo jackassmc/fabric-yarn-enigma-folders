@@ -1,0 +1,38 @@
+CLASS jp net/minecraft/network/packet/client/CPacketTitle
+	CLASS jp$a Action
+		FIELD d DISPLAY Ljp$a;
+		FIELD e HIDE Ljp$a;
+		FIELD f RESET Ljp$a;
+		METHOD a names ()[Ljava/lang/String;
+		METHOD a byName (Ljava/lang/String;)Ljp$a;
+	FIELD a action Ljp$a;
+	FIELD b text Lgk;
+	FIELD c ticksFadeIn I
+	FIELD d ticksDisplay I
+	FIELD e ticksFadeOut I
+	METHOD <init> (III)V
+		ARG 0 ticksFadeIn
+		ARG 1 ticksDisplay
+		ARG 2 ticksFadeOut
+	METHOD <init> (Ljp$a;Lgk;)V
+		ARG 0 action
+		ARG 1 text
+	METHOD <init> (Ljp$a;Lgk;III)V
+		ARG 0 action
+		ARG 1 text
+		ARG 2 ticksFadeIn
+		ARG 3 ticksDisplay
+		ARG 4 ticksFadeOut
+	METHOD a getAction ()Ljp$a;
+	METHOD a readPacket (Lgb;)V
+		ARG 0 buf
+	METHOD a applyPacket (Lge;)V
+		ARG 0 handler
+	METHOD a applyPacket (Lgy;)V
+		ARG 0 handler
+	METHOD b getText ()Lgk;
+	METHOD b writePacket (Lgb;)V
+		ARG 0 buf
+	METHOD c getTicksFadeIn ()I
+	METHOD d getTicksDisplay ()I
+	METHOD e getTicksFadeOut ()I

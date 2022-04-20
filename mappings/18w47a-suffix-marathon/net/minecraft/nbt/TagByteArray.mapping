@@ -1,0 +1,20 @@
+CLASS hl net/minecraft/nbt/TagByteArray
+	FIELD f value [B
+	METHOD a getType ()B
+	METHOD a getRaw (I)Lhm;
+	METHOD a setRaw (ILie;)V
+		ARG 1 index
+	METHOD a read (Ljava/io/DataInput;ILhx;)V
+		ARG 1 input
+		ARG 2 depth
+	METHOD a write (Ljava/io/DataOutput;)V
+	METHOD a toTextComponent (Ljava/lang/String;I)Liz;
+		ARG 1 indent
+	METHOD a toArray (Ljava/util/List;)[B
+		ARG 0 list
+	METHOD b copy ()Lie;
+	METHOD b remove (I)V
+	METHOD b append (ILie;)V
+		ARG 1 index
+	METHOD c getByteArray ()[B
+	METHOD c getRaw (I)Lie;

@@ -1,0 +1,4 @@
+CLASS dep net/minecraft/client/render/entity/EntityRendererEnderman
+	FIELD a SKIN Lpw;
+	METHOD a getTexture (Lafy;)Lpw;
+	METHOD a getTexture (Laoi;)Lpw;

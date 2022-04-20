@@ -1,0 +1,11 @@
+CLASS cvc net/minecraft/client/gui/hud/spectator/SpectatorTeleportTeamMenu
+	CLASS cvc$a
+		METHOD a renderIcon (FI)V
+		METHOD a selectElement (Lcuw;)V
+			ARG 0 menu
+		METHOD am_ enabled ()Z
+	METHOD a getElements ()Ljava/util/List;
+	METHOD a renderIcon (FI)V
+	METHOD a selectElement (Lcuw;)V
+	METHOD am_ enabled ()Z
+	METHOD b getMessage ()Liz;

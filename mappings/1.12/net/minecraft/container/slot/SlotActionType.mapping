@@ -1,0 +1,8 @@
+CLASS afu net/minecraft/container/slot/SlotActionType
+	FIELD a CLICK Lafu;
+	FIELD b SHIFT_CLICK Lafu;
+	FIELD c HOTBAR_KEY Lafu;
+	FIELD d MIDDLE_CLICK Lafu;
+	FIELD e DROP Lafu;
+	FIELD f DRAG Lafu;
+	FIELD g DOUBLE_CLICK Lafu;

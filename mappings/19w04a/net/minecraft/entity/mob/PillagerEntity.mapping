@@ -1,0 +1,2 @@
+CLASS aqg net/minecraft/entity/mob/PillagerEntity
+	FIELD bC inventory Lagc;

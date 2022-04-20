@@ -1,0 +1,30 @@
+CLASS asm net/minecraft/entity/boss/dragon/phase/PhaseType
+	FIELD a HOLDING_PATTERN Lasm;
+	FIELD b STRAFE_PLAYER Lasm;
+	FIELD c LANDING_APPROACH Lasm;
+	FIELD d LANDING Lasm;
+	FIELD e TAKEOFF Lasm;
+	FIELD f SITTING_FLAMING Lasm;
+	FIELD g SITTING_SCANNING Lasm;
+	FIELD h SITTING_ATTACKING Lasm;
+	FIELD i CHARGING_PLAYER Lasm;
+	FIELD j DYING Lasm;
+	FIELD k HOVER Lasm;
+	FIELD l types [Lasm;
+	FIELD m phaseClass Ljava/lang/Class;
+	FIELD n id I
+	FIELD o name Ljava/lang/String;
+	METHOD <init> (ILjava/lang/Class;Ljava/lang/String;)V
+		ARG 1 id
+		ARG 2 phaseClass
+		ARG 3 name
+	METHOD a getConstructor ()Ljava/lang/reflect/Constructor;
+	METHOD a getFromId (I)Lasm;
+		ARG 0 id
+	METHOD a create (Larw;)Lasg;
+		ARG 1 dragon
+	METHOD a register (Ljava/lang/Class;Ljava/lang/String;)Lasm;
+		ARG 0 phaseClass
+		ARG 1 name
+	METHOD b getTypeId ()I
+	METHOD c count ()I

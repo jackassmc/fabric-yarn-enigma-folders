@@ -1,0 +1,7 @@
+CLASS bma net/minecraft/block/ComparatorBlock
+	FIELD a MODE Lbvc;
+	METHOD <init> (Lblg$c;)V
+		ARG 1 settings
+	METHOD a getAttachedItemFrame (Lbgf;Lfa;Lev;)Lase;
+		ARG 1 world
+		ARG 2 facing

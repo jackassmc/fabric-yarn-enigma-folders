@@ -1,0 +1,12 @@
+CLASS dbu net/minecraft/client/render/block/entity/BlockEntityChestRenderer
+	FIELD c TRAPPED_DOUBLE_TEX Lpu;
+	FIELD d CHRISTMAS_DOUBLE_TEX Lpu;
+	FIELD e NORMAL_DOUBLE_TEX Lpu;
+	FIELD f TRAPPED_TEX Lpu;
+	FIELD g CHRISTMAS_TEX Lpu;
+	FIELD h NORMAL_TEX Lpu;
+	FIELD l isChristmas Z
+	METHOD a render (Lbll;DDDFI)V
+		ARG 1 entity
+		ARG 2 xOffset
+		ARG 4 yOffset

@@ -1,0 +1,23 @@
+CLASS awk net/minecraft/entity/thrown/ThrownEntity
+	FIELD aq ownerUuid Ljava/util/UUID;
+	FIELD b inGround Z
+	FIELD c shake I
+	FIELD d owner Laij;
+	FIELD e blockX I
+	FIELD f blockY I
+	FIELD g blockZ I
+	METHOD <init> (Laie;DDDLbgx;)V
+		ARG 1 type
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z
+		ARG 8 world
+	METHOD <init> (Laie;Laij;Lbgx;)V
+		ARG 1 type
+		ARG 2 owner
+		ARG 3 world
+	METHOD <init> (Laie;Lbgx;)V
+		ARG 1 type
+	METHOD a onCollision (Lcrj;)V
+	METHOD l getGravity ()F
+	METHOD m getOwner ()Laij;

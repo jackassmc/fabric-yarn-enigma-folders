@@ -1,0 +1,4 @@
+CLASS dkm net/minecraft/client/resource/metadata/ResourceMetadataLanguage
+	FIELD a READER Ldkn;
+	FIELD b definitions Ljava/util/Collection;
+	METHOD a getLanguageDefinitions ()Ljava/util/Collection;

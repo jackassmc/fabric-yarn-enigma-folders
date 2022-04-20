@@ -1,0 +1,2 @@
+CLASS bce net/minecraft/world/biome/layer/BiomeLayerPlains
+	METHOD a getBiomes (IIII)[I

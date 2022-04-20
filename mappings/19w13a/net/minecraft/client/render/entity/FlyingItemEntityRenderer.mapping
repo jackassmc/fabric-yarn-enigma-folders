@@ -1,0 +1,4 @@
+CLASS dqr net/minecraft/client/render/entity/FlyingItemEntityRenderer
+	FIELD a item Ldpi;
+	METHOD <init> (Ldon;Ldpi;F)V
+		ARG 1 renderManager

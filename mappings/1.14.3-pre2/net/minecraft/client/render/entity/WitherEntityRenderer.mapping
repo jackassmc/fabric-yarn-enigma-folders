@@ -1,0 +1,3 @@
+CLASS dse net/minecraft/client/render/entity/WitherEntityRenderer
+	FIELD a INVINCIBLE_SKIN Lqt;
+	FIELD j SKIN Lqt;

@@ -1,0 +1,15 @@
+CLASS bmj net/minecraft/block/entity/BlockEntityMobSpawner
+	CLASS bmj$1
+		METHOD a getWorld ()Lazt;
+		METHOD a setSpawnEntry (Lbah;)V
+			ARG 0 value
+		METHOD b getPos ()Leq;
+	FIELD a logic Lazd;
+	METHOD Z_ tick ()V
+	METHOD a serialize (Lhm;)Lhm;
+		ARG 1 tag
+	METHOD aa_ getUpdatePacket ()Ljy;
+	METHOD ab_ serializeInitialChunkData ()Lhm;
+	METHOD b deserialize (Lhm;)V
+		ARG 1 tag
+	METHOD c getLogic ()Lazd;

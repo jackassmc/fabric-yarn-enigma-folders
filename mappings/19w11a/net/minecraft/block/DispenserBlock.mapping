@@ -1,0 +1,12 @@
+CLASS bmj net/minecraft/block/DispenserBlock
+	FIELD a FACING Lbus;
+	FIELD b TRIGGERED Lbup;
+	FIELD c BEHAVIORS Ljava/util/Map;
+	METHOD <init> (Lbkz$c;)V
+		ARG 1 settings
+	METHOD a getBehaviorForItem (Lbar;)Lfu;
+	METHOD a registerBehavior (Lbfx;Lfu;)V
+	METHOD a dispense (Lbfy;Leu;)V
+		ARG 1 world
+		ARG 2 pos
+	METHOD a getOutputLocation (Lev;)Lfj;

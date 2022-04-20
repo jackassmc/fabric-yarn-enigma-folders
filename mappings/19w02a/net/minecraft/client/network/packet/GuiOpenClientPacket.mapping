@@ -1,0 +1,14 @@
+CLASS la net/minecraft/client/network/packet/GuiOpenClientPacket
+	FIELD a id I
+	FIELD b slotCount I
+	FIELD c entityHorseId I
+	METHOD a read (Lit;)V
+		ARG 1 buf
+	METHOD a apply (Liw;)V
+		ARG 1 listener
+	METHOD a apply (Lju;)V
+	METHOD b getId ()I
+	METHOD b write (Lit;)V
+		ARG 1 buf
+	METHOD c getSlotCount ()I
+	METHOD d getHorseId ()I

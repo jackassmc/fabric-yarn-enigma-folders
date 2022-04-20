@@ -1,0 +1,16 @@
+CLASS bfv net/minecraft/block/AbstractBannerBlock
+	FIELD a color Lavl;
+	METHOD a canMobSpawnInside ()Z
+	METHOD a createBlockEntity (Lbbb;)Lbnq;
+		ARG 1 view
+	METHOD a getPickStack (Lbbb;Let;Lbpm;)Lawo;
+		ARG 1 world
+		ARG 2 pos
+		ARG 3 state
+	METHOD a onPlaced (Lbbp;Let;Lbpm;Lahe;Lawo;)V
+		ARG 1 world
+		ARG 2 pos
+		ARG 3 state
+		ARG 4 placer
+		ARG 5 itemStack
+	METHOD b getColor ()Lavl;

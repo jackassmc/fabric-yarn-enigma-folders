@@ -1,0 +1,61 @@
+CLASS apg net/minecraft/block/BlockFlowerPot
+	CLASS apg$a
+		METHOD m asString ()Ljava/lang/String;
+	METHOD a createBlockEntity (Lali;I)Latu;
+		ARG 0 world
+		ARG 1 meta
+	METHOD a canPlaceAt (Lali;Ldx;)Z
+		ARG 0 world
+		ARG 1 pos
+	METHOD a getPickStack (Lali;Ldx;Lave;)Lahf;
+		ARG 0 world
+		ARG 1 pos
+		ARG 2 state
+	METHOD a onBreak (Lali;Ldx;Lave;Lacu;)V
+		ARG 0 world
+		ARG 1 pos
+		ARG 2 state
+		ARG 3 player
+	METHOD a activate (Lali;Ldx;Lave;Lacu;Lsw;Lee;FFF)Z
+		ARG 0 world
+		ARG 1 pos
+		ARG 2 state
+		ARG 3 player
+		ARG 4 hand
+		ARG 5 facing
+		ARG 6 hitX
+		ARG 7 hitY
+		ARG 8 hitZ
+	METHOD a getRenderType (Lave;)Larx;
+		ARG 0 state
+	METHOD a update (Lave;Lali;Ldx;Lank;Ldx;)V
+		ARG 0 state
+		ARG 1 world
+		ARG 2 pos
+		ARG 3 block
+		ARG 4 updatePos
+	METHOD a getDropItem (Lave;Ljava/util/Random;I)Lahd;
+		ARG 0 state
+		ARG 1 random
+		ARG 2 fortune
+	METHOD b createStateFactory ()Lavf;
+	METHOD b onBlockRemoved (Lali;Ldx;Lave;)V
+		ARG 0 world
+		ARG 1 pos
+		ARG 2 state
+	METHOD b isFullBoundsCubeForCulling (Lave;)Z
+		ARG 0 state
+	METHOD b getBoundingBox (Lave;Lalm;Ldx;)Lbfm;
+		ARG 0 state
+		ARG 1 view
+		ARG 2 pos
+	METHOD c getTranslatedName ()Ljava/lang/String;
+	METHOD c isFullBoundsCubeForConnection (Lave;)Z
+		ARG 0 state
+	METHOD c getRenderingState (Lave;Lalm;Ldx;)Lave;
+		ARG 0 state
+		ARG 1 view
+		ARG 2 pos
+	METHOD e serializeState (Lave;)I
+		ARG 0 state
+	METHOD f getRenderLayer ()Lala;

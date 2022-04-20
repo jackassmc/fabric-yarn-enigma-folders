@@ -1,0 +1,3 @@
+CLASS cji net/minecraft/world/ClientPersistentStateManager
+	METHOD a getNextAvailableId (Lbtc;Ljava/lang/String;)I
+		ARG 2 key

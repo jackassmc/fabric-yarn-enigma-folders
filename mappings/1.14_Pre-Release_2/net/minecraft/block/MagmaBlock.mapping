@@ -1,0 +1,3 @@
+CLASS bpn net/minecraft/block/MagmaBlock
+	METHOD <init> (Lbme$c;)V
+		ARG 1 settings

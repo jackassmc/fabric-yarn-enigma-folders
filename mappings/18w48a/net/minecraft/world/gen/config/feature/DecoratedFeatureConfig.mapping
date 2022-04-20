@@ -1,0 +1,12 @@
+CLASS bth net/minecraft/world/gen/config/feature/DecoratedFeatureConfig
+	FIELD a feature Lbsy;
+	FIELD b decorator Lbyl;
+	METHOD <init> (Lbsy;Lbyl;)V
+		ARG 1 feature
+	METHOD <init> (Lbtz;Lbua;Lbzj;Lbtk;)V
+		ARG 1 feature
+		ARG 2 featureConfig
+		ARG 3 decorator
+	METHOD a deserialize (Lcom/mojang/datafixers/Dynamic;)Lbth;
+		ARG 0 dynamic
+	METHOD a serialize (Lcom/mojang/datafixers/types/DynamicOps;)Lcom/mojang/datafixers/Dynamic;

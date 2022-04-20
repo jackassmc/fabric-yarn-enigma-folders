@@ -1,0 +1,151 @@
+CLASS bgu net/minecraft/world/biome/Biome
+	CLASS bgu$a Settings
+		FIELD a surfaceBuilder Lchx;
+		FIELD b precipitation Lbgu$d;
+		FIELD c category Lbgu$b;
+		FIELD d depth Ljava/lang/Float;
+		FIELD e scale Ljava/lang/Float;
+		FIELD f temperature Ljava/lang/Float;
+		FIELD g downfall Ljava/lang/Float;
+		FIELD h waterColor Ljava/lang/Integer;
+		FIELD i waterFogColor Ljava/lang/Integer;
+		FIELD j parent Ljava/lang/String;
+		METHOD a depth (F)Lbgu$a;
+		METHOD a waterColor (I)Lbgu$a;
+		METHOD a category (Lbgu$b;)Lbgu$a;
+		METHOD a precipitation (Lbgu$d;)Lbgu$a;
+		METHOD a surfaceBuilder (Lchx;)Lbgu$a;
+		METHOD a configureSurfaceBuilder (Lcih;Lcij;)Lbgu$a;
+			ARG 1 surfaceBuilder
+		METHOD a parent (Ljava/lang/String;)Lbgu$a;
+		METHOD b scale (F)Lbgu$a;
+		METHOD b waterFogColor (I)Lbgu$a;
+		METHOD c temperature (F)Lbgu$a;
+		METHOD d downfall (F)Lbgu$a;
+	CLASS bgu$b Category
+		FIELD a NONE Lbgu$b;
+		FIELD b TAIGA Lbgu$b;
+		FIELD c EXTREME_HILLS Lbgu$b;
+		FIELD d JUNGLE Lbgu$b;
+		FIELD e MESA Lbgu$b;
+		FIELD f PLAINS Lbgu$b;
+		FIELD g SAVANNA Lbgu$b;
+		FIELD h ICY Lbgu$b;
+		FIELD i THE_END Lbgu$b;
+		FIELD j BEACH Lbgu$b;
+		FIELD k FOREST Lbgu$b;
+		FIELD l OCEAN Lbgu$b;
+		FIELD m DESERT Lbgu$b;
+		FIELD n RIVER Lbgu$b;
+		FIELD o SWAMP Lbgu$b;
+		FIELD p MUSHROOM Lbgu$b;
+		FIELD q NETHER Lbgu$b;
+		FIELD r NAME_MAP Ljava/util/Map;
+		FIELD s name Ljava/lang/String;
+		METHOD a getName ()Ljava/lang/String;
+	CLASS bgu$c TemperatureGroup
+		FIELD a OCEAN Lbgu$c;
+		FIELD b COLD Lbgu$c;
+		FIELD c MEDIUM Lbgu$c;
+		FIELD d WARM Lbgu$c;
+		FIELD e NAME_MAP Ljava/util/Map;
+		FIELD f name Ljava/lang/String;
+		METHOD a getName ()Ljava/lang/String;
+	CLASS bgu$d Precipitation
+		FIELD a NONE Lbgu$d;
+		FIELD b RAIN Lbgu$d;
+		FIELD c SNOW Lbgu$d;
+		FIELD d NAME_MAP Ljava/util/Map;
+		FIELD e name Ljava/lang/String;
+		METHOD a getName ()Ljava/lang/String;
+	CLASS bgu$e SpawnEntry
+		FIELD b type Laia;
+		FIELD c minGroupSize I
+		FIELD d maxGroupSize I
+		METHOD <init> (Laia;III)V
+			ARG 1 type
+			ARG 2 weight
+			ARG 3 minGroupSize
+			ARG 4 maxGroupSize
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD b BIOMES Ljava/util/Set;
+	FIELD c PARENT_BIOME_ID_MAP Lfd;
+	FIELD d TEMPERATURE_NOISE Lcip;
+	FIELD e FOLIAGE_NOISE Lcip;
+	FIELD f translationKey Ljava/lang/String;
+	FIELD g depth F
+	FIELD h scale F
+	FIELD i temperature F
+	FIELD j downfall F
+	FIELD k waterColor I
+	FIELD l waterFogColor I
+	FIELD m parent Ljava/lang/String;
+	FIELD n surfaceBuilder Lchx;
+	FIELD o category Lbgu$b;
+	FIELD p precipitation Lbgu$d;
+	FIELD q carvers Ljava/util/Map;
+	FIELD r features Ljava/util/Map;
+	FIELD s flowerFeatures Ljava/util/List;
+	FIELD t structureFeatures Ljava/util/Map;
+	FIELD u spawns Ljava/util/Map;
+	METHOD <init> (Lbgu$a;)V
+		ARG 1 settings
+	METHOD a hasParent ()Z
+	METHOD a getSkyColor (F)I
+	METHOD a getEntitySpawnList (Laih;)Ljava/util/List;
+	METHOD a addSpawn (Laih;Lbgu$e;)V
+		ARG 1 type
+	METHOD a canSetSnow (Lbga;Leu;)Z
+	METHOD a canSetSnow (Lbga;Leu;Z)Z
+		ARG 2 pos
+	METHOD a getParentBiome (Lbgu;)Lbgu;
+		ARG 0 biome
+	METHOD a getCarversForStep (Lbxc$a;)Ljava/util/List;
+	METHOD a addCarver (Lbxc$a;Lbxr;)V
+		ARG 1 step
+	METHOD a getFeaturesForStep (Lbxc$b;)Ljava/util/List;
+	METHOD a generateFeatureStep (Lbxc$b;Lbvl;Lbfy;JLbxn;Leu;)V
+		ARG 1 featureStep
+		ARG 2 chunkGenerator
+		ARG 3 world
+	METHOD a addFeature (Lbxc$b;Lbyo;)V
+		ARG 1 step
+	METHOD a configureCarver (Lbxw;Lbxp;)Lbxr;
+		ARG 0 carver
+		ARG 1 config
+	METHOD a configureFeature (Lbzq;Lbzr;Lcfe;Lbza;)Lbyo;
+		ARG 0 feature
+		ARG 1 featureConfig
+		ARG 2 decorator
+		ARG 3 decoratorConfig
+	METHOD a hasStructureFeature (Lccu;)Z
+	METHOD a addStructureFeature (Lccu;Lbzr;)V
+		ARG 1 structureFeature
+	METHOD a getFoliageColorAt (Leu;)I
+	METHOD a buildSurface (Ljava/util/Random;Lbvk;IIIDLbtw;Lbtw;IJ)V
+		ARG 1 random
+		ARG 2 chunk
+		ARG 8 defaultBlock
+		ARG 9 defaultFluid
+		ARG 11 seed
+	METHOD b getPrecipitation ()Lbgu$d;
+	METHOD b canSetIce (Lbga;Leu;)Z
+	METHOD b getStructureFeatureConfig (Lccu;)Lbzr;
+	METHOD b getGrassColorAt (Leu;)I
+	METHOD c hasHighHumidity ()Z
+	METHOD c getTemperature (Leu;)F
+	METHOD d getMaxSpawnLimit ()F
+	METHOD e getFlowerFeatures ()Ljava/util/List;
+	METHOD f getTemperatureGroup ()Lbgu$c;
+	METHOD g getDepth ()F
+	METHOD h getRainfall ()F
+	METHOD i getTextComponent ()Ljl;
+	METHOD j getTranslationKey ()Ljava/lang/String;
+	METHOD k getScale ()F
+	METHOD l getTemperature ()F
+	METHOD m getWaterColor ()I
+	METHOD n getWaterFogColor ()I
+	METHOD o getCategory ()Lbgu$b;
+	METHOD p getSurfaceBuilder ()Lchx;
+	METHOD q getSurfaceConfig ()Lcij;
+	METHOD r getParent ()Ljava/lang/String;

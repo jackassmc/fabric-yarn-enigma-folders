@@ -1,0 +1,3 @@
+CLASS azo net/minecraft/enchantment/SilkTouchEnchantment
+	METHOD a getHighestLevel ()I
+	METHOD a differs (Layt;)Z

@@ -1,0 +1,4 @@
+CLASS bro net/minecraft/block/SignBlock
+	FIELD c ROTATION Lbwc;
+	METHOD <init> (Lbme$c;)V
+		ARG 1 settings

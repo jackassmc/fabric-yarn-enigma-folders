@@ -1,0 +1,48 @@
+CLASS dxu net/minecraft/client/sound/SoundSystem
+	FIELD a MARKER Lorg/apache/logging/log4j/Marker;
+	FIELD b LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD c unknownSounds Ljava/util/Set;
+	FIELD d loader Ldxx;
+	FIELD e settings Lcvo;
+	FIELD f started Z
+	FIELD g soundEngine Lctf;
+	FIELD h listener Lctg;
+	FIELD i soundLoader Ldxt;
+	FIELD j taskQueue Ldxv;
+	FIELD k channel Ldxr;
+	FIELD l ticks I
+	FIELD m sources Ljava/util/Map;
+	FIELD n sounds Lcom/google/common/collect/Multimap;
+	FIELD o tickingSounds Ljava/util/List;
+	FIELD p startTicks Ljava/util/Map;
+	FIELD q soundEndTicks Ljava/util/Map;
+	FIELD r listeners Ljava/util/List;
+	FIELD s preloadedSounds Ljava/util/List;
+	METHOD <init> (Ldxx;Lcvo;Lxe;)V
+		ARG 1 loader
+	METHOD a reloadSounds ()V
+	METHOD a updateListenerPosition (Lcuz;)V
+	METHOD a addPreloadedSound (Ldwu;)V
+		ARG 1 sound
+	METHOD a stop (Ldwx;)V
+	METHOD a play (Ldwx;I)V
+		ARG 1 sound
+		ARG 2 delay
+	METHOD a registerListener (Ldxw;)V
+	METHOD a stopSounds (Lqs;Lyl;)V
+	METHOD a getSoundVolume (Lyl;)F
+	METHOD a updateSoundVolume (Lyl;F)V
+		ARG 2 volume
+	METHOD a tick (Z)V
+	METHOD b stop ()V
+	METHOD b isPlaying (Ldwx;)Z
+	METHOD b unregisterListener (Ldxw;)V
+	METHOD c stopAll ()V
+	METHOD c play (Ldwx;)V
+	METHOD d pauseAll ()V
+	METHOD d getAdjustedPitch (Ldwx;)F
+	METHOD e resumeAll ()V
+	METHOD e getAdjustedVolume (Ldwx;)F
+	METHOD f getDebugString ()Ljava/lang/String;
+	METHOD g start ()V
+	METHOD h tick ()V

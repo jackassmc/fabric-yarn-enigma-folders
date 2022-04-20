@@ -1,0 +1,2 @@
+CLASS bph net/minecraft/block/enums/DoorHinge
+	METHOD m asString ()Ljava/lang/String;

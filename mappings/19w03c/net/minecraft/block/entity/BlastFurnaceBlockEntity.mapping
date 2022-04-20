@@ -1,0 +1,5 @@
+CLASS bol net/minecraft/block/entity/BlastFurnaceBlockEntity
+	METHOD a createContainer (ILari;)Late;
+	METHOD a getFuelTime (Laxc;)I
+		ARG 1 fuel
+	METHOD g getContainerName ()Ljb;

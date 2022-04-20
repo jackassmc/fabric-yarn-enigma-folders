@@ -1,0 +1,12 @@
+CLASS bip net/minecraft/block/CampfireBlock
+	FIELD a SHAPE Lcoe;
+	FIELD b LIT Lbrv;
+	FIELD c SIGNAL_FIRE Lbrv;
+	FIELD d WATERLOGGED Lbrv;
+	FIELD e FACING Lbry;
+	METHOD <init> (Lbif$c;)V
+		ARG 1 settings
+	METHOD a spawnSmokeParticle (Lbde;Les;ZZ)V
+		ARG 2 isSignal
+		ARG 3 lotsOfSmoke
+	METHOD j doesBlockCauseSignalFire (Lbrd;)Z

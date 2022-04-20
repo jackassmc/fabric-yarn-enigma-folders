@@ -1,0 +1,6 @@
+CLASS bla net/minecraft/block/PaneBlock
+	METHOD <init> (Lbig$c;)V
+		ARG 1 settings
+	METHOD a connectsTo (Lbre;Z)Z
+	METHOD f neverConnectsTo (Lbig;)Z
+		ARG 0 block

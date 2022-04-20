@@ -1,0 +1,52 @@
+CLASS bro net/minecraft/client/render/model/json/ModelTransformationList
+	CLASS bro$b Type
+		FIELD a ORIGIN Lbro$b;
+		FIELD b THIRD_PERSON_LEFT_HAND Lbro$b;
+		FIELD c THIRD_PERSON_RIGHT_HAND Lbro$b;
+		FIELD d FIRST_PERSON_LEFT_HAND Lbro$b;
+		FIELD e FIRST_PERSON_RIGHT_HAND Lbro$b;
+		FIELD f HEAD Lbro$b;
+		FIELD g GUI Lbro$b;
+		FIELD h GROUND Lbro$b;
+		FIELD i FIXED Lbro$b;
+	FIELD a ORIGIN Lbro;
+	FIELD b globalTranslationX F
+	FIELD c globalTranslationY F
+	FIELD d globalTranslationZ F
+	FIELD e globalRotationX F
+	FIELD f globalRotationY F
+	FIELD g globalRotationZ F
+	FIELD h globalScaleOffsetX F
+	FIELD i globalScaleOffsetY F
+	FIELD j globalScaleOffsetZ F
+	FIELD k thirdPersonLeftHand Lbrn;
+	FIELD l thirdPersonRightHand Lbrn;
+	FIELD m firstPersonLeftHand Lbrn;
+	FIELD n firstPersonRightHand Lbrn;
+	FIELD o head Lbrn;
+	FIELD p gui Lbrn;
+	FIELD q ground Lbrn;
+	FIELD r fixed Lbrn;
+	METHOD <init> (Lbrn;Lbrn;Lbrn;Lbrn;Lbrn;Lbrn;Lbrn;Lbrn;)V
+		ARG 0 thirdPersonLeftHand
+		ARG 1 thirdPersonRightHand
+		ARG 2 firstPersonLeftHand
+		ARG 3 firstPersonRightHand
+		ARG 4 head
+		ARG 5 gui
+		ARG 6 ground
+		ARG 7 fixed
+	METHOD <init> (Lbro;)V
+		ARG 0 list
+	METHOD a getRotQuaternion (FFF)Lorg/lwjgl/util/vector/Quaternion;
+		ARG 0 rotX
+		ARG 1 rotY
+		ARG 2 rotZ
+	METHOD a applyGl (Lbrn;Z)V
+		ARG 0 transform
+	METHOD a applyGl (Lbro$b;)V
+		ARG 0 type
+	METHOD b getTransformation (Lbro$b;)Lbrn;
+		ARG 0 type
+	METHOD c isTransformationDefined (Lbro$b;)Z
+		ARG 0 type

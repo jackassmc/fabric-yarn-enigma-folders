@@ -1,0 +1,5 @@
+CLASS alq net/minecraft/enchantment/EnchantmentKnockback
+	METHOD <init> (Lali$a;[Lvj;)V
+		ARG 0 weight
+		ARG 1 slotTypes
+	METHOD b getHighestLevel ()I

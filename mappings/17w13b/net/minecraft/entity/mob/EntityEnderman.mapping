@@ -1,0 +1,49 @@
+CLASS abn net/minecraft/entity/mob/EntityEnderman
+	CLASS abn$a AiGoalPlaceBlock
+		FIELD a owner Labn;
+		METHOD a canStart ()Z
+		METHOD e tick ()V
+	CLASS abn$b
+		METHOD a canStart ()Z
+		METHOD b shouldContinue ()Z
+		METHOD c start ()V
+		METHOD d onRemove ()V
+		METHOD e tick ()V
+	CLASS abn$c AiGoalPickBlock
+		FIELD a owner Labn;
+		METHOD a canStart ()Z
+		METHOD e tick ()V
+	FIELD bA ageWhenTargetSet I
+	FIELD bx CARRIED_BLOCK Llx;
+	FIELD by ANGRY Llx;
+	FIELD c CARRIABLE_BLOCKS Ljava/util/Set;
+	METHOD G getSoundAmbient ()Lpb;
+	METHOD J getLootTableId ()Lmd;
+	METHOD M mobTick ()V
+	METHOD a deserializeCustomData (Lfc;)V
+		ARG 0 tag
+	METHOD a onTrackedDataSet (Llx;)V
+		ARG 0 data
+	METHOD a registerTagUpgraders (Lqv;)V
+		ARG 0 handler
+	METHOD a damage (Ltm;F)Z
+		ARG 0 source
+		ARG 1 damage
+	METHOD a dropEquipment (ZI)V
+		ARG 0 recentlyHitByPlayer
+		ARG 1 looting
+	METHOD b setCarriedBlock (Lave;)V
+		ARG 0 value
+	METHOD b serializeCustomData (Lfc;)V
+		ARG 0 tag
+	METHOD bH initAttributes ()V
+	METHOD bZ getSoundHurt ()Lpb;
+	METHOD bt getEyeHeight ()F
+	METHOD ca getSoundDeath ()Lpb;
+	METHOD d setTarget (Luk;)V
+		ARG 0 value
+	METHOD dl getCarriedBlock ()Lave;
+	METHOD dm isAngry ()Z
+	METHOD i initDataTracker ()V
+	METHOD n updateMovement ()V
+	METHOD r initAi ()V

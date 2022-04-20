@@ -1,0 +1,20 @@
+CLASS bho net/minecraft/block/BedBlock
+	FIELD a PART Lbrn;
+	FIELD b OCCUPIED Lbrh;
+	FIELD c TOP_SHAPE Lcnq;
+	FIELD d LEG_1_SHAPE Lcnq;
+	FIELD e LEG_2_SHAPE Lcnq;
+	FIELD f LEG_3_SHAPE Lcnq;
+	FIELD g LEG_4_SHAPE Lcnq;
+	FIELD h NORTH_SHAPE Lcnq;
+	FIELD i SOUTH_SHAPE Lcnq;
+	FIELD j WEST_SHAPE Lcnq;
+	FIELD k EAST_SHAPE Lcnq;
+	FIELD w color Lawf;
+	METHOD a getPlayerInBed (Lbcq;Let;)Laro;
+		ARG 1 world
+		ARG 2 pos
+	METHOD a (Lbre;Ley;)Ley;
+		ARG 0 part
+		ARG 1 direction
+	METHOD d getColor ()Lawf;

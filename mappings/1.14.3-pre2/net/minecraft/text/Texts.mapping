@@ -1,0 +1,25 @@
+CLASS jo net/minecraft/text/Texts
+	METHOD a parse (Lcd;Ljn;Lail;I)Ljn;
+		ARG 0 source
+		ARG 1 text
+		ARG 2 sender
+		ARG 3 depth
+	METHOD a toText (Lcom/mojang/authlib/GameProfile;)Ljn;
+		ARG 0 profile
+	METHOD a toText (Lcom/mojang/brigadier/Message;)Ljn;
+		ARG 0 message
+	METHOD a (Ljava/lang/String;)Ljn;
+		ARG 0 string
+	METHOD a joinOrdered (Ljava/util/Collection;)Ljn;
+		ARG 0 strings
+	METHOD a joinOrdered (Ljava/util/Collection;Ljava/util/function/Function;)Ljn;
+		ARG 0 elements
+		ARG 1 transformer
+	METHOD a bracketed (Ljn;)Ljn;
+		ARG 0 text
+	METHOD a setStyleIfAbsent (Ljn;Ljv;)Ljn;
+		ARG 0 text
+		ARG 1 style
+	METHOD b join (Ljava/util/Collection;Ljava/util/function/Function;)Ljn;
+		ARG 0 elements
+		ARG 1 transformer

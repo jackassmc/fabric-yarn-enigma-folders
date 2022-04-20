@@ -1,0 +1,16 @@
+CLASS none/ji net/minecraft/network/packet/server/SPacketSignUpdate
+	FIELD a pos Lnone/cn;
+	FIELD b text [Ljava/lang/String;
+	METHOD <init> (Lnone/cn;[Lnone/fa;)V
+		ARG 0 pos
+		ARG 1 text
+	METHOD a getPos ()Lnone/cn;
+	METHOD a readPacket (Lnone/es;)V
+		ARG 0 packet
+	METHOD a applyPacket (Lnone/ev;)V
+		ARG 0 handler
+	METHOD a applyPacket (Lnone/il;)V
+		ARG 0 handler
+	METHOD b getText ()[Ljava/lang/String;
+	METHOD b writePacket (Lnone/es;)V
+		ARG 0 packet

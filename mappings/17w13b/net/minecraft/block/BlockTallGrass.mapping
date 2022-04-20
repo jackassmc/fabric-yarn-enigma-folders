@@ -1,0 +1,67 @@
+CLASS ata net/minecraft/block/BlockTallGrass
+	CLASS ata$a Type
+		FIELD a DEAD_BUSH Lata$a;
+		FIELD b TALL_GRASS Lata$a;
+		FIELD c FERN Lata$a;
+		FIELD d VALUES [Lata$a;
+		FIELD e meta I
+		FIELD f name Ljava/lang/String;
+		METHOD a getMeta ()I
+		METHOD a get (I)Lata$a;
+		METHOD m asString ()Ljava/lang/String;
+	FIELD a TYPE Lavs;
+	FIELD c BOX_TALL_GRASS Lbfm;
+	METHOD a deserializeState (I)Lave;
+		ARG 0 meta
+	METHOD a getDropAmount (ILjava/util/Random;)I
+		ARG 0 fortune
+		ARG 1 random
+	METHOD a addStacksForDisplay (Lahd;Lagf;Lem;)V
+		ARG 0 item
+		ARG 1 tab
+		ARG 2 list
+	METHOD a afterBreak (Lali;Lacu;Ldx;Lave;Latu;Lahf;)V
+		ARG 0 world
+		ARG 1 player
+		ARG 2 pos
+		ARG 3 state
+		ARG 4 blockEntity
+		ARG 5 stack
+	METHOD a getPickStack (Lali;Ldx;Lave;)Lahf;
+		ARG 0 world
+		ARG 1 pos
+		ARG 2 state
+	METHOD a isFertilizable (Lali;Ldx;Lave;Z)Z
+		ARG 0 world
+		ARG 1 pos
+		ARG 2 state
+		ARG 3 remote
+	METHOD a canGrow (Lali;Ljava/util/Random;Ldx;Lave;)Z
+		ARG 0 world
+		ARG 1 rand
+		ARG 2 pos
+		ARG 3 state
+	METHOD a isAir (Lalm;Ldx;)Z
+		ARG 0 view
+		ARG 1 pos
+	METHOD a getDropItem (Lave;Ljava/util/Random;I)Lahd;
+		ARG 0 state
+		ARG 1 random
+		ARG 2 fortune
+	METHOD b createStateFactory ()Lavf;
+	METHOD b grow (Lali;Ljava/util/Random;Ldx;Lave;)V
+		ARG 0 world
+		ARG 1 rand
+		ARG 2 pos
+		ARG 3 state
+	METHOD b getBoundingBox (Lave;Lalm;Ldx;)Lbfm;
+		ARG 0 state
+		ARG 1 view
+		ARG 2 pos
+	METHOD e serializeState (Lave;)I
+		ARG 0 state
+	METHOD f isValidLocation (Lali;Ldx;Lave;)Z
+		ARG 0 world
+		ARG 1 pos
+		ARG 2 state
+	METHOD u getOffsetType ()Lank$a;

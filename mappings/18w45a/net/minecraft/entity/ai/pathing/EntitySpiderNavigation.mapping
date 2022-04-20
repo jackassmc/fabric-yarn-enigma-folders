@@ -1,0 +1,6 @@
+CLASS aki net/minecraft/entity/ai/pathing/EntitySpiderNavigation
+	METHOD <init> (Lagi;Lazy;)V
+		ARG 1 entity
+	METHOD a findPathTo (Lafy;)Lcea;
+	METHOD b findPathTo (Les;)Lcea;
+	METHOD d tick ()V

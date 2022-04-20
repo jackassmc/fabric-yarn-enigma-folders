@@ -1,0 +1,21 @@
+CLASS dai net/minecraft/client/gui/ingame/CreativePlayerInventoryScreen
+	CLASS dai$a
+		METHOD <init> (Lagn;III)V
+			ARG 1 invSlot
+			ARG 2 xPosition
+			ARG 3 <Position
+	CLASS dai$b CreativeContainer
+		FIELD c itemList Lfj;
+	CLASS dai$c CreativeSlot
+		FIELD b slot Laze;
+	FIELD l TEXTURE Lqr;
+	FIELD m inventory Lagz;
+	FIELD n selectedTab I
+	FIELD o scrollPosition F
+	FIELD q searchBox Lcwe;
+	FIELD r slots Ljava/util/List;
+	FIELD s deleteItemSlot Laze;
+	METHOD a isClickInTab (Lbah;DD)Z
+	METHOD a onHotbarKeyPress (Lcuu;IZZ)V
+	METHOD b setSelectedTab (Lbah;)V
+	METHOD f doRenderScrollBar ()Z

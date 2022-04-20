@@ -1,0 +1,28 @@
+CLASS asu net/minecraft/block/BlockStone
+	CLASS asu$a StoneType
+		FIELD a STONE Lasu$a;
+		FIELD b GRANITE Lasu$a;
+		FIELD c SMOOTH_GRANITE Lasu$a;
+		FIELD d DIORITE Lasu$a;
+		FIELD e SMOOTH_DIORITE Lasu$a;
+		FIELD f ANDESITE Lasu$a;
+		FIELD g SMOOTH_ANDESITE Lasu$a;
+		FIELD h TYPES [Lasu$a;
+		FIELD i id I
+		FIELD j name Ljava/lang/String;
+		FIELD k translationKey Ljava/lang/String;
+		FIELD l color Lbbl;
+		METHOD a getId ()I
+		METHOD a getStoneType (I)Lasu$a;
+		METHOD c getColor ()Lbbl;
+		METHOD d getTranslationKey ()Ljava/lang/String;
+		METHOD m asString ()Ljava/lang/String;
+	FIELD a VARIANT Lavs;
+	METHOD a deserializeState (I)Lave;
+	METHOD a addStacksForDisplay (Lahd;Lagf;Lem;)V
+	METHOD a getDropItem (Lave;Ljava/util/Random;I)Lahd;
+	METHOD b createStateFactory ()Lavf;
+	METHOD c getTranslatedName ()Ljava/lang/String;
+	METHOD d getDropItemDamage (Lave;)I
+	METHOD e serializeState (Lave;)I
+	METHOD r getMapColor (Lave;)Lbbl;

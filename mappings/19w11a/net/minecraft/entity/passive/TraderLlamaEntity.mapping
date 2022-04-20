@@ -1,0 +1,6 @@
+CLASS aqq net/minecraft/entity/passive/TraderLlamaEntity
+	CLASS aqq$a net/minecraft/entity/passive/TraderLlamaEntity$DefendTraderGoal
+		FIELD c offender Laif;
+		FIELD d traderLastAttackedTime I
+	FIELD bK despawnDelay I
+	METHOD v setDespawnDelay (I)V

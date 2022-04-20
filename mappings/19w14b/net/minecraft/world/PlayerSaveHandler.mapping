@@ -1,0 +1,3 @@
+CLASS cnw net/minecraft/world/PlayerSaveHandler
+	METHOD a savePlayerData (Lavo;)V
+	METHOD b loadPlayerData (Lavo;)Lib;

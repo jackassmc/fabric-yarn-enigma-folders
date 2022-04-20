@@ -1,0 +1,4 @@
+CLASS dkg net/minecraft/client/render/entity/PolarBearEntityRenderer
+	FIELD a SKIN Lqc;
+	METHOD a getTexture (Lagv;)Lqc;
+	METHOD a getTexture (Lamn;)Lqc;

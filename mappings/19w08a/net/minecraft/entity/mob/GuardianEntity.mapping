@@ -1,0 +1,39 @@
+CLASS aqi net/minecraft/entity/mob/GuardianEntity
+	CLASS aqi$a FireBeamGoal
+		FIELD a owner Laqi;
+		FIELD b beamTicks I
+		FIELD c elderOwner Z
+		METHOD <init> (Laqi;)V
+			ARG 1 owner
+	CLASS aqi$b GuardianTargetPredicate
+		FIELD a owner Laqi;
+		METHOD <init> (Laqi;)V
+			ARG 1 owner
+		METHOD a test (Lahu;)Z
+			ARG 1 t
+	CLASS aqi$c GuardianMoveControl
+		FIELD i guardian Laqi;
+	FIELD bD spikesExtensionRate F
+	FIELD bE tailAngle F
+	FIELD bF prevTailAngle F
+	FIELD bH BEAM_TARGET_ID Lpx;
+	FIELD bI cachedBeamTarget Lahu;
+	FIELD bJ beamTicks I
+	FIELD bK flopping Z
+	FIELD b SPIKES_RETRACTED Lpx;
+	FIELD c spikesExtension F
+	FIELD d prevSpikesExtension F
+	METHOD a setBeamTarget (I)V
+		ARG 1 progress
+	METHOD dN areSpikesRetracted ()Z
+	METHOD dO hasBeamTarget ()Z
+	METHOD dP getBeamTarget ()Lahu;
+	METHOD l getWarmupTime ()I
+	METHOD q setSpikesRetracted (Z)V
+		ARG 1 retracted
+	METHOD u getSpikesExtension (F)F
+		ARG 1 tickDelta
+	METHOD v getTailAngle (F)F
+		ARG 1 tickDelta
+	METHOD w getBeamProgress (F)F
+		ARG 1 tickDelta

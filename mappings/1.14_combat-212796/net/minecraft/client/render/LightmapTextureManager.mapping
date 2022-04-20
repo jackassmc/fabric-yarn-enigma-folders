@@ -1,0 +1,16 @@
+CLASS dku net/minecraft/client/render/LightmapTextureManager
+	FIELD a texture Ldue;
+	FIELD b image Lcud;
+	FIELD c textureIdentifier Lqt;
+	FIELD d isDirty Z
+	FIELD e prevFlicker F
+	FIELD f flicker F
+	FIELD g worldRenderer Ldkp;
+	FIELD h client Lcvp;
+	METHOD <init> (Ldkp;)V
+		ARG 1 worldRenderer
+	METHOD a tick ()V
+	METHOD a update (F)V
+		ARG 1 delta
+	METHOD b disable ()V
+	METHOD c enable ()V

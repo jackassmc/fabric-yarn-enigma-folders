@@ -1,0 +1,137 @@
+CLASS ahe net/minecraft/entity/LivingEntity
+	FIELD aA hurtTime I
+	FIELD aD deathCounter I
+	FIELD a LOGGER_LIVING Lorg/apache/logging/log4j/Logger;
+	FIELD aR headYaw F
+	FIELD aS prevHeadYaw F
+	FIELD aV playerHitTimer I
+	FIELD aW dead Z
+	FIELD aX despawnCounter I
+	FIELD av LIVING_FLAGS Lpr;
+	FIELD ax preferredHand Lafo;
+	FIELD az stuckArrowTimer I
+	FIELD bA damageTracker Lagd;
+	FIELD bB activePotionEffects Ljava/util/Map;
+	FIELD bC equippedHand Lfh;
+	FIELD bD equippedArmor Lfh;
+	FIELD bF attacker Lahe;
+	FIELD bG lastAttackedTime I
+	FIELD bL absorptionAmount F
+	FIELD b ATTR_SPRINTING_SPEED_BOOST_ID Ljava/util/UUID;
+	FIELD bs activeItemStack Lawo;
+	FIELD bw POTION_SWIRLS_COLOR Lpr;
+	FIELD bx POTION_SWIRLS_AMBIENT Lpr;
+	FIELD by STUCK_ARROWS Lpr;
+	FIELD bz attributeContainer Lahw;
+	FIELD c ATTR_SPRINTING_SPEED_BOOST Lahu;
+	FIELD f HEALTH Lpr;
+	METHOD <init> (Lagz;Lbbp;)V
+		ARG 1 type
+	METHOD A_ canClimb ()Z
+	METHOD C updatePotionVisibility ()V
+	METHOD C pushAway (Lagv;)V
+	METHOD D canSee (Lagv;)Z
+	METHOD U kill ()V
+	METHOD W_ update ()V
+	METHOD Y updateLogic ()V
+	METHOD Y_ stopRiding ()V
+	METHOD a setPositionAndRotations (DDDFFIZ)V
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+	METHOD a swingHand (Lafo;)V
+	METHOD a setStackInHand (Lafo;Lawo;)V
+		ARG 1 hand
+	METHOD a onDeath (Lage;)V
+	METHOD a damage (Lage;F)Z
+		ARG 1 source
+		ARG 2 amount
+	METHOD a dropEquipment (Lage;IZ)V
+	METHOD a hasPotionEffect (Lagn;)Z
+	METHOD a isEquippedStackValid (Laha;)Z
+	METHOD a setEquippedStack (Laha;Lawo;)V
+		ARG 1 slot
+	METHOD a setAttacker (Lahe;)V
+	METHOD a getAttributeInstance (Lahs;)Laht;
+	METHOD a lookAt (Lch$a;Lcmd;)V
+		ARG 1 anchor
+		ARG 2 target
+		ARG 4 deltaX
+		ARG 6 deltaY
+		ARG 8 deltaZ
+		ARG 10 xzDistance
+	METHOD a readCustomDataFromTag (Lhs;)V
+	METHOD a onTrackedDataSet (Lpr;)V
+	METHOD aC scheduleVelocityUpdate ()V
+	METHOD aD doesCollide ()Z
+	METHOD aE isPushable ()Z
+	METHOD aH isValid ()Z
+	METHOD aV getItemsArmor ()Ljava/lang/Iterable;
+	METHOD ac destroy ()V
+	METHOD b getStackInHand (Lafo;)Lawo;
+	METHOD b getPotionEffect (Lagn;)Lago;
+	METHOD b getEquippedStack (Laha;)Lawo;
+	METHOD b onEquipStack (Lawo;)V
+	METHOD b writeCustomDataToTag (Lhs;)V
+	METHOD bA shouldRenderName ()Z
+	METHOD bk getHeadYaw ()F
+	METHOD c heal (F)V
+	METHOD c handleFallDamage (FF)V
+		ARG 1 fallDistance
+	METHOD c setCurrentHand (Lafo;)V
+	METHOD c removePotionEffect (Lagn;)Lago;
+	METHOD c addPotionEffect (Lago;)Z
+	METHOD c containsOnlyAmbientEffects (Ljava/util/Collection;)Z
+		ARG 0 effects
+	METHOD cA getHealthMaximum ()F
+	METHOD cB getStuckArrows ()I
+	METHOD cD getAttributeContainer ()Lahw;
+	METHOD cE getGroup ()Lahi;
+	METHOD cF getMainHandStack ()Lawo;
+	METHOD cG getOffHandStack ()Lawo;
+	METHOD cH getSoundVolume ()F
+	METHOD cI getSoundPitch ()F
+	METHOD cP isSleeping ()Z
+	METHOD cR doPushLogic ()V
+	METHOD cS isUsingRiptide ()Z
+	METHOD cU getAbsorptionAmount ()F
+	METHOD cW getMainHand ()Lahd;
+	METHOD cY getActiveHand ()Lafo;
+	METHOD ca initAttributes ()V
+	METHOD cc updatePostDeath ()V
+	METHOD cd canDropLootAndXp ()Z
+	METHOD cf getRand ()Ljava/util/Random;
+	METHOD cg getAttacker ()Lahe;
+	METHOD ch getLastAttackedTime ()I
+	METHOD ck getDespawnCounter ()I
+	METHOD cm clearPotionSwirls ()V
+	METHOD cn clearPotionEffects ()Z
+	METHOD co getPotionEffects ()Ljava/util/Collection;
+	METHOD cq isUndead ()Z
+	METHOD cr getHealth ()F
+	METHOD ct dropInventory ()V
+	METHOD cv getDeathSound ()Lxm;
+	METHOD cy getDamageTracker ()Lagd;
+	METHOD d applyDamage (Lage;F)V
+		ARG 1 damageSource
+	METHOD d removeStatusEffect (Lagn;)Z
+	METHOD d isPotionEffective (Lago;)Z
+	METHOD d getCurrentExperience (Larb;)I
+	METHOD da getActiveItem ()Lawo;
+	METHOD dg isFallFlying ()Z
+	METHOD e (FF)F
+	METHOD e getHurtSound (Lage;)Lxm;
+	METHOD f setSprinting (Z)V
+	METHOD h getYaw (F)F
+	METHOD j setHeadYaw (F)V
+	METHOD k updateMovement ()V
+	METHOD k setYaw (F)V
+	METHOD l setHealth (F)V
+	METHOD m setDespawnCounter (I)V
+	METHOD n initAi ()V
+	METHOD n getFallSound (I)Lxm;
+	METHOD o setStuckArrows (I)V
+	METHOD o doJump (Z)V
+	METHOD q setAbsorptionAmount (F)V
+	METHOD y_ initDataTracker ()V
+	METHOD z_ isChild ()Z

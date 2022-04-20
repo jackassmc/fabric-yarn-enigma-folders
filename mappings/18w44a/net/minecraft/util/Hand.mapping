@@ -1,0 +1,3 @@
+CLASS aeo net/minecraft/util/Hand
+	FIELD a MAIN Laeo;
+	FIELD b OFF Laeo;

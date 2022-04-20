@@ -1,0 +1,17 @@
+CLASS duz net/minecraft/client/render/model/WeightedBakedModel
+	CLASS duz$a Builder
+		FIELD a models Ljava/util/List;
+		METHOD a getFirst ()Ldup;
+		METHOD a add (Ldup;I)Lduz$a;
+			ARG 1 model
+			ARG 2 weight
+	CLASS duz$b ModelEntry
+		FIELD b model Ldup;
+		METHOD <init> (Ldup;I)V
+			ARG 1 model
+			ARG 2 weight
+	FIELD a totalWeight I
+	FIELD b models Ljava/util/List;
+	FIELD c defaultModel Ldup;
+	METHOD <init> (Ljava/util/List;)V
+		ARG 1 models

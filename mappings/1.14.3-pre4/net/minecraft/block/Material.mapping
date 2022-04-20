@@ -1,0 +1,93 @@
+CLASS clj net/minecraft/block/Material
+	CLASS a Builder
+		FIELD a pistonBehavior Lcll;
+		FIELD b blocksMovement Z
+		FIELD c burnable Z
+		FIELD d breakByHand Z
+		FIELD e liquid Z
+		FIELD f replaceable Z
+		FIELD g solid Z
+		FIELD h color Lclk;
+		FIELD i blocksLight Z
+		METHOD <init> (Lclk;)V
+			ARG 1 color
+		METHOD a liquid ()Lclj$a;
+		METHOD b notSolid ()Lclj$a;
+		METHOD c allowsMovement ()Lclj$a;
+		METHOD d requiresTool ()Lclj$a;
+		METHOD e burnable ()Lclj$a;
+		METHOD f replaceable ()Lclj$a;
+		METHOD g destroyedByPiston ()Lclj$a;
+		METHOD h blocksPistons ()Lclj$a;
+		METHOD i build ()Lclj;
+		METHOD j lightPassesThrough ()Lclj$a;
+	FIELD A WOOL Lclj;
+	FIELD B TNT Lclj;
+	FIELD C LEAVES Lclj;
+	FIELD D GLASS Lclj;
+	FIELD E ICE Lclj;
+	FIELD F CACTUS Lclj;
+	FIELD G STONE Lclj;
+	FIELD H METAL Lclj;
+	FIELD I SNOW_BLOCK Lclj;
+	FIELD J ANVIL Lclj;
+	FIELD K BARRIER Lclj;
+	FIELD L PISTON Lclj;
+	FIELD M UNUSED_PLANT Lclj;
+	FIELD N PUMPKIN Lclj;
+	FIELD O EGG Lclj;
+	FIELD P CAKE Lclj;
+	FIELD Q color Lclk;
+	FIELD R pistonBehavior Lcll;
+	FIELD S blocksMovement Z
+	FIELD T burnable Z
+	FIELD U breakByHand Z
+	FIELD V liquid Z
+	FIELD W blocksLight Z
+	FIELD X replaceable Z
+	FIELD Y solid Z
+	FIELD a AIR Lclj;
+	FIELD b STRUCTURE_VOID Lclj;
+	FIELD c PORTAL Lclj;
+	FIELD d CARPET Lclj;
+	FIELD e PLANT Lclj;
+	FIELD f UNDERWATER_PLANT Lclj;
+	FIELD g REPLACEABLE_PLANT Lclj;
+	FIELD h SEAGRASS Lclj;
+	FIELD i WATER Lclj;
+	FIELD j BUBBLE_COLUMN Lclj;
+	FIELD k LAVA Lclj;
+	FIELD l SNOW Lclj;
+	FIELD m FIRE Lclj;
+	FIELD n PART Lclj;
+	FIELD o COBWEB Lclj;
+	FIELD p REDSTONE_LAMP Lclj;
+	FIELD q CLAY Lclj;
+	FIELD r EARTH Lclj;
+	FIELD s ORGANIC Lclj;
+	FIELD t PACKED_ICE Lclj;
+	FIELD u SAND Lclj;
+	FIELD v SPONGE Lclj;
+	FIELD w SHULKER_BOX Lclj;
+	FIELD x WOOD Lclj;
+	FIELD y BAMBOO_SAPLING Lclj;
+	FIELD z BAMBOO Lclj;
+	METHOD <init> (Lclk;ZZZZZZZLcll;)V
+		ARG 1 color
+		ARG 2 liquid
+		ARG 3 solid
+		ARG 4 blocksMovement
+		ARG 5 blocksLight
+		ARG 6 breakByHand
+		ARG 7 burnable
+		ARG 8 replaceable
+		ARG 9 pistonBehavior
+	METHOD a isLiquid ()Z
+	METHOD b isSolid ()Z
+	METHOD c blocksMovement ()Z
+	METHOD d isBurnable ()Z
+	METHOD e isReplaceable ()Z
+	METHOD f blocksLight ()Z
+	METHOD g canBreakByHand ()Z
+	METHOD h getPistonBehavior ()Lcll;
+	METHOD i getColor ()Lclk;

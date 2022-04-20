@@ -1,0 +1,5 @@
+CLASS buf net/minecraft/util/MaterialPredicate
+	FIELD a IS_AIR Lbuf;
+	FIELD b material Lcjp;
+	METHOD a create (Lcjp;)Lbuf;
+		ARG 0 material

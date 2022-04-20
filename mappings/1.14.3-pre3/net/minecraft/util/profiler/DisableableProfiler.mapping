@@ -1,0 +1,13 @@
+CLASS agg net/minecraft/util/profiler/DisableableProfiler
+	CLASS agg$a ProfilerController
+		METHOD a isEnabled ()Z
+		METHOD b disable ()Lagj;
+		METHOD c getResults ()Lagj;
+		METHOD d enable ()V
+	CLASS agg$b ProfilerControllerImpl
+		FIELD a profiler Lagi;
+	FIELD c tickSupplier Ljava/util/function/IntSupplier;
+	FIELD d controller Lagg$b;
+	METHOD <init> (Ljava/util/function/IntSupplier;)V
+		ARG 1 tickSupplier
+	METHOD d getController ()Lagg$a;

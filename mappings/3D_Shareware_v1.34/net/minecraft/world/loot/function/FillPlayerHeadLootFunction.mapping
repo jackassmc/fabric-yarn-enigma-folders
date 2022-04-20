@@ -1,0 +1,3 @@
+CLASS cpg net/minecraft/world/loot/function/FillPlayerHeadLootFunction
+	CLASS cpg$a Factory
+	FIELD a entity Lcnz$c;

@@ -1,0 +1,5 @@
+CLASS bmm net/minecraft/block/BeetrootsBlock
+	FIELD a AGE Lbwn;
+	FIELD c AGE_TO_SHAPE [Lcsu;
+	METHOD <init> (Lbmp$c;)V
+		ARG 1 settings

@@ -1,0 +1,25 @@
+CLASS akf net/minecraft/client/render/block/BiomeColorHandler
+	CLASS akf$3
+		METHOD a getColorForBiome (Lakd;Lco;)I
+			ARG 0 biome
+			ARG 1 pos
+	CLASS akf$a Proxy
+		METHOD a getColorForBiome (Lakd;Lco;)I
+			ARG 0 biome
+			ARG 1 pos
+	FIELD a GRASS Lakf$a;
+	FIELD b FOLIAGE Lakf$a;
+	FIELD c WATER_MULTIPLIER Lakf$a;
+	METHOD a getGrassColorAt (Laju;Lco;)I
+		ARG 0 view
+		ARG 1 pos
+	METHOD a getColorAt (Laju;Lco;Lakf$a;)I
+		ARG 0 view
+		ARG 1 pos
+		ARG 2 proxy
+	METHOD b getFoliageColorAt (Laju;Lco;)I
+		ARG 0 view
+		ARG 1 pos
+	METHOD c getWaterColorMultiplierAt (Laju;Lco;)I
+		ARG 0 view
+		ARG 1 pos

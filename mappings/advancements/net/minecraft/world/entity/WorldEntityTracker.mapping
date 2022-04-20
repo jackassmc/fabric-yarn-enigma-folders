@@ -1,0 +1,12 @@
+CLASS np net/minecraft/world/entity/WorldEntityTracker
+	FIELD c LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD d entity Lub;
+	FIELD e trackingRange I
+	FIELD g updateInterval I
+	FIELD u sendVelocityUpdates Z
+	FIELD z trackingPlayers Ljava/util/Set;
+	METHOD a sendToAllTracking (Lgv;)V
+	METHOD b getEntity ()Lub;
+	METHOD b sendToAllTrackingAndSelf (Lgv;)V
+	METHOD e getSpawnPacket ()Lgv;
+	METHOD e isObservingEntity (Lnn;)Z

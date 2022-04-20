@@ -1,0 +1,30 @@
+CLASS km net/minecraft/client/network/packet/BossBarS2CPacket
+	CLASS km$a Type
+		FIELD a ADD Lkm$a;
+		FIELD b REMOVE Lkm$a;
+		FIELD c UPDATE_PCT Lkm$a;
+		FIELD d UPDATE_TITLE Lkm$a;
+		FIELD e UPDATE_STYLE Lkm$a;
+		FIELD f UPDATE_FLAGS Lkm$a;
+	FIELD a uuid Ljava/util/UUID;
+	FIELD b type Lkm$a;
+	FIELD c name Lji;
+	FIELD d percent F
+	FIELD e color Lafx$a;
+	FIELD f overlay Lafx$b;
+	FIELD g darkenSky Z
+	FIELD h dragonMusic Z
+	FIELD i thickenFog Z
+	METHOD <init> (Lkm$a;Lafx;)V
+		ARG 1 action
+	METHOD a setFlagBitfield (I)V
+	METHOD b getUuid ()Ljava/util/UUID;
+	METHOD c getType ()Lkm$a;
+	METHOD d getName ()Lji;
+	METHOD e getPercent ()F
+	METHOD f getColor ()Lafx$a;
+	METHOD g getOverlay ()Lafx$b;
+	METHOD h shouldDarkenSky ()Z
+	METHOD i hasDragonMusic ()Z
+	METHOD j shouldThickenFog ()Z
+	METHOD k getFlagBitfield ()I

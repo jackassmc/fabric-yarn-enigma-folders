@@ -1,0 +1,14 @@
+CLASS amz net/minecraft/entity/passive/SheepEntity
+	FIELD bC COLOR Lps;
+	FIELD bD DROPS Ljava/util/Map;
+	FIELD bE COLORS Ljava/util/Map;
+	METHOD a getChildColor (Lami;Lami;)Lawa;
+	METHOD a getRgbColor (Lawa;)[F
+		ARG 0 dyeColor
+	METHOD a generateDefaultColor (Ljava/util/Random;)Lawa;
+	METHOD b createChild (Lagz;)Lamz;
+	METHOD b setColor (Lawa;)V
+	METHOD dC dropItems ()V
+	METHOD dD getColor ()Lawa;
+	METHOD dE isSheared ()Z
+	METHOD q setSheared (Z)V

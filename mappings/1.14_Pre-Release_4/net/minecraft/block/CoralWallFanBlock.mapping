@@ -1,0 +1,2 @@
+CLASS bnk net/minecraft/block/CoralWallFanBlock
+	FIELD c deadCoralBlock Lbmj;

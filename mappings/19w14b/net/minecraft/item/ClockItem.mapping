@@ -1,0 +1,6 @@
+CLASS baf net/minecraft/item/ClockItem
+	CLASS baf$1
+		METHOD call (Lbbr;Lbgx;Laij;)F
+			ARG 1 stack
+			ARG 2 world
+			ARG 3 user

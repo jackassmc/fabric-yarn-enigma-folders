@@ -1,0 +1,25 @@
+CLASS byh net/minecraft/world/dimension/DimensionType
+	FIELD d id I
+	FIELD e suffix Ljava/lang/String;
+	FIELD f saveDir Ljava/lang/String;
+	FIELD g factory Ljava/util/function/BiFunction;
+	FIELD h hasSkyLight Z
+	METHOD <init> (ILjava/lang/String;Ljava/lang/String;Ljava/util/function/BiFunction;Z)V
+		ARG 1 dimensionId
+		ARG 2 suffix
+		ARG 3 saveDir
+		ARG 4 factory
+		ARG 5 hasSkylight
+	METHOD a getAll ()Ljava/lang/Iterable;
+	METHOD a byRawId (I)Lbyh;
+	METHOD a create (Lbhl;)Lbyg;
+	METHOD a getId (Lbyh;)Lqt;
+	METHOD a deserialize (Lcom/mojang/datafixers/Dynamic;)Lbyh;
+	METHOD a getFile (Ljava/io/File;)Ljava/io/File;
+	METHOD a register (Ljava/lang/String;Lbyh;)Lbyh;
+		ARG 0 id
+		ARG 1 dimension
+	METHOD a byId (Lqt;)Lbyh;
+	METHOD b getRawId ()I
+	METHOD c getSuffix ()Ljava/lang/String;
+	METHOD d hasSkyLight ()Z

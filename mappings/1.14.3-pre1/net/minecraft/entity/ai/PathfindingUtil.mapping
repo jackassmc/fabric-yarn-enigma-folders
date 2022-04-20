@@ -1,0 +1,7 @@
+CLASS aqd net/minecraft/entity/ai/PathfindingUtil
+	METHOD a findTarget (Laiz;II)Lcry;
+	METHOD a findTarget (Laiz;IILcry;ZDLjava/util/function/ToDoubleFunction;)Lcry;
+	METHOD a findTargetStraight (Laiz;IILjava/util/function/ToDoubleFunction;)Lcry;
+	METHOD b findTargetStraight (Laiz;II)Lcry;
+	METHOD b isWater (Lev;Laiz;)Z
+	METHOD d findTarget (Laiz;IILcry;)Lcry;

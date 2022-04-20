@@ -1,0 +1,6 @@
+CLASS agm net/minecraft/entity/MovementType
+	FIELD a SELF Lagm;
+	FIELD b PLAYER Lagm;
+	FIELD c PISTON Lagm;
+	FIELD d SHULKER_BOX Lagm;
+	FIELD e SHULKER_ENTITY Lagm;

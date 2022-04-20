@@ -1,0 +1,6 @@
+CLASS bzb net/minecraft/client/render/entity/EntityRendererEnderman
+	FIELD a SKIN Lnd;
+	METHOD a getTexture (Lacs;)Lnd;
+		ARG 0 model
+	METHOD a getTexture (Lve;)Lnd;
+		ARG 0 model

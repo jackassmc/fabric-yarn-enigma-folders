@@ -1,0 +1,8 @@
+CLASS axq net/minecraft/entity/vehicle/CommandBlockMinecartEntity
+	CLASS axq$a CommandExecutor
+		METHOD g getMinecart ()Laxq;
+	FIELD b COMMAND Lqh;
+	FIELD c LAST_OUTPUT Lqh;
+	FIELD d commandExecutor Lbgn;
+	FIELD e lastExecuted I
+	METHOD v getCommandExecutor ()Lbgn;

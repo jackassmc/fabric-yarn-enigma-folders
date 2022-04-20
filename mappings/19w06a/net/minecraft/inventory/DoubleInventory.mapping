@@ -1,0 +1,4 @@
+CLASS afw net/minecraft/inventory/DoubleInventory
+	FIELD a first Lafx;
+	FIELD b second Lafx;
+	METHOD a isPart (Lafx;)Z

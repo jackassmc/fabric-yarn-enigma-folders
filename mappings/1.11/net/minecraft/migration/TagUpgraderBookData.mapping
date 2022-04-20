@@ -1,0 +1,4 @@
+CLASS ql net/minecraft/migration/TagUpgraderBookData
+	METHOD a getTargetVersion ()I
+	METHOD a upgradeTag (Ldu;)Ldu;
+		ARG 0 tag

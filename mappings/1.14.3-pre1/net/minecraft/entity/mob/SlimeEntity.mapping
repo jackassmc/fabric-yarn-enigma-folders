@@ -1,0 +1,49 @@
+CLASS auw net/minecraft/entity/mob/SlimeEntity
+	CLASS auw$a
+		FIELD a slime Lauw;
+		METHOD <init> (Lauw;)V
+			ARG 1 slime
+	CLASS auw$b
+		FIELD a slime Lauw;
+		METHOD <init> (Lauw;)V
+			ARG 1 slime
+	CLASS auw$c
+		FIELD a slime Lauw;
+		METHOD <init> (Lauw;)V
+			ARG 1 slime
+	CLASS auw$d SlimeMoveControl
+		FIELD i targetYaw F
+		FIELD j ticksUntilJump I
+		FIELD k slime Lauw;
+		FIELD l jumpOften Z
+		METHOD <init> (Lauw;)V
+			ARG 1 slime
+		METHOD a move (D)V
+			ARG 1 speed
+		METHOD a look (FZ)V
+			ARG 1 targetYaw
+			ARG 2 jumpOften
+	CLASS auw$e
+		FIELD a slime Lauw;
+		METHOD <init> (Lauw;)V
+			ARG 1 slime
+	FIELD bA onGroundLastTick Z
+	FIELD b targetStretch F
+	FIELD bz SLIME_SIZE Lqh;
+	FIELD c stretch F
+	FIELD d lastStretch F
+	METHOD a setSize (IZ)V
+		ARG 1 size
+		ARG 2 heal
+	METHOD dT getTicksUntilNextJump ()I
+	METHOD dU updateStretch ()V
+	METHOD dV isBig ()Z
+	METHOD dW getDamageAmount ()I
+	METHOD dX getSquishSound ()Lyk;
+	METHOD dY getJumpSound ()Lyk;
+	METHOD dZ getSize ()I
+	METHOD ea isSmall ()Z
+	METHOD eb makesJumpSound ()Z
+	METHOD h damage (Lais;)V
+		ARG 1 target
+	METHOD l getParticles ()Lgd;

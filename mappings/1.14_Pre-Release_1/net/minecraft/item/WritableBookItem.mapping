@@ -1,0 +1,3 @@
+CLASS bdh net/minecraft/item/WritableBookItem
+	METHOD <init> (Lbbp$a;)V
+		ARG 1 settings

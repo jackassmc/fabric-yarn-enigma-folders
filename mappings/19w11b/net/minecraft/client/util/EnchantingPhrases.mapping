@@ -1,0 +1,8 @@
+CLASS czq net/minecraft/client/util/EnchantingPhrases
+	FIELD a INSTANCE Lczq;
+	FIELD b random Ljava/util/Random;
+	FIELD c phrases [Ljava/lang/String;
+	METHOD a getInstance ()Lczq;
+	METHOD a setSeed (J)V
+	METHOD a generatePhrase (Lcuh;I)Ljava/lang/String;
+		ARG 1 fontRenderer

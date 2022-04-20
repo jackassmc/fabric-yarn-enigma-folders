@@ -1,0 +1,14 @@
+CLASS awf net/minecraft/item/ItemSword
+	FIELD a weaponDamage F
+	METHOD a getAttributeModifiers (Lagd;)Lcom/google/common/collect/Multimap;
+	METHOD a onEntityDamaged (Lava;Lagh;Lagh;)Z
+		ARG 1 stack
+		ARG 2 target
+	METHOD a onBlockBroken (Lava;Lazy;Lbno;Les;Lagh;)Z
+		ARG 1 stack
+		ARG 2 world
+		ARG 3 state
+		ARG 4 pos
+	METHOD a getBlockBreakingSpeed (Lava;Lbno;)F
+		ARG 1 stack
+	METHOD a isEffectiveOn (Lbno;)Z

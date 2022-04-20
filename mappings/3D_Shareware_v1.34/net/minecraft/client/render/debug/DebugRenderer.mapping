@@ -1,0 +1,30 @@
+CLASS dnq net/minecraft/client/render/debug/DebugRenderer
+	CLASS dnq$a Renderer
+		METHOD a render (J)V
+	FIELD a pathfindingDebugRenderer Ldnv;
+	FIELD b waterDebugRenderer Ldnq$a;
+	FIELD c chunkBorderDebugRenderer Ldnq$a;
+	FIELD d heightmapDebugRenderer Ldnq$a;
+	FIELD e voxelDebugRenderer Ldnq$a;
+	FIELD f neighborUpdateDebugRenderer Ldnq$a;
+	FIELD g caveDebugRenderer Ldnm;
+	FIELD h structureDebugRenderer Ldnx;
+	FIELD i skyLightDebugRenderer Ldnq$a;
+	FIELD j worldGenAttemptDebugRenderer Ldnq$a;
+	FIELD k blockOutlineDebugRenderer Ldnq$a;
+	FIELD l chunkLoadingDebugRenderer Ldnq$a;
+	FIELD m pointsOfInterestDebugRenderer Ldny;
+	FIELD n goalSelectorDebugRenderer Ldnr;
+	FIELD o showChunkBorder Z
+	FIELD p showPathfinding Z
+	FIELD q showWater Z
+	FIELD r showHeightmap Z
+	FIELD s showVoxels Z
+	FIELD t showNeighborUpdates Z
+	FIELD u showCaves Z
+	FIELD v showStructures Z
+	FIELD w showSkyLight Z
+	FIELD x showWorldGenAttempts Z
+	METHOD a shouldRender ()Z
+	METHOD a renderDebuggers (J)V
+	METHOD b toggleShowChunkBorder ()Z

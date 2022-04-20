@@ -1,0 +1,5 @@
+CLASS ayw net/minecraft/container/HorseContainer
+	FIELD c playerInv Lags;
+	FIELD d entity Larr;
+	METHOD <init> (ILavv;Lags;Larr;)V
+		ARG 1 syncId

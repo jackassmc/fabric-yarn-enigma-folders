@@ -1,0 +1,471 @@
+CLASS bmj net/minecraft/block/Block
+	CLASS bmj$a NeighborGroup
+		FIELD a self Lbvh;
+		FIELD b other Lbvh;
+		FIELD c facing Lfa;
+		METHOD <init> (Lbvh;Lbvh;Lfa;)V
+			ARG 1 self
+			ARG 2 other
+			ARG 3 facing
+		METHOD equals (Ljava/lang/Object;)Z
+			ARG 1 o
+	CLASS bmj$b OffsetType
+		FIELD a NONE Lbmj$b;
+		FIELD b XZ Lbmj$b;
+		FIELD c XYZ Lbmj$b;
+	CLASS bmj$c Settings
+		FIELD a material Lclb;
+		FIELD b materialColor Lclc;
+		FIELD c collidable Z
+		FIELD d soundGroup Lbrm;
+		FIELD e luminance I
+		FIELD f resistance F
+		FIELD g hardness F
+		FIELD h randomTicks Z
+		FIELD i friction F
+		FIELD j dropTableId Lqs;
+		FIELD k dynamicBounds Z
+		METHOD <init> (Lclb;Lclc;)V
+			ARG 1 material
+			ARG 2 materialColor
+		METHOD a noCollision ()Lbmj$c;
+		METHOD a friction (F)Lbmj$c;
+			ARG 1 friction
+		METHOD a strength (FF)Lbmj$c;
+			ARG 1 hardness
+			ARG 2 resistance
+		METHOD a lightLevel (I)Lbmj$c;
+			ARG 1 luminance
+		METHOD a copy (Lbmj;)Lbmj$c;
+			ARG 0 source
+		METHOD a sounds (Lbrm;)Lbmj$c;
+			ARG 1 soundGroup
+		METHOD a of (Lclb;)Lbmj$c;
+			ARG 0 material
+		METHOD a of (Lclb;Lbaw;)Lbmj$c;
+			ARG 0 material
+			ARG 1 color
+		METHOD a of (Lclb;Lclc;)Lbmj$c;
+			ARG 0 material
+			ARG 1 color
+		METHOD b breakInstantly ()Lbmj$c;
+		METHOD b strength (F)Lbmj$c;
+			ARG 1 strength
+		METHOD b dropsLike (Lbmj;)Lbmj$c;
+			ARG 1 source
+		METHOD c ticksRandomly ()Lbmj$c;
+		METHOD d hasDynamicBounds ()Lbmj$c;
+		METHOD e dropsNothing ()Lbmj$c;
+	FIELD a FACINGS [Lfa;
+	FIELD d friction F
+	FIELD e defaultState Lbvh;
+	FIELD f dynamicBounds Z
+	FIELD g dropTableId Lqs;
+	FIELD h translationKey Ljava/lang/String;
+	FIELD i cachedItem Lbbu;
+	FIELD j FACE_CULL_MAP Ljava/lang/ThreadLocal;
+	FIELD l LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD m STATE_IDS Lfe;
+	FIELD n lightLevel I
+	FIELD o hardness F
+	FIELD p resistance F
+	FIELD q randomTicks Z
+	FIELD r soundGroup Lbrm;
+	FIELD s material Lclb;
+	FIELD t materialColor Lclc;
+	FIELD u stateFactory Lbvi;
+	FIELD v collidable Z
+	METHOD <init> (Lbmj$c;)V
+		ARG 1 settings
+	METHOD S_ getOffsetType ()Lbmj$b;
+	METHOD T_ canMobSpawnInside ()Z
+	METHOD a createCuboidShape (DDDDDD)Lcsn;
+		ARG 0 xMin
+		ARG 2 yMin
+		ARG 4 zMin
+		ARG 6 xMax
+		ARG 8 yMax
+		ARG 10 zMax
+	METHOD a getStateFromRawId (I)Lbvh;
+		ARG 0 stateId
+	METHOD a getPlacementState (Lbad;)Lbvh;
+		ARG 1 ctx
+	METHOD a addStacksForDisplay (Lbaq;Lfj;)V
+		ARG 1 group
+		ARG 2 list
+	METHOD a getBlockFromItem (Lbbu;)Lbmj;
+		ARG 0 item
+	METHOD a buildTooltip (Lbbz;Lbgq;Ljava/util/List;Lbdh;)V
+		ARG 1 stack
+		ARG 2 view
+		ARG 3 tooltip
+		ARG 4 options
+	METHOD a onEntityLand (Lbgq;Laie;)V
+		ARG 1 world
+		ARG 2 entity
+	METHOD a getPickStack (Lbgq;Lev;Lbvh;)Lbbz;
+		ARG 1 world
+		ARG 2 pos
+		ARG 3 state
+	METHOD a shouldDropItemsOnExplosion (Lbgy;)Z
+		ARG 1 explosion
+	METHOD a afterBreak (Lbhf;Lavw;Lev;Lbvh;Lbtk;Lbbz;)V
+		ARG 1 world
+		ARG 2 player
+		ARG 3 pos
+		ARG 4 state
+		ARG 5 blockEntity
+		ARG 6 stack
+	METHOD a onProjectileHit (Lbhf;Lbvh;Lcrp;Laie;)V
+		ARG 1 world
+		ARG 2 state
+		ARG 3 hitResult
+		ARG 4 entity
+	METHOD a dropExperience (Lbhf;Lev;I)V
+		ARG 1 world
+		ARG 2 pos
+		ARG 3 size
+	METHOD a onSteppedOn (Lbhf;Lev;Laie;)V
+		ARG 1 world
+		ARG 2 pos
+		ARG 3 entity
+	METHOD a onLandedUpon (Lbhf;Lev;Laie;F)V
+		ARG 1 world
+		ARG 2 pos
+		ARG 3 entity
+		ARG 4 distance
+	METHOD a dropStack (Lbhf;Lev;Lbbz;)V
+		ARG 0 world
+		ARG 1 pos
+		ARG 2 stack
+	METHOD a onDestroyedByExplosion (Lbhf;Lev;Lbgy;)V
+		ARG 1 world
+		ARG 2 pos
+		ARG 3 explosion
+	METHOD a onPlaced (Lbhf;Lev;Lbvh;Lain;Lbbz;)V
+		ARG 1 world
+		ARG 2 pos
+		ARG 3 state
+		ARG 4 placer
+		ARG 5 itemStack
+	METHOD a onBreak (Lbhf;Lev;Lbvh;Lavw;)V
+		ARG 1 world
+		ARG 2 pos
+		ARG 3 state
+		ARG 4 player
+	METHOD a onBroken (Lbhg;Lev;Lbvh;)V
+		ARG 1 world
+		ARG 2 pos
+		ARG 3 state
+	METHOD a getTickRate (Lbhi;)I
+		ARG 1 world
+	METHOD a isSolidSmallSquare (Lbhi;Lev;Lfa;)Z
+		ARG 0 world
+		ARG 1 pos
+		ARG 2 side
+	METHOD a canConnect (Lbmj;)Z
+		ARG 0 block
+	METHOD a getLuminance (Lbvh;)I
+		ARG 1 state
+	METHOD a calcBlockBreakingDelta (Lbvh;Lavw;Lbgq;Lev;)F
+		ARG 1 state
+		ARG 2 player
+		ARG 3 world
+		ARG 4 pos
+	METHOD a canReplace (Lbvh;Lbad;)Z
+		ARG 1 state
+		ARG 2 ctx
+	METHOD a getBlockBrightness (Lbvh;Lbgo;Lev;)I
+		ARG 1 state
+		ARG 2 view
+		ARG 3 pos
+	METHOD a getAmbientOcclusionLightLevel (Lbvh;Lbgq;Lev;)F
+		ARG 1 state
+		ARG 2 view
+		ARG 3 pos
+	METHOD a allowsSpawning (Lbvh;Lbgq;Lev;Laii;)Z
+		ARG 1 state
+	METHOD a canPlaceAtSide (Lbvh;Lbgq;Lev;Lcnf;)Z
+		ARG 1 world
+		ARG 2 view
+		ARG 3 pos
+		ARG 4 env
+	METHOD a getOutlineShape (Lbvh;Lbgq;Lev;Lcry;)Lcsn;
+		ARG 1 state
+		ARG 2 view
+		ARG 3 pos
+	METHOD a getWeakRedstonePower (Lbvh;Lbgq;Lev;Lfa;)I
+		ARG 1 state
+		ARG 2 view
+		ARG 3 pos
+		ARG 4 facing
+	METHOD a getComparatorOutput (Lbvh;Lbhf;Lev;)I
+		ARG 1 state
+		ARG 2 world
+		ARG 3 pos
+	METHOD a onBlockAction (Lbvh;Lbhf;Lev;II)Z
+		ARG 1 state
+		ARG 2 world
+		ARG 3 pos
+		ARG 4 type
+		ARG 5 data
+	METHOD a onEntityCollision (Lbvh;Lbhf;Lev;Laie;)V
+		ARG 1 state
+		ARG 2 world
+		ARG 3 pos
+		ARG 4 entity
+	METHOD a onBlockBreakStart (Lbvh;Lbhf;Lev;Lavw;)V
+		ARG 1 state
+		ARG 2 world
+		ARG 3 pos
+		ARG 4 player
+	METHOD a activate (Lbvh;Lbhf;Lev;Lavw;Lagy;Lcrp;)Z
+		ARG 1 state
+		ARG 2 world
+		ARG 3 pos
+		ARG 4 player
+		ARG 5 hand
+	METHOD a onStacksDropped (Lbvh;Lbhf;Lev;Lbbz;)V
+		ARG 1 state
+		ARG 2 world
+		ARG 3 pos
+		ARG 4 stack
+	METHOD a neighborUpdate (Lbvh;Lbhf;Lev;Lbmj;Lev;Z)V
+		ARG 1 state
+		ARG 2 world
+		ARG 3 pos
+		ARG 4 block
+		ARG 5 neighborPos
+	METHOD a dropStacks (Lbvh;Lbhf;Lev;Lbtk;)V
+		ARG 0 state
+		ARG 1 world
+		ARG 2 pos
+		ARG 3 blockEntity
+	METHOD a dropStacks (Lbvh;Lbhf;Lev;Lbtk;Laie;Lbbz;)V
+		ARG 0 state
+		ARG 1 world
+		ARG 2 pos
+		ARG 3 blockEntity
+		ARG 4 entity
+		ARG 5 stack
+	METHOD a onBlockRemoved (Lbvh;Lbhf;Lev;Lbvh;Z)V
+		ARG 1 state
+		ARG 2 world
+		ARG 3 pos
+		ARG 4 newState
+	METHOD a randomDisplayTick (Lbvh;Lbhf;Lev;Ljava/util/Random;)V
+		ARG 1 state
+		ARG 2 world
+		ARG 3 pos
+		ARG 4 rnd
+	METHOD a updateNeighborStates (Lbvh;Lbhg;Lev;I)V
+		ARG 1 state
+		ARG 2 world
+		ARG 3 pos
+		ARG 4 flags
+	METHOD a canPlaceAt (Lbvh;Lbhi;Lev;)Z
+		ARG 1 state
+		ARG 2 world
+		ARG 3 pos
+	METHOD a mirror (Lbvh;Lbpu;)Lbvh;
+		ARG 1 state
+		ARG 2 mirror
+	METHOD a rotate (Lbvh;Lbqu;)Lbvh;
+		ARG 1 state
+		ARG 2 rotation
+	METHOD a pushEntitiesUpBeforeBlockChange (Lbvh;Lbvh;Lbhf;Lev;)Lbvh;
+		ARG 0 from
+		ARG 1 to
+		ARG 2 world
+		ARG 3 pos
+	METHOD a replaceBlock (Lbvh;Lbvh;Lbhg;Lev;I)V
+		ARG 0 state
+		ARG 1 newState
+		ARG 2 world
+		ARG 3 pos
+		ARG 4 flags
+	METHOD a skipRenderingSide (Lbvh;Lbvh;Lfa;)Z
+		ARG 1 state
+		ARG 2 neighbor
+		ARG 3 facing
+	METHOD a getDroppedStacks (Lbvh;Lcoj$a;)Ljava/util/List;
+		ARG 1 state
+		ARG 2 builder
+	METHOD a getRenderingSeed (Lbvh;Lev;)J
+		ARG 1 state
+		ARG 2 pos
+	METHOD a getStateForNeighborUpdate (Lbvh;Lfa;Lbvh;Lbhg;Lev;Lev;)Lbvh;
+		ARG 1 state
+		ARG 2 facing
+		ARG 3 neighborState
+		ARG 4 world
+		ARG 5 pos
+		ARG 6 neighborPos
+	METHOD a getDroppedStacks (Lbvh;Lvf;Lev;Lbtk;)Ljava/util/List;
+		ARG 0 state
+		ARG 1 world
+		ARG 2 pos
+		ARG 3 blockEntity
+	METHOD a getDroppedStacks (Lbvh;Lvf;Lev;Lbtk;Laie;Lbbz;)Ljava/util/List;
+		ARG 0 state
+		ARG 1 world
+		ARG 2 pos
+		ARG 3 blockEntity
+		ARG 4 entity
+		ARG 5 stack
+	METHOD a appendProperties (Lbvi$a;)V
+		ARG 1 builder
+	METHOD a isShapeFullCube (Lcsn;)Z
+		ARG 0 shape
+	METHOD a isFaceFullSquare (Lcsn;Lfa;)Z
+		ARG 0 shape
+		ARG 1 side
+	METHOD a matches (Lza;)Z
+		ARG 1 tag
+	METHOD b isNaturalStone (Lbmj;)Z
+		ARG 0 block
+	METHOD b hasComparatorOutput (Lbvh;)Z
+		ARG 1 state
+	METHOD b isTranslucent (Lbvh;Lbgq;Lev;)Z
+		ARG 1 state
+		ARG 2 view
+		ARG 3 pos
+	METHOD b getCollisionShape (Lbvh;Lbgq;Lev;Lcry;)Lcsn;
+		ARG 1 state
+		ARG 2 view
+		ARG 3 pos
+		ARG 4 ePos
+	METHOD b getStrongRedstonePower (Lbvh;Lbgq;Lev;Lfa;)I
+		ARG 1 state
+		ARG 2 view
+		ARG 3 pos
+		ARG 4 facing
+	METHOD b createContainerProvider (Lbvh;Lbhf;Lev;)Lahc;
+		ARG 1 state
+		ARG 2 world
+		ARG 3 pos
+	METHOD b onBlockAdded (Lbvh;Lbhf;Lev;Lbvh;Z)V
+		ARG 1 state
+		ARG 2 world
+		ARG 3 pos
+		ARG 4 oldState
+	METHOD b onScheduledTick (Lbvh;Lbhf;Lev;Ljava/util/Random;)V
+		ARG 1 state
+		ARG 2 world
+		ARG 3 pos
+		ARG 4 random
+	METHOD b getRenderingState (Lbvh;Lbhg;Lev;)Lbvh;
+		ARG 0 state
+		ARG 1 world
+		ARG 2 pos
+	METHOD b (Lbvh;Lbhg;Lev;I)V
+		ARG 1 state
+		ARG 2 world
+		ARG 3 pos
+		ARG 4 flags
+	METHOD b dropStacks (Lbvh;Lcoj$a;)V
+		ARG 0 state
+		ARG 1 builder
+	METHOD c getRenderLayer ()Lbgr;
+	METHOD c isSolidMediumSquare (Lbgq;Lev;)Z
+		ARG 0 world
+		ARG 1 pos
+	METHOD c onRainTick (Lbhf;Lev;)V
+		ARG 1 world
+		ARG 2 pos
+	METHOD c isNaturalDirt (Lbmj;)Z
+		ARG 0 block
+	METHOD c getRenderType (Lbvh;)Lbqr;
+		ARG 1 state
+	METHOD c canSuffocate (Lbvh;Lbgq;Lev;)Z
+		ARG 1 state
+		ARG 2 view
+		ARG 3 pos
+	METHOD c shouldDrawSide (Lbvh;Lbgq;Lev;Lfa;)Z
+		ARG 0 state
+		ARG 1 view
+		ARG 2 pos
+		ARG 3 facing
+	METHOD c dropStacks (Lbvh;Lbhf;Lev;)V
+		ARG 0 state
+		ARG 1 world
+		ARG 2 pos
+	METHOD c onRandomTick (Lbvh;Lbhf;Lev;Ljava/util/Random;)V
+		ARG 1 state
+		ARG 2 world
+		ARG 3 pos
+		ARG 4 random
+	METHOD d hasBlockEntityBreakingRender (Lbvh;)Z
+		ARG 1 state
+	METHOD d isSimpleFullBlock (Lbvh;Lbgq;Lev;)Z
+		ARG 1 state
+		ARG 2 view
+		ARG 3 pos
+	METHOD d isSolidFullSquare (Lbvh;Lbgq;Lev;Lfa;)Z
+		ARG 0 state
+		ARG 1 world
+		ARG 2 pos
+		ARG 3 side
+	METHOD e isAir (Lbvh;)Z
+		ARG 1 state
+	METHOD e getMapColor (Lbvh;Lbgq;Lev;)Lclc;
+		ARG 1 state
+		ARG 2 view
+		ARG 3 pos
+	METHOD f isFullBoundsCubeForCulling (Lbvh;)Z
+		ARG 1 state
+	METHOD f getHardness (Lbvh;Lbgq;Lev;)F
+		ARG 1 state
+		ARG 2 world
+		ARG 3 pos
+	METHOD g getFluidState (Lbvh;)Lckx;
+		ARG 1 state
+	METHOD g shouldPostProcess (Lbvh;Lbgq;Lev;)Z
+		ARG 1 state
+		ARG 2 view
+		ARG 3 pos
+	METHOD h hasBlockEntity ()Z
+	METHOD h emitsRedstonePower (Lbvh;)Z
+		ARG 1 state
+	METHOD h (Lbvh;Lbgq;Lev;)Lcsn;
+		ARG 1 state
+		ARG 2 view
+		ARG 3 pos
+	METHOD i getDropTableId ()Lqs;
+	METHOD i getPistonBehavior (Lbvh;)Lcld;
+		ARG 1 state
+	METHOD i getRayTraceShape (Lbvh;Lbgq;Lev;)Lcsn;
+		ARG 1 state
+		ARG 2 view
+		ARG 3 pos
+	METHOD j getBlastResistance ()F
+	METHOD j isFullOpaque (Lbvh;Lbgq;Lev;)Z
+		ARG 1 state
+		ARG 2 view
+		ARG 3 pos
+	METHOD k getTextComponent ()Ljm;
+	METHOD k getRawIdFromState (Lbvh;)I
+		ARG 0 state
+	METHOD k getLightSubtracted (Lbvh;Lbgq;Lev;)I
+		ARG 1 state
+		ARG 2 view
+		ARG 3 pos
+	METHOD l getTranslationKey ()Ljava/lang/String;
+	METHOD l getMaterial (Lbvh;)Lclb;
+		ARG 1 state
+	METHOD l getOffsetPos (Lbvh;Lbgq;Lev;)Lcrt;
+		ARG 1 state
+		ARG 2 view
+		ARG 3 blockPos
+	METHOD m getFrictionCoefficient ()F
+	METHOD m hasRandomTicks (Lbvh;)Z
+		ARG 1 state
+	METHOD n getStateFactory ()Lbvi;
+	METHOD n (Lbvh;)Z
+		ARG 1 state
+	METHOD o getDefaultState ()Lbvh;
+	METHOD o setDefaultState (Lbvh;)V
+		ARG 1 state
+	METHOD p hasDynamicBounds ()Z
+	METHOD p getSoundGroup (Lbvh;)Lbrm;
+		ARG 1 state

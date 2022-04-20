@@ -1,0 +1,6 @@
+CLASS blr net/minecraft/block/AbstractBannerBlock
+	FIELD a color Lbbb;
+	METHOD <init> (Lbbb;Lbmr$c;)V
+		ARG 1 color
+		ARG 2 settings
+	METHOD b getColor ()Lbbb;

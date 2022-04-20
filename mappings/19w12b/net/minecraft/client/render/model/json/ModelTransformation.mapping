@@ -1,0 +1,50 @@
+CLASS dko net/minecraft/client/render/model/json/ModelTransformation
+	CLASS dko$a Deserializer
+		METHOD a parseModelTransformation (Lcom/google/gson/JsonDeserializationContext;Lcom/google/gson/JsonObject;Ljava/lang/String;)Ldkn;
+			ARG 1 ctx
+			ARG 2 json
+			ARG 3 key
+		METHOD a (Lcom/google/gson/JsonElement;Ljava/lang/reflect/Type;Lcom/google/gson/JsonDeserializationContext;)Ldko;
+			ARG 1 element
+			ARG 2 type
+			ARG 3 context
+	CLASS dko$b Type
+		FIELD i FIXED Ldko$b;
+	FIELD a NONE Ldko;
+	FIELD b globalTranslationX F
+	FIELD c globalTranslationY F
+	FIELD d globalTranslationZ F
+	FIELD e globalRotationX F
+	FIELD f globalRotationY F
+	FIELD g globalRotationZ F
+	FIELD h globalScaleOffsetX F
+	FIELD i globalScaleOffsetY F
+	FIELD j globalScaleOffsetZ F
+	FIELD k thirdPersonLeftHand Ldkn;
+	FIELD l thirdPersonRightHand Ldkn;
+	FIELD m firstPersonLeftHand Ldkn;
+	FIELD n firstPersonRightHand Ldkn;
+	FIELD o head Ldkn;
+	FIELD p gui Ldkn;
+	FIELD q ground Ldkn;
+	FIELD r fixed Ldkn;
+	METHOD <init> (Ldkn;Ldkn;Ldkn;Ldkn;Ldkn;Ldkn;Ldkn;Ldkn;)V
+		ARG 1 thirdPersonLeftHand
+		ARG 2 thirdPersonRightHand
+		ARG 3 firstPersonLeftHand
+		ARG 4 firstPersonRightHand
+		ARG 5 head
+		ARG 6 gui
+		ARG 7 ground
+		ARG 8 fixed
+	METHOD <init> (Ldko;)V
+		ARG 1 other
+	METHOD a applyGl (Ldkn;Z)V
+		ARG 0 transform
+		ARG 1 leftyFlip
+	METHOD a applyGl (Ldko$b;)V
+		ARG 1 type
+	METHOD b getTransformation (Ldko$b;)Ldkn;
+		ARG 1 type
+	METHOD c isTransformationDefined (Ldko$b;)Z
+		ARG 1 type

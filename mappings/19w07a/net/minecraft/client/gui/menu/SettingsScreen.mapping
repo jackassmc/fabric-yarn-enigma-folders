@@ -1,0 +1,8 @@
+CLASS cun net/minecraft/client/gui/menu/SettingsScreen
+	FIELD a title Ljava/lang/String;
+	FIELD g parent Lcut;
+	FIELD h settings Lcqp;
+	FIELD i difficultyButton Lcrm;
+	FIELD s lockDifficultyButton Lcrv;
+	METHOD <init> (Lcut;Lcqp;)V
+		ARG 1 parent

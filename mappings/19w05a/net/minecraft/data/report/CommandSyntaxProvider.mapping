@@ -1,0 +1,2 @@
+CLASS gj net/minecraft/data/report/CommandSyntaxProvider
+	FIELD c root Lfy;

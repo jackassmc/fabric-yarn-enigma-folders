@@ -1,0 +1,45 @@
+CLASS cmw net/minecraft/world/loot/context/LootContext
+	CLASS cmw$a Builder
+		FIELD a world Lvc;
+		FIELD b parameters Ljava/util/Map;
+		FIELD c drops Ljava/util/Map;
+		FIELD d random Ljava/util/Random;
+		FIELD e luck F
+		METHOD a getWorld ()Lvc;
+		METHOD a setLuck (F)Lcmw$a;
+		METHOD a setRandom (J)Lcmw$a;
+		METHOD a setRandom (JLjava/util/Random;)Lcmw$a;
+		METHOD a get (Lcov;)Ljava/lang/Object;
+		METHOD a put (Lcov;Ljava/lang/Object;)Lcmw$a;
+		METHOD a build (Lcow;)Lcmw;
+		METHOD a setRandom (Ljava/util/Random;)Lcmw$a;
+		METHOD a putDrop (Lqp;Lcmw$b;)Lcmw$a;
+		METHOD b getNullable (Lcov;)Ljava/lang/Object;
+		METHOD b putNullable (Lcov;Ljava/lang/Object;)Lcmw$a;
+	CLASS cmw$b Dropper
+	CLASS cmw$c EntityTarget
+		CLASS cmw$c$a Serializer
+		FIELD a THIS Lcmw$c;
+		FIELD b KILLER Lcmw$c;
+		FIELD c DIRECT_KILLER Lcmw$c;
+		FIELD d KILLER_PLAYER Lcmw$c;
+		FIELD e type Ljava/lang/String;
+		FIELD f identifier Lcov;
+		METHOD a getIdentifier ()Lcov;
+		METHOD a fromString (Ljava/lang/String;)Lcmw$c;
+	FIELD a random Ljava/util/Random;
+	FIELD b luck F
+	FIELD c world Lvc;
+	FIELD d manager Lcnb;
+	FIELD e suppliers Ljava/util/Set;
+	FIELD f parameters Ljava/util/Map;
+	FIELD g drops Ljava/util/Map;
+	METHOD a getLootManager ()Lcnb;
+	METHOD a addDrop (Lcmz;)Z
+	METHOD a hasParameter (Lcov;)Z
+	METHOD a drop (Lqp;Ljava/util/function/Consumer;)V
+	METHOD b getRandom ()Ljava/util/Random;
+	METHOD b removeDrop (Lcmz;)V
+	METHOD c getLuck ()F
+	METHOD c get (Lcov;)Ljava/lang/Object;
+	METHOD d getWorld ()Lvc;

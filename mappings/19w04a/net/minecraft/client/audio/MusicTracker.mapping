@@ -1,0 +1,20 @@
+CLASS dro net/minecraft/client/audio/MusicTracker
+	CLASS dro$a MusicType
+		FIELD a MENU Ldro$a;
+		FIELD b GAME Ldro$a;
+		FIELD c CREATIVE Ldro$a;
+		FIELD d CREDITS Ldro$a;
+		FIELD e NETHER Ldro$a;
+		FIELD f DRAGON Ldro$a;
+		FIELD g END Ldro$a;
+		FIELD i sound Lxr;
+		FIELD j minDelay I
+		FIELD k maxDelay I
+		METHOD a getSound ()Lxr;
+		METHOD b getMinDelay ()I
+		METHOD c getMaxDelay ()I
+	FIELD a random Ljava/util/Random;
+	FIELD b client Lcpy;
+	FIELD c current Ldqv;
+	FIELD d timeUntilNextSong I
+	METHOD a play (Ldro$a;)V

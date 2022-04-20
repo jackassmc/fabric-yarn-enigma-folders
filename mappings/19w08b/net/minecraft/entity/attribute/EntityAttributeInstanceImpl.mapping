@@ -1,0 +1,4 @@
+CLASS aip net/minecraft/entity/attribute/EntityAttributeInstanceImpl
+	FIELD a container Laio;
+	FIELD b attribute Laik;
+	FIELD f baseValue D

@@ -1,0 +1,2 @@
+CLASS dwq net/minecraft/client/sound/GuardianAttackSoundInstance
+	FIELD o guardian Laug;

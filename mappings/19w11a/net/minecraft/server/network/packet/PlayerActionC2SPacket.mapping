@@ -1,0 +1,8 @@
+CLASS om net/minecraft/server/network/packet/PlayerActionC2SPacket
+	CLASS om$a net/minecraft/server/network/packet/PlayerActionC2SPacket$Action
+	FIELD a pos Leu;
+	FIELD b direction Lez;
+	FIELD c action Lom$a;
+	METHOD b getPos ()Leu;
+	METHOD c getDirection ()Lez;
+	METHOD d getAction ()Lom$a;

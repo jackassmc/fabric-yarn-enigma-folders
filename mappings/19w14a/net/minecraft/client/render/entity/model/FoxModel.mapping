@@ -1,0 +1,11 @@
+CLASS ddz net/minecraft/client/render/entity/model/FoxModel
+	FIELD a head Ldgl;
+	FIELD b leftEar Ldgl;
+	FIELD f rightEar Ldgl;
+	FIELD g nose Ldgl;
+	FIELD h body Ldgl;
+	FIELD i frontLeftLeg Ldgl;
+	FIELD j frontRightLeg Ldgl;
+	FIELD k rearLeftLeg Ldgl;
+	FIELD l rearRightLeg Ldgl;
+	FIELD m tail Ldgl;

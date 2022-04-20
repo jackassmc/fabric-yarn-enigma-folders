@@ -1,0 +1,2 @@
+CLASS dah net/minecraft/client/texture/ImageFilterSkinRemapper
+	METHOD a filterImage (Lckq;)Lckq;

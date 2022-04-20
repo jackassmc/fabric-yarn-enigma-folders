@@ -1,0 +1,7 @@
+CLASS ant net/minecraft/entity/ai/goal/MoveToRaidCenterGoal
+	FIELD a actor Laxg;
+	METHOD <init> (Laxg;)V
+		ARG 1 actor
+	METHOD a includeFreeRaiders (Laxf;)V
+		ARG 1 raid
+	METHOD g moveToAlternativePosition ()V

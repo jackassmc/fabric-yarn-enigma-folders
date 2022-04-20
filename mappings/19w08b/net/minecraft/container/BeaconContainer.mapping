@@ -1,0 +1,13 @@
+CLASS atx net/minecraft/container/BeaconContainer
+	CLASS atx$a SlotPayment
+	FIELD c paymentInv Laga;
+	FIELD d paymentSlot Latx$a;
+	FIELD e context Laue;
+	FIELD f propertyDelegate Laud;
+	METHOD <init> (ILaga;)V
+		ARG 1 syncId
+	METHOD <init> (ILaga;Laud;Laue;)V
+		ARG 1 syncId
+	METHOD f getPrimaryEffect ()Lahe;
+	METHOD g getSecondaryEffect ()Lahe;
+	METHOD h hasPayment ()Z

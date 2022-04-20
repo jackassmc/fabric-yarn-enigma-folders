@@ -1,0 +1,9 @@
+CLASS bbc net/minecraft/item/DyeItem
+	FIELD a DYES Ljava/util/Map;
+	FIELD b color Lbbb;
+	METHOD <init> (Lbbb;Lbbz$a;)V
+		ARG 1 color
+		ARG 2 settings
+	METHOD a byColor (Lbbb;)Lbbc;
+		ARG 0 color
+	METHOD d getColor ()Lbbb;

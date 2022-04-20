@@ -1,0 +1,9 @@
+CLASS aji net/minecraft/client/render/block/BlockRenderLayer
+	FIELD a SOLID Laji;
+	FIELD b MIPPED_CUTOUT Laji;
+	FIELD c CUTOUT Laji;
+	FIELD d TRANSLUCENT Laji;
+	FIELD e name Ljava/lang/String;
+	METHOD <init> (Ljava/lang/String;ILjava/lang/String;)V
+		ARG 0 name
+	METHOD values values ()[Laji;

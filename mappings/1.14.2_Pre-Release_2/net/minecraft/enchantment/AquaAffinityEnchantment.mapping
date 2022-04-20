@@ -1,0 +1,4 @@
+CLASS bgh net/minecraft/enchantment/AquaAffinityEnchantment
+	METHOD <init> (Lbfj$a;[Lain;)V
+		ARG 1 weight
+		ARG 2 slotTypes

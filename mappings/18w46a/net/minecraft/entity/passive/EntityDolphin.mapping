@@ -1,0 +1,41 @@
+CLASS alj net/minecraft/entity/passive/EntityDolphin
+	CLASS alj$a
+		METHOD a tick ()V
+	CLASS alj$b
+		METHOD a canStart ()Z
+		METHOD b shouldContinue ()Z
+		METHOD c start ()V
+		METHOD d onRemove ()V
+		METHOD e tick ()V
+		METHOD f canStop ()Z
+	CLASS alj$c
+		METHOD a canStart ()Z
+		METHOD b shouldContinue ()Z
+		METHOD c start ()V
+		METHOD d onRemove ()V
+		METHOD e tick ()V
+	CLASS alj$d
+		METHOD a canStart ()Z
+		METHOD c start ()V
+		METHOD d onRemove ()V
+		METHOD e tick ()V
+	METHOD D getSoundAmbient ()Lxb;
+	METHOD S_ update ()V
+	METHOD a canBeLeashedBy (Laqa;)Z
+	METHOD a interactMob (Laqa;Laev;)Z
+		ARG 1 player
+	METHOD a (Lbaf;Laeu;Lago;Lagv;Lho;)Lagv;
+		ARG 3 difficulty
+	METHOD a deserializeCustomData (Lho;)V
+	METHOD af getSoundSwim ()Lxb;
+	METHOD ag getSoundSplash ()Lxb;
+	METHOD b createNavigation (Lbae;)Lakk;
+	METHOD b serializeCustomData (Lho;)V
+	METHOD bH getEyeHeight ()F
+	METHOD bh getMaxBreath ()I
+	METHOD cb initAttributes ()V
+	METHOD cw getSoundDeath ()Lxb;
+	METHOD e getSoundHurt (Lafl;)Lxb;
+	METHOD n initAi ()V
+	METHOD n canStartRiding (Lagc;)Z
+	METHOD y_ initDataTracker ()V

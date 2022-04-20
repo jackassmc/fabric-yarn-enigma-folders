@@ -1,0 +1,6 @@
+CLASS cc net/minecraft/server/command/CommandOutput
+	FIELD a_ DUMMY Lcc;
+	METHOD H_ shouldBroadcastConsoleToOps ()Z
+	METHOD a sendCommandFeedback ()Z
+	METHOD a appendCommandFeedback (Ljm;)V
+	METHOD b shouldTrackOutput ()Z

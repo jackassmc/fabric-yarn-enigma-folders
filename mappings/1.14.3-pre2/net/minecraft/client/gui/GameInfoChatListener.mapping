@@ -1,0 +1,2 @@
+CLASS cwl net/minecraft/client/gui/GameInfoChatListener
+	FIELD a client Lcvn;

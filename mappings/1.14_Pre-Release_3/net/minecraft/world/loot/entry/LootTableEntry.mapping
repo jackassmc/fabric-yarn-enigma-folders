@@ -1,0 +1,16 @@
+CLASS cpc net/minecraft/world/loot/entry/LootTableEntry
+	CLASS cpc$a Serializer
+	FIELD c id Lqs;
+	METHOD <init> (Lqs;II[Lcqu;[Lcpr;)V
+		ARG 1 id
+		ARG 2 weight
+		ARG 3 quality
+		ARG 4 conditions
+		ARG 5 functions
+	METHOD a builder (Lqs;)Lcpb$a;
+		ARG 0 id
+	METHOD a (Lqs;II[Lcqu;[Lcpr;)Lcpb;
+		ARG 1 weight
+		ARG 2 quality
+		ARG 3 conditions
+		ARG 4 functions

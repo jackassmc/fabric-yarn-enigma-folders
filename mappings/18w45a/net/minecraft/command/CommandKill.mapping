@@ -1,0 +1,2 @@
+CLASS rr net/minecraft/command/CommandKill
+	METHOD a register (Lcom/mojang/brigadier/CommandDispatcher;)V

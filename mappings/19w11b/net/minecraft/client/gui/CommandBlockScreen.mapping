@@ -1,0 +1,14 @@
+CLASS czj net/minecraft/client/gui/CommandBlockScreen
+	FIELD A modeButton Lcut;
+	FIELD B conditionalModeButton Lcut;
+	FIELD C redstoneTriggerButton Lcut;
+	FIELD D mode Lbse$a;
+	FIELD E conditional Z
+	FIELD F autoActivate Z
+	FIELD z blockEntity Lbse;
+	METHOD <init> (Lbse;)V
+		ARG 1 blockEntity
+	METHOD A updateConditionalMode ()V
+	METHOD B updateActivationMode ()V
+	METHOD y updateMode ()V
+	METHOD z cycleType ()V

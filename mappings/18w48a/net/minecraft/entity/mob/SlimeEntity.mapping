@@ -1,0 +1,40 @@
+CLASS apr net/minecraft/entity/mob/SlimeEntity
+	CLASS apr$a
+		METHOD a canStart ()Z
+		METHOD b shouldContinue ()Z
+		METHOD c start ()V
+		METHOD e tick ()V
+	CLASS apr$b
+		METHOD a canStart ()Z
+		METHOD e tick ()V
+	CLASS apr$c
+		METHOD a canStart ()Z
+		METHOD e tick ()V
+	CLASS apr$d
+		METHOD a tick ()V
+	CLASS apr$e
+		METHOD a canStart ()Z
+		METHOD e tick ()V
+	FIELD bC SLIME_SIZE Lpn;
+	METHOD <init> (Lagm;Lbaq;)V
+		ARG 1 type
+		ARG 2 world
+	METHOD F getLootTableId ()Lpy;
+	METHOD R getType ()Lagm;
+	METHOD U_ update ()V
+	METHOD X invalidate ()V
+	METHOD a (Lbar;Lafa;Lagu;Lahc;Lhp;)Lahc;
+		ARG 3 difficulty
+	METHOD a deserializeCustomData (Lhp;)V
+		ARG 1 tag
+	METHOD a onTrackedDataSet (Lpn;)V
+	METHOD b serializeCustomData (Lhp;)V
+		ARG 1 tag
+	METHOD bH getEyeHeight ()F
+	METHOD cI getSoundVolume ()F
+	METHOD cw getSoundDeath ()Lxf;
+	METHOD dy getSize ()I
+	METHOD e getSoundHurt (Lafr;)Lxf;
+	METHOD i pushAwayFrom (Lagi;)V
+	METHOD n initAi ()V
+	METHOD x_ initDataTracker ()V

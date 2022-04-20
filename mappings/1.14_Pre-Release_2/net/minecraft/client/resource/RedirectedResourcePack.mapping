@@ -1,0 +1,6 @@
+CLASS dun net/minecraft/client/resource/RedirectedResourcePack
+	FIELD a NEW_TO_OLD_MAP Ljava/util/Map;
+	FIELD b parent Lwg;
+	FIELD c idMap Ljava/util/Map;
+	METHOD a getMetadataLocation (Lqs;)Lqs;
+	METHOD b getRedirectedId (Lqs;)Lqs;

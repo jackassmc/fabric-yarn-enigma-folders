@@ -1,0 +1,22 @@
+CLASS ato net/minecraft/item/ArmorItem
+	CLASS ato$1
+		METHOD a doDispense (Leu;Lavu;)Lavu;
+			ARG 0 location
+			ARG 1 stack
+	FIELD a DISPENSER_BEHAVIOR Lfa;
+	FIELD c protection I
+	FIELD d toughness F
+	FIELD e type Latp;
+	FIELD k MODIFIERS [Ljava/util/UUID;
+	METHOD a getAttributeModifiers (Lagp;)Lcom/google/common/collect/Multimap;
+	METHOD a canRepair (Lavu;Lavu;)Z
+		ARG 1 tool
+	METHOD a use (Lbas;Laql;Lafd;)Lafg;
+		ARG 1 world
+		ARG 2 player
+	METHOD a dispenseArmor (Leu;Lavu;)Lavu;
+		ARG 0 block
+		ARG 1 stack
+	METHOD b getSlotType ()Lagp;
+	METHOD c getEnchantability ()I
+	METHOD d getMaterial ()Latp;

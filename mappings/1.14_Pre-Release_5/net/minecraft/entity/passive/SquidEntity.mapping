@@ -1,0 +1,12 @@
+CLASS arm net/minecraft/entity/passive/SquidEntity
+	CLASS arm$a EscapeAttackerGoal
+		FIELD b timer I
+	CLASS arm$b SwimInOneDirectionGoal
+		FIELD b owner Larm;
+	FIELD bE constantVelocityRate F
+	FIELD bH constantVelocityX F
+	FIELD bI constantVelocityY F
+	FIELD bJ constantVelocityZ F
+	METHOD a setConstantVelocity (FFF)V
+	METHOD dV squirt ()V
+	METHOD l hasConstantVelocity ()Z

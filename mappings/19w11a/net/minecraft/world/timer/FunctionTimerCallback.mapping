@@ -1,0 +1,3 @@
+CLASS cpv net/minecraft/world/timer/FunctionTimerCallback
+	CLASS cpv$a net/minecraft/world/timer/FunctionTimerCallback$Serializer
+	FIELD a name Lqp;

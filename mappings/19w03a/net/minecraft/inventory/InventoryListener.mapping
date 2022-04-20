@@ -1,0 +1,2 @@
+CLASS afs net/minecraft/inventory/InventoryListener
+	METHOD a onInvChange (Lafq;)V

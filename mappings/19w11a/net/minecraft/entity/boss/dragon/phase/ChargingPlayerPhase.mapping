@@ -1,0 +1,7 @@
+CLASS arb net/minecraft/entity/boss/dragon/phase/ChargingPlayerPhase
+	FIELD b LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD c target Lcqh;
+	METHOD <init> (Laqx;)V
+		ARG 1 dragon
+	METHOD a setTarget (Lcqh;)V
+		ARG 1 target

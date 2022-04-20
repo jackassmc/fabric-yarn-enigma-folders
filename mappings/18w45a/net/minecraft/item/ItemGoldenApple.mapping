@@ -1,0 +1,4 @@
+CLASS aur net/minecraft/item/ItemGoldenApple
+	METHOD a onConsumed (Lava;Lazy;Lapv;)V
+		ARG 1 stack
+		ARG 2 world

@@ -1,0 +1,2 @@
+CLASS bzi net/minecraft/world/gen/carver/CarverConfig
+	FIELD a DEFAULT Lbzm;

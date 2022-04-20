@@ -1,0 +1,10 @@
+CLASS bjr net/minecraft/block/FurnaceBlock
+	METHOD <init> (Lbhl$c;)V
+		ARG 1 settings
+	METHOD a createBlockEntity (Lbbt;)Lbom;
+		ARG 1 view
+	METHOD a randomDisplayTick (Lbqi;Lbci;Let;Ljava/util/Random;)V
+		ARG 1 state
+		ARG 2 world
+		ARG 3 pos
+		ARG 4 rnd

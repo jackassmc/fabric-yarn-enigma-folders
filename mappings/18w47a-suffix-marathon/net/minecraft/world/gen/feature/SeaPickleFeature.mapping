@@ -1,0 +1,2 @@
+CLASS bwk net/minecraft/world/gen/feature/SeaPickleFeature
+	METHOD a generate (Lban;Lbqc;Ljava/util/Random;Les;Lbuf;)Z

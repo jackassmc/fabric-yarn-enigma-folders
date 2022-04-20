@@ -1,0 +1,4 @@
+CLASS bqo net/minecraft/block/PillarBlock
+	FIELD a AXIS Lbwa;
+	METHOD <init> (Lbme$c;)V
+		ARG 1 settings

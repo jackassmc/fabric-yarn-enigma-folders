@@ -1,0 +1,3 @@
+CLASS bst net/minecraft/block/CobwebBlock
+	METHOD <init> (Lbmj$c;)V
+		ARG 1 settings

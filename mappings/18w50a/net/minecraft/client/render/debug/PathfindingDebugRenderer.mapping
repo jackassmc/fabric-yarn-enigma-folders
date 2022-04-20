@@ -1,0 +1,3 @@
+CLASS dhn net/minecraft/client/render/debug/PathfindingDebugRenderer
+	FIELD a client Lcpk;
+	METHOD a render (FJ)V

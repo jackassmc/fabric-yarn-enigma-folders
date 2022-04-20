@@ -1,0 +1,2 @@
+CLASS acp net/minecraft/datafixers/fixes/RecipeRenamingFix
+	FIELD a recipes Ljava/util/Map;

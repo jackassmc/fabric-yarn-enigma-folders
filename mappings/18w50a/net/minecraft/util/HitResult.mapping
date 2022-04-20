@@ -1,0 +1,20 @@
+CLASS cma net/minecraft/util/HitResult
+	CLASS cma$a Type
+		FIELD a NONE Lcma$a;
+		FIELD b BLOCK Lcma$a;
+		FIELD c ENTITY Lcma$a;
+	FIELD a type Lcma$a;
+	FIELD b side Ley;
+	FIELD c pos Lcmd;
+	FIELD d entity Lagv;
+	FIELD e blockPos Let;
+	METHOD <init> (Lagv;Lcmd;)V
+		ARG 1 entity
+	METHOD <init> (Lcma$a;Lcmd;Ley;Let;)V
+		ARG 1 type
+		ARG 2 pos
+		ARG 3 side
+	METHOD <init> (Lcmd;Ley;Let;)V
+		ARG 1 pos
+		ARG 2 side
+	METHOD a getBlockPos ()Let;

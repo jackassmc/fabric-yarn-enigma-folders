@@ -1,0 +1,2 @@
+CLASS dmk net/minecraft/client/render/entity/SlimeEntityRenderer
+	FIELD a SKIN Lqh;

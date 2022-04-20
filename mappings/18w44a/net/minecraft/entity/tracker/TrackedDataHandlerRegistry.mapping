@@ -1,0 +1,294 @@
+CLASS pl net/minecraft/entity/tracker/TrackedDataHandlerRegistry
+	CLASS pl$1
+		METHOD a create (I)Lpj;
+			ARG 0 id
+		METHOD a read (Lin;)Ljava/lang/Object;
+			ARG 0 buf
+		METHOD a write (Lin;Ljava/lang/Byte;)V
+			ARG 0 buf
+			ARG 1 data
+		METHOD a write (Lin;Ljava/lang/Object;)V
+			ARG 0 buf
+			ARG 1 data
+		METHOD a copy (Ljava/lang/Byte;)Ljava/lang/Byte;
+			ARG 0 obj
+		METHOD a copy (Ljava/lang/Object;)Ljava/lang/Object;
+			ARG 0 obj
+		METHOD b read (Lin;)Ljava/lang/Byte;
+			ARG 0 buf
+	CLASS pl$2
+		METHOD a create (I)Lpj;
+			ARG 0 id
+		METHOD a copy (Lfq;)Lfq;
+			ARG 0 obj
+		METHOD a read (Lin;)Ljava/lang/Object;
+			ARG 0 buf
+		METHOD a write (Lin;Lfq;)V
+			ARG 0 buf
+			ARG 1 data
+		METHOD a write (Lin;Ljava/lang/Object;)V
+			ARG 0 buf
+			ARG 1 data
+		METHOD a copy (Ljava/lang/Object;)Ljava/lang/Object;
+			ARG 0 obj
+		METHOD b read (Lin;)Lfq;
+			ARG 0 buf
+	CLASS pl$3
+		METHOD a create (I)Lpj;
+			ARG 0 id
+		METHOD a copy (Lfi;)Lfi;
+			ARG 0 obj
+		METHOD a read (Lin;)Ljava/lang/Object;
+			ARG 0 buf
+		METHOD a write (Lin;Lfi;)V
+			ARG 0 buf
+			ARG 1 data
+		METHOD a write (Lin;Ljava/lang/Object;)V
+			ARG 0 buf
+			ARG 1 data
+		METHOD a copy (Ljava/lang/Object;)Ljava/lang/Object;
+			ARG 0 obj
+		METHOD b read (Lin;)Lfi;
+			ARG 0 buf
+	CLASS pl$4
+		METHOD a create (I)Lpj;
+			ARG 0 id
+		METHOD a copy (Leq;)Leq;
+			ARG 0 obj
+		METHOD a read (Lin;)Ljava/lang/Object;
+			ARG 0 buf
+		METHOD a write (Lin;Leq;)V
+			ARG 0 buf
+			ARG 1 data
+		METHOD a write (Lin;Ljava/lang/Object;)V
+			ARG 0 buf
+			ARG 1 data
+		METHOD a copy (Ljava/lang/Object;)Ljava/lang/Object;
+			ARG 0 obj
+		METHOD b read (Lin;)Leq;
+			ARG 0 buf
+	CLASS pl$5
+		METHOD a create (I)Lpj;
+			ARG 0 id
+		METHOD a read (Lin;)Ljava/lang/Object;
+			ARG 0 buf
+		METHOD a write (Lin;Ljava/lang/Object;)V
+			ARG 0 buf
+			ARG 1 data
+		METHOD a write (Lin;Ljava/util/Optional;)V
+			ARG 0 buf
+			ARG 1 data
+		METHOD a copy (Ljava/lang/Object;)Ljava/lang/Object;
+			ARG 0 obj
+		METHOD a copy (Ljava/util/Optional;)Ljava/util/Optional;
+			ARG 0 obj
+		METHOD b read (Lin;)Ljava/util/Optional;
+			ARG 0 buf
+	CLASS pl$6
+		METHOD a create (I)Lpj;
+			ARG 0 id
+		METHOD a copy (Lev;)Lev;
+			ARG 0 obj
+		METHOD a read (Lin;)Ljava/lang/Object;
+			ARG 0 buf
+		METHOD a write (Lin;Lev;)V
+			ARG 0 buf
+			ARG 1 data
+		METHOD a write (Lin;Ljava/lang/Object;)V
+			ARG 0 buf
+			ARG 1 data
+		METHOD a copy (Ljava/lang/Object;)Ljava/lang/Object;
+			ARG 0 obj
+		METHOD b read (Lin;)Lev;
+			ARG 0 buf
+	CLASS pl$7
+		METHOD a create (I)Lpj;
+			ARG 0 id
+		METHOD a read (Lin;)Ljava/lang/Object;
+			ARG 0 buf
+		METHOD a write (Lin;Ljava/lang/Object;)V
+			ARG 0 buf
+			ARG 1 data
+		METHOD a write (Lin;Ljava/util/Optional;)V
+			ARG 0 buf
+			ARG 1 data
+		METHOD a copy (Ljava/lang/Object;)Ljava/lang/Object;
+			ARG 0 obj
+		METHOD a copy (Ljava/util/Optional;)Ljava/util/Optional;
+			ARG 0 obj
+		METHOD b read (Lin;)Ljava/util/Optional;
+			ARG 0 buf
+	CLASS pl$8
+		METHOD a create (I)Lpj;
+			ARG 0 id
+		METHOD a copy (Lhm;)Lhm;
+			ARG 0 obj
+		METHOD a read (Lin;)Ljava/lang/Object;
+			ARG 0 buf
+		METHOD a write (Lin;Lhm;)V
+			ARG 0 buf
+			ARG 1 data
+		METHOD a write (Lin;Ljava/lang/Object;)V
+			ARG 0 buf
+			ARG 1 data
+		METHOD a copy (Ljava/lang/Object;)Ljava/lang/Object;
+			ARG 0 obj
+		METHOD b read (Lin;)Lhm;
+			ARG 0 buf
+	CLASS pl$9
+		METHOD a create (I)Lpj;
+			ARG 0 id
+		METHOD a read (Lin;)Ljava/lang/Object;
+			ARG 0 buf
+		METHOD a write (Lin;Ljava/lang/Integer;)V
+			ARG 0 buf
+			ARG 1 data
+		METHOD a write (Lin;Ljava/lang/Object;)V
+			ARG 0 buf
+			ARG 1 data
+		METHOD a copy (Ljava/lang/Integer;)Ljava/lang/Integer;
+			ARG 0 obj
+		METHOD a copy (Ljava/lang/Object;)Ljava/lang/Object;
+			ARG 0 obj
+		METHOD b read (Lin;)Ljava/lang/Integer;
+			ARG 0 buf
+	CLASS pl$10
+		METHOD a create (I)Lpj;
+			ARG 0 id
+		METHOD a read (Lin;)Ljava/lang/Object;
+			ARG 0 buf
+		METHOD a write (Lin;Ljava/lang/Float;)V
+			ARG 0 buf
+			ARG 1 data
+		METHOD a write (Lin;Ljava/lang/Object;)V
+			ARG 0 buf
+			ARG 1 data
+		METHOD a copy (Ljava/lang/Float;)Ljava/lang/Float;
+			ARG 0 obj
+		METHOD a copy (Ljava/lang/Object;)Ljava/lang/Object;
+			ARG 0 obj
+		METHOD b read (Lin;)Ljava/lang/Float;
+			ARG 0 buf
+	CLASS pl$11
+		METHOD a create (I)Lpj;
+			ARG 0 id
+		METHOD a read (Lin;)Ljava/lang/Object;
+			ARG 0 buf
+		METHOD a write (Lin;Ljava/lang/Object;)V
+			ARG 0 buf
+			ARG 1 data
+		METHOD a write (Lin;Ljava/lang/String;)V
+			ARG 0 buf
+			ARG 1 data
+		METHOD a copy (Ljava/lang/Object;)Ljava/lang/Object;
+			ARG 0 obj
+		METHOD a copy (Ljava/lang/String;)Ljava/lang/String;
+			ARG 0 obj
+		METHOD b read (Lin;)Ljava/lang/String;
+			ARG 0 buf
+	CLASS pl$12
+		METHOD a create (I)Lpj;
+			ARG 0 id
+		METHOD a read (Lin;)Ljava/lang/Object;
+			ARG 0 buf
+		METHOD a write (Lin;Lix;)V
+			ARG 0 buf
+			ARG 1 data
+		METHOD a write (Lin;Ljava/lang/Object;)V
+			ARG 0 buf
+			ARG 1 data
+		METHOD a copy (Lix;)Lix;
+			ARG 0 obj
+		METHOD a copy (Ljava/lang/Object;)Ljava/lang/Object;
+			ARG 0 obj
+		METHOD b read (Lin;)Lix;
+			ARG 0 buf
+	CLASS pl$13
+		METHOD a create (I)Lpj;
+			ARG 0 id
+		METHOD a read (Lin;)Ljava/lang/Object;
+			ARG 0 buf
+		METHOD a write (Lin;Ljava/lang/Object;)V
+			ARG 0 buf
+			ARG 1 data
+		METHOD a write (Lin;Ljava/util/Optional;)V
+			ARG 0 buf
+			ARG 1 data
+		METHOD a copy (Ljava/lang/Object;)Ljava/lang/Object;
+			ARG 0 obj
+		METHOD a copy (Ljava/util/Optional;)Ljava/util/Optional;
+			ARG 0 obj
+		METHOD b read (Lin;)Ljava/util/Optional;
+			ARG 0 buf
+	CLASS pl$14
+		METHOD a create (I)Lpj;
+			ARG 0 id
+		METHOD a copy (Lauv;)Lauv;
+			ARG 0 obj
+		METHOD a read (Lin;)Ljava/lang/Object;
+			ARG 0 buf
+		METHOD a write (Lin;Lauv;)V
+			ARG 0 buf
+			ARG 1 data
+		METHOD a write (Lin;Ljava/lang/Object;)V
+			ARG 0 buf
+			ARG 1 data
+		METHOD a copy (Ljava/lang/Object;)Ljava/lang/Object;
+			ARG 0 obj
+		METHOD b read (Lin;)Lauv;
+			ARG 0 buf
+	CLASS pl$15
+		METHOD a create (I)Lpj;
+			ARG 0 id
+		METHOD a read (Lin;)Ljava/lang/Object;
+			ARG 0 buf
+		METHOD a write (Lin;Ljava/lang/Object;)V
+			ARG 0 buf
+			ARG 1 data
+		METHOD a write (Lin;Ljava/util/Optional;)V
+			ARG 0 buf
+			ARG 1 data
+		METHOD a copy (Ljava/lang/Object;)Ljava/lang/Object;
+			ARG 0 obj
+		METHOD a copy (Ljava/util/Optional;)Ljava/util/Optional;
+			ARG 0 obj
+		METHOD b read (Lin;)Ljava/util/Optional;
+			ARG 0 buf
+	CLASS pl$16
+		METHOD a create (I)Lpj;
+			ARG 0 id
+		METHOD a read (Lin;)Ljava/lang/Object;
+			ARG 0 buf
+		METHOD a write (Lin;Ljava/lang/Boolean;)V
+			ARG 0 buf
+			ARG 1 data
+		METHOD a write (Lin;Ljava/lang/Object;)V
+			ARG 0 buf
+			ARG 1 data
+		METHOD a copy (Ljava/lang/Boolean;)Ljava/lang/Boolean;
+			ARG 0 obj
+		METHOD a copy (Ljava/lang/Object;)Ljava/lang/Object;
+			ARG 0 obj
+		METHOD b read (Lin;)Ljava/lang/Boolean;
+			ARG 0 buf
+	FIELD a BYTE Lpk;
+	FIELD b INTEGER Lpk;
+	FIELD c FLOAT Lpk;
+	FIELD d STRING Lpk;
+	FIELD e TEXT_COMPONENT Lpk;
+	FIELD f OPTIONAL_TEXT_COMPONENT Lpk;
+	FIELD g ITEM_STACK Lpk;
+	FIELD h OPTIONAL_BLOCK_STATE Lpk;
+	FIELD i BOOLEAN Lpk;
+	FIELD k ROTATION Lpk;
+	FIELD l BLOCK_POS Lpk;
+	FIELD m OPTIONA_BLOCK_POS Lpk;
+	FIELD n FACING Lpk;
+	FIELD o OPTIONAL_UUID Lpk;
+	FIELD p TAG_COMPOUND Lpk;
+	METHOD a get (I)Lpk;
+		ARG 0 id
+	METHOD a register (Lpk;)V
+		ARG 0 handler
+	METHOD b getId (Lpk;)I
+		ARG 0 handler

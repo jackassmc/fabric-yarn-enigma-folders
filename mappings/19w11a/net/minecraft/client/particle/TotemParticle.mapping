@@ -1,0 +1,2 @@
+CLASS dih net/minecraft/client/particle/TotemParticle
+	CLASS dih$a net/minecraft/client/particle/TotemParticle$Factory

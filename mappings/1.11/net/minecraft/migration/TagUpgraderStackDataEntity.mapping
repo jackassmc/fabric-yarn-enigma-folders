@@ -1,0 +1,6 @@
+CLASS qs net/minecraft/migration/TagUpgraderStackDataEntity
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	METHOD a upgradeTag (Lpg;Ldu;I)Ldu;
+		ARG 0 handler
+		ARG 1 tag
+		ARG 2 version

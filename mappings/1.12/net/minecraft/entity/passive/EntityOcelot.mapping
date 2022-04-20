@@ -1,0 +1,37 @@
+CLASS zz net/minecraft/entity/passive/EntityOcelot
+	FIELD bB OCELOT_TYPE Lmx;
+	METHOD F getSoundAmbient ()Lqc;
+	METHOD J getLootTableId ()Lnd;
+	METHOD M mobTick ()V
+	METHOD P canSpawn ()Z
+	METHOD a interactMob (Laeb;Ltz;)Z
+		ARG 0 player
+		ARG 1 playerHand
+	METHOD a deserializeCustomData (Lfy;)V
+		ARG 0 tag
+	METHOD a registerTagUpgraders (Lrw;)V
+		ARG 0 handler
+	METHOD a (Lty;Lvq;)Lvq;
+		ARG 0 difficulty
+	METHOD a damage (Lup;F)Z
+		ARG 0 source
+		ARG 1 damage
+	METHOD a createChild (Lvb;)Lvb;
+		ARG 0 other
+	METHOD b serializeCustomData (Lfy;)V
+		ARG 0 tag
+	METHOD b createChild (Lvb;)Lzz;
+		ARG 0 other
+	METHOD bM initAttributes ()V
+	METHOD cf getSoundDeath ()Lqc;
+	METHOD cq getSoundVolume ()F
+	METHOD d getSoundHurt (Lup;)Lqc;
+	METHOD dm onTamedChanged ()V
+	METHOD dt getOcelotType ()I
+	METHOD e handleFallDamage (FF)V
+		ARG 0 fallDistance
+	METHOD g getOcelotType (I)V
+		ARG 0 value
+	METHOD h_ getName ()Ljava/lang/String;
+	METHOD i initDataTracker ()V
+	METHOD r initAi ()V

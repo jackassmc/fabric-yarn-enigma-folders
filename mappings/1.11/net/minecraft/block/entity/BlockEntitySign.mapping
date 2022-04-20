@@ -1,0 +1,54 @@
+CLASS ast net/minecraft/block/entity/BlockEntitySign
+	CLASS ast$1
+		METHOD B_ getServer ()Lnet/minecraft/server/MinecraftServer;
+		METHOD a hasPermission (ILjava/lang/String;)Z
+			ARG 0 permissionLevel
+			ARG 1 commandName
+		METHOD a appendCommandFeedback (Lfb;)V
+			ARG 0 component
+		METHOD a updateCommandStat (Lo$a;I)V
+			ARG 0 statType
+			ARG 1 statValue
+		METHOD c getBlockPos ()Lco;
+		METHOD d getPos ()Lbdu;
+		METHOD e getWorld ()Lajq;
+		METHOD f getEntity ()Lsm;
+		METHOD g shouldEchoCommandFeedback ()Z
+		METHOD h_ getName ()Ljava/lang/String;
+		METHOD i_ getNameComponent ()Lfb;
+	CLASS ast$2
+		METHOD B_ getServer ()Lnet/minecraft/server/MinecraftServer;
+		METHOD a hasPermission (ILjava/lang/String;)Z
+			ARG 0 permissionLevel
+			ARG 1 commandName
+		METHOD a appendCommandFeedback (Lfb;)V
+			ARG 0 component
+		METHOD a updateCommandStat (Lo$a;I)V
+			ARG 0 statType
+			ARG 1 statValue
+		METHOD c getBlockPos ()Lco;
+		METHOD d getPos ()Lbdu;
+		METHOD e getWorld ()Lajq;
+		METHOD f getEntity ()Lsm;
+		METHOD g shouldEchoCommandFeedback ()Z
+		METHOD h_ getName ()Ljava/lang/String;
+		METHOD i_ getNameComponent ()Lfb;
+	FIELD a text [Lfb;
+	FIELD g editable Z
+	FIELD h editor Laax;
+	METHOD a isEditable ()Z
+	METHOD a setEditor (Laax;)V
+		ARG 0 value
+	METHOD a deserialize (Ldu;)V
+		ARG 0 tag
+	METHOD a setEditable (Z)V
+		ARG 0 value
+	METHOD b onActivate (Laax;)Z
+		ARG 0 player
+	METHOD b onLoad (Lajq;)V
+		ARG 0 world
+	METHOD b serialize (Ldu;)Ldu;
+		ARG 0 tag
+	METHOD c getUpdatePacket ()Lfz;
+	METHOD d serializeInitialChunkData ()Ldu;
+	METHOD e getEditor ()Laax;

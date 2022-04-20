@@ -1,0 +1,4 @@
+CLASS asp net/minecraft/entity/boss/dragon/phase/DyingPhase
+	FIELD c ticks I
+	METHOD <init> (Lask;)V
+		ARG 1 dragon

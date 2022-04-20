@@ -1,0 +1,12 @@
+CLASS cxs net/minecraft/client/gui/widget/RemoteServerListEntry
+	FIELD c LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD d PING_THREAD_POOL Ljava/util/concurrent/ThreadPoolExecutor;
+	FIELD e UNKNOWN_SERVER Lqi;
+	FIELD f SERVER_SELECTION Lqi;
+	FIELD g guiMultiplayer Lcxp;
+	FIELD h client Lcqx;
+	FIELD i serverEntry Lddm;
+	FIELD j serverIconTextureId Lqi;
+	FIELD l serverIconTexture Ldpt;
+	METHOD a drawIcon (IILqi;)V
+	METHOD b getServerEntry ()Lddm;

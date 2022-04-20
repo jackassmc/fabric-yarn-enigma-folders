@@ -1,0 +1,25 @@
+CLASS ape net/minecraft/entity/mob/GuardianEntity
+	CLASS ape$a
+		METHOD a canStart ()Z
+		METHOD b shouldContinue ()Z
+		METHOD c start ()V
+		METHOD d onRemove ()V
+		METHOD e tick ()V
+	CLASS ape$c GuardianMoveControl
+		FIELD i guardian Lape;
+		METHOD a tick ()V
+	METHOD <init> (Lago;Lbas;)V
+		ARG 1 type
+	METHOD D getAmbientSound ()Lxg;
+	METHOD a damage (Laft;F)Z
+		ARG 1 source
+		ARG 2 amount
+	METHOD a onTrackedDataSet (Lpo;)V
+	METHOD b createNavigation (Lbas;)Lakv;
+	METHOD bG getEyeHeight ()F
+	METHOD ca initAttributes ()V
+	METHOD cv getDeathSound ()Lxg;
+	METHOD e getHurtSound (Laft;)Lxg;
+	METHOD k updateMovement ()V
+	METHOD n initAi ()V
+	METHOD y_ initDataTracker ()V

@@ -1,0 +1,4 @@
+CLASS bjt net/minecraft/block/EndPortalBlock
+	FIELD a SHAPE Lcoa;
+	METHOD <init> (Lbic$c;)V
+		ARG 1 settings

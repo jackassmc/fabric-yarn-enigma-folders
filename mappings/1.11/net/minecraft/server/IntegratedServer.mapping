@@ -1,0 +1,57 @@
+CLASS cce net/minecraft/server/IntegratedServer
+	CLASS cce$1
+		METHOD a call ()Ljava/lang/String;
+	CLASS cce$2
+		METHOD a call ()Ljava/lang/String;
+	FIELD k LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD l game Lbeq;
+	FIELD m levelInfo Lajt;
+	FIELD o openedToLan Z
+	FIELD p lanPinger Lcci;
+	METHOD <init> (Lbeq;Ljava/lang/String;Ljava/lang/String;Lajt;Lcom/mojang/authlib/yggdrasil/YggdrasilAuthenticationService;Lcom/mojang/authlib/minecraft/MinecraftSessionService;Lcom/mojang/authlib/GameProfileRepository;Lmp;)V
+		ARG 0 game
+		ARG 1 levelName
+		ARG 2 displayName
+		ARG 3 levelInfo
+		ARG 4 authService
+		ARG 5 sessionService
+		ARG 6 profileRepo
+		ARG 7 userCache
+	METHOD A getRunDirectory ()Ljava/io/File;
+	METHOD C doServerTick ()V
+	METHOD Z isSnooperEnabled ()Z
+	METHOD a isOpenToLan ()Z
+	METHOD a setGameMode (Lajo;)V
+		ARG 0 gameMode
+	METHOD a openToLan (Lajo;Z)Ljava/lang/String;
+		ARG 0 gameMode
+		ARG 1 cheatsAllowed
+	METHOD a loadSave (Ljava/lang/String;Ljava/lang/String;JLajv;Ljava/lang/String;)V
+		ARG 0 oldLevelName
+		ARG 1 levelName
+		ARG 2 seed
+		ARG 3 generatorType
+		ARG 4 generatorOptions
+	METHOD a setDifficulty (Lrf;)V
+		ARG 0 difficulty
+	METHOD a addSnooperInfo (Lrr;)V
+		ARG 0 snooper
+	METHOD a saveWorlds (Z)V
+		ARG 0 dontLog
+	METHOD aa isDedicated ()Z
+	METHOD af isUsingNativeTransport ()Z
+	METHOD ai areCommandBlocksEnabled ()Z
+	METHOD b reloadResources ()V
+	METHOD b addServerInfoToCrashReport (Lb;)Lb;
+		ARG 0 report
+	METHOD i createCommandManager ()Lbd;
+	METHOD j setupServer ()Z
+	METHOD m shouldGenerateStructures ()Z
+	METHOD n getGameMode ()Lajo;
+	METHOD o getDifficulty ()Lrf;
+	METHOD p isHardcore ()Z
+	METHOD q getOpPermissionLevel ()I
+	METHOD r shouldBroadcastRconToOps ()Z
+	METHOD s shouldBroadcastConsoleToOps ()Z
+	METHOD u shutdown ()V
+	METHOD x stop ()V

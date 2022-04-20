@@ -1,0 +1,2 @@
+CLASS bxi net/minecraft/client/texture/ITextureUpdateMethod
+	METHOD e updateTexture ()V

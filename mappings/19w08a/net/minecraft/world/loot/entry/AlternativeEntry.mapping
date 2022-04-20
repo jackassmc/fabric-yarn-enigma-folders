@@ -1,0 +1,4 @@
+CLASS ckk net/minecraft/world/loot/entry/AlternativeEntry
+	CLASS ckk$a Builder
+		FIELD a children Ljava/util/List;
+	METHOD a create ([Lckt$a;)Lckk$a;

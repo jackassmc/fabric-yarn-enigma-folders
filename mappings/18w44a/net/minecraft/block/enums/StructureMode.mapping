@@ -1,0 +1,7 @@
+CLASS bow net/minecraft/block/enums/StructureMode
+	FIELD a SAVE Lbow;
+	FIELD b LOAD Lbow;
+	FIELD c CORNER Lbow;
+	FIELD d DATA Lbow;
+	FIELD e name Ljava/lang/String;
+	METHOD m asString ()Ljava/lang/String;

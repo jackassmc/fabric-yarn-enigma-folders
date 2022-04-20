@@ -1,0 +1,4 @@
+CLASS nj net/minecraft/client/network/packet/EntityAttributesS2CPacket
+	CLASS nj$a Entry
+	FIELD b entries Ljava/util/List;
+	METHOD c getEntries ()Ljava/util/List;

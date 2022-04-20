@@ -1,0 +1,23 @@
+CLASS bsz net/minecraft/client/render/chunk/ChunkRenderData
+	CLASS bsz$1
+		METHOD a (Laji;)V
+			ARG 0 blockRenderLayer
+		METHOD a (Lcv;Lcv;)Z
+			ARG 1 facing
+		METHOD c (Laji;)V
+			ARG 0 blockRenderLayer
+	FIELD a EMPTY Lbsz;
+	FIELD d empty Z
+	FIELD e blockEntities Ljava/util/List;
+	METHOD a isEmpty ()Z
+	METHOD a (Laji;)V
+		ARG 0 blockRenderLayer
+	METHOD a getBlockEntities (Lasa;)V
+		ARG 0 blockEntity
+	METHOD a (Lcv;Lcv;)Z
+	METHOD b (Laji;)Z
+		ARG 0 blockRenderLayer
+	METHOD c (Laji;)V
+		ARG 0 blockRenderLayer
+	METHOD d (Laji;)Z
+		ARG 0 blockRenderLayer

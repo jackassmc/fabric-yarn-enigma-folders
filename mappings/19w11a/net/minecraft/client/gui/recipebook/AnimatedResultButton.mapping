@@ -1,0 +1,14 @@
+CLASS dba net/minecraft/client/gui/recipebook/AnimatedResultButton
+	FIELD a BG_TEX Lqp;
+	FIELD b craftingContainer Laxx;
+	FIELD p recipeBook Lyj;
+	FIELD q results Ldbb;
+	FIELD r time F
+	FIELD s bounce F
+	FIELD t currentResultIndex I
+	METHOD a getResultCollection ()Ldbb;
+	METHOD a showResultCollection (Ldbb;Lday;)V
+	METHOD b setPos (II)V
+	METHOD h hasResults ()Z
+	METHOD i currentRecipe ()Lbda;
+	METHOD j getResults ()Ljava/util/List;

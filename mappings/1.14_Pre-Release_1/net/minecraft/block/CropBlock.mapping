@@ -1,0 +1,13 @@
+CLASS bnh net/minecraft/block/CropBlock
+	FIELD a AGE_TO_SHAPE [Lcsi;
+	FIELD b AGE Lbwc;
+	METHOD <init> (Lbme$c;)V
+		ARG 1 settings
+	METHOD a getGrowthAmount (Lbha;)I
+	METHOD a applyGrowth (Lbha;Lev;Lbvc;)V
+	METHOD b withCropAge (I)Lbvc;
+	METHOD d getAgeProperty ()Lbwc;
+	METHOD e getCropAgeMaximum ()I
+	METHOD f getCropItem ()Lbgz;
+	METHOD j getCropAge (Lbvc;)I
+	METHOD q isValidState (Lbvc;)Z

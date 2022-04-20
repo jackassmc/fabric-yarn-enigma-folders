@@ -1,0 +1,6 @@
+CLASS diw net/minecraft/client/particle/LavaEmberParticle
+	CLASS a Factory
+	METHOD <init> (Lbhn;DDD)V
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z

@@ -1,0 +1,5 @@
+CLASS dmb net/minecraft/client/render/entity/ArrowEntityRenderer
+	FIELD a SKIN Lqc;
+	FIELD f TIPPED_SKIN Lqc;
+	METHOD a getTexture (Lahc;)Lqc;
+	METHOD a getTexture (Larp;)Lqc;

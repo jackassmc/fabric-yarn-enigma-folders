@@ -1,0 +1,2 @@
+CLASS dol net/minecraft/client/render/entity/CaveSpiderEntityRenderer
+	FIELD a SKIN Lqs;

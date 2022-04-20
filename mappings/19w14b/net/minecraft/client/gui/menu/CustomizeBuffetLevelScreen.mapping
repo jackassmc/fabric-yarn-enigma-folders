@@ -1,0 +1,3 @@
+CLASS cyk net/minecraft/client/gui/menu/CustomizeBuffetLevelScreen
+	CLASS cyk$a BuffetBiomesListWidget
+		CLASS cyk$a$a BuffetBiomeItem

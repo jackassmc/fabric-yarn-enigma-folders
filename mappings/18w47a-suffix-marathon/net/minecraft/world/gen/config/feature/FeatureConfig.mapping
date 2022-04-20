@@ -1,0 +1,2 @@
+CLASS buf net/minecraft/world/gen/config/feature/FeatureConfig
+	FIELD e DEFAULT Lbvo;

@@ -1,0 +1,9 @@
+CLASS dqd net/minecraft/client/render/entity/ItemFrameEntityRenderer
+	FIELD a MAP_BACKGROUND_TEX Lqs;
+	FIELD f NORMAL_FRAME Ldwd;
+	FIELD g MAP_FRAME Ldwd;
+	FIELD h client Lcvl;
+	FIELD i itemRenderer Ldqe;
+	METHOD <init> (Ldpj;Ldqe;)V
+		ARG 1 renderManager
+	METHOD b renderItem (Latg;)V

@@ -1,0 +1,14 @@
+CLASS auu net/minecraft/entity/mob/SilverfishEntity
+	CLASS auu$a WanderAndInfestGoal
+		FIELD h direction Lfa;
+		FIELD i canInfest Z
+		METHOD <init> (Lauu;)V
+			ARG 1 silverfish
+	CLASS auu$b CallForHelpGoal
+		FIELD a silverfish Lauu;
+		FIELD b delay I
+		METHOD <init> (Lauu;)V
+			ARG 1 silverfish
+		METHOD g onHurt ()V
+	FIELD b CLOSE_PLAYER_PREDICATE Laqb;
+	FIELD c callForHelpGoal Lauu$b;

@@ -1,0 +1,22 @@
+CLASS dnw net/minecraft/client/render/debug/DebugRenderer
+	CLASS dnw$a Renderer
+		METHOD a render (J)V
+	FIELD a pathfindingDebugRenderer Ldob;
+	FIELD b waterDebugRenderer Ldnw$a;
+	FIELD c chunkBorderDebugRenderer Ldnw$a;
+	FIELD d heightmapDebugRenderer Ldnw$a;
+	FIELD e voxelDebugRenderer Ldnw$a;
+	FIELD f neighborUpdateDebugRenderer Ldnw$a;
+	FIELD g caveDebugRenderer Ldns;
+	FIELD h structureDebugRenderer Ldoe;
+	FIELD i skyLightDebugRenderer Ldnw$a;
+	FIELD j worldGenAttemptDebugRenderer Ldnw$a;
+	FIELD k blockOutlineDebugRenderer Ldnw$a;
+	FIELD l chunkLoadingDebugRenderer Ldnw$a;
+	FIELD m pointsOfInterestDebugRenderer Ldof;
+	FIELD n raidCenterDebugRenderer Ldoc;
+	FIELD o goalSelectorDebugRenderer Ldnx;
+	FIELD p showChunkBorder Z
+	METHOD a renderDebuggers (J)V
+	METHOD b shouldRender ()Z
+	METHOD c toggleShowChunkBorder ()Z

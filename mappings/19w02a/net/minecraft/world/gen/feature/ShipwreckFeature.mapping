@@ -1,0 +1,8 @@
+CLASS byn net/minecraft/world/gen/feature/ShipwreckFeature
+	CLASS byn$a
+		METHOD <init> (Lbzc;IILbde;Lccj;IJ)V
+			ARG 2 chunkX
+			ARG 3 chunkZ
+	METHOD <init> (Ljava/util/function/Function;)V
+		ARG 1 configFactory
+	METHOD b getName ()Ljava/lang/String;

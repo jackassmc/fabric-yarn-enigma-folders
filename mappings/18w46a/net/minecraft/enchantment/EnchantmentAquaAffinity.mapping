@@ -1,0 +1,2 @@
+CLASS azf net/minecraft/enchantment/EnchantmentAquaAffinity
+	METHOD a getHighestLevel ()I

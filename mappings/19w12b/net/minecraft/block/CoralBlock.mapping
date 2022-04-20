@@ -1,0 +1,3 @@
+CLASS bmg net/minecraft/block/CoralBlock
+	FIELD a SHAPE Lcri;
+	FIELD c deadCoralBlock Lblg;

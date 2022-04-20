@@ -1,0 +1,143 @@
+CLASS pz net/minecraft/Bootstrap
+	CLASS pz$1
+		METHOD a createProjectile (Lazy;Lfh;Lava;)Laqi;
+			ARG 0 world
+			ARG 1 position
+			ARG 2 stack
+	CLASS pz$2
+		METHOD a playSound (Let;)V
+			ARG 0 block
+		METHOD a doDispense (Let;Lava;)Lava;
+			ARG 0 location
+			ARG 1 stack
+	CLASS pz$3
+		METHOD a playSound (Let;)V
+			ARG 0 block
+		METHOD a doDispense (Let;Lava;)Lava;
+			ARG 0 location
+			ARG 1 stack
+	CLASS pz$4
+		METHOD a doDispense (Let;Lava;)Lava;
+			ARG 0 location
+			ARG 1 stack
+	CLASS pz$5
+		METHOD a doDispense (Let;Lava;)Lava;
+			ARG 0 location
+			ARG 1 stack
+	CLASS pz$6
+		METHOD a doDispense (Let;Lava;)Lava;
+			ARG 0 location
+			ARG 1 stack
+	CLASS pz$7
+		METHOD a doDispense (Let;Lava;)Lava;
+			ARG 0 location
+			ARG 1 stack
+	CLASS pz$8
+		METHOD a doDispense (Let;Lava;)Lava;
+			ARG 0 location
+			ARG 1 stack
+	CLASS pz$9
+		METHOD a doDispense (Let;Lava;)Lava;
+			ARG 0 location
+			ARG 1 stack
+	CLASS pz$a DispenseBoat
+		FIELD a itemDropper Lev;
+		FIELD b type Laqy$b;
+		METHOD <init> (Laqy$b;)V
+			ARG 0 type
+		METHOD a playSound (Let;)V
+			ARG 0 block
+		METHOD a doDispense (Let;Lava;)Lava;
+			ARG 0 location
+			ARG 1 stack
+	CLASS pz$b
+		METHOD a getPos ()Les;
+		METHOD d getPlayerFacing ()Lex;
+		METHOD e getPlacementFacings ()[Lex;
+		METHOD f getPlayerHorizontalFacing ()Lex;
+		METHOD g isPlayerSneaking ()Z
+		METHOD h getPlayerYaw ()F
+	CLASS pz$c
+		METHOD a playSound (Let;)V
+			ARG 0 block
+	CLASS pz$d
+		METHOD a doDispense (Let;Lava;)Lava;
+			ARG 0 location
+			ARG 1 stack
+	CLASS pz$10
+		METHOD a doDispense (Let;Lava;)Lava;
+			ARG 0 location
+			ARG 1 stack
+	CLASS pz$11
+		METHOD a doDispense (Let;Lava;)Lava;
+			ARG 0 location
+			ARG 1 stack
+	CLASS pz$12
+		METHOD a createProjectile (Lazy;Lfh;Lava;)Laqi;
+			ARG 0 world
+			ARG 1 position
+			ARG 2 stack
+	CLASS pz$13
+		METHOD a doDispense (Let;Lava;)Lava;
+			ARG 0 location
+			ARG 1 stack
+	CLASS pz$15
+		METHOD a createProjectile (Lazy;Lfh;Lava;)Laqi;
+			ARG 0 world
+			ARG 1 position
+			ARG 2 stack
+	CLASS pz$16
+		METHOD a createProjectile (Lazy;Lfh;Lava;)Laqi;
+			ARG 0 world
+			ARG 1 position
+			ARG 2 stack
+	CLASS pz$17
+		METHOD a createProjectile (Lazy;Lfh;Lava;)Laqi;
+			ARG 0 world
+			ARG 1 position
+			ARG 2 stack
+	CLASS pz$18
+		METHOD a getVariation ()F
+		METHOD a createProjectile (Lazy;Lfh;Lava;)Laqi;
+			ARG 0 world
+			ARG 1 position
+			ARG 2 stack
+		METHOD b getForce ()F
+	CLASS pz$19
+		CLASS pz$19$1
+			METHOD a getVariation ()F
+			METHOD a createProjectile (Lazy;Lfh;Lava;)Laqi;
+				ARG 0 world
+				ARG 1 position
+				ARG 2 stack
+			METHOD b getForce ()F
+		METHOD dispense (Let;Lava;)Lava;
+			ARG 0 location
+			ARG 1 stack
+	CLASS pz$20
+		CLASS pz$20$1
+			METHOD a getVariation ()F
+			METHOD a createProjectile (Lazy;Lfh;Lava;)Laqi;
+				ARG 0 world
+				ARG 1 position
+				ARG 2 stack
+			METHOD b getForce ()F
+		METHOD dispense (Let;Lava;)Lava;
+			ARG 0 location
+			ARG 1 stack
+	CLASS pz$21
+		METHOD a doDispense (Let;Lava;)Lava;
+			ARG 0 location
+			ARG 1 stack
+	FIELD a OUTPUT Ljava/io/PrintStream;
+	FIELD b initialized Z
+	FIELD c LOGGER Lorg/apache/logging/log4j/Logger;
+	METHOD a registerDispenserBehaviors ()V
+	METHOD a println (Ljava/lang/String;)V
+		ARG 0 str
+	METHOD a checkTranslations (Ljava/lang/String;Lfj;Ljava/util/function/Function;)V
+		ARG 0 prefix
+		ARG 1 registry
+		ARG 2 translationGetter
+	METHOD b initialize ()V
+	METHOD c setOutputStreams ()V

@@ -1,0 +1,4 @@
+CLASS hf net/minecraft/data/server/BlockTagsProvider
+	METHOD a getName ()Ljava/lang/String;
+	METHOD a getOutput (Lqc;)Ljava/nio/file/Path;
+	METHOD b configure ()V

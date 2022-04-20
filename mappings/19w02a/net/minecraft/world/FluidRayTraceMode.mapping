@@ -1,0 +1,3 @@
+CLASS cmq net/minecraft/world/FluidRayTraceMode
+	FIELD a NONE Lcmq;
+	FIELD d predicate Ljava/util/function/Predicate;

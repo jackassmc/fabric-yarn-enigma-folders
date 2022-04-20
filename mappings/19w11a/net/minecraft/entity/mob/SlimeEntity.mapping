@@ -1,0 +1,6 @@
+CLASS atl net/minecraft/entity/mob/SlimeEntity
+	CLASS atl$d net/minecraft/entity/mob/SlimeEntity$SlimeMoveControl
+		FIELD k slime Latl;
+	FIELD bA SLIME_SIZE Lqe;
+	FIELD bB onGroundLastTick Z
+	METHOD dR getSize ()I

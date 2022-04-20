@@ -1,0 +1,2 @@
+CLASS bbt net/minecraft/world/biome/layer/BiomeLayerForestAndExtremeHillsAndPlains
+	METHOD a getBiomes (IIII)[I

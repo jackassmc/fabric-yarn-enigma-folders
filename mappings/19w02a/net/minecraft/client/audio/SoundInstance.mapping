@@ -1,0 +1,18 @@
+CLASS dqt net/minecraft/client/audio/SoundInstance
+	CLASS dqt$a AttenuationType
+		FIELD a NONE Ldqt$a;
+		FIELD b LINEAR Ldqt$a;
+		FIELD c TYPE I
+		METHOD a getType ()I
+	METHOD a getId ()Lqe;
+	METHOD a getAccess (Ldrp;)Ldrq;
+	METHOD b getSound ()Ldqq;
+	METHOD c getCategory ()Lxv;
+	METHOD d isRepeatable ()Z
+	METHOD e getRepeatDelay ()I
+	METHOD f getVolume ()F
+	METHOD g getPitch ()F
+	METHOD h getX ()F
+	METHOD i getY ()F
+	METHOD j getZ ()F
+	METHOD k getAttenuationType ()Ldqt$a;

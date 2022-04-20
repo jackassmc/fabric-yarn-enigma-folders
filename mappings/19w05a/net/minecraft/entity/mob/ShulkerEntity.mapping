@@ -1,0 +1,19 @@
+CLASS aql net/minecraft/entity/mob/ShulkerEntity
+	CLASS aql$a ShootBulletGoal
+		FIELD b counter I
+	CLASS aql$c SearchForTargetGoal
+		METHOD a (Lahn;)Z
+			ARG 0 entity
+	CLASS aql$d SearchForPlayerGoal
+	CLASS aql$e PeekGoal
+		FIELD b counter I
+	FIELD bD ATTR_COVERED_ARMOR_BONUS_UUID Ljava/util/UUID;
+	FIELD bE ATTR_COVERED_ARMOR_BONUS Laid;
+	FIELD b ATTACHED_FACE Lps;
+	FIELD c ATTACHED_BLOCK Lps;
+	FIELD d PEEK_AMOUNT Lps;
+	METHOD a setPeekAmount (I)V
+	METHOD dD getAttachedBlock ()Let;
+	METHOD dE getPeekAmount ()I
+	METHOD g setAttachedBlock (Let;)V
+	METHOD n getAttachedFace ()Ley;

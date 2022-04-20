@@ -1,0 +1,4 @@
+CLASS alx net/minecraft/entity/EntityWaterCreature
+	METHOD Y updateLogic ()V
+	METHOD a canBeLeashedBy (Lapv;)Z
+	METHOD by canFly ()Z

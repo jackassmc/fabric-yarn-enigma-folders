@@ -1,0 +1,185 @@
+CLASS cjm net/minecraft/client/settings/GameSettings
+	CLASS cjm$a Option
+		FIELD A CHAT_WIDTH Lcjm$a;
+		FIELD B CHAT_HEIGHT_FOCUSED Lcjm$a;
+		FIELD C CHAT_HEIGHT_UNFOCUSED Lcjm$a;
+		FIELD D MIPMAP_LEVELS Lcjm$a;
+		FIELD E FORCE_UNICODE_FONT Lcjm$a;
+		FIELD F REDUCED_DEBUG_INFO Lcjm$a;
+		FIELD G ENTITY_SHADOWS Lcjm$a;
+		FIELD H MAIN_HAND Lcjm$a;
+		FIELD I ATTACK_INDICATOR Lcjm$a;
+		FIELD J ENABLE_WEAK_ATTACK Lcjm$a;
+		FIELD K SHOW_SUBTITLES Lcjm$a;
+		FIELD L REALMS_NOTIFICATIONS Lcjm$a;
+		FIELD M AUTO_JUMP Lcjm$a;
+		FIELD N NARRATOR Lcjm$a;
+		FIELD O AUTO_SUGGEST_COMMANDS Lcjm$a;
+		FIELD P BIOME_BLEND_RADIUS Lcjm$a;
+		FIELD Q MOUSE_WHEEL_SENSITIVITY Lcjm$a;
+		FIELD R slider Z
+		FIELD S toggle Z
+		FIELD T key Ljava/lang/String;
+		FIELD V min D
+		FIELD W max D
+		FIELD a INVERT_MOUSE Lcjm$a;
+		FIELD b SENSITIVITY Lcjm$a;
+		FIELD c FOV Lcjm$a;
+		FIELD d GAMMA Lcjm$a;
+		FIELD e SATURATION Lcjm$a;
+		FIELD f RENDER_DISTANCE Lcjm$a;
+		FIELD g VIEW_BOBBING Lcjm$a;
+		FIELD h FRAMERATE_LIMIT Lcjm$a;
+		FIELD i FBO_ENABLED Lcjm$a;
+		FIELD j RENDER_CLOUDS Lcjm$a;
+		FIELD k GRAPHICS Lcjm$a;
+		FIELD l AO Lcjm$a;
+		FIELD m GUI_SCALE Lcjm$a;
+		FIELD n PARTICLES Lcjm$a;
+		FIELD o VISIBILITY Lcjm$a;
+		FIELD p CHAT_COLOR Lcjm$a;
+		FIELD q CHAT_LINKS Lcjm$a;
+		FIELD r CHAT_OPACITY Lcjm$a;
+		FIELD s CHAT_LINKS_PROMPT Lcjm$a;
+		FIELD t SNOOPER Lcjm$a;
+		FIELD u FULLSCREEN_RESOLUTION Lcjm$a;
+		FIELD v FULLSCREEN Lcjm$a;
+		FIELD w VSYNC Lcjm$a;
+		FIELD x VBO Lcjm$a;
+		FIELD y TOUCHSCREEN Lcjm$a;
+		FIELD z CHAT_SCALE Lcjm$a;
+		METHOD a isSlider ()Z
+		METHOD a (D)D
+		METHOD a setMaximumValue (F)V
+			ARG 0 value
+		METHOD a getOption (I)Lcjm$a;
+		METHOD b isToggle ()Z
+		METHOD c getId ()I
+		METHOD d getTranslationKey ()Ljava/lang/String;
+		METHOD e getMinimumValue ()D
+		METHOD f getMaximumValue ()D
+	FIELD A pauseOnLostFocus Z
+	FIELD B touchscreen Z
+	FIELD C mainHand Lafp;
+	FIELD D overrideWidth I
+	FIELD E overrideHeight I
+	FIELD F heldItemTooltips Z
+	FIELD G chatScale D
+	FIELD H chatWidth D
+	FIELD I chatHeightUnfocused D
+	FIELD J chatHeightFocused D
+	FIELD K mipmapLevels I
+	FIELD L useNativeTransport Z
+	FIELD M entityShadows Z
+	FIELD N attackIndicator I
+	FIELD O enableWeakAttacks Z
+	FIELD P showSubtitles Z
+	FIELD Q realmsNotifications Z
+	FIELD R autoJump Z
+	FIELD S tutorialStep Ldkq;
+	FIELD T autoSuggestions Z
+	FIELD U biomeBlendRadius I
+	FIELD V mouseWheelSensitivity D
+	FIELD W glDebugVerbosity I
+	FIELD X keyForward Lcjf;
+	FIELD Y keyLeft Lcjf;
+	FIELD Z keyBack Lcjf;
+	FIELD aB debugEnabled Z
+	FIELD aE lastServer Ljava/lang/String;
+	FIELD aH fov D
+	FIELD aI gamma D
+	FIELD aJ saturation F
+	FIELD aK guiScale I
+	FIELD aL particles I
+	FIELD a COLON_SPLITTER Lcom/google/common/base/Splitter;
+	FIELD aM narrator I
+	FIELD aN lang Ljava/lang/String;
+	FIELD aO forceUnicodeFont Z
+	FIELD aP LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD aQ GSON Lcom/google/gson/Gson;
+	FIELD aR STRING_LIST_TYPE Ljava/lang/reflect/Type;
+	FIELD aS PARTICLE_SETTINGS [Ljava/lang/String;
+	FIELD aT AO_SETTINGS [Ljava/lang/String;
+	FIELD aU GRAPHICS_SETTINGS [Ljava/lang/String;
+	FIELD aV ATTACK_INDICATOR_SETTINGS [Ljava/lang/String;
+	FIELD aW enabledPlayerModelParts Ljava/util/Set;
+	FIELD aX soundVolumeLevels Ljava/util/Map;
+	FIELD aY optionsFile Ljava/io/File;
+	FIELD aa keyRight Lcjf;
+	FIELD ab keyJump Lcjf;
+	FIELD ac keySneak Lcjf;
+	FIELD ad keySprint Lcjf;
+	FIELD ae keyInventory Lcjf;
+	FIELD af keySwapHands Lcjf;
+	FIELD ag keyDrop Lcjf;
+	FIELD ah keyUse Lcjf;
+	FIELD ai keyAttack Lcjf;
+	FIELD aj keyPickItem Lcjf;
+	FIELD ak keyChat Lcjf;
+	FIELD al keyPlayerList Lcjf;
+	FIELD am keyCommand Lcjf;
+	FIELD an keyScreenshot Lcjf;
+	FIELD ao keyTogglePerspective Lcjf;
+	FIELD ap keySmoothCamera Lcjf;
+	FIELD aq keyFullscreen Lcjf;
+	FIELD ar keySpectatorOutlines Lcjf;
+	FIELD as keyAdvancements Lcjf;
+	FIELD at keysHotbar [Lcjf;
+	FIELD au keySaveToolbarActivator Lcjf;
+	FIELD av keyLoadToolbarActivator Lcjf;
+	FIELD aw keysAll [Lcjf;
+	FIELD ax game Lcjj;
+	FIELD ay difficulty Lady;
+	FIELD b NARRATOR_SETTINGS [Ljava/lang/String;
+	FIELD c mouseSensitivity D
+	FIELD d invertYMouse Z
+	FIELD e viewDistance I
+	FIELD f bobView Z
+	FIELD g fboEnable Z
+	FIELD h maxFps I
+	FIELD i cloudRenderMode I
+	FIELD j fancyGraphics Z
+	FIELD k ao I
+	FIELD l resourcePacks Ljava/util/List;
+	FIELD m incompatibleResourcePacks Ljava/util/List;
+	FIELD n chatVisibility Lapb$b;
+	FIELD o chatColors Z
+	FIELD p chatLinks Z
+	FIELD q chatLinksPrompt Z
+	FIELD r chatOpacity D
+	FIELD s snooperEnabled Z
+	FIELD t fullscreen Z
+	FIELD u fullscreenResolution Ljava/lang/String;
+	FIELD v enableVsync Z
+	FIELD w useVbo Z
+	FIELD x reducedDebugInfo Z
+	FIELD y hideServerAddress Z
+	FIELD z advancedItemTooltips Z
+	METHOD <init> (Lcjj;Ljava/io/File;)V
+		ARG 0 game
+		ARG 1 optionsFile
+	METHOD a load ()V
+	METHOD a togglePlayerModelPart (Lapc;)V
+		ARG 0 part
+	METHOD a setPlayerModelPart (Lapc;Z)V
+		ARG 0 part
+		ARG 1 enabled
+	METHOD a updateOption (Lcjm$a;I)V
+		ARG 0 option
+		ARG 1 value
+	METHOD a parseFloat (Ljava/lang/String;)F
+		ARG 0 s
+	METHOD a getSoundVolume (Lwx;)F
+		ARG 0 category
+	METHOD a setSoundVolume (Lwx;F)V
+		ARG 0 category
+		ARG 1 value
+	METHOD b write ()V
+	METHOD b isEnabled (Lcjm$a;)Z
+		ARG 0 option
+	METHOD c onPlayerModelPartChange ()V
+	METHOD c getTranslatedName (Lcjm$a;)Ljava/lang/String;
+		ARG 0 option
+	METHOD d getEnabledPlayerModelParts ()Ljava/util/Set;
+	METHOD e getCloudRenderMode ()I
+	METHOD f shouldUseNativeTransport ()Z

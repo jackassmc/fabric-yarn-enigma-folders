@@ -1,0 +1,27 @@
+CLASS dfa net/minecraft/client/render/chunk/ChunkRenderDataTask
+	CLASS dfa$a Stage
+		FIELD a INIT Ldfa$a;
+	CLASS dfa$b Mode
+	FIELD a chunkRenderer Ldff;
+	FIELD b lock Ljava/util/concurrent/locks/ReentrantLock;
+	FIELD c runnables Ljava/util/List;
+	FIELD d mode Ldfa$b;
+	FIELD e distanceToPlayerSquared D
+	FIELD g vertexBuffer Ldcf;
+	FIELD h renderData Ldfd;
+	FIELD i stage Ldfa$a;
+	METHOD <init> (Ldff;Ldfa$b;DLdfh;)V
+		ARG 1 chunkRenderer
+		ARG 2 mode
+		ARG 3 distanceToPlayerSquared
+	METHOD a getStage ()Ldfa$a;
+	METHOD a setVertexBuffer (Ldcf;)V
+	METHOD a setStage (Ldfa$a;)V
+	METHOD a compareTo (Ldfa;)I
+	METHOD a setRenderData (Ldfd;)V
+	METHOD b getChunkRenderer ()Ldff;
+	METHOD d getRenderData ()Ldfd;
+	METHOD e getVertexBuffer ()Ldcf;
+	METHOD g getLock ()Ljava/util/concurrent/locks/ReentrantLock;
+	METHOD h getMode ()Ldfa$b;
+	METHOD j getDistanceToPlayerSquared ()D

@@ -1,0 +1,2 @@
+CLASS arn net/minecraft/village/VillagerDataContainer
+	METHOD dW getVillagerData ()Larm;

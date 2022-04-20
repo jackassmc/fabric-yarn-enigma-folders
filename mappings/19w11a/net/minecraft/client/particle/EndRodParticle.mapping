@@ -1,0 +1,2 @@
+CLASS dha net/minecraft/client/particle/EndRodParticle
+	CLASS dha$a net/minecraft/client/particle/EndRodParticle$Factory

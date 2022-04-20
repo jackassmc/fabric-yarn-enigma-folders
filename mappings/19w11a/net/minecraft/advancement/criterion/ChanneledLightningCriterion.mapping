@@ -1,0 +1,7 @@
+CLASS ag net/minecraft/advancement/criterion/ChanneledLightningCriterion
+	CLASS ag$b net/minecraft/advancement/criterion/ChanneledLightningCriterion$Conditions
+		FIELD a victims [Lau;
+		METHOD a matches (Lvd;Ljava/util/Collection;)Z
+		METHOD a create ([Lau;)Lag$b;
+			ARG 0 victims
+	FIELD a ID Lqp;

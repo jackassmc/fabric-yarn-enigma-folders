@@ -1,0 +1,8 @@
+CLASS bee net/minecraft/block/BlockAir
+	METHOD a (Lbno;)Z
+	METHOD a getBoundingShape (Lbno;Lazl;Les;)Lcjm;
+		ARG 1 state
+		ARG 2 view
+	METHOD c getRenderType (Lbno;)Lbjc;
+	METHOD d canCollideWith (Lbno;)Z
+	METHOD e isAir (Lbno;)Z

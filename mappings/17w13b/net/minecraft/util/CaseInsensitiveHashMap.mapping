@@ -1,0 +1,2 @@
+CLASS qb net/minecraft/util/CaseInsensitiveHashMap
+	FIELD a parent Ljava/util/Map;

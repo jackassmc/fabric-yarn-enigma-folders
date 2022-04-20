@@ -1,0 +1,6 @@
+CLASS amx net/minecraft/entity/ai/goal/FormCaravanGoal
+	FIELD a owner Larp;
+	FIELD b speed D
+	FIELD c counter I
+	METHOD a canFollow (Larp;I)Z
+		ARG 2 length

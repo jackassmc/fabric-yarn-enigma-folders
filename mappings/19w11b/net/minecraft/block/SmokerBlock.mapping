@@ -1,0 +1,3 @@
+CLASS bpx net/minecraft/block/SmokerBlock
+	METHOD <init> (Lbky$c;)V
+		ARG 1 settings

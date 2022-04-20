@@ -1,0 +1,43 @@
+CLASS ccp net/minecraft/client/audio/SoundLoader
+	CLASS ccp$2
+		METHOD a getSound ()Lcbw;
+		METHOD e getWeight ()I
+		METHOD i getSound ()Ljava/lang/Object;
+	FIELD a SOUND_MISSING Lcbw;
+	FIELD b LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD c GSON Lcom/google/gson/Gson;
+	FIELD d TYPE Ljava/lang/reflect/ParameterizedType;
+	FIELD e registry Lccq;
+	FIELD f soundManager Lccn;
+	FIELD g resourceManager Lbzv;
+	METHOD <init> (Lbzv;Lbes;)V
+		ARG 0 manager
+		ARG 1 settings
+	METHOD F_ update ()V
+	METHOD a pause ()V
+	METHOD a updateListenerPosition (Laax;F)V
+		ARG 0 listener
+	METHOD a onResourceReload (Lbzv;)V
+		ARG 0 container
+	METHOD a play (Lcbz;)V
+		ARG 0 sound
+	METHOD a (Lcbz;I)V
+		ARG 0 sound
+	METHOD a registerListener (Lcco;)V
+		ARG 0 listener
+	METHOD a readSounds (Ljava/io/InputStream;)Ljava/util/Map;
+		ARG 0 input
+	METHOD a getSoundAccessor (Lkq;)Lccr;
+		ARG 0 id
+	METHOD a updateSoundVolume (Lno;F)V
+		ARG 0 category
+		ARG 1 volume
+	METHOD b stopAll ()V
+	METHOD b stop (Lcbz;)V
+		ARG 0 sound
+	METHOD b unregisterListener (Lcco;)V
+		ARG 0 listener
+	METHOD c deinitialize ()V
+	METHOD c isPlaying (Lcbz;)Z
+		ARG 0 sound
+	METHOD d resume ()V

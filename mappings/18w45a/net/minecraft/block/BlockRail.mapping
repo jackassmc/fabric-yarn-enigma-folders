@@ -1,0 +1,7 @@
+CLASS biv net/minecraft/block/BlockRail
+	METHOD a applyMirror (Lbno;Lbif;)Lbno;
+		ARG 1 state
+	METHOD a applyRotation (Lbno;Lbjf;)Lbno;
+		ARG 1 state
+	METHOD a appendProperties (Lbnp$a;)V
+	METHOD e getShapeProperty ()Lbox;

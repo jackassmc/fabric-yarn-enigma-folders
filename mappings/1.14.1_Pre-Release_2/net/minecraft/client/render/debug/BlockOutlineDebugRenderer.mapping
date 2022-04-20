@@ -1,0 +1,2 @@
+CLASS doc net/minecraft/client/render/debug/BlockOutlineDebugRenderer
+	FIELD a client Lcvk;

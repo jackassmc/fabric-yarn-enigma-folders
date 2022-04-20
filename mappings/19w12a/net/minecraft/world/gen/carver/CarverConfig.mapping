@@ -1,0 +1,2 @@
+CLASS bxx net/minecraft/world/gen/carver/CarverConfig
+	FIELD a DEFAULT Lbyb;

@@ -1,0 +1,4 @@
+CLASS bfo net/minecraft/enchantment/ChannelingEnchantment
+	METHOD <init> (Lbex$a;[Laie;)V
+		ARG 1 weight
+		ARG 2 slotTypes

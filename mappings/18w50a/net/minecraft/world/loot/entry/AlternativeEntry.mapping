@@ -1,0 +1,9 @@
+CLASS cje net/minecraft/world/loot/entry/AlternativeEntry
+	CLASS cje$a Builder
+		FIELD a children Ljava/util/List;
+		METHOD a withChild (Lcjn$a;)Lcje$a;
+		METHOD b build ()Lcjn;
+		METHOD d getThisBuilder ()Lcjn$a;
+	METHOD a check (Lciz;Ljava/util/function/Function;Ljava/util/Set;Lcku;)V
+	METHOD a combine ([Lcjf;)Lcjf;
+	METHOD a create ([Lcjn$a;)Lcje$a;

@@ -1,0 +1,11 @@
+CLASS cvy net/minecraft/client/render/RenderTickCounter
+	FIELD a ticksThisFrame I
+	FIELD b tickDelta F
+	FIELD c lastFrameDuration F
+	FIELD d prevTimeMillis J
+	FIELD e timeScale F
+	METHOD <init> (FJ)V
+		ARG 1 tps
+		ARG 2 timeMillis
+	METHOD a beginRenderTick (J)V
+		ARG 1 timeMillis

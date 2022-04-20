@@ -1,0 +1,17 @@
+CLASS dkt net/minecraft/client/texture/TextureManager
+	FIELD b LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD c textures Ljava/util/Map;
+	FIELD d tickListeners Ljava/util/List;
+	FIELD e dynamicIdCounters Ljava/util/Map;
+	FIELD f resourceContainer Lwa;
+	METHOD a registerDynamicTexture (Ljava/lang/String;Ldkj;)Lpy;
+		ARG 1 prefix
+	METHOD a bindTexture (Lpy;)V
+	METHOD a registerTexture (Lpy;Ldku;)Z
+		ARG 1 id
+	METHOD a registerTextureUpdateable (Lpy;Ldkw;)Z
+		ARG 1 id
+	METHOD a onResourceReload (Lwa;)V
+	METHOD b getTexture (Lpy;)Ldku;
+	METHOD c destroyTexture (Lpy;)V
+	METHOD e tick ()V

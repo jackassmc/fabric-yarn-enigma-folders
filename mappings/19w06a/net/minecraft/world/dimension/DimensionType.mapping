@@ -1,0 +1,23 @@
+CLASS btl net/minecraft/world/dimension/DimensionType
+	FIELD d id I
+	FIELD e suffix Ljava/lang/String;
+	FIELD f saveDir Ljava/lang/String;
+	FIELD g factory Ljava/util/function/BiFunction;
+	FIELD h hasSkyLight Z
+	METHOD <init> (ILjava/lang/String;Ljava/lang/String;Ljava/util/function/BiFunction;Z)V
+		ARG 1 dimensionId
+		ARG 2 suffix
+		ARG 3 saveDir
+		ARG 4 factory
+	METHOD a getAll ()Ljava/lang/Iterable;
+	METHOD a byRawId (I)Lbtl;
+	METHOD a create (Lbcu;)Lbtk;
+	METHOD a getId (Lbtl;)Lqd;
+	METHOD a getFile (Ljava/io/File;)Ljava/io/File;
+	METHOD a register (Ljava/lang/String;Lbtl;)Lbtl;
+		ARG 0 id
+		ARG 1 dimension
+	METHOD a byId (Lqd;)Lbtl;
+	METHOD b getRawId ()I
+	METHOD c getSuffix ()Ljava/lang/String;
+	METHOD d hasSkyLight ()Z

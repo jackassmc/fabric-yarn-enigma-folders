@@ -1,0 +1,8 @@
+CLASS cge net/minecraft/structure/generator/BuriedTreasureGenerator
+	CLASS cge$a net/minecraft/structure/generator/BuriedTreasureGenerator$Piece
+		METHOD <init> (Lchq;Lia;)V
+			ARG 2 tag
+		METHOD <init> (Leu;)V
+			ARG 1 pos
+		METHOD a isLiquid (Lbtx;)Z
+			ARG 1 state

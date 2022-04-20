@@ -1,0 +1,3 @@
+CLASS dbq net/minecraft/client/render/entity/model/VillagerEntityModel
+	FIELD a head Ldcc;
+	FIELD l nose Ldcc;

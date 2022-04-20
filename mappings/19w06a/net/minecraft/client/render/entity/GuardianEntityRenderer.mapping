@@ -1,0 +1,3 @@
+CLASS dkp net/minecraft/client/render/entity/GuardianEntityRenderer
+	FIELD a SKIN Lqd;
+	FIELD j EXPLOSION_BEAM_TEX Lqd;

@@ -1,0 +1,4 @@
+CLASS cyx net/minecraft/client/render/entity/model/ChestEntityModel
+	FIELD a lid Ldbu;
+	FIELD b base Ldbu;
+	FIELD c hatch Ldbu;

@@ -1,0 +1,12 @@
+CLASS aio net/minecraft/entity/ai/goal/FollowOwnerGoal
+	FIELD a world Lbaw;
+	FIELD b caller Lahg;
+	FIELD c owner Lagt;
+	FIELD h minDistance F
+	METHOD <init> (Lahg;DFF)V
+		ARG 1 caller
+	METHOD a canStart ()Z
+	METHOD b shouldContinue ()Z
+	METHOD c start ()V
+	METHOD d onRemove ()V
+	METHOD e tick ()V

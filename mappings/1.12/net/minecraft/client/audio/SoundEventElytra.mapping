@@ -1,0 +1,6 @@
+CLASS cgj net/minecraft/client/audio/SoundEventElytra
+	FIELD m player Lbub;
+	FIELD n tickCount I
+	METHOD <init> (Lbub;)V
+		ARG 0 player
+	METHOD e update ()V

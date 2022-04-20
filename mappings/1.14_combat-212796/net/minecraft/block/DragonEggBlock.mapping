@@ -1,0 +1,8 @@
+CLASS boe net/minecraft/block/DragonEggBlock
+	FIELD a SHAPE Lcsw;
+	METHOD <init> (Lbmr$c;)V
+		ARG 1 settings
+	METHOD d teleport (Lbvp;Lbhn;Lev;)V
+		ARG 1 state
+		ARG 2 world
+		ARG 3 pos

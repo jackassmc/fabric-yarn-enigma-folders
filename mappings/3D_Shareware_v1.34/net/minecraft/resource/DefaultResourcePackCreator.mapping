@@ -1,0 +1,2 @@
+CLASS wt net/minecraft/resource/DefaultResourcePackCreator
+	FIELD a pack Lwi;

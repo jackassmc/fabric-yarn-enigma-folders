@@ -1,0 +1,11 @@
+CLASS ft net/minecraft/block/dispenser/ItemDispenserBehavior
+	METHOD a dispenseItem (Lbfy;Lbar;ILez;Lfj;)V
+	METHOD a playSound (Lev;)V
+	METHOD a dispenseStack (Lev;Lbar;)Lbar;
+		ARG 1 pointer
+		ARG 2 stack
+	METHOD a spawnParticles (Lev;Lez;)V
+		ARG 1 block
+	METHOD dispense (Lev;Lbar;)Lbar;
+		ARG 1 location
+		ARG 2 stack

@@ -1,0 +1,2 @@
+CLASS dap net/minecraft/client/gui/container/BlastFurnaceScreen
+	FIELD l BG_TEX Lqs;

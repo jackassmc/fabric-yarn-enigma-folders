@@ -1,0 +1,3 @@
+CLASS anw net/minecraft/entity/ai/goal/BowAttackGoal
+	METHOD a setAttackInterval (I)V
+	METHOD g isHoldingBow ()Z

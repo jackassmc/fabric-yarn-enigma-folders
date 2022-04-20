@@ -1,0 +1,4 @@
+CLASS bvf net/minecraft/predicate/block/BlockPredicate
+	FIELD a block Lbly;
+	METHOD a make (Lbly;)Lbvf;
+		ARG 0 block

@@ -1,0 +1,17 @@
+CLASS crq net/minecraft/scoreboard/AbstractScoreboardTeam
+	CLASS crq$a CollisionRule
+	CLASS crq$b VisibilityRule
+		FIELD a ALWAYS Lcrq$b;
+		FIELD b NEVER Lcrq$b;
+		FIELD c HIDDEN_FOR_OTHER_TEAMS Lcrq$b;
+		FIELD d HIDDEN_FOR_TEAM Lcrq$b;
+	METHOD a isEqual (Lcrq;)Z
+	METHOD b getName ()Ljava/lang/String;
+	METHOD d modifyText (Ljm;)Ljm;
+	METHOD g getPlayerList ()Ljava/util/Collection;
+	METHOD h isFriendlyFireAllowed ()Z
+	METHOD i shouldShowFriendlyInvisibles ()Z
+	METHOD j getNameTagVisibilityRule ()Lcrq$b;
+	METHOD k getDeathMessageVisibilityRule ()Lcrq$b;
+	METHOD l getCollisionRule ()Lcrq$a;
+	METHOD n getColor ()Lc;

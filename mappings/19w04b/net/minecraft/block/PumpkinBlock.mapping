@@ -1,0 +1,3 @@
+CLASS bln net/minecraft/block/PumpkinBlock
+	METHOD <init> (Lbhn$c;)V
+		ARG 1 settings

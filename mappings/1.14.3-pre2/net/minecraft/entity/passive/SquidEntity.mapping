@@ -1,0 +1,14 @@
+CLASS arq net/minecraft/entity/passive/SquidEntity
+	CLASS arq$a EscapeAttackerGoal
+		FIELD b timer I
+	CLASS arq$b SwimGoal
+		FIELD b squid Larq;
+		METHOD <init> (Larq;Larq;)V
+			ARG 2 squid
+	FIELD bE constantVelocityRate F
+	FIELD bH constantVelocityX F
+	FIELD bI constantVelocityY F
+	FIELD bJ constantVelocityZ F
+	METHOD a setConstantVelocity (FFF)V
+	METHOD dV squirt ()V
+	METHOD l hasConstantVelocity ()Z

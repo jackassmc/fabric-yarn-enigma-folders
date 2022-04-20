@@ -1,0 +1,6 @@
+CLASS cuh net/minecraft/client/gui/menu/settings/ChatSettingsScreen
+	FIELD a SETTINGS [Lcqz;
+	FIELD b parent Lcvi;
+	FIELD g settings Lcra;
+	METHOD <init> (Lcvi;Lcra;)V
+		ARG 1 parent

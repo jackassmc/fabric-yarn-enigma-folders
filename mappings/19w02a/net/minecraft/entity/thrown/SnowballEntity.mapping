@@ -1,0 +1,2 @@
+CLASS asd net/minecraft/entity/thrown/SnowballEntity
+	METHOD a onCollision (Lcmp;)V

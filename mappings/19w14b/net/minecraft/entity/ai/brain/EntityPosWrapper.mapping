@@ -1,0 +1,4 @@
+CLASS ajq net/minecraft/entity/ai/brain/EntityPosWrapper
+	FIELD a entity Laij;
+	METHOD <init> (Laij;)V
+		ARG 1 entity

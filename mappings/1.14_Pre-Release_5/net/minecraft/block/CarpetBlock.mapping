@@ -1,0 +1,4 @@
+CLASS btc net/minecraft/block/CarpetBlock
+	FIELD a SHAPE Lcsp;
+	FIELD b color Lbax;
+	METHOD d getColor ()Lbax;

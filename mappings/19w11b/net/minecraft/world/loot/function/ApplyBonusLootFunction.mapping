@@ -1,0 +1,23 @@
+CLASS cnu net/minecraft/world/loot/function/ApplyBonusLootFunction
+	CLASS cnu$a BinomialWithBonusCount
+		FIELD a ID Lqp;
+		METHOD a fromJson (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Lcnu$b;
+	CLASS cnu$b Formula
+		METHOD a getId ()Lqp;
+		METHOD a toJson (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD a getValue (Ljava/util/Random;II)I
+	CLASS cnu$c FormulaFactory
+	CLASS cnu$d OreDrops
+		FIELD a ID Lqp;
+		METHOD a fromJson (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Lcnu$b;
+	CLASS cnu$e Factory
+	CLASS cnu$f UniformBonusCount
+		FIELD a ID Lqp;
+		METHOD a fromJson (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Lcnu$b;
+	FIELD a FACTORIES Ljava/util/Map;
+	FIELD c enchantment Lbdz;
+	FIELD d formula Lcnu$b;
+	METHOD a oreDrops (Lbdz;)Lcoe$a;
+	METHOD a binomialWithBonusCount (Lbdz;FI)Lcoe$a;
+	METHOD a builder (Lbdz;I)Lcoe$a;
+	METHOD b one (Lbdz;)Lcoe$a;

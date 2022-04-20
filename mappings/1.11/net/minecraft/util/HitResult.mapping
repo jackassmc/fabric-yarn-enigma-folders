@@ -1,0 +1,28 @@
+CLASS bds net/minecraft/util/HitResult
+	CLASS bds$a Type
+		FIELD a NONE Lbds$a;
+		FIELD b BLOCK Lbds$a;
+		FIELD c ENTITY Lbds$a;
+	FIELD a type Lbds$a;
+	FIELD b side Lcv;
+	FIELD c pos Lbdu;
+	FIELD d entity Lsm;
+	FIELD e blockPos Lco;
+	METHOD <init> (Lbds$a;Lbdu;Lcv;Lco;)V
+		ARG 0 type
+		ARG 1 pos
+		ARG 2 side
+		ARG 3 blockPos
+	METHOD <init> (Lbdu;Lcv;)V
+		ARG 0 pos
+		ARG 1 side
+	METHOD <init> (Lbdu;Lcv;Lco;)V
+		ARG 0 pos
+		ARG 1 side
+		ARG 2 blockPos
+	METHOD <init> (Lsm;)V
+		ARG 0 entity
+	METHOD <init> (Lsm;Lbdu;)V
+		ARG 0 entity
+		ARG 1 pos
+	METHOD a getBlockPos ()Lco;

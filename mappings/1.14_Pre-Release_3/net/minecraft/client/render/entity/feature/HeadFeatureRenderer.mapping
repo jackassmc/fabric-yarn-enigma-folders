@@ -1,0 +1,3 @@
+CLASS dsg net/minecraft/client/render/entity/feature/HeadFeatureRenderer
+	METHOD <init> (Ldqs;)V
+		ARG 1 context

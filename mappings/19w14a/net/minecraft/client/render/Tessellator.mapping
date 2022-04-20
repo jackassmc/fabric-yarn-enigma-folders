@@ -1,0 +1,7 @@
+CLASS ctz net/minecraft/client/render/Tessellator
+	FIELD a buffer Lctw;
+	FIELD b renderer Lctx;
+	FIELD c INSTANCE Lctz;
+	METHOD a getInstance ()Lctz;
+	METHOD b draw ()V
+	METHOD c getBufferBuilder ()Lctw;

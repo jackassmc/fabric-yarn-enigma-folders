@@ -1,0 +1,28 @@
+CLASS agz net/minecraft/inventory/Inventory
+	METHOD J_ getInvMaxStackAmount ()I
+	METHOD M_ getInvSize ()I
+	METHOD a getInvStack (I)Lbce;
+		ARG 1 slot
+	METHOD a takeInvStack (II)Lbce;
+		ARG 1 slot
+		ARG 2 amount
+	METHOD a setInvStack (ILbce;)V
+		ARG 1 slot
+		ARG 2 stack
+	METHOD a canPlayerUseInv (Lawb;)Z
+		ARG 1 player
+	METHOD a countInInv (Lbbz;)I
+		ARG 1 item
+	METHOD a containsAnyInInv (Ljava/util/Set;)Z
+		ARG 1 items
+	METHOD a_ onInvOpen (Lawb;)V
+		ARG 1 player
+	METHOD b removeInvStack (I)Lbce;
+		ARG 1 slot
+	METHOD b isValidInvStack (ILbce;)Z
+		ARG 1 slot
+		ARG 2 stack
+	METHOD b_ onInvClose (Lawb;)V
+		ARG 1 player
+	METHOD c isInvEmpty ()Z
+	METHOD e markDirty ()V

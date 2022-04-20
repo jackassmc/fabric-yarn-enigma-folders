@@ -1,0 +1,3 @@
+CLASS bjb net/minecraft/block/BlockSand
+	METHOD w getColor (Lbnh;)I
+		ARG 1 state

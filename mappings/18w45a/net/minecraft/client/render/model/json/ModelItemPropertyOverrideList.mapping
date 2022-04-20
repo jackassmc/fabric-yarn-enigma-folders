@@ -1,0 +1,2 @@
+CLASS dbj net/minecraft/client/render/model/json/ModelItemPropertyOverrideList
+	FIELD a ORIGIN Ldbj;

@@ -1,0 +1,9 @@
+CLASS aqx net/minecraft/entity/decoration/EnderCrystalEntity
+	FIELD c BEAM_TARGET Lqe;
+	FIELD d SHOW_BOTTOM Lqe;
+	METHOD a crystalDestroyed (Lahf;)V
+		ARG 1 source
+	METHOD a setBeamTarget (Leu;)V
+	METHOD a setShowBottom (Z)V
+	METHOD f getBeamTarget ()Leu;
+	METHOD i getShowBottom ()Z

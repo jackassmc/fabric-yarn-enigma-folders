@@ -1,0 +1,12 @@
+CLASS uc net/minecraft/world/chunk/ChunkProviderServer
+	FIELD b LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD h world Lazy;
+	FIELD l loadedChunkMap Lit/unimi/dsi/fastutil/longs/Long2ObjectLinkedOpenHashMap;
+	FIELD r genWorkerPool Ljava/util/concurrent/ExecutorService;
+	FIELD s genWorkerId Ljava/util/concurrent/atomic/AtomicInteger;
+	METHOD a getLightingProvider ()Lcbi;
+	METHOD b get (II)Lazl;
+		ARG 1 chunkX
+	METHOD d isGenerationDisabled (Luf;)Z
+	METHOD f getStatus ()Ljava/lang/String;
+	METHOD h getLoadedChunkCount ()I

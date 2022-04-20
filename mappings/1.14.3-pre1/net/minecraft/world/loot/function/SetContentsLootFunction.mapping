@@ -1,0 +1,15 @@
+CLASS cqc net/minecraft/world/loot/function/SetContentsLootFunction
+	CLASS cqc$a Builer
+		FIELD a entries Ljava/util/List;
+		METHOD a withEntry (Lcph$a;)Lcqc$a;
+			ARG 1 entryBuilder
+	CLASS cqc$b Factory
+	FIELD a entries Ljava/util/List;
+	METHOD <init> ([Lcrb;Ljava/util/List;)V
+		ARG 1 conditions
+		ARG 2 entries
+	METHOD a (Lcop;Lfj;Lcph;)V
+		ARG 2 entry
+	METHOD a (Lfj;Lcop;Lcpg;)V
+		ARG 2 choice
+	METHOD b builder ()Lcqc$a;

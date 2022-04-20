@@ -1,0 +1,2 @@
+CLASS dii net/minecraft/client/particle/LavaEmberParticle
+	CLASS dii$a Factory

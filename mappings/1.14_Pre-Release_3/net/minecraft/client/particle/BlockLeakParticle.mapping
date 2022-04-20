@@ -1,0 +1,53 @@
+CLASS dhy net/minecraft/client/particle/BlockLeakParticle
+	CLASS dhy$a DrippingLavaParticle
+		METHOD <init> (Lbhd;DDDLcku;Lgd;)V
+			ARG 1 world
+			ARG 2 x
+			ARG 4 y
+			ARG 6 z
+			ARG 8 fluid
+			ARG 9 nextParticle
+	CLASS dhy$b FallingParticle
+		FIELD C nextParticle Lgd;
+		METHOD <init> (Lbhd;DDDLcku;Lgd;)V
+			ARG 1 world
+			ARG 2 x
+			ARG 4 y
+			ARG 6 z
+			ARG 8 fluid
+			ARG 9 nextParticle
+	CLASS dhy$c DrippingParticle
+		FIELD C nextParticle Lgd;
+		METHOD <init> (Lbhd;DDDLcku;Lgd;)V
+			ARG 1 world
+			ARG 2 x
+			ARG 4 y
+			ARG 6 z
+			ARG 8 fluid
+			ARG 9 nextParticle
+	CLASS dhy$d LandingParticle
+	CLASS dhy$e FallingLavaFactory
+		FIELD a spriteProvider Ldjc;
+		METHOD <init> (Ldjc;)V
+			ARG 1 spriteProvider
+	CLASS dhy$f DrippingLavaFactory
+		FIELD a spriteProvider Ldjc;
+		METHOD <init> (Ldjc;)V
+			ARG 1 spriteProvider
+	CLASS dhy$g LandingLavaFactory
+		FIELD a spriteProvider Ldjc;
+	CLASS dhy$h FallingWaterFactory
+		FIELD a spriteProvider Ldjc;
+		METHOD <init> (Ldjc;)V
+			ARG 1 spriteProvider
+	CLASS dhy$i DrippingWaterFactory
+		FIELD a spriteProvider Ldjc;
+	FIELD C fluid Lcku;
+	METHOD <init> (Lbhd;DDDLcku;)V
+		ARG 1 world
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z
+		ARG 8 fluid
+	METHOD g updateAge ()V
+	METHOD h updateVelocity ()V

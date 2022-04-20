@@ -1,0 +1,5 @@
+CLASS azx net/minecraft/item/DyeItem
+	FIELD a dyes Ljava/util/Map;
+	FIELD b color Lazw;
+	METHOD a fromColor (Lazw;)Lazx;
+	METHOD d getColor ()Lazw;

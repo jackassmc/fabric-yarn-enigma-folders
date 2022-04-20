@@ -1,0 +1,14 @@
+CLASS net/minecraft/realms/RealmsScreenProxy
+	METHOD drawCenteredString (Ljava/lang/String;III)V
+		ARG 1 text
+		ARG 2 x
+		ARG 3 y
+	METHOD drawString (Ljava/lang/String;IIIZ)V
+		ARG 1 text
+		ARG 2 x
+		ARG 3 y
+		ARG 4 color
+	METHOD fontDrawShadow (Ljava/lang/String;III)V
+		ARG 1 text
+		ARG 2 x
+		ARG 3 y

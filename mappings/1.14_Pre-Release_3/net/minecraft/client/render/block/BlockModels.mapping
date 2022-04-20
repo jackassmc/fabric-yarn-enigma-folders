@@ -1,0 +1,11 @@
+CLASS dkx net/minecraft/client/render/block/BlockModels
+	FIELD a models Ljava/util/Map;
+	FIELD b modelManager Ldvu;
+	METHOD a getModelManager ()Ldvu;
+	METHOD a getSprite (Lbvf;)Lduc;
+	METHOD a propertyValueToString (Lbwi;Ljava/lang/Comparable;)Ljava/lang/String;
+	METHOD a propertyMapToString (Ljava/util/Map;)Ljava/lang/String;
+	METHOD a getModelId (Lqs;Lbvf;)Ldvv;
+	METHOD b reload ()V
+	METHOD b getModel (Lbvf;)Ldvq;
+	METHOD c getModelId (Lbvf;)Ldvv;

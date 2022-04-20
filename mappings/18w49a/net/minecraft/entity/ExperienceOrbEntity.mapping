@@ -1,0 +1,22 @@
+CLASS agq net/minecraft/entity/ExperienceOrbEntity
+	FIELD b xpAge I
+	FIELD d health I
+	FIELD e amount I
+	METHOD <init> (Lbas;DDDI)V
+		ARG 1 world
+		ARG 2 x
+		ARG 4 y
+	METHOD T_ update ()V
+	METHOD a roundToOrbSize (I)I
+		ARG 0 value
+	METHOD a damage (Laft;F)Z
+		ARG 1 source
+		ARG 2 amount
+	METHOD a readCustomDataFromTag (Lhq;)V
+	METHOD aA getLightmapCoordinates ()I
+	METHOD aw onSwimmingStart ()V
+	METHOD b writeCustomDataToTag (Lhq;)V
+	METHOD g burn (I)V
+	METHOD i getExperienceAmount ()I
+	METHOD k getOrbSize ()I
+	METHOD y_ initDataTracker ()V

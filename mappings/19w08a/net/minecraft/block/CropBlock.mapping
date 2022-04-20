@@ -1,0 +1,13 @@
+CLASS bji net/minecraft/block/CropBlock
+	FIELD a AGE_TO_SHAPE [Lcoe;
+	FIELD b AGE Lbsd;
+	METHOD <init> (Lbif$c;)V
+		ARG 1 settings
+	METHOD a getGrowthAmount (Lbde;)I
+	METHOD a applyGrowth (Lbde;Les;Lbrd;)V
+	METHOD b withCropAge (I)Lbrd;
+	METHOD d getAgeProperty ()Lbsd;
+	METHOD e getCropAgeMaximum ()I
+	METHOD f getCropItem ()Lbdd;
+	METHOD j getCropAge (Lbrd;)I
+	METHOD q isValidState (Lbrd;)Z

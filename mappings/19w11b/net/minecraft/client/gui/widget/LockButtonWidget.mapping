@@ -1,0 +1,20 @@
+CLASS cvc net/minecraft/client/gui/widget/LockButtonWidget
+	CLASS cvc$a IconLocation
+		FIELD a LOCKED Lcvc$a;
+		FIELD b LOCKED_HOVERED Lcvc$a;
+		FIELD c LOCKED_DISABLED Lcvc$a;
+		FIELD d UNLOCKED Lcvc$a;
+		FIELD e UNLOCKED_HOVERED Lcvc$a;
+		FIELD f UNLOCKED_DISABLED Lcvc$a;
+		FIELD g u I
+		FIELD h v I
+		METHOD <init> (Ljava/lang/String;III)V
+			ARG 1 v
+		METHOD a getU ()I
+		METHOD b getV ()I
+	FIELD a locked Z
+	METHOD <init> (II)V
+		ARG 1 x
+		ARG 2 y
+	METHOD c setLocked (Z)V
+	METHOD h isLocked ()Z

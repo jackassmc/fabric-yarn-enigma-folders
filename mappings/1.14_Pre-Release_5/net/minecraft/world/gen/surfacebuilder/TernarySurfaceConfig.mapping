@@ -1,0 +1,11 @@
+CLASS cjx net/minecraft/world/gen/surfacebuilder/TernarySurfaceConfig
+	FIELD a topMaterial Lbvj;
+	FIELD b underMaterial Lbvj;
+	FIELD c underwaterMaterial Lbvj;
+	METHOD <init> (Lbvj;Lbvj;Lbvj;)V
+		ARG 1 topMaterial
+		ARG 2 underMaterial
+		ARG 3 underwaterMaterial
+	METHOD a deserialize (Lcom/mojang/datafixers/Dynamic;)Lcjx;
+		ARG 0 dynamic
+	METHOD c getUnderwaterMaterial ()Lbvj;

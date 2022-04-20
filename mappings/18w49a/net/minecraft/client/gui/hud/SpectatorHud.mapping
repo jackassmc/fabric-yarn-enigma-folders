@@ -1,0 +1,6 @@
+CLASS cqf net/minecraft/client/gui/hud/SpectatorHud
+	FIELD a SPECTATOR_TEX Lpz;
+	FIELD f WIDGETS_TEX Lpz;
+	FIELD g client Lcof;
+	FIELD i spectatorMenu Lcvs;
+	METHOD a draw (F)V

@@ -1,0 +1,5 @@
+CLASS arx net/minecraft/entity/projectile/FireballEntity
+	FIELD f explosionPower I
+	METHOD a onCollision (Lcmp;)V
+	METHOD a readCustomDataFromTag (Lhs;)V
+	METHOD b writeCustomDataToTag (Lhs;)V

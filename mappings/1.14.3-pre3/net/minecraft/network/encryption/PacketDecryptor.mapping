@@ -1,0 +1,2 @@
+CLASS ix net/minecraft/network/encryption/PacketDecryptor
+	FIELD a manager Liw;

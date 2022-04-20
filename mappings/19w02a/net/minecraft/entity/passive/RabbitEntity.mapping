@@ -1,0 +1,44 @@
+CLASS amy net/minecraft/entity/passive/RabbitEntity
+	CLASS amy$b RabbitFleeGoal
+		METHOD a canStart ()Z
+	CLASS amy$d RabbitJumpControl
+		FIELD c rabbit Lamy;
+		METHOD b tick ()V
+		METHOD c isActive ()Z
+	CLASS amy$e RabbitMoveControl
+		FIELD i rabbit Lamy;
+		METHOD a tick ()V
+	CLASS amy$f
+		METHOD e tick ()V
+	CLASS amy$g
+		METHOD a canStart ()Z
+		METHOD a isTargetPos (Lbcj;Let;)Z
+		METHOD b shouldContinue ()Z
+		METHOD e tick ()V
+	FIELD bE RABBIT_TYPE Lpt;
+	FIELD bF KILLER_BUNNY Lqe;
+	METHOD D getAmbientSound ()Lxt;
+	METHOD I mobTick ()V
+	METHOD a damage (Lagm;F)Z
+		ARG 1 source
+		ARG 2 amount
+	METHOD a createChild (Laha;)Laha;
+	METHOD a isBreedingItem (Lawy;)Z
+	METHOD a prepareEntityData (Lbcg;Lafx;Lahp;Lahx;Lhs;)Lahx;
+		ARG 3 difficulty
+	METHOD a canSpawn (Lbcg;Lahp;)Z
+	METHOD a readCustomDataFromTag (Lhs;)V
+	METHOD ay attemptSprintingParticles ()V
+	METHOD b createChild (Laha;)Lamy;
+	METHOD b writeCustomDataToTag (Lhs;)V
+	METHOD bX getSoundCategory ()Lxv;
+	METHOD cb initAttributes ()V
+	METHOD cw getDeathSound ()Lxt;
+	METHOD dD getRabbitType ()I
+	METHOD e getHurtSound (Lagm;)Lxt;
+	METHOD f isBreedingItem (Laxd;)Z
+	METHOD k updateMovement ()V
+	METHOD n prepareGoals ()V
+	METHOD o doJump (Z)V
+	METHOD q setRabbitType (I)V
+	METHOD w_ initDataTracker ()V

@@ -1,0 +1,60 @@
+CLASS dkd net/minecraft/client/render/FirstPersonRenderer
+	FIELD a MAP_BACKGROUND_TEX Lqs;
+	FIELD b UNDERWATER_TEX Lqs;
+	FIELD c client Lcvb;
+	FIELD d mainHand Lbbu;
+	FIELD e offHand Lbbu;
+	FIELD f equipProgressMainHand F
+	FIELD g prevEquipProgressMainHand F
+	FIELD h equipProgressOffHand F
+	FIELD i prevEquipProgressOffHand F
+	FIELD j renderManager Ldoy;
+	FIELD k itemRenderer Ldpt;
+	METHOD a updateHeldItems ()V
+	METHOD a renderFirstPersonItem (F)V
+		ARG 1 tickDelta
+	METHOD a rotate (FF)V
+		ARG 1 pitch
+		ARG 2 yaw
+	METHOD a renderMapInBothHands (FFF)V
+		ARG 1 pitch
+		ARG 2 equipProgress
+	METHOD a renderArmHoldingItem (FFLail;)V
+		ARG 3 arm
+	METHOD a renderMapInOneHand (FLail;FLbbu;)V
+		ARG 1 equipProgress
+		ARG 2 hand
+		ARG 4 item
+	METHOD a applyEatOrDrinkTransformation (FLail;Lbbu;)V
+		ARG 1 tickDelta
+		ARG 2 hand
+		ARG 3 item
+	METHOD a resetEquipProgress (Lagx;)V
+	METHOD a renderArm (Lail;)V
+	METHOD a renderItem (Laim;Lbbu;Ldll$b;)V
+		ARG 1 holder
+		ARG 2 stack
+	METHOD a renderItemFromSide (Laim;Lbbu;Ldll$b;Z)V
+		ARG 1 holder
+		ARG 2 stack
+		ARG 3 transformation
+	METHOD a renderFirstPersonMap (Lbbu;)V
+		ARG 1 map
+	METHOD a renderFirstPersonItem (Ldjl;FFLagx;FLbbu;F)V
+		ARG 1 player
+		ARG 2 tickDelta
+		ARG 3 pitch
+		ARG 4 hand
+		ARG 6 item
+		ARG 7 equipProgress
+	METHOD a renderBlock (Ldtz;)V
+	METHOD b applyLightmap ()V
+	METHOD b renderOverlays (F)V
+	METHOD b applyHandOffset (Lail;F)V
+		ARG 1 hand
+	METHOD c renderArms ()V
+	METHOD c applyCameraAngles (F)V
+		ARG 1 tickDelta
+	METHOD d renderFireOverlay ()V
+	METHOD d getMapAngle (F)F
+	METHOD e renderWaterOverlay (F)V

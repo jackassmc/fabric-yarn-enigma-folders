@@ -1,0 +1,3 @@
+CLASS bhf net/minecraft/world/LightType
+	FIELD a SKY Lbhf;
+	FIELD b BLOCK Lbhf;

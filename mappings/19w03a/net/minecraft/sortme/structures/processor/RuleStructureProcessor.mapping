@@ -1,0 +1,4 @@
+CLASS cdy net/minecraft/sortme/structures/processor/RuleStructureProcessor
+	FIELD a rules Lcom/google/common/collect/ImmutableList;
+	METHOD a getStructureProcessor ()Lcee;
+	METHOD a process (Lbcm;Let;Lcef$b;Lcef$b;Lcec;)Lcef$b;

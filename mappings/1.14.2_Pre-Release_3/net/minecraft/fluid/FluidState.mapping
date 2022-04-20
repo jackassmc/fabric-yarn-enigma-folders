@@ -1,0 +1,24 @@
+CLASS clb net/minecraft/fluid/FluidState
+	METHOD a getHeight (Lbgs;Lev;)F
+	METHOD a onScheduledTick (Lbhi;Lev;)V
+	METHOD a randomDisplayTick (Lbhi;Lev;Ljava/util/Random;)V
+	METHOD a deserialize (Lcom/mojang/datafixers/Dynamic;)Lclb;
+		ARG 0 dynamic
+	METHOD a serialize (Lcom/mojang/datafixers/types/DynamicOps;Lclb;)Lcom/mojang/datafixers/Dynamic;
+		ARG 0 ops
+		ARG 1 state
+	METHOD a matches (Lzb;)Z
+	METHOD b onRandomTick (Lbhi;Lev;Ljava/util/Random;)V
+	METHOD c getFluid ()Lcla;
+	METHOD c getVelocity (Lbgs;Lev;)Lcrx;
+		ARG 1 world
+		ARG 2 pos
+	METHOD d isStill ()Z
+	METHOD d getShape (Lbgs;Lev;)Lcsr;
+	METHOD e isEmpty ()Z
+	METHOD f getLevel ()I
+	METHOD g hasRandomTicks ()Z
+	METHOD h getBlockState ()Lbvk;
+	METHOD i getParticle ()Lgd;
+	METHOD j getRenderLayer ()Lbgt;
+	METHOD k getBlastResistance ()F

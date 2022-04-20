@@ -1,0 +1,15 @@
+CLASS czf net/minecraft/client/gui/container/BeaconScreen
+	CLASS czf$a WidgetButtonIconCancel
+	CLASS czf$b WidgetButtonIconDone
+	CLASS czf$c WidgetButtonIconEffect
+		FIELD b effect Lahq;
+		FIELD d primary Z
+	CLASS czf$d WidgetButtonIcon
+		FIELD a disabled Z
+		METHOD a setDisabled (Z)V
+		METHOD b isDisabled ()Z
+	FIELD l BG_TEX Lqq;
+	FIELD m doneButton Lczf$b;
+	FIELD n canConsumeGem Z
+	FIELD o primaryEffect Lahq;
+	FIELD p secondaryEffect Lahq;

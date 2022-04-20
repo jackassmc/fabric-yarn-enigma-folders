@@ -1,0 +1,4 @@
+CLASS cji net/minecraft/world/loot/entry/EmptyEntry
+	CLASS cji$a Serializer
+	METHOD a Serializer ()Lcjo$a;
+	METHOD a drop (Ljava/util/function/Consumer;Lciv;)V

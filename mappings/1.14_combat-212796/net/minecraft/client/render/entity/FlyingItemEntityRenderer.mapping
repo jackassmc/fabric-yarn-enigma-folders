@@ -1,0 +1,6 @@
+CLASS drr net/minecraft/client/render/entity/FlyingItemEntityRenderer
+	FIELD a item Ldqi;
+	FIELD f scale F
+	METHOD <init> (Ldpn;Ldqi;F)V
+		ARG 1 renderManager
+		ARG 3 scale

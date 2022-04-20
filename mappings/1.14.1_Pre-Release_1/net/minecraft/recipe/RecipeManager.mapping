@@ -1,0 +1,19 @@
+CLASS bek net/minecraft/recipe/RecipeManager
+	FIELD a PREFIX_LENGTH I
+	FIELD b SUFFIX_LENGTH I
+	FIELD c LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD d recipeMap Ljava/util/Map;
+	FIELD e hadErrors Z
+	METHOD a add (Lbej;)V
+	METHOD a getAllForType (Lbem;)Ljava/util/Map;
+	METHOD a getFirstMatch (Lbem;Lagw;Lbhi;)Ljava/util/Optional;
+	METHOD a clear (Ljava/util/Map;)V
+	METHOD a get (Lqs;)Ljava/util/Optional;
+	METHOD a deserialize (Lqs;Lcom/google/gson/JsonObject;)Lbej;
+		ARG 0 id
+		ARG 1 json
+	METHOD b values ()Ljava/util/Collection;
+	METHOD b getAllMatches (Lbem;Lagw;Lbhi;)Ljava/util/List;
+	METHOD c keys ()Ljava/util/stream/Stream;
+	METHOD c getRemainingStacks (Lbem;Lagw;Lbhi;)Lfj;
+	METHOD d clear ()V

@@ -1,0 +1,6 @@
+CLASS cbt net/minecraft/world/gen/feature/IcebergFeatureConfig
+	FIELD a state Lbvf;
+	METHOD <init> (Lbvf;)V
+		ARG 1 state
+	METHOD a deserialize (Lcom/mojang/datafixers/Dynamic;)Lcbt;
+		ARG 0 dynamic

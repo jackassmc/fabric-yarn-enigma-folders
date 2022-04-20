@@ -1,0 +1,13 @@
+CLASS none/gc net/minecraft/network/packet/client/CPacketDifficulty
+	FIELD a difficulty Lnone/qy;
+	METHOD <init> (Lnone/qy;Z)V
+		ARG 0 difficulty
+	METHOD a readPacket (Lnone/es;)V
+		ARG 0 packet
+	METHOD a applyPacket (Lnone/ev;)V
+		ARG 0 handler
+	METHOD a applyPacket (Lnone/fo;)V
+		ARG 0 handler
+	METHOD b getDifficulty ()Lnone/qy;
+	METHOD b writePacket (Lnone/es;)V
+		ARG 0 packet

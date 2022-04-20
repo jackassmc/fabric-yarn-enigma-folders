@@ -1,0 +1,38 @@
+CLASS hy net/minecraft/nbt/ListTag
+	FIELD f LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD g value Ljava/util/List;
+	FIELD h type B
+	METHOD a getType ()B
+	METHOD a remove (I)Lij;
+	METHOD a setRaw (ILij;)V
+		ARG 1 index
+	METHOD a add (Lij;)Z
+	METHOD a read (Ljava/io/DataInput;ILib;)V
+		ARG 1 input
+		ARG 2 depth
+	METHOD a write (Ljava/io/DataOutput;)V
+	METHOD a toTextComponent (Ljava/lang/String;I)Ljd;
+		ARG 1 indent
+	METHOD a_ getListType ()I
+	METHOD b copy ()Lij;
+	METHOD b removeAt (I)V
+	METHOD b append (ILij;)V
+		ARG 1 index
+	METHOD b canAdd (Lij;)Z
+	METHOD c copy ()Lhy;
+	METHOD c getRaw (I)Lij;
+	METHOD c set (ILij;)Lij;
+		ARG 1 index
+	METHOD d get (I)Lij;
+	METHOD e getCompoundTag (I)Lhs;
+	METHOD equals (Ljava/lang/Object;)Z
+		ARG 1 o
+	METHOD f getListTag (I)Lhy;
+	METHOD g getShort (I)S
+	METHOD h getInt (I)I
+	METHOD i getIntArray (I)[I
+	METHOD k getDouble (I)D
+	METHOD l getFloat (I)F
+	METHOD m getString (I)Ljava/lang/String;
+	METHOD set (ILjava/lang/Object;)Ljava/lang/Object;
+		ARG 1 index

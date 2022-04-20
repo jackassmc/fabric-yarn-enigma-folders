@@ -1,0 +1,3 @@
+CLASS bsa net/minecraft/block/StoneButtonBlock
+	METHOD <init> (Lbmn$c;)V
+		ARG 1 settings

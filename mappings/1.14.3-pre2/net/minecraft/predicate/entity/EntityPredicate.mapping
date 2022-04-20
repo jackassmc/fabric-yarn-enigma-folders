@@ -1,0 +1,53 @@
+CLASS av net/minecraft/predicate/entity/EntityPredicate
+	CLASS av$a Builder
+		FIELD a type Law;
+		FIELD b distance Lan;
+		FIELD c location Lbg;
+		FIELD d effects Lbj;
+		FIELD e nbt Lbk;
+		FIELD f flags Lat;
+		FIELD g equipment Las;
+		FIELD h catType Lqt;
+		METHOD a create ()Lav$a;
+		METHOD a type (Laip;)Lav$a;
+		METHOD a distance (Lan;)Lav$a;
+		METHOD a equipment (Las;)Lav$a;
+		METHOD a flags (Lat;)Lav$a;
+		METHOD a type (Law;)Lav$a;
+		METHOD a location (Lbg;)Lav$a;
+		METHOD a effects (Lbj;)Lav$a;
+		METHOD a nbt (Lbk;)Lav$a;
+		METHOD a type (Lqt;)Lav$a;
+		METHOD a type (Lze;)Lav$a;
+		METHOD b build ()Lav;
+		METHOD b catType (Lqt;)Lav$a;
+	FIELD a ANY Lav;
+	FIELD b EMPTY [Lav;
+	FIELD c type Law;
+	FIELD d distance Lan;
+	FIELD e location Lbg;
+	FIELD f effects Lbj;
+	FIELD g nbt Lbk;
+	FIELD h flags Lat;
+	FIELD i equipment Las;
+	FIELD j catType Lqt;
+	METHOD <init> (Law;Lan;Lbg;Lbj;Lbk;Lat;Las;Lqt;)V
+		ARG 1 type
+		ARG 2 distance
+		ARG 3 location
+		ARG 4 effects
+		ARG 5 nbt
+		ARG 6 flags
+		ARG 7 equipment
+	METHOD a serialize ()Lcom/google/gson/JsonElement;
+	METHOD a deserialize (Lcom/google/gson/JsonElement;)Lav;
+		ARG 0 el
+	METHOD a test (Lvi;Lcsa;Lail;)Z
+		ARG 1 world
+		ARG 2 pos
+	METHOD a test (Lvj;Lail;)Z
+		ARG 1 player
+	METHOD a serializeAll ([Lav;)Lcom/google/gson/JsonElement;
+		ARG 0 predicates
+	METHOD b deserializeAll (Lcom/google/gson/JsonElement;)[Lav;
+		ARG 0 element

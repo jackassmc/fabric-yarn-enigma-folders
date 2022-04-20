@@ -1,0 +1,7 @@
+CLASS dhy net/minecraft/client/particle/SpellParticle
+	CLASS dhy$a net/minecraft/client/particle/SpellParticle$EntityAmbientFactory
+	CLASS dhy$b net/minecraft/client/particle/SpellParticle$InstantFactory
+	CLASS dhy$c net/minecraft/client/particle/SpellParticle$EntityFactory
+	CLASS dhy$d net/minecraft/client/particle/SpellParticle$DefaultFactory
+	CLASS dhy$e net/minecraft/client/particle/SpellParticle$WitchFactory
+	FIELD C RANDOM Ljava/util/Random;

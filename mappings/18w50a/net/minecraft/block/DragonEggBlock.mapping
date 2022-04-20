@@ -1,0 +1,29 @@
+CLASS bid net/minecraft/block/DragonEggBlock
+	METHOD <init> (Lbgs$c;)V
+		ARG 1 settings
+		ARG 2 stateBuilder
+	METHOD a getTickRate (Lbbt;)I
+		ARG 1 world
+	METHOD a getBoundingShape (Lbpm;Lbbb;Let;)Lcmx;
+		ARG 1 state
+		ARG 2 view
+		ARG 3 pos
+	METHOD a canPlaceAtSide (Lbpm;Lbbb;Let;Lchl;)Z
+		ARG 1 world
+		ARG 2 view
+		ARG 3 pos
+		ARG 4 env
+	METHOD a onBlockBreakStart (Lbpm;Lbbp;Let;Larb;)V
+		ARG 1 state
+		ARG 2 world
+		ARG 3 pos
+		ARG 4 player
+	METHOD a activate (Lbpm;Lbbp;Let;Larb;Lafo;Ley;FFF)Z
+		ARG 1 state
+		ARG 2 world
+		ARG 3 pos
+		ARG 4 player
+		ARG 5 hand
+		ARG 6 facing
+		ARG 7 hitX
+		ARG 8 hitY

@@ -1,0 +1,3 @@
+CLASS dnp net/minecraft/client/audio/SoundEventListener
+	METHOD a onSoundPlayed (Ldmt;Ldnr;)V
+		ARG 1 sound

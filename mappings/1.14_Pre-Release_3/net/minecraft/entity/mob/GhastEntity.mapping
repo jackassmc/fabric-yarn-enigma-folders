@@ -1,0 +1,12 @@
+CLASS aua net/minecraft/entity/mob/GhastEntity
+	CLASS aua$b GhastMoveControl
+		FIELD i ghast Laua;
+	CLASS aua$c ShootFireballGoal
+		FIELD a cooldown I
+		FIELD b owner Laua;
+	CLASS aua$d FlyRandomlyGoal
+	FIELD b SHOOTING Lqh;
+	FIELD c fireballStrength I
+	METHOD dR getFireballStrength ()I
+	METHOD l isShooting ()Z
+	METHOD r setShooting (Z)V

@@ -1,0 +1,7 @@
+CLASS anm net/minecraft/block/BlockFacingHorizontal
+	FIELD D FACING Lasz;
+	METHOD <init> (Layr;)V
+		ARG 0 material
+	METHOD <init> (Layr;Lays;)V
+		ARG 0 material
+		ARG 1 color

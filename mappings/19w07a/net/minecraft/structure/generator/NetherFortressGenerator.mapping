@@ -1,0 +1,2 @@
+CLASS cdl net/minecraft/structure/generator/NetherFortressGenerator
+	CLASS cdl$q Start

@@ -1,0 +1,10 @@
+CLASS pd net/minecraft/network/listener/ClientLoginPacketListener
+	METHOD a onQueryRequest (Lpe;)V
+		ARG 1 packet
+	METHOD a onLoginSuccess (Lpf;)V
+	METHOD a onHello (Lpg;)V
+		ARG 1 packet
+	METHOD a onCompression (Lph;)V
+		ARG 1 packet
+	METHOD a onDisconnect (Lpi;)V
+		ARG 1 packet

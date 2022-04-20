@@ -1,0 +1,10 @@
+CLASS bmx net/minecraft/block/FenceBlock
+	FIELD i SHAPES [Lcra;
+	METHOD <init> (Lbky$c;)V
+		ARG 1 settings
+	METHOD a canConnect (Lbtw;ZLez;)Z
+	METHOD f preventsConnection (Lbky;)Z
+	METHOD k (Lbtw;Lbfi;Leu;)Lcra;
+		ARG 1 state
+		ARG 2 view
+		ARG 3 pos

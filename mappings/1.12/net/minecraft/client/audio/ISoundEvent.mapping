@@ -1,0 +1,19 @@
+CLASS cgr net/minecraft/client/audio/ISoundEvent
+	CLASS cgr$a AttenuationType
+		FIELD a NONE Lcgr$a;
+		FIELD b LINEAR Lcgr$a;
+		FIELD c TYPE I
+		METHOD a getType ()I
+	METHOD a getId ()Lnd;
+	METHOD a getAccess (Lchm;)Lcho;
+		ARG 0 loader
+	METHOD b getSound ()Lcgo;
+	METHOD c getCategory ()Lqe;
+	METHOD d isRepeatable ()Z
+	METHOD f getRepeatDelay ()I
+	METHOD g getVolume ()F
+	METHOD h getPitch ()F
+	METHOD i getX ()F
+	METHOD j getY ()F
+	METHOD k getZ ()F
+	METHOD l getAttenuationType ()Lcgr$a;

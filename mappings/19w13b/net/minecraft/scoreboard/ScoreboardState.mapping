@@ -1,0 +1,13 @@
+CLASS csh net/minecraft/scoreboard/ScoreboardState
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD b scoreboard Lcsg;
+	FIELD c tag Lib;
+	METHOD a serializeTeams ()Lii;
+	METHOD a deserializeTeamPlayers (Lcse;Lii;)V
+		ARG 1 team
+	METHOD a setScoreboard (Lcsg;)V
+	METHOD a deserializeTeams (Lii;)V
+	METHOD b deserializeObjectives (Lii;)V
+	METHOD c deserializeDisplaySlots (Lib;)V
+	METHOD d serializeSlots (Lib;)V
+	METHOD e serializeObjectives ()Lii;

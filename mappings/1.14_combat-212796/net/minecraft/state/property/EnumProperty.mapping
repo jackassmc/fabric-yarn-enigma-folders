@@ -1,0 +1,24 @@
+CLASS bwn net/minecraft/state/property/EnumProperty
+	FIELD a values Lcom/google/common/collect/ImmutableSet;
+	FIELD b byName Ljava/util/Map;
+	METHOD <init> (Ljava/lang/String;Ljava/lang/Class;Ljava/util/Collection;)V
+		ARG 1 name
+		ARG 2 type
+		ARG 3 values
+	METHOD a of (Ljava/lang/String;Ljava/lang/Class;)Lbwn;
+		ARG 0 name
+		ARG 1 type
+	METHOD a of (Ljava/lang/String;Ljava/lang/Class;Ljava/util/Collection;)Lbwn;
+		ARG 0 name
+		ARG 1 type
+		ARG 2 values
+	METHOD a of (Ljava/lang/String;Ljava/lang/Class;Ljava/util/function/Predicate;)Lbwn;
+		ARG 0 name
+		ARG 1 type
+		ARG 2 filter
+	METHOD a of (Ljava/lang/String;Ljava/lang/Class;[Ljava/lang/Enum;)Lbwn;
+		ARG 0 name
+		ARG 1 type
+		ARG 2 values
+	METHOD equals (Ljava/lang/Object;)Z
+		ARG 1 o

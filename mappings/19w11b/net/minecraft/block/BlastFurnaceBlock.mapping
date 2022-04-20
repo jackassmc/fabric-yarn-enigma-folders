@@ -1,0 +1,3 @@
+CLASS bkx net/minecraft/block/BlastFurnaceBlock
+	METHOD <init> (Lbky$c;)V
+		ARG 1 settings

@@ -1,0 +1,9 @@
+CLASS bnq net/minecraft/block/DaylightDetectorBlock
+	FIELD a POWER Lbwj;
+	FIELD b INVERTED Lbwb;
+	FIELD c SHAPE Lcsp;
+	METHOD <init> (Lbml$c;)V
+		ARG 1 settings
+	METHOD d updateState (Lbvj;Lbhh;Lev;)V
+	METHOD n (Lbvj;)Z
+		ARG 1 state

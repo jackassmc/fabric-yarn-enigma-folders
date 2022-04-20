@@ -1,0 +1,2 @@
+CLASS cnv net/minecraft/world/loot/function/ExplosionDecayLootFunction
+	CLASS cnv$a Factory

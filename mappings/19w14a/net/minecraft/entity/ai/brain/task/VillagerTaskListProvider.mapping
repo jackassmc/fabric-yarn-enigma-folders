@@ -1,0 +1,17 @@
+CLASS alg net/minecraft/entity/ai/brain/task/VillagerTaskListProvider
+	METHOD a getPlayTasks (F)Lcom/google/common/collect/ImmutableList;
+	METHOD a getCoreTasks (Lavd;F)Lcom/google/common/collect/ImmutableList;
+		ARG 0 profession
+	METHOD b getWorkTasks (Lavd;F)Lcom/google/common/collect/ImmutableList;
+		ARG 0 profession
+	METHOD c getRestTasks (Lavd;F)Lcom/google/common/collect/ImmutableList;
+		ARG 0 profession
+	METHOD d getMeetTasks (Lavd;F)Lcom/google/common/collect/ImmutableList;
+		ARG 0 profession
+	METHOD e getIdleTasks (Lavd;F)Lcom/google/common/collect/ImmutableList;
+		ARG 0 profession
+	METHOD f getPanicTasks (Lavd;F)Lcom/google/common/collect/ImmutableList;
+		ARG 0 profession
+	METHOD g getPreRaidTasks (Lavd;F)Lcom/google/common/collect/ImmutableList;
+	METHOD h getRaidTasks (Lavd;F)Lcom/google/common/collect/ImmutableList;
+	METHOD i getHideTasks (Lavd;F)Lcom/google/common/collect/ImmutableList;

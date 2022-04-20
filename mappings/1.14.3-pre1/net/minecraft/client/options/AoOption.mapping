@@ -1,0 +1,10 @@
+CLASS cux net/minecraft/client/options/AoOption
+	FIELD a OFF Lcux;
+	FIELD b MIN Lcux;
+	FIELD c MAX Lcux;
+	FIELD d OPTIONS [Lcux;
+	FIELD e value I
+	FIELD f translationKey Ljava/lang/String;
+	METHOD a getValue ()I
+	METHOD a getOption (I)Lcux;
+	METHOD b getTranslationKey ()Ljava/lang/String;

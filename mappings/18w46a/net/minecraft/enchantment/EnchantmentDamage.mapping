@@ -1,0 +1,9 @@
+CLASS aye net/minecraft/enchantment/EnchantmentDamage
+	METHOD a getHighestLevel ()I
+	METHOD a getAdditionalDamge (ILagp;)F
+		ARG 1 level
+	METHOD a onTargetDamaged (Lagl;Lagc;I)V
+		ARG 1 user
+		ARG 2 target
+	METHOD a isAcceptableItem (Lavf;)Z
+	METHOD a differs (Layh;)Z

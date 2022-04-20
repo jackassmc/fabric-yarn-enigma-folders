@@ -1,0 +1,8 @@
+CLASS bww net/minecraft/client/render/entity/EntityRendererArmorStand
+	CLASS bww$1
+		METHOD N_ init ()V
+	FIELD a TEX Lmd;
+	METHOD a getTexture (Laat;)Lmd;
+		ARG 0 model
+	METHOD a getTexture (Lub;)Lmd;
+		ARG 0 model

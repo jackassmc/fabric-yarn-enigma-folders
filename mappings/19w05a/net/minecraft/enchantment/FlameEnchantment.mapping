@@ -1,0 +1,4 @@
+CLASS bak net/minecraft/enchantment/FlameEnchantment
+	METHOD <init> (Lbas$a;[Lahj;)V
+		ARG 1 weight
+		ARG 2 slotTypes

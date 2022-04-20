@@ -1,0 +1,7 @@
+CLASS btz net/minecraft/entity/boss/dragon/EnderDragonSpawnState
+	FIELD a START Lbtz;
+	FIELD b PREPARE_CREATE_SPIKES Lbtz;
+	FIELD c CREATE_SPIKES Lbtz;
+	FIELD d SPAWN_DRAGON Lbtz;
+	FIELD e END Lbtz;
+	METHOD a run (Luv;Lbua;Ljava/util/List;ILes;)V

@@ -1,0 +1,5 @@
+CLASS dgx net/minecraft/client/render/entity/EntityRendererArrow
+	FIELD a SKIN Lpw;
+	FIELD f TIPPED_SKIN Lpw;
+	METHOD a getTexture (Lafy;)Lpw;
+	METHOD a getTexture (Laqb;)Lpw;

@@ -1,0 +1,3 @@
+CLASS yw net/minecraft/stat/Stats
+	METHOD a registerType (Ljava/lang/String;Lfm;)Lyv;
+	METHOD a register (Ljava/lang/String;Lyu;)Lqt;

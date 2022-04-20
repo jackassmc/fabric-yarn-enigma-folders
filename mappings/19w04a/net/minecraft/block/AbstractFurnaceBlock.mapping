@@ -1,0 +1,9 @@
+CLASS bgr net/minecraft/block/AbstractFurnaceBlock
+	FIELD a FACING Lbrf;
+	FIELD b LIT Lbrc;
+	METHOD <init> (Lbhn$c;)V
+		ARG 1 settings
+	METHOD a openContainer (Lbcl;Let;Larj;)V
+		ARG 1 world
+		ARG 2 pos
+		ARG 3 player

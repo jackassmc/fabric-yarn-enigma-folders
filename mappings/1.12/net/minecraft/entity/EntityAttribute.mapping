@@ -1,0 +1,4 @@
+CLASS vs net/minecraft/entity/EntityAttribute
+	FIELD a UNKNOWN Lvs;
+	FIELD b UNDEAD Lvs;
+	FIELD c ARTHROPOD Lvs;

@@ -1,0 +1,3 @@
+CLASS den net/minecraft/client/render/entity/EntityRendererEnderCrystal
+	METHOD a getTexture (Lafy;)Lpw;
+	METHOD a getTexture (Lamo;)Lpw;

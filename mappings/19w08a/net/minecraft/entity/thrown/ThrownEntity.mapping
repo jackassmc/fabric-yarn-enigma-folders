@@ -1,0 +1,20 @@
+CLASS asu net/minecraft/entity/thrown/ThrownEntity
+	FIELD b inGround Z
+	FIELD c shake I
+	FIELD d owner Lahu;
+	FIELD e blockX I
+	FIELD f blockY I
+	FIELD g blockZ I
+	METHOD <init> (Lahp;DDDLbde;)V
+		ARG 1 world
+		ARG 2 x
+		ARG 4 y
+	METHOD <init> (Lahp;Lahu;Lbde;)V
+		ARG 1 world
+	METHOD <init> (Lahp;Lbde;)V
+		ARG 1 type
+	METHOD a calculateVelocity (Lahl;FFFFF)V
+		ARG 1 entity
+	METHOD a onCollision (Lcni;)V
+	METHOD l getGravity ()F
+	METHOD m getOwner ()Lahu;

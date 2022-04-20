@@ -1,0 +1,2 @@
+CLASS aut net/minecraft/item/ItemFlintAndSteel
+	METHOD a useOnBlock (Laws;)Laex;

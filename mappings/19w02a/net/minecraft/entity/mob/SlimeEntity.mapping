@@ -1,0 +1,41 @@
+CLASS aqn net/minecraft/entity/mob/SlimeEntity
+	CLASS aqn$a
+		METHOD a canStart ()Z
+		METHOD b shouldContinue ()Z
+		METHOD c start ()V
+		METHOD e tick ()V
+	CLASS aqn$b
+		METHOD a canStart ()Z
+		METHOD e tick ()V
+	CLASS aqn$c
+		METHOD a canStart ()Z
+		METHOD e tick ()V
+	CLASS aqn$d SlimeMoveControl
+		FIELD k slime Laqn;
+		METHOD a tick ()V
+	CLASS aqn$e
+		METHOD a canStart ()Z
+		METHOD e tick ()V
+	FIELD bE SLIME_SIZE Lpt;
+	FIELD bF onGroundLastTick Z
+	METHOD <init> (Lahh;Lbcf;)V
+		ARG 1 type
+	METHOD F getLootTableId ()Lqe;
+	METHOD S getType ()Lahh;
+	METHOD Y invalidate ()V
+	METHOD a prepareEntityData (Lbcg;Lafx;Lahp;Lahx;Lhs;)Lahx;
+		ARG 3 difficulty
+	METHOD a canSpawn (Lbcg;Lahp;)Z
+	METHOD a readCustomDataFromTag (Lhs;)V
+	METHOD a onTrackedDataSet (Lpt;)V
+	METHOD b onPlayerCollision (Lark;)V
+	METHOD b writeCustomDataToTag (Lhs;)V
+	METHOD bH getEyeHeight ()F
+	METHOD cI getSoundVolume ()F
+	METHOD cw getDeathSound ()Lxt;
+	METHOD dA getSize ()I
+	METHOD e getHurtSound (Lagm;)Lxt;
+	METHOD h update ()V
+	METHOD i pushAwayFrom (Lahd;)V
+	METHOD n prepareGoals ()V
+	METHOD w_ initDataTracker ()V

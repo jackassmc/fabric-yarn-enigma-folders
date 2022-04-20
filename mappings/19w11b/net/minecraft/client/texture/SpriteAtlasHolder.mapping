@@ -1,0 +1,4 @@
+CLASS dtv net/minecraft/client/texture/SpriteAtlasHolder
+	FIELD a atlas Ldta;
+	METHOD a getSprites ()Ljava/lang/Iterable;
+	METHOD a getSprite (Lqp;)Ldtb;

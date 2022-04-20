@@ -1,0 +1,114 @@
+CLASS bhi net/minecraft/world/GameRules
+	CLASS a BooleanRule
+		FIELD a value Z
+		METHOD <init> (Lbhi$e;Z)V
+			ARG 1 type
+			ARG 2 value
+		METHOD a get ()Z
+		METHOD a (Lnet/minecraft/server/MinecraftServer;Lbhi$a;)V
+			ARG 0 server
+			ARG 1 rule
+		METHOD a (ZLbhi$e;)Lbhi$a;
+			ARG 1 type
+		METHOD a set (ZLnet/minecraft/server/MinecraftServer;)V
+			ARG 1 value
+			ARG 2 server
+		METHOD b of (Z)Lbhi$e;
+			ARG 0 value
+		METHOD b of (ZLjava/util/function/BiConsumer;)Lbhi$e;
+			ARG 0 value
+			ARG 1 notifier
+	CLASS b RuleConsumer
+		METHOD a accept (Lbhi$d;Lbhi$e;)V
+			ARG 1 key
+			ARG 2 type
+	CLASS c IntRule
+		FIELD a value I
+		METHOD <init> (Lbhi$e;I)V
+			ARG 1 rule
+			ARG 2 value
+		METHOD a get ()I
+		METHOD a (ILbhi$e;)Lbhi$c;
+			ARG 1 type
+		METHOD a of (ILjava/util/function/BiConsumer;)Lbhi$e;
+			ARG 0 value
+			ARG 1 notifier
+		METHOD a (Lnet/minecraft/server/MinecraftServer;Lbhi$c;)V
+			ARG 0 server
+			ARG 1 rule
+		METHOD b of (I)Lbhi$e;
+			ARG 0 value
+		METHOD b parseInt (Ljava/lang/String;)I
+			ARG 0 string
+	CLASS d RuleKey
+		FIELD a name Ljava/lang/String;
+		METHOD <init> (Ljava/lang/String;)V
+			ARG 1 name
+		METHOD a getName ()Ljava/lang/String;
+		METHOD equals (Ljava/lang/Object;)Z
+			ARG 1 obj
+	CLASS e RuleType
+		FIELD a argumentType Ljava/util/function/Supplier;
+		FIELD b factory Ljava/util/function/Function;
+		FIELD c notifier Ljava/util/function/BiConsumer;
+		METHOD <init> (Ljava/util/function/Supplier;Ljava/util/function/Function;Ljava/util/function/BiConsumer;)V
+			ARG 1 argumentType
+			ARG 2 factory
+			ARG 3 notifier
+		METHOD a newRule ()Lbhi$f;
+		METHOD a argument (Ljava/lang/String;)Lcom/mojang/brigadier/builder/RequiredArgumentBuilder;
+			ARG 1 name
+	CLASS f Rule
+		FIELD a type Lbhi$e;
+		METHOD <init> (Lbhi$e;)V
+			ARG 1 type
+		METHOD a setFromArgument (Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)V
+			ARG 1 context
+			ARG 2 name
+		METHOD a setFromString (Ljava/lang/String;)V
+			ARG 1 value
+		METHOD a notify (Lnet/minecraft/server/MinecraftServer;)V
+			ARG 1 server
+		METHOD b valueToString ()Ljava/lang/String;
+		METHOD b set (Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)V
+			ARG 1 context
+			ARG 2 name
+		METHOD c toCommandResult ()I
+		METHOD e getThis ()Lbhi$f;
+	FIELD A rules Ljava/util/Map;
+	FIELD y LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD z RULES Ljava/util/Map;
+	METHOD a toNbt ()Lic;
+	METHOD a forEach (Lbhi$b;)V
+		ARG 0 consumer
+	METHOD a consumeTyped (Lbhi$b;Lbhi$d;Lbhi$e;)V
+		ARG 0 consumer
+		ARG 1 key
+		ARG 2 type
+	METHOD a get (Lbhi$d;)Lbhi$f;
+		ARG 1 key
+	METHOD a fromNbt (Lic;)V
+		ARG 1 nbt
+	METHOD a (Lic;Lbhi$d;Lbhi$f;)V
+		ARG 1 key
+		ARG 2 rule
+	METHOD a register (Ljava/lang/String;Lbhi$e;)Lbhi$d;
+		ARG 0 name
+		ARG 1 type
+	METHOD a (Ljava/util/Map$Entry;)Lbhi$f;
+		ARG 0 e
+	METHOD a (Lnet/minecraft/server/MinecraftServer;Lbhi$a;)V
+		ARG 0 server
+		ARG 1 rule
+	METHOD b (Lbhi$b;Lbhi$d;Lbhi$e;)V
+		ARG 1 key
+		ARG 2 type
+	METHOD b getBoolean (Lbhi$d;)Z
+		ARG 1 rule
+	METHOD b (Lic;Lbhi$d;Lbhi$f;)V
+		ARG 1 key
+		ARG 2 rule
+	METHOD c getInt (Lbhi$d;)I
+		ARG 1 rule
+	METHOD d (Lbhi$d;)Ljava/lang/String;
+		ARG 0 key

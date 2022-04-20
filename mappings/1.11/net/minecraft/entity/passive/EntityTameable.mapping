@@ -1,0 +1,26 @@
+CLASS th net/minecraft/entity/passive/EntityTameable
+	FIELD bw OWNER_UUID Lkk;
+	FIELD bx TAMEABLE_FLAGS Lkk;
+	METHOD a canBeLeashedBy (Laax;)Z
+		ARG 0 player
+	METHOD a deserializeCustomData (Ldu;)V
+		ARG 0 tag
+	METHOD a onDeath (Lrx;)V
+		ARG 0 damageSource
+	METHOD aQ getScoreboardTeam ()Lbec;
+	METHOD b getOwnerUuid ()Ljava/util/UUID;
+	METHOD b serializeCustomData (Ldu;)V
+		ARG 0 tag
+	METHOD b setOwnerUuid (Ljava/util/UUID;)V
+		ARG 0 value
+	METHOD di onTamedChanged ()V
+	METHOD dk getOwner ()Lsv;
+	METHOD e isOwner (Lsv;)Z
+		ARG 0 entity
+	METHOD i initDataTracker ()V
+	METHOD p_ getOwner ()Lsm;
+	METHOD q setTamed (Z)V
+		ARG 0 value
+	METHOD r isTeammate (Lsm;)Z
+		ARG 0 entity
+	METHOD r setSitting (Z)V

@@ -1,0 +1,6 @@
+CLASS cds net/minecraft/fluid/Fluids
+	FIELD a EMPTY Lcdp;
+	FIELD b WATER_FLOWING Lcdo;
+	FIELD c WATER Lcdo;
+	FIELD d LAVA_FLOWING Lcdo;
+	FIELD e LAVA Lcdo;

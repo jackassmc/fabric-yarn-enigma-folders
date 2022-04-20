@@ -1,0 +1,5 @@
+CLASS buj net/minecraft/client/render/entity/EntityRendererElderGuardian
+	METHOD a getTexture (Lsm;)Lkq;
+		ARG 0 model
+	METHOD a getTexture (Lzw;)Lkq;
+		ARG 0 model

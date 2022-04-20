@@ -1,0 +1,7 @@
+CLASS ayd net/minecraft/item/SpawnEggItem
+	METHOD a useOnBlock (Layq;)Lafz;
+		ARG 1 usageContext
+	METHOD a use (Lbcf;Lark;Lafy;)Laga;
+		ARG 1 world
+		ARG 2 player
+		ARG 3 hand

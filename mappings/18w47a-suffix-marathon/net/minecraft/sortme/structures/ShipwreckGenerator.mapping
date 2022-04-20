@@ -1,0 +1,3 @@
+CLASS caw net/minecraft/sortme/structures/ShipwreckGenerator
+	CLASS caw$a
+		METHOD a toNbt (Lho;)V

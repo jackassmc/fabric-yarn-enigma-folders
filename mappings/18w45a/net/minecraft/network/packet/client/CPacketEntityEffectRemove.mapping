@@ -1,0 +1,11 @@
+CLASS lq net/minecraft/network/packet/client/CPacketEntityEffectRemove
+	FIELD a entityId I
+	FIELD b effectType Lafq;
+	METHOD <init> (ILafq;)V
+		ARG 1 entityId
+	METHOD a getEntity (Lazy;)Lafy;
+	METHOD a read (Lip;)V
+	METHOD a apply (Lis;)V
+	METHOD a apply (Ljq;)V
+	METHOD b getEffectType ()Lafq;
+	METHOD b write (Lip;)V

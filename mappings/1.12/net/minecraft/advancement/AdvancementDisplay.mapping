@@ -1,0 +1,20 @@
+CLASS r net/minecraft/advancement/AdvancementDisplay
+	FIELD a title Lhh;
+	FIELD c icon Lain;
+	FIELD d background Lnd;
+	FIELD e frame Ls;
+	METHOD <init> (Lain;Lhh;Lhh;Lnd;Ls;ZZZ)V
+		ARG 2 title
+		ARG 3 background
+		ARG 4 frame
+	METHOD a getTitle ()Lhh;
+	METHOD a deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Lr;
+		ARG 0 obj
+		ARG 1 context
+	METHOD a writeToBuffer (Lgy;)V
+		ARG 0 buf
+	METHOD b readFromBuffer (Lgy;)Lr;
+		ARG 0 buf
+	METHOD c getIcon ()Lain;
+	METHOD d getBackground ()Lnd;
+	METHOD e getFrame ()Ls;

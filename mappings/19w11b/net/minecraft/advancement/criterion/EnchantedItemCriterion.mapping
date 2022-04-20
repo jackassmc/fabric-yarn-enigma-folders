@@ -1,0 +1,19 @@
+CLASS ao net/minecraft/advancement/criterion/EnchantedItemCriterion
+	CLASS ao$a Handler
+		FIELD a manager Lqy;
+		FIELD b conditions Ljava/util/Set;
+		METHOD a isEmpty ()Z
+		METHOD a handle (Lbar;I)V
+			ARG 1 level
+		METHOD a addCondition (Lw$a;)V
+		METHOD b removeCondition (Lw$a;)V
+	CLASS ao$b Conditions
+		FIELD a item Lbb;
+		FIELD b levels Lbh$d;
+		METHOD a matches (Lbar;I)Z
+		METHOD c any ()Lao$b;
+	FIELD a ID Lqp;
+	FIELD b handlers Ljava/util/Map;
+	METHOD a handle (Lvd;Lbar;I)V
+		ARG 1 player
+		ARG 2 stack

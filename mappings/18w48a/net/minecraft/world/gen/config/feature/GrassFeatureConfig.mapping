@@ -1,0 +1,5 @@
+CLASS buh net/minecraft/world/gen/config/feature/GrassFeatureConfig
+	FIELD a state Lboj;
+	METHOD a deserialize (Lcom/mojang/datafixers/Dynamic;)Lbuh;
+		ARG 0 dynamic
+	METHOD a serialize (Lcom/mojang/datafixers/types/DynamicOps;)Lcom/mojang/datafixers/Dynamic;

@@ -1,0 +1,17 @@
+CLASS aug net/minecraft/entity/mob/EvokerEntity
+	CLASS a ConjureFangsGoal
+		METHOD a conjureFangs (DDDDFI)V
+			ARG 1 x
+			ARG 3 z
+			ARG 5 maxY
+			ARG 7 y
+			ARG 10 warmup
+	CLASS b LookAtTargetOrWololoTarget
+	CLASS c SummonVexGoal
+		FIELD e closeVexPredicate Laqd;
+	CLASS d WololoGoal
+		FIELD e purpleSheepPredicate Laqd;
+	FIELD bz wololoTarget Larn;
+	METHOD a setWololoTarget (Larn;)V
+		ARG 1 sheep
+	METHOD eq getWololoTarget ()Larn;

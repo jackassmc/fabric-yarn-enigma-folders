@@ -1,0 +1,3 @@
+CLASS ahn net/minecraft/entity/ai/action/ActionMove
+	FIELD a entity Lagm;
+	METHOD a tick ()V

@@ -1,0 +1,17 @@
+CLASS alr net/minecraft/entity/passive/ChickenEntity
+	FIELD bL eggLayTime I
+	METHOD D getAmbientSound ()Lxg;
+	METHOD a createChild (Lagh;)Lagh;
+	METHOD a playStepSound (Let;Lbom;)V
+		ARG 1 pos
+	METHOD a readCustomDataFromTag (Lhq;)V
+	METHOD b createChild (Lagh;)Lalr;
+	METHOD b writeCustomDataToTag (Lhq;)V
+	METHOD bG getEyeHeight ()F
+	METHOD c handleFallDamage (FF)V
+		ARG 1 fallDistance
+	METHOD ca initAttributes ()V
+	METHOD cv getDeathSound ()Lxg;
+	METHOD e getHurtSound (Laft;)Lxg;
+	METHOD k updateMovement ()V
+	METHOD n initAi ()V

@@ -1,0 +1,2 @@
+CLASS dev net/minecraft/client/texture/ImageFilter
+	METHOD a filterImage (Lcor;)Lcor;

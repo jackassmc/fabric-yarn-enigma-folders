@@ -1,0 +1,34 @@
+CLASS fq net/minecraft/util/math/Vec3i
+	FIELD a x I
+	FIELD b y I
+	FIELD c z I
+	FIELD e ZERO Lfq;
+	METHOD <init> (DDD)V
+		ARG 0 x
+		ARG 1 y
+		ARG 2 z
+	METHOD <init> (III)V
+		ARG 0 x
+		ARG 1 y
+		ARG 2 z
+	METHOD d crossProduct (Lfq;)Lfq;
+		ARG 0 vec
+	METHOD equals (Ljava/lang/Object;)Z
+		ARG 0 object
+	METHOD f squaredDistanceTo (DDD)D
+		ARG 0 x
+		ARG 1 y
+		ARG 2 z
+	METHOD g squaredDistanceToCenter (DDD)D
+		ARG 0 x
+		ARG 1 y
+		ARG 2 z
+	METHOD h distanceTo (III)D
+		ARG 0 x
+		ARG 1 y
+		ARG 2 z
+	METHOD n squaredDistanceTo (Lfq;)D
+		ARG 0 vec
+	METHOD p getX ()I
+	METHOD q getY ()I
+	METHOD r getZ ()I

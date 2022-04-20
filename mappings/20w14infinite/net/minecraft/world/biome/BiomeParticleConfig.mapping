@@ -1,0 +1,13 @@
+CLASS net/minecraft/class_4761 net/minecraft/world/biome/BiomeParticleConfig
+	FIELD field_22034 type Lnet/minecraft/class_2394;
+	FIELD field_22035 chance F
+	FIELD field_22036 velocityXFactory D
+	FIELD field_22037 velocityYFactory D
+	FIELD field_22038 velocityZFactory D
+	METHOD <init> (Lnet/minecraft/class_2394;FDDD)V
+		ARG 2 chance
+	METHOD method_24369 getParticleType ()Lnet/minecraft/class_2394;
+	METHOD method_24370 shouldAddParticle (Ljava/util/Random;)Z
+	METHOD method_24371 generateVelocityX ()D
+	METHOD method_24372 generateVelocityY ()D
+	METHOD method_24373 generateVelocityZ ()D

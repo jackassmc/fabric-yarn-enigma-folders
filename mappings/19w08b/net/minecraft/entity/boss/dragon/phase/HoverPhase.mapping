@@ -1,0 +1,3 @@
+CLASS aor net/minecraft/entity/boss/dragon/phase/HoverPhase
+	METHOD <init> (Laok;)V
+		ARG 1 dragon

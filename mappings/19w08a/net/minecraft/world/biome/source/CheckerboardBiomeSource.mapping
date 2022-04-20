@@ -1,0 +1,3 @@
+CLASS bej net/minecraft/world/biome/source/CheckerboardBiomeSource
+	FIELD c biomes [Lbeb;
+	FIELD d gridSize I

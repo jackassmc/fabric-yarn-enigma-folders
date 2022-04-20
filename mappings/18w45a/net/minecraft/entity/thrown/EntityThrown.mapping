@@ -1,0 +1,26 @@
+CLASS aqo net/minecraft/entity/thrown/EntityThrown
+	FIELD a inGround Z
+	FIELD au blockZ I
+	FIELD b shake I
+	FIELD c owner Lagh;
+	FIELD e blockX I
+	FIELD f blockY I
+	METHOD <init> (Lagc;DDDLazy;)V
+		ARG 1 world
+		ARG 2 x
+		ARG 4 y
+	METHOD <init> (Lagc;Lagh;Lazy;)V
+		ARG 1 world
+	METHOD S_ update ()V
+	METHOD a shouldRender (D)Z
+	METHOD a onCollision (Lcip;)V
+	METHOD a deserializeCustomData (Lho;)V
+	METHOD b serializeCustomData (Lho;)V
+	METHOD c setVelocity (DDDFF)V
+		ARG 1 dirX
+		ARG 3 dirY
+	METHOD f getGravity ()F
+	METHOD h setVelocityClient (DDD)V
+		ARG 1 x
+	METHOD i getOwner ()Lagh;
+	METHOD y_ initDataTracker ()V

@@ -1,0 +1,4 @@
+CLASS ccv net/minecraft/structure/generator/DesertTempleGenerator
+	FIELD e hasPlacedChest [Z
+	METHOD a (Lbcr;Ljava/util/Random;Lcct;Lbcd;)Z
+		ARG 2 random

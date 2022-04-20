@@ -1,0 +1,13 @@
+CLASS ckx net/minecraft/world/loot/function/CopyNameLootFunction
+	CLASS ckx$a Source
+		FIELD a THIS Lckx$a;
+		FIELD b KILLER Lckx$a;
+		FIELD c KILLER_PLAYER Lckx$a;
+		FIELD d BLOCK_ENTITY Lckx$a;
+		FIELD e name Ljava/lang/String;
+		FIELD f parameter Lclv;
+		METHOD a get (Ljava/lang/String;)Lckx$a;
+	CLASS ckx$b Factory
+	FIELD a source Lckx$a;
+	METHOD a create (Lckx$a;)Lclf$a;
+		ARG 0 source

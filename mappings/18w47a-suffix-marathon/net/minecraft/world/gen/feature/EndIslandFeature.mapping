@@ -1,0 +1,2 @@
+CLASS buc net/minecraft/world/gen/feature/EndIslandFeature
+	METHOD a generate (Lban;Lbqc;Ljava/util/Random;Les;Lbuf;)Z

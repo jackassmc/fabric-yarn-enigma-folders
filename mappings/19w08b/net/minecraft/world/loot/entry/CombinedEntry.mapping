@@ -1,0 +1,7 @@
+CLASS ckn net/minecraft/world/loot/entry/CombinedEntry
+	CLASS ckn$a Factory
+	CLASS ckn$b Serializer
+	FIELD c children [Lcku;
+	FIELD e predicate Lckm;
+	METHOD a createSerializer (Lqi;Ljava/lang/Class;Lckn$a;)Lckn$b;
+	METHOD a combine ([Lckm;)Lckm;

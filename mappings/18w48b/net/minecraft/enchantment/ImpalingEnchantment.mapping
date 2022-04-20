@@ -1,0 +1,4 @@
+CLASS azl net/minecraft/enchantment/ImpalingEnchantment
+	METHOD a getHighestLevel ()I
+	METHOD a getAdditionalDamge (ILagv;)F
+		ARG 1 level

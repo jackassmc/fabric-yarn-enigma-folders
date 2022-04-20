@@ -1,0 +1,6 @@
+CLASS dkl net/minecraft/client/render/block/FluidRenderer
+	FIELD a lavaSprites [Ldto;
+	FIELD b waterSprites [Ldto;
+	FIELD c waterOverlaySprite Ldto;
+	METHOD a onResourceReload ()V
+	METHOD a tesselate (Lbge;Lev;Lctu;Lckk;)Z

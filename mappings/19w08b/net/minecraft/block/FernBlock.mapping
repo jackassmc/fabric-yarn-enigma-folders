@@ -1,0 +1,4 @@
+CLASS boa net/minecraft/block/FernBlock
+	FIELD a SHAPE Lcof;
+	METHOD <init> (Lbig$c;)V
+		ARG 1 settings

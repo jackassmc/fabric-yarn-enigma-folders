@@ -1,0 +1,65 @@
+CLASS btf net/minecraft/block/entity/BannerPattern
+	CLASS btf$a Builder
+		FIELD a patterns Ljava/util/List;
+		METHOD a build ()Lii;
+		METHOD a with (Lbtf;Lbax;)Lbtf$a;
+			ARG 1 pattern
+	FIELD A HALF_VERTICAL Lbtf;
+	FIELD B HALF_HORIZONTAL Lbtf;
+	FIELD C HALF_VERTICAL_MIRROR Lbtf;
+	FIELD D HALF_HORIZONTAL_MIRROR Lbtf;
+	FIELD E BORDER Lbtf;
+	FIELD F CURLY_BORDER Lbtf;
+	FIELD G GRADIENT Lbtf;
+	FIELD H GRADIENT_UP Lbtf;
+	FIELD I BRICKS Lbtf;
+	FIELD J GLOBE Lbtf;
+	FIELD K CREEPER Lbtf;
+	FIELD L SKULL Lbtf;
+	FIELD M FLOWER Lbtf;
+	FIELD N MOJANG Lbtf;
+	FIELD O COUNT I
+	FIELD Q name Ljava/lang/String;
+	FIELD R id Ljava/lang/String;
+	FIELD S recipePattern [Ljava/lang/String;
+	FIELD T baseStack Lbca;
+	FIELD a BASE Lbtf;
+	FIELD b SQUARE_BOTTOM_LEFT Lbtf;
+	FIELD c SQUARE_BOTTOM_RIGHT Lbtf;
+	FIELD d SQUARE_TOP_LEFT Lbtf;
+	FIELD e SQUARE_TOP_RIGHT Lbtf;
+	FIELD f STRIPE_BOTTOM Lbtf;
+	FIELD g STRIPE_TOP Lbtf;
+	FIELD h STRIPE_LEFT Lbtf;
+	FIELD i STRIPE_RIGHT Lbtf;
+	FIELD j STRIPE_CENTER Lbtf;
+	FIELD k STRIPE_MIDDLE Lbtf;
+	FIELD l STRIPE_DOWNRIGHT Lbtf;
+	FIELD m STRIPE_DOWNLEFT Lbtf;
+	FIELD n STRIPE_SMALL Lbtf;
+	FIELD o CROSS Lbtf;
+	FIELD p STRAIGHT_CROSS Lbtf;
+	FIELD q TRIANGLE_BOTTOM Lbtf;
+	FIELD r TRIANGLE_TOP Lbtf;
+	FIELD s TRIANGLES_BOTTOM Lbtf;
+	FIELD t TRIANGLES_TOP Lbtf;
+	FIELD u DIAGONAL_LEFT Lbtf;
+	FIELD v DIAGONAL_RIGHT Lbtf;
+	FIELD w DIAGONAL_LEFT_MIRROR Lbtf;
+	FIELD x DIAGONAL_RIGHT_MIRROR Lbtf;
+	FIELD y CIRCLE_MIDDLE Lbtf;
+	FIELD z RHOMBUS_MIDDLE Lbtf;
+	METHOD <init> (Ljava/lang/String;ILjava/lang/String;Ljava/lang/String;)V
+		ARG 3 name
+	METHOD <init> (Ljava/lang/String;ILjava/lang/String;Ljava/lang/String;Lbca;)V
+		ARG 3 name
+		ARG 4 id
+	METHOD <init> (Ljava/lang/String;ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+		ARG 3 name
+		ARG 4 id
+		ARG 5 recipePattern0
+		ARG 6 recipePattern1
+	METHOD a getName ()Ljava/lang/String;
+	METHOD a byId (Ljava/lang/String;)Lbtf;
+		ARG 0 id
+	METHOD b getId ()Ljava/lang/String;

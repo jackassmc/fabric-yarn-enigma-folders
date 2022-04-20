@@ -1,0 +1,6 @@
+CLASS cgo net/minecraft/world/gen/decorator/ChanceDecoratorConfig
+	FIELD a chance I
+	METHOD <init> (I)V
+		ARG 1 chance
+	METHOD a deserialize (Lcom/mojang/datafixers/Dynamic;)Lcgo;
+		ARG 0 dynamic

@@ -1,0 +1,3 @@
+CLASS ckn net/minecraft/world/FluidRayTraceMode
+	FIELD a NONE Lckn;
+	FIELD d predicate Ljava/util/function/Predicate;

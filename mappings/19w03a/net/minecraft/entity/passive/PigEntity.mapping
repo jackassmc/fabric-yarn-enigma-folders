@@ -1,0 +1,24 @@
+CLASS amu net/minecraft/entity/passive/PigEntity
+	FIELD bC SADDLED Lpr;
+	FIELD bE BREEDING_INGREDIENT Lazj;
+	METHOD D getAmbientSound ()Lxr;
+	METHOD a createChild (Lagz;)Lagz;
+	METHOD a onStruckByLightning (Lapd;)V
+	METHOD a interactMob (Larj;Lafw;)Z
+		ARG 1 player
+	METHOD a playStepSound (Let;Lbqi;)V
+		ARG 1 pos
+	METHOD a readCustomDataFromTag (Lhq;)V
+	METHOD a onTrackedDataSet (Lpr;)V
+	METHOD b createChild (Lagz;)Lamu;
+	METHOD b writeCustomDataToTag (Lhq;)V
+	METHOD bQ getPrimaryPassenger ()Lahc;
+	METHOD cd initAttributes ()V
+	METHOD cw dropInventory ()V
+	METHOD cy getDeathSound ()Lxr;
+	METHOD dC isSaddled ()Z
+	METHOD e getHurtSound (Lagl;)Lxr;
+	METHOD f isBreedingItem (Laxc;)Z
+	METHOD n ()V
+	METHOD s setSaddled (Z)V
+	METHOD w_ initDataTracker ()V

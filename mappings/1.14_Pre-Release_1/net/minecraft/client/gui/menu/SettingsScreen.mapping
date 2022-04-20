@@ -1,0 +1,7 @@
+CLASS czb net/minecraft/client/gui/menu/SettingsScreen
+	FIELD b parent Lczi;
+	FIELD c settings Lcve;
+	FIELD d difficultyButton Lcwg;
+	FIELD e lockDifficultyButton Lcwp;
+	METHOD <init> (Lczi;Lcve;)V
+		ARG 1 parent

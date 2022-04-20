@@ -1,0 +1,2 @@
+CLASS dex net/minecraft/client/texture/ImageFilter
+	METHOD a filterImage (Lcoq;)Lcoq;

@@ -1,0 +1,6 @@
+CLASS bsv net/minecraft/client/render/entity/EntityRendererCreeper
+	FIELD a SKIN Lkp;
+	METHOD a getTexture (Lsg;)Lkp;
+		ARG 0 model
+	METHOD a getTexture (Lzg;)Lkp;
+		ARG 0 model

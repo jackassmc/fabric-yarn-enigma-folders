@@ -1,0 +1,5 @@
+CLASS aro net/minecraft/entity/WaterCreatureEntity
+	METHOD <init> (Laii;Lbhf;)V
+		ARG 1 type
+	METHOD a tickBreath (I)V
+		ARG 1 breath

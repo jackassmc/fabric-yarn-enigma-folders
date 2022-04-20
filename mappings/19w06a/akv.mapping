@@ -1,0 +1,4 @@
+CLASS akv
+	FIELD a owner Laie;
+	METHOD <init> (Laie;)V
+		ARG 1 owner

@@ -1,0 +1,3 @@
+CLASS azk net/minecraft/inventory/CraftingResultInventory
+	FIELD a stack Lfj;
+	FIELD b lastRecipe Lbej;

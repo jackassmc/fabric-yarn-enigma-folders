@@ -1,0 +1,3 @@
+CLASS bcn net/minecraft/item/ShieldItem
+	METHOD e getColor (Lbbu;)Lbar;
+		ARG 0 stack

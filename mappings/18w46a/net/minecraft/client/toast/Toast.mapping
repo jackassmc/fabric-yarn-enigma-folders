@@ -1,0 +1,7 @@
+CLASS cpb net/minecraft/client/toast/Toast
+	CLASS cpb$a
+		FIELD c sound Lxb;
+		METHOD a play (Ldnq;)V
+	FIELD a TOASTS_TEX Lpx;
+	METHOD a draw (Lcpc;J)Lcpb$a;
+		ARG 1 manager

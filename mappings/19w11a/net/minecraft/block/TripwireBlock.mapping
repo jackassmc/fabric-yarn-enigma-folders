@@ -1,0 +1,11 @@
+CLASS bqz net/minecraft/block/TripwireBlock
+	FIELD a POWERED Lbup;
+	FIELD b ATTACHED Lbup;
+	FIELD c DISARMED Lbup;
+	FIELD d NORTH Lbup;
+	FIELD e EAST Lbup;
+	FIELD f SOUTH Lbup;
+	FIELD g WEST Lbup;
+	FIELD h ATTACHED_SHAPE Lcrb;
+	FIELD i DETACHED_SHAPE Lcrb;
+	FIELD j FACING_PROPERTIES Ljava/util/Map;

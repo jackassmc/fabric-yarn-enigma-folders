@@ -1,0 +1,20 @@
+CLASS cnx net/minecraft/item/map/MapBannerMarker
+	FIELD a pos Lev;
+	FIELD b color Lbbb;
+	FIELD c name Ljn;
+	METHOD <init> (Lev;Lbbb;Ljn;)V
+		ARG 1 pos
+		ARG 2 dyeColor
+		ARG 3 name
+	METHOD a getPos ()Lev;
+	METHOD a fromWorldBlock (Lbgw;Lev;)Lcnx;
+		ARG 0 blockView
+		ARG 1 blockPos
+	METHOD a fromNbt (Lic;)Lcnx;
+		ARG 0 tag
+	METHOD c getIconType ()Lcny$a;
+	METHOD d getName ()Ljn;
+	METHOD e getNbt ()Lic;
+	METHOD equals (Ljava/lang/Object;)Z
+		ARG 1 o
+	METHOD f getKey ()Ljava/lang/String;

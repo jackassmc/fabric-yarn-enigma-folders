@@ -1,0 +1,5 @@
+CLASS bja net/minecraft/util/Rotation
+	FIELD a ROT_0 Lbja;
+	FIELD b ROT_90 Lbja;
+	FIELD c ROT_180 Lbja;
+	FIELD d ROT_270 Lbja;

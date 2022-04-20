@@ -1,0 +1,6 @@
+CLASS ddk net/minecraft/client/particle/ElderGuardianAppearanceParticle
+	CLASS ddk$a Factory
+	FIELD J guardian Lahl;
+	METHOD <init> (Lbcl;DDD)V
+		ARG 1 world
+		ARG 2 x

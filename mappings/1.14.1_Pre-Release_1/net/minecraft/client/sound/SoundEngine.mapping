@@ -1,0 +1,29 @@
+CLASS ctf net/minecraft/client/sound/SoundEngine
+	CLASS ctf$a SourceSet
+		METHOD a createSource ()Lcte;
+		METHOD a release (Lcte;)Z
+		METHOD b close ()V
+		METHOD c getMaxSourceCount ()I
+		METHOD d getSourceCount ()I
+	CLASS ctf$b SourceSetImpl
+		FIELD a maxSourceCount I
+		FIELD b sources Ljava/util/Set;
+		METHOD <init> (I)V
+			ARG 1 maxSourceCount
+	CLASS ctf$c RunMode
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD b devicePointer J
+	FIELD c contextPointer J
+	FIELD d EMPTY_SOURCE_SET Lctf$a;
+	FIELD e streamingSources Lctf$a;
+	FIELD f staticSources Lctf$a;
+	FIELD g listener Lctg;
+	METHOD a init ()V
+	METHOD a release (Lcte;)V
+		ARG 1 source
+	METHOD a createSource (Lctf$c;)Lcte;
+		ARG 1 mode
+	METHOD b close ()V
+	METHOD c getListener ()Lctg;
+	METHOD d getDebugString ()Ljava/lang/String;
+	METHOD f openDevice ()J

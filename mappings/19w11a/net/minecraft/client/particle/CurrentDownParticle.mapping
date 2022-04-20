@@ -1,0 +1,2 @@
+CLASS dik net/minecraft/client/particle/CurrentDownParticle
+	CLASS dik$a net/minecraft/client/particle/CurrentDownParticle$Factory

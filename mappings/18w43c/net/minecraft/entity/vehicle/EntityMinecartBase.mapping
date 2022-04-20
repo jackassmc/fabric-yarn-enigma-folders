@@ -1,0 +1,61 @@
+CLASS aqc net/minecraft/entity/vehicle/EntityMinecartBase
+	FIELD d CUSTOM_BLOCK_ID Lpi;
+	FIELD e CUSTOM_BLOCK_OFFSET Lpi;
+	FIELD f CUSTOM_BLOCK_PRESENT Lpi;
+	METHOD <init> (Lafl;Laza;DDD)V
+		ARG 0 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD A getBlockOffset ()I
+	METHOD B getDefaultBlockOffset ()I
+	METHOD C hasCustomBlock ()Z
+	METHOD S_ update ()V
+	METHOD a setPositionAndRotations (DDDFFIZ)V
+		ARG 0 x
+		ARG 1 y
+		ARG 2 z
+		ARG 3 yaw
+		ARG 4 pitch
+	METHOD a onActivatorRail (IIIZ)V
+		ARG 0 x
+		ARG 1 y
+		ARG 2 z
+		ARG 3 powered
+	METHOD a dropItems (Laeq;)V
+		ARG 0 source
+	METHOD a damage (Laeq;F)Z
+		ARG 0 source
+		ARG 1 damage
+	METHOD a create (Laza;DDDLaqc$a;)Laqc;
+		ARG 0 world
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 type
+	METHOD a deserializeCustomData (Lhl;)V
+		ARG 0 tag
+	METHOD a setCustomBlockPresent (Z)V
+		ARG 0 value
+	METHOD aD doesCollide ()Z
+	METHOD aL getMountedHeightOffset ()D
+	METHOD b setPosition (DDD)V
+		ARG 0 x
+		ARG 1 y
+		ARG 2 z
+	METHOD b setCustomBlock (Lblz;)V
+		ARG 0 value
+	METHOD b serializeCustomData (Lhl;)V
+		ARG 0 tag
+	METHOD h setVelocityClient (DDD)V
+		ARG 0 x
+		ARG 1 y
+		ARG 2 z
+	METHOD i pushAwayFrom (Lafh;)V
+		ARG 0 other
+	METHOD l setCustomBlockOffset (I)V
+		ARG 0 value
+	METHOD v getMinecartType ()Laqc$a;
+	METHOD x getContainedBlock ()Lblz;
+	METHOD y_ initDataTracker ()V
+	METHOD z getDefaultContainedBlock ()Lblz;

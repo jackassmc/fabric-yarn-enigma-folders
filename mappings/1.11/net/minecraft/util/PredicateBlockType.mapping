@@ -1,0 +1,6 @@
+CLASS atr net/minecraft/util/PredicateBlockType
+	FIELD a block Lals;
+	METHOD <init> (Lals;)V
+		ARG 0 block
+	METHOD a match (Lals;)Latr;
+		ARG 0 block

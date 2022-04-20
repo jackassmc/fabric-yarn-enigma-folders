@@ -1,0 +1,12 @@
+CLASS dbc net/minecraft/client/render/WorldRenderer
+	FIELD a firstPersonRenderer Ldbe;
+	FIELD c LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD d RAIN_LOC Lpx;
+	FIELD e SNOW_LOC Lpx;
+	FIELD f game Lcmx;
+	FIELD g resourceContainer Lvy;
+	FIELD h rand Ljava/util/Random;
+	METHOD a onSetCameraEntity (Lagc;)V
+	METHOD a onResourceReload (Lvy;)V
+	METHOD e tick ()V
+	METHOD l getGame ()Lcmx;

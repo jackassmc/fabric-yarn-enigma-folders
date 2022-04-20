@@ -1,0 +1,4 @@
+CLASS aia net/minecraft/entity/effect/DamageModifierStatusEffect
+	FIELD a modifier D
+	METHOD <init> (Laie;ID)V
+		ARG 2 color

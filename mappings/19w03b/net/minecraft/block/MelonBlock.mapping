@@ -1,0 +1,5 @@
+CLASS bkv net/minecraft/block/MelonBlock
+	METHOD <init> (Lbhl$c;)V
+		ARG 1 settings
+	METHOD d getStem ()Lbmw;
+	METHOD e getAttachedStem ()Lbgt;

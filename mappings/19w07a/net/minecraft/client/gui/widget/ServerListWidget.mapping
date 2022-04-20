@@ -1,0 +1,18 @@
+CLASS cxd net/minecraft/client/gui/widget/ServerListWidget
+	CLASS cxd$a Entry
+	FIELD v multiplayerScreen Lcwz;
+	FIELD w userServers Ljava/util/List;
+	FIELD x localScanWidget Lcxd$a;
+	FIELD y lanServers Ljava/util/List;
+	FIELD z selectedIndex I
+	METHOD <init> (Lcwz;Lcqn;IIIII)V
+		ARG 1 gui
+		ARG 2 client
+		ARG 3 width
+		ARG 4 height
+		ARG 5 y1
+		ARG 6 y2
+	METHOD a setUserServers (Ldcx;)V
+	METHOD a setLanServers (Ljava/util/List;)V
+	METHOD e setIndex (I)V
+	METHOD p getIndex ()I

@@ -1,0 +1,18 @@
+CLASS none/zu net/minecraft/entity/mob/impl/EntitySilverfish
+	CLASS none/zu$a
+		METHOD a canStart ()Z
+		METHOD b shouldContinue ()Z
+		METHOD c start ()V
+	CLASS none/zu$b
+		METHOD a canStart ()Z
+		METHOD e tick ()V
+	METHOD G getSoundAmbient ()Lnone/nk;
+	METHOD J ()Lnone/kp;
+	METHOD a damage (Lnone/rq;F)Z
+		ARG 0 source
+		ARG 1 damage
+	METHOD b registerTagUpgraders (Lnone/pf;)V
+	METHOD bD initAttributes ()V
+	METHOD bV getSoundHurt ()Lnone/nk;
+	METHOD bW getSoundDeath ()Lnone/nk;
+	METHOD y_ update ()V

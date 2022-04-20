@@ -1,0 +1,3 @@
+CLASS dqs net/minecraft/client/audio/EntityTrackingSoundInstance
+	FIELD n entity Lahc;
+	METHOD ab_ tick ()V

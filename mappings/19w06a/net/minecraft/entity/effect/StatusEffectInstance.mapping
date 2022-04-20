@@ -1,0 +1,40 @@
+CLASS ahc net/minecraft/entity/effect/StatusEffectInstance
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD b type Lahb;
+	FIELD c duration I
+	FIELD d amplifier I
+	FIELD e splash Z
+	FIELD f ambient Z
+	FIELD g permanent Z
+	FIELD h showParticles Z
+	FIELD i showIcon Z
+	METHOD <init> (Lahb;I)V
+		ARG 1 type
+	METHOD <init> (Lahb;II)V
+		ARG 1 type
+		ARG 2 duration
+	METHOD <init> (Lahb;IIZZZ)V
+		ARG 1 type
+		ARG 2 duration
+		ARG 3 amplifier
+		ARG 4 ambient
+		ARG 5 showParticles
+	METHOD a getEffectType ()Lahb;
+	METHOD a upgrade (Lahc;)Z
+	METHOD a update (Lahr;)Z
+	METHOD a serialize (Lhr;)Lhr;
+	METHOD b getDuration ()I
+	METHOD b compareTo (Lahc;)I
+	METHOD b applyUpdateEffect (Lahr;)V
+	METHOD b deserialize (Lhr;)Lahc;
+		ARG 0 tag
+	METHOD b setPermanent (Z)V
+	METHOD c getAmplifier ()I
+	METHOD d isAmbient ()Z
+	METHOD e shouldShowParticles ()Z
+	METHOD equals (Ljava/lang/Object;)Z
+		ARG 1 o
+	METHOD f shouldShowIcon ()Z
+	METHOD g getTranslationKey ()Ljava/lang/String;
+	METHOD h isPermanent ()Z
+	METHOD i updateDuration ()I

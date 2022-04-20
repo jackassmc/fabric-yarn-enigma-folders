@@ -1,0 +1,5 @@
+CLASS azg net/minecraft/inventory/EnderChestInventory
+	FIELD a currentBlockEntity Lbty;
+	METHOD a setCurrentBlockEntity (Lbty;)V
+	METHOD a readTags (Lii;)V
+	METHOD f getTags ()Lii;

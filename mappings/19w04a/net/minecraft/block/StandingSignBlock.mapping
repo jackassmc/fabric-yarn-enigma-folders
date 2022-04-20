@@ -1,0 +1,4 @@
+CLASS bmx net/minecraft/block/StandingSignBlock
+	FIELD c ROTATION Lbrk;
+	METHOD <init> (Lbhn$c;)V
+		ARG 1 settings

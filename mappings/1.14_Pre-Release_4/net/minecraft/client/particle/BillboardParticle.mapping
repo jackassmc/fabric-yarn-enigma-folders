@@ -1,0 +1,8 @@
+CLASS diz net/minecraft/client/particle/BillboardParticle
+	FIELD D scale F
+	METHOD b getSize (F)F
+		ARG 1 tickDelta
+	METHOD c getMinU ()F
+	METHOD d getMaxU ()F
+	METHOD e getMinV ()F
+	METHOD f getMaxV ()F

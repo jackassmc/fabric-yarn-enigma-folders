@@ -1,0 +1,2 @@
+CLASS cqe net/minecraft/client/font/FontLoader
+	METHOD a load (Lvz;)Lclr;

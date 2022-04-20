@@ -1,0 +1,60 @@
+CLASS bkc net/minecraft/block/entity/BannerPattern
+	FIELD A HALF_VERTICAL_LEFT Lbkc;
+	FIELD B HALF_HORIZONTAL_TOP Lbkc;
+	FIELD C HALF_VERTICAL_RIGHT Lbkc;
+	FIELD D HALF_HORIZONTAL_BOTTOM Lbkc;
+	FIELD E BORDER Lbkc;
+	FIELD F CURLY_BORDER Lbkc;
+	FIELD G GRADIENT_DOWN Lbkc;
+	FIELD H GRADIENT_UP Lbkc;
+	FIELD I BRICKS Lbkc;
+	FIELD J CREEPER Lbkc;
+	FIELD K SKULL Lbkc;
+	FIELD L FLOWER Lbkc;
+	FIELD M MOJANG Lbkc;
+	FIELD O name Ljava/lang/String;
+	FIELD P id Ljava/lang/String;
+	FIELD Q recipePattern [Ljava/lang/String;
+	FIELD a BASE Lbkc;
+	FIELD b SQUARE_BOTTOM_LEFT Lbkc;
+	FIELD c SQUARE_BOTTOM_RIGHT Lbkc;
+	FIELD d SQUARE_TOP_LEFT Lbkc;
+	FIELD e SQUARE_TOP_RIGHT Lbkc;
+	FIELD f STRIPE_BOTTOM Lbkc;
+	FIELD g STRIPE_TOP Lbkc;
+	FIELD h STRIPE_LEFT Lbkc;
+	FIELD i STRIPE_RIGHT Lbkc;
+	FIELD j STRIPE_CENTER Lbkc;
+	FIELD k STRIPE_MIDDLE Lbkc;
+	FIELD l STRIPE_DOWNRIGHT Lbkc;
+	FIELD m STRIPE_DOWNLEFT Lbkc;
+	FIELD n SMALL_STRIPES Lbkc;
+	FIELD o CROSS Lbkc;
+	FIELD p STRAIGHT_CROSS Lbkc;
+	FIELD q TRIANGLE_BOTTOM Lbkc;
+	FIELD r TRIANGLE_TOP Lbkc;
+	FIELD s TRIANGLES_BOTTOM Lbkc;
+	FIELD t TRIANGLES_TOP Lbkc;
+	FIELD u DIAGONAL_DOWN_LEFT Lbkc;
+	FIELD v DIAGONAL_UP_RIGHT Lbkc;
+	FIELD w DIAGONAL_UP_LEFT Lbkc;
+	FIELD x DIAGONAL_DOWN_RIGHT Lbkc;
+	FIELD y CIRCLE Lbkc;
+	FIELD z RHOMBUS Lbkc;
+	METHOD <init> (Ljava/lang/String;ILjava/lang/String;Ljava/lang/String;)V
+		ARG 0 name
+		ARG 1 id
+	METHOD <init> (Ljava/lang/String;ILjava/lang/String;Ljava/lang/String;Lauc;)V
+		ARG 0 name
+		ARG 1 id
+		ARG 2 stack
+	METHOD <init> (Ljava/lang/String;ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+		ARG 0 name
+		ARG 1 id
+		ARG 2 recipePattern0
+		ARG 3 recipePattern1
+		ARG 4 recipePattern2
+	METHOD a getName ()Ljava/lang/String;
+	METHOD a byId (Ljava/lang/String;)Lbkc;
+		ARG 0 id
+	METHOD b getId ()Ljava/lang/String;

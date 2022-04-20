@@ -1,0 +1,13 @@
+CLASS bwo net/minecraft/client/render/debug/RenderDebug
+	CLASS bwo$a IRenderDebug
+		METHOD a render (FJ)V
+	FIELD a renderDebugPathfinding Lbwo$a;
+	FIELD b renderDebugWater Lbwo$a;
+	FIELD c renderDebugChunkBorder Lbwo$a;
+	FIELD d renderDebugHeightMap Lbwo$a;
+	FIELD g showChunkBorder Z
+	FIELD h showPathfinding Z
+	FIELD i showWater Z
+	FIELD j showHeightmap Z
+	METHOD a renderDebuggers (FJ)V
+	METHOD b toggleShowChunkBorder ()Z

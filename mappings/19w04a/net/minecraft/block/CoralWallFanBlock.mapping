@@ -1,0 +1,2 @@
+CLASS bio net/minecraft/block/CoralWallFanBlock
+	FIELD c deadCoralBlock Lbhn;

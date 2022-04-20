@@ -1,0 +1,6 @@
+CLASS ccn net/minecraft/world/gen/decorator/LakeDecoratorConfig
+	FIELD a chance I
+	METHOD <init> (I)V
+		ARG 1 chance
+	METHOD a deserialize (Lcom/mojang/datafixers/Dynamic;)Lccn;
+		ARG 0 dynamic

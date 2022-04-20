@@ -1,0 +1,36 @@
+CLASS bee net/minecraft/world/loot/LootTableContext
+	CLASS bee$a Builder
+		FIELD a world Lnl;
+		FIELD b luck F
+		FIELD c lootedEntity Lub;
+		FIELD d player Lacu;
+		FIELD e damageSource Ltm;
+		METHOD a build ()Lbee;
+		METHOD a setLuck (F)Lbee$a;
+		METHOD a setPlayer (Lacu;)Lbee$a;
+		METHOD a setDamageSource (Ltm;)Lbee$a;
+		METHOD a setLootedEntity (Lub;)Lbee$a;
+	CLASS bee$b Target
+		CLASS bee$b$a DeSerializer
+			METHOD a deserialize (Lcom/google/gson/stream/JsonReader;)Lbee$b;
+			METHOD a serialize (Lcom/google/gson/stream/JsonWriter;Lbee$b;)V
+		FIELD a THIS Lbee$b;
+		FIELD b KILLER Lbee$b;
+		FIELD c PLAYER Lbee$b;
+		FIELD d type Ljava/lang/String;
+		METHOD a fromString (Ljava/lang/String;)Lbee$b;
+	FIELD a luck F
+	FIELD b world Lnl;
+	FIELD c lootTableHandler Lbeg;
+	FIELD d lootedEntity Lub;
+	FIELD e player Lacu;
+	FIELD f source Ltm;
+	FIELD g lootTables Ljava/util/Set;
+	METHOD a getLootedEntity ()Lub;
+	METHOD a addLootTable (Lbed;)Z
+	METHOD a getTargetEntity (Lbee$b;)Lub;
+	METHOD b getKillerPlayer ()Lub;
+	METHOD b removeLootTable (Lbed;)V
+	METHOD c getKiller ()Lub;
+	METHOD e getLootTableHandler ()Lbeg;
+	METHOD f getLuck ()F

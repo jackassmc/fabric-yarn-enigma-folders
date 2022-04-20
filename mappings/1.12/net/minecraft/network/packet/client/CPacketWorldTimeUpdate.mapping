@@ -1,0 +1,16 @@
+CLASS kn net/minecraft/network/packet/client/CPacketWorldTimeUpdate
+	FIELD a time J
+	FIELD b timeOfDay J
+	METHOD <init> (JJZ)V
+		ARG 0 time
+		ARG 1 timeOfDay
+	METHOD a getTime ()J
+	METHOD a readPacket (Lgy;)V
+		ARG 0 buf
+	METHOD a applyPacket (Lhb;)V
+		ARG 0 handler
+	METHOD a applyPacket (Lhw;)V
+		ARG 0 handler
+	METHOD b getTimeOfDay ()J
+	METHOD b writePacket (Lgy;)V
+		ARG 0 buf

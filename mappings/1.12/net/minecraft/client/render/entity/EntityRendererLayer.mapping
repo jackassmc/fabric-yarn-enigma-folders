@@ -1,0 +1,4 @@
+CLASS cce net/minecraft/client/render/entity/EntityRendererLayer
+	METHOD a shouldMergeTextures ()Z
+	METHOD a render (Lvn;FFFFFFF)V
+		ARG 0 entity

@@ -1,0 +1,14 @@
+CLASS mf net/minecraft/client/network/packet/HealthUpdateClientPacket
+	FIELD a health F
+	FIELD b food I
+	FIELD c saturation F
+	METHOD <init> (FIF)V
+		ARG 1 health
+		ARG 2 food
+	METHOD a read (Liq;)V
+	METHOD a apply (Lit;)V
+	METHOD a apply (Ljr;)V
+	METHOD b getHealth ()F
+	METHOD b write (Liq;)V
+	METHOD c getFood ()I
+	METHOD d getSaturation ()F

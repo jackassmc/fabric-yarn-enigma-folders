@@ -1,0 +1,6 @@
+CLASS cei net/minecraft/structure/processor/StructureProcessor
+	METHOD a getType ()Lcej;
+	METHOD a process (Lbcu;Let;Lcek$b;Lcek$b;Lceh;)Lcek$b;
+		ARG 1 world
+		ARG 2 pos
+		ARG 5 placementData

@@ -1,0 +1,9 @@
+CLASS dje net/minecraft/client/particle/ParticleTextureSheet
+	FIELD a TERRAIN_SHEET Ldje;
+	FIELD b PARTICLE_SHEET_OPAQUE Ldje;
+	FIELD c PARTICLE_SHEET_TRANSLUCENT Ldje;
+	FIELD d PARTICLE_SHEET_LIT Ldje;
+	FIELD e CUSTOM Ldje;
+	FIELD f NO_RENDER Ldje;
+	METHOD a begin (Lcuq;Ldup;)V
+	METHOD a draw (Lcut;)V

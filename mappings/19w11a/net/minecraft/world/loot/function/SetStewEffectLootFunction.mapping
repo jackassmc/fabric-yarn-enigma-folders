@@ -1,0 +1,7 @@
+CLASS cos net/minecraft/world/loot/function/SetStewEffectLootFunction
+	CLASS cos$a net/minecraft/world/loot/function/SetStewEffectLootFunction$Builder
+		FIELD a map Ljava/util/Map;
+		METHOD a withEffect (Laho;Lcnf;)Lcos$a;
+	CLASS cos$b net/minecraft/world/loot/function/SetStewEffectLootFunction$Factory
+	FIELD a effects Ljava/util/Map;
+	METHOD b create ()Lcos$a;

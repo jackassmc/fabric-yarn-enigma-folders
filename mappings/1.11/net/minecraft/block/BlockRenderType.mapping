@@ -1,0 +1,4 @@
+CLASS aqd net/minecraft/block/BlockRenderType
+	FIELD a NONE Laqd;
+	FIELD b LIQUID Laqd;
+	FIELD d MODEL Laqd;

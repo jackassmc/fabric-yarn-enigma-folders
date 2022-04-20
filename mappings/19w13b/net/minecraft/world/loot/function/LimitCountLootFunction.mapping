@@ -1,0 +1,3 @@
+CLASS cpe net/minecraft/world/loot/function/LimitCountLootFunction
+	CLASS cpe$a Factory
+	FIELD a limit Lcnv;

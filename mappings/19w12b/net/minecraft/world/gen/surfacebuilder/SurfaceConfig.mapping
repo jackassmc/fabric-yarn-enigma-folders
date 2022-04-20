@@ -1,0 +1,3 @@
+CLASS cir net/minecraft/world/gen/surfacebuilder/SurfaceConfig
+	METHOD a getTopMaterial ()Lbue;
+	METHOD b getUnderMaterial ()Lbue;

@@ -1,0 +1,3 @@
+CLASS apd net/minecraft/entity/mob/GiantEntity
+	METHOD bG getEyeHeight ()F
+	METHOD ca initAttributes ()V

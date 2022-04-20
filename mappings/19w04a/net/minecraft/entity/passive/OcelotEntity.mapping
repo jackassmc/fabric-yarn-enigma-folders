@@ -1,0 +1,3 @@
+CLASS amr net/minecraft/entity/passive/OcelotEntity
+	CLASS amr$a OcelotFleeGoal
+	FIELD bC TAMING_INGREDIENT Lazk;

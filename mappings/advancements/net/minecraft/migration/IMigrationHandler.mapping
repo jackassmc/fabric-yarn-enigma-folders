@@ -1,0 +1,2 @@
+CLASS qu net/minecraft/migration/IMigrationHandler
+	METHOD a upgradeTag (Lqs;Lfc;I)Lfc;

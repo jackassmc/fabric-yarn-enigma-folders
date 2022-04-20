@@ -1,0 +1,2 @@
+CLASS dok net/minecraft/client/render/debug/WaterDebugRenderer
+	FIELD a client Lcvp;

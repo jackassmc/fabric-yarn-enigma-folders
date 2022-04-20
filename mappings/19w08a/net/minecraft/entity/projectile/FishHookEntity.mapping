@@ -1,0 +1,7 @@
+CLASS apm net/minecraft/entity/projectile/FishHookEntity
+	CLASS apm$a State
+	FIELD ay state Lapm$a;
+	FIELD b hookedEntity Lahl;
+	FIELD c HOOK_ENTITY_ID Lpx;
+	FIELD f owner Lary;
+	METHOD i getOwner ()Lary;

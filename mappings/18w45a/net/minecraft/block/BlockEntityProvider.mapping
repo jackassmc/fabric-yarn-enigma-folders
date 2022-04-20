@@ -1,0 +1,2 @@
+CLASS bgr net/minecraft/block/BlockEntityProvider
+	METHOD a createBlockEntity (Lazl;)Lbls;

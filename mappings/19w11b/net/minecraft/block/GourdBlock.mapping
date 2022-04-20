@@ -1,0 +1,5 @@
+CLASS bqk net/minecraft/block/GourdBlock
+	METHOD <init> (Lbky$c;)V
+		ARG 1 settings
+	METHOD d getStem ()Lbqj;
+	METHOD e getAttachedStem ()Lbkg;

@@ -1,0 +1,2 @@
+CLASS czy net/minecraft/client/particle/FactoryParticle
+	METHOD a createParticle (Lft;Lban;DDDDDD)Lczw;

@@ -1,0 +1,5 @@
+CLASS dli net/minecraft/client/render/model/RetexturedBakedQuad
+	FIELD e spriteRetextured Ldue;
+	METHOD <init> (Ldlb;Ldue;)V
+		ARG 1 parent
+	METHOD f recalculateUvs ()V

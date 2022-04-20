@@ -1,0 +1,5 @@
+CLASS asv net/minecraft/item/ArmorType
+	METHOD b getEquipSound ()Lwz;
+	METHOD b getProtectionAmount (Lagd;)I
+	METHOD d getName ()Ljava/lang/String;
+	METHOD e getToughness ()F

@@ -1,0 +1,3 @@
+CLASS dse net/minecraft/client/render/entity/feature/HeldItemFeatureRenderer
+	METHOD <init> (Ldqe;)V
+		ARG 1 context

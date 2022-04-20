@@ -1,0 +1,9 @@
+CLASS cvk net/minecraft/client/render/block/BlockColorMap
+	FIELD a mappers Lfe;
+	METHOD a create ()Lcvk;
+	METHOD a getRenderColor (Lbuz;Lbgg;Lev;I)I
+		ARG 1 state
+		ARG 2 view
+		ARG 3 pos
+	METHOD a register (Lcvj;[Lbmb;)V
+		ARG 1 mapper

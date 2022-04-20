@@ -1,0 +1,6 @@
+CLASS box net/minecraft/block/entity/DispenserBlockEntity
+	FIELD a RANDOM Ljava/util/Random;
+	FIELD b inventory Lfh;
+	METHOD a addToFirstFreeSlot (Laxd;)I
+		ARG 1 stack
+	METHOD h chooseNonEmptySlot ()I

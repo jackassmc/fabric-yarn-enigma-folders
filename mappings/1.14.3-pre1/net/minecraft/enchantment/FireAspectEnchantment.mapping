@@ -1,0 +1,4 @@
+CLASS bfp net/minecraft/enchantment/FireAspectEnchantment
+	METHOD <init> (Lbfk$a;[Laio;)V
+		ARG 1 weight
+		ARG 2 slotTypes

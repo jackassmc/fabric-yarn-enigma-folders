@@ -1,0 +1,39 @@
+CLASS aow net/minecraft/entity/mob/DrownedEntity
+	CLASS aow$a
+		METHOD a canStart ()Z
+		METHOD b shouldContinue ()Z
+	CLASS aow$c
+		METHOD a canStart ()Z
+		METHOD b shouldContinue ()Z
+		METHOD c start ()V
+		METHOD d onRemove ()V
+	CLASS aow$d
+		METHOD a canStart ()Z
+		METHOD b shouldContinue ()Z
+		METHOD c start ()V
+	CLASS aow$e DrownedMoveControl
+		FIELD i drowned Laow;
+		METHOD a tick ()V
+	CLASS aow$f
+		METHOD a canStart ()Z
+		METHOD b shouldContinue ()Z
+		METHOD c start ()V
+		METHOD d onRemove ()V
+		METHOD e tick ()V
+	CLASS aow$g
+		METHOD a canStart ()Z
+		METHOD c start ()V
+		METHOD d onRemove ()V
+	METHOD D getAmbientSound ()Lxg;
+	METHOD a initEquipment (Lafc;)V
+	METHOD a attack (Lagt;F)V
+		ARG 1 target
+	METHOD a (Lbat;Lafc;Lagw;Lahe;Lhq;)Lahe;
+		ARG 3 difficulty
+	METHOD af getSoundSwim ()Lxg;
+	METHOD b createNavigation (Lbas;)Lakv;
+	METHOD bx canFly ()Z
+	METHOD cv getDeathSound ()Lxg;
+	METHOD dA getSoundStep ()Lxg;
+	METHOD dB getSkull ()Lavu;
+	METHOD e getHurtSound (Laft;)Lxg;

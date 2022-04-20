@@ -1,0 +1,6 @@
+CLASS bps net/minecraft/util/Mirror
+	FIELD a NONE Lbps;
+	FIELD b LEFT_RIGHT Lbps;
+	FIELD c FRONT_BACK Lbps;
+	METHOD a getRotation (Lfa;)Lbqs;
+	METHOD b apply (Lfa;)Lfa;

@@ -1,0 +1,19 @@
+CLASS cza net/minecraft/client/gui/menu/options/LanguageOptionsScreen
+	CLASS cza$a LanguageSelectionListWidget
+		CLASS cza$a$a LanguageItem
+			FIELD c languageDefinition Ldvb;
+			METHOD <init> (Lcza$a;Ldvb;)V
+				ARG 2 languageDefinition
+			METHOD a onPressed ()V
+		METHOD <init> (Lcza;Lcux;)V
+			ARG 2 client
+	FIELD a parent Lczn;
+	FIELD b languageSelectionList Lcza$a;
+	FIELD c options Lcvb;
+	FIELD d languageManager Ldvc;
+	FIELD e forceUnicodeButton Lcwm;
+	FIELD f doneButton Lcwc;
+	METHOD <init> (Lczn;Lcvb;Ldvc;)V
+		ARG 1 parent
+		ARG 2 options
+		ARG 3 languageManager

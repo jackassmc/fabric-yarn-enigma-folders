@@ -1,0 +1,3 @@
+CLASS diy net/minecraft/client/render/entity/AreaEffectCloudEntityRenderer
+	METHOD a getTexture (Laha;)Lqc;
+	METHOD a getTexture (Lahc;)Lqc;

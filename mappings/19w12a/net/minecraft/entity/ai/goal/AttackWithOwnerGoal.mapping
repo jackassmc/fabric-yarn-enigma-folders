@@ -1,0 +1,4 @@
+CLASS anx net/minecraft/entity/ai/goal/AttackWithOwnerGoal
+	FIELD a owner Laiv;
+	FIELD b attacking Laih;
+	FIELD c lastAttackTime I

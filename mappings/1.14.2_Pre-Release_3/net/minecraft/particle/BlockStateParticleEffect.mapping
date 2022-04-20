@@ -1,0 +1,8 @@
+CLASS ga net/minecraft/particle/BlockStateParticleEffect
+	FIELD a PARAMETERS_FACTORY Lgd$a;
+	FIELD b type Lge;
+	FIELD c blockState Lbvk;
+	METHOD <init> (Lge;Lbvk;)V
+		ARG 1 type
+		ARG 2 blockState
+	METHOD c getBlockState ()Lbvk;

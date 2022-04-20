@@ -1,0 +1,4 @@
+CLASS bpo net/minecraft/block/LogBlock
+	FIELD b endMaterialColor Lcla;
+	METHOD <init> (Lcla;Lbmh$c;)V
+		ARG 1 endMaterialColor

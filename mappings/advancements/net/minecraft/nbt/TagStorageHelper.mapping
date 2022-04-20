@@ -1,0 +1,11 @@
+CLASS fl net/minecraft/nbt/TagStorageHelper
+	METHOD a writeCompoundTag (Lfc;Ljava/io/DataOutput;)V
+	METHOD a writeCompoundTagSafely (Lfc;Ljava/io/File;)V
+	METHOD a writeCompoundTagCompressed (Lfc;Ljava/io/OutputStream;)V
+	METHOD a writeTag (Lfq;Ljava/io/DataOutput;)V
+	METHOD a readTag (Ljava/io/DataInput;ILfk;)Lfq;
+	METHOD a readCompoundTag (Ljava/io/DataInput;Lfk;)Lfc;
+	METHOD a readCompoundTag (Ljava/io/DataInputStream;)Lfc;
+	METHOD a readCompoundTag (Ljava/io/File;)Lfc;
+	METHOD a readCompoundTagCompressed (Ljava/io/InputStream;)Lfc;
+	METHOD b writeCompoundTag (Lfc;Ljava/io/File;)V

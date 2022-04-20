@@ -1,0 +1,3 @@
+CLASS caj net/minecraft/sortme/structures/EndCityGenerator
+	CLASS caj$a
+		METHOD a toNbt (Lhp;)V

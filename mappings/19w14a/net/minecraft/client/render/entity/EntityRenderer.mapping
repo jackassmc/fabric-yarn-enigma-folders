@@ -1,0 +1,48 @@
+CLASS doq net/minecraft/client/render/entity/EntityRenderer
+	FIELD a SHADOW_TEX Lqr;
+	FIELD b renderManager Ldop;
+	FIELD e renderOutlines Z
+	METHOD a hasSecondPass ()Z
+	METHOD a getTexture (Lahz;)Lqr;
+	METHOD a renderLabelIfPresent (Lahz;DDD)V
+		ARG 1 entity
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z
+	METHOD a renderEntityOnFire (Lahz;DDDF)V
+		ARG 2 x
+		ARG 4 y
+	METHOD a render (Lahz;DDDFF)V
+		ARG 1 entity
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z
+		ARG 8 yaw
+		ARG 9 tickDelta
+	METHOD a renderLabel (Lahz;DDDLjava/lang/String;D)V
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z
+		ARG 8 text
+	METHOD a isVisible (Lahz;Ldmu;DDD)Z
+	METHOD a renderLabel (Lahz;Ljava/lang/String;DDDI)V
+		ARG 1 entity
+		ARG 2 text
+		ARG 3 x
+		ARG 5 y
+		ARG 7 z
+		ARG 9 maxDistance
+	METHOD a projectShadow (Lbuy;Lbgz;Lev;DDDLev;FFDDD)V
+	METHOD a renderBox (Lcrd;DDD)V
+	METHOD a bindTexture (Lqr;)V
+	METHOD a setRenderOutlines (Z)V
+	METHOD b getFontRenderer ()Lcvm;
+	METHOD b hasLabel (Lahz;)Z
+		ARG 1 entity
+	METHOD b renderSecondPass (Lahz;DDDFF)V
+	METHOD c getRenderManager ()Ldop;
+	METHOD c getOutlineColor (Lahz;)I
+	METHOD c postRender (Lahz;DDDFF)V
+	METHOD d bindEntityTexture (Lahz;)Z
+	METHOD d renderShadow (Lahz;DDDFF)V
+	METHOD e applyLightmapCoordinates (Lahz;)V

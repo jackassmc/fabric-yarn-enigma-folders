@@ -1,0 +1,4 @@
+CLASS dmd net/minecraft/client/render/entity/TNTPrimedEntityRenderer
+	METHOD a getTexture (Lahc;)Lqc;
+	METHOD a render (Lahc;DDDFF)V
+	METHOD a getTexture (Laph;)Lqc;

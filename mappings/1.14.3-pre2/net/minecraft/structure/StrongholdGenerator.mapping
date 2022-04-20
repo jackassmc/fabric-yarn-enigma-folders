@@ -1,0 +1,40 @@
+CLASS cim net/minecraft/structure/StrongholdGenerator
+	CLASS cim$a ChestCorridor
+		FIELD a chestGenerated Z
+	CLASS cim$b SmallCorridor
+		FIELD a length I
+	CLASS cim$c FiveWayCrossing
+		FIELD a lowerLeftExists Z
+		FIELD b upperLeftExists Z
+		FIELD c lowerRightExists Z
+		FIELD e upperRightExists Z
+	CLASS cim$d LeftTurn
+	CLASS cim$e Library
+		FIELD a tall Z
+	CLASS cim$g PortalRoom
+		FIELD a spawnerPlaced Z
+	CLASS cim$h PrisonHall
+	CLASS cim$i RightTurn
+	CLASS cim$j SquareRoom
+		FIELD a roomType I
+	CLASS cim$k StoneBrickRandomizer
+	CLASS cim$l SpiralStaircase
+		FIELD a isStructureStart Z
+	CLASS cim$m Start
+	CLASS cim$n Corridor
+		FIELD a leftExitExists Z
+		FIELD b rightExitExixts Z
+	CLASS cim$o Stairs
+	CLASS cim$p Piece
+		CLASS cim$p$a EntranceType
+		FIELD d entryDoor Lcim$p$a;
+		METHOD a generateEntrance (Lbhm;Ljava/util/Random;Lchw;Lcim$p$a;III)V
+			ARG 1 world
+			ARG 2 random
+			ARG 3 boundingBox
+			ARG 4 type
+			ARG 5 x
+			ARG 6 y
+			ARG 7 z
+		METHOD a getRandomEntrance (Ljava/util/Random;)Lcim$p$a;
+			ARG 1 random

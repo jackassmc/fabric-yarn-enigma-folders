@@ -1,0 +1,8 @@
+CLASS cxs net/minecraft/client/gui/menu/AddServerScreen
+	FIELD a buttonAdd Lcuu;
+	FIELD b parent Lcyh;
+	FIELD g serverEntry Ldgj;
+	FIELD h addressField Lcuy;
+	FIELD i serverNameField Lcuy;
+	FIELD s resourcePackOptionButton Lcuu;
+	METHOD k addAndClose ()V

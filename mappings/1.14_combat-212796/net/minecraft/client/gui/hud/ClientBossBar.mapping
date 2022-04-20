@@ -1,0 +1,7 @@
+CLASS cxd net/minecraft/client/gui/hud/ClientBossBar
+	FIELD h healthLatest F
+	FIELD i timeHealthSet J
+	METHOD <init> (Lkr;)V
+		ARG 1 packet
+	METHOD a handlePacket (Lkr;)V
+		ARG 1 packet

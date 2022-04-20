@@ -1,0 +1,9 @@
+CLASS ddg net/minecraft/client/particle/ExplosionEmitterParticle
+	CLASS ddg$a Factory
+	FIELD J age_ I
+	FIELD K maxAge_ I
+	METHOD <init> (Lbcl;DDDDDD)V
+		ARG 1 world
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z

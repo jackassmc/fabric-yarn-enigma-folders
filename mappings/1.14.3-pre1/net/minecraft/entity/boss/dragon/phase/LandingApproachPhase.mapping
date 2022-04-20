@@ -1,0 +1,4 @@
+CLASS asq net/minecraft/entity/boss/dragon/phase/LandingApproachPhase
+	FIELD b PLAYERS_IN_RANGE_PREDICATE Laqb;
+	METHOD <init> (Lasi;)V
+		ARG 1 dragon

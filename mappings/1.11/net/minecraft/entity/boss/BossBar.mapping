@@ -1,0 +1,50 @@
+CLASS qz net/minecraft/entity/boss/BossBar
+	CLASS qz$a Color
+		FIELD a PINK Lqz$a;
+		FIELD b BLUE Lqz$a;
+		FIELD c RED Lqz$a;
+		FIELD d GREEN Lqz$a;
+		FIELD e YELLOW Lqz$a;
+		FIELD f PURPLE Lqz$a;
+		FIELD g WHITE Lqz$a;
+	CLASS qz$b Division
+		FIELD a NONE Lqz$b;
+		FIELD b SIX Lqz$b;
+		FIELD c TEN Lqz$b;
+		FIELD d TWELVE Lqz$b;
+		FIELD e TWENTY Lqz$b;
+	FIELD a name Lfb;
+	FIELD b health F
+	FIELD c color Lqz$a;
+	FIELD d division Lqz$b;
+	FIELD e darkenSky Z
+	FIELD f dragonMusic Z
+	FIELD g thickenFog Z
+	FIELD h uuid Ljava/util/UUID;
+	METHOD <init> (Ljava/util/UUID;Lfb;Lqz$a;Lqz$b;)V
+		ARG 0 uuid
+		ARG 1 name
+		ARG 2 color
+		ARG 3 division
+	METHOD a setHealth (F)V
+		ARG 0 health
+	METHOD a setName (Lfb;)V
+		ARG 0 name
+	METHOD a setColor (Lqz$a;)V
+		ARG 0 color
+	METHOD a setDivision (Lqz$b;)V
+		ARG 0 division
+	METHOD a setDarkenSky (Z)Lqz;
+		ARG 0 darkenSky
+	METHOD b setDragonMusic (Z)Lqz;
+		ARG 0 dragonMusic
+	METHOD c setThickenFog (Z)Lqz;
+		ARG 0 thickenFog
+	METHOD d getUuid ()Ljava/util/UUID;
+	METHOD e getName ()Lfb;
+	METHOD f getHealth ()F
+	METHOD g getColor ()Lqz$a;
+	METHOD h getDivision ()Lqz$b;
+	METHOD i getDarkenSky ()Z
+	METHOD j hasDragonMusic ()Z
+	METHOD k getThickenFog ()Z

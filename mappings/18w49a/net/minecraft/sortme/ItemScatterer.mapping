@@ -1,0 +1,6 @@
+CLASS afa net/minecraft/sortme/ItemScatterer
+	FIELD a RANDOM Ljava/util/Random;
+	METHOD a spawn (Lbas;DDDLaex;)V
+	METHOD a spawn (Lbas;DDDLavu;)V
+	METHOD a spawn (Lbas;Lagk;Laex;)V
+	METHOD a spawn (Lbas;Let;Laex;)V

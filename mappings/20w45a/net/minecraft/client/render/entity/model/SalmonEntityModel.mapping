@@ -1,0 +1,2 @@
+CLASS net/minecraft/class_599 net/minecraft/client/render/entity/model/SalmonEntityModel
+	FIELD field_3548 tail Lnet/minecraft/class_630;

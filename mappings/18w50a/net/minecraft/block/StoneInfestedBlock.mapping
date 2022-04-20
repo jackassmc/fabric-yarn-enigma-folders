@@ -1,0 +1,6 @@
+CLASS bjj net/minecraft/block/StoneInfestedBlock
+	METHOD a onStacksDropped (Lbpm;Lbbp;Let;Lawo;)V
+		ARG 1 state
+		ARG 2 world
+		ARG 3 pos
+		ARG 4 stack

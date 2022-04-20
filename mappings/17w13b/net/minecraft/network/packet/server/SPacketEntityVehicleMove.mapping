@@ -1,0 +1,21 @@
+CLASS km net/minecraft/network/packet/server/SPacketEntityVehicleMove
+	FIELD a x D
+	FIELD b y D
+	FIELD c z D
+	FIELD d yaw F
+	FIELD e pitch F
+	METHOD <init> (Lub;)V
+		ARG 0 entity
+	METHOD a getX ()D
+	METHOD a readPacket (Lgb;)V
+		ARG 0 buf
+	METHOD a applyPacket (Lge;)V
+		ARG 0 handler
+	METHOD a applyPacket (Ljx;)V
+		ARG 0 handler
+	METHOD b getY ()D
+	METHOD b writePacket (Lgb;)V
+		ARG 0 buf
+	METHOD c getZ ()D
+	METHOD d getYaw ()F
+	METHOD e getPitch ()F

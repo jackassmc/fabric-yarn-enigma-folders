@@ -1,0 +1,4 @@
+CLASS dxd net/minecraft/client/audio/ListenerSoundInstance
+	METHOD a onSoundPlayed (Ldwe;Ldxf;)V
+		ARG 1 sound
+		ARG 2 soundSet

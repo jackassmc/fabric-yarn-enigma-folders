@@ -1,0 +1,21 @@
+CLASS axs net/minecraft/entity/player/ItemCooldownManager
+	CLASS axs$a Entry
+		FIELD b startTick I
+		FIELD c endTick I
+		METHOD <init> (Laxs;II)V
+			ARG 2 startTick
+			ARG 3 endTick
+	FIELD a entries Ljava/util/Map;
+	FIELD b tick I
+	METHOD a update ()V
+	METHOD a isCooldown (Laxr;)Z
+	METHOD a getCooldownProgress (Laxr;F)F
+		ARG 2 partialTicks
+	METHOD a set (Laxr;I)V
+		ARG 1 item
+		ARG 2 duration
+	METHOD b remove (Laxr;)V
+		ARG 1 item
+	METHOD b onCooldownUpdate (Laxr;I)V
+		ARG 1 item
+	METHOD c onCooldownUpdate (Laxr;)V

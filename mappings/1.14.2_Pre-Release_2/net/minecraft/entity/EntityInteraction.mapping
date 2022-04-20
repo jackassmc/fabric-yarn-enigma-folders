@@ -1,0 +1,3 @@
+CLASS aqe net/minecraft/entity/EntityInteraction
+	METHOD a create (Ljava/lang/String;)Laqe;
+		ARG 0 key

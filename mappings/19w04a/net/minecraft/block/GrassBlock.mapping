@@ -1,0 +1,3 @@
+CLASS bjw net/minecraft/block/GrassBlock
+	METHOD <init> (Lbhn$c;)V
+		ARG 1 settings

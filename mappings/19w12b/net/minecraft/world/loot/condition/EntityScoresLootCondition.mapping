@@ -1,0 +1,4 @@
+CLASS cpm net/minecraft/world/loot/condition/EntityScoresLootCondition
+	CLASS cpm$b Factory
+	FIELD a scores Ljava/util/Map;
+	FIELD b target Lcne$c;

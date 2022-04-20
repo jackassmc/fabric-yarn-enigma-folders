@@ -1,0 +1,12 @@
+CLASS bot net/minecraft/block/entity/ConduitBlockEntity
+	FIELD h eyeOpenClient Z
+	FIELD j targetEntity Lahl;
+	FIELD k targetUuid Ljava/util/UUID;
+	METHOD a toUpdatePacket ()Lkc;
+	METHOD a fromTag (Lhq;)V
+	METHOD a playSound (Lxr;)V
+	METHOD ab_ tick ()V
+	METHOD b toInitialChunkDataTag ()Lhq;
+	METHOD b toTag (Lhq;)Lhq;
+	METHOD b setEyeOpenClient (Z)V
+	METHOD d isEyeOpenClient ()Z

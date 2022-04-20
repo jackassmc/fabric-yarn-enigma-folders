@@ -1,0 +1,2 @@
+CLASS bpk net/minecraft/client/particle/ParticleFishing
+	METHOD a update ()V

@@ -1,0 +1,4 @@
+CLASS dfz net/minecraft/client/render/entity/BlazeEntityRenderer
+	FIELD a SKIN Lpy;
+	METHOD a getTexture (Lagi;)Lpy;
+	METHOD a getTexture (Laoq;)Lpy;

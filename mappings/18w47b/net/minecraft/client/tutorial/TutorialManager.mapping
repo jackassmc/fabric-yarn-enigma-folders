@@ -1,0 +1,13 @@
+CLASS dog net/minecraft/client/tutorial/TutorialManager
+	FIELD a game Lcnd;
+	FIELD b currentHandler Ldoh;
+	METHOD a onInventoryOpened ()V
+	METHOD a onSlotUpdate (Lavo;)V
+	METHOD a onBlockAttacked (Lcyq;Let;Lboh;F)V
+	METHOD a setStep (Ldoi;)V
+	METHOD a getKeybindName (Ljava/lang/String;)Lja;
+	METHOD b destroyHandler ()V
+	METHOD c createHandler ()V
+	METHOD d tick ()V
+	METHOD e getGame ()Lcnd;
+	METHOD f getGameMode ()Lbak;

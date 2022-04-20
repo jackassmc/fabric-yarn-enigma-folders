@@ -1,0 +1,13 @@
+CLASS bmk net/minecraft/block/entity/BlockEntityDispenser
+	FIELD a RANDOM Ljava/util/Random;
+	FIELD e inventory Lfg;
+	METHOD O_ getName ()Liz;
+	METHOD Q_ isInvEmpty ()Z
+	METHOD U_ getInvSize ()I
+	METHOD a createContainer (Lapz;Laqa;)Larp;
+		ARG 1 playerInv
+	METHOD a serialize (Lho;)Lho;
+	METHOD b deserialize (Lho;)V
+	METHOD f getInvMaxStackAmount ()I
+	METHOD l getContainerId ()Ljava/lang/String;
+	METHOD q getInvStackList ()Lfg;

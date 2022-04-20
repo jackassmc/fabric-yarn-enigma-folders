@@ -1,0 +1,6 @@
+CLASS dkh net/minecraft/client/render/chunk/BlockLayeredBufferBuilder
+	FIELD a layerBuilders [Lcup;
+	METHOD a get (I)Lcup;
+		ARG 1 index
+	METHOD a get (Lbgx;)Lcup;
+		ARG 1 layer

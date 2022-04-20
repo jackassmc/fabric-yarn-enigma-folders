@@ -1,0 +1,7 @@
+CLASS bra net/minecraft/block/SnowBlock
+	FIELD a LAYERS Lbvy;
+	FIELD b LAYERS_TO_SHAPE [Lcse;
+	METHOD <init> (Lbma$c;)V
+		ARG 1 settings
+	METHOD n (Lbuy;)Z
+		ARG 1 state

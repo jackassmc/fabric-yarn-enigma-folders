@@ -1,0 +1,8 @@
+CLASS dcd net/minecraft/client/network/ClientAdvancementManager
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD b client Lcqe;
+	FIELD c manager Lo;
+	METHOD a getManager ()Lo;
+	METHOD a setGui (Ldcd$a;)V
+	METHOD a onAdvancements (Lmy;)V
+	METHOD a selectTab (Ln;Z)V

@@ -1,0 +1,21 @@
+CLASS atu net/minecraft/entity/mob/CreeperEntity
+	FIELD bA currentFuseTime I
+	FIELD bB fuseTime I
+	FIELD bC explosionRadius I
+	FIELD bD headsDropped I
+	FIELD b FUSE_SPEED Lqh;
+	FIELD bz lastFuseTime I
+	FIELD c CHARGED Lqh;
+	FIELD d IGNITED Lqh;
+	METHOD a setFuseSpeed (I)V
+		ARG 1 fuseSpeed
+	METHOD dW getFuseSpeed ()I
+	METHOD dX getIgnited ()Z
+	METHOD dY setIgnited ()V
+	METHOD dZ shouldDropHead ()Z
+	METHOD ea onHeadDropped ()V
+	METHOD eb explode ()V
+	METHOD ed spawnEffectsCloud ()V
+	METHOD l isCharged ()Z
+	METHOD v getClientFuseTime (F)F
+		ARG 1 timeDelta

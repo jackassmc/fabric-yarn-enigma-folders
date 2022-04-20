@@ -1,0 +1,3 @@
+CLASS avy net/minecraft/entity/projectile/ExplodingWitherSkullEntity
+	FIELD f CHARGED Lqf;
+	METHOD a setCharged (Z)V

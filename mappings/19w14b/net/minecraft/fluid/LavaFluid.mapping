@@ -1,0 +1,3 @@
+CLASS cks net/minecraft/fluid/LavaFluid
+	CLASS cks$a Flowing
+	CLASS cks$b Still

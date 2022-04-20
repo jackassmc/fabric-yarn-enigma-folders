@@ -1,0 +1,17 @@
+CLASS cua net/minecraft/client/gui/widget/AdvancementTreeWidget
+	FIELD a client Lcpk;
+	FIELD g tabType Lcub;
+	FIELD i rootAdvancement Ln;
+	FIELD n widgets Ljava/util/Map;
+	METHOD <init> (Lcpk;Lcue;Lcub;ILn;Lw;)V
+		ARG 1 client
+		ARG 5 rootAdvancement
+	METHOD a drawIcon (IILdjo;)V
+		ARG 1 x
+		ARG 2 y
+	METHOD a drawBackground (IIZ)V
+		ARG 1 x
+		ARG 2 y
+	METHOD a create (Lcpk;Lcue;ILn;)Lcua;
+		ARG 0 minecraft
+	METHOD b getWidgetForAdvancement (Ln;)Lcuc;

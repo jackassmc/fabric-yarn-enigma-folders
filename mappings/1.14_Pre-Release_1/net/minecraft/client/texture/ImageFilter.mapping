@@ -1,0 +1,2 @@
+CLASS dka net/minecraft/client/texture/ImageFilter
+	METHOD a filterImage (Lctp;)Lctp;

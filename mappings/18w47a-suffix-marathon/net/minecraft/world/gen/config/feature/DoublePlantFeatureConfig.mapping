@@ -1,0 +1,4 @@
+CLASS btx net/minecraft/world/gen/config/feature/DoublePlantFeatureConfig
+	FIELD a state Lboh;
+	METHOD a make (Lcom/mojang/datafixers/Dynamic;)Lbtx;
+		ARG 0 dynamic

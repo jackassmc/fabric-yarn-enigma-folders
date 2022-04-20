@@ -1,0 +1,4 @@
+CLASS awg net/minecraft/item/ItemArrowSpectral
+	METHOD a createEntityArrow (Lbae;Lavf;Lagl;)Laqe;
+		ARG 1 world
+		ARG 2 stack

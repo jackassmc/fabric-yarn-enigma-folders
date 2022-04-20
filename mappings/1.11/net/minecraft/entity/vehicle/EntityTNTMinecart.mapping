@@ -1,0 +1,39 @@
+CLASS acf net/minecraft/entity/vehicle/EntityTNTMinecart
+	FIELD a fuseTicks I
+	METHOD A_ update ()V
+	METHOD a onActivatorRail (IIIZ)V
+		ARG 0 x
+		ARG 1 y
+		ARG 2 z
+		ARG 3 powered
+	METHOD a getEffectiveExplosionResistance (Lajl;Lajq;Lco;Latj;)F
+		ARG 0 explosion
+		ARG 1 world
+		ARG 2 pos
+		ARG 3 state
+	METHOD a canExplosionDestroyBlock (Lajl;Lajq;Lco;Latj;F)Z
+		ARG 0 explosion
+		ARG 1 world
+		ARG 2 pos
+		ARG 3 state
+		ARG 4 power
+	METHOD a deserializeCustomData (Ldu;)V
+		ARG 0 tag
+	METHOD a dropItems (Lrx;)V
+		ARG 0 source
+	METHOD a damage (Lrx;F)Z
+		ARG 0 source
+		ARG 1 damage
+	METHOD b serializeCustomData (Ldu;)V
+		ARG 0 tag
+	METHOD b registerTagUpgraders (Lph;)V
+		ARG 0 handler
+	METHOD c explode (D)V
+		ARG 0 strength
+	METHOD e handleFallDamage (FF)V
+		ARG 0 fallDistance
+	METHOD j prime ()V
+	METHOD k getFuseTicks ()I
+	METHOD l isPrimed ()Z
+	METHOD v getMinecartType ()Labx$a;
+	METHOD x getDefaultContainedBlock ()Latj;

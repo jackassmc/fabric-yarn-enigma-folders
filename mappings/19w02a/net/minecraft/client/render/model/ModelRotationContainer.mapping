@@ -1,0 +1,3 @@
+CLASS dqa net/minecraft/client/render/model/ModelRotationContainer
+	METHOD b getRotation ()Ldpv;
+	METHOD c isUvLocked ()Z

@@ -1,0 +1,19 @@
+CLASS ii net/minecraft/nbt/ListTag
+	FIELD f value Ljava/util/List;
+	FIELD g type B
+	METHOD a getCompoundTag (I)Lib;
+	METHOD a canAdd (Lis;)Z
+	METHOD a_ getListType ()I
+	METHOD add (ILjava/lang/Object;)V
+		ARG 1 value
+	METHOD b getListTag (I)Lii;
+	METHOD d getShort (I)S
+	METHOD e getInt (I)I
+	METHOD equals (Ljava/lang/Object;)Z
+		ARG 1 o
+	METHOD f getIntArray (I)[I
+	METHOD h getDouble (I)D
+	METHOD i getFloat (I)F
+	METHOD j getString (I)Ljava/lang/String;
+	METHOD set (ILjava/lang/Object;)Ljava/lang/Object;
+		ARG 1 index

@@ -1,0 +1,5 @@
+CLASS ddy net/minecraft/client/render/entity/EntityRendererEntity
+	METHOD <init> (Ldei;)V
+		ARG 1 renderManager
+	METHOD a getTexture (Lafv;)Lpu;
+		ARG 1 model

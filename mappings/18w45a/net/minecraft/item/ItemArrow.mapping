@@ -1,0 +1,4 @@
+CLASS asy net/minecraft/item/ItemArrow
+	METHOD a createEntityArrow (Lazy;Lava;Lagh;)Lapz;
+		ARG 1 world
+		ARG 2 stack

@@ -1,0 +1,7 @@
+CLASS dkx net/minecraft/client/render/entity/SlimeOverlayEntityRenderer
+	FIELD a renderer Ldiz;
+	FIELD b model Lcxo;
+	METHOD a shouldMergeTextures ()Z
+	METHOD a render (Lagt;FFFFFFF)V
+		ARG 0 entity
+	METHOD a render (Lapt;FFFFFFF)V

@@ -1,0 +1,7 @@
+CLASS bza net/minecraft/world/gen/feature/ShipwreckFeature
+	CLASS bza$a Start
+		METHOD <init> (Lbzp;IILbdr;Lccw;IJ)V
+			ARG 2 chunkX
+			ARG 3 chunkZ
+	METHOD <init> (Ljava/util/function/Function;)V
+		ARG 1 configFactory

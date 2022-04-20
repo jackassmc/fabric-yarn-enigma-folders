@@ -1,0 +1,3 @@
+CLASS asm net/minecraft/entity/boss/dragon/phase/SittingFlamingPhase
+	METHOD <init> (Lasa;)V
+		ARG 1 dragon

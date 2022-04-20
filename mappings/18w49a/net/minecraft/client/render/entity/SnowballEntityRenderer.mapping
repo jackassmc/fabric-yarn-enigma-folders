@@ -1,0 +1,8 @@
+CLASS djf net/minecraft/client/render/entity/SnowballEntityRenderer
+	FIELD a item Lavp;
+	FIELD f itemRenderer Ldhx;
+	METHOD <init> (Ldhc;Lavp;Ldhx;)V
+		ARG 1 renderManager
+		ARG 2 item
+	METHOD a getTexture (Lagk;)Lpz;
+	METHOD e getItemStack (Lagk;)Lavu;

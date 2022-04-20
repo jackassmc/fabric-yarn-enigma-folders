@@ -1,0 +1,8 @@
+CLASS bod net/minecraft/block/TallPlantBlock
+	FIELD a HALF Lbwn;
+	METHOD <init> (Lbmr$c;)V
+		ARG 1 settings
+	METHOD a placeAt (Lbho;Lev;I)V
+		ARG 1 world
+		ARG 2 pos
+		ARG 3 flags

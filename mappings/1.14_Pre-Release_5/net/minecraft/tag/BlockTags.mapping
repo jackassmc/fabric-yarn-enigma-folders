@@ -1,0 +1,6 @@
+CLASS yw net/minecraft/tag/BlockTags
+	FIELD Y container Lzc;
+	FIELD Z containerChanges I
+	METHOD a getContainer ()Lzc;
+	METHOD a register (Ljava/lang/String;)Lzb;
+	METHOD a setContainer (Lzc;)V

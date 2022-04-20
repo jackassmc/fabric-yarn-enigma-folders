@@ -1,0 +1,6 @@
+CLASS awm net/minecraft/util/UseAction
+	FIELD a DEFAULT Lawm;
+	FIELD b EAT Lawm;
+	FIELD c DRINK Lawm;
+	FIELD d GUARD Lawm;
+	FIELD e BOW Lawm;

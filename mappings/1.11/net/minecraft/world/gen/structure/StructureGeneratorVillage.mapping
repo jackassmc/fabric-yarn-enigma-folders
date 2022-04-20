@@ -1,0 +1,8 @@
+CLASS ayr net/minecraft/world/gen/structure/StructureGeneratorVillage
+	CLASS ayr$a StructureVillage
+		FIELD c valid Z
+		METHOD a serializeCustomData (Ldu;)V
+			ARG 0 tag
+		METHOD b deserializeCustomData (Ldu;)V
+			ARG 0 tag
+	FIELD a allowedBiomes Ljava/util/List;

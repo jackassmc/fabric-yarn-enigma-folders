@@ -1,0 +1,14 @@
+CLASS axi net/minecraft/container/EnchantingTableContainer
+	FIELD c enchantmentPower [I
+	FIELD d enchantmentId [I
+	FIELD e enchantmentLevel [I
+	FIELD f inventory Lagk;
+	FIELD g context Laxc;
+	FIELD h random Ljava/util/Random;
+	FIELD i seed Laxg;
+	METHOD <init> (ILaum;)V
+		ARG 1 syncId
+	METHOD <init> (ILaum;Laxc;)V
+		ARG 1 syncId
+	METHOD a getRandomEnchantments (Lbar;II)Ljava/util/List;
+		ARG 1 stack

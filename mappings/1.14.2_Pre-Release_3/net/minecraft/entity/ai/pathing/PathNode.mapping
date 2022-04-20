@@ -1,0 +1,27 @@
+CLASS cng net/minecraft/entity/ai/pathing/PathNode
+	FIELD a x I
+	FIELD b y I
+	FIELD c z I
+	FIELD d heapIndex I
+	FIELD g heapWeight F
+	FIELD l type Lcne;
+	FIELD m hashCode I
+	METHOD <init> (III)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD a copyWithNewPosition (III)Lcng;
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD a distance (Lcng;)F
+	METHOD b calculateHashCode (III)I
+		ARG 0 x
+		ARG 1 y
+		ARG 2 z
+	METHOD b distanceSquared (Lcng;)F
+	METHOD b fromBuffer (Ljc;)Lcng;
+		ARG 0 buffer
+	METHOD c isInHeap ()Z
+	METHOD equals (Ljava/lang/Object;)Z
+		ARG 1 o

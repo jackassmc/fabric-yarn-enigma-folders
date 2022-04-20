@@ -1,0 +1,3 @@
+CLASS aew net/minecraft/container/ContainerProvider
+	METHOD a createContainer (Lapz;Laqa;)Larp;
+	METHOD l getContainerId ()Ljava/lang/String;

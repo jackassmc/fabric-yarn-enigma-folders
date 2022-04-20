@@ -1,0 +1,5 @@
+CLASS od net/minecraft/server/network/packet/BookUpdateC2SPacket
+	FIELD a stack Lbbp;
+	FIELD c hand Lagt;
+	METHOD b stack ()Lbbp;
+	METHOD d hand ()Lagt;

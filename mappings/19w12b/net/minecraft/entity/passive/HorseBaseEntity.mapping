@@ -1,0 +1,28 @@
+CLASS aqs net/minecraft/entity/passive/HorseBaseEntity
+	FIELD bA JUMP_STRENGTH Laix;
+	FIELD bF items Lagy;
+	FIELD bG temper I
+	FIELD bK IS_BRED_HORSE Ljava/util/function/Predicate;
+	FIELD bM HORSE_FLAGS Lqf;
+	FIELD bN OWNER_UUID Lqf;
+	METHOD <init> (Laic;Lbgf;)V
+		ARG 1 type
+	METHOD b setOwnerUuid (Ljava/util/UUID;)V
+	METHOD d setHorseFlag (IZ)V
+		ARG 1 index
+	METHOD dQ getInventorySize ()I
+	METHOD dY initCustomGoals ()V
+	METHOD dZ isTame ()Z
+	METHOD ea getOwnerUuid ()Ljava/util/UUID;
+	METHOD ec isEating ()Z
+	METHOD ee isBred ()Z
+	METHOD ef getTemper ()I
+	METHOD ek isSaddled ()Z
+	METHOD ep playJumpSound ()V
+	METHOD g putPlayerOnBack (Lauv;)V
+	METHOD r getHorseFlag (I)Z
+	METHOD s setTemper (I)V
+	METHOD s setTame (Z)V
+	METHOD u setBred (Z)V
+	METHOD v setSaddled (Z)V
+	METHOD w setEating (Z)V

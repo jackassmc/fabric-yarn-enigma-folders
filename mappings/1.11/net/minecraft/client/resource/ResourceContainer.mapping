@@ -1,0 +1,31 @@
+CLASS bzo net/minecraft/client/resource/ResourceContainer
+	CLASS bzo$a DebugInputStream
+		FIELD a stream Ljava/io/InputStream;
+		FIELD b warningMessage Ljava/lang/String;
+		FIELD c isClosed Z
+		METHOD <init> (Ljava/io/InputStream;Lkq;Ljava/lang/String;)V
+			ARG 0 stream
+			ARG 1 id
+			ARG 2 packName
+		METHOD close close ()V
+		METHOD read read ()I
+	FIELD a packs Ljava/util/List;
+	FIELD b LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD c metadataDeserializer Lcam;
+	METHOD <init> (Lcam;)V
+		ARG 0 metadataDeserializer
+	METHOD a getProvidedAssets ()Ljava/util/Set;
+	METHOD a add (Lbzx;)V
+		ARG 0 pack
+	METHOD a getResource (Lkq;)Lbzu;
+		ARG 0 id
+	METHOD a open (Lkq;Lbzx;)Ljava/io/InputStream;
+		ARG 0 id
+		ARG 1 pack
+	METHOD b getLogger ()Lorg/apache/logging/log4j/Logger;
+	METHOD b getAllResources (Lkq;)Ljava/util/List;
+		ARG 0 id
+	METHOD c getMetadataLocation (Lkq;)Lkq;
+		ARG 0 id
+	METHOD d validateLocation (Lkq;)V
+		ARG 0 id

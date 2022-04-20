@@ -1,0 +1,20 @@
+CLASS none/bmd net/minecraft/client/network/handler/impl/NetworkLoginHandlerClient
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD b game Lnone/bdq;
+	FIELD c parentGui Lnone/bgm;
+	FIELD d connection Lnone/eq;
+	METHOD <init> (Lnone/eq;Lnone/bdq;Lnone/bgm;)V
+		ARG 0 connection
+		ARG 1 game
+		ARG 2 parentGui
+	METHOD a onConnectionLost (Lnone/fa;)V
+		ARG 0 reason
+	METHOD a onLoginSuccess (Lnone/js;)V
+		ARG 0 packet
+	METHOD a onLoginEncryptionRequest (Lnone/jt;)V
+		ARG 0 packet
+	METHOD a onLoginCompression (Lnone/ju;)V
+		ARG 0 packet
+	METHOD a onLoginDisconnect (Lnone/jv;)V
+		ARG 0 packet
+	METHOD b getSessionService ()Lcom/mojang/authlib/minecraft/MinecraftSessionService;

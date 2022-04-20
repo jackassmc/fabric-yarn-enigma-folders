@@ -1,0 +1,7 @@
+CLASS bxi net/minecraft/world/chunk/ReadOnlyChunk
+	FIELD a wrapped Lbxj;
+	METHOD <init> (Lbxj;)V
+		ARG 1 wrapped
+	METHOD d transformHeightmapType (Lbyq$a;)Lbyq$a;
+		ARG 1 type
+	METHOD u getWrappedChunk ()Lbxj;

@@ -1,0 +1,9 @@
+CLASS cmd net/minecraft/world/biome/layer/ParentedLayer
+	METHOD a sample (Lcla;Lckw;II)I
+		ARG 1 context
+		ARG 2 parent
+		ARG 3 x
+		ARG 4 z
+	METHOD a create (Lcla;Lckx;)Lckx;
+		ARG 1 context
+		ARG 2 parent

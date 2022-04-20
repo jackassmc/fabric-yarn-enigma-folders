@@ -1,0 +1,4 @@
+CLASS pu net/minecraft/network/listener/ServerLoginPacketListener
+	METHOD a onQueryResponse (Lpv;)V
+	METHOD a onHello (Lpw;)V
+	METHOD a onKey (Lpx;)V

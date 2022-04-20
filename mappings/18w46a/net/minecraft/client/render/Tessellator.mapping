@@ -1,0 +1,7 @@
+CLASS cml net/minecraft/client/render/Tessellator
+	FIELD a buffer Lcmi;
+	FIELD b renderer Lcmj;
+	FIELD c INSTANCE Lcml;
+	METHOD a getInstance ()Lcml;
+	METHOD b draw ()V
+	METHOD c getVertexBuffer ()Lcmi;

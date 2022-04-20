@@ -1,0 +1,3 @@
+CLASS bsz net/minecraft/block/WetSpongeBlock
+	METHOD <init> (Lbmn$c;)V
+		ARG 1 settings

@@ -1,0 +1,2 @@
+CLASS dir net/minecraft/client/particle/SquidInkParticle
+	CLASS dir$a Factory

@@ -1,0 +1,7 @@
+CLASS axy net/minecraft/item/BaseBowItem
+	METHOD <init> (Laxh$a;)V
+		ARG 1 settings
+	METHOD a findArrowStack (Lars;)Laxm;
+		ARG 1 player
+	METHOD f isArrow (Laxm;)Z
+		ARG 1 stack

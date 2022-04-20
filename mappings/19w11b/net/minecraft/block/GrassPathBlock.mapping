@@ -1,0 +1,6 @@
+CLASS bni net/minecraft/block/GrassPathBlock
+	FIELD a SHAPE Lcra;
+	METHOD <init> (Lbky$c;)V
+		ARG 1 settings
+	METHOD n (Lbtw;)Z
+		ARG 1 state

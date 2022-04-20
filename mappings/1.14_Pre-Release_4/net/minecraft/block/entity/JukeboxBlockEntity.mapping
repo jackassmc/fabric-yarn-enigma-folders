@@ -1,0 +1,4 @@
+CLASS bub net/minecraft/block/entity/JukeboxBlockEntity
+	FIELD a record Lbbz;
+	METHOD a setRecord (Lbbz;)V
+	METHOD c getRecord ()Lbbz;

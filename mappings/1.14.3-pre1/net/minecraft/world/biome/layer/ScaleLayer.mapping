@@ -1,0 +1,2 @@
+CLASS cmp net/minecraft/world/biome/layer/ScaleLayer
+	FIELD b FUZZY Lcmp;

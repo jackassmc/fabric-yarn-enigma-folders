@@ -1,0 +1,2 @@
+CLASS cfh net/minecraft/structure/pool/EmptyPoolElement
+	FIELD a INSTANCE Lcfh;

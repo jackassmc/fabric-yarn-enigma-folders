@@ -1,0 +1,2 @@
+CLASS cal net/minecraft/client/resource/metadata/IResourceSectionDeserializer
+	METHOD a getName ()Ljava/lang/String;

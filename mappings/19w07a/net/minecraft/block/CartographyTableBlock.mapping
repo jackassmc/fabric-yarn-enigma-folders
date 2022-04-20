@@ -1,0 +1,4 @@
+CLASS bio net/minecraft/block/CartographyTableBlock
+	FIELD a CONTAINER_NAME Ljq;
+	METHOD <init> (Lbic$c;)V
+		ARG 1 settings

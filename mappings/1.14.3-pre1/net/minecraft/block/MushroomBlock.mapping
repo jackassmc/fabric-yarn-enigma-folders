@@ -1,0 +1,10 @@
+CLASS bpe net/minecraft/block/MushroomBlock
+	FIELD a NORTH Lbwd;
+	FIELD b EAST Lbwd;
+	FIELD c SOUTH Lbwd;
+	FIELD d WEST Lbwd;
+	FIELD e UP Lbwd;
+	FIELD f DOWN Lbwd;
+	FIELD g FACING_PROPERTIES Ljava/util/Map;
+	METHOD <init> (Lbmn$c;)V
+		ARG 1 settings

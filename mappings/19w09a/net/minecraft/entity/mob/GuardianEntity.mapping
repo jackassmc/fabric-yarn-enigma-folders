@@ -1,0 +1,37 @@
+CLASS aqj net/minecraft/entity/mob/GuardianEntity
+	CLASS aqj$a FireBeamGoal
+		FIELD a owner Laqj;
+		FIELD b beamTicks I
+		FIELD c elderOwner Z
+		METHOD <init> (Laqj;)V
+			ARG 1 owner
+	CLASS aqj$b GuardianTargetPredicate
+		FIELD a owner Laqj;
+		METHOD <init> (Laqj;)V
+			ARG 1 owner
+	CLASS aqj$c GuardianMoveControl
+		FIELD i guardian Laqj;
+	FIELD bA tailAngle F
+	FIELD bB prevTailAngle F
+	FIELD bD BEAM_TARGET_ID Lpx;
+	FIELD bE cachedBeamTarget Lahv;
+	FIELD bF beamTicks I
+	FIELD bG flopping Z
+	FIELD b SPIKES_RETRACTED Lpx;
+	FIELD bz spikesExtensionRate F
+	FIELD c spikesExtension F
+	FIELD d prevSpikesExtension F
+	METHOD a setBeamTarget (I)V
+		ARG 1 progress
+	METHOD dP areSpikesRetracted ()Z
+	METHOD dQ hasBeamTarget ()Z
+	METHOD dR getBeamTarget ()Lahv;
+	METHOD l getWarmupTime ()I
+	METHOD q setSpikesRetracted (Z)V
+		ARG 1 retracted
+	METHOD u getSpikesExtension (F)F
+		ARG 1 tickDelta
+	METHOD v getTailAngle (F)F
+		ARG 1 tickDelta
+	METHOD w getBeamProgress (F)F
+		ARG 1 tickDelta

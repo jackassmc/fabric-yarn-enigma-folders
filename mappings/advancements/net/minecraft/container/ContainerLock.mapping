@@ -1,0 +1,7 @@
+CLASS tb net/minecraft/container/ContainerLock
+	FIELD a EMPTY Ltb;
+	FIELD b key Ljava/lang/String;
+	METHOD a isEmpty ()Z
+	METHOD a serialize (Lfc;)V
+	METHOD b getKey ()Ljava/lang/String;
+	METHOD b deserialize (Lfc;)Ltb;

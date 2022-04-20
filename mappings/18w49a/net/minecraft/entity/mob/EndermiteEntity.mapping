@@ -1,0 +1,15 @@
+CLASS aoz net/minecraft/entity/mob/EndermiteEntity
+	METHOD D getAmbientSound ()Lxg;
+	METHOD T_ update ()V
+	METHOD a playStepSound (Let;Lbom;)V
+		ARG 1 pos
+	METHOD a readCustomDataFromTag (Lhq;)V
+	METHOD aK getHeightOffset ()D
+	METHOD b writeCustomDataToTag (Lhq;)V
+	METHOD bG getEyeHeight ()F
+	METHOD ca initAttributes ()V
+	METHOD cv getDeathSound ()Lxg;
+	METHOD e getHurtSound (Laft;)Lxg;
+	METHOD k updateMovement ()V
+	METHOD k setYaw (F)V
+	METHOD n initAi ()V

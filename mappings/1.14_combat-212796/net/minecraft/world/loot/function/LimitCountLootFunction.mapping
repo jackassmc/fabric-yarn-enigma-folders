@@ -1,0 +1,10 @@
+CLASS cqa net/minecraft/world/loot/function/LimitCountLootFunction
+	CLASS a Factory
+	FIELD a limit Lcos;
+	METHOD <init> ([Lcrf;Lcos;)V
+		ARG 1 conditions
+		ARG 2 limit
+	METHOD a builder (Lcos;)Lcqb$a;
+		ARG 0 limit
+	METHOD a (Lcos;[Lcrf;)Lcqc;
+		ARG 1 conditions

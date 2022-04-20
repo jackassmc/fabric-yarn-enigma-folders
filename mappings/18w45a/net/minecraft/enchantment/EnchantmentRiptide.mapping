@@ -1,0 +1,3 @@
+CLASS ayw net/minecraft/enchantment/EnchantmentRiptide
+	METHOD a getHighestLevel ()I
+	METHOD a differs (Layc;)Z

@@ -1,0 +1,39 @@
+CLASS anc net/minecraft/entity/boss/dragon/EnderDragonEntity
+	FIELD bC parts [Lana;
+	FIELD bD partHead Lana;
+	FIELD bE partNeck Lana;
+	FIELD bF partBody Lana;
+	FIELD bG partTail1 Lana;
+	FIELD bH partTail2 Lana;
+	FIELD bI partTail3 Lana;
+	FIELD bJ partWingRight Lana;
+	FIELD bK partWingLeft Lana;
+	FIELD bQ LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD bR fight Lbrg;
+	FIELD bS phaseManager Lant;
+	METHOD D getAmbientSound ()Lxf;
+	METHOD G checkDespawn ()V
+	METHOD K_ getPartDamageWorld ()Lbaq;
+	METHOD U kill ()V
+	METHOD a damage (Lafr;F)Z
+		ARG 1 source
+	METHOD a damage (Lana;Lafr;F)Z
+		ARG 1 part
+		ARG 2 source
+	METHOD a readCustomDataFromTag (Lhp;)V
+		ARG 1 tag
+	METHOD a onTrackedDataSet (Lpn;)V
+	METHOD aD doesCollide ()Z
+	METHOD b writeCustomDataToTag (Lhp;)V
+		ARG 1 tag
+	METHOD bX getSoundCategory ()Lxh;
+	METHOD bk getParts ()[Lagi;
+	METHOD bo canUsePortals ()Z
+	METHOD c addPotionEffect (Lagb;)Z
+	METHOD cI getSoundVolume ()F
+	METHOD cb initAttributes ()V
+	METHOD cd updatePostDeath ()V
+	METHOD e getHurtSound (Lafr;)Lxf;
+	METHOD k updateMovement ()V
+	METHOD n canStartRiding (Lagi;)Z
+	METHOD x_ initDataTracker ()V

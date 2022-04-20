@@ -1,0 +1,9 @@
+CLASS drz net/minecraft/client/render/entity/feature/FeatureRenderer
+	FIELD a context Ldps;
+	METHOD <init> (Ldps;)V
+		ARG 1 context
+	METHOD a applyLightmapCoordinates (Lahy;)V
+	METHOD a render (Lahy;FFFFFFF)V
+		ARG 1 entity
+	METHOD a bindTexture (Lqq;)V
+	METHOD c getModel ()Lddj;

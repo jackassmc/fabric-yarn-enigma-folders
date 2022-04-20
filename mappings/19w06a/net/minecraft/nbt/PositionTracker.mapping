@@ -1,0 +1,5 @@
+CLASS ia net/minecraft/nbt/PositionTracker
+	FIELD a DEFAULT Lia;
+	FIELD b max J
+	FIELD c pos J
+	METHOD a add (J)V

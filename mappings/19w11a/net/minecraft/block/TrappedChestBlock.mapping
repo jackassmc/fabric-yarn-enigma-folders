@@ -1,0 +1,3 @@
+CLASS bqy net/minecraft/block/TrappedChestBlock
+	METHOD <init> (Lbkz$c;)V
+		ARG 1 settings

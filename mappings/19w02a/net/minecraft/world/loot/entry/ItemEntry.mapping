@@ -1,0 +1,7 @@
+CLASS cjz net/minecraft/world/loot/entry/ItemEntry
+	CLASS cjz$a Serializer
+		METHOD a toJson (Lcom/google/gson/JsonObject;Lckc;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD a toJson (Lcom/google/gson/JsonObject;Lckd;Lcom/google/gson/JsonSerializationContext;)V
+	FIELD c item Lawy;
+	METHOD a builder (Lbce;)Lckd$a;
+	METHOD a drop (Ljava/util/function/Consumer;Lcjk;)V

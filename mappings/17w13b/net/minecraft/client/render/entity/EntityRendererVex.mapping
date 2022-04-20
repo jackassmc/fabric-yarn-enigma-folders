@@ -1,0 +1,4 @@
+CLASS bzk net/minecraft/client/render/entity/EntityRendererVex
+	METHOD a getTexture (Lacg;)Lmd;
+	METHOD a getTexture (Lub;)Lmd;
+	METHOD a getTexture (Lul;)Lmd;

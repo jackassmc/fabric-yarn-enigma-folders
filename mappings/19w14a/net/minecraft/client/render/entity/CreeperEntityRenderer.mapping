@@ -1,0 +1,2 @@
+CLASS doe net/minecraft/client/render/entity/CreeperEntityRenderer
+	FIELD a SKIN Lqr;

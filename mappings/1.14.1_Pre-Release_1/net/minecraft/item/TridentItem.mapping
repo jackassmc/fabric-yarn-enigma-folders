@@ -1,0 +1,3 @@
+CLASS bdk net/minecraft/item/TridentItem
+	METHOD <init> (Lbbw$a;)V
+		ARG 1 settings

@@ -1,0 +1,2 @@
+CLASS bct net/minecraft/item/ItemProvider
+	METHOD h getItem ()Laxh;

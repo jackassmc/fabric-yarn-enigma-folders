@@ -1,0 +1,12 @@
+CLASS bob net/minecraft/block/EndPortalFrameBlock
+	FIELD a FACING Lbwc;
+	FIELD b EYE Lbvz;
+	FIELD c FRAME_SHAPE Lcsn;
+	FIELD d EYE_SHAPE Lcsn;
+	FIELD e FRAME_WITH_EYE_SHAPE Lcsn;
+	FIELD f COMPLETED_FRAME Lbvm;
+	METHOD <init> (Lbmj$c;)V
+		ARG 1 settings
+	METHOD d getCompletedFramePattern ()Lbvm;
+	METHOD n (Lbvh;)Z
+		ARG 1 state

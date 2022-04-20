@@ -1,0 +1,10 @@
+CLASS bor net/minecraft/block/MushroomBlock
+	FIELD a NORTH Lbvq;
+	FIELD b EAST Lbvq;
+	FIELD c SOUTH Lbvq;
+	FIELD d WEST Lbvq;
+	FIELD e UP Lbvq;
+	FIELD f DOWN Lbvq;
+	FIELD g FACING_PROPERTIES Ljava/util/Map;
+	METHOD <init> (Lbma$c;)V
+		ARG 1 settings

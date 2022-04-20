@@ -1,0 +1,2 @@
+CLASS dha net/minecraft/client/render/entity/model/ZombieVillagerEntityModel
+	FIELD a hat Ldhh;

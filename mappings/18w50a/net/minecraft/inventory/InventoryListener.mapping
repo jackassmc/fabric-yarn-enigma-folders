@@ -1,0 +1,2 @@
+CLASS afk net/minecraft/inventory/InventoryListener
+	METHOD a onInvChange (Lafi;)V

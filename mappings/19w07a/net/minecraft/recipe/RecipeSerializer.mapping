@@ -1,0 +1,30 @@
+CLASS baf net/minecraft/recipe/RecipeSerializer
+	FIELD a SHAPED Lbaf;
+	FIELD b SHAPELESS Lbaf;
+	FIELD c ARMOR_DYE Lbam;
+	FIELD d BOOK_CLONING Lbam;
+	FIELD e MAP_CLONING Lbam;
+	FIELD f MAP_EXTENDING Lbam;
+	FIELD g FIREWORK_ROCKET Lbam;
+	FIELD h FIREWORK_STAR Lbam;
+	FIELD i FIREWORK_STAR_FADE Lbam;
+	FIELD j TIPPED_ARROW Lbam;
+	FIELD k BANNER_DUPLICATE Lbam;
+	FIELD l SHIELD_DECORATION Lbam;
+	FIELD m SHULKER_BOX Lbam;
+	FIELD n SUSPICIOUS_STEW Lbam;
+	FIELD o SMELTING Lbal;
+	FIELD p BLASTING Lbal;
+	FIELD q SMOKING Lbal;
+	FIELD r CAMPFIRE_COOKING Lbal;
+	METHOD a write (Liw;Lbad;)V
+		ARG 2 recipe
+	METHOD a register (Ljava/lang/String;Lbaf;)Lbaf;
+		ARG 0 id
+		ARG 1 serializer
+	METHOD a read (Lqh;Lcom/google/gson/JsonObject;)Lbad;
+		ARG 1 id
+		ARG 2 json
+	METHOD a read (Lqh;Liw;)Lbad;
+		ARG 1 id
+		ARG 2 buf

@@ -1,0 +1,6 @@
+CLASS dna net/minecraft/client/tutorial/TutorialStepHandler
+	METHOD a tick ()V
+	METHOD a onSlotUpdate (Lava;)V
+	METHOD a onBlockAttacked (Lcxj;Les;Lbno;F)V
+	METHOD b destroy ()V
+	METHOD c onInventoryOpened ()V

@@ -1,0 +1,9 @@
+CLASS ayk net/minecraft/container/FurnaceOutputSlot
+	FIELD a player Lavn;
+	FIELD b amount I
+	METHOD <init> (Lavn;Lagn;III)V
+		ARG 1 player
+		ARG 2 inventory
+		ARG 3 invSlot
+		ARG 4 xPosition
+		ARG 5 yPosition

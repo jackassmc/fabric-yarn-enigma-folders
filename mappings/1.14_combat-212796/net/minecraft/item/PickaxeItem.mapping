@@ -1,0 +1,4 @@
+CLASS bcn net/minecraft/item/PickaxeItem
+	FIELD a EFFECTIVE_BLOCKS Ljava/util/Set;
+	METHOD <init> (Lbdi;Lbbz$a;)V
+		ARG 1 material

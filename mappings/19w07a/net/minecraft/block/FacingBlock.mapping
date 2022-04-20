@@ -1,0 +1,4 @@
+CLASS bjl net/minecraft/block/FacingBlock
+	FIELD a FACING Lbru;
+	METHOD <init> (Lbic$c;)V
+		ARG 1 settings

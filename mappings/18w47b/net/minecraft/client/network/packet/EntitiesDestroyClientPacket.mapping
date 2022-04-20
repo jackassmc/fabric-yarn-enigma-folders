@@ -1,0 +1,7 @@
+CLASS lq net/minecraft/client/network/packet/EntitiesDestroyClientPacket
+	FIELD a entityIds [I
+	METHOD a read (Liq;)V
+	METHOD a apply (Lit;)V
+	METHOD a apply (Ljr;)V
+	METHOD b getEntityIds ()[I
+	METHOD b write (Liq;)V

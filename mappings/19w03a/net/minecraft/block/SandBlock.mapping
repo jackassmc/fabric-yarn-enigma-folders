@@ -1,0 +1,3 @@
+CLASS blx net/minecraft/block/SandBlock
+	METHOD q getColor (Lbqi;)I
+		ARG 1 state

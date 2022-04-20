@@ -1,0 +1,10 @@
+CLASS bvp net/minecraft/world/gen/config/feature/OceanRuinFeatureConfig
+	FIELD a biomeTemperature Lcaq$b;
+	FIELD b largeProbability F
+	FIELD c clusterProbability F
+	METHOD <init> (Lcaq$b;FF)V
+		ARG 1 biomeTemperature
+		ARG 2 largeProbability
+	METHOD a deserialize (Lcom/mojang/datafixers/Dynamic;)Lbvp;
+		ARG 0 dynamic
+	METHOD a serialize (Lcom/mojang/datafixers/types/DynamicOps;)Lcom/mojang/datafixers/Dynamic;

@@ -1,0 +1,49 @@
+CLASS bvg net/minecraft/world/gen/feature/Feature
+	FIELD F DEFAULT_FLOWER Lbvj;
+	FIELD G FOREST_FLOWER Lbvj;
+	FIELD H PLAIN_FLOWER Lbvj;
+	FIELD I SWAMP_FLOWER Lbvj;
+	FIELD J GENERAL_FOREST_FLOWER Lbvj;
+	FIELD a configFactory Ljava/util/function/Function;
+	FIELD aO BONUS_CHEST Lbtw;
+	FIELD aP STRUCTURES Lcom/google/common/collect/BiMap;
+	FIELD aQ JIGSAW_STRUCTURES Ljava/util/List;
+	FIELD aR emitNeighborBlockUpdates Z
+	FIELD b VILLAGE Lbyn;
+	FIELD c PILLAGER_OUTPOST Lbyn;
+	FIELD d MINESHAFT Lbyn;
+	FIELD e WOODLAND_MANSION Lbyn;
+	FIELD f JUNGLE_TEMPLE Lbyn;
+	FIELD g DESERT_PYRAMID Lbyn;
+	FIELD h IGLOO Lbyn;
+	FIELD i SHIPWRECK Lbyn;
+	FIELD j SWAMP_HUT Lbyr;
+	FIELD k STRONGHOLD Lbyn;
+	FIELD l OCEAN_MONUMENT Lbyn;
+	FIELD m OCEAN_RUIN Lbyn;
+	FIELD n NETHER_BRIDGE Lbyn;
+	FIELD o END_CITY Lbyn;
+	FIELD p BURIED_TREASURE Lbyn;
+	FIELD q NEW_VILLAGE Lbyn;
+	METHOD <init> (Ljava/util/function/Function;)V
+		ARG 1 configFactory
+	METHOD <init> (Ljava/util/function/Function;Z)V
+		ARG 1 configFactory
+		ARG 2 emitNeighborBlockUpdates
+	METHOD a generate (Lbbq;Lbrb;Ljava/util/Random;Let;Lbvh;)Z
+		ARG 1 world
+		ARG 2 generator
+		ARG 3 random
+		ARG 4 pos
+		ARG 5 config
+	METHOD a setBlockState (Lbbz;Let;Lbpm;)V
+		ARG 1 world
+		ARG 2 pos
+		ARG 3 state
+	METHOD a deserialize (Lcom/mojang/datafixers/Dynamic;)Lbvh;
+		ARG 1 dynamic
+	METHOD a register (Ljava/lang/String;Lbvg;)Lbvg;
+		ARG 0 name
+		ARG 1 feature
+	METHOD e getMonsterSpawns ()Ljava/util/List;
+	METHOD f getCreatureSpawns ()Ljava/util/List;

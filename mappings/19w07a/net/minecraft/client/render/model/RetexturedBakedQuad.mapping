@@ -1,0 +1,5 @@
+CLASS dgv net/minecraft/client/render/model/RetexturedBakedQuad
+	FIELD e spriteRetextured Ldpm;
+	METHOD <init> (Ldgo;Ldpm;)V
+		ARG 1 parent
+	METHOD f recalculateUvs ()V

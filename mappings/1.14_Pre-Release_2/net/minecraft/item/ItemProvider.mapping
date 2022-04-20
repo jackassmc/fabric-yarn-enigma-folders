@@ -1,0 +1,2 @@
+CLASS bgz net/minecraft/item/ItemProvider
+	METHOD g getItem ()Lbbp;

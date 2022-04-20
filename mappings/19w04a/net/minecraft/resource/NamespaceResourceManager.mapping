@@ -1,0 +1,12 @@
+CLASS wl net/minecraft/resource/NamespaceResourceManager
+	CLASS wl$a DebugInputStream
+		FIELD a parent Ljava/io/InputStream;
+		FIELD b leakMessage Ljava/lang/String;
+		FIELD c closed Z
+	FIELD a packList Ljava/util/List;
+	FIELD b LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD c type Lvv;
+	METHOD a open (Lqd;Lvu;)Ljava/io/InputStream;
+	METHOD a add (Lvu;)V
+	METHOD c getMetadataPath (Lqd;)Lqd;
+	METHOD d validate (Lqd;)V

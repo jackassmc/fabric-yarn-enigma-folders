@@ -1,0 +1,18 @@
+CLASS aas net/minecraft/entity/mob/EntitySkeletonHorse
+	METHOD F getSoundAmbient ()Lqc;
+	METHOD J getLootTableId ()Lnd;
+	METHOD a interactMob (Laeb;Ltz;)Z
+		ARG 0 player
+		ARG 1 playerHand
+	METHOD a deserializeCustomData (Lfy;)V
+		ARG 0 tag
+	METHOD a registerTagUpgraders (Lrw;)V
+		ARG 0 handler
+	METHOD aG getMountedHeightOffset ()D
+	METHOD b serializeCustomData (Lfy;)V
+		ARG 0 tag
+	METHOD bM initAttributes ()V
+	METHOD cf getSoundDeath ()Lqc;
+	METHOD cn getEntityAttribute ()Lvs;
+	METHOD d getSoundHurt (Lup;)Lqc;
+	METHOD n updateMovement ()V

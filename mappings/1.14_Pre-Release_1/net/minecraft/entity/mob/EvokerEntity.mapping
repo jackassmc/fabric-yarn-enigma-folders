@@ -1,0 +1,14 @@
+CLASS atw net/minecraft/entity/mob/EvokerEntity
+	CLASS atw$a ConjureFangsGoal
+		METHOD a conjureFangs (DDDDFI)V
+			ARG 1 z
+			ARG 3 maxY
+			ARG 5 warmup
+	CLASS atw$b LookAtTargetOrWololoTarget
+	CLASS atw$c SummonVexGoal
+		FIELD e closeVexPredicate Lapt;
+	CLASS atw$d WololoGoal
+		FIELD e purpleSheepPredicate Lapt;
+	FIELD bA wololoTarget Lard;
+	METHOD a setWololoTarget (Lard;)V
+	METHOD en getWololoTarget ()Lard;

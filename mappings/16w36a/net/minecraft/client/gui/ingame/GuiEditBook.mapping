@@ -1,0 +1,31 @@
+CLASS none/bhh net/minecraft/client/gui/ingame/GuiEditBook
+	CLASS none/bhh$a
+		METHOD a draw (Lnone/bdq;II)V
+			ARG 0 game
+			ARG 1 mouseX
+			ARG 2 mouseY
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD f BG_TEX Lnone/kp;
+	FIELD g player Lnone/aal;
+	FIELD h stack Lnone/aer;
+	METHOD <init> (Lnone/aal;Lnone/aer;Z)V
+		ARG 0 player
+		ARG 1 stack
+	METHOD a handleKeyPress (CI)V
+		ARG 0 keyChar
+		ARG 1 keyCode
+	METHOD a draw (IIF)V
+		ARG 0 mouseX
+		ARG 1 mouseY
+		ARG 2 delta
+	METHOD a handleMouseClick (III)V
+		ARG 0 mouseX
+		ARG 1 mouseY
+		ARG 2 mouseButton
+	METHOD a handleButtonPressed (Lnone/bek;)V
+		ARG 0 button
+	METHOD a handleTextComponentClick (Lnone/fa;)Z
+		ARG 0 component
+	METHOD b init ()V
+	METHOD e update ()V
+	METHOD m onClosed ()V

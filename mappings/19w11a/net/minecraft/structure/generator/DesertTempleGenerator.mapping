@@ -1,0 +1,2 @@
+CLASS cgf net/minecraft/structure/generator/DesertTempleGenerator
+	FIELD e hasPlacedChest [Z

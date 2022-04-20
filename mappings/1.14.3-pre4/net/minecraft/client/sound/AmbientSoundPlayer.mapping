@@ -1,0 +1,4 @@
+CLASS dxd net/minecraft/client/sound/AmbientSoundPlayer
+	FIELD a player Ldkb;
+	FIELD b soundManager Ldyb;
+	FIELD c ticksUntilPlay I

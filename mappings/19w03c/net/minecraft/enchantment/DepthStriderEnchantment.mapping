@@ -1,0 +1,8 @@
+CLASS bbh net/minecraft/enchantment/DepthStriderEnchantment
+	METHOD <init> (Lbak$a;[Lahh;)V
+		ARG 1 weight
+		ARG 2 slotTypes
+	METHOD a getMaximumLevel ()I
+	METHOD a getMinimumPower (I)I
+	METHOD a differs (Lbak;)Z
+		ARG 1 other

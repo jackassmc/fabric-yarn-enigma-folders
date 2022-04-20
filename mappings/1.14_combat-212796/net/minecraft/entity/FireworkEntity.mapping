@@ -1,0 +1,30 @@
+CLASS awm net/minecraft/entity/FireworkEntity
+	FIELD b ITEM Lqi;
+	FIELD c SHOOTER_ENTITY_ID Lqi;
+	FIELD d SHOT_AT_ANGLE Lqi;
+	FIELD e life I
+	FIELD f lifeTime I
+	FIELD g shooter Laiu;
+	METHOD <init> (Lbhn;DDDLbce;)V
+		ARG 1 world
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z
+		ARG 8 item
+	METHOD <init> (Lbhn;Lbce;DDDZ)V
+		ARG 1 world
+		ARG 2 item
+		ARG 3 x
+		ARG 5 y
+		ARG 7 z
+		ARG 9 shotAtAngle
+	METHOD <init> (Lbhn;Lbce;Laiu;)V
+		ARG 1 world
+		ARG 2 item
+		ARG 3 shooter
+	METHOD a handleCollision (Lcsa;)V
+	METHOD i wasShotAtAngle ()Z
+	METHOD k explodeAndRemove ()V
+	METHOD l hasExplosionEffects ()Z
+	METHOD m explode ()V
+	METHOD n wasShotByEntity ()Z

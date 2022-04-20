@@ -1,0 +1,105 @@
+CLASS crl net/minecraft/client/gui/ingame/GuiStructureBlock
+	CLASS crl$1
+		METHOD a onPressed (DD)V
+			ARG 0 mouseX
+	CLASS crl$2
+		METHOD a onPressed (DD)V
+			ARG 0 mouseX
+	CLASS crl$3
+		METHOD a onPressed (DD)V
+			ARG 0 mouseX
+	CLASS crl$4
+		METHOD a onPressed (DD)V
+			ARG 0 mouseX
+	CLASS crl$5
+		METHOD a onPressed (DD)V
+			ARG 0 mouseX
+	CLASS crl$6
+		METHOD a onPressed (DD)V
+			ARG 0 mouseX
+	CLASS crl$9
+		METHOD a onPressed (DD)V
+			ARG 0 mouseX
+	CLASS crl$10
+		METHOD a onPressed (DD)V
+			ARG 0 mouseX
+	CLASS crl$11
+		METHOD a onPressed (DD)V
+			ARG 0 mouseX
+	CLASS crl$12
+		METHOD a onPressed (DD)V
+			ARG 0 mouseX
+	CLASS crl$13
+		METHOD a onPressed (DD)V
+			ARG 0 mouseX
+	CLASS crl$14
+		METHOD a onPressed (DD)V
+			ARG 0 mouseX
+	CLASS crl$15
+		METHOD a onPressed (DD)V
+			ARG 0 mouseX
+	CLASS crl$16
+		METHOD a onPressed (DD)V
+			ARG 0 mouseX
+	FIELD A inputSizeY Lcmq;
+	FIELD B inputSizeZ Lcmq;
+	FIELD C inputIntegrity Lcmq;
+	FIELD D inputSeed Lcmq;
+	FIELD E inputMetadata Lcmq;
+	FIELD H buttonSave Lcmm;
+	FIELD I buttonLoad Lcmm;
+	FIELD J buttonRotate0 Lcmm;
+	FIELD K buttonRotate90 Lcmm;
+	FIELD L buttonRotate180 Lcmm;
+	FIELD M buttonRotate270 Lcmm;
+	FIELD N buttonMode Lcmm;
+	FIELD O buttonDetect Lcmm;
+	FIELD P buttonEntities Lcmm;
+	FIELD Q buttonMirror Lcmm;
+	FIELD R buttonShowAir Lcmm;
+	FIELD S buttonShowBoundingBox Lcmm;
+	FIELD T textFields Ljava/util/List;
+	FIELD U decimalFormat Ljava/text/DecimalFormat;
+	FIELD f structureBlock Lbmk;
+	FIELD g mirror Lbia;
+	FIELD h rotation Lbja;
+	FIELD i mode Lbow;
+	FIELD v inputName Lcmq;
+	FIELD w inputPosX Lcmq;
+	FIELD x inputPosY Lcmq;
+	FIELD y inputPosZ Lcmq;
+	FIELD z inputSizeX Lcmq;
+	METHOD <init> (Lbmk;)V
+		ARG 1 structureBlock
+	METHOD a draw (IIF)V
+		ARG 1 mouseX
+		ARG 2 mouseY
+		ARG 3 delta
+	METHOD a parseLong (Ljava/lang/String;)J
+		ARG 1 s
+	METHOD b onScaleChanged (Lclp;II)V
+		ARG 1 game
+		ARG 2 width
+		ARG 3 height
+	METHOD b parseFloat (Ljava/lang/String;)F
+		ARG 1 s
+	METHOD c onInitialized ()V
+	METHOD c parseInt (Ljava/lang/String;)I
+		ARG 1 s
+	METHOD e isPauseScreen ()Z
+	METHOD f update ()V
+	METHOD g close ()V
+	METHOD j updateIgnoreEntitiesButton ()V
+	METHOD k updateShowAirButton ()V
+	METHOD keyPressed (III)Z
+		ARG 1 keyCode
+		ARG 2 scanCode
+	METHOD m updateShowBoundingBoxButton ()V
+	METHOD mouseClicked (DDI)Z
+		ARG 1 mouseX
+		ARG 3 mouseY
+		ARG 5 keyCode
+	METHOD n onClosed ()V
+	METHOD o updateMirrorButton ()V
+	METHOD s updateRotationButton ()V
+	METHOD u updateMode ()V

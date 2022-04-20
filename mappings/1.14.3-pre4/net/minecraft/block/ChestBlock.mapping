@@ -1,0 +1,44 @@
+CLASS bnf net/minecraft/block/ChestBlock
+	CLASS 2
+		CLASS 1
+			METHOD createMenu (ILawa;Lawb;)Layf;
+				ARG 1 syncId
+	CLASS a PropertyRetriever
+		METHOD b getFromSingleChest (Lbtv;)Ljava/lang/Object;
+			ARG 1 chest
+		METHOD b getFromDoubleChest (Lbtv;Lbtv;)Ljava/lang/Object;
+			ARG 1 rightChest
+			ARG 2 leftChest
+	FIELD a FACING Lbwj;
+	FIELD b CHEST_TYPE Lbwm;
+	FIELD c WATERLOGGED Lbwg;
+	FIELD d DOUBLE_NORTH_SHAPE Lcsv;
+	FIELD e DOUBLE_SOUTH_SHAPE Lcsv;
+	FIELD f DOUBLE_WEST_SHAPE Lcsv;
+	FIELD g DOUBLE_EAST_SHAPE Lcsv;
+	FIELD h SINGLE_SHAPE Lcsv;
+	FIELD i INVENTORY_RETRIEVER Lbnf$a;
+	FIELD j NAME_RETRIEVER Lbnf$a;
+	METHOD <init> (Lbmq$c;)V
+		ARG 1 settings
+	METHOD a getNeighborChestDirection (Lbai;Lfa;)Lfa;
+		ARG 1 ctx
+		ARG 2 dir
+	METHOD a hasBlockOnTop (Lbgw;Lev;)Z
+		ARG 0 view
+		ARG 1 pos
+	METHOD a isChestBlocked (Lbhn;Lev;)Z
+		ARG 0 world
+		ARG 1 pos
+	METHOD a getInventory (Lbvo;Lbhm;Lev;Z)Lagz;
+	METHOD a retrieve (Lbvo;Lbhn;Lev;ZLbnf$a;)Ljava/lang/Object;
+		ARG 0 state
+		ARG 1 world
+		ARG 2 pos
+		ARG 3 allowBlockedChests
+	METHOD b hasOcelotOnTop (Lbhn;Lev;)Z
+		ARG 0 world
+		ARG 1 pos
+	METHOD d getOpenStat ()Lyt;
+	METHOD j getFacing (Lbvo;)Lfa;
+		ARG 0 state

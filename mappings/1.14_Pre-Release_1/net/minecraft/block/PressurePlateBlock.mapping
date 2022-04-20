@@ -1,0 +1,9 @@
+CLASS bqd net/minecraft/block/PressurePlateBlock
+	CLASS bqd$a Type
+		FIELD a WOOD Lbqd$a;
+		FIELD b STONE Lbqd$a;
+	FIELD d POWERED Lbvu;
+	FIELD e type Lbqd$a;
+	METHOD <init> (Lbqd$a;Lbme$c;)V
+		ARG 1 type
+		ARG 2 settings

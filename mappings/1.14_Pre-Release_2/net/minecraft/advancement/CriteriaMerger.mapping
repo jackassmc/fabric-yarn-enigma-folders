@@ -1,0 +1,3 @@
+CLASS ab net/minecraft/advancement/CriteriaMerger
+	FIELD a AND Lab;
+	FIELD b OR Lab;

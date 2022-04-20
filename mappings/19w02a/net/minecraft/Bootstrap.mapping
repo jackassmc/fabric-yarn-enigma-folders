@@ -1,0 +1,111 @@
+CLASS qh net/minecraft/Bootstrap
+	CLASS qh$1
+		METHOD a createProjectile (Lbcf;Lfi;Laxd;)Larz;
+			ARG 1 position
+			ARG 2 stack
+	CLASS qh$2
+		METHOD a playSound (Leu;)V
+		METHOD a (Leu;Laxd;)Laxd;
+			ARG 1 stack
+	CLASS qh$3
+		METHOD a playSound (Leu;)V
+		METHOD a (Leu;Laxd;)Laxd;
+			ARG 1 stack
+	CLASS qh$4
+		METHOD a (Leu;Laxd;)Laxd;
+			ARG 1 stack
+	CLASS qh$5
+		METHOD a (Leu;Laxd;)Laxd;
+			ARG 1 stack
+	CLASS qh$6
+		METHOD a (Leu;Laxd;)Laxd;
+			ARG 1 stack
+	CLASS qh$7
+		METHOD a (Leu;Laxd;)Laxd;
+			ARG 1 stack
+	CLASS qh$8
+		METHOD a (Leu;Laxd;)Laxd;
+			ARG 1 stack
+	CLASS qh$9
+		METHOD a (Leu;Laxd;)Laxd;
+			ARG 1 stack
+	CLASS qh$a DispenseBoat
+		FIELD b itemDropper Lew;
+		FIELD c type Last$b;
+		METHOD a playSound (Leu;)V
+		METHOD a (Leu;Laxd;)Laxd;
+			ARG 1 stack
+	CLASS qh$b
+		METHOD a getPos ()Let;
+		METHOD b canPlace ()Z
+		METHOD d getPlayerFacing ()Ley;
+		METHOD e getPlacementFacings ()[Ley;
+		METHOD f getPlayerHorizontalFacing ()Ley;
+		METHOD g isPlayerSneaking ()Z
+		METHOD h getPlayerYaw ()F
+	CLASS qh$c
+		METHOD a playSound (Leu;)V
+	CLASS qh$d
+		METHOD a (Leu;Laxd;)Laxd;
+			ARG 1 stack
+	CLASS qh$10
+		METHOD a (Leu;Laxd;)Laxd;
+			ARG 1 stack
+	CLASS qh$11
+		METHOD a (Leu;Laxd;)Laxd;
+			ARG 1 stack
+	CLASS qh$12
+		METHOD a createProjectile (Lbcf;Lfi;Laxd;)Larz;
+			ARG 1 position
+			ARG 2 stack
+	CLASS qh$13
+		METHOD a (Leu;Laxd;)Laxd;
+			ARG 1 stack
+	CLASS qh$15
+		METHOD a createProjectile (Lbcf;Lfi;Laxd;)Larz;
+			ARG 1 position
+			ARG 2 stack
+	CLASS qh$16
+		METHOD a createProjectile (Lbcf;Lfi;Laxd;)Larz;
+			ARG 1 position
+			ARG 2 stack
+	CLASS qh$17
+		METHOD a createProjectile (Lbcf;Lfi;Laxd;)Larz;
+			ARG 1 position
+			ARG 2 stack
+	CLASS qh$18
+		METHOD a getVariation ()F
+		METHOD a createProjectile (Lbcf;Lfi;Laxd;)Larz;
+			ARG 1 position
+			ARG 2 stack
+		METHOD b getForce ()F
+	CLASS qh$19
+		CLASS qh$19$1
+			METHOD a getVariation ()F
+			METHOD a createProjectile (Lbcf;Lfi;Laxd;)Larz;
+				ARG 1 position
+				ARG 2 stack
+			METHOD b getForce ()F
+		METHOD dispense (Leu;Laxd;)Laxd;
+			ARG 1 location
+	CLASS qh$20
+		CLASS qh$20$1
+			METHOD a getVariation ()F
+			METHOD a createProjectile (Lbcf;Lfi;Laxd;)Larz;
+				ARG 1 position
+				ARG 2 stack
+			METHOD b getForce ()F
+		METHOD dispense (Leu;Laxd;)Laxd;
+			ARG 1 location
+	CLASS qh$21
+		METHOD a (Leu;Laxd;)Laxd;
+			ARG 1 stack
+	FIELD a OUTPUT Ljava/io/PrintStream;
+	FIELD b initialized Z
+	FIELD c LOGGER Lorg/apache/logging/log4j/Logger;
+	METHOD a registerDispenserBehaviors ()V
+	METHOD a checkTranslations (Lfk;Ljava/util/function/Function;Ljava/util/Set;)V
+	METHOD a println (Ljava/lang/String;)V
+		ARG 0 str
+	METHOD b initialize ()V
+	METHOD e setOutputStreams ()V

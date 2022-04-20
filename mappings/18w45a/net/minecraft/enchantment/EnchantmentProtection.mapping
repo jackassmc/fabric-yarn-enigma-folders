@@ -1,0 +1,15 @@
+CLASS ayp net/minecraft/enchantment/EnchantmentProtection
+	CLASS ayp$a Type
+		FIELD a ALL Layp$a;
+		FIELD b FIRE Layp$a;
+		FIELD c FALL Layp$a;
+		FIELD d EXPLOSION Layp$a;
+		FIELD e PROJECTILE Layp$a;
+	FIELD a type Layp$a;
+	METHOD <init> (Layc$a;Layp$a;[Lagd;)V
+		ARG 1 weight
+		ARG 2 type
+	METHOD a getHighestLevel ()I
+	METHOD a getProtectionAmount (ILafh;)I
+		ARG 1 level
+	METHOD a differs (Layc;)Z

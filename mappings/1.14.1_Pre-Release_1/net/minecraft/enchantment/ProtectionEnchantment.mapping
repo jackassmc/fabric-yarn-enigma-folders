@@ -1,0 +1,20 @@
+CLASS bfw net/minecraft/enchantment/ProtectionEnchantment
+	CLASS bfw$a Type
+		FIELD f name Ljava/lang/String;
+		FIELD g basePower I
+		FIELD h powerPerLevel I
+		METHOD <init> (Ljava/lang/String;ILjava/lang/String;II)V
+			ARG 3 name
+		METHOD b getBasePower ()I
+		METHOD c getPowerPerLevel ()I
+	FIELD a type Lbfw$a;
+	METHOD <init> (Lbfj$a;Lbfw$a;[Lain;)V
+		ARG 1 weight
+		ARG 2 type
+		ARG 3 slotTypes
+	METHOD a transformExplosionKnockback (Lair;D)D
+		ARG 0 entity
+		ARG 1 velocity
+	METHOD a transformFireDuration (Lair;I)I
+		ARG 0 entity
+		ARG 1 duration

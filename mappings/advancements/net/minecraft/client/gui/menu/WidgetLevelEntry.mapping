@@ -1,0 +1,18 @@
+CLASS bmt net/minecraft/client/gui/menu/WidgetLevelEntry
+	CLASS bmt$1
+		METHOD a handle (ZI)V
+	CLASS bmt$2
+		METHOD a handle (ZI)V
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD b DATE_FORMAT Ljava/text/DateFormat;
+	FIELD e game Lbgm;
+	FIELD f guiLevelSelect Lbms;
+	FIELD g levelSummary Lbds;
+	FIELD h iconLocation Lmd;
+	FIELD j iconFile Ljava/io/File;
+	FIELD k iconTexture Lcbm;
+	METHOD a drawEntry (IIIF)V
+	METHOD a handleMouseClick (IIIIII)Z
+	METHOD a drawEntry (IIIIIIIZF)V
+	METHOD b handleTouchEvent (IIIIII)V
+	METHOD f loadIconTexture ()V

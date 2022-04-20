@@ -1,0 +1,5 @@
+CLASS avp net/minecraft/item/ItemSaddle
+	METHOD a interactWithEntity (Lava;Lapv;Lagh;Laer;)Z
+		ARG 1 stack
+		ARG 2 player
+		ARG 3 target

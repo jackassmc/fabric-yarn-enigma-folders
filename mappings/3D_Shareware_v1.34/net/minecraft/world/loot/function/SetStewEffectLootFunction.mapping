@@ -1,0 +1,7 @@
+CLASS cpv net/minecraft/world/loot/function/SetStewEffectLootFunction
+	CLASS cpv$a Builder
+		FIELD a map Ljava/util/Map;
+		METHOD a withEffect (Lahr;Lcoh;)Lcpv$a;
+	CLASS cpv$b Factory
+	FIELD a effects Ljava/util/Map;
+	METHOD b create ()Lcpv$a;

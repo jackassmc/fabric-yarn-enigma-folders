@@ -1,0 +1,13 @@
+CLASS csq net/minecraft/client/gui/hud/SubtitlesHud
+	CLASS csq$a SubtitleEntry
+		FIELD b text Ljava/lang/String;
+		FIELD c time J
+		FIELD d pos Lcnk;
+		METHOD a getText ()Ljava/lang/String;
+		METHOD a reset (Lcnk;)V
+		METHOD b getTime ()J
+		METHOD c getPosition ()Lcnk;
+	FIELD a client Lcqw;
+	FIELD b entries Ljava/util/List;
+	FIELD g enabled Z
+	METHOD a draw ()V

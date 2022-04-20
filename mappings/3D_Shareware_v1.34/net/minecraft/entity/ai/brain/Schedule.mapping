@@ -1,0 +1,15 @@
+CLASS aww net/minecraft/entity/ai/brain/Schedule
+	FIELD a EMPTY Laww;
+	FIELD b SIMPLE Laww;
+	FIELD c VILLAGER_BABY Laww;
+	FIELD d VILLAGER_DEFAULT Laww;
+	FIELD e scheduleRules Ljava/util/Map;
+	METHOD a getActivityForTime (I)Lawu;
+		ARG 1 time
+	METHOD a addActivity (Lawu;)V
+		ARG 1 activity
+	METHOD a register (Ljava/lang/String;)Lawx;
+		ARG 0 id
+	METHOD b getRule (Lawu;)Lawy;
+		ARG 1 activity
+	METHOD c getOtherRules (Lawu;)Ljava/util/List;

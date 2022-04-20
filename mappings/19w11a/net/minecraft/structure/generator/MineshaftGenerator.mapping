@@ -1,0 +1,26 @@
+CLASS cgk net/minecraft/structure/generator/MineshaftGenerator
+	CLASS cgk$a net/minecraft/structure/generator/MineshaftGenerator$MineshaftCorridor
+		FIELD b hasRails Z
+		FIELD c hasCobwebs Z
+		FIELD d hasSpawner Z
+		FIELD e length I
+		METHOD a (Lbfz;Lcgd;Ljava/util/Random;IIILqp;)Z
+			ARG 3 random
+	CLASS cgk$b net/minecraft/structure/generator/MineshaftGenerator$MineshaftCrossing
+		FIELD b direction Lez;
+		FIELD c twoFloors Z
+		METHOD a (Ljava/util/List;Ljava/util/Random;IIILez;)Lcgd;
+			ARG 5 facing
+	CLASS cgk$c net/minecraft/structure/generator/MineshaftGenerator$MineshaftPart
+		FIELD a mineshaftType Lcaz$b;
+	CLASS cgk$d net/minecraft/structure/generator/MineshaftGenerator$MineshaftRoom
+		FIELD b entrances Ljava/util/List;
+		METHOD <init> (ILjava/util/Random;IILcaz$b;)V
+			ARG 2 random
+	CLASS cgk$e net/minecraft/structure/generator/MineshaftGenerator$MineshaftStairs
+		METHOD a (Ljava/util/List;Ljava/util/Random;IIILez;)Lcgd;
+			ARG 1 random
+	METHOD a (Ljava/util/List;Ljava/util/Random;IIILez;ILcaz$b;)Lcgk$c;
+		ARG 1 random
+	METHOD b (Lcgw;Ljava/util/List;Ljava/util/Random;IIILez;I)Lcgk$c;
+		ARG 2 random

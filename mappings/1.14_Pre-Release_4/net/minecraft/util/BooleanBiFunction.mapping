@@ -1,0 +1,17 @@
+CLASS crx net/minecraft/util/BooleanBiFunction
+	FIELD a FALSE Lcrx;
+	FIELD b NOT_OR Lcrx;
+	FIELD c ONLY_SECOND Lcrx;
+	FIELD d NOT_FIRST Lcrx;
+	FIELD e ONLY_FIRST Lcrx;
+	FIELD f NOT_SECOND Lcrx;
+	FIELD g NOT_SAME Lcrx;
+	FIELD h NOT_AND Lcrx;
+	FIELD i AND Lcrx;
+	FIELD j SAME Lcrx;
+	FIELD k SECOND Lcrx;
+	FIELD l CAUSES Lcrx;
+	FIELD m FIRST Lcrx;
+	FIELD n CAUSED_BY Lcrx;
+	FIELD o OR Lcrx;
+	FIELD p TRUE Lcrx;

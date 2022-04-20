@@ -1,0 +1,13 @@
+CLASS axu net/minecraft/enchantment/EnchantmentDamage
+	METHOD a getHighestLevel ()I
+	METHOD a getAdditionalDamge (ILagh;)F
+		ARG 1 level
+		ARG 2 entityType
+	METHOD a onTargetDamaged (Lage;Lafv;I)V
+		ARG 1 user
+		ARG 2 target
+		ARG 3 level
+	METHOD a isAcceptableItem (Lauv;)Z
+		ARG 1 item
+	METHOD a differs (Laxx;)Z
+		ARG 1 other

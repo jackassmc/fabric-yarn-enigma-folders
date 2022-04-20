@@ -1,0 +1,2 @@
+CLASS cow net/minecraft/world/loot/function/ExplosionDecayLootFunction
+	CLASS cow$a Factory

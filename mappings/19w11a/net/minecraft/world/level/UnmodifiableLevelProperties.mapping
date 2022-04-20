@@ -1,0 +1,2 @@
+CLASS cmk net/minecraft/world/level/UnmodifiableLevelProperties
+	FIELD b properties Lcmm;

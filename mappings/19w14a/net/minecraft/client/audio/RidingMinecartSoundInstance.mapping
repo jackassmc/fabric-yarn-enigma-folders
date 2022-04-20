@@ -1,0 +1,3 @@
+CLASS dvy net/minecraft/client/audio/RidingMinecartSoundInstance
+	FIELD o minecart Laxb;
+	FIELD p distance F

@@ -1,0 +1,5 @@
+CLASS djt net/minecraft/client/render/entity/WitherSkeletonEntityRenderer
+	FIELD a SKIN Lpz;
+	METHOD a getTexture (Lagk;)Lpz;
+	METHOD a getTexture (Lagu;)Lpz;
+	METHOD a getTexture (Laor;)Lpz;

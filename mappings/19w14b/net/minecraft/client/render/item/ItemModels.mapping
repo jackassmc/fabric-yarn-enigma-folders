@@ -1,0 +1,14 @@
+CLASS djz net/minecraft/client/render/item/ItemModels
+	FIELD a modelIds Lit/unimi/dsi/fastutil/ints/Int2ObjectMap;
+	FIELD b models Lit/unimi/dsi/fastutil/ints/Int2ObjectMap;
+	FIELD c modelManager Ldvm;
+	METHOD a getModelManager ()Ldvm;
+	METHOD a getModel (Lbbm;)Ldvi;
+	METHOD a putModel (Lbbm;Ldvn;)V
+		ARG 1 item
+		ARG 2 modelId
+	METHOD a getSprite (Lbbr;)Ldtu;
+	METHOD a getSprite (Lbgw;)Ldtu;
+	METHOD b reloadModels ()V
+	METHOD b getModelId (Lbbm;)I
+	METHOD b getModel (Lbbr;)Ldvi;

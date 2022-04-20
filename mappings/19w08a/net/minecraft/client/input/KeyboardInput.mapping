@@ -1,0 +1,4 @@
+CLASS dfs net/minecraft/client/input/KeyboardInput
+	FIELD i settings Lcra;
+	METHOD <init> (Lcra;)V
+		ARG 1 settings

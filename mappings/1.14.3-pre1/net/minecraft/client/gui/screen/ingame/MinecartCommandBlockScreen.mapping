@@ -1,0 +1,4 @@
+CLASS dbq net/minecraft/client/gui/screen/ingame/MinecartCommandBlockScreen
+	FIELD m commandExecutor Lbgp;
+	METHOD <init> (Lbgp;)V
+		ARG 1 commandExecutor

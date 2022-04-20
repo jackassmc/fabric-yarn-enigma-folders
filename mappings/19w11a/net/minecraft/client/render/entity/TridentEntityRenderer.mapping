@@ -1,0 +1,2 @@
+CLASS dqg net/minecraft/client/render/entity/TridentEntityRenderer
+	FIELD f model Ldfd;

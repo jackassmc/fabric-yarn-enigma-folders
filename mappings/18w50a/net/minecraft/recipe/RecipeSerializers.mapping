@@ -1,0 +1,33 @@
+CLASS ayz net/minecraft/recipe/RecipeSerializers
+	CLASS ayz$a Dummy
+		FIELD a id Ljava/lang/String;
+		FIELD b supplier Ljava/util/function/Function;
+		METHOD <init> (Ljava/lang/String;Ljava/util/function/Function;)V
+			ARG 1 supplier
+		METHOD a getId ()Ljava/lang/String;
+		METHOD a write (Lit;Layw;)V
+			ARG 1 recipe
+		METHOD b read (Lqc;Lcom/google/gson/JsonObject;)Layw;
+			ARG 1 json
+		METHOD b read (Lqc;Lit;)Layw;
+			ARG 1 buf
+	FIELD a SHAPED Layy;
+	FIELD b SHAPELESS Layy;
+	FIELD c ARMOR_DYE Layz$a;
+	FIELD d BOOK_CLONING Layz$a;
+	FIELD e MAP_CLONING Layz$a;
+	FIELD f MAP_EXTEND Layz$a;
+	FIELD g FIREWORK_ROCKET Layz$a;
+	FIELD h FIREWORK_STAR Layz$a;
+	FIELD i FIREWORK_STAR_FADE Layz$a;
+	FIELD j TIPPED_ARROW Layz$a;
+	FIELD k BANNER_DUPLICATE Layz$a;
+	FIELD l SHIELD_DECORATION Layz$a;
+	FIELD m SHULKER_BOX Layz$a;
+	FIELD n SUSPICIOUS_STEW Layz$a;
+	FIELD o SMELTING Layy;
+	FIELD r serializers Ljava/util/Map;
+	METHOD a toPacket (Layw;Lit;)V
+	METHOD a register (Layy;)Layy;
+	METHOD a fromPacket (Lit;)Layw;
+	METHOD a fromJson (Lqc;Lcom/google/gson/JsonObject;)Layw;

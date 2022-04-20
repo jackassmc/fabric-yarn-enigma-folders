@@ -1,0 +1,4 @@
+CLASS bfs net/minecraft/enchantment/MultishotEnchantment
+	METHOD <init> (Lbfh$a;[Laij;)V
+		ARG 1 weight
+		ARG 2 slotTypes

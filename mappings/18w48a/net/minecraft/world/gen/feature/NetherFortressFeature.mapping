@@ -1,0 +1,2 @@
+CLASS bvh net/minecraft/world/gen/feature/NetherFortressFeature
+	METHOD b getName ()Ljava/lang/String;

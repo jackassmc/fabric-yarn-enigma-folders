@@ -1,0 +1,5 @@
+CLASS chy net/minecraft/structure/OceanMonumentGenerator
+	CLASS chy$p Entry
+	CLASS chy$q Penthouse
+	CLASS chy$s SimpleRoom
+	CLASS chy$t SimpleRoomTop

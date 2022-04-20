@@ -1,0 +1,19 @@
+CLASS dvy net/minecraft/client/audio/AbstractSoundInstance
+	FIELD a sound Ldwi;
+	FIELD b category Lyk;
+	FIELD c id Lqs;
+	FIELD d volume F
+	FIELD e pitch F
+	FIELD f x F
+	FIELD g y F
+	FIELD h z F
+	FIELD i repeat Z
+	FIELD j repeatDelay I
+	FIELD k attenuationType Ldwl$a;
+	FIELD n soundSet Ldxm;
+	METHOD <init> (Lqs;Lyk;)V
+		ARG 1 soundId
+		ARG 2 category
+	METHOD <init> (Lyi;Lyk;)V
+		ARG 1 sound
+		ARG 2 category

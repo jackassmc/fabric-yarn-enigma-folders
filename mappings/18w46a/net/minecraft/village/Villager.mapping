@@ -1,0 +1,10 @@
+CLASS azi net/minecraft/village/Villager
+	METHOD N_ getCurrentCustomer ()Laqa;
+	METHOD Q getDisplayedName ()Liz;
+	METHOD a onSellingItem (Lavf;)V
+	METHOD a useRecipe (Lazj;)V
+	METHOD a setRecipeList (Lazk;)V
+	METHOD a_ setCurrentCustomer (Laqa;)V
+	METHOD b_ getRecipes (Laqa;)Lazk;
+	METHOD c getWorld ()Lbae;
+	METHOD d getPos ()Les;

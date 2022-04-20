@@ -1,0 +1,4 @@
+CLASS cjz net/minecraft/world/loot/entry/AlternativeEntry
+	CLASS cjz$a Builder
+		FIELD a children Ljava/util/List;
+	METHOD a create ([Lcki$a;)Lcjz$a;

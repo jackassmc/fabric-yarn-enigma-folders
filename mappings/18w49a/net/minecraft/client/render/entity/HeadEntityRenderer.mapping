@@ -1,0 +1,5 @@
+CLASS dke net/minecraft/client/render/entity/HeadEntityRenderer
+	FIELD a model Lczk;
+	METHOD a shouldMergeTextures ()Z
+	METHOD a render (Lagt;FFFFFFF)V
+		ARG 0 entity

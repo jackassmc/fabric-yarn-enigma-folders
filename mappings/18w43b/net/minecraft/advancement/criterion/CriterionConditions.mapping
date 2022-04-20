@@ -1,0 +1,2 @@
+CLASS t net/minecraft/advancement/criterion/CriterionConditions
+	METHOD a getId ()Lpt;

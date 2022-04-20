@@ -1,0 +1,4 @@
+CLASS dhq net/minecraft/client/render/entity/SheepEntityRenderer
+	FIELD a SKIN Lpy;
+	METHOD a getTexture (Lagf;)Lpy;
+	METHOD a getTexture (Lamb;)Lpy;

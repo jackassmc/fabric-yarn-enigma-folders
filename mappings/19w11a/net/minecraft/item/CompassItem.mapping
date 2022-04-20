@@ -1,0 +1,6 @@
+CLASS azf net/minecraft/item/CompassItem
+	CLASS azf$1
+		METHOD call (Lbar;Lbfy;Laif;)F
+			ARG 1 stack
+			ARG 2 world
+			ARG 3 user

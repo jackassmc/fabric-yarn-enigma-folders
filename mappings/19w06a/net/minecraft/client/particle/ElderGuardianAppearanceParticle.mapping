@@ -1,0 +1,3 @@
+CLASS ddr net/minecraft/client/particle/ElderGuardianAppearanceParticle
+	CLASS ddr$a Factory
+	FIELD D guardian Lahr;

@@ -1,0 +1,10 @@
+CLASS ave net/minecraft/entity/mob/VindicatorEntity
+	CLASS a BreakDoorGoal
+	CLASS b FollowEntityGoal
+		METHOD <init> (Lave;)V
+			ARG 1 vindicator
+	CLASS c AttackGoal
+		METHOD <init> (Lave;Lave;)V
+			ARG 2 vindicator
+	FIELD b DIFFICULTY_ALLOWS_DOOR_BREAKING_PREDICATE Ljava/util/function/Predicate;
+	FIELD bz isJohnny Z

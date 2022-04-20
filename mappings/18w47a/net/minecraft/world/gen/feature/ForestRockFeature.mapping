@@ -1,0 +1,2 @@
+CLASS bsu net/minecraft/world/gen/feature/ForestRockFeature
+	METHOD a generate (Lban;Lbqc;Ljava/util/Random;Les;Lbuf;)Z

@@ -1,0 +1,15 @@
+CLASS fs net/minecraft/particle/ItemStackParticleParameters
+	CLASS fs$1
+		METHOD a read (Lfu;Lcom/mojang/brigadier/StringReader;)Lfs;
+			ARG 1 type
+			ARG 2 reader
+		METHOD a read (Lfu;Lis;)Lfs;
+			ARG 1 type
+			ARG 2 buf
+	FIELD a PARAMETERS_FACTORY Lft$a;
+	FIELD b particleType Lfu;
+	FIELD c stack Laxm;
+	METHOD <init> (Lfu;Laxm;)V
+		ARG 1 particleType
+		ARG 2 stack
+	METHOD c getItemStack ()Laxm;

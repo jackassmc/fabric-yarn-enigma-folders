@@ -1,0 +1,53 @@
+CLASS au net/minecraft/predicate/entity/EntityPredicate
+	CLASS au$a net/minecraft/predicate/entity/EntityPredicate$Builder
+		FIELD a type Lav;
+		FIELD b distance Lam;
+		FIELD c location Lbf;
+		FIELD d effects Lbi;
+		FIELD e nbt Lbj;
+		FIELD f flags Las;
+		FIELD g equipment Lar;
+		FIELD h catType Lqp;
+		METHOD a create ()Lau$a;
+		METHOD a type (Laia;)Lau$a;
+		METHOD a distance (Lam;)Lau$a;
+		METHOD a equipment (Lar;)Lau$a;
+		METHOD a flags (Las;)Lau$a;
+		METHOD a type (Lav;)Lau$a;
+		METHOD a location (Lbf;)Lau$a;
+		METHOD a effects (Lbi;)Lau$a;
+		METHOD a nbt (Lbj;)Lau$a;
+		METHOD a type (Lqp;)Lau$a;
+		METHOD a type (Lyx;)Lau$a;
+		METHOD b build ()Lau;
+		METHOD b catType (Lqp;)Lau$a;
+	FIELD a ANY Lau;
+	FIELD b EMPTY [Lau;
+	FIELD c type Lav;
+	FIELD d distance Lam;
+	FIELD e location Lbf;
+	FIELD f effects Lbi;
+	FIELD g nbt Lbj;
+	FIELD h flags Las;
+	FIELD i equipment Lar;
+	FIELD j catType Lqp;
+	METHOD <init> (Lav;Lam;Lbf;Lbi;Lbj;Las;Lar;Lqp;)V
+		ARG 1 type
+		ARG 2 distance
+		ARG 3 location
+		ARG 4 effects
+		ARG 5 nbt
+		ARG 6 flags
+		ARG 7 equipment
+	METHOD a serialize ()Lcom/google/gson/JsonElement;
+	METHOD a deserialize (Lcom/google/gson/JsonElement;)Lau;
+		ARG 0 el
+	METHOD a test (Lvc;Lcqh;Lahw;)Z
+		ARG 1 world
+		ARG 2 pos
+	METHOD a test (Lvd;Lahw;)Z
+		ARG 1 player
+	METHOD a serializeAll ([Lau;)Lcom/google/gson/JsonElement;
+		ARG 0 predicates
+	METHOD b deserializeAll (Lcom/google/gson/JsonElement;)[Lau;
+		ARG 0 element

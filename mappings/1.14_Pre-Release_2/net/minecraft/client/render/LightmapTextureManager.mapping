@@ -1,0 +1,16 @@
+CLASS dkg net/minecraft/client/render/LightmapTextureManager
+	FIELD a texture Ldtp;
+	FIELD b image Lctp;
+	FIELD c textureIdentifier Lqs;
+	FIELD d isDirty Z
+	FIELD e prevFlicker F
+	FIELD f flicker F
+	FIELD g worldRenderer Ldkb;
+	FIELD h client Lcvb;
+	METHOD <init> (Ldkb;)V
+		ARG 1 worldRenderer
+	METHOD a tick ()V
+	METHOD a update (F)V
+		ARG 1 delta
+	METHOD b disable ()V
+	METHOD c enable ()V

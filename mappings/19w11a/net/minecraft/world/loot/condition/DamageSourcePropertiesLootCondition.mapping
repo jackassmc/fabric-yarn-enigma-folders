@@ -1,0 +1,3 @@
+CLASS cpe net/minecraft/world/loot/condition/DamageSourcePropertiesLootCondition
+	CLASS cpe$a net/minecraft/world/loot/condition/DamageSourcePropertiesLootCondition$Factory
+	FIELD a predicate Lal;

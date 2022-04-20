@@ -1,0 +1,4 @@
+CLASS dpr net/minecraft/client/audio/RidingMinecartSoundInstance
+	FIELD n minecart Lasi;
+	FIELD o distance F
+	METHOD e tick ()V

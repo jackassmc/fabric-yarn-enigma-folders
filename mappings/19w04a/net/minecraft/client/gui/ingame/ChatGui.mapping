@@ -1,0 +1,2 @@
+CLASS ctg net/minecraft/client/gui/ingame/ChatGui
+	FIELD a chatField Lcra;

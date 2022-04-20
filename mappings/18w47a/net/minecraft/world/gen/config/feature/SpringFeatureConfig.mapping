@@ -1,0 +1,4 @@
+CLASS bwx net/minecraft/world/gen/config/feature/SpringFeatureConfig
+	FIELD a state Lcdg;
+	METHOD a make (Lcom/mojang/datafixers/Dynamic;)Lbwx;
+		ARG 0 dynamic

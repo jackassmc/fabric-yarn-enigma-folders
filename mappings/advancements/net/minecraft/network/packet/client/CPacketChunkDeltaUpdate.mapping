@@ -1,0 +1,16 @@
+CLASS hp net/minecraft/network/packet/client/CPacketChunkDeltaUpdate
+	CLASS hp$a ChunkDeltaRecord
+		FIELD b pos S
+		FIELD c state Lave;
+		METHOD a getBlockPos ()Ldx;
+		METHOD b getPosShort ()S
+		METHOD c getState ()Lave;
+	FIELD a chunkPos Lalb;
+	FIELD b records [Lhp$a;
+	METHOD a getRecords ()[Lhp$a;
+	METHOD a readPacket (Lgb;)V
+		ARG 0 buf
+	METHOD a applyPacket (Lge;)V
+	METHOD a applyPacket (Lgy;)V
+	METHOD b writePacket (Lgb;)V
+		ARG 0 buf

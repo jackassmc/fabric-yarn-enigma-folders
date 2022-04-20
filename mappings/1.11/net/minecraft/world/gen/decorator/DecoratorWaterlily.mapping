@@ -1,0 +1,5 @@
+CLASS axq net/minecraft/world/gen/decorator/DecoratorWaterlily
+	METHOD b generate (Lajq;Ljava/util/Random;Lco;)Z
+		ARG 0 world
+		ARG 1 random
+		ARG 2 pos

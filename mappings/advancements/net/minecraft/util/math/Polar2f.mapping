@@ -1,0 +1,3 @@
+CLASS bfo net/minecraft/util/math/Polar2f
+	FIELD i pitch F
+	FIELD j yaw F

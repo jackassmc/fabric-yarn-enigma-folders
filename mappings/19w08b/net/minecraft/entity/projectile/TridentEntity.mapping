@@ -1,0 +1,3 @@
+CLASS ata net/minecraft/entity/projectile/TridentEntity
+	FIELD as tridentStack Laxx;
+	FIELD at dealtDamage Z

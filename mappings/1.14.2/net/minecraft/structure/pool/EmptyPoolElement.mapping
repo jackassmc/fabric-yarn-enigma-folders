@@ -1,0 +1,2 @@
+CLASS cfc net/minecraft/structure/pool/EmptyPoolElement
+	FIELD a INSTANCE Lcfc;

@@ -1,0 +1,15 @@
+CLASS ajb net/minecraft/entity/attribute/AbstractEntityAttributeContainer
+	FIELD a instancesByKey Ljava/util/Map;
+	FIELD b instancesById Ljava/util/Map;
+	FIELD c attributeHierarchy Lcom/google/common/collect/Multimap;
+	METHOD a values ()Ljava/util/Collection;
+	METHOD a get (Laix;)Laiy;
+		ARG 1 attribute
+	METHOD a add (Laiy;)V
+		ARG 1 instance
+	METHOD a get (Ljava/lang/String;)Laiy;
+		ARG 1 name
+	METHOD b register (Laix;)Laiy;
+		ARG 1 attribute
+	METHOD c createInstance (Laix;)Laiy;
+		ARG 1 attribute

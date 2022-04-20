@@ -1,0 +1,4 @@
+CLASS cna net/minecraft/world/biome/layer/SouthEastSamplingLayer
+	METHOD a sample (Lclu;I)I
+		ARG 1 context
+		ARG 2 se

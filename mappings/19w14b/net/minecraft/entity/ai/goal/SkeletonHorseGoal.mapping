@@ -1,0 +1,2 @@
+CLASS arp net/minecraft/entity/ai/goal/SkeletonHorseGoal
+	FIELD a owner Laro;

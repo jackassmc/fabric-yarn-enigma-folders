@@ -1,0 +1,39 @@
+CLASS bds net/minecraft/recipe/BrewingRecipeRegistry
+	CLASS bds$a Recipe
+		FIELD a input Ljava/lang/Object;
+		FIELD b ingredient Lbeh;
+		FIELD c output Ljava/lang/Object;
+	FIELD a POTION_RECIPES Ljava/util/List;
+	FIELD b ITEM_RECIPES Ljava/util/List;
+	FIELD c POTION_TYPES Ljava/util/List;
+	FIELD d POTION_TYPE_PREDICATE Ljava/util/function/Predicate;
+	METHOD a registerDefaults ()V
+	METHOD a registerPotionType (Lbbx;)V
+		ARG 0 item
+	METHOD a registerItemRecipe (Lbbx;Lbbx;Lbbx;)V
+		ARG 0 input
+		ARG 1 ingredient
+		ARG 2 output
+	METHOD a isValidIngredient (Lbcc;)Z
+		ARG 0 stack
+	METHOD a hasRecipe (Lbcc;Lbcc;)Z
+		ARG 0 input
+		ARG 1 ingredient
+	METHOD a isBrewable (Lbdr;)Z
+		ARG 0 potion
+	METHOD a registerPotionRecipe (Lbdr;Lbbx;Lbdr;)V
+		ARG 0 input
+		ARG 2 output
+	METHOD b isItemRecipeIngredient (Lbcc;)Z
+		ARG 0 stack
+	METHOD b hasItemRecipe (Lbcc;Lbcc;)Z
+		ARG 0 input
+		ARG 1 ingredien
+	METHOD c isPotionRecipeIngredient (Lbcc;)Z
+		ARG 0 stack
+	METHOD c hasPotionRecipe (Lbcc;Lbcc;)Z
+		ARG 0 input
+		ARG 1 ingredient
+	METHOD d craft (Lbcc;Lbcc;)Lbcc;
+		ARG 0 input
+		ARG 1 ingredient

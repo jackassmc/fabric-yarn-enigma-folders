@@ -1,0 +1,97 @@
+CLASS cwi net/minecraft/client/gui/ingame/EditBookScreen
+	CLASS cwi$a Position
+		FIELD b x I
+		FIELD c y I
+	FIELD A buttonNextPage Lcxg;
+	FIELD B buttonDone Lcrz;
+	FIELD C buttonSign Lcrz;
+	FIELD D buttonFinalize Lcrz;
+	FIELD E buttonCancel Lcrz;
+	FIELD F hand Lagg;
+	FIELD a player Lary;
+	FIELD b itemStack Laxw;
+	FIELD g dirty Z
+	FIELD h signing Z
+	FIELD i tickCounter I
+	FIELD s currentPage I
+	FIELD t pages Ljava/util/List;
+	FIELD u title Ljava/lang/String;
+	FIELD v cursorIndex I
+	FIELD w highlightTo I
+	FIELD x lastClickTime J
+	FIELD y lastClickIndex I
+	FIELD z buttonPreviousPage Lcxg;
+	METHOD <init> (Lary;Laxw;Lagg;)V
+		ARG 1 playerEntity
+		ARG 2 itemStack
+		ARG 3 hand
+	METHOD a localizePosition (Lcwi$a;)V
+		ARG 1 position
+	METHOD a drawHighlightRect (Lcwi$a;Lcwi$a;)V
+		ARG 1 position1
+		ARG 2 position2
+	METHOD a stripFromatting (Ljava/lang/String;)Ljava/lang/String;
+		ARG 1 string
+	METHOD a getCharWidthInString (Ljava/lang/String;I)I
+		ARG 1 string
+		ARG 2 index
+	METHOD a getCharacterCountInFrontOfCursor (Ljava/lang/String;Lcwi$a;)I
+		ARG 1 content
+		ARG 2 cursorPosition
+	METHOD b keyPressedEditMode (III)Z
+		ARG 1 keyCode
+		ARG 2 scanCode
+		ARG 3 modifiers
+	METHOD b translateGlPositionToRelativePosition (Lcwi$a;)V
+		ARG 1 position
+	METHOD b applyBackspaceKey (Ljava/lang/String;)V
+		ARG 1 content
+	METHOD b getCharacterCountForWidth (Ljava/lang/String;I)I
+		ARG 1 string
+		ARG 2 width
+	METHOD c translateRelativePositionToGlPosition (Lcwi$a;)V
+		ARG 1 position
+	METHOD c applyDeleteKey (Ljava/lang/String;)V
+		ARG 1 content
+	METHOD c getCursorPositionForIndex (Ljava/lang/String;I)Lcwi$a;
+		ARG 1 content
+		ARG 2 index
+	METHOD c finalizeBook (Z)V
+		ARG 1 signBook
+	METHOD d keyPressedSignMode (III)Z
+		ARG 1 keyCode
+		ARG 2 scanCode
+		ARG 3 modifiers
+	METHOD d applyLeftArrowKey (Ljava/lang/String;)V
+		ARG 1 content
+	METHOD d getCharacterCountForStringWidth (Ljava/lang/String;I)I
+		ARG 1 string
+		ARG 2 width
+	METHOD f applyRightArrowKey (Ljava/lang/String;)V
+		ARG 1 content
+	METHOD g applyUpArrowKey (Ljava/lang/String;)V
+		ARG 1 content
+	METHOD h applyDownArrowKey (Ljava/lang/String;)V
+		ARG 1 content
+	METHOD i playPageTurnSound ()V
+	METHOD i moveCursorToTop (Ljava/lang/String;)V
+		ARG 1 content
+	METHOD j countPages ()I
+	METHOD j moveCursorToBottom (Ljava/lang/String;)V
+		ARG 1 content
+	METHOD k setPageContent (Ljava/lang/String;)V
+		ARG 1 newContent
+	METHOD l openPreviousPage ()V
+	METHOD l writeString (Ljava/lang/String;)V
+		ARG 1 string
+	METHOD m openNextPage ()V
+	METHOD m getStringWidth (Ljava/lang/String;)I
+		ARG 1 string
+	METHOD n updateButtons ()V
+	METHOD n drawHighlight (Ljava/lang/String;)V
+		ARG 1 content
+	METHOD q removeEmptyPages ()V
+	METHOD u appendNewPage ()V
+	METHOD v removeHighlightedText ()V
+	METHOD w getCurrentPageContent ()Ljava/lang/String;
+	METHOD x getHighlightedText ()Ljava/lang/String;

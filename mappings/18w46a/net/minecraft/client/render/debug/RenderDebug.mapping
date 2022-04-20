@@ -1,0 +1,12 @@
+CLASS dek net/minecraft/client/render/debug/RenderDebug
+	CLASS dek$a DebugRenderer
+		METHOD a render (FJ)V
+	FIELD b renderDebugWater Ldek$a;
+	FIELD c renderDebugChunkBorder Ldek$a;
+	FIELD d renderDebugHeightMap Ldek$a;
+	FIELD m showChunkBorder Z
+	FIELD n showPathfinding Z
+	FIELD o showWater Z
+	FIELD p showHeightmap Z
+	METHOD a renderDebuggers (FJ)V
+	METHOD b toggleShowChunkBorder ()Z

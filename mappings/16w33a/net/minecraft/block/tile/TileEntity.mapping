@@ -1,0 +1,59 @@
+CLASS none/arb net/minecraft/block/tile/TileEntity
+	CLASS none/arb$1
+		METHOD a call ()Ljava/lang/String;
+	CLASS none/arb$2
+		METHOD a call ()Ljava/lang/String;
+	CLASS none/arb$3
+		METHOD a call ()Ljava/lang/String;
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD b world Lnone/aiu;
+	FIELD c pos Lnone/cn;
+	FIELD d invalid Z
+	FIELD e block Lnone/akw;
+	FIELD f REGISTRY Lnone/db;
+	FIELD g blockMetadata I
+	METHOD A resetBlock ()V
+	METHOD C getRegistry ()Lnone/db;
+	METHOD C_ getUpdatePacket ()Lnone/fy;
+	METHOD D getWorld ()Lnone/aiu;
+	METHOD a getRenderDistance (DDD)D
+		ARG 0 x
+		ARG 1 y
+		ARG 2 z
+	METHOD a getIdFromTileEntity (Ljava/lang/Class;)Lnone/kp;
+		ARG 0 tileClass
+	METHOD a register (Ljava/lang/String;Ljava/lang/Class;)V
+		ARG 0 id
+		ARG 1 tileEntityClass
+	METHOD a setWorld (Lnone/aiu;)V
+		ARG 0 world
+	METHOD a createTileFromTag (Lnone/aiu;Lnone/dt;)Lnone/arb;
+		ARG 0 world
+		ARG 1 tag
+	METHOD a applyMirror (Lnone/anw;)V
+		ARG 0 mirror
+	METHOD a applyRotation (Lnone/apj;)V
+		ARG 0 rotation
+	METHOD a addCrashReportDetails (Lnone/c;)V
+		ARG 0 element
+	METHOD a setPos (Lnone/cn;)V
+		ARG 0 pos
+	METHOD a deserializeTag (Lnone/dt;)V
+		ARG 0 tag
+	METHOD b onLoad (Lnone/aiu;)V
+		ARG 0 world
+	METHOD b serializeTag (Lnone/dt;)Lnone/dt;
+		ARG 0 tag
+	METHOD c writeToTag ()Lnone/dt;
+	METHOD c serializeTileData (Lnone/dt;)Lnone/dt;
+		ARG 0 tag
+	METHOD i_ getNameComponent ()Lnone/fa;
+	METHOD s getSquaredRenderDistance ()D
+	METHOD t hasWorld ()Z
+	METHOD u getBlockMetadata ()I
+	METHOD u_ markDirty ()V
+	METHOD v getPos ()Lnone/cn;
+	METHOD w getBlock ()Lnone/akw;
+	METHOD x isInvalid ()Z
+	METHOD y invalidate ()V
+	METHOD z validate ()V

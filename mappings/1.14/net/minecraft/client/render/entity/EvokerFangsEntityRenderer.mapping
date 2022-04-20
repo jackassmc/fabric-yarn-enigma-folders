@@ -1,0 +1,7 @@
+CLASS dph net/minecraft/client/render/entity/EvokerFangsEntityRenderer
+	FIELD a SKIN Lqs;
+	FIELD f model Ldeo;
+	METHOD a (Lawf;DDDFF)V
+		ARG 1 model
+		ARG 2 x
+		ARG 4 y

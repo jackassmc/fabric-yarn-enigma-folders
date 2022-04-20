@@ -1,0 +1,2 @@
+CLASS dye net/minecraft/client/tutorial/NoneTutorialStepHandler
+	FIELD a manager Ldyk;

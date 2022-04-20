@@ -1,0 +1,16 @@
+CLASS bmg net/minecraft/block/StructureVoidBlock
+	METHOD <init> (Lbgs$c;)V
+		ARG 1 settings
+		ARG 2 stateBuilder
+	METHOD a getBoundingShape (Lbpm;Lbbb;Let;)Lcmx;
+		ARG 1 state
+		ARG 2 view
+		ARG 3 pos
+	METHOD c getRenderType (Lbpm;)Lbky;
+		ARG 1 state
+	METHOD c getAmbientOcclusionLightLevel (Lbpm;Lbbb;Let;)F
+		ARG 1 state
+		ARG 2 view
+		ARG 3 pos
+	METHOD j getPistonBehavior (Lbpm;)Lcfj;
+		ARG 1 state

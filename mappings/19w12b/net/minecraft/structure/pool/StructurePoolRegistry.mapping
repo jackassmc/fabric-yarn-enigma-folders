@@ -1,0 +1,6 @@
+CLASS cec net/minecraft/structure/pool/StructurePoolRegistry
+	FIELD a pools Ljava/util/Map;
+	METHOD a add (Lceb;)V
+		ARG 1 pool
+	METHOD a get (Lqq;)Lceb;
+		ARG 1 id

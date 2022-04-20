@@ -1,0 +1,15 @@
+CLASS dgg net/minecraft/client/render/entity/model/DragonEntityModel
+	FIELD a head Ldgl;
+	FIELD b neck Ldgl;
+	FIELD f jaw Ldgl;
+	FIELD g body Ldgl;
+	FIELD h rearLeg Ldgl;
+	FIELD i frontLeg Ldgl;
+	FIELD j rearLegTip Ldgl;
+	FIELD k frontLegTip Ldgl;
+	FIELD l rearFoot Ldgl;
+	FIELD m frontFoot Ldgl;
+	FIELD n wing Ldgl;
+	FIELD o wingTip Ldgl;
+	FIELD p delta F
+	METHOD a updateRotations (D)F

@@ -1,0 +1,6 @@
+CLASS brw net/minecraft/block/TntBlock
+	FIELD a UNSTABLE Lbvq;
+	METHOD <init> (Lbma$c;)V
+		ARG 1 settings
+	METHOD a primeTnt (Lbgw;Lev;)V
+	METHOD a primeTnt (Lbgw;Lev;Laii;)V

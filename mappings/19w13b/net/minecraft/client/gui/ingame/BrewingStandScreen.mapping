@@ -1,0 +1,2 @@
+CLASS daa net/minecraft/client/gui/ingame/BrewingStandScreen
+	FIELD k TEXTURE Lqr;

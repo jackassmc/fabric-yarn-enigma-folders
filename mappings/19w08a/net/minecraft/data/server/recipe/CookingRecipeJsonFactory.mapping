@@ -1,0 +1,65 @@
+CLASS he net/minecraft/data/server/recipe/CookingRecipeJsonFactory
+	CLASS he$a CookingRecipeJsonProvider
+		FIELD a recipeId Lqi;
+		FIELD b group Ljava/lang/String;
+		FIELD c ingredient Lbad;
+		FIELD d result Laxr;
+		FIELD e experience F
+		FIELD f cookingTime I
+		FIELD g builder Ln$a;
+		FIELD h advancementId Lqi;
+		FIELD i cookingRecipeSerializer Lbai;
+		METHOD <init> (Lqi;Ljava/lang/String;Lbad;Laxr;FILn$a;Lqi;Lbai;)V
+			ARG 1 recipeId
+			ARG 2 group
+			ARG 3 input
+			ARG 4 output
+			ARG 5 exp
+			ARG 6 time
+			ARG 7 builder
+			ARG 8 advancementId
+			ARG 9 serializer
+		METHOD a (Lcom/google/gson/JsonObject;)V
+			ARG 1 arg1
+	FIELD a output Laxr;
+	FIELD b input Lbad;
+	FIELD c exp F
+	FIELD d time I
+	FIELD e builder Ln$a;
+	FIELD f group Ljava/lang/String;
+	FIELD g serializer Lbao;
+	METHOD <init> (Lbdd;Lbad;FILbao;)V
+		ARG 1 ouptut
+		ARG 2 input
+		ARG 3 exp
+		ARG 4 time
+		ARG 5 serializer
+	METHOD a create (Lbad;Lbdd;FILbao;)Lhe;
+		ARG 0 input
+		ARG 1 output
+		ARG 2 exp
+		ARG 3 time
+		ARG 4 serializer
+	METHOD a criterion (Ljava/lang/String;Lv;)Lhe;
+		ARG 1 criterionName
+		ARG 2 conditions
+	METHOD a offerTo (Ljava/util/function/Consumer;)V
+		ARG 1 exporter
+	METHOD a offerTo (Ljava/util/function/Consumer;Ljava/lang/String;)V
+		ARG 1 exporter
+		ARG 2 recipeIdStr
+	METHOD a offerTo (Ljava/util/function/Consumer;Lqi;)V
+		ARG 1 exporter
+		ARG 2 recipeId
+	METHOD a validate (Lqi;)V
+		ARG 1 recipeId
+	METHOD b createBlasting (Lbad;Lbdd;FI)Lhe;
+		ARG 0 input
+		ARG 1 output
+		ARG 2 exp
+		ARG 3 time
+	METHOD c createSmelting (Lbad;Lbdd;FI)Lhe;
+		ARG 0 input
+		ARG 1 output
+		ARG 2 exp
+		ARG 3 time

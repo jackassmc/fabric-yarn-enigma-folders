@@ -1,0 +1,3 @@
+CLASS dlf net/minecraft/client/render/block/DynamicBlockRenderer
+	METHOD a render (Lbmp;F)V
+		ARG 1 block

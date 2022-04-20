@@ -1,0 +1,3 @@
+CLASS dcn net/minecraft/client/render/entity/model/VillagerEntityModel
+	FIELD a head Ldcz;
+	FIELD l nose Ldcz;

@@ -1,0 +1,6 @@
+CLASS cbv net/minecraft/client/render/entity/EntityRendererEnderDragonDeath
+	METHOD a shouldMergeTextures ()Z
+	METHOD a render (Labb;FFFFFFF)V
+		ARG 0 entity
+	METHOD a render (Lvn;FFFFFFF)V
+		ARG 0 entity

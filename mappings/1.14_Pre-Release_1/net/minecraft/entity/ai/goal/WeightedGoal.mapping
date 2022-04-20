@@ -1,0 +1,9 @@
+CLASS aof net/minecraft/entity/ai/goal/WeightedGoal
+	FIELD a goal Lamq;
+	FIELD b weight I
+	FIELD c running Z
+	METHOD a canBeReplacedBy (Laof;)Z
+		ARG 1 goal
+	METHOD g isRunning ()Z
+	METHOD h getWeight ()I
+	METHOD j getGoal ()Lamq;

@@ -1,0 +1,7 @@
+CLASS kr net/minecraft/client/network/packet/CooldownUpdateClientPacket
+	FIELD a item Lawy;
+	FIELD b cooldown I
+	METHOD <init> (Lawy;I)V
+		ARG 1 item
+	METHOD b getItem ()Lawy;
+	METHOD c getCooldown ()I

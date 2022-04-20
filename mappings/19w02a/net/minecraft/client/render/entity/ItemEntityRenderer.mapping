@@ -1,0 +1,8 @@
+CLASS dki net/minecraft/client/render/entity/ItemEntityRenderer
+	FIELD a itemRenderer Ldkk;
+	FIELD f random Ljava/util/Random;
+	METHOD <init> (Ldjp;Ldkk;)V
+		ARG 1 renderManager
+	METHOD a getTexture (Lahd;)Lqe;
+	METHOD a render (Lahd;DDDFF)V
+	METHOD a getTexture (Laph;)Lqe;

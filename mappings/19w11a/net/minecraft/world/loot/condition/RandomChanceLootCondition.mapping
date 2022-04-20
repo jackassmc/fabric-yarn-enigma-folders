@@ -1,0 +1,3 @@
+CLASS cpo net/minecraft/world/loot/condition/RandomChanceLootCondition
+	CLASS cpo$a net/minecraft/world/loot/condition/RandomChanceLootCondition$Factory
+	FIELD a chance F

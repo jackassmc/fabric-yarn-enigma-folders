@@ -1,0 +1,9 @@
+CLASS dkx net/minecraft/client/render/model/BakedModelManager
+	FIELD a modelMap Ljava/util/Map;
+	FIELD b spriteMap Ldjk;
+	FIELD c blockStateMaps Ldau;
+	FIELD d missingModel Ldkt;
+	METHOD a getMissingModel ()Ldkt;
+	METHOD a getModel (Ldky;)Ldkt;
+	METHOD a onResourceReload (Lvw;)V
+	METHOD b getBlockStateMaps ()Ldau;

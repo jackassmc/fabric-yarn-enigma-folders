@@ -1,0 +1,8 @@
+CLASS djm net/minecraft/client/particle/SuspendParticle
+	CLASS djm$b DolphinFactory
+	CLASS djm$c HappyVillagerFactory
+	CLASS djm$d MyceliumFactory
+	METHOD <init> (Lbhj;DDDDDD)V
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z

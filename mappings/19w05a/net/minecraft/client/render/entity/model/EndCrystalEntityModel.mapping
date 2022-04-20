@@ -1,0 +1,4 @@
+CLASS dbv net/minecraft/client/render/entity/model/EndCrystalEntityModel
+	FIELD a cube Ldbz;
+	FIELD b glass Ldbz;
+	FIELD f base Ldbz;

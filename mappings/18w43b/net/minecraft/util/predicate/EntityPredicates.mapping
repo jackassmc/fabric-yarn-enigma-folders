@@ -1,0 +1,3 @@
+CLASS afk net/minecraft/util/predicate/EntityPredicates
+	CLASS afk$a CanPickup
+		FIELD a itemstack Lauc;

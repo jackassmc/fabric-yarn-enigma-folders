@@ -1,0 +1,4 @@
+CLASS aou net/minecraft/entity/ai/goal/AttackWithOwnerGoal
+	FIELD a owner Lajb;
+	FIELD b attacking Lain;
+	FIELD c lastAttackTime I

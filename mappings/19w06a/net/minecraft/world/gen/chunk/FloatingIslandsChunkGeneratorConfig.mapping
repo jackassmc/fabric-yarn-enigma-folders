@@ -1,0 +1,4 @@
+CLASS bug net/minecraft/world/gen/chunk/FloatingIslandsChunkGeneratorConfig
+	FIELD t center Let;
+	METHOD a withCenter (Let;)Lbug;
+	METHOD v getCenter ()Let;

@@ -1,0 +1,2 @@
+CLASS ciz net/minecraft/structure/processor/JigsawReplacementStructureProcessor
+	FIELD a INSTANCE Lciz;

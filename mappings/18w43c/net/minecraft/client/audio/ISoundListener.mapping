@@ -1,0 +1,4 @@
+CLASS dkb net/minecraft/client/audio/ISoundListener
+	METHOD a onSoundPlayed (Ldjd;Ldke;)V
+		ARG 0 sound
+		ARG 1 accessor

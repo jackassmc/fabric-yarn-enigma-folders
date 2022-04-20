@@ -1,0 +1,3 @@
+CLASS auq net/minecraft/entity/mob/VindicatorEntity
+	CLASS auq$a VindicatorBreakDoorGoal
+	FIELD bA isJohnny Z

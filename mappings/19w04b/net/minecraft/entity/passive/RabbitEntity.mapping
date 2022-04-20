@@ -1,0 +1,13 @@
+CLASS amx net/minecraft/entity/passive/RabbitEntity
+	CLASS amx$b RabbitFleeGoal
+	CLASS amx$d RabbitJumpControl
+		FIELD c rabbit Lamx;
+		METHOD c isActive ()Z
+	CLASS amx$e RabbitMoveControl
+		FIELD i rabbit Lamx;
+	FIELD bC RABBIT_TYPE Lps;
+	FIELD bD KILLER_BUNNY Lqd;
+	METHOD a isBreedingItem (Lawy;)Z
+	METHOD b createChild (Lagz;)Lamx;
+	METHOD dE getRabbitType ()I
+	METHOD q setRabbitType (I)V

@@ -1,0 +1,26 @@
+CLASS bgt net/minecraft/world/MobSpawnerLogic
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD b spawnDelay I
+	FIELD c spawnPotentials Ljava/util/List;
+	FIELD d spawnEntry Lbia;
+	FIELD g minSpawnDelay I
+	FIELD h maxSpawnDelay I
+	FIELD i spawnCount I
+	FIELD j renderedEntity Lail;
+	FIELD k maxNearbyEntities I
+	FIELD l requiredPlayerRange I
+	FIELD m spawnRange I
+	METHOD a getWorld ()Lbhm;
+	METHOD a sendStatus (I)V
+		ARG 1 status
+	METHOD a spawnEntity (Lail;)V
+	METHOD a setEntityId (Laip;)V
+	METHOD a setSpawnEntry (Lbia;)V
+	METHOD a deserialize (Lic;)V
+	METHOD b getPos ()Lev;
+	METHOD b serialize (Lic;)Lic;
+	METHOD c update ()V
+	METHOD d getRenderedEntity ()Lail;
+	METHOD g getEntityId ()Lqt;
+	METHOD h isPlayerInRange ()Z
+	METHOD i updateSpawns ()V

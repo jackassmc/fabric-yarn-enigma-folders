@@ -1,0 +1,72 @@
+CLASS czc net/minecraft/client/gui/ContainerScreen
+	FIELD A lastClickedSlot Layn;
+	FIELD B lastClickedButton I
+	FIELD a BACKGROUND_TEXTURE Lqq;
+	FIELD b width I
+	FIELD c height I
+	FIELD d container Laxa;
+	FIELD e playerInventory Lauu;
+	FIELD f name Ljm;
+	FIELD g left I
+	FIELD h top I
+	FIELD i focusedSlot Layn;
+	FIELD j cursorDragSlots Ljava/util/Set;
+	FIELD k isCursorDragging Z
+	FIELD l touchDragSlotStart Layn;
+	FIELD m touchIsRightClickDrag Z
+	FIELD n touchDragStack Lbaz;
+	FIELD o touchDropX I
+	FIELD p touchDropY I
+	FIELD q touchDropOriginSlot Layn;
+	FIELD r touchDropTime J
+	FIELD s touchDropReturningStack Lbaz;
+	FIELD t touchHoveredSlot Layn;
+	FIELD u touchDropTimer J
+	FIELD v heldButtonType I
+	FIELD w heldButtonCode I
+	FIELD z lastButtonClickTime J
+	METHOD <init> (Laxa;Lauu;Ljm;)V
+		ARG 3 name
+	METHOD a isClickOutsideBounds (DDIII)Z
+		ARG 1 mouseX
+		ARG 3 mouseY
+		ARG 5 left
+		ARG 6 top
+	METHOD a drawBackground (FII)V
+		ARG 1 delta
+		ARG 2 mouseX
+		ARG 3 mouseY
+	METHOD a drawMouseoverTooltip (II)V
+		ARG 1 mouseX
+		ARG 2 mouseY
+	METHOD a isPointWithinBounds (IIIIDD)Z
+		ARG 1 xPosition
+		ARG 2 yPosition
+		ARG 3 width
+		ARG 4 height
+		ARG 5 pointX
+		ARG 7 pointY
+	METHOD a drawSlot (Layn;)V
+	METHOD a isPointOverSlot (Layn;DD)Z
+		ARG 1 slot
+		ARG 2 pointX
+		ARG 4 pointY
+	METHOD a onMouseClick (Layn;IILaxi;)V
+		ARG 1 slot
+		ARG 2 invSlot
+		ARG 3 button
+	METHOD a drawItem (Lbaz;IILjava/lang/String;)V
+		ARG 1 stack
+		ARG 2 xPosition
+		ARG 3 yPosition
+		ARG 4 amountText
+	METHOD b drawForeground (II)V
+		ARG 1 mouseX
+		ARG 2 mouseY
+	METHOD c handleHotbarKeyPressed (II)Z
+		ARG 1 keyCode
+		ARG 2 scanCode
+	METHOD d calculateOffset ()V
+	METHOD d getSlotAt (DD)Layn;
+		ARG 1 xPosition
+		ARG 3 yPosition

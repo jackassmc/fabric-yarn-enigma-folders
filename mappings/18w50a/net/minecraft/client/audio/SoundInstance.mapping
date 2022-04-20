@@ -1,0 +1,18 @@
+CLASS dpx net/minecraft/client/audio/SoundInstance
+	CLASS dpx$a AttenuationType
+		FIELD a NONE Ldpx$a;
+		FIELD b LINEAR Ldpx$a;
+		FIELD c TYPE I
+		METHOD a getType ()I
+	METHOD a getId ()Lqc;
+	METHOD a getAccess (Ldqt;)Ldqu;
+	METHOD b getSound ()Ldpu;
+	METHOD c getCategory ()Lxo;
+	METHOD d isRepeatable ()Z
+	METHOD f getRepeatDelay ()I
+	METHOD g getVolume ()F
+	METHOD h getPitch ()F
+	METHOD i getX ()F
+	METHOD j getY ()F
+	METHOD k getZ ()F
+	METHOD l getAttenuationType ()Ldpx$a;

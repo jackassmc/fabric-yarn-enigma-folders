@@ -1,0 +1,29 @@
+CLASS none/anu net/minecraft/block/BlockLogBase
+	CLASS none/anu$a Axis
+		FIELD a X Lnone/anu$a;
+		FIELD b Y Lnone/anu$a;
+		FIELD c Z Lnone/anu$a;
+		FIELD d NONE Lnone/anu$a;
+		FIELD e name Ljava/lang/String;
+		METHOD <init> (Ljava/lang/String;ILjava/lang/String;)V
+			ARG 0 name
+		METHOD a byFacingAxis (Lnone/cu$a;)Lnone/anu$a;
+			ARG 0 axis
+		METHOD m asString ()Ljava/lang/String;
+	FIELD a AXIS Lnone/asz;
+	METHOD a getStateForPlacement (Lnone/aiv;Lnone/cn;Lnone/cu;FFFILnone/so;)Lnone/asl;
+		ARG 0 world
+		ARG 1 pos
+		ARG 2 facing
+		ARG 3 hitX
+		ARG 4 hitY
+		ARG 5 hitZ
+		ARG 6 metadata
+		ARG 7 player
+	METHOD a applyRotation (Lnone/asl;Lnone/apk;)Lnone/asl;
+		ARG 0 state
+		ARG 1 rotation
+	METHOD b (Lnone/aiv;Lnone/cn;Lnone/asl;)V
+		ARG 0 world
+		ARG 1 pos
+		ARG 2 state

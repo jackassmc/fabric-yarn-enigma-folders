@@ -1,0 +1,7 @@
+CLASS xm net/minecraft/stat/Stat
+	FIELD o formatter Lxn;
+	FIELD p value Ljava/lang/Object;
+	FIELD q type Lxo;
+	METHOD a getType ()Lxo;
+	METHOD a format (I)Ljava/lang/String;
+	METHOD b getValue ()Ljava/lang/Object;

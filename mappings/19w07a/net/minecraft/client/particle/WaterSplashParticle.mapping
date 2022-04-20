@@ -1,0 +1,2 @@
+CLASS den net/minecraft/client/particle/WaterSplashParticle
+	CLASS den$a SplashFactory

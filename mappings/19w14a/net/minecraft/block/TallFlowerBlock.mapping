@@ -1,0 +1,3 @@
+CLASS brt net/minecraft/block/TallFlowerBlock
+	METHOD <init> (Lbma$c;)V
+		ARG 1 settings

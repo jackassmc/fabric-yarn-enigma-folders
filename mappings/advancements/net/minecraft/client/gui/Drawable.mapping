@@ -1,0 +1,16 @@
+CLASS bhc net/minecraft/client/gui/Drawable
+	FIELD b OPTIONS_BG Lmd;
+	FIELD c STAT_ICONS Lmd;
+	FIELD d ICONS Lmd;
+	FIELD e z F
+	METHOD a drawTexturedRect (FFIIII)V
+	METHOD a drawTexturedRect (IIFFIIFF)V
+	METHOD a drawTexturedRect (IIFFIIIIFF)V
+	METHOD a drawHorizontalLine (IIII)V
+	METHOD a drawRect (IIIII)V
+	METHOD a drawGradientRect (IIIIII)V
+	METHOD a drawTexturedRect (IILcbw;II)V
+	METHOD a drawStringCentered (Lbha;Ljava/lang/String;III)V
+	METHOD b drawVerticalLine (IIII)V
+	METHOD b drawTexturedRect (IIIIII)V
+	METHOD c drawString (Lbha;Ljava/lang/String;III)V

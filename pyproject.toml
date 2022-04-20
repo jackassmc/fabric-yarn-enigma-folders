@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "fabric-yarn-enigma-folders"
+version = "0.1.0"
+description = ""
+authors = ["jackassmc <84429870+jackassmc@users.noreply.github.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+GitPython = "^3.1.27"
+
+[tool.poetry.dev-dependencies]
+black = "^22.3.0"
+
+[tool.black]
+line-length = 100
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

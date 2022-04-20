@@ -1,0 +1,5 @@
+CLASS net/minecraft/class_3706 net/minecraft/container/SmokerContainer
+	METHOD <init> (ILawd;)V
+		ARG 1 syncId
+	METHOD <init> (ILawd;Laha;Layr;)V
+		ARG 1 syncId

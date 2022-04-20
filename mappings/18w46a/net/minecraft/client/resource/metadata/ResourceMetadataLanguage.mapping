@@ -1,0 +1,4 @@
+CLASS dln net/minecraft/client/resource/metadata/ResourceMetadataLanguage
+	FIELD a READER Ldlo;
+	FIELD b definitions Ljava/util/Collection;
+	METHOD a getLanguageDefinitions ()Ljava/util/Collection;

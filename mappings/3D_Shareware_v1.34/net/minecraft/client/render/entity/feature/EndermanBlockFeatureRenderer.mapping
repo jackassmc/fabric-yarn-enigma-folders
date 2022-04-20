@@ -1,0 +1,3 @@
+CLASS dse net/minecraft/client/render/entity/feature/EndermanBlockFeatureRenderer
+	METHOD <init> (Ldqt;)V
+		ARG 1 context

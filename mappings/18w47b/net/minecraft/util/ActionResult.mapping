@@ -1,0 +1,4 @@
+CLASS afa net/minecraft/util/ActionResult
+	FIELD a SUCCESS Lafa;
+	FIELD b PASS Lafa;
+	FIELD c FAILURE Lafa;

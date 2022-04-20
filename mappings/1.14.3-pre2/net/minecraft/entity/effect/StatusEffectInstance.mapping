@@ -1,0 +1,45 @@
+CLASS aif net/minecraft/entity/effect/StatusEffectInstance
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD b type Laid;
+	FIELD c duration I
+	FIELD d amplifier I
+	FIELD e splash Z
+	FIELD f ambient Z
+	FIELD g permanent Z
+	FIELD h showParticles Z
+	FIELD i showIcon Z
+	METHOD <init> (Laid;I)V
+		ARG 1 type
+	METHOD <init> (Laid;II)V
+		ARG 1 type
+		ARG 2 duration
+	METHOD <init> (Laid;IIZZ)V
+		ARG 1 effect
+		ARG 2 duration
+		ARG 3 amplifier
+		ARG 5 showParticles
+	METHOD <init> (Laid;IIZZZ)V
+		ARG 1 type
+		ARG 2 duration
+		ARG 3 amplifier
+		ARG 4 ambient
+		ARG 5 showParticles
+		ARG 6 showIcon
+	METHOD a getEffectType ()Laid;
+	METHOD a upgrade (Laif;)Z
+	METHOD a update (Laiu;)Z
+	METHOD a serialize (Lic;)Lic;
+	METHOD b getDuration ()I
+	METHOD b applyUpdateEffect (Laiu;)V
+	METHOD b deserialize (Lic;)Laif;
+		ARG 0 tag
+	METHOD b setPermanent (Z)V
+	METHOD c getAmplifier ()I
+	METHOD d isAmbient ()Z
+	METHOD e shouldShowParticles ()Z
+	METHOD equals (Ljava/lang/Object;)Z
+		ARG 1 o
+	METHOD f shouldShowIcon ()Z
+	METHOD g getTranslationKey ()Ljava/lang/String;
+	METHOD h isPermanent ()Z
+	METHOD i updateDuration ()I

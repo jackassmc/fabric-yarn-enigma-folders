@@ -1,0 +1,6 @@
+CLASS xb net/minecraft/resource/ResourceReloadMonitor
+	METHOD a whenComplete ()Ljava/util/concurrent/CompletableFuture;
+	METHOD b getProgress ()F
+	METHOD c isLoadStageComplete ()Z
+	METHOD d isApplyStageComplete ()Z
+	METHOD e throwExceptions ()V

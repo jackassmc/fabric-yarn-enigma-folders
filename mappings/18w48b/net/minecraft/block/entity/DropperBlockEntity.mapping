@@ -1,0 +1,3 @@
+CLASS bmw net/minecraft/block/entity/DropperBlockEntity
+	METHOD Q_ getName ()Lja;
+	METHOD l getContainerId ()Ljava/lang/String;

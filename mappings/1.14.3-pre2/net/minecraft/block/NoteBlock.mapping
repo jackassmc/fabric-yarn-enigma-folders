@@ -1,0 +1,9 @@
+CLASS bqf net/minecraft/block/NoteBlock
+	FIELD a INSTRUMENT Lbwl;
+	FIELD b POWERED Lbwf;
+	FIELD c NOTE Lbwn;
+	METHOD <init> (Lbmp$c;)V
+		ARG 1 settings
+	METHOD a playNote (Lbhl;Lev;)V
+		ARG 1 world
+		ARG 2 pos

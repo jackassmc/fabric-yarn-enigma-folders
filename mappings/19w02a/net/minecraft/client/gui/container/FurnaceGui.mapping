@@ -1,0 +1,3 @@
+CLASS cvt net/minecraft/client/gui/container/FurnaceGui
+	FIELD z BG_TEX Lqe;
+	METHOD i getBackgroundTexture ()Lqe;

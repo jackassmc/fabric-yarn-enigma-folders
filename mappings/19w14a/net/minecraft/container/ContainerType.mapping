@@ -1,0 +1,32 @@
+CLASS ays net/minecraft/container/ContainerType
+	CLASS ays$a Factory
+		METHOD create (ILavm;)Laxr;
+			ARG 1 syncId
+			ARG 2 playerInventory
+	FIELD c GENERIC_9X3 Lays;
+	FIELD f GENERIC_9X6 Lays;
+	FIELD g GENERIC_3X3 Lays;
+	FIELD h ANVIL Lays;
+	FIELD i BEACON Lays;
+	FIELD j BLAST_FURNACE Lays;
+	FIELD k BREWING_STAND Lays;
+	FIELD l CRAFTING Lays;
+	FIELD m ENCHANTMENT Lays;
+	FIELD n FURNACE Lays;
+	FIELD o GRINDSTONE Lays;
+	FIELD p HOPPER Lays;
+	FIELD q LECTERN Lays;
+	FIELD r LOOM Lays;
+	FIELD s MERCHANT Lays;
+	FIELD t SHULKER_BOX Lays;
+	FIELD u SMOKER Lays;
+	FIELD v CARTOGRAPHY Lays;
+	FIELD x factory Lays$a;
+	METHOD <init> (Lays$a;)V
+		ARG 1 factory
+	METHOD a create (ILavm;)Laxr;
+		ARG 1 syncId
+		ARG 2 playerInventory
+	METHOD a register (Ljava/lang/String;Lays$a;)Lays;
+		ARG 0 id
+		ARG 1 factory

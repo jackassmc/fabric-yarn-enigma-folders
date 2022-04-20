@@ -1,0 +1,3 @@
+CLASS dsn net/minecraft/client/render/entity/feature/EnderDragonDeathFeatureRenderer
+	METHOD <init> (Ldqt;)V
+		ARG 1 context

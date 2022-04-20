@@ -1,0 +1,31 @@
+CLASS afk net/minecraft/inventory/BasicInventory
+	FIELD a name Lja;
+	FIELD b size I
+	FIELD c stackList Lfh;
+	FIELD d listeners Ljava/util/List;
+	FIELD e customName Lja;
+	METHOD Q_ getName ()Lja;
+	METHOD R_ hasCustomName ()Z
+	METHOD S_ isInvEmpty ()Z
+	METHOD W_ getInvSize ()I
+	METHOD a getInvStack (I)Lavs;
+	METHOD a takeInvStack (II)Lavs;
+		ARG 1 slot
+	METHOD a setInvStack (ILavs;)V
+		ARG 1 slot
+	METHOD a addListener (Laex;)V
+	METHOD a canPlayerUseInv (Laqj;)Z
+	METHOD a setCustomName (Lja;)V
+	METHOD b removeInvStack (I)Lavs;
+	METHOD b setInvProperty (II)V
+		ARG 1 pos
+	METHOD b isValidInvStack (ILavs;)Z
+		ARG 1 slot
+	METHOD b removeListener (Laex;)V
+	METHOD b onInvOpen (Laqj;)V
+	METHOD c getInvProperty (I)I
+	METHOD c onInvClose (Laqj;)V
+	METHOD f getInvMaxStackAmount ()I
+	METHOD g markDirty ()V
+	METHOD h getInvPropertyCount ()I
+	METHOD m clearInv ()V

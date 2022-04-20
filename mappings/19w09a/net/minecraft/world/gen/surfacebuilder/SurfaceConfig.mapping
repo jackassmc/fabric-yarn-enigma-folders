@@ -1,0 +1,3 @@
+CLASS cfp net/minecraft/world/gen/surfacebuilder/SurfaceConfig
+	METHOD a getTopMaterial ()Lbre;
+	METHOD b getUnderMaterial ()Lbre;

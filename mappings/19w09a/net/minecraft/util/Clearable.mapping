@@ -1,0 +1,3 @@
+CLASS afy net/minecraft/util/Clearable
+	METHOD O_ clear ()V
+	METHOD a clear (Ljava/lang/Object;)V

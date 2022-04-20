@@ -1,0 +1,12 @@
+CLASS ahq net/minecraft/entity/ai/AiGoalEatGrass
+	FIELD b owner Lagf;
+	FIELD c world Lazt;
+	FIELD d timer I
+	METHOD <init> (Lagf;)V
+		ARG 1 owner
+	METHOD a canStart ()Z
+	METHOD b shouldContinue ()Z
+	METHOD c start ()V
+	METHOD d onRemove ()V
+	METHOD e tick ()V
+	METHOD g getTimer ()I

@@ -1,0 +1,2 @@
+CLASS bkq net/minecraft/block/KelpPlantBlock
+	FIELD a kelpBlock Lbkp;

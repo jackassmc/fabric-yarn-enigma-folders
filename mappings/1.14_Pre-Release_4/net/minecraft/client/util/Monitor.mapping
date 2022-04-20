@@ -1,0 +1,16 @@
+CLASS cts net/minecraft/client/util/Monitor
+	FIELD a monitorTracker Lctw;
+	FIELD b handle J
+	FIELD c videoModes Ljava/util/List;
+	FIELD d currentVideoMode Lcty;
+	FIELD e x I
+	FIELD f y I
+	METHOD a populateVideoModes ()V
+	METHOD a getVideoMode (I)Lcty;
+	METHOD a findClosestVideoMode (Ljava/util/Optional;)Lcty;
+	METHOD b getCurrentVideoMode ()Lcty;
+	METHOD b findClosestVideoModeIndex (Ljava/util/Optional;)I
+	METHOD c getViewportX ()I
+	METHOD d getViewportY ()I
+	METHOD e getVideoModeCount ()I
+	METHOD f getHandle ()J

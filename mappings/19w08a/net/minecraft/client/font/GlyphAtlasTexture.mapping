@@ -1,0 +1,19 @@
+CLASS ctl net/minecraft/client/font/GlyphAtlasTexture
+	CLASS ctl$a Slot
+		FIELD a x I
+		FIELD b y I
+		FIELD c width I
+		FIELD d height I
+		FIELD e subSlot1 Lctl$a;
+		FIELD f subSlot2 Lctl$a;
+		FIELD g isOccupied Z
+		METHOD a findSlotFor (Lcox;)Lctl$a;
+			ARG 1 glyph
+	FIELD f id Lqi;
+	FIELD g hasColor Z
+	FIELD h rootSlot Lctl$a;
+	METHOD <init> (Lqi;Z)V
+		ARG 2 hasColor
+	METHOD a getId ()Lqi;
+	METHOD a getGlyphRenderer (Lcox;)Lctn;
+		ARG 1 glyph

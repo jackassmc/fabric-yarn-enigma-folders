@@ -1,0 +1,8 @@
+CLASS dov net/minecraft/client/resource/metadata/TextureResourceMetadata
+	FIELD a READER Ldow;
+	FIELD b blur Z
+	FIELD c clamp Z
+	METHOD <init> (ZZ)V
+		ARG 1 blur
+	METHOD a shouldBlur ()Z
+	METHOD b shouldClamp ()Z

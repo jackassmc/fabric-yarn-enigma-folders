@@ -1,0 +1,23 @@
+CLASS bpg net/minecraft/block/entity/LecternBlockEntity
+	FIELD a inventory Lafq;
+	FIELD b propertyDelegate Latn;
+	FIELD c book Laxd;
+	FIELD g currentPage I
+	FIELD h pageCount I
+	METHOD a setCurrentPage (I)V
+		ARG 1 currentPage
+	METHOD a getCommandSource (Larj;)Lca;
+		ARG 1 player
+	METHOD a setBook (Laxd;)V
+		ARG 1 book
+	METHOD a setBook (Laxd;Larj;)V
+		ARG 1 book
+		ARG 2 player
+	METHOD b resolveBook (Laxd;Larj;)Laxd;
+		ARG 1 book
+		ARG 2 player
+	METHOD c getBook ()Laxd;
+	METHOD f hasBook ()Z
+	METHOD g getCurrentPage ()I
+	METHOD h getComparatorOutput ()I
+	METHOD s onBookRemoved ()V

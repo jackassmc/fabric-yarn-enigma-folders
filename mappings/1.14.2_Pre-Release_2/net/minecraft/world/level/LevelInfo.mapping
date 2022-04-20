@@ -1,0 +1,20 @@
+CLASS bhm net/minecraft/world/level/LevelInfo
+	FIELD a seed J
+	FIELD b gameMode Lbhf;
+	FIELD c structures Z
+	FIELD d hardcore Z
+	FIELD e generatorType Lbhp;
+	FIELD f commands Z
+	FIELD g bonusChest Z
+	FIELD h generatorOptions Lcom/google/gson/JsonElement;
+	METHOD a setBonusChest ()Lbhm;
+	METHOD a setGeneratorOptions (Lcom/google/gson/JsonElement;)Lbhm;
+	METHOD b enableCommands ()Lbhm;
+	METHOD c hasBonusChest ()Z
+	METHOD d getSeed ()J
+	METHOD e getGameMode ()Lbhf;
+	METHOD f isHardcore ()Z
+	METHOD g hasStructures ()Z
+	METHOD h getGeneratorType ()Lbhp;
+	METHOD i allowCommands ()Z
+	METHOD j getGeneratorOptions ()Lcom/google/gson/JsonElement;

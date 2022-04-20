@@ -1,0 +1,3 @@
+CLASS bky net/minecraft/block/BlockWithEntity
+	METHOD <init> (Lblg$c;)V
+		ARG 1 settings

@@ -1,0 +1,4 @@
+CLASS afd net/minecraft/container/LockableContainer
+	METHOD Z_ hasContainerLock ()Z
+	METHOD a setContainerLock (Lafc;)V
+	METHOD j getContainerLock ()Lafc;

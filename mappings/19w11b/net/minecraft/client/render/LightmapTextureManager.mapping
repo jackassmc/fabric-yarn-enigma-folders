@@ -1,0 +1,16 @@
+CLASS djh net/minecraft/client/render/LightmapTextureManager
+	FIELD a texture Ldsr;
+	FIELD b image Lcse;
+	FIELD c textureIdentifier Lqp;
+	FIELD d isDirty Z
+	FIELD e prevFlicker F
+	FIELD f flicker F
+	FIELD g worldRenderer Ldjc;
+	FIELD h client Lctp;
+	METHOD <init> (Ldjc;)V
+		ARG 1 worldRenderer
+	METHOD a tick ()V
+	METHOD a update (F)V
+		ARG 1 delta
+	METHOD b disable ()V
+	METHOD c enable ()V

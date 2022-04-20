@@ -1,0 +1,106 @@
+CLASS dko net/minecraft/client/render/GameRenderer
+	FIELD C floatingItem Lbce;
+	FIELD D floatingItemTimeLeft I
+	FIELD E floatingItemWidth F
+	FIELD F floatingItemHeight F
+	FIELD G shader Ldkx;
+	FIELD H SHADERS_LOCATIONS [Lqt;
+	FIELD I forcedShaderIndex I
+	FIELD J shadersEnabled Z
+	FIELD L camera Lcvd;
+	FIELD a firstPersonRenderer Ldkq;
+	FIELD b SHADER_COUNT I
+	FIELD c LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD d RAIN_LOC Lqt;
+	FIELD e SNOW_LOC Lqt;
+	FIELD f client Lcvo;
+	FIELD g resourceContainer Lxg;
+	FIELD h random Ljava/util/Random;
+	FIELD i viewDistance F
+	FIELD j mapRenderer Lcwj;
+	FIELD k ticks I
+	FIELD l movementFovMultiplier F
+	FIELD m lastMovementFovMultiplier F
+	FIELD n skyDarkness F
+	FIELD o lastSkyDarkness F
+	FIELD p renderHand Z
+	FIELD q blockOutlineEnabled Z
+	FIELD r lastWorldIconUpdate J
+	FIELD s lastWindowFocusedTime J
+	FIELD t lightmapTextureManager Ldkt;
+	FIELD x backgroundRenderer Ldkn;
+	METHOD <init> (Lcvo;Lxg;)V
+		ARG 1 client
+	METHOD a isShaderEnabled ()Z
+	METHOD a updateTargetedEntity (F)V
+		ARG 1 tickDelta
+	METHOD a renderWorld (FJ)V
+		ARG 1 tickDelta
+		ARG 2 endTime
+	METHOD a render (FJZ)V
+		ARG 1 tickDelta
+		ARG 2 startTime
+		ARG 4 fullRender
+	METHOD a onResized (II)V
+	METHOD a renderFloatingItem (IIF)V
+		ARG 1 scaledWidth
+		ARG 2 scaledHeight
+		ARG 3 tickDelta
+	METHOD a onCameraEntitySet (Lail;)V
+	METHOD a getNightVisionStrength (Laiu;F)F
+		ARG 1 entity
+		ARG 2 tickDelta
+	METHOD a showFloatingItem (Lbce;)V
+		ARG 1 floatingItem
+	METHOD a renderHand (Lcvd;F)V
+		ARG 1 camera
+		ARG 2 tickDelta
+	METHOD a getFov (Lcvd;FZ)D
+		ARG 2 tickDelta
+	METHOD a renderAboveClouds (Lcvd;Ldks;FDDD)V
+		ARG 1 camera
+		ARG 2 worldRenderer
+		ARG 3 tickDelta
+		ARG 4 cameraX
+		ARG 6 cameraY
+		ARG 8 cameraZ
+	METHOD a renderFloatingText (Lcwg;Ljava/lang/String;FFFIFFZ)V
+		ARG 0 textRenderer
+		ARG 1 text
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 verticalOffset
+		ARG 6 yaw
+		ARG 7 pitch
+		ARG 8 translucent
+	METHOD a loadShader (Lqt;)V
+	METHOD b disableShader ()V
+	METHOD b renderWeather (F)V
+	METHOD b renderCenter (FJ)V
+		ARG 1 tickDelta
+		ARG 2 endTime
+	METHOD c toggleShadersEnabled ()V
+	METHOD c getSkyDarkness (F)F
+		ARG 1 tickDelta
+	METHOD d bobViewWhenHurt (F)V
+		ARG 1 tickDelta
+	METHOD d setFogBlack (Z)V
+		ARG 1 fogBlack
+	METHOD e tick ()V
+	METHOD e bobView (F)V
+		ARG 1 tickDelta
+	METHOD f getShader ()Ldkx;
+	METHOD f applyCameraTransformations (F)V
+		ARG 1 tickDelta
+	METHOD h disableLightmap ()V
+	METHOD i enableLightmap ()V
+	METHOD j reset ()V
+	METHOD k getMapRenderer ()Lcwj;
+	METHOD l getClient ()Lcvo;
+	METHOD m getViewDistance ()F
+	METHOD n getCamera ()Lcvd;
+	METHOD o updateMovementFovMultiplier ()V
+	METHOD p updateWorldIcon ()V
+	METHOD q shouldRenderBlockOutline ()Z
+	METHOD r renderRain ()V

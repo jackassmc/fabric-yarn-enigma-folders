@@ -1,0 +1,3 @@
+CLASS bnt net/minecraft/block/JigsawBlock
+	METHOD <init> (Lbky$c;)V
+		ARG 1 settings

@@ -1,0 +1,16 @@
+CLASS blw net/minecraft/block/AnvilBlock
+	FIELD a FACING Lbwk;
+	FIELD b BASE_SHAPE Lcsw;
+	FIELD c X_STEP_SHAPE Lcsw;
+	FIELD d X_STEM_SHAPE Lcsw;
+	FIELD e X_FACE_SHAPE Lcsw;
+	FIELD f Z_STEP_SHAPE Lcsw;
+	FIELD g Z_STEM_SHAPE Lcsw;
+	FIELD h Z_FACE_SHAPE Lcsw;
+	FIELD i X_AXIS_SHAPE Lcsw;
+	FIELD j Z_AXIS_SHAPE Lcsw;
+	FIELD k CONTAINER_NAME Ljx;
+	METHOD <init> (Lbmr$c;)V
+		ARG 1 settings
+	METHOD a_ getLandingState (Lbvp;)Lbvp;
+		ARG 0 fallingState

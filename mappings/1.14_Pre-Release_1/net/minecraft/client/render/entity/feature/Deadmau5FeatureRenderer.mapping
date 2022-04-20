@@ -1,0 +1,3 @@
+CLASS dsc net/minecraft/client/render/entity/feature/Deadmau5FeatureRenderer
+	METHOD <init> (Ldqn;)V
+		ARG 1 context

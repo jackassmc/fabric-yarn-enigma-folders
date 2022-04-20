@@ -1,0 +1,41 @@
+CLASS bn net/minecraft/advancement/criterion/TriggerVillagerTrade
+	CLASS bn$a Handler
+		FIELD a manager Lqd;
+		FIELD b conditions Ljava/util/Set;
+		METHOD <init> (Lqd;)V
+			ARG 0 manager
+		METHOD a isEmpty ()Z
+		METHOD a addCondition (Ls$a;)V
+			ARG 0 condition
+		METHOD a handle (Lub;Laow;Lauc;)V
+			ARG 0 player
+			ARG 1 villager
+			ARG 2 item
+		METHOD b removeCondition (Ls$a;)V
+			ARG 0 condition
+	CLASS bn$b Conditions
+		FIELD a item Lap;
+		FIELD b villager Law;
+		METHOD a matches (Lub;Laow;Lauc;)Z
+		METHOD c any ()Lbn$b;
+	FIELD a ID Lpt;
+	FIELD b handlers Ljava/util/Map;
+	METHOD a getId ()Lpt;
+	METHOD a deserializeConditions (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Lt;
+		ARG 0 obj
+		ARG 1 context
+	METHOD a removePlayer (Lqd;)V
+		ARG 0 manager
+	METHOD a addCondition (Lqd;Ls$a;)V
+		ARG 0 manager
+		ARG 1 condition
+	METHOD a handle (Lub;Laow;Lauc;)V
+		ARG 0 player
+		ARG 1 villager
+		ARG 2 item
+	METHOD b deserializeConditions (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Lbn$b;
+		ARG 0 obj
+		ARG 1 context
+	METHOD b removeCondition (Lqd;Ls$a;)V
+		ARG 0 manager
+		ARG 1 condition

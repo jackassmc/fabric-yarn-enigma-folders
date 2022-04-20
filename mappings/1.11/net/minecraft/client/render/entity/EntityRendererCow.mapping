@@ -1,0 +1,6 @@
+CLASS buf net/minecraft/client/render/entity/EntityRendererCow
+	FIELD a SKIN Lkq;
+	METHOD a getTexture (Lsm;)Lkq;
+		ARG 0 model
+	METHOD a getTexture (Lwx;)Lkq;
+		ARG 0 model

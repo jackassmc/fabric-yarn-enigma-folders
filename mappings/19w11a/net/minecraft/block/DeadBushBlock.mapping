@@ -1,0 +1,4 @@
+CLASS bmf net/minecraft/block/DeadBushBlock
+	FIELD a SHAPE Lcrb;
+	METHOD <init> (Lbkz$c;)V
+		ARG 1 settings

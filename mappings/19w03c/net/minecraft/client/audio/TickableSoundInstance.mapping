@@ -1,0 +1,2 @@
+CLASS drb net/minecraft/client/audio/TickableSoundInstance
+	METHOD m isDone ()Z

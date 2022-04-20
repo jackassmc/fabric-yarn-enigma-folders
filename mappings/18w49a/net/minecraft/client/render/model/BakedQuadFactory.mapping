@@ -1,0 +1,4 @@
+CLASS ddr net/minecraft/client/render/model/BakedQuadFactory
+	METHOD a bake (Lcnn;Lcnn;Lddl;Ldlw;Ley;Ldnk;Lddm;Z)Lddj;
+		ARG 3 face
+		ARG 4 texture

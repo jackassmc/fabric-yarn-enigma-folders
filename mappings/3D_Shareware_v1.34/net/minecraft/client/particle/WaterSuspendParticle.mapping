@@ -1,0 +1,2 @@
+CLASS dje net/minecraft/client/particle/WaterSuspendParticle
+	CLASS dje$a UnderwaterFactory

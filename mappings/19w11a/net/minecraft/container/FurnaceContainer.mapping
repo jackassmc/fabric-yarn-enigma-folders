@@ -1,0 +1,5 @@
+CLASS axj net/minecraft/container/FurnaceContainer
+	METHOD <init> (ILaul;)V
+		ARG 1 syncId
+	METHOD <init> (ILaul;Lagk;Laxa;)V
+		ARG 1 syncId

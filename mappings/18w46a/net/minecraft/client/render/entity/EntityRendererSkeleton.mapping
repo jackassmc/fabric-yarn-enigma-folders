@@ -1,0 +1,7 @@
+CLASS dho net/minecraft/client/render/entity/EntityRendererSkeleton
+	CLASS dho$1
+		METHOD an_ init ()V
+	FIELD a SKIN Lpx;
+	METHOD a getTexture (Lagc;)Lpx;
+	METHOD a getTexture (Lagm;)Lpx;
+	METHOD a getTexture (Laog;)Lpx;

@@ -1,0 +1,2 @@
+CLASS bgd net/minecraft/scoreboard/ScoreboardCriterionStat
+	FIELD o stat Lpl;

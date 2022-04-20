@@ -1,0 +1,8 @@
+CLASS cwg net/minecraft/client/gui/container/LecternScreen
+	FIELD g lecternContainer Laul;
+	FIELD h listener Laty;
+	METHOD i sendButtonPressPacket (I)V
+		ARG 1 id
+	METHOD s getContainer ()Laul;
+	METHOD u updatePageProvider ()V
+	METHOD v updatePage ()V

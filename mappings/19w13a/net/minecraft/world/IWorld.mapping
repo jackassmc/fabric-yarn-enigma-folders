@@ -1,0 +1,25 @@
+CLASS bgw net/minecraft/world/IWorld
+	METHOD E getChunkManager ()Lbwo;
+	METHOD F getFluidTickScheduler ()Lbhk;
+	METHOD G getBlockTickScheduler ()Lbhk;
+	METHOD a playSound (Lavm;Lev;Lyh;Lyj;FF)V
+	METHOD a updateNeighbors (Lev;Lbly;)V
+	METHOD a addParticle (Lgd;DDDDDD)V
+		ARG 1 parameters
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z
+		ARG 8 velocityX
+		ARG 10 velocityY
+		ARG 12 velocityZ
+	METHOD aa getMoonPhase ()I
+	METHOD ab getDifficulty ()Lagr;
+	METHOD f getLocalDifficulty (Lev;)Lags;
+		ARG 1 pos
+	METHOD j getSkyAngle (F)F
+		ARG 1 delta
+	METHOD k getRandom ()Ljava/util/Random;
+	METHOD m_ getWorld ()Lbgv;
+	METHOD n_ getSeed ()J
+	METHOD o_ getSpawnPos ()Lev;
+	METHOD p_ getLevelProperties ()Lcnl;

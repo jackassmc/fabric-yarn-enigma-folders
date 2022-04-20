@@ -1,0 +1,15 @@
+CLASS ddx net/minecraft/client/render/item/ItemDynamicRenderer
+	FIELD a INSTANCE Lddx;
+	FIELD b RENDER_SHULKER_BOX_DYED [Lbol;
+	FIELD c RENDER_SHULKER_BOX Lbol;
+	FIELD d renderChestNormal Lbnt;
+	FIELD e renderChestTrapped Lbnt;
+	FIELD f renderChestEnder Lbob;
+	FIELD g renderBanner Lbnj;
+	FIELD h renderBed Lbnn;
+	FIELD i renderSkull Lbon;
+	FIELD j renderConduit Lbnw;
+	FIELD k modelShield Lczu;
+	FIELD l modelTrident Ldaf;
+	METHOD a render (Lawo;)V
+	METHOD a applyEnchantmentGlow (Ljava/lang/Runnable;)V

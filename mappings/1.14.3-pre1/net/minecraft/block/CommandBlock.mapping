@@ -1,0 +1,16 @@
+CLASS bng net/minecraft/block/CommandBlock
+	FIELD a FACING Lbwg;
+	FIELD b CONDITIONAL Lbwd;
+	FIELD c LOGGER Lorg/apache/logging/log4j/Logger;
+	METHOD <init> (Lbmn$c;)V
+		ARG 1 settings
+	METHOD a executeCommandChain (Lbhj;Lev;Lfa;)V
+		ARG 0 world
+		ARG 1 pos
+		ARG 2 facing
+	METHOD a execute (Lbvl;Lbhj;Lev;Lbgp;Z)V
+		ARG 1 state
+		ARG 2 world
+		ARG 3 pos
+		ARG 4 executor
+		ARG 5 hasCommand

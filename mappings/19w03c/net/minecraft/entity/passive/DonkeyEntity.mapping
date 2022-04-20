@@ -1,0 +1,7 @@
+CLASS anj net/minecraft/entity/passive/DonkeyEntity
+	METHOD F getAmbientSound ()Lxr;
+	METHOD a createChild (Lagz;)Lagz;
+	METHOD a canBreedWith (Lami;)Z
+		ARG 1 other
+	METHOD cz getDeathSound ()Lxr;
+	METHOD e getHurtSound (Lagl;)Lxr;

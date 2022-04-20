@@ -1,0 +1,11 @@
+CLASS bnb net/minecraft/block/CauldronBlock
+	FIELD a LEVEL Lbwl;
+	FIELD b OUTLINE_SHAPE Lcss;
+	FIELD c RAY_TRACE_SHAPE Lcss;
+	METHOD <init> (Lbmn$c;)V
+		ARG 1 settings
+	METHOD a setLevel (Lbhj;Lev;Lbvl;I)V
+		ARG 1 world
+		ARG 2 pos
+		ARG 3 state
+		ARG 4 level

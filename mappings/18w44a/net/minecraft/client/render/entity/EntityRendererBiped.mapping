@@ -1,0 +1,10 @@
+CLASS dev net/minecraft/client/render/entity/EntityRendererBiped
+	FIELD a SKIN Lpu;
+	METHOD <init> (Ldei;Lcuk;F)V
+		ARG 1 renderManager
+		ARG 2 model
+		ARG 3 shadowSize
+	METHOD a getTexture (Lafv;)Lpu;
+		ARG 1 model
+	METHOD a getTexture (Lagf;)Lpu;
+		ARG 1 model

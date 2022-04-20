@@ -1,0 +1,2 @@
+CLASS dgy net/minecraft/client/particle/RedDustParticle
+	CLASS dgy$a net/minecraft/client/particle/RedDustParticle$Factory

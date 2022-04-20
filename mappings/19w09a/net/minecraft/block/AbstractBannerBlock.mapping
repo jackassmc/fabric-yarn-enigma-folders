@@ -1,0 +1,3 @@
+CLASS bhj net/minecraft/block/AbstractBannerBlock
+	FIELD a color Lawr;
+	METHOD b getColor ()Lawr;

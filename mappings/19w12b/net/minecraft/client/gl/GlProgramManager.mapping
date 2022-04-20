@@ -1,0 +1,8 @@
+CLASS cta net/minecraft/client/gl/GlProgramManager
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD b INSTANCE Lcta;
+	METHOD a init ()V
+	METHOD a deleteProgram (Lcsy;)V
+	METHOD b getInstance ()Lcta;
+	METHOD b linkProgram (Lcsy;)V
+	METHOD c createProgram ()I

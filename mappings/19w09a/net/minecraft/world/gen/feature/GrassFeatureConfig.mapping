@@ -1,0 +1,6 @@
+CLASS bxf net/minecraft/world/gen/feature/GrassFeatureConfig
+	FIELD a state Lbre;
+	METHOD <init> (Lbre;)V
+		ARG 1 state
+	METHOD a deserialize (Lcom/mojang/datafixers/Dynamic;)Lbxf;
+		ARG 0 dynamic

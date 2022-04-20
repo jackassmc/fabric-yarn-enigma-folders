@@ -1,0 +1,15 @@
+CLASS cyh net/minecraft/client/gui/widget/LevelSelectEntryWidget
+	FIELD c LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD d DATE_FORMAT Ljava/text/DateFormat;
+	FIELD e UNKNOWN_SERVER_TEX Lqh;
+	FIELD f WORLD_SELECTION_TEX Lqh;
+	FIELD g client Lcqn;
+	FIELD h guiLevelSelect Lcyg;
+	FIELD i levelSummary Lcjq;
+	FIELD j iconLocation Lqh;
+	FIELD k levelList Lcyi;
+	FIELD l iconFile Ljava/io/File;
+	FIELD m levelIcon Ldpc;
+	METHOD e loadLevel ()V
+	METHOD i loadLevelInternal ()V
+	METHOD j getLevelIcon ()Ldpc;

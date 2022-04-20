@@ -1,0 +1,83 @@
+CLASS baw net/minecraft/item/CrossbowItem
+	FIELD c charged Z
+	FIELD d loaded Z
+	METHOD a getQuickChargeSound (I)Lym;
+		ARG 1 stage
+	METHOD a getPullProgress (ILbce;)F
+		ARG 0 useTicks
+		ARG 1 stack
+	METHOD a (Lahf;Laiu;)V
+		ARG 1 e
+	METHOD a loadProjectiles (Laiu;Lbce;)Z
+		ARG 0 shooter
+		ARG 1 projectile
+	METHOD a loadProjectile (Laiu;Lbce;Lbce;ZZ)Z
+		ARG 0 shooter
+		ARG 1 crossbow
+		ARG 2 projectile
+		ARG 3 simulated
+		ARG 4 creative
+	METHOD a (Lbbz;Lbce;)Z
+		ARG 1 s
+	METHOD a hasProjectile (Lbce;Lbbz;)Z
+		ARG 0 crossbow
+		ARG 1 projectile
+	METHOD a setCharged (Lbce;Z)V
+		ARG 0 stack
+		ARG 1 charged
+	METHOD a shootAll (Lbhl;Laiu;Lahf;Lbce;FF)V
+		ARG 0 world
+		ARG 1 entity
+		ARG 2 hand
+		ARG 3 stack
+		ARG 4 speed
+		ARG 5 divergence
+	METHOD a shoot (Lbhl;Laiu;Lahf;Lbce;Lbce;FZFFF)V
+		ARG 0 world
+		ARG 1 shooter
+		ARG 2 hand
+		ARG 3 crossbow
+		ARG 4 projectile
+		ARG 5 soundPitch
+		ARG 6 creative
+		ARG 7 speed
+		ARG 8 divergence
+		ARG 9 simulated
+	METHOD a postShoot (Lbhl;Laiu;Lbce;)V
+		ARG 0 world
+		ARG 1 entity
+		ARG 2 stack
+	METHOD a createArrow (Lbhl;Laiu;Lbce;Lbce;)Lawf;
+		ARG 0 world
+		ARG 1 entity
+		ARG 2 crossbow
+		ARG 3 arrow
+	METHOD a getSoundPitches (Ljava/util/Random;)[F
+		ARG 0 random
+	METHOD a getSoundPitch (Z)F
+		ARG 0 flag
+	METHOD b putProjectile (Lbce;Lbce;)V
+		ARG 0 crossbow
+		ARG 1 projectile
+	METHOD b (Lbce;Lbhl;Laiu;)F
+		ARG 0 stack
+		ARG 1 world
+		ARG 2 entity
+	METHOD c (Lbce;Lbhl;Laiu;)F
+		ARG 0 stack
+		ARG 1 world
+		ARG 2 entity
+	METHOD d isCharged (Lbce;)Z
+		ARG 0 stack
+	METHOD d (Lbce;Lbhl;Laiu;)F
+		ARG 0 stack
+		ARG 1 world
+		ARG 2 entity
+	METHOD e getPullTime (Lbce;)I
+		ARG 0 stack
+	METHOD j getProjectiles (Lbce;)Ljava/util/List;
+		ARG 0 crossbow
+	METHOD k clearProjectiles (Lbce;)V
+		ARG 0 crossbow
+	METHOD l getSpeed (Lbce;)F
+		ARG 0 stack

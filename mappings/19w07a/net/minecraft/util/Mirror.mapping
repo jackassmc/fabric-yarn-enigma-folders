@@ -1,0 +1,6 @@
+CLASS bln net/minecraft/util/Mirror
+	FIELD a NONE Lbln;
+	FIELD b LEFT_RIGHT Lbln;
+	FIELD c FRONT_BACK Lbln;
+	METHOD a getRotation (Lew;)Lbmn;
+	METHOD b apply (Lew;)Lew;

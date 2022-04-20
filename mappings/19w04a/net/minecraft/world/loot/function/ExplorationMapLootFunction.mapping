@@ -1,0 +1,21 @@
+CLASS ckm net/minecraft/world/loot/function/ExplorationMapLootFunction
+	CLASS ckm$a Builder
+		FIELD a destination Ljava/lang/String;
+		FIELD b decoration Lcip$a;
+		FIELD c zoom B
+		FIELD d searchRadius I
+		FIELD e skipExistingChunks Z
+		METHOD a create ()Lckm$a;
+		METHOD a zoom (B)Lckm$a;
+		METHOD a decoration (Lcip$a;)Lckm$a;
+		METHOD a destination (Ljava/lang/String;)Lckm$a;
+		METHOD a skipExistingChunks (Z)Lckm$a;
+	CLASS ckm$b Factory
+	FIELD a DEFAULT_DECORATION Lcip$a;
+	FIELD c LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD d destination Ljava/lang/String;
+	FIELD e decoration Lcip$a;
+	FIELD f zoom B
+	FIELD g searchRadius I
+	FIELD h skipExistingChunks Z
+	METHOD b create ()Lckm$a;

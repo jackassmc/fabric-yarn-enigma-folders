@@ -1,0 +1,34 @@
+CLASS ddw net/minecraft/client/render/model/json/ModelTransformations
+	CLASS ddw$b Type
+		FIELD a ORIGIN Lddw$b;
+		FIELD b THIRD_PERSON_LEFT_HAND Lddw$b;
+		FIELD c THIRD_PERSON_RIGHT_HAND Lddw$b;
+		FIELD d FIRST_PERSON_LEFT_HAND Lddw$b;
+		FIELD e FIRST_PERSON_RIGHT_HAND Lddw$b;
+		FIELD f HEAD Lddw$b;
+		FIELD g GUI Lddw$b;
+		FIELD h GROUND Lddw$b;
+		FIELD i FIXED Lddw$b;
+	FIELD a ORIGIN Lddw;
+	FIELD b globalTranslationX F
+	FIELD c globalTranslationY F
+	FIELD d globalTranslationZ F
+	FIELD e globalRotationX F
+	FIELD f globalRotationY F
+	FIELD g globalRotationZ F
+	FIELD h globalScaleOffsetX F
+	FIELD i globalScaleOffsetY F
+	FIELD j globalScaleOffsetZ F
+	FIELD k thirdPersonLeftHand Lddv;
+	FIELD l thirdPersonRightHand Lddv;
+	FIELD m firstPersonLeftHand Lddv;
+	FIELD n firstPersonRightHand Lddv;
+	FIELD o head Lddv;
+	FIELD p gui Lddv;
+	FIELD q ground Lddv;
+	FIELD r fixed Lddv;
+	METHOD a applyGl (Lddv;Z)V
+		ARG 0 transform
+	METHOD a applyGl (Lddw$b;)V
+	METHOD b getTransformation (Lddw$b;)Lddv;
+	METHOD c isTransformationDefined (Lddw$b;)Z

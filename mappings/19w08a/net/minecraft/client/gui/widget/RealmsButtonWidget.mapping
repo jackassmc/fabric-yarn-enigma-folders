@@ -1,0 +1,17 @@
+CLASS ctz net/minecraft/client/gui/widget/RealmsButtonWidget
+	FIELD a realmsButton Lnet/minecraft/realms/RealmsButton;
+	METHOD <init> (Lnet/minecraft/realms/RealmsButton;IILjava/lang/String;)V
+		ARG 1 button
+		ARG 2 id
+		ARG 3 x
+	METHOD <init> (Lnet/minecraft/realms/RealmsButton;IILjava/lang/String;II)V
+		ARG 1 button
+		ARG 2 id
+		ARG 3 x
+		ARG 6 width
+	METHOD b getEnabled ()Z
+	METHOD c getY ()I
+	METHOD c setEnabled (Z)V
+	METHOD d getTexId (Z)I
+	METHOD h getRealmsButton ()Lnet/minecraft/realms/RealmsButton;
+	METHOD i getHeight ()I

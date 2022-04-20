@@ -1,0 +1,14 @@
+CLASS csr net/minecraft/client/toast/ToastManager
+	CLASS csr$a Entry
+		FIELD b instance Lcsq;
+		METHOD <init> (Lcsr;Lcsq;)V
+			ARG 1 instance
+		METHOD a getInstance ()Lcsq;
+		METHOD a draw (II)Z
+	FIELD a client Lcqn;
+	FIELD f visibleEntries [Lcsr$a;
+	FIELD g toastQueue Ljava/util/Deque;
+	METHOD a draw ()V
+	METHOD a add (Lcsq;)V
+	METHOD b clear ()V
+	METHOD c getGame ()Lcqn;

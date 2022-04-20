@@ -1,0 +1,2 @@
+CLASS clk net/minecraft/world/loot/function/SetContentsLootFunction
+	CLASS clk$b Factory

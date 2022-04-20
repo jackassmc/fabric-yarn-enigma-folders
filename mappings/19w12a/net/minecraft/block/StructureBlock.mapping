@@ -1,0 +1,4 @@
+CLASS bqv net/minecraft/block/StructureBlock
+	FIELD a MODE Lbvc;
+	METHOD <init> (Lblg$c;)V
+		ARG 1 settings

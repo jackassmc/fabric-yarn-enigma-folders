@@ -1,0 +1,11 @@
+CLASS chu net/minecraft/entity/ai/pathing/PathMinHeap
+	FIELD a pathNodes [Lchx;
+	FIELD b count I
+	METHOD a clear ()V
+	METHOD a shiftUp (I)V
+	METHOD a push (Lchx;)Lchx;
+	METHOD a setNodeWeight (Lchx;F)V
+		ARG 1 node
+	METHOD b shiftDown (I)V
+	METHOD c pop ()Lchx;
+	METHOD e isEmpty ()Z

@@ -1,0 +1,5 @@
+CLASS ann net/minecraft/entity/ai/goal/WeightedGoal
+	FIELD a goal Laly;
+	FIELD b weight I
+	METHOD h getWeight ()I
+	METHOD j getGoal ()Laly;

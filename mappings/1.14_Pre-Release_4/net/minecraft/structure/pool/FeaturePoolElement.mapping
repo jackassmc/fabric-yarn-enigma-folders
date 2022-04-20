@@ -1,0 +1,5 @@
+CLASS cez net/minecraft/structure/pool/FeaturePoolElement
+	FIELD a feature Lbzz;
+	FIELD b tag Lib;
+	METHOD <init> (Lbzz;)V
+		ARG 1 feature

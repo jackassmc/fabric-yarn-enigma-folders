@@ -1,0 +1,9 @@
+CLASS cpf net/minecraft/client/render/GuiLighting
+	FIELD a buffer Ljava/nio/FloatBuffer;
+	FIELD b towardLight Lcpz;
+	FIELD c oppositeLight Lcpz;
+	METHOD a disable ()V
+	METHOD a createNormalVector (FFF)Lcpz;
+	METHOD a singletonBuffer (FFFF)Ljava/nio/FloatBuffer;
+	METHOD b enable ()V
+	METHOD c enableForItems ()V

@@ -1,0 +1,2 @@
+CLASS hk net/minecraft/data/validate/StructureValidatorProvider
+	FIELD b generator Lge;

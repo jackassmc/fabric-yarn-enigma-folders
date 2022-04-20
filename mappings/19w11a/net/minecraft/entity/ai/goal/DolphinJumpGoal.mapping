@@ -1,0 +1,9 @@
+CLASS alf net/minecraft/entity/ai/goal/DolphinJumpGoal
+	FIELD b dolphin Lapn;
+	FIELD c chance I
+	METHOD <init> (Lapn;I)V
+		ARG 2 chance
+	METHOD a isWater (Leu;III)Z
+		ARG 1 pos
+	METHOD b isAir (Leu;III)Z
+		ARG 1 pos

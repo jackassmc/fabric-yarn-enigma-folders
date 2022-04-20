@@ -1,0 +1,6 @@
+CLASS net/minecraft/class_3175 net/minecraft/world/gen/feature/SimpleBlockFeatureConfig
+	FIELD comp_156 toPlace Lnet/minecraft/class_4651;
+	FIELD field_24909 CODEC Lcom/mojang/serialization/Codec;
+	METHOD <init> (Lnet/minecraft/class_4651;)V
+		ARG 1 toPlace
+	METHOD comp_156 toPlace ()Lnet/minecraft/class_4651;

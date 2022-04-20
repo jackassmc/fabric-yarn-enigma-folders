@@ -1,0 +1,4 @@
+CLASS bfv net/minecraft/enchantment/DepthStriderEnchantment
+	METHOD <init> (Lbey$a;[Laie;)V
+		ARG 1 weight
+		ARG 2 slotTypes

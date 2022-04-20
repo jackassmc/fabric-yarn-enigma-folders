@@ -1,0 +1,4 @@
+CLASS bmu net/minecraft/block/CarrotsBlock
+	FIELD a AGE_TO_SHAPE [Lcsn;
+	METHOD <init> (Lbmj$c;)V
+		ARG 1 settings

@@ -1,0 +1,25 @@
+CLASS apy net/minecraft/entity/mob/VindicatorEntity
+	CLASS apy$a VindicatorBreakDoorGoal
+		METHOD a canStart ()Z
+		METHOD c start ()V
+	CLASS apy$b
+		METHOD a canStart ()Z
+		METHOD c start ()V
+	CLASS apy$c
+		METHOD a canStart ()Z
+		METHOD b shouldContinue ()Z
+		METHOD c start ()V
+		METHOD d onRemove ()V
+	METHOD D getAmbientSound ()Lxg;
+	METHOD H mobTick ()V
+	METHOD a initEquipment (Lafc;)V
+	METHOD a (Lbat;Lafc;Lagw;Lahe;Lhq;)Lahe;
+		ARG 3 difficulty
+	METHOD a readCustomDataFromTag (Lhq;)V
+	METHOD b writeCustomDataToTag (Lhq;)V
+	METHOD b setCustomName (Ljb;)V
+	METHOD ca initAttributes ()V
+	METHOD cv getDeathSound ()Lxg;
+	METHOD e getHurtSound (Laft;)Lxg;
+	METHOD n initAi ()V
+	METHOD r isTeammate (Lagk;)Z

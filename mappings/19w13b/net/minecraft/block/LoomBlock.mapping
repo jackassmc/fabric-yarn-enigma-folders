@@ -1,0 +1,4 @@
+CLASS bpg net/minecraft/block/LoomBlock
+	FIELD a CONTAINER_NAME Ljw;
+	METHOD <init> (Lbly$c;)V
+		ARG 1 settings

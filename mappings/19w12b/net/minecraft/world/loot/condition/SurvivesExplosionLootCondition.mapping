@@ -1,0 +1,3 @@
+CLASS cpn net/minecraft/world/loot/condition/SurvivesExplosionLootCondition
+	CLASS cpn$a Factory
+	FIELD a INSTANCE Lcpn;

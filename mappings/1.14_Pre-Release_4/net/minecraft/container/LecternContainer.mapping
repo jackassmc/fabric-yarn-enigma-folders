@@ -1,0 +1,9 @@
+CLASS ayy net/minecraft/container/LecternContainer
+	FIELD c inventory Lags;
+	FIELD d propertyDelegate Layj;
+	METHOD <init> (I)V
+		ARG 1 syncId
+	METHOD <init> (ILags;Layj;)V
+		ARG 1 syncId
+	METHOD e getBookItem ()Lbbz;
+	METHOD f getPage ()I

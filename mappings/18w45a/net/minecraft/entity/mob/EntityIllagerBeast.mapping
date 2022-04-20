@@ -1,0 +1,22 @@
+CLASS aoq net/minecraft/entity/mob/EntityIllagerBeast
+	CLASS aoq$b
+		METHOD <init> (Lagi;Lazy;)V
+			ARG 0 entity
+			ARG 1 world
+		METHOD a createPathNodeNavigator ()Lcec;
+	METHOD D getSoundAmbient ()Lwz;
+	METHOD D canSee (Lafy;)Z
+	METHOD F getLootTableId ()Lpw;
+	METHOD a (Lazz;Laeq;Lagk;Lagr;Lho;)Lagr;
+		ARG 3 difficulty
+	METHOD a playStepSound (Les;Lbno;)V
+		ARG 1 pos
+	METHOD a deserializeCustomData (Lho;)V
+	METHOD aL getMountedHeightOffset ()D
+	METHOD b createNavigation (Lazy;)Lakg;
+	METHOD b serializeCustomData (Lho;)V
+	METHOD cb initAttributes ()V
+	METHOD cw getSoundDeath ()Lwz;
+	METHOD e getSoundHurt (Lafh;)Lwz;
+	METHOD k updateMovement ()V
+	METHOD n initAi ()V

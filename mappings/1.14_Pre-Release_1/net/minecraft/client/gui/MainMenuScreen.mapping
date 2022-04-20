@@ -1,0 +1,35 @@
+CLASS czm net/minecraft/client/gui/MainMenuScreen
+	FIELD a panoramaCubeMap Ldju;
+	FIELD b OUTDATED_GL_TEXT Ljava/lang/String;
+	FIELD c panoramaOverlay Lqs;
+	FIELD f splashText Ljava/lang/String;
+	FIELD g buttonResetDemo Lcwg;
+	FIELD h mutex Ljava/lang/Object;
+	FIELD i warningTextWidth I
+	FIELD j warningTitleWidth I
+	FIELD k warningAlignLeft I
+	FIELD l warningAlignTop I
+	FIELD m warningAlignRight I
+	FIELD n warningAlignBottom I
+	FIELD o warningTitle Ljava/lang/String;
+	FIELD p warningText Ljava/lang/String;
+	FIELD q warningLink Ljava/lang/String;
+	FIELD r MINECRAFT_TITLE_TEXTURE Lqs;
+	FIELD s EDITION_TITLE_TEXTURE Lqs;
+	FIELD t realmsNotificationsInitialized Z
+	FIELD u realmsNotificationGui Lczi;
+	FIELD v copyrightTextWidth I
+	FIELD w copyrightTextX I
+	FIELD x backgroundRenderer Ldkh;
+	FIELD y doBackgroundFade Z
+	FIELD z backgroundFadeStart J
+	METHOD <init> (Z)V
+		ARG 1 doBackgroundFade
+	METHOD a areRealmsNotificationsEnabled ()Z
+	METHOD a initWidgetsNormal (II)V
+		ARG 1 y
+		ARG 2 spacingY
+	METHOD b switchToRealms ()V
+	METHOD b initWidgetsDemo (II)V
+		ARG 1 y
+		ARG 2 spacingY

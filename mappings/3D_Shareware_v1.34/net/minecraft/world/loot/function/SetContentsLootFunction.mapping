@@ -1,0 +1,2 @@
+CLASS cpo net/minecraft/world/loot/function/SetContentsLootFunction
+	CLASS cpo$b Factory

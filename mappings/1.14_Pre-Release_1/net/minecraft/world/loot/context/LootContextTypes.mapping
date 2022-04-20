@@ -1,0 +1,33 @@
+CLASS cqf net/minecraft/world/loot/context/LootContextTypes
+	FIELD a EMPTY Lcqe;
+	FIELD b CHEST Lcqe;
+	FIELD c FISHING Lcqe;
+	FIELD d ENTITY Lcqe;
+	FIELD e GIFT Lcqe;
+	FIELD f ADVANCEMENT_REWARD Lcqe;
+	FIELD g GENERIC Lcqe;
+	FIELD h BLOCK Lcqe;
+	FIELD i MAP Lcom/google/common/collect/BiMap;
+	METHOD a (Lcqe$a;)V
+		ARG 0 contextTypeBuilder
+	METHOD a getId (Lcqe;)Lqs;
+		ARG 0 contextType
+	METHOD a register (Ljava/lang/String;Ljava/util/function/Consumer;)Lcqe;
+		ARG 0 type
+		ARG 1 contextTypeBuilder
+	METHOD a get (Lqs;)Lcqe;
+		ARG 0 id
+	METHOD b (Lcqe$a;)V
+		ARG 0 contextTypeBuilder
+	METHOD c (Lcqe$a;)V
+		ARG 0 contextTypeBuilder
+	METHOD d (Lcqe$a;)V
+		ARG 0 contextTypeBuilder
+	METHOD e (Lcqe$a;)V
+		ARG 0 contextTypeBuilder
+	METHOD f (Lcqe$a;)V
+		ARG 0 contextTypeBuilder
+	METHOD g (Lcqe$a;)V
+		ARG 0 contextTypeBuilder
+	METHOD h (Lcqe$a;)V
+		ARG 0 contextTypeBuilder

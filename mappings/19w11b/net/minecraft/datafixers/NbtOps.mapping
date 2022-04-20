@@ -1,0 +1,2 @@
+CLASS im net/minecraft/datafixers/NbtOps
+	FIELD a INSTANCE Lim;

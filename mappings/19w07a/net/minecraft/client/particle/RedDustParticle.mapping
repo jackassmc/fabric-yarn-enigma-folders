@@ -1,0 +1,2 @@
+CLASS ddl net/minecraft/client/particle/RedDustParticle
+	CLASS ddl$a Factory

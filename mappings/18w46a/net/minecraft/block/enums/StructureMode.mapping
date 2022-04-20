@@ -1,0 +1,7 @@
+CLASS bpn net/minecraft/block/enums/StructureMode
+	FIELD a SAVE Lbpn;
+	FIELD b LOAD Lbpn;
+	FIELD c CORNER Lbpn;
+	FIELD d DATA Lbpn;
+	FIELD e name Ljava/lang/String;
+	METHOD m asString ()Ljava/lang/String;

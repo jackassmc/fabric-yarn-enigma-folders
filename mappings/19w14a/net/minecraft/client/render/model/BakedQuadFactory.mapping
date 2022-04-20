@@ -1,0 +1,10 @@
+CLASS dkx net/minecraft/client/render/model/BakedQuadFactory
+	METHOD a bake (Lb;Lb;Ldkr;Ldtq;Lfa;Ldvk;Ldks;Z)Ldkp;
+		ARG 1 from
+		ARG 2 to
+		ARG 3 face
+		ARG 4 texture
+		ARG 5 side
+		ARG 6 rotationContainer
+		ARG 7 rotation
+		ARG 8 shade

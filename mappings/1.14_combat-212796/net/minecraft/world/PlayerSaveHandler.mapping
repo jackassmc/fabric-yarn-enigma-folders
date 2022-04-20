@@ -1,0 +1,3 @@
+CLASS coo net/minecraft/world/PlayerSaveHandler
+	METHOD a savePlayerData (Lawb;)V
+	METHOD b loadPlayerData (Lawb;)Lic;

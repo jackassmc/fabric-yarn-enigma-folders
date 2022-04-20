@@ -1,0 +1,3 @@
+CLASS bmc net/minecraft/block/BarrierBlock
+	METHOD <init> (Lbmr$c;)V
+		ARG 1 settings

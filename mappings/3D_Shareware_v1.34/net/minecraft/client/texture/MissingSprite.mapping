@@ -1,0 +1,7 @@
+CLASS dty net/minecraft/client/texture/MissingSprite
+	FIELD k MISSINGNO Lqr;
+	FIELD l TEXTURE Ldtu;
+	FIELD m IMAGE Lzn;
+	METHOD a getMissingSprite ()Ldty;
+	METHOD b getMissingSpriteId ()Lqr;
+	METHOD d getMissingSpriteTexture ()Ldtu;

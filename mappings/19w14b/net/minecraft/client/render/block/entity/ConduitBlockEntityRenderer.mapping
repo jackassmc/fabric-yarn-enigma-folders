@@ -1,0 +1,23 @@
+CLASS dmb net/minecraft/client/render/block/entity/ConduitBlockEntityRenderer
+	CLASS dmb$a CageModel
+		FIELD a cuboid Ldgp;
+		METHOD a render (FFFFFF)V
+	CLASS dmb$b EyeModel
+		FIELD a cuboid Ldgp;
+		METHOD a render (FFFFFF)V
+	CLASS dmb$c BaseModel
+		FIELD a cuboid Ldgp;
+		METHOD a render (FFFFFF)V
+	CLASS dmb$d WindModel
+		FIELD a cuboids [Ldgp;
+		METHOD a render (FFFFFF)V
+	FIELD c BASE_TEX Lqs;
+	FIELD d CAGE_TEX Lqs;
+	FIELD e WIND_TEX Lqs;
+	FIELD f WIND_VERTICAL_TEX Lqs;
+	FIELD g OPEN_EYE_TEX Lqs;
+	FIELD h CLOSED_EYE_TEX Lqs;
+	FIELD i baseModel Ldmb$c;
+	FIELD j cageModel Ldmb$a;
+	FIELD k windModel Ldmb$d;
+	FIELD l eyeModel Ldmb$b;

@@ -1,0 +1,8 @@
+CLASS cwe net/minecraft/client/font/FontManager
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD b textRenderers Ljava/util/Map;
+	FIELD c fonts Ljava/util/Set;
+	FIELD d textureManager Ldtd;
+	FIELD e forceUnicodeFont Z
+	METHOD a getTextRenderer (Lqp;)Lcui;
+	METHOD a setForceUnicodeFont (ZLjava/util/concurrent/Executor;Ljava/util/concurrent/Executor;)V

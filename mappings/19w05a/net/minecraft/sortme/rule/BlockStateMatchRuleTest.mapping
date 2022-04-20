@@ -1,0 +1,4 @@
+CLASS cdw net/minecraft/sortme/rule/BlockStateMatchRuleTest
+	FIELD a blockState Lbqp;
+	METHOD <init> (Lbqp;)V
+		ARG 1 blockState

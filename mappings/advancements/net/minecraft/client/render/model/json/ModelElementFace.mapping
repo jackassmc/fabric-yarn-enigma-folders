@@ -1,0 +1,5 @@
+CLASS bua net/minecraft/client/render/model/json/ModelElementFace
+	FIELD a NULL_FACING Lee;
+	FIELD b cullFace Lee;
+	FIELD c tintIndex I
+	FIELD d texture Ljava/lang/String;

@@ -1,0 +1,3 @@
+CLASS blp net/minecraft/block/MagmaBlock
+	METHOD <init> (Lbig$c;)V
+		ARG 1 settings

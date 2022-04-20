@@ -1,0 +1,11 @@
+CLASS csn net/minecraft/client/font/EmptyGlyphRenderer
+	METHOD a getId ()Lqe;
+	METHOD a draw (Ldol;ZFFLcpj;FFFF)V
+		ARG 2 italic
+		ARG 3 x
+		ARG 4 y
+		ARG 5 buffer
+		ARG 6 red
+		ARG 7 green
+		ARG 8 blue
+		ARG 9 alpha

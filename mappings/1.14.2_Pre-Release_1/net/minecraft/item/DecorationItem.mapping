@@ -1,0 +1,7 @@
+CLASS bbt net/minecraft/item/DecorationItem
+	FIELD a entityType Laim;
+	METHOD a canPlaceOn (Lavy;Lfa;Lbcb;Lev;)Z
+		ARG 1 player
+		ARG 2 facing
+		ARG 3 stack
+		ARG 4 pos

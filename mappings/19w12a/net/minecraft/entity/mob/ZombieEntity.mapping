@@ -1,0 +1,14 @@
+CLASS auc net/minecraft/entity/mob/ZombieEntity
+	CLASS auc$a DestroyEggGoal
+	FIELD bA BABY Lqf;
+	FIELD b BABY_SPEED_ID Ljava/util/UUID;
+	FIELD c BABY_SPEED_BONUS Laiz;
+	FIELD d SPAWN_REINFORCEMENTS Laix;
+	METHOD <init> (Laic;Lbgf;)V
+		ARG 1 type
+	METHOD dR getStepSound ()Lyg;
+	METHOD dS getSkull ()Lbaz;
+	METHOD dY isDrowning ()Z
+	METHOD dZ canBreakDoors ()Z
+	METHOD s setBreakDoors (Z)V
+	METHOD t setChild (Z)V

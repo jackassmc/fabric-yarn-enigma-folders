@@ -1,0 +1,4 @@
+CLASS axz net/minecraft/enchantment/EnchantmentSilkTouch
+	METHOD a getHighestLevel ()I
+	METHOD a differs (Laxe;)Z
+		ARG 0 other

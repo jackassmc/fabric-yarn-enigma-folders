@@ -1,0 +1,11 @@
+CLASS czs net/minecraft/client/render/block/entity/BlockEntityShulkerBox
+	FIELD c model Lcto;
+	METHOD <init> (Lcto;)V
+		ARG 0 model
+	METHOD a render (Lbkf;DDDFI)V
+	METHOD a render (Lbky;DDDFI)V
+		ARG 0 shulkerBox
+		ARG 1 posX
+		ARG 2 posY
+		ARG 3 posZ
+		ARG 5 destroyStage

@@ -1,0 +1,7 @@
+CLASS cay net/minecraft/client/render/entity/EntityRendererThrownPotion
+	METHOD <init> (Lbzd;Lbzu;)V
+		ARG 0 renderManager
+		ARG 1 itemRenderer
+	METHOD a getItemStack (Laex;)Lain;
+		ARG 0 potion
+	METHOD e getItemStack (Lve;)Lain;

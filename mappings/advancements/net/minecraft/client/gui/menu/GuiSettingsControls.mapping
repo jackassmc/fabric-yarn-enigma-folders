@@ -1,0 +1,13 @@
+CLASS bkh net/minecraft/client/gui/menu/GuiSettingsControls
+	FIELD a title Ljava/lang/String;
+	FIELD h SETTINGS [Lbgo$a;
+	FIELD i parent Lbjn;
+	FIELD s settings Lbgo;
+	FIELD u resetButton Lbhk;
+	METHOD a onKeyPressed (CI)V
+	METHOD a draw (IIF)V
+	METHOD a onMousePressed (III)V
+	METHOD a onWidgetPressed (Lbhk;)V
+	METHOD b init ()V
+	METHOD b onMouseReleased (III)V
+	METHOD k handleMouseEvent ()V

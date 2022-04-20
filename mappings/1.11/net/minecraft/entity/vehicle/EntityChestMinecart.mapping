@@ -1,0 +1,13 @@
+CLASS aby net/minecraft/entity/vehicle/EntityChestMinecart
+	METHOD a createContainer (Laaw;Laax;)Lack;
+		ARG 0 playerInv
+		ARG 1 player
+	METHOD a dropItems (Lrx;)V
+		ARG 0 source
+	METHOD b registerTagUpgraders (Lph;)V
+		ARG 0 handler
+	METHOD l getContainerId ()Ljava/lang/String;
+	METHOD v getMinecartType ()Labx$a;
+	METHOD v_ getInvSize ()I
+	METHOD x getDefaultContainedBlock ()Latj;
+	METHOD z getDefaultBlockOffset ()I

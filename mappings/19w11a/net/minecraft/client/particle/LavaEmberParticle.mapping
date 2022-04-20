@@ -1,0 +1,2 @@
+CLASS dhk net/minecraft/client/particle/LavaEmberParticle
+	CLASS dhk$a net/minecraft/client/particle/LavaEmberParticle$Factory

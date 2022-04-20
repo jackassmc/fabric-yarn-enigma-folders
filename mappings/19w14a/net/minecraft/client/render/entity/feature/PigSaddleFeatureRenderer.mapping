@@ -1,0 +1,4 @@
+CLASS dsm net/minecraft/client/render/entity/feature/PigSaddleFeatureRenderer
+	FIELD a SKIN Lqr;
+	METHOD <init> (Ldqg;)V
+		ARG 1 context

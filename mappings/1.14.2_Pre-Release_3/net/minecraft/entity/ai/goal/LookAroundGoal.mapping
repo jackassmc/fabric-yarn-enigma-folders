@@ -1,0 +1,7 @@
+CLASS ant net/minecraft/entity/ai/goal/LookAroundGoal
+	FIELD a mob Lais;
+	FIELD b deltaX D
+	FIELD c deltaZ D
+	FIELD d lookTime I
+	METHOD <init> (Lais;)V
+		ARG 1 mob

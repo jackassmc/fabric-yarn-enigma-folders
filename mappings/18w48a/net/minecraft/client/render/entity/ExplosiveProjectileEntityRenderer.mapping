@@ -1,0 +1,3 @@
+CLASS dgy net/minecraft/client/render/entity/ExplosiveProjectileEntityRenderer
+	METHOD a getTexture (Lagi;)Lpy;
+	METHOD a getTexture (Laqo;)Lpy;

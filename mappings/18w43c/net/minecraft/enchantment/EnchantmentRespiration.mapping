@@ -1,0 +1,2 @@
+CLASS axq net/minecraft/enchantment/EnchantmentRespiration
+	METHOD a getHighestLevel ()I

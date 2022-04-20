@@ -1,0 +1,23 @@
+CLASS ib net/minecraft/network/packet/client/CPacketExplosion
+	FIELD a x D
+	FIELD b y D
+	FIELD c z D
+	FIELD d radius F
+	FIELD e affectedBlocks Ljava/util/List;
+	FIELD f playerVelocityX F
+	FIELD g playerVelocityY F
+	FIELD h playerVelocityZ F
+	METHOD a getPlayerVelocityX ()F
+	METHOD a readPacket (Lgb;)V
+		ARG 0 buf
+	METHOD a applyPacket (Lge;)V
+	METHOD a applyPacket (Lgy;)V
+	METHOD b getPlayerVelocityY ()F
+	METHOD b writePacket (Lgb;)V
+		ARG 0 buf
+	METHOD c getPlayerVelocityZ ()F
+	METHOD d getX ()D
+	METHOD e getY ()D
+	METHOD f getZ ()D
+	METHOD g getRadius ()F
+	METHOD h getAffectedBlocks ()Ljava/util/List;

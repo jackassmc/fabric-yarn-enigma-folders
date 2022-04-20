@@ -1,0 +1,11 @@
+CLASS den net/minecraft/client/render/block/entity/BlockEntityRenderer
+	FIELD a DESTROY_STAGE_TEXTURES [Lpz;
+	FIELD b renderManager Ldem;
+	METHOD a getWorld ()Lbas;
+	METHOD a render (Lbmq;DDDFI)V
+		ARG 1 entity
+		ARG 2 xOffset
+		ARG 4 yOffset
+	METHOD a setRenderManager (Ldem;)V
+	METHOD a bindTexture (Lpz;)V
+	METHOD b getFontRenderer ()Lcou;

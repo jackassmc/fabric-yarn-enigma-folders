@@ -1,0 +1,64 @@
+CLASS bqh net/minecraft/block/entity/StructureBlockBlockEntity
+	CLASS bqh$a Action
+	FIELD a structureName Lqi;
+	FIELD b author Ljava/lang/String;
+	FIELD c metadata Ljava/lang/String;
+	FIELD g offset Les;
+	FIELD h size Les;
+	FIELD i mirror Lblr;
+	FIELD j rotation Lbmr;
+	FIELD k mode Lbsm;
+	FIELD l ignoreEntities Z
+	FIELD m powered Z
+	FIELD n showAir Z
+	FIELD o showBoundingBox Z
+	FIELD p integrity F
+	FIELD q seed J
+	METHOD A detectStructureSize ()Z
+	METHOD B saveStructure ()Z
+	METHOD C loadStructure ()Z
+	METHOD D unloadStructure ()V
+	METHOD E isStructureAvailable ()Z
+	METHOD F isPowered ()Z
+	METHOD G shouldShowAir ()Z
+	METHOD H shouldShowBoundingBox ()Z
+	METHOD J updateBlockMode ()V
+	METHOD a setIntegrity (F)V
+	METHOD a setSeed (J)V
+	METHOD a setAuthor (Lahv;)V
+	METHOD a openScreen (Larz;)Z
+	METHOD a setMode (Lbsm;)V
+	METHOD a findStructureBlockEntities (Les;Les;)Ljava/util/List;
+		ARG 1 pos1
+		ARG 2 pos2
+	METHOD a makeBoundingBox (Les;Ljava/util/List;)Lcdi;
+		ARG 1 center
+		ARG 2 corners
+	METHOD a setStructureName (Ljava/lang/String;)V
+	METHOD a findCorners (Ljava/util/List;)Ljava/util/List;
+		ARG 1 structureBlockEntities
+	METHOD a setStructureName (Lqi;)V
+	METHOD a setIgnoreEntities (Z)V
+	METHOD b setMirror (Lblr;)V
+	METHOD b setRotation (Lbmr;)V
+	METHOD b setOffset (Les;)V
+	METHOD b setMetadata (Ljava/lang/String;)V
+	METHOD b saveStructure (Z)Z
+	METHOD c getStructureName ()Ljava/lang/String;
+	METHOD c setSize (Les;)V
+	METHOD c loadStructure (Z)Z
+	METHOD d hasStructureName ()Z
+	METHOD d setPowered (Z)V
+	METHOD e setShowAir (Z)V
+	METHOD f getOffset ()Les;
+	METHOD f setShowBoundingBox (Z)V
+		ARG 1 showBoundingBox
+	METHOD g getSize ()Les;
+	METHOD h getMirror ()Lblr;
+	METHOD i getRotation ()Lbmr;
+	METHOD t getMetadata ()Ljava/lang/String;
+	METHOD u getMode ()Lbsm;
+	METHOD v cycleMode ()V
+	METHOD x shouldIgnoreEntities ()Z
+	METHOD y getIntegrity ()F
+	METHOD z getSeed ()J

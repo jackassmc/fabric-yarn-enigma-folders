@@ -1,0 +1,11 @@
+CLASS bwt net/minecraft/client/render/entity/EntityRendererWolf
+	FIELD a WILD_SKIN Lkq;
+	FIELD k ANGRY_SKIN Lkq;
+	METHOD a getTexture (Lsm;)Lkq;
+		ARG 0 model
+	METHOD a (Lsm;DDDFF)V
+	METHOD a (Lsv;DDDFF)V
+	METHOD a (Lsw;DDDFF)V
+	METHOD a getTexture (Lxj;)Lkq;
+		ARG 0 model
+	METHOD a (Lxj;DDDFF)V

@@ -1,0 +1,2 @@
+CLASS col net/minecraft/client/font/BlankGlyph
+	FIELD a INSTANCE Lcol;

@@ -1,0 +1,2 @@
+CLASS aap net/minecraft/datafixers/fixes/BlockEntitySignTextStrictJsonFix
+	FIELD a GSON Lcom/google/gson/Gson;

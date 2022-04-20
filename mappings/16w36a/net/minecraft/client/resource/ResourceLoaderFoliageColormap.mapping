@@ -1,0 +1,4 @@
+CLASS none/bxy net/minecraft/client/resource/ResourceLoaderFoliageColormap
+	FIELD a FOLIAGE_COLORMAP_LOC Lnone/kp;
+	METHOD a onResourceReload (Lnone/byc;)V
+		ARG 0 container

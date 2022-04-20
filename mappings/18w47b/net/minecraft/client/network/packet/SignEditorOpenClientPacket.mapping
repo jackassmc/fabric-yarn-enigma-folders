@@ -1,0 +1,7 @@
+CLASS lh net/minecraft/client/network/packet/SignEditorOpenClientPacket
+	FIELD a pos Let;
+	METHOD a read (Liq;)V
+	METHOD a apply (Lit;)V
+	METHOD a apply (Ljr;)V
+	METHOD b getPos ()Let;
+	METHOD b write (Liq;)V

@@ -1,0 +1,2 @@
+CLASS awm net/minecraft/item/SeedsItem
+	METHOD a useOnBlock (Laxh;)Laff;

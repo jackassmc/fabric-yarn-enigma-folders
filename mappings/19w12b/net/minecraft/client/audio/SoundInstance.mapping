@@ -1,0 +1,16 @@
+CLASS dvp net/minecraft/client/audio/SoundInstance
+	CLASS dvp$a AttenuationType
+		FIELD a NONE Ldvp$a;
+		FIELD b LINEAR Ldvp$a;
+	METHOD a getId ()Lqq;
+	METHOD a getSoundSet (Ldwp;)Ldwq;
+	METHOD b getSound ()Ldvm;
+	METHOD c getCategory ()Lyi;
+	METHOD d isRepeatable ()Z
+	METHOD e getRepeatDelay ()I
+	METHOD f getVolume ()F
+	METHOD g getPitch ()F
+	METHOD h getX ()F
+	METHOD i getY ()F
+	METHOD j getZ ()F
+	METHOD k getAttenuationType ()Ldvp$a;

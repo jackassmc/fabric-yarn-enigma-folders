@@ -1,0 +1,28 @@
+CLASS cqu net/minecraft/client/gui/menu/GuiSettingsControls
+	CLASS cqu$1
+		METHOD a onPressed (DD)V
+			ARG 0 mouseX
+	CLASS cqu$2
+		METHOD a onPressed (DD)V
+			ARG 0 mouseX
+	CLASS cqu$3
+		METHOD a onPressed (DD)V
+			ARG 0 mouseX
+	FIELD a title Ljava/lang/String;
+	FIELD h SETTINGS [Lclz$a;
+	FIELD i parent Lcqc;
+	FIELD s settings Lclz;
+	FIELD u resetButton Lcmu;
+	METHOD <init> (Lcqc;Lclz;)V
+		ARG 1 parent
+	METHOD a draw (IIF)V
+		ARG 1 mouseX
+		ARG 2 mouseY
+	METHOD c onInitialized ()V
+	METHOD keyPressed (III)Z
+		ARG 1 keyCode
+		ARG 2 scanCode
+	METHOD mouseClicked (DDI)Z
+		ARG 1 mouseX
+	METHOD mouseReleased (DDI)Z
+		ARG 1 mouseX

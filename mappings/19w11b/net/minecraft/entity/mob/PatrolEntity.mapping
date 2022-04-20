@@ -1,0 +1,16 @@
+CLASS atc net/minecraft/entity/mob/PatrolEntity
+	CLASS atc$a PatrolGoal
+	FIELD b patrolTarget Leu;
+	FIELD c patrolLeader Z
+	FIELD d patrolling Z
+	METHOD <init> (Laia;Lbfx;)V
+		ARG 1 type
+	METHOD dP canLead ()Z
+	METHOD dQ getPatrolTarget ()Leu;
+	METHOD dR hasPatrolTarget ()Z
+	METHOD dS isPatrolLeader ()Z
+	METHOD dT hasNoRaid ()Z
+	METHOD dV setRandomRaidCenter ()V
+	METHOD dW isRaidCenterSet ()Z
+	METHOD i setRaidCenter (Leu;)V
+	METHOD q setPatrolLeader (Z)V

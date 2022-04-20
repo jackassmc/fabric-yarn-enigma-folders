@@ -1,0 +1,16 @@
+CLASS ctb net/minecraft/client/font/UnicodeTextureFont
+	CLASS ctb$a Loader
+	CLASS ctb$b UnicodeTextureGlyph
+		FIELD a width I
+		FIELD b height I
+		FIELD c unpackSkipPixels I
+		FIELD d unpackSkipRows I
+		FIELD e image Lcoy;
+		METHOD <init> (IIIILcoy;)V
+			ARG 1 unpackSkipPixels
+			ARG 2 unpackSkipRows
+			ARG 3 width
+			ARG 4 height
+			ARG 5 image
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD c widths [B

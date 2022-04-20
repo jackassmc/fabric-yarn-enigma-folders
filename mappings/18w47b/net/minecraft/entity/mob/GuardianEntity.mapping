@@ -1,0 +1,23 @@
+CLASS aoz net/minecraft/entity/mob/GuardianEntity
+	CLASS aoz$a
+		METHOD a canStart ()Z
+		METHOD b shouldContinue ()Z
+		METHOD c start ()V
+		METHOD d onRemove ()V
+		METHOD e tick ()V
+	CLASS aoz$c
+		METHOD a tick ()V
+	METHOD <init> (Lagj;Lban;)V
+		ARG 1 type
+	METHOD D getSoundAmbient ()Lxd;
+	METHOD a damage (Lafo;F)Z
+		ARG 1 source
+	METHOD a onTrackedDataSet (Lpn;)V
+	METHOD b createNavigation (Lban;)Lakq;
+	METHOD bH getEyeHeight ()F
+	METHOD cb initAttributes ()V
+	METHOD cw getSoundDeath ()Lxd;
+	METHOD e getSoundHurt (Lafo;)Lxd;
+	METHOD k updateMovement ()V
+	METHOD n initAi ()V
+	METHOD y_ initDataTracker ()V

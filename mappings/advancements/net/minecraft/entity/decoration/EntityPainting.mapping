@@ -1,0 +1,44 @@
+CLASS aax net/minecraft/entity/decoration/EntityPainting
+	CLASS aax$a Type
+		FIELD A MAX_TITLE_LENGTH I
+		FIELD B title Ljava/lang/String;
+		FIELD C width I
+		FIELD D height I
+		FIELD E u I
+		FIELD F v I
+		FIELD a KEBAB Laax$a;
+		FIELD b AZTEC Laax$a;
+		FIELD c ALBAN Laax$a;
+		FIELD d AZTEC2 Laax$a;
+		FIELD e BOMB Laax$a;
+		FIELD f PLANT Laax$a;
+		FIELD g WASTELAND Laax$a;
+		FIELD h POOL Laax$a;
+		FIELD i COURBET Laax$a;
+		FIELD j SEA Laax$a;
+		FIELD k SUNSET Laax$a;
+		FIELD l CREEBET Laax$a;
+		FIELD m WANDERER Laax$a;
+		FIELD n GRAHAM Laax$a;
+		FIELD o MATCH Laax$a;
+		FIELD p BUST Laax$a;
+		FIELD q STAGE Laax$a;
+		FIELD r VOID Laax$a;
+		FIELD s SKULL_AND_ROSES Laax$a;
+		FIELD t WITHER Laax$a;
+		FIELD u FIGHTERS Laax$a;
+		FIELD v POINTER Laax$a;
+		FIELD w PIGSCENE Laax$a;
+		FIELD x BURNING_SKULL Laax$a;
+		FIELD y SKELETON Laax$a;
+		FIELD z DONKEY_KONG Laax$a;
+	FIELD c type Laax$a;
+	METHOD a setPositionAndRotations (DDDFFIZ)V
+	METHOD a deserializeCustomData (Lfc;)V
+		ARG 0 tag
+	METHOD b setPositionAndAngles (DDDFF)V
+	METHOD b serializeCustomData (Lfc;)V
+		ARG 0 tag
+	METHOD l getWidthPixels ()I
+	METHOD n getHeightPixels ()I
+	METHOD p onDecorationPlaced ()V

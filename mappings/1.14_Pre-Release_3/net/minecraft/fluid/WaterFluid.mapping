@@ -1,0 +1,3 @@
+CLASS clc net/minecraft/fluid/WaterFluid
+	CLASS clc$a Flowing
+	CLASS clc$b Still

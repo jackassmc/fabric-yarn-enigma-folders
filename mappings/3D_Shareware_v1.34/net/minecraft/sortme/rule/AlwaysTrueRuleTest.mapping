@@ -1,0 +1,2 @@
+CLASS cie net/minecraft/sortme/rule/AlwaysTrueRuleTest
+	FIELD a INSTANCE Lcie;

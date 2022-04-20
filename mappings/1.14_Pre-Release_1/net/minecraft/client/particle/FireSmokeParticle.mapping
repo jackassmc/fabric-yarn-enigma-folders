@@ -1,0 +1,2 @@
+CLASS dit net/minecraft/client/particle/FireSmokeParticle
+	CLASS dit$a Factory

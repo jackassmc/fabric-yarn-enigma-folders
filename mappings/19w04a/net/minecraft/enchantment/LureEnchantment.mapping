@@ -1,0 +1,5 @@
+CLASS bat net/minecraft/enchantment/LureEnchantment
+	METHOD <init> (Lban$a;Lbao;[Lahh;)V
+		ARG 1 weight
+		ARG 2 type
+		ARG 3 slotTypes

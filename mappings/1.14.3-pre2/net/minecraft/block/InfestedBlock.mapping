@@ -1,0 +1,11 @@
+CLASS bpi net/minecraft/block/InfestedBlock
+	FIELD a regularBlock Lbmp;
+	FIELD b REGULAR_TO_INFESTED Ljava/util/Map;
+	METHOD <init> (Lbmp;Lbmp$c;)V
+		ARG 1 regularBlock
+		ARG 2 settings
+	METHOD d getRegularBlock ()Lbmp;
+	METHOD e fromRegularBlock (Lbmp;)Lbvn;
+		ARG 0 regularBlock
+	METHOD j isInfestable (Lbvn;)Z
+		ARG 0 block

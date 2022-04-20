@@ -1,0 +1,4 @@
+CLASS cpr net/minecraft/world/loot/function/SetDamageLootFunction
+	CLASS cpr$a Factory
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD c durabilityRange Lcoh;

@@ -1,0 +1,2 @@
+CLASS cdv net/minecraft/sortme/rule/AlwaysTrueRuleTest
+	FIELD a INSTANCE Lcdv;

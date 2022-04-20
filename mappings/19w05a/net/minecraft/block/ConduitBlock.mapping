@@ -1,0 +1,5 @@
+CLASS bip net/minecraft/block/ConduitBlock
+	FIELD a WATERLOGGED Lbrh;
+	FIELD b SHAPE Lcnq;
+	METHOD <init> (Lbhs$c;)V
+		ARG 1 settings

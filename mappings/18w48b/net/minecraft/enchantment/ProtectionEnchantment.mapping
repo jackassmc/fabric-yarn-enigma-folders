@@ -1,0 +1,15 @@
+CLASS azg net/minecraft/enchantment/ProtectionEnchantment
+	CLASS azg$a Type
+		FIELD a ALL Lazg$a;
+		FIELD b FIRE Lazg$a;
+		FIELD c FALL Lazg$a;
+		FIELD d EXPLOSION Lazg$a;
+		FIELD e PROJECTILE Lazg$a;
+	FIELD a type Lazg$a;
+	METHOD <init> (Layt$a;Lazg$a;[Lagn;)V
+		ARG 1 weight
+		ARG 2 type
+	METHOD a getHighestLevel ()I
+	METHOD a getProtectionAmount (ILafr;)I
+		ARG 1 level
+	METHOD a differs (Layt;)Z

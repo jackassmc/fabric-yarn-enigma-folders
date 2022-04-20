@@ -1,0 +1,3 @@
+CLASS boa net/minecraft/block/FletchingTableBlock
+	METHOD <init> (Lbly$c;)V
+		ARG 1 settings

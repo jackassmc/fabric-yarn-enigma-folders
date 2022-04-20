@@ -1,0 +1,91 @@
+CLASS cgf net/minecraft/block/Material
+	CLASS cgf$a Builder
+		FIELD a pistonBehavior Lcgh;
+		FIELD b suffocates Z
+		FIELD c burnable Z
+		FIELD d breakByHand Z
+		FIELD e liquid Z
+		FIELD f flag6 Z
+		FIELD g flag7 Z
+		FIELD h color Lcgg;
+		FIELD i flag5 Z
+		METHOD <init> (Lcgg;)V
+			ARG 1 color
+		METHOD a liquid ()Lcgf$a;
+		METHOD b setFlag7 ()Lcgf$a;
+		METHOD c suffocates ()Lcgf$a;
+		METHOD d requiresTool ()Lcgf$a;
+		METHOD e burnable ()Lcgf$a;
+		METHOD f replaceable ()Lcgf$a;
+		METHOD g destroyedByPiston ()Lcgf$a;
+		METHOD h blocksPistons ()Lcgf$a;
+		METHOD i build ()Lcgf;
+		METHOD j setFlag5 ()Lcgf$a;
+	FIELD A WOOL Lcgf;
+	FIELD B TNT Lcgf;
+	FIELD C LEAVES Lcgf;
+	FIELD D GLASS Lcgf;
+	FIELD E ICE Lcgf;
+	FIELD F CACTUS Lcgf;
+	FIELD G STONE Lcgf;
+	FIELD H METAL Lcgf;
+	FIELD I SNOW_BLOCK Lcgf;
+	FIELD J ANVIL Lcgf;
+	FIELD K BARRIER Lcgf;
+	FIELD L PISTON Lcgf;
+	FIELD M UNUSED_PLANT Lcgf;
+	FIELD N PUMPKIN Lcgf;
+	FIELD O DRAGON_EGG Lcgf;
+	FIELD P CAKE Lcgf;
+	FIELD Q color Lcgg;
+	FIELD R pistonBehavior Lcgh;
+	FIELD S suffocates Z
+	FIELD T burnable Z
+	FIELD U breakByHand Z
+	FIELD V liquid Z
+	FIELD W flag5 Z
+	FIELD X replaceable Z
+	FIELD Y flag7 Z
+	FIELD a AIR Lcgf;
+	FIELD b STRUCTURE_VOID Lcgf;
+	FIELD c PORTAL Lcgf;
+	FIELD d CARPET Lcgf;
+	FIELD e PLANT Lcgf;
+	FIELD f UNDERWATER_PLANT Lcgf;
+	FIELD g REPLACEABLE_PLANT Lcgf;
+	FIELD h SEAGRASS Lcgf;
+	FIELD i WATER Lcgf;
+	FIELD j BUBBLE_COLUMN Lcgf;
+	FIELD k LAVA Lcgf;
+	FIELD l SNOW Lcgf;
+	FIELD m FIRE Lcgf;
+	FIELD n PART Lcgf;
+	FIELD o COBWEB Lcgf;
+	FIELD p REDSTONE_LAMP Lcgf;
+	FIELD q CLAY Lcgf;
+	FIELD r EARTH Lcgf;
+	FIELD s ORGANIC Lcgf;
+	FIELD t PACKED_ICE Lcgf;
+	FIELD u SAND Lcgf;
+	FIELD v SPONGE Lcgf;
+	FIELD w SHULKER_BOX Lcgf;
+	FIELD x WOOD Lcgf;
+	FIELD y BAMBOO_SAPLING Lcgf;
+	FIELD z BAMBOO Lcgf;
+	METHOD <init> (Lcgg;ZZZZZZZLcgh;)V
+		ARG 1 color
+		ARG 2 liquid
+		ARG 3 flag7
+		ARG 4 suffocates
+		ARG 5 flag5
+		ARG 6 flag3
+		ARG 7 burnable
+		ARG 8 replaceable
+		ARG 9 pistonBehavior
+	METHOD a isLiquid ()Z
+	METHOD c suffocates ()Z
+	METHOD d isBurnable ()Z
+	METHOD e isReplaceable ()Z
+	METHOD g canBreakByHand ()Z
+	METHOD h getPistonBehavior ()Lcgh;
+	METHOD i getColor ()Lcgg;

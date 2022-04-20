@@ -1,0 +1,6 @@
+CLASS bnu net/minecraft/block/WallMountedBlock
+	FIELD C FACE Lbvu;
+	METHOD <init> (Lbly$c;)V
+		ARG 1 settings
+	METHOD j getDirection (Lbuw;)Lfa;
+		ARG 0 state

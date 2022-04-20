@@ -1,0 +1,5 @@
+CLASS xl net/minecraft/server/network/ServerRecipeBook
+	FIELD g LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD h manager Layb;
+	METHOD a fromTag (Lhq;)V
+	METHOD e toTag ()Lhq;

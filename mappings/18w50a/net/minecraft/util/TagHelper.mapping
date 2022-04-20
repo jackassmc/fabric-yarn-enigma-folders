@@ -1,0 +1,30 @@
+CLASS ie net/minecraft/util/TagHelper
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	METHOD a serializeBlockState (Lbpm;)Lhs;
+	METHOD a withProperty (Lbpo;Lbqp;Ljava/lang/String;Lhs;Lhs;)Lbpo;
+		ARG 0 state
+		ARG 1 property
+	METHOD a getPropertyValueAsString (Lbqp;Ljava/lang/Comparable;)Ljava/lang/String;
+		ARG 0 property
+		ARG 1 value
+	METHOD a update (Lcom/mojang/datafixers/DataFixer;Lcom/mojang/datafixers/DSL$TypeReference;Lhs;I)Lhs;
+	METHOD a update (Lcom/mojang/datafixers/DataFixer;Lcom/mojang/datafixers/DSL$TypeReference;Lhs;II)Lhs;
+	METHOD a serializeBlockPos (Let;)Lhs;
+		ARG 0 pos
+	METHOD a deserializeProfile (Lhs;)Lcom/mojang/authlib/GameProfile;
+		ARG 0 tag
+	METHOD a serializeProfile (Lhs;Lcom/mojang/authlib/GameProfile;)Lhs;
+		ARG 0 tag
+		ARG 1 profile
+	METHOD a areTagsEqual (Lij;Lij;Z)Z
+		ARG 0 tag1
+		ARG 1 tag2
+		ARG 2 deepCheck
+	METHOD a serializeUuid (Ljava/util/UUID;)Lhs;
+		ARG 0 uuid
+	METHOD b deserializeUuid (Lhs;)Ljava/util/UUID;
+		ARG 0 tag
+	METHOD c deserializeBlockPos (Lhs;)Let;
+		ARG 0 tag
+	METHOD d deserializeBlockState (Lhs;)Lbpm;
+		ARG 0 tag

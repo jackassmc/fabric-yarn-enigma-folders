@@ -1,0 +1,9 @@
+CLASS aja net/minecraft/entity/SpawnRestriction
+	CLASS aja$a Entry
+		FIELD a heightMapType Lbyo$a;
+		FIELD b location Laja$b;
+	CLASS aja$b Location
+	FIELD a mapping Ljava/util/Map;
+	METHOD a getLocation (Laii;)Laja$b;
+	METHOD a register (Laii;Laja$b;Lbyo$a;)V
+	METHOD b getHeightMapType (Laii;)Lbyo$a;

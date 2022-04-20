@@ -1,0 +1,6 @@
+CLASS bzh net/minecraft/client/render/entity/EntityRendererExperienceOrb
+	FIELD a TEX Lnd;
+	METHOD a getTexture (Lve;)Lnd;
+		ARG 0 model
+	METHOD a getTexture (Lvk;)Lnd;
+		ARG 0 model

@@ -1,0 +1,4 @@
+CLASS bfb net/minecraft/enchantment/PunchEnchantment
+	METHOD <init> (Lbfh$a;[Laij;)V
+		ARG 1 weight
+		ARG 2 slotTypes

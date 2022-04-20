@@ -1,0 +1,12 @@
+CLASS cco net/minecraft/world/gen/config/surfacebuilder/TernarySurfaceConfig
+	FIELD a topMaterial Lboj;
+	FIELD b underMaterial Lboj;
+	FIELD c underwaterMaterial Lboj;
+	METHOD <init> (Lboj;Lboj;Lboj;)V
+		ARG 1 topMaterial
+		ARG 2 underMaterial
+	METHOD a getTopMaterial ()Lboj;
+	METHOD a deserialize (Lcom/mojang/datafixers/Dynamic;)Lcco;
+		ARG 0 dynamic
+	METHOD b getUnderMaterial ()Lboj;
+	METHOD c getUnderwaterMaterial ()Lboj;

@@ -1,0 +1,34 @@
+CLASS aov net/minecraft/block/BlockMushroomPlant
+	METHOD a canPlaceAt (Lajq;Lco;)Z
+		ARG 0 world
+		ARG 1 pos
+	METHOD a isFertilizable (Lajq;Lco;Latj;Z)Z
+		ARG 0 world
+		ARG 1 pos
+		ARG 2 state
+		ARG 3 remote
+	METHOD a canGrow (Lajq;Ljava/util/Random;Lco;Latj;)Z
+		ARG 0 world
+		ARG 1 rand
+		ARG 2 pos
+		ARG 3 state
+	METHOD b randomTick (Lajq;Lco;Latj;Ljava/util/Random;)V
+		ARG 0 world
+		ARG 1 pos
+		ARG 2 state
+		ARG 3 random
+	METHOD b grow (Lajq;Ljava/util/Random;Lco;Latj;)V
+		ARG 0 world
+		ARG 1 rand
+		ARG 2 pos
+		ARG 3 state
+	METHOD b getBoundingBox (Latj;Laju;Lco;)Lbdr;
+		ARG 0 state
+		ARG 1 view
+		ARG 2 pos
+	METHOD f isValidLocation (Lajq;Lco;Latj;)Z
+		ARG 0 world
+		ARG 1 pos
+		ARG 2 state
+	METHOD i isValidSoil (Latj;)Z
+		ARG 0 state

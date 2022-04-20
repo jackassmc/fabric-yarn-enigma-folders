@@ -1,0 +1,24 @@
+CLASS iz net/minecraft/text/TextComponent
+	CLASS iz$a
+		FIELD a GSON Lcom/google/gson/Gson;
+		FIELD b POS_FIELD Ljava/lang/reflect/Field;
+		FIELD c LINE_START_FIELD Ljava/lang/reflect/Field;
+		METHOD a getReaderPosition (Lcom/google/gson/stream/JsonReader;)I
+		METHOD a toJsonString (Liz;)Ljava/lang/String;
+		METHOD b toJson (Liz;)Lcom/google/gson/JsonElement;
+	METHOD a getChildren ()Ljava/util/List;
+	METHOD a getStringTruncated (I)Ljava/lang/String;
+	METHOD a applyFormat (La;)Liz;
+	METHOD a append (Liz;)Liz;
+	METHOD a append (Ljava/lang/String;)Liz;
+	METHOD a modifyStyle (Ljava/util/function/Consumer;)Liz;
+	METHOD a setStyle (Ljh;)Liz;
+	METHOD a applyFormat ([La;)Liz;
+	METHOD b getStyle ()Ljh;
+	METHOD b cloneWithoutChildren (Liz;)Liz;
+	METHOD c stream ()Ljava/util/stream/Stream;
+	METHOD d getText ()Ljava/lang/String;
+	METHOD e getFormattedText ()Ljava/lang/String;
+	METHOD f streamCloned ()Ljava/util/stream/Stream;
+	METHOD g cloneShallow ()Liz;
+	METHOD h clone ()Liz;

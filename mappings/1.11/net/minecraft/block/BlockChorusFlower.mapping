@@ -1,0 +1,33 @@
+CLASS amf net/minecraft/block/BlockChorusFlower
+	FIELD a AGE Laty;
+	METHOD a deserializeState (I)Latj;
+		ARG 0 meta
+	METHOD a afterBreak (Lajq;Laax;Lco;Latj;Lasa;Lafi;)V
+		ARG 0 world
+		ARG 1 player
+		ARG 2 pos
+		ARG 3 state
+		ARG 4 blockEntity
+		ARG 5 stack
+	METHOD a canPlaceAt (Lajq;Lco;)Z
+		ARG 0 world
+		ARG 1 pos
+	METHOD a getDropItem (Latj;Ljava/util/Random;I)Lafg;
+		ARG 0 state
+		ARG 1 random
+		ARG 2 fortune
+	METHOD b createStateFactory ()Latk;
+	METHOD b randomTick (Lajq;Lco;Latj;Ljava/util/Random;)V
+		ARG 0 world
+		ARG 1 pos
+		ARG 2 state
+		ARG 3 random
+	METHOD b isFullBoundsCubeForCulling (Latj;)Z
+		ARG 0 state
+	METHOD c (Latj;)Z
+		ARG 0 state
+	METHOD e serializeState (Latj;)I
+		ARG 0 state
+	METHOD f getRenderLayer ()Laji;
+	METHOD w getStackFromState (Latj;)Lafi;
+		ARG 0 state

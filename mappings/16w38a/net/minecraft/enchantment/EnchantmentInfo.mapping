@@ -1,0 +1,6 @@
+CLASS ahr net/minecraft/enchantment/EnchantmentInfo
+	FIELD b enchantment Laho;
+	FIELD c level I
+	METHOD <init> (Laho;I)V
+		ARG 0 enchantment
+		ARG 1 level

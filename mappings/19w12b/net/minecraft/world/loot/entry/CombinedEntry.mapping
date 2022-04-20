@@ -1,0 +1,7 @@
+CLASS cnp net/minecraft/world/loot/entry/CombinedEntry
+	CLASS cnp$a Factory
+	CLASS cnp$b Serializer
+	FIELD c children [Lcnw;
+	FIELD e predicate Lcno;
+	METHOD a createSerializer (Lqq;Ljava/lang/Class;Lcnp$a;)Lcnp$b;
+	METHOD a combine ([Lcno;)Lcno;

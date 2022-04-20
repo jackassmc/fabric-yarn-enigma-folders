@@ -1,0 +1,21 @@
+CLASS aqi net/minecraft/entity/vehicle/EntityFurnaceMinecart
+	FIELD a pushX D
+	FIELD b pushZ D
+	FIELD c LIT Lpi;
+	FIELD d fuel I
+	METHOD S_ update ()V
+	METHOD a dropItems (Laeq;)V
+		ARG 0 source
+	METHOD a deserializeCustomData (Lhl;)V
+		ARG 0 tag
+	METHOD b interact (Lapb;Laea;)Z
+		ARG 0 player
+		ARG 1 hand
+	METHOD b serializeCustomData (Lhl;)V
+		ARG 0 tag
+	METHOD f isLit ()Z
+	METHOD o setLit (Z)V
+		ARG 0 value
+	METHOD v getMinecartType ()Laqc$a;
+	METHOD y_ initDataTracker ()V
+	METHOD z getDefaultContainedBlock ()Lblz;

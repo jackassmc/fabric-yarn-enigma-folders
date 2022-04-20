@@ -1,0 +1,11 @@
+CLASS cxy net/minecraft/client/gui/SplashScreen
+	FIELD a LOGO Lqp;
+	FIELD b client Lctq;
+	FIELD g reloadMonitor Lwx;
+	METHOD a renderProgressBar (IIIIFF)V
+		ARG 1 minX
+		ARG 2 minY
+		ARG 3 maxX
+		ARG 4 maxY
+		ARG 5 progress
+		ARG 6 fadeAmount

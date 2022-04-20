@@ -1,0 +1,5 @@
+CLASS ann net/minecraft/entity/ai/goal/IronGolemLookGoal
+	FIELD a CLOSE_VILLAGER_PREDICATE Lapz;
+	FIELD b ironGolemEntity Laqz;
+	FIELD c targetVillager Lavk;
+	FIELD d lookCountdown I

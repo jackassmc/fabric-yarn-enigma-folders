@@ -1,0 +1,16 @@
+CLASS lr net/minecraft/client/network/packet/PlayerListClientPacket
+	CLASS lr$a Type
+		FIELD a ADD Llr$a;
+		FIELD b UPDATE_GAMEMODE Llr$a;
+		FIELD c UPDATE_LATENCY Llr$a;
+		FIELD d UPDATE_DISPLAY_NAME Llr$a;
+		FIELD e REMOVE Llr$a;
+	FIELD a type Llr$a;
+	METHOD a read (Lit;)V
+		ARG 1 buf
+	METHOD a apply (Liw;)V
+		ARG 1 listener
+	METHOD a apply (Lju;)V
+	METHOD b write (Lit;)V
+		ARG 1 buf
+	METHOD c getType ()Llr$a;

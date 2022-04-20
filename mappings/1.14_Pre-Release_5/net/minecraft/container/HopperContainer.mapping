@@ -1,0 +1,6 @@
+CLASS ayw net/minecraft/container/HopperContainer
+	FIELD c inventory Lagt;
+	METHOD <init> (ILavw;)V
+		ARG 1 syncId
+	METHOD <init> (ILavw;Lagt;)V
+		ARG 1 syncId

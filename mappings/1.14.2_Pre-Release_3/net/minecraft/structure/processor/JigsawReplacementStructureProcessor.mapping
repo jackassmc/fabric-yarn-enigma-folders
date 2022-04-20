@@ -1,0 +1,2 @@
+CLASS ciy net/minecraft/structure/processor/JigsawReplacementStructureProcessor
+	FIELD a INSTANCE Lciy;

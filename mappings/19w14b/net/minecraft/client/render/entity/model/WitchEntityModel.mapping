@@ -1,0 +1,2 @@
+CLASS dge net/minecraft/client/render/entity/model/WitchEntityModel
+	FIELD n mole Ldgp;

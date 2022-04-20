@@ -1,0 +1,27 @@
+CLASS bhb net/minecraft/block/TallPlantBlock
+	METHOD <init> (Lbfr$c;)V
+		ARG 1 builder
+	METHOD a getPlacementState (Latw;)Lboj;
+		ARG 1 context
+	METHOD a afterBreak (Lbaq;Laqj;Let;Lboj;Lbmn;Lavs;)V
+		ARG 1 world
+		ARG 2 player
+		ARG 3 pos
+		ARG 4 state
+		ARG 5 blockEntity
+	METHOD a onPlaced (Lbaq;Let;Lboj;Lagr;Lavs;)V
+		ARG 1 world
+		ARG 2 pos
+		ARG 3 state
+		ARG 4 placer
+	METHOD a onBreak (Lbaq;Let;Lboj;Laqj;)V
+		ARG 1 world
+		ARG 2 pos
+		ARG 3 state
+	METHOD a canPlaceAt (Lboj;Lbau;Let;)Z
+		ARG 1 world
+	METHOD a getRenderingState (Lboj;Ley;Lboj;Lbar;Let;Let;)Lboj;
+		ARG 1 state
+	METHOD a appendProperties (Lbok$a;)V
+		ARG 1 builder
+	METHOD aa_ getOffsetType ()Lbfr$b;

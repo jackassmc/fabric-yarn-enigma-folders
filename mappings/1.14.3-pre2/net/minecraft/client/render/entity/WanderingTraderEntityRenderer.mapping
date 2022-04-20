@@ -1,0 +1,2 @@
+CLASS dsc net/minecraft/client/render/entity/WanderingTraderEntityRenderer
+	FIELD a TEXTURE Lqt;

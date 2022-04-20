@@ -1,0 +1,14 @@
+CLASS jr net/minecraft/text/NbtTextComponent
+	CLASS jr$a BlockPosArgument
+		FIELD e pos Ljava/lang/String;
+		METHOD equals (Ljava/lang/Object;)Z
+			ARG 1 o
+		METHOD k getPos ()Ljava/lang/String;
+	CLASS jr$b EntityNbtTextComponent
+		FIELD e selector Ljava/lang/String;
+		METHOD equals (Ljava/lang/Object;)Z
+			ARG 1 o
+		METHOD k getSelector ()Ljava/lang/String;
+	FIELD c path Ljava/lang/String;
+	FIELD e LOGGER Lorg/apache/logging/log4j/Logger;
+	METHOD i getPath ()Ljava/lang/String;

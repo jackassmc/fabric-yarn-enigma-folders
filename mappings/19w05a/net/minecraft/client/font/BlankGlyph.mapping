@@ -1,0 +1,3 @@
+CLASS css net/minecraft/client/font/BlankGlyph
+	FIELD a INSTANCE Lcss;
+	FIELD b IMAGE Lcov;

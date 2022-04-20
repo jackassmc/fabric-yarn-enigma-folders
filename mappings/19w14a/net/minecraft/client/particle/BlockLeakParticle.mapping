@@ -1,0 +1,3 @@
+CLASS dhm net/minecraft/client/particle/BlockLeakParticle
+	CLASS dhm$f LavaFactory
+	CLASS dhm$h WaterFactory

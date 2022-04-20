@@ -1,0 +1,18 @@
+CLASS dmz net/minecraft/client/audio/SoundEvent
+	CLASS dmz$a AttenuationType
+		FIELD a NONE Ldmz$a;
+		FIELD b LINEAR Ldmz$a;
+		FIELD c TYPE I
+		METHOD a getType ()I
+	METHOD a getId ()Lpy;
+	METHOD a getAccess (Ldnw;)Ldnx;
+	METHOD b getSound ()Ldmw;
+	METHOD c getCategory ()Lxf;
+	METHOD d isRepeatable ()Z
+	METHOD e getRepeatDelay ()I
+	METHOD f getVolume ()F
+	METHOD g getPitch ()F
+	METHOD h getX ()F
+	METHOD i getY ()F
+	METHOD j getZ ()F
+	METHOD k getAttenuationType ()Ldmz$a;

@@ -1,0 +1,5 @@
+CLASS diw net/minecraft/client/render/entity/CapeEntityRenderer
+	FIELD a renderer Ldkf;
+	METHOD a shouldMergeTextures ()Z
+	METHOD a render (Lago;FFFFFFF)V
+	METHOD a render (Ldaq;FFFFFFF)V

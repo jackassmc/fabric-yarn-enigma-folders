@@ -1,0 +1,4 @@
+CLASS bmp net/minecraft/block/PillarBlock
+	FIELD a AXIS Lbsb;
+	METHOD <init> (Lbif$c;)V
+		ARG 1 settings

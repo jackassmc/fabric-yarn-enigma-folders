@@ -1,0 +1,14 @@
+CLASS arm net/minecraft/entity/FireworkEntity
+	FIELD a ITEM_STACK Lpr;
+	METHOD W_ update ()V
+	METHOD a shouldRenderAtDistance (D)Z
+	METHOD a readCustomDataFromTag (Lhs;)V
+	METHOD b writeCustomDataToTag (Lhs;)V
+	METHOD g shouldRenderFrom (DDD)Z
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+	METHOD h setVelocityClient (DDD)V
+		ARG 1 x
+	METHOD i ()Lawo;
+	METHOD y_ initDataTracker ()V

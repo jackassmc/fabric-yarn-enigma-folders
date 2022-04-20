@@ -1,0 +1,11 @@
+CLASS dcy net/minecraft/client/particle/EnchantGlyphParticle
+	CLASS dcy$a NautilusFactory
+	CLASS dcy$b EnchantFactory
+	FIELD J startX D
+	FIELD K startY D
+	FIELD L startZ D
+	METHOD <init> (Lbcl;DDDDDD)V
+		ARG 1 world
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z

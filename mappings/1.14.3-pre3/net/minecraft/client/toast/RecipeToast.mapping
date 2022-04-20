@@ -1,0 +1,6 @@
+CLASS cxw net/minecraft/client/toast/RecipeToast
+	FIELD c recipes Ljava/util/List;
+	FIELD d startTime J
+	FIELD e justUpdated Z
+	METHOD a addRecipe (Lbem;)V
+	METHOD a show (Lcxz;Lbem;)V

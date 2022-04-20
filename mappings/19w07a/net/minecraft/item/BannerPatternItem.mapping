@@ -1,0 +1,7 @@
+CLASS avu net/minecraft/item/BannerPatternItem
+	FIELD a pattern Lbow;
+	METHOD <init> (Lbow;Laxo$a;)V
+		ARG 1 pattern
+		ARG 2 settings
+	METHOD b getPattern ()Lbow;
+	METHOD d nameTextComponent ()Ljg;

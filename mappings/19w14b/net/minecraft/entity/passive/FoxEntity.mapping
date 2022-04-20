@@ -1,0 +1,98 @@
+CLASS aqp net/minecraft/entity/passive/FoxEntity
+	CLASS aqp$a DefendFriendGoal
+		FIELD j offender Laij;
+		FIELD k friend Laij;
+		FIELD l lastAttackedTime I
+	CLASS aqp$b StopWanderingGoal
+		FIELD a timer I
+	CLASS aqp$c WorriableEntityFilter
+	CLASS aqp$d CalmDownGoal
+		FIELD b WORRIABLE_ENTITY_PREDICATE Lapq;
+		METHOD g isAtFavoredLocation ()Z
+		METHOD h canCalmDown ()Z
+	CLASS aqp$e MateGoal
+	CLASS aqp$f EatSweetBerriesGoal
+		FIELD g timer I
+		METHOD m eatSweetBerry ()V
+	CLASS aqp$g FoxSwimGoal
+	CLASS aqp$i FoxData
+		FIELD a type Laqp$u;
+		FIELD b uses I
+	CLASS aqp$j FoxLookControl
+	CLASS aqp$k AttackGoal
+	CLASS aqp$l FoxMoveControl
+	CLASS aqp$m EscapeWhenNotAggresiveGoal
+	CLASS aqp$n JumpChasingGoal
+	CLASS aqp$o PickupItemGoal
+	CLASS aqp$p GoToVillageGoal
+		METHOD g canGoToVillage ()Z
+	CLASS aqp$q SitDownAndLookAroundGoal
+		FIELD c lookX D
+		FIELD d lookZ D
+		FIELD e timer I
+		FIELD f counter I
+		METHOD j chooseNewAngle ()V
+	CLASS aqp$r AvoidDaylightGoal
+		FIELD c timer I
+	CLASS aqp$s DelayedCalmDownGoal
+		FIELD c timer I
+	CLASS aqp$t MoveToHuntGoal
+	CLASS aqp$u Type
+		FIELD d byName Ljava/util/Map;
+		FIELD e id I
+		FIELD f key Ljava/lang/String;
+		FIELD g biomes Ljava/util/List;
+		METHOD a getKey ()Ljava/lang/String;
+		METHOD a fromId (I)Laqp$u;
+		METHOD a fromBiome (Lbhu;)Laqp$u;
+		METHOD a byName (Ljava/lang/String;)Laqp$u;
+		METHOD b getBiomes ()Ljava/util/List;
+		METHOD c getId ()I
+	FIELD bA TYPE Lqh;
+	FIELD bB FOX_FLAGS Lqh;
+	FIELD bC OWNER Lqh;
+	FIELD bE OTHER_TRUSTED Lqh;
+	FIELD bF PICKABLE_DROP_FILTER Ljava/util/function/Predicate;
+	FIELD bG JUST_ATTACKED_SOMETHING_FILTER Ljava/util/function/Predicate;
+	FIELD bH CHICKEN_AND_RABBIT_FILTER Ljava/util/function/Predicate;
+	FIELD bI NOTICEABLE_PLAYER_FILTER Ljava/util/function/Predicate;
+	FIELD bJ followChickenAndRabbitGoal Lamn;
+	FIELD bK followBabyTurtleGoal Lamn;
+	FIELD bL followFishGoal Lamn;
+	FIELD bM headRollProgress F
+	FIELD bN lastHeadRollProgress F
+	FIELD bO extraRollingHeight F
+	FIELD bP lastExtraRollingHeight F
+	FIELD bQ eatingTime I
+	METHOD a setType (Laqp$u;)V
+	METHOD a canJumpChase (Laqp;Laij;)Z
+	METHOD b addTrustedUuid (Ljava/util/UUID;)V
+	METHOD c canTrust (Ljava/util/UUID;)Z
+	METHOD d setFoxFlag (IZ)V
+		ARG 1 mask
+		ARG 2 value
+	METHOD dS getFoxType ()Laqp$u;
+	METHOD dT isSitting ()Z
+	METHOD dU isWalking ()Z
+	METHOD dV isChasing ()Z
+	METHOD eb isFullyCrouched ()Z
+	METHOD ec isCrouching ()Z
+	METHOD ed isRollingHead ()Z
+	METHOD eg addTypeSpecificGoals ()V
+	METHOD eh getTrustedUuids ()Ljava/util/List;
+	METHOD ei isAggressive ()Z
+	METHOD ej wakeUp ()V
+	METHOD ek stopActions ()V
+	METHOD el wantsToPickupItem ()Z
+	METHOD k spit (Lbbr;)V
+	METHOD l dropItem (Lbbr;)V
+	METHOD r getFoxFlag (I)Z
+	METHOD r setSitting (Z)V
+	METHOD s setChasing (Z)V
+	METHOD t setCrouching (Z)V
+	METHOD u setRollingHead (Z)V
+	METHOD v getHeadRoll (F)F
+	METHOD v setWalking (Z)V
+	METHOD w getBodyRotationHeightOffset (F)F
+	METHOD w setAggressive (Z)V
+	METHOD x setSleeping (Z)V

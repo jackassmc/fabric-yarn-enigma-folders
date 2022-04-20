@@ -1,0 +1,3 @@
+CLASS bmw net/minecraft/block/MobSpawnerBlock
+	METHOD <init> (Lbhs$c;)V
+		ARG 1 settings

@@ -1,0 +1,42 @@
+CLASS ckl net/minecraft/util/math/BoundingBox
+	FIELD a minX D
+	FIELD b minY D
+	FIELD c minZ D
+	FIELD d maxX D
+	FIELD e maxY D
+	FIELD f maxZ D
+	METHOD <init> (DDDDDD)V
+		ARG 1 x1
+		ARG 3 y1
+		ARG 5 z1
+	METHOD <init> (Lckp;Lckp;)V
+		ARG 1 min
+	METHOD <init> (Let;Let;)V
+		ARG 1 min
+	METHOD a averageDimension ()D
+	METHOD a intersects (DDDDDD)Z
+		ARG 1 minX
+		ARG 3 minY
+		ARG 5 minZ
+	METHOD a offset (Lckp;)Lckl;
+	METHOD a intersects (Lckp;Lckp;)Z
+		ARG 1 a
+	METHOD a rayTrace (Lckp;Lckp;Let;)Lckm;
+	METHOD a offset (Let;)Lckl;
+	METHOD b isValid ()Z
+	METHOD b stretch (DDD)Lckl;
+		ARG 1 x
+	METHOD b union (Lckl;)Lckl;
+	METHOD b contains (Lckp;)Z
+	METHOD b rayTrace (Lckp;Lckp;)Lckm;
+	METHOD c getCenter ()Lckp;
+	METHOD c expand (DDD)Lckl;
+		ARG 1 x
+	METHOD c intersects (Lckl;)Z
+	METHOD d offset (DDD)Lckl;
+		ARG 1 x
+	METHOD e contains (DDD)Z
+	METHOD f contract (DDD)Lckl;
+		ARG 1 x
+	METHOD g expand (D)Lckl;
+	METHOD h contract (D)Lckl;

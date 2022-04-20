@@ -1,0 +1,11 @@
+CLASS kt net/minecraft/network/packet/client/CPacketEntityStatus
+	FIELD a id I
+	FIELD b status B
+	METHOD <init> (Lagc;B)V
+		ARG 1 entity
+	METHOD a getEntity (Lbae;)Lagc;
+	METHOD a read (Lip;)V
+	METHOD a apply (Lis;)V
+	METHOD a apply (Ljq;)V
+	METHOD b getStatus ()B
+	METHOD b write (Lip;)V

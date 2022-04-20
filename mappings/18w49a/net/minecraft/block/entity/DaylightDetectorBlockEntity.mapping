@@ -1,0 +1,2 @@
+CLASS bmx net/minecraft/block/entity/DaylightDetectorBlockEntity
+	METHOD aa_ tick ()V

@@ -1,0 +1,3 @@
+CLASS dik net/minecraft/client/particle/EmotionParticle
+	CLASS dik$a AngryVillagerFactory
+	CLASS dik$b HeartFactory

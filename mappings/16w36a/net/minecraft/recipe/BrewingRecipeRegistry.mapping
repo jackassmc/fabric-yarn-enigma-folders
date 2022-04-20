@@ -1,0 +1,52 @@
+CLASS none/agg net/minecraft/recipe/BrewingRecipeRegistry
+	CLASS none/agg$1
+		METHOD a (Lnone/aer;)Z
+			ARG 0 stack
+	CLASS none/agg$a ItemMatcher
+		FIELD a item Lnone/aep;
+		FIELD b metadata I
+		METHOD <init> (Lnone/aep;)V
+			ARG 0 item
+		METHOD <init> (Lnone/aep;I)V
+			ARG 0 item
+			ARG 1 metadata
+	CLASS none/agg$b Recipe
+		FIELD a input Ljava/lang/Object;
+		FIELD b ingredient Lcom/google/common/base/Predicate;
+		FIELD c output Ljava/lang/Object;
+		METHOD <init> (Ljava/lang/Object;Lcom/google/common/base/Predicate;Ljava/lang/Object;)V
+			ARG 0 input
+			ARG 1 output
+	FIELD a POTION_RECIPES Ljava/util/List;
+	FIELD b ITEM_RECIPES Ljava/util/List;
+	FIELD c POTION_TYPES Ljava/util/List;
+	FIELD d POTION_TYPE_MATCHER Lcom/google/common/base/Predicate;
+	METHOD a init ()V
+	METHOD a isValidIngredient (Lnone/aer;)Z
+		ARG 0 stack
+	METHOD a hasRecipe (Lnone/aer;Lnone/aer;)Z
+		ARG 0 input
+		ARG 1 ingredient
+	METHOD a registerItemRecipe (Lnone/afe;Lnone/agg$a;Lnone/afe;)V
+		ARG 0 input
+		ARG 1 ingredient
+		ARG 2 output
+	METHOD a registerPotionRecipe (Lnone/agf;Lcom/google/common/base/Predicate;Lnone/agf;)V
+		ARG 0 input
+		ARG 1 ingredient
+		ARG 2 output
+	METHOD a registerPotionType (Lnone/agg$a;)V
+		ARG 0 matcher
+	METHOD b isItemRecipeIngredient (Lnone/aer;)Z
+		ARG 0 stack
+	METHOD b hasItemRecipe (Lnone/aer;Lnone/aer;)Z
+		ARG 0 input
+		ARG 1 ingredien
+	METHOD c isPotionRecipeIngredient (Lnone/aer;)Z
+		ARG 0 stack
+	METHOD c hasPotionRecipe (Lnone/aer;Lnone/aer;)Z
+		ARG 0 input
+		ARG 1 ingredient
+	METHOD d craft (Lnone/aer;Lnone/aer;)Lnone/aer;
+		ARG 0 input
+		ARG 1 ingredient

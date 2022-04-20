@@ -1,0 +1,4 @@
+CLASS bqt net/minecraft/client/render/bpk
+	FIELD b world Lajq;
+	METHOD <init> (Lajq;ILbqk;Lbtd;)V
+		ARG 0 world

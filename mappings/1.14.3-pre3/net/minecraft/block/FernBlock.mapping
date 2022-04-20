@@ -1,0 +1,4 @@
+CLASS bsk net/minecraft/block/FernBlock
+	FIELD a SHAPE Lcsv;
+	METHOD <init> (Lbmq$c;)V
+		ARG 1 settings

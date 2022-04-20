@@ -1,0 +1,58 @@
+CLASS bbk net/minecraft/world/loot/LootTableContext
+	CLASS bbk$a Builder
+		FIELD a world Llu;
+		FIELD b luck F
+		FIELD c lootedEntity Lsg;
+		FIELD d player Laam;
+		FIELD e damageSource Lrr;
+		METHOD <init> (Llu;)V
+			ARG 0 world
+		METHOD a build ()Lbbk;
+		METHOD a setLuck (F)Lbbk$a;
+			ARG 0 value
+		METHOD a setPlayer (Laam;)Lbbk$a;
+			ARG 0 value
+		METHOD a setDamageSource (Lrr;)Lbbk$a;
+			ARG 0 value
+		METHOD a setLootedEntity (Lsg;)Lbbk$a;
+			ARG 0 value
+	CLASS bbk$b Target
+		CLASS bbk$b$a DeSerializer
+			METHOD a deserialize (Lcom/google/gson/stream/JsonReader;)Lbbk$b;
+				ARG 0 reader
+			METHOD a serialize (Lcom/google/gson/stream/JsonWriter;Lbbk$b;)V
+				ARG 0 writer
+				ARG 1 context
+		FIELD a THIS Lbbk$b;
+		FIELD b KILLER Lbbk$b;
+		FIELD c PLAYER Lbbk$b;
+		FIELD d type Ljava/lang/String;
+		METHOD <init> (Ljava/lang/String;ILjava/lang/String;)V
+			ARG 0 type
+		METHOD a fromString (Ljava/lang/String;)Lbbk$b;
+			ARG 0 target
+	FIELD a luck F
+	FIELD b world Llu;
+	FIELD c lootTableHandler Lbbm;
+	FIELD d lootedEntity Lsg;
+	FIELD e player Laam;
+	FIELD f source Lrr;
+	FIELD g lootTables Ljava/util/Set;
+	METHOD <init> (FLlu;Lbbm;Lsg;Laam;Lrr;)V
+		ARG 0 luck
+		ARG 1 world
+		ARG 2 tableHandler
+		ARG 3 lootedEntity
+		ARG 4 player
+		ARG 5 source
+	METHOD a getLootedEntity ()Lsg;
+	METHOD a addLootTable (Lbbj;)Z
+		ARG 0 lootTable
+	METHOD a getTargetEntity (Lbbk$b;)Lsg;
+		ARG 0 target
+	METHOD b getKillerPlayer ()Lsg;
+	METHOD b removeLootTable (Lbbj;)V
+		ARG 0 lootTable
+	METHOD c getKiller ()Lsg;
+	METHOD e getLootTableHandler ()Lbbm;
+	METHOD f getLuck ()F

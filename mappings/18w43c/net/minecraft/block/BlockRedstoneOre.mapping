@@ -1,0 +1,34 @@
+CLASS bhs net/minecraft/block/BlockRedstoneOre
+	METHOD <init> (Lbdx$c;)V
+		ARG 0 builder
+	METHOD a onSteppedOn (Laza;Leq;Lafh;)V
+		ARG 0 world
+		ARG 1 pos
+		ARG 2 entity
+	METHOD a onBlockBreakStart (Lblz;Laza;Leq;Lapb;)V
+		ARG 0 state
+		ARG 1 world
+		ARG 2 pos
+		ARG 3 player
+	METHOD a activate (Lblz;Laza;Leq;Lapb;Laea;Lev;FFF)Z
+		ARG 0 state
+		ARG 1 world
+		ARG 2 pos
+		ARG 3 player
+		ARG 4 hand
+		ARG 5 facing
+		ARG 6 hitX
+		ARG 7 hitY
+		ARG 8 hitZ
+	METHOD a randomTick (Lblz;Laza;Leq;Ljava/util/Random;)V
+		ARG 0 world
+		ARG 1 state
+		ARG 2 pos
+		ARG 3 random
+	METHOD a appendProperties (Lbma$a;)V
+		ARG 0 builder
+	METHOD c randomDisplayTick (Lblz;Laza;Leq;Ljava/util/Random;)V
+		ARG 0 state
+		ARG 1 world
+		ARG 2 pos
+		ARG 3 rand

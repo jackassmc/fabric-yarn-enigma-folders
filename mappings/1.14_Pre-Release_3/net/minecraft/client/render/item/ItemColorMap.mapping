@@ -1,0 +1,7 @@
+CLASS cvu net/minecraft/client/render/item/ItemColorMap
+	FIELD a mappers Lfe;
+	METHOD a getRenderColor (Lbbx;I)I
+		ARG 1 item
+	METHOD a create (Lcvr;)Lcvu;
+	METHOD a register (Lcvt;[Lbhc;)V
+		ARG 1 mapper

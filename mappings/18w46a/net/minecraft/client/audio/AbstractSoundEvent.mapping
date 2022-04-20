@@ -1,0 +1,29 @@
+CLASS dmh net/minecraft/client/audio/AbstractSoundEvent
+	FIELD a sound Ldmq;
+	FIELD b category Lxd;
+	FIELD c id Lpx;
+	FIELD d volume F
+	FIELD e pitch F
+	FIELD f x F
+	FIELD g y F
+	FIELD h z F
+	FIELD i repeat Z
+	FIELD j repeatDelay I
+	FIELD k attenuationType Ldmt$a;
+	FIELD m accessor Ldnr;
+	METHOD <init> (Lpx;Lxd;)V
+		ARG 1 soundId
+	METHOD <init> (Lxb;Lxd;)V
+		ARG 1 sound
+	METHOD a getId ()Lpx;
+	METHOD a getAccess (Ldnq;)Ldnr;
+	METHOD b getSound ()Ldmq;
+	METHOD c getCategory ()Lxd;
+	METHOD d isRepeatable ()Z
+	METHOD e getRepeatDelay ()I
+	METHOD f getVolume ()F
+	METHOD g getPitch ()F
+	METHOD h getX ()F
+	METHOD i getY ()F
+	METHOD j getZ ()F
+	METHOD k getAttenuationType ()Ldmt$a;

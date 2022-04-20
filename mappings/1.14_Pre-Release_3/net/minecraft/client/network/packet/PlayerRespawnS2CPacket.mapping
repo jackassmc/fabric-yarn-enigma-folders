@@ -1,0 +1,7 @@
+CLASS mh net/minecraft/client/network/packet/PlayerRespawnS2CPacket
+	FIELD a dimension Lbxz;
+	FIELD b gameMode Lbha;
+	FIELD c generatorType Lbhk;
+	METHOD b getDimension ()Lbxz;
+	METHOD c getGameMode ()Lbha;
+	METHOD d getGeneratorType ()Lbhk;

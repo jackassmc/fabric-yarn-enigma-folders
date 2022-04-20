@@ -1,0 +1,46 @@
+CLASS dai net/minecraft/client/gui/ingame/StructureBlockScreen
+	FIELD A inputSizeZ Lcux;
+	FIELD B inputIntegrity Lcux;
+	FIELD C inputSeed Lcux;
+	FIELD D inputMetadata Lcux;
+	FIELD E buttonDone Lcut;
+	FIELD F buttonCancel Lcut;
+	FIELD G buttonSave Lcut;
+	FIELD H buttonLoad Lcut;
+	FIELD I buttonRotate0 Lcut;
+	FIELD J buttonRotate90 Lcut;
+	FIELD K buttonRotate180 Lcut;
+	FIELD L buttonRotate270 Lcut;
+	FIELD M buttonMode Lcut;
+	FIELD N buttonDetect Lcut;
+	FIELD O buttonEntities Lcut;
+	FIELD P buttonMirror Lcut;
+	FIELD Q buttonShowAir Lcut;
+	FIELD R buttonShowBoundingBox Lcut;
+	FIELD S decimalFormat Ljava/text/DecimalFormat;
+	FIELD a structureBlock Lbsz;
+	FIELD b mirror Lboj;
+	FIELD g rotation Lbpj;
+	FIELD h mode Lbve;
+	FIELD i ignoreEntities Z
+	FIELD s showAir Z
+	FIELD t showBoundingBox Z
+	FIELD u inputName Lcux;
+	FIELD v inputPosX Lcux;
+	FIELD w inputPosY Lcux;
+	FIELD x inputPosZ Lcux;
+	FIELD y inputSizeX Lcux;
+	FIELD z inputSizeY Lcux;
+	METHOD <init> (Lbsz;)V
+		ARG 1 structureBlock
+	METHOD a parseLong (Ljava/lang/String;)J
+	METHOD b parseFloat (Ljava/lang/String;)F
+	METHOD c parseInt (Ljava/lang/String;)I
+	METHOD k done ()V
+	METHOD l cancel ()V
+	METHOD m updateIgnoreEntitiesButton ()V
+	METHOD n updateShowAirButton ()V
+	METHOD o updateShowBoundingBoxButton ()V
+	METHOD s updateMirrorButton ()V
+	METHOD w updateRotationButton ()V
+	METHOD x updateMode ()V

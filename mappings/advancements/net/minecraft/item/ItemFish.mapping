@@ -1,0 +1,28 @@
+CLASS agw net/minecraft/item/ItemFish
+	CLASS agw$a FishType
+		FIELD a COD Lagw$a;
+		FIELD b SALMON Lagw$a;
+		FIELD c CLOWNFISH Lagw$a;
+		FIELD d PUFFERFISH Lagw$a;
+		FIELD e TYPES Ljava/util/Map;
+		FIELD f id I
+		FIELD g name Ljava/lang/String;
+		FIELD h rawHungerRestored I
+		FIELD i rawSaturationRestored F
+		FIELD j cookedHungerRestored I
+		FIELD k cookedSaturationRestored F
+		FIELD l cookable Z
+		METHOD a getId ()I
+		METHOD a getTypeFromId (I)Lagw$a;
+		METHOD a getTypeFromStack (Lahf;)Lagw$a;
+		METHOD b getName ()Ljava/lang/String;
+		METHOD c getRawHungerRestored ()I
+		METHOD d getRawSaturationRestored ()F
+		METHOD e getCookedHungerRestored ()I
+		METHOD f getCookedSaturationRestored ()F
+		METHOD g isCookable ()Z
+	FIELD b cooked Z
+	METHOD a addStacksForDisplay (Lahd;Lagf;Lem;)V
+	METHOD a getTranslationKey (Lahf;)Ljava/lang/String;
+	METHOD h getHungerRestored (Lahf;)I
+	METHOD i getSaturatationRestored (Lahf;)F

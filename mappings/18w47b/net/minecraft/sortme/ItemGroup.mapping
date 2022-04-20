@@ -1,0 +1,103 @@
+CLASS auf net/minecraft/sortme/ItemGroup
+	CLASS auf$1
+		METHOD <init> (ILjava/lang/String;)V
+			ARG 0 id
+			ARG 1 unlocalizedName
+		METHOD f getIconItem ()Lavo;
+	CLASS auf$2
+		METHOD <init> (ILjava/lang/String;)V
+			ARG 0 id
+			ARG 1 unlocalizedName
+		METHOD f getIconItem ()Lavo;
+	CLASS auf$3
+		METHOD <init> (ILjava/lang/String;)V
+			ARG 0 id
+			ARG 1 unlocalizedName
+		METHOD a getStacksForDisplay (Lfh;)V
+			ARG 0 stackList
+		METHOD f getIconItem ()Lavo;
+		METHOD n isTabRightAligned ()Z
+	CLASS auf$4
+		METHOD <init> (ILjava/lang/String;)V
+			ARG 0 id
+			ARG 1 unlocalizedName
+		METHOD f getIconItem ()Lavo;
+	CLASS auf$5
+		METHOD <init> (ILjava/lang/String;)V
+			ARG 0 id
+			ARG 1 unlocalizedName
+		METHOD f getIconItem ()Lavo;
+	CLASS auf$6
+		METHOD <init> (ILjava/lang/String;)V
+			ARG 0 id
+			ARG 1 unlocalizedName
+		METHOD f getIconItem ()Lavo;
+	CLASS auf$7
+		METHOD <init> (ILjava/lang/String;)V
+			ARG 0 id
+			ARG 1 unlocalizedName
+		METHOD f getIconItem ()Lavo;
+	CLASS auf$8
+		METHOD <init> (ILjava/lang/String;)V
+			ARG 0 id
+			ARG 1 unlocalizedName
+		METHOD f getIconItem ()Lavo;
+	CLASS auf$9
+		METHOD <init> (ILjava/lang/String;)V
+			ARG 0 id
+			ARG 1 unlocalizedName
+		METHOD f getIconItem ()Lavo;
+	CLASS auf$10
+		METHOD <init> (ILjava/lang/String;)V
+			ARG 0 id
+			ARG 1 unlocalizedName
+		METHOD f getIconItem ()Lavo;
+	CLASS auf$11
+		METHOD <init> (ILjava/lang/String;)V
+			ARG 0 id
+			ARG 1 unlocalizedName
+		METHOD f getIconItem ()Lavo;
+	CLASS auf$12
+		METHOD <init> (ILjava/lang/String;)V
+			ARG 0 id
+			ARG 1 unlocalizedName
+		METHOD f getIconItem ()Lavo;
+	FIELD a TABS [Lauf;
+	FIELD b BUILDING_BLOCKS Lauf;
+	FIELD c DECORATIONS Lauf;
+	FIELD d REDSTONE Lauf;
+	FIELD e TRANSPORTATION Lauf;
+	FIELD f MISC Lauf;
+	FIELD g SEARCH Lauf;
+	FIELD h FOOD Lauf;
+	FIELD i TOOLS Lauf;
+	FIELD j COMBAT Lauf;
+	FIELD k BREWING Lauf;
+	FIELD l MATERIALS Lauf;
+	FIELD m HOTBAR Lauf;
+	FIELD n INVENTORY Lauf;
+	FIELD o id I
+	FIELD p unlocalizedName Ljava/lang/String;
+	FIELD r texture Ljava/lang/String;
+	FIELD s useScrollBar Z
+	FIELD t tooltip Z
+	FIELD u enchantmentTypes [Layr;
+	FIELD v stack Lavo;
+	METHOD a getId ()I
+	METHOD a containsEnchantmentType (Layr;)Z
+	METHOD a getStacksForDisplay (Lfh;)V
+	METHOD a setTexture (Ljava/lang/String;)Lauf;
+	METHOD a setEnchantmentTypes ([Layr;)Lauf;
+	METHOD b getUntranslatedName ()Ljava/lang/String;
+	METHOD d getTranslationKey ()Ljava/lang/String;
+	METHOD e getIconItemStack ()Lavo;
+	METHOD f getIconItem ()Lavo;
+	METHOD g getTexture ()Ljava/lang/String;
+	METHOD h hasTooltip ()Z
+	METHOD i disableTooltip ()Lauf;
+	METHOD j useScrollBar ()Z
+	METHOD k setNotUseScrollBar ()Lauf;
+	METHOD l getColumn ()I
+	METHOD m isTopRow ()Z
+	METHOD n isTabRightAligned ()Z
+	METHOD o getEnchantmentTypes ()[Layr;

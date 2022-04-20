@@ -1,0 +1,3 @@
+CLASS dtg net/minecraft/client/render/entity/feature/PandaHeldItemFeatureRenderer
+	METHOD <init> (Ldrd;)V
+		ARG 1 context

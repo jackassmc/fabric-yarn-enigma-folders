@@ -1,0 +1,4 @@
+CLASS cev net/minecraft/sortme/rule/TagMatchRuleTest
+	FIELD a tag Lyp;
+	METHOD <init> (Lyp;)V
+		ARG 1 tag

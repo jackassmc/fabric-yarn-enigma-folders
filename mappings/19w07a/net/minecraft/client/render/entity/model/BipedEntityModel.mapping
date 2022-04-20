@@ -1,0 +1,19 @@
+CLASS dad net/minecraft/client/render/entity/model/BipedEntityModel
+	CLASS dad$a ArmPose
+	FIELD f head Ldcj;
+	FIELD g headwear Ldcj;
+	FIELD h body Ldcj;
+	FIELD i armRight Ldcj;
+	FIELD j armLeft Ldcj;
+	FIELD k legRight Ldcj;
+	FIELD l legLeft Ldcj;
+	FIELD m armPoseLeft Ldad$a;
+	FIELD n armPoseRight Ldad$a;
+	FIELD o isSneaking Z
+	METHOD <init> (FFII)V
+		ARG 1 scale
+		ARG 3 textureWidth
+	METHOD a getArm (Laht;)Ldcj;
+	METHOD a getPreferedHand (Lahu;)Laht;
+	METHOD a setAttributes (Ldad;)V
+	METHOD c_ setVisible (Z)V

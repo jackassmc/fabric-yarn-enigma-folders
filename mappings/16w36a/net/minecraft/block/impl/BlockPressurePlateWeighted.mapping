@@ -1,0 +1,27 @@
+CLASS none/aqv net/minecraft/block/impl/BlockPressurePlateWeighted
+	FIELD d POWER Lnone/ata;
+	FIELD e maxWeight I
+	METHOD <init> (Lnone/ayq;I)V
+		ARG 0 material
+		ARG 1 maxWeight
+	METHOD <init> (Lnone/ayq;ILnone/ayr;)V
+		ARG 0 material
+		ARG 1 maxWeight
+		ARG 2 color
+	METHOD a deserializeState (I)Lnone/asl;
+		ARG 0 meta
+	METHOD a (Lnone/aiv;)I
+		ARG 0 world
+	METHOD a (Lnone/asl;I)Lnone/asl;
+		ARG 0 state
+	METHOD b createStateFactory ()Lnone/asm;
+	METHOD b (Lnone/aiv;Lnone/cn;)V
+		ARG 0 world
+		ARG 1 pos
+	METHOD c (Lnone/aiv;Lnone/cn;)V
+		ARG 0 world
+		ARG 1 pos
+	METHOD e serializeState (Lnone/asl;)I
+		ARG 0 state
+	METHOD i getRedstoneOutput (Lnone/asl;)I
+		ARG 0 state

@@ -1,0 +1,5 @@
+CLASS bov net/minecraft/predicate/block/BlockPredicate
+	FIELD a block Lbft;
+	METHOD a make (Lbft;)Lbov;
+		ARG 0 block
+	METHOD a apply (Lbom;)Z

@@ -1,0 +1,4 @@
+CLASS aen net/minecraft/world/LocalDifficulty
+	METHOD <init> (Laem;JJF)V
+		ARG 1 difficulty
+		ARG 2 timeOfDay

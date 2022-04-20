@@ -1,0 +1,5 @@
+CLASS amx net/minecraft/entity/ai/goal/MoveToVillageCenterGoal
+	FIELD a owner Laim;
+	FIELD b searchRange I
+	FIELD c villageCenter Leu;
+	METHOD g findOtherWaypoint ()V

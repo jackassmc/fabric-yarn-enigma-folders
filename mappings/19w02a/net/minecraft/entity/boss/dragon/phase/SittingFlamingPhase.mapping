@@ -1,0 +1,6 @@
+CLASS aok net/minecraft/entity/boss/dragon/phase/SittingFlamingPhase
+	METHOD <init> (Lany;)V
+		ARG 1 dragon
+	METHOD d beginPhase ()V
+	METHOD e endPhase ()V
+	METHOD i getType ()Laoo;

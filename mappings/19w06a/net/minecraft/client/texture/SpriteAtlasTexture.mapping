@@ -1,0 +1,17 @@
+CLASS dpc net/minecraft/client/texture/SpriteAtlasTexture
+	FIELD f BLOCK_ATLAS_TEX Lqd;
+	FIELD h LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD i animatedSprites Ljava/util/List;
+	FIELD j spritesToLoad Ljava/util/Set;
+	FIELD k sprites Ljava/util/Map;
+	FIELD l pathPrefix Ljava/lang/String;
+	FIELD n mipLevel I
+	FIELD o missingSprite Ldpd;
+	METHOD a updateAnimatedSprites ()V
+	METHOD a setMipLevel (I)V
+	METHOD a getSprite (Ljava/lang/String;)Ldpd;
+	METHOD a getSprite (Lqd;)Ldpd;
+	METHOD a loadSprite (Lwr;Ldpd;)Z
+		ARG 1 container
+	METHOD b getTexturePath (Lqd;)Lqd;
+	METHOD g clear ()V

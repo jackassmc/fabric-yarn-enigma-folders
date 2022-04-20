@@ -1,0 +1,4 @@
+CLASS dcu net/minecraft/client/render/entity/model/EndCrystalEntityModel
+	FIELD a cube Ldcy;
+	FIELD b glass Ldcy;
+	FIELD f base Ldcy;

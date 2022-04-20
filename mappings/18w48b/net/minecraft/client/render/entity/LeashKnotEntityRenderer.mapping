@@ -1,0 +1,4 @@
+CLASS dhp net/minecraft/client/render/entity/LeashKnotEntityRenderer
+	FIELD a SKIN Lpy;
+	METHOD a getTexture (Lagi;)Lpy;
+	METHOD a getTexture (Laob;)Lpy;

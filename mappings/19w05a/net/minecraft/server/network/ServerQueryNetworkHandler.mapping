@@ -1,0 +1,4 @@
+CLASS vo net/minecraft/server/network/ServerQueryNetworkHandler
+	FIELD a REQUEST_HANDLED Ljc;
+	FIELD b server Lnet/minecraft/server/MinecraftServer;
+	FIELD c client Liq;

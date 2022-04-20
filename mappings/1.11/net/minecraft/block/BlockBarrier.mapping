@@ -1,0 +1,13 @@
+CLASS all net/minecraft/block/BlockBarrier
+	METHOD a dropItems (Lajq;Lco;Latj;FI)V
+		ARG 0 world
+		ARG 1 pos
+		ARG 2 state
+		ARG 3 dropChance
+		ARG 4 fortune
+	METHOD a getRenderType (Latj;)Laqd;
+		ARG 0 state
+	METHOD b isFullBoundsCubeForCulling (Latj;)Z
+		ARG 0 state
+	METHOD f getAmbientOcclusionLightLevel (Latj;)F
+		ARG 0 state

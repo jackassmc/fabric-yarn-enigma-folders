@@ -1,0 +1,6 @@
+CLASS ami net/minecraft/entity/passive/MooshroomEntity
+	METHOD a createChild (Lags;)Lags;
+	METHOD a interactMob (Larb;Lafo;)Z
+		ARG 1 player
+	METHOD b createChild (Lags;)Lame;
+	METHOD c createChild (Lags;)Lami;

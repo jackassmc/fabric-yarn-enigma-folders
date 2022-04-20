@@ -1,0 +1,5 @@
+CLASS dxn net/minecraft/client/tutorial/PunchTreeTutorialStepHandler
+	FIELD a TITLE Ljm;
+	FIELD b DESCRIPTION Ljm;
+	FIELD c manager Ldxo;
+	FIELD e ticks I

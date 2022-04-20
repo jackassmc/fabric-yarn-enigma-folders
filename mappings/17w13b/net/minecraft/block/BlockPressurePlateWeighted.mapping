@@ -1,0 +1,22 @@
+CLASS atm net/minecraft/block/BlockPressurePlateWeighted
+	FIELD d POWER Lavt;
+	FIELD e maxWeight I
+	METHOD <init> (Lbbk;I)V
+		ARG 0 material
+		ARG 1 maxWeight
+	METHOD <init> (Lbbk;ILbbl;)V
+		ARG 0 material
+		ARG 1 maxWeight
+		ARG 2 color
+	METHOD a deserializeState (I)Lave;
+		ARG 0 meta
+	METHOD a getTickRate (Lali;)I
+		ARG 0 world
+	METHOD a setRedstoneOutput (Lave;I)Lave;
+		ARG 0 state
+		ARG 1 amount
+	METHOD b createStateFactory ()Lavf;
+	METHOD e serializeState (Lave;)I
+		ARG 0 state
+	METHOD i getRedstoneOutput (Lave;)I
+		ARG 0 state

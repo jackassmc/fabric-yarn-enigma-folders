@@ -1,0 +1,4 @@
+CLASS dlf net/minecraft/client/render/model/json/ItemModelGenerator
+	FIELD a LAYERS Ljava/util/List;
+	METHOD a create (Ljava/util/function/Function;Ldlb;)Ldlb;
+		ARG 1 textureGetter

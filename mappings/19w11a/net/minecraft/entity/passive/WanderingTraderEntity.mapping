@@ -1,0 +1,12 @@
+CLASS auf net/minecraft/entity/passive/WanderingTraderEntity
+	CLASS auf$a net/minecraft/entity/passive/WanderingTraderEntity$WanderToTargetGoal
+		FIELD b proximityDistance D
+		FIELD c speed D
+		METHOD a isTooFarFrom (Leu;D)Z
+			ARG 2 proximityDistance
+	FIELD bB wanderTarget Leu;
+	FIELD bC despawnDelay I
+	METHOD dW getDespawnDelay ()I
+	METHOD dX getWanderTarget ()Leu;
+	METHOD i setWanderTarget (Leu;)V
+	METHOD r setDespawnDelay (I)V

@@ -1,0 +1,11 @@
+CLASS ckr net/minecraft/world/loot/function/LootFunction
+	CLASS ckr$a Builder
+		METHOD b build ()Lckr;
+	CLASS ckr$b Factory
+		FIELD a id Lqd;
+		FIELD b functionClass Ljava/lang/Class;
+		METHOD a getId ()Lqd;
+		METHOD a toJson (Lcom/google/gson/JsonObject;Lckr;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD b getFunctionClass ()Ljava/lang/Class;
+		METHOD b fromJson (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Lckr;
+	METHOD a apply (Ljava/util/function/BiFunction;Ljava/util/function/Consumer;Lcji;)Ljava/util/function/Consumer;

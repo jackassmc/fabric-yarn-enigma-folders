@@ -1,0 +1,4 @@
+CLASS dnb net/minecraft/client/render/entity/feature/DolphinHeldItemFeatureRenderer
+	METHOD <init> (Ldlm;)V
+		ARG 1 context
+	METHOD a render (Lahc;FFFFFFF)V

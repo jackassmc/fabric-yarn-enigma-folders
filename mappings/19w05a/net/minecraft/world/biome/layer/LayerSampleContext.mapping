@@ -1,0 +1,13 @@
+CLASS cgo net/minecraft/world/biome/layer/LayerSampleContext
+	METHOD a choose (II)I
+	METHOD a choose (IIII)I
+	METHOD a initSeed (JJ)V
+		ARG 1 x
+		ARG 3 y
+	METHOD a createSampler (Lcia;)Lcgk;
+		ARG 1 operator
+	METHOD a createSampler (Lcia;Lcgk;)Lcgk;
+		ARG 1 operator
+		ARG 2 parent
+	METHOD a createSampler (Lcia;Lcgk;Lcgk;)Lcgk;
+		ARG 1 operator

@@ -1,0 +1,4 @@
+CLASS bsf net/minecraft/block/StructureVoidBlock
+	FIELD a SHAPE Lcsu;
+	METHOD <init> (Lbmp$c;)V
+		ARG 1 settings

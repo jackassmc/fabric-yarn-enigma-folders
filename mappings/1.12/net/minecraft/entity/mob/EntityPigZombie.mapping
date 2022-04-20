@@ -1,0 +1,29 @@
+CLASS add net/minecraft/entity/mob/EntityPigZombie
+	CLASS add$a
+		METHOD a canStart ()Z
+	METHOD F getSoundAmbient ()Lqc;
+	METHOD J getLootTableId ()Lnd;
+	METHOD M mobTick ()V
+	METHOD P canSpawn ()Z
+	METHOD a interactMob (Laeb;Ltz;)Z
+		ARG 0 player
+		ARG 1 playerHand
+	METHOD a deserializeCustomData (Lfy;)V
+		ARG 0 tag
+	METHOD a registerTagUpgraders (Lrw;)V
+		ARG 0 handler
+	METHOD a initEquipment (Lty;)V
+		ARG 0 difficulty
+	METHOD a damage (Lup;F)Z
+		ARG 0 source
+		ARG 1 damage
+	METHOD a copyEntityData (Lve;)V
+		ARG 0 entity
+	METHOD a setAttacker (Lvn;)V
+		ARG 0 value
+	METHOD b serializeCustomData (Lfy;)V
+		ARG 0 tag
+	METHOD bM initAttributes ()V
+	METHOD cf getSoundDeath ()Lqc;
+	METHOD d getSoundHurt (Lup;)Lqc;
+	METHOD dn getSkull ()Lain;

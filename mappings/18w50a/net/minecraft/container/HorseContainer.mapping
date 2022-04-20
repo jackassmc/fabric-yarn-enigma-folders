@@ -1,0 +1,18 @@
+CLASS atq net/minecraft/container/HorseContainer
+	CLASS atq$1
+		METHOD a canInsert (Lawo;)Z
+		METHOD b doDrawHoveringEffect ()Z
+	CLASS atq$2
+		METHOD a getMaxStackAmount ()I
+		METHOD a canInsert (Lawo;)Z
+		METHOD b doDrawHoveringEffect ()Z
+	FIELD a playerInv Lafi;
+	FIELD f entity Lana;
+	METHOD <init> (Lafi;Lafi;Lana;Larb;)V
+		ARG 1 playerInv
+		ARG 2 inventory
+		ARG 3 entity
+	METHOD a canUse (Larb;)Z
+	METHOD b close (Larb;)V
+	METHOD b transferSlot (Larb;I)Lawo;
+		ARG 1 player

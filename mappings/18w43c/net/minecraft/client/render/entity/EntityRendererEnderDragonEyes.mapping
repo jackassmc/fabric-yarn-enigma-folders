@@ -1,0 +1,7 @@
+CLASS dfh net/minecraft/client/render/entity/EntityRendererEnderDragonEyes
+	FIELD a SKIN Lpt;
+	METHOD a shouldMergeTextures ()Z
+	METHOD a render (Lafq;FFFFFFF)V
+		ARG 0 entity
+	METHOD a render (Lalv;FFFFFFF)V
+		ARG 0 entity

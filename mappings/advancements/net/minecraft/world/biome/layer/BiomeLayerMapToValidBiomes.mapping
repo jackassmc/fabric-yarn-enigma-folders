@@ -1,0 +1,7 @@
+CLASS bbv net/minecraft/world/biome/layer/BiomeLayerMapToValidBiomes
+	FIELD c biomesHot [Lalv;
+	FIELD d biomesTrees [Lalv;
+	FIELD e biomesCold [Lalv;
+	FIELD f biomesFrozen [Lalv;
+	FIELD g biomeGeneratorSettings Laxi;
+	METHOD a getBiomes (IIII)[I

@@ -1,0 +1,31 @@
+CLASS bti net/minecraft/block/entity/BeaconBlockEntity
+	CLASS bti$a BeamSegment
+		FIELD a color [F
+		FIELD b height I
+		METHOD <init> ([F)V
+			ARG 1 color
+		METHOD a increaseHeight ()V
+		METHOD b getColor ()[F
+		METHOD c getHeight ()I
+	FIELD a EFFECTS_BY_LEVEL [[Lahx;
+	FIELD b EFFECTS Ljava/util/Set;
+	FIELD c beamSegments Ljava/util/List;
+	FIELD h level I
+	FIELD j primary Lahx;
+	FIELD k secondary Lahx;
+	FIELD l customName Ljm;
+	FIELD m lock Lahc;
+	FIELD n propertyDelegate Layk;
+	METHOD a updateLevel (III)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD a setCustomName (Ljm;)V
+	METHOD a playSound (Lyj;)V
+	METHOD b getPotionEffectById (I)Lahx;
+		ARG 0 id
+	METHOD c getBeamSegments ()Ljava/util/List;
+	METHOD createMenu (ILavw;Lavx;)Layb;
+		ARG 1 syncId
+	METHOD f getLevel ()I
+	METHOD r applyPlayerEffects ()V

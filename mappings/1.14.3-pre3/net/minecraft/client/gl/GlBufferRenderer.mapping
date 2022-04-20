@@ -1,0 +1,4 @@
+CLASS cuu net/minecraft/client/gl/GlBufferRenderer
+	FIELD a glBuffer Lcut;
+	METHOD a setGlBuffer (Lcut;)V
+		ARG 1 glBuffer

@@ -1,0 +1,3 @@
+CLASS dih net/minecraft/client/render/entity/PufferfishEntityRenderer
+	METHOD a getTexture (Lagi;)Lpy;
+	METHOD a getTexture (Lamb;)Lpy;

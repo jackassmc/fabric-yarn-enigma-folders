@@ -1,0 +1,2 @@
+CLASS dus net/minecraft/client/resource/DefaultClientResourcePack
+	FIELD d index Lduq;

@@ -1,0 +1,6 @@
+CLASS bxx net/minecraft/world/gen/feature/LakeFeatureConfig
+	FIELD a state Lbre;
+	METHOD <init> (Lbre;)V
+		ARG 1 state
+	METHOD a deserialize (Lcom/mojang/datafixers/Dynamic;)Lbxx;
+		ARG 0 dynamic

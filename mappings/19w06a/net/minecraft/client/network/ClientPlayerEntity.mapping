@@ -1,0 +1,20 @@
+CLASS dex net/minecraft/client/network/ClientPlayerEntity
+	FIELD cA activeHand Lagd;
+	FIELD ci stats Lyg;
+	FIELD cj recipeBook Lcpz;
+	FIELD cl clientPermissionLevel I
+	FIELD cw serverBrand Ljava/lang/String;
+	FIELD e networkHandler Ldcj;
+	FIELD f input Ldev;
+	FIELD g client Lcqg;
+	METHOD <init> (Lcqg;Ldcm;Ldcj;Lyg;Lcpz;)V
+		ARG 1 client
+	METHOD A getServerBrand ()Ljava/lang/String;
+	METHOD B getStats ()Lyg;
+	METHOD D getRecipeBook ()Lcpz;
+	METHOD a setClientPermissionLevel (I)V
+	METHOD a onRecipeDisplayed (Lazw;)V
+	METHOD f sendChatMessage (Ljava/lang/String;)V
+	METHOD g setServerBrand (Ljava/lang/String;)V
+		ARG 1 serverBrand
+	METHOD s updateHealth (F)V

@@ -1,0 +1,25 @@
+CLASS aox net/minecraft/entity/mob/EntitySilverfish
+	CLASS aox$a
+		METHOD a canStart ()Z
+		METHOD b shouldContinue ()Z
+		METHOD c start ()V
+	CLASS aox$b
+		METHOD a canStart ()Z
+		METHOD e tick ()V
+	METHOD D getSoundAmbient ()Lww;
+	METHOD F getLootTableId ()Lpu;
+	METHOD S_ update ()V
+	METHOD a damage (Lafe;F)Z
+		ARG 1 source
+		ARG 2 damage
+	METHOD a playStepSound (Leq;Lbnh;)V
+		ARG 1 pos
+		ARG 2 block
+	METHOD aK getHeightOffset ()D
+	METHOD bH getEyeHeight ()F
+	METHOD cb initAttributes ()V
+	METHOD cw getSoundDeath ()Lww;
+	METHOD e getSoundHurt (Lafe;)Lww;
+	METHOD k setYaw (F)V
+		ARG 1 value
+	METHOD n initAi ()V

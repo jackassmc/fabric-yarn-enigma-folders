@@ -1,0 +1,3 @@
+CLASS dfu net/minecraft/client/render/entity/EnderCrystalEntityRenderer
+	METHOD a getTexture (Lagf;)Lpy;
+	METHOD a getTexture (Lamy;)Lpy;

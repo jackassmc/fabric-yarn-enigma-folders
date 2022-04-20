@@ -1,0 +1,12 @@
+CLASS id net/minecraft/network/packet/client/CPacketGameStateChange
+	FIELD a REASON_MESSAGES [Ljava/lang/String;
+	FIELD b reason I
+	FIELD c value F
+	METHOD a getReason ()I
+	METHOD a readPacket (Lgb;)V
+		ARG 0 buf
+	METHOD a applyPacket (Lge;)V
+	METHOD a applyPacket (Lgy;)V
+	METHOD b getValue ()F
+	METHOD b writePacket (Lgb;)V
+		ARG 0 buf

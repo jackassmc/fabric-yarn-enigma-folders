@@ -1,0 +1,6 @@
+CLASS aos net/minecraft/entity/mob/ElderGuardianEntity
+	METHOD D getSoundAmbient ()Lxd;
+	METHOD H mobTick ()V
+	METHOD cb initAttributes ()V
+	METHOD cw getSoundDeath ()Lxd;
+	METHOD e getSoundHurt (Lafo;)Lxd;

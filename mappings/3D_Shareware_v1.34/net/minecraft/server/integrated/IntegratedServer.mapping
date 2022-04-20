@@ -1,0 +1,14 @@
+CLASS dxe net/minecraft/server/integrated/IntegratedServer
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD h client Lcux;
+	FIELD i levelInfo Lbhb;
+	FIELD k lanPort I
+	FIELD l lanPinger Ldxh;
+	METHOD <init> (Lcux;Ljava/lang/String;Ljava/lang/String;Lbhb;Lcom/mojang/authlib/yggdrasil/YggdrasilAuthenticationService;Lcom/mojang/authlib/minecraft/MinecraftSessionService;Lcom/mojang/authlib/GameProfileRepository;Lxk;Lvo;)V
+		ARG 1 client
+		ARG 2 levelName
+		ARG 3 displayName
+		ARG 4 levelInfo
+		ARG 5 authService
+		ARG 6 sessionService
+		ARG 7 profileRepo

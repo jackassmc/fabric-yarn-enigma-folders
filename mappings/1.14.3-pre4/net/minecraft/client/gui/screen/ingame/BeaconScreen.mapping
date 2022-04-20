@@ -1,0 +1,61 @@
+CLASS dau net/minecraft/client/gui/screen/ingame/BeaconScreen
+	CLASS a CancelButtonWidget
+		METHOD <init> (Ldau;II)V
+			ARG 2 x
+			ARG 3 y
+		METHOD renderToolTip (II)V
+			ARG 1 mouseX
+			ARG 2 mouseY
+	CLASS b DoneButtonWidget
+		METHOD <init> (Ldau;II)V
+			ARG 2 x
+			ARG 3 y
+		METHOD renderToolTip (II)V
+			ARG 1 mouseX
+			ARG 2 mouseY
+	CLASS c EffectButtonWidget
+		FIELD b effect Laid;
+		FIELD c sprite Ldun;
+		FIELD d primary Z
+		METHOD <init> (Ldau;IILaid;Z)V
+			ARG 2 x
+			ARG 3 y
+			ARG 4 statusEffect
+			ARG 5 primary
+		METHOD renderToolTip (II)V
+			ARG 1 mouseX
+			ARG 2 mouseY
+	CLASS d BaseButtonWidget
+		FIELD a disabled Z
+		METHOD <init> (II)V
+			ARG 1 x
+			ARG 2 y
+		METHOD a renderExtra ()V
+		METHOD a setDisabled (Z)V
+			ARG 1 disabled
+		METHOD b isDisabled ()Z
+		METHOD renderButton (IIF)V
+			ARG 1 mouseX
+			ARG 2 mouseY
+			ARG 3 delta
+	CLASS e IconButtonWidget
+		FIELD a u I
+		FIELD b v I
+		METHOD <init> (IIII)V
+			ARG 1 x
+			ARG 2 y
+			ARG 3 u
+			ARG 4 v
+	FIELD k BG_TEX Lqt;
+	FIELD l doneButton Ldau$b;
+	FIELD m consumeGem Z
+	FIELD n primaryEffect Laid;
+	FIELD o secondaryEffect Laid;
+	METHOD <init> (Layi;Lawa;Ljn;)V
+		ARG 1 container
+		ARG 2 inventory
+		ARG 3 title
+	METHOD render (IIF)V
+		ARG 1 mouseX
+		ARG 2 mouseY
+		ARG 3 delta

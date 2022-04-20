@@ -1,0 +1,25 @@
+CLASS atb net/minecraft/entity/vehicle/BoatEntity
+	CLASS atb$b Type
+		FIELD a OAK Latb$b;
+		FIELD b SPRUCE Latb$b;
+		FIELD c BIRCH Latb$b;
+		FIELD d JUNGLE Latb$b;
+		FIELD e ACACIA Latb$b;
+		FIELD f DARK_OAK Latb$b;
+		FIELD g name Ljava/lang/String;
+		METHOD a getName ()Ljava/lang/String;
+		METHOD a getType (I)Latb$b;
+		METHOD a getType (Ljava/lang/String;)Latb$b;
+	FIELD e BOAT_TYPE Lps;
+	FIELD f LEFT_PADDLE_MOVING Lps;
+	FIELD g RIGHT_PADDLE_MOVING Lps;
+	METHOD <init> (Lbcu;DDD)V
+		ARG 1 world
+		ARG 2 x
+	METHOD a getPaddleState (I)Z
+		ARG 1 paddle
+	METHOD a copyEntityData (Lahi;)V
+	METHOD a setBoatType (Latb$b;)V
+	METHOD a setPaddleState (ZZ)V
+	METHOD e asItem ()Laxh;
+	METHOD o getBoatType ()Latb$b;

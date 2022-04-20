@@ -1,0 +1,6 @@
+CLASS dgz net/minecraft/client/particle/EnchantGlyphParticle
+	CLASS dgz$a net/minecraft/client/particle/EnchantGlyphParticle$EnchantFactory
+	CLASS dgz$b net/minecraft/client/particle/EnchantGlyphParticle$NautilusFactory
+	FIELD C startX D
+	FIELD F startY D
+	FIELD G startZ D

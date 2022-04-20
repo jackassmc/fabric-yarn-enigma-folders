@@ -1,0 +1,3 @@
+CLASS ayu net/minecraft/enchantment/Enchantments
+	FIELD L ALL_ARMOR [Lagk;
+	METHOD a register (Ljava/lang/String;Layq;)Layq;

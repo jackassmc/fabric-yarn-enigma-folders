@@ -1,0 +1,15 @@
+CLASS apq net/minecraft/entity/projectile/EntityShulkerBullet
+	METHOD S_ update ()V
+	METHOD a shouldRender (D)Z
+		ARG 0 distanceSq
+	METHOD a damage (Laeq;F)Z
+		ARG 0 source
+		ARG 1 damage
+	METHOD a deserializeCustomData (Lhl;)V
+		ARG 0 tag
+	METHOD aD doesCollide ()Z
+	METHOD aX isOnFire ()Z
+	METHOD b serializeCustomData (Lhl;)V
+		ARG 0 tag
+	METHOD bX getSoundCategory ()Lwx;
+	METHOD y_ initDataTracker ()V

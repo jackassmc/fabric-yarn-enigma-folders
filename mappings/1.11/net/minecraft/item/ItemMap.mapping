@@ -1,0 +1,6 @@
+CLASS aeh net/minecraft/item/ItemMap
+	METHOD a createMapPacket (Lafi;Lajq;Laax;)Lfm;
+		ARG 0 stack
+		ARG 1 world
+		ARG 2 player
+	METHOD f isMap ()Z

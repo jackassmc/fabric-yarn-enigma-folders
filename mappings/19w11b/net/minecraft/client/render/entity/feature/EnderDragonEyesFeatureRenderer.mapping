@@ -1,0 +1,4 @@
+CLASS drl net/minecraft/client/render/entity/feature/EnderDragonEyesFeatureRenderer
+	FIELD a SKIN Lqp;
+	METHOD <init> (Ldpr;)V
+		ARG 1 context

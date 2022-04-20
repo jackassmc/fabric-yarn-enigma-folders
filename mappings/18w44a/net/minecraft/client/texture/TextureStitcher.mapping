@@ -1,0 +1,37 @@
+CLASS diy net/minecraft/client/texture/TextureStitcher
+	CLASS diy$a Holder
+		FIELD a sprite Ldjb;
+		FIELD b width I
+		FIELD c height I
+		FIELD d mipLevel I
+		METHOD a getSprite ()Ldjb;
+	CLASS diy$b Slot
+		FIELD a x I
+		FIELD b y I
+		FIELD c width I
+		FIELD d height I
+		FIELD f spriteHolder Ldiy$a;
+		METHOD a getSpriteHolder ()Ldiy$a;
+		METHOD a tryFit (Ldiy$a;)Z
+		METHOD a addAllFilledSlots (Ljava/util/List;)V
+		METHOD b getX ()I
+		METHOD c getY ()I
+	FIELD a mipLevel I
+	FIELD b holders Ljava/util/Set;
+	FIELD c slots Ljava/util/List;
+	FIELD d width I
+	FIELD e height I
+	FIELD f maxWidth I
+	FIELD g maxHeight I
+	METHOD <init> (IIII)V
+		ARG 1 maxWidth
+		ARG 2 maxHeight
+		ARG 4 mipLevel
+	METHOD a getWidth ()I
+	METHOD a tryFit (Ldiy$a;)Z
+		ARG 1 holder
+	METHOD a add (Ldjb;)V
+		ARG 1 sprite
+	METHOD b getHeight ()I
+	METHOD c stitch ()V
+	METHOD d getStitchedSprites ()Ljava/util/List;

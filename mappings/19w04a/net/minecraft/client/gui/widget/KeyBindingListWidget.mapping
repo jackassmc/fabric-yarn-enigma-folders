@@ -1,0 +1,6 @@
+CLASS cuw net/minecraft/client/gui/widget/KeyBindingListWidget
+	CLASS cuw$b Entry
+	FIELD v gui Lcux;
+	FIELD w client Lcpy;
+	METHOD <init> (Lcux;Lcpy;)V
+		ARG 1 gui

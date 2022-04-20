@@ -1,0 +1,5 @@
+CLASS aha net/minecraft/util/TypedActionResult
+	FIELD a result Lagz;
+	FIELD b value Ljava/lang/Object;
+	METHOD a getResult ()Lagz;
+	METHOD b getValue ()Ljava/lang/Object;

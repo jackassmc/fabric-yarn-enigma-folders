@@ -1,0 +1,2 @@
+CLASS chk net/minecraft/structure/generator/NetherFortressGenerator
+	CLASS chk$q Start

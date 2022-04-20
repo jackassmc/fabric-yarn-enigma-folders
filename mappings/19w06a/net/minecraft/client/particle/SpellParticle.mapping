@@ -1,0 +1,7 @@
+CLASS dee net/minecraft/client/particle/SpellParticle
+	CLASS dee$a EntityAmbientFactory
+	CLASS dee$b InstantFactory
+	CLASS dee$c EntityFactory
+	CLASS dee$d DefaultFactory
+	CLASS dee$e WitchFactory
+	FIELD D RANDOM Ljava/util/Random;

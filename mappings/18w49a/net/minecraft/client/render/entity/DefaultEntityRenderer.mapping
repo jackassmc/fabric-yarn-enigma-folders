@@ -1,0 +1,2 @@
+CLASS dgs net/minecraft/client/render/entity/DefaultEntityRenderer
+	METHOD a getTexture (Lagk;)Lpz;

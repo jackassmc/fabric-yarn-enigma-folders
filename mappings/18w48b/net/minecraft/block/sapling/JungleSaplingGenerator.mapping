@@ -1,0 +1,5 @@
+CLASS bnx net/minecraft/block/sapling/JungleSaplingGenerator
+	METHOD a createLargeTreeFeature (Ljava/util/Random;)Lbsk;
+		ARG 1 random
+	METHOD b createTreeFeature (Ljava/util/Random;)Lbsk;
+		ARG 1 random

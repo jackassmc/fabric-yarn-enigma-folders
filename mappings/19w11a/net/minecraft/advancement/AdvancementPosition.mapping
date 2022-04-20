@@ -1,0 +1,27 @@
+CLASS ab net/minecraft/advancement/AdvancementPosition
+	FIELD a advancement Lp;
+	FIELD b parent Lab;
+	FIELD c previousSibling Lab;
+	FIELD d childrenSize I
+	FIELD e children Ljava/util/List;
+	FIELD f optionalLast Lab;
+	FIELD g substituteChild Lab;
+	FIELD h depth I
+	FIELD i row F
+	FIELD j relativeRowInSiblings F
+	METHOD a initRecursively ()V
+	METHOD a increaseRow (F)V
+		ARG 1 deltaRow
+	METHOD a positMinRow (FIF)F
+		ARG 1 deltaRow
+		ARG 2 depth
+		ARG 3 minRow
+	METHOD a postInit (Lab;)Lab;
+		ARG 1 last
+	METHOD a getLast (Lab;Lab;)Lab;
+	METHOD a arrangeForRoot (Lp;)V
+	METHOD a adjust (Lp;Lab;)Lab;
+		ARG 2 childPosition
+	METHOD c getFirstChild ()Lab;
+	METHOD d getLastChild ()Lab;
+	METHOD e apply ()V

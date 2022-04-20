@@ -1,0 +1,4 @@
+CLASS bta net/minecraft/block/WitherRoseBlock
+	METHOD <init> (Laib;Lbmn$c;)V
+		ARG 1 effect
+		ARG 2 settings

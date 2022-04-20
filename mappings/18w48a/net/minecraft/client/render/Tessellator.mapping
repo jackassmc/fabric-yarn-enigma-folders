@@ -1,0 +1,7 @@
+CLASS cni net/minecraft/client/render/Tessellator
+	FIELD a buffer Lcnf;
+	FIELD b renderer Lcng;
+	FIELD c INSTANCE Lcni;
+	METHOD a getInstance ()Lcni;
+	METHOD b draw ()V
+	METHOD c getVertexBuffer ()Lcnf;

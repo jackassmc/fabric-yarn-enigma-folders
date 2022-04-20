@@ -1,0 +1,2 @@
+CLASS zi net/minecraft/util/Void
+	FIELD a INSTANCE Lzi;

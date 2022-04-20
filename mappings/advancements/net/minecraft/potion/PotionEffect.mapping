@@ -1,0 +1,24 @@
+CLASS tv net/minecraft/potion/PotionEffect
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD b type Ltu;
+	FIELD c duration I
+	FIELD d amplifier I
+	FIELD e splash Z
+	FIELD f ambient Z
+	FIELD g permanent Z
+	FIELD h showParticles Z
+	METHOD a getEffectType ()Ltu;
+	METHOD a serialize (Lfc;)Lfc;
+	METHOD a upgrade (Ltv;)V
+	METHOD a update (Luk;)Z
+	METHOD b getDuration ()I
+	METHOD b deserialize (Lfc;)Ltv;
+	METHOD b compareTo (Ltv;)I
+	METHOD b applyUpdateEffect (Luk;)V
+	METHOD b setPermanent (Z)V
+	METHOD c getAmplifier ()I
+	METHOD d isAmbient ()Z
+	METHOD e shouldShowParticles ()Z
+	METHOD f getTranslationKey ()Ljava/lang/String;
+	METHOD g isPermanent ()Z
+	METHOD h updateDuration ()I

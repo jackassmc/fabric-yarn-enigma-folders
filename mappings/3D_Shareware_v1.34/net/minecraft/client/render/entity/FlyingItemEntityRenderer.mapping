@@ -1,0 +1,4 @@
+CLASS drg net/minecraft/client/render/entity/FlyingItemEntityRenderer
+	FIELD a item Ldpx;
+	METHOD <init> (Ldpc;Ldpx;F)V
+		ARG 1 renderManager

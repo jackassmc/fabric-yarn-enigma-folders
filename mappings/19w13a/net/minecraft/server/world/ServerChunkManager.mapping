@@ -1,0 +1,44 @@
+CLASS vc net/minecraft/server/world/ServerChunkManager
+	CLASS vc$a ChunkTaskQueue
+	FIELD a threadedAnvilChunkStorage Lur;
+	FIELD b CHUNKS_ELIGIBLE_FOR_SPAWNING I
+	FIELD c CHUNK_STATUSES Ljava/util/List;
+	FIELD d ticketManager Lux;
+	FIELD e chunkGenerator Lbwl;
+	FIELD f world Lve;
+	FIELD g serverThread Ljava/lang/Thread;
+	FIELD h lightProvider Lvh;
+	FIELD j persistentStateManager Lcnk;
+	FIELD k lastMobSpawningTime J
+	FIELD l spawnMonsters Z
+	FIELD m spawnAnimals Z
+	METHOD a getChunkHolder (J)Luq;
+		ARG 1 pos
+	METHOD a getDebugString (Lbgi;)Ljava/lang/String;
+		ARG 1 pos
+	METHOD a markForUpdate (Lev;)V
+	METHOD a updateCameraPosition (Lvf;)V
+		ARG 1 player
+	METHOD a addTicket (Lvj;Lbgi;ILjava/lang/Object;)V
+	METHOD a save (Z)V
+		ARG 1 flush
+	METHOD b getTotalChunksLoadedCount ()I
+	METHOD b getChunkSyncIfServerThread (IILbwp;Z)Ljava/util/concurrent/CompletableFuture;
+		ARG 1 chunkX
+		ARG 2 chunkZ
+		ARG 3 status
+		ARG 4 create
+	METHOD b unloadEntity (Lahz;)V
+	METHOD b removeTicket (Lvj;Lbgi;ILjava/lang/Object;)V
+	METHOD c applyViewDistance (II)V
+	METHOD c getChunkAsync (IILbwp;Z)Ljava/util/concurrent/CompletableFuture;
+		ARG 1 chunkX
+		ARG 2 chunkZ
+		ARG 3 status
+		ARG 4 create
+	METHOD c loadEntity (Lahz;)V
+	METHOD g getLoadedChunkCount ()I
+	METHOD h getPersistentStateManager ()Lcnk;
+	METHOD i getPointOfInterestStorage ()Lapw;
+	METHOD l update ()Z
+	METHOD m tickChunks ()V

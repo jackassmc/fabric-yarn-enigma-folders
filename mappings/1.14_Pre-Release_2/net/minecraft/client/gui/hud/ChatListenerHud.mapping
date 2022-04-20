@@ -1,0 +1,4 @@
+CLASS cwa net/minecraft/client/gui/hud/ChatListenerHud
+	FIELD a client Lcvb;
+	METHOD <init> (Lcvb;)V
+		ARG 1 client

@@ -1,0 +1,2 @@
+CLASS avs net/minecraft/item/ItemSeeds
+	METHOD a useOnBlock (Lawn;)Laet;

@@ -1,0 +1,9 @@
+CLASS atp net/minecraft/entity/mob/AbstractSkeletonEntity
+	FIELD b bowAttackGoal Lant;
+	FIELD c meleeAttackGoal Lanc;
+	METHOD <init> (Laih;Lbhd;)V
+		ARG 1 type
+	METHOD b createArrowProjectile (Lbbx;F)Lavy;
+		ARG 1 arrow
+	METHOD dT updateAttackType ()V
+	METHOD l getStepSound ()Lyi;

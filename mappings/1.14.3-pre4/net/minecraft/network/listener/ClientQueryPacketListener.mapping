@@ -1,0 +1,3 @@
+CLASS qa net/minecraft/network/listener/ClientQueryPacketListener
+	METHOD a onPong (Lqb;)V
+	METHOD a onResponse (Lqc;)V

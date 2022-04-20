@@ -1,0 +1,45 @@
+CLASS cbq net/minecraft/util/MapColor
+	FIELD A BLUE Lcbq;
+	FIELD B BROWN Lcbq;
+	FIELD C GREEN Lcbq;
+	FIELD D RED Lcbq;
+	FIELD E BLACK Lcbq;
+	FIELD F GOLD Lcbq;
+	FIELD G DIAMOND Lcbq;
+	FIELD H LAPIS Lcbq;
+	FIELD I EMERALD Lcbq;
+	FIELD J SPRUCE Lcbq;
+	FIELD K NETHER Lcbq;
+	FIELD a COLORS [Lcbq;
+	FIELD ab color I
+	FIELD ac id I
+	FIELD b AIR Lcbq;
+	FIELD c GRASS Lcbq;
+	FIELD d SAND Lcbq;
+	FIELD e WEB Lcbq;
+	FIELD f LAVA Lcbq;
+	FIELD g ICE Lcbq;
+	FIELD h IRON Lcbq;
+	FIELD i LEAVES Lcbq;
+	FIELD j WHITE Lcbq;
+	FIELD k CLAY Lcbq;
+	FIELD l DIRT Lcbq;
+	FIELD m STONE Lcbq;
+	FIELD n WATER Lcbq;
+	FIELD o WOOD Lcbq;
+	FIELD p QUARTZ Lcbq;
+	FIELD q ORANGE Lcbq;
+	FIELD r MAGENTA Lcbq;
+	FIELD s LIGHT_BLUE Lcbq;
+	FIELD t YELLOW Lcbq;
+	FIELD u LIME Lcbq;
+	FIELD v PINK Lcbq;
+	FIELD w GRAY Lcbq;
+	FIELD x LIGHT_GRAY Lcbq;
+	FIELD y CYAN Lcbq;
+	FIELD z PURPLE Lcbq;
+	METHOD <init> (II)V
+		ARG 1 id
+		ARG 2 color
+	METHOD a getRenderColor (I)I
+		ARG 1 shade

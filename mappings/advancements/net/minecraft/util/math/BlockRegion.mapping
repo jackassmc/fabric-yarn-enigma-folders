@@ -1,0 +1,18 @@
+CLASS azr net/minecraft/util/math/BlockRegion
+	FIELD a minX I
+	FIELD b minY I
+	FIELD c minZ I
+	FIELD d maxX I
+	FIELD e maxY I
+	FIELD f maxZ I
+	METHOD a translate (III)V
+	METHOD a containsHorizontal (IIII)Z
+	METHOD a createSorted (IIIIII)Lazr;
+	METHOD a contains (Lazr;)Z
+	METHOD b getSize ()Leu;
+	METHOD b expand (Lazr;)V
+	METHOD b contains (Leu;)Z
+	METHOD c getWidth ()I
+	METHOD d getDepth ()I
+	METHOD e getHeight ()I
+	METHOD g serialize ()Lfg;

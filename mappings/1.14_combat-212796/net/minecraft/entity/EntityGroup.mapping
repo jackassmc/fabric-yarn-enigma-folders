@@ -1,0 +1,6 @@
+CLASS aiy net/minecraft/entity/EntityGroup
+	FIELD a DEFAULT Laiy;
+	FIELD b UNDEAD Laiy;
+	FIELD c ARTHROPOD Laiy;
+	FIELD d ILLAGER Laiy;
+	FIELD e AQUATIC Laiy;

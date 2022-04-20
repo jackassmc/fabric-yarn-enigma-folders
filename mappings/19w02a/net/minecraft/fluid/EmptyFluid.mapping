@@ -1,0 +1,7 @@
+CLASS cfp net/minecraft/fluid/EmptyFluid
+	METHOD a getRenderLayer ()Lbbs;
+	METHOD b getBucketItem ()Lawy;
+	METHOD b toBlockState (Lcfs;)Lbqe;
+	METHOD c isEmpty ()Z
+	METHOD c isStill (Lcfs;)Z
+	METHOD d getBlastResistance ()F

@@ -1,0 +1,10 @@
+CLASS bze net/minecraft/client/render/VertexFormats
+	FIELD f POSITION_COLOR Lbzg;
+	FIELD g POSITION_UV Lbzg;
+	FIELD i POSITION_UV_COLOR Lbzg;
+	FIELD m POSITION Lbzh;
+	FIELD n COLOR Lbzh;
+	FIELD o UV Lbzh;
+	FIELD p UV1 Lbzh;
+	FIELD q NORMAL Lbzh;
+	FIELD r PADDING Lbzh;

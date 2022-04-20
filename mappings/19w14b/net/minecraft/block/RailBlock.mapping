@@ -1,0 +1,4 @@
+CLASS bqc net/minecraft/block/RailBlock
+	FIELD c SHAPE Lbvx;
+	METHOD <init> (Lbmb$c;)V
+		ARG 1 settings

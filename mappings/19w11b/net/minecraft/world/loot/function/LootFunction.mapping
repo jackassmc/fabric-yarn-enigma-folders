@@ -1,0 +1,11 @@
+CLASS cof net/minecraft/world/loot/function/LootFunction
+	CLASS cof$a Builder
+		METHOD b build ()Lcof;
+	CLASS cof$b Factory
+		FIELD a id Lqp;
+		FIELD b functionClass Ljava/lang/Class;
+		METHOD a getId ()Lqp;
+		METHOD a toJson (Lcom/google/gson/JsonObject;Lcof;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD b getFunctionClass ()Ljava/lang/Class;
+		METHOD b fromJson (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Lcof;
+	METHOD a apply (Ljava/util/function/BiFunction;Ljava/util/function/Consumer;Lcmw;)Ljava/util/function/Consumer;

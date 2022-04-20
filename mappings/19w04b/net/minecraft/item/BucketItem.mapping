@@ -1,0 +1,25 @@
+CLASS avp net/minecraft/item/BucketItem
+	FIELD a fluid Lcfv;
+	METHOD <init> (Lcfv;Lawy$a;)V
+		ARG 1 fluid
+		ARG 2 settings
+	METHOD a placeFluid (Larj;Lbcl;Let;Lcmn;)Z
+		ARG 1 player
+		ARG 2 world
+		ARG 3 pos
+		ARG 4 hitResult
+	METHOD a playEmptyingSound (Larj;Lbcm;Let;)V
+		ARG 1 player
+		ARG 2 world
+		ARG 3 pos
+	METHOD a getEmptiedStack (Laxd;Larj;)Laxd;
+		ARG 1 stack
+		ARG 2 player
+	METHOD a getFilledStack (Laxd;Larj;Lawy;)Laxd;
+		ARG 1 stack
+		ARG 2 player
+		ARG 3 filledBucket
+	METHOD a onEmptied (Lbcl;Laxd;Let;)V
+		ARG 1 world
+		ARG 2 stack
+		ARG 3 pos

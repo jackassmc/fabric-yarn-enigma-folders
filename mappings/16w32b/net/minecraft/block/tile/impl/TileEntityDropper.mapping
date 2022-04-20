@@ -1,0 +1,2 @@
+CLASS none/ari net/minecraft/block/tile/impl/TileEntityDropper
+	METHOD h_ ()Ljava/lang/String;

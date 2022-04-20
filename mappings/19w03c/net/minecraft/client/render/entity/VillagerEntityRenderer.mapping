@@ -1,0 +1,4 @@
+CLASS dmk net/minecraft/client/render/entity/VillagerEntityRenderer
+	FIELD a VILLAGER_SKIN Lqc;
+	METHOD a getTexture (Lahc;)Lqc;
+	METHOD a getTexture (Laqz;)Lqc;

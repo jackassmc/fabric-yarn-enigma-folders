@@ -1,0 +1,9 @@
+CLASS dhe net/minecraft/client/render/entity/EntityRendererVillager
+	FIELD a VILLAGER_SKIN Lpw;
+	FIELD j FARMER_SKIN Lpw;
+	FIELD k LIBRARIAN_SKIN Lpw;
+	FIELD l PRIEST_SKIN Lpw;
+	FIELD m BLACKSMITH_SKIN Lpw;
+	FIELD n BUTCHER_SKIN Lpw;
+	METHOD a getTexture (Lafy;)Lpw;
+	METHOD a getTexture (Lapq;)Lpw;

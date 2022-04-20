@@ -1,0 +1,4 @@
+CLASS ahv net/minecraft/entity/damage/EntityDamageSource
+	FIELD x source Lail;
+	METHOD <init> (Ljava/lang/String;Lail;)V
+		ARG 1 name

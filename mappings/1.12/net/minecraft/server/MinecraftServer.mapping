@@ -1,0 +1,237 @@
+CLASS net/minecraft/server/MinecraftServer net/minecraft/server/MinecraftServer
+	CLASS net/minecraft/server/MinecraftServer$1
+		FIELD b lastProgressUpdate J
+		METHOD a finish ()V
+		METHOD a setProgress (I)V
+			ARG 0 percentage
+		METHOD a setTitle (Ljava/lang/String;)V
+			ARG 0 title
+		METHOD b setTitleAndResetTask (Ljava/lang/String;)V
+			ARG 0 title
+		METHOD c setTask (Ljava/lang/String;)V
+			ARG 0 task
+	CLASS net/minecraft/server/MinecraftServer$3
+		METHOD a call ()Ljava/lang/String;
+	CLASS net/minecraft/server/MinecraftServer$4
+		METHOD a call ()Ljava/lang/String;
+	FIELD A preventProxyConnections Z
+	FIELD B spawnAnimals Z
+	FIELD C spawnNpcs Z
+	FIELD D pvpEnabled Z
+	FIELD E flightEnabled Z
+	FIELD F motd Ljava/lang/String;
+	FIELD G worldHeight I
+	FIELD H playerIdleTimeout I
+	FIELD I keyPair Ljava/security/KeyPair;
+	FIELD J userName Ljava/lang/String;
+	FIELD K levelName Ljava/lang/String;
+	FIELD L displayName Ljava/lang/String;
+	FIELD M demo Z
+	FIELD N bonusChest Z
+	FIELD O resourcePackUrl Ljava/lang/String;
+	FIELD P resourcePackHash Ljava/lang/String;
+	FIELD S currentTaskName Ljava/lang/String;
+	FIELD U forceGameMode Z
+	FIELD V authService Lcom/mojang/authlib/yggdrasil/YggdrasilAuthenticationService;
+	FIELD W sessionService Lcom/mojang/authlib/minecraft/MinecraftSessionService;
+	FIELD X gameProfileRepo Lcom/mojang/authlib/GameProfileRepository;
+	FIELD Y userCache Lpf;
+	FIELD a USER_CACHE_FILE Ljava/io/File;
+	FIELD aa serverThread Ljava/lang/Thread;
+	FIELD ab serverStartTime J
+	FIELD ac iconFilePresent Z
+	FIELD b commandManager Lbl;
+	FIELD c profiler Lrj;
+	FIELD d worlds [Lom;
+	FIELD e proxy Ljava/net/Proxy;
+	FIELD f currentOperation Ljava/lang/String;
+	FIELD g currentOperationPercent I
+	FIELD h lastTickLengths [J
+	FIELD j jobs Ljava/util/Queue;
+	FIELD k LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD l levelStorage Lbfe;
+	FIELD m snooper Luj;
+	FIELD n gameDir Ljava/io/File;
+	FIELD o tickables Ljava/util/List;
+	FIELD p serverNetworkManager Lox;
+	FIELD q serverMetadata Lms;
+	FIELD r rand Ljava/util/Random;
+	FIELD s migrationHandler Lrw;
+	FIELD t serverIp Ljava/lang/String;
+	FIELD u serverPort I
+	FIELD v serverConfigurationManager Lpj;
+	FIELD w running Z
+	FIELD x stopped Z
+	FIELD y ticks I
+	FIELD z onlineMode Z
+	METHOD <init> (Ljava/io/File;Ljava/net/Proxy;Lrw;Lcom/mojang/authlib/yggdrasil/YggdrasilAuthenticationService;Lcom/mojang/authlib/minecraft/MinecraftSessionService;Lcom/mojang/authlib/GameProfileRepository;Lpf;)V
+		ARG 0 gameDir
+		ARG 1 proxy
+		ARG 2 migrationHandler
+		ARG 3 authService
+		ARG 4 sessionService
+		ARG 5 gameProfileRepo
+		ARG 6 userCache
+	METHOD A getRunDirectory ()Ljava/io/File;
+	METHOD B exit ()V
+	METHOD C doServerTick ()V
+	METHOD C_ getServer ()Lnet/minecraft/server/MinecraftServer;
+	METHOD D doLevelTick ()V
+	METHOD E isNetherAllowed ()Z
+	METHOD F start ()V
+	METHOD G getVersion ()Ljava/lang/String;
+	METHOD H getCurrentPlayerCount ()I
+	METHOD I getMaxPlayerCount ()I
+	METHOD J getPlayerNames ()[Ljava/lang/String;
+	METHOD K getPlayerProfiles ()[Lcom/mojang/authlib/GameProfile;
+	METHOD L isDebuggingEnabled ()Z
+	METHOD N getCommandManager ()Lbl;
+	METHOD O getKeyPair ()Ljava/security/KeyPair;
+	METHOD P getServerPort ()I
+	METHOD Q getUserName ()Ljava/lang/String;
+	METHOD R isSinglePlayer ()Z
+	METHOD S getLevelName ()Ljava/lang/String;
+	METHOD T getServerName ()Ljava/lang/String;
+	METHOD U isMonsterSpawningEnabled ()Z
+	METHOD V isDemo ()Z
+	METHOD W getLevelStorage ()Lbfe;
+	METHOD X getResourcePackUrl ()Ljava/lang/String;
+	METHOD Y getResourcePackHash ()Ljava/lang/String;
+	METHOD Z isSnooperEnabled ()Z
+	METHOD a getWorld (I)Lom;
+		ARG 0 dimensionId
+	METHOD a hasPermission (ILjava/lang/String;)Z
+		ARG 0 permissionLevel
+		ARG 1 commandName
+	METHOD a setDefaultGameMode (Lamq;)V
+		ARG 0 gameMode
+	METHOD a appendCommandFeedback (Lhh;)V
+		ARG 0 feedback
+	METHOD a scheduleOnMainThread (Ljava/lang/Runnable;)Lcom/google/common/util/concurrent/ListenableFuture;
+		ARG 0 runnable
+	METHOD a convertSave (Ljava/lang/String;)V
+		ARG 0 levelName
+	METHOD a setKeyPair (Ljava/security/KeyPair;)V
+		ARG 0 value
+	METHOD a scheduleOnMainThread (Ljava/util/concurrent/Callable;)Lcom/google/common/util/concurrent/ListenableFuture;
+		ARG 0 job
+	METHOD a setConfigurationManager (Lpj;)V
+	METHOD a setDifficulty (Ltx;)V
+		ARG 0 difficulty
+	METHOD a addSnooperInfo (Luj;)V
+		ARG 0 snooper
+	METHOD a saveWorlds (Z)V
+		ARG 0 dontLog
+	METHOD aA getGameProfileRepo ()Lcom/mojang/authlib/GameProfileRepository;
+	METHOD aB getUserCache ()Lpf;
+	METHOD aC getServerMetadata ()Lms;
+	METHOD aE getMaxWorldBorderRadius ()I
+	METHOD aF isMainThread ()Z
+	METHOD aG getNetworkCompressionThreshold ()I
+	METHOD aH getServerStartTime ()J
+	METHOD aI getMainThread ()Ljava/lang/Thread;
+	METHOD aK getServerAdvancementManager ()Lnq;
+	METHOD a_ updateSpawnAreaProgress (Ljava/lang/String;I)V
+		ARG 0 message
+		ARG 1 percentage
+	METHOD a_ setResourcePack (Ljava/lang/String;Ljava/lang/String;)V
+		ARG 0 url
+		ARG 1 hash
+	METHOD aa isDedicated ()Z
+	METHOD ab isOnlineMode ()Z
+	METHOD ac shouldPreventProxyConnections ()Z
+	METHOD ad shouldSpawnAnimals ()Z
+	METHOD ae shouldSpawnNpcs ()Z
+	METHOD af isUsingNativeTransport ()Z
+	METHOD ag isPvpEnabled ()Z
+	METHOD ah isFlightEnabled ()Z
+	METHOD ai areCommandBlocksEnabled ()Z
+	METHOD aj getServerMotd ()Ljava/lang/String;
+	METHOD ak getWorldHeight ()I
+	METHOD al isStopped ()Z
+	METHOD am getConfigurationManager ()Lpj;
+	METHOD an getServerNetworkManager ()Lox;
+	METHOD ap hasGui ()Z
+	METHOD aq getTicks ()I
+	METHOD as getSnooper ()Luj;
+	METHOD at getSpawnProtectionRadius ()I
+	METHOD au shouldForceGameMode ()Z
+	METHOD av getProxy ()Ljava/net/Proxy;
+	METHOD aw getCurrentTimeMillis ()J
+	METHOD ax getPlayerIdleTimeout ()I
+	METHOD az getSessionService ()Lcom/mojang/authlib/minecraft/MinecraftSessionService;
+	METHOD b setServerPort (I)V
+		ARG 0 value
+	METHOD b addServerInfoToCrashReport (Lb;)Lb;
+		ARG 0 report
+	METHOD b setCurrentTaskName (Ljava/lang/String;)V
+		ARG 0 taskName
+	METHOD b addSnooperInitialInfo (Luj;)V
+		ARG 0 snooper
+	METHOD b setDemo (Z)V
+		ARG 0 value
+	METHOD c setWorldHeight (I)V
+		ARG 0 value
+	METHOD c setServerIp (Ljava/lang/String;)V
+		ARG 0 serverIp
+	METHOD c setBonusChest (Z)V
+		ARG 0 value
+	METHOD d setPlayerIdleTimeout (I)V
+		ARG 0 value
+	METHOD d getFile (Ljava/lang/String;)Ljava/io/File;
+		ARG 0 name
+	METHOD d setOnlineMode (Z)V
+		ARG 0 value
+	METHOD e getWorld ()Lams;
+	METHOD e info (Ljava/lang/String;)V
+		ARG 0 msg
+	METHOD e setPreventProxyConnections (Z)V
+		ARG 0 value
+	METHOD f warn (Ljava/lang/String;)V
+		ARG 0 msg
+	METHOD f setSpawnAnimals (Z)V
+		ARG 0 value
+	METHOD g shouldEchoCommandFeedback ()Z
+	METHOD g logError (Ljava/lang/String;)V
+		ARG 0 message
+	METHOD g setSpawnNpcs (Z)V
+		ARG 0 value
+	METHOD getServerModName getServerModName ()Ljava/lang/String;
+	METHOD h log (Ljava/lang/String;)V
+		ARG 0 message
+	METHOD h setPvpEnabled (Z)V
+		ARG 0 value
+	METHOD h_ getName ()Ljava/lang/String;
+	METHOD i createCommandManager ()Ldh;
+	METHOD i setUserName (Ljava/lang/String;)V
+		ARG 0 value
+	METHOD i setFlightEnabled (Z)V
+		ARG 0 value
+	METHOD j setupServer ()Z
+	METHOD j setLevelName (Ljava/lang/String;)V
+		ARG 0 value
+	METHOD j setForceGameMode (Z)V
+		ARG 0 value
+	METHOD k getCurrentTaskName ()Ljava/lang/String;
+	METHOD k setServerName (Ljava/lang/String;)V
+		ARG 0 value
+	METHOD l generateTerrain ()V
+	METHOD l setMotd (Ljava/lang/String;)V
+		ARG 0 value
+	METHOD m shouldGenerateStructures ()Z
+	METHOD main main ([Ljava/lang/String;)V
+		ARG 0 args
+	METHOD n getDefaultGameMode ()Lamq;
+	METHOD o getDefaultDifficulty ()Ltx;
+	METHOD p isHardcore ()Z
+	METHOD q getOpPermissionLevel ()I
+	METHOD r shouldBroadcastRconToOps ()Z
+	METHOD run run ()V
+	METHOD s shouldBroadcastConsoleToOps ()Z
+	METHOD t clearSpawnAreaProgress ()V
+	METHOD u shutdown ()V
+	METHOD v getServerIp ()Ljava/lang/String;
+	METHOD w isRunning ()Z
+	METHOD x stop ()V
+	METHOD y hasIconFile ()Z
+	METHOD z getIconFile ()Ljava/io/File;

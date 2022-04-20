@@ -1,0 +1,4 @@
+CLASS bqd net/minecraft/block/RedstoneLampBlock
+	FIELD a LIT Lbvo;
+	METHOD <init> (Lbly$c;)V
+		ARG 1 settings

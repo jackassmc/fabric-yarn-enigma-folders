@@ -1,0 +1,12 @@
+CLASS ahg net/minecraft/entity/attribute/EntityAttributeInstance
+	METHOD a getAttribute ()Lahf;
+	METHOD a setBaseValue (D)V
+	METHOD a hasModifier (Lahh;)Z
+	METHOD a getModifier (Ljava/util/UUID;)Lahh;
+	METHOD b getBaseValue ()D
+	METHOD b addModifier (Lahh;)V
+	METHOD b removeModifier (Ljava/util/UUID;)V
+	METHOD c getModifiers ()Ljava/util/Collection;
+	METHOD c removeModifier (Lahh;)V
+	METHOD d clearModifiers ()V
+	METHOD e getValue ()D

@@ -1,0 +1,20 @@
+CLASS bec net/minecraft/world/loot/LootTableEntry
+	CLASS bec$a DeSerializer
+		METHOD a serialize (Lbec;Ljava/lang/reflect/Type;Lcom/google/gson/JsonSerializationContext;)Lcom/google/gson/JsonElement;
+		METHOD a deserialize (Lcom/google/gson/JsonElement;Ljava/lang/reflect/Type;Lcom/google/gson/JsonDeserializationContext;)Lbec;
+	FIELD c weight I
+	FIELD d quality I
+	FIELD e conditions [Lbew;
+	METHOD <init> (II[Lbew;)V
+		ARG 0 weight
+		ARG 1 quality
+		ARG 2 conditions
+	METHOD a getModifiedWeight (F)I
+		ARG 0 luck
+	METHOD a serialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonSerializationContext;)V
+		ARG 0 json
+		ARG 1 serializationContext
+	METHOD a apply (Ljava/util/Collection;Ljava/util/Random;Lbee;)V
+		ARG 0 stacks
+		ARG 1 rand
+		ARG 2 context

@@ -1,0 +1,7 @@
+CLASS csq net/minecraft/client/toast/Toast
+	CLASS csq$a Visibility
+		FIELD c sound Lxx;
+		METHOD a play (Ldst;)V
+	FIELD a TOASTS_TEX Lqh;
+	METHOD a draw (Lcsr;J)Lcsq$a;
+		ARG 1 manager

@@ -1,0 +1,24 @@
+CLASS bgd net/minecraft/sortme/MobSpawnerLogic
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD b spawnDelay I
+	FIELD c spawnPotentials Ljava/util/List;
+	FIELD d spawnEntry Lbhj;
+	FIELD g minSpawnDelay I
+	FIELD h maxSpawnDelay I
+	FIELD i spawnCount I
+	FIELD j renderedEntity Lahz;
+	FIELD k maxNearbyEntities I
+	FIELD l requiredPlayerRange I
+	FIELD m spawnRange I
+	METHOD a getWorld ()Lbgv;
+	METHOD a spawnEntity (Lahz;)V
+	METHOD a setEntityId (Laid;)V
+	METHOD a setSpawnEntry (Lbhj;)V
+	METHOD a deserialize (Lib;)V
+	METHOD b getPos ()Lev;
+	METHOD b serialize (Lib;)Lib;
+	METHOD c update ()V
+	METHOD d getRenderedEntity ()Lahz;
+	METHOD g getEntityId ()Lqr;
+	METHOD h isPlayerInRange ()Z
+	METHOD i updateSpawns ()V

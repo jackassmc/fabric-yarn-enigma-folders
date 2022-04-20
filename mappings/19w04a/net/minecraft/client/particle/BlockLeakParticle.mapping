@@ -1,0 +1,4 @@
+CLASS dcw net/minecraft/client/particle/BlockLeakParticle
+	CLASS dcw$a LavaFactory
+	CLASS dcw$b WaterFactory
+	FIELD K slowedTimer I

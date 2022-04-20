@@ -1,0 +1,6 @@
+CLASS kr net/minecraft/client/network/packet/ChatMessageS2CPacket
+	FIELD a message Ljl;
+	FIELD b location Ljj;
+	METHOD b getMessage ()Ljl;
+	METHOD c isNonChat ()Z
+	METHOD d getLocation ()Ljj;

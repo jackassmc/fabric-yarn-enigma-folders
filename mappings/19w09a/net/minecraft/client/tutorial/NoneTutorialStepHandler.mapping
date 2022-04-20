@@ -1,0 +1,2 @@
+CLASS dtp net/minecraft/client/tutorial/NoneTutorialStepHandler
+	FIELD a manager Ldtv;

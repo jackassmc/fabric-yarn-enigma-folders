@@ -1,0 +1,14 @@
+CLASS cwz net/minecraft/client/gui/recipebook/AnimatedResultButton
+	FIELD o BG_TEX Lqd;
+	FIELD p craftingContainer Lauk;
+	FIELD q recipeBook Lxv;
+	FIELD r results Lcxa;
+	FIELD s time F
+	FIELD t bounce F
+	FIELD u currentResultIndex I
+	METHOD a showResultCollection (Lcxa;Lcwx;)V
+	METHOD b setPos (II)V
+	METHOD c getResultCollection ()Lcxa;
+	METHOD d hasResults ()Z
+	METHOD e currentRecipe ()Lazn;
+	METHOD f getResults ()Ljava/util/List;

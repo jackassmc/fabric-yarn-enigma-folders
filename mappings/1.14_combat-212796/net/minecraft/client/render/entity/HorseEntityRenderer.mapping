@@ -1,0 +1,2 @@
+CLASS dqa net/minecraft/client/render/entity/HorseEntityRenderer
+	FIELD a SKINS Ljava/util/Map;

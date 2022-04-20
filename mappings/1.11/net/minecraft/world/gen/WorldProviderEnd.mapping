@@ -1,0 +1,6 @@
+CLASS avj net/minecraft/world/gen/WorldProviderEnd
+	METHOD b setupBiomeProvider ()V
+	METHOD b getFogColor (FF)Lbdu;
+	METHOD c getChunkGenerator ()Laug;
+	METHOD d hasClouds ()Z
+	METHOD q getWorldType ()Lave;

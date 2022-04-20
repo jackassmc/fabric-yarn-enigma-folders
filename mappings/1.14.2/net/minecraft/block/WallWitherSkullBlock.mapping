@@ -1,0 +1,3 @@
+CLASS btb net/minecraft/block/WallWitherSkullBlock
+	METHOD <init> (Lbmm$c;)V
+		ARG 1 settings

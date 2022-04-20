@@ -1,0 +1,15 @@
+CLASS dsq net/minecraft/client/audio/MusicTracker
+	CLASS dsq$a MusicType
+		FIELD i sound Lxx;
+		FIELD j minDelay I
+		FIELD k maxDelay I
+		METHOD a getSound ()Lxx;
+		METHOD b getMinDelay ()I
+		METHOD c getMaxDelay ()I
+	FIELD a random Ljava/util/Random;
+	FIELD b client Lcqn;
+	FIELD c current Ldrx;
+	FIELD d timeUntilNextSong I
+	METHOD a stop ()V
+	METHOD a play (Ldsq$a;)V
+	METHOD b isPlayingType (Ldsq$a;)Z

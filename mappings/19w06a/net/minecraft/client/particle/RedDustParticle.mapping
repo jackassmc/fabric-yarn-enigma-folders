@@ -1,0 +1,2 @@
+CLASS dde net/minecraft/client/particle/RedDustParticle
+	CLASS dde$a Factory

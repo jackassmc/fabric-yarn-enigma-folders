@@ -1,0 +1,5 @@
+CLASS dnk net/minecraft/client/render/debug/ChunkLoadingDebugRenderer
+	CLASS dnk$a ServerData
+	FIELD a client Lcvb;
+	FIELD b lastUpdateTime D
+	FIELD d serverData Ldnk$a;

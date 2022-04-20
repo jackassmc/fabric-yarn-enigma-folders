@@ -1,0 +1,42 @@
+CLASS cmp net/minecraft/client/render/VertexFormatElement
+	CLASS cmp$a Format
+		FIELD a FLOAT Lcmp$a;
+		FIELD b UNSIGNED_BYTE Lcmp$a;
+		FIELD c BYTE Lcmp$a;
+		FIELD d UNSIGNED_SHORT Lcmp$a;
+		FIELD e SHORT Lcmp$a;
+		FIELD f UNSIGNED_INT Lcmp$a;
+		FIELD g INT Lcmp$a;
+		FIELD h id I
+		FIELD i name Ljava/lang/String;
+		FIELD j glId I
+		METHOD a getId ()I
+		METHOD b getName ()Ljava/lang/String;
+		METHOD c getGlId ()I
+	CLASS cmp$b Type
+		FIELD a POSITION Lcmp$b;
+		FIELD b NORMAL Lcmp$b;
+		FIELD c COLOR Lcmp$b;
+		FIELD d UV Lcmp$b;
+		FIELD e BONE_MATRIX Lcmp$b;
+		FIELD f BLEND_WEIGHT Lcmp$b;
+		FIELD g PADDING Lcmp$b;
+		FIELD h name Ljava/lang/String;
+		METHOD a getName ()Ljava/lang/String;
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD b format Lcmp$a;
+	FIELD c type Lcmp$b;
+	FIELD d index I
+	FIELD e count I
+	METHOD <init> (ILcmp$a;Lcmp$b;I)V
+		ARG 1 index
+		ARG 2 format
+		ARG 3 type
+	METHOD a getFormat ()Lcmp$a;
+	METHOD a isValidType (ILcmp$b;)Z
+		ARG 1 index
+	METHOD b getType ()Lcmp$b;
+	METHOD c getCount ()I
+	METHOD d getIndex ()I
+	METHOD e getSize ()I
+	METHOD f isPosition ()Z

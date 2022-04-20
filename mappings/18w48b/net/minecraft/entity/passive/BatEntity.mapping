@@ -1,0 +1,25 @@
+CLASS ali net/minecraft/entity/passive/BatEntity
+	FIELD a BAT_FLAGS Lpn;
+	METHOD C pushAway (Lagi;)V
+	METHOD D getAmbientSound ()Lxf;
+	METHOD H mobTick ()V
+	METHOD U_ update ()V
+	METHOD a damage (Lafr;F)Z
+		ARG 1 source
+	METHOD a readCustomDataFromTag (Lhp;)V
+		ARG 1 tag
+	METHOD a setRoosting (Z)V
+	METHOD b writeCustomDataToTag (Lhp;)V
+		ARG 1 tag
+	METHOD bH getEyeHeight ()F
+	METHOD bt canAvoidTraps ()Z
+	METHOD c handleFallDamage (FF)V
+		ARG 1 fallDistance
+	METHOD cI getSoundVolume ()F
+	METHOD cJ getSoundPitch ()F
+	METHOD cS doPushLogic ()V
+	METHOD cb initAttributes ()V
+	METHOD cw getDeathSound ()Lxf;
+	METHOD e getHurtSound (Lafr;)Lxf;
+	METHOD l isRoosting ()Z
+	METHOD x_ initDataTracker ()V

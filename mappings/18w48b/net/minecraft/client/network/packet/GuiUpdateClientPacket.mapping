@@ -1,0 +1,14 @@
+CLASS ko net/minecraft/client/network/packet/GuiUpdateClientPacket
+	FIELD a id I
+	FIELD b propertyId I
+	FIELD c value I
+	METHOD <init> (III)V
+		ARG 1 window
+		ARG 2 propertyId
+	METHOD a read (Liq;)V
+	METHOD a apply (Lit;)V
+	METHOD a apply (Ljr;)V
+	METHOD b getId ()I
+	METHOD b write (Liq;)V
+	METHOD c getPropertyId ()I
+	METHOD d getValue ()I

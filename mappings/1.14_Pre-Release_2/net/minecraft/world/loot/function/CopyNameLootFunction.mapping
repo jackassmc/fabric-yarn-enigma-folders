@@ -1,0 +1,22 @@
+CLASS cpf net/minecraft/world/loot/function/CopyNameLootFunction
+	CLASS cpf$a Source
+		FIELD a THIS Lcpf$a;
+		FIELD b KILLER Lcpf$a;
+		FIELD c KILLER_PLAYER Lcpf$a;
+		FIELD d BLOCK_ENTITY Lcpf$a;
+		FIELD e name Ljava/lang/String;
+		FIELD f parameter Lcqd;
+		METHOD <init> (Ljava/lang/String;ILjava/lang/String;Lcqd;)V
+			ARG 3 name
+			ARG 4 parameter
+		METHOD a get (Ljava/lang/String;)Lcpf$a;
+			ARG 0 name
+	CLASS cpf$b Factory
+	FIELD a source Lcpf$a;
+	METHOD <init> ([Lcqr;Lcpf$a;)V
+		ARG 1 conditions
+		ARG 2 source
+	METHOD a builder (Lcpf$a;)Lcpn$a;
+		ARG 0 source
+	METHOD a (Lcpf$a;[Lcqr;)Lcpo;
+		ARG 1 conditions

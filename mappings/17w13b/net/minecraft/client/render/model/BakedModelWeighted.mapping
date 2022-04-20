@@ -1,0 +1,23 @@
+CLASS cem net/minecraft/client/render/model/BakedModelWeighted
+	CLASS cem$a Builder
+		FIELD a models Ljava/util/List;
+		METHOD a build ()Lcem;
+		METHOD a add (Lcee;I)Lcem$a;
+		METHOD b getFirst ()Lcee;
+	CLASS cem$b WeightedBakedModel
+		FIELD b model Lcee;
+	FIELD a totalWeight I
+	FIELD b models Ljava/util/List;
+	FIELD c defaultModel Lcee;
+	METHOD a useAmbientOcclusion ()Z
+	METHOD a getRandomModel (J)Lcee;
+		ARG 0 rand
+	METHOD a getQuads (Lave;Lee;J)Ljava/util/List;
+		ARG 0 state
+		ARG 1 face
+		ARG 2 rand
+	METHOD b hasDepthInGui ()Z
+	METHOD c isBuiltin ()Z
+	METHOD d getSprite ()Lcbw;
+	METHOD e getTransformationList ()Lbul;
+	METHOD f getItemPropertyOverrides ()Lbuj;

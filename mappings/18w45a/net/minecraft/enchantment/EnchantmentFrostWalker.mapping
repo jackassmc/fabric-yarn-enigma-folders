@@ -1,0 +1,4 @@
+CLASS ayj net/minecraft/enchantment/EnchantmentFrostWalker
+	METHOD a getHighestLevel ()I
+	METHOD a differs (Layc;)Z
+	METHOD b isLootOnly ()Z

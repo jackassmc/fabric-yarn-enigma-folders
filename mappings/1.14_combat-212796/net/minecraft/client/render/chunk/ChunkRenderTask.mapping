@@ -1,0 +1,34 @@
+CLASS dng net/minecraft/client/render/chunk/ChunkRenderTask
+	CLASS a Stage
+	CLASS b Mode
+	FIELD a chunkRenderer Ldnl;
+	FIELD b lock Ljava/util/concurrent/locks/ReentrantLock;
+	FIELD c completionActions Ljava/util/List;
+	FIELD d mode Ldng$b;
+	FIELD e squaredCameraDistance D
+	FIELD f region Ldnn;
+	FIELD g bufferBuilder Ldki;
+	FIELD h renderData Ldnj;
+	FIELD i stage Ldng$a;
+	FIELD j cancelled Z
+	METHOD <init> (Ldnl;Ldng$b;DLdnn;)V
+		ARG 1 chunkRenderer
+		ARG 2 mode
+		ARG 3 squaredCameraDistance
+		ARG 5 region
+	METHOD a getStage ()Ldng$a;
+	METHOD a setBufferBuilders (Ldki;)V
+	METHOD a setStage (Ldng$a;)V
+	METHOD a setRenderData (Ldnj;)V
+		ARG 1 renderData
+	METHOD a addCompletionAction (Ljava/lang/Runnable;)V
+		ARG 1 action
+	METHOD b getChunkRenderer ()Ldnl;
+	METHOD c takeRegion ()Ldnn;
+	METHOD d getRenderData ()Ldnj;
+	METHOD e getBufferBuilders ()Ldki;
+	METHOD f cancel ()V
+	METHOD g getLock ()Ljava/util/concurrent/locks/ReentrantLock;
+	METHOD h getMode ()Ldng$b;
+	METHOD i isCancelled ()Z
+	METHOD j getSquaredCameraDistance ()D

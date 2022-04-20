@@ -1,0 +1,26 @@
+CLASS atk net/minecraft/block/BlockWaterlily
+	FIELD a BOX_WATERLILY Lbfm;
+	METHOD a onEntityCollision (Lali;Ldx;Lave;Lub;)V
+		ARG 0 world
+		ARG 1 pos
+		ARG 2 state
+		ARG 3 entity
+	METHOD a addBoundingBoxes (Lave;Lali;Ldx;Lbfm;Ljava/util/List;Lub;Z)V
+		ARG 0 state
+		ARG 1 world
+		ARG 2 pos
+		ARG 3 bounds
+		ARG 4 list
+		ARG 5 entity
+	METHOD b getBoundingBox (Lave;Lalm;Ldx;)Lbfm;
+		ARG 0 state
+		ARG 1 view
+		ARG 2 pos
+	METHOD e serializeState (Lave;)I
+		ARG 0 state
+	METHOD f isValidLocation (Lali;Ldx;Lave;)Z
+		ARG 0 world
+		ARG 1 pos
+		ARG 2 state
+	METHOD i isValidSoil (Lave;)Z
+		ARG 0 state

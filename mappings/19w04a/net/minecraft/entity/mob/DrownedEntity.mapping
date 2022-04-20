@@ -1,0 +1,3 @@
+CLASS app net/minecraft/entity/mob/DrownedEntity
+	CLASS app$e DrownedMoveControl
+		FIELD i drowned Lapp;

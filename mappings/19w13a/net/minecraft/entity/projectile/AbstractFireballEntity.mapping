@@ -1,0 +1,2 @@
+CLASS avw net/minecraft/entity/projectile/AbstractFireballEntity
+	FIELD f stack Lqg;

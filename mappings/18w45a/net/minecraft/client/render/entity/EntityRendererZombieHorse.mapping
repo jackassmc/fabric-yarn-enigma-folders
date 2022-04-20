@@ -1,0 +1,4 @@
+CLASS dhc net/minecraft/client/render/entity/EntityRendererZombieHorse
+	FIELD a TEXTURES Ljava/util/Map;
+	METHOD a getTexture (Lafy;)Lpw;
+	METHOD a getTexture (Lama;)Lpw;

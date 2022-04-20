@@ -1,0 +1,8 @@
+CLASS ayw net/minecraft/container/FurnaceFuelSlot
+	FIELD a container Layg;
+	METHOD <init> (Layg;Lagz;III)V
+		ARG 3 invSlot
+		ARG 4 xPosition
+		ARG 5 yPosition
+	METHOD c_ isBucket (Lbce;)Z
+		ARG 0 stack

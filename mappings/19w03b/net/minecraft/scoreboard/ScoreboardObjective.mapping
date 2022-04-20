@@ -1,0 +1,16 @@
+CLASS cnu net/minecraft/scoreboard/ScoreboardObjective
+	FIELD a scoreboard Lcnx;
+	FIELD b name Ljava/lang/String;
+	FIELD c criterion Lcoa;
+	FIELD e criterionType Lcoa$a;
+	METHOD <init> (Lcnx;Ljava/lang/String;Lcoa;Ljb;Lcoa$a;)V
+		ARG 1 scoreboard
+		ARG 2 name
+		ARG 4 criterion
+	METHOD a getScoreboard ()Lcnx;
+	METHOD a setCriterionType (Lcoa$a;)V
+	METHOD b getName ()Ljava/lang/String;
+	METHOD c getCriterion ()Lcoa;
+	METHOD d getDisplayName ()Ljb;
+	METHOD e getTextComponent ()Ljb;
+	METHOD f getCriterionType ()Lcoa$a;

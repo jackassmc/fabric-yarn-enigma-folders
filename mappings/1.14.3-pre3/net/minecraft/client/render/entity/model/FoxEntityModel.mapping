@@ -1,0 +1,11 @@
+CLASS dev net/minecraft/client/render/entity/model/FoxEntityModel
+	FIELD a head Ldhh;
+	FIELD b leftEar Ldhh;
+	FIELD f rightEar Ldhh;
+	FIELD g nose Ldhh;
+	FIELD h body Ldhh;
+	FIELD i frontLeftLeg Ldhh;
+	FIELD j frontRightLeg Ldhh;
+	FIELD k rearLeftLeg Ldhh;
+	FIELD l rearRightLeg Ldhh;
+	FIELD m tail Ldhh;

@@ -1,0 +1,6 @@
+CLASS don net/minecraft/client/texture/MissingSprite
+	FIELD l MISSINGNO Lqd;
+	FIELD n IMAGE Lcov;
+	FIELD o INSTANCE Ldon;
+	METHOD a getMissingSprite ()Ldon;
+	METHOD b getMissingTextureId ()Lqd;

@@ -1,0 +1,3 @@
+CLASS dii net/minecraft/client/particle/EmotionParticle
+	CLASS dii$a AngryVillagerFactory
+	CLASS dii$b HeartFactory

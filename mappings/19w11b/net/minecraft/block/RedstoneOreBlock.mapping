@@ -1,0 +1,11 @@
+CLASS bpb net/minecraft/block/RedstoneOreBlock
+	FIELD a LIT Lbuo;
+	METHOD <init> (Lbky$c;)V
+		ARG 1 settings
+	METHOD a spawnParticles (Lbfx;Leu;)V
+		ARG 0 world
+		ARG 1 pos
+	METHOD d light (Lbtw;Lbfx;Leu;)V
+		ARG 0 state
+		ARG 1 world
+		ARG 2 pos

@@ -1,0 +1,3 @@
+CLASS did net/minecraft/client/render/block/entity/BannerBlockEntityRenderer
+	FIELD c model Lczs;
+	METHOD a getTextureId (Lboy;)Lqi;

@@ -1,0 +1,10 @@
+CLASS oh net/minecraft/server/network/packet/PlayerInteractEntityC2SPacket
+	CLASS a InteractionType
+	FIELD a entityId I
+	FIELD b type Loh$a;
+	FIELD c hitPos Lcsc;
+	FIELD d hand Lahg;
+	METHOD a getEntity (Lbhn;)Lail;
+	METHOD b getType ()Loh$a;
+	METHOD c getHand ()Lahg;
+	METHOD d getHitPosition ()Lcsc;

@@ -1,0 +1,7 @@
+CLASS dpu net/minecraft/client/render/entity/GuardianEntityRenderer
+	FIELD a SKIN Lqs;
+	FIELD j EXPLOSION_BEAM_TEX Lqs;
+	METHOD a fromLerpedPosition (Lais;DF)Lcry;
+		ARG 1 entity
+		ARG 2 yOffset
+		ARG 4 delta

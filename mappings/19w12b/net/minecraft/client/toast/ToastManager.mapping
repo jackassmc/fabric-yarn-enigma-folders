@@ -1,0 +1,14 @@
+CLASS cwk net/minecraft/client/toast/ToastManager
+	CLASS cwk$a Entry
+		FIELD b instance Lcwj;
+		METHOD <init> (Lcwk;Lcwj;)V
+			ARG 1 instance
+		METHOD a getInstance ()Lcwj;
+		METHOD a draw (II)Z
+	FIELD a client Lcua;
+	FIELD b visibleEntries [Lcwk$a;
+	FIELD c toastQueue Ljava/util/Deque;
+	METHOD a draw ()V
+	METHOD a add (Lcwj;)V
+	METHOD b clear ()V
+	METHOD c getGame ()Lcua;

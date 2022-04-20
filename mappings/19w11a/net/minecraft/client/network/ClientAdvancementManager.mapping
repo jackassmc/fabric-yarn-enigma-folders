@@ -1,0 +1,8 @@
+CLASS dga net/minecraft/client/network/ClientAdvancementManager
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD b client Lctq;
+	FIELD c manager Lq;
+	METHOD a getManager ()Lq;
+	METHOD a setGui (Ldga$a;)V
+	METHOD a onAdvancements (Lnh;)V
+	METHOD a selectTab (Lp;Z)V

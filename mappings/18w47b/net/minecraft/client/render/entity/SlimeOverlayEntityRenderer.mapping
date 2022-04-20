@@ -1,0 +1,6 @@
+CLASS djt net/minecraft/client/render/entity/SlimeOverlayEntityRenderer
+	FIELD a renderer Ldhv;
+	FIELD b model Lcwk;
+	METHOD a shouldMergeTextures ()Z
+	METHOD a render (Lago;FFFFFFF)V
+	METHOD a render (Lapo;FFFFFFF)V

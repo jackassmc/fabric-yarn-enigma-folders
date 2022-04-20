@@ -1,0 +1,5 @@
+CLASS brl net/minecraft/util/MaterialPredicate
+	FIELD a IS_AIR Lbrl;
+	FIELD b material Lcgt;
+	METHOD a create (Lcgt;)Lbrl;
+		ARG 0 material

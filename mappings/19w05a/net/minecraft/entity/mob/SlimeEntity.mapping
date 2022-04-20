@@ -1,0 +1,8 @@
+CLASS aqo net/minecraft/entity/mob/SlimeEntity
+	CLASS aqo$d SlimeMoveControl
+		FIELD k slime Laqo;
+	FIELD bC SLIME_SIZE Lps;
+	FIELD bD onGroundLastTick Z
+	METHOD <init> (Lahi;Lbcq;)V
+		ARG 1 type
+	METHOD dB getSize ()I

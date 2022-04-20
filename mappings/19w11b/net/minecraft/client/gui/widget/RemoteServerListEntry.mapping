@@ -1,0 +1,12 @@
+CLASS dao net/minecraft/client/gui/widget/RemoteServerListEntry
+	FIELD c LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD d PING_THREAD_POOL Ljava/util/concurrent/ThreadPoolExecutor;
+	FIELD e UNKNOWN_SERVER Lqp;
+	FIELD f SERVER_SELECTION Lqp;
+	FIELD g guiMultiplayer Ldal;
+	FIELD h client Lctp;
+	FIELD i serverEntry Ldgi;
+	FIELD j serverIconTextureId Lqp;
+	FIELD l serverIconTexture Ldsr;
+	METHOD a drawIcon (IILqp;)V
+	METHOD b getServerEntry ()Ldgi;

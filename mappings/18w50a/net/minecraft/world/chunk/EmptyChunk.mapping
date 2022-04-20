@@ -1,0 +1,34 @@
+CLASS brh net/minecraft/world/chunk/EmptyChunk
+	FIELD b BIOMES [Lbco;
+	METHOD <init> (Lbbp;II)V
+		ARG 1 world
+		ARG 2 x
+	METHOD a addEntity (Lagv;)V
+		ARG 1 entity
+	METHOD a remove (Lagv;I)V
+		ARG 1 entity
+	METHOD a appendEntities (Lagv;Lclz;Ljava/util/List;Ljava/util/function/Predicate;)V
+		ARG 1 except
+		ARG 2 box
+		ARG 3 entityList
+	METHOD a addBlockEntity (Lbnq;)V
+	METHOD a setBlockEntity (Let;Lbnq;)V
+		ARG 1 pos
+		ARG 2 blockEntity
+	METHOD a getBlockEntity (Let;Lbrm$a;)Lbnq;
+		ARG 1 pos
+	METHOD a appendEntities (Ljava/lang/Class;Lclz;Ljava/util/List;Ljava/util/function/Predicate;)V
+		ARG 1 entityClass
+		ARG 2 box
+		ARG 3 entityList
+	METHOD b remove (Lagv;)V
+	METHOD b getBlockState (Let;)Lbpm;
+		ARG 1 pos
+	METHOD d removeBlockEntity (Let;)V
+	METHOD e getLightingProvider ()Lceu;
+	METHOD j getLuminance (Let;)I
+		ARG 1 pos
+	METHOD s loadToWorld ()V
+	METHOD t unloadFromWorld ()V
+	METHOD u markDirty ()V
+	METHOD v isEmpty ()Z

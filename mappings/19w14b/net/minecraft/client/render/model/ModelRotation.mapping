@@ -1,0 +1,34 @@
+CLASS dvj net/minecraft/client/render/model/ModelRotation
+	FIELD a X0_Y0 Ldvj;
+	FIELD b X0_Y90 Ldvj;
+	FIELD c X0_Y180 Ldvj;
+	FIELD d X0_Y270 Ldvj;
+	FIELD e X90_Y0 Ldvj;
+	FIELD f X90_Y90 Ldvj;
+	FIELD g X90_Y180 Ldvj;
+	FIELD h X90_Y270 Ldvj;
+	FIELD i X180_Y0 Ldvj;
+	FIELD j X180_Y90 Ldvj;
+	FIELD k X180_Y180 Ldvj;
+	FIELD l X180_Y270 Ldvj;
+	FIELD m X270_Y0 Ldvj;
+	FIELD n X270_Y90 Ldvj;
+	FIELD o X270_Y180 Ldvj;
+	FIELD p X270_Y270 Ldvj;
+	FIELD q BY_INDEX Ljava/util/Map;
+	FIELD r index I
+	FIELD s quaternion La;
+	FIELD t xRotations I
+	FIELD u yRotations I
+	METHOD <init> (Ljava/lang/String;III)V
+		ARG 3 x
+		ARG 4 y
+	METHOD a getQuaternion ()La;
+	METHOD a get (II)Ldvj;
+		ARG 0 x
+		ARG 1 y
+	METHOD a apply (Lfa;)Lfa;
+		ARG 1 direction
+	METHOD b getIndex (II)I
+		ARG 0 x
+		ARG 1 y

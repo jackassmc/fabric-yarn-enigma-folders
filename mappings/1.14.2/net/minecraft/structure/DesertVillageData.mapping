@@ -1,0 +1,2 @@
+CLASS cat net/minecraft/structure/DesertVillageData
+	METHOD a initialize ()V

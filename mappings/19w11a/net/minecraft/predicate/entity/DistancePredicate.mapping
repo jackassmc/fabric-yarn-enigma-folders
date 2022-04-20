@@ -1,0 +1,20 @@
+CLASS am net/minecraft/predicate/entity/DistancePredicate
+	FIELD a ANY Lam;
+	FIELD b x Lbh$c;
+	FIELD c y Lbh$c;
+	FIELD d z Lbh$c;
+	FIELD e horizontal Lbh$c;
+	FIELD f absolute Lbh$c;
+	METHOD <init> (Lbh$c;Lbh$c;Lbh$c;Lbh$c;Lbh$c;)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 horizontal
+	METHOD a serialize ()Lcom/google/gson/JsonElement;
+	METHOD a test (DDDDDD)Z
+	METHOD a (Lbh$c;)Lam;
+		ARG 0 horizontal
+	METHOD a deserialize (Lcom/google/gson/JsonElement;)Lam;
+		ARG 0 el
+	METHOD b (Lbh$c;)Lam;
+		ARG 0 y

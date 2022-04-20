@@ -1,0 +1,2 @@
+CLASS ccc net/minecraft/world/gen/surfacebuilder/BadlandsSurfaceBuilder
+	METHOD a generate (Ljava/util/Random;Lbpw;Lbbp;IIIDLboj;Lboj;IJLccp;)V

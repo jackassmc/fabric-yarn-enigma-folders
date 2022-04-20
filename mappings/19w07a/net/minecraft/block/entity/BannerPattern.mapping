@@ -1,0 +1,64 @@
+CLASS bow net/minecraft/block/entity/BannerPattern
+	CLASS bow$a Builder
+		FIELD a patterns Ljava/util/List;
+		METHOD a build ()Lib;
+		METHOD a with (Lbow;Lawq;)Lbow$a;
+			ARG 1 pattern
+	FIELD A HALF_VERTICAL_LEFT Lbow;
+	FIELD B HALF_HORIZONTAL_TOP Lbow;
+	FIELD C HALF_VERTICAL_RIGHT Lbow;
+	FIELD D HALF_HORIZONTAL_BOTTOM Lbow;
+	FIELD E BORDER Lbow;
+	FIELD F CURLY_BORDER Lbow;
+	FIELD G GRADIENT_DOWN Lbow;
+	FIELD H GRADIENT_UP Lbow;
+	FIELD I BRICKS Lbow;
+	FIELD J CREEPER Lbow;
+	FIELD K SKULL Lbow;
+	FIELD L FLOWER Lbow;
+	FIELD M MOJANG Lbow;
+	FIELD N COUNT I
+	FIELD O name Ljava/lang/String;
+	FIELD P id Ljava/lang/String;
+	FIELD Q recipePattern [Ljava/lang/String;
+	FIELD R baseStack Laxt;
+	FIELD a BASE Lbow;
+	FIELD b SQUARE_BOTTOM_LEFT Lbow;
+	FIELD c SQUARE_BOTTOM_RIGHT Lbow;
+	FIELD d SQUARE_TOP_LEFT Lbow;
+	FIELD e SQUARE_TOP_RIGHT Lbow;
+	FIELD f STRIPE_BOTTOM Lbow;
+	FIELD g STRIPE_TOP Lbow;
+	FIELD h STRIPE_LEFT Lbow;
+	FIELD i STRIPE_RIGHT Lbow;
+	FIELD j STRIPE_CENTER Lbow;
+	FIELD k STRIPE_MIDDLE Lbow;
+	FIELD l STRIPE_DOWNRIGHT Lbow;
+	FIELD m STRIPE_DOWNLEFT Lbow;
+	FIELD n SMALL_STRIPES Lbow;
+	FIELD o CROSS Lbow;
+	FIELD p STRAIGHT_CROSS Lbow;
+	FIELD q TRIANGLE_BOTTOM Lbow;
+	FIELD r TRIANGLE_TOP Lbow;
+	FIELD s TRIANGLES_BOTTOM Lbow;
+	FIELD t TRIANGLES_TOP Lbow;
+	FIELD u DIAGONAL_DOWN_LEFT Lbow;
+	FIELD v DIAGONAL_UP_RIGHT Lbow;
+	FIELD w DIAGONAL_UP_LEFT Lbow;
+	FIELD x DIAGONAL_DOWN_RIGHT Lbow;
+	FIELD y CIRCLE Lbow;
+	FIELD z RHOMBUS Lbow;
+	METHOD <init> (Ljava/lang/String;ILjava/lang/String;Ljava/lang/String;)V
+		ARG 3 name
+	METHOD <init> (Ljava/lang/String;ILjava/lang/String;Ljava/lang/String;Laxt;)V
+		ARG 3 name
+		ARG 4 id
+	METHOD <init> (Ljava/lang/String;ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+		ARG 3 name
+		ARG 4 id
+		ARG 5 recipePattern0
+		ARG 6 recipePattern1
+	METHOD a getName ()Ljava/lang/String;
+	METHOD a byId (Ljava/lang/String;)Lbow;
+		ARG 0 id
+	METHOD b getId ()Ljava/lang/String;

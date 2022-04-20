@@ -1,0 +1,8 @@
+CLASS cso net/minecraft/client/gui/ingame/AbstractGuiInventory
+	FIELD w offsetGuiForEffects Z
+	METHOD a draw (IIF)V
+		ARG 1 mouseX
+		ARG 2 mouseY
+	METHOD c onInitialized ()V
+	METHOD h calculateOffset ()V
+	METHOD i drawPotionEffects ()V

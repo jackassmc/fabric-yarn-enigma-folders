@@ -1,0 +1,4 @@
+CLASS bnr net/minecraft/block/StructureBlock
+	FIELD a MODE Lbrx;
+	METHOD <init> (Lbic$c;)V
+		ARG 1 settings

@@ -1,0 +1,7 @@
+CLASS dhk net/minecraft/client/render/entity/PigZombieEntityRenderer
+	CLASS dhk$1
+		METHOD ao_ init ()V
+	FIELD a SKIN Lpy;
+	METHOD a getTexture (Lagf;)Lpy;
+	METHOD a getTexture (Lagp;)Lpy;
+	METHOD a getTexture (Laph;)Lpy;

@@ -1,0 +1,24 @@
+CLASS aqk net/minecraft/entity/passive/HorseBaseEntity
+	FIELD bA ATTR_JUMP_STRENGTH Laiv;
+	FIELD bF decorationItem Lagw;
+	FIELD bG temper I
+	FIELD bM HORSE_FLAGS Lqe;
+	FIELD bN OWNER_UUID Lqe;
+	METHOD <init> (Laia;Lbfx;)V
+		ARG 1 type
+	METHOD b setOwnerUuid (Ljava/util/UUID;)V
+	METHOD d setHorseFlag (IZ)V
+		ARG 1 index
+	METHOD dP getInventorySize ()I
+	METHOD dY isTame ()Z
+	METHOD dZ getOwnerUuid ()Ljava/util/UUID;
+	METHOD eb isEating ()Z
+	METHOD ed isBred ()Z
+	METHOD ee getTemper ()I
+	METHOD ej isSaddled ()Z
+	METHOD r getHorseFlag (I)Z
+	METHOD s setTemper (I)V
+	METHOD s setTame (Z)V
+	METHOD u setBred (Z)V
+	METHOD v setSaddled (Z)V
+	METHOD w setEating (Z)V

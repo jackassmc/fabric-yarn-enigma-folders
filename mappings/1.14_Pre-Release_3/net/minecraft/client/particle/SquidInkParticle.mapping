@@ -1,0 +1,2 @@
+CLASS djd net/minecraft/client/particle/SquidInkParticle
+	CLASS djd$a Factory

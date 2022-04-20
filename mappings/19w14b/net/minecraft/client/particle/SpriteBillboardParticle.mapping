@@ -1,0 +1,3 @@
+CLASS diz net/minecraft/client/particle/SpriteBillboardParticle
+	FIELD E sprite Ldtu;
+	METHOD a setSprite (Ldtu;)V

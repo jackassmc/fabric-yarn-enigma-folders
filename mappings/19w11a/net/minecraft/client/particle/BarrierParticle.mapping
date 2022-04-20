@@ -1,0 +1,6 @@
+CLASS dgp net/minecraft/client/particle/BarrierParticle
+	CLASS dgp$a net/minecraft/client/particle/BarrierParticle$Factory
+	METHOD <init> (Lbfy;DDDLbfx;)V
+		ARG 1 world
+		ARG 2 x
+		ARG 4 y

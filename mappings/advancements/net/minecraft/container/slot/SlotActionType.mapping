@@ -1,0 +1,8 @@
+CLASS aem net/minecraft/container/slot/SlotActionType
+	FIELD a CLICK Laem;
+	FIELD b SHIFT_CLICK Laem;
+	FIELD c HOTBAR_KEY Laem;
+	FIELD d MIDDLE_CLICK Laem;
+	FIELD e DROP Laem;
+	FIELD f DRAG Laem;
+	FIELD g DOUBLE_CLICK Laem;

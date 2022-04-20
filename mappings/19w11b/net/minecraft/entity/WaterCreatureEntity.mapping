@@ -1,0 +1,3 @@
+CLASS aqh net/minecraft/entity/WaterCreatureEntity
+	METHOD <init> (Laia;Lbfx;)V
+		ARG 1 type

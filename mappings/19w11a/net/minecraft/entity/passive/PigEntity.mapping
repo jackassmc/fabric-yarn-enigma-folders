@@ -1,0 +1,5 @@
+CLASS apv net/minecraft/entity/passive/PigEntity
+	FIELD bA SADDLED Lqe;
+	FIELD bC BREEDING_INGREDIENT Lbcx;
+	METHOD dN isSaddled ()Z
+	METHOD q setSaddled (Z)V

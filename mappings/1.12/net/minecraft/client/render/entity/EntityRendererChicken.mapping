@@ -1,0 +1,6 @@
+CLASS byt net/minecraft/client/render/entity/EntityRendererChicken
+	FIELD a SKIN Lnd;
+	METHOD a getTexture (Lve;)Lnd;
+		ARG 0 model
+	METHOD a getTexture (Lzu;)Lnd;
+		ARG 0 model

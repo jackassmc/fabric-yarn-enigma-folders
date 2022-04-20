@@ -1,0 +1,2 @@
+CLASS dcd net/minecraft/client/texture/ImageFilter
+	METHOD a filterImage (Lcmn;)Lcmn;

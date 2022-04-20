@@ -1,0 +1,64 @@
+CLASS bpo net/minecraft/block/entity/StructureBlockBlockEntity
+	CLASS bpo$a Action
+	FIELD a structureName Lqd;
+	FIELD b author Ljava/lang/String;
+	FIELD c metadata Ljava/lang/String;
+	FIELD g offset Let;
+	FIELD h size Let;
+	FIELD i mirror Lbky;
+	FIELD j rotation Lbly;
+	FIELD k mode Lbrs;
+	FIELD l ignoreEntities Z
+	FIELD m powered Z
+	FIELD n showAir Z
+	FIELD o showBoundingBox Z
+	FIELD p integrity F
+	FIELD q seed J
+	METHOD A detectStructureSize ()Z
+	METHOD B saveStructure ()Z
+	METHOD C loadStructure ()Z
+	METHOD D unloadStructure ()V
+	METHOD E isStructureAvailable ()Z
+	METHOD F isPowered ()Z
+	METHOD G shouldShowAir ()Z
+	METHOD H shouldShowBoundingBox ()Z
+	METHOD J updateBlockMode ()V
+	METHOD a setIntegrity (F)V
+	METHOD a setSeed (J)V
+	METHOD a setAuthor (Lahl;)V
+	METHOD a openScreen (Larj;)Z
+	METHOD a setMode (Lbrs;)V
+	METHOD a findStructureBlockEntities (Let;Let;)Ljava/util/List;
+		ARG 1 pos1
+		ARG 2 pos2
+	METHOD a makeBoundingBox (Let;Ljava/util/List;)Lcco;
+		ARG 1 center
+		ARG 2 corners
+	METHOD a setStructureName (Ljava/lang/String;)V
+	METHOD a findCorners (Ljava/util/List;)Ljava/util/List;
+		ARG 1 structureBlockEntities
+	METHOD a setStructureName (Lqd;)V
+	METHOD a setIgnoreEntities (Z)V
+	METHOD b setMirror (Lbky;)V
+	METHOD b setRotation (Lbly;)V
+	METHOD b setOffset (Let;)V
+	METHOD b setMetadata (Ljava/lang/String;)V
+	METHOD b saveStructure (Z)Z
+	METHOD c getStructureName ()Ljava/lang/String;
+	METHOD c setSize (Let;)V
+	METHOD c loadStructure (Z)Z
+	METHOD d hasStructureName ()Z
+	METHOD d setPowered (Z)V
+	METHOD e setShowAir (Z)V
+	METHOD f getOffset ()Let;
+	METHOD f setShowBoundingBox (Z)V
+		ARG 1 showBoundingBox
+	METHOD g getSize ()Let;
+	METHOD h getMirror ()Lbky;
+	METHOD s getRotation ()Lbly;
+	METHOD t getMetadata ()Ljava/lang/String;
+	METHOD u getMode ()Lbrs;
+	METHOD v cycleMode ()V
+	METHOD x shouldIgnoreEntities ()Z
+	METHOD y getIntegrity ()F
+	METHOD z getSeed ()J

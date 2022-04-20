@@ -1,0 +1,10 @@
+CLASS axc net/minecraft/container/AnvilContainer
+	FIELD c LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD d result Lagm;
+	FIELD e inventory Lagm;
+	FIELD f levelCost Laxo;
+	FIELD g context Laxk;
+	FIELD i newItemName Ljava/lang/String;
+	FIELD j player Lauv;
+	METHOD a setNewItemName (Ljava/lang/String;)V
+	METHOD f getLevelCost ()I

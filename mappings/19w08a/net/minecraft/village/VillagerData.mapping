@@ -1,0 +1,11 @@
+CLASS arm net/minecraft/village/VillagerData
+	FIELD a type Larq;
+	FIELD b profession Laro;
+	FIELD c level I
+	METHOD a getType ()Larq;
+	METHOD a withLevel (I)Larm;
+	METHOD a withProfession (Laro;)Larm;
+	METHOD a withType (Larq;)Larm;
+	METHOD a serialize (Lcom/mojang/datafixers/types/DynamicOps;)Ljava/lang/Object;
+	METHOD b getProfession ()Laro;
+	METHOD c getLevel ()I

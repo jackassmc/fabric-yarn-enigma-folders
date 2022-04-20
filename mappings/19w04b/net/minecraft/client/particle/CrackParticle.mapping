@@ -1,0 +1,6 @@
+CLASS dco net/minecraft/client/particle/CrackParticle
+	CLASS dco$a ItemFactory
+	CLASS dco$b SlimeballFactory
+	CLASS dco$c SnowballFactory
+	METHOD <init> (Lbcl;DDDDDDLaxd;)V
+		ARG 1 world

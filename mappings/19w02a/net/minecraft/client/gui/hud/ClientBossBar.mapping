@@ -1,0 +1,6 @@
+CLASS crg net/minecraft/client/gui/hud/ClientBossBar
+	FIELD h healthLatest F
+	FIELD i timeHealthSet J
+	METHOD a setPercent (F)V
+	METHOD a handlePacket (Lkh;)V
+	METHOD k getPercent ()F

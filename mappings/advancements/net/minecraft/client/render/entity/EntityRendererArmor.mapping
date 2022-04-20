@@ -1,0 +1,20 @@
+CLASS bzv net/minecraft/client/render/entity/EntityRendererArmor
+	FIELD a renderer Lbyg;
+	FIELD b SKIN Lmd;
+	FIELD c modelLeggings Lbon;
+	FIELD d modelBody Lbon;
+	FIELD e alpha F
+	FIELD f red F
+	FIELD g green F
+	FIELD h blue F
+	FIELD i ignoreGlint Z
+	FIELD j ARMOR_TEXTURE_CACHE Ljava/util/Map;
+	METHOD N_ init ()V
+	METHOD a shouldMergeTextures ()Z
+	METHOD a getArmorTexture (Lafl;Z)Lmd;
+	METHOD a getArmorTexture (Lafl;ZLjava/lang/String;)Lmd;
+	METHOD a renderEnchantedGlint (Lbyg;Luk;Lbon;FFFFFFF)V
+	METHOD a getArmor (Lug;)Lbon;
+	METHOD a render (Luk;FFFFFFF)V
+	METHOD a renderArmor (Luk;FFFFFFFLug;)V
+	METHOD b isLegs (Lug;)Z

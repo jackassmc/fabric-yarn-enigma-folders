@@ -1,0 +1,56 @@
+CLASS bd net/minecraft/predicate/entity/LocationPredicate
+	CLASS bd$a Builder
+		FIELD a x Lbf$c;
+		FIELD b y Lbf$c;
+		FIELD c z Lbf$c;
+		FIELD d biome Lbbm;
+		FIELD e feature Lbwu;
+		FIELD f dimension Lbra;
+		METHOD a build ()Lbd;
+		METHOD a biome (Lbbm;)Lbd$a;
+			ARG 1 biome
+	FIELD a ANY Lbd;
+	FIELD b x Lbf$c;
+	FIELD c y Lbf$c;
+	FIELD d z Lbf$c;
+	FIELD e biome Lbbm;
+	FIELD f feature Lbwu;
+	FIELD g dimension Lbra;
+	METHOD <init> (Lbf$c;Lbf$c;Lbf$c;Lbbm;Lbwu;Lbra;)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 biome
+		ARG 5 feature
+		ARG 6 dimension
+	METHOD a serialize ()Lcom/google/gson/JsonElement;
+		ARG 1 json
+		ARG 2 position
+	METHOD a (Lbbm;)Lbd;
+		ARG 0 biome
+	METHOD a (Lbra;)Lbd;
+		ARG 0 dimension
+	METHOD a (Lbwu;)Lbd;
+		ARG 0 feature
+	METHOD a deserialize (Lcom/google/gson/JsonElement;)Lbd;
+		ARG 0 element
+		ARG 1 location
+		ARG 2 position
+		ARG 3 x
+		ARG 4 y
+		ARG 5 z
+		ARG 6 dimension
+		ARG 7 feature
+		ARG 8 biome
+		ARG 9 biomeId
+	METHOD a test (Luh;DDD)Z
+		ARG 1 world
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z
+	METHOD a test (Luh;FFF)Z
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 pos

@@ -1,0 +1,16 @@
+CLASS je net/minecraft/network/packet/client/CPacketEntityAttach
+	FIELD a attachedId I
+	FIELD b holdingId I
+	METHOD <init> (Lub;Lub;)V
+		ARG 0 attachedEntity
+		ARG 1 holdingEntity
+	METHOD a getAttachedEntityId ()I
+	METHOD a readPacket (Lgb;)V
+		ARG 0 buf
+	METHOD a applyPacket (Lge;)V
+		ARG 0 handler
+	METHOD a applyPacket (Lgy;)V
+		ARG 0 handler
+	METHOD b getHoldingEntityId ()I
+	METHOD b writePacket (Lgb;)V
+		ARG 0 buf

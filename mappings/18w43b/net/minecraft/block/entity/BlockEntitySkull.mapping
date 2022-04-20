@@ -1,0 +1,21 @@
+CLASS bla net/minecraft/block/entity/BlockEntitySkull
+	FIELD a owner Lcom/mojang/authlib/GameProfile;
+	FIELD g userCache Lvy;
+	FIELD h sessionService Lcom/mojang/authlib/minecraft/MinecraftSessionService;
+	METHOD Z_ update ()V
+	METHOD a setOwnerAndType (Lcom/mojang/authlib/GameProfile;)V
+		ARG 0 owner
+	METHOD a setSessionService (Lcom/mojang/authlib/minecraft/MinecraftSessionService;)V
+		ARG 0 value
+	METHOD a serialize (Lhl;)Lhl;
+		ARG 0 tag
+	METHOD a setUserCache (Lvy;)V
+		ARG 0 value
+	METHOD aa_ getUpdatePacket ()Ljx;
+	METHOD ab_ serializeInitialChunkData ()Lhl;
+	METHOD b loadProperties (Lcom/mojang/authlib/GameProfile;)Lcom/mojang/authlib/GameProfile;
+		ARG 0 profile
+	METHOD b deserialize (Lhl;)V
+		ARG 0 tag
+	METHOD c getOwner ()Lcom/mojang/authlib/GameProfile;
+	METHOD d loadOwnerProperties ()V

@@ -1,0 +1,6 @@
+CLASS bux net/minecraft/block/enums/Instrument
+	FIELD q name Ljava/lang/String;
+	FIELD r sound Lyf;
+	METHOD a getSound ()Lyf;
+	METHOD a fromBlockState (Lbtw;)Lbux;
+		ARG 0 state

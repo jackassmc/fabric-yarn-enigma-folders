@@ -1,0 +1,14 @@
+CLASS cpy net/minecraft/client/gui/hud/SubtitlesHud
+	CLASS cpy$a SubtitleEntry
+		FIELD b text Ljava/lang/String;
+		FIELD c time J
+		FIELD d pos Lckz;
+		METHOD a getText ()Ljava/lang/String;
+		METHOD a reset (Lckz;)V
+		METHOD b getTime ()J
+		METHOD c getPosition ()Lckz;
+	FIELD a client Lcof;
+	FIELD f entries Ljava/util/List;
+	FIELD g enabled Z
+	METHOD a onSoundPlayed (Ldod;Ldpb;)V
+		ARG 1 sound

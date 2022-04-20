@@ -1,0 +1,26 @@
+CLASS bsw net/minecraft/client/render/chunk/ChunkRenderDataTask
+	CLASS bsw$a Stage
+		FIELD a INIT Lbsw$a;
+	CLASS bsw$b MODE
+	FIELD a chunkRenderer Lbtc;
+	FIELD b lock Ljava/util/concurrent/locks/ReentrantLock;
+	FIELD c runnables Ljava/util/List;
+	FIELD d mode Lbsw$b;
+	FIELD e distanceToPlayerSquared D
+	FIELD g chunkRenderData Lbsz;
+	FIELD h stage Lbsw$a;
+	METHOD <init> (Lbtc;Lbsw$b;D)V
+		ARG 0 chunkRenderer
+		ARG 1 mode
+		ARG 2 distanceToPlayerSquared
+	METHOD a getStage ()Lbsw$a;
+	METHOD a setStage (Lbsw$a;)V
+		ARG 0 value
+	METHOD a compareTask (Lbsw;)I
+		ARG 0 other
+	METHOD a setChunkRenderData (Lbsz;)V
+		ARG 0 chunkRenderData
+	METHOD b getChunkRenderer ()Lbtc;
+	METHOD c getChunkRenderData ()Lbsz;
+	METHOD f getLock ()Ljava/util/concurrent/locks/ReentrantLock;
+	METHOD g getMode ()Lbsw$b;

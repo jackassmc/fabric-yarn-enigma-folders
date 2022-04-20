@@ -1,0 +1,4 @@
+CLASS ckk net/minecraft/world/biome/layer/BiomeGroupLayer
+	CLASS ckk$a AddGroup2Layer
+	CLASS ckk$b AddGroup3Layer
+	CLASS ckk$c AddSpecialBiomesLayer

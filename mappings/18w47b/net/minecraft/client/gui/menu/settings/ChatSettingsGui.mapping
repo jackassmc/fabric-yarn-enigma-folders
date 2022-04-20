@@ -1,0 +1,17 @@
+CLASS cqk net/minecraft/client/gui/menu/settings/ChatSettingsGui
+	CLASS cqk$1
+		METHOD a onPressed (DD)V
+			ARG 0 mouseX
+	CLASS cqk$2
+		METHOD a onPressed (DD)V
+			ARG 0 mouseX
+	FIELD a SETTINGS [Lcnf$a;
+	FIELD f parent Lcri;
+	FIELD g settings Lcnf;
+	METHOD <init> (Lcri;Lcnf;)V
+		ARG 1 parent
+	METHOD a draw (IIF)V
+		ARG 1 mouseX
+		ARG 2 mouseY
+	METHOD c onInitialized ()V
+	METHOD g close ()V

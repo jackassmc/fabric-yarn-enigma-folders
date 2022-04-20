@@ -1,0 +1,29 @@
+CLASS dhq net/minecraft/client/options/ServerEntry
+	CLASS dhq$a ResourcePackState
+		FIELD d component Ljm;
+		METHOD a getComponent ()Ljm;
+	FIELD a name Ljava/lang/String;
+	FIELD b address Ljava/lang/String;
+	FIELD c playerCountLabel Ljava/lang/String;
+	FIELD d label Ljava/lang/String;
+	FIELD e ping J
+	FIELD f protocolVersion I
+	FIELD g version Ljava/lang/String;
+	FIELD h online Z
+	FIELD i playerListSummary Ljava/lang/String;
+	FIELD j resourcePackState Ldhq$a;
+	FIELD k icon Ljava/lang/String;
+	FIELD l local Z
+	METHOD <init> (Ljava/lang/String;Ljava/lang/String;Z)V
+		ARG 1 name
+		ARG 2 address
+		ARG 3 local
+	METHOD a serialize ()Lib;
+	METHOD a setResourcePackState (Ldhq$a;)V
+	METHOD a copyFrom (Ldhq;)V
+	METHOD a deserialize (Lib;)Ldhq;
+		ARG 0 tag
+	METHOD a setIcon (Ljava/lang/String;)V
+	METHOD b getResourcePack ()Ldhq$a;
+	METHOD c getIcon ()Ljava/lang/String;
+	METHOD d isLocal ()Z

@@ -1,0 +1,31 @@
+CLASS bdw net/minecraft/recipe/Ingredient
+	CLASS bdw$a StackEntry
+		FIELD a stack Lbbp;
+	CLASS bdw$b TagEntry
+		FIELD a tag Lyz;
+	CLASS bdw$c Entry
+		METHOD a getStacks ()Ljava/util/Collection;
+		METHOD b toJson ()Lcom/google/gson/JsonObject;
+	FIELD a EMPTY Lbdw;
+	FIELD b NON_EMPTY Ljava/util/function/Predicate;
+	FIELD c entries [Lbdw$c;
+	FIELD d stackArray [Lbbp;
+	FIELD e ids Lit/unimi/dsi/fastutil/ints/IntList;
+	METHOD <init> (Ljava/util/stream/Stream;)V
+		ARG 1 entries
+	METHOD a getStackArray ()[Lbbp;
+	METHOD a fromJson (Lcom/google/gson/JsonElement;)Lbdw;
+		ARG 0 element
+	METHOD a entryFromJson (Lcom/google/gson/JsonObject;)Lbdw$c;
+	METHOD a ofEntries (Ljava/util/stream/Stream;)Lbdw;
+	METHOD a write (Ljc;)V
+		ARG 1 buf
+	METHOD a fromTag (Lyz;)Lbdw;
+	METHOD a ofStacks ([Lbbp;)Lbdw;
+	METHOD a ofItems ([Lbgw;)Lbdw;
+	METHOD b getIds ()Lit/unimi/dsi/fastutil/ints/IntList;
+	METHOD b fromPacket (Ljc;)Lbdw;
+		ARG 0 buf
+	METHOD c toJson ()Lcom/google/gson/JsonElement;
+	METHOD d isEmpty ()Z
+	METHOD f createStackArray ()V

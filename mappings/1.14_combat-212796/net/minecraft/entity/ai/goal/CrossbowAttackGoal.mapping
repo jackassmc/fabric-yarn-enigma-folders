@@ -1,0 +1,12 @@
+CLASS aoa net/minecraft/entity/ai/goal/CrossbowAttackGoal
+	CLASS a Stage
+	FIELD a actor Laun;
+	FIELD b stage Laoa$a;
+	FIELD c speed D
+	FIELD d squaredRange F
+	METHOD <init> (Laun;DF)V
+		ARG 1 actor
+		ARG 2 speed
+		ARG 4 range
+	METHOD g isEntityHoldingCrossbow ()Z
+	METHOD j isUncharged ()Z

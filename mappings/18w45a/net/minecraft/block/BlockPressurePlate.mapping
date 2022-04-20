@@ -1,0 +1,8 @@
+CLASS bit net/minecraft/block/BlockPressurePlate
+	CLASS bit$a Type
+		FIELD a WOOD Lbit$a;
+		FIELD b STONE Lbit$a;
+	METHOD a setRedstoneOutput (Lbno;I)Lbno;
+		ARG 1 state
+	METHOD a appendProperties (Lbnp$a;)V
+	METHOD k getRedstoneOutput (Lbno;)I

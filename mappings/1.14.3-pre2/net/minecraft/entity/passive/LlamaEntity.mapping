@@ -1,0 +1,23 @@
+CLASS arz net/minecraft/entity/passive/LlamaEntity
+	CLASS arz$a ChaseWolvesGoal
+		METHOD <init> (Larz;)V
+			ARG 1 llama
+	FIELD bI ATTR_STRENGTH Lqi;
+	FIELD bJ CARPET_COLOR Lqi;
+	FIELD bK ATTR_VARIANT Lqi;
+	METHOD a setCarpetColor (Lbbb;)V
+		ARG 1 color
+	METHOD eB isTrader ()Z
+	METHOD eC getStrength ()I
+	METHOD eD getVariant ()I
+	METHOD eE getCarpetColor ()Lbbb;
+	METHOD eF createChild ()Larz;
+	METHOD eI isFollowing ()Z
+	METHOD eJ getFollowing ()Larz;
+	METHOD eK initializeStrength ()V
+	METHOD h spitAt (Laiu;)V
+		ARG 1 target
+	METHOD k getColorFromCarpet (Lbce;)Lbbb;
+		ARG 0 color
+	METHOD u setVariant (I)V
+	METHOD v setStrength (I)V

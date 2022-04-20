@@ -1,0 +1,6 @@
+CLASS dbx net/minecraft/client/gui/recipebook/GroupButtonWidget
+	FIELD g category Lcvh;
+	FIELD h bounce F
+	METHOD a hasKnownRecipes (Lcur;)Z
+	METHOD a checkForNewRecipes (Lcva;)V
+	METHOD b getCategory ()Lcvh;

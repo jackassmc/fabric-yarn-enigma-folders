@@ -1,0 +1,6 @@
+CLASS amo net/minecraft/entity/ai/goal/ChaseBoatGoal
+	FIELD b owner Laiu;
+	FIELD c passenger Lain;
+	FIELD d state Lamd;
+	METHOD <init> (Laiu;)V
+		ARG 1 owner

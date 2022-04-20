@@ -1,0 +1,3 @@
+CLASS cji net/minecraft/world/PlayerSaveHandler
+	METHOD a savePlayerData (Laro;)V
+	METHOD b loadPlayerData (Laro;)Lhr;

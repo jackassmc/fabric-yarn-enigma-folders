@@ -1,0 +1,4 @@
+CLASS dhh net/minecraft/client/particle/ExplosionEmitterParticle
+	CLASS dhh$a net/minecraft/client/particle/ExplosionEmitterParticle$Factory
+	FIELD C age_ I
+	FIELD D maxAge_ I

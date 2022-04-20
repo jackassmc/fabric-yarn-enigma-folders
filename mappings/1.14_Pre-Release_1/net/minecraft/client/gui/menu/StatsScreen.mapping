@@ -1,0 +1,13 @@
+CLASS czp net/minecraft/client/gui/menu/StatsScreen
+	CLASS czp$a CustomStatsListWidget
+		CLASS czp$a$a CustomStatItem
+	CLASS czp$b ItemStatsListWidget
+		CLASS czp$b$b ItemStatItem
+	CLASS czp$c EntityStatsListWidget
+		CLASS czp$c$a EntityStatItem
+	FIELD a parent Lczi;
+	FIELD f statHandler Lyt;
+	FIELD g listWidget Lcwq;
+	METHOD <init> (Lczi;Lyt;)V
+		ARG 1 parent
+		ARG 2 statHandler

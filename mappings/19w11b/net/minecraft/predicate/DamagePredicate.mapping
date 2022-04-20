@@ -1,0 +1,25 @@
+CLASS ak net/minecraft/predicate/DamagePredicate
+	CLASS ak$a Builder
+		FIELD a dealt Lbh$c;
+		FIELD b taken Lbh$c;
+		FIELD c sourceEntity Lau;
+		FIELD d blocked Ljava/lang/Boolean;
+		FIELD e type Lal;
+		METHOD a create ()Lak$a;
+		METHOD a type (Lal$a;)Lak$a;
+		METHOD a blocked (Ljava/lang/Boolean;)Lak$a;
+		METHOD b build ()Lak;
+	FIELD a ANY Lak;
+	FIELD b dealt Lbh$c;
+	FIELD c taken Lbh$c;
+	FIELD d sourceEntity Lau;
+	FIELD e blocked Ljava/lang/Boolean;
+	FIELD f type Lal;
+	METHOD <init> (Lbh$c;Lbh$c;Lau;Ljava/lang/Boolean;Lal;)V
+		ARG 1 dealt
+		ARG 2 taken
+		ARG 3 sourceEntity
+		ARG 4 blocked
+	METHOD a serialize ()Lcom/google/gson/JsonElement;
+	METHOD a deserialize (Lcom/google/gson/JsonElement;)Lak;
+	METHOD a test (Lvd;Lahf;FFZ)Z

@@ -1,0 +1,63 @@
+CLASS uq net/minecraft/server/world/ServerWorld
+	FIELD C server Lnet/minecraft/server/MinecraftServer;
+	FIELD D entityTracker Lul;
+	FIELD E entitiesByUuid Ljava/util/Map;
+	FIELD H portalForcer Lbcc;
+	FIELD I blockTickScheduler Lbce;
+	FIELD J fluidTickScheduler Lbce;
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD b savingDisabled Z
+	METHOD <init> (Lnet/minecraft/server/MinecraftServer;Ljava/util/concurrent/Executor;Lcii;Lciq;Lcih;Lbsg;Laeu;)V
+		ARG 1 server
+	METHOD A getRecipeManager ()Layx;
+	METHOD B getTagManager ()Lyg;
+	METHOD C isSavingDisabled ()Z
+	METHOD D getScoreboard ()Lcnd;
+	METHOD E getChunkManager ()Lbre;
+	METHOD F getFluidTickScheduler ()Lbcg;
+	METHOD G getBlockTickScheduler ()Lbcg;
+	METHOD a saveLevel ()V
+	METHOD a setTime (J)V
+	METHOD a spawnEntity (Lagv;)Z
+	METHOD a summonParticle (Lagv;B)V
+	METHOD a createExplosion (Lagv;Lage;DDDFZZ)Lbbi;
+		ARG 1 entity
+		ARG 3 x
+		ARG 5 y
+		ARG 7 z
+	METHOD a canPlayerModifyAt (Larb;Let;)Z
+		ARG 1 player
+	METHOD a init (Lbbu;)V
+		ARG 1 levelInfo
+	METHOD a addBlockAction (Let;Lbgs;II)V
+		ARG 1 pos
+		ARG 2 block
+		ARG 3 first
+	METHOD a locateStructure (Ljava/lang/String;Let;IZ)Let;
+	METHOD a getEntityByUuid (Ljava/util/UUID;)Lagv;
+	METHOD a tick (Ljava/util/function/BooleanSupplier;)V
+	METHOD a loadEntities (Ljava/util/stream/Stream;)V
+	METHOD a save (Lyx;Z)V
+		ARG 1 progressListener
+		ARG 2 flush
+	METHOD ak shouldSpawnNpcs ()Z
+	METHOD al shouldSpawnAnimals ()Z
+	METHOD am setDebugWorldProperties ()V
+	METHOD b onEntityAdded (Lagv;)V
+	METHOD c onEntityRemoved (Lagv;)V
+	METHOD d addGlobalEntity (Lagv;)Z
+	METHOD i_ initialize ()Luq;
+	METHOD k_ updateSleepingStatus ()V
+	METHOD l setDefaultSpawnClient ()V
+	METHOD l_ getScoreboard ()Lqr;
+	METHOD m_ updateEntities ()V
+	METHOD n_ tickPlayers ()V
+	METHOD p tickScheduledTicks ()V
+	METHOD r getForcedSpawnPoint ()Let;
+	METHOD s getChunkManager ()Lup;
+	METHOD t updateWeather ()V
+	METHOD u getBlockTickScheduler ()Lbce;
+	METHOD v getFluidTickScheduler ()Lbce;
+	METHOD w getServer ()Lnet/minecraft/server/MinecraftServer;
+	METHOD x getEntityTracker ()Lul;
+	METHOD y getPortalForcer ()Lbcc;

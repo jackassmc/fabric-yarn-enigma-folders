@@ -1,0 +1,4 @@
+CLASS die net/minecraft/client/render/entity/DonkeyEntityRenderer
+	FIELD a TEXTURES Ljava/util/Map;
+	METHOD a getTexture (Lagv;)Lqc;
+	METHOD a getTexture (Lamz;)Lqc;

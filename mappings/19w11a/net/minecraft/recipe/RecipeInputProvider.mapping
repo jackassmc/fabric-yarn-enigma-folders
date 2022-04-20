@@ -1,0 +1,2 @@
+CLASS ayg net/minecraft/recipe/RecipeInputProvider
+	METHOD a provideRecipeInputs (Lauo;)V

@@ -1,0 +1,149 @@
+CLASS bbw net/minecraft/item/Item
+	CLASS bbw$a Settings
+		FIELD a fullStackSize I
+		FIELD b durability I
+		FIELD c recipeRemainder Lbbw;
+		FIELD d itemGroup Lbas;
+		FIELD e rarity Lbco;
+		FIELD f foodSetting Laxz;
+		METHOD a stackSize (I)Lbbw$a;
+			ARG 1 fullStackSize
+		METHOD a food (Laxz;)Lbbw$a;
+		METHOD a itemGroup (Lbas;)Lbbw$a;
+			ARG 1 itemGroup
+		METHOD a recipeRemainder (Lbbw;)Lbbw$a;
+			ARG 1 recipeRemainder
+		METHOD a rarity (Lbco;)Lbbw$a;
+			ARG 1 rarity
+		METHOD b durabilityIfNotSet (I)Lbbw$a;
+			ARG 1 durability
+		METHOD c durability (I)Lbbw$a;
+			ARG 1 durability
+	FIELD a GETTER_DAMAGED Lbca;
+	FIELD b GETTER_DAMAGE Lbca;
+	FIELD c GETTER_HAND Lbca;
+	FIELD d GETTER_COOLDOWN Lbca;
+	FIELD e GETTER_CUSTOM_MODEL_DATA Lbca;
+	FIELD f BLOCK_ITEM_MAP Ljava/util/Map;
+	FIELD g MODIFIER_DAMAGE Ljava/util/UUID;
+	FIELD h MODIFIER_SWING_SPEED Ljava/util/UUID;
+	FIELD i random Ljava/util/Random;
+	FIELD j itemGroup Lbas;
+	FIELD k PROPERTIES Ljava/util/Map;
+	FIELD l rarity Lbco;
+	FIELD m fullStackSize I
+	FIELD n durability I
+	FIELD o recipeRemainder Lbbw;
+	FIELD p translationKey Ljava/lang/String;
+	FIELD q foodSetting Laxz;
+	METHOD <init> (Lbbw$a;)V
+		ARG 1 settings
+	METHOD P_ isMap ()Z
+	METHOD a getTranslationKey ()Ljava/lang/String;
+	METHOD a getAttributeModifiers (Lain;)Lcom/google/common/collect/Multimap;
+		ARG 1 equiptmentSlot
+	METHOD a isInItemGroup (Lbas;)Z
+	METHOD a appendItemsForGroup (Lbas;Lfj;)V
+	METHOD a getRawIdByItem (Lbbw;)I
+		ARG 0 item
+	METHOD a onEntityDamaged (Lbcb;Lair;Lair;)Z
+		ARG 1 stack
+		ARG 2 target
+		ARG 3 livingEntity
+	METHOD a interactWithEntity (Lbcb;Lavy;Lair;Lahc;)Z
+		ARG 1 stack
+		ARG 2 player
+		ARG 3 target
+	METHOD a canRepair (Lbcb;Lbcb;)Z
+		ARG 1 tool
+		ARG 2 ingredient
+	METHOD a onEntityTick (Lbcb;Lbhi;Laii;IZ)V
+		ARG 1 stack
+		ARG 2 world
+		ARG 3 entity
+		ARG 4 invSlot
+		ARG 5 selected
+	METHOD a onItemFinishedUsing (Lbcb;Lbhi;Lair;)Lbcb;
+		ARG 1 stack
+		ARG 2 world
+		ARG 3 livingEntity
+	METHOD a onItemStopUsing (Lbcb;Lbhi;Lair;I)V
+		ARG 1 stack
+		ARG 2 world
+		ARG 3 player
+	METHOD a onBlockBroken (Lbcb;Lbhi;Lbvk;Lev;Lair;)Z
+		ARG 1 stack
+		ARG 2 world
+		ARG 3 state
+		ARG 4 pos
+		ARG 5 livingEntity
+	METHOD a buildTooltip (Lbcb;Lbhi;Ljava/util/List;Lbdj;)V
+		ARG 1 stack
+		ARG 2 world
+		ARG 3 tooltip
+		ARG 4 options
+	METHOD a getBlockBreakingSpeed (Lbcb;Lbvk;)F
+		ARG 1 stack
+		ARG 2 blockState
+	METHOD a useOnBlock (Lbdm;)Lahd;
+		ARG 1 usageContext
+	METHOD a onUsingTick (Lbhi;Lair;Lbcb;I)V
+		ARG 1 world
+		ARG 2 entity
+		ARG 3 stack
+		ARG 4 timeLeft
+	METHOD a use (Lbhi;Lavy;Lahc;)Lahe;
+		ARG 1 world
+		ARG 2 player
+		ARG 3 hand
+	METHOD a getHitResult (Lbhi;Lavy;Lbgw$b;)Lcrv;
+	METHOD a getItemFromBlock (Lbmm;)Lbbw;
+		ARG 0 block
+	METHOD a beforeBlockBreak (Lbvk;Lbhi;Lev;Lavy;)Z
+		ARG 1 blockState
+		ARG 2 world
+		ARG 3 position
+		ARG 4 player
+	METHOD a onTagDeserialized (Lib;)Z
+		ARG 1 tag
+	METHOD a getProperty (Lqs;)Lbca;
+	METHOD a addProperty (Lqs;Lbca;)V
+		ARG 1 id
+	METHOD a matches (Lzb;)Z
+		ARG 1 tag
+	METHOD b byRawId (I)Lbbw;
+		ARG 0 id
+	METHOD b onCrafted (Lbcb;Lbhi;Lavy;)V
+		ARG 1 stack
+		ARG 2 world
+		ARG 3 player
+	METHOD b isEffectiveOn (Lbvk;)Z
+		ARG 1 blockState
+	METHOD c getEnchantability ()I
+	METHOD d_ hasEnchantmentGlint (Lbcb;)Z
+		ARG 1 stack
+	METHOD e_ getUseAction (Lbcb;)Lbdl;
+		ARG 1 stack
+	METHOD f hasProperties ()Z
+	METHOD f getTranslationKey (Lbcb;)Ljava/lang/String;
+		ARG 1 stack
+	METHOD f_ getMaxUseTime (Lbcb;)I
+		ARG 1 stack
+	METHOD g getTranslatedNameTrimmed (Lbcb;)Ljm;
+		ARG 1 stack
+	METHOD g_ isTool (Lbcb;)Z
+		ARG 1 stack
+	METHOD h getMaxAmount ()I
+	METHOD h getRarity (Lbcb;)Lbco;
+		ARG 1 stack
+	METHOD i getDurability ()I
+	METHOD j canDamage ()Z
+	METHOD k getTextComponent ()Ljm;
+	METHOD l getOrCreateTranslationKey ()Ljava/lang/String;
+	METHOD m requiresClientSync ()Z
+	METHOD n getRecipeRemainder ()Lbbw;
+	METHOD o hasRecipeRemainder ()Z
+	METHOD p getItemGroup ()Lbas;
+	METHOD q getDefaultStack ()Lbcb;
+	METHOD r isFood ()Z
+	METHOD s getFoodSetting ()Laxz;

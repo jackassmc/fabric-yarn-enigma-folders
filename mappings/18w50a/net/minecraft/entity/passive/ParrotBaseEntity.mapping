@@ -1,0 +1,4 @@
+CLASS ams net/minecraft/entity/passive/ParrotBaseEntity
+	METHOD <init> (Lagz;Lbbp;)V
+		ARG 1 type
+	METHOD W_ update ()V

@@ -1,0 +1,21 @@
+CLASS def net/minecraft/client/render/entity/EntityRendererEnderDragon
+	FIELD j EXPLOSION_TEX Lpu;
+	FIELD k SKIN Lpu;
+	METHOD <init> (Ldei;)V
+		ARG 1 renderManager
+	METHOD a getTexture (Lafv;)Lpu;
+		ARG 1 model
+	METHOD a render (Lage;FFFFFF)V
+		ARG 1 entity
+		ARG 2 limbMoveAngle
+		ARG 3 limbMoveAmount
+		ARG 5 headYaw
+		ARG 6 headPitch
+	METHOD a getTexture (Laml;)Lpu;
+		ARG 1 model
+	METHOD a render (Laml;FFFFFF)V
+		ARG 1 entity
+		ARG 2 limbMoveAngle
+		ARG 3 limbMoveAmount
+		ARG 5 headYaw
+		ARG 6 headPitch

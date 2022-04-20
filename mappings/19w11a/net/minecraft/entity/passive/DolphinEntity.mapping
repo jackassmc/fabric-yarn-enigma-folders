@@ -1,0 +1,3 @@
+CLASS apn net/minecraft/entity/passive/DolphinEntity
+	CLASS apn$a net/minecraft/entity/passive/DolphinEntity$DolphinMoveControl
+		FIELD i dolphin Lapn;

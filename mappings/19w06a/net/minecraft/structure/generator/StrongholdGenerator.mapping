@@ -1,0 +1,10 @@
+CLASS cdm net/minecraft/structure/generator/StrongholdGenerator
+	CLASS cdm$a Door
+	CLASS cdm$c FiveWayCrossing
+		FIELD a leftLow Z
+		FIELD b leftHigh Z
+		FIELD c rightLow Z
+		FIELD e rightHigh Z
+	CLASS cdm$m Start
+	CLASS cdm$p
+		FIELD d entryDoor Lcdm$p$a;

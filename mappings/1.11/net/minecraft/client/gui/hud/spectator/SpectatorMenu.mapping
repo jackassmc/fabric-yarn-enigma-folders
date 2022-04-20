@@ -1,0 +1,17 @@
+CLASS bke net/minecraft/client/gui/hud/spectator/SpectatorMenu
+	CLASS bke$1
+		METHOD J_ enabled ()Z
+		METHOD a renderIcon (FI)V
+		METHOD a selectElement (Lbke;)V
+			ARG 0 menu
+	CLASS bke$a
+		METHOD J_ enabled ()Z
+		METHOD a renderIcon (FI)V
+		METHOD a selectElement (Lbke;)V
+			ARG 0 menu
+	CLASS bke$b
+		METHOD J_ enabled ()Z
+		METHOD a renderIcon (FI)V
+		METHOD a selectElement (Lbke;)V
+			ARG 0 menu
+	METHOD a selectElement (Lbkf;)V

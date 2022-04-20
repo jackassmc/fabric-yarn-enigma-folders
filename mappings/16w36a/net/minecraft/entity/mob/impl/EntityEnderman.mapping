@@ -1,0 +1,44 @@
+CLASS none/zh net/minecraft/entity/mob/impl/EntityEnderman
+	CLASS none/zh$a AiGoalPlaceBlock
+		FIELD a owner Lnone/zh;
+		METHOD <init> (Lnone/zh;)V
+			ARG 0 owner
+		METHOD a canStart ()Z
+		METHOD e tick ()V
+	CLASS none/zh$b
+		METHOD <init> (Lnone/zh;)V
+		METHOD a canStart ()Z
+		METHOD b shouldContinue ()Z
+		METHOD c start ()V
+		METHOD d onRemove ()V
+		METHOD e tick ()V
+	CLASS none/zh$c AiGoalPickBlock
+		FIELD a owner Lnone/zh;
+		METHOD a canStart ()Z
+		METHOD e tick ()V
+	FIELD bA ageWhenTargetSet I
+	FIELD bx CARRIED_BLOCK Lnone/kj;
+	FIELD by ANGRY Lnone/kj;
+	FIELD c CARRIABLE_BLOCKS Ljava/util/Set;
+	METHOD G getSoundAmbient ()Lnone/nk;
+	METHOD J ()Lnone/kp;
+	METHOD a setCarriedBlock (Lnone/asl;)V
+		ARG 0 value
+	METHOD a deserializeCustomData (Lnone/dt;)V
+		ARG 0 tag
+	METHOD a onTrackedDataSet (Lnone/kj;)V
+		ARG 0 data
+	METHOD a damage (Lnone/rq;F)Z
+		ARG 0 source
+		ARG 1 damage
+	METHOD b serializeCustomData (Lnone/dt;)V
+		ARG 0 tag
+	METHOD b registerTagUpgraders (Lnone/pf;)V
+	METHOD bD initAttributes ()V
+	METHOD bV getSoundHurt ()Lnone/nk;
+	METHOD bW getSoundDeath ()Lnone/nk;
+	METHOD c setTarget (Lnone/so;)V
+		ARG 0 value
+	METHOD dg getCarriedBlock ()Lnone/asl;
+	METHOD dh isAngry ()Z
+	METHOD i initDataTracker ()V

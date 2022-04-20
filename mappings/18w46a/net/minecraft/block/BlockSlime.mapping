@@ -1,0 +1,11 @@
+CLASS bkb net/minecraft/block/BlockSlime
+	METHOD a onEntityLand (Lazq;Lagc;)V
+		ARG 1 world
+	METHOD a onSteppedOn (Lbae;Les;Lagc;)V
+		ARG 1 world
+		ARG 2 pos
+	METHOD a onLandedUpon (Lbae;Les;Lagc;F)V
+		ARG 1 world
+		ARG 2 pos
+		ARG 3 entity
+	METHOD c getRenderLayer ()Lazr;

@@ -1,0 +1,17 @@
+CLASS caz net/minecraft/world/gen/feature/MineshaftFeature
+	CLASS caz$a net/minecraft/world/gen/feature/MineshaftFeature$Start
+		METHOD <init> (Lccv;IILbgv;Lcgd;IJ)V
+			ARG 2 chunkX
+			ARG 3 chunkZ
+	CLASS caz$b net/minecraft/world/gen/feature/MineshaftFeature$Type
+		FIELD a NORMAL Lcaz$b;
+		FIELD b MESA Lcaz$b;
+		FIELD c nameMap Ljava/util/Map;
+		FIELD d name Ljava/lang/String;
+		METHOD a getName ()Ljava/lang/String;
+		METHOD a byIndex (I)Lcaz$b;
+			ARG 0 index
+		METHOD a byName (Ljava/lang/String;)Lcaz$b;
+			ARG 0 nam
+	METHOD <init> (Ljava/util/function/Function;)V
+		ARG 1 configFactory

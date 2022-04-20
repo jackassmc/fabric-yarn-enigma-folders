@@ -1,0 +1,28 @@
+CLASS l net/minecraft/advancement/SimpleAdvancement
+	CLASS l$a AdvancementTask
+		METHOD a deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Ll$a;
+			ARG 0 obj
+			ARG 1 context
+		METHOD a serialize (Lim;)V
+			ARG 0 buf
+		METHOD b deserialize (Lim;)Ll$a;
+			ARG 0 buf
+	FIELD a parent Ll;
+	FIELD b display Lu;
+	FIELD c rewards Lo;
+	FIELD d id Lpt;
+	FIELD e criteria Ljava/util/Map;
+	FIELD f requirements [[Ljava/lang/String;
+	FIELD g children Ljava/util/Set;
+	METHOD a createTask ()Ll$a;
+	METHOD a addChild (Ll;)V
+		ARG 0 child
+	METHOD b getParent ()Ll;
+	METHOD c getDisplay ()Lu;
+	METHOD d getRewards ()Lo;
+	METHOD e getChildren ()Ljava/lang/Iterable;
+	METHOD equals (Ljava/lang/Object;)Z
+		ARG 0 other
+	METHOD f getCriteria ()Ljava/util/Map;
+	METHOD h getId ()Lpt;
+	METHOD i getRequirements ()[[Ljava/lang/String;

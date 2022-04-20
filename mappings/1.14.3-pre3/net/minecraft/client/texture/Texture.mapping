@@ -1,0 +1,8 @@
+CLASS dup net/minecraft/client/texture/Texture
+	METHOD a registerTexture (Lduo;Lxg;Lqt;Ljava/util/concurrent/Executor;)V
+	METHOD a load (Lxg;)V
+	METHOD b popFilter ()V
+	METHOD b pushFilter (ZZ)V
+		ARG 1 bilinear
+	METHOD c getGlId ()I
+	METHOD h bindTexture ()V

@@ -1,0 +1,15 @@
+CLASS bfk net/minecraft/block/BlockEndGateway
+	METHOD <init> (Lbdx$c;)V
+		ARG 0 builder
+	METHOD a createBlockEntity (Layn;)Lbkf;
+	METHOD a getPickStack (Layn;Leq;Lblz;)Lauc;
+		ARG 0 world
+		ARG 1 pos
+		ARG 2 state
+	METHOD a isFullBoundsCubeForConnection (Lblz;)Z
+		ARG 0 state
+	METHOD c randomDisplayTick (Lblz;Laza;Leq;Ljava/util/Random;)V
+		ARG 0 state
+		ARG 1 world
+		ARG 2 pos
+		ARG 3 rand

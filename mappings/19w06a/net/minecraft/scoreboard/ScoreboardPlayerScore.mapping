@@ -1,0 +1,21 @@
+CLASS cny net/minecraft/scoreboard/ScoreboardPlayerScore
+	FIELD a COMPARATOR Ljava/util/Comparator;
+	FIELD b scoreboard Lcnz;
+	FIELD c objective Lcnw;
+	FIELD d playerName Ljava/lang/String;
+	FIELD e score I
+	FIELD f locked Z
+	FIELD g forceUpdate Z
+	METHOD <init> (Lcnz;Lcnw;Ljava/lang/String;)V
+		ARG 1 scoreboard
+		ARG 2 objective
+	METHOD a incrementScore ()V
+	METHOD a incrementScore (I)V
+	METHOD a setLocked (Z)V
+	METHOD b getScore ()I
+	METHOD c clearScore ()V
+	METHOD c setScore (I)V
+	METHOD d getObjective ()Lcnw;
+	METHOD e getPlayerName ()Ljava/lang/String;
+	METHOD f getScoreboard ()Lcnz;
+	METHOD g isLocked ()Z

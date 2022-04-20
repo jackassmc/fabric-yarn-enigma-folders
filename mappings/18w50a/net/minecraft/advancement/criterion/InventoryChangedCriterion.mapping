@@ -1,0 +1,31 @@
+CLASS ax net/minecraft/advancement/criterion/InventoryChangedCriterion
+	CLASS ax$a Handler
+		FIELD a manager Lqm;
+		FIELD b conditions Ljava/util/Set;
+		METHOD a isEmpty ()Z
+		METHOD a handle (Lara;)V
+		METHOD a addCondition (Lu$a;)V
+		METHOD b removeCondition (Lu$a;)V
+	CLASS ax$b Conditions
+		FIELD a occupied Lbf$d;
+		FIELD b full Lbf$d;
+		FIELD c empty Lbf$d;
+		FIELD d items [Laz;
+		METHOD a matches (Lara;)Z
+		METHOD a items ([Laz;)Lax$b;
+		METHOD a items ([Lbbo;)Lax$b;
+		METHOD b toJson ()Lcom/google/gson/JsonElement;
+	FIELD a ID Lqc;
+	FIELD b handlers Ljava/util/Map;
+	METHOD a getId ()Lqc;
+	METHOD a deserializeConditions (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Lv;
+		ARG 1 obj
+	METHOD a endTracking (Lqm;)V
+	METHOD a beginTrackingCondition (Lqm;Lu$a;)V
+		ARG 1 manager
+	METHOD a handle (Lus;Lara;)V
+		ARG 1 player
+	METHOD b deserializeConditions (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Lax$b;
+		ARG 1 obj
+	METHOD b endTrackingCondition (Lqm;Lu$a;)V
+		ARG 1 manager

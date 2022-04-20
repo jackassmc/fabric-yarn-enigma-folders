@@ -1,0 +1,6 @@
+CLASS ve net/minecraft/resource/metadata/ResourceMetadataPack
+	FIELD a READER Lvf;
+	FIELD b description Lix;
+	FIELD c packFormat I
+	METHOD a getDescription ()Lix;
+	METHOD b getPackFormat ()I

@@ -1,0 +1,4 @@
+CLASS cnl net/minecraft/world/loot/entry/ItemEntry
+	CLASS cnl$a Serializer
+	FIELD c item Lbam;
+	METHOD a builder (Lbfw;)Lcnp$a;

@@ -1,0 +1,7 @@
+CLASS azy net/minecraft/item/BannerPatternItem
+	FIELD a pattern Lbtb;
+	METHOD <init> (Lbtb;Lbbs$a;)V
+		ARG 1 pattern
+		ARG 2 settings
+	METHOD b getPattern ()Lbtb;
+	METHOD d nameTextComponent ()Ljm;

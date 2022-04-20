@@ -1,0 +1,91 @@
+CLASS bpr net/minecraft/world/border/WorldBorder
+	CLASS bpr$a Area
+		METHOD a getBoundWest ()D
+		METHOD b getBoundEast ()D
+		METHOD c getBoundNorth ()D
+		METHOD d getBoundSouth ()D
+		METHOD e getSize ()D
+		METHOD g getTargetRemainingTime ()J
+		METHOD h getTargetSize ()D
+		METHOD i getStage ()Lbpq;
+		METHOD j onMaxWorldBorderRadiusChanged ()V
+		METHOD k onCenterChanged ()V
+		METHOD l getAreaInstance ()Lbpr$a;
+	CLASS bpr$b AreaResizing
+		FIELD b oldSize D
+		FIELD c newSize D
+		FIELD d timeEnd J
+		FIELD e timeStart J
+		FIELD f timeDuration D
+		METHOD a getBoundWest ()D
+		METHOD b getBoundEast ()D
+		METHOD c getBoundNorth ()D
+		METHOD d getBoundSouth ()D
+		METHOD e getSize ()D
+		METHOD g getTargetRemainingTime ()J
+		METHOD h getTargetSize ()D
+		METHOD i getStage ()Lbpq;
+		METHOD j onMaxWorldBorderRadiusChanged ()V
+		METHOD k onCenterChanged ()V
+		METHOD l getAreaInstance ()Lbpr$a;
+	CLASS bpr$c AreaStatic
+		FIELD b size D
+		FIELD c boundWest D
+		FIELD d boundNorth D
+		FIELD e boundEast D
+		FIELD f boundSouth D
+		METHOD <init> (Lbpr;D)V
+			ARG 1 size
+		METHOD a getBoundWest ()D
+		METHOD b getBoundEast ()D
+		METHOD c getBoundNorth ()D
+		METHOD d getBoundSouth ()D
+		METHOD e getSize ()D
+		METHOD g getTargetRemainingTime ()J
+		METHOD h getTargetSize ()D
+		METHOD i getStage ()Lbpq;
+		METHOD j onMaxWorldBorderRadiusChanged ()V
+		METHOD k onCenterChanged ()V
+		METHOD l getAreaInstance ()Lbpr$a;
+		METHOD m recalculateBounds ()V
+	FIELD a listeners Ljava/util/List;
+	FIELD b damagePerBlock D
+	FIELD c safeZone D
+	FIELD d warningTime I
+	FIELD e warningBlocks I
+	FIELD f centerX D
+	FIELD g centerZ D
+	FIELD h maxWorldBorderRadius I
+	FIELD i area Lbpr$a;
+	METHOD a getStage ()Lbpq;
+	METHOD a (DDJ)V
+		ARG 1 oldSize
+	METHOD a setMaxWorldBorderRadius (I)V
+	METHOD a contains (Lagc;)D
+	METHOD a contains (Lazs;)Z
+	METHOD a addListener (Lbpp;)V
+	METHOD a contains (Lcjo;)Z
+	METHOD a contains (Les;)Z
+	METHOD b getBoundWest ()D
+	METHOD b setSafeZone (D)V
+	METHOD b contains (DD)D
+	METHOD b setWarningTime (I)V
+	METHOD c getBoundNorth ()D
+	METHOD c setDamagePerBlock (D)V
+	METHOD c setCenter (DD)V
+		ARG 1 x
+	METHOD c setWarningBlocks (I)V
+	METHOD d getBoundEast ()D
+	METHOD e getBoundSouth ()D
+	METHOD f getCenterX ()D
+	METHOD g getCenterZ ()D
+	METHOD h getSize ()D
+	METHOD i getTargetRemainingTime ()J
+	METHOD j getTargetSize ()D
+	METHOD k getListenerList ()Ljava/util/List;
+	METHOD l getMaxWorldBorderRadius ()I
+	METHOD m getSafeZone ()D
+	METHOD n getDamagePerBlock ()D
+	METHOD p getWarningTime ()I
+	METHOD q getWarningBlocks ()I
+	METHOD r update ()V

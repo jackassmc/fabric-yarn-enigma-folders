@@ -1,0 +1,3 @@
+CLASS blb net/minecraft/block/PortalBlock
+	METHOD <init> (Lbhn$c;)V
+		ARG 1 settings

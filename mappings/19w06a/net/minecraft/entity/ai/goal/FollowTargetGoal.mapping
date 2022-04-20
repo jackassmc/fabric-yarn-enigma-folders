@@ -1,0 +1,6 @@
+CLASS all net/minecraft/entity/ai/goal/FollowTargetGoal
+	CLASS all$a ClosestSelector
+		FIELD a target Lahi;
+		METHOD a compare (Lahi;Lahi;)I
+	METHOD a getSearchBox (D)Lcmu;
+		ARG 1 distance

@@ -1,0 +1,4 @@
+CLASS dvt net/minecraft/client/search/SearchableContainer
+	METHOD a clear ()V
+	METHOD a add (Ljava/lang/Object;)V
+	METHOD b reload ()V

@@ -1,0 +1,2 @@
+CLASS dll net/minecraft/client/render/entity/ShulkerEntityRenderer
+	FIELD j SKIN [Lqd;

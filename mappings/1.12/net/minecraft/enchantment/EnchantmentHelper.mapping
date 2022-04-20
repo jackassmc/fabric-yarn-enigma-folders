@@ -1,0 +1,84 @@
+CLASS alk net/minecraft/enchantment/EnchantmentHelper
+	CLASS alk$a DamageTargetHandler
+		FIELD a user Lvn;
+		FIELD b target Lve;
+		METHOD a handleEnchantment (Lali;I)V
+	CLASS alk$b DamageUserHandler
+		FIELD a user Lvn;
+		FIELD b attacker Lve;
+		METHOD a handleEnchantment (Lali;I)V
+	CLASS alk$c EnchantmentHandler
+		METHOD a handleEnchantment (Lali;I)V
+	CLASS alk$d AdditionalDamgeHandler
+		FIELD a additionalDamge F
+		FIELD b entityType Lvs;
+		METHOD a handleEnchantment (Lali;I)V
+	CLASS alk$e ProtectionHandler
+		FIELD a protectionAmount I
+		FIELD b source Lup;
+		METHOD a handleEnchantment (Lali;I)V
+	FIELD a protectionHandler Lalk$e;
+	FIELD b additionalDamgeHandler Lalk$d;
+	FIELD c damageUserHandler Lalk$b;
+	FIELD d damageTargetHandler Lalk$a;
+	METHOD a getEnchantments (Lain;)Ljava/util/Map;
+		ARG 0 stack
+	METHOD a getAdditionalDamge (Lain;Lvs;)F
+		ARG 0 rstack
+		ARG 1 attribute
+	METHOD a getLevel (Lali;Lain;)I
+		ARG 0 enchantment
+		ARG 1 stack
+	METHOD a getEquipmentLevel (Lali;Lvn;)I
+		ARG 0 ench
+		ARG 1 entity
+	METHOD a handleEnchantments (Lalk$c;Lain;)V
+		ARG 0 enchantmentHandler
+		ARG 1 stack
+	METHOD a handleEnchantmentArray (Lalk$c;Ljava/lang/Iterable;)V
+		ARG 0 EnchantmentHandler
+		ARG 1 stacks
+	METHOD a getProtectionAmount (Ljava/lang/Iterable;Lup;)I
+		ARG 0 stacks
+		ARG 1 source
+	METHOD a removeInvalidEnchantments (Ljava/util/List;Lall;)V
+		ARG 0 infos
+		ARG 1 info
+	METHOD a setEnchantments (Ljava/util/Map;Lain;)V
+		ARG 0 enchantmentMap
+		ARG 1 stack
+	METHOD a geExperienceLevel (Ljava/util/Random;IILain;)I
+		ARG 0 rand
+		ARG 1 num
+		ARG 2 enchantmentPower
+		ARG 3 rstack
+	METHOD a handleDamageUser (Lvn;Lve;)V
+		ARG 0 attackingEntity
+		ARG 1 attackedEntity
+	METHOD b getLuckOfTheSea (Lain;)I
+	METHOD b getHighestEnchantmentLevel (Lali;Lvn;)Lain;
+		ARG 0 enchantment
+		ARG 1 entity
+	METHOD b getEnchantmentList (Ljava/util/Random;Lain;IZ)Ljava/util/List;
+		ARG 0 rand
+		ARG 1 stack
+	METHOD b getKnockback (Lvn;)I
+		ARG 0 entity
+	METHOD b handleDamageTarget (Lvn;Lve;)V
+		ARG 0 attackingEntity
+		ARG 1 attackedEntity
+	METHOD c getLure (Lain;)I
+	METHOD c getFireAspect (Lvn;)I
+		ARG 0 entity
+	METHOD d getRespiration (Lvn;)I
+		ARG 0 entity
+	METHOD e getDepthStrider (Lvn;)I
+		ARG 0 entity
+	METHOD f getEfficiency (Lvn;)I
+		ARG 0 entity
+	METHOD g getLooting (Lvn;)I
+		ARG 0 entity
+	METHOD h hasAquaAffinity (Lvn;)Z
+		ARG 0 entity
+	METHOD i hasFrostWalker (Lvn;)Z
+		ARG 0 entity

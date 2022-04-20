@@ -1,0 +1,38 @@
+CLASS re net/minecraft/server/function/CommandFunctionManager
+	CLASS re$a Entry
+		FIELD a manager Lre;
+		FIELD b source Lcd;
+		FIELD c element Lca$c;
+		METHOD <init> (Lre;Lcd;Lca$c;)V
+			ARG 1 manger
+			ARG 2 source
+			ARG 3 element
+		METHOD a execute (Ljava/util/ArrayDeque;I)V
+	FIELD a PATH_PREFIX_LENGTH I
+	FIELD b EXTENSION_LENGTH I
+	FIELD c LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD d TICK_FUNCTION Lqs;
+	FIELD e LOAD_FUNCTION Lqs;
+	FIELD f server Lnet/minecraft/server/MinecraftServer;
+	FIELD g idMap Ljava/util/Map;
+	FIELD h executing Z
+	FIELD i chain Ljava/util/ArrayDeque;
+	FIELD j pending Ljava/util/List;
+	FIELD k tags Lzc;
+	FIELD l tickFunctions Ljava/util/List;
+	FIELD m needToRunLoadFunctions Z
+	METHOD a getServer ()Lnet/minecraft/server/MinecraftServer;
+	METHOD a execute (Lca;Lcd;)I
+		ARG 1 function
+		ARG 2 source
+	METHOD a load (Lca;Ljava/lang/Throwable;Lqs;)Lca;
+		ARG 1 function
+		ARG 2 exception
+	METHOD a getFunction (Lqs;)Ljava/util/Optional;
+	METHOD a readLines (Lxe;Lqs;)Ljava/util/List;
+	METHOD b getMaxCommandChainLength ()I
+	METHOD c getFunctions ()Ljava/util/Map;
+	METHOD d getDispatcher ()Lcom/mojang/brigadier/CommandDispatcher;
+	METHOD e tick ()V
+	METHOD f getFunctionCommandSource ()Lcd;
+	METHOD g getTags ()Lzc;

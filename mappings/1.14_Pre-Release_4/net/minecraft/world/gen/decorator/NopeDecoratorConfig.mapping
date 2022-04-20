@@ -1,0 +1,3 @@
+CLASS ccp net/minecraft/world/gen/decorator/NopeDecoratorConfig
+	METHOD a deserialize (Lcom/mojang/datafixers/Dynamic;)Lccp;
+		ARG 0 dynamic

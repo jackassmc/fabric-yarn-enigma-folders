@@ -1,0 +1,47 @@
+CLASS csa net/minecraft/client/gui/ingame/GuiEditBook
+	CLASS csa$1
+		METHOD a onPressed (DD)V
+			ARG 0 mouseX
+	CLASS csa$2
+		METHOD a onPressed (DD)V
+			ARG 0 mouseX
+	CLASS csa$3
+		METHOD a onPressed (DD)V
+			ARG 0 mouseX
+	CLASS csa$4
+		METHOD a onPressed (DD)V
+			ARG 0 mouseX
+	CLASS csa$5
+		METHOD a onPressed (DD)V
+			ARG 0 mouseX
+	CLASS csa$6
+		METHOD a onPressed (DD)V
+			ARG 0 mouseX
+	CLASS csa$7
+		METHOD a onPressed (DD)V
+			ARG 0 mouseX
+	CLASS csa$a
+		METHOD a draw (IIF)V
+			ARG 0 mouseX
+			ARG 1 mouseY
+			ARG 2 delta
+	FIELD a BG_TEX Lpx;
+	FIELD f player Laqa;
+	FIELD g stack Lavf;
+	FIELD w pageTag Lhu;
+	FIELD x title Ljava/lang/String;
+	METHOD <init> (Laqa;Lavf;ZLaev;)V
+		ARG 1 player
+		ARG 2 stack
+	METHOD a draw (IIF)V
+		ARG 1 mouseX
+		ARG 2 mouseY
+	METHOD c onInitialized ()V
+	METHOD d handleTextComponentClick (Liz;)Z
+	METHOD f update ()V
+	METHOD keyPressed (III)Z
+		ARG 1 keyCode
+		ARG 2 scanCode
+	METHOD mouseClicked (DDI)Z
+		ARG 1 mouseX
+	METHOD n onClosed ()V

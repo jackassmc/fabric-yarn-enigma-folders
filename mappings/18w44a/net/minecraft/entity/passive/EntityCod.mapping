@@ -1,0 +1,5 @@
+CLASS akz net/minecraft/entity/passive/EntityCod
+	METHOD D getSoundAmbient ()Lww;
+	METHOD F getLootTableId ()Lpu;
+	METHOD cw getSoundDeath ()Lww;
+	METHOD e getSoundHurt (Lafe;)Lww;

@@ -1,0 +1,4 @@
+CLASS bqr net/minecraft/block/PillarBlock
+	FIELD a AXIS Lbwd;
+	METHOD <init> (Lbmh$c;)V
+		ARG 1 settings

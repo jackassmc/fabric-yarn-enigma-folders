@@ -1,0 +1,8 @@
+CLASS cpc net/minecraft/world/loot/entry/EmptyEntry
+	CLASS cpc$a Serializer
+	METHOD <init> (II[Lcrb;[Lcpy;)V
+		ARG 1 weight
+		ARG 2 quality
+		ARG 3 conditions
+		ARG 4 functions
+	METHOD a Serializer ()Lcpi$a;

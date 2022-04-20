@@ -1,0 +1,56 @@
+CLASS ajx net/minecraft/village/VillageProperties
+	CLASS ajx$a AttackerInfo
+		FIELD a attacker Lafq;
+		FIELD b tick I
+	FIELD a world Laza;
+	FIELD b doors Ljava/util/List;
+	FIELD c doorPositionsAggregate Leq;
+	FIELD d center Leq;
+	FIELD e radius I
+	FIELD f stable I
+	FIELD g tick I
+	FIELD h populationSize I
+	FIELD i lastVillagerDeath I
+	FIELD j players Ljava/util/Map;
+	FIELD k attackerInfos Ljava/util/List;
+	FIELD l golems I
+	METHOD <init> (Laza;)V
+		ARG 0 world
+	METHOD a getCenter ()Leq;
+	METHOD a update (I)V
+		ARG 0 tick
+	METHOD a addAttacker (Lafq;)V
+		ARG 0 attacker
+	METHOD a addDoor (Lajw;)V
+		ARG 0 door
+	METHOD a setWorld (Laza;)V
+		ARG 0 world
+	METHOD a isInRadius (Leq;)Z
+		ARG 0 pos
+	METHOD a deserialize (Lhl;)V
+		ARG 0 tag
+	METHOD b getRadius ()I
+	METHOD b getNearestAttacker (Lafq;)Lafq;
+		ARG 0 entity
+	METHOD b getClosestDoor (Leq;)Lajw;
+		ARG 0 pos
+	METHOD b serialize (Lhl;)V
+		ARG 0 tag
+	METHOD c getDoorCount ()I
+	METHOD c getNearestPlayer (Lafq;)Lapb;
+		ARG 0 entity
+	METHOD c getNearestDoor (Leq;)Lajw;
+		ARG 0 pos
+	METHOD d getStableTicks ()I
+	METHOD e getPopulationSize ()I
+	METHOD e getDoorAtPosition (Leq;)Lajw;
+		ARG 0 pos
+	METHOD f getDoors ()Ljava/util/List;
+	METHOD g hasNoDoors ()Z
+	METHOD g isValidDoor (Leq;)Z
+		ARG 0 pos
+	METHOD h onVillagerDeath ()V
+	METHOD j countGolems ()V
+	METHOD k countVillagers ()V
+	METHOD l clearOutdatedAttackerInfo ()V
+	METHOD n recalculateSize ()V

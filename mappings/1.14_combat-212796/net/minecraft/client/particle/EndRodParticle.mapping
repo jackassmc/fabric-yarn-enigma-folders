@@ -1,0 +1,6 @@
+CLASS dim net/minecraft/client/particle/EndRodParticle
+	CLASS a Factory
+	METHOD <init> (Lbhn;DDDDDDLdjn;)V
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z

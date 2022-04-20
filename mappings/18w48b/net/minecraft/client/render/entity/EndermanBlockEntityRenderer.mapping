@@ -1,0 +1,4 @@
+CLASS djr net/minecraft/client/render/entity/EndermanBlockEntityRenderer
+	METHOD a shouldMergeTextures ()Z
+	METHOD a render (Lagr;FFFFFFF)V
+	METHOD a render (Laow;FFFFFFF)V

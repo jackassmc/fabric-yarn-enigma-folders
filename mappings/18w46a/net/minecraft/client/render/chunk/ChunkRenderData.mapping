@@ -1,0 +1,10 @@
+CLASS ddt net/minecraft/client/render/chunk/ChunkRenderData
+	FIELD a EMPTY Lddt;
+	FIELD d empty Z
+	FIELD e blockEntities Ljava/util/List;
+	FIELD g bufferState Lcmi$a;
+	METHOD a isEmpty ()Z
+	METHOD a addBlockEntity (Lbmc;)V
+	METHOD a setBufferState (Lcmi$a;)V
+	METHOD b getBlockEntities ()Ljava/util/List;
+	METHOD c getBufferState ()Lcmi$a;

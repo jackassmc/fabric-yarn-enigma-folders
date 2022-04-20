@@ -1,0 +1,2 @@
+CLASS bhh net/minecraft/item/ItemConvertible
+	METHOD g asItem ()Lbbw;

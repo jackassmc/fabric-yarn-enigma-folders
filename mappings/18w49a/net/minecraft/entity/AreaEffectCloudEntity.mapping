@@ -1,0 +1,43 @@
+CLASS agi net/minecraft/entity/AreaEffectCloudEntity
+	FIELD aA waitTime I
+	FIELD aB reapplicationDelay I
+	FIELD aC customColor Z
+	FIELD aD durationOnUse I
+	FIELD aE radiusOnUse F
+	FIELD aF radiusGrowth F
+	FIELD aG owner Lagt;
+	FIELD aH ownerUuid Ljava/util/UUID;
+	FIELD ax effects Ljava/util/List;
+	FIELD ay affectedEntities Ljava/util/Map;
+	FIELD az duration I
+	FIELD b RADIUS Lpo;
+	FIELD c COLOR Lpo;
+	FIELD d WAITING Lpo;
+	FIELD e PARTICLE_ID Lpo;
+	FIELD f potion Laxl;
+	METHOD <init> (Lbas;DDD)V
+		ARG 1 world
+		ARG 2 x
+	METHOD B_ getPistonBehavior ()Lcef;
+	METHOD T_ update ()V
+	METHOD a setRadius (F)V
+	METHOD a setColor (I)V
+	METHOD a setPotionEffect (Lagd;)V
+	METHOD a setOwner (Lagt;)V
+	METHOD a setPotion (Laxl;)V
+	METHOD a setParticleType (Lft;)V
+	METHOD a readCustomDataFromTag (Lhq;)V
+	METHOD a onTrackedDataSet (Lpo;)V
+	METHOD a setWaiting (Z)V
+	METHOD b setRadiusStart (F)V
+	METHOD b setDuration (I)V
+	METHOD b writeCustomDataToTag (Lhq;)V
+	METHOD c setRadiusGrowth (F)V
+	METHOD d setWaitTime (I)V
+	METHOD i getRadius ()F
+	METHOD l getParticleType ()Lft;
+	METHOD m isWaiting ()Z
+	METHOD n getDuration ()I
+	METHOD u getOwner ()Lagt;
+	METHOD y_ initDataTracker ()V
+	METHOD z updateColor ()V

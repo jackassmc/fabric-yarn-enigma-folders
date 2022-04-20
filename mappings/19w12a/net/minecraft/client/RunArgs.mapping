@@ -1,0 +1,44 @@
+CLASS dcj net/minecraft/client/RunArgs
+	CLASS dcj$a Directories
+		FIELD a runDir Ljava/io/File;
+		FIELD b resourcePackDir Ljava/io/File;
+		FIELD c assetDir Ljava/io/File;
+		FIELD d assetIndex Ljava/lang/String;
+		METHOD <init> (Ljava/io/File;Ljava/io/File;Ljava/io/File;Ljava/lang/String;)V
+			ARG 1 runDir
+			ARG 2 resPackDir
+			ARG 3 assetDir
+			ARG 4 assetIndex
+		METHOD a getResourceIndex ()Ldtj;
+	CLASS dcj$b Game
+		FIELD a demo Z
+		FIELD b version Ljava/lang/String;
+		FIELD c versionType Ljava/lang/String;
+		METHOD <init> (ZLjava/lang/String;Ljava/lang/String;)V
+			ARG 1 demo
+			ARG 2 version
+			ARG 3 versionType
+	CLASS dcj$c AutoConnect
+		FIELD a serverIP Ljava/lang/String;
+		FIELD b serverPort I
+		METHOD <init> (Ljava/lang/String;I)V
+			ARG 1 serverIP
+			ARG 2 serverPort
+	CLASS dcj$d Network
+		FIELD a session Lcul;
+		FIELD c profileProperties Lcom/mojang/authlib/properties/PropertyMap;
+		FIELD d netProxy Ljava/net/Proxy;
+		METHOD <init> (Lcul;Lcom/mojang/authlib/properties/PropertyMap;Lcom/mojang/authlib/properties/PropertyMap;Ljava/net/Proxy;)V
+			ARG 1 session
+			ARG 4 proxy
+	FIELD a network Ldcj$d;
+	FIELD b windowSettings Lcsi;
+	FIELD c directories Ldcj$a;
+	FIELD d game Ldcj$b;
+	FIELD e autoConnect Ldcj$c;
+	METHOD <init> (Ldcj$d;Lcsi;Ldcj$a;Ldcj$b;Ldcj$c;)V
+		ARG 1 network
+		ARG 2 windowSettings
+		ARG 3 dirs
+		ARG 4 game
+		ARG 5 autoConnect

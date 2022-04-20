@@ -1,0 +1,2 @@
+CLASS cno net/minecraft/client/sortme/ClientChatListener
+	METHOD a onChatMessage (Lix;Liz;)V

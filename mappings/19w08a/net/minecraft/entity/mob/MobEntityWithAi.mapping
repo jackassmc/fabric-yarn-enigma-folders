@@ -1,0 +1,6 @@
+CLASS aib net/minecraft/entity/mob/MobEntityWithAi
+	METHOD <init> (Lahp;Lbde;)V
+		ARG 1 type
+	METHOD a getPathfindingFavor (Les;Lbdh;)F
+	METHOD dI isNavigating ()Z
+	METHOD h getPathfindingFavor (Les;)F

@@ -1,0 +1,2 @@
+CLASS dbe net/minecraft/client/gui/screen/ingame/CreativeInventoryListener
+	FIELD a client Lcvp;

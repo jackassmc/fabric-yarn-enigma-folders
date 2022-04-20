@@ -1,0 +1,14 @@
+CLASS csi net/minecraft/entity/EntityContextImpl
+	CLASS csi$1
+		METHOD <init> (ZDLbbx;)V
+			ARG 1 sneaking
+	FIELD a ABSENT Lcsd;
+	FIELD b sneaking Z
+	FIELD c minY D
+	FIELD d heldItem Lbbx;
+	METHOD <init> (Laij;)V
+		ARG 1 entity
+	METHOD <init> (ZDLbbx;)V
+		ARG 1 sneaking
+		ARG 2 minY
+		ARG 4 heldItem

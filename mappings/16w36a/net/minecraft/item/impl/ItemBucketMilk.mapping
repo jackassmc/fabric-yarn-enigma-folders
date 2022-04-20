@@ -1,0 +1,13 @@
+CLASS none/aey net/minecraft/item/impl/ItemBucketMilk
+	METHOD a onItemFinishedUsing (Lnone/aer;Lnone/aiv;Lnone/so;)Lnone/aer;
+		ARG 0 stack
+		ARG 1 world
+		ARG 2 entity
+	METHOD a onRightClick (Lnone/aiv;Lnone/aal;Lnone/ra;)Lnone/rd;
+		ARG 0 world
+		ARG 1 player
+		ARG 2 hand
+	METHOD e getMaxUseTime (Lnone/aer;)I
+		ARG 0 stack
+	METHOD f getUseAction (Lnone/aer;)Lnone/agb;
+		ARG 0 stack

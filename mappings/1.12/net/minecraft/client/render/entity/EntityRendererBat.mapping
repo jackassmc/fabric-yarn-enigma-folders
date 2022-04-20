@@ -1,0 +1,6 @@
+CLASS byp net/minecraft/client/render/entity/EntityRendererBat
+	FIELD a SKIN Lnd;
+	METHOD a getTexture (Lve;)Lnd;
+		ARG 0 model
+	METHOD a getTexture (Lzr;)Lnd;
+		ARG 0 model

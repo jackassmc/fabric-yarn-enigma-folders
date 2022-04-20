@@ -1,0 +1,3 @@
+CLASS bka net/minecraft/block/BlockButtonStone
+	METHOD <init> (Lbet$c;)V
+		ARG 1 builder

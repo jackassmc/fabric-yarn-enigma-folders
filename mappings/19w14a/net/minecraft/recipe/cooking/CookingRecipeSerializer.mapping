@@ -1,0 +1,7 @@
+CLASS beg net/minecraft/recipe/cooking/CookingRecipeSerializer
+	CLASS beg$a RecipeFactory
+	FIELD t cookingTime I
+	FIELD u recipeFactory Lbeg$a;
+	METHOD <init> (Lbeg$a;I)V
+		ARG 1 recipeFactory
+		ARG 2 cookingTime

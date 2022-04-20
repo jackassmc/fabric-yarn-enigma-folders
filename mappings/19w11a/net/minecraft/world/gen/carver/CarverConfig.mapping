@@ -1,0 +1,2 @@
+CLASS bxq net/minecraft/world/gen/carver/CarverConfig
+	FIELD a DEFAULT Lbxu;

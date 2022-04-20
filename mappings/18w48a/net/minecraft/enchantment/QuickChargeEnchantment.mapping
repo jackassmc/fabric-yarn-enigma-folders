@@ -1,0 +1,2 @@
+CLASS azh net/minecraft/enchantment/QuickChargeEnchantment
+	METHOD a getHighestLevel ()I

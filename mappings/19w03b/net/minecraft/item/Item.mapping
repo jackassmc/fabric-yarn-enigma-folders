@@ -1,0 +1,123 @@
+CLASS awx net/minecraft/item/Item
+	CLASS awx$a Settings
+		FIELD a fullStackSize I
+		FIELD b durability I
+		FIELD c recipeRemainder Lawx;
+		FIELD d itemGroup Lavu;
+		FIELD e rarity Laxp;
+		METHOD a stackSize (I)Lawx$a;
+		METHOD a itemGroup (Lavu;)Lawx$a;
+		METHOD a recipeRemainder (Lawx;)Lawx$a;
+		METHOD a rarity (Laxp;)Lawx$a;
+		METHOD b durabilityIfNotSet (I)Lawx$a;
+		METHOD c durability (I)Lawx$a;
+	FIELD a GETTER_DAMAGED Laxb;
+	FIELD b GETTER_DAMAGE Laxb;
+	FIELD c GETTER_HAND Laxb;
+	FIELD d GETTER_COOLDOWN Laxb;
+	FIELD e GETTER_CUSTOM_MODEL_DATA Laxb;
+	FIELD f BLOCK_ITEM_MAP Ljava/util/Map;
+	FIELD g MODIFIER_DAMAGE Ljava/util/UUID;
+	FIELD h MODIFIER_SWING_SPEED Ljava/util/UUID;
+	FIELD i random Ljava/util/Random;
+	FIELD j itemGroup Lavu;
+	FIELD k PROPERTIES Ljava/util/Map;
+	FIELD l rarity Laxp;
+	FIELD m fullStackSize I
+	FIELD n durability I
+	FIELD o recipeRemainder Lawx;
+	FIELD p translationKey Ljava/lang/String;
+	METHOD X_ isMap ()Z
+	METHOD a getTranslationKey ()Ljava/lang/String;
+	METHOD a getAttributeModifiers (Lahh;)Lcom/google/common/collect/Multimap;
+		ARG 1 equiptmentSlot
+	METHOD a isInItemGroup (Lavu;)Z
+	METHOD a addStacksForDisplay (Lavu;Lfh;)V
+	METHOD a getRawIdByItem (Lawx;)I
+		ARG 0 item
+	METHOD a isTool (Laxc;)Z
+	METHOD a onEntityDamaged (Laxc;Lahl;Lahl;)Z
+		ARG 1 stack
+		ARG 2 target
+		ARG 3 livingEntity
+	METHOD a interactWithEntity (Laxc;Larj;Lahl;Lafw;)Z
+		ARG 1 stack
+		ARG 2 player
+		ARG 3 target
+	METHOD a canRepair (Laxc;Laxc;)Z
+		ARG 1 tool
+		ARG 2 ingredient
+	METHOD a onUpdate (Laxc;Lbci;Lahc;IZ)V
+		ARG 1 stack
+		ARG 2 world
+		ARG 3 entity
+		ARG 4 invSlot
+	METHOD a onItemFinishedUsing (Laxc;Lbci;Lahl;)Laxc;
+		ARG 1 stack
+		ARG 2 world
+		ARG 3 livingEntity
+	METHOD a onItemStopUsing (Laxc;Lbci;Lahl;I)V
+		ARG 1 stack
+		ARG 2 world
+		ARG 3 player
+	METHOD a onBlockBroken (Laxc;Lbci;Lbqi;Let;Lahl;)Z
+		ARG 1 stack
+		ARG 2 world
+		ARG 3 state
+		ARG 4 pos
+		ARG 5 livingEntity
+	METHOD a buildTooltip (Laxc;Lbci;Ljava/util/List;Laym;)V
+		ARG 1 stack
+		ARG 2 world
+		ARG 3 tooltip
+		ARG 4 options
+	METHOD a getBlockBreakingSpeed (Laxc;Lbqi;)F
+		ARG 1 stack
+		ARG 2 blockState
+	METHOD a useOnBlock (Layp;)Lafx;
+		ARG 1 usageContext
+	METHOD a use (Lbci;Larj;Lafw;)Lafy;
+		ARG 1 world
+		ARG 2 player
+		ARG 3 hand
+	METHOD a getHitResult (Lbci;Larj;Lbbw$b;)Lcmv;
+	METHOD a getItemFromBlock (Lbhl;)Lawx;
+		ARG 0 block
+	METHOD a beforeBlockBreak (Lbqi;Lbci;Let;Larj;)Z
+		ARG 1 blockState
+		ARG 2 world
+		ARG 3 position
+		ARG 4 player
+	METHOD a onTagDeserialized (Lhq;)Z
+	METHOD a getProperty (Lqc;)Laxb;
+	METHOD a addProperty (Lqc;Laxb;)V
+		ARG 1 id
+	METHOD a matches (Lyj;)Z
+	METHOD b byRawId (I)Lawx;
+		ARG 0 id
+	METHOD b getMaxUseTime (Laxc;)I
+		ARG 1 stack
+	METHOD b onCrafted (Laxc;Lbci;Larj;)V
+		ARG 1 stack
+		ARG 2 world
+	METHOD b isEffectiveOn (Lbqi;)Z
+		ARG 1 blockState
+	METHOD c getEnchantability ()I
+	METHOD c getUseAction (Laxc;)Layo;
+		ARG 1 stack
+	METHOD e_ hasEnchantmentGlow (Laxc;)Z
+	METHOD g hasProperties ()Z
+	METHOD h getItem ()Lawx;
+	METHOD h getTranslationKey (Laxc;)Ljava/lang/String;
+	METHOD i getMaxAmount ()I
+	METHOD i getTranslatedNameTrimmed (Laxc;)Ljb;
+	METHOD j getDurability ()I
+	METHOD j getRarity (Laxc;)Laxp;
+	METHOD k canDamage ()Z
+	METHOD l getTextComponent ()Ljb;
+	METHOD m getOrCreateTranslationKey ()Ljava/lang/String;
+	METHOD n requiresClientSync ()Z
+	METHOD o getRecipeRemainder ()Lawx;
+	METHOD p hasRecipeRemainder ()Z
+	METHOD q getItemGroup ()Lavu;
+	METHOD r getDefaultStack ()Laxc;

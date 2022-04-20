@@ -1,0 +1,24 @@
+CLASS mt net/minecraft/client/network/packet/PlaySoundFromEntityClientPacket
+	FIELD a sound Lxt;
+	FIELD b category Lxv;
+	FIELD c entityId I
+	FIELD d volume F
+	FIELD e pitch F
+	METHOD <init> (Lxt;Lxv;Lahd;FF)V
+		ARG 1 sound
+		ARG 2 category
+		ARG 3 entity
+		ARG 4 volume
+		ARG 5 pitch
+	METHOD a read (Lit;)V
+		ARG 1 buf
+	METHOD a apply (Liw;)V
+		ARG 1 listener
+	METHOD a apply (Lju;)V
+	METHOD b getSound ()Lxt;
+	METHOD b write (Lit;)V
+		ARG 1 buf
+	METHOD c getCategory ()Lxv;
+	METHOD d getEntityId ()I
+	METHOD e getVolume ()F
+	METHOD f getPitch ()F

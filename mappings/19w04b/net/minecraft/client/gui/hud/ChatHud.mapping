@@ -1,0 +1,14 @@
+CLASS cqx net/minecraft/client/gui/hud/ChatHud
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD f client Lcpy;
+	METHOD a reset ()V
+	METHOD a addMessage (Ljc;)V
+	METHOD a addMessage (Ljc;I)V
+		ARG 1 message
+	METHOD a addMessage (Ljc;IIZ)V
+	METHOD a clear (Z)V
+	METHOD b removeMessage (I)V
+	METHOD d isChatFocused ()Z
+	METHOD e getWidth ()I
+	METHOD f getHeight ()I
+	METHOD g getScale ()D

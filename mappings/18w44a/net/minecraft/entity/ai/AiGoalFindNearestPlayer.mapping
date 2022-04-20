@@ -1,0 +1,10 @@
+CLASS ajt net/minecraft/entity/ai/AiGoalFindNearestPlayer
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD b owner Lagf;
+	FIELD e target Lage;
+	METHOD <init> (Lagf;)V
+		ARG 1 owner
+	METHOD a canStart ()Z
+	METHOD b shouldContinue ()Z
+	METHOD c start ()V
+	METHOD d onRemove ()V

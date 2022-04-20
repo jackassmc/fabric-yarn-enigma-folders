@@ -1,0 +1,9 @@
+CLASS ayw net/minecraft/container/FurnaceOutputSlot
+	FIELD a player Lavz;
+	FIELD b amount I
+	METHOD <init> (Lavz;Lagx;III)V
+		ARG 1 player
+		ARG 2 inventory
+		ARG 3 invSlot
+		ARG 4 xPosition
+		ARG 5 yPosition

@@ -1,0 +1,7 @@
+CLASS awx net/minecraft/container/CartographyTableContainer
+	FIELD c inventory Lagk;
+	FIELD d context Laxb;
+	METHOD <init> (ILaul;)V
+		ARG 1 syncId
+	METHOD <init> (ILaul;Laxb;)V
+		ARG 1 syncId

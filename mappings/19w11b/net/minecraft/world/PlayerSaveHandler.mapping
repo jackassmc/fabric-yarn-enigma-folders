@@ -1,0 +1,3 @@
+CLASS cmr net/minecraft/world/PlayerSaveHandler
+	METHOD a savePlayerData (Laun;)V
+	METHOD b loadPlayerData (Laun;)Lia;

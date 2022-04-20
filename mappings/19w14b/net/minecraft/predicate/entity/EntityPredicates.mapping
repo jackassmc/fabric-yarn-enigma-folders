@@ -1,0 +1,12 @@
+CLASS aid net/minecraft/predicate/entity/EntityPredicates
+	CLASS aid$a CanPickup
+		FIELD a itemstack Lbbr;
+	FIELD a VALID_ENTITY Ljava/util/function/Predicate;
+	FIELD b VALID_ENTITY_LIVING Ljava/util/function/Predicate;
+	FIELD c NOT_MOUNTED Ljava/util/function/Predicate;
+	FIELD d VALID_INVENTORIES Ljava/util/function/Predicate;
+	FIELD e EXCEPT_CREATIVE_OR_SPECTATOR Ljava/util/function/Predicate;
+	FIELD f EXCEPT_SPECTATOR Ljava/util/function/Predicate;
+	METHOD a maximumDistance (DDDD)Ljava/util/function/Predicate;
+		ARG 0 x
+	METHOD b getBottommostEntity (Laia;)Ljava/util/function/Predicate;

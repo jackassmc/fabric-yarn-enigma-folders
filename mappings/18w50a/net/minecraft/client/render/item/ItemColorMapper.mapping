@@ -1,0 +1,3 @@
+CLASS cpv net/minecraft/client/render/item/ItemColorMapper
+	METHOD getColor (Lawo;I)I
+		ARG 1 stack

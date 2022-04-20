@@ -1,0 +1,11 @@
+CLASS ctn net/minecraft/client/gui/hud/spectator/SpectatorTeleportTeamMenu
+	CLASS ctn$a
+		METHOD a renderIcon (FI)V
+		METHOD a selectElement (Lcth;)V
+			ARG 0 menu
+		METHOD ak_ enabled ()Z
+	METHOD a getElements ()Ljava/util/List;
+	METHOD a renderIcon (FI)V
+	METHOD a selectElement (Lcth;)V
+	METHOD ak_ enabled ()Z
+	METHOD b getMessage ()Liz;

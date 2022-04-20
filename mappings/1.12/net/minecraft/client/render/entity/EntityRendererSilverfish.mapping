@@ -1,0 +1,6 @@
+CLASS cap net/minecraft/client/render/entity/EntityRendererSilverfish
+	FIELD a SKIN Lnd;
+	METHOD a getTexture (Lve;)Lnd;
+		ARG 0 model
+	METHOD b getTexture (Ladh;)Lnd;
+		ARG 0 model

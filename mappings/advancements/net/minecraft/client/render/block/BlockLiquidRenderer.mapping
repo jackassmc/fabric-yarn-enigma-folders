@@ -1,0 +1,7 @@
+CLASS btw net/minecraft/client/render/block/BlockLiquidRenderer
+	FIELD a colorMap Lbgv;
+	FIELD b spritesLava [Lcbw;
+	FIELD c spritesWater [Lcbw;
+	FIELD d spriteWaterOverlay Lcbw;
+	METHOD a loadSprites ()V
+	METHOD a render (Lalm;Lave;Ldx;Lbst;)Z

@@ -1,0 +1,13 @@
+CLASS ajb net/minecraft/village/IVillager
+	METHOD a onSellingItem (Lafi;)V
+		ARG 0 stack
+	METHOD a useRecipe (Lajc;)V
+		ARG 0 recipe
+	METHOD a setRecipeList (Lajd;)V
+		ARG 0 recipeLIst
+	METHOD a_ setCurrentCustomer (Laax;)V
+		ARG 0 currentCustomer
+	METHOD b_ getRecipes (Laax;)Lajd;
+		ARG 0 player
+	METHOD i_ getDisplayName ()Lfb;
+	METHOD s_ getCurrentCustomer ()Laax;

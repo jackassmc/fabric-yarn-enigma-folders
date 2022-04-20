@@ -1,0 +1,10 @@
+CLASS cex net/minecraft/world/loot/function/LootTableFunctionEnchantRandomly
+	CLASS cex$b DeSerializer
+		METHOD a serialize (Lcom/google/gson/JsonObject;Lcex;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD a deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;[Lcgg;)Lcex;
+		METHOD b deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;[Lcgg;)Lcfc;
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD c enchantments Ljava/util/List;
+	METHOD a apply (Lauc;Lcdw;)Lauc;
+		ARG 0 stack
+		ARG 1 context

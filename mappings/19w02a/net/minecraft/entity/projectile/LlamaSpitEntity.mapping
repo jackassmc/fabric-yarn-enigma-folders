@@ -1,0 +1,11 @@
+CLASS ary net/minecraft/entity/projectile/LlamaSpitEntity
+	FIELD b owner Lann;
+	METHOD a readCustomDataFromTag (Lhs;)V
+	METHOD b writeCustomDataToTag (Lhs;)V
+	METHOD c setVelocity (DDDFF)V
+		ARG 1 dirX
+		ARG 3 dirY
+	METHOD h update ()V
+	METHOD h setVelocityClient (DDD)V
+		ARG 1 x
+	METHOD w_ initDataTracker ()V

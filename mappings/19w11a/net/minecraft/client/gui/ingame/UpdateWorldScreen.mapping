@@ -1,0 +1,2 @@
+CLASS dbs net/minecraft/client/gui/ingame/UpdateWorldScreen
+	FIELD g updater Lagf;

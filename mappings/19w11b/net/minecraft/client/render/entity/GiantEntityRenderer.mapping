@@ -1,0 +1,2 @@
+CLASS dok net/minecraft/client/render/entity/GiantEntityRenderer
+	FIELD a SKIN Lqp;

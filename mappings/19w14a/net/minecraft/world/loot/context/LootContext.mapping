@@ -1,0 +1,45 @@
+CLASS cny net/minecraft/world/loot/context/LootContext
+	CLASS cny$a Builder
+		FIELD a world Lve;
+		FIELD b parameters Ljava/util/Map;
+		FIELD c drops Ljava/util/Map;
+		FIELD d random Ljava/util/Random;
+		FIELD e luck F
+		METHOD a getWorld ()Lve;
+		METHOD a setLuck (F)Lcny$a;
+		METHOD a setRandom (J)Lcny$a;
+		METHOD a setRandom (JLjava/util/Random;)Lcny$a;
+		METHOD a get (Lcpx;)Ljava/lang/Object;
+		METHOD a put (Lcpx;Ljava/lang/Object;)Lcny$a;
+		METHOD a build (Lcpy;)Lcny;
+		METHOD a setRandom (Ljava/util/Random;)Lcny$a;
+		METHOD a putDrop (Lqr;Lcny$b;)Lcny$a;
+		METHOD b getNullable (Lcpx;)Ljava/lang/Object;
+		METHOD b putNullable (Lcpx;Ljava/lang/Object;)Lcny$a;
+	CLASS cny$b Dropper
+	CLASS cny$c EntityTarget
+		CLASS cny$c$a Serializer
+		FIELD a THIS Lcny$c;
+		FIELD b KILLER Lcny$c;
+		FIELD c DIRECT_KILLER Lcny$c;
+		FIELD d KILLER_PLAYER Lcny$c;
+		FIELD e type Ljava/lang/String;
+		FIELD f identifier Lcpx;
+		METHOD a getIdentifier ()Lcpx;
+		METHOD a fromString (Ljava/lang/String;)Lcny$c;
+	FIELD a random Ljava/util/Random;
+	FIELD b luck F
+	FIELD c world Lve;
+	FIELD d manager Lcod;
+	FIELD e suppliers Ljava/util/Set;
+	FIELD f parameters Ljava/util/Map;
+	FIELD g drops Ljava/util/Map;
+	METHOD a getLootManager ()Lcod;
+	METHOD a addDrop (Lcob;)Z
+	METHOD a hasParameter (Lcpx;)Z
+	METHOD a drop (Lqr;Ljava/util/function/Consumer;)V
+	METHOD b getRandom ()Ljava/util/Random;
+	METHOD b removeDrop (Lcob;)V
+	METHOD c getLuck ()F
+	METHOD c get (Lcpx;)Ljava/lang/Object;
+	METHOD d getWorld ()Lve;

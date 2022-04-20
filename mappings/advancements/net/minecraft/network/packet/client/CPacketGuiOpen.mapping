@@ -1,0 +1,18 @@
+CLASS hs net/minecraft/network/packet/client/CPacketGuiOpen
+	FIELD a id I
+	FIELD b type Ljava/lang/String;
+	FIELD c title Lgk;
+	FIELD d slotCount I
+	FIELD e entityHorseId I
+	METHOD a getId ()I
+	METHOD a readPacket (Lgb;)V
+		ARG 0 buf
+	METHOD a applyPacket (Lge;)V
+	METHOD a applyPacket (Lgy;)V
+	METHOD b getType ()Ljava/lang/String;
+	METHOD b writePacket (Lgb;)V
+		ARG 0 buf
+	METHOD c getTitle ()Lgk;
+	METHOD d getSlotCount ()I
+	METHOD e getHorseId ()I
+	METHOD f hasSlots ()Z

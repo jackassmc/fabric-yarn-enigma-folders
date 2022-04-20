@@ -1,0 +1,41 @@
+CLASS cvg net/minecraft/client/gui/ingame/JigsawBlockGui
+	CLASS cvg$1
+		METHOD a onPressed (DD)V
+			ARG 1 mouseX
+			ARG 3 mouseY
+	CLASS cvg$2
+		METHOD a onPressed (DD)V
+			ARG 1 mouseX
+			ARG 3 mouseY
+	FIELD a jigsaw Lbof;
+	FIELD f attachmentTypeField Lcqm;
+	FIELD g targetPoolField Lcqm;
+	FIELD h finalStateField Lcqm;
+	FIELD i textFields Ljava/util/List;
+	METHOD <init> (Lbof;)V
+		ARG 1 jigsaw
+	METHOD a mouseClicked (DDI)Z
+		ARG 1 mouseX
+		ARG 3 mouseY
+		ARG 5 button
+	METHOD a draw (IIF)V
+		ARG 1 mouseX
+		ARG 2 mouseY
+	METHOD a keyPressed (III)Z
+		ARG 1 keyCode
+		ARG 2 scanCode
+		ARG 3 modifiers
+	METHOD b onScaleChanged (Lcpk;II)V
+		ARG 1 client
+		ARG 2 width
+		ARG 3 height
+		ARG 4 oldAttachmentType
+		ARG 5 oldTargetPool
+		ARG 6 oldFinalState
+	METHOD c onInitialized ()V
+	METHOD f update ()V
+	METHOD g close ()V
+	METHOD h onDone ()V
+	METHOD i onCancel ()V
+	METHOD j updateServer ()V
+	METHOD n onClosed ()V

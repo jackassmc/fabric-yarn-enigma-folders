@@ -1,0 +1,9 @@
+CLASS bep net/minecraft/world/biome/source/VanillaLayeredBiomeSourceConfig
+	FIELD a levelProperties Lcih;
+	FIELD b generatorSettings Lbsx;
+	METHOD a getLevelProperties ()Lcih;
+	METHOD a setGeneratorSettings (Lbsx;)Lbep;
+		ARG 1 generatorSettings
+	METHOD a setLevelProperties (Lcih;)Lbep;
+		ARG 1 properties
+	METHOD b getGeneratorSettings ()Lbsx;

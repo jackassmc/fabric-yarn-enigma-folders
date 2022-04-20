@@ -1,0 +1,2 @@
+CLASS abd net/minecraft/datafixers/fixes/ItemShulkerBoxColorFix
+	FIELD a colorNames [Ljava/lang/String;

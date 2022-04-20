@@ -1,0 +1,7 @@
+CLASS crw net/minecraft/util/math/Vec2f
+	FIELD a ZERO Lcrw;
+	FIELD i x F
+	FIELD j y F
+	METHOD <init> (FF)V
+		ARG 1 x
+	METHOD c equals (Lcrw;)Z

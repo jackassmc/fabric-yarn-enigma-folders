@@ -1,0 +1,2 @@
+CLASS did net/minecraft/client/particle/SquidInkParticle
+	CLASS did$a Factory

@@ -1,0 +1,2 @@
+CLASS aqa net/minecraft/block/BlockFacingHorizontal
+	FIELD D FACING Lavr;

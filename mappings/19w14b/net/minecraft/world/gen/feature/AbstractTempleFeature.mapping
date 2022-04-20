@@ -1,0 +1,8 @@
+CLASS ccz net/minecraft/world/gen/feature/AbstractTempleFeature
+	METHOD <init> (Ljava/util/function/Function;)V
+		ARG 1 configFactory
+	METHOD a getSpacing (Lbwo;)I
+		ARG 1 chunkGenerator
+	METHOD b getSeparation (Lbwo;)I
+		ARG 1 chunkGenerator
+	METHOD d getSeedModifier ()I

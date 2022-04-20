@@ -1,0 +1,6 @@
+CLASS bms net/minecraft/block/entity/BlockEntityJukebox
+	FIELD a record Lavf;
+	METHOD a setRecord (Lavf;)V
+	METHOD a serialize (Lho;)Lho;
+	METHOD b deserialize (Lho;)V
+	METHOD c getRecord ()Lavf;

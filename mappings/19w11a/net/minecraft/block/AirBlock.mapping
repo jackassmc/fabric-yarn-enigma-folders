@@ -1,0 +1,3 @@
+CLASS bkf net/minecraft/block/AirBlock
+	METHOD <init> (Lbkz$c;)V
+		ARG 1 settings

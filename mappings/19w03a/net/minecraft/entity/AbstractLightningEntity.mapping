@@ -1,0 +1,3 @@
+CLASS apc net/minecraft/entity/AbstractLightningEntity
+	METHOD <init> (Lahg;Lbci;)V
+		ARG 1 type

@@ -1,0 +1,3 @@
+CLASS bxv net/minecraft/world/gen/feature/DefaultFeatureConfig
+	METHOD a deserialize (Lcom/mojang/datafixers/Dynamic;)Lbxv;
+		ARG 0 dynamic

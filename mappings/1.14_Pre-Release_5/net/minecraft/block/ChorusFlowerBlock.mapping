@@ -1,0 +1,24 @@
+CLASS bnb net/minecraft/block/ChorusFlowerBlock
+	FIELD a AGE Lbwj;
+	FIELD b plantBlock Lbnc;
+	METHOD a die (Lbhh;Lev;)V
+		ARG 2 pos
+	METHOD a generate (Lbhi;Lev;Ljava/util/Random;I)V
+		ARG 0 world
+		ARG 1 pos
+		ARG 2 random
+		ARG 3 size
+	METHOD a generate (Lbhi;Lev;Ljava/util/Random;Lev;II)V
+		ARG 0 world
+		ARG 1 pos
+		ARG 2 random
+		ARG 4 size
+		ARG 5 layer
+	METHOD b grow (Lbhh;Lev;I)V
+		ARG 1 world
+		ARG 2 pos
+		ARG 3 age
+	METHOD b isSurroundedByAir (Lbhk;Lev;Lfa;)Z
+		ARG 0 world
+		ARG 1 pos
+		ARG 2 exceptDirection

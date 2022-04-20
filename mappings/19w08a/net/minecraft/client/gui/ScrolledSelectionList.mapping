@@ -1,0 +1,2 @@
+CLASS cuc net/minecraft/client/gui/ScrolledSelectionList
+	METHOD c getWidth ()I

@@ -1,0 +1,5 @@
+CLASS apr net/minecraft/entity/mob/BlazeEntity
+	CLASS apr$a ShootFireballGoal
+	FIELD d BLAZE_FLAGS Lps;
+	METHOD l isFireActive ()Z
+	METHOD q setFireActive (Z)V

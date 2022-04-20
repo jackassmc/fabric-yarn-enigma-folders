@@ -1,0 +1,32 @@
+CLASS net/minecraft/class_5818 net/minecraft/world/gen/NoiseColumnSampler
+	COMMENT Samples noise values for use in chunk generation.
+	FIELD field_28752 verticalNoiseResolution I
+	FIELD field_28753 noiseSizeY I
+	FIELD field_28754 config Lnet/minecraft/class_5309;
+	FIELD field_28756 islandNoise Lnet/minecraft/class_3541;
+	FIELD field_28764 densityFactor D
+	FIELD field_28765 densityOffset D
+	METHOD <init> (IIILnet/minecraft/class_5309;Lnet/minecraft/class_2088;ZJ)V
+		ARG 2 horizontalNoiseResolution
+		ARG 3 verticalNoiseResolution
+	METHOD method_33645 applySlides (DI)D
+		COMMENT Interpolates the noise at the top and bottom of the world.
+		ARG 1 noise
+		ARG 3 y
+	CLASS class_5841 CaveScaler
+		METHOD method_33835 scaleCaves (D)D
+			ARG 0 value
+		METHOD method_33836 scaleTunnels (D)D
+			ARG 0 value
+	CLASS class_6354 VeinType
+		FIELD field_33605 ore Lnet/minecraft/class_2680;
+		FIELD field_33606 stone Lnet/minecraft/class_2680;
+		FIELD field_33607 minY I
+		FIELD field_33608 maxY I
+		FIELD field_33668 rawBlock Lnet/minecraft/class_2680;
+		METHOD <init> (Ljava/lang/String;ILnet/minecraft/class_2680;Lnet/minecraft/class_2680;Lnet/minecraft/class_2680;II)V
+			ARG 3 ore
+			ARG 4 rawBlock
+			ARG 5 stone
+			ARG 6 minY
+			ARG 7 maxY

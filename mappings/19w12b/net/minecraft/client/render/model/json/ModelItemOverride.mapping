@@ -1,0 +1,18 @@
+CLASS dkl net/minecraft/client/render/model/json/ModelItemOverride
+	CLASS dkl$a Deserializer
+		METHOD a (Lcom/google/gson/JsonElement;Ljava/lang/reflect/Type;Lcom/google/gson/JsonDeserializationContext;)Ldkl;
+			ARG 1 element
+			ARG 2 type
+			ARG 3 context
+		METHOD a deserializeMinPropertyValues (Lcom/google/gson/JsonObject;)Ljava/util/Map;
+			ARG 1 object
+	FIELD a modelId Lqq;
+	FIELD b minPropertyValues Ljava/util/Map;
+	METHOD <init> (Lqq;Ljava/util/Map;)V
+		ARG 1 modelId
+		ARG 2 minPropertyValues
+	METHOD a getModelId ()Lqq;
+	METHOD a matches (Lbaz;Lbgf;Laih;)Z
+		ARG 1 stack
+		ARG 2 world
+		ARG 3 entity

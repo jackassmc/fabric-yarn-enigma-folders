@@ -1,0 +1,30 @@
+CLASS csv net/minecraft/client/gui/AbstractCommandBlockGui
+	CLASS csv$1
+		METHOD a onPressed (DD)V
+			ARG 0 mouseX
+	CLASS csv$2
+		METHOD a onPressed (DD)V
+			ARG 0 mouseX
+	CLASS csv$3
+		METHOD a onPressed (DD)V
+			ARG 0 mouseX
+	FIELD a consoleCommandTextField Lcoy;
+	FIELD f previousOutputTextField Lcoy;
+	FIELD g doneButton Lcou;
+	FIELD h cancelButton Lcou;
+	FIELD i toggleTrackingOutputButton Lcou;
+	METHOD a draw (IIF)V
+		ARG 1 mouseX
+		ARG 2 mouseY
+	METHOD b onScaleChanged (Lcnv;II)V
+		ARG 1 client
+		ARG 2 width
+	METHOD c onInitialized ()V
+	METHOD f update ()V
+	METHOD g close ()V
+	METHOD keyPressed (III)Z
+		ARG 1 keyCode
+		ARG 2 scanCode
+	METHOD mouseClicked (DDI)Z
+		ARG 1 mouseX
+	METHOD n onClosed ()V

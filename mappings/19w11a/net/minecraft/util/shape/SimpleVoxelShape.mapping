@@ -1,0 +1,3 @@
+CLASS cqo net/minecraft/util/shape/SimpleVoxelShape
+	METHOD <init> (Lcqq;)V
+		ARG 1 shape

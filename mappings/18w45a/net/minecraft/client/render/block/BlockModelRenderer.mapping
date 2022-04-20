@@ -1,0 +1,3 @@
+CLASS dat net/minecraft/client/render/block/BlockModelRenderer
+	METHOD a renderBlockModel (Lbey;F)V
+		ARG 1 block

@@ -1,0 +1,9 @@
+CLASS bbw net/minecraft/item/HorseArmorItem
+	FIELD a bonus I
+	FIELD b entityTexture Ljava/lang/String;
+	METHOD <init> (ILjava/lang/String;Lbbx$a;)V
+		ARG 1 bonus
+		ARG 2 name
+		ARG 3 settings
+	METHOD d getEntityTexture ()Lqs;
+	METHOD e getBonus ()I

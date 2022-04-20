@@ -1,0 +1,3 @@
+CLASS axx net/minecraft/enchantment/EnchantmentPiercing
+	METHOD a getHighestLevel ()I
+	METHOD a differs (Layc;)Z

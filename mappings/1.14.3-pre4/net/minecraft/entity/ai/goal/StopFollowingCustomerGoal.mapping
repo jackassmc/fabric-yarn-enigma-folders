@@ -1,0 +1,4 @@
+CLASS aoj net/minecraft/entity/ai/goal/StopFollowingCustomerGoal
+	FIELD a trader Lavk;
+	METHOD <init> (Lavk;)V
+		ARG 1 trader

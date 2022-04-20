@@ -1,0 +1,2 @@
+CLASS axy net/minecraft/world/gen/structure/StructureGeneratorEndCity
+	CLASS axy$a StructureEndCity

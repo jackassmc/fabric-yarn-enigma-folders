@@ -1,0 +1,9 @@
+CLASS bhp net/minecraft/block/BambooBlock
+	FIELD a SMALL_LEAVES_SHAPE Lcof;
+	FIELD b LARGE_LEAVES_SHAPE Lcof;
+	FIELD c NO_LEAVES_SHAPE Lcof;
+	FIELD d AGE Lbse;
+	FIELD e LEAVES Lbsc;
+	FIELD f STAGE Lbse;
+	METHOD <init> (Lbig$c;)V
+		ARG 1 settings

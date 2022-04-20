@@ -1,0 +1,3 @@
+CLASS aim net/minecraft/entity/ai/control/DolphinLookControl
+	METHOD <init> (Laho;I)V
+		ARG 1 entity

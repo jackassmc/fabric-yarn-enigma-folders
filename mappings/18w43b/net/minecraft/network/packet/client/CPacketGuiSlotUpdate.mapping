@@ -1,0 +1,19 @@
+CLASS kl net/minecraft/network/packet/client/CPacketGuiSlotUpdate
+	FIELD a id I
+	FIELD b slot I
+	FIELD c itemStack Lauc;
+	METHOD <init> (IILauc;)V
+		ARG 0 id
+		ARG 1 slot
+		ARG 2 itemStack
+	METHOD a readPacket (Lim;)V
+		ARG 0 buf
+	METHOD a applyPacket (Lip;)V
+		ARG 0 handler
+	METHOD a applyPacket (Ljn;)V
+		ARG 0 handler
+	METHOD b getId ()I
+	METHOD b writePacket (Lim;)V
+		ARG 0 buf
+	METHOD c getSlot ()I
+	METHOD d getItemStack ()Lauc;

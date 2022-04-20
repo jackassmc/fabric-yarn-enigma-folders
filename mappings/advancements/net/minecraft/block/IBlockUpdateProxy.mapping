@@ -1,0 +1,2 @@
+CLASS avc net/minecraft/block/IBlockUpdateProxy
+	METHOD a update (Lali;Ldx;Lank;Ldx;)V

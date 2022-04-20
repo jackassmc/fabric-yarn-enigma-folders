@@ -1,0 +1,44 @@
+CLASS bgm net/minecraft/block/AbstractFurnaceBlock
+	FIELD a FACING Lbqz;
+	METHOD <init> (Lbhi$c;)V
+		ARG 1 settings
+	METHOD a getPlacementState (Lavi;)Lbqe;
+		ARG 1 ctx
+	METHOD a onPlaced (Lbcf;Let;Lbqe;Lahm;Laxd;)V
+		ARG 1 world
+		ARG 2 pos
+		ARG 3 state
+		ARG 4 placer
+		ARG 5 itemStack
+	METHOD a getLuminance (Lbqe;)I
+		ARG 1 state
+	METHOD a getComparatorOutput (Lbqe;Lbcf;Let;)I
+		ARG 1 state
+		ARG 2 world
+		ARG 3 pos
+	METHOD a activate (Lbqe;Lbcf;Let;Lark;Lafy;Ley;FFF)Z
+		ARG 1 state
+		ARG 2 world
+		ARG 3 pos
+		ARG 4 player
+		ARG 5 hand
+		ARG 6 facing
+		ARG 7 hitX
+		ARG 8 hitY
+	METHOD a onBlockRemoved (Lbqe;Lbcf;Let;Lbqe;Z)V
+		ARG 1 state
+		ARG 2 world
+		ARG 3 pos
+		ARG 4 newState
+	METHOD a applyMirror (Lbqe;Lbks;)Lbqe;
+		ARG 1 state
+		ARG 2 mirror
+	METHOD a applyRotation (Lbqe;Lbls;)Lbqe;
+		ARG 1 state
+		ARG 2 rotation
+	METHOD a appendProperties (Lbqf$a;)V
+		ARG 1 builder
+	METHOD b hasComparatorOutput (Lbqe;)Z
+		ARG 1 state
+	METHOD c getRenderType (Lbqe;)Lblp;
+		ARG 1 state

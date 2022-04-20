@@ -1,0 +1,11 @@
+CLASS apz net/minecraft/entity/mob/CreeperEntity
+	FIELD bE fuse I
+	FIELD bF explosionRadius I
+	FIELD b FUSE_SPEED Lpw;
+	FIELD c CHARGED Lpw;
+	FIELD d IGNITED Lpw;
+	METHOD a setFuseSpeed (I)V
+	METHOD dE getFuseSpeed ()I
+	METHOD dF getIgnited ()Z
+	METHOD dG setIgnited ()V
+	METHOD l isCharged ()Z

@@ -1,0 +1,16 @@
+CLASS atv net/minecraft/container/AbstractFurnaceContainer
+	FIELD c world Lbdf;
+	FIELD d inventory Laga;
+	FIELD e propertyDelegate Laud;
+	FIELD f recipeType Lbak;
+	METHOD <init> (Lauv;Lbak;ILary;)V
+		ARG 3 syncId
+	METHOD <init> (Lauv;Lbak;ILary;Laga;Laud;)V
+		ARG 3 syncId
+	METHOD a isSmeltable (Laxx;)Z
+		ARG 1 itemStack
+	METHOD b isFuel (Laxx;)Z
+		ARG 1 itemStack
+	METHOD j getCookProgress ()I
+	METHOD k getFuelProgress ()I
+	METHOD l isBurning ()Z

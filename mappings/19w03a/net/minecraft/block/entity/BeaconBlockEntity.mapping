@@ -1,0 +1,29 @@
+CLASS boi net/minecraft/block/entity/BeaconBlockEntity
+	CLASS boi$1
+		METHOD a size ()I
+		METHOD a get (I)I
+			ARG 1 key
+		METHOD a set (II)V
+			ARG 1 key
+			ARG 2 value
+	FIELD a EFFECTS [[Lagu;
+	FIELD i active Z
+	FIELD j lastActive Z
+	FIELD k levels I
+	FIELD l primary Lagu;
+	FIELD m secondary Lagu;
+	FIELD n customName Ljb;
+	FIELD p propertyDelegate Latn;
+	METHOD a toUpdatePacket ()Lkc;
+	METHOD a fromTag (Lhq;)V
+	METHOD a setCustomName (Ljb;)V
+	METHOD a playSound (Lxr;)V
+	METHOD a_ onBlockAction (II)Z
+	METHOD aa_ tick ()V
+	METHOD b toInitialChunkDataTag ()Lhq;
+	METHOD b toTag (Lhq;)Lhq;
+	METHOD c getPotionEffectById (I)Lagu;
+		ARG 0 id
+	METHOD d getDisplayName ()Ljb;
+	METHOD h getLevel ()I
+	METHOD i getSquaredRenderDistance ()D

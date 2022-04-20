@@ -1,0 +1,33 @@
+CLASS ayf net/minecraft/container/Slot
+	FIELD a invSlot I
+	FIELD d inventory Lagk;
+	FIELD e id I
+	FIELD f xPosition I
+	FIELD g yPosition I
+	METHOD <init> (Lagk;III)V
+		ARG 2 invSlot
+		ARG 3 xPosition
+		ARG 4 yPosition
+	METHOD a getMaxStackAmount ()I
+	METHOD a takeStack (I)Lbar;
+		ARG 1 amount
+	METHOD a canTakeItems (Laun;)Z
+	METHOD a onTakeItem (Laun;Lbar;)Lbar;
+		ARG 1 stack
+	METHOD a canInsert (Lbar;)Z
+	METHOD a onCrafted (Lbar;I)V
+		ARG 1 stack
+		ARG 2 amount
+	METHOD a onStackChanged (Lbar;Lbar;)V
+		ARG 1 originalItem
+	METHOD b doDrawHoveringEffect ()Z
+	METHOD b onTake (I)V
+		ARG 1 amount
+	METHOD b getMaxStackAmount (Lbar;)I
+	METHOD c getBackgroundSprite ()Ljava/lang/String;
+	METHOD c onCrafted (Lbar;)V
+		ARG 1 stack
+	METHOD d markDirty ()V
+	METHOD d setStack (Lbar;)V
+	METHOD e getStack ()Lbar;
+	METHOD f hasStack ()Z

@@ -1,0 +1,22 @@
+CLASS bmu net/minecraft/client/gui/container/GuiHorse
+	FIELD A mouseY F
+	FIELD v BG_TEX Lnd;
+	FIELD w playerInv Ltt;
+	FIELD x inventory Ltt;
+	FIELD y entity Laam;
+	FIELD z mouseX F
+	METHOD <init> (Ltt;Ltt;Laam;)V
+		ARG 0 playerInv
+		ARG 1 inventory
+		ARG 2 entity
+	METHOD a drawBackground (FII)V
+		ARG 0 delta
+		ARG 1 mouseX
+		ARG 2 mouseY
+	METHOD a draw (IIF)V
+		ARG 0 mouseX
+		ARG 1 mouseY
+		ARG 2 delta
+	METHOD c drawForeground (II)V
+		ARG 0 mouseX
+		ARG 1 mouseY

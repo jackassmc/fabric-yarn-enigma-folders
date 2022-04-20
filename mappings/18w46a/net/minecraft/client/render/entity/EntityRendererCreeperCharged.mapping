@@ -1,0 +1,5 @@
+CLASS dit net/minecraft/client/render/entity/EntityRendererCreeperCharged
+	FIELD a SKIN Lpx;
+	METHOD a shouldMergeTextures ()Z
+	METHOD a render (Lagl;FFFFFFF)V
+	METHOD a render (Laoj;FFFFFFF)V

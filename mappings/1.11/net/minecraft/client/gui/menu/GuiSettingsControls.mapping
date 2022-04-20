@@ -1,0 +1,28 @@
+CLASS bic net/minecraft/client/gui/menu/GuiSettingsControls
+	FIELD a title Ljava/lang/String;
+	FIELD h SETTINGS [Lbes$a;
+	FIELD i parent Lbhm;
+	FIELD r settings Lbes;
+	FIELD t resetButton Lbfk;
+	METHOD <init> (Lbhm;Lbes;)V
+		ARG 0 parent
+		ARG 1 settings
+	METHOD a onKeyPressed (CI)V
+		ARG 0 keyChar
+		ARG 1 keyCode
+	METHOD a draw (IIF)V
+		ARG 0 mouseX
+		ARG 1 mouseY
+		ARG 2 delta
+	METHOD a onMousePressed (III)V
+		ARG 0 mouseX
+		ARG 1 mouseY
+		ARG 2 mouseButton
+	METHOD a onWidgetPressed (Lbfk;)V
+		ARG 0 widget
+	METHOD b init ()V
+	METHOD b onMouseReleased (III)V
+		ARG 0 mouseX
+		ARG 1 mouseY
+		ARG 2 mouseButton
+	METHOD k handleMouseEvent ()V

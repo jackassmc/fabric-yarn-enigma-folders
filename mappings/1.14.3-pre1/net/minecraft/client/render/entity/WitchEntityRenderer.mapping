@@ -1,0 +1,2 @@
+CLASS dsb net/minecraft/client/render/entity/WitchEntityRenderer
+	FIELD a SKIN Lqs;

@@ -1,0 +1,24 @@
+CLASS cdz net/minecraft/world/gen/feature/StructureFeatures
+	FIELD a MINESHAFT Lcab;
+	FIELD b PILLAGER_OUTPOST Lcab;
+	FIELD c FORTRESS Lcab;
+	FIELD d STRONGHOLD Lcab;
+	FIELD e JUNGLE_PYRAMID Lcab;
+	FIELD f OCEAN_RUIN Lcab;
+	FIELD g DESERT_PYRAMID Lcab;
+	FIELD h IGLOO Lcab;
+	FIELD i SWAMP_HUT Lcab;
+	FIELD j MONUMENT Lcab;
+	FIELD k END_CITY Lcab;
+	FIELD l MANSION Lcab;
+	FIELD m BURIED_TREASURE Lcab;
+	FIELD n SHIPWRECK Lcab;
+	FIELD o VILLAGE Lcab;
+	FIELD p LOGGER Lorg/apache/logging/log4j/Logger;
+	METHOD a initialize ()V
+	METHOD a readStructureStart (Lbst;Lcev;Lbee;Lhx;)Lcec;
+		ARG 0 chunkGenerator
+		ARG 1 structureManager
+		ARG 2 biomeSource
+		ARG 3 tag
+	METHOD a register (Ljava/lang/String;Lcab;)Lcab;

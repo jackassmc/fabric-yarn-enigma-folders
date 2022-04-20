@@ -1,0 +1,17 @@
+CLASS bmd net/minecraft/block/entity/BlockEntityFactory
+	CLASS bmd$a Builder
+		FIELD a supplier Ljava/util/function/Supplier;
+		METHOD <init> (Ljava/util/function/Supplier;)V
+			ARG 0 supplier
+		METHOD a (Lcom/mojang/datafixers/types/Type;)Lbmd;
+			ARG 0 type
+		METHOD a create (Ljava/util/function/Supplier;)Lbmd$a;
+			ARG 0 supplier
+	FIELD F LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD G supplier Ljava/util/function/Supplier;
+	FIELD H type Lcom/mojang/datafixers/types/Type;
+	METHOD a instantiate ()Lbmc;
+	METHOD a getId (Lbmd;)Lpx;
+	METHOD a instantiate (Ljava/lang/String;)Lbmc;
+		ARG 0 id
+	METHOD a create (Ljava/lang/String;Lbmd$a;)Lbmd;

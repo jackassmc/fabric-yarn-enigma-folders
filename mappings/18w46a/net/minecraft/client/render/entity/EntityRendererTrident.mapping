@@ -1,0 +1,4 @@
+CLASS dhx net/minecraft/client/render/entity/EntityRendererTrident
+	FIELD f model Lcxh;
+	METHOD a getTexture (Lagc;)Lpx;
+	METHOD a getTexture (Laqy;)Lpx;

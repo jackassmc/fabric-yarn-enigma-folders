@@ -1,0 +1,6 @@
+CLASS bum net/minecraft/client/render/entity/EntityRendererSnowman
+	FIELD a SKIN Lkp;
+	METHOD a getTexture (Lsg;)Lkp;
+		ARG 0 model
+	METHOD a getTexture (Lwx;)Lkp;
+		ARG 0 model

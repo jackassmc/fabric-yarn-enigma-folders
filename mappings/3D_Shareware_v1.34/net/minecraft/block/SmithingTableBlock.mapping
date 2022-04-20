@@ -1,0 +1,3 @@
+CLASS bqy net/minecraft/block/SmithingTableBlock
+	METHOD <init> (Lbma$c;)V
+		ARG 1 settings

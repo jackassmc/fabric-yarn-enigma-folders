@@ -1,0 +1,14 @@
+CLASS ciu net/minecraft/item/map/MapIcon
+	CLASS ciu$a Direction
+	FIELD a direction Lciu$a;
+	FIELD b x B
+	FIELD c z B
+	FIELD d type B
+	METHOD <init> (Lciu$a;BBBLjc;)V
+		ARG 1 direction
+	METHOD a getDirection ()B
+	METHOD c getX ()B
+	METHOD d getZ ()B
+	METHOD e getType ()B
+	METHOD equals (Ljava/lang/Object;)Z
+		ARG 1 o

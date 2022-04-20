@@ -1,0 +1,8 @@
+CLASS dah net/minecraft/client/gui/ingame/EditSignScreen
+	FIELD a sign Lbtd;
+	FIELD b ticksSinceOpened I
+	FIELD c currentRow I
+	FIELD d selectionManager Lcwr;
+	METHOD <init> (Lbtd;)V
+		ARG 1 sign
+	METHOD a finishEditing ()V

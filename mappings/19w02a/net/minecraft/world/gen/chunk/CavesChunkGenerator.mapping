@@ -1,0 +1,17 @@
+CLASS btn net/minecraft/world/gen/chunk/CavesChunkGenerator
+	FIELD h noiseFalloff [D
+	METHOD a computeNoiseFalloff (DDI)D
+		ARG 1 depth
+		ARG 3 scale
+		ARG 5 y
+	METHOD a computeNoiseRange (II)[D
+		ARG 1 x
+		ARG 2 z
+	METHOD a getEntitySpawnList (Laho;Let;)Ljava/util/List;
+	METHOD a sampleNoiseColumn ([DII)V
+		ARG 1 buffer
+		ARG 2 x
+		ARG 3 z
+	METHOD b getSpawnHeight ()I
+	METHOD e getMaxY ()I
+	METHOD j buidlNoiseFalloff ()[D

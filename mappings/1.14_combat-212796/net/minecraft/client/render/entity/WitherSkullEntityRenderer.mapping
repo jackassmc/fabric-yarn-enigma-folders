@@ -1,0 +1,4 @@
+CLASS dsi net/minecraft/client/render/entity/WitherSkullEntityRenderer
+	FIELD a INVINCIBLE_SKIN Lqt;
+	FIELD f SKIN Lqt;
+	FIELD g model Ldgk;

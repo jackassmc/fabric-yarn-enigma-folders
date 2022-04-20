@@ -1,0 +1,13 @@
+CLASS dsy net/minecraft/client/search/SearchManager
+	CLASS dsy$a Key
+	FIELD a ITEM_TOOLTIP Ldsy$a;
+	FIELD b ITEM_TAG Ldsy$a;
+	FIELD c RECIPE_OUTPUT Ldsy$a;
+	FIELD d instances Ljava/util/Map;
+	METHOD a get (Ldsy$a;)Ldsv;
+		ARG 1 key
+	METHOD a put (Ldsy$a;Ldsv;)V
+		ARG 1 key
+		ARG 2 value
+	METHOD a (Lwt;)V
+		ARG 1 arg1

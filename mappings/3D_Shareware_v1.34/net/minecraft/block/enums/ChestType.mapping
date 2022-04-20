@@ -1,0 +1,5 @@
+CLASS bvr net/minecraft/block/enums/ChestType
+	FIELD d VALUES [Lbvr;
+	FIELD e name Ljava/lang/String;
+	FIELD f opposite I
+	METHOD a getOpposite ()Lbvr;

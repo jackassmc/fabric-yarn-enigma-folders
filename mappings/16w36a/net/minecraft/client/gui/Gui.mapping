@@ -1,0 +1,84 @@
+CLASS none/bgm net/minecraft/client/gui/Gui
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD f PROTOCOLS Ljava/util/Set;
+	FIELD g LINE_SPLITTER Lcom/google/common/base/Splitter;
+	FIELD j game Lnone/bdq;
+	FIELD k itemRenderer Lnone/btq;
+	FIELD l width I
+	FIELD m height I
+	FIELD n widgets Ljava/util/List;
+	FIELD q fontRenderer Lnone/bee;
+	METHOD a handleKeyPress (CI)V
+		ARG 0 keyChar
+		ARG 1 keyCode
+	METHOD a setSize (II)V
+		ARG 0 width
+		ARG 1 height
+	METHOD a draw (IIF)V
+		ARG 0 mouseX
+		ARG 1 mouseY
+		ARG 2 delta
+	METHOD a handleMouseClick (III)V
+		ARG 0 mouseX
+		ARG 1 mouseY
+		ARG 2 mouseButton
+	METHOD a drawTooltip (Ljava/lang/String;II)V
+		ARG 0 text
+		ARG 1 x
+		ARG 2 y
+	METHOD a openURI (Ljava/net/URI;)V
+		ARG 0 uri
+	METHOD a drawTooltip (Ljava/util/List;II)V
+		ARG 0 text
+		ARG 1 x
+		ARG 2 y
+	METHOD a drawStackTooltip (Lnone/aer;II)V
+		ARG 0 stack
+		ARG 1 x
+		ARG 2 y
+	METHOD a init (Lnone/bdq;II)V
+		ARG 0 game
+		ARG 1 width
+		ARG 2 height
+	METHOD a handleButtonPressed (Lnone/bek;)V
+		ARG 0 button
+	METHOD a handleTextComponentClick (Lnone/fa;)Z
+		ARG 0 component
+	METHOD a drawTextComponentHover (Lnone/fa;II)V
+		ARG 0 component
+		ARG 1 x
+		ARG 2 y
+	METHOD a handle (ZI)V
+		ARG 0 result
+		ARG 1 callbackId
+	METHOD b init ()V
+	METHOD b init0 (Lnone/bdq;II)V
+		ARG 0 game
+		ARG 1 width
+		ARG 2 height
+	METHOD b addButton (Lnone/bek;)Lnone/bek;
+		ARG 0 button
+	METHOD c drawBackground ()V
+	METHOD c drawTextureBackground (I)V
+		ARG 0 i
+	METHOD d isShortcutCutDown (I)Z
+		ARG 0 keycode
+	METHOD d_ drawBackground (I)V
+		ARG 0 id
+	METHOD e update ()V
+	METHOD e isShortcutPasteDown (I)Z
+		ARG 0 keycode
+	METHOD e setClipboardContents (Ljava/lang/String;)V
+		ARG 0 str
+	METHOD f isShortcutCopyDown (I)Z
+		ARG 0 keycode
+	METHOD g isShortcutSelectAllDown (I)Z
+		ARG 0 keycode
+	METHOD k handleMouseEvent ()V
+	METHOD l handleKeyboardEvent ()V
+	METHOD m onClosed ()V
+	METHOD o getClipboardContents ()Ljava/lang/String;
+	METHOD p pollInputs ()V
+	METHOD q isControlDown ()Z
+	METHOD r isShiftDown ()Z
+	METHOD s isAltDown ()Z

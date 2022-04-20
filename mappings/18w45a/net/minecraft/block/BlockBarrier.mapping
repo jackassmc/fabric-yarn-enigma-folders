@@ -1,0 +1,4 @@
+CLASS bel net/minecraft/block/BlockBarrier
+	METHOD c getRenderType (Lbno;)Lbjc;
+	METHOD f isFullBoundsCubeForCulling (Lbno;)Z
+	METHOD g getAmbientOcclusionLightLevel (Lbno;)F

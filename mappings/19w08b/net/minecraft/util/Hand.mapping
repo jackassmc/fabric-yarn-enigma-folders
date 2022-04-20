@@ -1,0 +1,3 @@
+CLASS agg net/minecraft/util/Hand
+	FIELD a MAIN Lagg;
+	FIELD b OFF Lagg;

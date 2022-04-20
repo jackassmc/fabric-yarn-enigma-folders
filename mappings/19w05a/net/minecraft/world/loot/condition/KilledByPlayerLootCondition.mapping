@@ -1,0 +1,3 @@
+CLASS cmc net/minecraft/world/loot/condition/KilledByPlayerLootCondition
+	CLASS cmc$a Factory
+	FIELD a INSTANCE Lcmc;

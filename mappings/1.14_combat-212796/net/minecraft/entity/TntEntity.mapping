@@ -1,0 +1,16 @@
+CLASS att net/minecraft/entity/TntEntity
+	FIELD b FUSE Lqi;
+	FIELD c causingEntity Laiu;
+	FIELD d fuseTimer I
+	METHOD <init> (Lbhn;DDDLaiu;)V
+		ARG 1 world
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z
+		ARG 8 igniter
+	METHOD a setFuse (I)V
+		ARG 1 fuse
+	METHOD f getCausingEntity ()Laiu;
+	METHOD i getFuse ()I
+	METHOD k getFuseTimer ()I
+	METHOD l explode ()V

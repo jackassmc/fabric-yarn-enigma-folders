@@ -1,0 +1,6 @@
+CLASS azv net/minecraft/enchantment/InfoEnchantment
+	FIELD b enchantment Lazs;
+	FIELD c level I
+	METHOD <init> (Lazs;I)V
+		ARG 1 enchantment
+		ARG 2 level

@@ -1,0 +1,12 @@
+CLASS crq net/minecraft/client/gui/hud/SubtitlesHud
+	CLASS crq$a SubtitleEntry
+		FIELD b text Ljava/lang/String;
+		FIELD c time J
+		FIELD d pos Lcmr;
+		METHOD a getText ()Ljava/lang/String;
+		METHOD a reset (Lcmr;)V
+		METHOD b getTime ()J
+		METHOD c getPosition ()Lcmr;
+	FIELD a client Lcpy;
+	FIELD f entries Ljava/util/List;
+	FIELD g enabled Z

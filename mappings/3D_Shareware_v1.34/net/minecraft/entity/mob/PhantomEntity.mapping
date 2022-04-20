@@ -1,0 +1,10 @@
+CLASS aub net/minecraft/entity/mob/PhantomEntity
+	CLASS aub$a PhantomMovementType
+	CLASS aub$d PhantomBodyControl
+	CLASS aub$f PhantomLookControl
+	CLASS aub$g PhantomMoveControl
+	FIELD b SIZE Lqg;
+	FIELD bz movementType Laub$a;
+	METHOD a setPhantomSize (I)V
+	METHOD dO onSizeChanged ()V
+	METHOD l getPhantomSize ()I

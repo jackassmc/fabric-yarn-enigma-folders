@@ -1,0 +1,10 @@
+CLASS avf net/minecraft/world/gen/WorldProviderNether
+	CLASS avf$1
+		METHOD f getCenterX ()D
+		METHOD g getCenterZ ()D
+	METHOD b setupBiomeProvider ()V
+	METHOD b getFogColor (FF)Lbdu;
+	METHOD c getChunkGenerator ()Laug;
+	METHOD d hasClouds ()Z
+	METHOD p createWorldBorderHandler ()Laud;
+	METHOD q getWorldType ()Lave;

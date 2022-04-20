@@ -1,0 +1,4 @@
+CLASS anm net/minecraft/entity/passive/ParrotBaseEntity
+	METHOD <init> (Lahp;Lbdb;)V
+		ARG 1 type
+	METHOD d mountOnto (Luv;)Z

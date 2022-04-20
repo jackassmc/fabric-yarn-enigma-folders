@@ -1,0 +1,16 @@
+CLASS jj net/minecraft/network/packet/server/SPacketSignUpdate
+	FIELD a pos Lco;
+	FIELD b text [Ljava/lang/String;
+	METHOD <init> (Lco;[Lfb;)V
+		ARG 0 pos
+		ARG 1 text
+	METHOD a getPos ()Lco;
+	METHOD a readPacket (Let;)V
+		ARG 0 packet
+	METHOD a applyPacket (Lew;)V
+		ARG 0 handler
+	METHOD a applyPacket (Lim;)V
+		ARG 0 handler
+	METHOD b getText ()[Ljava/lang/String;
+	METHOD b writePacket (Let;)V
+		ARG 0 packet

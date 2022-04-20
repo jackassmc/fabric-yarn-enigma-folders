@@ -1,0 +1,23 @@
+CLASS avk net/minecraft/item/FoodItem
+	FIELD a hungerRestored I
+	FIELD b saturationModifier F
+	FIELD c wolfFood Z
+	FIELD d alwaysConsumable Z
+	FIELD k statusEffect Lagd;
+	FIELD l statusEffectChance F
+	METHOD a setStatusEffect (Lagd;F)Lavk;
+		ARG 1 effect
+	METHOD a onItemFinishedUsing (Lavu;Lbas;Lagt;)Lavu;
+		ARG 1 stack
+		ARG 2 world
+	METHOD a onConsumed (Lavu;Lbas;Laql;)V
+		ARG 1 stack
+		ARG 2 world
+	METHOD a use (Lbas;Laql;Lafd;)Lafg;
+		ARG 1 world
+		ARG 2 player
+	METHOD b getMaxUseTime (Lavu;)I
+	METHOD c getUseAction (Lavu;)Laxg;
+	METHOD d isWolfFood ()Z
+	METHOD e getHungerRestored (Lavu;)I
+	METHOD f getSaturationModifier (Lavu;)F

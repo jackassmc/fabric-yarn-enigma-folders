@@ -1,0 +1,12 @@
+CLASS bmq net/minecraft/block/EndPortalFrameBlock
+	FIELD a FACING Lbur;
+	FIELD b EYE Lbuo;
+	FIELD c FRAME_SHAPE Lcra;
+	FIELD d EYE_SHAPE Lcra;
+	FIELD e FRAME_WITH_EYE_SHAPE Lcra;
+	FIELD f COMPLETED_FRAME Lbub;
+	METHOD <init> (Lbky$c;)V
+		ARG 1 settings
+	METHOD d getCompletedFramePattern ()Lbub;
+	METHOD n (Lbtw;)Z
+		ARG 1 state

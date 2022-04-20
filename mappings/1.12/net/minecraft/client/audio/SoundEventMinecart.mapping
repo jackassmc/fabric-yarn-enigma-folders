@@ -1,0 +1,7 @@
+CLASS cgm net/minecraft/client/audio/SoundEventMinecart
+	FIELD m player Laeb;
+	FIELD n minecart Lafc;
+	METHOD <init> (Laeb;Lafc;)V
+		ARG 0 player
+		ARG 1 minecart
+	METHOD e update ()V

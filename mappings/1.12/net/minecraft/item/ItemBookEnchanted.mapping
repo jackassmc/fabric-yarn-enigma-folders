@@ -1,0 +1,17 @@
+CLASS ahw net/minecraft/item/ItemBookEnchanted
+	METHOD a addStacksForDisplay (Lahn;Lfi;)V
+		ARG 1 items
+	METHOD a addEnchantment (Lain;Lall;)V
+		ARG 0 stack
+		ARG 1 enchantmentInfo
+	METHOD a addInformation (Lain;Lams;Ljava/util/List;Lajz;)V
+		ARG 0 stack
+		ARG 2 tooltip
+	METHOD f_ hasEnchantmentGlow (Lain;)Z
+		ARG 0 stack
+	METHOD g getRarity (Lain;)Lajc;
+		ARG 0 stack
+	METHOD g_ isTool (Lain;)Z
+		ARG 0 stack
+	METHOD h getEnchantmentTag (Lain;)Lge;
+		ARG 0 stack

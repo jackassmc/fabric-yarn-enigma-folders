@@ -1,0 +1,9 @@
+CLASS dih net/minecraft/client/render/model/ModelManager
+	FIELD B resourceContainer Lvs;
+	FIELD C spriteAtlas Ldgw;
+	FIELD E modelRegistry Lcyp$a;
+	FIELD p MISSING Ldij;
+	FIELD t DEFAULT_TEXTURES Ljava/util/Set;
+	FIELD u LOGGER Lorg/apache/logging/log4j/Logger;
+	METHOD c loadModel (Lpt;)Lcyo;
+		ARG 0 id

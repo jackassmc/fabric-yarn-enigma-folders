@@ -1,0 +1,4 @@
+CLASS asj net/minecraft/entity/mob/AbstractSkeletonEntity
+	FIELD b AIMING Lqe;
+	METHOD <init> (Laia;Lbfy;)V
+		ARG 1 type

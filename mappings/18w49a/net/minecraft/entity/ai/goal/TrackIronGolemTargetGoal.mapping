@@ -1,0 +1,5 @@
+CLASS aki net/minecraft/entity/ai/goal/TrackIronGolemTargetGoal
+	FIELD a ironGolem Lalw;
+	FIELD b target Lagt;
+	METHOD a canStart ()Z
+	METHOD c start ()V

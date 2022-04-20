@@ -1,0 +1,13 @@
+CLASS ber net/minecraft/recipe/ShapelessRecipe
+	CLASS ber$a Serializer
+		METHOD a getIngredients (Lcom/google/gson/JsonArray;)Lfj;
+			ARG 0 json
+	FIELD a id Lqt;
+	FIELD b group Ljava/lang/String;
+	FIELD c output Lbce;
+	FIELD d input Lfj;
+	METHOD <init> (Lqt;Ljava/lang/String;Lbce;Lfj;)V
+		ARG 1 id
+		ARG 2 group
+		ARG 3 output
+		ARG 4 input

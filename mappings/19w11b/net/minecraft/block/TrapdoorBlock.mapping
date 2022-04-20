@@ -1,0 +1,13 @@
+CLASS bqw net/minecraft/block/TrapdoorBlock
+	FIELD a OPEN Lbuo;
+	FIELD b BLOCK_HALF Lbuu;
+	FIELD c POWERED Lbuo;
+	FIELD d WATERLOGGED Lbuo;
+	FIELD e EAST_SHAPE Lcra;
+	FIELD f WEST_SHAPE Lcra;
+	FIELD g SOUTH_SHAPE Lcra;
+	FIELD h NORTH_SHAPE Lcra;
+	FIELD i OPEN_BOTTOM_SHAPE Lcra;
+	FIELD j OPEN_TOP_SHAPE Lcra;
+	METHOD <init> (Lbky$c;)V
+		ARG 1 settings

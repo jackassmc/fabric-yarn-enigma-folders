@@ -1,0 +1,18 @@
+CLASS ald net/minecraft/world/explosion/Explosion
+	FIELD a createFire Z
+	FIELD b destroyBlocks Z
+	FIELD c rand Ljava/util/Random;
+	FIELD d world Lali;
+	FIELD e x D
+	FIELD f y D
+	FIELD g z D
+	FIELD h entity Lub;
+	FIELD i power F
+	FIELD j affectedBlocks Ljava/util/List;
+	FIELD k affectedPlayers Ljava/util/Map;
+	METHOD a collectBlocksAndDamageEntities ()V
+	METHOD a affectWorld (Z)V
+	METHOD b getAffectedPlayers ()Ljava/util/Map;
+	METHOD c getCausingEntity ()Luk;
+	METHOD d clearAffectedBlocks ()V
+	METHOD e getAffectedBlocks ()Ljava/util/List;

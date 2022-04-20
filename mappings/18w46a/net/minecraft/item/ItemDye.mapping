@@ -1,0 +1,5 @@
+CLASS auc net/minecraft/item/ItemDye
+	METHOD a interactWithEntity (Lavf;Laqa;Lagl;Laev;)Z
+		ARG 1 stack
+		ARG 2 player
+		ARG 3 target

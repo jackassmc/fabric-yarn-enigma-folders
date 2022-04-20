@@ -1,0 +1,18 @@
+CLASS agd net/minecraft/entity/attribute/IAttributeInstance
+	METHOD a getAttribute ()Lagc;
+	METHOD a setBaseValue (D)V
+		ARG 0 baseValue
+	METHOD a hasModifier (Lage;)Z
+		ARG 0 modifier
+	METHOD a getModifier (Ljava/util/UUID;)Lage;
+		ARG 0 uuid
+	METHOD b getBaseValue ()D
+	METHOD b addModifier (Lage;)V
+		ARG 0 modifier
+	METHOD b removeModifier (Ljava/util/UUID;)V
+		ARG 0 id
+	METHOD c getModifiers ()Ljava/util/Collection;
+	METHOD c removeModifier (Lage;)V
+		ARG 0 modifier
+	METHOD d clearModifiers ()V
+	METHOD e getValue ()D

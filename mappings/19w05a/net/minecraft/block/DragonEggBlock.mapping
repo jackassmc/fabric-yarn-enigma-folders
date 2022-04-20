@@ -1,0 +1,4 @@
+CLASS bjf net/minecraft/block/DragonEggBlock
+	FIELD a SHAPE Lcnq;
+	METHOD <init> (Lbhs$c;)V
+		ARG 1 settings

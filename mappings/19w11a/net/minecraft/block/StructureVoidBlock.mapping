@@ -1,0 +1,4 @@
+CLASS bqp net/minecraft/block/StructureVoidBlock
+	FIELD a SHAPE Lcrb;
+	METHOD <init> (Lbkz$c;)V
+		ARG 1 settings

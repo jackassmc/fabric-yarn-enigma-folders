@@ -1,0 +1,4 @@
+CLASS cs net/minecraft/command/arguments/NbtTagArgumentType
+	FIELD a EXAMPLES Ljava/util/Collection;
+	METHOD a create ()Lcs;
+	METHOD a getNbtTagArgument (Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Lis;

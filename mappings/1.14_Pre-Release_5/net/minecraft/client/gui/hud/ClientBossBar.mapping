@@ -1,0 +1,7 @@
+CLASS cww net/minecraft/client/gui/hud/ClientBossBar
+	FIELD h healthLatest F
+	FIELD i timeHealthSet J
+	METHOD <init> (Lkq;)V
+		ARG 1 packet
+	METHOD a handlePacket (Lkq;)V
+		ARG 1 packet

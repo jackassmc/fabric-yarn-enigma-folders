@@ -1,0 +1,16 @@
+CLASS ayj net/minecraft/container/CartographyTableContainer
+	FIELD c inventory Lagx;
+	FIELD d context Layn;
+	FIELD e currentlyTakingItem Z
+	FIELD f resultSlot Lazl;
+	METHOD <init> (ILavy;)V
+		ARG 1 syncId
+		ARG 2 inventory
+	METHOD <init> (ILavy;Layn;)V
+		ARG 1 syncId
+		ARG 2 inventory
+		ARG 3 context
+	METHOD a updateResult (Lbcc;Lbcc;Lbcc;)V
+		ARG 1 map
+		ARG 2 item
+		ARG 3 oldResult

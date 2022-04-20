@@ -1,0 +1,4 @@
+CLASS px net/minecraft/migration/TagUpgraderEquipmentDrops
+	METHOD a getTargetVersion ()I
+	METHOD a upgradeTag (Ldu;)Ldu;
+		ARG 0 tag

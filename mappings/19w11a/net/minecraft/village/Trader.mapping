@@ -1,0 +1,9 @@
+CLASS bfb net/minecraft/village/Trader
+	METHOD a sendRecipes (Laum;Ljl;I)V
+	METHOD a useRecipe (Lbfc;)V
+	METHOD a setServerRecipes (Lbfd;)V
+	METHOD dO getCurrentCustomer ()Laum;
+	METHOD dQ getRecipes ()Lbfd;
+	METHOD dU getTraderWorld ()Lbfy;
+	METHOD e setCurrentCustomer (Laum;)V
+	METHOD j onSellingItem (Lbar;)V

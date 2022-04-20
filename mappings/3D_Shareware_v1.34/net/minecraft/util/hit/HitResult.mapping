@@ -1,0 +1,10 @@
+CLASS cri net/minecraft/util/hit/HitResult
+	CLASS cri$a Type
+		FIELD a NONE Lcri$a;
+		FIELD b BLOCK Lcri$a;
+		FIELD c ENTITY Lcri$a;
+	FIELD a pos Lcrk;
+	METHOD <init> (Lcrk;)V
+		ARG 1 pos
+	METHOD c getType ()Lcri$a;
+	METHOD e getPos ()Lcrk;

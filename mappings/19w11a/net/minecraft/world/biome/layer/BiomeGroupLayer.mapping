@@ -1,0 +1,4 @@
+CLASS ckd net/minecraft/world/biome/layer/BiomeGroupLayer
+	CLASS ckd$a net/minecraft/world/biome/layer/BiomeGroupLayer$AddGroup2Layer
+	CLASS ckd$b net/minecraft/world/biome/layer/BiomeGroupLayer$AddGroup3Layer
+	CLASS ckd$c net/minecraft/world/biome/layer/BiomeGroupLayer$AddSpecialBiomesLayer

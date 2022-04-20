@@ -1,0 +1,6 @@
+CLASS none/apk net/minecraft/util/Rotation
+	FIELD a ROT_0 Lnone/apk;
+	FIELD b ROT_90 Lnone/apk;
+	FIELD c ROT_180 Lnone/apk;
+	FIELD d ROT_270 Lnone/apk;
+	FIELD e translationKey Ljava/lang/String;

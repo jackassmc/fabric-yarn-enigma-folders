@@ -1,0 +1,2 @@
+CLASS bdd net/minecraft/item/ItemProvider
+	METHOD h getItem ()Laxr;

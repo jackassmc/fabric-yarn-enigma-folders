@@ -1,0 +1,6 @@
+CLASS cvx net/minecraft/client/util/NarratorManager
+	FIELD b INSTANCE Lcvx;
+	FIELD d narrator Lcom/mojang/text2speech/Narrator;
+	METHOD a isActive ()Z
+	METHOD a addToast (Lcvc;)V
+	METHOD b clear ()V

@@ -1,0 +1,9 @@
+CLASS bgu net/minecraft/block/AnvilBlock
+	FIELD a FACING Lbrf;
+	FIELD i X_AXIS_SHAPE Lcnl;
+	FIELD j Z_AXIS_SHAPE Lcnl;
+	FIELD k CONTAINER_NAME Ljm;
+	METHOD <init> (Lbhn$c;)V
+		ARG 1 settings
+	METHOD a_ getLandingState (Lbqk;)Lbqk;
+		ARG 0 fallingState

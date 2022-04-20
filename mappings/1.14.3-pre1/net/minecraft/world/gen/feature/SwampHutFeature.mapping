@@ -1,0 +1,9 @@
+CLASS ceq net/minecraft/world/gen/feature/SwampHutFeature
+	CLASS ceq$a Start
+		METHOD <init> (Lcem;IILbig;Lchu;IJ)V
+			ARG 2 chunkX
+			ARG 3 chunkZ
+	FIELD a MONSTER_SPAWNS Ljava/util/List;
+	FIELD aS CREATURE_SPAWNS Ljava/util/List;
+	METHOD <init> (Ljava/util/function/Function;)V
+		ARG 1 configFactory

@@ -1,0 +1,13 @@
+CLASS ceq net/minecraft/world/gen/surfacebuilder/TernarySurfaceConfig
+	FIELD a topMaterial Lbqe;
+	FIELD b underMaterial Lbqe;
+	FIELD c underwaterMaterial Lbqe;
+	METHOD <init> (Lbqe;Lbqe;Lbqe;)V
+		ARG 1 topMaterial
+		ARG 2 underMaterial
+		ARG 3 underwaterMaterial
+	METHOD a getTopMaterial ()Lbqe;
+	METHOD a deserialize (Lcom/mojang/datafixers/Dynamic;)Lceq;
+		ARG 0 dynamic
+	METHOD b getUnderMaterial ()Lbqe;
+	METHOD c getUnderwaterMaterial ()Lbqe;

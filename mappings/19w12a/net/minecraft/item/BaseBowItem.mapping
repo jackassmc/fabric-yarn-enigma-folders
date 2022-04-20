@@ -1,0 +1,3 @@
+CLASS bbl net/minecraft/item/BaseBowItem
+	METHOD <init> (Lbau$a;)V
+		ARG 1 settings

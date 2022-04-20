@@ -1,0 +1,72 @@
+CLASS ape net/minecraft/block/BlockFire
+	FIELD B fireSpreadChance Ljava/util/Map;
+	FIELD a AGE Lavt;
+	FIELD b NORTH Lavq;
+	FIELD c EAST Lavq;
+	FIELD d SOUTH Lavq;
+	FIELD e WEST Lavq;
+	FIELD f UP Lavq;
+	FIELD g fireBurnChance Ljava/util/Map;
+	METHOD a deserializeState (I)Lave;
+		ARG 0 meta
+	METHOD a getTickRate (Lali;)I
+		ARG 0 world
+	METHOD a canPlaceAt (Lali;Ldx;)Z
+		ARG 0 world
+		ARG 1 pos
+	METHOD a trySpreadFire (Lali;Ldx;ILjava/util/Random;I)V
+	METHOD a registerFlammable (Lank;II)V
+		ARG 0 block
+	METHOD a update (Lave;Lali;Ldx;Lank;Ldx;)V
+		ARG 0 state
+		ARG 1 world
+		ARG 2 pos
+		ARG 3 block
+		ARG 4 updatePos
+	METHOD a randomDisplayTick (Lave;Lali;Ldx;Ljava/util/Random;)V
+		ARG 0 state
+		ARG 1 world
+		ARG 2 pos
+		ARG 3 rand
+	METHOD a getCollisionBox (Lave;Lalm;Ldx;)Lbfm;
+		ARG 0 state
+		ARG 1 view
+		ARG 2 pos
+	METHOD a getDropAmount (Ljava/util/Random;)I
+		ARG 0 random
+	METHOD b createStateFactory ()Lavf;
+	METHOD b randomTick (Lali;Ldx;Lave;Ljava/util/Random;)V
+		ARG 0 world
+		ARG 1 pos
+		ARG 2 state
+		ARG 3 random
+	METHOD b isFullBoundsCubeForCulling (Lave;)Z
+		ARG 0 state
+	METHOD c isAnyNeighborFlammable (Lali;Ldx;)Z
+		ARG 0 world
+		ARG 1 pos
+	METHOD c onBlockAdded (Lali;Ldx;Lave;)V
+		ARG 0 world
+		ARG 1 pos
+		ARG 2 state
+	METHOD c isFlammable (Lalm;Ldx;)Z
+		ARG 0 view
+		ARG 1 pos
+	METHOD c getFireSpreadChance (Lank;)I
+		ARG 0 block
+	METHOD c isFullBoundsCubeForConnection (Lave;)Z
+		ARG 0 state
+	METHOD c getRenderingState (Lave;Lalm;Ldx;)Lave;
+		ARG 0 state
+		ARG 1 view
+		ARG 2 pos
+	METHOD d getFireBurnChance (Lank;)I
+		ARG 0 block
+	METHOD e registerDefaultFlammables ()V
+	METHOD e serializeState (Lave;)I
+		ARG 0 state
+	METHOD f getRenderLayer ()Lala;
+	METHOD m canCollideWith ()Z
+	METHOD r canUpdate ()Z
+	METHOD r getMapColor (Lave;)Lbbl;
+		ARG 0 state

@@ -1,0 +1,3 @@
+CLASS aoj net/minecraft/entity/AbstractLightningEntity
+	METHOD <init> (Lago;Lbas;)V
+		ARG 1 type

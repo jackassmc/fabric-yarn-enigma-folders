@@ -1,0 +1,14 @@
+CLASS sc net/minecraft/server/command/FillCommand
+	CLASS sc$a Mode
+		FIELD e filter Ltg$a;
+	FIELD a TOOBIG_EXCEPTION Lcom/mojang/brigadier/exceptions/Dynamic2CommandExceptionType;
+	FIELD b AIR_BLOCK_ARGUMENT Lde;
+	FIELD c FAILED_EXCEPTION Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
+	METHOD a execute (Lcd;Lcht;Lde;Lsc$a;Ljava/util/function/Predicate;)I
+		ARG 0 source
+		ARG 1 range
+		ARG 2 block
+		ARG 3 mode
+		ARG 4 filter
+	METHOD a register (Lcom/mojang/brigadier/CommandDispatcher;)V
+		ARG 0 dispatcher

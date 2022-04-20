@@ -1,0 +1,29 @@
+CLASS il net/minecraft/nbt/NbtIo
+	METHOD a write (Lia;Ljava/io/DataOutput;)V
+		ARG 0 tag
+		ARG 1 output
+	METHOD a safeWrite (Lia;Ljava/io/File;)V
+		ARG 0 tag
+		ARG 1 file
+	METHOD a writeCompressed (Lia;Ljava/io/OutputStream;)V
+		ARG 0 tag
+		ARG 1 stream
+	METHOD a write (Lir;Ljava/io/DataOutput;)V
+		ARG 0 tag
+		ARG 1 output
+	METHOD a read (Ljava/io/DataInput;ILik;)Lir;
+		ARG 0 input
+		ARG 1 depth
+		ARG 2 tracker
+	METHOD a read (Ljava/io/DataInput;Lik;)Lia;
+		ARG 0 input
+		ARG 1 trakcer
+	METHOD a read (Ljava/io/DataInputStream;)Lia;
+		ARG 0 stream
+	METHOD a read (Ljava/io/File;)Lia;
+		ARG 0 file
+	METHOD a readCompressed (Ljava/io/InputStream;)Lia;
+		ARG 0 stream
+	METHOD b write (Lia;Ljava/io/File;)V
+		ARG 0 tag
+		ARG 1 file

@@ -1,0 +1,21 @@
+CLASS aqx net/minecraft/entity/boss/dragon/EnderDragonEntity
+	FIELD bA parts [Laqv;
+	FIELD bB partHead Laqv;
+	FIELD bC partNeck Laqv;
+	FIELD bD partBody Laqv;
+	FIELD bE partTail1 Laqv;
+	FIELD bF partTail2 Laqv;
+	FIELD bG partTail3 Laqv;
+	FIELD bH partWingRight Laqv;
+	FIELD bI partWingLeft Laqv;
+	FIELD b PHASE_TYPE Lqe;
+	FIELD bO LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD bQ fight Lbwv;
+	FIELD bR phaseManager Laro;
+	METHOD a damagePart (Laqv;Lahf;F)Z
+	METHOD a crystalDestroyed (Laqw;Leu;Lahf;)V
+		ARG 1 crystal
+		ARG 2 pos
+		ARG 3 source
+	METHOD dM getPhaseManager ()Laro;
+	METHOD dN getFight ()Lbwv;

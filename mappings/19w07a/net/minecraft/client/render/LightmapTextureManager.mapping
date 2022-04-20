@@ -1,0 +1,16 @@
+CLASS dfw net/minecraft/client/render/LightmapTextureManager
+	FIELD a texture Ldpc;
+	FIELD b image Lcpf;
+	FIELD c textureIdentifier Lqh;
+	FIELD d isDirty Z
+	FIELD e prevFlicker F
+	FIELD f flicker F
+	FIELD g worldRenderer Ldfr;
+	FIELD h client Lcqn;
+	METHOD <init> (Ldfr;)V
+		ARG 1 worldRenderer
+	METHOD a tick ()V
+	METHOD a update (F)V
+		ARG 1 delta
+	METHOD b disable ()V
+	METHOD c enable ()V

@@ -1,0 +1,2 @@
+CLASS dem net/minecraft/client/particle/LavaEmberParticle
+	CLASS dem$a Factory

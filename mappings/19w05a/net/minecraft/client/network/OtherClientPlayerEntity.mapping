@@ -1,0 +1,3 @@
+CLASS dep net/minecraft/client/network/OtherClientPlayerEntity
+	METHOD <init> (Lbcq;Lcom/mojang/authlib/GameProfile;)V
+		ARG 1 world

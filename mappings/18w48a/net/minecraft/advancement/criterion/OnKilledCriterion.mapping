@@ -1,0 +1,34 @@
+CLASS bb net/minecraft/advancement/criterion/OnKilledCriterion
+	CLASS bb$a
+		FIELD a entity Las;
+		FIELD b killingBlow Laj;
+	CLASS bb$b Handler
+		FIELD a manager Lqi;
+		FIELD b conditions Ljava/util/Set;
+		METHOD <init> (Lqi;)V
+			ARG 0 manager
+		METHOD a isEmpty ()Z
+		METHOD a addCondition (Lu$a;)V
+			ARG 0 condition
+		METHOD a handle (Lul;Lagi;Lafr;)V
+			ARG 0 player
+		METHOD b removeCondition (Lu$a;)V
+			ARG 0 condition
+	CLASS bb$c
+		FIELD a entity Las;
+		FIELD b killingBlow Laj;
+	FIELD a handlers Ljava/util/Map;
+	FIELD b id Lpy;
+	METHOD a getId ()Lpy;
+	METHOD a deserializeConditions (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Lv;
+		ARG 1 obj
+	METHOD a removePlayer (Lqi;)V
+	METHOD a addCondition (Lqi;Lu$a;)V
+		ARG 1 manager
+	METHOD a handle (Lul;Lagi;Lafr;)V
+		ARG 1 player
+		ARG 2 entity
+	METHOD b deserializeConditions (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Lbb$c;
+		ARG 1 obj
+	METHOD b removeCondition (Lqi;Lu$a;)V
+		ARG 1 manager

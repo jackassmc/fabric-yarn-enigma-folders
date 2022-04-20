@@ -1,0 +1,10 @@
+CLASS dhm net/minecraft/client/render/entity/EntityRendererShulker
+	CLASS dhm$a
+		METHOD a shouldMergeTextures ()Z
+		METHOD a render (Lagl;FFFFFFF)V
+			ARG 0 entity
+		METHOD a render (Lapf;FFFFFFF)V
+			ARG 0 entity
+	FIELD j SKIN [Lpx;
+	METHOD a getTexture (Lagc;)Lpx;
+	METHOD a getTexture (Lapf;)Lpx;

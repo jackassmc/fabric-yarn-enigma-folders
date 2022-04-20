@@ -1,0 +1,3 @@
+CLASS dvj net/minecraft/client/audio/RidingMinecartSoundInstance
+	FIELD o minecart Lawk;
+	FIELD p distance F

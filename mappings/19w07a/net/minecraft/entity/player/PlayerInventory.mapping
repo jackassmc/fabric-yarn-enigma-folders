@@ -1,0 +1,40 @@
+CLASS arx net/minecraft/entity/player/PlayerInventory
+	FIELD a main Lfe;
+	FIELD b armor Lfe;
+	FIELD c offHand Lfe;
+	FIELD d selectedSlot I
+	FIELD e player Lary;
+	FIELD g cursorStack Laxt;
+	FIELD h changeCount I
+	METHOD a clone (Larx;)V
+	METHOD a populateRecipeFinder (Lasa;)V
+	METHOD a addPickBlock (Laxt;)V
+	METHOD a canStackAddMore (Laxt;Laxt;)Z
+		ARG 1 existingStack
+	METHOD a getBlockBreakingSpeed (Lbqz;)F
+	METHOD a serialize (Lib;)Lib;
+	METHOD b getSlotWithStack (Laxt;)I
+	METHOD b areItemsEqual (Laxt;Laxt;)Z
+		ARG 1 stack1
+	METHOD b isUsingEffectiveTool (Lbqz;)Z
+	METHOD b deserialize (Lib;)V
+	METHOD c swapSlotWithHotbar (I)V
+	METHOD c insertStack (ILaxt;)Z
+		ARG 1 slot
+	METHOD d isValidHotbarIndex (I)Z
+		ARG 0 slot
+	METHOD d getOccupiedSlotWithRoomForStack (Laxt;)I
+	METHOD e getArmorStack (I)Laxt;
+	METHOD e insertStack (Laxt;)Z
+	METHOD f getMainHandStack ()Laxt;
+	METHOD f removeOne (Laxt;)V
+	METHOD g getHotbarSize ()I
+	METHOD g setCursorStack (Laxt;)V
+	METHOD h getEmptySlot ()I
+	METHOD h containsStack (Laxt;)Z
+	METHOD i getSwappableHotbarSlot ()I
+	METHOD i addStack (Laxt;)I
+	METHOD j updateItems ()V
+	METHOD k dropAll ()V
+	METHOD l getChangeCount ()I
+	METHOD m getCursorStack ()Laxt;

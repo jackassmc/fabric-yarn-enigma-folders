@@ -1,0 +1,3 @@
+CLASS cqh net/minecraft/world/loot/condition/SurvivesExplosionLootCondition
+	CLASS cqh$a Factory
+	FIELD a INSTANCE Lcqh;

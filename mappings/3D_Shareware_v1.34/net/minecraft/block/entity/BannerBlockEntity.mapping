@@ -1,0 +1,23 @@
+CLASS bst net/minecraft/block/entity/BannerBlockEntity
+	FIELD a customName Ljm;
+	FIELD b baseColor Lbam;
+	FIELD c patternListTag Lii;
+	FIELD g patternListTagRead Z
+	FIELD h patterns Ljava/util/List;
+	FIELD i patternColors Ljava/util/List;
+	FIELD j patternCacheKey Ljava/lang/String;
+	METHOD <init> (Lbam;)V
+		ARG 1 baseColor
+	METHOD a getPatternCount (Lbbp;)I
+		ARG 0 stack
+	METHOD a deserialize (Lbbp;Lbam;)V
+		ARG 1 stack
+	METHOD a getPickStack (Lbuy;)Lbbp;
+	METHOD a getColorForState (Ljava/util/function/Supplier;)Lbam;
+	METHOD a setCustomName (Ljm;)V
+	METHOD b loadFromItemStack (Lbbp;)V
+		ARG 0 stack
+	METHOD c getPatterns ()Ljava/util/List;
+	METHOD f getPatternColors ()Ljava/util/List;
+	METHOD g getPatternCacheKey ()Ljava/lang/String;
+	METHOD h readPattern ()V

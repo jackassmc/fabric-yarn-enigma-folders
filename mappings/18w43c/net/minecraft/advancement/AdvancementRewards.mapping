@@ -1,0 +1,18 @@
+CLASS o net/minecraft/advancement/AdvancementRewards
+	CLASS o$a Builder
+		METHOD a build ()Lo;
+	CLASS o$b Deserializer
+		METHOD a deserialize (Lcom/google/gson/JsonElement;Ljava/lang/reflect/Type;Lcom/google/gson/JsonDeserializationContext;)Lo;
+			ARG 0 el
+			ARG 1 type
+			ARG 2 context
+	FIELD a NONE Lo;
+	FIELD b experience I
+	FIELD c loot [Lpt;
+	FIELD d recipes [Lpt;
+	METHOD <init> (I[Lpt;[Lpt;Lbu$a;)V
+		ARG 0 experience
+		ARG 1 loot
+		ARG 2 recipes
+	METHOD a apply (Lub;)V
+		ARG 0 player

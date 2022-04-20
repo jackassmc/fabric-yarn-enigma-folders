@@ -1,0 +1,3 @@
+CLASS djn net/minecraft/client/particle/SpriteProvider
+	METHOD a getSprite (II)Lduo;
+	METHOD a getSprite (Ljava/util/Random;)Lduo;

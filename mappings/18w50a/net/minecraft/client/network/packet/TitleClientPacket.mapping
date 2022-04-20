@@ -1,0 +1,32 @@
+CLASS mq net/minecraft/client/network/packet/TitleClientPacket
+	CLASS mq$a Action
+		FIELD d DISPLAY Lmq$a;
+		FIELD e HIDE Lmq$a;
+		FIELD f RESET Lmq$a;
+	FIELD a action Lmq$a;
+	FIELD b text Ljd;
+	FIELD c ticksFadeIn I
+	FIELD d ticksDisplay I
+	FIELD e ticksFadeOut I
+	METHOD <init> (III)V
+		ARG 1 ticksFadeIn
+		ARG 2 ticksDisplay
+	METHOD <init> (Lmq$a;Ljd;)V
+		ARG 1 action
+	METHOD <init> (Lmq$a;Ljd;III)V
+		ARG 1 action
+		ARG 2 text
+		ARG 3 ticksFadeIn
+		ARG 4 ticksDisplay
+	METHOD a read (Lit;)V
+		ARG 1 buf
+	METHOD a apply (Liw;)V
+		ARG 1 listener
+	METHOD a apply (Lju;)V
+	METHOD b getAction ()Lmq$a;
+	METHOD b write (Lit;)V
+		ARG 1 buf
+	METHOD c getText ()Ljd;
+	METHOD d getTicksFadeIn ()I
+	METHOD e getTicksDisplay ()I
+	METHOD f getTicksFadeOut ()I

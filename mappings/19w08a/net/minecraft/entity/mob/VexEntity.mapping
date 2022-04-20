@@ -1,0 +1,14 @@
+CLASS arb net/minecraft/entity/mob/VexEntity
+	CLASS arb$a ChargeTargetGoal
+	CLASS arb$b TrackOwnerTargetGoal
+	CLASS arb$c VexMoveControl
+	CLASS arb$d LookAtTargetGoal
+	FIELD bD alive Z
+	FIELD bE lifeTicks I
+	FIELD c owner Lahv;
+	FIELD d bounds Les;
+	METHOD a setLifeTicks (I)V
+	METHOD a setOwner (Lahv;)V
+	METHOD dL getBounds ()Les;
+	METHOD i setBounds (Les;)V
+	METHOD l getOwner ()Lahv;

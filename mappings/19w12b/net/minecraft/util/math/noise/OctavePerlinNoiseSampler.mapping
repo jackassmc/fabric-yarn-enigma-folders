@@ -1,0 +1,12 @@
+CLASS ciw net/minecraft/util/math/noise/OctavePerlinNoiseSampler
+	FIELD a octaveSamplers [Lciv;
+	METHOD <init> (Ljava/util/Random;I)V
+		ARG 1 random
+		ARG 2 octaveCount
+	METHOD a maintainPrecision (D)D
+	METHOD a sample (DDD)D
+	METHOD a sample (DDDDDZ)D
+		ARG 1 x
+		ARG 3 y
+	METHOD a getOctave (I)Lciv;
+		ARG 1 octave

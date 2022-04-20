@@ -1,0 +1,15 @@
+CLASS bww net/minecraft/world/gen/chunk/ChunkGeneratorType
+	FIELD f factory Lbwv;
+	FIELD g buffetScreenOption Z
+	FIELD h settingsSupplier Ljava/util/function/Supplier;
+	METHOD <init> (Lbwv;ZLjava/util/function/Supplier;)V
+		ARG 1 factory
+		ARG 2 buffetScreenOption
+		ARG 3 settingsSupplier
+	METHOD a createSettings ()Lbyh;
+	METHOD a register (Ljava/lang/String;Lbwv;Ljava/util/function/Supplier;Z)Lbww;
+	METHOD b isBuffetScreenOption ()Z
+	METHOD create (Lbhd;Lbic;Lbyh;)Lbwu;
+		ARG 1 world
+		ARG 2 biomeSource
+		ARG 3 config

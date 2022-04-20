@@ -1,0 +1,13 @@
+CLASS cgr net/minecraft/world/biome/layer/BiomeLayerSampler
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD b sampler Lcgd;
+	METHOD a getBiome (I)Lbde;
+		ARG 1 id
+	METHOD a sample (II)Lbde;
+		ARG 1 x
+		ARG 2 y
+	METHOD a sample (IIII)[Lbde;
+		ARG 1 x
+		ARG 2 y
+		ARG 3 width
+		ARG 4 height

@@ -1,0 +1,3 @@
+CLASS wz net/minecraft/sound/Sound
+	FIELD a id Lpw;
+	METHOD a getId ()Lpw;

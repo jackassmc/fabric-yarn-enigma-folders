@@ -1,0 +1,2 @@
+CLASS daa net/minecraft/client/gui/ContainerProvider
+	METHOD k getContainer ()Laws;

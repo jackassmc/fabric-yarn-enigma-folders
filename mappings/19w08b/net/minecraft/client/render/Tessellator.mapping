@@ -1,0 +1,7 @@
+CLASS cqf net/minecraft/client/render/Tessellator
+	FIELD a buffer Lcqc;
+	FIELD b renderer Lcqd;
+	FIELD c INSTANCE Lcqf;
+	METHOD a getInstance ()Lcqf;
+	METHOD b draw ()V
+	METHOD c getBufferBuilder ()Lcqc;

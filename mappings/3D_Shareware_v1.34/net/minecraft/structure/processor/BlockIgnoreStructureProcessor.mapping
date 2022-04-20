@@ -1,0 +1,5 @@
+CLASS cif net/minecraft/structure/processor/BlockIgnoreStructureProcessor
+	FIELD a IGNORE_STRUCTURE_BLOCKS Lcif;
+	FIELD b IGNORE_AIR Lcif;
+	FIELD c IGNORE_AIR_AND_STRUCTURE_BLOCKS Lcif;
+	FIELD d blocks Lcom/google/common/collect/ImmutableList;

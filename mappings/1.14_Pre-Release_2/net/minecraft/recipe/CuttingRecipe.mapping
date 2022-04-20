@@ -1,0 +1,15 @@
+CLASS bem net/minecraft/recipe/CuttingRecipe
+	CLASS bem$a Serializer
+	FIELD a ingredient Lbdz;
+	FIELD b result Lbbu;
+	FIELD c id Lqs;
+	FIELD d group Ljava/lang/String;
+	FIELD e type Lbef;
+	FIELD f serializer Lbee;
+	METHOD <init> (Lbef;Lbee;Lqs;Ljava/lang/String;Lbdz;Lbbu;)V
+		ARG 1 type
+		ARG 2 serializer
+		ARG 3 id
+		ARG 4 group
+		ARG 5 ingredient
+		ARG 6 result

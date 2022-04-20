@@ -1,0 +1,3 @@
+CLASS azm net/minecraft/enchantment/LoyaltyEnchantment
+	METHOD a getHighestLevel ()I
+	METHOD a differs (Layt;)Z

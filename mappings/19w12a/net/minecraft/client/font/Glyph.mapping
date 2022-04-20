@@ -1,0 +1,6 @@
+CLASS csb net/minecraft/client/font/Glyph
+	METHOD a getBearingX ()F
+	METHOD a getAdvance (Z)F
+		ARG 1 isBold
+	METHOD b getBoldOffset ()F
+	METHOD c getShadowOffset ()F

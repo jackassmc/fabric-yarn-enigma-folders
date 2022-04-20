@@ -1,0 +1,2 @@
+CLASS aqx net/minecraft/entity/thrown/SnowballEntity
+	METHOD a onCollision (Lcjv;)V

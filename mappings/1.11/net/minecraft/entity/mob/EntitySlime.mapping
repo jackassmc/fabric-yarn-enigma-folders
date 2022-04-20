@@ -1,0 +1,36 @@
+CLASS aag net/minecraft/entity/mob/EntitySlime
+	CLASS aag$a
+		METHOD a canStart ()Z
+		METHOD b shouldContinue ()Z
+		METHOD c start ()V
+		METHOD e tick ()V
+	CLASS aag$b
+		METHOD a canStart ()Z
+		METHOD e tick ()V
+	CLASS aag$c
+		METHOD a canStart ()Z
+		METHOD e tick ()V
+	CLASS aag$d
+		METHOD c tick ()V
+	CLASS aag$e
+		METHOD a canStart ()Z
+		METHOD e tick ()V
+	FIELD bu SLIME_SIZE Lkk;
+	METHOD I getLootItem ()Lafg;
+	METHOD J getLootTableId ()Lkq;
+	METHOD T invalidate ()V
+	METHOD a deserializeCustomData (Ldu;)V
+		ARG 0 tag
+	METHOD a onTrackedDataSet (Lkk;)V
+		ARG 0 data
+	METHOD b serializeCustomData (Ldu;)V
+		ARG 0 tag
+	METHOD bW getSoundDeath ()Lnm;
+	METHOD bq getEyeHeight ()F
+	METHOD c registerTagUpgraders2 (Lph;)V
+		ARG 0 handler
+	METHOD ci getSoundVolume ()F
+	METHOD i initDataTracker ()V
+	METHOD i pushAwayFrom (Lsm;)V
+		ARG 0 other
+	METHOD r initAi ()V

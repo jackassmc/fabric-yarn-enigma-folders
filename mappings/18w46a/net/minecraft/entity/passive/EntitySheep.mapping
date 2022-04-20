@@ -1,0 +1,31 @@
+CLASS alv net/minecraft/entity/passive/EntitySheep
+	CLASS alv$1
+		METHOD a canUse (Laqa;)Z
+			ARG 0 player
+	FIELD bC COLOR Lpm;
+	METHOD D getSoundAmbient ()Lxb;
+	METHOD F getLootTableId ()Lpx;
+	METHOD H mobTick ()V
+	METHOD a createChild (Lafz;)Lafz;
+	METHOD a interactMob (Laqa;Laev;)Z
+		ARG 1 player
+	METHOD a getRgbColor (Laub;)[F
+		ARG 0 dyeColor
+	METHOD a (Lbaf;Laeu;Lago;Lagv;Lho;)Lagv;
+		ARG 3 difficulty
+	METHOD a playStepSound (Les;Lbnz;)V
+		ARG 1 pos
+	METHOD a deserializeCustomData (Lho;)V
+	METHOD b createChild (Lafz;)Lalv;
+	METHOD b setColor (Laub;)V
+	METHOD b serializeCustomData (Lho;)V
+	METHOD bH getEyeHeight ()F
+	METHOD cb initAttributes ()V
+	METHOD cw getSoundDeath ()Lxb;
+	METHOD dA getColor ()Laub;
+	METHOD dB isSheared ()Z
+	METHOD e getSoundHurt (Lafl;)Lxb;
+	METHOD k updateMovement ()V
+	METHOD n initAi ()V
+	METHOD s setSheared (Z)V
+	METHOD y_ initDataTracker ()V

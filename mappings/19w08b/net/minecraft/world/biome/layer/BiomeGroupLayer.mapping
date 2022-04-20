@@ -1,0 +1,4 @@
+CLASS chi net/minecraft/world/biome/layer/BiomeGroupLayer
+	CLASS chi$a AddGroup2Layer
+	CLASS chi$b AddGroup3Layer
+	CLASS chi$c AddSpecialBiomesLayer

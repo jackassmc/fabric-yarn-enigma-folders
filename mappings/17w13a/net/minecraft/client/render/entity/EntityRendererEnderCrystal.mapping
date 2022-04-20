@@ -1,0 +1,8 @@
+CLASS bsz net/minecraft/client/render/entity/EntityRendererEnderCrystal
+	FIELD a SKIN Lkp;
+	METHOD a getTexture (Lsg;)Lkp;
+		ARG 0 model
+	METHOD a (Lsg;DDDFF)V
+	METHOD a getTexture (Lxq;)Lkp;
+		ARG 0 model
+	METHOD a (Lxq;DDDFF)V

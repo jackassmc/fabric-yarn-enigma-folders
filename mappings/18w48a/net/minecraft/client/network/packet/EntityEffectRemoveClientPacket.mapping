@@ -1,0 +1,11 @@
+CLASS lr net/minecraft/client/network/packet/EntityEffectRemoveClientPacket
+	FIELD a entityId I
+	FIELD b effectType Laga;
+	METHOD <init> (ILaga;)V
+		ARG 1 entityId
+	METHOD a getEntity (Lbaq;)Lagi;
+	METHOD a read (Liq;)V
+	METHOD a apply (Lit;)V
+	METHOD a apply (Ljr;)V
+	METHOD b getEffectType ()Laga;
+	METHOD b write (Liq;)V

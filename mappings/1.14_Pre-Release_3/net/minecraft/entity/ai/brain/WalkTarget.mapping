@@ -1,0 +1,18 @@
+CLASS apa net/minecraft/entity/ai/brain/WalkTarget
+	FIELD a lookTarget Lakl;
+	FIELD b speed F
+	FIELD c completionRange I
+	METHOD <init> (Lakl;FI)V
+		ARG 2 speed
+		ARG 3 completionRange
+	METHOD <init> (Lcrr;FI)V
+		ARG 1 pos
+		ARG 2 speedFactor
+		ARG 3 completionRange
+	METHOD <init> (Lev;FI)V
+		ARG 1 pos
+		ARG 2 speed
+		ARG 3 completionRange
+	METHOD a getLookTarget ()Lakl;
+	METHOD b getSpeed ()F
+	METHOD c getCompletionRange ()I

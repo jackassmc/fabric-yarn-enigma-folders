@@ -1,0 +1,4 @@
+CLASS bmk net/minecraft/block/TallPlantBlock
+	FIELD a HALF Lbuu;
+	METHOD <init> (Lbky$c;)V
+		ARG 1 settings

@@ -1,0 +1,11 @@
+CLASS cxa net/minecraft/client/gui/ingame/JigsawBlockScreen
+	FIELD a jigsaw Lbpw;
+	FIELD b attachmentTypeField Lcsd;
+	FIELD g targetPoolField Lcsd;
+	FIELD h finalStateField Lcsd;
+	FIELD i textFields Ljava/util/List;
+	METHOD <init> (Lbpw;)V
+		ARG 1 jigsaw
+	METHOD i onDone ()V
+	METHOD j onCancel ()V
+	METHOD l updateServer ()V

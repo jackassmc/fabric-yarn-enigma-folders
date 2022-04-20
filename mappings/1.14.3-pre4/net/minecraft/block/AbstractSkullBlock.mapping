@@ -1,0 +1,6 @@
+CLASS blt net/minecraft/block/AbstractSkullBlock
+	FIELD a type Lbrl$a;
+	METHOD <init> (Lbrl$a;Lbmq$c;)V
+		ARG 1 type
+		ARG 2 settings
+	METHOD b getSkullType ()Lbrl$a;

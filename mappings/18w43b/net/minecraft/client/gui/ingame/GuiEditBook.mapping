@@ -1,0 +1,20 @@
+CLASS cor net/minecraft/client/gui/ingame/GuiEditBook
+	CLASS cor$a
+		METHOD a draw (IIF)V
+			ARG 1 mouseY
+			ARG 2 delta
+	FIELD a BG_TEX Lpt;
+	FIELD f player Lapb;
+	FIELD g stack Lauc;
+	METHOD <init> (Lapb;Lauc;ZLaea;)V
+		ARG 0 player
+		ARG 1 stack
+	METHOD a draw (IIF)V
+		ARG 0 mouseX
+		ARG 1 mouseY
+		ARG 2 delta
+	METHOD c init ()V
+	METHOD d handleTextComponentClick (Liw;)Z
+		ARG 0 component
+	METHOD f update ()V
+	METHOD n onClosed ()V

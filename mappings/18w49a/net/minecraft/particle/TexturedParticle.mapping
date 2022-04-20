@@ -1,0 +1,3 @@
+CLASS fw net/minecraft/particle/TexturedParticle
+	METHOD a asString ()Ljava/lang/String;
+	METHOD b getParticleType ()Lfu;

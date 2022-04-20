@@ -1,0 +1,13 @@
+CLASS css net/minecraft/scoreboard/ScoreboardState
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD b scoreboard Lcsr;
+	FIELD c tag Lib;
+	METHOD a serializeTeams ()Lii;
+	METHOD a deserializeTeamPlayers (Lcsp;Lii;)V
+		ARG 1 team
+	METHOD a setScoreboard (Lcsr;)V
+	METHOD a deserializeTeams (Lii;)V
+	METHOD b deserializeObjectives (Lii;)V
+	METHOD c deserializeDisplaySlots (Lib;)V
+	METHOD d serializeSlots (Lib;)V
+	METHOD e serializeObjectives ()Lii;

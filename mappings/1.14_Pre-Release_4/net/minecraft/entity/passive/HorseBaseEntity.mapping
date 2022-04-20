@@ -1,0 +1,90 @@
+CLASS arr net/minecraft/entity/passive/HorseBaseEntity
+	FIELD bD inAir Z
+	FIELD bE items Lahe;
+	FIELD bF temper I
+	FIELD bG jumpStrength F
+	FIELD bI soundTicks I
+	FIELD bJ IS_BRED_HORSE Ljava/util/function/Predicate;
+	FIELD bK PARENT_HORSE_PREDICATE Lapy;
+	FIELD bL HORSE_FLAGS Lqh;
+	FIELD bM OWNER_UUID Lqh;
+	FIELD bN eatingGrassTicks I
+	FIELD bO eatingTicks I
+	FIELD bP angryTicks I
+	FIELD bQ jumping Z
+	FIELD bR eatingGrassAnimationProgress F
+	FIELD bS lastEatingGrassAnimationProgress F
+	FIELD bT angryAnimationProgress F
+	FIELD bU lastAngryAnimationProgress F
+	FIELD bV eatingAnimationProgress F
+	FIELD bW lastEatingAnimationProgress F
+	FIELD bz JUMP_STRENGTH Lajd;
+	METHOD <init> (Laii;Lbhf;)V
+		ARG 1 type
+	METHOD a setChildAttributes (Laic;Larr;)V
+		ARG 1 mate
+		ARG 2 child
+	METHOD a playWalkSound (Lbrm;)V
+		ARG 1 group
+	METHOD b receiveFood (Lavw;Lbbz;)Z
+		ARG 1 player
+		ARG 2 item
+	METHOD b setOwnerUuid (Ljava/util/UUID;)V
+	METHOD d setHorseFlag (IZ)V
+		ARG 1 index
+	METHOD dV playEatingAnimation ()V
+	METHOD dW getInventorySize ()I
+	METHOD dX getAngrySound ()Lyi;
+	METHOD dZ setEating ()V
+	METHOD e openInventory (Lavw;)V
+		ARG 1 player
+	METHOD eA canEquip ()Z
+	METHOD eB updateAnger ()V
+	METHOD ee initCustomGoals ()V
+	METHOD ef isTame ()Z
+	METHOD eg getOwnerUuid ()Ljava/util/UUID;
+	METHOD eh isInAir ()Z
+	METHOD ei isEatingGrass ()Z
+	METHOD ej isAngry ()Z
+	METHOD ek isBred ()Z
+	METHOD el getTemper ()I
+	METHOD en updateSaddle ()V
+	METHOD eo getJumpStrength ()D
+	METHOD ep canBeSaddled ()Z
+	METHOD eq isSaddled ()Z
+	METHOD er getMaxTemper ()I
+	METHOD es walkToParent ()V
+	METHOD et eatsGrass ()Z
+	METHOD eu playAngrySound ()V
+	METHOD ev playJumpSound ()V
+	METHOD ew canBreed ()Z
+	METHOD ex getChildHealthBonus ()F
+	METHOD ey getChildJumpStrengthBonus ()D
+	METHOD ez getChildMovementSpeedBonus ()D
+	METHOD g putPlayerOnBack (Lavw;)V
+	METHOD h bondWithPlayer (Lavw;)Z
+		ARG 1 player
+	METHOD j canEquip (Lbbz;)Z
+		ARG 1 item
+	METHOD r getHorseFlag (I)Z
+	METHOD s setTemper (I)V
+		ARG 1 temper
+	METHOD s setTame (Z)V
+	METHOD t addTemper (I)I
+		ARG 1 difference
+	METHOD t setInAir (Z)V
+		ARG 1 inAir
+	METHOD u setBred (Z)V
+	METHOD v getEatingGrassAnimationProgress (F)F
+		ARG 1 tickDelta
+	METHOD v setSaddled (Z)V
+	METHOD w getAngryAnimationProgress (F)F
+		ARG 1 tickDelta
+	METHOD w setEatingGrass (Z)V
+		ARG 1 eatingGrass
+	METHOD x getEatingAnimationProgress (F)F
+		ARG 1 tickDelta
+	METHOD x setAngry (Z)V
+		ARG 1 angry
+	METHOD y spawnPlayerReactionParticles (Z)V
+		ARG 1 positive

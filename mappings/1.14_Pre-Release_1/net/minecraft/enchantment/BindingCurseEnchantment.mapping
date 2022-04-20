@@ -1,0 +1,4 @@
+CLASS bey net/minecraft/enchantment/BindingCurseEnchantment
+	METHOD <init> (Lbfc$a;[Laii;)V
+		ARG 1 weight
+		ARG 2 slotTypes

@@ -1,0 +1,2 @@
+CLASS djt net/minecraft/client/render/debug/HeightmapDebugRenderer
+	FIELD a client Lcqx;

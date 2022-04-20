@@ -1,0 +1,15 @@
+CLASS ie net/minecraft/nbt/StringTag
+	FIELD f value Ljava/lang/String;
+	METHOD a getType ()B
+	METHOD a read (Ljava/io/DataInput;ILhy;)V
+		ARG 1 input
+		ARG 2 depth
+	METHOD a write (Ljava/io/DataOutput;)V
+	METHOD a toTextComponent (Ljava/lang/String;I)Lja;
+		ARG 1 indent
+	METHOD a escape (Ljava/lang/String;Z)Ljava/lang/String;
+		ARG 0 value
+		ARG 1 addQuotes
+	METHOD b copy ()Lig;
+	METHOD c copy ()Lie;
+	METHOD c_ asString ()Ljava/lang/String;

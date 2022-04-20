@@ -1,0 +1,2 @@
+CLASS bjh net/minecraft/block/CoralWallFanBlock
+	FIELD c deadCoralBlock Lbig;

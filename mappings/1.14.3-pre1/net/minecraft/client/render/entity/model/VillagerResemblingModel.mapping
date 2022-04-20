@@ -1,0 +1,16 @@
+CLASS dgs net/minecraft/client/render/entity/model/VillagerResemblingModel
+	FIELD a head Ldhe;
+	FIELD b headOverlay Ldhe;
+	FIELD f hat Ldhe;
+	FIELD g body Ldhe;
+	FIELD h robe Ldhe;
+	FIELD i arms Ldhe;
+	FIELD j leftLeg Ldhe;
+	FIELD k rightLeg Ldhe;
+	FIELD l nose Ldhe;
+	METHOD <init> (F)V
+		ARG 1 scale
+	METHOD <init> (FII)V
+		ARG 1 scale
+		ARG 2 textureWidth
+		ARG 3 textureHeight

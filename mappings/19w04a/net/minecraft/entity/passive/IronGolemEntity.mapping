@@ -1,0 +1,7 @@
+CLASS amp net/minecraft/entity/passive/IronGolemEntity
+	FIELD b IRON_GOLEM_FLAGS Lps;
+	FIELD c findVillageDelay I
+	FIELD d villageProperties Laly;
+	METHOD dD isPlayerCreated ()Z
+	METHOD l getVillageProperties ()Laly;
+	METHOD r setPlayerCreated (Z)V

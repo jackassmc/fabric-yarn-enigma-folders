@@ -1,0 +1,17 @@
+CLASS beg net/minecraft/block/BlockStemAttached
+	METHOD a getPickStack (Lazl;Les;Lbno;)Lava;
+		ARG 1 world
+		ARG 2 pos
+	METHOD a getBoundingShape (Lbno;Lazl;Les;)Lcjm;
+		ARG 1 state
+		ARG 2 view
+	METHOD a applyMirror (Lbno;Lbif;)Lbno;
+		ARG 1 state
+	METHOD a applyRotation (Lbno;Lbjf;)Lbno;
+		ARG 1 state
+	METHOD a getRenderingState (Lbno;Lex;Lbno;Lazz;Les;Les;)Lbno;
+		ARG 1 state
+	METHOD a appendProperties (Lbnp$a;)V
+	METHOD b canPlantOnTop (Lbno;Lazl;Les;)Z
+		ARG 1 floor
+		ARG 2 view

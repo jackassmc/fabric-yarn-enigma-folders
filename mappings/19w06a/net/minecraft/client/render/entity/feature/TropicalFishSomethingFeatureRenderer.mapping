@@ -1,0 +1,3 @@
+CLASS doi net/minecraft/client/render/entity/feature/TropicalFishSomethingFeatureRenderer
+	METHOD <init> (Ldlv;)V
+		ARG 1 context

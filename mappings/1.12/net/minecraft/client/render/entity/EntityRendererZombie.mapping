@@ -1,0 +1,10 @@
+CLASS cbl net/minecraft/client/render/entity/EntityRendererZombie
+	CLASS cbl$1
+		METHOD M_ init ()V
+	FIELD a SKIN Lnd;
+	METHOD a getTexture (Ladr;)Lnd;
+		ARG 0 model
+	METHOD a getTexture (Lve;)Lnd;
+		ARG 0 model
+	METHOD a getTexture (Lvo;)Lnd;
+		ARG 0 model

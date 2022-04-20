@@ -1,0 +1,17 @@
+CLASS crz net/minecraft/util/BooleanBiFunction
+	FIELD a FALSE Lcrz;
+	FIELD b NOT_OR Lcrz;
+	FIELD c ONLY_SECOND Lcrz;
+	FIELD d NOT_FIRST Lcrz;
+	FIELD e ONLY_FIRST Lcrz;
+	FIELD f NOT_SECOND Lcrz;
+	FIELD g NOT_SAME Lcrz;
+	FIELD h NOT_AND Lcrz;
+	FIELD i AND Lcrz;
+	FIELD j SAME Lcrz;
+	FIELD k SECOND Lcrz;
+	FIELD l CAUSES Lcrz;
+	FIELD m FIRST Lcrz;
+	FIELD n CAUSED_BY Lcrz;
+	FIELD o OR Lcrz;
+	FIELD p TRUE Lcrz;

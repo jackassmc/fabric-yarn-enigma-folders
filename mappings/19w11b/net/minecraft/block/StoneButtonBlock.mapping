@@ -1,0 +1,3 @@
+CLASS bql net/minecraft/block/StoneButtonBlock
+	METHOD <init> (Lbky$c;)V
+		ARG 1 settings

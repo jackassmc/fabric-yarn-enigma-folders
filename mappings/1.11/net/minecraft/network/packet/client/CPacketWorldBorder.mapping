@@ -1,0 +1,30 @@
+CLASS ho net/minecraft/network/packet/client/CPacketWorldBorder
+	CLASS ho$a Type
+		FIELD a SET_SIZE Lho$a;
+		FIELD b INTERPOLATE_SIZE Lho$a;
+		FIELD c SET_CENTER Lho$a;
+		FIELD d INITIALIZE Lho$a;
+		FIELD e SET_WARNING_TIME Lho$a;
+		FIELD f SET_WARNING_BLOCKS Lho$a;
+	FIELD a type Lho$a;
+	FIELD b portalTeleportPosLimit I
+	FIELD c centerX D
+	FIELD d centerZ D
+	FIELD e size D
+	FIELD f oldSize D
+	FIELD g interpolationDuration J
+	FIELD h warningTime I
+	FIELD i warningBlocks I
+	METHOD <init> (Laud;Lho$a;)V
+		ARG 0 border
+		ARG 1 type
+	METHOD a apply (Laud;)V
+		ARG 0 border
+	METHOD a readPacket (Let;)V
+		ARG 0 packet
+	METHOD a applyPacket (Lew;)V
+		ARG 0 handler
+	METHOD a applyPacket (Lfp;)V
+		ARG 0 handler
+	METHOD b writePacket (Let;)V
+		ARG 0 packet

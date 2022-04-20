@@ -1,0 +1,4 @@
+CLASS ama net/minecraft/entity/passive/SalmonEntity
+	METHOD D getSoundAmbient ()Lxd;
+	METHOD cw getSoundDeath ()Lxd;
+	METHOD e getSoundHurt (Lafo;)Lxd;

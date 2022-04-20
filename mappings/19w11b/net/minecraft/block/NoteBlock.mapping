@@ -1,0 +1,9 @@
+CLASS boo net/minecraft/block/NoteBlock
+	FIELD a INSTRUMENT Lbuu;
+	FIELD b POWERED Lbuo;
+	FIELD c NOTE Lbuw;
+	METHOD <init> (Lbky$c;)V
+		ARG 1 settings
+	METHOD a playNote (Lbfx;Leu;)V
+		ARG 1 world
+		ARG 2 pos

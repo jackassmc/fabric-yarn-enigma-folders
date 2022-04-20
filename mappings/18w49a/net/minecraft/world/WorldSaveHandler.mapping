@@ -1,0 +1,10 @@
+CLASS che net/minecraft/world/WorldSaveHandler
+	METHOD a getWorldDir ()Ljava/io/File;
+	METHOD a createChunkSaveHandler (Lbre;)Lbqy;
+	METHOD a getDataFile (Lbrf;Ljava/lang/String;)Ljava/io/File;
+	METHOD a saveWorld (Lchd;)V
+	METHOD a saveWorld (Lchd;Lhq;)V
+		ARG 1 properties
+	METHOD b checkSessionLock ()V
+	METHOD c readProperties ()Lchd;
+	METHOD d getPlayerSaveHandler ()Lchk;

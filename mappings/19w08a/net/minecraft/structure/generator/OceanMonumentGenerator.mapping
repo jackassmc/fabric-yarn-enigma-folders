@@ -1,0 +1,37 @@
+CLASS cdq net/minecraft/structure/generator/OceanMonumentGenerator
+	CLASS cdq$h
+		METHOD a (Lbdf;Ljava/util/Random;Lcdh;Lbcr;)Z
+			ARG 2 random
+	CLASS cdq$j
+		METHOD a (Lbdf;Ljava/util/Random;Lcdh;Lbcr;)Z
+			ARG 2 random
+	CLASS cdq$k
+		METHOD a (Lbdf;Ljava/util/Random;Lcdh;Lbcr;)Z
+			ARG 2 random
+	CLASS cdq$l
+		METHOD a (Lbdf;Ljava/util/Random;Lcdh;Lbcr;)Z
+			ARG 2 random
+	CLASS cdq$m
+		METHOD a (Lbdf;Ljava/util/Random;Lcdh;Lbcr;)Z
+			ARG 2 random
+	CLASS cdq$n
+		METHOD a (Lbdf;Ljava/util/Random;Lcdh;Lbcr;)Z
+			ARG 2 random
+	CLASS cdq$o
+		METHOD a (Lbdf;Ljava/util/Random;Lcdh;Lbcr;)Z
+			ARG 2 random
+	CLASS cdq$p Entry
+		METHOD a (Lbdf;Ljava/util/Random;Lcdh;Lbcr;)Z
+			ARG 2 random
+	CLASS cdq$q Penthouse
+		METHOD a (Lbdf;Ljava/util/Random;Lcdh;Lbcr;)Z
+			ARG 2 random
+	CLASS cdq$s SimpleRoom
+		METHOD a (Lbdf;Ljava/util/Random;Lcdh;Lbcr;)Z
+			ARG 2 random
+	CLASS cdq$t SimpleRoomTop
+		METHOD a (Lbdf;Ljava/util/Random;Lcdh;Lbcr;)Z
+			ARG 2 random
+	CLASS cdq$u
+		METHOD a (Lbdf;Ljava/util/Random;Lcdh;Lbcr;)Z
+			ARG 2 random

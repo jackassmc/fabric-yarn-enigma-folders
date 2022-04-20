@@ -1,0 +1,65 @@
+CLASS dfc net/minecraft/client/render/item/ItemRenderer
+	FIELD a ENCHANTMENT_GLINT_TEX Lpu;
+	FIELD b zOffset F
+	FIELD d modelMap Lczv;
+	FIELD e textureManager Ldjc;
+	FIELD f colorMap Lcma;
+	METHOD a getModelMap ()Lczv;
+	METHOD a renderItemModel (IIZ)V
+		ARG 1 xPosition
+		ARG 2 yPosition
+		ARG 3 hasDepthInGui
+	METHOD a renderItemInGui (Lage;Lauv;II)V
+		ARG 2 itemStack
+		ARG 3 x
+	METHOD a hasDepthInGui (Lauv;)Z
+		ARG 1 stack
+	METHOD a renderItemWithPropertyOverrides (Lauv;II)V
+		ARG 1 stack
+		ARG 2 xPosition
+		ARG 3 yPosition
+	METHOD a renderItem (Lauv;IILdkj;)V
+		ARG 1 itemStack
+		ARG 2 x
+		ARG 3 y
+	METHOD a renderItemAmountAndDamageInGUI (Lauv;Lage;Ldbc$b;Z)V
+		ARG 1 stack
+		ARG 2 entity
+		ARG 3 type
+		ARG 4 leftHanded
+	METHOD a renderItemWithTransformation (Lauv;Ldbc$b;)V
+		ARG 1 stack
+		ARG 2 type
+	METHOD a renderItemAndGlow (Lauv;Ldkj;)V
+	METHOD a renderItemModel (Lauv;Ldkj;Ldbc$b;Z)V
+		ARG 1 stack
+		ARG 2 model
+		ARG 3 type
+		ARG 4 leftHanded
+	METHOD a renderQuad (Lcla;IIIIIIII)V
+		ARG 1 buffer
+	METHOD a renderQuad (Lcla;Ldap;)V
+		ARG 1 buffer
+		ARG 2 quad
+	METHOD a renderQuadColored (Lcla;Ldap;I)V
+	METHOD a renderModelColored (Lcla;Ljava/util/List;ILauv;)V
+	METHOD a renderItemOverlaysInGUI (Lcmc;Lauv;II)V
+		ARG 1 fontRenderer
+		ARG 2 stack
+		ARG 3 x
+		ARG 4 y
+	METHOD a renderItemOverlaysInGUIWithText (Lcmc;Lauv;IILjava/lang/String;)V
+		ARG 1 fontRenderer
+		ARG 2 stack
+		ARG 3 x
+		ARG 4 y
+		ARG 5 text
+	METHOD a renderModelColored (Ldkj;I)V
+	METHOD a renderItemModelColored (Ldkj;ILauv;)V
+	METHOD a renderItemModel (Ldkj;Lauv;)V
+	METHOD a onResourceReload (Lvt;)V
+		ARG 1 manager
+	METHOD b renderItemAndGlowInGui (Lauv;II)V
+		ARG 1 stack
+		ARG 2 xPosition
+		ARG 3 yPosition

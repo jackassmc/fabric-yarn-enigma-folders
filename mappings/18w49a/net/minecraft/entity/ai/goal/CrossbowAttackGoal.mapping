@@ -1,0 +1,8 @@
+CLASS ajs net/minecraft/entity/ai/goal/CrossbowAttackGoal
+	FIELD a entity Lapj;
+	METHOD <init> (Lapj;DF)V
+		ARG 1 entity
+	METHOD a canStart ()Z
+	METHOD b shouldContinue ()Z
+	METHOD d onRemove ()V
+	METHOD e tick ()V

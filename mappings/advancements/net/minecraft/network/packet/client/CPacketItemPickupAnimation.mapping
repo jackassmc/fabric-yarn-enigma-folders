@@ -1,0 +1,13 @@
+CLASS js net/minecraft/network/packet/client/CPacketItemPickupAnimation
+	FIELD a entityId I
+	FIELD b collectorEntityId I
+	FIELD c stackAmount I
+	METHOD a getEntityId ()I
+	METHOD a readPacket (Lgb;)V
+		ARG 0 buf
+	METHOD a applyPacket (Lge;)V
+	METHOD a applyPacket (Lgy;)V
+	METHOD b getCollectorEntityId ()I
+	METHOD b writePacket (Lgb;)V
+		ARG 0 buf
+	METHOD c getStackAmount ()I

@@ -1,0 +1,17 @@
+CLASS bba net/minecraft/world/chunk/ChunkCache
+	FIELD a minX I
+	FIELD b minZ I
+	FIELD c chunks [[Lbqn;
+	FIELD e world Lbam;
+	METHOD <init> (Lbam;Les;Les;I)V
+		ARG 1 world
+		ARG 2 minPos
+		ARG 3 maxPos
+	METHOD a getLightLevel (Lbax;Les;)I
+		ARG 1 type
+	METHOD a getBlockEntity (Les;Lbqn$a;)Lbmk;
+		ARG 1 pos
+	METHOD b getBlockState (Les;)Lboh;
+	METHOD c getFluidState (Les;)Lcdg;
+	METHOD e getBiome (Les;)Lbbl;
+	METHOD f getBlockEntity (Les;)Lbmk;

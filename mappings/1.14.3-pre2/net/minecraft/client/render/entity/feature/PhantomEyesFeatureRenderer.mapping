@@ -1,0 +1,4 @@
+CLASS dth net/minecraft/client/render/entity/feature/PhantomEyesFeatureRenderer
+	FIELD a SKIN Lqt;
+	METHOD <init> (Ldrc;)V
+		ARG 1 context

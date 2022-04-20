@@ -1,0 +1,4 @@
+CLASS byl net/minecraft/world/dimension/OverworldDimension
+	METHOD <init> (Lbhn;Lbyj;)V
+		ARG 1 world
+		ARG 2 type

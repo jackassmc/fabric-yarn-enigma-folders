@@ -1,0 +1,4 @@
+CLASS dky net/minecraft/client/render/entity/MobEntityRenderer
+	METHOD <init> (Ldjw;Lczm;F)V
+		ARG 1 renderManager
+		ARG 2 model

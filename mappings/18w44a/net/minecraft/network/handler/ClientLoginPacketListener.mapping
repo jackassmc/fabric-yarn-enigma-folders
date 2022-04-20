@@ -1,0 +1,9 @@
+CLASS op net/minecraft/network/handler/ClientLoginPacketListener
+	METHOD a (Lor;)V
+		ARG 1 packet
+	METHOD a (Los;)V
+		ARG 1 packet
+	METHOD a (Lot;)V
+		ARG 1 packet
+	METHOD a (Lou;)V
+		ARG 1 packet

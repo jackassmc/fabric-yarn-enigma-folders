@@ -1,0 +1,10 @@
+CLASS aum net/minecraft/recipe/RecipeUnlocker
+	METHOD a setLastRecipe (Lazm;)V
+		ARG 1 recipe
+	METHOD a shouldCraftRecipe (Lbcf;Luv;Lazm;)Z
+		ARG 1 world
+		ARG 2 player
+		ARG 3 recipe
+	METHOD ac_ getLastRecipe ()Lazm;
+	METHOD b unlockLastRecipe (Lark;)V
+		ARG 1 player

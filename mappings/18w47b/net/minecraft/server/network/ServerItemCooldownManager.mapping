@@ -1,0 +1,5 @@
+CLASS awh net/minecraft/server/network/ServerItemCooldownManager
+	FIELD a player Luj;
+	METHOD b onCooldownUpdate (Lavj;I)V
+		ARG 1 item
+	METHOD c onCooldownUpdate (Lavj;)V

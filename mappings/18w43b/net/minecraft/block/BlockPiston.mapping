@@ -1,0 +1,53 @@
+CLASS bls net/minecraft/block/BlockPiston
+	FIELD t isSticky Z
+	METHOD a onPlaced (Laza;Leq;Lblz;Lafq;Lauc;)V
+		ARG 0 world
+		ARG 1 pos
+		ARG 2 state
+		ARG 3 placer
+		ARG 4 stack
+	METHOD a move (Laza;Leq;Lev;Z)Z
+		ARG 0 world
+		ARG 1 pos
+		ARG 2 dir
+		ARG 3 forward
+	METHOD a isFullBoundsCubeForConnection (Lblz;)Z
+		ARG 0 state
+	METHOD a getBoundingBox (Lblz;Layn;Leq;)Lchu;
+		ARG 0 state
+		ARG 1 view
+		ARG 2 pos
+	METHOD a canPlaceAtSide (Lblz;Layn;Leq;Lccm;)Z
+		ARG 0 world
+		ARG 2 pos
+	METHOD a onBlockAction (Lblz;Laza;Leq;II)Z
+		ARG 0 state
+		ARG 1 world
+		ARG 2 pos
+	METHOD a update (Lblz;Laza;Leq;Lbdx;Leq;)V
+		ARG 0 state
+		ARG 1 world
+		ARG 2 pos
+		ARG 3 block
+		ARG 4 updatePos
+	METHOD a onBlockAdded (Lblz;Laza;Leq;Lblz;)V
+		ARG 0 world
+		ARG 1 world
+		ARG 2 pos
+		ARG 3 state
+	METHOD a isMovable (Lblz;Laza;Leq;Lev;ZLev;)Z
+		ARG 0 state
+		ARG 1 world
+		ARG 2 pos
+		ARG 3 facing
+		ARG 4 canBreak
+	METHOD a applyMirror (Lblz;Lbha;)Lblz;
+		ARG 0 state
+		ARG 1 mirror
+	METHOD a applyRotation (Lblz;Lbia;)Lblz;
+		ARG 0 state
+		ARG 1 rotation
+	METHOD q canSuffocate (Lblz;)Z
+		ARG 0 state
+	METHOD r hasSolidTopSurface (Lblz;)Z
+		ARG 0 state

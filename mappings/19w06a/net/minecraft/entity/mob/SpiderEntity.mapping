@@ -1,0 +1,6 @@
+CLASS aqu net/minecraft/entity/mob/SpiderEntity
+	FIELD b SPIDER_FLAGS Lps;
+	METHOD <init> (Lahm;Lbcu;)V
+		ARG 1 type
+	METHOD l getCanClimb ()Z
+	METHOD q setCanClimb (Z)V

@@ -1,0 +1,4 @@
+CLASS brr net/minecraft/block/StructureVoidBlock
+	FIELD a SHAPE Lcsf;
+	METHOD <init> (Lbmb$c;)V
+		ARG 1 settings

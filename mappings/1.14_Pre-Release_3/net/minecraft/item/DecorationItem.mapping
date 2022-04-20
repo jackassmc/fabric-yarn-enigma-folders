@@ -1,0 +1,2 @@
+CLASS bbp net/minecraft/item/DecorationItem
+	FIELD a entityType Laih;

@@ -1,0 +1,9 @@
+CLASS bju net/minecraft/world/biome/source/VanillaLayeredBiomeSourceConfig
+	FIELD a levelProperties Lcnn;
+	FIELD b generatorSettings Lbyj;
+	METHOD a getLevelProperties ()Lcnn;
+	METHOD a setGeneratorSettings (Lbyj;)Lbju;
+		ARG 1 generatorSettings
+	METHOD a setLevelProperties (Lcnn;)Lbju;
+		ARG 1 properties
+	METHOD b getGeneratorSettings ()Lbyj;

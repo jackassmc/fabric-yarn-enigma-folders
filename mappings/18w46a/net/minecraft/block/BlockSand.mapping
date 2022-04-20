@@ -1,0 +1,2 @@
+CLASS bjq net/minecraft/block/BlockSand
+	METHOD r getColor (Lbnz;)I

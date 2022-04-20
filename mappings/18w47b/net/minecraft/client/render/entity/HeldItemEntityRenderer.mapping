@@ -1,0 +1,4 @@
+CLASS djl net/minecraft/client/render/entity/HeldItemEntityRenderer
+	FIELD b renderer Ldgx;
+	METHOD a shouldMergeTextures ()Z
+	METHOD a render (Lago;FFFFFFF)V

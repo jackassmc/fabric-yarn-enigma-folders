@@ -1,0 +1,14 @@
+CLASS ceg net/minecraft/item/map/MapIcon
+	CLASS ceg$a Direction
+	FIELD a direction Lceg$a;
+	FIELD b x B
+	FIELD c z B
+	FIELD d type B
+	METHOD <init> (Lceg$a;BBBLix;)V
+		ARG 1 direction
+	METHOD a getDirection ()B
+	METHOD c getX ()B
+	METHOD d getZ ()B
+	METHOD e getType ()B
+	METHOD equals (Ljava/lang/Object;)Z
+		ARG 1 object

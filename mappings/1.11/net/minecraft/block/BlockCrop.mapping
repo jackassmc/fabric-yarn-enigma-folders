@@ -1,0 +1,72 @@
+CLASS amn net/minecraft/block/BlockCrop
+	FIELD a BOUNDING_BOXES [Lbdr;
+	FIELD c AGE Laty;
+	METHOD A isValidState (Latj;)Z
+		ARG 0 state
+	METHOD a deserializeState (I)Latj;
+		ARG 0 meta
+	METHOD a getPickStack (Lajq;Lco;Latj;)Lafi;
+		ARG 0 world
+		ARG 1 pos
+		ARG 2 state
+	METHOD a dropItems (Lajq;Lco;Latj;FI)V
+		ARG 0 world
+		ARG 1 pos
+		ARG 2 state
+		ARG 3 dropChance
+		ARG 4 fortune
+	METHOD a isFertilizable (Lajq;Lco;Latj;Z)Z
+		ARG 0 world
+		ARG 1 pos
+		ARG 2 state
+		ARG 3 remote
+	METHOD a canGrow (Lajq;Ljava/util/Random;Lco;Latj;)Z
+		ARG 0 world
+		ARG 1 rand
+		ARG 2 pos
+		ARG 3 state
+	METHOD a (Lals;Lajq;Lco;)F
+		ARG 0 block
+		ARG 1 world
+		ARG 2 pos
+	METHOD a getDropItem (Latj;Ljava/util/Random;I)Lafg;
+		ARG 0 state
+		ARG 1 random
+		ARG 2 fortune
+	METHOD b createStateFactory ()Latk;
+	METHOD b (Lajq;)I
+		ARG 0 world
+	METHOD b randomTick (Lajq;Lco;Latj;Ljava/util/Random;)V
+		ARG 0 world
+		ARG 1 pos
+		ARG 2 state
+		ARG 3 random
+	METHOD b grow (Lajq;Ljava/util/Random;Lco;Latj;)V
+		ARG 0 world
+		ARG 1 rand
+		ARG 2 pos
+		ARG 3 state
+	METHOD b getBoundingBox (Latj;Laju;Lco;)Lbdr;
+		ARG 0 state
+		ARG 1 view
+		ARG 2 pos
+	METHOD e getAgeProperty ()Laty;
+	METHOD e deserializeCropAge (I)Latj;
+		ARG 0 age
+	METHOD e serializeState (Latj;)I
+		ARG 0 state
+	METHOD f isValidLocation (Lajq;Lco;Latj;)Z
+		ARG 0 world
+		ARG 1 pos
+		ARG 2 state
+	METHOD g getAgeMaximum ()I
+	METHOD g (Lajq;Lco;Latj;)V
+		ARG 0 world
+		ARG 1 pos
+		ARG 2 state
+	METHOD h getItemSeed ()Lafg;
+	METHOD i getItemMature ()Lafg;
+	METHOD i isValidSoil (Latj;)Z
+		ARG 0 state
+	METHOD z serializeCropAge (Latj;)I
+		ARG 0 state

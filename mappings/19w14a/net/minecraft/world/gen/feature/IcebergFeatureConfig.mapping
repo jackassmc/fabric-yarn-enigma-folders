@@ -1,0 +1,6 @@
+CLASS cbl net/minecraft/world/gen/feature/IcebergFeatureConfig
+	FIELD a state Lbuy;
+	METHOD <init> (Lbuy;)V
+		ARG 1 state
+	METHOD a deserialize (Lcom/mojang/datafixers/Dynamic;)Lcbl;
+		ARG 0 dynamic

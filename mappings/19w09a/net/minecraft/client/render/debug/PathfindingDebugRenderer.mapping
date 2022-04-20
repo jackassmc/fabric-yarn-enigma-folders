@@ -1,0 +1,2 @@
+CLASS djv net/minecraft/client/render/debug/PathfindingDebugRenderer
+	FIELD a client Lcqx;

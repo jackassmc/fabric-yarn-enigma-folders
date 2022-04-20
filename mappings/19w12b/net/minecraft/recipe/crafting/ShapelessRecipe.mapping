@@ -1,0 +1,13 @@
+CLASS bdm net/minecraft/recipe/crafting/ShapelessRecipe
+	CLASS bdm$a Serializer
+		METHOD a getIngredients (Lcom/google/gson/JsonArray;)Lfj;
+			ARG 0 json
+	FIELD a id Lqq;
+	FIELD b group Ljava/lang/String;
+	FIELD c output Lbaz;
+	FIELD d input Lfj;
+	METHOD <init> (Lqq;Ljava/lang/String;Lbaz;Lfj;)V
+		ARG 1 id
+		ARG 2 group
+		ARG 3 output
+		ARG 4 input

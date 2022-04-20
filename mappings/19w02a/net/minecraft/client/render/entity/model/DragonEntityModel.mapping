@@ -1,0 +1,25 @@
+CLASS dbn net/minecraft/client/render/entity/model/DragonEntityModel
+	FIELD a head Ldbs;
+	FIELD b neck Ldbs;
+	FIELD f jaw Ldbs;
+	FIELD g body Ldbs;
+	FIELD h rearLeg Ldbs;
+	FIELD i frontLeg Ldbs;
+	FIELD j rearLegTip Ldbs;
+	FIELD k frontLegTip Ldbs;
+	FIELD l rearFoot Ldbs;
+	FIELD m frontFoot Ldbs;
+	FIELD n wing Ldbs;
+	FIELD o wingTip Ldbs;
+	FIELD p delta F
+	METHOD a updateRotations (D)F
+	METHOD a animateModel (Lahd;FFF)V
+		ARG 2 swingAmount
+		ARG 3 swingDelta
+	METHOD b render (Lahd;FFFFFF)V
+		ARG 1 entity
+		ARG 2 limbMoveAngle
+		ARG 3 limbMoveAmount
+		ARG 4 age
+		ARG 5 headYaw
+		ARG 6 headPitch

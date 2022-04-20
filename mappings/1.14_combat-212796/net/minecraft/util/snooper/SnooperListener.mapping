@@ -1,0 +1,2 @@
+CLASS ahp net/minecraft/util/snooper/SnooperListener
+	METHOD a addSnooperInfo (Laho;)V

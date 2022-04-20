@@ -1,0 +1,4 @@
+CLASS brq net/minecraft/block/CarpetBlock
+	FIELD a SHAPE Lcrb;
+	FIELD b color Lazo;
+	METHOD d getColor ()Lazo;

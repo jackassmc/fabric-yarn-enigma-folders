@@ -1,0 +1,5 @@
+CLASS bss net/minecraft/world/gen/config/feature/BuriedTreasureFeatureConfig
+	FIELD a probability F
+	METHOD a deserialize (Lcom/mojang/datafixers/Dynamic;)Lbss;
+		ARG 0 dynamic
+	METHOD a serialize (Lcom/mojang/datafixers/types/DynamicOps;)Lcom/mojang/datafixers/Dynamic;

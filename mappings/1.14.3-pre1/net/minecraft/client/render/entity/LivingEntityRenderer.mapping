@@ -1,0 +1,52 @@
+CLASS dqi net/minecraft/client/render/entity/LivingEntityRenderer
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD f model Ldeq;
+	FIELD g colorOverlayBuffer Ljava/nio/FloatBuffer;
+	FIELD h features Ljava/util/List;
+	FIELD i disableOutlineRender Z
+	FIELD j colorOverlayTexture Ldua;
+	METHOD a scale (Lais;F)V
+		ARG 1 entity
+		ARG 2 tickDelta
+	METHOD a getOverlayColor (Lais;FF)I
+	METHOD a setupTransforms (Lais;FFF)V
+		ARG 1 entity
+		ARG 2 pitch
+		ARG 3 yaw
+		ARG 4 delta
+	METHOD a render (Lais;FFFFFF)V
+		ARG 1 entity
+		ARG 2 limbAngle
+		ARG 3 limbDistance
+		ARG 4 age
+		ARG 5 headYaw
+		ARG 6 headPitch
+		ARG 7 scale
+	METHOD a renderFeatures (Lais;FFFFFFF)V
+		ARG 1 entity
+		ARG 2 limbAngle
+		ARG 3 limbDistance
+		ARG 4 tickDelta
+		ARG 5 age
+		ARG 6 headYaw
+		ARG 7 headPitch
+		ARG 8 scale
+	METHOD a applyOverlayColor (Lais;FZ)Z
+		ARG 1 entity
+		ARG 2 tickDelta
+		ARG 3 hasHurtOverlay
+	METHOD a addFeature (Ldth;)Z
+	METHOD b getLyingAngle (Lais;)F
+	METHOD b getAge (Lais;F)F
+		ARG 1 entity
+		ARG 2 tickDelta
+	METHOD c scaleAndTranslate (Lais;F)F
+		ARG 1 entity
+		ARG 2 tickDelta
+	METHOD d beforeOutlineRender (Lais;)Z
+	METHOD d applyOverlayColor (Lais;F)Z
+	METHOD e afterOutlineRender ()V
+	METHOD e getHandSwingProgress (Lais;F)F
+		ARG 1 entity
+		ARG 2 tickDelta
+	METHOD f disableOverlayColor ()V

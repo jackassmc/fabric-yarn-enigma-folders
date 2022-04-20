@@ -1,0 +1,57 @@
+CLASS vd net/minecraft/server/world/ServerChunkManager
+	CLASS vd$a MainThreadExecutor
+	FIELD a threadedAnvilChunkStorage Lus;
+	FIELD b CHUNKS_ELIGIBLE_FOR_SPAWNING I
+	FIELD c CHUNK_STATUSES Ljava/util/List;
+	FIELD d ticketManager Luy;
+	FIELD e chunkGenerator Lbww;
+	FIELD f world Lvf;
+	FIELD g serverThread Ljava/lang/Thread;
+	FIELD h lightProvider Lvi;
+	FIELD i mainThreadExecutor Lvd$a;
+	FIELD j persistentStateManager Lcnx;
+	FIELD k lastMobSpawningTime J
+	FIELD l spawnMonsters Z
+	FIELD m spawnAnimals Z
+	METHOD <init> (Lvf;Ljava/io/File;Lcom/mojang/datafixers/DataFixer;Lcjc;Ljava/util/concurrent/Executor;Lbww;IILvo;Ljava/util/function/Supplier;)V
+		ARG 5 workerExecutor
+	METHOD a getChunkHolder (J)Lur;
+		ARG 1 pos
+	METHOD a sendToNearbyPlayers (Laie;Lka;)V
+		ARG 1 entity
+		ARG 2 packet
+	METHOD a getDebugString (Lbgs;)Ljava/lang/String;
+		ARG 1 pos
+	METHOD a markForUpdate (Lev;)V
+	METHOD a isMissingForLevel (Lur;I)Z
+		ARG 1 holder
+		ARG 2 maxLevel
+	METHOD a updateCameraPosition (Lvg;)V
+		ARG 1 player
+	METHOD a addTicket (Lvk;Lbgs;ILjava/lang/Object;)V
+	METHOD a save (Z)V
+		ARG 1 flush
+	METHOD b getTotalChunksLoadedCount ()I
+	METHOD b getChunkFutureSyncOnMainThread (IILbxa;Z)Ljava/util/concurrent/CompletableFuture;
+		ARG 1 chunkX
+		ARG 2 chunkZ
+		ARG 3 leastStatus
+		ARG 4 create
+	METHOD b unloadEntity (Laie;)V
+	METHOD b sendToOtherNearbyPlayers (Laie;Lka;)V
+	METHOD b removeTicket (Lvk;Lbgs;ILjava/lang/Object;)V
+	METHOD c applyViewDistance (II)V
+		ARG 1 watchDistance
+		ARG 2 viewDistance
+	METHOD c getChunkFuture (IILbxa;Z)Ljava/util/concurrent/CompletableFuture;
+		ARG 1 chunkX
+		ARG 2 chunkZ
+		ARG 3 leastStatus
+		ARG 4 create
+	METHOD c loadEntity (Laie;)V
+	METHOD d executeQueuedTasks ()Z
+	METHOD g getLoadedChunkCount ()I
+	METHOD h getPersistentStateManager ()Lcnx;
+	METHOD i getPointOfInterestStorage ()Laqf;
+	METHOD l tick ()Z
+	METHOD m tickChunks ()V

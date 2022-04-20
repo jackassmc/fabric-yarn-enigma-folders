@@ -1,0 +1,69 @@
+CLASS aba net/minecraft/entity/projectile/EntityArrowBase
+	CLASS aba$a PickupType
+		FIELD a NO_PICKUP Laba$a;
+		FIELD b PICKUP Laba$a;
+		FIELD c CREATIVE_PICKUP Laba$a;
+		METHOD a fromOrdinal (I)Laba$a;
+			ARG 0 ordinal
+		METHOD values values ()[Laba$a;
+	FIELD a inGround Z
+	FIELD ax inMetaData I
+	FIELD c pickupType Laba$a;
+	FIELD d shake I
+	FIELD e owner Lsm;
+	FIELD f CAN_HIT Lcom/google/common/base/Predicate;
+	FIELD g ARROW_FLAGS Lkk;
+	METHOD <init> (Lajq;DDD)V
+		ARG 0 world
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD <init> (Lajq;Lsv;)V
+		ARG 0 world
+		ARG 1 owner
+	METHOD A_ update ()V
+	METHOD a shouldRender (D)Z
+		ARG 0 distanceSq
+	METHOD a setPositionAndRotations (DDDFFIZ)V
+		ARG 0 x
+		ARG 1 y
+		ARG 2 z
+		ARG 3 yaw
+		ARG 4 pitch
+	METHOD a onCollision (Lbds;)V
+		ARG 0 hit
+	METHOD a deserializeCustomData (Ldu;)V
+		ARG 0 tag
+	METHOD a registerTagUpgradersFor (Lph;Ljava/lang/String;)V
+		ARG 0 handler
+		ARG 1 arrowType
+	METHOD a setVelocityFromEntity (Lsm;FFFFF)V
+		ARG 0 entity
+		ARG 1 pitch
+		ARG 2 yaw
+		ARG 4 force
+		ARG 5 variation
+	METHOD a onHit (Lsv;)V
+		ARG 0 entity
+	METHOD a setCritical (Z)V
+		ARG 0 value
+	METHOD b serializeCustomData (Ldu;)V
+		ARG 0 tag
+	METHOD b registerTagUpgraders (Lph;)V
+		ARG 0 handler
+	METHOD bq getEyeHeight ()F
+	METHOD c setDamage (D)V
+		ARG 0 amount
+	METHOD c setVelocity (DDDFF)V
+		ARG 0 dirX
+		ARG 1 dirY
+		ARG 2 dirZ
+		ARG 3 force
+		ARG 4 variation
+	METHOD h setVelocityClient (DDD)V
+		ARG 0 x
+		ARG 1 y
+		ARG 2 z
+	METHOD i initDataTracker ()V
+	METHOD j asItemStack ()Lafi;
+	METHOD k getDamage ()D

@@ -1,0 +1,69 @@
+CLASS cwv net/minecraft/client/gui/menu/NewLevelGui
+	CLASS cwv$1
+		METHOD a onPressed (DD)V
+			ARG 1 mouseX
+			ARG 3 mouseY
+	CLASS cwv$2
+		METHOD a onPressed (DD)V
+			ARG 1 mouseX
+			ARG 3 mouseY
+	CLASS cwv$3
+		METHOD a onPressed (DD)V
+			ARG 1 mouseX
+			ARG 3 mouseY
+	CLASS cwv$4
+		METHOD a onPressed (DD)V
+			ARG 1 mouseX
+			ARG 3 mouseY
+	CLASS cwv$5
+		METHOD a onPressed (DD)V
+			ARG 1 mouseX
+			ARG 3 mouseY
+	CLASS cwv$6
+		METHOD a onPressed (DD)V
+			ARG 1 mouseX
+			ARG 3 mouseY
+	CLASS cwv$7
+		METHOD a onPressed (DD)V
+			ARG 1 mouseX
+			ARG 3 mouseY
+	CLASS cwv$8
+		METHOD a onPressed (DD)V
+			ARG 1 mouseX
+			ARG 3 mouseY
+	CLASS cwv$9
+		METHOD a onPressed (DD)V
+			ARG 1 mouseX
+			ARG 3 mouseY
+	FIELD C buttonGameModeSwitch Lcqi;
+	FIELD D buttonMoreOptions Lcqi;
+	FIELD E buttonGenerateStructures Lcqi;
+	FIELD F buttonGenerateBonusItems Lcqi;
+	FIELD G buttonMapTypeSwitch Lcqi;
+	FIELD H buttonCommandsAllowed Lcqi;
+	FIELD I buttonCustomizeType Lcqi;
+	FIELD L seed Ljava/lang/String;
+	FIELD M levelName Ljava/lang/String;
+	FIELD N generatorType I
+	FIELD O INVALID_LEVEL_NAMES [Ljava/lang/String;
+	FIELD f parent Lctp;
+	FIELD s gameMode Ljava/lang/String;
+	FIELD u structures Z
+	FIELD v commandsAllowed Z
+	METHOD a charTyped (CI)Z
+		ARG 1 chr
+		ARG 2 keyCode
+	METHOD a mouseClicked (DDI)Z
+		ARG 1 mouseX
+		ARG 3 mouseY
+		ARG 5 button
+	METHOD a draw (IIF)V
+		ARG 1 mouseX
+		ARG 2 mouseY
+	METHOD a keyPressed (III)Z
+		ARG 1 keyCode
+		ARG 2 scanCode
+		ARG 3 modifiers
+	METHOD c onInitialized ()V
+	METHOD f update ()V
+	METHOD n onClosed ()V

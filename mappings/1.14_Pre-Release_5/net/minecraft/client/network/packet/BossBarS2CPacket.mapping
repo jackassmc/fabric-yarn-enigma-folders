@@ -1,0 +1,30 @@
+CLASS kq net/minecraft/client/network/packet/BossBarS2CPacket
+	CLASS kq$a Type
+		FIELD a ADD Lkq$a;
+		FIELD b REMOVE Lkq$a;
+		FIELD c UPDATE_PCT Lkq$a;
+		FIELD d UPDATE_TITLE Lkq$a;
+		FIELD e UPDATE_STYLE Lkq$a;
+		FIELD f UPDATE_FLAGS Lkq$a;
+	FIELD a uuid Ljava/util/UUID;
+	FIELD b type Lkq$a;
+	FIELD c name Ljm;
+	FIELD d percent F
+	FIELD e color Lagq$a;
+	FIELD f overlay Lagq$b;
+	FIELD g darkenSky Z
+	FIELD h dragonMusic Z
+	FIELD i thickenFog Z
+	METHOD <init> (Lkq$a;Lagq;)V
+		ARG 1 action
+	METHOD a setFlagBitfield (I)V
+	METHOD b getUuid ()Ljava/util/UUID;
+	METHOD c getType ()Lkq$a;
+	METHOD d getName ()Ljm;
+	METHOD e getPercent ()F
+	METHOD f getColor ()Lagq$a;
+	METHOD g getOverlay ()Lagq$b;
+	METHOD h shouldDarkenSky ()Z
+	METHOD i hasDragonMusic ()Z
+	METHOD j shouldThickenFog ()Z
+	METHOD k getFlagBitfield ()I

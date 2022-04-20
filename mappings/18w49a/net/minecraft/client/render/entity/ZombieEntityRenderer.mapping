@@ -1,0 +1,7 @@
+CLASS djw net/minecraft/client/render/entity/ZombieEntityRenderer
+	CLASS djw$1
+		METHOD an_ init ()V
+	FIELD a SKIN Lpz;
+	METHOD a getTexture (Lagk;)Lpz;
+	METHOD a getTexture (Lagu;)Lpz;
+	METHOD a getTexture (Laqb;)Lpz;

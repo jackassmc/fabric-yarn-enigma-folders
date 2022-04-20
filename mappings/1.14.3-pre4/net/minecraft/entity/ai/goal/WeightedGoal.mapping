@@ -1,0 +1,12 @@
+CLASS aoo net/minecraft/entity/ai/goal/WeightedGoal
+	FIELD a goal Lamz;
+	FIELD b weight I
+	FIELD c running Z
+	METHOD <init> (ILamz;)V
+		ARG 1 weight
+		ARG 2 goal
+	METHOD a canBeReplacedBy (Laoo;)Z
+		ARG 1 goal
+	METHOD g isRunning ()Z
+	METHOD h getWeight ()I
+	METHOD j getGoal ()Lamz;

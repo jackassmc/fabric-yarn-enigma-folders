@@ -1,0 +1,25 @@
+CLASS ahq net/minecraft/recipe/RecipeShaped
+	FIELD a width I
+	FIELD b height I
+	FIELD c inputs [Lafi;
+	FIELD d output Lafi;
+	FIELD e cloneTags Z
+	METHOD <init> (II[Lafi;Lafi;)V
+		ARG 0 width
+		ARG 1 height
+		ARG 2 inputs
+		ARG 3 output
+	METHOD a getSize ()I
+	METHOD a craft (Lacr;)Lafi;
+		ARG 0 craftingInv
+	METHOD a matches (Lacr;IIZ)Z
+		ARG 0 craftingInv
+		ARG 1 offsetX
+		ARG 2 offsetY
+		ARG 3 mirrored
+	METHOD a matches (Lacr;Lajq;)Z
+		ARG 0 craftingInv
+		ARG 1 world
+	METHOD b getOutput ()Lafi;
+	METHOD b getRemainingStacks (Lacr;)Ldd;
+		ARG 0 craftingInv

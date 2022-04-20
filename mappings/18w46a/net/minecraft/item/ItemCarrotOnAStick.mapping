@@ -1,0 +1,4 @@
+CLASS atr net/minecraft/item/ItemCarrotOnAStick
+	METHOD a use (Lbae;Laqa;Laev;)Laey;
+		ARG 1 world
+		ARG 2 player

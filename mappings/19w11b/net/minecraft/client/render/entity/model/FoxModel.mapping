@@ -1,0 +1,11 @@
+CLASS ddj net/minecraft/client/render/entity/model/FoxModel
+	FIELD a head Ldfv;
+	FIELD b leftEar Ldfv;
+	FIELD f rightEar Ldfv;
+	FIELD g nose Ldfv;
+	FIELD h body Ldfv;
+	FIELD i frontLeftLeg Ldfv;
+	FIELD j frontRightLeg Ldfv;
+	FIELD k rearLeftLeg Ldfv;
+	FIELD l rearRightLeg Ldfv;
+	FIELD m tail Ldfv;

@@ -1,0 +1,3 @@
+CLASS aoz net/minecraft/entity/boss/dragon/phase/TakeoffPhase
+	METHOD <init> (Laok;)V
+		ARG 1 dragon

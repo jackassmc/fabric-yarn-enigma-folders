@@ -1,0 +1,37 @@
+CLASS aor net/minecraft/entity/mob/EntityGhast
+	CLASS aor$a
+		METHOD a canStart ()Z
+		METHOD e tick ()V
+	CLASS aor$b
+		METHOD a tick ()V
+	CLASS aor$c AiGoalShootFireball
+		FIELD a cooldown I
+		FIELD b owner Laor;
+		METHOD a canStart ()Z
+		METHOD c start ()V
+		METHOD d onRemove ()V
+		METHOD e tick ()V
+	CLASS aor$d AiGoalFlyRandomly
+		METHOD a canStart ()Z
+		METHOD b shouldContinue ()Z
+		METHOD c start ()V
+	FIELD a SHOOTING Lpm;
+	FIELD b fireballStrength I
+	METHOD D getSoundAmbient ()Lxb;
+	METHOD M getLimitPerChunk ()I
+	METHOD S_ update ()V
+	METHOD a damage (Lafl;F)Z
+		ARG 1 source
+	METHOD a deserializeCustomData (Lho;)V
+	METHOD a setShooting (Z)V
+	METHOD b serializeCustomData (Lho;)V
+	METHOD bH getEyeHeight ()F
+	METHOD bX getSoundCategory ()Lxd;
+	METHOD cI getSoundVolume ()F
+	METHOD cb initAttributes ()V
+	METHOD cw getSoundDeath ()Lxb;
+	METHOD ds getFireballStrength ()I
+	METHOD e getSoundHurt (Lafl;)Lxb;
+	METHOD l isShooting ()Z
+	METHOD n initAi ()V
+	METHOD y_ initDataTracker ()V

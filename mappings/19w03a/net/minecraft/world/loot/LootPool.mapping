@@ -1,0 +1,27 @@
+CLASS cjq net/minecraft/world/loot/LootPool
+	CLASS cjq$a Builder
+		FIELD a entries Ljava/util/List;
+		FIELD b conditions Ljava/util/List;
+		FIELD c functions Ljava/util/List;
+		FIELD d rolls Lcju;
+		FIELD e range Lcjw;
+		METHOD a withRolls (Lcju;)Lcjq$a;
+		METHOD a withEntry (Lckg$a;)Lcjq$a;
+		METHOD a withFunction (Lckx$a;)Lcjq$a;
+		METHOD a withCondition (Lcma$a;)Lcjq$a;
+		METHOD b build ()Lcjq;
+		METHOD b withFunction (Lckx$a;)Ljava/lang/Object;
+		METHOD b withCondition (Lcma$a;)Ljava/lang/Object;
+		METHOD c getThis ()Ljava/lang/Object;
+	CLASS cjq$b Serializer
+	FIELD a entries [Lckg;
+	FIELD b conditions [Lcma;
+	FIELD c predicate Ljava/util/function/Predicate;
+	FIELD d functions [Lckx;
+	FIELD e javaFunctions Ljava/util/function/BiFunction;
+	FIELD f rolls Lcju;
+	FIELD g bonusRolls Lcjw;
+	METHOD a create ()Lcjq$a;
+	METHOD a check (Lcjs;Ljava/util/function/Function;Ljava/util/Set;Lcln;)V
+	METHOD a drop (Ljava/util/function/Consumer;Lcjo;)V
+	METHOD b supplyOnce (Ljava/util/function/Consumer;Lcjo;)V

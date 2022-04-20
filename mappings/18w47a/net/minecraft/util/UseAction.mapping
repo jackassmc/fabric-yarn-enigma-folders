@@ -1,0 +1,6 @@
+CLASS awz net/minecraft/util/UseAction
+	FIELD a DEFAULT Lawz;
+	FIELD b EAT Lawz;
+	FIELD c DRINK Lawz;
+	FIELD d GUARD Lawz;
+	FIELD e BOW Lawz;

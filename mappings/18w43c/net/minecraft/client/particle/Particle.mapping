@@ -1,0 +1,87 @@
+CLASS cwg net/minecraft/client/particle/Particle
+	FIELD A colorBlue F
+	FIELD B colorAlpha F
+	FIELD C sprite Ldgx;
+	FIELD F lerpX D
+	FIELD G lerpY D
+	FIELD H lerpZ D
+	FIELD J EMPTY_BOUNDING_BOX Lcgz;
+	FIELD K boundingBox Lcgz;
+	FIELD a world Laza;
+	FIELD b prevPosX D
+	FIELD c prevPosY D
+	FIELD d prevPosZ D
+	FIELD e posX D
+	FIELD f posY D
+	FIELD g posZ D
+	FIELD h velocityX D
+	FIELD i velocityY D
+	FIELD j velocityZ D
+	FIELD k onGround Z
+	FIELD l collidesWithWorld Z
+	FIELD m dead Z
+	FIELD n spacingXZ F
+	FIELD o spacingY F
+	FIELD p rand Ljava/util/Random;
+	FIELD q tileU I
+	FIELD r tileV I
+	FIELD u age I
+	FIELD v maxAge I
+	FIELD w size F
+	FIELD x gravityStrength F
+	FIELD y colorRed F
+	FIELD z colorGreen F
+	METHOD <init> (Laza;DDD)V
+		ARG 0 world
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD <init> (Laza;DDDDDD)V
+		ARG 0 world
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 velocityX
+		ARG 5 velocityY
+		ARG 6 velocityZ
+	METHOD a update ()V
+	METHOD a addPos (DDD)V
+		ARG 0 dx
+		ARG 1 dy
+		ARG 2 dz
+	METHOD a getColorMultiplier (F)I
+	METHOD a setBoundingBoxSpacing (FF)V
+		ARG 0 spacingXZ
+		ARG 1 spacingY
+	METHOD a setColor (FFF)V
+		ARG 0 red
+		ARG 1 green
+		ARG 2 blue
+	METHOD a setSpriteIndex (I)V
+		ARG 0 value
+	METHOD a setBoundingBox (Lcgz;)V
+		ARG 0 boundingBox
+	METHOD a buildGeometry (Lciq;Lafh;FFFFFF)V
+		ARG 0 vertexBuffer
+		ARG 1 entity
+		ARG 2 deltaTicks
+	METHOD a setSprite (Ldgx;)V
+		ARG 0 value
+	METHOD b getParticleGroup ()I
+	METHOD b setPos (DDD)V
+		ARG 0 x
+		ARG 1 y
+		ARG 2 z
+	METHOD b setMaxAge (I)V
+		ARG 0 value
+	METHOD c hasAlpha ()Z
+	METHOD d getColorRed ()F
+	METHOD e getColorGreen ()F
+	METHOD e setColorAlpha (F)V
+		ARG 0 value
+	METHOD f getColorBlue ()F
+	METHOD i incSpriteIndex ()V
+	METHOD j markDead ()V
+	METHOD k repositionFromBoundingBox ()V
+	METHOD l isAlive ()Z
+	METHOD m getBoundingBox ()Lcgz;

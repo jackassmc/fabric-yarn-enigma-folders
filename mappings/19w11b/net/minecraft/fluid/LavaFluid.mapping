@@ -1,0 +1,3 @@
+CLASS cjn net/minecraft/fluid/LavaFluid
+	CLASS cjn$a Flowing
+	CLASS cjn$b Still

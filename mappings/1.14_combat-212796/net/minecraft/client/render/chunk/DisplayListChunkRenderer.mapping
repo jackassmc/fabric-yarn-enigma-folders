@@ -1,0 +1,5 @@
+CLASS dnk net/minecraft/client/render/chunk/DisplayListChunkRenderer
+	FIELD d displayListsStartIndex I
+	METHOD <init> (Lbhn;Ldkt;)V
+		ARG 1 world
+		ARG 2 worldRenderer

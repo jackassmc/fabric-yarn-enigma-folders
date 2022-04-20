@@ -1,0 +1,22 @@
+CLASS cxi net/minecraft/client/gui/hud/PlayerListHud
+	CLASS a EntryOrderComparator
+	FIELD a ENTRY_ORDERING Lcom/google/common/collect/Ordering;
+	FIELD b client Lcvp;
+	FIELD c inGameHud Lcwi;
+	FIELD d footer Ljn;
+	FIELD e header Ljn;
+	FIELD f showTime J
+	FIELD g visible Z
+	METHOD <init> (Lcvp;Lcwi;)V
+		ARG 1 client
+		ARG 2 inGameHud
+	METHOD a clear ()V
+	METHOD a draw (ILctc;Lcsz;)V
+		ARG 2 scoreboard
+		ARG 3 playerListScoreboardObjective
+	METHOD a setFooter (Ljn;)V
+		ARG 1 footer
+	METHOD a tick (Z)V
+		ARG 1 visible
+	METHOD b setHeader (Ljn;)V
+		ARG 1 header

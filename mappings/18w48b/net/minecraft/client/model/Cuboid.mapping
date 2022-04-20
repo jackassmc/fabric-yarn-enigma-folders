@@ -1,0 +1,43 @@
+CLASS cza net/minecraft/client/model/Cuboid
+	FIELD a textureWidth F
+	FIELD b textureHeight F
+	FIELD c rotationPointX F
+	FIELD d rotationPointY F
+	FIELD e rotationPointZ F
+	FIELD f pitch F
+	FIELD g yaw F
+	FIELD h roll F
+	FIELD i mirror Z
+	FIELD j visible Z
+	FIELD l boxes Ljava/util/List;
+	FIELD m children Ljava/util/List;
+	FIELD n name Ljava/lang/String;
+	FIELD o x F
+	FIELD p y F
+	FIELD q z F
+	FIELD r textureOffsetX I
+	FIELD s textureOffsetY I
+	FIELD t compiled Z
+	FIELD u list I
+	FIELD v owner Lcxe;
+	METHOD <init> (Lcxe;II)V
+		ARG 1 owner
+		ARG 2 textureOffsetX
+	METHOD <init> (Lcxe;Ljava/lang/String;)V
+		ARG 1 owner
+	METHOD a render (F)V
+	METHOD a setRotationPoint (FFF)V
+		ARG 1 x
+		ARG 2 y
+	METHOD a addBox (FFFIII)Lcza;
+	METHOD a addBox (FFFIIIF)V
+	METHOD a addBox (FFFIIIFZ)V
+	METHOD a addBox (FFFIIIZ)Lcza;
+	METHOD a setTextureOffset (II)Lcza;
+		ARG 1 x
+	METHOD a addChild (Lcza;)V
+	METHOD a addBox (Ljava/lang/String;FFFIII)Lcza;
+	METHOD a addBox (Ljava/lang/String;FFFIIIF)Lcza;
+	METHOD b setTextureSize (II)Lcza;
+		ARG 1 width
+	METHOD d compile (F)V

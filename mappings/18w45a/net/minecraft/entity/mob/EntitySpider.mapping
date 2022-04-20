@@ -1,0 +1,27 @@
+CLASS apf net/minecraft/entity/mob/EntitySpider
+	CLASS apf$a
+		METHOD a canStart ()Z
+		METHOD b shouldContinue ()Z
+	CLASS apf$c
+		METHOD a canStart ()Z
+	FIELD a SPIDER_FLAGS Lpl;
+	METHOD A_ canClimb ()Z
+	METHOD D getSoundAmbient ()Lwz;
+	METHOD F getLootTableId ()Lpw;
+	METHOD S_ update ()V
+	METHOD a (Lazz;Laeq;Lagk;Lagr;Lho;)Lagr;
+		ARG 3 difficulty
+	METHOD a playStepSound (Les;Lbno;)V
+		ARG 1 pos
+	METHOD a setCanClimb (Z)V
+	METHOD aL getMountedHeightOffset ()D
+	METHOD b createNavigation (Lazy;)Lakg;
+	METHOD bH getEyeHeight ()F
+	METHOD bj stickInWeb ()V
+	METHOD cb initAttributes ()V
+	METHOD cw getSoundDeath ()Lwz;
+	METHOD d isPotionEffective (Lafr;)Z
+	METHOD e getSoundHurt (Lafh;)Lwz;
+	METHOD l getCanClimb ()Z
+	METHOD n initAi ()V
+	METHOD y_ initDataTracker ()V

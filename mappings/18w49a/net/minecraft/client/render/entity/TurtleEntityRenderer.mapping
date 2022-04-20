@@ -1,0 +1,3 @@
+CLASS djm net/minecraft/client/render/entity/TurtleEntityRenderer
+	METHOD a getTexture (Lagk;)Lpz;
+	METHOD a getTexture (Laml;)Lpz;

@@ -1,0 +1,4 @@
+CLASS dpd net/minecraft/client/render/entity/MobEntityRenderer
+	METHOD <init> (Ldoa;Lddh;F)V
+		ARG 1 renderManager
+		ARG 2 model

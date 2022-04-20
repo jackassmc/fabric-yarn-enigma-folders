@@ -1,0 +1,13 @@
+CLASS axt net/minecraft/recipe/Recipe
+	METHOD a getSerializer ()Laxv;
+	METHOD a fits (II)Z
+		ARG 1 width
+	METHOD a craft (Laer;)Lavn;
+	METHOD a matches (Laer;Lbam;)Z
+		ARG 1 inv
+	METHOD b getId ()Lpx;
+	METHOD b getRemainingStacks (Laer;)Lfg;
+	METHOD c isIgnoredInRecipeBook ()Z
+	METHOD d getOutput ()Lavn;
+	METHOD e getPreviewInputs ()Lfg;
+	METHOD f getGroup ()Ljava/lang/String;

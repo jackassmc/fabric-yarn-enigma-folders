@@ -1,0 +1,3 @@
+CLASS akz net/minecraft/entity/ai/goal/StayInsideGoal
+	FIELD a entity Laic;
+	FIELD b closestDoor Lamk;

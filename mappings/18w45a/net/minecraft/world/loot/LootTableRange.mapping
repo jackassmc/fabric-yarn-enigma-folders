@@ -1,0 +1,6 @@
+CLASS cfr net/minecraft/world/loot/LootTableRange
+	FIELD a CONSTANT Lpw;
+	FIELD b UNIFORM Lpw;
+	FIELD c BINOMIAL Lpw;
+	METHOD a getType ()Lpw;
+	METHOD a next (Ljava/util/Random;)I

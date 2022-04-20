@@ -1,0 +1,8 @@
+CLASS bzm net/minecraft/client/render/entity/EntityRendererGiant
+	CLASS bzm$1
+		METHOD M_ init ()V
+	FIELD a SKIN Lnd;
+	METHOD a getTexture (Lacx;)Lnd;
+		ARG 0 model
+	METHOD a getTexture (Lve;)Lnd;
+		ARG 0 model

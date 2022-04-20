@@ -1,0 +1,3 @@
+CLASS bjz net/minecraft/block/GlassBlock
+	METHOD <init> (Lbhs$c;)V
+		ARG 1 settings

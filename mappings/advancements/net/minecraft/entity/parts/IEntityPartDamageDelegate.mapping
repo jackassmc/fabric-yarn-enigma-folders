@@ -1,0 +1,3 @@
+CLASS zu net/minecraft/entity/parts/IEntityPartDamageDelegate
+	METHOD a getPartDamageWorld ()Lali;
+	METHOD a damage (Lzv;Ltm;F)Z

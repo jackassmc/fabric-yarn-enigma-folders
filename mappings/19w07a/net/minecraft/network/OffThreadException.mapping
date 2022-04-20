@@ -1,0 +1,2 @@
+CLASS qr net/minecraft/network/OffThreadException
+	FIELD a INSTANCE Lqr;

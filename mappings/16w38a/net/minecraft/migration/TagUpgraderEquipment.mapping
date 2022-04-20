@@ -1,0 +1,4 @@
+CLASS pl net/minecraft/migration/TagUpgraderEquipment
+	METHOD a getTargetVersion ()I
+	METHOD a upgradeTag (Ldt;)Ldt;
+		ARG 0 tag

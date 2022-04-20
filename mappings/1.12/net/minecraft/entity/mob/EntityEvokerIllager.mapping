@@ -1,0 +1,59 @@
+CLASS acv net/minecraft/entity/mob/EntityEvokerIllager
+	CLASS acv$a AiGoalConjureFangs
+		METHOD a conjureFangs (DDDDFI)V
+			ARG 0 x
+			ARG 1 z
+			ARG 2 minY
+			ARG 3 maxY
+			ARG 4 angle
+			ARG 5 warmup
+		METHOD f getSpellTicks ()I
+		METHOD i startTimeDelay ()I
+		METHOD j castSpell ()V
+		METHOD k getSoundPrepare ()Lqc;
+	CLASS acv$b
+		METHOD e tick ()V
+	CLASS acv$c AiGoalSummonVex
+		METHOD a canStart ()Z
+		METHOD f getSpellTicks ()I
+		METHOD i startTimeDelay ()I
+		METHOD j castSpell ()V
+		METHOD k getSoundPrepare ()Lqc;
+	CLASS acv$d AiGoalWololo
+		CLASS acv$d$1
+			METHOD a test (Laae;)Z
+				ARG 0 target
+		FIELD a purpleSheepPredicate Lcom/google/common/base/Predicate;
+		METHOD a canStart ()Z
+		METHOD b shouldContinue ()Z
+		METHOD c start ()V
+		METHOD d onRemove ()V
+		METHOD e tick ()V
+		METHOD f getSpellTicks ()I
+		METHOD i startTimeDelay ()I
+		METHOD j castSpell ()V
+		METHOD k getSoundPrepare ()Lqc;
+		METHOD m getInitialCooldown ()I
+	FIELD c wololoTarget Laae;
+	METHOD <init> (Lams;)V
+		ARG 0 world
+	METHOD B_ update ()V
+	METHOD F getSoundAmbient ()Lqc;
+	METHOD J getLootTableId ()Lnd;
+	METHOD M mobTick ()V
+	METHOD a setWololoTarget (Laae;)V
+		ARG 0 sheepTarget
+	METHOD a deserializeCustomData (Lfy;)V
+		ARG 0 tag
+	METHOD a registerTagUpgraders (Lrw;)V
+		ARG 0 migrationHandler
+	METHOD b serializeCustomData (Lfy;)V
+		ARG 0 tag
+	METHOD bM initAttributes ()V
+	METHOD cf getSoundDeath ()Lqc;
+	METHOD d getSoundHurt (Lup;)Lqc;
+	METHOD dq getWololoTarget ()Laae;
+	METHOD i initDataTracker ()V
+	METHOD r initAi ()V
+	METHOD r isTeammate (Lve;)Z
+		ARG 0 entity

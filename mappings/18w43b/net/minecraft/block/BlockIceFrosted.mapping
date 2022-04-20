@@ -1,0 +1,18 @@
+CLASS bfy net/minecraft/block/BlockIceFrosted
+	METHOD <init> (Lbdx$c;)V
+		ARG 0 builder
+	METHOD a getPickStack (Layn;Leq;Lblz;)Lauc;
+		ARG 0 world
+		ARG 1 pos
+		ARG 2 state
+	METHOD a update (Lblz;Laza;Leq;Lbdx;Leq;)V
+		ARG 0 state
+		ARG 1 world
+		ARG 2 pos
+		ARG 3 block
+		ARG 4 updatePos
+	METHOD a randomTick (Lblz;Laza;Leq;Ljava/util/Random;)V
+		ARG 0 world
+		ARG 1 state
+		ARG 2 pos
+		ARG 3 random

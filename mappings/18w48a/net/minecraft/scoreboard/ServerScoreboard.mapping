@@ -1,0 +1,18 @@
+CLASS qn net/minecraft/scoreboard/ServerScoreboard
+	FIELD a server Lnet/minecraft/server/MinecraftServer;
+	METHOD a setObjectiveSlot (ILclm;)V
+		ARG 1 slot
+	METHOD a updateObjective (Lclm;)V
+	METHOD a updateScoreboardTeamAndPlayers (Lcln;)V
+	METHOD a updateScore (Lclo;)V
+	METHOD a updatePlayerScore (Ljava/lang/String;)V
+	METHOD a updatePlayerScore (Ljava/lang/String;Lclm;)V
+		ARG 1 playerName
+	METHOD a addPlayerToTeam (Ljava/lang/String;Lcln;)Z
+		ARG 1 playerName
+	METHOD b updateExistingObjective (Lclm;)V
+	METHOD b updateScoreboardTeam (Lcln;)V
+	METHOD b removePlayerFromTeam (Ljava/lang/String;Lcln;)V
+		ARG 1 playerName
+	METHOD c updateRemovedObjective (Lclm;)V
+	METHOD c updateRemovedTeam (Lcln;)V

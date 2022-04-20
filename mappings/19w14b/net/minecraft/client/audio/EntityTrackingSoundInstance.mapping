@@ -1,0 +1,2 @@
+CLASS dwa net/minecraft/client/audio/EntityTrackingSoundInstance
+	FIELD o entity Laia;

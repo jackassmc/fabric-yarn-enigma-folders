@@ -1,0 +1,3 @@
+CLASS dsg net/minecraft/client/audio/ElytraSoundInstance
+	FIELD n player Ldft;
+	FIELD o tickCount I

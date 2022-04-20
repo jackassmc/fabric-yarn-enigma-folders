@@ -1,0 +1,16 @@
+CLASS ato net/minecraft/item/ItemCrossbow
+	METHOD <init> (Lauq$a;)V
+		ARG 1 builder
+	METHOD a onItemStopUsing (Lauv;Lazt;Lage;I)V
+		ARG 1 stack
+		ARG 2 world
+		ARG 3 player
+		ARG 4 remainingTime
+	METHOD a onRightClick (Lazt;Lapr;Laeo;)Laer;
+		ARG 1 world
+		ARG 2 player
+		ARG 3 hand
+	METHOD b getMaxUseTime (Lauv;)I
+		ARG 1 stack
+	METHOD c getUseAction (Lauv;)Lawh;
+		ARG 1 stack

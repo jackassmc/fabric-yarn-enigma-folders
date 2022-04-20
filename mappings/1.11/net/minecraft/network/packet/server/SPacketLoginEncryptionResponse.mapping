@@ -1,0 +1,11 @@
+CLASS jz net/minecraft/network/packet/server/SPacketLoginEncryptionResponse
+	FIELD a sharedSecret [B
+	FIELD b verifyToken [B
+	METHOD a readPacket (Let;)V
+		ARG 0 packet
+	METHOD a applyPacket (Lew;)V
+		ARG 0 handler
+	METHOD a (Ljava/security/PrivateKey;)Ljavax/crypto/SecretKey;
+		ARG 0 key
+	METHOD b writePacket (Let;)V
+		ARG 0 packet

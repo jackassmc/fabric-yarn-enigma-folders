@@ -1,0 +1,3 @@
+CLASS aqp net/minecraft/entity/WaterCreatureEntity
+	METHOD <init> (Laic;Lbgf;)V
+		ARG 1 type

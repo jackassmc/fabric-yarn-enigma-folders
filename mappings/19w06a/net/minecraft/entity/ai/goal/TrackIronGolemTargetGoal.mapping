@@ -1,0 +1,3 @@
+CLASS alh net/minecraft/entity/ai/goal/TrackIronGolemTargetGoal
+	FIELD a ironGolem Lamv;
+	FIELD b target Lahr;

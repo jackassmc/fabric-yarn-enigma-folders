@@ -1,0 +1,6 @@
+CLASS bkc net/minecraft/block/WallMountedBlock
+	FIELD C FACE Lbsc;
+	METHOD <init> (Lbig$c;)V
+		ARG 1 settings
+	METHOD j getDirection (Lbre;)Lex;
+		ARG 0 state

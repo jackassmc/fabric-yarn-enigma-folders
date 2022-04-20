@@ -1,0 +1,5 @@
+CLASS cdu net/minecraft/structure/pool/FeaturePoolElement
+	FIELD a feature Lbyw;
+	FIELD b tag Lib;
+	METHOD <init> (Lbyw;)V
+		ARG 1 feature

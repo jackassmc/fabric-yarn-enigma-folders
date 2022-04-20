@@ -1,0 +1,27 @@
+CLASS bfz net/minecraft/block/BlockComparator
+	METHOD a createBlockEntity (Lazq;)Lbmc;
+	METHOD a getAttachedItemFrame (Lbae;Lex;Les;)Lanr;
+		ARG 1 world
+		ARG 2 facing
+	METHOD a onBlockAction (Lbnz;Lbae;Les;II)Z
+		ARG 1 state
+		ARG 2 world
+		ARG 3 pos
+	METHOD a activate (Lbnz;Lbae;Les;Laqa;Laev;Lex;FFF)Z
+		ARG 1 state
+		ARG 2 world
+		ARG 3 pos
+		ARG 4 player
+		ARG 5 hand
+		ARG 6 facing
+		ARG 7 hitX
+		ARG 8 hitY
+	METHOD a randomTick (Lbnz;Lbae;Les;Ljava/util/Random;)V
+		ARG 1 world
+		ARG 2 state
+		ARG 3 pos
+	METHOD a appendProperties (Lboa$a;)V
+	METHOD b getOutputLevel (Lazq;Les;Lbnz;)I
+		ARG 1 view
+		ARG 2 pos
+	METHOD i getUpdateDelayInternal (Lbnz;)I

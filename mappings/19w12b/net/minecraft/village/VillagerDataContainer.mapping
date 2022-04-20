@@ -1,0 +1,2 @@
+CLASS auk net/minecraft/village/VillagerDataContainer
+	METHOD eb getVillagerData ()Lauj;

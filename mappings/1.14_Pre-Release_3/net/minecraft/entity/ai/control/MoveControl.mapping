@@ -1,0 +1,25 @@
+CLASS alx net/minecraft/entity/ai/control/MoveControl
+	CLASS alx$a State
+	FIELD a entity Lain;
+	FIELD b targetX D
+	FIELD c targetY D
+	FIELD d targetZ D
+	FIELD e speed D
+	FIELD h state Lalx$a;
+	METHOD <init> (Lain;)V
+		ARG 1 entity
+	METHOD a tick ()V
+	METHOD a moveTo (DDDD)V
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+		ARG 7 speed
+	METHOD a changeAngle (FFF)F
+		ARG 1 from
+		ARG 2 to
+		ARG 3 max
+	METHOD b isMoving ()Z
+	METHOD c getSpeed ()D
+	METHOD d getTargetX ()D
+	METHOD e getTargetY ()D
+	METHOD f getTargetZ ()D

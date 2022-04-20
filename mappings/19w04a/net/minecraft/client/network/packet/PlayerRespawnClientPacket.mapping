@@ -1,0 +1,12 @@
+CLASS ly net/minecraft/client/network/packet/PlayerRespawnClientPacket
+	FIELD a dimension Lbtd;
+	FIELD b difficulty Lafu;
+	FIELD c gameMode Lbci;
+	FIELD d generatorType Lbct;
+	METHOD <init> (Lbtd;Lafu;Lbct;Lbci;)V
+		ARG 2 difficulty
+		ARG 3 generatorType
+	METHOD b getDimension ()Lbtd;
+	METHOD c getDifficulty ()Lafu;
+	METHOD d getGameMode ()Lbci;
+	METHOD e getGeneratorType ()Lbct;

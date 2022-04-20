@@ -1,0 +1,3 @@
+CLASS blk net/minecraft/block/BannerBlock
+	FIELD a ROTATION Lbvz;
+	FIELD c SHAPE Lcsf;

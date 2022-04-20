@@ -1,0 +1,26 @@
+CLASS dmp net/minecraft/client/render/debug/DebugRenderer
+	CLASS dmp$a net/minecraft/client/render/debug/DebugRenderer$DebugRenderer
+		METHOD a render (J)V
+	FIELD a pathfindingDebugRenderer Ldmu;
+	FIELD b waterDebugRenderer Ldmp$a;
+	FIELD c chunkBorderDebugRenderer Ldmp$a;
+	FIELD d heightmapDebugRenderer Ldmp$a;
+	FIELD e voxelDebugRenderer Ldmp$a;
+	FIELD f neighborUpdateDebugRenderer Ldmp$a;
+	FIELD g caveDebugRenderer Ldml;
+	FIELD h structureDebugRenderer Ldmx;
+	FIELD i skyLightDebugRenderer Ldmp$a;
+	FIELD j worldGenAttemptDebugRenderer Ldmp$a;
+	FIELD p showChunkBorder Z
+	FIELD q showPathfinding Z
+	FIELD r showWater Z
+	FIELD s showHeightmap Z
+	FIELD t showVoxels Z
+	FIELD u showNeighborUpdates Z
+	FIELD v showCaves Z
+	FIELD w showStructures Z
+	FIELD x showSkyLight Z
+	FIELD y showWorldGenAttempts Z
+	METHOD a shouldRender ()Z
+	METHOD a renderDebuggers (J)V
+	METHOD b toggleShowChunkBorder ()Z

@@ -1,0 +1,45 @@
+CLASS net/minecraft/class_3853 net/minecraft/village/TradeOffers
+	FIELD field_17067 PROFESSION_TO_LEVELED_TRADE Ljava/util/Map;
+	FIELD field_17724 WANDERING_TRADER_TRADES Lit/unimi/dsi/fastutil/ints/Int2ObjectMap;
+	FIELD field_30615 DEFAULT_MAX_USES I
+	FIELD field_30616 COMMON_MAX_USES I
+	FIELD field_30618 NOVICE_SELL_XP I
+	FIELD field_30619 NOVICE_BUY_XP I
+	FIELD field_30620 APPRENTICE_SELL_XP I
+	FIELD field_30621 APPRENTICE_BUY_XP I
+	FIELD field_30622 JOURNEYMAN_SELL_XP I
+	FIELD field_30623 JOURNEYMAN_BUY_XP I
+	FIELD field_30624 EXPERT_SELL_XP I
+	FIELD field_30625 EXPERT_BUY_XP I
+	FIELD field_30626 MASTER_TRADE_XP I
+	FIELD field_30627 LOW_PRICE_MULTIPLIER F
+	FIELD field_30628 HIGH_PRICE_MULTIPLIER F
+	METHOD method_16928 copyToFastUtilMap (Lcom/google/common/collect/ImmutableMap;)Lit/unimi/dsi/fastutil/ints/Int2ObjectMap;
+		ARG 0 map
+	METHOD method_16929 (Ljava/util/HashMap;)V
+		ARG 0 map
+	CLASS class_1652 Factory
+		COMMENT A factory to create trade offers.
+		METHOD method_7246 create (Lnet/minecraft/class_1297;Ljava/util/Random;)Lnet/minecraft/class_1914;
+			COMMENT Creates a trade offer.
+			COMMENT
+			COMMENT @return a new trade offer, or {@code null} if none should be created
+			ARG 1 entity
+			ARG 2 random
+	CLASS class_4161 BuyForOneEmeraldFactory
+		FIELD field_18550 maxUses I
+		FIELD field_18551 experience I
+		FIELD field_18552 multiplier F
+		METHOD <init> (Lnet/minecraft/class_7317;II)V
+			ARG 2 price
+			ARG 3 maxUses
+	CLASS class_4165 SellItemFactory
+		FIELD field_18574 maxUses I
+		FIELD field_18575 experience I
+		FIELD field_18576 multiplier F
+		METHOD <init> (Lnet/minecraft/class_7317;II)V
+			ARG 2 price
+			ARG 3 count
+		METHOD <init> (Lnet/minecraft/class_7317;IIF)V
+			ARG 2 price
+			ARG 3 count

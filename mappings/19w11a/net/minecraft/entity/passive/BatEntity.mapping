@@ -1,0 +1,4 @@
+CLASS apd net/minecraft/entity/passive/BatEntity
+	FIELD b BAT_FLAGS Lqe;
+	METHOD l isRoosting ()Z
+	METHOD q setRoosting (Z)V

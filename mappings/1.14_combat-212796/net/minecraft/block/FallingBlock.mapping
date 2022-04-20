@@ -1,0 +1,20 @@
+CLASS boo net/minecraft/block/FallingBlock
+	METHOD <init> (Lbmr$c;)V
+		ARG 1 settings
+	METHOD a configureFallingBlockEntity (Latr;)V
+		ARG 1 entity
+	METHOD a onDestroyedOnLanding (Lbhn;Lev;)V
+		ARG 1 world
+		ARG 2 pos
+	METHOD a onLanding (Lbhn;Lev;Lbvp;Lbvp;)V
+		ARG 1 world
+		ARG 2 pos
+		ARG 3 fallingBlockState
+		ARG 4 currentStateInPos
+	METHOD b tryStartFalling (Lbhn;Lev;)V
+		ARG 1 world
+		ARG 2 pos
+	METHOD j canFallThrough (Lbvp;)Z
+		ARG 0 state
+	METHOD q getColor (Lbvp;)I
+		ARG 1 state

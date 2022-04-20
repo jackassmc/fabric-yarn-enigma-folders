@@ -1,0 +1,4 @@
+CLASS dik net/minecraft/client/particle/ExplosionEmitterParticle
+	CLASS dik$a Factory
+	FIELD C age_ I
+	FIELD D maxAge_ I

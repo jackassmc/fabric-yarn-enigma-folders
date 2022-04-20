@@ -1,0 +1,3 @@
+CLASS jp net/minecraft/network/NetworkSide
+	FIELD a SERVER Ljp;
+	FIELD b CLIENT Ljp;

@@ -1,0 +1,5 @@
+CLASS chl net/minecraft/structure/generator/OceanMonumentGenerator
+	CLASS chl$p Entry
+	CLASS chl$q Penthouse
+	CLASS chl$s SimpleRoom
+	CLASS chl$t SimpleRoomTop

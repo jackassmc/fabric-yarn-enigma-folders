@@ -1,0 +1,19 @@
+CLASS lz net/minecraft/client/network/packet/PlayerRespawnClientPacket
+	FIELD a dimension Lbsy;
+	FIELD b difficulty Lafw;
+	FIELD c gameMode Lbcc;
+	FIELD d generatorType Lbco;
+	METHOD <init> (Lbsy;Lafw;Lbco;Lbcc;)V
+		ARG 2 difficulty
+		ARG 3 generatorType
+	METHOD a read (Lit;)V
+		ARG 1 buf
+	METHOD a apply (Liw;)V
+		ARG 1 listener
+	METHOD a apply (Lju;)V
+	METHOD b getDimension ()Lbsy;
+	METHOD b write (Lit;)V
+		ARG 1 buf
+	METHOD c getDifficulty ()Lafw;
+	METHOD d getGameMode ()Lbcc;
+	METHOD e getGeneratorType ()Lbco;

@@ -1,0 +1,2 @@
+CLASS abd net/minecraft/datafixers/fixes/ChunkStructuresTemplateRenameFix
+	FIELD a structures Lcom/google/common/collect/ImmutableMap;

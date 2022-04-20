@@ -1,0 +1,3 @@
+CLASS dio net/minecraft/client/particle/SpriteProvider
+	METHOD a getSprite (II)Ldto;
+	METHOD a getSprite (Ljava/util/Random;)Ldto;

@@ -1,0 +1,9 @@
+CLASS bpv net/minecraft/block/SlabBlock
+	FIELD a TYPE Lbuv;
+	FIELD b WATERLOGGED Lbup;
+	FIELD c BOTTOM_SHAPE Lcrb;
+	FIELD d TOP_SHAPE Lcrb;
+	METHOD <init> (Lbkz$c;)V
+		ARG 1 settings
+	METHOD n (Lbtx;)Z
+		ARG 1 state

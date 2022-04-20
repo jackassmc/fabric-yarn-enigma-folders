@@ -1,0 +1,7 @@
+CLASS bsj net/minecraft/block/TurtleEggBlock
+	FIELD a HATCH Lbwf;
+	FIELD b EGGS Lbwf;
+	FIELD c SMALL_SHAPE Lcsl;
+	FIELD d LARGE_SHAPE Lcsl;
+	METHOD <init> (Lbmh$c;)V
+		ARG 1 settings

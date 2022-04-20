@@ -1,0 +1,5 @@
+CLASS amf net/minecraft/entity/passive/EntityDonkey
+	METHOD D getSoundAmbient ()Lxb;
+	METHOD a createChild (Lafz;)Lafz;
+	METHOD cw getSoundDeath ()Lxb;
+	METHOD e getSoundHurt (Lafl;)Lxb;

@@ -1,0 +1,3 @@
+CLASS cnt net/minecraft/world/PlayerSaveHandler
+	METHOD a savePlayerData (Lavn;)V
+	METHOD b loadPlayerData (Lavn;)Lib;

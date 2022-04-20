@@ -1,0 +1,13 @@
+CLASS bll net/minecraft/client/gui/menu/ListEntryRemoteServer
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD b PING_THREAD_POOL Ljava/util/concurrent/ThreadPoolExecutor;
+	FIELD c UNKNOWN_SERVER Lmd;
+	FIELD d SERVER_SELECTION Lmd;
+	FIELD e guiMultiplayer Lbli;
+	FIELD f game Lbgm;
+	FIELD g serverEntry Lbqn;
+	METHOD a drawEntry (IIIF)V
+	METHOD a handleMouseClick (IIIIII)Z
+	METHOD a drawEntry (IIIIIIIZF)V
+	METHOD a drawIcon (IILmd;)V
+	METHOD b handleTouchEvent (IIIIII)V

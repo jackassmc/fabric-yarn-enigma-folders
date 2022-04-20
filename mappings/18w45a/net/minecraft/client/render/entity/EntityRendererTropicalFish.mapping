@@ -1,0 +1,3 @@
+CLASS dha net/minecraft/client/render/entity/EntityRendererTropicalFish
+	METHOD a getTexture (Lafy;)Lpw;
+	METHOD a getTexture (Lalv;)Lpw;

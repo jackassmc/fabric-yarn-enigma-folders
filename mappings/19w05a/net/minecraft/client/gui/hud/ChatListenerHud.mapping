@@ -1,0 +1,2 @@
+CLASS cqy net/minecraft/client/gui/hud/ChatListenerHud
+	FIELD a client Lcqd;

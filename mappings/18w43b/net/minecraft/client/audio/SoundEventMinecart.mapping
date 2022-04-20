@@ -1,0 +1,7 @@
+CLASS diz net/minecraft/client/audio/SoundEventMinecart
+	FIELD n player Lapb;
+	FIELD o minecart Laqc;
+	METHOD <init> (Lapb;Laqc;)V
+		ARG 0 player
+		ARG 1 minecart
+	METHOD Z_ update ()V

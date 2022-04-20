@@ -1,0 +1,106 @@
+CLASS amw net/minecraft/block/BlockDoublePlant
+	CLASS amw$a Half
+		FIELD a UPPER Lamw$a;
+		FIELD b LOWER Lamw$a;
+		METHOD m asString ()Ljava/lang/String;
+	CLASS amw$b Type
+		FIELD a SUNFLOWER Lamw$b;
+		FIELD b SYRINGA Lamw$b;
+		FIELD c DOUBLE_GRASS Lamw$b;
+		FIELD d DOUBLE_FERN Lamw$b;
+		FIELD e DOUBLE_ROSE Lamw$b;
+		FIELD f PAEONIA Lamw$b;
+		FIELD g VALUES [Lamw$b;
+		FIELD h meta I
+		FIELD i name Ljava/lang/String;
+		FIELD j shortName Ljava/lang/String;
+		METHOD <init> (Ljava/lang/String;IILjava/lang/String;)V
+		METHOD a getMeta ()I
+		METHOD a get (I)Lamw$b;
+			ARG 0 meta
+		METHOD c getShortName ()Ljava/lang/String;
+		METHOD m asString ()Ljava/lang/String;
+		METHOD values values ()[Lamw$b;
+	FIELD a VARIANT Latx;
+	FIELD c HALF Latx;
+	FIELD d FACING Latx;
+	METHOD a deserializeState (I)Latj;
+		ARG 0 meta
+	METHOD a addStacksForDisplay (Lafg;Laei;Ldd;)V
+		ARG 0 item
+		ARG 1 tab
+		ARG 2 list
+	METHOD a afterBreak (Lajq;Laax;Lco;Latj;Lasa;Lafi;)V
+		ARG 0 world
+		ARG 1 player
+		ARG 2 pos
+		ARG 3 state
+		ARG 4 blockEntity
+		ARG 5 stack
+	METHOD a canPlaceAt (Lajq;Lco;)Z
+		ARG 0 world
+		ARG 1 pos
+	METHOD a place (Lajq;Lco;Lamw$b;I)V
+		ARG 0 world
+		ARG 1 pos
+		ARG 2 type
+		ARG 3 flags
+	METHOD a getPickStack (Lajq;Lco;Latj;)Lafi;
+		ARG 0 world
+		ARG 1 pos
+		ARG 2 state
+	METHOD a (Lajq;Lco;Latj;Laax;)V
+		ARG 0 world
+		ARG 1 pos
+		ARG 2 state
+		ARG 3 player
+	METHOD a onPlaced (Lajq;Lco;Latj;Lsv;Lafi;)V
+		ARG 0 world
+		ARG 1 pos
+		ARG 2 state
+		ARG 3 placer
+		ARG 4 stack
+	METHOD a isFertilizable (Lajq;Lco;Latj;Z)Z
+		ARG 0 world
+		ARG 1 pos
+		ARG 2 state
+		ARG 3 remote
+	METHOD a canGrow (Lajq;Ljava/util/Random;Lco;Latj;)Z
+		ARG 0 world
+		ARG 1 rand
+		ARG 2 pos
+		ARG 3 state
+	METHOD a isAir (Laju;Lco;)Z
+		ARG 0 view
+		ARG 1 pos
+	METHOD a getDropItem (Latj;Ljava/util/Random;I)Lafg;
+		ARG 0 state
+		ARG 1 random
+		ARG 2 fortune
+	METHOD b createStateFactory ()Latk;
+	METHOD b grow (Lajq;Ljava/util/Random;Lco;Latj;)V
+		ARG 0 world
+		ARG 1 rand
+		ARG 2 pos
+		ARG 3 state
+	METHOD b getBoundingBox (Latj;Laju;Lco;)Lbdr;
+		ARG 0 state
+		ARG 1 view
+		ARG 2 pos
+	METHOD c getRenderingState (Latj;Laju;Lco;)Latj;
+		ARG 0 state
+		ARG 1 view
+		ARG 2 pos
+	METHOD d getDropItemDamage (Latj;)I
+		ARG 0 state
+	METHOD e (Lajq;Lco;Latj;)V
+		ARG 0 world
+		ARG 1 pos
+		ARG 2 state
+	METHOD e serializeState (Latj;)I
+		ARG 0 state
+	METHOD f isValidLocation (Lajq;Lco;Latj;)Z
+		ARG 0 world
+		ARG 1 pos
+		ARG 2 state
+	METHOD u getOffsetType ()Lals$a;

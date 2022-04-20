@@ -1,0 +1,9 @@
+CLASS auh net/minecraft/world/chunk/IChunkProvider
+	METHOD a getChunk (II)Laum;
+		ARG 0 x
+		ARG 1 z
+	METHOD c provideChunk (II)Laum;
+		ARG 0 x
+		ARG 1 z
+	METHOD d update ()Z
+	METHOD f getStatus ()Ljava/lang/String;

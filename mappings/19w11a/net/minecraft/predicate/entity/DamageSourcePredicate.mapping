@@ -1,0 +1,42 @@
+CLASS al net/minecraft/predicate/entity/DamageSourcePredicate
+	CLASS al$a net/minecraft/predicate/entity/DamageSourcePredicate$Builder
+		FIELD a isProjectile Ljava/lang/Boolean;
+		FIELD b isExplosion Ljava/lang/Boolean;
+		FIELD c bypassesArmor Ljava/lang/Boolean;
+		FIELD d bypassesInvulnerability Ljava/lang/Boolean;
+		FIELD e bypassesMagic Ljava/lang/Boolean;
+		FIELD f isFire Ljava/lang/Boolean;
+		FIELD g isMagic Ljava/lang/Boolean;
+		FIELD h isLightning Ljava/lang/Boolean;
+		FIELD i directEntity Lau;
+		FIELD j sourceEntity Lau;
+		METHOD a create ()Lal$a;
+		METHOD a directEntity (Lau$a;)Lal$a;
+		METHOD a projectile (Ljava/lang/Boolean;)Lal$a;
+		METHOD b build ()Lal;
+		METHOD h lightning (Ljava/lang/Boolean;)Lal$a;
+	FIELD a EMPTY Lal;
+	FIELD b isProjectile Ljava/lang/Boolean;
+	FIELD c isExplosion Ljava/lang/Boolean;
+	FIELD d bypassesArmor Ljava/lang/Boolean;
+	FIELD e bypassesInvulnerability Ljava/lang/Boolean;
+	FIELD f bypassesMagic Ljava/lang/Boolean;
+	FIELD g isFire Ljava/lang/Boolean;
+	FIELD h isMagic Ljava/lang/Boolean;
+	FIELD i isLightning Ljava/lang/Boolean;
+	FIELD j directEntity Lau;
+	FIELD k sourceEntity Lau;
+	METHOD a serialize ()Lcom/google/gson/JsonElement;
+	METHOD a deserialize (Lcom/google/gson/JsonElement;)Lal;
+		ARG 0 element
+	METHOD a getBoolean (Lcom/google/gson/JsonObject;Ljava/lang/String;)Ljava/lang/Boolean;
+		ARG 0 obj
+		ARG 1 name
+	METHOD a addProperty (Lcom/google/gson/JsonObject;Ljava/lang/String;Ljava/lang/Boolean;)V
+		ARG 1 json
+		ARG 2 key
+	METHOD a test (Lvc;Lcqh;Lahf;)Z
+		ARG 1 world
+		ARG 2 pos
+	METHOD a test (Lvd;Lahf;)Z
+		ARG 1 player

@@ -1,0 +1,32 @@
+CLASS ae net/minecraft/command/CommandExecute
+	CLASS ae$1
+		METHOD B_ getServer ()Lnet/minecraft/server/MinecraftServer;
+		METHOD a hasPermission (ILjava/lang/String;)Z
+			ARG 0 permissionLevel
+			ARG 1 commandName
+		METHOD a appendCommandFeedback (Lfb;)V
+			ARG 0 component
+		METHOD a updateCommandStat (Lo$a;I)V
+			ARG 0 statType
+			ARG 1 statValue
+		METHOD c getBlockPos ()Lco;
+		METHOD d getPos ()Lbdu;
+		METHOD e getWorld ()Lajq;
+		METHOD f getEntity ()Lsm;
+		METHOD g shouldEchoCommandFeedback ()Z
+		METHOD h_ getName ()Ljava/lang/String;
+		METHOD i_ getNameComponent ()Lfb;
+	METHOD a getMinPermissionLevel ()I
+	METHOD a execute (Lnet/minecraft/server/MinecraftServer;Ln;[Ljava/lang/String;)V
+		ARG 0 server
+		ARG 1 sender
+		ARG 2 args
+	METHOD a getTabCompletionList (Lnet/minecraft/server/MinecraftServer;Ln;[Ljava/lang/String;Lco;)Ljava/util/List;
+		ARG 0 server
+		ARG 1 sender
+		ARG 2 args
+		ARG 3 position
+	METHOD b getUsage (Ln;)Ljava/lang/String;
+		ARG 0 sender
+	METHOD b hasCorrectNumberOfArgs ([Ljava/lang/String;I)Z
+	METHOD c getName ()Ljava/lang/String;

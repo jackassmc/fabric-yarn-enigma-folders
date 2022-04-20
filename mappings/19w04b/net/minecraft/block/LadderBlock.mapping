@@ -1,0 +1,9 @@
+CLASS bkm net/minecraft/block/LadderBlock
+	FIELD a FACING Lbrf;
+	FIELD b WATERLOGGED Lbrc;
+	FIELD c EAST_SHAPE Lcnl;
+	FIELD d WEST_SHAPE Lcnl;
+	FIELD e SOUTH_SHAPE Lcnl;
+	FIELD f NORTH_SHAPE Lcnl;
+	METHOD <init> (Lbhn$c;)V
+		ARG 1 settings

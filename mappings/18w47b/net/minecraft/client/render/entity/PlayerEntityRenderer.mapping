@@ -1,0 +1,3 @@
+CLASS dkf net/minecraft/client/render/entity/PlayerEntityRenderer
+	METHOD a getTexture (Lagf;)Lpy;
+	METHOD a getTexture (Ldaq;)Lpy;

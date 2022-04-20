@@ -1,0 +1,27 @@
+CLASS bvx net/minecraft/client/render/entity/EntityRendererShulker
+	CLASS bvx$a
+		METHOD a shouldMergeTextures ()Z
+		METHOD a render (Laad;FFFFFFF)V
+			ARG 0 entity
+			ARG 2 limbSwingAmount
+			ARG 3 deltaTicks
+			ARG 4 age
+			ARG 5 yaw
+			ARG 6 pitch
+			ARG 7 scale
+		METHOD a render (Lsv;FFFFFFF)V
+			ARG 0 entity
+			ARG 2 limbSwingAmount
+			ARG 3 deltaTicks
+			ARG 4 age
+			ARG 5 yaw
+			ARG 6 pitch
+			ARG 7 scale
+	METHOD a getTexture (Laad;)Lkq;
+		ARG 0 model
+	METHOD a (Laad;DDDFF)V
+	METHOD a getTexture (Lsm;)Lkq;
+		ARG 0 model
+	METHOD a (Lsm;DDDFF)V
+	METHOD a (Lsv;DDDFF)V
+	METHOD a (Lsw;DDDFF)V

@@ -1,0 +1,4 @@
+CLASS dds net/minecraft/client/render/model/json/ItemModelGenerator
+	FIELD a LAYERS Ljava/util/List;
+	METHOD a create (Ljava/util/function/Function;Lddo;)Lddo;
+		ARG 1 textureGetter

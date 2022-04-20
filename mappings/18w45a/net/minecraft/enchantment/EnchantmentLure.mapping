@@ -1,0 +1,5 @@
+CLASS ayi net/minecraft/enchantment/EnchantmentLure
+	METHOD <init> (Layc$a;Layd;[Lagd;)V
+		ARG 1 weight
+		ARG 2 type
+	METHOD a getHighestLevel ()I

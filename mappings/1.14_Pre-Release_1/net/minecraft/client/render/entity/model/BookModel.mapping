@@ -1,0 +1,18 @@
+CLASS dds net/minecraft/client/render/entity/model/BookModel
+	FIELD a leftCover Ldgs;
+	FIELD b rightCover Ldgs;
+	FIELD c leftBlock Ldgs;
+	FIELD d rightBlock Ldgs;
+	FIELD e leftPage Ldgs;
+	FIELD f rightPage Ldgs;
+	FIELD g spine Ldgs;
+	METHOD a render (FFFFFF)V
+		ARG 1 ticks
+		ARG 2 leftPageAngle
+		ARG 3 rightPageAngle
+		ARG 4 pageTurningSpeed
+	METHOD b setPageAngles (FFFFFF)V
+		ARG 1 ticks
+		ARG 2 leftPageAngle
+		ARG 3 rightPageAngle
+		ARG 4 pageTurningSpeed

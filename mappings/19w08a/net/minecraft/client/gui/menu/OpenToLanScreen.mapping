@@ -1,0 +1,9 @@
+CLASS cvj net/minecraft/client/gui/menu/OpenToLanScreen
+	FIELD a parent Lcvi;
+	FIELD b buttonAllowCommands Lcrz;
+	FIELD g buttonGameMode Lcrz;
+	FIELD h gameMode Ljava/lang/String;
+	FIELD i allowCommands Z
+	METHOD <init> (Lcvi;)V
+		ARG 1 parent
+	METHOD i updateButtonText ()V

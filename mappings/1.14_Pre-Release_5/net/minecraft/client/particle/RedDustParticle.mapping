@@ -1,0 +1,2 @@
+CLASS did net/minecraft/client/particle/RedDustParticle
+	CLASS did$a Factory

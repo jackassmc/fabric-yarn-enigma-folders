@@ -1,0 +1,10 @@
+CLASS bvt net/minecraft/client/render/entity/EntityRendererPolarBear
+	FIELD a SKIN Lkq;
+	METHOD a getTexture (Lsm;)Lkq;
+		ARG 0 model
+	METHOD a (Lsm;DDDFF)V
+	METHOD a (Lsv;DDDFF)V
+	METHOD a (Lsw;DDDFF)V
+	METHOD a getTexture (Lxc;)Lkq;
+		ARG 0 model
+	METHOD a (Lxc;DDDFF)V

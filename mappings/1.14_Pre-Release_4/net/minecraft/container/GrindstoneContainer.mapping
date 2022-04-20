@@ -1,0 +1,21 @@
+CLASS ayu net/minecraft/container/GrindstoneContainer
+	CLASS ayu$4
+		METHOD a getExperience (Lbhf;)I
+			ARG 1 world
+		METHOD e getExperience (Lbbz;)I
+			ARG 1 stack
+	FIELD c resultInventory Lags;
+	FIELD d craftingInventory Lags;
+	FIELD e context Layk;
+	METHOD <init> (ILavv;)V
+		ARG 1 syncId
+	METHOD <init> (ILavv;Layk;)V
+		ARG 1 syncId
+	METHOD a grind (Lbbz;II)Lbbz;
+		ARG 1 item
+		ARG 2 damage
+		ARG 3 amount
+	METHOD b transferEnchantments (Lbbz;Lbbz;)Lbbz;
+		ARG 1 target
+		ARG 2 source
+	METHOD e updateResult ()V

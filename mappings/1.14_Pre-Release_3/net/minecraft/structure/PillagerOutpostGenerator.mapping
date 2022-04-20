@@ -1,0 +1,8 @@
+CLASS chz net/minecraft/structure/PillagerOutpostGenerator
+	CLASS chz$a Piece
+	METHOD a addPieces (Lbwu;Lcja;Lev;Ljava/util/List;Lbyw;)V
+		ARG 0 chunkGenerator
+		ARG 1 structureManager
+		ARG 2 pos
+		ARG 3 pieces
+		ARG 4 random

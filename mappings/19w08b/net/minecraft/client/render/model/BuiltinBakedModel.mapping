@@ -1,0 +1,8 @@
+CLASS drt net/minecraft/client/render/model/BuiltinBakedModel
+	FIELD a transformation Ldhr;
+	FIELD b itemPropertyOverrides Ldhp;
+	FIELD c sprite Ldqd;
+	METHOD <init> (Ldhr;Ldhp;Ldqd;)V
+		ARG 1 transformation
+		ARG 2 itemPropertyOverrides
+		ARG 3 sprite

@@ -1,0 +1,5 @@
+CLASS brs net/minecraft/client/sortme/IBlockStatePredicateFactory
+	FIELD a ANY Lbrs;
+	FIELD b NONE Lbrs;
+	METHOD a get (Latk;)Lcom/google/common/base/Predicate;
+		ARG 0 factory

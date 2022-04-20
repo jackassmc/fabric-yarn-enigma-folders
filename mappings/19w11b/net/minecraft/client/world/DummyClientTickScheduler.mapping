@@ -1,0 +1,3 @@
+CLASS bfo net/minecraft/client/world/DummyClientTickScheduler
+	FIELD a INSTANCE Lbfo;
+	METHOD a get ()Lbfo;

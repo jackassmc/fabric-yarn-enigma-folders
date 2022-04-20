@@ -1,0 +1,3 @@
+CLASS chn net/minecraft/sortme/rule/AbstractRuleTest
+	METHOD a getRuleTest ()Lcho;
+	METHOD a test (Lbtw;Ljava/util/Random;)Z

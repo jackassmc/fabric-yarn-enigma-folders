@@ -1,0 +1,21 @@
+CLASS aqo net/minecraft/entity/passive/AnimalEntity
+	FIELD bB spawningGround Lbmh;
+	FIELD by loveTicks I
+	FIELD bz lovingPlayer Ljava/util/UUID;
+	METHOD <init> (Laih;Lbhd;)V
+		ARG 1 type
+	METHOD a canBreedWith (Laqo;)Z
+		ARG 1 other
+	METHOD a eat (Lavu;Lbbx;)V
+		ARG 1 player
+		ARG 2 stack
+	METHOD dY canEat ()Z
+	METHOD dZ getLovingPlayer ()Lvg;
+	METHOD ea isInLove ()Z
+	METHOD eb resetLoveTicks ()V
+	METHOD f lovePlayer (Lavu;)V
+		ARG 1 player
+	METHOD i isBreedingItem (Lbbx;)Z
+		ARG 1 stack
+	METHOD q setLoveTicks (I)V
+		ARG 1 loveTicks

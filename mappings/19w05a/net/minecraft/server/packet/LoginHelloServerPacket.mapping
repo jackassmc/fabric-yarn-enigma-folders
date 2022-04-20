@@ -1,0 +1,2 @@
+CLASS pg net/minecraft/server/packet/LoginHelloServerPacket
+	METHOD b getProfile ()Lcom/mojang/authlib/GameProfile;

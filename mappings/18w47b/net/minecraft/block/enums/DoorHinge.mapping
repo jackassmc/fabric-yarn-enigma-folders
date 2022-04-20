@@ -1,0 +1,4 @@
+CLASS bpc net/minecraft/block/enums/DoorHinge
+	FIELD a LEFT Lbpc;
+	FIELD b RIGHT Lbpc;
+	METHOD m asString ()Ljava/lang/String;

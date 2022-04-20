@@ -1,0 +1,2 @@
+CLASS aie net/minecraft/entity/ai/control/ParrotMoveControl
+	METHOD a tick ()V

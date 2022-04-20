@@ -1,0 +1,270 @@
+CLASS none/sf net/minecraft/entity/Entity
+	CLASS none/sf$1
+		METHOD a upgradeTag (Lnone/pe;Lnone/dt;I)Lnone/dt;
+			ARG 0 handler
+			ARG 1 tag
+			ARG 2 version
+	FIELD F invalid Z
+	FIELD L fallDistance F
+	FIELD M prevRenderX D
+	FIELD N prevRenderY D
+	FIELD O prevRenderZ D
+	FIELD S rand Ljava/util/Random;
+	FIELD T age I
+	FIELD Z dataTracker Lnone/km;
+	FIELD aA BREATH Lnone/kj;
+	FIELD aB NAME Lnone/kj;
+	FIELD aC NAME_VISIBLE Lnone/kj;
+	FIELD aD SILENT Lnone/kj;
+	FIELD aE NO_GRAVITY Lnone/kj;
+	FIELD aF invulnerable Z
+	FIELD aG commandStats Lnone/o;
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD aa ENTITY_FLAGS Lnone/kj;
+	FIELD ac chunkX I
+	FIELD ad chunkY I
+	FIELD ae chunkZ I
+	FIELD aj velocityDirty Z
+	FIELD ak portalCooldown I
+	FIELD al inPortal Z
+	FIELD an dimensionId I
+	FIELD ar uuid Ljava/util/UUID;
+	FIELD as uuidString Ljava/lang/String;
+	FIELD at glowing Z
+	FIELD au passengerList Ljava/util/List;
+	FIELD av vehicle Lnone/sf;
+	FIELD aw boundingBox Lnone/bcr;
+	FIELD az fireTimer I
+	FIELD b EMPTY_STACK_LIST Ljava/util/List;
+	FIELD c NULL_BOX Lnone/bcr;
+	FIELD g maxEntityId I
+	FIELD h entityId I
+	FIELD l world Lnone/aiv;
+	FIELD m prevX D
+	FIELD n prevY D
+	FIELD o prevZ D
+	FIELD p x D
+	FIELD q y D
+	FIELD r z D
+	FIELD s velocityX D
+	FIELD t velocityY D
+	FIELD u velocityZ D
+	FIELD v yaw F
+	FIELD w pitch F
+	FIELD x prevYaw F
+	FIELD y prevPitch F
+	FIELD z onGround Z
+	METHOD <init> (Lnone/aiv;)V
+		ARG 0 world
+	METHOD H updatePortalCooldown ()V
+	METHOD O getEntityId ()I
+	METHOD R getDataTracker ()Lnone/km;
+	METHOD T invalidate ()V
+	METHOD X extinguish ()V
+	METHOD a setPositionAnglesAndUpdate (DDDFF)V
+		ARG 0 x
+		ARG 1 y
+		ARG 2 z
+		ARG 3 yaw
+		ARG 4 pitch
+	METHOD a hasPermission (ILjava/lang/String;)Z
+		ARG 0 permissionLevel
+		ARG 1 commandName
+	METHOD a setUuid (Ljava/util/UUID;)V
+		ARG 0 uuid
+	METHOD a interact (Lnone/aal;Lnone/bcu;Lnone/ra;)Lnone/rc;
+		ARG 0 player
+		ARG 1 hitPos
+		ARG 2 hand
+	METHOD a dropStack (Lnone/aep;I)Lnone/yz;
+		ARG 0 item
+		ARG 1 amount
+	METHOD a dropStack (Lnone/aep;IF)Lnone/yz;
+		ARG 0 item
+		ARG 1 amount
+		ARG 2 yOffset
+	METHOD a dropStack (Lnone/aer;F)Lnone/yz;
+		ARG 0 stack
+		ARG 1 yOffset
+	METHOD a getEffectiveExplosionResistance (Lnone/aiq;Lnone/aiv;Lnone/cn;Lnone/asl;)F
+		ARG 0 explosion
+		ARG 1 world
+		ARG 2 pos
+		ARG 3 state
+	METHOD a canExplosionDestroyBlock (Lnone/aiq;Lnone/aiv;Lnone/cn;Lnone/asl;F)Z
+		ARG 0 explosion
+		ARG 1 world
+		ARG 2 pos
+		ARG 3 state
+		ARG 4 power
+	METHOD a setWorld (Lnone/aiv;)V
+		ARG 0 world
+	METHOD a applyMirror (Lnone/anx;)F
+		ARG 0 mirror
+	METHOD a applyRotation (Lnone/apk;)F
+		ARG 0 rotation
+	METHOD a addCrashInformation (Lnone/c;)V
+		ARG 0 element
+	METHOD a setPositionAndAngles (Lnone/cn;FF)V
+		ARG 0 pos
+		ARG 1 yaw
+		ARG 2 pitch
+	METHOD a deserializeCustomData (Lnone/dt;)V
+		ARG 0 tag
+	METHOD a appendCommandFeedback (Lnone/fa;)V
+		ARG 0 component
+	METHOD a onTrackedDataSet (Lnone/kj;)V
+		ARG 0 data
+	METHOD a playSoundAtEntity (Lnone/nk;FF)V
+		ARG 0 sound
+		ARG 1 volume
+		ARG 2 pitch
+	METHOD a updateCommandStat (Lnone/o$a;I)V
+		ARG 0 statType
+		ARG 1 statValue
+	METHOD a registerTagUpdaters (Lnone/pf;)V
+	METHOD a damage (Lnone/rq;F)Z
+		ARG 0 source
+		ARG 1 damage
+	METHOD a setEquippedStack (Lnone/sk;Lnone/aer;)V
+		ARG 0 slot
+		ARG 1 stack
+	METHOD a onStruckByLightning (Lnone/yw;)V
+		ARG 0 lightning
+	METHOD a toTagList ([D)Lnone/dz;
+		ARG 0 values
+	METHOD a toTagList ([F)Lnone/dz;
+		ARG 0 values
+	METHOD aE getDefaultPortalCooldown ()I
+	METHOD aG getItemsHand ()Ljava/lang/Iterable;
+	METHOD aH getItemsArmor ()Ljava/lang/Iterable;
+	METHOD aI getItemsEquipped ()Ljava/lang/Iterable;
+	METHOD aJ isOnFire ()Z
+	METHOD aK hasVehicle ()Z
+	METHOD aL hasPassengers ()Z
+	METHOD aM isSneaking ()Z
+	METHOD aO isGlowing ()Z
+	METHOD aP isInvisible ()Z
+	METHOD aR getBreath ()I
+	METHOD aU getHeadPitch ()F
+	METHOD aa getSoundSwim ()Lnone/nk;
+	METHOD ab getSoundSplash ()Lnone/nk;
+	METHOD ad isSilent ()Z
+	METHOD ae isUnaffectedByGravity ()Z
+	METHOD au isValid ()Z
+	METHOD b setPosition (DDD)V
+		ARG 0 x
+		ARG 1 y
+		ARG 2 z
+	METHOD b setPositionAndAngles (DDDFF)V
+		ARG 0 x
+		ARG 1 y
+		ARG 2 z
+		ARG 3 yaw
+		ARG 4 pitch
+	METHOD b setYawAndPitch (FF)V
+		ARG 0 yaw
+		ARG 1 pitch
+	METHOD b setEntityFlag (IZ)V
+		ARG 0 index
+		ARG 1 value
+	METHOD b interact (Lnone/aal;Lnone/ra;)Z
+		ARG 0 player
+		ARG 1 hand
+	METHOD b serializeCustomData (Lnone/dt;)V
+		ARG 0 tag
+	METHOD b isInvulnerableTo (Lnone/rq;)Z
+		ARG 0 source
+	METHOD bB getVehicle ()Lnone/sf;
+	METHOD bC getSoundCategory ()Lnone/nm;
+	METHOD be getUuid ()Ljava/util/UUID;
+	METHOD bf getUuidAsString ()Ljava/lang/String;
+	METHOD bi getCustomName ()Ljava/lang/String;
+	METHOD bj isCustomNameVisible ()Z
+	METHOD bl getHorizontalFacing ()Lnone/cu;
+	METHOD bo getBoundingBox ()Lnone/bcr;
+	METHOD bs getCommandStats ()Lnone/o;
+	METHOD bt isImmuneToExplosion ()Z
+	METHOD bx getPassengerList ()Ljava/util/List;
+	METHOD c getBlockPos ()Lnone/cn;
+	METHOD c changeDimension (I)Lnone/sf;
+		ARG 0 dimensionId
+	METHOD c setCustomName (Ljava/lang/String;)V
+		ARG 0 value
+	METHOD c squaredDistanceTo (Lnone/cn;)D
+		ARG 0 pos
+	METHOD c setSilent (Z)V
+		ARG 0 value
+	METHOD d getPos ()Lnone/bcu;
+	METHOD d move (DDD)V
+	METHOD d squaredDistanceToCenter (Lnone/cn;)D
+		ARG 0 pos
+	METHOD d setUnaffectedByGravity (Z)V
+		ARG 0 value
+	METHOD e getWorld ()Lnone/aiv;
+	METHOD e squaredDistanceTo (DDD)D
+		ARG 0 x
+		ARG 1 y
+		ARG 2 z
+	METHOD e handleFallDamage (FF)V
+		ARG 0 fallDistance
+	METHOD e serialize (Lnone/dt;)Lnone/dt;
+		ARG 0 tag
+	METHOD e setSneaking (Z)V
+		ARG 0 value
+	METHOD equals (Ljava/lang/Object;)Z
+		ARG 0 other
+	METHOD f getEntity ()Lnone/sf;
+	METHOD f distanceTo (DDD)D
+		ARG 0 x
+		ARG 1 y
+		ARG 2 z
+	METHOD f deserialize (Lnone/dt;)V
+		ARG 0 tag
+	METHOD g shouldEchoCommandFeedback ()Z
+	METHOD g addVelocity (DDD)V
+		ARG 0 deltaX
+		ARG 1 deltaY
+		ARG 2 deltaZ
+	METHOD g distanceTo (Lnone/sf;)F
+		ARG 0 entity
+	METHOD g setGlowing (Z)V
+		ARG 0 value
+	METHOD h setHeadPitch (F)V
+		ARG 0 value
+	METHOD h setEntityId (I)V
+		ARG 0 value
+	METHOD h squaredDistanceTo (Lnone/sf;)D
+		ARG 0 entity
+	METHOD h setInvisible (Z)V
+		ARG 0 value
+	METHOD h_ getName ()Ljava/lang/String;
+	METHOD i initDataTracker ()V
+	METHOD i setVelocityClient (DDD)V
+		ARG 0 x
+		ARG 1 y
+		ARG 2 z
+	METHOD i setOnFireFor (I)V
+		ARG 0 seconds
+	METHOD i setInvulnerable (Z)V
+		ARG 0 value
+	METHOD i_ getNameComponent ()Lnone/fa;
+	METHOD j setCustomNameVisible (Z)V
+		ARG 0 value
+	METHOD k getEntityFlag (I)Z
+		ARG 0 index
+	METHOD l setBreath (I)V
+		ARG 0 value
+	METHOD n_ hasCustomName ()Z
+	METHOD o startRiding (Lnone/sf;)V
+		ARG 0 entity
+	METHOD o_ getPistonBehavior ()Lnone/ayt;
+	METHOD p dismountVehicle ()V
+	METHOD p stopRiding (Lnone/sf;)V
+		ARG 0 entity
+	METHOD u setPositionAndAngles (Lnone/sf;)V
+		ARG 0 other
+	METHOD w hasPassenger (Lnone/sf;)Z
+		ARG 0 entity
+	METHOD y_ update ()V
+	METHOD z_ getServer ()Lnet/minecraft/server/MinecraftServer;

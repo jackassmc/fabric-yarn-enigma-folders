@@ -1,0 +1,3 @@
+CLASS ay net/minecraft/advancement/criterion/ImpossibleCriterion
+	CLASS ay$a net/minecraft/advancement/criterion/ImpossibleCriterion$Conditions
+	FIELD a ID Lqp;

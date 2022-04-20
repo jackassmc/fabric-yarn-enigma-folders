@@ -1,0 +1,45 @@
+CLASS dce net/minecraft/client/gui/screen/multiplayer/MultiplayerServerListWidget
+	CLASS a Entry
+	CLASS b ScanningEntry
+		FIELD a client Lcvp;
+	CLASS c LanServerListEntry
+		FIELD a client Lcvp;
+		FIELD b server Ldxq;
+		FIELD c screen Ldcd;
+		FIELD d time J
+		METHOD <init> (Ldcd;Ldxq;)V
+			ARG 1 screen
+			ARG 2 server
+		METHOD a getLanServerEntry ()Ldxq;
+		METHOD mouseClicked (DDI)Z
+			ARG 1 mouseX
+			ARG 3 mouseY
+			ARG 5 button
+	CLASS d ServerItem
+		FIELD b screen Ldcd;
+		FIELD c client Lcvp;
+		FIELD d server Ldhv;
+		FIELD e iconLocation Lqt;
+		FIELD g iconTexture Ldue;
+		FIELD h time J
+		METHOD <init> (Ldce;Ldcd;Ldhv;)V
+			ARG 2 screen
+			ARG 3 server
+		METHOD a getServer ()Ldhv;
+		METHOD mouseClicked (DDI)Z
+			ARG 1 mouseX
+			ARG 3 mouseY
+			ARG 5 button
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD e screen Ldcd;
+	FIELD f serverItems Ljava/util/List;
+	FIELD g scanningEntry Ldce$a;
+	FIELD h serverEntries Ljava/util/List;
+	METHOD <init> (Ldcd;Lcvp;IIIII)V
+		ARG 1 screen
+		ARG 2 client
+		ARG 3 width
+		ARG 4 height
+		ARG 5 top
+		ARG 6 bottom
+		ARG 7 entryHeight

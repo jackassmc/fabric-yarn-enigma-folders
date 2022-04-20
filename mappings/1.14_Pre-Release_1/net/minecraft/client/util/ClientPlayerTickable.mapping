@@ -1,0 +1,2 @@
+CLASS dwa net/minecraft/client/util/ClientPlayerTickable
+	METHOD a tick ()V

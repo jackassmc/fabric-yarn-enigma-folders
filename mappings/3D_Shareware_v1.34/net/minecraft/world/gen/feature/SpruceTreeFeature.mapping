@@ -1,0 +1,6 @@
+CLASS cdv net/minecraft/world/gen/feature/SpruceTreeFeature
+	FIELD a LOG Lbuy;
+	FIELD aS LEAVES Lbuy;
+	METHOD <init> (Ljava/util/function/Function;Z)V
+		ARG 1 configFactory
+		ARG 2 emitNeighborBlockUpdates

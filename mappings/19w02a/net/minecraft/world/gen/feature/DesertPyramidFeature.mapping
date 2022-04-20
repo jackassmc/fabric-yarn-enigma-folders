@@ -1,0 +1,8 @@
+CLASS bvm net/minecraft/world/gen/feature/DesertPyramidFeature
+	CLASS bvm$a
+		METHOD <init> (Lbzc;IILbde;Lccj;IJ)V
+			ARG 2 chunkX
+			ARG 3 chunkZ
+	METHOD <init> (Ljava/util/function/Function;)V
+		ARG 1 configFactory
+	METHOD b getName ()Ljava/lang/String;

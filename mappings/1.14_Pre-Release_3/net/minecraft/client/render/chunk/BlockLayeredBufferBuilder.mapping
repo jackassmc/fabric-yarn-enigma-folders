@@ -1,0 +1,4 @@
+CLASS djx net/minecraft/client/render/chunk/BlockLayeredBufferBuilder
+	FIELD a layerBuilders [Lcuf;
+	METHOD a get (I)Lcuf;
+	METHOD a get (Lbgp;)Lcuf;

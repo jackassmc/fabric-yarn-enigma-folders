@@ -1,0 +1,9 @@
+CLASS dfl net/minecraft/client/particle/EmitterParticle
+	FIELD D entity Lahm;
+	FIELD E emitterAge I
+	FIELD F maxEmitterAge I
+	FIELD G parameters Lfz;
+	METHOD <init> (Lbdf;Lahm;Lfz;)V
+		ARG 1 world
+		ARG 2 entity
+		ARG 3 parameters

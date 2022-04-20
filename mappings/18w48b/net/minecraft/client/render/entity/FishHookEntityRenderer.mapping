@@ -1,0 +1,4 @@
+CLASS dha net/minecraft/client/render/entity/FishHookEntityRenderer
+	FIELD a TEX Lpy;
+	METHOD a getTexture (Lagi;)Lpy;
+	METHOD a getTexture (Laof;)Lpy;

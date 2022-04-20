@@ -1,0 +1,8 @@
+CLASS aju net/minecraft/entity/ai/goal/VillagerBreedGoal
+	FIELD a owner Larc;
+	FIELD b mate Larc;
+	FIELD c world Lbcq;
+	FIELD d delay I
+	FIELD e foundVillage Lama;
+	METHOD g needsMoreVillager ()Z
+	METHOD i spawnBabyVillager ()V

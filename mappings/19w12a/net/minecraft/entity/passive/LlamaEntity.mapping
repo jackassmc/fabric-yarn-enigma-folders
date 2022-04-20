@@ -1,0 +1,11 @@
+CLASS aqv net/minecraft/entity/passive/LlamaEntity
+	FIELD bK ATTR_STRENGTH Lqf;
+	FIELD bM ATTR_VARIANT Lqf;
+	METHOD eC isFollowing ()Z
+	METHOD eD getFollowing ()Laqv;
+	METHOD ev isTrader ()Z
+	METHOD ew getStrength ()I
+	METHOD ex getVariant ()I
+	METHOD ez createChild ()Laqv;
+	METHOD u setVariant (I)V
+	METHOD v setStrength (I)V

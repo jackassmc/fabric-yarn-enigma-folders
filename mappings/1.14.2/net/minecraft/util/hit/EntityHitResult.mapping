@@ -1,0 +1,8 @@
+CLASS cru net/minecraft/util/hit/EntityHitResult
+	FIELD b entity Laii;
+	METHOD <init> (Laii;)V
+		ARG 1 entity
+	METHOD <init> (Laii;Lcrx;)V
+		ARG 1 entity
+		ARG 2 pos
+	METHOD a getEntity ()Laii;

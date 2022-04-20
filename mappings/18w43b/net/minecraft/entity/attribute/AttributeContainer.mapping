@@ -1,0 +1,14 @@
+CLASS agi net/minecraft/entity/attribute/AttributeContainer
+	FIELD d instancesByName Ljava/util/Map;
+	METHOD a get (Lagc;)Lagd;
+		ARG 0 attribute
+	METHOD a get (Ljava/lang/String;)Lagd;
+		ARG 0 name
+	METHOD b register (Lagc;)Lagd;
+		ARG 0 attribute
+	METHOD b get (Ljava/lang/String;)Lagh;
+		ARG 0 name
+	METHOD c createInstance (Lagc;)Lagd;
+		ARG 0 attribute
+	METHOD e get (Lagc;)Lagh;
+		ARG 0 attribute

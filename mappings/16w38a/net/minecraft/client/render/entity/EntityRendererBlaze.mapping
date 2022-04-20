@@ -1,0 +1,6 @@
+CLASS bsq net/minecraft/client/render/entity/EntityRendererBlaze
+	FIELD a SKIN Lkp;
+	METHOD a getTexture (Lsg;)Lkp;
+		ARG 0 model
+	METHOD a getTexture (Lze;)Lkp;
+		ARG 0 model

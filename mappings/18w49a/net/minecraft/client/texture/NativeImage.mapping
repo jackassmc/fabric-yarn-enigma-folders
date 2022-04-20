@@ -1,0 +1,43 @@
+CLASS cmx net/minecraft/client/texture/NativeImage
+	CLASS cmx$a Format
+		FIELD e bytesPerPixel I
+		METHOD a getBytesPerPixel ()I
+	FIELD b imageFormat Lcmx$a;
+	FIELD c width I
+	FIELD d height I
+	FIELD f pointer J
+	FIELD g sizeBytes I
+	METHOD <init> (Lcmx$a;IIZJ)V
+		ARG 2 width
+		ARG 3 height
+	METHOD a getWidth ()I
+	METHOD a getPixelRGBA (II)I
+		ARG 1 x
+	METHOD a setPixelRGBA (III)V
+		ARG 1 x
+		ARG 2 y
+	METHOD a fillRGBA (IIIII)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 width
+		ARG 4 height
+	METHOD a upload (IIIIIIIZ)V
+	METHOD a upload (IIIIIIIZZZ)V
+	METHOD a resizeSubRectTo (IIIILcmx;)V
+	METHOD a upload (IIIZ)V
+	METHOD a fromInputStream (Lcmx$a;Ljava/io/InputStream;)Lcmx;
+	METHOD a fromByteBuffer (Lcmx$a;Ljava/nio/ByteBuffer;)Lcmx;
+	METHOD a writeFile (Ljava/io/File;)V
+	METHOD a fromInputStream (Ljava/io/InputStream;)Lcmx;
+	METHOD a writeFile (Ljava/lang/String;)V
+	METHOD a fromByteBuffer (Ljava/nio/ByteBuffer;)Lcmx;
+	METHOD a writeFile (Ljava/nio/file/Path;)V
+	METHOD b getHeight ()I
+	METHOD b blendPixel (III)V
+	METHOD b fromBase64 (Ljava/lang/String;)Lcmx;
+		ARG 0 string
+	METHOD b setTextureClamp (Z)V
+		ARG 0 clamp
+	METHOD c getFormat ()Lcmx$a;
+	METHOD d makePixelArray ()[I
+	METHOD g checkAllocated ()V

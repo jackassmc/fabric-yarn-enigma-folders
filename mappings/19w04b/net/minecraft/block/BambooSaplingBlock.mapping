@@ -1,0 +1,4 @@
+CLASS bgx net/minecraft/block/BambooSaplingBlock
+	FIELD a SHAPE Lcnl;
+	METHOD <init> (Lbhn$c;)V
+		ARG 1 settings

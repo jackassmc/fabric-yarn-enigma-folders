@@ -1,0 +1,8 @@
+CLASS akl net/minecraft/entity/ai/goal/CrossbowAttackGoal
+	FIELD a entity Laqd;
+	METHOD <init> (Laqd;DF)V
+		ARG 1 entity
+	METHOD a canStart ()Z
+	METHOD b shouldContinue ()Z
+	METHOD d onRemove ()V
+	METHOD e tick ()V

@@ -1,0 +1,2 @@
+CLASS awr net/minecraft/item/block/SignItem
+	METHOD a afterBlockPlaced (Let;Lbas;Laql;Lavu;Lbom;)Z

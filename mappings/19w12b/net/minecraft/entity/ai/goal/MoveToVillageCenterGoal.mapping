@@ -1,0 +1,5 @@
+CLASS ane net/minecraft/entity/ai/goal/MoveToVillageCenterGoal
+	FIELD a owner Laio;
+	FIELD b searchRange I
+	FIELD c villageCenter Lev;
+	METHOD g findOtherWaypoint ()V

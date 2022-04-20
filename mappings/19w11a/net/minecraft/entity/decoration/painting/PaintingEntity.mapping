@@ -1,0 +1,5 @@
+CLASS ary net/minecraft/entity/decoration/painting/PaintingEntity
+	FIELD e motive Larx;
+	METHOD <init> (Lbfy;Leu;Lez;)V
+		ARG 1 world
+		ARG 2 pos

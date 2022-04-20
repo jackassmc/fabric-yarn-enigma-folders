@@ -1,0 +1,2 @@
+CLASS bgx net/minecraft/client/render/item/IItemColorMapper
+	METHOD a getColor (Lahf;I)I

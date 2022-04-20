@@ -1,0 +1,2 @@
+CLASS qq net/minecraft/util/Tickable
+	METHOD aa_ tick ()V

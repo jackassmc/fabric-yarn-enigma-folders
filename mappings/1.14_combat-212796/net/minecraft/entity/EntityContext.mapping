@@ -1,0 +1,11 @@
+CLASS csh net/minecraft/entity/EntityContext
+	METHOD a absent ()Lcsh;
+	METHOD a of (Lail;)Lcsh;
+		ARG 0 entity
+	METHOD a isHolding (Lbbz;)Z
+		ARG 1 item
+	METHOD a isAbove (Lcsw;Lev;Z)Z
+		ARG 1 shape
+		ARG 2 pos
+		ARG 3 defaultValue
+	METHOD b isSneaking ()Z

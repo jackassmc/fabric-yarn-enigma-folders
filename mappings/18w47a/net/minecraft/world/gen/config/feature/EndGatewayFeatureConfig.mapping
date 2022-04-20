@@ -1,0 +1,5 @@
+CLASS bua net/minecraft/world/gen/config/feature/EndGatewayFeatureConfig
+	FIELD a exitsAtSpawn Z
+	METHOD a exitsAtSpawn ()Z
+	METHOD a make (Lcom/mojang/datafixers/Dynamic;)Lbua;
+		ARG 0 dynamic

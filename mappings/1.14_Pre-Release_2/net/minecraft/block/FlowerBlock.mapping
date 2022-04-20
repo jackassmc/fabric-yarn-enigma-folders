@@ -1,0 +1,8 @@
+CLASS boh net/minecraft/block/FlowerBlock
+	FIELD a SHAPE Lcsi;
+	FIELD b effectInStew Lahv;
+	FIELD c effectInStewDuration I
+	METHOD <init> (Lahv;ILbme$c;)V
+		ARG 1 suspiciousStewEffect
+	METHOD d getEffectInStew ()Lahv;
+	METHOD e getEffectInStewDuration ()I

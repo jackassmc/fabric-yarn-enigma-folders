@@ -1,0 +1,5 @@
+CLASS ayt net/minecraft/enchantment/InfoEnchantment
+	FIELD b enchantment Layq;
+	FIELD c level I
+	METHOD <init> (Layq;I)V
+		ARG 1 enchantment

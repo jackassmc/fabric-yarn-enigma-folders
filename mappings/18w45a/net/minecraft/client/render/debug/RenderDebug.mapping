@@ -1,0 +1,12 @@
+CLASS ddj net/minecraft/client/render/debug/RenderDebug
+	CLASS ddj$a DebugRenderer
+		METHOD a render (FJ)V
+	FIELD b renderDebugWater Lddj$a;
+	FIELD c renderDebugChunkBorder Lddj$a;
+	FIELD d renderDebugHeightMap Lddj$a;
+	FIELD m showChunkBorder Z
+	FIELD n showPathfinding Z
+	FIELD o showWater Z
+	FIELD p showHeightmap Z
+	METHOD a renderDebuggers (FJ)V
+	METHOD b toggleShowChunkBorder ()Z

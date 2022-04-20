@@ -1,0 +1,3 @@
+CLASS csa net/minecraft/util/shape/SimpleVoxelShape
+	METHOD <init> (Lcsc;)V
+		ARG 1 shape

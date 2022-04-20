@@ -1,0 +1,14 @@
+CLASS csi net/minecraft/client/toast/ToastManager
+	CLASS csi$a Entry
+		FIELD b instance Lcsh;
+		METHOD <init> (Lcsi;Lcsh;)V
+			ARG 1 instance
+		METHOD a getInstance ()Lcsh;
+		METHOD a draw (II)Z
+	FIELD a client Lcqd;
+	FIELD f visibleEntries [Lcsi$a;
+	FIELD g toastQueue Ljava/util/Deque;
+	METHOD a draw ()V
+	METHOD a add (Lcsh;)V
+	METHOD b clear ()V
+	METHOD c getGame ()Lcqd;

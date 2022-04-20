@@ -1,0 +1,7 @@
+CLASS crp net/minecraft/entity/VerticalEntityPosition
+	METHOD a minValue ()Lcrp;
+	METHOD a fromEntity (Lahz;)Lcrp;
+		ARG 0 entity
+	METHOD a isAboveBlock (Lcse;Lev;Z)Z
+		ARG 1 shape
+	METHOD b isSneaking ()Z

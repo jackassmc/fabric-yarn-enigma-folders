@@ -1,0 +1,16 @@
+CLASS km net/minecraft/network/packet/client/CPacketCooldownUpdate
+	FIELD a item Latx;
+	FIELD b cooldown I
+	METHOD <init> (Latx;I)V
+		ARG 0 item
+		ARG 1 cooldown
+	METHOD a readPacket (Lim;)V
+		ARG 0 buf
+	METHOD a applyPacket (Lip;)V
+		ARG 0 handler
+	METHOD a applyPacket (Ljn;)V
+		ARG 0 handler
+	METHOD b getItem ()Latx;
+	METHOD b writePacket (Lim;)V
+		ARG 0 buf
+	METHOD c getCooldown ()I

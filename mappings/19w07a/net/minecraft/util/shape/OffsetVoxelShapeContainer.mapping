@@ -1,0 +1,16 @@
+CLASS cnz net/minecraft/util/shape/OffsetVoxelShapeContainer
+	FIELD d parent Lcnp;
+	FIELD e xMin I
+	FIELD f yMin I
+	FIELD g zMin I
+	FIELD h xMax I
+	FIELD i yMax I
+	FIELD j zMax I
+	METHOD <init> (Lcnp;IIIIII)V
+		ARG 1 parent
+		ARG 2 xMin
+		ARG 3 yMin
+		ARG 4 zMin
+		ARG 5 xMax
+		ARG 6 yMax
+		ARG 7 zMax

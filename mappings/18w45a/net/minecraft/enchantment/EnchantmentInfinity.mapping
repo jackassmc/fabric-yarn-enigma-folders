@@ -1,0 +1,3 @@
+CLASS axv net/minecraft/enchantment/EnchantmentInfinity
+	METHOD a getHighestLevel ()I
+	METHOD a differs (Layc;)Z

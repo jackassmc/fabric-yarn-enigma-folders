@@ -1,0 +1,137 @@
+CLASS bdp net/minecraft/world/biome/DefaultBiomeFeatures
+	METHOD A addMountainTrees (Lbdo;)V
+		ARG 0 biome
+	METHOD B addExtraMountainTrees (Lbdo;)V
+		ARG 0 biome
+	METHOD C addJungleTrees (Lbdo;)V
+		ARG 0 biome
+	METHOD D addJungleEdgeTrees (Lbdo;)V
+		ARG 0 biome
+	METHOD E addBadlandsPlateauTrees (Lbdo;)V
+		ARG 0 biome
+	METHOD F addSnowySpruceTrees (Lbdo;)V
+		ARG 0 biome
+	METHOD G addGiantSpruceTaigaTrees (Lbdo;)V
+		ARG 0 biome
+	METHOD H addGiantTreeTaigaTrees (Lbdo;)V
+		ARG 0 biome
+	METHOD I addJungleGrass (Lbdo;)V
+		ARG 0 biome
+	METHOD J addSavannaTallGrass (Lbdo;)V
+		ARG 0 biome
+	METHOD K addShatteredSavanaGrass (Lbdo;)V
+		ARG 0 biome
+	METHOD L addSavannaGrass (Lbdo;)V
+		ARG 0 biome
+	METHOD M addBadlandsGrass (Lbdo;)V
+		ARG 0 biome
+	METHOD N addForestFlowers (Lbdo;)V
+		ARG 0 biome
+	METHOD O addForestGrass (Lbdo;)V
+		ARG 0 biome
+	METHOD P addSwampFeatures (Lbdo;)V
+		ARG 0 biome
+	METHOD Q addMushroomFieldsFeatures (Lbdo;)V
+		ARG 0 biome
+	METHOD R addPlainsFeatures (Lbdo;)V
+		ARG 0 biome
+	METHOD S addDesertDeadBushes (Lbdo;)V
+		ARG 0 biome
+	METHOD T addGiantTaigaGrass (Lbdo;)V
+		ARG 0 biome
+	METHOD U addDefaultFlowers (Lbdo;)V
+		ARG 0 biome
+	METHOD V addExtraDefaultFlowers (Lbdo;)V
+		ARG 0 biome
+	METHOD W addDefaultGrass (Lbdo;)V
+		ARG 0 biome
+	METHOD X addTaigaGrass (Lbdo;)V
+		ARG 0 biome
+	METHOD Y addPlainsTallGrass (Lbdo;)V
+		ARG 0 biome
+	METHOD Z addDefaultMushrooms (Lbdo;)V
+		ARG 0 biome
+	METHOD a addLandCarvers (Lbdo;)V
+		ARG 0 biome
+	METHOD aa addDefaultVegetation (Lbdo;)V
+		ARG 0 biome
+	METHOD ab addBadlandsVegetation (Lbdo;)V
+		ARG 0 biome
+	METHOD ac addJungleVegetation (Lbdo;)V
+		ARG 0 biome
+	METHOD ad addDesertVegetation (Lbdo;)V
+		ARG 0 biome
+	METHOD ae addSwampVegetation (Lbdo;)V
+		ARG 0 biome
+	METHOD af addDesertFeatures (Lbdo;)V
+		ARG 0 biome
+	METHOD ag addFossils (Lbdo;)V
+		ARG 0 biome
+	METHOD ah addKelp (Lbdo;)V
+		ARG 0 biome
+	METHOD ai addSeagrassOnStone (Lbdo;)V
+		ARG 0 biome
+	METHOD aj addSeagrass (Lbdo;)V
+		ARG 0 biome
+	METHOD ak addMoreSeagrass (Lbdo;)V
+		ARG 0 biome
+	METHOD al addLessKelp (Lbdo;)V
+		ARG 0 biome
+	METHOD am addSprings (Lbdo;)V
+		ARG 0 biome
+	METHOD an addIcebergs (Lbdo;)V
+		ARG 0 biome
+	METHOD ao addBlueIce (Lbdo;)V
+		ARG 0 biome
+	METHOD ap addFrozenTopLayer (Lbdo;)V
+		ARG 0 biome
+	METHOD b addOceanCarvers (Lbdo;)V
+		ARG 0 biome
+	METHOD c addDefaultStructures (Lbdo;)V
+		ARG 0 biome
+	METHOD d addDefaultLakes (Lbdo;)V
+		ARG 0 biome
+	METHOD e addDesertLakes (Lbdo;)V
+		ARG 0 biome
+	METHOD f addDungeons (Lbdo;)V
+		ARG 0 biome
+	METHOD g addMineables (Lbdo;)V
+		ARG 0 biome
+	METHOD h addDefaultOres (Lbdo;)V
+		ARG 0 biome
+	METHOD i addExtraGoldOre (Lbdo;)V
+		ARG 0 biome
+	METHOD j addEmeraldOre (Lbdo;)V
+		ARG 0 biome
+	METHOD k addInfestedStone (Lbdo;)V
+		ARG 0 biome
+	METHOD l addDefaultDisks (Lbdo;)V
+		ARG 0 biome
+	METHOD m addClay (Lbdo;)V
+		ARG 0 biome
+	METHOD n addMossyRocks (Lbdo;)V
+		ARG 0 biome
+	METHOD o addLargeFerns (Lbdo;)V
+		ARG 0 biome
+	METHOD p addSweetBerryBushesSnowy (Lbdo;)V
+		ARG 0 biome
+	METHOD q addSweetBerryBushes (Lbdo;)V
+		ARG 0 biome
+	METHOD r addBamboo (Lbdo;)V
+		ARG 0 biome
+	METHOD s addBambooJungleTrees (Lbdo;)V
+		ARG 0 biome
+	METHOD t addTaigaTrees (Lbdo;)V
+		ARG 0 biome
+	METHOD u addWaterBiomeOakTrees (Lbdo;)V
+		ARG 0 biome
+	METHOD v addBirchTrees (Lbdo;)V
+		ARG 0 biome
+	METHOD w addForestTrees (Lbdo;)V
+		ARG 0 biome
+	METHOD x addTallBirchTrees (Lbdo;)V
+		ARG 0 biome
+	METHOD y addSavannaTrees (Lbdo;)V
+		ARG 0 biome
+	METHOD z addExtraSavannaTrees (Lbdo;)V
+		ARG 0 biome

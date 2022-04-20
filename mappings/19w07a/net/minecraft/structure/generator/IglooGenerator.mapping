@@ -1,0 +1,9 @@
+CLASS cdh net/minecraft/structure/generator/IglooGenerator
+	CLASS cdh$a Piece
+		FIELD d template Lqh;
+		FIELD e rotation Lbmn;
+		METHOD a (Lbdc;Ljava/util/Random;Lcdd;Lbco;)Z
+			ARG 2 random
+	FIELD a TOP_TEMPLATE Lqh;
+	FIELD b MIDDLE_TEMPLATE Lqh;
+	FIELD c BOTTOM_TEMPLATE Lqh;

@@ -1,0 +1,58 @@
+CLASS hg net/minecraft/data/server/recipe/ShapelessRecipeJsonFactory
+	CLASS hg$a net/minecraft/data/server/recipe/ShapelessRecipeJsonFactory$ShapelessRecipeJsonProvider
+		FIELD a recipeId Lqp;
+		FIELD b output Lbam;
+		FIELD c count I
+		FIELD d group Ljava/lang/String;
+		FIELD e inputs Ljava/util/List;
+		FIELD f builder Lp$a;
+		FIELD g advancementId Lqp;
+		METHOD <init> (Lqp;Lbam;ILjava/lang/String;Ljava/util/List;Lp$a;Lqp;)V
+			ARG 1 recipeId
+			ARG 2 output
+			ARG 3 outputCount
+			ARG 4 group
+			ARG 5 inputs
+			ARG 6 builder
+			ARG 7 advancementId
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD b output Lbam;
+	FIELD c outputCount I
+	FIELD d inputs Ljava/util/List;
+	FIELD e builder Lp$a;
+	FIELD f group Ljava/lang/String;
+	METHOD <init> (Lbfx;I)V
+		ARG 1 itemProvider
+		ARG 2 outputCount
+	METHOD a input (Lbcx;)Lhg;
+		ARG 1 ingredient
+	METHOD a input (Lbcx;I)Lhg;
+		ARG 1 ingredient
+		ARG 2 size
+	METHOD a create (Lbfx;)Lhg;
+		ARG 0 output
+	METHOD a create (Lbfx;I)Lhg;
+		ARG 0 output
+		ARG 1 outputCount
+	METHOD a group (Ljava/lang/String;)Lhg;
+		ARG 1 group
+	METHOD a criterion (Ljava/lang/String;Lx;)Lhg;
+		ARG 1 criterionName
+		ARG 2 conditions
+	METHOD a offerTo (Ljava/util/function/Consumer;)V
+		ARG 1 exporter
+	METHOD a offerTo (Ljava/util/function/Consumer;Ljava/lang/String;)V
+		ARG 1 exporter
+		ARG 2 recipeIdStr
+	METHOD a offerTo (Ljava/util/function/Consumer;Lqp;)V
+		ARG 1 exporter
+		ARG 2 recipeId
+	METHOD a validate (Lqp;)V
+		ARG 1 recipeId
+	METHOD a input (Lyx;)Lhg;
+		ARG 1 tag
+	METHOD b input (Lbfx;)Lhg;
+		ARG 1 itemProvider
+	METHOD b input (Lbfx;I)Lhg;
+		ARG 1 itemProvider
+		ARG 2 size

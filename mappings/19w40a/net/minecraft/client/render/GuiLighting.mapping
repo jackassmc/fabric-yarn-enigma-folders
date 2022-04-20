@@ -1,0 +1,4 @@
+CLASS net/minecraft/class_308 net/minecraft/client/render/GuiLighting
+	METHOD method_1450 disable ()V
+	METHOD method_1452 enable ()V
+	METHOD method_1453 enableForItems ()V

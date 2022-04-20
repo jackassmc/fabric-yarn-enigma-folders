@@ -1,0 +1,17 @@
+CLASS dtk net/minecraft/client/texture/ResourceTexture
+	CLASS dtk$a TextureData
+		FIELD a metadata Lduz;
+		FIELD b image Lcth;
+		FIELD c exception Ljava/io/IOException;
+		METHOD <init> (Lduz;Lcth;)V
+			ARG 1 metadata
+			ARG 2 image
+		METHOD <init> (Ljava/io/IOException;)V
+			ARG 1 exception
+		METHOD a getMetadata ()Lduz;
+		METHOD a load (Lxc;Lqr;)Ldtk$a;
+		METHOD b getImage ()Lcth;
+		METHOD c checkException ()V
+	FIELD f location Lqr;
+	FIELD g LOGGER Lorg/apache/logging/log4j/Logger;
+	METHOD b loadTextureData (Lxc;)Ldtk$a;

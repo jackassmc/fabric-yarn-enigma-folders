@@ -1,0 +1,30 @@
+CLASS auc net/minecraft/container/PlayerContainer
+	CLASS auc$1
+		METHOD a getMaxStackAmount ()I
+		METHOD a canTakeItems (Lark;)Z
+		METHOD a canInsert (Laxd;)Z
+		METHOD c getBackgroundSprite ()Ljava/lang/String;
+	CLASS auc$2
+		METHOD c getBackgroundSprite ()Ljava/lang/String;
+	FIELD a local Z
+	FIELD e EQUIPMENT_SLOT_ORDER [Lahi;
+	FIELD f invCrafting Latr;
+	FIELD g invCraftingResult Laun;
+	FIELD h owner Lark;
+	METHOD <init> (Larj;ZLark;)V
+		ARG 1 inventory
+		ARG 2 local
+	METHOD a getType ()Laug;
+	METHOD a onContentChanged (Lafs;)V
+	METHOD a canUse (Lark;)Z
+	METHOD a populateRecipeFinder (Larm;)V
+	METHOD a matches (Lazm;)Z
+	METHOD b close (Lark;)V
+	METHOD b transferSlot (Lark;I)Laxd;
+		ARG 1 player
+		ARG 2 invSlot
+	METHOD e clearCraftingSlots ()V
+	METHOD f getCraftingResultSlotIndex ()I
+	METHOD g getCraftingWidth ()I
+	METHOD h getCraftingHeight ()I
+	METHOD i getCraftingSlotCount ()I

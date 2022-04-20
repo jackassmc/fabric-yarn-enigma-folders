@@ -1,0 +1,5 @@
+CLASS dmk net/minecraft/client/render/block/entity/SkullBlockEntityRenderer
+	FIELD c INSTANCE Ldmk;
+	FIELD d MODELS Ljava/util/Map;
+	FIELD e TEXTURES Ljava/util/Map;
+	METHOD a render (FFFLfa;FLbqz$a;Lcom/mojang/authlib/GameProfile;IF)V

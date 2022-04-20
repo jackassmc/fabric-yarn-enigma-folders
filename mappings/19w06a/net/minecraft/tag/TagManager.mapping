@@ -1,0 +1,14 @@
+CLASS yp net/minecraft/tag/TagManager
+	FIELD a blocks Lym;
+	FIELD b items Lym;
+	FIELD c fluids Lym;
+	FIELD d entities Lym;
+	METHOD a blocks ()Lym;
+	METHOD a toPacket (Lis;)V
+		ARG 1 buf
+	METHOD b items ()Lym;
+	METHOD b fromPacket (Lis;)Lyp;
+		ARG 0 buf
+	METHOD c fluids ()Lym;
+	METHOD d entities ()Lym;
+	METHOD e clear ()V

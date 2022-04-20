@@ -1,0 +1,25 @@
+CLASS aug net/minecraft/entity/attribute/EntityAttributes
+	FIELD a MAX_HEALTH Laiy;
+	FIELD b FOLLOW_RANGE Laiy;
+	FIELD c KNOCKBACK_RESISTANCE Laiy;
+	FIELD d MOVEMENT_SPEED Laiy;
+	FIELD e FLYING_SPEED Laiy;
+	FIELD f ATTACK_DAMAGE Laiy;
+	FIELD g ATTACK_KNOCKBACK Laiy;
+	FIELD h ATTACK_SPEED Laiy;
+	FIELD i ARMOR Laiy;
+	FIELD j ARMOR_TOUGHNESS Laiy;
+	FIELD k LUCK Laiy;
+	FIELD l LOGGER Lorg/apache/logging/log4j/Logger;
+	METHOD a toTag (Laiz;)Lib;
+		ARG 0 instance
+	METHOD a fromTag (Laiz;Lib;)V
+		ARG 0 instance
+	METHOD a toTag (Laja;)Lib;
+		ARG 0 modifier
+	METHOD a toTag (Lajc;)Lii;
+		ARG 0 container
+	METHOD a fromTag (Lajc;Lii;)V
+		ARG 0 container
+	METHOD a createFromTag (Lib;)Laja;
+		ARG 0 tag

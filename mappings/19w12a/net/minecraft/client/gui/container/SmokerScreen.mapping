@@ -1,0 +1,2 @@
+CLASS dai net/minecraft/client/gui/container/SmokerScreen
+	FIELD m BG_TEX Lqq;

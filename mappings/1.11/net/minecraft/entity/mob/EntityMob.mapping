@@ -1,0 +1,96 @@
+CLASS sw net/minecraft/entity/mob/EntityMob
+	CLASS sw$a
+	FIELD a MOB_FLAGS Lkk;
+	FIELD b actionLook Ltu;
+	FIELD b_ experiencePoints I
+	FIELD br goalSelector Lui;
+	FIELD bt handDropChances [F
+	FIELD bx handItems Ldd;
+	FIELD bz pickUpLoot Z
+	FIELD f actionMove Ltv;
+	FIELD g actionJump Ltt;
+	FIELD h navigation Lwe;
+	METHOD D playSoundAmbient ()V
+	METHOD G getSoundAmbient ()Lnm;
+	METHOD I getLootItem ()Lafg;
+	METHOD J getLootTableId ()Lkq;
+	METHOD L checkDespawn ()V
+	METHOD M mobTick ()V
+	METHOD U updateLogic ()V
+	METHOD a canBeLeashedBy (Laax;)Z
+		ARG 0 player
+	METHOD a interactMob (Laax;Lrh;)Z
+		ARG 0 player
+		ARG 1 playerHand
+	METHOD a getPathNodeTypeWeight (Lbay;)F
+		ARG 0 type
+	METHOD a setPathNodeTypeWeight (Lbay;F)V
+		ARG 0 type
+		ARG 1 weight
+	METHOD a deserializeCustomData (Ldu;)V
+		ARG 0 tag
+	METHOD a registerTagUpgradersFor (Lph;Ljava/lang/Class;)V
+		ARG 0 handler
+		ARG 1 entityClass
+	METHOD a initEquipment (Lrg;)V
+		ARG 0 localDifficulty
+	METHOD a startRiding (Lsm;Z)Z
+		ARG 0 entity
+		ARG 1 ignoreRequirements
+	METHOD a setEquipmentDropChance (Lsr;F)V
+		ARG 0 slot
+		ARG 1 value
+	METHOD a setEquippedStack (Lsr;Lafi;)V
+		ARG 0 slot
+		ARG 1 stack
+	METHOD a dropEquipment (ZI)V
+		ARG 0 recentlyHitByPlayer
+		ARG 1 looting
+	METHOD a dropLoot (ZILrx;)V
+		ARG 0 recentlyHitByPlayer
+		ARG 1 looting
+		ARG 2 damageSource
+	METHOD a detachLeash (ZZ)V
+		ARG 0 sendPacket
+		ARG 1 dropLeadStack
+	METHOD aG getItemsHand ()Ljava/lang/Iterable;
+	METHOD aH getItemsArmor ()Ljava/lang/Iterable;
+	METHOD b interact (Laax;Lrh;)Z
+		ARG 0 player
+		ARG 1 hand
+	METHOD b createNavigation (Lajq;)Lwe;
+		ARG 0 world
+	METHOD b serializeCustomData (Ldu;)V
+		ARG 0 tag
+	METHOD b attachLeash (Lsm;Z)V
+		ARG 0 entity
+		ARG 1 sendPacket
+	METHOD b getEquippedStack (Lsr;)Lafi;
+		ARG 0 slot
+	METHOD b dropDefaultLoot (ZI)V
+		ARG 0 recentlyHitByPlayer
+		ARG 1 looting
+	METHOD cR canPickUpLoot ()Z
+	METHOD cU isLeashed ()Z
+	METHOD cW isAiDisabled ()Z
+	METHOD cX getHoldingEntity ()Lsm;
+	METHOD cx getMainHand ()Lsu;
+	METHOD d getPreferredEquipmentSlot (Lafi;)Lsr;
+		ARG 0 stack
+	METHOD d setTarget (Lsv;)V
+		ARG 0 value
+	METHOD i initDataTracker ()V
+	METHOD m setCanPickUpLoot (Z)V
+		ARG 0 value
+	METHOD n updateMovement ()V
+	METHOD n setAiDisabled (Z)V
+		ARG 0 value
+	METHOD o setLeftHanded (Z)V
+		ARG 0 value
+	METHOD r initAi ()V
+	METHOD t getActionLook ()Ltu;
+	METHOD u getActionMove ()Ltv;
+	METHOD w getActionJump ()Ltt;
+	METHOD x getNavigation ()Lwe;
+	METHOD y getVisibilityCache ()Lwj;
+	METHOD z getTarget ()Lsv;

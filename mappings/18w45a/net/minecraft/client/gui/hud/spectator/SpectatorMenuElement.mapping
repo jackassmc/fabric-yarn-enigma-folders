@@ -1,0 +1,4 @@
+CLASS ctj net/minecraft/client/gui/hud/spectator/SpectatorMenuElement
+	METHOD a renderIcon (FI)V
+	METHOD a selectElement (Lcth;)V
+	METHOD ak_ enabled ()Z

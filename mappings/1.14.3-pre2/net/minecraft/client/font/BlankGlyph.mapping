@@ -1,0 +1,2 @@
+CLASS cyi net/minecraft/client/font/BlankGlyph
+	FIELD b IMAGE Lcub;

@@ -1,0 +1,10 @@
+CLASS djn net/minecraft/client/render/entity/ZombieVillagerEntityRenderer
+	FIELD a VILLAGER_SKIN Lpy;
+	FIELD j FARMER_SKIN Lpy;
+	FIELD k LIBRARIAN_SKIN Lpy;
+	FIELD l PRIEST_SKIN Lpy;
+	FIELD m SMITH_SKIN Lpy;
+	FIELD n BUTCHER_SKIN Lpy;
+	METHOD a getTexture (Lagi;)Lpy;
+	METHOD a getTexture (Lags;)Lpy;
+	METHOD a getTexture (Laqa;)Lpy;

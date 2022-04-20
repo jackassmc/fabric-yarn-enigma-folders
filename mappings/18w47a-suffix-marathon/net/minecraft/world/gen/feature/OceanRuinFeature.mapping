@@ -1,0 +1,10 @@
+CLASS car net/minecraft/world/gen/feature/OceanRuinFeature
+	CLASS car$b BiomeTemperature
+		FIELD a WARM Lcar$b;
+		FIELD b COLD Lcar$b;
+		FIELD c nameMap Ljava/util/Map;
+		FIELD d name Ljava/lang/String;
+		METHOD a getName ()Ljava/lang/String;
+		METHOD a byName (Ljava/lang/String;)Lcar$b;
+			ARG 0 name
+	METHOD b getName ()Ljava/lang/String;

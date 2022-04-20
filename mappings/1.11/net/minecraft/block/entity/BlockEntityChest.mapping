@@ -1,0 +1,28 @@
+CLASS asc net/minecraft/block/entity/BlockEntityChest
+	FIELD f neighborNorth Lasc;
+	FIELD g neighborEast Lasc;
+	FIELD h neighborWest Lasc;
+	FIELD i neighborSouth Lasc;
+	METHOD <init> (Lame$a;)V
+		ARG 0 type
+	METHOD B resetBlock ()V
+	METHOD a createContainer (Laaw;Laax;)Lack;
+		ARG 0 playerInv
+		ARG 1 player
+	METHOD a getNeighbor (Lcv;)Lasc;
+		ARG 0 facing
+	METHOD a deserialize (Ldu;)V
+		ARG 0 tag
+	METHOD a registerTagUpgraders (Lph;)V
+		ARG 0 handler
+	METHOD b onInvOpen (Laax;)V
+		ARG 0 player
+	METHOD b serialize (Ldu;)Ldu;
+		ARG 0 tag
+	METHOD c onInvClose (Laax;)V
+		ARG 0 player
+	METHOD h_ getName ()Ljava/lang/String;
+	METHOD l getContainerId ()Ljava/lang/String;
+	METHOD p getType ()Lame$a;
+	METHOD w_ hasCustomName ()Z
+	METHOD z invalidate ()V

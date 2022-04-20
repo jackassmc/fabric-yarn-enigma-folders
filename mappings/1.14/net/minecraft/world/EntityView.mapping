@@ -1,0 +1,74 @@
+CLASS bgz net/minecraft/world/EntityView
+	METHOD A getPlayers ()Ljava/util/List;
+	METHOD a getClosestPlayer (DDD)Lavx;
+		ARG 1 x
+		ARG 3 z
+		ARG 5 maxDistance
+	METHOD a isPlayerInRange (DDDD)Z
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+		ARG 7 range
+	METHOD a getClosestPlayer (DDDDLjava/util/function/Predicate;)Lavx;
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+		ARG 7 maxDistance
+		ARG 9 targetPredicate
+	METHOD a getClosestPlayer (DDDDZ)Lavx;
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+		ARG 7 maxDistance
+		ARG 9 ignoreCreative
+	METHOD a getClosestPlayer (Laif;D)Lavx;
+		ARG 1 entity
+		ARG 2 maxDistance
+	METHOD a getEntities (Laif;Lcrq;)Ljava/util/List;
+		ARG 1 except
+		ARG 2 box
+	METHOD a getEntities (Laif;Lcrq;Ljava/util/function/Predicate;)Ljava/util/List;
+		ARG 1 except
+		ARG 2 box
+		ARG 3 predicate
+	METHOD a intersectsEntities (Laif;Lcsp;)Z
+		ARG 1 except
+		ARG 2 shape
+	METHOD a getCollisionShapes (Laif;Lcsp;Ljava/util/Set;)Ljava/util/stream/Stream;
+		ARG 1 entity
+		ARG 2 entityBoundingBox
+		ARG 3 otherEntities
+	METHOD a getClosestPlayer (Lapz;DDD)Lavx;
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z
+	METHOD a getClosestPlayer (Lapz;Laio;)Lavx;
+	METHOD a getClosestPlayer (Lapz;Laio;DDD)Lavx;
+		ARG 3 x
+		ARG 5 y
+		ARG 7 z
+	METHOD a getPlayersInBox (Lapz;Laio;Lcrq;)Ljava/util/List;
+	METHOD a getClosestEntity (Ljava/lang/Class;Lapz;Laio;DDDLcrq;)Laio;
+		ARG 1 entityClass
+		ARG 4 x
+		ARG 6 y
+		ARG 8 z
+	METHOD a getTargets (Ljava/lang/Class;Lapz;Laio;Lcrq;)Ljava/util/List;
+		ARG 1 entityClass
+		ARG 2 targetPredicate
+		ARG 3 targettingEntity
+		ARG 4 box
+	METHOD a getEntities (Ljava/lang/Class;Lcrq;)Ljava/util/List;
+		ARG 1 entityClass
+		ARG 2 box
+	METHOD a getEntities (Ljava/lang/Class;Lcrq;Ljava/util/function/Predicate;)Ljava/util/List;
+		ARG 1 entityClass
+		ARG 2 box
+		ARG 3 predicate
+	METHOD a getClosestEntity (Ljava/util/List;Lapz;Laio;DDD)Laio;
+		ARG 1 entityList
+		ARG 4 x
+		ARG 6 y
+		ARG 8 z
+	METHOD b getPlayerByUuid (Ljava/util/UUID;)Lavx;
+		ARG 1 uuid

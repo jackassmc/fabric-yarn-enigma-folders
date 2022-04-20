@@ -1,0 +1,41 @@
+CLASS auj net/minecraft/util/DyeColor
+	FIELD a WHITE Lauj;
+	FIELD b ORANGE Lauj;
+	FIELD c MAGENTA Lauj;
+	FIELD d LIGHT_BLUE Lauj;
+	FIELD e YELLOW Lauj;
+	FIELD f LIME Lauj;
+	FIELD g PINK Lauj;
+	FIELD h GRAY Lauj;
+	FIELD i LIGHT_GRAY Lauj;
+	FIELD j CYAN Lauj;
+	FIELD k PURPLE Lauj;
+	FIELD l BLUE Lauj;
+	FIELD m BROWN Lauj;
+	FIELD n GREEN Lauj;
+	FIELD o RED Lauj;
+	FIELD p BLACK Lauj;
+	FIELD q VALUES [Lauj;
+	FIELD r BY_FIREWORK_COLOR Lit/unimi/dsi/fastutil/ints/Int2ObjectOpenHashMap;
+	FIELD s id I
+	FIELD t name Ljava/lang/String;
+	FIELD u mapColor Lcdl;
+	FIELD v color I
+	FIELD w colorSwapped I
+	FIELD x colorComponents [F
+	FIELD y fireworkColor I
+	METHOD <init> (Ljava/lang/String;IILjava/lang/String;ILcdl;II)V
+		ARG 3 woolId
+		ARG 4 name
+		ARG 5 color
+	METHOD a getId ()I
+	METHOD a byId (I)Lauj;
+		ARG 0 id
+	METHOD a byName (Ljava/lang/String;Lauj;)Lauj;
+	METHOD b getName ()Ljava/lang/String;
+	METHOD b byFireworkColor (I)Lauj;
+	METHOD c getColorSwapped ()I
+	METHOD d getColorComponents ()[F
+	METHOD e getMapColor ()Lcdl;
+	METHOD f getFireworkColor ()I
+	METHOD m asString ()Ljava/lang/String;

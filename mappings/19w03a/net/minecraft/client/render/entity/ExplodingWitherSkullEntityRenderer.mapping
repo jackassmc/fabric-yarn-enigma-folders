@@ -1,0 +1,6 @@
+CLASS dmp net/minecraft/client/render/entity/ExplodingWitherSkullEntityRenderer
+	FIELD a INVINCIBLE_SKIN Lqc;
+	FIELD f SKIN Lqc;
+	METHOD a getTexture (Lahc;)Lqc;
+	METHOD a render (Lahc;DDDFF)V
+	METHOD a getTexture (Lasl;)Lqc;

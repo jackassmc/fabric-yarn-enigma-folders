@@ -1,0 +1,10 @@
+CLASS crm net/minecraft/util/hit/HitResult
+	CLASS crm$a Type
+		FIELD a NONE Lcrm$a;
+		FIELD b BLOCK Lcrm$a;
+		FIELD c ENTITY Lcrm$a;
+	FIELD a pos Lcro;
+	METHOD <init> (Lcro;)V
+		ARG 1 pos
+	METHOD c getType ()Lcrm$a;
+	METHOD e getPos ()Lcro;

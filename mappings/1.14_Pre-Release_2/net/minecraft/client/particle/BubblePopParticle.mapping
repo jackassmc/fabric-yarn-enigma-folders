@@ -1,0 +1,2 @@
+CLASS dhr net/minecraft/client/particle/BubblePopParticle
+	CLASS dhr$a Factory

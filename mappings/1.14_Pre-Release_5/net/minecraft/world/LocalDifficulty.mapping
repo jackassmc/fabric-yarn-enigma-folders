@@ -1,0 +1,10 @@
+CLASS agy net/minecraft/world/LocalDifficulty
+	FIELD a globalDifficulty Lagx;
+	FIELD b localDifficulty F
+	METHOD <init> (Lagx;JJF)V
+		ARG 1 difficulty
+		ARG 2 timeOfDay
+	METHOD a getGlobalDifficulty ()Lagx;
+	METHOD a setLocalDifficulty (Lagx;JJF)F
+	METHOD b getLocalDifficulty ()F
+	METHOD d getClampedLocalDifficulty ()F

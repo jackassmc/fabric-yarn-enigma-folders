@@ -1,0 +1,20 @@
+CLASS api net/minecraft/entity/PrimedTNTEntity
+	FIELD b FUSE Lpt;
+	FIELD c causingEntity Lahm;
+	FIELD d fuseTimer I
+	METHOD <init> (Lbcf;DDDLahm;)V
+		ARG 1 world
+		ARG 2 x
+		ARG 4 y
+	METHOD a setFuse (I)V
+	METHOD a readCustomDataFromTag (Lhs;)V
+	METHOD a onTrackedDataSet (Lpt;)V
+	METHOD aE doesCollide ()Z
+	METHOD b writeCustomDataToTag (Lhs;)V
+	METHOD bH getEyeHeight ()F
+	METHOD e getCausingEntity ()Lahm;
+	METHOD f getFuse ()I
+	METHOD h update ()V
+	METHOD i getFuseTimer ()I
+	METHOD k explode ()V
+	METHOD w_ initDataTracker ()V

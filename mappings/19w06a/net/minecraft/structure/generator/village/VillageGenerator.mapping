@@ -1,0 +1,9 @@
+CLASS bzz net/minecraft/structure/generator/village/VillageGenerator
+	CLASS bzz$a Piece
+	METHOD a addPieces (Lbsh;Lcej;Let;Ljava/util/List;Lbui;Lbzx;)V
+		ARG 0 chunkGenerator
+		ARG 1 structureManager
+		ARG 2 pos
+		ARG 3 pieces
+		ARG 4 random
+		ARG 5 config

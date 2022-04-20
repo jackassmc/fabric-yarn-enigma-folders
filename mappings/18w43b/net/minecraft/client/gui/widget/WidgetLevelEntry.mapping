@@ -1,0 +1,9 @@
+CLASS cqt net/minecraft/client/gui/widget/WidgetLevelEntry
+	FIELD c LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD d DATE_FORMAT Ljava/text/DateFormat;
+	FIELD g game Lcjj;
+	FIELD h guiLevelSelect Lcqs;
+	FIELD i levelSummary Lcdm;
+	FIELD j iconLocation Lpt;
+	FIELD l iconFile Ljava/io/File;
+	METHOD a drawEntry (IIIIZF)V

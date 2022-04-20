@@ -1,0 +1,30 @@
+CLASS axu net/minecraft/recipe/smelting/RecipeSmelting
+	CLASS axu$a Serializer
+		METHOD a getId ()Ljava/lang/String;
+		METHOD a write (Lip;Laxl;)V
+			ARG 0 buf
+			ARG 1 recipe
+		METHOD a read (Lpx;Lcom/google/gson/JsonObject;)Laxl;
+			ARG 0 id
+			ARG 1 json
+		METHOD a read (Lpx;Lip;)Laxl;
+			ARG 0 id
+			ARG 1 buf
+	FIELD a id Lpx;
+	FIELD b group Ljava/lang/String;
+	FIELD c input Laxi;
+	FIELD d output Lavf;
+	FIELD e experience F
+	FIELD f cookTime I
+	METHOD a getSerializer ()Laxn;
+	METHOD a fits (II)Z
+		ARG 1 width
+	METHOD a craft (Laep;)Lavf;
+	METHOD a matches (Laep;Lbae;)Z
+		ARG 1 inv
+	METHOD b getId ()Lpx;
+	METHOD d getOutput ()Lavf;
+	METHOD e getPreviewInputs ()Lfg;
+	METHOD f getGroup ()Ljava/lang/String;
+	METHOD g getExperience ()F
+	METHOD h getCookTime ()I

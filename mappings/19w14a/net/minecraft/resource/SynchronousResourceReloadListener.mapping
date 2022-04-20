@@ -1,0 +1,3 @@
+CLASS xd net/minecraft/resource/SynchronousResourceReloadListener
+	METHOD a apply (Lxc;)V
+		ARG 1 manager

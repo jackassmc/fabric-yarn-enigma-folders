@@ -1,0 +1,4 @@
+CLASS dme net/minecraft/client/audio/SoundEventListener
+	METHOD a onSoundPlayed (Ldli;Ldmg;)V
+		ARG 1 sound
+		ARG 2 accessor

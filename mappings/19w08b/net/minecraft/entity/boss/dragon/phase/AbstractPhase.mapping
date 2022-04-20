@@ -1,0 +1,4 @@
+CLASS aom net/minecraft/entity/boss/dragon/phase/AbstractPhase
+	FIELD a dragon Laok;
+	METHOD <init> (Laok;)V
+		ARG 1 dragon

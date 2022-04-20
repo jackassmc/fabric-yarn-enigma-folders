@@ -1,0 +1,5 @@
+CLASS ht net/minecraft/nbt/ByteTag
+	FIELD f value B
+	METHOD c copy ()Lht;
+	METHOD equals (Ljava/lang/Object;)Z
+		ARG 1 o

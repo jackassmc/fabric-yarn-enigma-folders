@@ -1,0 +1,6 @@
+CLASS cqd net/minecraft/world/loot/function/FurnaceSmeltLootFunction
+	CLASS cqd$a Factory
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	METHOD <init> ([Lcqu;)V
+		ARG 1 conditions
+	METHOD b builder ()Lcpq$a;

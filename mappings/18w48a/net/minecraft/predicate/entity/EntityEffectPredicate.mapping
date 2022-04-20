@@ -1,0 +1,22 @@
+CLASS bg net/minecraft/predicate/entity/EntityEffectPredicate
+	CLASS bg$a
+		FIELD a amplifier Lbf$d;
+		FIELD b duration Lbf$d;
+		FIELD c ambient Ljava/lang/Boolean;
+		FIELD d visible Ljava/lang/Boolean;
+		METHOD <init> (Lbf$d;Lbf$d;Ljava/lang/Boolean;Ljava/lang/Boolean;)V
+			ARG 1 amplifier
+			ARG 2 duration
+			ARG 3 ambient
+		METHOD a serialize ()Lcom/google/gson/JsonElement;
+		METHOD a test (Lagb;)Z
+		METHOD a deserialize (Lcom/google/gson/JsonObject;)Lbg$a;
+			ARG 0 json
+	FIELD a EMPTY Lbg;
+	FIELD b effects Ljava/util/Map;
+	METHOD a create ()Lbg;
+	METHOD a test (Lagi;)Z
+	METHOD a test (Lagr;)Z
+	METHOD a deserialize (Lcom/google/gson/JsonElement;)Lbg;
+	METHOD a test (Ljava/util/Map;)Z
+	METHOD b serialize ()Lcom/google/gson/JsonElement;

@@ -1,0 +1,2 @@
+CLASS ajr net/minecraft/enchantment/EnchantmentFlame
+	METHOD b getHighestLevel ()I

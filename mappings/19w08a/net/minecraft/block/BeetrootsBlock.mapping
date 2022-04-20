@@ -1,0 +1,5 @@
+CLASS bic net/minecraft/block/BeetrootsBlock
+	FIELD a AGE Lbsd;
+	FIELD c AGE_TO_SHAPE [Lcoe;
+	METHOD <init> (Lbif$c;)V
+		ARG 1 settings

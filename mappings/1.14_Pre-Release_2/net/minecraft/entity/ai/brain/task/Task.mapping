@@ -1,0 +1,44 @@
+CLASS ajn net/minecraft/entity/ai/brain/task/Task
+	CLASS ajn$a Status
+	FIELD a status Lajn$a;
+	FIELD b endTime J
+	FIELD c minRunTime I
+	FIELD d maxRunTime I
+	METHOD <init> (I)V
+		ARG 1 exactRunTime
+	METHOD <init> (II)V
+		ARG 1 minRunTime
+		ARG 2 maxRunTime
+	METHOD a getRequiredMemoryState ()Ljava/util/Set;
+	METHOD a isTimeLimitExceeded (J)Z
+		ARG 1 time
+	METHOD a hasRequiredMemoryState (Laim;)Z
+		ARG 1 entity
+	METHOD a shouldRun (Lvf;Laim;)Z
+		ARG 1 world
+		ARG 2 entity
+	METHOD a run (Lvf;Laim;J)V
+		ARG 1 world
+		ARG 2 entity
+		ARG 3 time
+	METHOD b getStatus ()Lajn$a;
+	METHOD b tryStarting (Lvf;Laim;J)Z
+		ARG 1 world
+		ARG 2 entity
+		ARG 3 time
+	METHOD c tick (Lvf;Laim;J)V
+		ARG 3 time
+	METHOD d keepRunning (Lvf;Laim;J)V
+		ARG 1 world
+		ARG 2 entity
+		ARG 3 time
+	METHOD e stop (Lvf;Laim;J)V
+		ARG 1 world
+		ARG 2 entity
+		ARG 3 time
+	METHOD f finishRunning (Lvf;Laim;J)V
+		ARG 3 time
+	METHOD g shouldKeepRunning (Lvf;Laim;J)Z
+		ARG 1 world
+		ARG 2 entity
+		ARG 3 time

@@ -1,0 +1,14 @@
+CLASS dlf net/minecraft/client/render/block/entity/BlockEntityRenderer
+	FIELD a DESTROY_STAGE_TEXTURES [Lqp;
+	FIELD b renderManager Ldle;
+	METHOD a getWorld ()Lbfy;
+	METHOD a render (Lbsa;DDDFI)V
+		ARG 1 entity
+		ARG 2 xOffset
+		ARG 4 yOffset
+		ARG 6 zOffset
+		ARG 8 tickDelta
+		ARG 9 blockBreakStage
+	METHOD a setRenderManager (Ldle;)V
+	METHOD a bindTexture (Lqp;)V
+	METHOD b getFontRenderer ()Lcui;

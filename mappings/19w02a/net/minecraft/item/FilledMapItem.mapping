@@ -1,0 +1,19 @@
+CLASS axi net/minecraft/item/FilledMapItem
+	METHOD a onUpdate (Laxd;Lbcf;Lahd;IZ)V
+		ARG 1 stack
+		ARG 2 world
+		ARG 3 entity
+		ARG 4 invSlot
+	METHOD a createMapPacket (Laxd;Lbcf;Lark;)Ljr;
+		ARG 1 stack
+		ARG 2 world
+	METHOD a buildTooltip (Laxd;Lbcf;Ljava/util/List;Layn;)V
+		ARG 1 stack
+		ARG 2 world
+		ARG 3 tooltip
+		ARG 4 options
+	METHOD a useOnBlock (Layq;)Lafz;
+		ARG 1 usageContext
+	METHOD b onCrafted (Laxd;Lbcf;Lark;)V
+		ARG 1 stack
+		ARG 2 world

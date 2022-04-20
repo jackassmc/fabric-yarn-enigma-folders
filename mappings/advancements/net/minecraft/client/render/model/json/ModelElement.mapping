@@ -1,0 +1,6 @@
+CLASS btz net/minecraft/client/render/model/json/ModelElement
+	FIELD a min Lorg/lwjgl/util/vector/Vector3f;
+	FIELD b max Lorg/lwjgl/util/vector/Vector3f;
+	FIELD c faces Ljava/util/Map;
+	FIELD d rotation Lbub;
+	FIELD e shade Z

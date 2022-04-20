@@ -1,0 +1,7 @@
+CLASS apz net/minecraft/entity/mob/IllagerBeastEntity
+	CLASS apz$b
+		METHOD <init> (Lahm;Lbcl;)V
+			ARG 1 world
+	FIELD bC stunTick I
+	FIELD bD roarTick I
+	FIELD c attackTick I

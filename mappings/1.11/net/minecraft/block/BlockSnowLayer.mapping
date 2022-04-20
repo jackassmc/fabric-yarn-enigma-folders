@@ -1,0 +1,54 @@
+CLASS aqq net/minecraft/block/BlockSnowLayer
+	FIELD a LAYERS Laty;
+	FIELD b BOXES [Lbdr;
+	METHOD a deserializeState (I)Latj;
+		ARG 0 meta
+	METHOD a afterBreak (Lajq;Laax;Lco;Latj;Lasa;Lafi;)V
+		ARG 0 world
+		ARG 1 player
+		ARG 2 pos
+		ARG 3 state
+		ARG 4 blockEntity
+		ARG 5 stack
+	METHOD a canPlaceAt (Lajq;Lco;)Z
+		ARG 0 world
+		ARG 1 pos
+	METHOD a isAir (Laju;Lco;)Z
+		ARG 0 view
+		ARG 1 pos
+	METHOD a getCollisionBox (Latj;Laju;Lco;)Lbdr;
+		ARG 0 state
+		ARG 1 view
+		ARG 2 pos
+	METHOD a shouldRenderSide (Latj;Laju;Lco;Lcv;)Z
+		ARG 0 state
+		ARG 1 view
+		ARG 2 pos
+		ARG 3 facing
+	METHOD a getDropItem (Latj;Ljava/util/Random;I)Lafg;
+		ARG 0 state
+		ARG 1 random
+		ARG 2 fortune
+	METHOD a getDropAmount (Ljava/util/Random;)I
+		ARG 0 random
+	METHOD b createStateFactory ()Latk;
+	METHOD b randomTick (Lajq;Lco;Latj;Ljava/util/Random;)V
+		ARG 0 world
+		ARG 1 pos
+		ARG 2 state
+		ARG 3 random
+	METHOD b (Laju;Lco;)Z
+		ARG 0 view
+		ARG 1 pos
+	METHOD b isFullBoundsCubeForCulling (Latj;)Z
+		ARG 0 state
+	METHOD b getBoundingBox (Latj;Laju;Lco;)Lbdr;
+		ARG 0 state
+		ARG 1 view
+		ARG 2 pos
+	METHOD c (Latj;)Z
+		ARG 0 state
+	METHOD e serializeState (Latj;)I
+		ARG 0 state
+	METHOD k hasSolidTopSurface (Latj;)Z
+		ARG 0 state

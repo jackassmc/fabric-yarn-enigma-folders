@@ -1,0 +1,15 @@
+CLASS aug net/minecraft/entity/mob/RavagerEntity
+	CLASS aug$b
+		METHOD <init> (Laik;Lbgx;)V
+			ARG 1 world
+	FIELD bA attackTick I
+	FIELD bB stunTick I
+	FIELD bC roarTick I
+	FIELD b IS_NOT_RAVAGER Ljava/util/function/Predicate;
+	METHOD a knockBack (Laia;)V
+		ARG 1 entity
+	METHOD dU getStunTick ()I
+	METHOD ed getRoarTick ()I
+	METHOD ee spawnStunnedParticles ()V
+	METHOD ef roar ()V
+	METHOD l getAttackTick ()I

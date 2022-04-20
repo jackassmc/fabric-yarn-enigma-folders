@@ -1,0 +1,5 @@
+CLASS cyz net/minecraft/client/gui/menu/WorkingScreen
+	FIELD a title Ljava/lang/String;
+	FIELD b task Ljava/lang/String;
+	FIELD c progress I
+	FIELD d done Z

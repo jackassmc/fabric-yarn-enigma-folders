@@ -1,0 +1,17 @@
+CLASS cuo net/minecraft/client/gui/hud/spectator/SpectatorMenuImpl
+	CLASS cuo$1
+		METHOD a renderIcon (FI)V
+		METHOD a selectElement (Lcuo;)V
+			ARG 0 menu
+		METHOD am_ enabled ()Z
+	CLASS cuo$a
+		METHOD a renderIcon (FI)V
+		METHOD a selectElement (Lcuo;)V
+			ARG 0 menu
+		METHOD am_ enabled ()Z
+	CLASS cuo$b
+		METHOD a renderIcon (FI)V
+		METHOD a selectElement (Lcuo;)V
+			ARG 0 menu
+		METHOD am_ enabled ()Z
+	METHOD a selectElement (Lcup;)V

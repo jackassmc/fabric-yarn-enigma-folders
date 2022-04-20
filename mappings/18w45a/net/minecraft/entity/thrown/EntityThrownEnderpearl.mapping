@@ -1,0 +1,5 @@
+CLASS aqq net/minecraft/entity/thrown/EntityThrownEnderpearl
+	FIELD e owner Lagh;
+	METHOD S_ update ()V
+	METHOD a changeDimension (Lbqp;)Lafy;
+	METHOD a onCollision (Lcip;)V

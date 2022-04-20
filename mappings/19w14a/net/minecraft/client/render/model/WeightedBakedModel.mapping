@@ -1,0 +1,17 @@
+CLASS dvo net/minecraft/client/render/model/WeightedBakedModel
+	CLASS dvo$a Builder
+		FIELD a models Ljava/util/List;
+		METHOD a getFirst ()Ldve;
+		METHOD a add (Ldve;I)Ldvo$a;
+			ARG 1 model
+			ARG 2 weight
+	CLASS dvo$b ModelEntry
+		FIELD b model Ldve;
+		METHOD <init> (Ldve;I)V
+			ARG 1 model
+			ARG 2 weight
+	FIELD a totalWeight I
+	FIELD b models Ljava/util/List;
+	FIELD c defaultModel Ldve;
+	METHOD <init> (Ljava/util/List;)V
+		ARG 1 models

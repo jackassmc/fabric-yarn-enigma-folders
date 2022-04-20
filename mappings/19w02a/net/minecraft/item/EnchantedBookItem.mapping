@@ -1,0 +1,14 @@
+CLASS awg net/minecraft/item/EnchantedBookItem
+	METHOD a addStacksForDisplay (Lavv;Lfh;)V
+	METHOD a isTool (Laxd;)Z
+	METHOD a addEnchantment (Laxd;Lbal;)V
+		ARG 0 stack
+		ARG 1 enchantmentInfo
+	METHOD a buildTooltip (Laxd;Lbcf;Ljava/util/List;Layn;)V
+		ARG 1 stack
+		ARG 2 world
+		ARG 3 tooltip
+		ARG 4 options
+	METHOD e getEnchantmentTag (Laxd;)Lhy;
+		ARG 0 stack
+	METHOD e_ hasEnchantmentGlow (Laxd;)Z

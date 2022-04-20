@@ -1,0 +1,5 @@
+CLASS bqv net/minecraft/block/RepeaterBlock
+	FIELD a LOCKED Lbwc;
+	FIELD d DELAY Lbwk;
+	METHOD <init> (Lbmm$c;)V
+		ARG 1 settings

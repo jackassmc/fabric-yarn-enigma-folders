@@ -1,0 +1,4 @@
+CLASS bme net/minecraft/block/DeadBushBlock
+	FIELD a SHAPE Lcra;
+	METHOD <init> (Lbky$c;)V
+		ARG 1 settings

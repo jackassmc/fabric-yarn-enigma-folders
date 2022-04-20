@@ -1,0 +1,13 @@
+CLASS xz net/minecraft/tag/TagManager
+	FIELD a blocks Lxw;
+	FIELD b items Lxw;
+	FIELD c fluids Lxw;
+	FIELD d entities Lxw;
+	METHOD a blocks ()Lxw;
+	METHOD a toPacket (Liq;)V
+	METHOD a onResourceReload (Lwc;)V
+	METHOD b items ()Lxw;
+	METHOD b fromPacket (Liq;)Lxz;
+	METHOD c fluids ()Lxw;
+	METHOD d entities ()Lxw;
+	METHOD e clear ()V

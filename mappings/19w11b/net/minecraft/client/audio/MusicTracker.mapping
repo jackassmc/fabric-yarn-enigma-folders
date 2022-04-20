@@ -1,0 +1,15 @@
+CLASS dwh net/minecraft/client/audio/MusicTracker
+	CLASS dwh$a MusicType
+		FIELD i sound Lyf;
+		FIELD j minDelay I
+		FIELD k maxDelay I
+		METHOD a getSound ()Lyf;
+		METHOD b getMinDelay ()I
+		METHOD c getMaxDelay ()I
+	FIELD a random Ljava/util/Random;
+	FIELD b client Lctp;
+	FIELD c current Ldvo;
+	FIELD d timeUntilNextSong I
+	METHOD a play (Ldwh$a;)V
+	METHOD b stop ()V
+	METHOD b isPlayingType (Ldwh$a;)Z

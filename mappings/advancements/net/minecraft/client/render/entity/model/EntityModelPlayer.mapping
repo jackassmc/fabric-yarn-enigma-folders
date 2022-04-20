@@ -1,0 +1,12 @@
+CLASS bor net/minecraft/client/render/entity/model/EntityModelPlayer
+	FIELD a leftArmOverlay Lbqb;
+	FIELD b rightArmOverlay Lbqb;
+	FIELD c leftLegOverlay Lbqb;
+	FIELD d rightLegOverlay Lbqb;
+	FIELD u bodyOverlay Lbqb;
+	FIELD v cape Lbqb;
+	FIELD w mau5Ears Lbqb;
+	FIELD x thinArms Z
+	METHOD a setRotationAngles (FFFFFFLub;)V
+	METHOD a render (Lub;FFFFFF)V
+	METHOD a setVisible (Z)V

@@ -1,0 +1,34 @@
+CLASS cdk net/minecraft/structure/generator/MineshaftGenerator
+	CLASS cdk$a MineshaftCorridor
+		FIELD b hasRails Z
+		FIELD c hasCobwebs Z
+		FIELD d hasSpawner Z
+		FIELD e length I
+		METHOD a (Lbdc;Lcdd;Ljava/util/Random;IIILqh;)Z
+			ARG 3 random
+		METHOD a (Lbdc;Ljava/util/Random;Lcdd;Lbco;)Z
+			ARG 2 random
+	CLASS cdk$b MineshaftCrossing
+		FIELD b direction Lew;
+		FIELD c twoFloors Z
+		METHOD a (Lbdc;Ljava/util/Random;Lcdd;Lbco;)Z
+			ARG 2 random
+		METHOD a (Ljava/util/List;Ljava/util/Random;IIILew;)Lcdd;
+			ARG 5 facing
+	CLASS cdk$c MineshaftPart
+		FIELD a mineshaftType Lbya$b;
+	CLASS cdk$d MineshaftRoom
+		FIELD b entrances Ljava/util/List;
+		METHOD <init> (ILjava/util/Random;IILbya$b;)V
+			ARG 2 random
+		METHOD a (Lbdc;Ljava/util/Random;Lcdd;Lbco;)Z
+			ARG 2 random
+	CLASS cdk$e MineshaftStairs
+		METHOD a (Lbdc;Ljava/util/Random;Lcdd;Lbco;)Z
+			ARG 2 random
+		METHOD a (Ljava/util/List;Ljava/util/Random;IIILew;)Lcdd;
+			ARG 1 random
+	METHOD a (Ljava/util/List;Ljava/util/Random;IIILew;ILbya$b;)Lcdk$c;
+		ARG 1 random
+	METHOD b (Lcdw;Ljava/util/List;Ljava/util/Random;IIILew;I)Lcdk$c;
+		ARG 2 random

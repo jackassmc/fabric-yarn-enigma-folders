@@ -1,0 +1,42 @@
+CLASS bom net/minecraft/block/pattern/BlockPattern
+	CLASS bom$a BlockStateCacheLoader
+		FIELD a world Lbaq;
+		FIELD b forceLoad Z
+		METHOD a load (Les;)Lbol;
+	CLASS bom$b Result
+		FIELD a frontTopLeft Les;
+		FIELD b forwards Lex;
+		FIELD c up Lex;
+		FIELD d cache Lcom/google/common/cache/LoadingCache;
+		FIELD e width I
+		FIELD f height I
+		FIELD g depth I
+		METHOD a getFrontTopLeft ()Les;
+		METHOD a translate (III)Lbol;
+		METHOD b getForwards ()Lex;
+		METHOD c getUp ()Lex;
+		METHOD d getWidth ()I
+		METHOD e getHeight ()I
+	FIELD a pattern [[[Ljava/util/function/Predicate;
+	FIELD b depth I
+	FIELD c height I
+	FIELD d width I
+	METHOD a getDepth ()I
+	METHOD a searchAround (Lbaq;Les;)Lbom$b;
+		ARG 1 world
+	METHOD a makeCache (Lbaq;Z)Lcom/google/common/cache/LoadingCache;
+		ARG 0 world
+		ARG 1 forceLoad
+	METHOD a translate (Les;Lex;Lex;III)Les;
+		ARG 0 pos
+		ARG 1 forwards
+		ARG 2 up
+		ARG 3 offsetLeft
+		ARG 4 offsetDown
+		ARG 5 offsetForwards
+	METHOD a testTransform (Les;Lex;Lex;Lcom/google/common/cache/LoadingCache;)Lbom$b;
+		ARG 1 frontTopLeft
+		ARG 2 forwards
+		ARG 3 up
+	METHOD b getHeight ()I
+	METHOD c getWidth ()I

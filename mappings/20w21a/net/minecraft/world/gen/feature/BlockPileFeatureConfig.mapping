@@ -1,0 +1,2 @@
+CLASS net/minecraft/class_4634 net/minecraft/world/gen/feature/BlockPileFeatureConfig
+	FIELD field_21229 stateProvider Lnet/minecraft/class_4651;

@@ -1,0 +1,13 @@
+CLASS aft net/minecraft/util/profiler/DisableableProfiler
+	CLASS aft$a ProfilerController
+		METHOD a isEnabled ()Z
+		METHOD b disable ()Lafw;
+		METHOD c getResults ()Lafw;
+		METHOD d enable ()V
+	CLASS aft$b ProfilerControllerImpl
+		FIELD a profiler Lafv;
+	FIELD b tickSupplier Ljava/util/function/IntSupplier;
+	FIELD c controller Laft$b;
+	METHOD <init> (Ljava/util/function/IntSupplier;)V
+		ARG 1 tickSupplier
+	METHOD d getController ()Laft$a;

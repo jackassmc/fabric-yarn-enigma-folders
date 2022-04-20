@@ -1,0 +1,6 @@
+CLASS xs net/minecraft/entity/ai/mob/AiGoalSkeletonHorse
+	FIELD a owner Lxr;
+	METHOD <init> (Lxr;)V
+		ARG 0 owner
+	METHOD a canStart ()Z
+	METHOD e tick ()V

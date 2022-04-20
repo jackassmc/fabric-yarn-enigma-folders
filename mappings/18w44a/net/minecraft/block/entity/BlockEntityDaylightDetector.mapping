@@ -1,0 +1,2 @@
+CLASS bls net/minecraft/block/entity/BlockEntityDaylightDetector
+	METHOD Z_ tick ()V

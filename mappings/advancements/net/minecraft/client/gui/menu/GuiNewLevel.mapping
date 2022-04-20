@@ -1,0 +1,24 @@
+CLASS bmq net/minecraft/client/gui/menu/GuiNewLevel
+	FIELD B buttonGameModeSwitch Lbhk;
+	FIELD C buttonMoreOptions Lbhk;
+	FIELD D buttonGenerateStructures Lbhk;
+	FIELD E buttonGenerateBonusItems Lbhk;
+	FIELD F buttonMapTypeSwitch Lbhk;
+	FIELD G buttonCommandsAllowed Lbhk;
+	FIELD H buttonCustomizeType Lbhk;
+	FIELD K seed Ljava/lang/String;
+	FIELD L levelName Ljava/lang/String;
+	FIELD M generatorType I
+	FIELD N INVALID_LEVEL_NAMES [Ljava/lang/String;
+	FIELD a generatorOptions Ljava/lang/String;
+	FIELD f parent Lbjn;
+	FIELD s gameMode Ljava/lang/String;
+	FIELD u structures Z
+	FIELD v commandsAllowed Z
+	METHOD a onKeyPressed (CI)V
+	METHOD a draw (IIF)V
+	METHOD a onMousePressed (III)V
+	METHOD a onWidgetPressed (Lbhk;)V
+	METHOD b init ()V
+	METHOD e update ()V
+	METHOD m onClosed ()V

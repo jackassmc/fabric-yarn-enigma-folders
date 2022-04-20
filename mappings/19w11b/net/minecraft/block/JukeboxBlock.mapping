@@ -1,0 +1,8 @@
+CLASS bnu net/minecraft/block/JukeboxBlock
+	FIELD a HAS_RECORD Lbuo;
+	METHOD <init> (Lbky$c;)V
+		ARG 1 settings
+	METHOD a removeRecord (Lbfx;Leu;)V
+	METHOD a setRecord (Lbfy;Leu;Lbtw;Lbar;)V
+		ARG 2 pos
+		ARG 3 state

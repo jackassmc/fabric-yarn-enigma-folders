@@ -1,0 +1,37 @@
+CLASS none/yk net/minecraft/entity/boss/impl/EntityWither
+	CLASS none/yk$a
+		METHOD a canStart ()Z
+	FIELD a TRACKED_ENTITY_ID_1 Lnone/kj;
+	FIELD b TRACKED_ENTITY_ID_2 Lnone/kj;
+	FIELD bx TRACKED_ENTITY_IDS [Lnone/kj;
+	FIELD by INVUL_TIMER Lnone/kj;
+	FIELD c TRACKED_ENTITY_ID_3 Lnone/kj;
+	METHOD G getSoundAmbient ()Lnone/nk;
+	METHOD a setTrackedEntityId (II)V
+		ARG 0 headIndex
+		ARG 1 value
+	METHOD a canDestroy (Lnone/akx;)Z
+		ARG 0 block
+	METHOD a deserializeCustomData (Lnone/dt;)V
+		ARG 0 tag
+	METHOD a damage (Lnone/rq;F)Z
+		ARG 0 source
+		ARG 1 damage
+	METHOD a attackDistant (Lnone/so;F)V
+		ARG 0 target
+	METHOD b serializeCustomData (Lnone/dt;)V
+		ARG 0 tag
+	METHOD b registerTagUpgraders (Lnone/pf;)V
+	METHOD bD initAttributes ()V
+	METHOD bV getSoundHurt ()Lnone/nk;
+	METHOD bW getSoundDeath ()Lnone/nk;
+	METHOD c addPotionEffect (Lnone/rz;)V
+		ARG 0 effect
+	METHOD de getInvulTimer ()I
+	METHOD e handleFallDamage (FF)V
+		ARG 0 fallDistance
+	METHOD g setInvulTimer (I)V
+		ARG 0 value
+	METHOD i initDataTracker ()V
+	METHOD m getTrackedEntityId (I)I
+		ARG 0 headIndex

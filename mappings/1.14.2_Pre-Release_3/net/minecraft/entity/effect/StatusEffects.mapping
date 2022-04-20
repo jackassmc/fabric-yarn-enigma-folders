@@ -1,0 +1,2 @@
+CLASS aie net/minecraft/entity/effect/StatusEffects
+	METHOD a register (ILjava/lang/String;Laia;)Laia;

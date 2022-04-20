@@ -1,0 +1,58 @@
+CLASS dgl net/minecraft/client/render/model/json/ModelTransformation
+	CLASS dgl$a Deserializer
+		METHOD a parseModelTransformation (Lcom/google/gson/JsonDeserializationContext;Lcom/google/gson/JsonObject;Ljava/lang/String;)Ldgk;
+			ARG 1 ctx
+			ARG 2 json
+			ARG 3 key
+		METHOD a (Lcom/google/gson/JsonElement;Ljava/lang/reflect/Type;Lcom/google/gson/JsonDeserializationContext;)Ldgl;
+			ARG 1 element
+			ARG 2 type
+			ARG 3 context
+	CLASS dgl$b Type
+		FIELD a ORIGIN Ldgl$b;
+		FIELD b THIRD_PERSON_LEFT_HAND Ldgl$b;
+		FIELD c THIRD_PERSON_RIGHT_HAND Ldgl$b;
+		FIELD d FIRST_PERSON_LEFT_HAND Ldgl$b;
+		FIELD e FIRST_PERSON_RIGHT_HAND Ldgl$b;
+		FIELD f HEAD Ldgl$b;
+		FIELD g GUI Ldgl$b;
+		FIELD h GROUND Ldgl$b;
+		FIELD i FIXED Ldgl$b;
+	FIELD a ORIGIN Ldgl;
+	FIELD b globalTranslationX F
+	FIELD c globalTranslationY F
+	FIELD d globalTranslationZ F
+	FIELD e globalRotationX F
+	FIELD f globalRotationY F
+	FIELD g globalRotationZ F
+	FIELD h globalScaleOffsetX F
+	FIELD i globalScaleOffsetY F
+	FIELD j globalScaleOffsetZ F
+	FIELD k thirdPersonLeftHand Ldgk;
+	FIELD l thirdPersonRightHand Ldgk;
+	FIELD m firstPersonLeftHand Ldgk;
+	FIELD n firstPersonRightHand Ldgk;
+	FIELD o head Ldgk;
+	FIELD p gui Ldgk;
+	FIELD q ground Ldgk;
+	FIELD r fixed Ldgk;
+	METHOD <init> (Ldgk;Ldgk;Ldgk;Ldgk;Ldgk;Ldgk;Ldgk;Ldgk;)V
+		ARG 1 thirdPersonLeftHand
+		ARG 2 thirdPersonRightHand
+		ARG 3 firstPersonLeftHand
+		ARG 4 firstPersonRightHand
+		ARG 5 head
+		ARG 6 gui
+		ARG 7 ground
+		ARG 8 fixed
+	METHOD <init> (Ldgl;)V
+		ARG 1 other
+	METHOD a applyGl (Ldgk;Z)V
+		ARG 0 transform
+		ARG 1 leftyFlip
+	METHOD a applyGl (Ldgl$b;)V
+		ARG 1 type
+	METHOD b getTransformation (Ldgl$b;)Ldgk;
+		ARG 1 type
+	METHOD c isTransformationDefined (Ldgl$b;)Z
+		ARG 1 type

@@ -1,0 +1,10 @@
+CLASS bgn net/minecraft/block/BlockWallMounted
+	METHOD <init> (Lbet$c;)V
+		ARG 1 builder
+	METHOD a getPlacementState (Lata;)Lbnh;
+	METHOD a canPlaceAt (Lbnh;Lazx;Leq;)Z
+		ARG 1 world
+		ARG 3 pos
+	METHOD a getRenderingState (Lbnh;Lev;Lbnh;Lazu;Leq;Leq;)Lbnh;
+		ARG 1 state
+		ARG 6 pos

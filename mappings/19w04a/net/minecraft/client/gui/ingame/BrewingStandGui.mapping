@@ -1,0 +1,2 @@
+CLASS cvh net/minecraft/client/gui/ingame/BrewingStandGui
+	FIELD y TEXTURE Lqd;

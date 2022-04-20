@@ -1,0 +1,4 @@
+CLASS aic net/minecraft/enchantment/EnchantmentSilkTouch
+	METHOD a isEqual (Laho;)Z
+		ARG 0 other
+	METHOD b getHighestLevel ()I

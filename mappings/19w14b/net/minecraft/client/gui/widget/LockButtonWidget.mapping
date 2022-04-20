@@ -1,0 +1,20 @@
+CLASS cwl net/minecraft/client/gui/widget/LockButtonWidget
+	CLASS cwl$a IconLocation
+		FIELD a LOCKED Lcwl$a;
+		FIELD b LOCKED_HOVERED Lcwl$a;
+		FIELD c LOCKED_DISABLED Lcwl$a;
+		FIELD d UNLOCKED Lcwl$a;
+		FIELD e UNLOCKED_HOVERED Lcwl$a;
+		FIELD f UNLOCKED_DISABLED Lcwl$a;
+		FIELD g u I
+		FIELD h v I
+		METHOD <init> (Ljava/lang/String;III)V
+			ARG 1 v
+		METHOD a getU ()I
+		METHOD b getV ()I
+	FIELD a locked Z
+	METHOD <init> (IILcwd$a;)V
+		ARG 1 x
+		ARG 2 y
+	METHOD a isLocked ()Z
+	METHOD a setLocked (Z)V

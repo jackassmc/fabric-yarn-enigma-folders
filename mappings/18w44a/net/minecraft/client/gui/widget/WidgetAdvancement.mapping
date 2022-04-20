@@ -1,0 +1,16 @@
+CLASS cqg net/minecraft/client/gui/widget/WidgetAdvancement
+	FIELD a WIDGETS_TEX Lpu;
+	FIELD g tree Lcqe;
+	FIELD h advancement Ll;
+	FIELD i display Lu;
+	FIELD m mc Lclp;
+	FIELD o children Ljava/util/List;
+	FIELD q xPos I
+	FIELD r yPos I
+	METHOD <init> (Lcqe;Lclp;Ll;Lu;)V
+		ARG 1 tree
+		ARG 2 mc
+		ARG 3 advancement
+		ARG 4 display
+	METHOD a getRootWidget (Ll;)Lcqg;
+		ARG 1 advancement

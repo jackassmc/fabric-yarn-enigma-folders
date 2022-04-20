@@ -1,0 +1,10 @@
+CLASS arx net/minecraft/entity/vehicle/MobSpawnerMinecartEntity
+	CLASS arx$1
+		METHOD a getWorld ()Lbas;
+		METHOD b getPos ()Let;
+	FIELD a logic Lbab;
+	METHOD T_ update ()V
+	METHOD a readCustomDataFromTag (Lhq;)V
+	METHOD b writeCustomDataToTag (Lhq;)V
+	METHOD v getMinecartType ()Larp$a;
+	METHOD z getDefaultContainedBlock ()Lbom;

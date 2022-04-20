@@ -1,0 +1,4 @@
+CLASS bpe net/minecraft/block/RedstoneTorchBlock
+	FIELD a LIT Lbuo;
+	METHOD <init> (Lbky$c;)V
+		ARG 1 settings

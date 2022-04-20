@@ -1,0 +1,16 @@
+CLASS amz net/minecraft/entity/ai/goal/MoveToTargetPosGoal
+	FIELD a owner Laip;
+	FIELD b speed D
+	FIELD c counter I
+	FIELD d tryingTime I
+	FIELD e targetPos Lev;
+	FIELD g safeWaitingTime I
+	FIELD h reached Z
+	FIELD j maxYDifference I
+	METHOD a getInterval (Laip;)I
+	METHOD a isTargetPos (Lbgz;Lev;)Z
+	METHOD g startMovingToTarget ()V
+	METHOD h getDesiredSquaredDistanceToTarget ()D
+	METHOD j shouldResetPath ()Z
+	METHOD k hasReached ()Z
+	METHOD l findTargetPos ()Z

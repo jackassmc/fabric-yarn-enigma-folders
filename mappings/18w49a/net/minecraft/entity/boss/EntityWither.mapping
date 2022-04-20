@@ -1,0 +1,48 @@
+CLASS any net/minecraft/entity/boss/EntityWither
+	CLASS any$a
+		METHOD a canStart ()Z
+	FIELD a TRACKED_ENTITY_ID_1 Lpo;
+	FIELD bG INVUL_TIMER Lpo;
+	FIELD b TRACKED_ENTITY_ID_2 Lpo;
+	FIELD c TRACKED_ENTITY_ID_3 Lpo;
+	METHOD D getAmbientSound ()Lxg;
+	METHOD G checkDespawn ()V
+	METHOD H mobTick ()V
+	METHOD a setTrackedEntityId (II)V
+		ARG 1 headIndex
+	METHOD a damage (Laft;F)Z
+		ARG 1 source
+		ARG 2 amount
+	METHOD a dropEquipment (Laft;IZ)V
+	METHOD a attack (Lagt;F)V
+		ARG 1 target
+	METHOD a canDestroy (Lbft;)Z
+		ARG 0 block
+	METHOD a slowMovement (Lbom;FFF)V
+		ARG 1 state
+		ARG 2 multiplierX
+		ARG 3 multiplierY
+		ARG 4 multiplierZ
+	METHOD a readCustomDataFromTag (Lhq;)V
+	METHOD aA getLightmapCoordinates ()I
+	METHOD b writeCustomDataToTag (Lhq;)V
+	METHOD b setCustomName (Ljb;)V
+	METHOD b onStartedTrackingBy (Lum;)V
+	METHOD bn canUsePortals ()Z
+	METHOD c handleFallDamage (FF)V
+		ARG 1 fallDistance
+	METHOD c addPotionEffect (Lagd;)Z
+	METHOD c onStoppedTrackingBy (Lum;)V
+	METHOD ca initAttributes ()V
+	METHOD cv getDeathSound ()Lxg;
+	METHOD d setInvulTimer (I)V
+	METHOD d isPotionEffective (Lagd;)Z
+	METHOD dA isAtHalfHealth ()Z
+	METHOD dz getInvulTimer ()I
+	METHOD e getHurtSound (Laft;)Lxg;
+	METHOD k updateMovement ()V
+	METHOD n initAi ()V
+	METHOD n canStartRiding (Lagk;)Z
+	METHOD q getTrackedEntityId (I)I
+	METHOD s setArmsRaised (Z)V
+	METHOD y_ initDataTracker ()V

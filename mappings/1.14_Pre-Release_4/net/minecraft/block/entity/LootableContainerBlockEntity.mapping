@@ -1,0 +1,18 @@
+CLASS bue net/minecraft/block/entity/LootableContainerBlockEntity
+	FIELD g lootTableId Lqs;
+	FIELD h lootTableSeed J
+	METHOD a setLootTable (Lbgq;Ljava/util/Random;Lev;Lqs;)V
+		ARG 0 world
+		ARG 1 random
+		ARG 2 pos
+		ARG 3 id
+	METHOD a setInvStackList (Lfj;)V
+		ARG 1 list
+	METHOD a setLootTable (Lqs;J)V
+		ARG 1 id
+	METHOD createMenu (ILavv;Lavw;)Laya;
+		ARG 1 syncId
+	METHOD d checkLootInteraction (Lavw;)V
+	METHOD d deserializeLootTable (Lib;)Z
+	METHOD e serializeLootTable (Lib;)Z
+	METHOD f getInvStackList ()Lfj;

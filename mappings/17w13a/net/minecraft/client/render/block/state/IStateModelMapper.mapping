@@ -1,0 +1,3 @@
+CLASS bqv net/minecraft/client/render/block/state/IStateModelMapper
+	METHOD a getStateMap (Laky;)Ljava/util/Map;
+		ARG 0 block

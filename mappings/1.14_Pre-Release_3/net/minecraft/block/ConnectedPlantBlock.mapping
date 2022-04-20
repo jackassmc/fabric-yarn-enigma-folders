@@ -1,0 +1,13 @@
+CLASS bqa net/minecraft/block/ConnectedPlantBlock
+	FIELD a NORTH Lbvx;
+	FIELD b EAST Lbvx;
+	FIELD c SOUTH Lbvx;
+	FIELD d WEST Lbvx;
+	FIELD e UP Lbvx;
+	FIELD f DOWN Lbvx;
+	FIELD g FACING_PROPERTIES Ljava/util/Map;
+	FIELD h CONNECTIONS_TO_SHAPE [Lcsl;
+	FIELD i FACINGS [Lfa;
+	METHOD a generateFacingsToShapeMap (F)[Lcsl;
+	METHOD j getConnectionMask (Lbvf;)I
+		ARG 1 state

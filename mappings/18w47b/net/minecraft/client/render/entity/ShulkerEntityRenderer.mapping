@@ -1,0 +1,10 @@
+CLASS dhs net/minecraft/client/render/entity/ShulkerEntityRenderer
+	CLASS dhs$a
+		METHOD a shouldMergeTextures ()Z
+		METHOD a render (Lago;FFFFFFF)V
+			ARG 0 entity
+		METHOD a render (Lapl;FFFFFFF)V
+			ARG 0 entity
+	FIELD j SKIN [Lpy;
+	METHOD a getTexture (Lagf;)Lpy;
+	METHOD a getTexture (Lapl;)Lpy;

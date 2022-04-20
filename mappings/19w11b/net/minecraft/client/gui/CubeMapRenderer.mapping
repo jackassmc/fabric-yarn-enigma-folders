@@ -1,0 +1,9 @@
+CLASS dix net/minecraft/client/gui/CubeMapRenderer
+	FIELD a faces [Lqp;
+	METHOD <init> (Lqp;)V
+		ARG 1 faces
+	METHOD a draw (Lctp;FFF)V
+		ARG 1 client
+		ARG 2 x
+		ARG 3 y
+		ARG 4 alpha

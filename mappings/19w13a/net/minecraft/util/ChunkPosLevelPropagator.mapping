@@ -1,0 +1,6 @@
+CLASS uu net/minecraft/util/ChunkPosLevelPropagator
+	METHOD <init> (III)V
+		ARG 1 levelCount
+		ARG 2 initLevelCapacity
+		ARG 3 initTotalCapacity
+	METHOD b scheduleNewLevelUpdate (JIZ)V

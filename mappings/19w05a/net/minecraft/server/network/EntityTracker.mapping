@@ -1,0 +1,17 @@
+CLASS um net/minecraft/server/network/EntityTracker
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD b world Lbcq;
+	FIELD c trackedEntities Ljava/util/Set;
+	FIELD d trackedEntitiesById Lyx;
+	METHOD a setViewDistance (I)V
+	METHOD a add (Lahe;)V
+		ARG 1 entity
+	METHOD a add (Lahe;II)V
+		ARG 2 trackingRange
+		ARG 3 updateIntervalTicks
+	METHOD a add (Lahe;IIZ)V
+		ARG 2 trackingRange
+		ARG 3 updateIntervalTicks
+		ARG 4 alwaysUpdateVelocity
+	METHOD a sendEntitiesInChunk (Lut;II)V
+	METHOD b remove (Lahe;)V

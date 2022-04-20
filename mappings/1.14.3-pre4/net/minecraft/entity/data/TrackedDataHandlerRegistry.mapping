@@ -1,0 +1,25 @@
+CLASS qk net/minecraft/entity/data/TrackedDataHandlerRegistry
+	FIELD a BYTE Lqj;
+	FIELD b INTEGER Lqj;
+	FIELD c FLOAT Lqj;
+	FIELD d STRING Lqj;
+	FIELD e TEXT_COMPONENT Lqj;
+	FIELD f OPTIONAL_TEXT_COMPONENT Lqj;
+	FIELD g ITEM_STACK Lqj;
+	FIELD h OPTIONAL_BLOCK_STATE Lqj;
+	FIELD i BOOLEAN Lqj;
+	FIELD j PARTICLE Lqj;
+	FIELD k ROTATION Lqj;
+	FIELD l BLOCK_POS Lqj;
+	FIELD m OPTIONA_BLOCK_POS Lqj;
+	FIELD n FACING Lqj;
+	FIELD o OPTIONAL_UUID Lqj;
+	FIELD p TAG_COMPOUND Lqj;
+	FIELD q VILLAGER_DATA Lqj;
+	FIELD s ENTITY_POSE Lqj;
+	METHOD a get (I)Lqj;
+		ARG 0 id
+	METHOD a register (Lqj;)V
+		ARG 0 handler
+	METHOD b getId (Lqj;)I
+		ARG 0 handler

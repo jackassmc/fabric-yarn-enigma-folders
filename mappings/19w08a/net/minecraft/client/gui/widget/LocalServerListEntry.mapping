@@ -1,0 +1,8 @@
+CLASS cxq net/minecraft/client/gui/widget/LocalServerListEntry
+	FIELD c client Lcqw;
+	FIELD d entry Ldtd;
+	FIELD e gui Lcxo;
+	FIELD f lastUpdateMillis J
+	METHOD <init> (Lcxo;Ldtd;)V
+		ARG 1 gui
+	METHOD b getLanServerEntry ()Ldtd;

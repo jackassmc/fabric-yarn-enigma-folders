@@ -1,0 +1,7 @@
+CLASS zx net/minecraft/entity/mob/EntityHusk
+	METHOD G getSoundAmbient ()Lnm;
+	METHOD J getLootTableId ()Lkq;
+	METHOD b registerTagUpgraders (Lph;)V
+		ARG 0 handler
+	METHOD bW getSoundDeath ()Lnm;
+	METHOD dj getSkull ()Lafi;

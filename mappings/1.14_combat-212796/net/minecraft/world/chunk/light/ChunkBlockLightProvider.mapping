@@ -1,0 +1,7 @@
+CLASS ckp net/minecraft/world/chunk/light/ChunkBlockLightProvider
+	FIELD e DIRECTIONS_BLOCKLIGHT [Lfa;
+	FIELD f mutablePos Lev$a;
+	METHOD <init> (Lbxr;)V
+		ARG 1 chunkProvider
+	METHOD d getLightSourceLuminance (J)I
+		ARG 1 blockPos

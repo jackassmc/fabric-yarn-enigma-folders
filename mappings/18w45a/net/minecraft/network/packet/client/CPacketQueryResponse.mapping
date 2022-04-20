@@ -1,0 +1,8 @@
+CLASS pf net/minecraft/network/packet/client/CPacketQueryResponse
+	FIELD a GSON Lcom/google/gson/Gson;
+	FIELD b metadata Lpg;
+	METHOD a read (Lip;)V
+	METHOD a apply (Lis;)V
+	METHOD a apply (Lpd;)V
+	METHOD b getServerMetadata ()Lpg;
+	METHOD b write (Lip;)V

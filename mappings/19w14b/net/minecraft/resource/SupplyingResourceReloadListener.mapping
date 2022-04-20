@@ -1,0 +1,4 @@
+CLASS xf net/minecraft/resource/SupplyingResourceReloadListener
+	METHOD a apply (Ljava/lang/Object;Lxd;Lafz;)V
+		ARG 1 result
+	METHOD a load (Lxd;Lafz;)Ljava/lang/Object;

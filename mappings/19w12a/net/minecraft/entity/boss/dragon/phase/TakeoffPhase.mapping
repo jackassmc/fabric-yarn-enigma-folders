@@ -1,0 +1,3 @@
+CLASS arv net/minecraft/entity/boss/dragon/phase/TakeoffPhase
+	METHOD <init> (Larg;)V
+		ARG 1 dragon

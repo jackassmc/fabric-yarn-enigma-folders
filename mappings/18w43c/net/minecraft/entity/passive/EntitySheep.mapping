@@ -1,0 +1,41 @@
+CLASS akx net/minecraft/entity/passive/EntitySheep
+	CLASS akx$1
+		METHOD a canUse (Lapb;)Z
+			ARG 0 player
+	FIELD bC COLOR Lpi;
+	METHOD <init> (Laza;)V
+		ARG 0 world
+	METHOD D getSoundAmbient ()Lwv;
+	METHOD G getLootTableId ()Lpt;
+	METHOD K mobTick ()V
+	METHOD a createChild (Lafe;)Lafe;
+		ARG 0 other
+	METHOD a interactMob (Lapb;Laea;)Z
+		ARG 0 player
+		ARG 1 playerHand
+	METHOD a getRgbColor (Lasz;)[F
+		ARG 0 dyeColor
+	METHOD a (Lazb;Ladz;Lafz;Lhl;)Lafz;
+		ARG 1 difficulty
+	METHOD a playStepSound (Leq;Lblz;)V
+		ARG 0 pos
+		ARG 1 block
+	METHOD a deserializeCustomData (Lhl;)V
+		ARG 0 tag
+	METHOD b createChild (Lafe;)Lakx;
+		ARG 0 other
+	METHOD b setColor (Lasz;)V
+		ARG 0 value
+	METHOD b serializeCustomData (Lhl;)V
+		ARG 0 tag
+	METHOD bH getEyeHeight ()F
+	METHOD cb initAttributes ()V
+	METHOD cu getSoundDeath ()Lwv;
+	METHOD d getSoundHurt (Laeq;)Lwv;
+	METHOD dA getColor ()Lasz;
+	METHOD dB isSheared ()Z
+	METHOD k updateMovement ()V
+	METHOD n initAi ()V
+	METHOD s setSheared (Z)V
+		ARG 0 value
+	METHOD y_ initDataTracker ()V

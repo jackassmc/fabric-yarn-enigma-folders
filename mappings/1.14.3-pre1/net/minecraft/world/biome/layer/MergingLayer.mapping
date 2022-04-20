@@ -1,0 +1,11 @@
+CLASS cmt net/minecraft/world/biome/layer/MergingLayer
+	METHOD a create (Lclp;Lclm;Lclm;)Lclm;
+		ARG 1 context
+		ARG 2 layer1
+		ARG 3 layer2
+	METHOD a sample (Lclq;Lcll;Lcll;II)I
+		ARG 1 context
+		ARG 2 sampler1
+		ARG 3 sampler2
+		ARG 4 x
+		ARG 5 z

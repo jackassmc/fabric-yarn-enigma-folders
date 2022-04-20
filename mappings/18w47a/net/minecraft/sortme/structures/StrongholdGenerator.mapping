@@ -1,0 +1,23 @@
+CLASS cax net/minecraft/sortme/structures/StrongholdGenerator
+	CLASS cax$a
+		METHOD a toNbt (Lho;)V
+	CLASS cax$b
+		METHOD a toNbt (Lho;)V
+	CLASS cax$c
+		METHOD a toNbt (Lho;)V
+	CLASS cax$e
+		METHOD a toNbt (Lho;)V
+	CLASS cax$g
+		METHOD a toNbt (Lho;)V
+	CLASS cax$j
+		METHOD a toNbt (Lho;)V
+	CLASS cax$k
+		METHOD a (Ljava/util/Random;IIIZ)V
+			ARG 1 rand
+			ARG 2 x
+	CLASS cax$l
+		METHOD a toNbt (Lho;)V
+	CLASS cax$n
+		METHOD a toNbt (Lho;)V
+	CLASS cax$p
+		METHOD a toNbt (Lho;)V

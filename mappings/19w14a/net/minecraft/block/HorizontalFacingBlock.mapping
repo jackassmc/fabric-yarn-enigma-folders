@@ -1,0 +1,3 @@
+CLASS boq net/minecraft/block/HorizontalFacingBlock
+	METHOD <init> (Lbma$c;)V
+		ARG 1 settings

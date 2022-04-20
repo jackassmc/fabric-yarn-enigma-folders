@@ -1,0 +1,15 @@
+CLASS aq net/minecraft/advancement/criterion/EnterBlockCriterion
+	CLASS aq$a Handler
+		FIELD a manager Lqy;
+		FIELD b conditions Ljava/util/Set;
+		METHOD a isEmpty ()Z
+		METHOD a handle (Lbtw;)V
+		METHOD a addConditon (Lw$a;)V
+		METHOD b removeCondition (Lw$a;)V
+	CLASS aq$b Conditions
+		FIELD a block Lbky;
+		FIELD b state Ljava/util/Map;
+		METHOD a block (Lbky;)Laq$b;
+		METHOD a matches (Lbtw;)Z
+	FIELD a ID Lqp;
+	FIELD b handlers Ljava/util/Map;

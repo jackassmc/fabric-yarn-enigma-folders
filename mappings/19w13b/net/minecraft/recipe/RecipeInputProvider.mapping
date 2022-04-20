@@ -1,0 +1,2 @@
+CLASS azf net/minecraft/recipe/RecipeInputProvider
+	METHOD a provideRecipeInputs (Lavo;)V

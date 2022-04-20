@@ -1,0 +1,8 @@
+CLASS arr net/minecraft/container/SlotActionType
+	FIELD a CLICK Larr;
+	FIELD b SHIFT_CLICK Larr;
+	FIELD c HOTBAR_KEY Larr;
+	FIELD d MIDDLE_CLICK Larr;
+	FIELD e DROP Larr;
+	FIELD f DRAG Larr;
+	FIELD g DOUBLE_CLICK Larr;

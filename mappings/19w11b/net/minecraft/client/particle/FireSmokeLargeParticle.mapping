@@ -1,0 +1,7 @@
+CLASS dhi net/minecraft/client/particle/FireSmokeLargeParticle
+	CLASS dhi$a Factory
+	METHOD <init> (Lbfx;DDDDDDLdia;)V
+		ARG 1 world
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z

@@ -1,0 +1,12 @@
+CLASS auk net/minecraft/item/CrossbowItem
+	METHOD <init> (Lavn$a;)V
+		ARG 1 builder
+	METHOD a onItemStopUsing (Lavs;Lbaq;Lagr;I)V
+		ARG 1 stack
+		ARG 2 world
+		ARG 3 player
+	METHOD a use (Lbaq;Laqj;Lafb;)Lafe;
+		ARG 1 world
+		ARG 2 player
+	METHOD b getMaxUseTime (Lavs;)I
+	METHOD c getUseAction (Lavs;)Laxe;

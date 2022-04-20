@@ -1,0 +1,3 @@
+CLASS cqg net/minecraft/world/loot/ConditionConsumerBuilder
+	METHOD b withCondition (Lcqn$a;)Ljava/lang/Object;
+	METHOD c getThis ()Ljava/lang/Object;

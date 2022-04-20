@@ -1,0 +1,74 @@
+CLASS afl net/minecraft/entity/damage/DamageSource
+	FIELD A fire Z
+	FIELD B projectile Z
+	FIELD C scaleWithDifficulty Z
+	FIELD D magic Z
+	FIELD E explosive Z
+	FIELD a IN_FIRE Lafl;
+	FIELD b LIGHTNING_BOLT Lafl;
+	FIELD c ON_FIRE Lafl;
+	FIELD d LAVA Lafl;
+	FIELD e HOT_FLOOR Lafl;
+	FIELD f IN_WALL Lafl;
+	FIELD g CRAMMING Lafl;
+	FIELD h DROWN Lafl;
+	FIELD i STARVE Lafl;
+	FIELD j CACTUS Lafl;
+	FIELD k FALL Lafl;
+	FIELD l FLY_INTO_WALL Lafl;
+	FIELD m OUT_OF_WORLD Lafl;
+	FIELD n GENERIC Lafl;
+	FIELD o MAGIC Lafl;
+	FIELD p WITHER Lafl;
+	FIELD q ANVIL Lafl;
+	FIELD r FALLING_BLOCK Lafl;
+	FIELD s DRAGON_BREATH Lafl;
+	FIELD t FIREWORKS Lafl;
+	FIELD u DRYOUT Lafl;
+	FIELD v name Ljava/lang/String;
+	FIELD x damageToCreative Z
+	FIELD y unblockable Z
+	METHOD a byThorns (Lagc;)Lafl;
+		ARG 0 attacker
+	METHOD a byMobProjectile (Lagc;Lagl;)Lafl;
+		ARG 0 projectile
+		ARG 1 attacker
+	METHOD a byMob (Lagl;)Lafl;
+		ARG 0 attacker
+	METHOD a byPlayer (Laqa;)Lafl;
+		ARG 0 attacker
+	METHOD a byArrow (Laqe;Lagc;)Lafl;
+		ARG 0 projectile
+		ARG 1 attacker
+	METHOD a byExplosiveProjectile (Laqf;Lagc;)Lafl;
+		ARG 0 projectile
+		ARG 1 attacker
+	METHOD a byExplosion (Lazx;)Lafl;
+		ARG 0 explosion
+	METHOD b isProjectile ()Z
+	METHOD b byThrownProjectile (Lagc;Lagc;)Lafl;
+		ARG 0 projectile
+		ARG 1 attacker
+	METHOD b byExplosion (Lagl;)Lafl;
+		ARG 0 attacker
+	METHOD c setProjectile ()Lafl;
+	METHOD c byMagic (Lagc;Lagc;)Lafl;
+		ARG 0 magic
+		ARG 1 attacker
+	METHOD c getDeathMessage (Lagl;)Liz;
+	METHOD d isExplosive ()Z
+	METHOD e setExplosive ()Lafl;
+	METHOD h doesDamageToCreative ()Z
+	METHOD i isUnblockable ()Z
+	METHOD j getSource ()Lagc;
+	METHOD k getAttacker ()Lagc;
+	METHOD m setDamageToCreative ()Lafl;
+	METHOD n setUnblockable ()Lafl;
+	METHOD o setFire ()Lafl;
+	METHOD p isFire ()Z
+	METHOD q getName ()Ljava/lang/String;
+	METHOD r setScaledWithDifficulty ()Lafl;
+	METHOD s isScaledWithDifficulty ()Z
+	METHOD t setMagic ()Z
+	METHOD u setMagic ()Lafl;
+	METHOD v isSourceCreativePlayer ()Z

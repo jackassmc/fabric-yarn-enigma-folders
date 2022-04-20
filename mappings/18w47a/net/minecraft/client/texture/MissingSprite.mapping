@@ -1,0 +1,7 @@
+CLASS dkv net/minecraft/client/texture/MissingSprite
+	FIELD l MISSINGNO Lpx;
+	FIELD n IMAGE Lcme;
+	FIELD o INSTANCE Ldkv;
+	METHOD a getMissingSprite ()Ldkv;
+	METHOD b getMissingTextureId ()Lpx;
+	METHOD c destroy ()V

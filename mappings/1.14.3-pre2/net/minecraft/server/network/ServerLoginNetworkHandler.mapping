@@ -1,0 +1,19 @@
+CLASS wc net/minecraft/server/network/ServerLoginNetworkHandler
+	CLASS wc$a State
+	FIELD a client Ljb;
+	FIELD b authenticatorThreadId Ljava/util/concurrent/atomic/AtomicInteger;
+	FIELD c LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD d RANDOM Ljava/util/Random;
+	FIELD e nonce [B
+	FIELD f server Lnet/minecraft/server/MinecraftServer;
+	FIELD g state Lwc$a;
+	FIELD h loginTicks I
+	FIELD i profile Lcom/mojang/authlib/GameProfile;
+	FIELD k secretKey Ljavax/crypto/SecretKey;
+	FIELD l clientEntity Lvj;
+	METHOD a toOfflineProfile (Lcom/mojang/authlib/GameProfile;)Lcom/mojang/authlib/GameProfile;
+	METHOD b tick ()V
+	METHOD b disconnect (Ljn;)V
+		ARG 1 reason
+	METHOD c acceptPlayer ()V
+	METHOD d getConnectionInfo ()Ljava/lang/String;

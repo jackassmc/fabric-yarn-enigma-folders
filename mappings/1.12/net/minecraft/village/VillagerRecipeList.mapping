@@ -1,0 +1,17 @@
+CLASS amf net/minecraft/village/VillagerRecipeList
+	METHOD <init> (Lfy;)V
+		ARG 0 tag
+	METHOD a deserialize ()Lfy;
+	METHOD a itemsAreEqual (Lain;Lain;)Z
+		ARG 0 firstItem
+		ARG 1 secondItem
+	METHOD a getValidRecipe (Lain;Lain;I)Lame;
+		ARG 0 firstBuyItem
+		ARG 1 secondBuyItem
+		ARG 2 recipeIndex
+	METHOD a serialize (Lfy;)V
+		ARG 0 tag
+	METHOD a writeToBuf (Lgy;)V
+		ARG 0 byteBuf
+	METHOD b readFromBuf (Lgy;)Lamf;
+		ARG 0 byteBuf

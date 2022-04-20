@@ -1,0 +1,9 @@
+CLASS bpt net/minecraft/block/sapling/LargeTreeSaplingGenerator
+	METHOD a generateLargeTree (Lbcm;Let;Lbqk;Ljava/util/Random;II)Z
+	METHOD a canGenerateLargeTree (Lbqk;Lbbw;Let;II)Z
+		ARG 0 state
+		ARG 1 world
+		ARG 2 pos
+		ARG 3 x
+		ARG 4 z
+	METHOD a createLargeTreeFeature (Ljava/util/Random;)Lbul;

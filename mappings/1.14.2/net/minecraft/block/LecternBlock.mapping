@@ -1,0 +1,55 @@
+CLASS bpo net/minecraft/block/LecternBlock
+	FIELD a FACING Lbwf;
+	FIELD b POWERED Lbwc;
+	FIELD c HAS_BOOK Lbwc;
+	FIELD d BOTTOM_SHAPE Lcsr;
+	FIELD e MIDDLE_SHAPE Lcsr;
+	FIELD f BASE_SHAPE Lcsr;
+	FIELD g COLLISION_SHAPE_TOP Lcsr;
+	FIELD h COLLISION_SHAPE Lcsr;
+	FIELD i WEST_SHAPE Lcsr;
+	FIELD j NORTH_SHAPE Lcsr;
+	FIELD k EAST_SHAPE Lcsr;
+	FIELD w SOUTH_SHAPE Lcsr;
+	METHOD <init> (Lbmm$c;)V
+		ARG 1 settings
+	METHOD a openContainer (Lbhi;Lev;Lavy;)V
+		ARG 1 world
+		ARG 2 pos
+		ARG 3 player
+	METHOD a setPowered (Lbhi;Lev;Lbvk;)V
+		ARG 0 world
+		ARG 1 pos
+		ARG 2 state
+	METHOD a putBookIfAbsent (Lbhi;Lev;Lbvk;Lbcb;)Z
+		ARG 0 world
+		ARG 1 pos
+		ARG 2 state
+		ARG 3 book
+	METHOD a setHasBook (Lbhi;Lev;Lbvk;Z)V
+		ARG 0 world
+		ARG 1 pos
+		ARG 2 state
+		ARG 3 hasBook
+	METHOD b updateNeighborAlways (Lbhi;Lev;Lbvk;)V
+		ARG 0 world
+		ARG 1 pos
+		ARG 2 state
+	METHOD b putBook (Lbhi;Lev;Lbvk;Lbcb;)V
+		ARG 0 world
+		ARG 1 pos
+		ARG 2 state
+		ARG 3 book
+	METHOD b setPowered (Lbhi;Lev;Lbvk;Z)V
+		ARG 0 world
+		ARG 1 pos
+		ARG 2 state
+		ARG 3 powered
+	METHOD d dropBook (Lbvk;Lbhi;Lev;)V
+		ARG 1 state
+		ARG 2 world
+		ARG 3 pos
+	METHOD h (Lbvk;Lbgs;Lev;)Lcsr;
+		ARG 1 state
+		ARG 2 view
+		ARG 3 pos

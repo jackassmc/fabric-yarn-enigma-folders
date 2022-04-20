@@ -1,0 +1,14 @@
+CLASS awk net/minecraft/item/ItemSword
+	FIELD a weaponDamage F
+	METHOD a getAttributeModifiers (Lagh;)Lcom/google/common/collect/Multimap;
+	METHOD a onEntityDamaged (Lavf;Lagl;Lagl;)Z
+		ARG 1 stack
+		ARG 2 target
+	METHOD a onBlockBroken (Lavf;Lbae;Lbnz;Les;Lagl;)Z
+		ARG 1 stack
+		ARG 2 world
+		ARG 3 state
+		ARG 4 pos
+	METHOD a getBlockBreakingSpeed (Lavf;Lbnz;)F
+		ARG 1 stack
+	METHOD a isEffectiveOn (Lbnz;)Z

@@ -1,0 +1,8 @@
+CLASS amn net/minecraft/entity/ai/goal/EatGrassGoal
+	FIELD a GRASS_PREDICATE Ljava/util/function/Predicate;
+	FIELD b mob Lais;
+	FIELD c world Lbhi;
+	FIELD d timer I
+	METHOD <init> (Lais;)V
+		ARG 1 mob
+	METHOD g getTimer ()I

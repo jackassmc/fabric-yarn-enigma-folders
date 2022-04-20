@@ -1,0 +1,26 @@
+CLASS cbx net/minecraft/client/texture/TextureManager
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD b textures Ljava/util/Map;
+	FIELD c updateable Ljava/util/List;
+	FIELD d dynamicIdCounters Ljava/util/Map;
+	FIELD e resourceContainer Lccv;
+	METHOD <init> (Lccv;)V
+		ARG 0 resourceContainer
+	METHOD a onResourceReload (Lccv;)V
+		ARG 0 container
+	METHOD a registerDynamicTexture (Ljava/lang/String;Lcbm;)Lmd;
+		ARG 0 prefix
+		ARG 1 texture
+	METHOD a bindTexture (Lmd;)V
+		ARG 0 id
+	METHOD a registerTexture (Lmd;Lcby;)Z
+		ARG 0 id
+		ARG 1 texture
+	METHOD a registerTextureUpdateable (Lmd;Lccb;)Z
+		ARG 0 id
+		ARG 1 texture
+	METHOD b getTexture (Lmd;)Lcby;
+		ARG 0 id
+	METHOD c destroyTexture (Lmd;)V
+		ARG 0 id
+	METHOD e updateTexture ()V

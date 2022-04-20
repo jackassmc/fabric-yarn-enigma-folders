@@ -1,0 +1,9 @@
+CLASS atp net/minecraft/container/AnvilContainer
+	FIELD c LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD d result Lafx;
+	FIELD e inventory Lafx;
+	FIELD f pos Laub;
+	FIELD g world Latx;
+	FIELD i newItemName Ljava/lang/String;
+	FIELD j player Lars;
+	METHOD a setNewItemName (Ljava/lang/String;)V

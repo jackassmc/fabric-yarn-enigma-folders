@@ -1,0 +1,11 @@
+CLASS dne net/minecraft/client/render/chunk/ChunkRenderWorker
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD b batcher Ldnd;
+	FIELD c bufferBuilders Ldke;
+	FIELD d running Z
+	METHOD <init> (Ldnd;Ldke;)V
+		ARG 1 batcher
+	METHOD a stop ()V
+	METHOD a freeRenderTask (Ldke;)V
+	METHOD a runTask (Ldnc;)V
+	METHOD b getBufferBuilders ()Ldke;

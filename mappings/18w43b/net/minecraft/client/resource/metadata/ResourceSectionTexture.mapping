@@ -1,0 +1,8 @@
+CLASS did net/minecraft/client/resource/metadata/ResourceSectionTexture
+	FIELD b blur Z
+	FIELD c clamp Z
+	METHOD <init> (ZZ)V
+		ARG 0 blur
+		ARG 1 clamp
+	METHOD a shouldBlur ()Z
+	METHOD b shouldClamp ()Z

@@ -1,0 +1,2 @@
+CLASS afj net/minecraft/world/loot/LootTableProvider
+	METHOD T_ getLootTableId ()Lpy;

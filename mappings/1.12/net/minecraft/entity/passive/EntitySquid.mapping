@@ -1,0 +1,16 @@
+CLASS aah net/minecraft/entity/passive/EntitySquid
+	CLASS aah$a
+		METHOD a canStart ()Z
+		METHOD e tick ()V
+	METHOD F getSoundAmbient ()Lqc;
+	METHOD J getLootTableId ()Lnd;
+	METHOD P canSpawn ()Z
+	METHOD a registerTagUpgraders (Lrw;)V
+		ARG 0 handler
+	METHOD bM initAttributes ()V
+	METHOD by getEyeHeight ()F
+	METHOD cf getSoundDeath ()Lqc;
+	METHOD cq getSoundVolume ()F
+	METHOD d getSoundHurt (Lup;)Lqc;
+	METHOD n updateMovement ()V
+	METHOD r initAi ()V

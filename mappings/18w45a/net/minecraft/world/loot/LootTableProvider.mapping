@@ -1,0 +1,2 @@
+CLASS aez net/minecraft/world/loot/LootTableProvider
+	METHOD R_ getLootTableId ()Lpw;

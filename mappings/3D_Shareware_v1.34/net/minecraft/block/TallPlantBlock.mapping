@@ -1,0 +1,4 @@
+CLASS bnm net/minecraft/block/TallPlantBlock
+	FIELD a HALF Lbvw;
+	METHOD <init> (Lbma$c;)V
+		ARG 1 settings

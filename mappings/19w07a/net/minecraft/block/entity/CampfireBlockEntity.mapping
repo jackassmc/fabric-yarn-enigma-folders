@@ -1,0 +1,16 @@
+CLASS bpg net/minecraft/block/entity/CampfireBlockEntity
+	FIELD a itemsBeingCooked Lfe;
+	FIELD b cookingTimes [I
+	FIELD c cookingTotalTimes [I
+	METHOD a getRecipeFor (Laxt;)Ljava/util/Optional;
+		ARG 1 item
+	METHOD a addItem (Laxt;I)Z
+		ARG 1 item
+		ARG 2 integer
+	METHOD c getItemsBeingCooked ()Lfe;
+	METHOD d spawnItemsBeingCooked ()V
+	METHOD d saveInitialChunkData (Lhv;)Lhv;
+		ARG 1 tag
+	METHOD f updateItemsBeingCooked ()V
+	METHOD g spawnSmokeParticles ()V
+	METHOD h updateListeners ()V

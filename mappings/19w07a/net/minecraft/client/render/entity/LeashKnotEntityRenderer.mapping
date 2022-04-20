@@ -1,0 +1,2 @@
+CLASS dlj net/minecraft/client/render/entity/LeashKnotEntityRenderer
+	FIELD a SKIN Lqh;

@@ -1,0 +1,2 @@
+CLASS dcw net/minecraft/client/render/entity/model/BoatEntityModel
+	METHOD c renderPass (Lahy;FFFFFF)V

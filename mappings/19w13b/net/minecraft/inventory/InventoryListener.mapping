@@ -1,0 +1,2 @@
+CLASS agp net/minecraft/inventory/InventoryListener
+	METHOD a onInvChange (Lagn;)V

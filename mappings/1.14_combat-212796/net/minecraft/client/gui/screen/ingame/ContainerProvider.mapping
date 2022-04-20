@@ -1,0 +1,2 @@
+CLASS dbs net/minecraft/client/gui/screen/ingame/ContainerProvider
+	METHOD a getContainer ()Layf;

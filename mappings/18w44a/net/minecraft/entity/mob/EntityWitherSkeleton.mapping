@@ -1,0 +1,13 @@
+CLASS apg net/minecraft/entity/mob/EntityWitherSkeleton
+	METHOD D getSoundAmbient ()Lww;
+	METHOD F getLootTableId ()Lpu;
+	METHOD a initEquipment (Laen;)V
+		ARG 1 difficulty
+	METHOD a dropEquipment (Lafe;IZ)V
+	METHOD a (Lazu;Laen;Lagn;Lhm;)Lagn;
+		ARG 2 difficulty
+	METHOD bH getEyeHeight ()F
+	METHOD cw getSoundDeath ()Lww;
+	METHOD d isPotionEffective (Lafo;)Z
+		ARG 1 effect
+	METHOD e getSoundHurt (Lafe;)Lww;

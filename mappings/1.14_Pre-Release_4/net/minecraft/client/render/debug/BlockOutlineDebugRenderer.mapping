@@ -1,0 +1,2 @@
+CLASS dnx net/minecraft/client/render/debug/BlockOutlineDebugRenderer
+	FIELD a client Lcvg;

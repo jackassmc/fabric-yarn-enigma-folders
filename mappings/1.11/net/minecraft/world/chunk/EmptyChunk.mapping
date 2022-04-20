@@ -1,0 +1,56 @@
+CLASS auj net/minecraft/world/chunk/EmptyChunk
+	METHOD a matchesPos (II)Z
+		ARG 0 chunkX
+		ARG 1 chunkZ
+	METHOD a (Lajw;Lco;)I
+		ARG 0 lightType
+		ARG 1 pos
+	METHOD a (Lajw;Lco;I)V
+		ARG 0 lightType
+		ARG 1 pos
+	METHOD a addBlockEntity (Lasa;)V
+		ARG 0 blockEntity
+	METHOD a getBlockState (Lco;)Latj;
+		ARG 0 pos
+	METHOD a getLightLevel (Lco;I)I
+		ARG 0 pos
+		ARG 1 ambientDarkness
+	METHOD a addBlockEntity (Lco;Lasa;)V
+		ARG 0 pos
+		ARG 1 blockEntity
+	METHOD a getBlockEntity (Lco;Laum$a;)Lasa;
+		ARG 0 pos
+		ARG 1 mode
+	METHOD a collectEntitiesIn (Ljava/lang/Class;Lbdr;Ljava/util/List;Lcom/google/common/base/Predicate;)V
+		ARG 0 clazz
+		ARG 1 area
+		ARG 2 resultList
+		ARG 3 filter
+	METHOD a addEntity (Lsm;)V
+		ARG 0 entity
+	METHOD a removeEntity (Lsm;I)V
+		ARG 0 entity
+		ARG 1 chunkY
+	METHOD a collectEntitiesIn (Lsm;Lbdr;Ljava/util/List;Lcom/google/common/base/Predicate;)V
+		ARG 0 except
+		ARG 1 area
+		ARG 2 resultList
+		ARG 3 filter
+	METHOD b getHeightAt (II)I
+		ARG 0 x
+		ARG 1 z
+	METHOD b getBlockLightOpacityLevel (Lco;)I
+		ARG 0 pos
+	METHOD b removeEntity (Lsm;)V
+		ARG 0 entity
+	METHOD c addEntitiesToWorld ()V
+	METHOD c areChunkSectionsEmpty (II)Z
+		ARG 0 minY
+		ARG 1 maxY
+	METHOD c isSkyUnobstructed (Lco;)Z
+		ARG 0 pos
+	METHOD d unloadEntitiesFromWorld ()V
+	METHOD d invalidateBlockEntityAt (Lco;)V
+		ARG 0 pos
+	METHOD e markDirty ()V
+	METHOD f isEmpty ()Z

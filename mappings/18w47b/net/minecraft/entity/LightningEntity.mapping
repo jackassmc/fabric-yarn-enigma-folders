@@ -1,0 +1,6 @@
+CLASS aof net/minecraft/entity/LightningEntity
+	METHOD V_ update ()V
+	METHOD a deserializeCustomData (Lhp;)V
+	METHOD b serializeCustomData (Lhp;)V
+	METHOD bX getSoundCategory ()Lxf;
+	METHOD y_ initDataTracker ()V

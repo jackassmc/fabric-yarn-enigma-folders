@@ -1,0 +1,4 @@
+CLASS agp net/minecraft/entity/damage/EntityDamageSource
+	FIELD x source Lahe;
+	METHOD <init> (Ljava/lang/String;Lahe;)V
+		ARG 1 name

@@ -1,0 +1,4 @@
+CLASS ciz net/minecraft/world/gen/surfacebuilder/ErodedBadlandsSurfaceBuilder
+	FIELD S WHITE_TERRACOTTA Lbuw;
+	FIELD T ORANGE_TERRACOTTA Lbuw;
+	FIELD U TERACOTTA Lbuw;

@@ -1,0 +1,7 @@
+CLASS cfk net/minecraft/world/gen/surfacebuilder/NetherSurfaceBuilder
+	FIELD S GLOWSTONE Lbre;
+	FIELD a seed J
+	FIELD b noise Lcfu;
+	FIELD c CAVE_AIR Lbre;
+	FIELD d NETHERRACK Lbre;
+	FIELD e GRAVEL Lbre;

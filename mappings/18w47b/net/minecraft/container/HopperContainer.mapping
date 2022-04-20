@@ -1,0 +1,9 @@
+CLASS aso net/minecraft/container/HopperContainer
+	FIELD a inventory Laes;
+	METHOD <init> (Laqf;Laes;Laqg;)V
+		ARG 1 playerInv
+		ARG 2 inventory
+	METHOD a canUse (Laqg;)Z
+	METHOD b close (Laqg;)V
+	METHOD b getStack (Laqg;I)Lavo;
+		ARG 1 player

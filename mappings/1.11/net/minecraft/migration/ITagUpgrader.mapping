@@ -1,0 +1,4 @@
+CLASS pd net/minecraft/migration/ITagUpgrader
+	METHOD a getTargetVersion ()I
+	METHOD a upgradeTag (Ldu;)Ldu;
+		ARG 0 tag

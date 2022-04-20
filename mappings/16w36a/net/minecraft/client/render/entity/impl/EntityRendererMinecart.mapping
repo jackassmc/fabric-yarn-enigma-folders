@@ -1,0 +1,3 @@
+CLASS none/btv net/minecraft/client/render/entity/impl/EntityRendererMinecart
+	METHOD a (Lnone/abj;DDDFF)V
+	METHOD a (Lnone/sf;DDDFF)V

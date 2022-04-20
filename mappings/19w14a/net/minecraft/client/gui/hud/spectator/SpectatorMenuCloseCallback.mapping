@@ -1,0 +1,3 @@
+CLASS dcr net/minecraft/client/gui/hud/spectator/SpectatorMenuCloseCallback
+	METHOD a close (Ldco;)V
+		ARG 1 menu

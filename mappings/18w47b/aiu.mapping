@@ -1,0 +1,2 @@
+CLASS aiu
+	METHOD a canStart ()Z

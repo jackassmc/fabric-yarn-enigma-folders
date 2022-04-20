@@ -1,0 +1,15 @@
+CLASS cfj net/minecraft/world/gen/decorator/ConfiguredDecorator
+	FIELD a decorator Lcgh;
+	FIELD b config Lcad;
+	METHOD <init> (Lcgh;Lcad;)V
+		ARG 1 decorator
+	METHOD <init> (Lcgh;Lcom/mojang/datafixers/Dynamic;)V
+		ARG 1 decorator
+	METHOD a generate (Lbgy;Lbwn;Ljava/util/Random;Lev;Lbzr;)Z
+		ARG 1 world
+		ARG 2 generator
+		ARG 3 random
+		ARG 4 pos
+	METHOD a deserialize (Lcom/mojang/datafixers/Dynamic;)Lcfj;
+		ARG 0 dynamic
+	METHOD a serialize (Lcom/mojang/datafixers/types/DynamicOps;)Lcom/mojang/datafixers/Dynamic;

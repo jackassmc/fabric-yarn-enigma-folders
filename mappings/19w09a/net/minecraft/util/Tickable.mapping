@@ -1,0 +1,2 @@
+CLASS bqk net/minecraft/util/Tickable
+	METHOD g tick ()V

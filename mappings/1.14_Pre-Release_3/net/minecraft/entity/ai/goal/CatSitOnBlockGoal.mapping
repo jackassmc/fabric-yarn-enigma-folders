@@ -1,0 +1,2 @@
+CLASS amg net/minecraft/entity/ai/goal/CatSitOnBlockGoal
+	FIELD g cat Laqp;

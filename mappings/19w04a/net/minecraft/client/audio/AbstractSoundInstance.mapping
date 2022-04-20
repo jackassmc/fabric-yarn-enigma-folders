@@ -1,0 +1,17 @@
+CLASS dqj net/minecraft/client/audio/AbstractSoundInstance
+	FIELD a sound Ldqs;
+	FIELD b category Lxt;
+	FIELD c id Lqd;
+	FIELD d volume F
+	FIELD e pitch F
+	FIELD f x F
+	FIELD g y F
+	FIELD h z F
+	FIELD i repeat Z
+	FIELD j repeatDelay I
+	FIELD k attenuationType Ldqv$a;
+	FIELD m accessor Ldrs;
+	METHOD <init> (Lqd;Lxt;)V
+		ARG 1 soundId
+	METHOD <init> (Lxr;Lxt;)V
+		ARG 1 sound

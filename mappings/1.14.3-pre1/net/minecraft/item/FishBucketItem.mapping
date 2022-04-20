@@ -1,0 +1,10 @@
+CLASS bbq net/minecraft/item/FishBucketItem
+	FIELD a fishType Lain;
+	METHOD <init> (Lain;Lclb;Lbbx$a;)V
+		ARG 1 type
+		ARG 2 fluid
+		ARG 3 settings
+	METHOD b spawnFish (Lbhj;Lbcc;Lev;)V
+		ARG 1 world
+		ARG 2 stack
+		ARG 3 pos

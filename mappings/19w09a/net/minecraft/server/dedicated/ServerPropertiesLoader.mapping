@@ -1,0 +1,6 @@
+CLASS ty net/minecraft/server/dedicated/ServerPropertiesLoader
+	FIELD a path Ljava/nio/file/Path;
+	FIELD b propertiesHandler Ltx;
+	METHOD a getPropertiesHandler ()Ltx;
+	METHOD a apply (Ljava/util/function/UnaryOperator;)Lty;
+	METHOD b store ()V

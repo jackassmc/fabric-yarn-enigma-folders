@@ -1,0 +1,11 @@
+CLASS akl net/minecraft/world/biome/BiomeExtremeHills
+	CLASS akl$a Type
+		FIELD a NORMAL Lakl$a;
+		FIELD b TREES Lakl$a;
+		FIELD c MUTATED Lakl$a;
+	METHOD a decorate (Lajq;Ljava/util/Random;Lco;)V
+		ARG 0 world
+		ARG 1 rand
+		ARG 2 chunkPos
+	METHOD a getSurfaceDecorator (Ljava/util/Random;)Lavx;
+		ARG 0 random

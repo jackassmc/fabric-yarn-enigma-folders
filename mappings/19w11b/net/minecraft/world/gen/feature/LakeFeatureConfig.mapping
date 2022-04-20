@@ -1,0 +1,6 @@
+CLASS caq net/minecraft/world/gen/feature/LakeFeatureConfig
+	FIELD a state Lbtw;
+	METHOD <init> (Lbtw;)V
+		ARG 1 state
+	METHOD a deserialize (Lcom/mojang/datafixers/Dynamic;)Lcaq;
+		ARG 0 dynamic

@@ -1,0 +1,5 @@
+CLASS bmz net/minecraft/block/CoralBlockBlock
+	FIELD a deadCoralBlock Lbmb;
+	METHOD a isInWater (Lbgi;Lev;)Z
+		ARG 1 world
+		ARG 2 pos

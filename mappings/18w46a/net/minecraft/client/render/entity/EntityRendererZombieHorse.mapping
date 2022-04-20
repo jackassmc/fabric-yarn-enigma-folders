@@ -1,0 +1,4 @@
+CLASS did net/minecraft/client/render/entity/EntityRendererZombieHorse
+	FIELD a TEXTURES Ljava/util/Map;
+	METHOD a getTexture (Lagc;)Lpx;
+	METHOD a getTexture (Lame;)Lpx;

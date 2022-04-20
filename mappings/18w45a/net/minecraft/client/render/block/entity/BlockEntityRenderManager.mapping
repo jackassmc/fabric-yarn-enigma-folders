@@ -1,0 +1,26 @@
+CLASS dcb net/minecraft/client/render/block/entity/BlockEntityRenderManager
+	FIELD a instance Ldcb;
+	FIELD b renderOffsetX D
+	FIELD c renderOffsetY D
+	FIELD d renderOffsetZ D
+	FIELD e textureManager Ldjm;
+	FIELD f world Lazy;
+	FIELD g cameraEntity Lafy;
+	FIELD h cameraYaw F
+	FIELD i cameraPitch F
+	FIELD j hitResult Lcip;
+	FIELD k cameraX D
+	FIELD l cameraY D
+	FIELD m cameraZ D
+	FIELD n blockEntityRenderers Ljava/util/Map;
+	FIELD o fontRenderer Lcmk;
+	METHOD a getFontRenderer ()Lcmk;
+	METHOD a setWorld (Lazy;)V
+	METHOD a configure (Lazy;Ldjm;Lcmk;Lafy;Lcip;F)V
+	METHOD a get (Lbls;)Ldcc;
+	METHOD a renderEntity (Lbls;DDDF)V
+		ARG 1 blockEntity
+	METHOD a renderEntity (Lbls;DDDFIZ)V
+	METHOD a render (Lbls;FI)V
+	METHOD a get (Ljava/lang/Class;)Ldcc;
+	METHOD b renderEntity (Lbls;)V

@@ -1,0 +1,9 @@
+CLASS bmo net/minecraft/block/SlabBlock
+	FIELD a TYPE Lbrn;
+	FIELD b WATERLOGGED Lbrh;
+	FIELD c BOTTOM_SHAPE Lcnq;
+	FIELD d TOP_SHAPE Lcnq;
+	METHOD <init> (Lbhs$c;)V
+		ARG 1 settings
+	METHOD n (Lbqp;)Z
+		ARG 1 state

@@ -1,0 +1,16 @@
+CLASS awx net/minecraft/entity/ai/brain/ScheduleBuilder
+	CLASS awx$a ActivityEntry
+		FIELD a startTime I
+		FIELD b activity Lawu;
+		METHOD <init> (ILawu;)V
+			ARG 1 startTime
+		METHOD a getStartTime ()I
+		METHOD b getActivity ()Lawu;
+	FIELD a schedule Laww;
+	FIELD b activities Ljava/util/List;
+	METHOD <init> (Laww;)V
+		ARG 1 schedule
+	METHOD a build ()Laww;
+	METHOD a withActivity (ILawu;)Lawx;
+		ARG 1 startTime
+		ARG 2 activity

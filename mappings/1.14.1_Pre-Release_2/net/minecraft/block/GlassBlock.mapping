@@ -1,0 +1,3 @@
+CLASS bot net/minecraft/block/GlassBlock
+	METHOD <init> (Lbmm$c;)V
+		ARG 1 settings

@@ -1,0 +1,14 @@
+CLASS aps net/minecraft/entity/passive/MooshroomEntity
+	CLASS aps$a Type
+		FIELD c name Ljava/lang/String;
+		FIELD d mushroomState Lbtw;
+		METHOD a getMushroomState ()Lbtw;
+		METHOD b fromName (Ljava/lang/String;)Laps$a;
+	FIELD bA TYPE Lqe;
+	FIELD bB stewEffect Laho;
+	FIELD bC stewEffectDuration I
+	FIELD bE lightningId Ljava/util/UUID;
+	METHOD a setType (Laps$a;)V
+	METHOD a chooseBabyType (Laps;)Laps$a;
+	METHOD dN getType ()Laps$a;
+	METHOD k getStewEffectFrom (Lbar;)Lorg/apache/commons/lang3/tuple/Pair;

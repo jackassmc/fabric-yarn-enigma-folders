@@ -1,0 +1,4 @@
+CLASS akq net/minecraft/entity/ai/goal/MoveToRaidCenterGoal
+	FIELD a owner Latd;
+	METHOD a includeFreeRaiders (Latc;)V
+	METHOD g moveToAlternativePosition ()V

@@ -1,0 +1,6 @@
+CLASS wp net/minecraft/resource/Resource
+	METHOD a getId ()Lqe;
+	METHOD a getMetadata (Lwa;)Ljava/lang/Object;
+	METHOD b getInputStream ()Ljava/io/InputStream;
+	METHOD c hasMetadata ()Z
+	METHOD d getPackName ()Ljava/lang/String;

@@ -1,0 +1,126 @@
+CLASS avp net/minecraft/village/TradeOffers
+	CLASS avp$a SellDyedArmorFactory
+		FIELD a sell Lbbw;
+		FIELD b price I
+		FIELD c maxUses I
+		FIELD d experience I
+		METHOD <init> (Lbbw;I)V
+			ARG 2 price
+		METHOD <init> (Lbbw;III)V
+			ARG 2 price
+			ARG 3 maxUses
+			ARG 4 experience
+		METHOD a getDye (Ljava/util/Random;)Lbaz;
+	CLASS avp$b BuyForOneEmeraldFactory
+		FIELD a buy Lbbw;
+		FIELD b price I
+		FIELD c maxUses I
+		FIELD d experience I
+		FIELD e multiplier F
+		METHOD <init> (Lbhh;III)V
+			ARG 2 price
+			ARG 3 maxUses
+			ARG 4 experience
+	CLASS avp$c TypeAwareBuyForOneEmeraldFactory
+		FIELD a map Ljava/util/Map;
+		FIELD b count I
+		FIELD c maxUses I
+		FIELD d experience I
+		METHOD <init> (IIILjava/util/Map;)V
+			ARG 3 experience
+	CLASS avp$d EnchantBookFactory
+		FIELD a experience I
+		METHOD <init> (I)V
+			ARG 1 experience
+	CLASS avp$e SellEnchantedToolFactory
+		FIELD a tool Lbcb;
+		FIELD b basePrice I
+		FIELD c maxUses I
+		FIELD d experience I
+		FIELD e multiplier F
+		METHOD <init> (Lbbw;III)V
+			ARG 2 basePrice
+			ARG 3 maxUses
+			ARG 4 experience
+		METHOD <init> (Lbbw;IIIF)V
+			ARG 2 basePrice
+			ARG 3 maxUses
+			ARG 4 experience
+			ARG 5 multiplier
+	CLASS avp$f Factory
+		METHOD a create (Laii;Ljava/util/Random;)Lbgl;
+	CLASS avp$g ProcessItemFactory
+		FIELD a secondBuy Lbcb;
+		FIELD b secondCount I
+		FIELD c price I
+		FIELD d sell Lbcb;
+		FIELD e sellCount I
+		FIELD f maxUses I
+		FIELD g experience I
+		FIELD h multiplier F
+		METHOD <init> (Lbhh;IILbbw;III)V
+			ARG 2 secondCount
+			ARG 3 price
+			ARG 4 sellItem
+			ARG 5 sellCount
+			ARG 6 maxUses
+			ARG 7 experience
+		METHOD <init> (Lbhh;ILbbw;III)V
+			ARG 2 secondCount
+			ARG 3 sellItem
+			ARG 4 sellCount
+			ARG 5 maxUses
+			ARG 6 experience
+	CLASS avp$h SellItemFactory
+		FIELD a sell Lbcb;
+		FIELD b price I
+		FIELD c count I
+		FIELD d maxUses I
+		FIELD e experience I
+		FIELD f multiplier F
+		METHOD <init> (Lbcb;IIIIF)V
+			ARG 2 price
+			ARG 3 count
+			ARG 4 maxUses
+			ARG 5 experience
+			ARG 6 multiplier
+	CLASS avp$i SellSuspiciousStewFactory
+		FIELD a effect Laia;
+		FIELD b duration I
+		FIELD c experience I
+		FIELD d multiplier F
+		METHOD <init> (Laia;II)V
+			ARG 2 duration
+			ARG 3 experience
+	CLASS avp$j SellPotionHoldingItemFactory
+		FIELD a sell Lbcb;
+		FIELD b sellCount I
+		FIELD c price I
+		FIELD d maxUses I
+		FIELD e experience I
+		FIELD f secondBuy Lbbw;
+		FIELD g secondCount I
+		FIELD h priceMultiplier F
+		METHOD <init> (Lbbw;ILbbw;IIII)V
+			ARG 1 arrow
+			ARG 2 secondCount
+			ARG 3 tippedArrow
+			ARG 4 sellCount
+			ARG 5 price
+			ARG 6 maxUses
+			ARG 7 experience
+	CLASS avp$k SellMapFactory
+		FIELD a price I
+		FIELD b structure Ljava/lang/String;
+		FIELD c iconType Lcnu$a;
+		FIELD d maxUses I
+		FIELD e experience I
+		METHOD <init> (ILjava/lang/String;Lcnu$a;II)V
+			ARG 1 price
+			ARG 2 structure
+			ARG 3 iconType
+			ARG 4 maxUses
+			ARG 5 experience
+	FIELD a PROFESSION_TO_LEVELED_TRADE Ljava/util/Map;
+	FIELD b WANDERING_TRADER_TRADES Lit/unimi/dsi/fastutil/ints/Int2ObjectMap;
+	METHOD a copyToFastUtilMap (Lcom/google/common/collect/ImmutableMap;)Lit/unimi/dsi/fastutil/ints/Int2ObjectMap;

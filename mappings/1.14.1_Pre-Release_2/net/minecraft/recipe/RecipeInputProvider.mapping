@@ -1,0 +1,2 @@
+CLASS azr net/minecraft/recipe/RecipeInputProvider
+	METHOD a provideRecipeInputs (Lawa;)V

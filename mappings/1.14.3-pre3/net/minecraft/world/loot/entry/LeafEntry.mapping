@@ -1,0 +1,44 @@
+CLASS cpl net/minecraft/world/loot/entry/LeafEntry
+	CLASS cpl$a Builder
+		FIELD a weight I
+		FIELD b quality I
+		FIELD c functions Ljava/util/List;
+		METHOD a getFunctions ()[Lcqb;
+		METHOD a setWeight (I)Lcpl$a;
+			ARG 1 weight
+		METHOD b setQuality (I)Lcpl$a;
+			ARG 1 quality
+	CLASS cpl$b BasicBuilder
+		FIELD c factory Lcpl$d;
+		METHOD <init> (Lcpl$d;)V
+			ARG 1 factory
+	CLASS cpl$c Choice
+	CLASS cpl$d Factory
+		METHOD build (II[Lcre;[Lcqb;)Lcpl;
+			ARG 1 weight
+			ARG 2 quality
+			ARG 3 conditions
+			ARG 4 functions
+	CLASS cpl$e Serializer
+		METHOD b fromJson (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;II[Lcre;[Lcqb;)Lcpl;
+			ARG 1 entryJson
+			ARG 2 context
+			ARG 3 weight
+			ARG 4 quality
+			ARG 5 conditions
+			ARG 6 functions
+	FIELD c compiledFunctions Ljava/util/function/BiFunction;
+	FIELD e weight I
+	FIELD f quality I
+	FIELD g functions [Lcqb;
+	FIELD h choice Lcpj;
+	METHOD <init> (II[Lcre;[Lcqb;)V
+		ARG 1 weight
+		ARG 2 quality
+		ARG 3 conditions
+		ARG 4 functions
+	METHOD a builder (Lcpl$d;)Lcpl$a;
+		ARG 0 factory
+	METHOD a drop (Ljava/util/function/Consumer;Lcos;)V
+		ARG 1 itemDropper
+		ARG 2 context

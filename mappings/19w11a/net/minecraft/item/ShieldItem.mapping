@@ -1,0 +1,3 @@
+CLASS bbl net/minecraft/item/ShieldItem
+	METHOD e getColor (Lbar;)Lazo;
+		ARG 0 stack

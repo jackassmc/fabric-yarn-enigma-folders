@@ -1,0 +1,8 @@
+CLASS atk net/minecraft/item/ItemClock
+	CLASS atk$1
+		METHOD call (Lauv;Lazt;Lage;)F
+			ARG 0 stack
+			ARG 1 world
+			ARG 2 user
+	METHOD <init> (Lauq$a;)V
+		ARG 1 builder

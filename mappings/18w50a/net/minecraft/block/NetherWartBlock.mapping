@@ -1,0 +1,23 @@
+CLASS bkf net/minecraft/block/NetherWartBlock
+	METHOD <init> (Lbgs$c;)V
+		ARG 1 settings
+		ARG 2 stateBuilder
+	METHOD a getPickStack (Lbbb;Let;Lbpm;)Lawo;
+		ARG 1 world
+		ARG 2 pos
+		ARG 3 state
+	METHOD a getBoundingShape (Lbpm;Lbbb;Let;)Lcmx;
+		ARG 1 state
+		ARG 2 view
+		ARG 3 pos
+	METHOD a appendProperties (Lbpn$a;)V
+		ARG 1 builder
+	METHOD b canPlantOnTop (Lbpm;Lbbb;Let;)Z
+		ARG 1 floor
+		ARG 2 view
+		ARG 3 pos
+	METHOD b scheduledTick (Lbpm;Lbbp;Let;Ljava/util/Random;)V
+		ARG 1 world
+		ARG 2 state
+		ARG 3 pos
+		ARG 4 rnd

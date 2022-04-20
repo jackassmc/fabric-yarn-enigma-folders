@@ -1,0 +1,7 @@
+CLASS aps net/minecraft/entity/ai/PathfindingUtil
+	METHOD a findTarget (Laiq;II)Lcrl;
+	METHOD a findTarget (Laiq;IILcrl;ZDLjava/util/function/ToDoubleFunction;)Lcrl;
+	METHOD a findTargetStraight (Laiq;IILjava/util/function/ToDoubleFunction;)Lcrl;
+	METHOD b findTargetStraight (Laiq;II)Lcrl;
+	METHOD b isWater (Lev;Laiq;)Z
+	METHOD c findTarget (Laiq;IILcrl;)Lcrl;

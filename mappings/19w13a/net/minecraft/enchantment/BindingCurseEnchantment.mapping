@@ -1,0 +1,4 @@
+CLASS bet net/minecraft/enchantment/BindingCurseEnchantment
+	METHOD <init> (Lbex$a;[Laie;)V
+		ARG 1 weight
+		ARG 2 slotTypes

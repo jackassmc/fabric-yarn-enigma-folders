@@ -1,0 +1,3 @@
+CLASS czm net/minecraft/client/gui/container/ContainerScreen54
+	FIELD k TEXTURE Lqq;
+	FIELD l rows I

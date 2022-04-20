@@ -1,0 +1,5 @@
+CLASS dke net/minecraft/client/render/entity/PigZombieEntityRenderer
+	FIELD a SKIN Lqc;
+	METHOD a getTexture (Lagv;)Lqc;
+	METHOD a getTexture (Lahf;)Lqc;
+	METHOD a getTexture (Lapx;)Lqc;

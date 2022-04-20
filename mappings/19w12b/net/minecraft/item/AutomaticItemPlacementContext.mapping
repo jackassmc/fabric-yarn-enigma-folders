@@ -1,0 +1,2 @@
+CLASS azu net/minecraft/item/AutomaticItemPlacementContext
+	FIELD f direction Lfa;

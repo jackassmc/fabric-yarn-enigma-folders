@@ -1,0 +1,3 @@
+CLASS clj net/minecraft/world/loot/function/LimitCountLootFunction
+	CLASS clj$a Factory
+	FIELD a limit Lckb;

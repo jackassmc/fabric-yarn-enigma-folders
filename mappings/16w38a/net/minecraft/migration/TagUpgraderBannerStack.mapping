@@ -1,0 +1,4 @@
+CLASS pz net/minecraft/migration/TagUpgraderBannerStack
+	METHOD a getTargetVersion ()I
+	METHOD a upgradeTag (Ldt;)Ldt;
+		ARG 0 tag

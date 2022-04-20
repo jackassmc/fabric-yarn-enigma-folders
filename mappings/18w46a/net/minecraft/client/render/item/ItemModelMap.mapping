@@ -1,0 +1,6 @@
+CLASS dbf net/minecraft/client/render/item/ItemModelMap
+	FIELD c blockModelManager Ldly;
+	METHOD a getBlockModelManager ()Ldly;
+	METHOD a getSprite (Lbad;)Ldkm;
+	METHOD b reloadModels ()V
+	METHOD b getModel (Lavf;)Ldlu;

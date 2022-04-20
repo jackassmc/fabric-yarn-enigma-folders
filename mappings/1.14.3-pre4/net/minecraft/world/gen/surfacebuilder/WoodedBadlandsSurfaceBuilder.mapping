@@ -1,0 +1,4 @@
+CLASS ckg net/minecraft/world/gen/surfacebuilder/WoodedBadlandsSurfaceBuilder
+	FIELD S WHITE_TERRACOTTA Lbvo;
+	FIELD T ORANGE_TERRACOTTA Lbvo;
+	FIELD U TERRACOTTA Lbvo;

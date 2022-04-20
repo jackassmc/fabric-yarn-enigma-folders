@@ -1,0 +1,4 @@
+CLASS day net/minecraft/client/render/entity/model/SignBlockEntityModel
+	FIELD b signpost Ldbz;
+	METHOD a render ()V
+	METHOD b getSignpostModel ()Ldbz;

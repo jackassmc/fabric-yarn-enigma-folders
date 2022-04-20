@@ -1,0 +1,2 @@
+CLASS none/ahj net/minecraft/enchantment/impl/EnchantmentPunch
+	METHOD b getHighestLevel ()I

@@ -1,0 +1,2 @@
+CLASS csu net/minecraft/client/gui/ScreenComponent
+	FIELD a focused Lcsw;

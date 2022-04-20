@@ -1,0 +1,19 @@
+CLASS ara net/minecraft/entity/mob/ZombieEntity
+	CLASS ara$a DestroyEggGoal
+	FIELD bC BABY Lps;
+	FIELD bE ARMS_RAISED Lps;
+	FIELD b BABY_SPEED_ID Ljava/util/UUID;
+	FIELD c BABY_SPEED_BONUS Laih;
+	FIELD d SPAWN_REINFORCEMENTS Laif;
+	METHOD <init> (Lahm;Lbcu;)V
+		ARG 1 type
+	METHOD dF getSoundStep ()Lxv;
+	METHOD dG getSkull ()Laxm;
+	METHOD dM isDrowning ()Z
+	METHOD dN canBreakDoors ()Z
+	METHOD n hasArmsRaised ()Z
+	METHOD r setArmsRaised (Z)V
+	METHOD s setBreakDoors (Z)V
+	METHOD t setChild (Z)V
+	METHOD u setChildSize (Z)V
+		ARG 1 isChild

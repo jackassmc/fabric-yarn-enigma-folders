@@ -1,0 +1,4 @@
+CLASS dmz net/minecraft/client/render/entity/feature/CreeperChargeFeatureRenderer
+	FIELD a SKIN Lqd;
+	METHOD <init> (Ldlm;)V
+		ARG 1 context

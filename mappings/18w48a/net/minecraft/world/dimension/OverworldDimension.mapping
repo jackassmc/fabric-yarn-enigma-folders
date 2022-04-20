@@ -1,0 +1,5 @@
+CLASS bre net/minecraft/world/dimension/OverworldDimension
+	METHOD <init> (Lbaq;Lbrc;)V
+		ARG 1 world
+	METHOD n hasVisibleSky ()Z
+	METHOD p getType ()Lbrc;

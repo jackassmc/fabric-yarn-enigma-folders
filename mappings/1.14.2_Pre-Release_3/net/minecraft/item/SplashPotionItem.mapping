@@ -1,0 +1,3 @@
+CLASS bdb net/minecraft/item/SplashPotionItem
+	METHOD <init> (Lbbw$a;)V
+		ARG 1 settings

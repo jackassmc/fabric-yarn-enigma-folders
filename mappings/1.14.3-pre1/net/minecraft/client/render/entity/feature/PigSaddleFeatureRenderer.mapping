@@ -1,0 +1,5 @@
+CLASS dtg net/minecraft/client/render/entity/feature/PigSaddleFeatureRenderer
+	FIELD a SKIN Lqs;
+	FIELD b model Ldfm;
+	METHOD <init> (Ldra;)V
+		ARG 1 context

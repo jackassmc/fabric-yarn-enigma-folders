@@ -1,0 +1,55 @@
+CLASS ddl net/minecraft/client/particle/ParticleManager
+	FIELD a world Lbcf;
+	FIELD b PARTICLE_TEX Lqe;
+	FIELD c particleQueues [[Ljava/util/ArrayDeque;
+	FIELD d newEmitterParticles Ljava/util/Queue;
+	FIELD e textureManager Ldol;
+	FIELD f random Ljava/util/Random;
+	FIELD g factories Lit/unimi/dsi/fastutil/ints/Int2ObjectMap;
+	FIELD h newParticles Ljava/util/Queue;
+	METHOD <init> (Lbcf;Ldol;)V
+		ARG 1 world
+		ARG 2 textureManager
+	METHOD a tick ()V
+	METHOD a updateGroup (I)V
+		ARG 1 group
+	METHOD a renderUnlitParticles (Lahd;F)V
+		ARG 1 cameraEntity
+	METHOD a addEmitter (Lahd;Lft;)V
+		ARG 1 entity
+		ARG 2 parameters
+	METHOD a addEmitter (Lahd;Lft;I)V
+		ARG 1 entity
+		ARG 2 parameters
+		ARG 3 maxAge
+	METHOD a setWorld (Lbcf;)V
+	METHOD a addParticle (Lddk;)V
+	METHOD a addBlockBreakParticles (Let;Lbqe;)V
+		ARG 1 pos
+		ARG 2 state
+	METHOD a addBlockBreakingParticles (Let;Ley;)V
+	METHOD a addParticle (Lft;DDDDDD)Lddk;
+		ARG 1 parameters
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z
+		ARG 8 velocityX
+		ARG 10 velocityY
+		ARG 12 velocityZ
+	METHOD a registerFactory (Lfu;Lddm;)V
+		ARG 1 type
+		ARG 2 factory
+	METHOD a updateParticleQueue (Ljava/util/Queue;)V
+	METHOD b getDebugString ()Ljava/lang/String;
+	METHOD b renderLitParticles (Lahd;F)V
+		ARG 1 cameraEntity
+	METHOD b updateParticle (Lddk;)V
+	METHOD b createParticle (Lft;DDDDDD)Lddk;
+		ARG 1 parameters
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z
+		ARG 8 velocityX
+		ARG 10 velocityY
+		ARG 12 velocityZ
+	METHOD c registerDefaultFactories ()V

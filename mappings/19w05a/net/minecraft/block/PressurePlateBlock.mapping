@@ -1,0 +1,9 @@
+CLASS blr net/minecraft/block/PressurePlateBlock
+	CLASS blr$a Type
+		FIELD a WOOD Lblr$a;
+		FIELD b STONE Lblr$a;
+	FIELD d POWERED Lbrh;
+	FIELD e type Lblr$a;
+	METHOD <init> (Lblr$a;Lbhs$c;)V
+		ARG 1 type
+		ARG 2 settings

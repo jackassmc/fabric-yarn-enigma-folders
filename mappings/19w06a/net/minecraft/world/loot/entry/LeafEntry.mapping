@@ -1,0 +1,23 @@
+CLASS ckj net/minecraft/world/loot/entry/LeafEntry
+	CLASS ckj$a Builder
+		FIELD a weight I
+		FIELD b quality I
+		FIELD c functions Ljava/util/List;
+		METHOD a getFunctions ()[Lckz;
+		METHOD a setWeight (I)Lckj$a;
+		METHOD a withFunction (Lckz$a;)Lckj$a;
+		METHOD b setQuality (I)Lckj$a;
+	CLASS ckj$b BasicBuilder
+		FIELD c factory Lckj$d;
+		METHOD g getThis ()Lckj$b;
+	CLASS ckj$c Choice
+	CLASS ckj$d Factory
+	CLASS ckj$e Serializer
+		METHOD a fromJson (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;[Lcmc;)Lckj;
+	FIELD c compiledFunctions Ljava/util/function/BiFunction;
+	FIELD e weight I
+	FIELD f quality I
+	FIELD g functions [Lckz;
+	FIELD h choice Lckh;
+	METHOD a create (Lckj$d;)Lckj$a;
+	METHOD a drop (Ljava/util/function/Consumer;Lcjq;)V

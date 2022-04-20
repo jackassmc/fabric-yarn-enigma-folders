@@ -1,0 +1,5 @@
+CLASS awl net/minecraft/server/network/ServerItemCooldownManager
+	FIELD a player Lul;
+	METHOD b onCooldownUpdate (Lavn;I)V
+		ARG 1 item
+	METHOD c onCooldownUpdate (Lavn;)V

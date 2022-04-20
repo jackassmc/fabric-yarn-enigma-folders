@@ -1,0 +1,5 @@
+CLASS bnh net/minecraft/block/DetectorRailBlock
+	FIELD c SHAPE Lbvw;
+	FIELD d POWERED Lbvq;
+	METHOD <init> (Lbma$c;)V
+		ARG 1 settings

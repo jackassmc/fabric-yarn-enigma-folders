@@ -1,0 +1,2 @@
+CLASS coo net/minecraft/client/sortme/ClientChatListener
+	METHOD a onChatMessage (Liy;Lja;)V

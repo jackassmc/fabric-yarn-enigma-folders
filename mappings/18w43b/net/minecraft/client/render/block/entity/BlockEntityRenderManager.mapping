@@ -1,0 +1,17 @@
+CLASS czl net/minecraft/client/render/block/entity/BlockEntityRenderManager
+	FIELD a instance Lczl;
+	FIELD e textureManager Ldha;
+	FIELD f world Laza;
+	FIELD n blockEntityRenderers Ljava/util/Map;
+	FIELD o fontRenderer Lcjz;
+	METHOD a getFontRenderer ()Lcjz;
+	METHOD a setWorld (Laza;)V
+		ARG 0 world
+	METHOD a get (Lbkf;)Lczm;
+		ARG 0 blockEntity
+	METHOD a render (Lbkf;DDDF)V
+		ARG 0 blockEntity
+		ARG 4 deltaTicks
+	METHOD a render (Lbkf;DDDFIZ)V
+	METHOD a get (Ljava/lang/Class;)Lczm;
+		ARG 0 blockEntityClass

@@ -1,0 +1,3 @@
+CLASS dgd net/minecraft/client/render/entity/FallingBlockEntityRenderer
+	METHOD a getTexture (Lagf;)Lpy;
+	METHOD a getTexture (Laoh;)Lpy;

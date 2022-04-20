@@ -1,0 +1,7 @@
+CLASS cmr net/minecraft/client/render/Tessellator
+	FIELD a buffer Lcmo;
+	FIELD b renderer Lcmp;
+	FIELD c INSTANCE Lcmr;
+	METHOD a getInstance ()Lcmr;
+	METHOD b draw ()V
+	METHOD c getVertexBuffer ()Lcmo;

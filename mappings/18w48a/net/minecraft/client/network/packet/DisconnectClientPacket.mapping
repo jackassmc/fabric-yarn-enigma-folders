@@ -1,0 +1,7 @@
+CLASS kt net/minecraft/client/network/packet/DisconnectClientPacket
+	FIELD a reason Lja;
+	METHOD a read (Liq;)V
+	METHOD a apply (Lit;)V
+	METHOD a apply (Ljr;)V
+	METHOD b getReason ()Lja;
+	METHOD b write (Liq;)V

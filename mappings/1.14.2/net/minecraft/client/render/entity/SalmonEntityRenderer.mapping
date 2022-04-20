@@ -1,0 +1,2 @@
+CLASS dra net/minecraft/client/render/entity/SalmonEntityRenderer
+	FIELD a SKIN Lqs;

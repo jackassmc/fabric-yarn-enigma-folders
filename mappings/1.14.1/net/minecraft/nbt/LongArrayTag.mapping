@@ -1,0 +1,11 @@
+CLASS ij net/minecraft/nbt/LongArrayTag
+	FIELD f value [J
+	METHOD a toArray (Ljava/util/List;)[J
+		ARG 0 list
+	METHOD add (ILjava/lang/Object;)V
+		ARG 1 value
+	METHOD equals (Ljava/lang/Object;)Z
+		ARG 1 o
+	METHOD f getLongArray ()[J
+	METHOD set (ILjava/lang/Object;)Ljava/lang/Object;
+		ARG 1 index

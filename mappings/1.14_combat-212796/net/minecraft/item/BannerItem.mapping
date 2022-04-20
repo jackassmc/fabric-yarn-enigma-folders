@@ -1,0 +1,8 @@
+CLASS bae net/minecraft/item/BannerItem
+	METHOD <init> (Lbmr;Lbmr;Lbbz$a;)V
+		ARG 1 standingBlock
+		ARG 2 wallBlock
+	METHOD a appendBannerTooltip (Lbce;Ljava/util/List;)V
+		ARG 0 stack
+		ARG 1 tooltip
+	METHOD b getColor ()Lbbb;

@@ -1,0 +1,18 @@
+CLASS amt net/minecraft/entity/passive/SchoolingFishEntity
+	CLASS amt$a Data
+		FIELD a leader Lamt;
+	FIELD b leader Lamt;
+	FIELD c groupSize I
+	METHOD <init> (Lahp;Lbde;)V
+		ARG 1 type
+	METHOD a joinGroupOf (Lamt;)Lamt;
+	METHOD a pullInOtherFish (Ljava/util/stream/Stream;)V
+	METHOD dM getMaxGroupSize ()I
+	METHOD dN hasLeader ()Z
+	METHOD dO leaveGroup ()V
+	METHOD dP canHaveMoreFishInGroup ()Z
+	METHOD dQ hasOtherFishInGroup ()Z
+	METHOD dR isCloseEnoughToLeader ()Z
+	METHOD dS moveTowardLeader ()V
+	METHOD dT increaseGroupSize ()V
+	METHOD dU decreaseGroupSize ()V

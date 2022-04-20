@@ -1,0 +1,9 @@
+CLASS cye net/minecraft/client/render/block/BlockStateModelMaps
+	FIELD a modelCache Ljava/util/Map;
+	FIELD b modelManager Ldik;
+	METHOD <init> (Ldik;)V
+		ARG 0 manager
+	METHOD a getModelManager ()Ldik;
+	METHOD b reload ()V
+	METHOD b getModel (Lblz;)Ldig;
+		ARG 0 state

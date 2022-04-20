@@ -1,0 +1,16 @@
+CLASS bos net/minecraft/block/enums/RailShape
+	FIELD a NORTH_SOUTH Lbos;
+	FIELD b EAST_WEST Lbos;
+	FIELD c ASCENDING_EAST Lbos;
+	FIELD d ASCENDING_WEST Lbos;
+	FIELD e ASCENDING_NORTH Lbos;
+	FIELD f ASCENDING_SOUTH Lbos;
+	FIELD g SOUTH_EAST Lbos;
+	FIELD h SOUTH_WEST Lbos;
+	FIELD i NORTH_WEST Lbos;
+	FIELD j NORTH_EAST Lbos;
+	FIELD k id I
+	FIELD l name Ljava/lang/String;
+	METHOD a getId ()I
+	METHOD c isAscending ()Z
+	METHOD m asString ()Ljava/lang/String;

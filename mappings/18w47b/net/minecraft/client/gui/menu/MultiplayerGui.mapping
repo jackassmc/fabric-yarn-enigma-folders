@@ -1,0 +1,36 @@
+CLASS cte net/minecraft/client/gui/menu/MultiplayerGui
+	CLASS cte$1
+		METHOD a onPressed (DD)V
+			ARG 0 mouseX
+	CLASS cte$2
+		METHOD a onPressed (DD)V
+			ARG 0 mouseX
+	CLASS cte$3
+		METHOD a onPressed (DD)V
+			ARG 0 mouseX
+	CLASS cte$4
+		METHOD a onPressed (DD)V
+			ARG 0 mouseX
+	CLASS cte$5
+		METHOD a onPressed (DD)V
+			ARG 0 mouseX
+	CLASS cte$6
+		METHOD a onPressed (DD)V
+			ARG 0 mouseX
+	CLASS cte$7
+		METHOD a onPressed (DD)V
+			ARG 0 mouseX
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD g parent Lcri;
+	METHOD a draw (IIF)V
+		ARG 1 mouseX
+		ARG 2 mouseY
+	METHOD b setIndex (I)V
+	METHOD c onInitialized ()V
+	METHOD confirmResult handle (ZI)V
+		ARG 1 result
+	METHOD f update ()V
+	METHOD keyPressed (III)Z
+		ARG 1 keyCode
+		ARG 2 scanCode
+	METHOD n onClosed ()V

@@ -1,0 +1,4 @@
+CLASS bda net/minecraft/world/TestableWorld
+	METHOD a getTopPosition (Lbty$a;Let;)Let;
+		ARG 1 type
+	METHOD a test (Let;Ljava/util/function/Predicate;)Z

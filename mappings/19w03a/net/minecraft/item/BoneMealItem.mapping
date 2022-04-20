@@ -1,0 +1,3 @@
+CLASS avj net/minecraft/item/BoneMealItem
+	METHOD a useOnBlock (Layp;)Lafx;
+		ARG 1 usageContext

@@ -1,0 +1,3 @@
+CLASS bmp net/minecraft/client/render/entity/model/IModelMultipass
+	METHOD b renderPass (Lsm;FFFFFF)V
+		ARG 0 entity

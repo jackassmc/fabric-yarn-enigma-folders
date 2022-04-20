@@ -1,0 +1,19 @@
+CLASS avh net/minecraft/item/ItemSword
+	FIELD a weaponDamage F
+	METHOD a getAttributeModifiers (Lafm;)Lcom/google/common/collect/Multimap;
+		ARG 0 effectiveSlot
+	METHOD a onEntityDamaged (Lauc;Lafq;Lafq;)Z
+		ARG 0 stack
+		ARG 1 target
+		ARG 2 user
+	METHOD a onBlockBroken (Lauc;Laza;Lblz;Leq;Lafq;)Z
+		ARG 0 stack
+		ARG 1 world
+		ARG 2 state
+		ARG 3 pos
+		ARG 4 user
+	METHOD a getBlockBreakingSpeed (Lauc;Lblz;)F
+		ARG 0 stack
+		ARG 1 state
+	METHOD a isEffectiveOn (Lblz;)Z
+		ARG 0 state

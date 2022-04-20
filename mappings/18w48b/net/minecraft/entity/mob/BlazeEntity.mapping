@@ -1,0 +1,21 @@
+CLASS aoq net/minecraft/entity/mob/BlazeEntity
+	CLASS aoq$a ShootFireballGoal
+		METHOD a canStart ()Z
+		METHOD c start ()V
+		METHOD d onRemove ()V
+		METHOD e tick ()V
+	FIELD c BLAZE_FLAGS Lpn;
+	METHOD D getAmbientSound ()Lxf;
+	METHOD H mobTick ()V
+	METHOD a setFireActive (Z)V
+	METHOD aA getLightmapCoordinates ()I
+	METHOD aX isOnFire ()Z
+	METHOD c handleFallDamage (FF)V
+		ARG 1 fallDistance
+	METHOD cb initAttributes ()V
+	METHOD cw getDeathSound ()Lxf;
+	METHOD e getHurtSound (Lafr;)Lxf;
+	METHOD k updateMovement ()V
+	METHOD l isFireActive ()Z
+	METHOD n initAi ()V
+	METHOD x_ initDataTracker ()V

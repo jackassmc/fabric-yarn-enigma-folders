@@ -1,0 +1,6 @@
+CLASS bxi net/minecraft/world/gen/feature/LakeFeatureConfig
+	FIELD a state Lbqp;
+	METHOD <init> (Lbqp;)V
+		ARG 1 state
+	METHOD a deserialize (Lcom/mojang/datafixers/Dynamic;)Lbxi;
+		ARG 0 dynamic

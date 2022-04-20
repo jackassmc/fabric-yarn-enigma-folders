@@ -1,0 +1,13 @@
+CLASS afy net/minecraft/util/profiler/DisableableProfiler
+	CLASS afy$a ProfilerController
+		METHOD a isEnabled ()Z
+		METHOD b disable ()Lagb;
+		METHOD c getResults ()Lagb;
+		METHOD d enable ()V
+	CLASS afy$b ProfilerControllerImpl
+		FIELD a profiler Laga;
+	FIELD b tickSupplier Ljava/util/function/IntSupplier;
+	FIELD c controller Lafy$b;
+	METHOD <init> (Ljava/util/function/IntSupplier;)V
+		ARG 1 tickSupplier
+	METHOD d getController ()Lafy$a;

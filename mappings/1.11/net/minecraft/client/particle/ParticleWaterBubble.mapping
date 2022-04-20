@@ -1,0 +1,2 @@
+CLASS bnz net/minecraft/client/particle/ParticleWaterBubble
+	METHOD a update ()V

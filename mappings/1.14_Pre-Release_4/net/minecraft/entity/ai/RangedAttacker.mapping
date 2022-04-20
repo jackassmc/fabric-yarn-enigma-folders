@@ -1,0 +1,3 @@
+CLASS aun net/minecraft/entity/ai/RangedAttacker
+	METHOD a attack (Lain;F)V
+		ARG 1 target

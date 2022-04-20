@@ -1,0 +1,4 @@
+CLASS cjd net/minecraft/structure/processor/StructureProcessorType
+	METHOD a register (Ljava/lang/String;Lcjd;)Lcjd;
+		ARG 0 id
+		ARG 1 processor

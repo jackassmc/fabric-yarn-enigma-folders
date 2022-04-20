@@ -1,0 +1,45 @@
+CLASS bnh net/minecraft/block/BlockState
+	CLASS bnh$b
+		METHOD a getBlockState (III)Lbnh;
+			ARG 0 x
+			ARG 1 y
+			ARG 2 z
+		METHOD a getFluidState (Leq;)Lcbl;
+			ARG 0 pos
+		METHOD d getBlockEntity (Leq;)Lbll;
+			ARG 0 pos
+	METHOD a allowsSpawning (Lafv;)Z
+	METHOD a calcBlockBreakingDelta (Lapr;Lazg;Leq;)F
+	METHOD a canPlaceAtSide (Lazg;Leq;Lcdv;)Z
+	METHOD a getWeakRedstonePower (Lazg;Leq;Lev;)I
+	METHOD a getComparatorOutput (Lazt;Leq;)I
+	METHOD a onBlockAction (Lazt;Leq;II)Z
+	METHOD a onEntityCollision (Lazt;Leq;Lafv;)V
+	METHOD a onBlockBreakStart (Lazt;Leq;Lapr;)V
+	METHOD a activate (Lazt;Leq;Lapr;Laeo;Lev;FFF)Z
+	METHOD a update (Lazt;Leq;Lbet;Leq;)V
+	METHOD a onBlockAdded (Lazt;Leq;Lbnh;)V
+	METHOD a onBlockRemoved (Lazt;Leq;Lbnh;Z)V
+	METHOD a (Lazt;Leq;Ljava/util/Random;)V
+	METHOD a applyMirror (Lbia;)Lbnh;
+	METHOD a applyRotation (Lbja;)Lbnh;
+	METHOD a getRenderingState (Lev;Lbnh;Lazu;Leq;Leq;)Lbnh;
+	METHOD b getStrongRedstonePower (Lazg;Leq;Lev;)I
+	METHOD b onRandomTick (Lazt;Leq;Ljava/util/Random;)V
+	METHOD d getBlock ()Lbet;
+	METHOD d getMapColor (Lazg;Leq;)Lcbq;
+	METHOD e getMaterial ()Lcbp;
+	METHOD e getHardness (Lazg;Leq;)F
+	METHOD f getLightOpacityLevel ()I
+	METHOD g isAir ()Z
+	METHOD g getBoundingShape (Lazg;Leq;)Lcje;
+	METHOD h getCollisionShape (Lazg;Leq;)Lcje;
+	METHOD j getRenderType ()Lbix;
+	METHOD j getRayTraceShape (Lazg;Leq;)Lcje;
+	METHOD k getOffsetPos (Lazg;Leq;)Lcim;
+	METHOD m isSimpleFullBlock ()Z
+	METHOD n emitsRedstonePower ()Z
+	METHOD o hasComparatorOutput ()Z
+	METHOD p getPistonBehavior ()Lcbr;
+	METHOD u hasRandomTicks ()Z
+	METHOD v getSoundGroup ()Lbjq;

@@ -1,0 +1,9 @@
+CLASS cmm net/minecraft/client/gl/GlBuffer
+	FIELD a id I
+	FIELD b format Lcmo;
+	FIELD c vertexCount I
+	METHOD a bind ()V
+	METHOD a draw (I)V
+	METHOD a set (Ljava/nio/ByteBuffer;)V
+	METHOD b unbind ()V
+	METHOD c delete ()V

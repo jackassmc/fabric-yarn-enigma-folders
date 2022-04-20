@@ -1,0 +1,12 @@
+CLASS an net/minecraft/predicate/item/EnchantmentPredicate
+	FIELD a ANY Lan;
+	FIELD b enchantment Lbbd;
+	FIELD c levels Lbf$d;
+	METHOD <init> (Lbbd;Lbf$d;)V
+		ARG 1 enchantment
+	METHOD a serialize ()Lcom/google/gson/JsonElement;
+	METHOD a deserialize (Lcom/google/gson/JsonElement;)Lan;
+		ARG 0 el
+	METHOD a test (Ljava/util/Map;)Z
+	METHOD b deserializeAll (Lcom/google/gson/JsonElement;)[Lan;
+		ARG 0 el

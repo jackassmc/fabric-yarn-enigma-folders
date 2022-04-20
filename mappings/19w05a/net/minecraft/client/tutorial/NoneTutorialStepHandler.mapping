@@ -1,0 +1,2 @@
+CLASS dsb net/minecraft/client/tutorial/NoneTutorialStepHandler
+	FIELD a manager Ldsh;

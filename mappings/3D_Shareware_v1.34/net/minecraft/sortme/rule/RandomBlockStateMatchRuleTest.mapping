@@ -1,0 +1,6 @@
+CLASS cio net/minecraft/sortme/rule/RandomBlockStateMatchRuleTest
+	FIELD a blockState Lbuy;
+	FIELD b probability F
+	METHOD <init> (Lbuy;F)V
+		ARG 1 blockState
+		ARG 2 probability

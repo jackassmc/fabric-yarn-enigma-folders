@@ -1,0 +1,11 @@
+CLASS dxf net/minecraft/client/search/SearchManager
+	CLASS dxf$a Key
+	FIELD a ITEM_TOOLTIP Ldxf$a;
+	FIELD b ITEM_TAG Ldxf$a;
+	FIELD c RECIPE_OUTPUT Ldxf$a;
+	FIELD d instances Ljava/util/Map;
+	METHOD a get (Ldxf$a;)Ldxc;
+		ARG 1 key
+	METHOD a put (Ldxf$a;Ldxc;)V
+		ARG 1 key
+		ARG 2 value

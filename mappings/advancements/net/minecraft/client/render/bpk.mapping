@@ -1,0 +1,2 @@
+CLASS btq net/minecraft/client/render/bpk
+	FIELD b world Lali;

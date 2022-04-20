@@ -1,0 +1,7 @@
+CLASS cbw net/minecraft/client/render/entity/EntityRendererEnderDragonEyes
+	FIELD a SKIN Lnd;
+	METHOD a shouldMergeTextures ()Z
+	METHOD a render (Labb;FFFFFFF)V
+		ARG 0 entity
+	METHOD a render (Lvn;FFFFFFF)V
+		ARG 0 entity

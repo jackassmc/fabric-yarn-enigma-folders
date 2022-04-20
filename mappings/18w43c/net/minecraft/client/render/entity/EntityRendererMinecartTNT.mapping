@@ -1,0 +1,3 @@
+CLASS deh net/minecraft/client/render/entity/EntityRendererMinecartTNT
+	METHOD <init> (Ldcb;)V
+		ARG 0 renderManager

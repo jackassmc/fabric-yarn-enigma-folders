@@ -1,0 +1,4 @@
+CLASS cly net/minecraft/world/loot/condition/RandomChanceLootCondition
+	CLASS cly$a Factory
+		METHOD a deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Lcly;
+	FIELD a chance F

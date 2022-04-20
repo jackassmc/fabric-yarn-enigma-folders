@@ -1,0 +1,4 @@
+CLASS biw net/minecraft/block/ChorusPlantBlock
+	METHOD <init> (Lbif$c;)V
+		ARG 1 settings
+	METHOD a withConnectionProperties (Lbcp;Les;)Lbrd;

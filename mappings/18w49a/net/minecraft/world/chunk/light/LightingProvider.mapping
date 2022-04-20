@@ -1,0 +1,3 @@
+CLASS cdq net/minecraft/world/chunk/light/LightingProvider
+	METHOD a get (Lbbd;)Lcdo;
+	METHOD a queueLightCheck (Let;)V

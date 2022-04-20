@@ -1,0 +1,2 @@
+CLASS agr net/minecraft/recipe/RecipeFood
+	METHOD a register (Lagx;)V

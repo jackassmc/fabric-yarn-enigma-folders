@@ -1,0 +1,23 @@
+CLASS azt net/minecraft/container/StonecutterContainer
+	FIELD c INGREDIENTS Lcom/google/common/collect/ImmutableList;
+	FIELD d inputSlot Lazq;
+	FIELD e outputSlot Lazq;
+	FIELD f inventory Lagx;
+	FIELD g context Layn;
+	FIELD h selectedRecipe Layr;
+	FIELD i world Lbhj;
+	FIELD j availableRecipes Ljava/util/List;
+	FIELD k inputStack Lbcc;
+	FIELD l lastTakeTime J
+	FIELD m contentsChangedListener Ljava/lang/Runnable;
+	METHOD <init> (ILavy;)V
+		ARG 1 syncId
+	METHOD <init> (ILavy;Layn;)V
+		ARG 1 syncId
+	METHOD a updateInput (Lagx;Lbcc;)V
+	METHOD a setContentsChangedListener (Ljava/lang/Runnable;)V
+	METHOD e getSelectedRecipe ()I
+	METHOD f getAvailableRecipes ()Ljava/util/List;
+	METHOD g getAvailableRecipeCount ()I
+	METHOD h canCraft ()Z
+	METHOD i populateResult ()V

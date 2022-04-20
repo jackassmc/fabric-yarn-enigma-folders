@@ -1,0 +1,4 @@
+CLASS dqr net/minecraft/client/audio/ElytraSoundInstance
+	FIELD n player Ldeo;
+	FIELD o tickCount I
+	METHOD aa_ tick ()V

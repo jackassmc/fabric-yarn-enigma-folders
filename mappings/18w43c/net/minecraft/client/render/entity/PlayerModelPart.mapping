@@ -1,0 +1,19 @@
+CLASS apc net/minecraft/client/render/entity/PlayerModelPart
+	FIELD a CAPE Lapc;
+	FIELD b BODY Lapc;
+	FIELD c LEFT_ARM Lapc;
+	FIELD d RIGHT_ARM Lapc;
+	FIELD e LEFT_LEG Lapc;
+	FIELD f RIGHT_LEG Lapc;
+	FIELD g HEAD Lapc;
+	FIELD h id I
+	FIELD i bitFlag I
+	FIELD j name Ljava/lang/String;
+	FIELD k localizedName Liw;
+	METHOD <init> (Ljava/lang/String;IILjava/lang/String;)V
+		ARG 0 id
+		ARG 1 name
+	METHOD a getBitFlag ()I
+	METHOD b getId ()I
+	METHOD c getName ()Ljava/lang/String;
+	METHOD d getLocalizedName ()Liw;

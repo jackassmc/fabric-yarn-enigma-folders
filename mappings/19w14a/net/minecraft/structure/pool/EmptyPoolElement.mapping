@@ -1,0 +1,2 @@
+CLASS cen net/minecraft/structure/pool/EmptyPoolElement
+	FIELD a INSTANCE Lcen;

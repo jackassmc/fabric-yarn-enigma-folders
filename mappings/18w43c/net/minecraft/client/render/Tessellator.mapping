@@ -1,0 +1,6 @@
+CLASS cit net/minecraft/client/render/Tessellator
+	FIELD a buffer Lciq;
+	FIELD c INSTANCE Lcit;
+	METHOD a getInstance ()Lcit;
+	METHOD b draw ()V
+	METHOD c getVertexBuffer ()Lciq;

@@ -1,0 +1,3 @@
+CLASS bka net/minecraft/block/GlazedTerracottaBlock
+	METHOD <init> (Lbhs$c;)V
+		ARG 1 settings

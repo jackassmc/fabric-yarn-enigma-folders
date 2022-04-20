@@ -1,0 +1,2 @@
+CLASS bwc net/minecraft/block/enums/SlabType
+	FIELD d name Ljava/lang/String;

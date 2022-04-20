@@ -1,0 +1,5 @@
+CLASS djv net/minecraft/client/render/entity/EndermiteEntityRenderer
+	FIELD a SKIN Lqc;
+	METHOD a getTexture (Lahc;)Lqc;
+	METHOD b getLyingAngle (Lahl;)F
+	METHOD b getTexture (Laps;)Lqc;

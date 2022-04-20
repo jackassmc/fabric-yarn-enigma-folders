@@ -1,0 +1,3 @@
+CLASS bnz net/minecraft/block/WallSkullBlock
+	FIELD a FACING Lbrk;
+	FIELD b FACING_TO_SHAPE Ljava/util/Map;

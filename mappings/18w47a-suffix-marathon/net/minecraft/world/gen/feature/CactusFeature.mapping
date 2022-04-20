@@ -1,0 +1,2 @@
+CLASS btb net/minecraft/world/gen/feature/CactusFeature
+	METHOD a generate (Lban;Lbqc;Ljava/util/Random;Les;Lbuf;)Z

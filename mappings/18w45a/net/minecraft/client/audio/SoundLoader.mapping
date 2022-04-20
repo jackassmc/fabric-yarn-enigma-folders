@@ -1,0 +1,34 @@
+CLASS dmp net/minecraft/client/audio/SoundLoader
+	CLASS dmp$2
+		METHOD a getSound ()Ldlp;
+		METHOD e getWeight ()I
+		METHOD k getSound ()Ljava/lang/Object;
+	FIELD a SOUND_MISSING Ldlp;
+	FIELD b LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD c GSON Lcom/google/gson/Gson;
+	FIELD d TYPE Ljava/lang/reflect/ParameterizedType;
+	FIELD e sounds Ljava/util/Map;
+	FIELD f soundManager Ldmn;
+	FIELD g resourceManager Lvw;
+	METHOD <init> (Lvw;Lclz;)V
+		ARG 1 manager
+	METHOD Z_ tick ()V
+	METHOD a getKeys ()Ljava/util/Collection;
+	METHOD a updateListenerPosition (Lapv;F)V
+		ARG 1 listener
+	METHOD a isSoundResourcePresent (Ldlp;Lpw;)Z
+	METHOD a play (Ldls;)V
+	METHOD a registerListener (Ldmo;)V
+	METHOD a readSounds (Ljava/io/InputStream;)Ljava/util/Map;
+	METHOD a get (Lpw;)Ldmq;
+	METHOD a stopSounds (Lpw;Lxb;)V
+	METHOD a onResourceReload (Lvw;)V
+	METHOD a updateSoundVolume (Lxb;F)V
+		ARG 1 category
+	METHOD b pause ()V
+	METHOD b stop (Ldls;)V
+	METHOD b unregisterListener (Ldmo;)V
+	METHOD c stopAll ()V
+	METHOD c isPlaying (Ldls;)Z
+	METHOD d deinitialize ()V
+	METHOD e resume ()V

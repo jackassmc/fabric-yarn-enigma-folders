@@ -1,0 +1,2 @@
+CLASS att net/minecraft/container/Generic3x3Container
+	FIELD c inventory Lafq;

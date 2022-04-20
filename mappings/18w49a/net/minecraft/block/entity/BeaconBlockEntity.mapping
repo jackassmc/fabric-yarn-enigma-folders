@@ -1,0 +1,50 @@
+CLASS bmm net/minecraft/block/entity/BeaconBlockEntity
+	FIELD a EFFECTS [[Lagc;
+	FIELD k levels I
+	FIELD l primary Lagc;
+	FIELD m secondary Lagc;
+	FIELD n stack Lavu;
+	FIELD o customName Ljb;
+	METHOD R_ clearInv ()V
+	METHOD V_ getInvSize ()I
+	METHOD a getInvStack (I)Lavu;
+	METHOD a takeInvStack (II)Lavu;
+		ARG 1 slot
+	METHOD a setInvStack (ILavu;)V
+		ARG 1 slot
+	METHOD a canInsertInvStack (ILavu;Ley;)Z
+		ARG 1 slot
+		ARG 2 stack
+	METHOD a createContainer (Laqk;Laql;)Lasd;
+		ARG 0 playerInv
+		ARG 1 playerInv
+	METHOD a canPlayerUseInv (Laql;)Z
+	METHOD a getInvAvailableSlots (Ley;)[I
+	METHOD a toTag (Lhq;)Lhq;
+	METHOD a setCustomName (Ljb;)V
+	METHOD aa_ tick ()V
+	METHOD ab_ toUpdatePacket ()Lkc;
+	METHOD ac_ toInitialChunkDataTag ()Lhq;
+	METHOD b removeInvStack (I)Lavu;
+	METHOD b setInvProperty (II)V
+		ARG 0 pos
+		ARG 1 pos
+	METHOD b isValidInvStack (ILavu;)Z
+		ARG 1 slot
+	METHOD b canExtractInvStack (ILavu;Ley;)Z
+		ARG 1 slot
+		ARG 2 stack
+	METHOD b onInvOpen (Laql;)V
+	METHOD b fromTag (Lhq;)V
+	METHOD c isInvEmpty ()Z
+	METHOD c getInvProperty (I)I
+	METHOD c onInvClose (Laql;)V
+	METHOD d getName ()Ljb;
+	METHOD e hasCustomName ()Z
+	METHOD e getPotionEffectById (I)Lagc;
+		ARG 0 id
+	METHOD g getInvMaxStackAmount ()I
+	METHOD i getInvPropertyCount ()I
+	METHOD m getContainerId ()Ljava/lang/String;
+	METHOD s getLevel ()I
+	METHOD t getSquaredRenderDistance ()D

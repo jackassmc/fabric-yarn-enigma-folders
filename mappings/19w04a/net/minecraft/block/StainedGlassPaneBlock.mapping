@@ -1,0 +1,3 @@
+CLASS bmv net/minecraft/block/StainedGlassPaneBlock
+	FIELD i color Lawa;
+	METHOD d getColor ()Lawa;

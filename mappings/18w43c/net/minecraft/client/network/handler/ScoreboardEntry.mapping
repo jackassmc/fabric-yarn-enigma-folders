@@ -1,0 +1,24 @@
+CLASS cvb net/minecraft/client/network/handler/ScoreboardEntry
+	FIELD a profile Lcom/mojang/authlib/GameProfile;
+	FIELD c gameMode Layx;
+	FIELD d latency I
+	FIELD g displayName Liw;
+	METHOD <init> (Lcom/mojang/authlib/GameProfile;)V
+		ARG 0 profile
+	METHOD <init> (Llh$b;)V
+		ARG 0 packet
+	METHOD a getProfile ()Lcom/mojang/authlib/GameProfile;
+	METHOD a setLatency (I)V
+		ARG 0 value
+	METHOD a setGameMode (Layx;)V
+		ARG 0 value
+	METHOD a setDisplayName (Liw;)V
+		ARG 0 value
+	METHOD b getGameMode ()Layx;
+	METHOD c getLatency ()I
+	METHOD e isSkinTextureLoaded ()Z
+	METHOD g getSkinTexture ()Lpt;
+	METHOD h getCapeTexture ()Lpt;
+	METHOD i getElytraTexture ()Lpt;
+	METHOD j getScoreboardTeam ()Lchz;
+	METHOD l getDisplayName ()Liw;

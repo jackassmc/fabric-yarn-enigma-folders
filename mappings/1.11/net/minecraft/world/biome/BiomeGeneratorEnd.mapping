@@ -1,0 +1,8 @@
+CLASS ale net/minecraft/world/biome/BiomeGeneratorEnd
+	FIELD N decorator Laxj;
+	METHOD a (Lajq;)[Laxj$a;
+		ARG 0 world
+	METHOD a decorate (Lakd;Lajq;Ljava/util/Random;)V
+		ARG 0 biome
+		ARG 1 world
+		ARG 2 rand

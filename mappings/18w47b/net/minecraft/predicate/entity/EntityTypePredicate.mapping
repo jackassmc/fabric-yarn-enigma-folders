@@ -1,0 +1,30 @@
+CLASS at net/minecraft/predicate/entity/EntityTypePredicate
+	CLASS at$1
+		METHOD a toJson ()Lcom/google/gson/JsonElement;
+		METHOD a matches (Lagj;)Z
+			ARG 1 type
+	CLASS at$a Tagged
+		FIELD b tag Lxv;
+		METHOD <init> (Lxv;)V
+			ARG 1 tag
+		METHOD a toJson ()Lcom/google/gson/JsonElement;
+		METHOD a matches (Lagj;)Z
+			ARG 1 type
+	CLASS at$b Single
+		FIELD b type Lagj;
+		METHOD <init> (Lagj;)V
+			ARG 1 type
+		METHOD a toJson ()Lcom/google/gson/JsonElement;
+		METHOD a matches (Lagj;)Z
+			ARG 1 type
+	FIELD a ANY Lat;
+	FIELD b COMMA_JOINER Lcom/google/common/base/Joiner;
+	METHOD a toJson ()Lcom/google/gson/JsonElement;
+	METHOD a matches (Lagj;)Z
+		ARG 1 type
+	METHOD a deserialize (Lcom/google/gson/JsonElement;)Lat;
+		ARG 0 element
+	METHOD a create (Lxv;)Lat;
+		ARG 0 tag
+	METHOD b create (Lagj;)Lat;
+		ARG 0 type

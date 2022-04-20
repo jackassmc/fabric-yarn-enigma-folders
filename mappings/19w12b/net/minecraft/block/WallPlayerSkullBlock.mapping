@@ -1,0 +1,3 @@
+CLASS bpb net/minecraft/block/WallPlayerSkullBlock
+	METHOD <init> (Lblg$c;)V
+		ARG 1 settings

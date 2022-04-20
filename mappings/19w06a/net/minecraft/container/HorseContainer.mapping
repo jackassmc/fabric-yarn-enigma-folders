@@ -1,0 +1,5 @@
+CLASS auj net/minecraft/container/HorseContainer
+	FIELD c playerInv Lafx;
+	FIELD d entity Lano;
+	METHOD <init> (ILarr;Lafx;Lano;)V
+		ARG 1 syncId

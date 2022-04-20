@@ -1,0 +1,8 @@
+CLASS dte net/minecraft/client/texture/Texture
+	METHOD a registerTexture (Ldtd;Lxa;Lqp;Ljava/util/concurrent/Executor;)V
+	METHOD a load (Lxa;)V
+	METHOD b popFilter ()V
+	METHOD b pushFilter (ZZ)V
+		ARG 1 bilinear
+	METHOD c getGlId ()I
+	METHOD h bindTexture ()V

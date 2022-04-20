@@ -1,0 +1,10 @@
+CLASS bsr net/minecraft/world/ChunkSaveHandler
+	METHOD a saveNextChunk ()Z
+	METHOD a saveChunk (Lbcf;Lbrs;)V
+		ARG 1 world
+		ARG 2 chunk
+	METHOD a readChunk (Lbcg;II)Lbsm;
+		ARG 1 world
+		ARG 2 chunkX
+		ARG 3 chunkZ
+	METHOD b saveAllChunks ()V

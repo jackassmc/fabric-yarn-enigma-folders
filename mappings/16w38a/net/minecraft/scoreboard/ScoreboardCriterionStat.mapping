@@ -1,0 +1,4 @@
+CLASS bdj net/minecraft/scoreboard/ScoreboardCriterionStat
+	FIELD o stat Lnu;
+	METHOD <init> (Lnu;)V
+		ARG 0 stat

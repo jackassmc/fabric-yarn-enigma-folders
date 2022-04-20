@@ -1,0 +1,10 @@
+CLASS amx net/minecraft/entity/WaterCreatureEntity
+	METHOD <init> (Lagz;Lbbp;)V
+		ARG 1 type
+	METHOD Y updateLogic ()V
+	METHOD a canBeLeashedBy (Larb;)Z
+	METHOD bx canFly ()Z
+	METHOD c canImmediatelyDespawn (D)Z
+		ARG 1 distanceSquared
+	METHOD cE getGroup ()Lahi;
+	METHOD d getCurrentExperience (Larb;)I

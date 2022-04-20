@@ -1,0 +1,4 @@
+CLASS amz net/minecraft/entity/ai/goal/LookAtCustomerGoal
+	FIELD f trader Lava;
+	METHOD <init> (Lava;)V
+		ARG 1 owner

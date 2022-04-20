@@ -1,0 +1,9 @@
+CLASS auk net/minecraft/client/options/ChatVisibility
+	FIELD a FULL Lauk;
+	FIELD b COMMANDS Lauk;
+	FIELD c HIDDEN Lauk;
+	FIELD e id I
+	FIELD f key Ljava/lang/String;
+	METHOD a getId ()I
+	METHOD a byId (I)Lauk;
+	METHOD b getTranslationKey ()Ljava/lang/String;

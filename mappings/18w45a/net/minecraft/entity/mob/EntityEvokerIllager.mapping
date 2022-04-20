@@ -1,0 +1,48 @@
+CLASS aol net/minecraft/entity/mob/EntityEvokerIllager
+	CLASS aol$a AiGoalConjureFangs
+		METHOD a conjureFangs (DDDDFI)V
+			ARG 0 x
+			ARG 1 z
+			ARG 2 minY
+			ARG 3 maxY
+			ARG 4 angle
+			ARG 5 warmup
+		METHOD g getSpellTicks ()I
+		METHOD i startTimeDelay ()I
+		METHOD j castSpell ()V
+		METHOD k getSoundPrepare ()Lwz;
+	CLASS aol$b
+		METHOD e tick ()V
+	CLASS aol$c AiGoalSummonVex
+		METHOD a canStart ()Z
+		METHOD g getSpellTicks ()I
+		METHOD i startTimeDelay ()I
+		METHOD j castSpell ()V
+		METHOD k getSoundPrepare ()Lwz;
+	CLASS aol$d AiGoalWololo
+		FIELD e purpleSheepPredicate Ljava/util/function/Predicate;
+		METHOD a canStart ()Z
+		METHOD b shouldContinue ()Z
+		METHOD c start ()V
+		METHOD d onRemove ()V
+		METHOD e tick ()V
+		METHOD g getSpellTicks ()I
+		METHOD i startTimeDelay ()I
+		METHOD j castSpell ()V
+		METHOD k getSoundPrepare ()Lwz;
+		METHOD m getInitialCooldown ()I
+	FIELD b wololoTarget Lalr;
+	METHOD D getSoundAmbient ()Lwz;
+	METHOD F getLootTableId ()Lpw;
+	METHOD I mobTick ()V
+	METHOD S_ update ()V
+	METHOD a setWololoTarget (Lalr;)V
+	METHOD a deserializeCustomData (Lho;)V
+	METHOD b serializeCustomData (Lho;)V
+	METHOD cb initAttributes ()V
+	METHOD cw getSoundDeath ()Lwz;
+	METHOD dJ getWololoTarget ()Lalr;
+	METHOD e getSoundHurt (Lafh;)Lwz;
+	METHOD n initAi ()V
+	METHOD r isTeammate (Lafy;)Z
+	METHOD y_ initDataTracker ()V

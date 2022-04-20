@@ -1,0 +1,5 @@
+CLASS net/minecraft/class_5310 net/minecraft/world/gen/chunk/SlideConfig
+	FIELD field_24817 CODEC Lcom/mojang/serialization/Codec;
+	FIELD field_24818 target D
+	FIELD field_24819 size I
+	FIELD field_24820 offset I

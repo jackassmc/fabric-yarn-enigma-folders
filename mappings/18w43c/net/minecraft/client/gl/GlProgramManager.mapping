@@ -1,0 +1,10 @@
+CLASS cio net/minecraft/client/gl/GlProgramManager
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD b INSTANCE Lcio;
+	METHOD a init ()V
+	METHOD a deleteProgram (Lcik;)V
+		ARG 0 program
+	METHOD b getInstance ()Lcio;
+	METHOD b linkProgram (Lcik;)V
+		ARG 0 program
+	METHOD c createProgram ()I

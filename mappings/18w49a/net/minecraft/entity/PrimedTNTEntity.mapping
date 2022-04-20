@@ -1,0 +1,20 @@
+CLASS aoo net/minecraft/entity/PrimedTNTEntity
+	FIELD a FUSE Lpo;
+	FIELD b causingEntity Lagt;
+	FIELD c fuseTimer I
+	METHOD <init> (Lbas;DDDLagt;)V
+		ARG 1 world
+		ARG 2 x
+		ARG 4 y
+	METHOD T_ update ()V
+	METHOD a setFuse (I)V
+	METHOD a readCustomDataFromTag (Lhq;)V
+	METHOD a onTrackedDataSet (Lpo;)V
+	METHOD aD doesCollide ()Z
+	METHOD b writeCustomDataToTag (Lhq;)V
+	METHOD bG getEyeHeight ()F
+	METHOD i getCausingEntity ()Lagt;
+	METHOD k getFuse ()I
+	METHOD l getFuseTimer ()I
+	METHOD m explode ()V
+	METHOD y_ initDataTracker ()V

@@ -1,0 +1,2 @@
+CLASS cid net/minecraft/sortme/rule/AlwaysTrueRuleTest
+	FIELD a INSTANCE Lcid;

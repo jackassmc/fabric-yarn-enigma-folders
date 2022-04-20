@@ -1,0 +1,4 @@
+CLASS are net/minecraft/village/SimpleVillager
+	FIELD a villagerInventory Laup;
+	FIELD b player Lars;
+	FIELD c recipeList Lbbz;

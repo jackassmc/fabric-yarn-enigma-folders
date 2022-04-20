@@ -1,0 +1,5 @@
+CLASS axw net/minecraft/recipe/RecipeSerializer
+	METHOD a getId ()Ljava/lang/String;
+	METHOD a write (Liq;Laxu;)V
+	METHOD a read (Lpy;Lcom/google/gson/JsonObject;)Laxu;
+	METHOD a read (Lpy;Liq;)Laxu;

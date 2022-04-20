@@ -1,0 +1,2 @@
+CLASS nv net/minecraft/util/ITickable
+	METHOD e update ()V

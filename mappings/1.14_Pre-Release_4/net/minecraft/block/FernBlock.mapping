@@ -1,0 +1,4 @@
+CLASS bsd net/minecraft/block/FernBlock
+	FIELD a SHAPE Lcsn;
+	METHOD <init> (Lbmj$c;)V
+		ARG 1 settings

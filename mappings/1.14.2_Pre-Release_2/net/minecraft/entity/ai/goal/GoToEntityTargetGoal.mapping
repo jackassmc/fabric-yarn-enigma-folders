@@ -1,0 +1,12 @@
+CLASS anm net/minecraft/entity/ai/goal/GoToEntityTargetGoal
+	FIELD a mob Laiy;
+	FIELD b target Lair;
+	FIELD c x D
+	FIELD d y D
+	FIELD e z D
+	FIELD f speed D
+	FIELD g maxDistance F
+	METHOD <init> (Laiy;DF)V
+		ARG 1 mob
+		ARG 2 speed
+		ARG 4 maxDistance

@@ -1,0 +1,27 @@
+CLASS bgt net/minecraft/world/CommandBlockExecutor
+	FIELD b DATE_FORMAT Ljava/text/SimpleDateFormat;
+	FIELD c lastExecution J
+	FIELD d updateLastExecution Z
+	FIELD e successCount I
+	FIELD f trackOutput Z
+	FIELD g lastOutput Ljn;
+	FIELD h command Ljava/lang/String;
+	FIELD i customName Ljn;
+	METHOD a setSuccessCount (I)V
+	METHOD a interact (Lawb;)Z
+	METHOD a execute (Lbhn;)Z
+	METHOD a serialize (Lic;)Lic;
+	METHOD a setCommand (Ljava/lang/String;)V
+	METHOD a shouldTrackOutput (Z)V
+	METHOD b deserialize (Lic;)V
+	METHOD b setCustomName (Ljn;)V
+	METHOD c setLastOutput (Ljn;)V
+	METHOD d getWorld ()Lvi;
+	METHOD e markDirty ()V
+	METHOD f getPos ()Lcsc;
+	METHOD h getSource ()Lcd;
+	METHOD i getSuccessCount ()I
+	METHOD j getLastOutput ()Ljn;
+	METHOD k getCommand ()Ljava/lang/String;
+	METHOD l getCustomName ()Ljn;
+	METHOD m isTrackingOutput ()Z

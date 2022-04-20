@@ -1,0 +1,2 @@
+CLASS dik net/minecraft/client/particle/FishingParticle
+	CLASS dik$a Factory

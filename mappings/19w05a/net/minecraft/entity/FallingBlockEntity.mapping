@@ -1,0 +1,19 @@
+CLASS aph net/minecraft/entity/FallingBlockEntity
+	FIELD au hurtEntities Z
+	FIELD av fallHurtMax I
+	FIELD aw fallHurtAmount F
+	FIELD b timeFalling I
+	FIELD c dropItem Z
+	FIELD d blockEntityData Lhr;
+	FIELD e BLOCK_POS Lps;
+	FIELD f block Lbqp;
+	FIELD g destroyedOnLanding Z
+	METHOD <init> (Lbcq;DDDLbqp;)V
+		ARG 1 world
+		ARG 2 x
+		ARG 4 y
+	METHOD a setFallingBlockPos (Let;)V
+	METHOD a setHurtEntities (Z)V
+	METHOD e getFallingBlockPos ()Let;
+	METHOD f getWorldClient ()Lbcq;
+	METHOD i getBlockState ()Lbqp;

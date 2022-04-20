@@ -1,0 +1,20 @@
+CLASS ahm net/minecraft/item/ItemMapFilled
+	METHOD a addInformation (Lahf;Lacu;Ljava/util/List;Z)V
+		ARG 0 stack
+		ARG 1 player
+		ARG 2 tooltip
+		ARG 3 debugEnabled
+	METHOD a createMapPacket (Lahf;Lali;Lacu;)Lgv;
+		ARG 0 stack
+		ARG 1 world
+		ARG 2 player
+	METHOD a onUpdate (Lahf;Lali;Lub;IZ)V
+		ARG 0 stack
+		ARG 1 world
+		ARG 2 entity
+		ARG 3 invSlot
+		ARG 4 held
+	METHOD b onCrafted (Lahf;Lali;Lacu;)V
+		ARG 0 stack
+		ARG 1 world
+		ARG 2 player

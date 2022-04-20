@@ -1,0 +1,4 @@
+CLASS amw net/minecraft/entity/ai/goal/SkeletonHorseGoal
+	FIELD a owner Lamv;
+	METHOD a canStart ()Z
+	METHOD e tick ()V

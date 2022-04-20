@@ -1,0 +1,7 @@
+CLASS aec net/minecraft/item/ItemCarrotOnAStick
+	METHOD C_ requireRenderRotation ()Z
+	METHOD E_ shouldRender3D ()Z
+	METHOD a onRightClick (Lajq;Laax;Lrh;)Lrk;
+		ARG 0 world
+		ARG 1 player
+		ARG 2 hand

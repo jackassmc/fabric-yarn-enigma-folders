@@ -1,0 +1,2 @@
+CLASS asf net/minecraft/block/entity/BlockEntityDaylightDetector
+	METHOD F_ update ()V

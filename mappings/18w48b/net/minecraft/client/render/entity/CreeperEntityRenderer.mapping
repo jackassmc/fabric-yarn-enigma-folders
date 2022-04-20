@@ -1,0 +1,4 @@
+CLASS dgh net/minecraft/client/render/entity/CreeperEntityRenderer
+	FIELD a SKIN Lpy;
+	METHOD a getTexture (Lagi;)Lpy;
+	METHOD a getTexture (Laos;)Lpy;

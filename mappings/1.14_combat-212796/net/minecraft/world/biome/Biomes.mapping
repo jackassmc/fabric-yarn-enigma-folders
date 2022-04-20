@@ -1,0 +1,6 @@
+CLASS bip net/minecraft/world/biome/Biomes
+	FIELD b DEFAULT Lbik;
+	METHOD a register (ILjava/lang/String;Lbik;)Lbik;
+		ARG 0 rawId
+		ARG 1 id
+		ARG 2 biome

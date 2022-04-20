@@ -1,0 +1,4 @@
+CLASS dsq net/minecraft/client/render/entity/feature/SlimeOverlayFeatureRenderer
+	FIELD a model Lddx;
+	METHOD <init> (Ldqg;)V
+		ARG 1 context

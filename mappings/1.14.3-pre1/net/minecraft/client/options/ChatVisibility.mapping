@@ -1,0 +1,9 @@
+CLASS avx net/minecraft/client/options/ChatVisibility
+	FIELD a FULL Lavx;
+	FIELD b SYSTEM Lavx;
+	FIELD c HIDDEN Lavx;
+	FIELD e id I
+	FIELD f key Ljava/lang/String;
+	METHOD a getId ()I
+	METHOD a byId (I)Lavx;
+	METHOD b getTranslationKey ()Ljava/lang/String;

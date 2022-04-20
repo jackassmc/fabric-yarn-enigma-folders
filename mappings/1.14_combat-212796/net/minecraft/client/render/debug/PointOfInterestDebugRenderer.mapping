@@ -1,0 +1,5 @@
+CLASS doj net/minecraft/client/render/debug/PointOfInterestDebugRenderer
+	FIELD c pointsOfInterest Ljava/util/Map;
+	METHOD a addPointOfInterest (Ldoj$a;)V
+	METHOD a removePointOfInterest (Lev;)V
+	METHOD c getCamera ()Lcve;

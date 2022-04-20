@@ -1,0 +1,5 @@
+CLASS none/ahd net/minecraft/recipe/impl/RecipeTools
+	FIELD a RECIPES [[Ljava/lang/String;
+	FIELD b ITEMS [[Ljava/lang/Object;
+	METHOD a register (Lnone/agw;)V
+		ARG 0 registry

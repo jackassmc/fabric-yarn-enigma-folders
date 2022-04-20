@@ -1,0 +1,26 @@
+CLASS cdp net/minecraft/client/texture/TextureManager
+	FIELD b LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD c textures Ljava/util/Map;
+	FIELD d updateable Ljava/util/List;
+	FIELD e dynamicIdCounters Ljava/util/Map;
+	FIELD f resourceContainer Lcen;
+	METHOD <init> (Lcen;)V
+		ARG 0 resourceContainer
+	METHOD a onResourceReload (Lcen;)V
+		ARG 0 container
+	METHOD a registerDynamicTexture (Ljava/lang/String;Lcde;)Lnd;
+		ARG 0 prefix
+		ARG 1 texture
+	METHOD a bindTexture (Lnd;)V
+		ARG 0 id
+	METHOD a registerTexture (Lnd;Lcdq;)Z
+		ARG 0 id
+		ARG 1 texture
+	METHOD a registerTextureUpdateable (Lnd;Lcdt;)Z
+		ARG 0 id
+		ARG 1 texture
+	METHOD b getTexture (Lnd;)Lcdq;
+		ARG 0 id
+	METHOD c destroyTexture (Lnd;)V
+		ARG 0 id
+	METHOD e updateTexture ()V

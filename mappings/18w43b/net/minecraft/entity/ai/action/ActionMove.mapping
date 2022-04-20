@@ -1,0 +1,5 @@
+CLASS agr net/minecraft/entity/ai/action/ActionMove
+	FIELD a entity Lafr;
+	METHOD <init> (Lafr;)V
+		ARG 0 entity
+	METHOD a tick ()V

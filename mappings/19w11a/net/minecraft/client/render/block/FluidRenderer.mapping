@@ -1,0 +1,6 @@
+CLASS djy net/minecraft/client/render/block/FluidRenderer
+	FIELD a lavaSprites [Ldtc;
+	FIELD b waterSprites [Ldtc;
+	FIELD c waterOverlaySprite Ldtc;
+	METHOD a onResourceReload ()V
+	METHOD a tesselate (Lbfh;Leu;Lcss;Lcjl;)Z

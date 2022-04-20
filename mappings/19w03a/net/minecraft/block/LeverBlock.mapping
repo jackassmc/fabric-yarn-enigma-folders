@@ -1,0 +1,37 @@
+CLASS bkp net/minecraft/block/LeverBlock
+	METHOD <init> (Lbhl$c;)V
+		ARG 1 settings
+	METHOD a getOutlineShape (Lbqi;Lbbt;Let;Lcnc;)Lcnr;
+		ARG 1 state
+		ARG 2 view
+		ARG 3 pos
+	METHOD a getWeakRedstonePower (Lbqi;Lbbt;Let;Ley;)I
+		ARG 1 state
+		ARG 2 view
+		ARG 3 pos
+		ARG 4 facing
+	METHOD a activate (Lbqi;Lbci;Let;Larj;Lafw;Lcmt;)Z
+		ARG 1 state
+		ARG 2 world
+		ARG 3 pos
+		ARG 4 player
+		ARG 5 hand
+	METHOD a onBlockRemoved (Lbqi;Lbci;Let;Lbqi;Z)V
+		ARG 1 state
+		ARG 2 world
+		ARG 3 pos
+		ARG 4 newState
+	METHOD a randomDisplayTick (Lbqi;Lbci;Let;Ljava/util/Random;)V
+		ARG 1 state
+		ARG 2 world
+		ARG 3 pos
+		ARG 4 rnd
+	METHOD a appendProperties (Lbqj$a;)V
+		ARG 1 builder
+	METHOD b getStrongRedstonePower (Lbqi;Lbbt;Let;Ley;)I
+		ARG 1 state
+		ARG 2 view
+		ARG 3 pos
+		ARG 4 facing
+	METHOD h emitsRedstonePower (Lbqi;)Z
+		ARG 1 state

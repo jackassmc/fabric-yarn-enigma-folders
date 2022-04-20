@@ -1,0 +1,4 @@
+CLASS aww net/minecraft/item/SplashPotionItem
+	METHOD a use (Lbas;Laql;Lafd;)Lafg;
+		ARG 1 world
+		ARG 2 player

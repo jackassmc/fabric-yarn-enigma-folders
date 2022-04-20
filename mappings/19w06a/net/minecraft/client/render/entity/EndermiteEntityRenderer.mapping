@@ -1,0 +1,3 @@
+CLASS dke net/minecraft/client/render/entity/EndermiteEntityRenderer
+	FIELD a SKIN Lqd;
+	METHOD b getTexture (Lapy;)Lqd;

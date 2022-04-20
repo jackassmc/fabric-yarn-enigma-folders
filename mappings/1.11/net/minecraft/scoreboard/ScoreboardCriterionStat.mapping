@@ -1,0 +1,4 @@
+CLASS bei net/minecraft/scoreboard/ScoreboardCriterionStat
+	FIELD o stat Lnw;
+	METHOD <init> (Lnw;)V
+		ARG 0 stat

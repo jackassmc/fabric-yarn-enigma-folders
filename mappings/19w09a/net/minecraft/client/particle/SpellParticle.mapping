@@ -1,0 +1,7 @@
+CLASS dfb net/minecraft/client/particle/SpellParticle
+	CLASS dfb$a EntityAmbientFactory
+	CLASS dfb$b InstantFactory
+	CLASS dfb$c EntityFactory
+	CLASS dfb$d DefaultFactory
+	CLASS dfb$e WitchFactory
+	FIELD D RANDOM Ljava/util/Random;

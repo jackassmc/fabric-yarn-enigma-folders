@@ -1,0 +1,59 @@
+CLASS blw net/minecraft/block/entity/BannerPattern
+	FIELD A HALF_VERTICAL_LEFT Lblw;
+	FIELD B HALF_HORIZONTAL_TOP Lblw;
+	FIELD C HALF_VERTICAL_RIGHT Lblw;
+	FIELD D HALF_HORIZONTAL_BOTTOM Lblw;
+	FIELD E BORDER Lblw;
+	FIELD F CURLY_BORDER Lblw;
+	FIELD G GRADIENT_DOWN Lblw;
+	FIELD H GRADIENT_UP Lblw;
+	FIELD I BRICKS Lblw;
+	FIELD J CREEPER Lblw;
+	FIELD K SKULL Lblw;
+	FIELD L FLOWER Lblw;
+	FIELD M MOJANG Lblw;
+	FIELD N COUNT I
+	FIELD O name Ljava/lang/String;
+	FIELD P id Ljava/lang/String;
+	FIELD Q recipePattern [Ljava/lang/String;
+	FIELD R baseStack Lavf;
+	FIELD a BASE Lblw;
+	FIELD b SQUARE_BOTTOM_LEFT Lblw;
+	FIELD c SQUARE_BOTTOM_RIGHT Lblw;
+	FIELD d SQUARE_TOP_LEFT Lblw;
+	FIELD e SQUARE_TOP_RIGHT Lblw;
+	FIELD f STRIPE_BOTTOM Lblw;
+	FIELD g STRIPE_TOP Lblw;
+	FIELD h STRIPE_LEFT Lblw;
+	FIELD i STRIPE_RIGHT Lblw;
+	FIELD j STRIPE_CENTER Lblw;
+	FIELD k STRIPE_MIDDLE Lblw;
+	FIELD l STRIPE_DOWNRIGHT Lblw;
+	FIELD m STRIPE_DOWNLEFT Lblw;
+	FIELD n SMALL_STRIPES Lblw;
+	FIELD o CROSS Lblw;
+	FIELD p STRAIGHT_CROSS Lblw;
+	FIELD q TRIANGLE_BOTTOM Lblw;
+	FIELD r TRIANGLE_TOP Lblw;
+	FIELD s TRIANGLES_BOTTOM Lblw;
+	FIELD t TRIANGLES_TOP Lblw;
+	FIELD u DIAGONAL_DOWN_LEFT Lblw;
+	FIELD v DIAGONAL_UP_RIGHT Lblw;
+	FIELD w DIAGONAL_UP_LEFT Lblw;
+	FIELD x DIAGONAL_DOWN_RIGHT Lblw;
+	FIELD y CIRCLE Lblw;
+	FIELD z RHOMBUS Lblw;
+	METHOD <init> (Ljava/lang/String;ILjava/lang/String;Ljava/lang/String;)V
+		ARG 3 name
+	METHOD <init> (Ljava/lang/String;ILjava/lang/String;Ljava/lang/String;Lavf;)V
+		ARG 3 name
+		ARG 4 id
+	METHOD <init> (Ljava/lang/String;ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+		ARG 3 name
+		ARG 4 id
+		ARG 5 recipePattern0
+		ARG 6 recipePattern1
+	METHOD a getName ()Ljava/lang/String;
+	METHOD a byId (Ljava/lang/String;)Lblw;
+		ARG 0 id
+	METHOD b getId ()Ljava/lang/String;

@@ -1,0 +1,18 @@
+CLASS lq net/minecraft/client/network/packet/CombatEventClientPacket
+	CLASS lq$a Type
+		FIELD a BEGIN Llq$a;
+		FIELD b END Llq$a;
+		FIELD c DEATH Llq$a;
+	FIELD a type Llq$a;
+	FIELD b entityId I
+	FIELD c attackerEntityId I
+	FIELD d timeSinceLastAttack I
+	FIELD e deathMessage Ljd;
+	METHOD a isErrorFatal ()Z
+	METHOD a read (Lit;)V
+		ARG 1 buf
+	METHOD a apply (Liw;)V
+		ARG 1 listener
+	METHOD a apply (Lju;)V
+	METHOD b write (Lit;)V
+		ARG 1 buf

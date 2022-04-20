@@ -1,0 +1,4 @@
+CLASS dev net/minecraft/client/render/entity/model/SignBlockEntityModel
+	FIELD b signpost Ldfw;
+	METHOD a render ()V
+	METHOD b getSignpostModel ()Ldfw;

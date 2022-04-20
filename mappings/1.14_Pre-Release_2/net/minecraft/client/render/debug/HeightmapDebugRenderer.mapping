@@ -1,0 +1,2 @@
+CLASS dno net/minecraft/client/render/debug/HeightmapDebugRenderer
+	FIELD a client Lcvb;

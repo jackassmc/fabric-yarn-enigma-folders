@@ -1,0 +1,3 @@
+CLASS dsd net/minecraft/client/render/entity/feature/IronGolemFlowerFeatureRenderer
+	METHOD <init> (Ldqe;)V
+		ARG 1 context

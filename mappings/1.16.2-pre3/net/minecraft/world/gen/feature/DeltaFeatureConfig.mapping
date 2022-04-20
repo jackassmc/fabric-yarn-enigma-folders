@@ -1,0 +1,7 @@
+CLASS net/minecraft/class_5158 net/minecraft/world/gen/feature/DeltaFeatureConfig
+	FIELD field_23895 contents Lnet/minecraft/class_2680;
+	FIELD field_23896 rim Lnet/minecraft/class_2680;
+	FIELD field_24881 CODEC Lcom/mojang/serialization/Codec;
+	METHOD <init> (Lnet/minecraft/class_2680;Lnet/minecraft/class_2680;Lnet/minecraft/class_5428;Lnet/minecraft/class_5428;)V
+		ARG 1 contents
+		ARG 2 rim

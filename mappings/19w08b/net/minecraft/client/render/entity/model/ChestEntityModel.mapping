@@ -1,0 +1,4 @@
+CLASS dab net/minecraft/client/render/entity/model/ChestEntityModel
+	FIELD a lid Ldcz;
+	FIELD b base Ldcz;
+	FIELD c hatch Ldcz;

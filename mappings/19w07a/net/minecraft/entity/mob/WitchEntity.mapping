@@ -1,0 +1,4 @@
+CLASS are net/minecraft/entity/mob/WitchEntity
+	FIELD bC DRINKING Lpw;
+	METHOD l isDrinking ()Z
+	METHOD s setDrinking (Z)V

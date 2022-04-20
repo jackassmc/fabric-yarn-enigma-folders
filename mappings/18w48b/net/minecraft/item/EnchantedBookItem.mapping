@@ -1,0 +1,15 @@
+CLASS auu net/minecraft/item/EnchantedBookItem
+	METHOD <init> (Lavn$a;)V
+		ARG 1 builder
+	METHOD a addStacksForDisplay (Lauj;Lfh;)V
+	METHOD a isTool (Lavs;)Z
+	METHOD a addEnchantment (Lavs;Layw;)V
+		ARG 0 stack
+		ARG 1 enchantmentInfo
+	METHOD a addInformation (Lavs;Lbaq;Ljava/util/List;Laxc;)V
+		ARG 1 stack
+		ARG 2 world
+		ARG 3 tooltip
+	METHOD e getEnchantmentTag (Lavs;)Lhv;
+		ARG 0 stack
+	METHOD e_ hasEnchantmentGlow (Lavs;)Z

@@ -1,0 +1,3 @@
+CLASS cmj net/minecraft/world/loot/condition/SurvivesExplosionLootCondition
+	CLASS cmj$a Factory
+	FIELD a INSTANCE Lcmj;

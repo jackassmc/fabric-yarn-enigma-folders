@@ -1,0 +1,11 @@
+CLASS ow net/minecraft/server/network/packet/AdvancementTabC2SPacket
+	CLASS a Action
+	FIELD a action Low$a;
+	FIELD b tabToOpen Lqt;
+	METHOD <init> (Low$a;Lqt;)V
+		ARG 1 action
+		ARG 2 tab
+	METHOD a open (Lq;)Low;
+	METHOD b close ()Low;
+	METHOD c getAction ()Low$a;
+	METHOD d getTabToOpen ()Lqt;

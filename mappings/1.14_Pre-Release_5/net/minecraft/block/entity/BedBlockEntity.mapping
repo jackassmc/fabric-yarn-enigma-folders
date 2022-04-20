@@ -1,0 +1,5 @@
+CLASS btj net/minecraft/block/entity/BedBlockEntity
+	FIELD a color Lbax;
+	METHOD a setColor (Lbax;)V
+		ARG 1 color
+	METHOD c getColor ()Lbax;

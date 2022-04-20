@@ -1,0 +1,7 @@
+CLASS ajg net/minecraft/entity/ai/goal/FollowOwnerGoal
+	FIELD a world Lbcp;
+	FIELD b caller Lahy;
+	FIELD c owner Lahl;
+	FIELD h minDistance F
+	METHOD <init> (Lahy;DFF)V
+		ARG 1 caller

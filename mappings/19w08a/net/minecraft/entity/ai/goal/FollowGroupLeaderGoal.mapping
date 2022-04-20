@@ -1,0 +1,5 @@
+CLASS ajo net/minecraft/entity/ai/goal/FollowGroupLeaderGoal
+	FIELD a owner Lamt;
+	FIELD b moveDelay I
+	FIELD c checkSurroundingDelay I
+	METHOD a getSurroundingSearchDelay (Lamt;)I

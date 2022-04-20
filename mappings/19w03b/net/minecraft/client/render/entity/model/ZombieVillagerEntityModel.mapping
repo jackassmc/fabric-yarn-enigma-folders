@@ -1,0 +1,2 @@
+CLASS dbs net/minecraft/client/render/entity/model/ZombieVillagerEntityModel
+	METHOD a setAngles (Lahc;FFFFFF)V

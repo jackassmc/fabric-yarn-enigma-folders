@@ -1,0 +1,6 @@
+CLASS asv net/minecraft/entity/vehicle/ChestMinecartEntity
+	METHOD U_ getInvSize ()I
+	METHOD a dropItems (Lagm;)V
+	METHOD o getMinecartType ()Lasr$a;
+	METHOD q getDefaultContainedBlock ()Lbqe;
+	METHOD s getDefaultBlockOffset ()I

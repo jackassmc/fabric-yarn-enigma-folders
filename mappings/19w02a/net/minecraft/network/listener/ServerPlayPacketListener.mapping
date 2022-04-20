@@ -1,0 +1,83 @@
+CLASS nf net/minecraft/network/listener/ServerPlayPacketListener
+	METHOD a onTeleportConfirm (Lng;)V
+		ARG 1 packet
+	METHOD a onQueryBlockNbt (Lnh;)V
+		ARG 1 packet
+	METHOD a onChatMessage (Lni;)V
+		ARG 1 packet
+	METHOD a onClientStatus (Lnj;)V
+		ARG 1 packet
+	METHOD a onClientSettings (Lnk;)V
+		ARG 1 packet
+	METHOD a onRequestCommandCompletions (Lnl;)V
+		ARG 1 packet
+	METHOD a onConfirmTransaction (Lnm;)V
+		ARG 1 packet
+	METHOD a onButtonClick (Lnn;)V
+		ARG 1 packet
+	METHOD a onClickWindow (Lno;)V
+		ARG 1 packet
+	METHOD a onGuiClose (Lnp;)V
+		ARG 1 packet
+	METHOD a onCustomPayload (Lnq;)V
+		ARG 1 packet
+	METHOD a onBookUpdate (Lnr;)V
+		ARG 1 packet
+	METHOD a onQueryEntityNbt (Lns;)V
+		ARG 1 packet
+	METHOD a onPlayerInteractEntity (Lnt;)V
+		ARG 1 rpacket
+	METHOD a onKeepAlive (Lnu;)V
+		ARG 1 packet
+	METHOD a onPlayerMove (Lnv;)V
+		ARG 1 packet
+	METHOD a onVehicleMove (Lnw;)V
+		ARG 1 packet
+	METHOD a onBoatPaddleState (Lnx;)V
+		ARG 1 packet
+	METHOD a onPickFromInventory (Lny;)V
+		ARG 1 packet
+	METHOD a onCraftRequest (Lnz;)V
+		ARG 1 packet
+	METHOD a onPlayerAbilities (Loa;)V
+		ARG 1 packet
+	METHOD a onPlayerAction (Lob;)V
+		ARG 1 packet
+	METHOD a onClientCommand (Loc;)V
+		ARG 1 packet
+	METHOD a onPlayerLook (Lod;)V
+		ARG 1 packet
+	METHOD a onRecipeBookData (Loe;)V
+		ARG 1 packet
+	METHOD a onRenameItem (Lof;)V
+		ARG 1 packet
+	METHOD a onResourcePackStatus (Log;)V
+		ARG 1 packet
+	METHOD a onAdvancementTab (Loh;)V
+		ARG 1 packet
+	METHOD a onVillagerTradeSelect (Loi;)V
+		ARG 1 packet
+	METHOD a onUpdateBeacon (Loj;)V
+		ARG 1 packet
+	METHOD a onUpdateSelectedSlot (Lok;)V
+		ARG 1 packet
+	METHOD a onUpdateCommandBlock (Lol;)V
+		ARG 1 packet
+	METHOD a onUpdateCommandBlockMinecart (Lom;)V
+		ARG 1 packet
+	METHOD a onCreativeInventoryAction (Lon;)V
+		ARG 1 packet
+	METHOD a onJigsawUpdate (Loo;)V
+		ARG 1 packet
+	METHOD a onStructureBlockUpdate (Lop;)V
+		ARG 1 packet
+	METHOD a onSignUpdate (Loq;)V
+		ARG 1 packet
+	METHOD a onHandSwing (Lor;)V
+		ARG 1 packet
+	METHOD a onSpectatorTeleport (Los;)V
+		ARG 1 packet
+	METHOD a onPlayerInteractBlock (Lot;)V
+		ARG 1 packet
+	METHOD a onPlayerInteractItem (Lou;)V
+		ARG 1 packet

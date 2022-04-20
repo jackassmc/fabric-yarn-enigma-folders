@@ -1,0 +1,3 @@
+CLASS aib net/minecraft/entity/raid/RaidVictim
+	METHOD M_ getVillage ()Lame;
+	METHOD N_ getRaid ()Lasw;

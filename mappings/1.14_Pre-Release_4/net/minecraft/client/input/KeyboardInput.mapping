@@ -1,0 +1,4 @@
+CLASS djs net/minecraft/client/input/KeyboardInput
+	FIELD i settings Lcvk;
+	METHOD <init> (Lcvk;)V
+		ARG 1 settings

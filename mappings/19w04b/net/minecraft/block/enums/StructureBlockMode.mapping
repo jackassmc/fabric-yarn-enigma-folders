@@ -1,0 +1,2 @@
+CLASS brs net/minecraft/block/enums/StructureBlockMode
+	FIELD e name Ljava/lang/String;

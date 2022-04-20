@@ -1,0 +1,6 @@
+CLASS cjc net/minecraft/structure/rule/RandomBlockStateMatchRuleTest
+	FIELD a blockState Lbvk;
+	FIELD b probability F
+	METHOD <init> (Lbvk;F)V
+		ARG 1 blockState
+		ARG 2 probability

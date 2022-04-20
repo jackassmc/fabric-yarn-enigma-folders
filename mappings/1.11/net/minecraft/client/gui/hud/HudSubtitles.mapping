@@ -1,0 +1,23 @@
+CLASS bgd net/minecraft/client/gui/hud/HudSubtitles
+	CLASS bgd$a SubtitleEntry
+		FIELD b text Ljava/lang/String;
+		FIELD c time J
+		FIELD d pos Lbdu;
+		METHOD <init> (Lbgd;Ljava/lang/String;Lbdu;)V
+			ARG 0 text
+			ARG 1 pos
+		METHOD a getText ()Ljava/lang/String;
+		METHOD a reset (Lbdu;)V
+			ARG 0 pos
+		METHOD b getTime ()J
+		METHOD c getPosition ()Lbdu;
+	FIELD a game Lbeq;
+	FIELD f entries Ljava/util/List;
+	FIELD g enabled Z
+	METHOD <init> (Lbeq;)V
+		ARG 0 game
+	METHOD a draw (Lbfi;)V
+		ARG 0 displayScale
+	METHOD a onSoundPlayed (Lcbz;Lccr;)V
+		ARG 0 sound
+		ARG 1 accessor

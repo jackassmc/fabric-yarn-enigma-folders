@@ -1,0 +1,6 @@
+CLASS rs net/minecraft/util/snooper/ISnooperDataProvider
+	METHOD Z isSnooperEnabled ()Z
+	METHOD a addSnooperInfo (Lrr;)V
+		ARG 0 snooper
+	METHOD b addSnooperInitialInfo (Lrr;)V
+		ARG 0 snooper

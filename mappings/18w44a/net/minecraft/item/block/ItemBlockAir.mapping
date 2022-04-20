@@ -1,0 +1,7 @@
+CLASS asp net/minecraft/item/block/ItemBlockAir
+	FIELD a block Lbet;
+	METHOD a getTranslationKey ()Ljava/lang/String;
+	METHOD a addInformation (Lauv;Lazt;Ljava/util/List;Lawf;)V
+		ARG 1 stack
+		ARG 2 world
+		ARG 3 tooltip

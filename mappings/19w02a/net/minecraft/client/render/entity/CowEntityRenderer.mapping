@@ -1,0 +1,4 @@
+CLASS djd net/minecraft/client/render/entity/CowEntityRenderer
+	FIELD a SKIN Lqe;
+	METHOD a getTexture (Lahd;)Lqe;
+	METHOD a getTexture (Lamn;)Lqe;

@@ -1,0 +1,12 @@
+CLASS ddz net/minecraft/client/particle/BlockCrackParticle
+	CLASS ddz$a Factory
+	FIELD J block Lbqk;
+	FIELD K blockPos Let;
+	METHOD <init> (Lbcl;DDDDDDLbqk;)V
+		ARG 1 world
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z
+	METHOD a setBlockPos (Let;)Lddz;
+	METHOD b updateColor (Let;)V
+	METHOD n setBlockPosFromPosition ()Lddz;

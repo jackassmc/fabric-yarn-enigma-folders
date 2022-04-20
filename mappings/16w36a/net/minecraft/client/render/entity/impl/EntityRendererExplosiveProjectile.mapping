@@ -1,0 +1,3 @@
+CLASS none/btg net/minecraft/client/render/entity/impl/EntityRendererExplosiveProjectile
+	METHOD a (Lnone/aar;DDDFF)V
+	METHOD a (Lnone/sf;DDDFF)V

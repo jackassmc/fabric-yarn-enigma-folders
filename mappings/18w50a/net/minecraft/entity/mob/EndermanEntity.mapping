@@ -1,0 +1,38 @@
+CLASS apj net/minecraft/entity/mob/EndermanEntity
+	CLASS apj$a PlaceBlockGoal
+		FIELD a owner Lapj;
+		METHOD a canStart ()Z
+		METHOD e tick ()V
+	CLASS apj$b
+		METHOD a canStart ()Z
+		METHOD b shouldContinue ()Z
+		METHOD c start ()V
+		METHOD d onRemove ()V
+		METHOD e tick ()V
+	CLASS apj$c PickUpBlockGoal
+		FIELD a owner Lapj;
+		METHOD a canStart ()Z
+		METHOD e tick ()V
+	FIELD bD ANGRY Lpr;
+	FIELD bF ageWhenTargetSet I
+	FIELD c CARRIED_BLOCK Lpr;
+	METHOD D getAmbientSound ()Lxm;
+	METHOD I mobTick ()V
+	METHOD a damage (Lage;F)Z
+		ARG 1 source
+		ARG 2 amount
+	METHOD a dropEquipment (Lage;IZ)V
+	METHOD a readCustomDataFromTag (Lhs;)V
+	METHOD a onTrackedDataSet (Lpr;)V
+	METHOD b setCarriedBlock (Lbpm;)V
+	METHOD b writeCustomDataToTag (Lhs;)V
+	METHOD bG getEyeHeight ()F
+	METHOD ca initAttributes ()V
+	METHOD cv getDeathSound ()Lxm;
+	METHOD dB getCarriedBlock ()Lbpm;
+	METHOD dC isAngry ()Z
+	METHOD e getHurtSound (Lage;)Lxm;
+	METHOD f setTarget (Lahe;)V
+	METHOD k updateMovement ()V
+	METHOD n prepareGoals ()V
+	METHOD y_ initDataTracker ()V

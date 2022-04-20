@@ -1,0 +1,10 @@
+CLASS atu net/minecraft/container/EnchantingTableContainer
+	FIELD c enchantmentPower [I
+	FIELD d enchantmentId [I
+	FIELD e enchantmentLevel [I
+	FIELD f inventory Lafq;
+	FIELD g pos Lato;
+	FIELD h random Ljava/util/Random;
+	FIELD i world Lats;
+	METHOD a getRandomEnchantments (Laxd;II)Ljava/util/List;
+		ARG 1 stack

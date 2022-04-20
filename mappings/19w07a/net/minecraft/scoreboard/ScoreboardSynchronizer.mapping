@@ -1,0 +1,2 @@
+CLASS cjb net/minecraft/scoreboard/ScoreboardSynchronizer
+	FIELD a compound Lcjc;

@@ -1,0 +1,4 @@
+CLASS ckr net/minecraft/world/chunk/light/ChunkLightingView
+	CLASS ckr$a Empty
+	METHOD a getChunkLightArray (Lfo;)Lbxf;
+	METHOD b getLightLevel (Lev;)I

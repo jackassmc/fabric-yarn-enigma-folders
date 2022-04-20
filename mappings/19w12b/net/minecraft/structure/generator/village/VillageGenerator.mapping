@@ -1,0 +1,9 @@
+CLASS cdm net/minecraft/structure/generator/village/VillageGenerator
+	CLASS cdm$a Piece
+	METHOD a addPieces (Lbvt;Lchx;Lev;Ljava/util/List;Lbxv;Lcdk;)V
+		ARG 0 chunkGenerator
+		ARG 1 structureManager
+		ARG 2 pos
+		ARG 3 pieces
+		ARG 4 random
+		ARG 5 config

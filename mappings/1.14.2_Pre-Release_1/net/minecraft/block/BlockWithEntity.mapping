@@ -1,0 +1,3 @@
+CLASS bmc net/minecraft/block/BlockWithEntity
+	METHOD <init> (Lbmm$c;)V
+		ARG 1 settings

@@ -1,0 +1,3 @@
+CLASS coq net/minecraft/world/loot/function/SetTagLootFunction
+	CLASS coq$a Factory
+	FIELD a tag Lia;

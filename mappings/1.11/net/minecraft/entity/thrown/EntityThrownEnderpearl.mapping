@@ -1,0 +1,7 @@
+CLASS abq net/minecraft/entity/thrown/EntityThrownEnderpearl
+	FIELD d owner Lsv;
+	METHOD A_ update ()V
+	METHOD a onCollision (Lbds;)V
+		ARG 0 hit
+	METHOD b registerTagUpgraders (Lph;)V
+		ARG 0 handler

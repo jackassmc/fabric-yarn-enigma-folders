@@ -1,0 +1,14 @@
+CLASS azs net/minecraft/recipe/crafting/ShapelessRecipe
+	CLASS azs$a Serializer
+		METHOD a (Lis;Lazn;)V
+			ARG 1 recipe
+		METHOD a (Lqd;Lcom/google/gson/JsonObject;)Lazn;
+			ARG 1 json
+		METHOD a (Lqd;Lis;)Lazn;
+			ARG 1 buf
+		METHOD b read (Lqd;Lcom/google/gson/JsonObject;)Lazs;
+		METHOD b read (Lqd;Lis;)Lazs;
+	FIELD a id Lqd;
+	FIELD b group Ljava/lang/String;
+	FIELD c output Laxd;
+	FIELD d input Lfh;

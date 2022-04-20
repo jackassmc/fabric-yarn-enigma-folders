@@ -1,0 +1,4 @@
+CLASS cib net/minecraft/world/AnvilWorldSaveHandler
+	METHOD a createChunkSaveHandler (Lbsf;)Lbrz;
+	METHOD a saveWorld (Lcih;Lhs;)V
+		ARG 1 properties

@@ -1,0 +1,3 @@
+CLASS dvi net/minecraft/client/audio/RidingMinecartSoundInstance
+	FIELD n minecart Lawc;
+	FIELD o distance F

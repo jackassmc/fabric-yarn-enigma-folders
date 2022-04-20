@@ -1,0 +1,3 @@
+CLASS cwk net/minecraft/client/font/BlankGlyph
+	FIELD a INSTANCE Lcwk;
+	FIELD b IMAGE Lcsf;

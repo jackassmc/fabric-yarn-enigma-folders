@@ -1,0 +1,6 @@
+CLASS ave net/minecraft/container/ShulkerBoxContainer
+	FIELD c inventory Laga;
+	METHOD <init> (ILarx;)V
+		ARG 1 syncId
+	METHOD <init> (ILarx;Laga;)V
+		ARG 1 syncId

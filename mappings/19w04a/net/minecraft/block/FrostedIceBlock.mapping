@@ -1,0 +1,8 @@
+CLASS bjs net/minecraft/block/FrostedIceBlock
+	FIELD a AGE Lbrk;
+	METHOD <init> (Lbhn$c;)V
+		ARG 1 settings
+	METHOD e increaseAge (Lbqk;Lbcl;Let;)Z
+		ARG 1 state
+		ARG 2 world
+		ARG 3 pos

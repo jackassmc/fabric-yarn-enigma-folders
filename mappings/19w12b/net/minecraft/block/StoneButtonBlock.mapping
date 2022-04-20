@@ -1,0 +1,3 @@
+CLASS bqt net/minecraft/block/StoneButtonBlock
+	METHOD <init> (Lblg$c;)V
+		ARG 1 settings

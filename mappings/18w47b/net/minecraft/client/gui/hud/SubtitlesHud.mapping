@@ -1,0 +1,14 @@
+CLASS cov net/minecraft/client/gui/hud/SubtitlesHud
+	CLASS cov$a SubtitleEntry
+		FIELD b text Ljava/lang/String;
+		FIELD c time J
+		FIELD d pos Lcjy;
+		METHOD a getText ()Ljava/lang/String;
+		METHOD a reset (Lcjy;)V
+		METHOD b getTime ()J
+		METHOD c getPosition ()Lcjy;
+	FIELD a game Lcnd;
+	FIELD f entries Ljava/util/List;
+	FIELD g enabled Z
+	METHOD a onSoundPlayed (Ldmz;Ldnx;)V
+		ARG 1 sound

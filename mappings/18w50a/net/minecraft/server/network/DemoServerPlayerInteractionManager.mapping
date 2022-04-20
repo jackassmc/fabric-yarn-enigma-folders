@@ -1,0 +1,13 @@
+CLASS ui net/minecraft/server/network/DemoServerPlayerInteractionManager
+	METHOD a update ()V
+	METHOD a interactItem (Larb;Lbbp;Lawo;Lafo;)Lafq;
+	METHOD a interactBlock (Larb;Lbbp;Lawo;Lafo;Let;Ley;FFF)Lafq;
+		ARG 1 player
+		ARG 2 world
+		ARG 3 stack
+		ARG 4 hand
+		ARG 5 pos
+		ARG 6 facing
+		ARG 7 hitX
+		ARG 8 hitY
+	METHOD b tryBreakBlock (Let;)Z

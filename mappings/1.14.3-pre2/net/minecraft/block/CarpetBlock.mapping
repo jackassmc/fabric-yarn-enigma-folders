@@ -1,0 +1,7 @@
+CLASS btg net/minecraft/block/CarpetBlock
+	FIELD a SHAPE Lcsu;
+	FIELD b color Lbbb;
+	METHOD <init> (Lbbb;Lbmp$c;)V
+		ARG 1 color
+		ARG 2 settings
+	METHOD d getColor ()Lbbb;

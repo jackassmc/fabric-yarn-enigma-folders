@@ -1,0 +1,2 @@
+CLASS bun net/minecraft/world/gen/feature/GrassFeature
+	METHOD a generate (Lban;Lbqc;Ljava/util/Random;Les;Lbuf;)Z

@@ -1,0 +1,2 @@
+CLASS asw net/minecraft/entity/thrown/ThrownEnderpearlEntity
+	FIELD e owner Lahu;

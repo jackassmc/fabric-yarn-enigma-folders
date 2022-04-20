@@ -1,0 +1,6 @@
+CLASS dpb net/minecraft/client/tutorial/TutorialStepHandler
+	METHOD a tick ()V
+	METHOD a onSlotUpdate (Lavs;)V
+	METHOD a onBlockAttacked (Lczk;Let;Lboj;F)V
+	METHOD b destroy ()V
+	METHOD c onInventoryOpened ()V

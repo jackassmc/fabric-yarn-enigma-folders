@@ -1,0 +1,6 @@
+CLASS avw net/minecraft/item/CrossbowItem
+	METHOD a getChargeSound (I)Lxr;
+		ARG 1 quickChargeLevel
+	METHOD a setCharged (Laxd;Z)Lhr;
+	METHOD b getHeldFireworks (Larj;)Laxd;
+	METHOD d isCharged (Laxd;)Z

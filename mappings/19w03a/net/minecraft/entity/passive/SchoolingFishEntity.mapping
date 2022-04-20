@@ -1,0 +1,24 @@
+CLASS amh net/minecraft/entity/passive/SchoolingFishEntity
+	CLASS amh$a Data
+		FIELD a leader Lamh;
+	FIELD b leader Lamh;
+	FIELD c groupSize I
+	METHOD <init> (Lahg;Lbci;)V
+		ARG 1 type
+	METHOD M getLimitPerChunk ()I
+	METHOD a joinGroupOf (Lamh;)Lamh;
+	METHOD a prepareEntityData (Lbcj;Lafv;Laho;Lahw;Lhq;)Lahw;
+		ARG 3 difficulty
+	METHOD a pullInOtherFish (Ljava/util/stream/Stream;)V
+	METHOD dC hasSelfControl ()Z
+	METHOD dE getMaxGroupSize ()I
+	METHOD dF hasLeader ()Z
+	METHOD dG leaveGroup ()V
+	METHOD dH canHaveMoreFishInGroup ()Z
+	METHOD dI hasOtherFishInGroup ()Z
+	METHOD dJ isCloseEnoughToLeader ()Z
+	METHOD dK moveTowardLeader ()V
+	METHOD dL increaseGroupSize ()V
+	METHOD dM decreaseGroupSize ()V
+	METHOD h update ()V
+	METHOD n ()V

@@ -1,0 +1,8 @@
+CLASS bbx net/minecraft/item/HoeItem
+	FIELD a TILLED_BLOCKS Ljava/util/Map;
+	METHOD <init> (Lbdi;Lbbz$a;)V
+		ARG 1 material
+	METHOD a (Laiu;)V
+		ARG 0 e
+	METHOD a (Lbdp;Lawb;)V
+		ARG 1 p

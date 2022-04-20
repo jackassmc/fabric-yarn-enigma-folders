@@ -1,0 +1,32 @@
+CLASS bep net/minecraft/recipe/RecipeSerializer
+	FIELD a SHAPED Lbep;
+	FIELD b SHAPELESS Lbep;
+	FIELD c ARMOR_DYE Lbex;
+	FIELD d BOOK_CLONING Lbex;
+	FIELD e MAP_CLONING Lbex;
+	FIELD f MAP_EXTENDING Lbex;
+	FIELD g FIREWORK_ROCKET Lbex;
+	FIELD h FIREWORK_STAR Lbex;
+	FIELD i FIREWORK_STAR_FADE Lbex;
+	FIELD j TIPPED_ARROW Lbex;
+	FIELD k BANNER_DUPLICATE Lbex;
+	FIELD l SHIELD_DECORATION Lbex;
+	FIELD m SHULKER_BOX Lbex;
+	FIELD n SUSPICIOUS_STEW Lbex;
+	FIELD o REPAIR_ITEM Lbex;
+	FIELD p SMELTING Lbew;
+	FIELD q BLASTING Lbew;
+	FIELD r SMOKING Lbew;
+	FIELD s CAMPFIRE_COOKING Lbew;
+	METHOD a register (Ljava/lang/String;Lbep;)Lbep;
+		ARG 0 id
+		ARG 1 serializer
+	METHOD a write (Ljd;Lben;)V
+		ARG 1 buf
+		ARG 2 recipe
+	METHOD a read (Lqt;Lcom/google/gson/JsonObject;)Lben;
+		ARG 1 id
+		ARG 2 json
+	METHOD a read (Lqt;Ljd;)Lben;
+		ARG 1 id
+		ARG 2 buf

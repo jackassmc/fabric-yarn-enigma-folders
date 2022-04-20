@@ -1,0 +1,21 @@
+CLASS axo net/minecraft/recipe/RecipeSerializers
+	CLASS axo$a Dummy
+		FIELD a id Ljava/lang/String;
+		FIELD b supplier Ljava/util/function/Function;
+		METHOD <init> (Ljava/lang/String;Ljava/util/function/Function;)V
+			ARG 0 id
+			ARG 1 supplier
+		METHOD a getId ()Ljava/lang/String;
+		METHOD a write (Lip;Laxl;)V
+			ARG 0 buf
+			ARG 1 recipe
+		METHOD a read (Lpx;Lcom/google/gson/JsonObject;)Laxl;
+			ARG 0 id
+			ARG 1 json
+		METHOD a read (Lpx;Lip;)Laxl;
+			ARG 0 id
+			ARG 1 buf
+	METHOD a toPacket (Laxl;Lip;)V
+	METHOD a register (Laxn;)Laxn;
+	METHOD a fromPacket (Lip;)Laxl;
+	METHOD a fromJson (Lpx;Lcom/google/gson/JsonObject;)Laxl;

@@ -1,0 +1,9 @@
+CLASS btp net/minecraft/sortme/Hopper
+	FIELD a INSIDE_SHAPE Lcse;
+	FIELD b ABOVE_SHAPE Lcse;
+	FIELD c INPUT_AREA_SHAPE Lcse;
+	METHOD A getHopperY ()D
+	METHOD B getHopperZ ()D
+	METHOD O_ getInputAreaShape ()Lcse;
+	METHOD w getWorld ()Lbgx;
+	METHOD z getHopperX ()D

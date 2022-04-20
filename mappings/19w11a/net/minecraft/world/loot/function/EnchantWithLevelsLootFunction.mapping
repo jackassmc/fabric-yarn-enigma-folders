@@ -1,0 +1,3 @@
+CLASS coa net/minecraft/world/loot/function/EnchantWithLevelsLootFunction
+	CLASS coa$b net/minecraft/world/loot/function/EnchantWithLevelsLootFunction$Factory
+	FIELD c treasureEnchantmentsAllowed Z

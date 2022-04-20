@@ -1,0 +1,13 @@
+CLASS avq net/minecraft/village/VillagerType
+	FIELD a DESERT Lavq;
+	FIELD b JUNGLE Lavq;
+	FIELD c PLAINS Lavq;
+	FIELD d SAVANNA Lavq;
+	FIELD e SNOW Lavq;
+	FIELD f SWAMP Lavq;
+	FIELD g TAIGA Lavq;
+	FIELD h BIOME_TO_TYPE Ljava/util/Map;
+	METHOD a forBiome (Lbif;)Lavq;
+		ARG 0 biome
+	METHOD a create (Ljava/lang/String;)Lavq;
+		ARG 0 id

@@ -1,0 +1,5 @@
+CLASS djs net/minecraft/client/render/entity/SheepWoolEntityRenderer
+	FIELD a SKIN Lpy;
+	METHOD a shouldMergeTextures ()Z
+	METHOD a render (Lago;FFFFFFF)V
+	METHOD a render (Lamb;FFFFFFF)V

@@ -1,0 +1,22 @@
+CLASS cfm net/minecraft/world/chunk/light/SkyLightStorage
+	CLASS cfm$a Data
+		FIELD b defaultHeight I
+		FIELD c heightMap Lit/unimi/dsi/fastutil/longs/Long2IntOpenHashMap;
+		METHOD b copy ()Lcfd;
+	FIELD k DIRECTIONS_SKYLIGHT [Ley;
+	FIELD p hasSkyLightUpdates Z
+	METHOD <init> (Lbsg;)V
+		ARG 1 chunkProvider
+	METHOD a hasLightUpdates ()Z
+	METHOD a isAboveMinimumHeight (I)Z
+		ARG 1 blockY
+	METHOD a getLight (J)I
+		ARG 1 blockPos
+	METHOD a processUpdates (Lcfg;ZZ)V
+		ARG 1 lightProvider
+		ARG 2 doSkylight
+		ARG 3 doEdgeLightPropagation
+	METHOD d checkForUpdates ()V
+	METHOD f (J)V
+		ARG 1 blockPos
+	METHOD i onChunkRemoved (J)V

@@ -1,0 +1,15 @@
+CLASS dhl net/minecraft/client/network/ClientAdvancementManager
+	CLASS a Listener
+		METHOD a setProgress (Lq;Ls;)V
+		METHOD e selectTab (Lq;)V
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD b client Lcvo;
+	FIELD c manager Lr;
+	FIELD d advancementProgresses Ljava/util/Map;
+	FIELD e listener Ldhl$a;
+	FIELD f selectedTab Lq;
+	METHOD a getManager ()Lr;
+	METHOD a setListener (Ldhl$a;)V
+		ARG 1 listener
+	METHOD a onAdvancements (Lnl;)V
+	METHOD a selectTab (Lq;Z)V

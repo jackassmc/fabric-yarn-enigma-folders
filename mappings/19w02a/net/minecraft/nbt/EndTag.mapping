@@ -1,0 +1,12 @@
+CLASS hu net/minecraft/nbt/EndTag
+	METHOD a getType ()B
+	METHOD a read (Ljava/io/DataInput;ILib;)V
+		ARG 1 input
+		ARG 2 depth
+	METHOD a write (Ljava/io/DataOutput;)V
+	METHOD a toTextComponent (Ljava/lang/String;I)Ljd;
+		ARG 1 indent
+	METHOD b copy ()Lij;
+	METHOD c copy ()Lhu;
+	METHOD equals (Ljava/lang/Object;)Z
+		ARG 1 o

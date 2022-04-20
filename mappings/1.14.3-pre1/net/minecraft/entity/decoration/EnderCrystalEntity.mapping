@@ -1,0 +1,9 @@
+CLASS ash net/minecraft/entity/decoration/EnderCrystalEntity
+	FIELD c BEAM_TARGET Lqh;
+	FIELD d SHOW_BOTTOM Lqh;
+	METHOD a crystalDestroyed (Lahs;)V
+		ARG 1 source
+	METHOD a setBeamTarget (Lev;)V
+	METHOD a setShowBottom (Z)V
+	METHOD f getBeamTarget ()Lev;
+	METHOD i getShowBottom ()Z

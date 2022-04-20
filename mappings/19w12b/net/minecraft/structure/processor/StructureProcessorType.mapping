@@ -1,0 +1,4 @@
+CLASS cia net/minecraft/structure/processor/StructureProcessorType
+	METHOD a register (Ljava/lang/String;Lcia;)Lcia;
+		ARG 0 id
+		ARG 1 processor

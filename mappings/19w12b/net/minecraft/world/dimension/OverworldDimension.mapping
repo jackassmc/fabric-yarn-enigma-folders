@@ -1,0 +1,4 @@
+CLASS bxa net/minecraft/world/dimension/OverworldDimension
+	METHOD <init> (Lbgf;Lbwy;)V
+		ARG 1 world
+		ARG 2 type

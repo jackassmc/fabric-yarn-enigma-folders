@@ -1,0 +1,21 @@
+CLASS none/bft net/minecraft/client/gui/menu/GuiServerConnecting
+	FIELD f LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD i parent Lnone/bgm;
+	METHOD <init> (Lnone/bgm;Lnone/bdq;Ljava/lang/String;I)V
+		ARG 0 parent
+		ARG 1 game
+	METHOD <init> (Lnone/bgm;Lnone/bdq;Lnone/bmj;)V
+		ARG 0 parent
+		ARG 1 game
+		ARG 2 server
+	METHOD a handleKeyPress (CI)V
+		ARG 0 keyChar
+		ARG 1 keyCode
+	METHOD a draw (IIF)V
+		ARG 0 mouseX
+		ARG 1 mouseY
+		ARG 2 delta
+	METHOD a handleButtonPressed (Lnone/bek;)V
+		ARG 0 button
+	METHOD b init ()V
+	METHOD e update ()V

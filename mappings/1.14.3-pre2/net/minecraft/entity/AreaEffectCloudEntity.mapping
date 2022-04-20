@@ -1,0 +1,52 @@
+CLASS aik net/minecraft/entity/AreaEffectCloudEntity
+	FIELD aA owner Laiu;
+	FIELD aB ownerUuid Ljava/util/UUID;
+	FIELD ar effects Ljava/util/List;
+	FIELD as affectedEntities Ljava/util/Map;
+	FIELD at duration I
+	FIELD au waitTime I
+	FIELD av reapplicationDelay I
+	FIELD aw customColor Z
+	FIELD ax durationOnUse I
+	FIELD ay radiusOnUse F
+	FIELD az radiusGrowth F
+	FIELD b LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD c RADIUS Lqi;
+	FIELD d COLOR Lqi;
+	FIELD e WAITING Lqi;
+	FIELD f PARTICLE_ID Lqi;
+	FIELD g potion Lbdt;
+	METHOD <init> (Lbhl;DDD)V
+		ARG 1 world
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z
+	METHOD a setRadius (F)V
+		ARG 1 radius
+	METHOD a setColor (I)V
+		ARG 1 rgb
+	METHOD a addEffect (Laif;)V
+		ARG 1 effect
+	METHOD a setOwner (Laiu;)V
+		ARG 1 owner
+	METHOD a setPotion (Lbdt;)V
+		ARG 1 potion
+	METHOD a setParticleType (Lge;)V
+		ARG 1 particle
+	METHOD a setWaiting (Z)V
+		ARG 1 waiting
+	METHOD b setRadiusOnUse (F)V
+		ARG 1 radius
+	METHOD b setDuration (I)V
+		ARG 1 duration
+	METHOD c setRadiusGrowth (F)V
+		ARG 1 growth
+	METHOD d setWaitTime (I)V
+		ARG 1 ticks
+	METHOD f getRadius ()F
+	METHOD i getColor ()I
+	METHOD k getParticleType ()Lge;
+	METHOD l isWaiting ()Z
+	METHOD m getDuration ()I
+	METHOD u getOwner ()Laiu;
+	METHOD z updateColor ()V

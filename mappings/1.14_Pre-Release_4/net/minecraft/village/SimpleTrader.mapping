@@ -1,0 +1,5 @@
+CLASS avh net/minecraft/village/SimpleTrader
+	FIELD a traderInventory Lazc;
+	FIELD b player Lavw;
+	FIELD c recipeList Lbgk;
+	FIELD d experience I

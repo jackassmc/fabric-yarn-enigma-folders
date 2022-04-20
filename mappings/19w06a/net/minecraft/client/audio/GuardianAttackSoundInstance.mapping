@@ -1,0 +1,2 @@
+CLASS drg net/minecraft/client/audio/GuardianAttackSoundInstance
+	FIELD n guardian Laqd;

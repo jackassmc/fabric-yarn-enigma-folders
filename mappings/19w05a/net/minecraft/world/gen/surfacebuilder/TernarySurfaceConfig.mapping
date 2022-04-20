@@ -1,0 +1,11 @@
+CLASS cez net/minecraft/world/gen/surfacebuilder/TernarySurfaceConfig
+	FIELD a topMaterial Lbqp;
+	FIELD b underMaterial Lbqp;
+	FIELD c underwaterMaterial Lbqp;
+	METHOD <init> (Lbqp;Lbqp;Lbqp;)V
+		ARG 1 topMaterial
+		ARG 2 underMaterial
+		ARG 3 underwaterMaterial
+	METHOD a deserialize (Lcom/mojang/datafixers/Dynamic;)Lcez;
+		ARG 0 dynamic
+	METHOD c getUnderwaterMaterial ()Lbqp;

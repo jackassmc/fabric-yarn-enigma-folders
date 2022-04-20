@@ -1,0 +1,15 @@
+CLASS bip net/minecraft/client/gui/menu/GuiSettingsChat
+	FIELD a SETTINGS [Lbgo$a;
+	FIELD f parent Lbjn;
+	FIELD g settings Lbgo;
+	METHOD <init> (Lbjn;Lbgo;)V
+		ARG 0 parent
+		ARG 1 settings
+	METHOD a onKeyPressed (CI)V
+	METHOD a draw (IIF)V
+		ARG 0 mouseX
+		ARG 1 mouseY
+		ARG 2 delta
+	METHOD a onWidgetPressed (Lbhk;)V
+		ARG 0 widget
+	METHOD b init ()V

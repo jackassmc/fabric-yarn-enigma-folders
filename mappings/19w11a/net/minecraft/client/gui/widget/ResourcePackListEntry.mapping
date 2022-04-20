@@ -1,0 +1,9 @@
+CLASS dbi net/minecraft/client/gui/widget/ResourcePackListEntry
+	FIELD c client Lctq;
+	FIELD h resourcePack Ldtx;
+	METHOD a addTo (Ldbm;)V
+	METHOD b drawIcon ()V
+	METHOD g getCompatibility ()Lwo;
+	METHOD h getDescription ()Ljava/lang/String;
+	METHOD i getDisplayName ()Ljava/lang/String;
+	METHOD j getResourcePack ()Ldtx;

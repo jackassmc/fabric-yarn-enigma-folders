@@ -1,0 +1,3 @@
+CLASS bqv net/minecraft/block/SlimeBlock
+	METHOD <init> (Lbly$c;)V
+		ARG 1 settings

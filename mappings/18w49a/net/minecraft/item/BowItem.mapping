@@ -1,0 +1,10 @@
+CLASS aud net/minecraft/item/BowItem
+	METHOD a onItemStopUsing (Lavu;Lbas;Lagt;I)V
+		ARG 1 stack
+		ARG 2 world
+		ARG 3 player
+	METHOD a use (Lbas;Laql;Lafd;)Lafg;
+		ARG 1 world
+		ARG 2 player
+	METHOD b getMaxUseTime (Lavu;)I
+	METHOD c getUseAction (Lavu;)Laxg;

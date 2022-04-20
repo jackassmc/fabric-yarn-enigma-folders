@@ -1,0 +1,6 @@
+CLASS doa net/minecraft/client/render/entity/feature/WitherArmorFeatureRenderer
+	FIELD a SKIN Lqc;
+	METHOD <init> (Ldlm;)V
+		ARG 1 context
+	METHOD a render (Lahc;FFFFFFF)V
+	METHOD a render (Laor;FFFFFFF)V

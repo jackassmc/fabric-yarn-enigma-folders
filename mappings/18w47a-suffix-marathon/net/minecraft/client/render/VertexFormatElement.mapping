@@ -1,0 +1,42 @@
+CLASS cnd net/minecraft/client/render/VertexFormatElement
+	CLASS cnd$a Format
+		FIELD a FLOAT Lcnd$a;
+		FIELD b UNSIGNED_BYTE Lcnd$a;
+		FIELD c BYTE Lcnd$a;
+		FIELD d UNSIGNED_SHORT Lcnd$a;
+		FIELD e SHORT Lcnd$a;
+		FIELD f UNSIGNED_INT Lcnd$a;
+		FIELD g INT Lcnd$a;
+		FIELD h id I
+		FIELD i name Ljava/lang/String;
+		FIELD j glId I
+		METHOD a getId ()I
+		METHOD b getName ()Ljava/lang/String;
+		METHOD c getGlId ()I
+	CLASS cnd$b Type
+		FIELD a POSITION Lcnd$b;
+		FIELD b NORMAL Lcnd$b;
+		FIELD c COLOR Lcnd$b;
+		FIELD d UV Lcnd$b;
+		FIELD e BONE_MATRIX Lcnd$b;
+		FIELD f BLEND_WEIGHT Lcnd$b;
+		FIELD g PADDING Lcnd$b;
+		FIELD h name Ljava/lang/String;
+		METHOD a getName ()Ljava/lang/String;
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD b format Lcnd$a;
+	FIELD c type Lcnd$b;
+	FIELD d index I
+	FIELD e count I
+	METHOD <init> (ILcnd$a;Lcnd$b;I)V
+		ARG 1 index
+		ARG 2 format
+		ARG 3 type
+	METHOD a getFormat ()Lcnd$a;
+	METHOD a isValidType (ILcnd$b;)Z
+		ARG 1 index
+	METHOD b getType ()Lcnd$b;
+	METHOD c getCount ()I
+	METHOD d getIndex ()I
+	METHOD e getSize ()I
+	METHOD f isPosition ()Z

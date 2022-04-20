@@ -1,0 +1,3 @@
+CLASS bjt net/minecraft/block/FurnaceBlock
+	METHOD <init> (Lbhn$c;)V
+		ARG 1 settings

@@ -1,0 +1,4 @@
+CLASS cpi net/minecraft/world/loot/function/LootingEnchantLootFunction
+	CLASS cpi$b Factory
+	FIELD a range Lcoe;
+	FIELD c amount I

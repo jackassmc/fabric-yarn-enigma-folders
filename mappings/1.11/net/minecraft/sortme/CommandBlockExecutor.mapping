@@ -1,0 +1,46 @@
+CLASS ajf net/minecraft/sortme/CommandBlockExecutor
+	CLASS ajf$1
+		METHOD a call ()Ljava/lang/String;
+	CLASS ajf$2
+		METHOD a call ()Ljava/lang/String;
+	FIELD a DATE_FORMAT Ljava/text/SimpleDateFormat;
+	FIELD b successCount I
+	FIELD c trackOutput Z
+	FIELD d lastOutput Lfb;
+	FIELD e command Ljava/lang/String;
+	FIELD f customName Ljava/lang/String;
+	FIELD g stats Lo;
+	METHOD a setSuccessCount (I)V
+		ARG 0 successCount
+	METHOD a hasPermission (ILjava/lang/String;)Z
+		ARG 0 permissionLevel
+		ARG 1 commandName
+	METHOD a interact (Laax;)Z
+		ARG 0 player
+	METHOD a execute (Lajq;)V
+		ARG 0 world
+	METHOD a serialize (Ldu;)Ldu;
+		ARG 0 tag
+	METHOD a appendCommandFeedback (Lfb;)V
+		ARG 0 component
+	METHOD a setCommand (Ljava/lang/String;)V
+		ARG 0 command
+	METHOD a updateCommandStat (Lo$a;I)V
+		ARG 0 statType
+		ARG 1 statValue
+	METHOD a shouldTrackOutput (Z)V
+		ARG 0 trackOutput
+	METHOD b deserialize (Ldu;)V
+		ARG 0 tag
+	METHOD b setLastOutput (Lfb;)V
+		ARG 0 lastOutput
+	METHOD b setCustomName (Ljava/lang/String;)V
+		ARG 0 customName
+	METHOD g shouldEchoCommandFeedback ()Z
+	METHOD h_ getName ()Ljava/lang/String;
+	METHOD i_ getNameComponent ()Lfb;
+	METHOD k getSuccessCount ()I
+	METHOD l getLastOutput ()Lfb;
+	METHOD m getCommand ()Ljava/lang/String;
+	METHOD n isTrackingOutput ()Z
+	METHOD o getCommandStats ()Lo;

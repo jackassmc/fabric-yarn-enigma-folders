@@ -1,0 +1,6 @@
+CLASS djw net/minecraft/client/particle/CurrentDownParticle
+	CLASS a Factory
+	METHOD <init> (Lbhn;DDD)V
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z

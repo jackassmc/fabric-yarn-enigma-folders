@@ -1,0 +1,5 @@
+CLASS cha net/minecraft/structure/generator/WoodlandMansionGenerator
+	CLASS cha$i net/minecraft/structure/generator/WoodlandMansionGenerator$Piece
+		FIELD d template Ljava/lang/String;
+		FIELD e rotation Lbpk;
+		FIELD f mirror Lbok;

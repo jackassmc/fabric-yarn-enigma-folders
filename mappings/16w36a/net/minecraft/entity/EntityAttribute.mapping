@@ -1,0 +1,4 @@
+CLASS none/st net/minecraft/entity/EntityAttribute
+	FIELD a UNKNOWN Lnone/st;
+	FIELD b UNDEAD Lnone/st;
+	FIELD c ARTHROPOD Lnone/st;

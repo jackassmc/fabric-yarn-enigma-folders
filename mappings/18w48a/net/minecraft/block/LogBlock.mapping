@@ -1,0 +1,2 @@
+CLASS biw net/minecraft/block/LogBlock
+	METHOD e getMapColor (Lboj;Lbac;Let;)Lcdv;

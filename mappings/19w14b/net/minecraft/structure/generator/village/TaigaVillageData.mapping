@@ -1,0 +1,2 @@
+CLASS cef net/minecraft/structure/generator/village/TaigaVillageData
+	METHOD a initialize ()V

@@ -1,0 +1,4 @@
+CLASS aql net/minecraft/entity/passive/SnowmanEntity
+	FIELD b SNOWMAN_FLAGS Lqf;
+	METHOD l hasPumpkin ()Z
+	METHOD r setHasPumpkin (Z)V

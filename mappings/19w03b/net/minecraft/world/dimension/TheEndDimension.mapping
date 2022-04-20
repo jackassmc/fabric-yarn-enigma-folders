@@ -1,0 +1,13 @@
+CLASS bth net/minecraft/world/dimension/TheEndDimension
+	FIELD g enderDragonFight Lbtg;
+	METHOD <init> (Lbci;Lbtc;)V
+		ARG 1 world
+		ARG 2 type
+	METHOD a getSkyAngle (JF)F
+		ARG 1 timeOfDay
+		ARG 3 delta
+	METHOD d getForcedSpawnPoint ()Let;
+	METHOD k saveWorldData ()V
+	METHOD m createChunkGenerator ()Lbrx;
+	METHOD n hasVisibleSky ()Z
+	METHOD p getType ()Lbtc;

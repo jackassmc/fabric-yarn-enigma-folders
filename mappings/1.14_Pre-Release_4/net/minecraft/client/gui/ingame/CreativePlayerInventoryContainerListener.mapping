@@ -1,0 +1,2 @@
+CLASS dav net/minecraft/client/gui/ingame/CreativePlayerInventoryContainerListener
+	FIELD a client Lcvg;

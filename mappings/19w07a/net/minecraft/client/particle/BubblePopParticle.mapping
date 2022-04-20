@@ -1,0 +1,2 @@
+CLASS ddg net/minecraft/client/particle/BubblePopParticle
+	CLASS ddg$a Factory

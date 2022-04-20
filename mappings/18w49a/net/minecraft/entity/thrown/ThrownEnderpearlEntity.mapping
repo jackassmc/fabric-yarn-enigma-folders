@@ -1,0 +1,5 @@
+CLASS arg net/minecraft/entity/thrown/ThrownEnderpearlEntity
+	FIELD e owner Lagt;
+	METHOD T_ update ()V
+	METHOD a changeDimension (Lbrf;)Lagk;
+	METHOD a onCollision (Lckw;)V

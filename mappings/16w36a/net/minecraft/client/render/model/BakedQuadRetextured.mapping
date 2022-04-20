@@ -1,0 +1,3 @@
+CLASS none/bpy net/minecraft/client/render/model/BakedQuadRetextured
+	FIELD e texture Lnone/bxd;
+	METHOD f recalculateUvs ()V

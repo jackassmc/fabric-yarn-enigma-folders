@@ -1,0 +1,46 @@
+CLASS apm net/minecraft/entity/mob/EvokerEntity
+	CLASS apm$a ConjureFangsGoal
+		METHOD a conjureFangs (DDDDFI)V
+			ARG 1 z
+			ARG 3 maxY
+			ARG 5 warmup
+		METHOD g getSpellTicks ()I
+		METHOD i startTimeDelay ()I
+		METHOD j castSpell ()V
+		METHOD k getSoundPrepare ()Lxm;
+	CLASS apm$b LookAtTargetOrWololoTarget
+		METHOD e tick ()V
+	CLASS apm$c SummonVexGoal
+		METHOD a canStart ()Z
+		METHOD g getSpellTicks ()I
+		METHOD i startTimeDelay ()I
+		METHOD j castSpell ()V
+		METHOD k getSoundPrepare ()Lxm;
+	CLASS apm$d WololoGoal
+		FIELD e purpleSheepPredicate Ljava/util/function/Predicate;
+		METHOD a canStart ()Z
+		METHOD b shouldContinue ()Z
+		METHOD c start ()V
+		METHOD d onRemove ()V
+		METHOD e tick ()V
+		METHOD g getSpellTicks ()I
+		METHOD i startTimeDelay ()I
+		METHOD j castSpell ()V
+		METHOD k getSoundPrepare ()Lxm;
+		METHOD m getInitialCooldown ()I
+	FIELD bD wololoTarget Lamr;
+	METHOD D getAmbientSound ()Lxm;
+	METHOD I mobTick ()V
+	METHOD W_ update ()V
+	METHOD a setWololoTarget (Lamr;)V
+	METHOD a readCustomDataFromTag (Lhs;)V
+	METHOD b writeCustomDataToTag (Lhs;)V
+	METHOD ca initAttributes ()V
+	METHOD cv getDeathSound ()Lxm;
+	METHOD d addBonusForWave (IZ)V
+		ARG 1 wave
+	METHOD dS getWololoTarget ()Lamr;
+	METHOD e getHurtSound (Lage;)Lxm;
+	METHOD n prepareGoals ()V
+	METHOD r isTeammate (Lagv;)Z
+	METHOD y_ initDataTracker ()V

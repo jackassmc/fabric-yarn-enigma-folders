@@ -1,0 +1,18 @@
+CLASS atu net/minecraft/container/GenericContainer
+	CLASS atu$a Generic9x6
+		METHOD <init> (ILarr;)V
+			ARG 1 syncId
+		METHOD <init> (ILarr;Lafx;)V
+			ARG 1 syncId
+	CLASS atu$b Generic9x3
+		METHOD <init> (ILarr;)V
+			ARG 1 syncId
+		METHOD <init> (ILarr;Lafx;)V
+			ARG 1 syncId
+	FIELD c inventory Lafx;
+	FIELD d rows I
+	METHOD <init> (Lauo;ILarr;Lafx;I)V
+		ARG 2 syncId
+		ARG 5 rows
+	METHOD e getInventory ()Lafx;
+	METHOD f getRows ()I

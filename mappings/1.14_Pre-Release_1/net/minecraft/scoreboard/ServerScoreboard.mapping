@@ -1,0 +1,6 @@
+CLASS rg net/minecraft/scoreboard/ServerScoreboard
+	CLASS rg$a UpdateMode
+	FIELD a server Lnet/minecraft/server/MinecraftServer;
+	FIELD b objectiveList Ljava/util/Set;
+	METHOD e addScoreboardObjective (Lcsl;)V
+	METHOD g removeScoreboardObjective (Lcsl;)V

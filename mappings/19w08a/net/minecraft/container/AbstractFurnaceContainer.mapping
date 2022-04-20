@@ -1,0 +1,16 @@
+CLASS atu net/minecraft/container/AbstractFurnaceContainer
+	FIELD c world Lbde;
+	FIELD d inventory Laga;
+	FIELD e propertyDelegate Lauc;
+	FIELD f recipeType Lbaj;
+	METHOD <init> (Lauu;Lbaj;ILarx;)V
+		ARG 3 syncId
+	METHOD <init> (Lauu;Lbaj;ILarx;Laga;Lauc;)V
+		ARG 3 syncId
+	METHOD a isSmeltable (Laxw;)Z
+		ARG 1 itemStack
+	METHOD b isFuel (Laxw;)Z
+		ARG 1 itemStack
+	METHOD j getCookProgress ()I
+	METHOD k getFuelProgress ()I
+	METHOD l isBurning ()Z

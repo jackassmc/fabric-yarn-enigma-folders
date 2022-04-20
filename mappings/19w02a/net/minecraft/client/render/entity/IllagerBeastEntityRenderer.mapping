@@ -1,0 +1,4 @@
+CLASS dke net/minecraft/client/render/entity/IllagerBeastEntityRenderer
+	FIELD a TEXTURE Lqe;
+	METHOD a getTexture (Lahd;)Lqe;
+	METHOD a getTexture (Laqa;)Lqe;

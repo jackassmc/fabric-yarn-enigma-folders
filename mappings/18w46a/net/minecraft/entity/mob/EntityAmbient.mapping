@@ -1,0 +1,2 @@
+CLASS aky net/minecraft/entity/mob/EntityAmbient
+	METHOD a canBeLeashedBy (Laqa;)Z

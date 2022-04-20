@@ -1,0 +1,4 @@
+CLASS bjo net/minecraft/block/TallPlantBlock
+	FIELD a HALF Lbrx;
+	METHOD <init> (Lbic$c;)V
+		ARG 1 settings

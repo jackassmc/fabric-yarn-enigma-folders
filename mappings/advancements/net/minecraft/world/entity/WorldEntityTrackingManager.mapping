@@ -1,0 +1,13 @@
+CLASS ni net/minecraft/world/entity/WorldEntityTrackingManager
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD b world Lnl;
+	FIELD c trackers Ljava/util/Set;
+	FIELD d trackersById Lqd;
+	METHOD a setChunkDistance (I)V
+	METHOD a sendChunkEntityData (Lnn;Lawh;)V
+	METHOD a startTracking (Lub;)V
+	METHOD a startTracking (Lub;II)V
+	METHOD a startTracking (Lub;IIZ)V
+	METHOD a sendToAllTracking (Lub;Lgv;)V
+	METHOD b stopTracking (Lub;)V
+	METHOD b sendToAllTrackingAndSelf (Lub;Lgv;)V

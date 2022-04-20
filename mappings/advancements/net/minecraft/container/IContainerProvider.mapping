@@ -1,0 +1,3 @@
+CLASS sx net/minecraft/container/IContainerProvider
+	METHOD a createContainer (Lact;Lacu;)Laeh;
+	METHOD l getContainerId ()Ljava/lang/String;

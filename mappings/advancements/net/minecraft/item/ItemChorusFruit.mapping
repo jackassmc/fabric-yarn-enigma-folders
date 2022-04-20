@@ -1,0 +1,2 @@
+CLASS aga net/minecraft/item/ItemChorusFruit
+	METHOD a onItemFinishedUsing (Lahf;Lali;Luk;)Lahf;

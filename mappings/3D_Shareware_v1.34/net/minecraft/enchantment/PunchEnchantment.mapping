@@ -1,0 +1,4 @@
+CLASS bet net/minecraft/enchantment/PunchEnchantment
+	METHOD <init> (Lbez$a;[Laie;)V
+		ARG 1 weight
+		ARG 2 slotTypes

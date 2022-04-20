@@ -1,0 +1,7 @@
+CLASS dit net/minecraft/client/particle/ElderGuardianAppearanceParticle
+	CLASS dit$a Factory
+	FIELD C guardian Lais;
+	METHOD <init> (Lbhj;DDD)V
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z

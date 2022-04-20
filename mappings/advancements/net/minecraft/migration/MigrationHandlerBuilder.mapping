@@ -1,0 +1,5 @@
+CLASS qw net/minecraft/migration/MigrationHandlerBuilder
+	METHOD a build ()Lqv;
+	METHOD a upgradeStack (Lqu;Lfc;ILjava/lang/String;)Lfc;
+	METHOD a registerTagUpgraders (Lqv;)V
+	METHOD b upgradeStackList (Lqu;Lfc;ILjava/lang/String;)Lfc;

@@ -1,0 +1,4 @@
+CLASS blo net/minecraft/block/DeadCoralBlock
+	FIELD a SHAPE Lcse;
+	METHOD <init> (Lbma$c;)V
+		ARG 1 settings

@@ -1,0 +1,67 @@
+CLASS bja net/minecraft/client/gui/ingame/GuiStructureBlock
+	FIELD A inputSizeY Lbfo;
+	FIELD B inputSizeZ Lbfo;
+	FIELD C inputIntegrity Lbfo;
+	FIELD D inputSeed Lbfo;
+	FIELD E inputMetadata Lbfo;
+	FIELD F buttonDone Lbfk;
+	FIELD G buttonCancel Lbfk;
+	FIELD H buttonSave Lbfk;
+	FIELD I buttonLoad Lbfk;
+	FIELD J buttonRotate0 Lbfk;
+	FIELD K buttonRotate90 Lbfk;
+	FIELD L buttonRotate180 Lbfk;
+	FIELD M buttonRotate270 Lbfk;
+	FIELD N buttonMode Lbfk;
+	FIELD O buttonDetect Lbfk;
+	FIELD P buttonEntities Lbfk;
+	FIELD Q buttonMirror Lbfk;
+	FIELD R buttonShowAir Lbfk;
+	FIELD S buttonShowBoundingBox Lbfk;
+	FIELD T textFields Ljava/util/List;
+	FIELD U decimalFormat Ljava/text/DecimalFormat;
+	FIELD f LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD g structureBlock Lasv;
+	FIELD h mirror Laos;
+	FIELD i rotation Laqg;
+	FIELD r mode Lasv$a;
+	FIELD s ignoreEntities Z
+	FIELD t showAir Z
+	FIELD u showBoundingBox Z
+	FIELD v inputName Lbfo;
+	FIELD w inputPosX Lbfo;
+	FIELD x inputPosY Lbfo;
+	FIELD y inputPosZ Lbfo;
+	FIELD z inputSizeX Lbfo;
+	METHOD <init> (Lasv;)V
+		ARG 0 structureBlock
+	METHOD a updateIgnoreEntitiesButton ()V
+	METHOD a onKeyPressed (CI)V
+		ARG 0 keyChar
+		ARG 1 keyCode
+	METHOD a draw (IIF)V
+		ARG 0 mouseX
+		ARG 1 mouseY
+		ARG 2 delta
+	METHOD a onMousePressed (III)V
+		ARG 0 mouseX
+		ARG 1 mouseY
+		ARG 2 mouseButton
+	METHOD a onWidgetPressed (Lbfk;)V
+		ARG 0 widget
+	METHOD a parseLong (Ljava/lang/String;)J
+		ARG 0 s
+	METHOD b init ()V
+	METHOD b sendUpdate (I)Z
+		ARG 0 type
+	METHOD b parseFloat (Ljava/lang/String;)F
+		ARG 0 s
+	METHOD c parseInt (Ljava/lang/String;)I
+		ARG 0 s
+	METHOD e update ()V
+	METHOD f updateShowAirButton ()V
+	METHOD g updateShowBoundingBoxButton ()V
+	METHOD h updateMirrorButton ()V
+	METHOD i updateRotationButton ()V
+	METHOD j updateMode ()V
+	METHOD m onClosed ()V

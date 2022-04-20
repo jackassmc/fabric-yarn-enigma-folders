@@ -1,0 +1,3 @@
+CLASS dlk net/minecraft/client/render/block/entity/LecternBlockEntityRenderer
+	FIELD c BOOK_TEXTURE Lqp;
+	FIELD d book Ldcw;

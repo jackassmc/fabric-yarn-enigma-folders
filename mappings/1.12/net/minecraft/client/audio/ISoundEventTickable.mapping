@@ -1,0 +1,2 @@
+CLASS cgs net/minecraft/client/audio/ISoundEventTickable
+	METHOD m isDone ()Z

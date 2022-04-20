@@ -1,0 +1,30 @@
+CLASS cxa net/minecraft/client/gui/hud/DebugHud
+	FIELD a HEIGHT_MAP_TYPES Ljava/util/Map;
+	FIELD b client Lcvp;
+	FIELD c fontRenderer Lcwh;
+	FIELD d blockHit Lcsa;
+	FIELD e fluidHit Lcsa;
+	FIELD f pos Lbgz;
+	FIELD g chunk Lbxp;
+	FIELD h chunkFuture Ljava/util/concurrent/CompletableFuture;
+	METHOD <init> (Lcvp;)V
+		ARG 1 client
+	METHOD a resetChunk ()V
+	METHOD a interpolateColor (IIF)I
+		ARG 1 color1
+		ARG 2 color2
+		ARG 3 dt
+	METHOD a propertyToString (Ljava/util/Map$Entry;)Ljava/lang/String;
+		ARG 1 propEntry
+	METHOD a drawMetricsData (Lzo;IIZ)V
+		ARG 2 startY
+		ARG 3 firstSample
+		ARG 4 isClient
+	METHOD b draw ()V
+	METHOD c drawLeftText ()V
+	METHOD d drawRightText ()V
+	METHOD e getLeftText ()Ljava/util/List;
+	METHOD f getRightText ()Ljava/util/List;
+	METHOD h getWorld ()Lbhn;
+	METHOD i getChunk ()Lbxp;
+	METHOD j getClientChunk ()Lbxp;

@@ -1,0 +1,2 @@
+CLASS aku net/minecraft/entity/mob/EntityAmbient
+	METHOD a canBeLeashedBy (Lapv;)Z

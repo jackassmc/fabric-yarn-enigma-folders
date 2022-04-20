@@ -1,0 +1,7 @@
+CLASS dgc net/minecraft/client/render/entity/EntityRendererWitherArmor
+	FIELD a SKIN Lpt;
+	METHOD a shouldMergeTextures ()Z
+	METHOD a render (Lafq;FFFFFFF)V
+		ARG 0 entity
+	METHOD a render (Lamp;FFFFFFF)V
+		ARG 0 entity

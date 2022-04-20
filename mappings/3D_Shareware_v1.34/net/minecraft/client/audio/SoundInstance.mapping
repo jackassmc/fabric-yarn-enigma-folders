@@ -1,0 +1,16 @@
+CLASS dwr net/minecraft/client/audio/SoundInstance
+	CLASS dwr$a AttenuationType
+		FIELD a NONE Ldwr$a;
+		FIELD b LINEAR Ldwr$a;
+	METHOD a getSoundSet (Ldxr;)Ldxs;
+	METHOD b getId ()Lqr;
+	METHOD c getSound ()Ldwo;
+	METHOD d getCategory ()Lyj;
+	METHOD e isRepeatable ()Z
+	METHOD f getRepeatDelay ()I
+	METHOD g getVolume ()F
+	METHOD h getPitch ()F
+	METHOD i getX ()F
+	METHOD j getY ()F
+	METHOD k getZ ()F
+	METHOD l getAttenuationType ()Ldwr$a;

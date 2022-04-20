@@ -1,0 +1,4 @@
+CLASS blr net/minecraft/block/entity/BlockEntityBlastFurnace
+	METHOD a createContainer (Lapu;Lapv;)Lark;
+		ARG 1 playerInv
+	METHOD l getContainerId ()Ljava/lang/String;

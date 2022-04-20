@@ -1,0 +1,2 @@
+CLASS cef net/minecraft/structure/SnowyVillageData
+	METHOD a initialize ()V

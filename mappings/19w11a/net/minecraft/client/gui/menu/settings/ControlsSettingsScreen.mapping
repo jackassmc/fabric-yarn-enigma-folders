@@ -1,0 +1,10 @@
+CLASS cyy net/minecraft/client/gui/menu/settings/ControlsSettingsScreen
+	FIELD a title Ljava/lang/String;
+	FIELD b focusedBinding Lcto;
+	FIELD h SETTINGS [Lctt;
+	FIELD i parent Lcyh;
+	FIELD s settings Lctu;
+	FIELD t keyBindingListWidget Lcyx;
+	FIELD u resetButton Lcuu;
+	METHOD <init> (Lcyh;Lctu;)V
+		ARG 1 parent

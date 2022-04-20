@@ -1,0 +1,16 @@
+CLASS gb net/minecraft/network/packet/client/CPacketBlockUpdate
+	FIELD a pos Lco;
+	FIELD b state Latj;
+	METHOD <init> (Lajq;Lco;)V
+		ARG 0 world
+		ARG 1 pos
+	METHOD a getState ()Latj;
+	METHOD a readPacket (Let;)V
+		ARG 0 packet
+	METHOD a applyPacket (Lew;)V
+		ARG 0 handler
+	METHOD a applyPacket (Lfp;)V
+		ARG 0 handler
+	METHOD b getPos ()Lco;
+	METHOD b writePacket (Let;)V
+		ARG 0 packet

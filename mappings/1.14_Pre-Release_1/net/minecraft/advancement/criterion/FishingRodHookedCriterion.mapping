@@ -1,0 +1,11 @@
+CLASS ay net/minecraft/advancement/criterion/FishingRodHookedCriterion
+	CLASS ay$b Conditions
+		FIELD a rod Lbc;
+		FIELD b entity Lav;
+		FIELD c item Lbc;
+		METHOD <init> (Lbc;Lav;Lbc;)V
+			ARG 1 entity
+			ARG 2 item
+		METHOD a create (Lbc;Lav;Lbc;)Lay$b;
+		METHOD a matches (Lvg;Lbbu;Latd;Ljava/util/Collection;)Z
+	FIELD a ID Lqs;

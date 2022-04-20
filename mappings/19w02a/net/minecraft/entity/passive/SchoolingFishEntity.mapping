@@ -1,0 +1,24 @@
+CLASS ami net/minecraft/entity/passive/SchoolingFishEntity
+	CLASS ami$a Data
+		FIELD a leader Lami;
+	FIELD b leader Lami;
+	FIELD c groupSize I
+	METHOD <init> (Lahh;Lbcf;)V
+		ARG 1 type
+	METHOD N getLimitPerChunk ()I
+	METHOD a joinGroupOf (Lami;)Lami;
+	METHOD a prepareEntityData (Lbcg;Lafx;Lahp;Lahx;Lhs;)Lahx;
+		ARG 3 difficulty
+	METHOD a pullInOtherFish (Ljava/util/stream/Stream;)V
+	METHOD dB hasSelfControl ()Z
+	METHOD dD getMaxGroupSize ()I
+	METHOD dE hasLeader ()Z
+	METHOD dF leaveGroup ()V
+	METHOD dG canHaveMoreFishInGroup ()Z
+	METHOD dH hasOtherFishInGroup ()Z
+	METHOD dI isCloseEnoughToLeader ()Z
+	METHOD dJ moveTowardLeader ()V
+	METHOD dK increaseGroupSize ()V
+	METHOD dL decreaseGroupSize ()V
+	METHOD h update ()V
+	METHOD n prepareGoals ()V

@@ -1,0 +1,11 @@
+CLASS vc net/minecraft/resource/ResourcePack
+	METHOD a getName ()Ljava/lang/String;
+	METHOD a getNamespaces (Lvd;)Ljava/util/Set;
+	METHOD a findResources (Lvd;Ljava/lang/String;ILjava/util/function/Predicate;)Ljava/util/Collection;
+		ARG 1 type
+		ARG 2 namespace
+	METHOD a open (Lvd;Lpw;)Ljava/io/InputStream;
+		ARG 1 type
+	METHOD b openRoot (Ljava/lang/String;)Ljava/io/InputStream;
+	METHOD b contains (Lvd;Lpw;)Z
+		ARG 1 type

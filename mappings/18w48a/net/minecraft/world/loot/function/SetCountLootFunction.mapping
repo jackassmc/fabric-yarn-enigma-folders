@@ -1,0 +1,8 @@
+CLASS ciw net/minecraft/world/loot/function/SetCountLootFunction
+	CLASS ciw$a Factory
+		METHOD a toJson (Lcom/google/gson/JsonObject;Lcip;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD a toJson (Lcom/google/gson/JsonObject;Lciq;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD a serialize (Lcom/google/gson/JsonObject;Lciw;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD b fromJson (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;[Lcjt;)Lcip;
+	METHOD a process (Lavs;Lchi;)Lavs;
+		ARG 1 stack

@@ -1,0 +1,3 @@
+CLASS vo net/minecraft/server/WorldGenerationProgressListenerFactory
+	METHOD create (I)Lvn;
+		ARG 1 radius

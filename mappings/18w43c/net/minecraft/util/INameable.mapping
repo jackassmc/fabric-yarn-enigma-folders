@@ -1,0 +1,4 @@
+CLASS aeh net/minecraft/util/INameable
+	METHOD O_ getNameAsComponent ()Liw;
+	METHOD P_ hasCustomName ()Z
+	METHOD Q getNameComponent ()Liw;

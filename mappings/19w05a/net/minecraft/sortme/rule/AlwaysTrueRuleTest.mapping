@@ -1,0 +1,2 @@
+CLASS cds net/minecraft/sortme/rule/AlwaysTrueRuleTest
+	FIELD a INSTANCE Lcds;

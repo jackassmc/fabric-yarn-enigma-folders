@@ -1,0 +1,5 @@
+CLASS bne net/minecraft/block/ConduitBlock
+	FIELD a WATERLOGGED Lbvx;
+	FIELD b SHAPE Lcsl;
+	METHOD <init> (Lbmh$c;)V
+		ARG 1 settings

@@ -1,0 +1,3 @@
+CLASS cze net/minecraft/client/gui/hud/spectator/SpectatorMenuCloseCallback
+	METHOD a close (Lczb;)V
+		ARG 1 menu

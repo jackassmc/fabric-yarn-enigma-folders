@@ -1,0 +1,5 @@
+CLASS awx net/minecraft/entity/projectile/TridentEntity
+	FIELD as LOYALTY Lqh;
+	FIELD at tridentStack Lbbz;
+	FIELD au dealtDamage Z
+	METHOD w isOwnerAlive ()Z

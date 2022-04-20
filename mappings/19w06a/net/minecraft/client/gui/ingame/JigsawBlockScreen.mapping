@@ -1,0 +1,11 @@
+CLASS cwf net/minecraft/client/gui/ingame/JigsawBlockScreen
+	FIELD a jigsaw Lbpm;
+	FIELD f attachmentTypeField Lcri;
+	FIELD g targetPoolField Lcri;
+	FIELD h finalStateField Lcri;
+	FIELD i textFields Ljava/util/List;
+	METHOD <init> (Lbpm;)V
+		ARG 1 jigsaw
+	METHOD h onDone ()V
+	METHOD i onCancel ()V
+	METHOD j updateServer ()V

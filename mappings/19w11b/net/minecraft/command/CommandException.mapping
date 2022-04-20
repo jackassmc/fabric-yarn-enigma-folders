@@ -1,0 +1,3 @@
+CLASS ca net/minecraft/command/CommandException
+	FIELD a message Ljl;
+	METHOD a getMessageComponent ()Ljl;

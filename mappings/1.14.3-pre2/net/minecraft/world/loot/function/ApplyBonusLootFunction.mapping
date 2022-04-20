@@ -1,0 +1,64 @@
+CLASS cpp net/minecraft/world/loot/function/ApplyBonusLootFunction
+	CLASS cpp$a BinomialWithBonusCount
+		FIELD a ID Lqt;
+		FIELD b extra I
+		FIELD c probability F
+		METHOD <init> (IF)V
+			ARG 1 extra
+			ARG 2 probability
+		METHOD a fromJson (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Lcpp$b;
+			ARG 0 json
+			ARG 1 context
+	CLASS cpp$b Formula
+		METHOD a getId ()Lqt;
+		METHOD a toJson (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonSerializationContext;)V
+			ARG 1 json
+			ARG 2 context
+		METHOD a getValue (Ljava/util/Random;II)I
+			ARG 1 random
+			ARG 2 initialCount
+			ARG 3 enchantmentLevel
+	CLASS cpp$c FormulaFactory
+		METHOD deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Lcpp$b;
+			ARG 1 functionJson
+			ARG 2 context
+	CLASS cpp$d OreDrops
+		FIELD a ID Lqt;
+		METHOD a fromJson (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Lcpp$b;
+			ARG 0 json
+			ARG 1 context
+	CLASS cpp$e Factory
+	CLASS cpp$f UniformBonusCount
+		FIELD a ID Lqt;
+		FIELD b bonusMultiplier I
+		METHOD <init> (I)V
+			ARG 1 bonusMultiplier
+		METHOD a fromJson (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Lcpp$b;
+			ARG 0 json
+			ARG 1 context
+	FIELD a FACTORIES Ljava/util/Map;
+	FIELD c enchantment Lbfm;
+	FIELD d formula Lcpp$b;
+	METHOD <init> ([Lcrd;Lbfm;Lcpp$b;)V
+		ARG 1 conditions
+		ARG 2 enchantment
+		ARG 3 formula
+	METHOD a oreDrops (Lbfm;)Lcpz$a;
+		ARG 0 enchantment
+	METHOD a binomialWithBonusCount (Lbfm;FI)Lcpz$a;
+		ARG 0 enchantment
+		ARG 1 probability
+		ARG 2 extra
+	METHOD a uniformBonusCount (Lbfm;I)Lcpz$a;
+		ARG 0 enchantment
+		ARG 1 bonusMultiplier
+	METHOD a (Lbfm;IF[Lcrd;)Lcqa;
+		ARG 3 conditions
+	METHOD a (Lbfm;I[Lcrd;)Lcqa;
+		ARG 2 conditions
+	METHOD a (Lbfm;[Lcrd;)Lcqa;
+		ARG 1 conditions
+	METHOD b uniformBonusCount (Lbfm;)Lcpz$a;
+		ARG 0 enchantment
+	METHOD b (Lbfm;[Lcrd;)Lcqa;
+		ARG 1 conditions

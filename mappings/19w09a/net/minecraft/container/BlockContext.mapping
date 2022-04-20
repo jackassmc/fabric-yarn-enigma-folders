@@ -1,0 +1,17 @@
+CLASS aue net/minecraft/container/BlockContext
+	CLASS aue$1
+		METHOD a (Ljava/util/function/BiFunction;)Ljava/util/Optional;
+			ARG 1 arg1
+	CLASS aue$2
+		METHOD a (Ljava/util/function/BiFunction;)Ljava/util/Optional;
+			ARG 1 arg1
+	FIELD a EMPTY Laue;
+	METHOD a create (Lbdf;Les;)Laue;
+		ARG 1 world
+	METHOD a run (Ljava/util/function/BiConsumer;)V
+		ARG 1 function
+	METHOD a run (Ljava/util/function/BiFunction;)Ljava/util/Optional;
+		ARG 1 function
+	METHOD a run (Ljava/util/function/BiFunction;Ljava/lang/Object;)Ljava/lang/Object;
+		ARG 1 function
+		ARG 2 defaultValue

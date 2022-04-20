@@ -1,0 +1,6 @@
+CLASS amw net/minecraft/entity/passive/PigEntity
+	FIELD bC SADDLED Lps;
+	FIELD bE BREEDING_INGREDIENT Lazp;
+	METHOD b createChild (Lahc;)Lamw;
+	METHOD dD isSaddled ()Z
+	METHOD q setSaddled (Z)V

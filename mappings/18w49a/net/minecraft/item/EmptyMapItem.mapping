@@ -1,0 +1,4 @@
+CLASS auv net/minecraft/item/EmptyMapItem
+	METHOD a use (Lbas;Laql;Lafd;)Lafg;
+		ARG 1 world
+		ARG 2 player

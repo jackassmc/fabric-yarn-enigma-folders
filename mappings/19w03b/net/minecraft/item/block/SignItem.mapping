@@ -1,0 +1,2 @@
+CLASS axz net/minecraft/item/block/SignItem
+	METHOD a afterBlockPlaced (Let;Lbci;Larj;Laxc;Lbqi;)Z

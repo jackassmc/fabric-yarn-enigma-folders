@@ -1,0 +1,9 @@
+CLASS ccx net/minecraft/structure/generator/IglooGenerator
+	CLASS ccx$a Piece
+		FIELD d template Lqd;
+		FIELD e rotation Lbmd;
+		METHOD a (Lbcr;Ljava/util/Random;Lcct;Lbcd;)Z
+			ARG 2 random
+	FIELD a TOP_TEMPLATE Lqd;
+	FIELD b MIDDLE_TEMPLATE Lqd;
+	FIELD c BOTTOM_TEMPLATE Lqd;

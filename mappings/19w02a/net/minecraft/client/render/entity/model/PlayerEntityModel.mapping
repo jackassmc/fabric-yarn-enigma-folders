@@ -1,0 +1,20 @@
+CLASS dad net/minecraft/client/render/entity/model/PlayerEntityModel
+	FIELD a leftArmOverlay Ldbs;
+	FIELD b rightArmOverlay Ldbs;
+	FIELD t leftLegOverlay Ldbs;
+	FIELD u rightLegOverlay Ldbs;
+	FIELD v bodyOverlay Ldbs;
+	FIELD w cape Ldbs;
+	FIELD x mau5Ears Ldbs;
+	FIELD y thinArms Z
+	METHOD <init> (FZ)V
+		ARG 1 scale
+	METHOD a setAngles (Lahd;FFFFFF)V
+	METHOD b render (Lahd;FFFFFF)V
+		ARG 1 entity
+		ARG 2 limbMoveAngle
+		ARG 3 limbMoveAmount
+		ARG 4 age
+		ARG 5 headYaw
+		ARG 6 headPitch
+	METHOD b_ setVisible (Z)V

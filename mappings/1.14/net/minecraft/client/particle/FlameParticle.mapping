@@ -1,0 +1,2 @@
+CLASS dij net/minecraft/client/particle/FlameParticle
+	CLASS dij$a Factory

@@ -1,0 +1,3 @@
+CLASS cal net/minecraft/sortme/structures/IglooGenerator
+	CLASS cal$a
+		METHOD a toNbt (Lho;)V

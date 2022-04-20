@@ -1,0 +1,17 @@
+CLASS aj net/minecraft/advancement/criterion/ConsumeItemCriterion
+	CLASS aj$a Handler
+		FIELD a manager Lrc;
+		FIELD b conditions Ljava/util/Set;
+		METHOD a isEmpty ()Z
+		METHOD a handle (Lbce;)V
+		METHOD a addCondition (Lx$a;)V
+		METHOD b removeCondition (Lx$a;)V
+	CLASS aj$b Conditions
+		FIELD a item Lbc;
+		METHOD a matches (Lbce;)Z
+		METHOD a item (Lbhl;)Laj$b;
+		METHOD c any ()Laj$b;
+	FIELD a ID Lqt;
+	FIELD b handlers Ljava/util/Map;
+	METHOD a handle (Lvj;Lbce;)V
+		ARG 1 player

@@ -1,0 +1,3 @@
+CLASS aoj net/minecraft/entity/boss/dragon/phase/DyingPhase
+	METHOD <init> (Laoe;)V
+		ARG 1 dragon

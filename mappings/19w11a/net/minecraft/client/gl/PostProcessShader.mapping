@@ -1,0 +1,16 @@
+CLASS djn net/minecraft/client/gl/PostProcessShader
+	FIELD a input Lcrv;
+	FIELD b output Lcrv;
+	FIELD c program Ldiz;
+	FIELD h projectionMatrix Lcta;
+	METHOD <init> (Lxa;Ljava/lang/String;Lcrv;Lcrv;)V
+		ARG 1 resourceManager
+		ARG 2 programName
+		ARG 3 input
+		ARG 4 output
+	METHOD a render (F)V
+		ARG 1 time
+	METHOD a setProjectionMatrix (Lcta;)V
+		ARG 1 projectionMatrix
+	METHOD a addAuxTarget (Ljava/lang/String;Ljava/lang/Object;II)V
+	METHOD b getProgram ()Ldiz;

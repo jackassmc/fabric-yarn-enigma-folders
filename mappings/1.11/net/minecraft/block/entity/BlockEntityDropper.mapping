@@ -1,0 +1,5 @@
+CLASS ash net/minecraft/block/entity/BlockEntityDropper
+	METHOD b registerTagUpgradersDropper (Lph;)V
+		ARG 0 handler
+	METHOD h_ getName ()Ljava/lang/String;
+	METHOD l getContainerId ()Ljava/lang/String;

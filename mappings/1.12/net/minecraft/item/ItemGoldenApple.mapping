@@ -1,0 +1,11 @@
+CLASS aii net/minecraft/item/ItemGoldenApple
+	METHOD a addStacksForDisplay (Lahn;Lfi;)V
+		ARG 1 items
+	METHOD a onConsumed (Lain;Lams;Laeb;)V
+		ARG 0 stack
+		ARG 1 world
+		ARG 2 player
+	METHOD f_ hasEnchantmentGlow (Lain;)Z
+		ARG 0 stack
+	METHOD g getRarity (Lain;)Lajc;
+		ARG 0 stack

@@ -1,0 +1,6 @@
+CLASS xf net/minecraft/resource/Resource
+	METHOD a getId ()Lqt;
+	METHOD a getMetadata (Lwn;)Ljava/lang/Object;
+		ARG 1 metaReader
+	METHOD b getInputStream ()Ljava/io/InputStream;
+	METHOD d getResourcePackName ()Ljava/lang/String;

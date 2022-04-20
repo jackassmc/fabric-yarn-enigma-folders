@@ -1,0 +1,4 @@
+CLASS dmh net/minecraft/client/render/entity/VexEntityRenderer
+	METHOD a getTexture (Lahc;)Lqc;
+	METHOD a getTexture (Lahm;)Lqc;
+	METHOD a getTexture (Laqq;)Lqc;

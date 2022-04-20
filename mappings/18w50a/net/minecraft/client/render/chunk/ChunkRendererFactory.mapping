@@ -1,0 +1,3 @@
+CLASS dgv net/minecraft/client/render/chunk/ChunkRendererFactory
+	METHOD create (Lbbp;Ldee;)Ldgu;
+		ARG 1 world

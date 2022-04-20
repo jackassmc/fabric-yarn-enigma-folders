@@ -1,0 +1,35 @@
+CLASS clm net/minecraft/client/gl/GlFramebuffer
+	FIELD a texWidth I
+	FIELD b texHeight I
+	FIELD c viewWidth I
+	FIELD d viewHeight I
+	FIELD e useDepthAttachment Z
+	FIELD f fbo I
+	FIELD g colorAttachment I
+	FIELD h depthAttachment I
+	FIELD i clearColor [F
+	FIELD j texFilter I
+	METHOD <init> (IIZZ)V
+		ARG 1 width
+		ARG 2 height
+	METHOD a delete ()V
+	METHOD a setClearColor (FFFF)V
+		ARG 1 r
+		ARG 2 g
+		ARG 3 b
+	METHOD a setTexFilter (I)V
+	METHOD a draw (II)V
+		ARG 1 width
+	METHOD a resize (IIZ)V
+		ARG 1 width
+	METHOD a beginWrite (Z)V
+	METHOD b checkFramebufferStatus ()V
+	METHOD b initFbo (IIZ)V
+		ARG 1 width
+	METHOD b clear (Z)V
+	METHOD c beginRead ()V
+	METHOD c draw (IIZ)V
+		ARG 1 width
+		ARG 2 height
+	METHOD d endRead ()V
+	METHOD e endWrite ()V

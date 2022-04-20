@@ -1,0 +1,12 @@
+CLASS aks net/minecraft/world/biome/BiomeMesa
+	CLASS aks$a BiomeGeneratorMesa
+		METHOD a generateDeposits (Lajq;Ljava/util/Random;)V
+			ARG 0 world
+			ARG 1 rand
+	METHOD a createGenerator ()Lakg;
+	METHOD a getSurfaceDecorator (Ljava/util/Random;)Lavx;
+		ARG 0 random
+	METHOD b getGrassColorAt (Lco;)I
+		ARG 0 pos
+	METHOD c getFoliageColorAt (Lco;)I
+		ARG 0 pos

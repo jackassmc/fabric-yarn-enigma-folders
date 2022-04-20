@@ -1,0 +1,20 @@
+CLASS dbo net/minecraft/client/gui/widget/MultiplayerServerListWidget
+	CLASS dbo$a Entry
+	CLASS dbo$c LanServerListEntry
+		FIELD a client Lcva;
+		FIELD b server Ldwz;
+		FIELD c screen Ldbn;
+		FIELD d time J
+		METHOD a getLanServerEntry ()Ldwz;
+	CLASS dbo$d ServerItem
+		FIELD b screen Ldbn;
+		FIELD c client Lcva;
+		FIELD d server Ldhf;
+		FIELD e iconLocation Lqs;
+		FIELD g iconTexture Ldtn;
+		FIELD h time J
+		METHOD <init> (Ldbo;Ldbn;Ldhf;)V
+			ARG 2 screen
+			ARG 3 server
+		METHOD a getServer ()Ldhf;
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;

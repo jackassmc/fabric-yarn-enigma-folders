@@ -1,0 +1,3 @@
+CLASS ddu net/minecraft/client/render/entity/EntityRendererAreaEffectCloud
+	METHOD a getTexture (Lafw;)Lpw;
+	METHOD a getTexture (Lafy;)Lpw;

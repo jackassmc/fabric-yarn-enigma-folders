@@ -1,0 +1,30 @@
+CLASS aoz net/minecraft/entity/boss/dragon/phase/PhaseType
+	FIELD a HOLDING_PATTERN Laoz;
+	FIELD b STRAFE_PLAYER Laoz;
+	FIELD c LANDING_APPROACH Laoz;
+	FIELD d LANDING Laoz;
+	FIELD e TAKEOFF Laoz;
+	FIELD f SITTING_FLAMING Laoz;
+	FIELD g SITTING_SCANNING Laoz;
+	FIELD h SITTING_ATTACKING Laoz;
+	FIELD i CHARGING_PLAYER Laoz;
+	FIELD j DYING Laoz;
+	FIELD k HOVER Laoz;
+	FIELD l types [Laoz;
+	FIELD m phaseClass Ljava/lang/Class;
+	FIELD n id I
+	FIELD o name Ljava/lang/String;
+	METHOD <init> (ILjava/lang/Class;Ljava/lang/String;)V
+		ARG 1 id
+		ARG 2 phaseClass
+		ARG 3 name
+	METHOD a getConstructor ()Ljava/lang/reflect/Constructor;
+	METHOD a getFromId (I)Laoz;
+		ARG 0 id
+	METHOD a create (Laoj;)Laot;
+		ARG 1 dragon
+	METHOD a register (Ljava/lang/Class;Ljava/lang/String;)Laoz;
+		ARG 0 phaseClass
+		ARG 1 name
+	METHOD b getTypeId ()I
+	METHOD c count ()I

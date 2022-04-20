@@ -1,0 +1,3 @@
+CLASS cyj net/minecraft/client/gui/menu/settings/SkinSettingsScreen
+	FIELD a parent Lcyh;
+	FIELD b title Ljava/lang/String;

@@ -1,0 +1,10 @@
+CLASS cpx net/minecraft/client/recipe/book/ClientRecipeBook
+	FIELD k manager Lazn;
+	FIELD l resultsByGroup Ljava/util/Map;
+	FIELD m orderedResults Ljava/util/List;
+	METHOD a getResultsForGroup (Lcqh;)Ljava/util/List;
+	METHOD b getGroupsForContainer (Lauk;)Ljava/util/List;
+	METHOD b addGroup (Lcqh;)Lcxf;
+	METHOD g getGroupForRecipe (Lazm;)Lcqh;
+	METHOD i reload ()V
+	METHOD j getOrderedResults ()Ljava/util/List;

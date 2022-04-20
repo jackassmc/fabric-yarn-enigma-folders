@@ -1,0 +1,11 @@
+CLASS bms net/minecraft/block/CauldronBlock
+	FIELD a LEVEL Lbwc;
+	FIELD b OUTLINE_SHAPE Lcsi;
+	FIELD c RAY_TRACE_SHAPE Lcsi;
+	METHOD <init> (Lbme$c;)V
+		ARG 1 settings
+	METHOD a setLevel (Lbha;Lev;Lbvc;I)V
+		ARG 1 world
+		ARG 2 pos
+		ARG 3 state
+		ARG 4 level

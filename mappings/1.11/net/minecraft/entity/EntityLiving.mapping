@@ -1,0 +1,118 @@
+CLASS sv net/minecraft/entity/EntityLiving
+	FIELD aQ headPitch F
+	FIELD aR prevHeadPitch F
+	FIELD ay stuckArrowTimer I
+	FIELD bD absorptionAmount F
+	FIELD br attributeContainer Ltm;
+	FIELD bt activePotionEffects Ljava/util/Map;
+	FIELD bx attacker Lsv;
+	FIELD by lastAttackedTime I
+	FIELD f POTION_SWIRLS_COLOR Lkk;
+	FIELD g POTION_SWIRLS_AMBIENT Lkk;
+	FIELD h STUCK_ARROWS Lkk;
+	METHOD C pushAway (Lsm;)V
+		ARG 0 entity
+	METHOD D canSee (Lsm;)Z
+		ARG 0 other
+	METHOD F updatePotionVisibility ()V
+	METHOD U updateLogic ()V
+	METHOD a setPositionAndRotations (DDDFFIZ)V
+		ARG 0 x
+		ARG 1 y
+		ARG 2 z
+		ARG 3 yaw
+		ARG 4 pitch
+	METHOD a deserializeCustomData (Ldu;)V
+		ARG 0 tag
+	METHOD a containsOnlyAmbientEffects (Ljava/util/Collection;)Z
+		ARG 0 effects
+	METHOD a onTrackedDataSet (Lkk;)V
+		ARG 0 data
+	METHOD a swingHand (Lrh;)V
+		ARG 0 hand
+	METHOD a setStackInHand (Lrh;Lafi;)V
+		ARG 0 hand
+		ARG 1 stack
+	METHOD a onDeath (Lrx;)V
+		ARG 0 damageSource
+	METHOD a damage (Lrx;F)Z
+		ARG 0 source
+		ARG 1 damage
+	METHOD a hasPotionEffect (Lsf;)Z
+		ARG 0 type
+	METHOD a isEquippedStackValid (Lsr;)Z
+		ARG 0 slot
+	METHOD a setEquippedStack (Lsr;Lafi;)V
+		ARG 0 slot
+		ARG 1 stack
+	METHOD a setAttacker (Lsv;)V
+		ARG 0 value
+	METHOD a getAttributeInstance (Lti;)Ltj;
+		ARG 0 attribute
+	METHOD a dropEquipment (ZI)V
+		ARG 0 recentlyHitByPlayer
+		ARG 1 looting
+	METHOD a dropLoot (ZILrx;)V
+		ARG 0 recentlyHitByPlayer
+		ARG 1 looting
+		ARG 2 damageSource
+	METHOD aB getForwardVector ()Lbdu;
+	METHOD aH getItemsArmor ()Ljava/lang/Iterable;
+	METHOD aU getHeadPitch ()F
+	METHOD a_ onEquipStack (Lafi;)V
+		ARG 0 stack
+	METHOD aq doesCollide ()Z
+	METHOD au isValid ()Z
+	METHOD b heal (F)V
+		ARG 0 amount
+	METHOD b onBreakItem (Lafi;)V
+		ARG 0 stack
+	METHOD b serializeCustomData (Ldu;)V
+		ARG 0 tag
+	METHOD b getStackInHand (Lrh;)Lafi;
+		ARG 0 hand
+	METHOD b getPotionEffect (Lsf;)Lsg;
+		ARG 0 type
+	METHOD b getEquippedStack (Lsr;)Lafi;
+		ARG 0 slot
+	METHOD b dropDefaultLoot (ZI)V
+		ARG 0 recentlyHitByPlayer
+		ARG 1 looting
+	METHOD bJ getRand ()Ljava/util/Random;
+	METHOD bP clearPotionSwirls ()V
+	METHOD bQ clearPotionEffects ()V
+	METHOD bS getPotionEffects ()Ljava/util/Collection;
+	METHOD bW getSoundDeath ()Lnm;
+	METHOD bX getSoundHurt ()Lnm;
+	METHOD c setHealth (F)V
+		ARG 0 value
+	METHOD c setCurrentHand (Lrh;)V
+	METHOD c addPotionEffect (Lsg;)V
+		ARG 0 effect
+	METHOD cG isFallFlying ()Z
+	METHOD ce getAttributeContainer ()Ltm;
+	METHOD cg getOffHandStack ()Lafi;
+	METHOD ci getSoundPitch ()F
+	METHOD cs doPushLogic ()V
+	METHOD cx getMainHand ()Lsu;
+	METHOD cz ()Lrh;
+	METHOD d (Lsf;)V
+	METHOD e handleFallDamage (FF)V
+		ARG 0 fallDistance
+	METHOD e getSoundFall (I)Lnm;
+		ARG 0 height
+	METHOD f getForwardVector (F)Lbdu;
+		ARG 0 lerpTime
+	METHOD f setStuckArrows (I)V
+		ARG 0 value
+	METHOD h setHeadPitch (F)V
+		ARG 0 value
+	METHOD i initDataTracker ()V
+	METHOD l doJump (Z)V
+	METHOD l_ isChild ()Z
+	METHOD m_ canClimb ()Z
+	METHOD n updateMovement ()V
+	METHOD n setAbsorptionAmount (F)V
+		ARG 0 value
+	METHOD p stopRiding ()V
+	METHOD r initAi ()V

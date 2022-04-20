@@ -1,0 +1,8 @@
+CLASS amm net/minecraft/entity/passive/ChickenEntity
+	FIELD bI eggLayTime I
+	FIELD bJ jockey Z
+	FIELD bK BREEDING_INGREDIENT Lazp;
+	METHOD b createChild (Lahc;)Lamm;
+	METHOD dD hasJockey ()Z
+	METHOD q setHasJockey (Z)V
+		ARG 1 hasJockey

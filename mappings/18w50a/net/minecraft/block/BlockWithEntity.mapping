@@ -1,0 +1,15 @@
+CLASS bgk net/minecraft/block/BlockWithEntity
+	METHOD <init> (Lbgs$c;)V
+		ARG 1 settings
+		ARG 2 stateBuilder
+	METHOD a onBlockAction (Lbpm;Lbbp;Let;II)Z
+		ARG 1 state
+		ARG 2 world
+		ARG 3 pos
+	METHOD a onBlockRemoved (Lbpm;Lbbp;Let;Lbpm;Z)V
+		ARG 1 state
+		ARG 2 world
+		ARG 3 pos
+		ARG 4 newState
+	METHOD c getRenderType (Lbpm;)Lbky;
+		ARG 1 state

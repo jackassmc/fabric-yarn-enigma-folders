@@ -1,0 +1,6 @@
+CLASS bnf net/minecraft/block/SweetBerryBushBlock
+	FIELD a AGE Lbrk;
+	FIELD b SMALL_SHAPE Lcnl;
+	FIELD c LARGE_SHAPE Lcnl;
+	METHOD <init> (Lbhn$c;)V
+		ARG 1 settings

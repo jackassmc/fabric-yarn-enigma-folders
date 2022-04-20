@@ -1,0 +1,6 @@
+CLASS bjh net/minecraft/block/EnchantingTableBlock
+	FIELD a SHAPE Lcnq;
+	METHOD <init> (Lbhs$c;)V
+		ARG 1 settings
+	METHOD n (Lbqp;)Z
+		ARG 1 state

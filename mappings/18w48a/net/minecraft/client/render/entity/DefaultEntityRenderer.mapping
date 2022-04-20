@@ -1,0 +1,2 @@
+CLASS dgi net/minecraft/client/render/entity/DefaultEntityRenderer
+	METHOD a getTexture (Lagi;)Lpy;

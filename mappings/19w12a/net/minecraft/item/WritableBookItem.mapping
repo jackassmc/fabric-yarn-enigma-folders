@@ -1,0 +1,3 @@
+CLASS bcm net/minecraft/item/WritableBookItem
+	METHOD <init> (Lbau$a;)V
+		ARG 1 settings

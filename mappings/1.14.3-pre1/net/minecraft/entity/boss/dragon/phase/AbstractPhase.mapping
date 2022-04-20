@@ -1,0 +1,4 @@
+CLASS ask net/minecraft/entity/boss/dragon/phase/AbstractPhase
+	FIELD a dragon Lasi;
+	METHOD <init> (Lasi;)V
+		ARG 1 dragon

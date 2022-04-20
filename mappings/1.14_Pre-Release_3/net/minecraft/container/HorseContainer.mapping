@@ -1,0 +1,5 @@
+CLASS ayu net/minecraft/container/HorseContainer
+	FIELD c playerInv Lagr;
+	FIELD d entity Larp;
+	METHOD <init> (ILavt;Lagr;Larp;)V
+		ARG 1 syncId

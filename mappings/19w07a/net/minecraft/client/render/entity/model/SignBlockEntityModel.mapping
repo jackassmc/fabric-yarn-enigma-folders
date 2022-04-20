@@ -1,0 +1,4 @@
+CLASS dbi net/minecraft/client/render/entity/model/SignBlockEntityModel
+	FIELD b signpost Ldcj;
+	METHOD a render ()V
+	METHOD b getSignpostModel ()Ldcj;

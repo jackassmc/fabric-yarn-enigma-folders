@@ -1,0 +1,16 @@
+CLASS ata net/minecraft/container/VillagerContainer
+	FIELD a villager Lazw;
+	FIELD f villagerInventory Lasz;
+	FIELD g world Lbas;
+	METHOD <init> (Laqk;Lazw;Lbas;)V
+		ARG 1 playerInv
+		ARG 2 villager
+	METHOD a onContentChanged (Laex;)V
+	METHOD a canUse (Laql;)Z
+		ARG 0 player
+	METHOD b close (Laql;)V
+	METHOD b transferSlot (Laql;I)Lavu;
+		ARG 0 player
+		ARG 1 player
+	METHOD d getVillagerInventory ()Lasz;
+	METHOD d setRecipeIndex (I)V

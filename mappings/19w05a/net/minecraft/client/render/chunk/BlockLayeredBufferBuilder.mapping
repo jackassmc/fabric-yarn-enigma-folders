@@ -1,0 +1,4 @@
+CLASS deu net/minecraft/client/render/chunk/BlockLayeredBufferBuilder
+	FIELD a layerBuilders [Lcpn;
+	METHOD a get (I)Lcpn;
+	METHOD a get (Lbcc;)Lcpn;

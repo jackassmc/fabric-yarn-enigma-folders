@@ -1,0 +1,13 @@
+CLASS coh net/minecraft/scoreboard/ScoreboardState
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD b scoreboard Lcog;
+	FIELD c tag Lhv;
+	METHOD a serializeTeams ()Lib;
+	METHOD a deserializeTeamPlayers (Lcoe;Lib;)V
+		ARG 1 team
+	METHOD a setScoreboard (Lcog;)V
+	METHOD a deserializeTeams (Lib;)V
+	METHOD b serializeObjectives ()Lib;
+	METHOD b deserializeObjectives (Lib;)V
+	METHOD c deserializeDisplaySlots (Lhv;)V
+	METHOD d serializeSlots (Lhv;)V

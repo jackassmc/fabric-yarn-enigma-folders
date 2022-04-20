@@ -1,0 +1,2 @@
+CLASS ceo net/minecraft/structure/pool/EmptyPoolElement
+	FIELD a INSTANCE Lceo;

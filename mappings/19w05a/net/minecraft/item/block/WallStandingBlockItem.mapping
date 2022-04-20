@@ -1,0 +1,5 @@
+CLASS ayl net/minecraft/item/block/WallStandingBlockItem
+	FIELD a block Lbhs;
+	METHOD <init> (Lbhs;Lbhs;Laxd$a;)V
+		ARG 1 standingBlock
+		ARG 2 wallBlock

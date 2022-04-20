@@ -1,0 +1,5 @@
+CLASS bmw net/minecraft/block/FluidDrainable
+	METHOD b tryDrainFluid (Lbho;Lev;Lbvp;)Lclf;
+		ARG 1 world
+		ARG 2 pos
+		ARG 3 state

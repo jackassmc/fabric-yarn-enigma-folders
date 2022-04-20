@@ -1,0 +1,33 @@
+CLASS bgd net/minecraft/block/BlockRailDetector
+	METHOD a getTickRate (Lbac;)I
+	METHOD a getWeakRedstonePower (Lbno;Lazl;Les;Lex;)I
+		ARG 1 state
+		ARG 2 view
+		ARG 3 pos
+	METHOD a onEntityCollision (Lbno;Lazy;Les;Lafy;)V
+		ARG 1 state
+		ARG 2 world
+		ARG 3 pos
+	METHOD a onBlockAdded (Lbno;Lazy;Les;Lbno;)V
+		ARG 1 world
+		ARG 2 world
+		ARG 3 pos
+	METHOD a (Lbno;Lazy;Les;Ljava/util/Random;)V
+		ARG 1 world
+		ARG 2 state
+		ARG 3 pos
+	METHOD a applyMirror (Lbno;Lbif;)Lbno;
+		ARG 1 state
+	METHOD a applyRotation (Lbno;Lbjf;)Lbno;
+		ARG 1 state
+	METHOD a appendProperties (Lbnp$a;)V
+	METHOD b getStrongRedstonePower (Lbno;Lazl;Les;Lex;)I
+		ARG 1 state
+		ARG 2 view
+		ARG 3 pos
+	METHOD b getComparatorOutput (Lbno;Lazy;Les;)I
+		ARG 1 state
+		ARG 2 world
+	METHOD e getShapeProperty ()Lbox;
+	METHOD i emitsRedstonePower (Lbno;)Z
+	METHOD t hasComparatorOutput (Lbno;)Z

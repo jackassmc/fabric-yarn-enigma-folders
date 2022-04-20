@@ -1,0 +1,13 @@
+CLASS dhr net/minecraft/client/render/entity/LivingEntityRenderer
+	METHOD a linearRotationInterpolation (FFF)F
+		ARG 1 min
+		ARG 2 max
+	METHOD a render (Lagr;FFFFFF)V
+		ARG 1 entity
+		ARG 2 limbMoveAngle
+		ARG 3 limbMoveAmount
+		ARG 5 headYaw
+		ARG 6 headPitch
+	METHOD a addLayer (Ldkl;)Z
+	METHOD c (Lagr;F)F
+		ARG 1 entity

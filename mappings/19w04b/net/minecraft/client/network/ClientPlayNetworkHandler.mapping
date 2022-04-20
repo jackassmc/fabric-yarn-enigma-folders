@@ -1,0 +1,24 @@
+CLASS dcb net/minecraft/client/network/ClientPlayNetworkHandler
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD b connection Liq;
+	FIELD c profile Lcom/mojang/authlib/GameProfile;
+	FIELD e client Lcpy;
+	FIELD f world Ldce;
+	FIELD i advancementHandler Ldby;
+	FIELD j commandSource Ldcc;
+	FIELD k tagManager Lyl;
+	FIELD m random Ljava/util/Random;
+	FIELD n commandDispatcher Lcom/mojang/brigadier/CommandDispatcher;
+	FIELD o recipeManager Lazo;
+	METHOD <init> (Lcpy;Lcuf;Liq;Lcom/mojang/authlib/GameProfile;)V
+		ARG 1 client
+	METHOD a getClientConnection ()Liq;
+	METHOD a sendPacket (Ljq;)V
+	METHOD a sendResourcePackStatus (Lof$a;)V
+	METHOD b getCommandSource ()Ldcc;
+	METHOD b validateResourcePackUrl (Ljava/lang/String;)Z
+	METHOD d getRecipeManager ()Lazo;
+	METHOD f getProfile ()Lcom/mojang/authlib/GameProfile;
+	METHOD g getAdvancementHandler ()Ldby;
+	METHOD i getWorld ()Ldce;
+	METHOD j getTagManager ()Lyl;

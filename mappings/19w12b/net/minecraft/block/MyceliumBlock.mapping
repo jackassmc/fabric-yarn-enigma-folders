@@ -1,0 +1,3 @@
+CLASS bot net/minecraft/block/MyceliumBlock
+	METHOD <init> (Lblg$c;)V
+		ARG 1 settings

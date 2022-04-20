@@ -1,0 +1,13 @@
+CLASS bxm net/minecraft/client/render/entity/EntityRenderManager
+	FIELD a textureManager Lcbx;
+	FIELD b world Lali;
+	FIELD g settings Lbgo;
+	FIELD k RENDER_MAP Ljava/util/Map;
+	FIELD l SKIN_MAP Ljava/util/Map;
+	FIELD m PLAYER_RENDERER Lcaz;
+	FIELD n fontRenderer Lbha;
+	FIELD o renderPosX D
+	FIELD p renderPosY D
+	FIELD q renderPosZ D
+	METHOD a setRenderPosition (DDD)V
+	METHOD c getFontRenderer ()Lbha;

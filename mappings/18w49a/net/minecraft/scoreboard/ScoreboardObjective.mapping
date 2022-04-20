@@ -1,0 +1,16 @@
+CLASS clw net/minecraft/scoreboard/ScoreboardObjective
+	FIELD a scoreboard Lclz;
+	FIELD b name Ljava/lang/String;
+	FIELD c criterion Lcmc;
+	FIELD e criterionType Lcmc$a;
+	METHOD <init> (Lclz;Ljava/lang/String;Lcmc;Ljb;Lcmc$a;)V
+		ARG 1 scoreboard
+		ARG 2 name
+		ARG 4 criterion
+	METHOD a getScoreboard ()Lclz;
+	METHOD a setCriterionType (Lcmc$a;)V
+	METHOD b getName ()Ljava/lang/String;
+	METHOD c getCriterion ()Lcmc;
+	METHOD d getDisplayName ()Ljb;
+	METHOD e getTextComponent ()Ljb;
+	METHOD f getCriterionType ()Lcmc$a;

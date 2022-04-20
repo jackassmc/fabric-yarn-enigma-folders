@@ -1,0 +1,10 @@
+CLASS awz net/minecraft/entity/thrown/ThrownEnderpearlEntity
+	FIELD e owner Laiu;
+	METHOD <init> (Lbhl;DDD)V
+		ARG 1 world
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z
+	METHOD <init> (Lbhl;Laiu;)V
+		ARG 1 world
+		ARG 2 owner

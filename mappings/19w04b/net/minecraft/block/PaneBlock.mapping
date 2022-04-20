@@ -1,0 +1,6 @@
+CLASS bkh net/minecraft/block/PaneBlock
+	METHOD <init> (Lbhn$c;)V
+		ARG 1 settings
+	METHOD a connectsTo (Lbqk;Z)Z
+	METHOD f neverConnectsTo (Lbhn;)Z
+		ARG 0 block

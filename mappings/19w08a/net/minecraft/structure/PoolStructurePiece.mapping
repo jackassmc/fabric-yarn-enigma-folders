@@ -1,0 +1,17 @@
+CLASS cdu net/minecraft/structure/PoolStructurePiece
+	FIELD a poolElement Lcax;
+	FIELD b pos Les;
+	FIELD c rotation Lbmq;
+	FIELD d groundLevelDelta I
+	FIELD e junctions Ljava/util/List;
+	FIELD f structureManager Lceu;
+	METHOD <init> (Lcab;Lceu;Lcax;Les;ILbmq;)V
+		ARG 3 poolElement
+	METHOD a (Lbdf;Ljava/util/Random;Lcdh;Lbcr;)Z
+		ARG 2 random
+	METHOD a addJunction (Lcat;)V
+		ARG 1 junction
+	METHOD b getPoolElement ()Lcax;
+	METHOD c getPos ()Les;
+	METHOD d getGroundLevelDelta ()I
+	METHOD e getJunctions ()Ljava/util/List;

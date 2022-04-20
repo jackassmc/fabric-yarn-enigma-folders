@@ -1,0 +1,6 @@
+CLASS byv net/minecraft/client/render/entity/EntityRendererCreeper
+	FIELD a SKIN Lnd;
+	METHOD a getTexture (Lacq;)Lnd;
+		ARG 0 model
+	METHOD a getTexture (Lve;)Lnd;
+		ARG 0 model

@@ -1,0 +1,4 @@
+CLASS pe net/minecraft/server/network/packet/PlayerInteractBlockC2SPacket
+	FIELD b hand Lagq;
+	METHOD b getHand ()Lagq;
+	METHOD c getHitY ()Lcqd;

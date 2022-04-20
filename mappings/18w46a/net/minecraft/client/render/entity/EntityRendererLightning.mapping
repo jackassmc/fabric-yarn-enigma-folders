@@ -1,0 +1,3 @@
+CLASS dgq net/minecraft/client/render/entity/EntityRendererLightning
+	METHOD a getTexture (Lagc;)Lpx;
+	METHOD a getTexture (Lanz;)Lpx;

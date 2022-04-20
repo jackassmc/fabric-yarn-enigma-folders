@@ -1,0 +1,7 @@
+CLASS agv net/minecraft/container/ContainerLock
+	FIELD a NONE Lagv;
+	FIELD b key Ljava/lang/String;
+	METHOD a isEmpty (Lbaz;)Z
+	METHOD a serialize (Lib;)V
+	METHOD b deserialize (Lib;)Lagv;
+		ARG 0 tag

@@ -1,0 +1,4 @@
+CLASS bnh net/minecraft/block/FernBlock
+	FIELD a SHAPE Lcnl;
+	METHOD <init> (Lbhn$c;)V
+		ARG 1 settings

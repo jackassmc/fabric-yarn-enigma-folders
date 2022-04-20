@@ -1,0 +1,11 @@
+CLASS bye net/minecraft/world/gen/feature/AbstractPileFeature
+	METHOD <init> (Ljava/util/function/Function;)V
+		ARG 1 configFactory
+	METHOD a getPileBlockState (Lbfy;)Lbtw;
+		ARG 1 world
+	METHOD a canPlacePileBlock (Lbfy;Leu;Ljava/util/Random;)Z
+		ARG 1 world
+		ARG 2 pos
+	METHOD b addPileBlock (Lbfy;Leu;Ljava/util/Random;)V
+		ARG 1 world
+		ARG 2 pos

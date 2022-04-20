@@ -1,0 +1,43 @@
+CLASS axg net/minecraft/enchantment/EnchantmentHelper
+	CLASS axg$a EnchantmentHandler
+		METHOD accept handleEnchantment (Laxe;I)V
+	METHOD a getEnchantments (Lauc;)Ljava/util/Map;
+		ARG 0 stack
+	METHOD a getEquipmentLevel (Laxe;Lafq;)I
+		ARG 0 ench
+		ARG 1 entity
+	METHOD a handleEnchantmentArray (Laxg$a;Ljava/lang/Iterable;)V
+		ARG 0 EnchantmentHandler
+		ARG 1 stacks
+	METHOD a removeInvalidEnchantments (Ljava/util/List;Laxh;)V
+		ARG 0 infos
+		ARG 1 info
+	METHOD a geExperienceLevel (Ljava/util/Random;IILauc;)I
+		ARG 0 rand
+		ARG 1 num
+		ARG 2 enchantmentPower
+		ARG 3 rstack
+	METHOD b getKnockback (Lafq;)I
+		ARG 0 entity
+	METHOD b getLuckOfTheSea (Lauc;)I
+	METHOD b getHighestEnchantmentLevel (Laxe;Lafq;)Lauc;
+		ARG 0 enchantment
+		ARG 1 entity
+	METHOD b getEnchantmentList (Ljava/util/Random;Lauc;IZ)Ljava/util/List;
+		ARG 0 rand
+		ARG 1 stack
+	METHOD c getFireAspect (Lafq;)I
+		ARG 0 entity
+	METHOD c getLure (Lauc;)I
+	METHOD d getRespiration (Lafq;)I
+		ARG 0 entity
+	METHOD e getDepthStrider (Lafq;)I
+		ARG 0 entity
+	METHOD f getEfficiency (Lafq;)I
+		ARG 0 entity
+	METHOD g getLooting (Lafq;)I
+		ARG 0 entity
+	METHOD h hasAquaAffinity (Lafq;)Z
+		ARG 0 entity
+	METHOD i hasFrostWalker (Lafq;)Z
+		ARG 0 entity

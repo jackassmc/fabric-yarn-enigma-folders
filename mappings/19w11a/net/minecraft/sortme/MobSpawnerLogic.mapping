@@ -1,0 +1,19 @@
+CLASS bfg net/minecraft/sortme/MobSpawnerLogic
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD b spawnDelay I
+	FIELD c spawnPotentials Ljava/util/List;
+	FIELD d spawnEntry Lbgm;
+	FIELD g minSpawnDelay I
+	FIELD h maxSpawnDelay I
+	FIELD i spawnCount I
+	FIELD j renderedEntity Lahw;
+	FIELD k maxNearbyEntities I
+	FIELD l requiredPlayerRange I
+	FIELD m spawnRange I
+	METHOD a getWorld ()Lbfy;
+	METHOD a setSpawnEntry (Lbgm;)V
+	METHOD a deserialize (Lia;)V
+	METHOD b getPos ()Leu;
+	METHOD b serialize (Lia;)Lia;
+	METHOD c update ()V
+	METHOD d getRenderedEntity ()Lahw;

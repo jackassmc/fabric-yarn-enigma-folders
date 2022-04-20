@@ -1,0 +1,15 @@
+CLASS dcc net/minecraft/client/render/WorldRenderer
+	FIELD a firstPersonRenderer Ldce;
+	FIELD c LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD d RAIN_LOC Lpy;
+	FIELD e SNOW_LOC Lpy;
+	FIELD f client Lcnv;
+	FIELD g resourceContainer Lwc;
+	FIELD h random Ljava/util/Random;
+	METHOD <init> (Lcnv;Lwc;)V
+		ARG 1 client
+	METHOD a onSetCameraEntity (Lagi;)V
+	METHOD a loadShader (Lpy;)V
+	METHOD a onResourceReload (Lwc;)V
+	METHOD e tick ()V
+	METHOD l getGame ()Lcnv;

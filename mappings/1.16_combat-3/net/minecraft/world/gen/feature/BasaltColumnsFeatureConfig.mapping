@@ -1,0 +1,2 @@
+CLASS net/minecraft/class_5156 net/minecraft/world/gen/feature/BasaltColumnsFeatureConfig
+	FIELD field_24877 CODEC Lcom/mojang/serialization/Codec;

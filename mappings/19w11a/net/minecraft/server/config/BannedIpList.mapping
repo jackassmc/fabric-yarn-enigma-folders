@@ -1,0 +1,4 @@
+CLASS xj net/minecraft/server/config/BannedIpList
+	METHOD a contains (Ljava/net/SocketAddress;)Z
+	METHOD b get (Ljava/net/SocketAddress;)Lxk;
+	METHOD c stringifyAddress (Ljava/net/SocketAddress;)Ljava/lang/String;

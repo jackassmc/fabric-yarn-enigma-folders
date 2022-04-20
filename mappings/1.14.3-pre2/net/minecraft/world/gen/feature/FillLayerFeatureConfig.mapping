@@ -1,0 +1,8 @@
+CLASS ccl net/minecraft/world/gen/feature/FillLayerFeatureConfig
+	FIELD a height I
+	FIELD b state Lbvn;
+	METHOD <init> (ILbvn;)V
+		ARG 1 height
+		ARG 2 state
+	METHOD a deserialize (Lcom/mojang/datafixers/Dynamic;)Lccl;
+		ARG 0 dynamic

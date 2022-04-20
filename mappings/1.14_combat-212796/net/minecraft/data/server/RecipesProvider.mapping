@@ -1,0 +1,5 @@
+CLASS hg net/minecraft/data/server/RecipesProvider
+	FIELD b LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD c GSON Lcom/google/gson/Gson;
+	FIELD d root Lgj;
+	METHOD a generate (Ljava/util/function/Consumer;)V

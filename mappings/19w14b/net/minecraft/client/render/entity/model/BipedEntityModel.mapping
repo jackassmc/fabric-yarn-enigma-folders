@@ -1,0 +1,19 @@
+CLASS dej net/minecraft/client/render/entity/model/BipedEntityModel
+	CLASS dej$a ArmPose
+	FIELD f head Ldgp;
+	FIELD g headwear Ldgp;
+	FIELD h body Ldgp;
+	FIELD i armRight Ldgp;
+	FIELD j armLeft Ldgp;
+	FIELD k legRight Ldgp;
+	FIELD l legLeft Ldgp;
+	FIELD m armPoseLeft Ldej$a;
+	FIELD n armPoseRight Ldej$a;
+	FIELD o isSneaking Z
+	METHOD <init> (FFII)V
+		ARG 1 scale
+		ARG 3 textureWidth
+	METHOD a getArm (Laii;)Ldgp;
+	METHOD a getPreferedHand (Laij;)Laii;
+	METHOD a setAttributes (Ldej;)V
+	METHOD b_ setVisible (Z)V

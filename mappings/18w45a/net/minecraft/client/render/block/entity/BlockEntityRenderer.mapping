@@ -1,0 +1,10 @@
+CLASS dcc net/minecraft/client/render/block/entity/BlockEntityRenderer
+	FIELD a DESTROY_STAGE_TEXTURES [Lpw;
+	FIELD b renderManager Ldcb;
+	METHOD a getWorld ()Lazy;
+	METHOD a render (Lbls;DDDFI)V
+		ARG 1 entity
+		ARG 2 xOffset
+	METHOD a setRenderManager (Ldcb;)V
+	METHOD a bindTexture (Lpw;)V
+	METHOD b getFontRenderer ()Lcmk;

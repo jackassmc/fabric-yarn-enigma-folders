@@ -1,0 +1,20 @@
+CLASS arq net/minecraft/entity/projectile/ArrowEntity
+	FIELD aw COLOR Lpt;
+	FIELD ax potion Layu;
+	FIELD ay effects Ljava/util/Set;
+	METHOD <init> (Lbcf;DDD)V
+		ARG 1 world
+		ARG 2 x
+	METHOD <init> (Lbcf;Lahm;)V
+		ARG 1 world
+	METHOD a addEffect (Lagw;)V
+	METHOD a onHit (Lahm;)V
+	METHOD a readCustomDataFromTag (Lhs;)V
+	METHOD b spawnParticles (I)V
+	METHOD b initFromStack (Laxd;)V
+	METHOD b writeCustomDataToTag (Lhs;)V
+	METHOD h update ()V
+	METHOD l asItemStack ()Laxd;
+	METHOD t getColor ()I
+	METHOD u initColor ()V
+	METHOD w_ initDataTracker ()V

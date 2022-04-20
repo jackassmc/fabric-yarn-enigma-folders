@@ -1,0 +1,21 @@
+CLASS cfh net/minecraft/world/chunk/WorldNibbleStorage
+	FIELD a arraysByChunk Lit/unimi/dsi/fastutil/longs/Long2ObjectOpenHashMap;
+	FIELD b cachedCoords [J
+	FIELD c cachedData [Lbse;
+	FIELD d hasCache Z
+	METHOD <init> (Lit/unimi/dsi/fastutil/longs/Long2ObjectOpenHashMap;)V
+		ARG 1 map
+	METHOD a cloneChunkData (J)V
+		ARG 1 chunkPos
+	METHOD a addForChunk (JLbse;)V
+		ARG 1 chunkPos
+		ARG 3 data
+	METHOD b copy ()Lcfh;
+	METHOD b hasChunk (J)Z
+		ARG 1 chunkPos
+	METHOD c clearCache ()V
+	METHOD c getDataForChunk (J)Lbse;
+		ARG 1 chunkPos
+	METHOD d disableCache ()V
+	METHOD d removeChunk (J)V
+		ARG 1 chunkPos

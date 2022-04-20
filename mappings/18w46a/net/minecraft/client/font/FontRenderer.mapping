@@ -1,0 +1,71 @@
+CLASS cnk net/minecraft/client/font/FontRenderer
+	CLASS cnk$a CharacterRenderInfo
+		FIELD a xMin F
+		FIELD b yMin F
+		FIELD c xMax F
+		FIELD d yMax F
+		FIELD e red F
+		FIELD f green F
+		FIELD g blue F
+		FIELD h alpha F
+		METHOD a draw (Lcmi;)V
+			ARG 0 buffer
+	FIELD a FONT_HEIGHT I
+	FIELD b rand Ljava/util/Random;
+	FIELD c textureManager Ldkn;
+	FIELD d font Lcph;
+	FIELD e rightToLeft Z
+	METHOD a isRightToLeft ()Z
+	METHOD a getCharWidth (C)F
+	METHOD a (Lcpk;ZZFFFLcmi;FFFF)V
+		ARG 2 bold
+		ARG 3 strikethrough
+		ARG 4 boldOffset
+		ARG 5 x
+		ARG 6 y
+		ARG 7 buffer
+		ARG 8 red
+		ARG 9 green
+		ARG 10 blue
+	METHOD a mirror (Ljava/lang/String;)Ljava/lang/String;
+	METHOD a draw (Ljava/lang/String;FFI)I
+		ARG 1 str
+		ARG 2 x
+		ARG 3 y
+	METHOD a renderInternal (Ljava/lang/String;FFIZ)I
+		ARG 1 str
+		ARG 2 x
+		ARG 3 y
+		ARG 4 color
+	METHOD a drawStringBounded (Ljava/lang/String;IIII)V
+		ARG 1 str
+		ARG 2 x
+		ARG 3 y
+		ARG 4 maxWidth
+	METHOD a (Ljava/lang/String;IZ)Ljava/lang/String;
+		ARG 2 width
+	METHOD a setRightToLeft (Z)V
+	METHOD b getStringWidth (Ljava/lang/String;)I
+	METHOD b drawWithShadow (Ljava/lang/String;FFI)I
+		ARG 1 str
+		ARG 2 x
+		ARG 3 y
+	METHOD b renderStringInternal (Ljava/lang/String;FFIZ)F
+		ARG 1 str
+		ARG 2 x
+		ARG 3 y
+		ARG 4 color
+	METHOD b getStringBoundedHeight (Ljava/lang/String;I)I
+		ARG 1 str
+	METHOD b renderStringBounded (Ljava/lang/String;IIII)V
+		ARG 1 str
+		ARG 2 x
+		ARG 3 y
+		ARG 4 maxWidth
+	METHOD c trimEndNewlines (Ljava/lang/String;)Ljava/lang/String;
+	METHOD c wrapStringToWidthAsList (Ljava/lang/String;I)Ljava/util/List;
+		ARG 1 text
+	METHOD d wrapStringToWidth (Ljava/lang/String;I)Ljava/lang/String;
+		ARG 1 text
+	METHOD e getCharacterCountForWidth (Ljava/lang/String;I)I
+		ARG 1 text

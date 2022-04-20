@@ -1,0 +1,37 @@
+CLASS crj net/minecraft/client/gui/widget/EntryListWidget
+	CLASS crj$a Entry
+		FIELD a parent Lcrj;
+		METHOD a getParent ()Lcrj;
+		METHOD a draw (IIIIZF)V
+			ARG 1 width
+			ARG 5 selected
+		METHOD c getY ()I
+		METHOD d getX ()I
+	CLASS crj$b Entries
+		METHOD add (ILjava/lang/Object;)V
+			ARG 1 value
+		METHOD set (ILjava/lang/Object;)Ljava/lang/Object;
+			ARG 1 value
+	FIELD v entries Ljava/util/List;
+	METHOD <init> (Lcpz;IIIII)V
+		ARG 1 client
+	METHOD a drawBackground ()V
+	METHOD a isSelectedEntry (I)Z
+		ARG 1 index
+	METHOD a selectEntry (IIDD)Z
+		ARG 1 index
+		ARG 2 button
+		ARG 3 mouseX
+		ARG 5 mouseY
+	METHOD a (IIIF)V
+		ARG 1 index
+	METHOD a drawEntry (IIIIIIF)V
+		ARG 1 index
+		ARG 2 y
+	METHOD a addEntry (Lcrj$a;)V
+		ARG 1 entry
+	METHOD b getEntries ()Ljava/util/List;
+	METHOD c clearEntries ()V
+	METHOD c getEntry (I)Lcrj$a;
+		ARG 1 index
+	METHOD d getEntryCount ()I

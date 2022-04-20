@@ -1,0 +1,16 @@
+CLASS yn net/minecraft/tag/TagManager
+	FIELD a blocks Lyk;
+	FIELD b items Lyk;
+	FIELD c fluids Lyk;
+	FIELD d entities Lyk;
+	METHOD a blocks ()Lyk;
+	METHOD a toPacket (Lit;)V
+		ARG 1 buf
+	METHOD a onResourceReload (Lwq;)V
+		ARG 1 manager
+	METHOD b items ()Lyk;
+	METHOD b fromPacket (Lit;)Lyn;
+		ARG 0 buf
+	METHOD c fluids ()Lyk;
+	METHOD d entities ()Lyk;
+	METHOD e clear ()V

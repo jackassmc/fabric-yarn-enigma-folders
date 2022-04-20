@@ -1,0 +1,32 @@
+CLASS av net/minecraft/command/CommandStatistics
+	CLASS av$1
+		METHOD C_ getServer ()Lnet/minecraft/server/MinecraftServer;
+		METHOD a hasPermission (ILjava/lang/String;)Z
+		METHOD a updateCommandStat (Lav$a;I)V
+			ARG 0 statType
+			ARG 1 value
+		METHOD a appendCommandFeedback (Lgk;)V
+			ARG 0 feedback
+		METHOD c getBlockPos ()Ldx;
+		METHOD d getPos ()Lbfp;
+		METHOD e getWorld ()Lali;
+		METHOD f getEntity ()Lub;
+		METHOD g shouldEchoCommandFeedback ()Z
+		METHOD h_ getName ()Ljava/lang/String;
+		METHOD i_ getNameComponent ()Lgk;
+	CLASS av$a StatType
+		FIELD a SUCCESS_COUNT Lav$a;
+		FIELD b AFFECTED_BLOCKS Lav$a;
+		FIELD c AFFECTED_ENTITIES Lav$a;
+		FIELD d AFFECTED_ITEMS Lav$a;
+		FIELD e QUERY_RESULT Lav$a;
+		FIELD f id I
+		FIELD g name Ljava/lang/String;
+		METHOD a getId ()I
+		METHOD a byName (Ljava/lang/String;)Lav$a;
+		METHOD b getName ()Ljava/lang/String;
+		METHOD c getAllNames ()[Ljava/lang/String;
+	METHOD a deserialize (Lfc;)V
+		ARG 0 tag
+	METHOD b serialize (Lfc;)V
+		ARG 0 tag

@@ -1,0 +1,135 @@
+CLASS ahu net/minecraft/entity/LivingEntity
+	FIELD aA hurtTime I
+	FIELD aD deathCounter I
+	FIELD aR headYaw F
+	FIELD aS prevHeadYaw F
+	FIELD aV playerHitTimer I
+	FIELD aW dead Z
+	FIELD aX despawnCounter I
+	FIELD au LIVING_FLAGS Lpx;
+	FIELD av SLEEPING_SIZE Lahm;
+	FIELD ax preferredHand Lagg;
+	FIELD az stuckArrowTimer I
+	FIELD bA activePotionEffects Ljava/util/Map;
+	FIELD bB equippedHand Lff;
+	FIELD bC equippedArmor Lff;
+	FIELD bE attacker Lahu;
+	FIELD bF lastAttackedTime I
+	FIELD bG attacking Lahu;
+	FIELD bH lastAttackTime I
+	FIELD bI movementSpeed F
+	FIELD bK absorptionAmount F
+	FIELD b LOGGER_LIVING Lorg/apache/logging/log4j/Logger;
+	FIELD bg movementInputSideways F
+	FIELD bh movementInputUp F
+	FIELD bi movementInputForward F
+	FIELD bs activeItemStack Laxw;
+	FIELD bw STUCK_ARROWS Lpx;
+	FIELD bx SLEEPING_POSITION Lpx;
+	FIELD by attributeContainer Lain;
+	FIELD bz damageTracker Lagu;
+	FIELD c ATTR_SPRINTING_SPEED_BOOST_ID Ljava/util/UUID;
+	FIELD d ATTR_SPRINTING_SPEED_BOOST Lail;
+	FIELD e HEALTH Lpx;
+	FIELD f POTION_SWIRLS_COLOR Lpx;
+	FIELD g POTION_SWIRLS_AMBIENT Lpx;
+	METHOD <init> (Lahp;Lbde;)V
+		ARG 1 type
+	METHOD C updatePotionVisibility ()V
+	METHOD C attack (Lahl;)Z
+	METHOD D pushAway (Lahl;)V
+	METHOD E canSee (Lahl;)Z
+	METHOD a travel (FFF)V
+		ARG 1 movementInputSideways
+		ARG 2 movementInputUp
+		ARG 3 movementInputForward
+	METHOD a swingHand (Lagg;)V
+	METHOD a setStackInHand (Lagg;Laxw;)V
+		ARG 1 hand
+	METHOD a onDeath (Lagv;)V
+	METHOD a dropEquipment (Lagv;IZ)V
+	METHOD a hasPotionEffect (Lahe;)Z
+	METHOD a pickUpEntity (Lahl;I)V
+		ARG 2 count
+	METHOD a isEquippedStackValid (Lahq;)Z
+	METHOD a setAttacker (Lahu;)V
+	METHOD a getAttributeInstance (Laij;)Laik;
+	METHOD a_ doJump (Z)V
+	METHOD b heal (F)V
+	METHOD b getStackInHand (Lagg;)Laxw;
+	METHOD b getPotionEffect (Lahe;)Lahf;
+	METHOD b getEquippedStack (Lahq;)Laxw;
+	METHOD b getActiveEyeHeight (Laie;Lahm;)F
+	METHOD b onEquipStack (Laxw;)V
+	METHOD c setHealth (F)V
+	METHOD c setCurrentHand (Lagg;)V
+	METHOD c removePotionEffect (Lahe;)Lahf;
+	METHOD c addPotionEffect (Lahf;)Z
+	METHOD c containsOnlyAmbientEffects (Ljava/util/Collection;)Z
+		ARG 0 effects
+	METHOD cC getDamageTracker ()Lagu;
+	METHOD cE getHealthMaximum ()F
+	METHOD cF getStuckArrows ()I
+	METHOD cH getAttributeContainer ()Lain;
+	METHOD cI getGroup ()Lahy;
+	METHOD cJ getMainHandStack ()Laxw;
+	METHOD cK getOffHandStack ()Laxw;
+	METHOD cM getSoundVolume ()F
+	METHOD cN getSoundPitch ()F
+	METHOD cP getJumpVelocity ()F
+	METHOD cQ jump ()V
+	METHOD cT getMovementSpeed ()F
+	METHOD cV doPushLogic ()V
+	METHOD cW isUsingRiptide ()Z
+	METHOD cY getAbsorptionAmount ()F
+	METHOD cd initAttributes ()V
+	METHOD ce canBreatheInWater ()Z
+	METHOD cg updatePostDeath ()V
+	METHOD ch canDropLootAndXp ()Z
+	METHOD cj getRand ()Ljava/util/Random;
+	METHOD ck getAttacker ()Lahu;
+	METHOD cl getLastAttackedTime ()I
+	METHOD cm getAttacking ()Lahu;
+	METHOD cn getLastAttackTime ()I
+	METHOD co getDespawnCounter ()I
+	METHOD cq clearPotionSwirls ()V
+	METHOD cr clearPotionEffects ()Z
+	METHOD cs getPotionEffects ()Ljava/util/Collection;
+	METHOD cu isUndead ()Z
+	METHOD cv getHealth ()F
+	METHOD cx dropInventory ()V
+	METHOD cz getDeathSound ()Lxy;
+	METHOD d (FF)F
+		ARG 1 yaw
+	METHOD d applyDamage (Lagv;F)V
+		ARG 1 damageSource
+	METHOD d removeStatusEffect (Lahe;)Z
+	METHOD d isPotionEffective (Lahf;)Z
+	METHOD d getCurrentExperience (Lary;)I
+	METHOD d canPickUp (Laxw;)Z
+	METHOD da getMainHand ()Laht;
+	METHOD db isUsingItem ()Z
+	METHOD dc getActiveHand ()Lagg;
+	METHOD de getActiveItem ()Laxw;
+	METHOD dk isFallFlying ()Z
+	METHOD do getSleepingPosition ()Ljava/util/Optional;
+	METHOD dp clearSleepingPosition ()V
+	METHOD dq isSleeping ()Z
+	METHOD dr wakeUp ()V
+	METHOD e getHurtSound (Lagv;)Lxy;
+	METHOD f attackLivingEntity (Lahu;)V
+	METHOD f setSleepingPosition (Les;)V
+	METHOD g sleep (Les;)V
+	METHOD k updateMovement ()V
+	METHOD m damageShield (F)V
+	METHOD m setDespawnCounter (I)V
+	METHOD n initAi ()V
+	METHOD n setMovementSpeed (F)V
+		ARG 1 movementSpeed
+	METHOD n getFallSound (I)Lxy;
+	METHOD o setStuckArrows (I)V
+	METHOD p isSleepingInBed ()Z
+	METHOD p setAbsorptionAmount (F)V
+	METHOD v_ isChild ()Z
+	METHOD w_ canClimb ()Z
+	METHOD z onAttacking (Lahl;)V

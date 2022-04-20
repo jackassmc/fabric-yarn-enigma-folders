@@ -1,0 +1,9 @@
+CLASS bbj net/minecraft/village/Villager
+	METHOD N_ getCurrentCustomer ()Lark;
+	METHOD O_ getVillagerWorld ()Lbcf;
+	METHOD a onSellingItem (Laxd;)V
+	METHOD a useRecipe (Lbbk;)V
+	METHOD a setServerRecipes (Lbbl;)V
+	METHOD a_ setCurrentCustomer (Lark;)V
+	METHOD c getRecipes ()Lbbl;
+	METHOD e getVillagerPos ()Let;

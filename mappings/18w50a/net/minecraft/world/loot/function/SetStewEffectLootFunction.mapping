@@ -1,0 +1,15 @@
+CLASS ckp net/minecraft/world/loot/function/SetStewEffectLootFunction
+	CLASS ckp$a Builder
+		FIELD a map Ljava/util/Map;
+		METHOD a create ()Lckp$a;
+		METHOD a withEffect (Lagn;Lcjd;)Lckp$a;
+		METHOD b build ()Lcke;
+		METHOD d build ()Lckd$a;
+	CLASS ckp$b Factory
+		METHOD a toJson (Lcom/google/gson/JsonObject;Lckd;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD a toJson (Lcom/google/gson/JsonObject;Lcke;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD b fromJson (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;[Lclh;)Lckd;
+	FIELD a effects Ljava/util/Map;
+	METHOD a process (Lawo;Lciv;)Lawo;
+		ARG 1 stack
+	METHOD b create ()Lckp$a;

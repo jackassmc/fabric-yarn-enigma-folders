@@ -1,0 +1,4 @@
+CLASS bqm net/minecraft/block/PotatoesBlock
+	FIELD a AGE_TO_SHAPE [Lcsv;
+	METHOD <init> (Lbmq$c;)V
+		ARG 1 settings

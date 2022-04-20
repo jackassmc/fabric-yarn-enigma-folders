@@ -1,0 +1,3 @@
+CLASS ayy net/minecraft/container/ContainerProvider
+	METHOD createMenu (ILavt;Lavu;)Laxy;
+		ARG 1 syncId

@@ -1,0 +1,7 @@
+CLASS czz net/minecraft/client/gui/container/LecternScreen
+	FIELD g lecternContainer Laxp;
+	FIELD h listener Laxc;
+	METHOD k sendButtonPressPacket (I)V
+		ARG 1 id
+	METHOD x updatePageProvider ()V
+	METHOD y updatePage ()V

@@ -1,0 +1,11 @@
+CLASS cqy net/minecraft/entity/VerticalEntityPositionImpl
+	CLASS cqy$1
+		METHOD <init> (ZDLbau;)V
+			ARG 1 sneaking
+	FIELD a MIN_VALUE Lcqt;
+	FIELD b sneaking Z
+	FIELD c posY D
+	METHOD <init> (Lahy;)V
+		ARG 1 entity
+	METHOD <init> (ZDLbau;)V
+		ARG 1 sneaking

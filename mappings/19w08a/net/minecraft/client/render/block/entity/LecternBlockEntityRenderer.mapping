@@ -1,0 +1,3 @@
+CLASS din net/minecraft/client/render/block/entity/LecternBlockEntityRenderer
+	FIELD c BOOK_TEXTURE Lqi;
+	FIELD d book Lczy;

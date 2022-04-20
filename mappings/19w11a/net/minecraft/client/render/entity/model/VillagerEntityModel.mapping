@@ -1,0 +1,3 @@
+CLASS dfk net/minecraft/client/render/entity/model/VillagerEntityModel
+	FIELD a head Ldfw;
+	FIELD l nose Ldfw;

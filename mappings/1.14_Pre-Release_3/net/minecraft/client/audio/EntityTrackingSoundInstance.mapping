@@ -1,0 +1,2 @@
+CLASS dwi net/minecraft/client/audio/EntityTrackingSoundInstance
+	FIELD o entity Laid;

@@ -1,0 +1,3 @@
+CLASS boj net/minecraft/block/GrassBlock
+	METHOD <init> (Lbma$c;)V
+		ARG 1 settings

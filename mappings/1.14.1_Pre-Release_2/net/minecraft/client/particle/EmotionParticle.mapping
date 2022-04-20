@@ -1,0 +1,3 @@
+CLASS dim net/minecraft/client/particle/EmotionParticle
+	CLASS dim$a AngryVillagerFactory
+	CLASS dim$b HeartFactory

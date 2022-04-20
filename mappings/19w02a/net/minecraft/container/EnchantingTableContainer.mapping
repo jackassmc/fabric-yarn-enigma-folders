@@ -1,0 +1,27 @@
+CLASS atv net/minecraft/container/EnchantingTableContainer
+	CLASS atv$1
+		METHOD e markDirty ()V
+	CLASS atv$2
+		METHOD a getMaxStackAmount ()I
+		METHOD a canInsert (Laxd;)Z
+	CLASS atv$3
+		METHOD a canInsert (Laxd;)Z
+	FIELD a enchantmentPower [I
+	FIELD d enchantmentId [I
+	FIELD e enchantmentLevel [I
+	FIELD f inventory Lafs;
+	FIELD g pos Latp;
+	FIELD h random Ljava/util/Random;
+	FIELD i world Latt;
+	METHOD a getType ()Laug;
+	METHOD a onContentChanged (Lafs;)V
+	METHOD a canUse (Lark;)Z
+	METHOD a onButtonClick (Lark;I)Z
+		ARG 1 player
+		ARG 2 id
+	METHOD a getRandomEnchantments (Laxd;II)Ljava/util/List;
+		ARG 1 stack
+	METHOD b close (Lark;)V
+	METHOD b transferSlot (Lark;I)Laxd;
+		ARG 1 player
+		ARG 2 invSlot

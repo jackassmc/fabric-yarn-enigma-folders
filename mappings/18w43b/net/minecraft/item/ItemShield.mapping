@@ -1,0 +1,19 @@
+CLASS auw net/minecraft/item/ItemShield
+	METHOD <init> (Latx$a;)V
+		ARG 0 builder
+	METHOD a canRepair (Lauc;Lauc;)Z
+		ARG 0 item
+		ARG 1 repairItem
+	METHOD a addInformation (Lauc;Laza;Ljava/util/List;Lavm;)V
+		ARG 0 stack
+		ARG 2 tooltip
+	METHOD a onRightClick (Laza;Lapb;Laea;)Laed;
+		ARG 0 world
+		ARG 1 player
+		ARG 2 hand
+	METHOD b getMaxUseTime (Lauc;)I
+		ARG 0 stack
+	METHOD c getUseAction (Lauc;)Lavo;
+		ARG 0 stack
+	METHOD h getTranslationKey (Lauc;)Ljava/lang/String;
+		ARG 0 stack

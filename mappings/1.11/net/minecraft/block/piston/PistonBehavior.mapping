@@ -1,0 +1,5 @@
+CLASS azt net/minecraft/block/piston/PistonBehavior
+	FIELD a MOVE Lazt;
+	FIELD b BREAK Lazt;
+	FIELD c BLOCK Lazt;
+	FIELD d IGNORE Lazt;

@@ -1,0 +1,11 @@
+CLASS cry net/minecraft/entity/VerticalEntityPositionImpl
+	CLASS cry$1
+		METHOD <init> (ZDLbbp;)V
+			ARG 1 sneaking
+	FIELD a MIN_VALUE Lcrt;
+	FIELD b sneaking Z
+	FIELD c posY D
+	METHOD <init> (Laid;)V
+		ARG 1 entity
+	METHOD <init> (ZDLbbp;)V
+		ARG 1 sneaking

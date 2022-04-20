@@ -1,0 +1,7 @@
+CLASS cjp net/minecraft/world/loot/entry/LootTableEntry
+	CLASS cjp$a Serializer
+		METHOD a toJson (Lcom/google/gson/JsonObject;Lcjn;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD a toJson (Lcom/google/gson/JsonObject;Lcjo;Lcom/google/gson/JsonSerializationContext;)V
+	FIELD c id Lqc;
+	METHOD a check (Lciz;Ljava/util/function/Function;Ljava/util/Set;Lcku;)V
+	METHOD a drop (Ljava/util/function/Consumer;Lciv;)V

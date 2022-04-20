@@ -1,0 +1,3 @@
+CLASS cpi net/minecraft/world/loot/function/LimitCountLootFunction
+	CLASS cpi$a Factory
+	FIELD a limit Lcny;

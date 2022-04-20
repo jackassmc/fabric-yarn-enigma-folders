@@ -1,0 +1,6 @@
+CLASS cef net/minecraft/world/gen/feature/SpruceTreeFeature
+	FIELD a LOG Lbvh;
+	FIELD aS LEAVES Lbvh;
+	METHOD <init> (Ljava/util/function/Function;Z)V
+		ARG 1 configFactory
+		ARG 2 emitNeighborBlockUpdates

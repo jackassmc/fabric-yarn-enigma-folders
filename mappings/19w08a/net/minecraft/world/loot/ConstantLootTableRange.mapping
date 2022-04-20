@@ -1,0 +1,5 @@
+CLASS cjz net/minecraft/world/loot/ConstantLootTableRange
+	CLASS cjz$a Serializer
+	FIELD d value I
+	METHOD a create (I)Lcjz;
+		ARG 0 value

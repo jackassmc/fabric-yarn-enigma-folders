@@ -1,0 +1,9 @@
+CLASS bnc net/minecraft/block/SlabBlock
+	FIELD a TYPE Lbsc;
+	FIELD b WATERLOGGED Lbrw;
+	FIELD c BOTTOM_SHAPE Lcof;
+	FIELD d TOP_SHAPE Lcof;
+	METHOD <init> (Lbig$c;)V
+		ARG 1 settings
+	METHOD n (Lbre;)Z
+		ARG 1 state

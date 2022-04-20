@@ -1,0 +1,3 @@
+CLASS ckv net/minecraft/world/loot/function/FillPlayerHeadLootFunction
+	CLASS ckv$a Factory
+	FIELD a entity Lcjq$c;

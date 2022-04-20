@@ -1,0 +1,3 @@
+CLASS coc net/minecraft/world/loot/function/FillPlayerHeadLootFunction
+	CLASS coc$a net/minecraft/world/loot/function/FillPlayerHeadLootFunction$Factory
+	FIELD a entity Lcmx$c;

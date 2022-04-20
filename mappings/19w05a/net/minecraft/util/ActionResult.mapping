@@ -1,0 +1,4 @@
+CLASS aga net/minecraft/util/ActionResult
+	FIELD a SUCCESS Laga;
+	FIELD b PASS Laga;
+	FIELD c FAILURE Laga;

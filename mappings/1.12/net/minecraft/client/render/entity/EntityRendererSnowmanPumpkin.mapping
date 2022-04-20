@@ -1,0 +1,9 @@
+CLASS cch net/minecraft/client/render/entity/EntityRendererSnowmanPumpkin
+	FIELD a renderer Lcas;
+	METHOD <init> (Lcas;)V
+		ARG 0 renderer
+	METHOD a shouldMergeTextures ()Z
+	METHOD a render (Laag;FFFFFFF)V
+		ARG 0 entity
+	METHOD a render (Lvn;FFFFFFF)V
+		ARG 0 entity

@@ -1,0 +1,3 @@
+CLASS blt net/minecraft/block/AirBlock
+	METHOD <init> (Lbmp$c;)V
+		ARG 1 settings

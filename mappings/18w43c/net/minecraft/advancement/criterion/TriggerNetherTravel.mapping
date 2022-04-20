@@ -1,0 +1,43 @@
+CLASS bf net/minecraft/advancement/criterion/TriggerNetherTravel
+	CLASS bf$a Handler
+		FIELD a manager Lqd;
+		FIELD b conditions Ljava/util/Set;
+		METHOD <init> (Lqd;)V
+			ARG 0 manager
+		METHOD a isEmpty ()Z
+		METHOD a addCondition (Ls$a;)V
+			ARG 0 condition
+		METHOD a handle (Ltz;Lchd;DDD)V
+			ARG 0 world
+			ARG 1 enteredCoord
+			ARG 2 exitedX
+			ARG 3 exitedY
+			ARG 4 exitedZ
+		METHOD b removeCondition (Ls$a;)V
+			ARG 0 condition
+	CLASS bf$b Conditions
+		FIELD a entered Lba;
+		FIELD b exited Lba;
+		FIELD c distance Lai;
+		METHOD a distance (Lai;)Lbf$b;
+		METHOD a matches (Ltz;Lchd;DDD)Z
+	FIELD a ID Lpt;
+	FIELD b handlers Ljava/util/Map;
+	METHOD a getId ()Lpt;
+	METHOD a deserializeConditions (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Lt;
+		ARG 0 obj
+		ARG 1 context
+	METHOD a removePlayer (Lqd;)V
+		ARG 0 manager
+	METHOD a addCondition (Lqd;Ls$a;)V
+		ARG 0 manager
+		ARG 1 condition
+	METHOD a handle (Lub;Lchd;)V
+		ARG 0 player
+		ARG 1 enteredCoord
+	METHOD b deserializeConditions (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Lbf$b;
+		ARG 0 obj
+		ARG 1 context
+	METHOD b removeCondition (Lqd;Ls$a;)V
+		ARG 0 manager
+		ARG 1 condition

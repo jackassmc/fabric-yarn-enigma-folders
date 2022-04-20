@@ -1,0 +1,17 @@
+CLASS dgi net/minecraft/client/network/ScoreboardEntry
+	FIELD a profile Lcom/mojang/authlib/GameProfile;
+	FIELD c gameMode Lbgc;
+	FIELD d latency I
+	FIELD g displayName Ljm;
+	METHOD a getProfile ()Lcom/mojang/authlib/GameProfile;
+	METHOD a setLatency (I)V
+	METHOD a setGameMode (Lbgc;)V
+	METHOD a setDisplayName (Ljm;)V
+	METHOD b getGameMode ()Lbgc;
+	METHOD c getLatency ()I
+	METHOD e isSkinTextureLoaded ()Z
+	METHOD g getSkinTexture ()Lqq;
+	METHOD h getCapeTexture ()Lqq;
+	METHOD i getElytraTexture ()Lqq;
+	METHOD j getScoreboardTeam ()Lcrm;
+	METHOD l getDisplayName ()Ljm;

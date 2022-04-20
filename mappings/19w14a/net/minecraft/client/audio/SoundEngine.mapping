@@ -1,0 +1,10 @@
+CLASS csq net/minecraft/client/audio/SoundEngine
+	CLASS csq$b
+		FIELD b sources Ljava/util/Set;
+	CLASS csq$c RunMode
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD g listener Lcsr;
+	METHOD a init ()V
+	METHOD a release (Lcsp;)V
+	METHOD b close ()V
+	METHOD c getListener ()Lcsr;

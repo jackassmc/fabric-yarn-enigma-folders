@@ -1,0 +1,3 @@
+CLASS ckv net/minecraft/fluid/LavaFluid
+	CLASS ckv$a Flowing
+	CLASS ckv$b Still

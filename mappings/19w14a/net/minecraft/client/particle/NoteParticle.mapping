@@ -1,0 +1,7 @@
+CLASS dic net/minecraft/client/particle/NoteParticle
+	CLASS dic$a Factory
+	METHOD <init> (Lbgw;DDDD)V
+		ARG 1 world
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z

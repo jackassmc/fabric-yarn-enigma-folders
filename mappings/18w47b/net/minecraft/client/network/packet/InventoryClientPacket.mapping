@@ -1,0 +1,11 @@
+CLASS kn net/minecraft/client/network/packet/InventoryClientPacket
+	FIELD a guiId I
+	FIELD b slotStackList Ljava/util/List;
+	METHOD <init> (ILfh;)V
+		ARG 1 guiId
+	METHOD a read (Liq;)V
+	METHOD a apply (Lit;)V
+	METHOD a apply (Ljr;)V
+	METHOD b getGuiId ()I
+	METHOD b write (Liq;)V
+	METHOD c getSlotStacks ()Ljava/util/List;

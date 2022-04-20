@@ -1,0 +1,2 @@
+CLASS rd net/minecraft/network/OffThreadException
+	FIELD a INSTANCE Lrd;

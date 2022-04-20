@@ -1,0 +1,6 @@
+CLASS net/minecraft/class_4956 net/minecraft/client/particle/SoulParticle
+	FIELD field_23091 spriteProvider Lnet/minecraft/class_4002;
+	CLASS class_4957 Factory
+		FIELD field_23092 spriteProvider Lnet/minecraft/class_4002;
+		METHOD <init> (Lnet/minecraft/class_4002;)V
+			ARG 1 spriteProvider

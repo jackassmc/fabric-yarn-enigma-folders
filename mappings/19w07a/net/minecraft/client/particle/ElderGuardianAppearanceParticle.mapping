@@ -1,0 +1,3 @@
+CLASS ddy net/minecraft/client/particle/ElderGuardianAppearanceParticle
+	CLASS ddy$a Factory
+	FIELD D guardian Lahu;

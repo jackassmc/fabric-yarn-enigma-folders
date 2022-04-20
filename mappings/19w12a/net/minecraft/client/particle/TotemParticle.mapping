@@ -1,0 +1,2 @@
+CLASS dii net/minecraft/client/particle/TotemParticle
+	CLASS dii$a Factory

@@ -1,0 +1,22 @@
+CLASS axp net/minecraft/world/gen/chunk/ChunkGeneratorDefault
+	FIELD A featureRavine Laxm;
+	FIELD B structureMonument Lazz;
+	FIELD D biomeCache [Lalv;
+	FIELD a STONE Lave;
+	FIELD i rand Ljava/util/Random;
+	FIELD n world Lali;
+	FIELD o generateStructures Z
+	FIELD p levelGeneratorType Laln;
+	FIELD s biomeGenSettings Laxi;
+	FIELD t oceanBlock Lave;
+	FIELD v featureCave Laxm;
+	FIELD w structureStronghold Lbad;
+	FIELD x structureVillage Lbal;
+	FIELD y structureMineshaft Lazu;
+	FIELD z structureTemple Lbab;
+	METHOD a generateChunk (II)Lawh;
+	METHOD a findClosestStructure (Lali;Ljava/lang/String;Ldx;Z)Ldx;
+	METHOD a generateMonuments (Lawh;II)Z
+	METHOD a getSpawnableEntites (Lum;Ldx;)Ljava/util/List;
+	METHOD b populateTerrain (II)V
+	METHOD b generateStructures (Lawh;II)V

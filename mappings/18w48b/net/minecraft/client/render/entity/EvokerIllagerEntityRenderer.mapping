@@ -1,0 +1,7 @@
+CLASS dgv net/minecraft/client/render/entity/EvokerIllagerEntityRenderer
+	CLASS dgv$1
+		METHOD a render (Lagr;FFFFFFF)V
+			ARG 0 entity
+	FIELD a EVOKER_TEXTURE Lpy;
+	METHOD a getTexture (Lagi;)Lpy;
+	METHOD a getTexture (Laph;)Lpy;

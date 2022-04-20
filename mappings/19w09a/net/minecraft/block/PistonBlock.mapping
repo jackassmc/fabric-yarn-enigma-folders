@@ -1,0 +1,14 @@
+CLASS bqy net/minecraft/block/PistonBlock
+	FIELD i isSticky Z
+	METHOD a move (Lbdf;Les;Lex;Z)Z
+		ARG 1 world
+		ARG 2 pos
+		ARG 3 dir
+	METHOD a isMovable (Lbre;Lbdf;Les;Lex;ZLex;)Z
+		ARG 0 state
+		ARG 1 world
+		ARG 2 pos
+		ARG 3 facing
+		ARG 4 canBreak
+	METHOD n (Lbre;)Z
+		ARG 1 state

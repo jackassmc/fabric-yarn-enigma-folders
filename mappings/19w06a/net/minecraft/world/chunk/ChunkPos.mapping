@@ -1,0 +1,34 @@
+CLASS bch net/minecraft/world/chunk/ChunkPos
+	FIELD a INVALID J
+	FIELD b x I
+	FIELD c z I
+	METHOD <init> (II)V
+		ARG 1 x
+		ARG 2 z
+	METHOD <init> (J)V
+		ARG 1 pos
+	METHOD <init> (Let;)V
+		ARG 1 pos
+	METHOD a toLong ()J
+	METHOD a toLong (II)J
+		ARG 0 chunkX
+		ARG 1 chunkZ
+	METHOD a toBlockPos (III)Let;
+		ARG 1 chunkRelativeX
+		ARG 2 chunkRelativeY
+		ARG 3 chunkRelativeZ
+	METHOD a getPackedX (J)I
+		ARG 0 pos
+	METHOD b getPackedZ (J)I
+		ARG 0 pos
+	METHOD d getStartX ()I
+	METHOD e getStartZ ()I
+	METHOD equals (Ljava/lang/Object;)Z
+		ARG 1 o
+	METHOD f getEndX ()I
+	METHOD g getEndZ ()I
+	METHOD h getRegionX ()I
+	METHOD i getRegionZ ()I
+	METHOD j getRegionRelativeX ()I
+	METHOD k getRegionRelativeZ ()I
+	METHOD l getCenterBlockPos ()Let;

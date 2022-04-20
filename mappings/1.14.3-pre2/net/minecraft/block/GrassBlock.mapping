@@ -1,0 +1,3 @@
+CLASS boy net/minecraft/block/GrassBlock
+	METHOD <init> (Lbmp$c;)V
+		ARG 1 settings

@@ -1,0 +1,7 @@
+CLASS dhp net/minecraft/client/particle/BlockFallingDustParticle
+	CLASS dhp$a Factory
+	METHOD <init> (Lbgv;DDDFFFLdio;)V
+		ARG 1 world
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z

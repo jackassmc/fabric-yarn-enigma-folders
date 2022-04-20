@@ -1,0 +1,12 @@
+CLASS cyt net/minecraft/client/gui/screen/AccessibilityScreen
+	FIELD a OPTIONS [Lcvr;
+	FIELD b parent Lczx;
+	FIELD c gameOptions Lcvs;
+	FIELD d narratorButton Lcws;
+	METHOD <init> (Lczx;Lcvs;)V
+		ARG 1 parent
+		ARG 2 gameOptions
+	METHOD render (IIF)V
+		ARG 1 mouseX
+		ARG 2 mouseY
+		ARG 3 delta

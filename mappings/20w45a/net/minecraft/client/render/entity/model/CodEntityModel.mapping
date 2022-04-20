@@ -1,0 +1,2 @@
+CLASS net/minecraft/class_561 net/minecraft/client/render/entity/model/CodEntityModel
+	FIELD field_3350 tail Lnet/minecraft/class_630;

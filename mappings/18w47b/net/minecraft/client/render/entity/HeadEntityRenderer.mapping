@@ -1,0 +1,4 @@
+CLASS dja net/minecraft/client/render/entity/HeadEntityRenderer
+	FIELD a model Lcyg;
+	METHOD a shouldMergeTextures ()Z
+	METHOD a render (Lago;FFFFFFF)V

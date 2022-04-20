@@ -1,0 +1,4 @@
+CLASS boe net/minecraft/block/EndPortalBlock
+	FIELD a SHAPE Lcss;
+	METHOD <init> (Lbmn$c;)V
+		ARG 1 settings

@@ -1,0 +1,54 @@
+CLASS alx net/minecraft/entity/passive/PandaEntity
+	CLASS alx$a PandaFleeGoal
+		METHOD a canStart ()Z
+	CLASS alx$b PandaMateGoal
+		METHOD a canStart ()Z
+	CLASS alx$d
+		METHOD b shouldContinue ()Z
+	CLASS alx$e
+		METHOD a canStart ()Z
+		METHOD b shouldContinue ()Z
+		METHOD c start ()V
+		METHOD d onRemove ()V
+	CLASS alx$f
+		METHOD a tick ()V
+	CLASS alx$g
+		METHOD a canStart ()Z
+		METHOD b shouldContinue ()Z
+	CLASS alx$h
+		METHOD a canStart ()Z
+		METHOD b shouldContinue ()Z
+		METHOD c start ()V
+		METHOD f canStop ()Z
+	CLASS alx$i
+		METHOD a canStart ()Z
+		METHOD b shouldContinue ()Z
+		METHOD c start ()V
+		METHOD d onRemove ()V
+		METHOD e tick ()V
+	CLASS alx$j
+		METHOD a canStart ()Z
+		METHOD b shouldContinue ()Z
+		METHOD c start ()V
+	METHOD D getSoundAmbient ()Lxf;
+	METHOD U_ update ()V
+	METHOD a damage (Lafr;F)Z
+		ARG 1 source
+	METHOD a createChild (Lagf;)Lagf;
+	METHOD a setAttacker (Lagr;)V
+	METHOD a canBeLeashedBy (Laqj;)Z
+	METHOD a interactMob (Laqj;Lafb;)Z
+		ARG 1 player
+	METHOD a (Lbar;Lafa;Lagu;Lahc;Lhp;)Lahc;
+		ARG 3 difficulty
+	METHOD a playStepSound (Let;Lboj;)V
+		ARG 1 pos
+	METHOD a deserializeCustomData (Lhp;)V
+		ARG 1 tag
+	METHOD b serializeCustomData (Lhp;)V
+		ARG 1 tag
+	METHOD cb initAttributes ()V
+	METHOD cw getSoundDeath ()Lxf;
+	METHOD e getSoundHurt (Lafr;)Lxf;
+	METHOD n initAi ()V
+	METHOD x_ initDataTracker ()V

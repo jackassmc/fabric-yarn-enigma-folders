@@ -1,0 +1,16 @@
+CLASS cln net/minecraft/client/settings/KeyBinding
+	FIELD f defaultKeyCode Lckd$a;
+	FIELD h keyCode Lckd$a;
+	METHOD a matches (I)Z
+		ARG 1 mouseKeyCode
+	METHOD a matches (II)Z
+		ARG 1 keyCode
+		ARG 2 scanCode
+	METHOD b setKeyCode (Lckd$a;)V
+		ARG 1 keyCode
+	METHOD b equals (Lcln;)Z
+		ARG 1 otherBinding
+	METHOD h getDefaultKeyCode ()Lckd$a;
+	METHOD i isUnbound ()Z
+	METHOD k isDefault ()Z
+	METHOD l getName ()Ljava/lang/String;

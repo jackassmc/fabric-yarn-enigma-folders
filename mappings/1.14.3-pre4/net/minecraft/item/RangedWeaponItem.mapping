@@ -1,0 +1,14 @@
+CLASS bcq net/minecraft/item/RangedWeaponItem
+	FIELD a BOW_PROJECTILES Ljava/util/function/Predicate;
+	FIELD b CROSSBOW_HELD_PROJECTILES Ljava/util/function/Predicate;
+	METHOD <init> (Lbbz$a;)V
+		ARG 1 settings
+	METHOD a getHeldProjectile (Laiu;Ljava/util/function/Predicate;)Lbce;
+		ARG 0 entity
+		ARG 1 predicate
+	METHOD b getProjectiles ()Ljava/util/function/Predicate;
+	METHOD d getHeldProjectiles ()Ljava/util/function/Predicate;
+	METHOD e (Lbce;)Z
+		ARG 0 stack
+	METHOD j (Lbce;)Z
+		ARG 0 stack

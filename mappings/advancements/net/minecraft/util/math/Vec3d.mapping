@@ -1,0 +1,26 @@
+CLASS bfp net/minecraft/util/math/Vec3d
+	FIELD a ZERO Lbfp;
+	FIELD b x D
+	FIELD c y D
+	FIELD d z D
+	METHOD a normalize ()Lbfp;
+	METHOD a multiply (D)Lbfp;
+	METHOD a subtract (DDD)Lbfp;
+	METHOD a rotateX (F)Lbfp;
+	METHOD a fromPolar (FF)Lbfp;
+	METHOD a fromPolar (Lbfo;)Lbfp;
+	METHOD a reverseSubtract (Lbfp;)Lbfp;
+	METHOD a castByX (Lbfp;D)Lbfp;
+	METHOD b length ()D
+	METHOD b add (DDD)Lbfp;
+	METHOD b rotateY (F)Lbfp;
+	METHOD b dotProduct (Lbfp;)D
+	METHOD b castByY (Lbfp;D)Lbfp;
+	METHOD c lengthSquared ()D
+	METHOD c squaredDistanceTo (DDD)D
+	METHOD c crossProduct (Lbfp;)Lbfp;
+	METHOD c castByZ (Lbfp;D)Lbfp;
+	METHOD d subtract (Lbfp;)Lbfp;
+	METHOD e add (Lbfp;)Lbfp;
+	METHOD f distanceTo (Lbfp;)D
+	METHOD g squaredDistanceTo (Lbfp;)D

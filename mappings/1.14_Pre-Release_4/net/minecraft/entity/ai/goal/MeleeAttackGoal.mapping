@@ -1,0 +1,10 @@
+CLASS ane net/minecraft/entity/ai/goal/MeleeAttackGoal
+	FIELD a entity Laiu;
+	FIELD b ticksUntilAttack I
+	METHOD <init> (Laiu;DZ)V
+		ARG 1 entity
+	METHOD a getSquaredMaxAttackDistance (Lain;)D
+		ARG 1 entity
+	METHOD a attack (Lain;D)V
+		ARG 1 target
+		ARG 2 squaredDistance

@@ -1,0 +1,5 @@
+CLASS awl net/minecraft/entity/projectile/AbstractFireballEntity
+	FIELD f ITEM Lqi;
+	METHOD b setItem (Lbce;)V
+		ARG 1 stack
+	METHOD l getItem ()Lbce;

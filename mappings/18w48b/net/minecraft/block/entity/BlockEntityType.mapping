@@ -1,0 +1,48 @@
+CLASS bmo net/minecraft/block/entity/BlockEntityType
+	CLASS bmo$a Builder
+		FIELD a supplier Ljava/util/function/Supplier;
+		METHOD <init> (Ljava/util/function/Supplier;)V
+			ARG 0 supplier
+		METHOD a (Lcom/mojang/datafixers/types/Type;)Lbmo;
+			ARG 0 type
+		METHOD a create (Ljava/util/function/Supplier;)Lbmo$a;
+			ARG 0 supplier
+	FIELD A SMOKER Lbmo;
+	FIELD B BLAST_FURNACE Lbmo;
+	FIELD C LECTERN Lbmo;
+	FIELD D BELL Lbmo;
+	FIELD E JIGSAW Lbmo;
+	FIELD F LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD G supplier Ljava/util/function/Supplier;
+	FIELD H type Lcom/mojang/datafixers/types/Type;
+	FIELD a FURNACE Lbmo;
+	FIELD b CHEST Lbmo;
+	FIELD c TRAPPED_CHEST Lbmo;
+	FIELD d ENDER_CHEST Lbmo;
+	FIELD e JUKEBOX Lbmo;
+	FIELD f DISPENSER Lbmo;
+	FIELD g DROPPER Lbmo;
+	FIELD h SIGN Lbmo;
+	FIELD i MOB_SPAWNER Lbmo;
+	FIELD j PISTON Lbmo;
+	FIELD k BREWING_STAND Lbmo;
+	FIELD l ENCHANTING_TABLE Lbmo;
+	FIELD m END_PORTAL Lbmo;
+	FIELD n BEACON Lbmo;
+	FIELD o SKULL Lbmo;
+	FIELD p DAYLIGHT_DETECTOR Lbmo;
+	FIELD q HOPPER Lbmo;
+	FIELD r COMPARATOR Lbmo;
+	FIELD s BANNER Lbmo;
+	FIELD t STRUCTURE_BLOCK Lbmo;
+	FIELD u END_GATEWAY Lbmo;
+	FIELD v COMMAND_BLOCK Lbmo;
+	FIELD w SHUlKER_BOX Lbmo;
+	FIELD x BED Lbmo;
+	FIELD y CONDUIT Lbmo;
+	FIELD z BARREL Lbmo;
+	METHOD a instantiate ()Lbmn;
+	METHOD a getId (Lbmo;)Lpy;
+	METHOD a instantiate (Ljava/lang/String;)Lbmn;
+		ARG 0 id
+	METHOD a create (Ljava/lang/String;Lbmo$a;)Lbmo;

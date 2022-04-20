@@ -1,0 +1,18 @@
+CLASS dgw net/minecraft/client/texture/TextureSpriteAtlas
+	FIELD f BLOCK_ATLAS_TEX Lpt;
+	FIELD g LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD h animatedSprites Ljava/util/List;
+	FIELD j sprites Ljava/util/Map;
+	FIELD k prefix Ljava/lang/String;
+	FIELD l mipLevel I
+	METHOD a updateAnimatedSprites ()V
+	METHOD a setMipLevel (I)V
+		ARG 0 value
+	METHOD a load (Lvs;)V
+		ARG 0 resourceContainer
+	METHOD a loadSprite (Lvs;Ldgx;)Z
+		ARG 0 container
+		ARG 1 sprite
+	METHOD b generateAtlas (Lvs;)V
+		ARG 0 container
+	METHOD e updateTexture ()V

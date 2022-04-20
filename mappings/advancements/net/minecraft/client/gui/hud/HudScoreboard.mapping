@@ -1,0 +1,3 @@
+CLASS bia net/minecraft/client/gui/hud/HudScoreboard
+	FIELD f game Lbgm;
+	FIELD g hudInGame Lbhb;

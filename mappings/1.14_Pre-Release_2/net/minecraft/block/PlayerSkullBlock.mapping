@@ -1,0 +1,3 @@
+CLASS bpy net/minecraft/block/PlayerSkullBlock
+	METHOD <init> (Lbme$c;)V
+		ARG 1 settings

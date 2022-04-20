@@ -1,0 +1,6 @@
+CLASS aoy net/minecraft/entity/ai/goal/AttackWithOwnerGoal
+	FIELD a tameable Laji;
+	FIELD b attacking Laiu;
+	FIELD c lastAttackTime I
+	METHOD <init> (Laji;)V
+		ARG 1 tameable

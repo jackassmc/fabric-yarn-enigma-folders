@@ -1,0 +1,4 @@
+CLASS cht net/minecraft/world/biome/layer/AddBambooJungleLayer
+	FIELD a INSTANCE Lcht;
+	FIELD b JUNGLE_ID I
+	FIELD c BAMBOO_JUNGLE_ID I

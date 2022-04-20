@@ -1,0 +1,2 @@
+CLASS dhr net/minecraft/client/particle/RedDustParticle
+	CLASS dhr$a Factory

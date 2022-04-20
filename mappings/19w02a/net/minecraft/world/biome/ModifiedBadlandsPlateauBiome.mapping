@@ -1,0 +1,3 @@
+CLASS bet net/minecraft/world/biome/ModifiedBadlandsPlateauBiome
+	METHOD a getFoliageColorAt (Let;)I
+	METHOD b getGrassColorAt (Let;)I

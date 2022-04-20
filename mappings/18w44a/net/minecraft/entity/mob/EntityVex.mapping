@@ -1,0 +1,55 @@
+CLASS apd net/minecraft/entity/mob/EntityVex
+	CLASS apd$a AiGoalChargeTarget
+		METHOD a canStart ()Z
+		METHOD b shouldContinue ()Z
+		METHOD c start ()V
+		METHOD d onRemove ()V
+		METHOD e tick ()V
+	CLASS apd$b AiGoalTrackOwnerTarget
+		METHOD <init> (Lapd;Lagk;)V
+			ARG 0 entity
+		METHOD a canStart ()Z
+		METHOD c start ()V
+	CLASS apd$c
+		METHOD <init> (Lapd;Lapd;)V
+			ARG 0 enttiyVex
+		METHOD a tick ()V
+	CLASS apd$d AiGoalLookAtTarget
+		METHOD a canStart ()Z
+		METHOD b shouldContinue ()Z
+		METHOD e tick ()V
+	FIELD bC alive Z
+	FIELD bD lifeTicks I
+	FIELD b owner Lagf;
+	FIELD c bounds Leq;
+	METHOD <init> (Lazt;)V
+		ARG 1 world
+	METHOD D getSoundAmbient ()Lww;
+	METHOD F getLootTableId ()Lpu;
+	METHOD S_ update ()V
+	METHOD a setLifeTicks (I)V
+		ARG 1 value
+	METHOD a initEquipment (Laen;)V
+		ARG 1 difficulty
+	METHOD a setOwner (Lagf;)V
+		ARG 1 value
+	METHOD a move (Lagi;DDD)V
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z
+	METHOD a (Lazu;Laen;Lagn;Lhm;)Lagn;
+		ARG 2 difficulty
+	METHOD a deserializeCustomData (Lhm;)V
+		ARG 1 tag
+	METHOD aA getLightmapCoordinates ()I
+	METHOD b serializeCustomData (Lhm;)V
+		ARG 1 tag
+	METHOD cb initAttributes ()V
+	METHOD cw getSoundDeath ()Lww;
+	METHOD dA getBounds ()Leq;
+	METHOD e getSoundHurt (Lafe;)Lww;
+	METHOD g setBounds (Leq;)V
+		ARG 1 value
+	METHOD l getOwner ()Lagf;
+	METHOD n initAi ()V
+	METHOD y_ initDataTracker ()V

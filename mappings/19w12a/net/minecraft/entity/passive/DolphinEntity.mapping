@@ -1,0 +1,3 @@
+CLASS apw net/minecraft/entity/passive/DolphinEntity
+	CLASS apw$a DolphinMoveControl
+		FIELD i dolphin Lapw;

@@ -1,0 +1,5 @@
+CLASS bdc net/minecraft/item/WallStandingBlockItem
+	FIELD a wallBlock Lbmm;
+	METHOD <init> (Lbmm;Lbmm;Lbbw$a;)V
+		ARG 1 standingBlock
+		ARG 2 wallBlock

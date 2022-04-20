@@ -1,0 +1,2 @@
+CLASS dhx net/minecraft/client/particle/LavaEmberParticle
+	CLASS dhx$a Factory

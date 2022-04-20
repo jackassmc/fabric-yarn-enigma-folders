@@ -1,0 +1,31 @@
+CLASS dew net/minecraft/client/render/entity/EntityRendererArmor
+	FIELD a renderer Ldcz;
+	FIELD b SKIN Lpt;
+	FIELD c modelLeggings Lcsu;
+	FIELD d modelBody Lcsu;
+	FIELD e alpha F
+	FIELD f red F
+	FIELD g green F
+	FIELD h blue F
+	FIELD i ignoreGlint Z
+	FIELD j ARMOR_TEXTURE_CACHE Ljava/util/Map;
+	METHOD <init> (Ldcz;)V
+		ARG 0 renderer
+	METHOD a shouldMergeTextures ()Z
+	METHOD a getArmor (Lafm;)Lcsu;
+		ARG 0 slot
+	METHOD a render (Lafq;FFFFFFF)V
+		ARG 0 entity
+	METHOD a renderArmor (Lafq;FFFFFFFLafm;)V
+		ARG 0 wearer
+		ARG 8 slot
+	METHOD a getArmorTexture (Larx;Z)Lpt;
+		ARG 0 armor
+		ARG 1 getPants
+	METHOD a renderEnchantedGlint (Ldcz;Lafq;Lcsu;FFFFFFF)V
+		ARG 0 renderer
+		ARG 1 wearer
+		ARG 2 model
+	METHOD am_ init ()V
+	METHOD b isLegs (Lafm;)Z
+		ARG 0 slot

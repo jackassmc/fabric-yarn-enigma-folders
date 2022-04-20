@@ -1,0 +1,2 @@
+CLASS pg net/minecraft/stat/StatBase
+	METHOD a register ()Lpl;

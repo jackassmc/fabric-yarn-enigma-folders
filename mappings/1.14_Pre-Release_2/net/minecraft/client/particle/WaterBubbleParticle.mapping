@@ -1,0 +1,7 @@
+CLASS dhq net/minecraft/client/particle/WaterBubbleParticle
+	CLASS dhq$a Factory
+	METHOD <init> (Lbha;DDDDDD)V
+		ARG 1 world
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z

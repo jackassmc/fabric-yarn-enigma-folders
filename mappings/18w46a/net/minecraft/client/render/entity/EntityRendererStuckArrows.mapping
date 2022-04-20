@@ -1,0 +1,4 @@
+CLASS dip net/minecraft/client/render/entity/EntityRendererStuckArrows
+	FIELD a renderer Ldgr;
+	METHOD a shouldMergeTextures ()Z
+	METHOD a render (Lagl;FFFFFFF)V

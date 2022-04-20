@@ -1,0 +1,5 @@
+CLASS dva net/minecraft/client/texture/PaintingManager
+	FIELD a PAINTING_BACK_ID Lqs;
+	METHOD a getPaintingSprite (Lath;)Lduj;
+		ARG 1 motive
+	METHOD b getBackSprite ()Lduj;

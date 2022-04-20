@@ -1,0 +1,16 @@
+CLASS none/ala net/minecraft/block/IPlantBlock
+	METHOD a canPlant (Lnone/aiv;Ljava/util/Random;Lnone/cn;Lnone/asl;)Z
+		ARG 0 world
+		ARG 1 rand
+		ARG 2 pos
+		ARG 3 state
+	METHOD a isPlant (Lnone/aiv;Lnone/cn;Lnone/asl;Z)Z
+		ARG 0 world
+		ARG 1 pos
+		ARG 2 state
+		ARG 3 remote
+	METHOD b plant (Lnone/aiv;Ljava/util/Random;Lnone/cn;Lnone/asl;)V
+		ARG 0 world
+		ARG 1 rand
+		ARG 2 pos
+		ARG 3 state

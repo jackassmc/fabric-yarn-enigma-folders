@@ -1,0 +1,5 @@
+CLASS dln net/minecraft/client/texture/NativeImageBackedTexture
+	FIELD f image Lcmx;
+	METHOD a setImage (Lcmx;)V
+	METHOD a load (Lwd;)V
+	METHOD e getImage ()Lcmx;

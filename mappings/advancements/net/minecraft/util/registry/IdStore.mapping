@@ -1,0 +1,19 @@
+CLASS pw net/minecraft/util/registry/IdStore
+	FIELD a NULL Ljava/lang/Object;
+	FIELD b values [Ljava/lang/Object;
+	FIELD c ids [I
+	FIELD d valuesById [Ljava/lang/Object;
+	FIELD e highestId I
+	FIELD f entries I
+	METHOD a reset ()V
+	METHOD a get (I)Ljava/lang/Object;
+	METHOD a getId (Ljava/lang/Object;)I
+	METHOD a set (Ljava/lang/Object;I)V
+	METHOD b getEntryCount ()I
+	METHOD b findByInternalId (Ljava/lang/Object;I)I
+	METHOD c getHighestId ()I
+	METHOD c getId (I)I
+	METHOD c register (Ljava/lang/Object;)I
+	METHOD d resize (I)V
+	METHOD d getInitialInternalId (Ljava/lang/Object;)I
+	METHOD e getNextFreeInternalId (I)I

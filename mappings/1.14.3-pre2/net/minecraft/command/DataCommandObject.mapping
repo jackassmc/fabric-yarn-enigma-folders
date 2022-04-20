@@ -1,0 +1,7 @@
+CLASS uc net/minecraft/command/DataCommandObject
+	METHOD a getTag ()Lic;
+	METHOD a getGetFeedback (Lcr$h;DI)Ljn;
+	METHOD a setTag (Lic;)V
+	METHOD a getQueryFeedback (Lit;)Ljn;
+		ARG 1 tag
+	METHOD b getModifiedFeedback ()Ljn;

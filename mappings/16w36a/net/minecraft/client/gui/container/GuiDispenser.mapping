@@ -1,0 +1,14 @@
+CLASS none/bho net/minecraft/client/gui/container/GuiDispenser
+	FIELD u inventory Lnone/qu;
+	FIELD v BG_TEX Lnone/kp;
+	FIELD w playerInv Lnone/aak;
+	METHOD <init> (Lnone/aak;Lnone/qu;)V
+		ARG 0 playerInv
+		ARG 1 inventory
+	METHOD a drawBackground (FII)V
+		ARG 0 delta
+		ARG 1 mouseX
+		ARG 2 mouseY
+	METHOD b drawForeground (II)V
+		ARG 0 mouseX
+		ARG 1 mouseY

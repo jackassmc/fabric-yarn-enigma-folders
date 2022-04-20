@@ -1,0 +1,15 @@
+CLASS cgl net/minecraft/world/loot/function/LootFunctionCopyName
+	CLASS cgl$a Source
+		FIELD a THIS Lcgl$a;
+		FIELD b KILLER Lcgl$a;
+		FIELD c KILLER_PLAYER Lcgl$a;
+		FIELD d BLOCK_ENTITY Lcgl$a;
+	CLASS cgl$b Factory
+		METHOD a toJson (Lcom/google/gson/JsonObject;Lcgs;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD a toJson (Lcom/google/gson/JsonObject;Lcgt;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD b fromJson (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;[Lchw;)Lcgs;
+	FIELD a source Lcgl$a;
+	METHOD a process (Lava;Lcfl;)Lava;
+		ARG 1 stack
+	METHOD a create (Lcgl$a;)Lcgs$a;
+		ARG 0 source

@@ -1,0 +1,9 @@
+CLASS none/zo net/minecraft/entity/mob/impl/EntityMagmaCube
+	METHOD J ()Lnone/kp;
+	METHOD aJ isOnFire ()Z
+	METHOD b registerTagUpgraders (Lnone/pf;)V
+	METHOD bD initAttributes ()V
+	METHOD bV getSoundHurt ()Lnone/nk;
+	METHOD bW getSoundDeath ()Lnone/nk;
+	METHOD e handleFallDamage (FF)V
+		ARG 0 fallDistance

@@ -1,0 +1,2 @@
+CLASS czg net/minecraft/client/gui/container/BlastFurnaceScreen
+	FIELD l BG_TEX Lqq;

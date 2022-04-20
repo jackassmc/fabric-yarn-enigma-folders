@@ -1,0 +1,7 @@
+CLASS ckq net/minecraft/world/loot/function/FurnaceSmeltLootFunction
+	CLASS ckq$a Factory
+		METHOD a deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;[Lclh;)Lckq;
+		METHOD b fromJson (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;[Lclh;)Lckd;
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	METHOD a process (Lawo;Lciv;)Lawo;
+		ARG 1 stack

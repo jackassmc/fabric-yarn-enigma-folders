@@ -1,0 +1,9 @@
+CLASS aug net/minecraft/village/VillagerInventory
+	FIELD a villager Lbbo;
+	FIELD b inventory Lfh;
+	FIELD c villagerRecipe Lbbp;
+	FIELD d recipeIndex I
+	METHOD c setRecipeIndex (I)V
+	METHOD d needRecipeUpdate (I)Z
+	METHOD f updateRecipes ()V
+	METHOD g getVillagerRecipe ()Lbbp;

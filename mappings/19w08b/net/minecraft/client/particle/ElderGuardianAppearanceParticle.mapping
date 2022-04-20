@@ -1,0 +1,3 @@
+CLASS deo net/minecraft/client/particle/ElderGuardianAppearanceParticle
+	CLASS deo$a Factory
+	FIELD D guardian Lahv;

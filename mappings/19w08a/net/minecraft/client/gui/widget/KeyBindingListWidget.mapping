@@ -1,0 +1,14 @@
+CLASS cvz net/minecraft/client/gui/widget/KeyBindingListWidget
+	CLASS cvz$a CategoryEntry
+		FIELD d name Ljava/lang/String;
+		FIELD e nameWidth I
+	CLASS cvz$b Entry
+	CLASS cvz$c KeyBindingEntry
+		FIELD d binding Lcqu;
+		FIELD e bindingName Ljava/lang/String;
+		FIELD f editButton Lcrz;
+		FIELD g resetButton Lcrz;
+	FIELD t gui Lcwa;
+	FIELD u client Lcqw;
+	METHOD <init> (Lcwa;Lcqw;)V
+		ARG 1 gui

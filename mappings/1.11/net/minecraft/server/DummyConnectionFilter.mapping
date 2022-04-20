@@ -1,0 +1,10 @@
+CLASS mg net/minecraft/server/DummyConnectionFilter
+	FIELD a server Lnet/minecraft/server/MinecraftServer;
+	FIELD b connection Ler;
+	METHOD <init> (Lnet/minecraft/server/MinecraftServer;Ler;)V
+		ARG 0 server
+		ARG 1 connection
+	METHOD a onConnectionLost (Lfb;)V
+		ARG 0 reason
+	METHOD a handlePacket (Ljp;)V
+		ARG 0 handshake

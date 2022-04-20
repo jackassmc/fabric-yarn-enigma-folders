@@ -1,0 +1,5 @@
+CLASS azb net/minecraft/container/HorseContainer
+	FIELD c playerInv Lagz;
+	FIELD d entity Larw;
+	METHOD <init> (ILawa;Lagz;Larw;)V
+		ARG 1 syncId

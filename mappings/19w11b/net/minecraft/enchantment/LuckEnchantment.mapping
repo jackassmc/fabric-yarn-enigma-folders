@@ -1,0 +1,5 @@
+CLASS bei net/minecraft/enchantment/LuckEnchantment
+	METHOD <init> (Lbdz$a;Lbea;[Laib;)V
+		ARG 1 weight
+		ARG 2 type
+		ARG 3 slotTypes

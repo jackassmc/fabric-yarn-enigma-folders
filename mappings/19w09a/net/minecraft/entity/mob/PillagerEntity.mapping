@@ -1,0 +1,5 @@
+CLASS aqr net/minecraft/entity/mob/PillagerEntity
+	FIELD bz inventory Lagm;
+	FIELD c CHARGING Lpx;
+	METHOD dN isCharging ()Z
+	METHOD dW getInventory ()Lagm;

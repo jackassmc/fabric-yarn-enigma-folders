@@ -1,0 +1,4 @@
+CLASS bli net/minecraft/block/BambooSaplingBlock
+	FIELD a SHAPE Lcsc;
+	METHOD <init> (Lbma$c;)V
+		ARG 1 settings

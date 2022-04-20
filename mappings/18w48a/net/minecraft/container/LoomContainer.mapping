@@ -1,0 +1,37 @@
+CLASS asw net/minecraft/container/LoomContainer
+	CLASS asw$1
+		METHOD b setInvProperty (II)V
+			ARG 0 pos
+			ARG 1 value
+		METHOD g markDirty ()V
+	CLASS asw$2
+		METHOD a canInsert (Lavs;)Z
+			ARG 0 stack
+	CLASS asw$3
+		METHOD a canInsert (Lavs;)Z
+			ARG 0 stack
+	CLASS asw$4
+		METHOD a canInsert (Lavs;)Z
+			ARG 0 stack
+	CLASS asw$5
+		METHOD a onTakeItem (Laqj;Lavs;)Lavs;
+			ARG 0 player
+			ARG 1 stack
+		METHOD a canInsert (Lavs;)Z
+			ARG 0 stack
+	FIELD a inv Laev;
+	FIELD f world Lbaq;
+	FIELD g pos Let;
+	METHOD a onContentChanged (Laev;)V
+	METHOD a canUse (Laqj;)Z
+	METHOD a onButtonClick (Laqj;I)Z
+		ARG 1 player
+	METHOD a matches (Laxy;)Z
+	METHOD b sendContentUpdates ()V
+	METHOD b setProperty (II)V
+		ARG 1 pos
+	METHOD b close (Laqj;)V
+	METHOD b getStack (Laqj;I)Lavs;
+		ARG 1 player
+	METHOD f getCraftingWidth ()I
+	METHOD g getCrafitngHeight ()I

@@ -1,0 +1,11 @@
+CLASS ckm net/minecraft/world/loot/function/SetLoreLootFunction
+	CLASS ckm$b Factory
+		METHOD a toJson (Lcom/google/gson/JsonObject;Lckd;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD a toJson (Lcom/google/gson/JsonObject;Lcke;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD b fromJson (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;[Lclh;)Lckd;
+	FIELD a replace Z
+	FIELD c lore Ljava/util/List;
+	FIELD d entity Lciv$c;
+	METHOD a getRequiredParameters ()Ljava/util/Set;
+	METHOD a process (Lawo;Lciv;)Lawo;
+		ARG 1 stack

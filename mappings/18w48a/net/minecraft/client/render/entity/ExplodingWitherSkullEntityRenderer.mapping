@@ -1,0 +1,5 @@
+CLASS djk net/minecraft/client/render/entity/ExplodingWitherSkullEntityRenderer
+	FIELD a INVINCIBLE_SKIN Lpy;
+	FIELD f SKIN Lpy;
+	METHOD a getTexture (Lagi;)Lpy;
+	METHOD a getTexture (Lari;)Lpy;

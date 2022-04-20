@@ -1,0 +1,35 @@
+CLASS blk net/minecraft/block/TntBlock
+	METHOD <init> (Lbfr$c;)V
+		ARG 1 builder
+	METHOD a shouldDropItemsOnExplosion (Lbaj;)Z
+	METHOD a onDestroyedByExplosion (Lbaq;Let;Lbaj;)V
+		ARG 1 world
+		ARG 2 pos
+	METHOD a onBreak (Lbaq;Let;Lboj;Laqj;)V
+		ARG 1 world
+		ARG 2 pos
+		ARG 3 state
+	METHOD a onEntityCollision (Lboj;Lbaq;Let;Lagi;)V
+		ARG 1 state
+		ARG 2 world
+		ARG 3 pos
+	METHOD a activate (Lboj;Lbaq;Let;Laqj;Lafb;Ley;FFF)Z
+		ARG 1 state
+		ARG 2 world
+		ARG 3 pos
+		ARG 4 player
+		ARG 5 hand
+		ARG 6 facing
+		ARG 7 hitX
+		ARG 8 hitY
+	METHOD a neighborUpdate (Lboj;Lbaq;Let;Lbfr;Let;)V
+		ARG 1 state
+		ARG 2 world
+		ARG 3 pos
+		ARG 4 block
+	METHOD a onBlockAdded (Lboj;Lbaq;Let;Lboj;)V
+		ARG 1 world
+		ARG 2 world
+		ARG 3 pos
+	METHOD a appendProperties (Lbok$a;)V
+		ARG 1 builder

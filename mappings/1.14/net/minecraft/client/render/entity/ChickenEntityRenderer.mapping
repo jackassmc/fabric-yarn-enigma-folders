@@ -1,0 +1,2 @@
+CLASS dor net/minecraft/client/render/entity/ChickenEntityRenderer
+	FIELD a SKIN Lqs;

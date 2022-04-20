@@ -1,0 +1,5 @@
+CLASS u net/minecraft/advancement/criterion/AbstractCriterionConditions
+	FIELD a id Lnd;
+	METHOD <init> (Lnd;)V
+		ARG 0 id
+	METHOD a getId ()Lnd;

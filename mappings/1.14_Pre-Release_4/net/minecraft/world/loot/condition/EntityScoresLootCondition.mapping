@@ -1,0 +1,14 @@
+CLASS cqr net/minecraft/world/loot/condition/EntityScoresLootCondition
+	CLASS cqr$b Factory
+	FIELD a scores Ljava/util/Map;
+	FIELD b target Lcoj$c;
+	METHOD <init> (Ljava/util/Map;Lcoj$c;)V
+		ARG 1 scores
+		ARG 2 target
+	METHOD a entityScoreIsInRange (Laie;Lcst;Ljava/lang/String;Lcos;)Z
+		ARG 1 entity
+		ARG 2 scoreboard
+		ARG 3 objective
+		ARG 4 scoreRange
+	METHOD test (Ljava/lang/Object;)Z
+		ARG 1 context

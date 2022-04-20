@@ -1,0 +1,35 @@
+CLASS bmk net/minecraft/block/BellBlock
+	FIELD a FACING Lbwf;
+	FIELD b ATTACHMENT Lbwi;
+	FIELD c NORTH_SOUTH_SHAPE Lcsr;
+	FIELD d EAST_WEST_SHAPE Lcsr;
+	FIELD e BELL_WAIST_SHAPE Lcsr;
+	FIELD f BELL_LIP_SHAPE Lcsr;
+	FIELD g BELL_SHAPE Lcsr;
+	FIELD h NORTH_SOUTH_WALLS_SHAPE Lcsr;
+	FIELD i EAST_WEST_WALLS_SHAPE Lcsr;
+	FIELD j WEST_WALL_SHAPE Lcsr;
+	FIELD k EAST_WALL_SHAPE Lcsr;
+	FIELD w NORTH_WALL_SHAPE Lcsr;
+	FIELD x SOUTH_WALL_SHAPE Lcsr;
+	FIELD y HANGING_SHAPE Lcsr;
+	METHOD <init> (Lbmm$c;)V
+		ARG 1 settings
+	METHOD a ring (Lbhi;Lbvk;Lbtn;Lcrt;Lavy;Z)Z
+		ARG 1 world
+		ARG 2 state
+		ARG 3 blockEntity
+		ARG 4 hitPosition
+		ARG 5 player
+		ARG 6 checkHitPosition
+	METHOD a ring (Lbhi;Lev;)V
+		ARG 1 world
+		ARG 2 pos
+	METHOD a isPointOnBell (Lbvk;Lfa;D)Z
+		ARG 1 state
+		ARG 2 side
+		ARG 3 y
+	METHOD j getShape (Lbvk;)Lcsr;
+		ARG 1 state
+	METHOD q getPlacementSide (Lbvk;)Lfa;
+		ARG 0 state

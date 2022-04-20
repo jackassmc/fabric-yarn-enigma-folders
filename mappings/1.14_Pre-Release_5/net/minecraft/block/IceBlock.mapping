@@ -1,0 +1,7 @@
+CLASS bpd net/minecraft/block/IceBlock
+	METHOD <init> (Lbml$c;)V
+		ARG 1 settings
+	METHOD d melt (Lbvj;Lbhh;Lev;)V
+		ARG 1 state
+		ARG 2 world
+		ARG 3 pos

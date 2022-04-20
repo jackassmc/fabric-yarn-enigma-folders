@@ -1,0 +1,3 @@
+CLASS cqk net/minecraft/client/render/item/ItemColorMapper
+	METHOD getColor (Laxd;I)I
+		ARG 1 stack

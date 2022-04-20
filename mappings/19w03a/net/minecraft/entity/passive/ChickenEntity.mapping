@@ -1,0 +1,26 @@
+CLASS amk net/minecraft/entity/passive/ChickenEntity
+	FIELD bI eggLayTime I
+	FIELD bJ jockey Z
+	FIELD bK BREEDING_INGREDIENT Lazj;
+	METHOD D getAmbientSound ()Lxr;
+	METHOD a createChild (Lagz;)Lagz;
+	METHOD a playStepSound (Let;Lbqi;)V
+		ARG 1 pos
+	METHOD a readCustomDataFromTag (Lhq;)V
+	METHOD b createChild (Lagz;)Lamk;
+	METHOD b writeCustomDataToTag (Lhq;)V
+	METHOD bH getEyeHeight ()F
+	METHOD c canImmediatelyDespawn (D)Z
+		ARG 1 distanceSquared
+	METHOD c handleFallDamage (FF)V
+		ARG 1 fallDistance
+	METHOD cd initAttributes ()V
+	METHOD cy getDeathSound ()Lxr;
+	METHOD d getCurrentExperience (Larj;)I
+	METHOD dC hasJockey ()Z
+	METHOD e getHurtSound (Lagl;)Lxr;
+	METHOD f isBreedingItem (Laxc;)Z
+	METHOD k updateMovement ()V
+	METHOD n ()V
+	METHOD s setHasJockey (Z)V
+		ARG 1 hasJockey

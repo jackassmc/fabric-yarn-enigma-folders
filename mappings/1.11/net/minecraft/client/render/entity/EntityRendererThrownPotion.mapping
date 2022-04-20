@@ -1,0 +1,7 @@
+CLASS bwh net/minecraft/client/render/entity/EntityRendererThrownPotion
+	METHOD <init> (Lbuo;Lbve;)V
+		ARG 0 renderManager
+		ARG 1 itemRenderer
+	METHOD a getItemStack (Labs;)Lafi;
+		ARG 0 potion
+	METHOD e getItemStack (Lsm;)Lafi;

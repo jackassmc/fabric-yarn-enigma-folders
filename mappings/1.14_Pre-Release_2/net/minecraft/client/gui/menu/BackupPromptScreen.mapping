@@ -1,0 +1,18 @@
+CLASS cyi net/minecraft/client/gui/menu/BackupPromptScreen
+	CLASS cyi$a Callback
+	FIELD a callback Lcyi$a;
+	FIELD b parent Lczk;
+	FIELD c subtitle Ljm;
+	FIELD d showEraseCacheCheckbox Z
+	FIELD e wrappedText Ljava/util/List;
+	FIELD f eraseCacheText Ljava/lang/String;
+	FIELD g confirmText Ljava/lang/String;
+	FIELD h skipText Ljava/lang/String;
+	FIELD i cancelText Ljava/lang/String;
+	FIELD j eraseCacheCheckbox Lcwj;
+	METHOD <init> (Lczk;Lcyi$a;Ljm;Ljm;Z)V
+		ARG 1 parent
+		ARG 2 callback
+		ARG 3 title
+		ARG 4 subtitle
+		ARG 5 showEraseCacheCheckBox

@@ -1,0 +1,7 @@
+CLASS afz net/minecraft/container/ContainerLock
+	FIELD a NONE Lafz;
+	FIELD b key Ljava/lang/String;
+	METHOD a isEmpty (Laxc;)Z
+	METHOD a serialize (Lhq;)V
+	METHOD b deserialize (Lhq;)Lafz;
+		ARG 0 tag

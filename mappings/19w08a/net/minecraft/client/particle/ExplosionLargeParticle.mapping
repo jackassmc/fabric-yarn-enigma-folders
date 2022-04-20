@@ -1,0 +1,2 @@
+CLASS dei net/minecraft/client/particle/ExplosionLargeParticle
+	CLASS dei$a Factory

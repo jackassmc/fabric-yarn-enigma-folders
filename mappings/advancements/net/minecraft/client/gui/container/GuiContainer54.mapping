@@ -1,0 +1,7 @@
+CLASS bkp net/minecraft/client/gui/container/GuiContainer54
+	FIELD v BG_TEX Lmd;
+	FIELD w playerInv Lsq;
+	FIELD x inventory Lsq;
+	FIELD y rows I
+	METHOD a drawBackground (FII)V
+	METHOD b drawForeground (II)V

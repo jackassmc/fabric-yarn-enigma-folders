@@ -1,0 +1,3 @@
+CLASS ckd net/minecraft/world/gen/surfacebuilder/SurfaceConfig
+	METHOD a getTopMaterial ()Lbvn;
+	METHOD b getUnderMaterial ()Lbvn;

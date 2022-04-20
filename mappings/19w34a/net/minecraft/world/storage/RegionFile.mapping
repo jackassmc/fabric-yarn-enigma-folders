@@ -1,0 +1,8 @@
+CLASS net/minecraft/class_2861 net/minecraft/world/storage/RegionFile
+	CLASS class_2862 ChunkBuffer
+		FIELD field_17656 pos Lnet/minecraft/class_1923;
+	METHOD method_12419 getOffset (Lnet/minecraft/class_1923;)I
+		ARG 1 pos
+	METHOD method_12423 hasChunk (Lnet/minecraft/class_1923;)Z
+		ARG 1 pos
+	METHOD method_17909 getPackedRegionRelativePosition (Lnet/minecraft/class_1923;)I

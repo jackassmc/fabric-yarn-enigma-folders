@@ -1,0 +1,2 @@
+CLASS diw net/minecraft/client/render/debug/HeightmapDebugRenderer
+	FIELD a client Lcqg;

@@ -1,0 +1,11 @@
+CLASS aot net/minecraft/entity/boss/dragon/phase/Phase
+	METHOD a modifyDamageTaken (Lagv;F)F
+	METHOD a crystalDestroyed (Laoi;Les;Lagv;Lary;)V
+		ARG 1 crystal
+		ARG 2 pos
+		ARG 3 source
+		ARG 4 player
+	METHOD d beginPhase ()V
+	METHOD e endPhase ()V
+	METHOD g getTarget ()Lcnk;
+	METHOD i getType ()Laoz;

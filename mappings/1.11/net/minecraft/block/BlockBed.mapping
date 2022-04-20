@@ -1,0 +1,64 @@
+CLASS alq net/minecraft/block/BlockBed
+	CLASS alq$a Part
+		FIELD a HEAD Lalq$a;
+		FIELD b FOOT Lalq$a;
+		FIELD c name Ljava/lang/String;
+		METHOD m asString ()Ljava/lang/String;
+	FIELD a PART Latx;
+	FIELD b OCCUPIED Latv;
+	FIELD c BOUNDING_BOX Lbdr;
+	METHOD a deserializeState (I)Latj;
+		ARG 0 meta
+	METHOD a getPickStack (Lajq;Lco;Latj;)Lafi;
+		ARG 0 world
+		ARG 1 pos
+		ARG 2 state
+	METHOD a dropItems (Lajq;Lco;Latj;FI)V
+		ARG 0 world
+		ARG 1 pos
+		ARG 2 state
+		ARG 3 dropChance
+		ARG 4 fortune
+	METHOD a (Lajq;Lco;Latj;Laax;)V
+		ARG 0 world
+		ARG 1 pos
+		ARG 2 state
+		ARG 3 player
+	METHOD a activate (Lajq;Lco;Latj;Laax;Lrh;Lcv;FFF)Z
+		ARG 0 world
+		ARG 1 pos
+		ARG 2 state
+		ARG 3 player
+		ARG 4 hand
+		ARG 5 facing
+		ARG 6 hitX
+		ARG 7 hitY
+		ARG 8 hitZ
+	METHOD a applyMirror (Latj;Laos;)Latj;
+		ARG 0 state
+		ARG 1 mirror
+	METHOD a applyRotation (Latj;Laqg;)Latj;
+		ARG 0 state
+		ARG 1 rotation
+	METHOD a getDropItem (Latj;Ljava/util/Random;I)Lafg;
+		ARG 0 state
+		ARG 1 random
+		ARG 2 fortune
+	METHOD b createStateFactory ()Latk;
+	METHOD b isFullBoundsCubeForCulling (Latj;)Z
+		ARG 0 state
+	METHOD b getBoundingBox (Latj;Laju;Lco;)Lbdr;
+		ARG 0 state
+		ARG 1 view
+		ARG 2 pos
+	METHOD c (Latj;)Z
+		ARG 0 state
+	METHOD c getRenderingState (Latj;Laju;Lco;)Latj;
+		ARG 0 state
+		ARG 1 view
+		ARG 2 pos
+	METHOD e serializeState (Latj;)I
+		ARG 0 state
+	METHOD f getRenderLayer ()Laji;
+	METHOD h getPistonBehavior (Latj;)Lazt;
+		ARG 0 state

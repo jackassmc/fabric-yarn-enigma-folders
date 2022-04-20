@@ -1,0 +1,4 @@
+CLASS bck net/minecraft/item/SkullItem
+	METHOD <init> (Lbml;Lbml;Lbbv$a;)V
+		ARG 1 standingBlock
+		ARG 2 wallBlock

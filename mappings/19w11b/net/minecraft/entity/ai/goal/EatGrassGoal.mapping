@@ -1,0 +1,8 @@
+CLASS ali net/minecraft/entity/ai/goal/EatGrassGoal
+	FIELD a GRASS_PREDICATE Ljava/util/function/Predicate;
+	FIELD b owner Laig;
+	FIELD c world Lbfx;
+	FIELD d timer I
+	METHOD <init> (Laig;)V
+		ARG 1 entity
+	METHOD g getTimer ()I

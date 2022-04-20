@@ -1,0 +1,8 @@
+CLASS cw net/minecraft/command/arguments/NumberRangeArgumentType
+	CLASS cw$a FloatRangeArgumentType
+		CLASS cw$a$a Serializer
+		FIELD a EXAMPLES Ljava/util/Collection;
+	CLASS cw$b IntRangeArgumentType
+		CLASS cw$b$a Serializer
+		FIELD a EXAMPLES Ljava/util/Collection;
+	CLASS cw$c NumberSerializer

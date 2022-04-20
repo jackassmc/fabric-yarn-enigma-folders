@@ -1,0 +1,30 @@
+CLASS azw net/minecraft/world/biome/layer/BiomeLayerDiversify
+	CLASS azw$a Mode
+		FIELD a DESERT Lazw$a;
+		FIELD b EXTREME_HILLS Lazw$a;
+		FIELD c RANDOM_RARE Lazw$a;
+	FIELD c mode Lazw$a;
+	METHOD <init> (JLbah;Lazw$a;)V
+		ARG 0 seed
+		ARG 1 previous
+		ARG 2 mode
+	METHOD a getBiomes (IIII)[I
+		ARG 0 chunkX
+		ARG 1 chunkZ
+		ARG 2 sizeX
+		ARG 3 sizeZ
+	METHOD c getBiomesCreateDesert (IIII)[I
+		ARG 0 chunkX
+		ARG 1 chunkZ
+		ARG 2 sizeX
+		ARG 3 sizeZ
+	METHOD d getBiomesCreateExtremeHills (IIII)[I
+		ARG 0 chunkX
+		ARG 1 chunkZ
+		ARG 2 sizeX
+		ARG 3 sizeZ
+	METHOD e getBiomesCreateRandomRare (IIII)[I
+		ARG 0 chunkX
+		ARG 1 chunkZ
+		ARG 2 sizeX
+		ARG 3 sizeZ

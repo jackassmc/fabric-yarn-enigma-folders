@@ -1,0 +1,4 @@
+CLASS asu net/minecraft/entity/boss/dragon/phase/SittingFlamingPhase
+	FIELD b ticks I
+	METHOD <init> (Lasi;)V
+		ARG 1 dragon

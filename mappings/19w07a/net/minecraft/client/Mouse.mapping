@@ -1,0 +1,30 @@
+CLASS cqo net/minecraft/client/Mouse
+	FIELD a client Lcqn;
+	FIELD e x D
+	FIELD f y D
+	FIELD h activeButton I
+	FIELD i hasResolutionChanged Z
+	FIELD k glfwTime D
+	FIELD l cursorXSmoother Lzk;
+	FIELD m cursorYSmoother Lzk;
+	FIELD n cursorDeltaX D
+	FIELD o cursorDeltaY D
+	FIELD p eventDeltaWheel D
+	FIELD r isCursorLocked Z
+	METHOD <init> (Lcqn;)V
+		ARG 1 client
+	METHOD a updateMouse ()V
+	METHOD a setup (J)V
+	METHOD a onMouseScroll (JDD)V
+		ARG 1 window
+	METHOD a onMouseButton (JIII)V
+		ARG 1 window
+		ARG 3 button
+	METHOD b onCursorPos (JDD)V
+		ARG 1 window
+	METHOD e getX ()D
+	METHOD f getY ()D
+	METHOD g onResolutionChanged ()V
+	METHOD h isCursorLocked ()Z
+	METHOD i lockCursor ()V
+	METHOD j unlockCursor ()V

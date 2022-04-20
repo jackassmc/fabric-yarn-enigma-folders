@@ -1,0 +1,9 @@
+CLASS cxf net/minecraft/client/gui/widget/GameOptionSliderWidget
+	FIELD a option Lcvq;
+	METHOD <init> (Lcvo;IIIILcvq;)V
+		ARG 1 gameOptions
+		ARG 6 option
+	METHOD renderButton (IIF)V
+		ARG 1 mouseX
+		ARG 2 mouseY
+		ARG 3 delta

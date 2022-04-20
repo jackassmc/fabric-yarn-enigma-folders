@@ -1,0 +1,8 @@
+CLASS dhe net/minecraft/client/render/entity/EvokerFangsEntityRenderer
+	FIELD f model Lcxa;
+	METHOD a getTexture (Lagk;)Lpz;
+	METHOD a getTexture (Laqt;)Lpz;
+	METHOD a (Laqt;DDDFF)V
+		ARG 1 model
+		ARG 2 x
+		ARG 4 y

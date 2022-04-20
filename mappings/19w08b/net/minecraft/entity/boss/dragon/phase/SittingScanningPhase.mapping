@@ -1,0 +1,3 @@
+CLASS aox net/minecraft/entity/boss/dragon/phase/SittingScanningPhase
+	METHOD <init> (Laok;)V
+		ARG 1 dragon

@@ -1,0 +1,4 @@
+CLASS bwt net/minecraft/client/render/block/entity/BlockEntityBeaconRenderer
+	FIELD a BEAM_TEX Lnd;
+	METHOD a render (Lavf;DDDFIF)V
+	METHOD a render (Lavh;DDDFIF)V

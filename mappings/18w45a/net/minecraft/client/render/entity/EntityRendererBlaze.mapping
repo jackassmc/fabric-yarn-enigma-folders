@@ -1,0 +1,4 @@
+CLASS ddy net/minecraft/client/render/entity/EntityRendererBlaze
+	FIELD a SKIN Lpw;
+	METHOD a getTexture (Lafy;)Lpw;
+	METHOD a getTexture (Laod;)Lpw;

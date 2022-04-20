@@ -1,0 +1,9 @@
+CLASS aug net/minecraft/container/PlayerContainer
+	FIELD c local Z
+	FIELD e EQUIPMENT_SLOT_ORDER [Lahj;
+	FIELD f invCrafting Latv;
+	FIELD g invCraftingResult Laur;
+	FIELD h owner Laro;
+	METHOD <init> (Larn;ZLaro;)V
+		ARG 1 inventory
+		ARG 2 local

@@ -1,0 +1,9 @@
+CLASS bog
+	METHOD H getMaxLightLevel ()I
+	METHOD a getFluidState (Leq;)Lcac;
+		ARG 0 pos
+	METHOD d getBlockEntity (Leq;)Lbkf;
+		ARG 0 pos
+	METHOD g getPos ()Layp;
+	METHOD h getBlockState (Leq;)Lblz;
+		ARG 0 pos

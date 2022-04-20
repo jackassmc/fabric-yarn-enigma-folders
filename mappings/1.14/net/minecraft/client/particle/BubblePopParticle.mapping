@@ -1,0 +1,2 @@
+CLASS dhy net/minecraft/client/particle/BubblePopParticle
+	CLASS dhy$a Factory

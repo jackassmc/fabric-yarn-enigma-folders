@@ -1,0 +1,10 @@
+CLASS ns net/minecraft/server/network/packet/PlayerInteractEntityServerPacket
+	CLASS ns$a InteractionType
+	FIELD a entityId I
+	FIELD b type Lns$a;
+	FIELD c hitPos Lcmr;
+	FIELD d hand Lafw;
+	METHOD a getEntity (Lbcl;)Lahc;
+	METHOD b getType ()Lns$a;
+	METHOD c getHand ()Lafw;
+	METHOD d getHitPosition ()Lcmr;

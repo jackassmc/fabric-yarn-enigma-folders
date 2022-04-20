@@ -1,0 +1,4 @@
+CLASS dcf net/minecraft/client/render/chunk/ChunkVertexBuffer
+	FIELD a renderLayerVertexBuffers [Lcnp;
+	METHOD a getVertexBuffer (I)Lcnp;
+	METHOD a getVertexBuffer (Lbaf;)Lcnp;

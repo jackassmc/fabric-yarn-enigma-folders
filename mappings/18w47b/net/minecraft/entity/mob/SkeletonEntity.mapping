@@ -1,0 +1,5 @@
+CLASS apn net/minecraft/entity/mob/SkeletonEntity
+	METHOD D getSoundAmbient ()Lxd;
+	METHOD a dropEquipment (Lafo;IZ)V
+	METHOD cw getSoundDeath ()Lxd;
+	METHOD e getSoundHurt (Lafo;)Lxd;

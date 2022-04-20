@@ -1,0 +1,5 @@
+CLASS hu net/minecraft/nbt/FloatTag
+	FIELD f value F
+	METHOD c copy ()Lhu;
+	METHOD equals (Ljava/lang/Object;)Z
+		ARG 1 o

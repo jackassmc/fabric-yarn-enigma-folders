@@ -1,0 +1,159 @@
+CLASS auv net/minecraft/item/ItemStack
+	FIELD a NULL_STACK Lauv;
+	FIELD b MODIFIER_FORMAT Ljava/text/DecimalFormat;
+	FIELD c LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD d amount I
+	FIELD e updateCooldown I
+	FIELD f item Lauq;
+	FIELD g tag Lhm;
+	FIELD h invalid Z
+	FIELD i holdingItemFrame Lanj;
+	FIELD j lastCheckedCanHarvestBlock Lbnl;
+	FIELD k lastCheckedCanHarvestResult Z
+	FIELD l lastCheckedCanPlaceBlock Lbnl;
+	FIELD m lastCheckedCanPlaceResult Z
+	METHOD <init> (Lazs;)V
+		ARG 1 item
+	METHOD <init> (Lazs;I)V
+		ARG 1 container
+		ARG 2 amount
+	METHOD <init> (Lhm;)V
+		ARG 1 tag
+	METHOD A getRepairCost ()I
+	METHOD B toTextComponent ()Lix;
+	METHOD C getUpdateCooldown ()I
+	METHOD D getAmount ()I
+	METHOD E createModifierFormat ()Ljava/text/DecimalFormat;
+	METHOD F updateInvalidFlag ()V
+	METHOD a isInvalid ()Z
+	METHOD a split (I)Lauv;
+		ARG 1 amount
+	METHOD a applyDamage (ILage;)V
+	METHOD a applyDamage (ILjava/util/Random;Luc;)Z
+		ARG 1 amount
+	METHOD a getAttributeModifiers (Laga;)Lcom/google/common/collect/Multimap;
+		ARG 1 effectiveSlot
+	METHOD a onEntityDamaged (Lage;Lapr;)V
+		ARG 1 attacker
+		ARG 2 player
+	METHOD a setHoldingItemFrame (Lanj;)V
+		ARG 1 holdingItemFrame
+	METHOD a interactWithEntity (Lapr;Lage;Laeo;)Z
+		ARG 1 user
+		ARG 2 target
+		ARG 3 hand
+	METHOD a getTooltipText (Lapr;Lawf;)Ljava/util/List;
+		ARG 1 player
+	METHOD a isEqualIgnoreTags (Lauv;)Z
+		ARG 1 other
+	METHOD a areTagsEqual (Lauv;Lauv;)Z
+		ARG 0 a
+		ARG 1 b
+	METHOD a useOnBlock (Lawi;)Laeq;
+		ARG 1 context
+	METHOD a addEnchantment (Laxx;I)V
+		ARG 1 enchantment
+		ARG 2 level
+	METHOD a update (Lazt;Lafv;IZ)V
+		ARG 1 world
+		ARG 2 owner
+		ARG 3 invSlot
+		ARG 4 held
+	METHOD a onItemFinishedUsing (Lazt;Lage;)Lauv;
+		ARG 1 world
+		ARG 2 user
+	METHOD a onItemStopUsing (Lazt;Lage;I)V
+		ARG 1 world
+		ARG 2 user
+		ARG 3 remainingTime
+	METHOD a onCrafted (Lazt;Lapr;I)V
+		ARG 1 world
+		ARG 2 player
+		ARG 3 amount
+	METHOD a use (Lazt;Lapr;Laeo;)Laer;
+		ARG 1 world
+		ARG 2 player
+		ARG 3 hand
+	METHOD a onBlockBroken (Lazt;Lbnh;Leq;Lapr;)V
+		ARG 1 world
+		ARG 2 state
+		ARG 3 pos
+		ARG 4 user
+	METHOD a getBlockBreakingSpeed (Lbnh;)F
+		ARG 1 state
+	METHOD a areBlockProxiesEqual (Lbnl;Lbnl;)Z
+		ARG 0 first
+		ARG 1 second
+	METHOD a fromTag (Lhm;)Lauv;
+		ARG 0 tag
+	METHOD a setDisplayName (Lix;)Lauv;
+	METHOD a getOrCreateSubTagCompound (Ljava/lang/String;)Lhm;
+		ARG 1 tagName
+	METHOD a addAttributeModifier (Ljava/lang/String;Lags;Laga;)V
+		ARG 1 attributeName
+		ARG 2 modifier
+		ARG 3 effectiveSlot
+	METHOD a setChildTag (Ljava/lang/String;Lic;)V
+		ARG 1 tagName
+		ARG 2 tag
+	METHOD a getCustomCanHarvest (Lxq;Lbnl;)Z
+	METHOD b getItem ()Lauq;
+	METHOD b setDamage (I)V
+		ARG 1 damage
+	METHOD b isEqualIgnoreDurability (Lauv;)Z
+		ARG 1 other
+	METHOD b areEqual (Lauv;Lauv;)Z
+		ARG 0 a
+		ARG 1 b
+	METHOD b isEffectiveOn (Lbnh;)Z
+		ARG 1 state
+	METHOD b serialize (Lhm;)Lhm;
+		ARG 1 tag
+	METHOD b getSubTagCompound (Ljava/lang/String;)Lhm;
+		ARG 1 tagName
+	METHOD b getCustomCanPlace (Lxq;Lbnl;)Z
+	METHOD c getMaxAmount ()I
+	METHOD c setRepairCost (I)V
+		ARG 1 cost
+	METHOD c isEqual (Lauv;)Z
+		ARG 1 other
+	METHOD c areEqualIgnoreTags (Lauv;Lauv;)Z
+		ARG 0 a
+		ARG 1 b
+	METHOD c setTag (Lhm;)V
+		ARG 1 tag
+	METHOD c removeSubTag (Ljava/lang/String;)V
+		ARG 1 tagName
+	METHOD d canBeStacked ()Z
+	METHOD d setUpdateCooldown (I)V
+		ARG 1 cooldownAmount
+	METHOD d areEqualIgnoreDurability (Lauv;Lauv;)Z
+		ARG 0 a
+		ARG 1 b
+	METHOD e hasDurability ()Z
+	METHOD e setAmount (I)V
+		ARG 1 amount
+	METHOD f isDamaged ()Z
+	METHOD f addAmount (I)V
+		ARG 1 amount
+	METHOD g getDamage ()I
+	METHOD g subtractAmount (I)V
+		ARG 1 amount
+	METHOD h getDurability ()I
+	METHOD i copy ()Lauv;
+	METHOD j getTranslationKey ()Ljava/lang/String;
+	METHOD k getMaxUseTime ()I
+	METHOD l getUseAction ()Lawh;
+	METHOD n hasTag ()Z
+	METHOD o getTag ()Lhm;
+	METHOD p getOrCreateTag ()Lhm;
+	METHOD q getEnchantmentList ()Lhs;
+	METHOD r getDisplayName ()Lix;
+	METHOD s removeDisplayName ()V
+	METHOD t hasDisplayName ()Z
+	METHOD u hasEnchantmentGlow ()Z
+	METHOD v getRarity ()Lavj;
+	METHOD w isEnchantable ()Z
+	METHOD x hasEnchantments ()Z
+	METHOD y isHeldInItemFrame ()Z
+	METHOD z getHoldingItemFrame ()Lanj;

@@ -1,0 +1,17 @@
+CLASS kz net/minecraft/client/network/packet/ChunkDataClientPacket
+	FIELD a chunkX I
+	FIELD b chunkZ I
+	FIELD c verticalStripBitmask I
+	FIELD e data [B
+	FIELD f blockEntityList Ljava/util/List;
+	FIELD g containsVerticalStrip Z
+	METHOD a read (Liq;)V
+	METHOD a apply (Lit;)V
+	METHOD a apply (Ljr;)V
+	METHOD b getReadBuffer ()Liq;
+	METHOD b write (Liq;)V
+	METHOD c getX ()I
+	METHOD d getZ ()I
+	METHOD e getVerticalStripBitmask ()I
+	METHOD f containsVerticalStrip ()Z
+	METHOD h getBlockEntityTagList ()Ljava/util/List;

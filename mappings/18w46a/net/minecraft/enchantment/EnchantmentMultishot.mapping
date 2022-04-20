@@ -1,0 +1,3 @@
+CLASS ays net/minecraft/enchantment/EnchantmentMultishot
+	METHOD a getHighestLevel ()I
+	METHOD a differs (Layh;)Z

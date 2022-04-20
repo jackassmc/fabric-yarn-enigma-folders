@@ -1,0 +1,2 @@
+CLASS aax net/minecraft/datafixers/fixes/ChunkStatusFix2
+	FIELD a statusMap Ljava/util/Map;

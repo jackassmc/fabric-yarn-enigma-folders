@@ -1,0 +1,20 @@
+CLASS bwb net/minecraft/world/gen/config/feature/RandomFeatureConfig
+	FIELD a features Ljava/util/List;
+	FIELD b defaultFeature Lbsy;
+	METHOD <init> (Ljava/util/List;Lbsy;)V
+		ARG 1 features
+	METHOD <init> ([Lbtz;[Lbua;[FLbtz;Lbua;)V
+		ARG 1 features
+		ARG 2 configs
+		ARG 3 chances
+		ARG 4 defaultFeature
+	METHOD a configure (Lbtz;Lbua;)Lbsy;
+		ARG 0 feature
+		ARG 1 config
+	METHOD a makeEntry (Lbtz;Lbua;F)Lbxn;
+		ARG 0 feature
+		ARG 1 config
+		ARG 2 chance
+	METHOD a deserialize (Lcom/mojang/datafixers/Dynamic;)Lbwb;
+		ARG 0 dynamic
+	METHOD a serialize (Lcom/mojang/datafixers/types/DynamicOps;)Lcom/mojang/datafixers/Dynamic;

@@ -1,0 +1,15 @@
+CLASS vx net/minecraft/server/ServerNetworkIo
+	FIELD a DEFAULT_CHANNEL Lzq;
+	FIELD b EPOLL_CHANNEL Lzq;
+	FIELD c active Z
+	FIELD d LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD e server Lnet/minecraft/server/MinecraftServer;
+	FIELD f channels Ljava/util/List;
+	FIELD g connections Ljava/util/List;
+	METHOD a bindLocal ()Ljava/net/SocketAddress;
+	METHOD a bind (Ljava/net/InetAddress;I)V
+		ARG 1 address
+		ARG 2 port
+	METHOD b stop ()V
+	METHOD c tick ()V
+	METHOD d getServer ()Lnet/minecraft/server/MinecraftServer;

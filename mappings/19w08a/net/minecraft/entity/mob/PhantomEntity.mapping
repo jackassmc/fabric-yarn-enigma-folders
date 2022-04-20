@@ -1,0 +1,6 @@
+CLASS aqo net/minecraft/entity/mob/PhantomEntity
+	CLASS aqo$f PhantomLookControl
+	CLASS aqo$g PhantomMoveControl
+	FIELD b SIZE Lpx;
+	METHOD a setSize (I)V
+	METHOD l getSize ()I

@@ -1,0 +1,5 @@
+CLASS bjg net/minecraft/world/biome/source/FixedBiomeSourceConfig
+	FIELD a biome Lbig;
+	METHOD a getBiome ()Lbig;
+	METHOD a setBiome (Lbig;)Lbjg;
+		ARG 1 biome

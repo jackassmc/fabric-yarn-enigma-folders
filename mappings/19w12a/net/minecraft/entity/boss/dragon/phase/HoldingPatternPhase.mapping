@@ -1,0 +1,3 @@
+CLASS arm net/minecraft/entity/boss/dragon/phase/HoldingPatternPhase
+	METHOD <init> (Larg;)V
+		ARG 1 dragon

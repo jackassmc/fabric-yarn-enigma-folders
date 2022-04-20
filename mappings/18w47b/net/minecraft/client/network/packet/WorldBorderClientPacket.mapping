@@ -1,0 +1,24 @@
+CLASS lw net/minecraft/client/network/packet/WorldBorderClientPacket
+	CLASS lw$a Type
+		FIELD a SET_SIZE Llw$a;
+		FIELD b INTERPOLATE_SIZE Llw$a;
+		FIELD c SET_CENTER Llw$a;
+		FIELD d INITIALIZE Llw$a;
+		FIELD e SET_WARNING_TIME Llw$a;
+		FIELD f SET_WARNING_BLOCKS Llw$a;
+	FIELD a type Llw$a;
+	FIELD b portalTeleportPosLimit I
+	FIELD c centerX D
+	FIELD d centerZ D
+	FIELD e size D
+	FIELD f oldSize D
+	FIELD g interpolationDuration J
+	FIELD h warningTime I
+	FIELD i warningBlocks I
+	METHOD <init> (Lbps;Llw$a;)V
+		ARG 1 border
+	METHOD a apply (Lbps;)V
+	METHOD a read (Liq;)V
+	METHOD a apply (Lit;)V
+	METHOD a apply (Ljr;)V
+	METHOD b write (Liq;)V

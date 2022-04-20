@@ -1,0 +1,11 @@
+CLASS ari net/minecraft/entity/passive/AbstractTraderEntity
+	FIELD bD recipes Lbcj;
+	FIELD bE customer Lary;
+	FIELD bF inventory Lagm;
+	METHOD b afterUsing (Lbci;)V
+	METHOD dL hasCustomer ()Z
+	METHOD dN getYesSound ()Lxy;
+	METHOD dO getInventory ()Lagm;
+	METHOD dR fillRecipes ()V
+	METHOD q getTradingSound (Z)Lxy;
+		ARG 1 sold

@@ -1,0 +1,6 @@
+CLASS bfm net/minecraft/enchantment/InfoEnchantment
+	FIELD b enchantment Lbfj;
+	FIELD c level I
+	METHOD <init> (Lbfj;I)V
+		ARG 1 enchantment
+		ARG 2 level

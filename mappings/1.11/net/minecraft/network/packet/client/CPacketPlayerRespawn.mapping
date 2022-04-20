@@ -1,0 +1,21 @@
+CLASS hm net/minecraft/network/packet/client/CPacketPlayerRespawn
+	FIELD a worldId I
+	FIELD b difficulty Lrf;
+	FIELD c gameMode Lajo;
+	FIELD d generatorType Lajv;
+	METHOD <init> (ILrf;Lajv;Lajo;)V
+		ARG 0 worldId
+		ARG 1 difficulty
+		ARG 2 generatorType
+		ARG 3 gameMode
+	METHOD a getWorldId ()I
+	METHOD a readPacket (Let;)V
+		ARG 0 packet
+	METHOD a applyPacket (Lew;)V
+		ARG 0 handler
+	METHOD a applyPacket (Lfp;)V
+		ARG 0 handler
+	METHOD b getDifficulty ()Lrf;
+	METHOD b writePacket (Let;)V
+		ARG 0 packet
+	METHOD c getGameMode ()Lajo;

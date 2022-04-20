@@ -1,0 +1,6 @@
+CLASS cca net/minecraft/world/gen/feature/IcebergFeatureConfig
+	FIELD a state Lbvl;
+	METHOD <init> (Lbvl;)V
+		ARG 1 state
+	METHOD a deserialize (Lcom/mojang/datafixers/Dynamic;)Lcca;
+		ARG 0 dynamic

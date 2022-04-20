@@ -1,0 +1,3 @@
+CLASS none/byd net/minecraft/client/resource/IResourceReloadListener
+	METHOD a onResourceReload (Lnone/byc;)V
+		ARG 0 container

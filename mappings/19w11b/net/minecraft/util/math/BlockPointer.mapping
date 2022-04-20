@@ -1,0 +1,4 @@
+CLASS ev net/minecraft/util/math/BlockPointer
+	METHOD d getBlockPos ()Leu;
+	METHOD e getBlockState ()Lbtw;
+	METHOD g getBlockEntity ()Lbrz;

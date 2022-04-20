@@ -1,0 +1,15 @@
+CLASS cqe net/minecraft/world/timer/TimerCallback
+	CLASS cqe$a Serializer
+		FIELD a id Lqq;
+		FIELD b callbackClass Ljava/lang/Class;
+		METHOD a getId ()Lqq;
+		METHOD a serialize (Lib;Lcqe;)V
+			ARG 1 tag
+			ARG 2 callback
+		METHOD b getCallbackClass ()Ljava/lang/Class;
+		METHOD b deserialize (Lib;)Lcqe;
+			ARG 1 tag
+	METHOD a call (Ljava/lang/Object;Lcqg;J)V
+		ARG 1 server
+		ARG 2 events
+		ARG 3 time

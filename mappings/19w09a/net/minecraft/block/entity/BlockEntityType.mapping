@@ -1,0 +1,44 @@
+CLASS bpi net/minecraft/block/entity/BlockEntityType
+	CLASS bpi$a Builder
+		FIELD a supplier Ljava/util/function/Supplier;
+		METHOD a build (Lcom/mojang/datafixers/types/Type;)Lbpi;
+		METHOD a create (Ljava/util/function/Supplier;)Lbpi$a;
+			ARG 0 supplier
+	FIELD A SMOKER Lbpi;
+	FIELD B BLAST_FURNACE Lbpi;
+	FIELD C LECTERN Lbpi;
+	FIELD D BELL Lbpi;
+	FIELD E JIGSAW Lbpi;
+	FIELD F CAMPFIRE Lbpi;
+	FIELD G LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD H supplier Ljava/util/function/Supplier;
+	FIELD I type Lcom/mojang/datafixers/types/Type;
+	FIELD a FURNACE Lbpi;
+	FIELD b CHEST Lbpi;
+	FIELD c TRAPPED_CHEST Lbpi;
+	FIELD d ENDER_CHEST Lbpi;
+	FIELD e JUKEBOX Lbpi;
+	FIELD f DISPENSER Lbpi;
+	FIELD g DROPPER Lbpi;
+	FIELD h SIGN Lbpi;
+	FIELD i MOB_SPAWNER Lbpi;
+	FIELD j PISTON Lbpi;
+	FIELD k BREWING_STAND Lbpi;
+	FIELD l ENCHANTING_TABLE Lbpi;
+	FIELD m END_PORTAL Lbpi;
+	FIELD n BEACON Lbpi;
+	FIELD o SKULL Lbpi;
+	FIELD p DAYLIGHT_DETECTOR Lbpi;
+	FIELD q HOPPER Lbpi;
+	FIELD r COMPARATOR Lbpi;
+	FIELD s BANNER Lbpi;
+	FIELD t STRUCTURE_BLOCK Lbpi;
+	FIELD u END_GATEWAY Lbpi;
+	FIELD v COMMAND_BLOCK Lbpi;
+	FIELD w SHUlKER_BOX Lbpi;
+	FIELD x BED Lbpi;
+	FIELD y CONDUIT Lbpi;
+	FIELD z BARREL Lbpi;
+	METHOD a instantiate ()Lbph;
+	METHOD a getId (Lbpi;)Lqi;
+	METHOD a create (Ljava/lang/String;Lbpi$a;)Lbpi;

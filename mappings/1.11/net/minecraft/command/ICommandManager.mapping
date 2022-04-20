@@ -1,0 +1,11 @@
+CLASS m net/minecraft/command/ICommandManager
+	METHOD a getUsableCommands (Ln;)Ljava/util/List;
+		ARG 0 sender
+	METHOD a executeCommand (Ln;Ljava/lang/String;)I
+		ARG 0 commandSender
+		ARG 1 command
+	METHOD a getTabCompletionList (Ln;Ljava/lang/String;Lco;)Ljava/util/List;
+		ARG 0 sender
+		ARG 1 commandString
+		ARG 2 position
+	METHOD b getRegisteredCommands ()Ljava/util/Map;

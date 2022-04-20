@@ -1,0 +1,6 @@
+CLASS amt net/minecraft/entity/ai/goal/ChaseBoatGoal
+	FIELD b mob Lajb;
+	FIELD c passenger Laiu;
+	FIELD d state Lami;
+	METHOD <init> (Lajb;)V
+		ARG 1 mob

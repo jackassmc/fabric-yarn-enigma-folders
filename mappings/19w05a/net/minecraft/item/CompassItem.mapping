@@ -1,0 +1,6 @@
+CLASS avy net/minecraft/item/CompassItem
+	CLASS avy$1
+		METHOD call (Laxi;Lbcq;Lahn;)F
+			ARG 1 stack
+			ARG 2 world
+			ARG 3 user

@@ -1,0 +1,3 @@
+CLASS cma net/minecraft/world/loot/context/LootContextParameter
+	FIELD a id Lqi;
+	METHOD a getIdentifier ()Lqi;

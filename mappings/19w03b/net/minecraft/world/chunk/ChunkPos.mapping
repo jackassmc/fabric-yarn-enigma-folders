@@ -1,0 +1,21 @@
+CLASS bbv net/minecraft/world/chunk/ChunkPos
+	FIELD a INVALID J
+	FIELD b x I
+	FIELD c z I
+	METHOD <init> (II)V
+		ARG 1 x
+	METHOD a toLong ()J
+	METHOD a toLong (II)J
+		ARG 0 chunkX
+		ARG 1 chunkZ
+	METHOD a toBlockPos (III)Let;
+		ARG 1 xOffset
+		ARG 2 y
+	METHOD a longX (J)I
+	METHOD b longZ (J)I
+	METHOD d getXStart ()I
+	METHOD e getZStart ()I
+	METHOD equals (Ljava/lang/Object;)Z
+		ARG 1 o
+	METHOD f getXEnd ()I
+	METHOD g getZEnd ()I

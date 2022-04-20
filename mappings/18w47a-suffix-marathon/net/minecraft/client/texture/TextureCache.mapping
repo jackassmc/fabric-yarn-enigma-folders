@@ -1,0 +1,15 @@
+CLASS dcg net/minecraft/client/texture/TextureCache
+	CLASS dcg$a Manager
+		FIELD a cacheMap Ljava/util/Map;
+		FIELD b filename Lpx;
+		FIELD c baseDir Ljava/lang/String;
+		FIELD d id Ljava/lang/String;
+		METHOD a removeOldEntries ()Z
+		METHOD a get (Ljava/lang/String;Ljava/util/List;Ljava/util/List;)Lpx;
+	CLASS dcg$b Entry
+		FIELD a lastRequestTimeMillis J
+		FIELD b filename Lpx;
+	FIELD a BANNER Ldcg$a;
+	FIELD b SHIELD Ldcg$a;
+	FIELD c DEFAULT_SHIELD Lpx;
+	FIELD d DEFAULT_BANNER Lpx;

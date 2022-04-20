@@ -1,0 +1,5 @@
+CLASS atj net/minecraft/item/ItemChorusFruit
+	METHOD a onItemFinishedUsing (Lauv;Lazt;Lage;)Lauv;
+		ARG 1 stack
+		ARG 2 world
+		ARG 3 user

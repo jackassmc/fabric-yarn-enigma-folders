@@ -1,0 +1,3 @@
+CLASS asi net/minecraft/entity/boss/dragon/phase/DyingPhase
+	METHOD <init> (Lasd;)V
+		ARG 1 dragon

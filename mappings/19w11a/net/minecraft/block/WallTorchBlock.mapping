@@ -1,0 +1,7 @@
+CLASS brh net/minecraft/block/WallTorchBlock
+	FIELD a FACING Lbus;
+	FIELD b BOUNDING_SHAPES Ljava/util/Map;
+	METHOD <init> (Lbkz$c;)V
+		ARG 1 settings
+	METHOD j getBoundingShape (Lbtx;)Lcrb;
+		ARG 0 state

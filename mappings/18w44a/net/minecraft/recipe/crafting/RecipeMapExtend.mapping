@@ -1,0 +1,8 @@
+CLASS axa net/minecraft/recipe/crafting/RecipeMapExtend
+	METHOD a getSerializer ()Laxd;
+	METHOD a craft (Laei;)Lauv;
+		ARG 1 inv
+	METHOD a matches (Laei;Lazt;)Z
+		ARG 1 inv
+		ARG 2 world
+	METHOD c isIgnoredInRecipeBook ()Z

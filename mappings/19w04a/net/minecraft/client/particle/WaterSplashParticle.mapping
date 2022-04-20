@@ -1,0 +1,7 @@
+CLASS ddv net/minecraft/client/particle/WaterSplashParticle
+	CLASS ddv$a SplashFactory
+	METHOD <init> (Lbcl;DDDDDD)V
+		ARG 1 world
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z

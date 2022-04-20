@@ -1,0 +1,3 @@
+CLASS cpg net/minecraft/world/loot/condition/SurvivesExplosionLootCondition
+	CLASS cpg$a net/minecraft/world/loot/condition/SurvivesExplosionLootCondition$Factory
+	FIELD a INSTANCE Lcpg;

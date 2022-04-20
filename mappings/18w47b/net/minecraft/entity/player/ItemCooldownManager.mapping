@@ -1,0 +1,12 @@
+CLASS avk net/minecraft/entity/player/ItemCooldownManager
+	CLASS avk$a Cooldown
+	FIELD a cooldowns Ljava/util/Map;
+	FIELD b tick I
+	METHOD a update ()V
+	METHOD a isCoolingDown (Lavj;)Z
+	METHOD a set (Lavj;I)V
+		ARG 1 item
+	METHOD b remove (Lavj;)V
+	METHOD b onCooldownUpdate (Lavj;I)V
+		ARG 1 item
+	METHOD c onCooldownUpdate (Lavj;)V

@@ -1,0 +1,2 @@
+CLASS dlp net/minecraft/client/render/entity/ShulkerBulletEntityRenderer
+	FIELD a SKIN Lqd;

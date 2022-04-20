@@ -1,0 +1,6 @@
+CLASS cjy net/minecraft/world/loot/entry/LootEntries
+	CLASS cjy$a Serializer
+		METHOD a getSerializer (Ljava/lang/Class;)Lcka$b;
+	FIELD a idSerializers Ljava/util/Map;
+	FIELD b classSerializers Ljava/util/Map;
+	METHOD a register (Lcka$b;)V

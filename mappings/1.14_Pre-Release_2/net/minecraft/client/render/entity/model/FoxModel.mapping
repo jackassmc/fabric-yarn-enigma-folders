@@ -1,0 +1,11 @@
+CLASS dei net/minecraft/client/render/entity/model/FoxModel
+	FIELD a head Ldgu;
+	FIELD b leftEar Ldgu;
+	FIELD f rightEar Ldgu;
+	FIELD g nose Ldgu;
+	FIELD h body Ldgu;
+	FIELD i frontLeftLeg Ldgu;
+	FIELD j frontRightLeg Ldgu;
+	FIELD k rearLeftLeg Ldgu;
+	FIELD l rearRightLeg Ldgu;
+	FIELD m tail Ldgu;

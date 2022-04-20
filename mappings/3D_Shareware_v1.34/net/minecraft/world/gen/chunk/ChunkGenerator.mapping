@@ -1,0 +1,52 @@
+CLASS bwn net/minecraft/world/gen/chunk/ChunkGenerator
+	FIELD a world Lbgy;
+	FIELD b seed J
+	FIELD c biomeSource Lbhw;
+	FIELD d config Lbya;
+	METHOD <init> (Lbgy;Lbhw;Lbya;)V
+		ARG 1 world
+		ARG 2 biomeSource
+		ARG 3 config
+	METHOD a getConfig ()Lbya;
+	METHOD a getHeightOnGround (IILbyf$a;)I
+		ARG 1 x
+		ARG 2 z
+		ARG 3 heightmapType
+	METHOD a getEntitySpawnList (Laik;Lev;)Ljava/util/List;
+	METHOD a locateStructure (Lbgx;Ljava/lang/String;Lev;IZ)Lev;
+		ARG 1 world
+		ARG 2 id
+		ARG 3 center
+		ARG 4 radius
+		ARG 5 skipExistingChunks
+	METHOD a spawnEntities (Lbgx;ZZ)V
+		ARG 1 world
+		ARG 2 spawnMonsters
+		ARG 3 spawnAnimals
+	METHOD a addStructureReferences (Lbgy;Lbwm;)V
+		ARG 1 world
+	METHOD a hasStructure (Lbhu;Lcdx;)Z
+	METHOD a populateBiomes (Lbwm;)V
+	METHOD a setStructureStarts (Lbwm;Lbwn;Lcis;)V
+	METHOD a carve (Lbwm;Lbye$a;)V
+		ARG 1 chunk
+		ARG 2 carverStep
+	METHOD a generateFeatures (Lvk;)V
+	METHOD a getDecorationBiome (Lvk;Lev;)Lbhu;
+	METHOD b getSpawnHeight ()I
+	METHOD b getHeightInGround (IILbyf$a;)I
+		ARG 1 x
+		ARG 2 z
+		ARG 3 heightmapType
+	METHOD b populateNoise (Lbgy;Lbwm;)V
+		ARG 1 world
+		ARG 2 chunk
+	METHOD b getStructureConfig (Lbhu;Lcdx;)Lcau;
+	METHOD b getDecorationBiome (Lbwm;)Lbhu;
+	METHOD b populateEntities (Lvk;)V
+	METHOD c getBiomeSource ()Lbhw;
+	METHOD c buildSurface (Lbwm;)V
+		ARG 1 chunk
+	METHOD d getSeed ()J
+	METHOD e getMaxY ()I
+	METHOD f getSeaLevel ()I

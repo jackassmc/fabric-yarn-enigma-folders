@@ -1,0 +1,11 @@
+CLASS daz net/minecraft/client/render/model/json/ModelItemOverride
+	FIELD a modelId Lpu;
+	FIELD b minPropertyValues Ljava/util/Map;
+	METHOD <init> (Lpu;Ljava/util/Map;)V
+		ARG 1 modelId
+		ARG 2 minPropertyValues
+	METHOD a getModelId ()Lpu;
+	METHOD a matches (Lauv;Lazt;Lage;)Z
+		ARG 1 stack
+		ARG 2 world
+		ARG 3 entity

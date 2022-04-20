@@ -1,0 +1,17 @@
+CLASS kq net/minecraft/network/packet/client/CPacketEntityStatus
+	FIELD a id I
+	FIELD b status B
+	METHOD <init> (Lafh;B)V
+		ARG 0 entity
+		ARG 1 status
+	METHOD a getEntity (Laza;)Lafh;
+		ARG 0 world
+	METHOD a readPacket (Lim;)V
+		ARG 0 buf
+	METHOD a applyPacket (Lip;)V
+		ARG 0 handler
+	METHOD a applyPacket (Ljn;)V
+		ARG 0 handler
+	METHOD b getStatus ()B
+	METHOD b writePacket (Lim;)V
+		ARG 0 buf

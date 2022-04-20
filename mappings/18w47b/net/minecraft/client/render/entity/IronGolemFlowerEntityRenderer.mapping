@@ -1,0 +1,5 @@
+CLASS djk net/minecraft/client/render/entity/IronGolemFlowerEntityRenderer
+	FIELD a golem Ldgq;
+	METHOD a shouldMergeTextures ()Z
+	METHOD a render (Lago;FFFFFFF)V
+	METHOD a render (Lalr;FFFFFFF)V

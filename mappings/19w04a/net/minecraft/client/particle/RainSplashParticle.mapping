@@ -1,0 +1,5 @@
+CLASS dee net/minecraft/client/particle/RainSplashParticle
+	CLASS dee$a Factory
+	METHOD <init> (Lbcl;DDD)V
+		ARG 1 world
+		ARG 2 x

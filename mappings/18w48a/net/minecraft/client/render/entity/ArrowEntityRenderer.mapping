@@ -1,0 +1,5 @@
+CLASS diy net/minecraft/client/render/entity/ArrowEntityRenderer
+	FIELD a SKIN Lpy;
+	FIELD f TIPPED_SKIN Lpy;
+	METHOD a getTexture (Lagi;)Lpy;
+	METHOD a getTexture (Laqp;)Lpy;

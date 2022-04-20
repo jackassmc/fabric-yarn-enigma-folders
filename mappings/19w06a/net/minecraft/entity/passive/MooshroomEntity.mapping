@@ -1,0 +1,2 @@
+CLASS amw net/minecraft/entity/passive/MooshroomEntity
+	METHOD c createChild (Lahg;)Lamw;

@@ -1,0 +1,22 @@
+CLASS sj net/minecraft/entity/passive/EntityPassive
+	FIELD a breedingAge I
+	METHOD a setSize (FF)V
+		ARG 0 width
+		ARG 1 height
+	METHOD a interactMob (Laax;Lrh;)Z
+		ARG 0 player
+		ARG 1 playerHand
+	METHOD a deserializeCustomData (Ldu;)V
+		ARG 0 tag
+	METHOD a onTrackedDataSet (Lkk;)V
+		ARG 0 data
+	METHOD a createChild (Lsj;)Lsj;
+		ARG 0 other
+	METHOD b serializeCustomData (Ldu;)V
+		ARG 0 tag
+	METHOD b_ setBreedingAge (I)V
+		ARG 0 value
+	METHOD i initDataTracker ()V
+	METHOD l getBreedingAge ()I
+	METHOD l_ isChild ()Z
+	METHOD n updateMovement ()V

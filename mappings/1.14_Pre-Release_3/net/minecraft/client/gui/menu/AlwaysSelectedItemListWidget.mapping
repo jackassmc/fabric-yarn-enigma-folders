@@ -1,0 +1,2 @@
+CLASS cwu net/minecraft/client/gui/menu/AlwaysSelectedItemListWidget
+	CLASS cwu$a Item

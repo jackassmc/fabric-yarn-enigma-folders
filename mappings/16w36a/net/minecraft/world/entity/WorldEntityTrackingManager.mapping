@@ -1,0 +1,26 @@
+CLASS none/lr net/minecraft/world/entity/WorldEntityTrackingManager
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD b world Lnone/lu;
+	FIELD c TRACKERS Ljava/util/Set;
+	FIELD d TRACKERS_BY_ID Lnone/om;
+	METHOD <init> (Lnone/lu;)V
+		ARG 0 world
+	METHOD a startTracking (Lnone/sf;)V
+		ARG 0 entity
+	METHOD a startTracking (Lnone/sf;II)V
+		ARG 0 entity
+		ARG 1 trackingRange
+		ARG 2 updateInterval
+	METHOD a startTracking (Lnone/sf;IIZ)V
+		ARG 0 entity
+		ARG 1 trackingRange
+		ARG 2 updateInterval
+		ARG 3 sendVelocityUpdates
+	METHOD a sendToAllTracking (Lnone/sf;Lnone/fl;)V
+		ARG 0 entity
+		ARG 1 packet
+	METHOD b stopTracking (Lnone/sf;)V
+		ARG 0 entity
+	METHOD b sendToAllTrackingAndSelf (Lnone/sf;Lnone/fl;)V
+		ARG 0 entity
+		ARG 1 packet

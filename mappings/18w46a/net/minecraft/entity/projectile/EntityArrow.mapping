@@ -1,0 +1,20 @@
+CLASS aqg net/minecraft/entity/projectile/EntityArrow
+	FIELD au COLOR Lpm;
+	FIELD av potion Laww;
+	FIELD aw effects Ljava/util/Set;
+	METHOD <init> (Lbae;DDD)V
+		ARG 1 world
+		ARG 2 x
+	METHOD <init> (Lbae;Lagl;)V
+		ARG 1 world
+	METHOD S_ update ()V
+	METHOD a addEffect (Lafv;)V
+	METHOD a onHit (Lagl;)V
+	METHOD a deserializeCustomData (Lho;)V
+	METHOD b spawnParticles (I)V
+	METHOD b initFromStack (Lavf;)V
+	METHOD b serializeCustomData (Lho;)V
+	METHOD l asItemStack ()Lavf;
+	METHOD t getColor ()I
+	METHOD u initColor ()V
+	METHOD y_ initDataTracker ()V

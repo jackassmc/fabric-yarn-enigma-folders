@@ -1,0 +1,3 @@
+CLASS avo net/minecraft/entity/projectile/TridentEntity
+	FIELD as tridentStack Lbar;
+	FIELD at dealtDamage Z

@@ -1,0 +1,24 @@
+CLASS none/bhr net/minecraft/client/gui/container/GuiEnchanting
+	FIELD B BG_TEX Lnone/kp;
+	FIELD C BOOK_TEX Lnone/kp;
+	FIELD E playerInv Lnone/aak;
+	FIELD F rand Ljava/util/Random;
+	METHOD <init> (Lnone/aak;Lnone/aiv;Lnone/rh;)V
+		ARG 0 playerInv
+		ARG 1 world
+	METHOD a drawBackground (FII)V
+		ARG 0 delta
+		ARG 1 mouseX
+		ARG 2 mouseY
+	METHOD a draw (IIF)V
+		ARG 0 mouseX
+		ARG 1 mouseY
+		ARG 2 delta
+	METHOD a handleMouseClick (III)V
+		ARG 0 mouseX
+		ARG 1 mouseY
+		ARG 2 mouseButton
+	METHOD b drawForeground (II)V
+		ARG 0 mouseX
+		ARG 1 mouseY
+	METHOD e update ()V

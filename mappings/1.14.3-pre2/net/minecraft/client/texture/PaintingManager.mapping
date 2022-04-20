@@ -1,0 +1,5 @@
+CLASS dvd net/minecraft/client/texture/PaintingManager
+	FIELD a PAINTING_BACK_ID Lqt;
+	METHOD a getPaintingSprite (Latk;)Ldum;
+		ARG 1 motive
+	METHOD b getBackSprite ()Ldum;

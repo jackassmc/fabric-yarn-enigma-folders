@@ -1,0 +1,52 @@
+CLASS dng net/minecraft/client/render/chunk/ChunkRenderer
+	FIELD a chunkUpdateCount I
+	FIELD b data Ldne;
+	FIELD c boundingBox Lcrs;
+	FIELD d world Lbhi;
+	FIELD e renderer Ldko;
+	FIELD f lock Ljava/util/concurrent/locks/ReentrantLock;
+	FIELD g dataLock Ljava/util/concurrent/locks/ReentrantLock;
+	FIELD h task Ldnb;
+	FIELD i blockEntities Ljava/util/Set;
+	FIELD j buffers [Lcup;
+	FIELD l rebuildScheduled Z
+	FIELD m origin Lev$a;
+	FIELD n neighborPositions [Lev$a;
+	FIELD o rebuildOnClientThread Z
+	METHOD a delete ()V
+	METHOD a resortTransparency (FFFLdnb;)V
+	METHOD a setOrigin (III)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD a endBufferBuilding (Lbgt;FFFLcul;Ldne;)V
+	METHOD a beginBufferBuilding (Lcul;Lev;)V
+	METHOD a setData (Ldne;)V
+		ARG 1 data
+	METHOD a isChunkNonEmpty (Lev;Lbhi;)Z
+		ARG 0 pos
+		ARG 1 world
+	METHOD a getNeighborPosition (Lfa;)Lev;
+		ARG 1 direction
+	METHOD a scheduleRebuild (Z)V
+		ARG 1 rebuildOnClientThread
+	METHOD b shouldBuild ()Z
+	METHOD b rebuildChunk (FFFLdnb;)V
+		ARG 1 cameraX
+		ARG 2 cameraY
+		ARG 3 cameraZ
+		ARG 4 task
+	METHOD b getGlBuffer (I)Lcup;
+		ARG 1 layer
+	METHOD c cancel ()V
+	METHOD d getLock ()Ljava/util/concurrent/locks/ReentrantLock;
+	METHOD e startRebuild ()Ldnb;
+	METHOD f startResortTransparency ()Ldnb;
+	METHOD g getSquaredCameraDistance ()D
+	METHOD h getData ()Ldne;
+	METHOD i clear ()V
+	METHOD k getOrigin ()Lev;
+	METHOD l unscheduleRebuild ()V
+	METHOD m shouldRebuild ()Z
+	METHOD n shouldRebuildOnClientThread ()Z
+	METHOD o getWorld ()Lbhi;

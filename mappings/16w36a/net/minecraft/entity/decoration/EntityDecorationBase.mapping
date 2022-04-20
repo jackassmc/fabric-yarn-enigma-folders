@@ -1,0 +1,38 @@
+CLASS none/yn net/minecraft/entity/decoration/EntityDecorationBase
+	FIELD a blockPos Lnone/cn;
+	FIELD b facing Lnone/cu;
+	FIELD c IS_DECORATION Lcom/google/common/base/Predicate;
+	METHOD <init> (Lnone/aiv;Lnone/cn;)V
+		ARG 0 world
+		ARG 1 pos
+	METHOD a dropStack (Lnone/aer;F)Lnone/yz;
+		ARG 0 stack
+		ARG 1 yOffset
+	METHOD a applyMirror (Lnone/anx;)F
+		ARG 0 mirror
+	METHOD a applyRotation (Lnone/apk;)F
+		ARG 0 rotation
+	METHOD a setFacing (Lnone/cu;)V
+		ARG 0 facing
+	METHOD a deserializeCustomData (Lnone/dt;)V
+		ARG 0 tag
+	METHOD a damage (Lnone/rq;F)Z
+		ARG 0 source
+		ARG 1 damage
+	METHOD a onStruckByLightning (Lnone/yw;)V
+		ARG 0 lightning
+	METHOD b setPosition (DDD)V
+		ARG 0 x
+		ARG 1 y
+		ARG 2 z
+	METHOD b serializeCustomData (Lnone/dt;)V
+		ARG 0 tag
+	METHOD bl getHorizontalFacing ()Lnone/cu;
+	METHOD d move (DDD)V
+	METHOD g addVelocity (DDD)V
+		ARG 0 deltaX
+		ARG 1 deltaY
+		ARG 2 deltaZ
+	METHOD i initDataTracker ()V
+	METHOD q getBlockPos ()Lnone/cn;
+	METHOD y_ update ()V

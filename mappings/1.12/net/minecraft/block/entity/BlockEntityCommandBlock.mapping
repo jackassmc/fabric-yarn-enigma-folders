@@ -1,0 +1,32 @@
+CLASS avk net/minecraft/block/entity/BlockEntityCommandBlock
+	CLASS avk$1
+		METHOD C_ getServer ()Lnet/minecraft/server/MinecraftServer;
+		METHOD a setCommand (Ljava/lang/String;)V
+			ARG 0 command
+		METHOD c getBlockPos ()Let;
+		METHOD d getPos ()Lbhc;
+		METHOD e getWorld ()Lams;
+	CLASS avk$a Type
+		FIELD a CHAIN Lavk$a;
+		FIELD b REPEATING Lavk$a;
+		FIELD c NORMAL Lavk$a;
+	FIELD a powered Z
+	FIELD f auto Z
+	FIELD g conditionMet Z
+	FIELD i commandExecutor Lamh;
+	METHOD A validate ()V
+	METHOD a getCommandExecutor ()Lamh;
+	METHOD a deserialize (Lfy;)V
+		ARG 0 tag
+	METHOD a setPowered (Z)V
+		ARG 0 powered
+	METHOD b serialize (Lfy;)Lfy;
+		ARG 0 tag
+	METHOD b setAuto (Z)V
+		ARG 0 auto
+	METHOD c getUpdatePacket ()Lih;
+	METHOD f isPowered ()Z
+	METHOD h isAuto ()Z
+	METHOD i isConditionMet ()Z
+	METHOD l getType ()Lavk$a;
+	METHOD m isConditionalCommandBlock ()Z

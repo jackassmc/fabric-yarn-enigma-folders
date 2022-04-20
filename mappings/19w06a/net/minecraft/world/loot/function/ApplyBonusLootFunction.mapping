@@ -1,0 +1,23 @@
+CLASS cko net/minecraft/world/loot/function/ApplyBonusLootFunction
+	CLASS cko$a BinomialWithBonusCount
+		FIELD a ID Lqd;
+		METHOD a fromJson (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Lcko$b;
+	CLASS cko$b Formula
+		METHOD a getId ()Lqd;
+		METHOD a toJson (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD a getValue (Ljava/util/Random;II)I
+	CLASS cko$c FormulaFactory
+	CLASS cko$d OreDrops
+		FIELD a ID Lqd;
+		METHOD a fromJson (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Lcko$b;
+	CLASS cko$e Factory
+	CLASS cko$f UniformBonusCount
+		FIELD a ID Lqd;
+		METHOD a fromJson (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Lcko$b;
+	FIELD a FACTORIES Ljava/util/Map;
+	FIELD c enchantment Lbaw;
+	FIELD d formula Lcko$b;
+	METHOD a oreDrops (Lbaw;)Lcky$a;
+	METHOD a binomialWithBonusCount (Lbaw;FI)Lcky$a;
+	METHOD a builder (Lbaw;I)Lcky$a;
+	METHOD b one (Lbaw;)Lcky$a;

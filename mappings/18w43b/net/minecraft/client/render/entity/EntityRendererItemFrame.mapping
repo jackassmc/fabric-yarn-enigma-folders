@@ -1,0 +1,11 @@
+CLASS dct net/minecraft/client/render/entity/EntityRendererItemFrame
+	FIELD a MAP_BACKGROUND_TEX Lpt;
+	FIELD h game Lcjj;
+	FIELD i itemRenderer Ldcu;
+	METHOD <init> (Ldca;Ldcu;)V
+		ARG 0 renderManager
+		ARG 1 itemRenderer
+	METHOD a getTexture (Lafh;)Lpt;
+		ARG 0 model
+	METHOD a getTexture (Lamt;)Lpt;
+		ARG 0 model

@@ -1,0 +1,25 @@
+CLASS cqp net/minecraft/client/gui/menu/GuiNewLevel
+	FIELD C buttonGameModeSwitch Lckj;
+	FIELD D buttonMoreOptions Lckj;
+	FIELD E buttonGenerateStructures Lckj;
+	FIELD F buttonGenerateBonusItems Lckj;
+	FIELD G buttonMapTypeSwitch Lckj;
+	FIELD H buttonCommandsAllowed Lckj;
+	FIELD I buttonCustomizeType Lckj;
+	FIELD L seed Ljava/lang/String;
+	FIELD M levelName Ljava/lang/String;
+	FIELD N generatorType I
+	FIELD O INVALID_LEVEL_NAMES [Ljava/lang/String;
+	FIELD f parent Lcns;
+	FIELD s gameMode Ljava/lang/String;
+	FIELD u structures Z
+	FIELD v commandsAllowed Z
+	METHOD <init> (Lcns;)V
+		ARG 0 parent
+	METHOD a draw (IIF)V
+		ARG 0 mouseX
+		ARG 1 mouseY
+		ARG 2 delta
+	METHOD c init ()V
+	METHOD f update ()V
+	METHOD n onClosed ()V

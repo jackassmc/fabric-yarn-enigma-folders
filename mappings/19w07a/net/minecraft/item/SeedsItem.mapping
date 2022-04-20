@@ -1,0 +1,2 @@
+CLASS ayl net/minecraft/item/SeedsItem
+	FIELD a crop Lbqz;

@@ -1,0 +1,7 @@
+CLASS aui net/minecraft/entity/mob/HostileEntity
+	METHOD <init> (Laii;Lbhf;)V
+		ARG 1 type
+	METHOD I_ checkLightLevelForSpawn ()Z
+	METHOD e isAngryAt (Lavw;)Z
+		ARG 1 player
+	METHOD ec updateDespawnCounter ()V

@@ -1,0 +1,28 @@
+CLASS aqs net/minecraft/entity/mob/VindicatorEntity
+	CLASS aqs$a VindicatorBreakDoorGoal
+		METHOD a canStart ()Z
+		METHOD c start ()V
+	CLASS aqs$b
+		METHOD a canStart ()Z
+		METHOD c start ()V
+	CLASS aqs$c
+		METHOD a canStart ()Z
+		METHOD b shouldContinue ()Z
+		METHOD c start ()V
+		METHOD d onRemove ()V
+	FIELD c isJohnny Z
+	METHOD D getAmbientSound ()Lxt;
+	METHOD I mobTick ()V
+	METHOD a initEquipment (Lafx;)V
+	METHOD a prepareEntityData (Lbcg;Lafx;Lahp;Lahx;Lhs;)Lahx;
+		ARG 3 difficulty
+	METHOD a readCustomDataFromTag (Lhs;)V
+	METHOD b writeCustomDataToTag (Lhs;)V
+	METHOD b setCustomName (Ljd;)V
+	METHOD cb initAttributes ()V
+	METHOD cw getDeathSound ()Lxt;
+	METHOD d addBonusForWave (IZ)V
+		ARG 1 wave
+	METHOD e getHurtSound (Lagm;)Lxt;
+	METHOD n prepareGoals ()V
+	METHOD r isTeammate (Lahd;)Z

@@ -1,0 +1,5 @@
+CLASS dsf net/minecraft/client/tutorial/OpenInventoryTutorialStepHandler
+	FIELD a TITLE Ljc;
+	FIELD b DESCRIPTION Ljc;
+	FIELD c manager Ldsh;
+	FIELD e ticks I

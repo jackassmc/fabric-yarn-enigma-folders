@@ -1,0 +1,7 @@
+CLASS afs net/minecraft/entity/effect/MobEffectUtil
+	METHOD a durationToString (Lafr;F)Ljava/lang/String;
+		ARG 0 effect
+		ARG 1 multiplier
+	METHOD a hasHaste (Lagh;)Z
+	METHOD b getHasteAmplifier (Lagh;)I
+	METHOD c hasWaterBreathing (Lagh;)Z

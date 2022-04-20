@@ -1,0 +1,37 @@
+CLASS dce net/minecraft/client/render/FirstPersonRenderer
+	FIELD a MAP_BACKGROUND_TEX Lpy;
+	FIELD b UNDERWATER_TEX Lpy;
+	FIELD c client Lcnv;
+	FIELD d mainHand Lavs;
+	FIELD e offHand Lavs;
+	FIELD f equipProgressMainHand F
+	FIELD g prevEquipProgressMainHand F
+	FIELD h equipProgressOffHand F
+	FIELD i prevEquipProgressOffHand F
+	FIELD j renderManager Ldgs;
+	FIELD k itemRenderer Ldhn;
+	METHOD <init> (Lcnv;)V
+		ARG 1 client
+	METHOD a updateHeldItems ()V
+	METHOD a renderFirstPersonItem (F)V
+	METHOD a rotate (FF)V
+		ARG 1 degreeX
+	METHOD a renderFirstPersonMap (FFF)V
+	METHOD a resetEquipProgress (Lafb;)V
+	METHOD a renderArm (Lagq;)V
+	METHOD a renderItem (Lagr;Lavs;Lddm$b;)V
+		ARG 1 holder
+		ARG 2 stack
+	METHOD a renderItemFromSide (Lagr;Lavs;Lddm$b;Z)V
+		ARG 1 holder
+		ARG 2 stack
+		ARG 3 transformation
+	METHOD a renderFirstPersonMap (Lavs;)V
+	METHOD a renderFirstPersonItem (Ldbk;FFLafb;FLavs;F)V
+		ARG 1 player
+		ARG 4 hand
+		ARG 6 item
+	METHOD a renderBlock (Ldlm;)V
+	METHOD b renderOverlays (F)V
+	METHOD c renderArms ()V
+	METHOD e renderWaterOverlay (F)V

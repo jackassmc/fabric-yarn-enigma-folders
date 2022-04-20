@@ -1,0 +1,18 @@
+CLASS ccz net/minecraft/world/FeatureUpdater
+	FIELD a OLD_TO_NEW Ljava/util/Map;
+	FIELD b ANCIENT_TO_OLD Ljava/util/Map;
+	FIELD c needsUpdate Z
+	FIELD d featureIdToChunkTag Ljava/util/Map;
+	FIELD e updateStates Ljava/util/Map;
+	METHOD a needsUpdate (II)Z
+		ARG 1 chunkX
+		ARG 2 chunkZ
+	METHOD a needsUpdate (IILjava/lang/String;)Z
+		ARG 1 chunkX
+		ARG 2 chunkZ
+		ARG 3 id
+	METHOD a markResolved (J)V
+	METHOD a create (Lbti;Lcjb;)Lccz;
+	METHOD a init (Lcjb;)V
+	METHOD a getUpdatedReferences (Lhr;)Lhr;
+	METHOD a getUpdatedStarts (Lhr;Lbcd;)Lhr;

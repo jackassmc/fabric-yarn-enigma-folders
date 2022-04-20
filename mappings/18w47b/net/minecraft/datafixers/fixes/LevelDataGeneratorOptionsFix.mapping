@@ -1,0 +1,2 @@
+CLASS abm net/minecraft/datafixers/fixes/LevelDataGeneratorOptionsFix
+	FIELD a biomes Ljava/util/Map;

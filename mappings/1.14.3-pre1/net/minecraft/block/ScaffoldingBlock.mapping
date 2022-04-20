@@ -1,0 +1,17 @@
+CLASS brb net/minecraft/block/ScaffoldingBlock
+	FIELD a DISTANCE Lbwl;
+	FIELD b WATERLOGGED Lbwd;
+	FIELD c BOTTOM Lbwd;
+	FIELD d NORMAL_OUTLINE_SHAPE Lcss;
+	FIELD e BOTTOM_OUTLINE_SHAPE Lcss;
+	FIELD f COLLISION_SHAPE Lcss;
+	FIELD g OUTLINE_SHAPE Lcss;
+	METHOD <init> (Lbmn$c;)V
+		ARG 1 settings
+	METHOD a calculateDistance (Lbgt;Lev;)I
+		ARG 0 world
+		ARG 1 pos
+	METHOD a shouldBeBottom (Lbgt;Lev;I)Z
+		ARG 1 world
+		ARG 2 pos
+		ARG 3 distance

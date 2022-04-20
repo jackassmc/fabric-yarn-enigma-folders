@@ -1,0 +1,31 @@
+CLASS crg net/minecraft/client/gui/menu/GuiSettingsAudio
+	CLASS crg$1
+		METHOD a onPressed (DD)V
+			ARG 0 mouseX
+	CLASS crg$2
+		METHOD a onPressed (DD)V
+			ARG 0 mouseX
+	CLASS crg$a
+		METHOD a onPressed (DD)V
+			ARG 0 mouseX
+		METHOD a drawBackground (Lcmx;II)V
+			ARG 0 game
+			ARG 1 mouseX
+			ARG 2 mouseY
+		METHOD a onPressed (Ldnq;)V
+			ARG 0 soundLoader
+		METHOD a getTextureId (Z)I
+			ARG 0 pressed
+		METHOD b onReleased (DD)V
+			ARG 0 mouseX
+			ARG 1 mouseY
+	FIELD a title Ljava/lang/String;
+	FIELD f parent Lcrc;
+	FIELD g settings Lcmz;
+	METHOD <init> (Lcrc;Lcmz;)V
+		ARG 1 parent
+	METHOD a draw (IIF)V
+		ARG 1 mouseX
+		ARG 2 mouseY
+	METHOD c onInitialized ()V
+	METHOD g close ()V

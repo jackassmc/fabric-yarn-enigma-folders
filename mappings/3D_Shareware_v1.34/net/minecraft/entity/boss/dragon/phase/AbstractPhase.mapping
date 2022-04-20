@@ -1,0 +1,4 @@
+CLASS ary net/minecraft/entity/boss/dragon/phase/AbstractPhase
+	FIELD a dragon Larw;
+	METHOD <init> (Larw;)V
+		ARG 1 dragon

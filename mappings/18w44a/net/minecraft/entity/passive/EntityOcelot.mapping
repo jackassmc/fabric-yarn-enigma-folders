@@ -1,0 +1,42 @@
+CLASS akx net/minecraft/entity/passive/EntityOcelot
+	CLASS akx$a
+		METHOD a canStart ()Z
+		METHOD b shouldContinue ()Z
+	CLASS akx$b
+		METHOD a canStart ()Z
+		METHOD b shouldContinue ()Z
+		METHOD c start ()V
+		METHOD d onRemove ()V
+		METHOD e tick ()V
+	CLASS akx$c
+		METHOD e tick ()V
+	FIELD bI OCELOT_TYPE Lpj;
+	METHOD D getSoundAmbient ()Lww;
+	METHOD F getLootTableId ()Lpu;
+	METHOD I mobTick ()V
+	METHOD S_ update ()V
+	METHOD a createChild (Lafs;)Lafs;
+		ARG 1 other
+	METHOD a interactMob (Lapr;Laeo;)Z
+		ARG 1 player
+		ARG 2 playerHand
+	METHOD a (Lazu;Laen;Lagn;Lhm;)Lagn;
+		ARG 2 difficulty
+	METHOD a deserializeCustomData (Lhm;)V
+		ARG 1 tag
+	METHOD b createChild (Lafs;)Lakx;
+		ARG 1 other
+	METHOD b serializeCustomData (Lhm;)V
+		ARG 1 tag
+	METHOD bH getEyeHeight ()F
+	METHOD c handleFallDamage (FF)V
+		ARG 1 fallDistance
+	METHOD cb initAttributes ()V
+	METHOD cw getSoundDeath ()Lww;
+	METHOD dA onTamedChanged ()V
+	METHOD dJ getOcelotType ()I
+	METHOD e getSoundHurt (Lafe;)Lww;
+	METHOD n initAi ()V
+	METHOD p getOcelotType (I)V
+		ARG 1 value
+	METHOD y_ initDataTracker ()V

@@ -1,0 +1,14 @@
+CLASS dbw net/minecraft/client/render/block/BlockRenderManager
+	FIELD a maps Ldbv;
+	FIELD b renderer Ldby;
+	METHOD <init> (Ldbv;Lcnf;)V
+		ARG 1 maps
+	METHOD a getStateMaps ()Ldbv;
+	METHOD a getModel (Lbnz;)Ldlu;
+	METHOD a render (Lbnz;F)V
+		ARG 1 state
+	METHOD a tesselate (Lbnz;Les;Ldkm;Lazo;)V
+		ARG 1 state
+		ARG 2 pos
+	METHOD a onResourceReload (Lvy;)V
+	METHOD b getRenderer ()Ldby;

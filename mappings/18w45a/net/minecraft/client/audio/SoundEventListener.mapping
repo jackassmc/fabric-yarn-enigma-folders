@@ -1,0 +1,3 @@
+CLASS dmo net/minecraft/client/audio/SoundEventListener
+	METHOD a onSoundPlayed (Ldls;Ldmq;)V
+		ARG 1 sound

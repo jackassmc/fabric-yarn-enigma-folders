@@ -1,0 +1,2 @@
+CLASS dfi net/minecraft/client/render/entity/EntityRendererEntity
+	METHOD a getTexture (Lagc;)Lpx;

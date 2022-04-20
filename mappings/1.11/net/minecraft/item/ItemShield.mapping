@@ -1,0 +1,24 @@
+CLASS age net/minecraft/item/ItemShield
+	METHOD a addStacksForDisplay (Lafg;Laei;Ldd;)V
+		ARG 0 item
+		ARG 1 tab
+		ARG 2 list
+	METHOD a addInformation (Lafi;Laax;Ljava/util/List;Z)V
+		ARG 0 stack
+		ARG 1 player
+		ARG 2 list
+		ARG 3 advancedTooltips
+	METHOD a canRepair (Lafi;Lafi;)Z
+		ARG 0 tool
+		ARG 1 repairItem
+	METHOD a onRightClick (Lajq;Laax;Lrh;)Lrk;
+		ARG 0 world
+		ARG 1 player
+		ARG 2 hand
+	METHOD b getCreativeTab ()Laei;
+	METHOD b getTranslatedNameTrimmed (Lafi;)Ljava/lang/String;
+		ARG 0 stack
+	METHOD e getMaxUseTime (Lafi;)I
+		ARG 0 stack
+	METHOD f getUseAction (Lafi;)Lagt;
+		ARG 0 stack

@@ -1,0 +1,22 @@
+CLASS lp net/minecraft/client/network/packet/LightUpdateS2CPacket
+	FIELD a chunkX I
+	FIELD b chunkZ I
+	FIELD c skyLightMask I
+	FIELD d blockLightMask I
+	FIELD e filledSkyLightMask I
+	FIELD f filledBlockLightMask I
+	FIELD g skyLightUpdates Ljava/util/List;
+	FIELD h blockLightUpdates Ljava/util/List;
+	METHOD <init> (Lbgy;Lckw;II)V
+		ARG 1 pos
+		ARG 2 lightProvider
+		ARG 3 skyLightMask
+		ARG 4 blockLightMask
+	METHOD b getChunkX ()I
+	METHOD c getChunkZ ()I
+	METHOD d getSkyLightMask ()I
+	METHOD e getFilledSkyLightMask ()I
+	METHOD f getSkyLightUpdates ()Ljava/util/List;
+	METHOD g getBlockLightMask ()I
+	METHOD h getFilledBlockLightMask ()I
+	METHOD i getBlockLightUpdates ()Ljava/util/List;

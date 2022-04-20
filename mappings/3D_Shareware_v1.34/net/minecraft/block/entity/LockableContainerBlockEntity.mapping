@@ -1,0 +1,14 @@
+CLASS bsw net/minecraft/block/entity/LockableContainerBlockEntity
+	FIELD a lock Lagw;
+	FIELD b customName Ljm;
+	METHOD a createContainer (ILavl;)Laxq;
+	METHOD a checkUnlocked (Lavm;Lagw;Ljm;)Z
+		ARG 0 player
+		ARG 1 lock
+		ARG 2 containerName
+	METHOD a setCustomName (Ljm;)V
+	METHOD createMenu (ILavl;Lavm;)Laxq;
+		ARG 1 syncId
+	METHOD e checkUnlocked (Lavm;)Z
+		ARG 1 player
+	METHOD h getContainerName ()Ljm;

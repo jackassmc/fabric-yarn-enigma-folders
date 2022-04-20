@@ -1,0 +1,14 @@
+CLASS bfz net/minecraft/village/Trader
+	METHOD a sendRecipes (Lavn;Ljm;I)V
+	METHOD a useRecipe (Lbga;)V
+	METHOD a setRecipesFromServer (Lbgb;)V
+	METHOD dS getExperience ()I
+	METHOD dT getCurrentCustomer ()Lavn;
+	METHOD dV getOffers ()Lbgb;
+	METHOD dW isLevelledTrader ()Z
+	METHOD e setCurrentCustomer (Lavn;)V
+		ARG 1 customer
+	METHOD eb getTraderWorld ()Lbgw;
+	METHOD i onSellingItem (Lbbq;)V
+	METHOD q setExperienceFromServer (I)V
+		ARG 1 experience

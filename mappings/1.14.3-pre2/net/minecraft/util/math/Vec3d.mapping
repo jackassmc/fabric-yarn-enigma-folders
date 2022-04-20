@@ -1,0 +1,50 @@
+CLASS csa net/minecraft/util/math/Vec3d
+	FIELD a ZERO Lcsa;
+	FIELD b x D
+	FIELD c y D
+	FIELD d z D
+	METHOD <init> (DDD)V
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+	METHOD a multiply (D)Lcsa;
+		ARG 1 mult
+	METHOD a subtract (DDD)Lcsa;
+		ARG 1 x
+	METHOD a rotateX (F)Lcsa;
+	METHOD a fromPolar (FF)Lcsa;
+		ARG 0 pitch
+		ARG 1 yaw
+	METHOD a fromPolar (Lcrz;)Lcsa;
+		ARG 0 polar
+	METHOD a reverseSubtract (Lcsa;)Lcsa;
+	METHOD a getComponentAlongAxis (Lfa$a;)D
+	METHOD a floorAlongAxes (Ljava/util/EnumSet;)Lcsa;
+		ARG 1 axes
+	METHOD b add (DDD)Lcsa;
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+	METHOD b rotateY (F)Lcsa;
+	METHOD b dotProduct (Lcsa;)D
+	METHOD c squaredDistanceTo (DDD)D
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+	METHOD c crossProduct (Lcsa;)Lcsa;
+	METHOD d normalize ()Lcsa;
+	METHOD d multiply (DDD)Lcsa;
+		ARG 1 multX
+		ARG 3 multY
+		ARG 5 multZ
+	METHOD d subtract (Lcsa;)Lcsa;
+	METHOD e negate ()Lcsa;
+	METHOD e add (Lcsa;)Lcsa;
+	METHOD equals (Ljava/lang/Object;)Z
+		ARG 1 o
+	METHOD f length ()D
+	METHOD f distanceTo (Lcsa;)D
+	METHOD g lengthSquared ()D
+	METHOD g squaredDistanceTo (Lcsa;)D
+	METHOD h multiply (Lcsa;)Lcsa;
+		ARG 1 mult

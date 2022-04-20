@@ -1,0 +1,69 @@
+CLASS aon net/minecraft/block/BlockLever
+	CLASS aon$a
+		METHOD m asString ()Ljava/lang/String;
+	FIELD b POWERED Latv;
+	METHOD a deserializeState (I)Latj;
+		ARG 0 meta
+	METHOD a canPlaceAt (Lajq;Lco;)Z
+		ARG 0 world
+		ARG 1 pos
+	METHOD a activate (Lajq;Lco;Latj;Laax;Lrh;Lcv;FFF)Z
+		ARG 0 world
+		ARG 1 pos
+		ARG 2 state
+		ARG 3 player
+		ARG 4 hand
+		ARG 5 facing
+		ARG 6 hitX
+		ARG 7 hitY
+		ARG 8 hitZ
+	METHOD a getStateForPlacement (Lajq;Lco;Lcv;FFFILsv;)Latj;
+		ARG 0 world
+		ARG 1 pos
+		ARG 2 facing
+		ARG 3 hitX
+		ARG 4 hitY
+		ARG 5 hitZ
+		ARG 6 metadata
+		ARG 7 player
+	METHOD a getCollisionBox (Latj;Laju;Lco;)Lbdr;
+		ARG 0 state
+		ARG 1 view
+		ARG 2 pos
+	METHOD a applyMirror (Latj;Laos;)Latj;
+		ARG 0 state
+		ARG 1 mirror
+	METHOD a applyRotation (Latj;Laqg;)Latj;
+		ARG 0 state
+		ARG 1 rotation
+	METHOD b createStateFactory ()Latk;
+	METHOD b (Lajq;Lco;Latj;)V
+		ARG 0 world
+		ARG 1 pos
+		ARG 2 state
+	METHOD b (Lajq;Lco;Lcv;)Z
+		ARG 0 world
+		ARG 1 pos
+		ARG 2 facing
+	METHOD b isFullBoundsCubeForCulling (Latj;)Z
+		ARG 0 state
+	METHOD b getBoundingBox (Latj;Laju;Lco;)Lbdr;
+		ARG 0 state
+		ARG 1 view
+		ARG 2 pos
+	METHOD b getWeakRedstonePower (Latj;Laju;Lco;Lcv;)I
+		ARG 0 state
+		ARG 1 view
+		ARG 2 pos
+		ARG 3 facingFrom
+	METHOD c (Latj;)Z
+		ARG 0 state
+	METHOD c getStrongRedstonePower (Latj;Laju;Lco;Lcv;)I
+		ARG 0 state
+		ARG 1 view
+		ARG 2 pos
+		ARG 3 facingFrom
+	METHOD e serializeState (Latj;)I
+		ARG 0 state
+	METHOD g emitsRedstonePower (Latj;)Z
+		ARG 0 state

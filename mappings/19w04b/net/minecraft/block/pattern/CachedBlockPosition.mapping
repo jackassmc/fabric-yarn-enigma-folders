@@ -1,0 +1,14 @@
+CLASS bqo net/minecraft/block/pattern/CachedBlockPosition
+	FIELD a world Lbcp;
+	FIELD b pos Let;
+	FIELD c forceLoad Z
+	FIELD d state Lbqk;
+	FIELD e blockEntity Lboo;
+	FIELD f cachedEntity Z
+	METHOD <init> (Lbcp;Let;Z)V
+		ARG 2 pos
+	METHOD a getBlockState ()Lbqk;
+	METHOD a matchesBlockState (Ljava/util/function/Predicate;)Ljava/util/function/Predicate;
+	METHOD b getBlockEntity ()Lboo;
+	METHOD c getWorld ()Lbcp;
+	METHOD d getBlockPos ()Let;

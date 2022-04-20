@@ -1,0 +1,5 @@
+CLASS cba net/minecraft/sortme/structures/OceanTempleGenerator
+	CLASS cba$a
+		METHOD a (Lbat;Ljava/util/Random;Lcap;Lbag;)Z
+			ARG 2 random
+		METHOD a toNbt (Lhq;)V

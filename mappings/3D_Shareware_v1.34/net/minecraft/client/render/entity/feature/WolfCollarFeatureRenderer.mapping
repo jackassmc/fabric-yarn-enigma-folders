@@ -1,0 +1,4 @@
+CLASS dtn net/minecraft/client/render/entity/feature/WolfCollarFeatureRenderer
+	FIELD a SKIN Lqr;
+	METHOD <init> (Ldqt;)V
+		ARG 1 context

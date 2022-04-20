@@ -1,0 +1,15 @@
+CLASS avp net/minecraft/item/ItemShears
+	METHOD <init> (Lauq$a;)V
+		ARG 1 builder
+	METHOD a onBlockBroken (Lauv;Lazt;Lbnh;Leq;Lage;)Z
+		ARG 1 stack
+		ARG 2 world
+		ARG 3 state
+		ARG 4 pos
+		ARG 5 user
+	METHOD a getBlockBreakingSpeed (Lauv;Lbnh;)F
+		ARG 1 stack
+		ARG 2 state
+	METHOD a isEffectiveOn (Lbnh;)Z
+		ARG 1 state
+		ARG 3 miningLevel

@@ -1,0 +1,4 @@
+CLASS ciw net/minecraft/structure/rule/BlockStateMatchRuleTest
+	FIELD a blockState Lbvk;
+	METHOD <init> (Lbvk;)V
+		ARG 1 blockState

@@ -1,0 +1,25 @@
+CLASS bxn net/minecraft/world/storage/RegionFile
+	CLASS bxn$a ChunkBuffer
+		FIELD b pos Lbgj;
+	FIELD a EMPTY_SECTOR [B
+	FIELD b file Ljava/io/RandomAccessFile;
+	FIELD c offsets [I
+	FIELD d chunkTimestamps [I
+	FIELD e sectorFree Ljava/util/List;
+	METHOD a write (I[BI)V
+		ARG 1 sectorNumber
+		ARG 2 data
+	METHOD a getChunkDataInputStream (Lbgj;)Ljava/io/DataInputStream;
+		ARG 1 pos
+	METHOD a setOffset (Lbgj;I)V
+	METHOD a write (Lbgj;[BI)V
+	METHOD b isChunkPresent (Lbgj;)Z
+		ARG 1 pos
+	METHOD b setTimestamp (Lbgj;I)V
+	METHOD c getChunkDataOutputStream (Lbgj;)Ljava/io/DataOutputStream;
+	METHOD d hasChunk (Lbgj;)Z
+		ARG 1 pos
+	METHOD e getOffset (Lbgj;)I
+		ARG 1 pos
+	METHOD f getPackedRegionRelativePosition (Lbgj;)I
+		ARG 1 pos

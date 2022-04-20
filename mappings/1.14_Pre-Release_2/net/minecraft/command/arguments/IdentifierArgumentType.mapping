@@ -1,0 +1,11 @@
+CLASS cy net/minecraft/command/arguments/IdentifierArgumentType
+	FIELD a UNKNOWN_EXCEPTION Lcom/mojang/brigadier/exceptions/DynamicCommandExceptionType;
+	FIELD b UNKNOWN_ADVANCEMENT_EXCEPTION Lcom/mojang/brigadier/exceptions/DynamicCommandExceptionType;
+	FIELD c UNKNOWN_RECIPE_EXCEPTION Lcom/mojang/brigadier/exceptions/DynamicCommandExceptionType;
+	FIELD d EXAMPLES Ljava/util/Collection;
+	METHOD a create ()Lcy;
+	METHOD a getAdvancementArgument (Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Lq;
+	METHOD b getRecipeArgument (Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Lbec;
+	METHOD c getIdentifier (Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Lqs;
+		ARG 0 context
+		ARG 1 name

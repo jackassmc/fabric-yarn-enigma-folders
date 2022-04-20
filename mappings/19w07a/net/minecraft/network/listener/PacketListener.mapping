@@ -1,0 +1,3 @@
+CLASS iz net/minecraft/network/listener/PacketListener
+	METHOD a onDisconnected (Ljg;)V
+		ARG 1 reason

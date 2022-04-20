@@ -1,0 +1,4 @@
+CLASS bpd net/minecraft/block/FluidBlock
+	FIELD a LEVEL Lbvw;
+	FIELD b fluid Lcki;
+	FIELD c statesByLevel Ljava/util/List;

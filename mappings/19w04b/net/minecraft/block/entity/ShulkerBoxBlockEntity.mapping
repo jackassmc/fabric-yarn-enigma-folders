@@ -1,0 +1,20 @@
+CLASS bpj net/minecraft/block/entity/ShulkerBoxBlockEntity
+	CLASS bpj$a AnimationStage
+		FIELD a CLOSED Lbpj$a;
+		FIELD c OPENED Lbpj$a;
+	FIELD a AVAILABLE_SLOTS [I
+	FIELD b inventory Lfh;
+	FIELD c viewerCount I
+	FIELD i animationStage Lbpj$a;
+	FIELD j animationProgress F
+	FIELD k prevAnimationProgress F
+	FIELD l cachedColor Lawa;
+	FIELD m cachedColorUpdateNeeded Z
+	METHOD a getAnimationProgress (F)F
+	METHOD a getBoundingBox (Lbqk;)Lcmm;
+		ARG 1 state
+	METHOD b getBoundingBox (Ley;)Lcmm;
+		ARG 1 openDirection
+	METHOD h updateAnimation ()V
+	METHOD s getAnimationStage ()Lbpj$a;
+	METHOD t getColor ()Lawa;

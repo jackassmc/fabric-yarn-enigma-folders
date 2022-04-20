@@ -1,0 +1,14 @@
+CLASS cob net/minecraft/client/toast/ToastManager
+	CLASS cob$a Entry
+		FIELD b instance Lcoa;
+		METHOD <init> (Lcob;Lcoa;)V
+			ARG 1 instance
+		METHOD a getInstance ()Lcoa;
+		METHOD a draw (II)Z
+	FIELD a game Lclx;
+	FIELD f visibleEntries [Lcob$a;
+	FIELD g toastQueue Ljava/util/Deque;
+	METHOD a draw ()V
+	METHOD a add (Lcoa;)V
+	METHOD b clear ()V
+	METHOD c getGame ()Lclx;

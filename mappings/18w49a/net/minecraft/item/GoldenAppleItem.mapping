@@ -1,0 +1,4 @@
+CLASS avm net/minecraft/item/GoldenAppleItem
+	METHOD a onConsumed (Lavu;Lbas;Laql;)V
+		ARG 1 stack
+		ARG 2 world

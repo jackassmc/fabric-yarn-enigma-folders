@@ -1,0 +1,23 @@
+CLASS bi net/minecraft/predicate/entity/EntityEffectPredicate
+	CLASS bi$a net/minecraft/predicate/entity/EntityEffectPredicate$EffectData
+		FIELD a amplifier Lbh$d;
+		FIELD b duration Lbh$d;
+		FIELD c ambient Ljava/lang/Boolean;
+		FIELD d visible Ljava/lang/Boolean;
+		METHOD <init> (Lbh$d;Lbh$d;Ljava/lang/Boolean;Ljava/lang/Boolean;)V
+			ARG 1 amplifier
+			ARG 2 duration
+			ARG 3 ambient
+		METHOD a serialize ()Lcom/google/gson/JsonElement;
+		METHOD a test (Lahq;)Z
+		METHOD a deserialize (Lcom/google/gson/JsonObject;)Lbi$a;
+			ARG 0 json
+	FIELD a EMPTY Lbi;
+	FIELD b effects Ljava/util/Map;
+	METHOD a create ()Lbi;
+	METHOD a withEffect (Laho;)Lbi;
+	METHOD a test (Lahw;)Z
+	METHOD a test (Laif;)Z
+	METHOD a deserialize (Lcom/google/gson/JsonElement;)Lbi;
+	METHOD a test (Ljava/util/Map;)Z
+	METHOD b serialize ()Lcom/google/gson/JsonElement;

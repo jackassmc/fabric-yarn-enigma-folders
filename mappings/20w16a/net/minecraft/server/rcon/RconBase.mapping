@@ -1,0 +1,7 @@
+CLASS net/minecraft/class_3359 net/minecraft/server/rcon/RconBase
+	FIELD field_14423 thread Ljava/lang/Thread;
+	FIELD field_14424 description Ljava/lang/String;
+	FIELD field_14431 running Z
+	METHOD method_14728 start ()V
+	METHOD method_14731 isRunning ()Z
+	METHOD method_18050 stop ()V

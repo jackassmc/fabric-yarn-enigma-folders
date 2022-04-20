@@ -1,0 +1,6 @@
+CLASS bwh net/minecraft/world/border/WorldBorderStage
+	FIELD a GROWING Lbwh;
+	FIELD b SHRINKING Lbwh;
+	FIELD c STATIC Lbwh;
+	FIELD d color I
+	METHOD a getColor ()I

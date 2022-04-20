@@ -1,0 +1,7 @@
+CLASS dgx net/minecraft/client/particle/DragonBreathParticle
+	CLASS dgx$a Factory
+	METHOD <init> (Lbgf;DDDDDDLdic;)V
+		ARG 1 world
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z

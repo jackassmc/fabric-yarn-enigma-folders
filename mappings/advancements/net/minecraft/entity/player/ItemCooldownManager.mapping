@@ -1,0 +1,12 @@
+CLASS ahe net/minecraft/entity/player/ItemCooldownManager
+	CLASS ahe$a Cooldown
+		FIELD a start I
+		FIELD b end I
+	FIELD a cooldowns Ljava/util/Map;
+	FIELD b tick I
+	METHOD a update ()V
+	METHOD a isCoolingDown (Lahd;)Z
+	METHOD a set (Lahd;I)V
+	METHOD b remove (Lahd;)V
+	METHOD b onCooldownUpdate (Lahd;I)V
+	METHOD c onCooldownUpdate (Lahd;)V

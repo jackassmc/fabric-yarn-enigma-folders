@@ -1,0 +1,42 @@
+CLASS cdq net/minecraft/structure/StructureStart
+	CLASS cdq$1
+		METHOD <init> (Lbzp;IILbdr;Lccw;IJ)V
+			ARG 2 chunkX
+			ARG 3 chunkZ
+	FIELD a DEFAULT Lcdq;
+	FIELD b children Ljava/util/List;
+	FIELD c boundingBox Lccw;
+	FIELD d random Lbui;
+	FIELD e feature Lbzp;
+	FIELD f chunkX I
+	FIELD g chunkZ I
+	FIELD h biome Lbdr;
+	FIELD i references I
+	METHOD <init> (Lbzp;IILbdr;Lccw;IJ)V
+		ARG 2 chunkX
+		ARG 3 chunkZ
+	METHOD a getPos ()Let;
+	METHOD a toTag (II)Lhr;
+		ARG 1 chunkX
+		ARG 2 chunkZ
+	METHOD a generateStructure (Lbcv;Ljava/util/Random;Lccw;Lbch;)V
+		ARG 1 world
+		ARG 2 random
+		ARG 3 boundingBox
+		ARG 4 pos
+	METHOD a initialize (Lbsh;Lcej;IILbdr;)V
+		ARG 1 chunkGenerator
+		ARG 2 structureManager
+		ARG 3 x
+		ARG 4 z
+		ARG 5 biome
+	METHOD b getBoundingBox ()Lccw;
+	METHOD c getChildren ()Ljava/util/List;
+	METHOD d setBoundingBoxFromChildren ()V
+	METHOD e hasChildren ()Z
+	METHOD f getChunkX ()I
+	METHOD g getChunkZ ()I
+	METHOD h isInExistingChunk ()Z
+	METHOD i incrementReferences ()V
+	METHOD j getReferenceCountToBeInExistingChunk ()I
+	METHOD k getFeature ()Lbzp;

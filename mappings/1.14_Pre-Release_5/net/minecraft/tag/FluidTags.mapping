@@ -1,0 +1,6 @@
+CLASS yy net/minecraft/tag/FluidTags
+	FIELD c container Lzc;
+	FIELD d containerChanges I
+	METHOD a register (Ljava/lang/String;)Lzb;
+	METHOD a setContainer (Lzc;)V
+		ARG 0 container

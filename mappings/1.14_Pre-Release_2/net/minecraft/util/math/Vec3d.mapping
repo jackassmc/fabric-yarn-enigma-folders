@@ -1,0 +1,50 @@
+CLASS cro net/minecraft/util/math/Vec3d
+	FIELD a ZERO Lcro;
+	FIELD b x D
+	FIELD c y D
+	FIELD d z D
+	METHOD <init> (DDD)V
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+	METHOD a multiply (D)Lcro;
+		ARG 1 mult
+	METHOD a subtract (DDD)Lcro;
+		ARG 1 x
+	METHOD a rotateX (F)Lcro;
+	METHOD a fromPolar (FF)Lcro;
+		ARG 0 pitch
+		ARG 1 yaw
+	METHOD a fromPolar (Lcrn;)Lcro;
+		ARG 0 polar
+	METHOD a reverseSubtract (Lcro;)Lcro;
+	METHOD a getComponentAlongAxis (Lfa$a;)D
+	METHOD a floorAlongAxes (Ljava/util/EnumSet;)Lcro;
+		ARG 1 axes
+	METHOD b add (DDD)Lcro;
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+	METHOD b rotateY (F)Lcro;
+	METHOD b dotProduct (Lcro;)D
+	METHOD c squaredDistanceTo (DDD)D
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+	METHOD c crossProduct (Lcro;)Lcro;
+	METHOD d normalize ()Lcro;
+	METHOD d multiply (DDD)Lcro;
+		ARG 1 multX
+		ARG 3 multY
+		ARG 5 multZ
+	METHOD d subtract (Lcro;)Lcro;
+	METHOD e negate ()Lcro;
+	METHOD e add (Lcro;)Lcro;
+	METHOD equals (Ljava/lang/Object;)Z
+		ARG 1 o
+	METHOD f length ()D
+	METHOD f distanceTo (Lcro;)D
+	METHOD g lengthSquared ()D
+	METHOD g squaredDistanceTo (Lcro;)D
+	METHOD h multiply (Lcro;)Lcro;
+		ARG 1 mult

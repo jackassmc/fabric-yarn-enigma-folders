@@ -1,0 +1,32 @@
+CLASS cgo net/minecraft/world/loot/function/LootFunctionExplorationMap
+	CLASS cgo$a Builder
+		FIELD a destination Ljava/lang/String;
+		FIELD b decoration Lcem$a;
+		FIELD c zoom B
+		FIELD d searchRadius I
+		FIELD e skipExistingChunks Z
+		METHOD a create ()Lcgo$a;
+		METHOD a zoom (B)Lcgo$a;
+			ARG 0 value
+		METHOD a decoration (Lcem$a;)Lcgo$a;
+			ARG 0 value
+		METHOD a destination (Ljava/lang/String;)Lcgo$a;
+			ARG 0 value
+		METHOD a skipExistingChunks (Z)Lcgo$a;
+			ARG 0 value
+		METHOD b build ()Lcgt;
+		METHOD d build ()Lcgs$a;
+	CLASS cgo$b Factory
+		METHOD a toJson (Lcom/google/gson/JsonObject;Lcgs;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD a toJson (Lcom/google/gson/JsonObject;Lcgt;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD b fromJson (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;[Lchw;)Lcgs;
+	FIELD a DEFAULT_DECORATION Lcem$a;
+	FIELD c LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD d destination Ljava/lang/String;
+	FIELD e decoration Lcem$a;
+	FIELD f zoom B
+	FIELD g searchRadius I
+	FIELD h skipExistingChunks Z
+	METHOD a process (Lava;Lcfl;)Lava;
+		ARG 1 stack
+	METHOD b create ()Lcgo$a;

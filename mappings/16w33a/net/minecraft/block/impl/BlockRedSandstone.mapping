@@ -1,0 +1,25 @@
+CLASS none/apa net/minecraft/block/impl/BlockRedSandstone
+	CLASS none/apa$a Type
+		FIELD a NORMAL Lnone/apa$a;
+		FIELD b CHIESELED Lnone/apa$a;
+		FIELD c SMOOTH Lnone/apa$a;
+		FIELD d VALUES [Lnone/apa$a;
+		FIELD e id I
+		FIELD f name Ljava/lang/String;
+		FIELD g translationKey Ljava/lang/String;
+		METHOD <init> (Ljava/lang/String;IILjava/lang/String;Ljava/lang/String;)V
+			ARG 0 id
+			ARG 1 name
+			ARG 2 translationKey
+		METHOD a getId ()I
+		METHOD a byId (I)Lnone/apa$a;
+			ARG 0 id
+		METHOD c getTranslationKey ()Ljava/lang/String;
+		METHOD m asString ()Ljava/lang/String;
+		METHOD values values ()[Lnone/apa$a;
+	FIELD a Type Lnone/asx;
+	METHOD a deserializeState (I)Lnone/asj;
+	METHOD a addStacksForDisplay (Lnone/aeo;Lnone/adq;Lnone/dc;)V
+	METHOD b createStateFactory ()Lnone/ask;
+	METHOD d getDropItemDamage (Lnone/asj;)I
+	METHOD e serializeState (Lnone/asj;)I

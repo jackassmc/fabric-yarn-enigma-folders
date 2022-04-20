@@ -1,0 +1,15 @@
+CLASS cxf net/minecraft/client/gui/menu/NoticeScreen
+	FIELD a title Ljm;
+	FIELD b notice Ljm;
+	FIELD c buttonString Ljava/lang/String;
+	FIELD d actionHandler Ljava/lang/Runnable;
+	FIELD e noticeLines Ljava/util/List;
+	METHOD <init> (Ljava/lang/Runnable;Ljm;Ljm;)V
+		ARG 1 actionHandler
+		ARG 2 title
+		ARG 3 notice
+	METHOD <init> (Ljava/lang/Runnable;Ljm;Ljm;Ljava/lang/String;)V
+		ARG 1 actionHandler
+		ARG 2 title
+		ARG 3 notice
+		ARG 4 buttonString

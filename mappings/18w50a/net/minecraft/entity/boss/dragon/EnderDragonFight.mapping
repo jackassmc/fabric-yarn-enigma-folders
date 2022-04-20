@@ -1,0 +1,24 @@
+CLASS bsk net/minecraft/entity/boss/dragon/EnderDragonFight
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD c bossBar Luo;
+	FIELD d world Luq;
+	FIELD e gateways Ljava/util/List;
+	FIELD k dragonKilled Z
+	FIELD l previouslyKilled Z
+	FIELD m dragonUuid Ljava/util/UUID;
+	FIELD o exitPortalLocation Let;
+	FIELD r crystals Ljava/util/List;
+	METHOD <init> (Luq;Lhs;)V
+		ARG 1 world
+		ARG 2 tag
+	METHOD a toTag ()Lhs;
+	METHOD a crystalDestroyed (Lano;Lage;)V
+		ARG 1 enderCrystal
+		ARG 2 source
+	METHOD a dragonKilled (Lanp;)V
+		ARG 1 dragon
+	METHOD b updateFight (Lanp;)V
+		ARG 1 dragon
+	METHOD g convertFromLegacy ()V
+	METHOD i worldContainsEndPortal ()Z
+	METHOD o createDragon ()Lanp;

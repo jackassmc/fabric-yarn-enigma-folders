@@ -1,0 +1,11 @@
+CLASS dvg net/minecraft/client/render/model/BakedModelManager
+	FIELD a modelMap Ljava/util/Map;
+	FIELD b spriteAtlas Ldtn;
+	FIELD c blockStateMaps Ldkj;
+	FIELD d missingModel Ldvc;
+	METHOD <init> (Ldtn;)V
+		ARG 1 spriteAtlas
+	METHOD a getMissingModel ()Ldvc;
+	METHOD a getModel (Ldvh;)Ldvc;
+		ARG 1 id
+	METHOD b getBlockStateMaps ()Ldkj;

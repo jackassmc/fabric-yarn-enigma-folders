@@ -1,0 +1,63 @@
+CLASS aqb net/minecraft/block/BlockMushroomHuge
+	CLASS aqb$a Variant
+		FIELD a NORTH_WEST Laqb$a;
+		FIELD b NORTH Laqb$a;
+		FIELD c NORTH_EAST Laqb$a;
+		FIELD d WEST Laqb$a;
+		FIELD e CENTER Laqb$a;
+		FIELD f EAST Laqb$a;
+		FIELD g SOUTH_WEST Laqb$a;
+		FIELD h SOUTH Laqb$a;
+		FIELD i SOUTH_EAST Laqb$a;
+		FIELD j STEM Laqb$a;
+		FIELD k ALL_INSIDE Laqb$a;
+		FIELD l ALL_OUTSIDE Laqb$a;
+		FIELD m ALL_STEM Laqb$a;
+		FIELD n VARIANTS [Laqb$a;
+		FIELD o meta I
+		FIELD p name Ljava/lang/String;
+		METHOD <init> (Ljava/lang/String;IILjava/lang/String;)V
+			ARG 0 meta
+			ARG 1 name
+		METHOD a getMeta ()I
+		METHOD a getVariantFromMeta (I)Laqb$a;
+			ARG 0 meta
+		METHOD m asString ()Ljava/lang/String;
+	FIELD a VARIANT Lavs;
+	FIELD b plantBlock Lank;
+	METHOD <init> (Lbbk;Lbbl;Lank;)V
+		ARG 0 material
+		ARG 1 color
+		ARG 2 plantBlock
+	METHOD a deserializeState (I)Lave;
+		ARG 0 meta
+	METHOD a getPickStack (Lali;Ldx;Lave;)Lahf;
+		ARG 0 world
+		ARG 1 pos
+		ARG 2 state
+	METHOD a getStateForPlacement (Lali;Ldx;Lee;FFFILuk;)Lave;
+		ARG 0 world
+		ARG 1 pos
+		ARG 2 facing
+		ARG 3 hitX
+		ARG 4 hitY
+		ARG 5 hitZ
+		ARG 6 metadata
+		ARG 7 player
+	METHOD a applyMirror (Lave;Laqm;)Lave;
+		ARG 0 state
+		ARG 1 mirror
+	METHOD a applyRotation (Lave;Lasa;)Lave;
+		ARG 0 state
+		ARG 1 rotation
+	METHOD a getDropItem (Lave;Ljava/util/Random;I)Lahd;
+		ARG 0 state
+		ARG 1 random
+		ARG 2 fortune
+	METHOD a getDropAmount (Ljava/util/Random;)I
+		ARG 0 random
+	METHOD b createStateFactory ()Lavf;
+	METHOD e serializeState (Lave;)I
+		ARG 0 state
+	METHOD r getMapColor (Lave;)Lbbl;
+		ARG 0 state

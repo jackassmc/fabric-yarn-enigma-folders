@@ -1,0 +1,43 @@
+CLASS none/art net/minecraft/block/tile/impl/TileEntitySign
+	CLASS none/art$1
+		METHOD a hasPermission (ILjava/lang/String;)Z
+			ARG 0 permissionLevel
+			ARG 1 commandName
+		METHOD a appendCommandFeedback (Lnone/fa;)V
+			ARG 0 component
+		METHOD a updateCommandStat (Lnone/o$a;I)V
+			ARG 0 statType
+			ARG 1 statValue
+		METHOD c getBlockPos ()Lnone/cn;
+		METHOD d getPos ()Lnone/bcs;
+		METHOD e getWorld ()Lnone/aiu;
+		METHOD f getEntity ()Lnone/se;
+		METHOD h getServer ()Lnet/minecraft/server/MinecraftServer;
+		METHOD h_ getName ()Ljava/lang/String;
+		METHOD i_ getNameComponent ()Lnone/fa;
+		METHOD y_ shouldEchoCommandFeedback ()Z
+	CLASS none/art$2
+		METHOD a hasPermission (ILjava/lang/String;)Z
+			ARG 0 permissionLevel
+			ARG 1 commandName
+		METHOD a appendCommandFeedback (Lnone/fa;)V
+			ARG 0 component
+		METHOD a updateCommandStat (Lnone/o$a;I)V
+			ARG 0 statType
+			ARG 1 statValue
+		METHOD c getBlockPos ()Lnone/cn;
+		METHOD d getPos ()Lnone/bcs;
+		METHOD e getWorld ()Lnone/aiu;
+		METHOD f getEntity ()Lnone/se;
+		METHOD h getServer ()Lnet/minecraft/server/MinecraftServer;
+		METHOD h_ getName ()Ljava/lang/String;
+		METHOD i_ getNameComponent ()Lnone/fa;
+		METHOD y_ shouldEchoCommandFeedback ()Z
+	FIELD a text [Lnone/fa;
+	METHOD C_ getUpdatePacket ()Lnone/fy;
+	METHOD a deserializeTag (Lnone/dt;)V
+	METHOD a (Z)V
+	METHOD b onLoad (Lnone/aiu;)V
+		ARG 0 world
+	METHOD b serializeTag (Lnone/dt;)Lnone/dt;
+	METHOD c writeToTag ()Lnone/dt;

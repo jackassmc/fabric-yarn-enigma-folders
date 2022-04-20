@@ -1,0 +1,17 @@
+CLASS vv net/minecraft/entity/EntityWithAiGoals
+	FIELD a aiHome Let;
+	FIELD b aiRadius F
+	FIELD bv ID Ljava/util/UUID;
+	METHOD <init> (Lams;)V
+		ARG 0 world
+	METHOD P canSpawn ()Z
+	METHOD a setAiHome (Let;I)V
+		ARG 0 home
+		ARG 1 radius
+	METHOD df isInAiRange ()Z
+	METHOD dg getAiHome ()Let;
+	METHOD dh getAiRadius ()F
+	METHOD di setAiRangeUnlimited ()V
+	METHOD dj hasLimitedAiRange ()Z
+	METHOD f isInAiRange (Let;)Z
+		ARG 0 pos

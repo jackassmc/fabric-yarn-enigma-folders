@@ -1,0 +1,2 @@
+CLASS dyf net/minecraft/client/tutorial/NoneTutorialStepHandler
+	FIELD a manager Ldyl;

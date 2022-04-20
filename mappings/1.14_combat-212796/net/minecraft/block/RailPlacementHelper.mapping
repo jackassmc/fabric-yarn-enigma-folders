@@ -1,0 +1,32 @@
+CLASS bqt net/minecraft/block/RailPlacementHelper
+	FIELD a world Lbhn;
+	FIELD b pos Lev;
+	FIELD c block Lbmj;
+	FIELD d state Lbvp;
+	FIELD e allowCurves Z
+	FIELD f neighbors Ljava/util/List;
+	METHOD <init> (Lbhn;Lev;Lbvp;)V
+		ARG 1 world
+		ARG 2 pos
+		ARG 3 state
+	METHOD a getNeighbors ()Ljava/util/List;
+	METHOD a isNeighbor (Lbqt;)Z
+		ARG 1 other
+	METHOD a computeNeighbors (Lbwt;)V
+		ARG 1 shape
+	METHOD a isVerticallyNearRail (Lev;)Z
+		ARG 1 pos
+	METHOD a updateBlockState (ZZ)Lbqt;
+		ARG 1 powered
+		ARG 2 forceUpdate
+	METHOD b (Lbqt;)Z
+		ARG 1 placementHelper
+	METHOD b (Lev;)Lbqt;
+		ARG 1 pos
+	METHOD c getBlockState ()Lbvp;
+	METHOD c (Lbqt;)V
+		ARG 1 placementHelper
+	METHOD c isNeighbor (Lev;)Z
+		ARG 1 pos
+	METHOD d (Lev;)Z
+		ARG 1 pos

@@ -1,0 +1,5 @@
+CLASS baj net/minecraft/item/GlassBottleItem
+	METHOD a fill (Lbcb;Lavy;Lbcb;)Lbcb;
+		ARG 1 emptyBottle
+		ARG 2 player
+		ARG 3 filledBottle

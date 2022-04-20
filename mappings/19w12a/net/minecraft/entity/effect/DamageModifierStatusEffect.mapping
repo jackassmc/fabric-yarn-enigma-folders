@@ -1,0 +1,4 @@
+CLASS ahn net/minecraft/entity/effect/DamageModifierStatusEffect
+	FIELD a modifier D
+	METHOD <init> (Lahr;ID)V
+		ARG 2 color

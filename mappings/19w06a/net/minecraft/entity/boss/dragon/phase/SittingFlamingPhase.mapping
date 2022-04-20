@@ -1,0 +1,3 @@
+CLASS aoq net/minecraft/entity/boss/dragon/phase/SittingFlamingPhase
+	METHOD <init> (Laoe;)V
+		ARG 1 dragon

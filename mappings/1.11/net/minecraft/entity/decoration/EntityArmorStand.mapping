@@ -1,0 +1,104 @@
+CLASS yw net/minecraft/entity/decoration/EntityArmorStand
+	FIELD a ARMOR_STAND_FLAGS Lkk;
+	FIELD bD headRotation Ldi;
+	FIELD bE bodyRotation Ldi;
+	FIELD bF leftArmRotation Ldi;
+	FIELD bG rightArmRotation Ldi;
+	FIELD bH leftLegRotation Ldi;
+	FIELD b TRACKER_HEAD_ROTATION Lkk;
+	FIELD br DEFAULT_HEAD_ROTATION Ldi;
+	FIELD bs DEFAULT_BODY_ROTATION Ldi;
+	FIELD bt DEFAULT_LEFT_ARM_ROTATION Ldi;
+	FIELD bu DEFAULT_RIGHT_ARM_ROTATION Ldi;
+	FIELD bv DEFAULT_LEFT_LEG_ROTATION Ldi;
+	FIELD by heldItems Ldd;
+	FIELD c TRACKER_BODY_ROTATION Lkk;
+	FIELD d TRACKER_LEFT_ARM_ROTATION Lkk;
+	FIELD e TRACKER_RIGHT_ARM_ROTATION Lkk;
+	FIELD f TRACKER_LEFT_LEG_ROTATION Lkk;
+	FIELD g TRACKER_RIGHT_LEG_ROTATION Lkk;
+	METHOD A getRightLegRotation ()Ldi;
+	METHOD C serializePose ()Ldu;
+	METHOD C pushAway (Lsm;)V
+		ARG 0 entity
+	METHOD F updatePotionVisibility ()V
+	METHOD a setBitField (BIZ)B
+		ARG 0 value
+		ARG 1 bitField
+		ARG 2 on
+	METHOD a shouldRender (D)Z
+		ARG 0 distanceSq
+	METHOD a setSize (FF)V
+		ARG 0 width
+		ARG 1 height
+	METHOD a interact (Laax;Lbdu;Lrh;)Lrj;
+		ARG 0 player
+		ARG 1 hitPos
+		ARG 2 hand
+	METHOD a setHeadRotation (Ldi;)V
+		ARG 0 rotation
+	METHOD a deserializeCustomData (Ldu;)V
+		ARG 0 tag
+	METHOD a onTrackedDataSet (Lkk;)V
+		ARG 0 data
+	METHOD a damage (Lrx;F)Z
+		ARG 0 source
+		ARG 1 damage
+	METHOD a setEquippedStack (Lsr;Lafi;)V
+		ARG 0 slot
+		ARG 1 stack
+	METHOD a onStruckByLightning (Lzf;)V
+		ARG 0 lightning
+	METHOD a onSmallValueChange (Z)V
+		ARG 0 newValue
+	METHOD aG getItemsHand ()Ljava/lang/Iterable;
+	METHOD aH getItemsArmor ()Ljava/lang/Iterable;
+	METHOD aq doesCollide ()Z
+	METHOD b setBodyRotation (Ldi;)V
+		ARG 0 rotation
+	METHOD b serializeCustomData (Ldu;)V
+		ARG 0 tag
+	METHOD b registerTagUpgraders (Lph;)V
+		ARG 0 handler
+	METHOD b getEquippedStack (Lsr;)Lafi;
+		ARG 0 slot
+	METHOD bW getSoundDeath ()Lnm;
+	METHOD bX getSoundHurt ()Lnm;
+	METHOD bq getEyeHeight ()F
+	METHOD bt isImmuneToExplosion ()Z
+	METHOD c setLeftArmRotation (Ldi;)V
+		ARG 0 rotation
+	METHOD cx getMainHand ()Lsu;
+	METHOD d setRightArmRotation (Ldi;)V
+		ARG 0 rotation
+	METHOD e getSoundFall (I)Lnm;
+		ARG 0 height
+	METHOD e setLeftLegRotation (Ldi;)V
+		ARG 0 rotation
+	METHOD f setRightLegRotation (Ldi;)V
+		ARG 0 rotation
+	METHOD g deserializePose (Ldu;)V
+		ARG 0 poseData
+	METHOD h setHeadPitch (F)V
+		ARG 0 value
+	METHOD h setInvisible (Z)V
+		ARG 0 value
+	METHOD i initDataTracker ()V
+	METHOD l_ isChild ()Z
+	METHOD m (Z)V
+	METHOD n setSmall (Z)V
+		ARG 0 value
+	METHOD o isSmall ()Z
+	METHOD o setShowArms (Z)V
+		ARG 0 value
+	METHOD o_ getPistonBehavior ()Lazt;
+	METHOD p setHideBasePlate (Z)V
+		ARG 0 value
+	METHOD r shouldShowArms ()Z
+	METHOD s shouldHideBasePlate ()Z
+	METHOD t isMarker ()Z
+	METHOD u getHeadRotation ()Ldi;
+	METHOD w getBodyRotation ()Ldi;
+	METHOD x getLeftArmRotation ()Ldi;
+	METHOD y getRightArmRotation ()Ldi;
+	METHOD z getLeftLegRotation ()Ldi;

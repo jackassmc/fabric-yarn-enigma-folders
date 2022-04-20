@@ -1,0 +1,4 @@
+CLASS cgx net/minecraft/world/AnvilWorldSaveHandler
+	METHOD a createChunkSaveHandler (Lbre;)Lbqy;
+	METHOD a saveWorld (Lchd;Lhq;)V
+		ARG 1 properties

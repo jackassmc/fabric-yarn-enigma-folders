@@ -1,0 +1,7 @@
+CLASS csu net/minecraft/client/render/Tessellator
+	FIELD a buffer Lcsr;
+	FIELD b renderer Lcss;
+	FIELD c INSTANCE Lcsu;
+	METHOD a getInstance ()Lcsu;
+	METHOD b draw ()V
+	METHOD c getBufferBuilder ()Lcsr;

@@ -1,0 +1,24 @@
+CLASS cvc net/minecraft/client/gui/container/GrindstoneGui
+	FIELD w TEXTURE Lqc;
+	FIELD x grindstone Latn;
+	FIELD y playerInventory Lara;
+	METHOD a drawBackground (FII)V
+		ARG 1 mouseX
+		ARG 2 mouseY
+		ARG 3 delta
+	METHOD a draw (IIF)V
+		ARG 1 mouseX
+		ARG 2 mouseY
+	METHOD a onContainerPropertyUpdate (Lasw;II)V
+		ARG 1 container
+		ARG 2 propertyId
+	METHOD a onContainerSlotUpdate (Lasw;ILawo;)V
+		ARG 1 container
+		ARG 2 slotId
+	METHOD a onContainerInvRegistered (Lasw;Lafi;)V
+		ARG 1 container
+	METHOD a onContainerRegistered (Lasw;Lfh;)V
+		ARG 1 container
+	METHOD c drawForeground (II)V
+		ARG 1 mouseX
+		ARG 2 mouseY

@@ -1,0 +1,30 @@
+CLASS aow net/minecraft/entity/decoration/ItemFrameEntity
+	FIELD aw itemDropChance F
+	FIELD f ITEM_STACK Lpt;
+	FIELD g ROTATION Lpt;
+	METHOD a shouldRenderAtDistance (D)Z
+	METHOD a setRotation (I)V
+	METHOD a setRotation (IZ)V
+		ARG 1 value
+	METHOD a damage (Lagm;F)Z
+		ARG 1 source
+		ARG 2 amount
+	METHOD a copyEntityData (Lahd;)V
+	METHOD a setHeldItemStack (Laxd;Z)V
+		ARG 1 value
+	METHOD a setFacing (Ley;)V
+	METHOD a readCustomDataFromTag (Lhs;)V
+	METHOD a onTrackedDataSet (Lpt;)V
+	METHOD aP getBoundingBoxMarginForTargeting ()F
+	METHOD b interact (Lark;Lafy;)Z
+		ARG 1 player
+	METHOD b setHeldItemStack (Laxd;)V
+	METHOD b writeCustomDataToTag (Lhs;)V
+	METHOD bH getEyeHeight ()F
+	METHOD f shouldShowBottom ()Z
+	METHOD i getWidthPixels ()I
+	METHOD k getHeightPixels ()I
+	METHOD l ()V
+	METHOD n getHeldItemStack ()Laxd;
+	METHOD o getRotation ()I
+	METHOD w_ initDataTracker ()V

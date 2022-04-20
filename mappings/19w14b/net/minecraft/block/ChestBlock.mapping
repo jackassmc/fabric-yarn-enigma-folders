@@ -1,0 +1,29 @@
+CLASS bmq net/minecraft/block/ChestBlock
+	CLASS bmq$2
+		CLASS bmq$2$1
+			METHOD createMenu (ILavn;Lavo;)Laxs;
+				ARG 1 syncId
+	CLASS bmq$a PropertyRetriever
+		METHOD b getFromSingleChest (Lbtg;)Ljava/lang/Object;
+		METHOD b getFromDoubleChest (Lbtg;Lbtg;)Ljava/lang/Object;
+	FIELD a FACING Lbvu;
+	FIELD b CHEST_TYPE Lbvx;
+	FIELD c WATERLOGGED Lbvr;
+	FIELD d DOUBLE_NORTH_SHAPE Lcsf;
+	FIELD e DOUBLE_SOUTH_SHAPE Lcsf;
+	FIELD f DOUBLE_WEST_SHAPE Lcsf;
+	FIELD g DOUBLE_EAST_SHAPE Lcsf;
+	FIELD h SINGLE_SHAPE Lcsf;
+	FIELD i INVENTORY_RETRIEVER Lbmq$a;
+	FIELD j NAME_RETRIEVER Lbmq$a;
+	METHOD <init> (Lbmb$c;)V
+		ARG 1 settings
+	METHOD a getNeighborChestDirection (Lazv;Lfa;)Lfa;
+	METHOD a hasBlockOnTop (Lbgi;Lev;)Z
+	METHOD a isChestBlocked (Lbgy;Lev;)Z
+	METHOD a getInventory (Lbuz;Lbgx;Lev;Z)Lago;
+	METHOD a retrieve (Lbuz;Lbgy;Lev;ZLbmq$a;)Ljava/lang/Object;
+	METHOD b hasOcelotOnTop (Lbgy;Lev;)Z
+	METHOD d getOpenStat ()Lyp;
+	METHOD j getFacing (Lbuz;)Lfa;
+		ARG 0 state

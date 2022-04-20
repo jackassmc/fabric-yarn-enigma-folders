@@ -1,0 +1,9 @@
+CLASS asx net/minecraft/entity/vehicle/HopperMinecartEntity
+	FIELD d enabled Z
+	FIELD e transferCooldown I
+	FIELD f currentBlockPos Let;
+	METHOD B canOperate ()Z
+	METHOD C isCoolingDown ()Z
+	METHOD l setTransferCooldown (I)V
+	METHOD n setEnabled (Z)V
+	METHOD u isEnabled ()Z

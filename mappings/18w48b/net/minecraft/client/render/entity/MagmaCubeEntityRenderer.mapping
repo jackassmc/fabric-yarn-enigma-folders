@@ -1,0 +1,4 @@
+CLASS dho net/minecraft/client/render/entity/MagmaCubeEntityRenderer
+	FIELD a SKIN Lpy;
+	METHOD a getTexture (Lagi;)Lpy;
+	METHOD a getTexture (Lapg;)Lpy;

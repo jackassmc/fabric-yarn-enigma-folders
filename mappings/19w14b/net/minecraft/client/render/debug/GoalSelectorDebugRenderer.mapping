@@ -1,0 +1,4 @@
+CLASS dni net/minecraft/client/render/debug/GoalSelectorDebugRenderer
+	FIELD a client Lcux;
+	FIELD b goalSelectors Ljava/util/Map;
+	METHOD a setGoalSelectorList (ILjava/util/List;)V

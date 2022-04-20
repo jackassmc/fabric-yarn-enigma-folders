@@ -1,0 +1,3 @@
+CLASS dro net/minecraft/client/render/entity/TridentEntityRenderer
+	FIELD a SKIN Lqs;
+	FIELD f model Ldgl;

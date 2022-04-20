@@ -1,0 +1,59 @@
+CLASS bgb net/minecraft/village/TraderRecipe
+	FIELD a firstBuyItem Lbbr;
+	FIELD b secondBuyItem Lbbr;
+	FIELD c sellItem Lbbr;
+	FIELD d uses I
+	FIELD e maxUses I
+	FIELD f rewardExp Z
+	FIELD g tax I
+	FIELD h demandBonus I
+	FIELD i priceMultiplier F
+	FIELD j rewardedExp I
+	METHOD <init> (Lbbr;Lbbr;IIF)V
+		ARG 1 buyItem
+		ARG 2 sellItem
+		ARG 3 maxUses
+		ARG 4 rewardedExp
+		ARG 5 priceMultiplier
+	METHOD <init> (Lbbr;Lbbr;Lbbr;IIF)V
+		ARG 1 firstBuyItem
+		ARG 2 secondBuyItem
+		ARG 3 sellItem
+		ARG 4 maxUses
+		ARG 5 rewardedExp
+		ARG 6 priceMultiplier
+	METHOD <init> (Lbbr;Lbbr;Lbbr;IIIF)V
+		ARG 1 firstBuyItem
+		ARG 2 secondBuyItem
+		ARG 3 sellItem
+		ARG 4 uses
+		ARG 5 maxUses
+		ARG 6 rewardedExp
+		ARG 7 priceMultiplier
+	METHOD a getFirstBuyItem ()Lbbr;
+	METHOD a increaseTax (I)V
+	METHOD a matchesBuyItems (Lbbr;Lbbr;)Z
+		ARG 1 first
+		ARG 2 second
+	METHOD b getDiscountedFirstBuyItem ()Lbbr;
+	METHOD b setTax (I)V
+	METHOD b depleteBuyItems (Lbbr;Lbbr;)Z
+	METHOD c getSecondBuyItem ()Lbbr;
+	METHOD c acceptsBuy (Lbbr;Lbbr;)Z
+		ARG 1 given
+		ARG 2 sample
+	METHOD d getModifiableSellItem ()Lbbr;
+	METHOD e updatePriceOnDemand ()V
+	METHOD f getSellItem ()Lbbr;
+	METHOD g getUses ()I
+	METHOD h resetUses ()V
+	METHOD i getMaxUses ()I
+	METHOD j use ()V
+	METHOD k clearTax ()V
+	METHOD l getTax ()I
+	METHOD m getPriceMultiplier ()F
+	METHOD n getRewardedExp ()I
+	METHOD o isDisabled ()Z
+	METHOD p clearUses ()V
+	METHOD q shouldRewardExp ()Z
+	METHOD r toTag ()Lib;

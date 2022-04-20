@@ -1,0 +1,49 @@
+CLASS auz net/minecraft/entity/mob/SlimeEntity
+	CLASS a
+		FIELD a slime Lauz;
+		METHOD <init> (Lauz;)V
+			ARG 1 slime
+	CLASS b
+		FIELD a slime Lauz;
+		METHOD <init> (Lauz;)V
+			ARG 1 slime
+	CLASS c
+		FIELD a slime Lauz;
+		METHOD <init> (Lauz;)V
+			ARG 1 slime
+	CLASS d SlimeMoveControl
+		FIELD i targetYaw F
+		FIELD j ticksUntilJump I
+		FIELD k slime Lauz;
+		FIELD l jumpOften Z
+		METHOD <init> (Lauz;)V
+			ARG 1 slime
+		METHOD a move (D)V
+			ARG 1 speed
+		METHOD a look (FZ)V
+			ARG 1 targetYaw
+			ARG 2 jumpOften
+	CLASS e
+		FIELD a slime Lauz;
+		METHOD <init> (Lauz;)V
+			ARG 1 slime
+	FIELD bA onGroundLastTick Z
+	FIELD b targetStretch F
+	FIELD bz SLIME_SIZE Lqi;
+	FIELD c stretch F
+	FIELD d lastStretch F
+	METHOD a setSize (IZ)V
+		ARG 1 size
+		ARG 2 heal
+	METHOD dU getTicksUntilNextJump ()I
+	METHOD dV updateStretch ()V
+	METHOD dW isBig ()Z
+	METHOD dX getDamageAmount ()I
+	METHOD dY getSquishSound ()Lym;
+	METHOD dZ getJumpSound ()Lym;
+	METHOD ea getSize ()I
+	METHOD eb isSmall ()Z
+	METHOD ec makesJumpSound ()Z
+	METHOD h damage (Laiu;)V
+		ARG 1 target
+	METHOD l getParticles ()Lge;

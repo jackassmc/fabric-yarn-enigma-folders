@@ -1,0 +1,10 @@
+CLASS cff net/minecraft/world/loot/function/LootTableFunctionLootingEnchant
+	CLASS cff$b DeSerializer
+		METHOD a serialize (Lcom/google/gson/JsonObject;Lcff;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD a deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;[Lcgg;)Lcff;
+		METHOD b deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;[Lcgg;)Lcfc;
+	FIELD a range Lcee;
+	FIELD c amount I
+	METHOD a apply (Lauc;Lcdw;)Lauc;
+		ARG 0 stack
+		ARG 1 context

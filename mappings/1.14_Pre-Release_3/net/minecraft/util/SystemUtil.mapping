@@ -1,0 +1,52 @@
+CLASS p net/minecraft/util/SystemUtil
+	CLASS p$a IdentityHashStrategy
+		FIELD a INSTANCE Lp$a;
+	CLASS p$b OperatingSystem
+		FIELD a UNIX Lp$b;
+		FIELD b SOLARIS Lp$b;
+		FIELD c WINDOWS Lp$b;
+		FIELD d MAC Lp$b;
+		FIELD e UNKNOWN Lp$b;
+		METHOD a open (Ljava/io/File;)V
+		METHOD a open (Ljava/lang/String;)V
+		METHOD a open (Ljava/net/URI;)V
+		METHOD a open (Ljava/net/URL;)V
+		METHOD b getURLOpenCommand (Ljava/net/URL;)[Ljava/lang/String;
+	FIELD a nanoTimeSupplier Ljava/util/function/LongSupplier;
+	FIELD c SERVER_WORKER_EXECUTOR Ljava/util/concurrent/ExecutorService;
+	FIELD d LOGGER Lorg/apache/logging/log4j/Logger;
+	METHOD a toMap ()Ljava/util/stream/Collector;
+	METHOD a getValueAsString (Lbwi;Ljava/lang/Object;)Ljava/lang/String;
+	METHOD a next (Ljava/lang/Iterable;Ljava/lang/Object;)Ljava/lang/Object;
+	METHOD a consume (Ljava/lang/Object;Ljava/util/function/Consumer;)Ljava/lang/Object;
+	METHOD a debugRunnable (Ljava/lang/Runnable;Ljava/util/function/Supplier;)Ljava/lang/Runnable;
+		ARG 0 runnable
+		ARG 1 messageSupplier
+	METHOD a readUuid (Ljava/lang/String;Lcom/mojang/datafixers/Dynamic;)Ljava/util/Optional;
+		ARG 0 name
+		ARG 1 dynamic
+	METHOD a writeUuid (Ljava/lang/String;Ljava/util/UUID;Lcom/mojang/datafixers/Dynamic;)Lcom/mojang/datafixers/Dynamic;
+		ARG 0 name
+		ARG 1 uuid
+		ARG 2 dynamic
+	METHOD a createTranslationKey (Ljava/lang/String;Lqs;)Ljava/lang/String;
+		ARG 0 type
+		ARG 1 id
+	METHOD a completeExceptionally (Ljava/lang/Throwable;)Ljava/util/concurrent/CompletableFuture;
+	METHOD a stream (Ljava/util/Optional;)Ljava/util/stream/Stream;
+	METHOD a ifPresentOrElse (Ljava/util/Optional;Ljava/util/function/Consumer;Ljava/lang/Runnable;)Ljava/util/Optional;
+	METHOD a get (Ljava/util/function/Supplier;)Ljava/lang/Object;
+		ARG 0 supplier
+	METHOD b getMeasuringTimeMs ()J
+	METHOD b previous (Ljava/lang/Iterable;Ljava/lang/Object;)Ljava/lang/Object;
+	METHOD b thenCombine (Ljava/util/List;)Ljava/util/concurrent/CompletableFuture;
+		ARG 0 futures
+	METHOD c getMeasuringTimeNano ()J
+	METHOD d getEpochTimeMs ()J
+	METHOD e getServerWorkerExecutor ()Ljava/util/concurrent/Executor;
+	METHOD f shutdownServerWorkerExecutor ()V
+	METHOD g getOperatingSystem ()Lp$b;
+	METHOD h getJVMFlags ()Ljava/util/stream/Stream;
+	METHOD i identityHashStrategy ()Lit/unimi/dsi/fastutil/Hash$Strategy;
+	METHOD j getLogger ()Lorg/apache/logging/log4j/Logger;
+	METHOD k createServerWorkerExecutor ()Ljava/util/concurrent/ExecutorService;

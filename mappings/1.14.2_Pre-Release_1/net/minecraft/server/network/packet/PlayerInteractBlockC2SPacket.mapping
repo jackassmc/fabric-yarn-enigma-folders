@@ -1,0 +1,4 @@
+CLASS ph net/minecraft/server/network/packet/PlayerInteractBlockC2SPacket
+	FIELD b hand Lahc;
+	METHOD b getHand ()Lahc;
+	METHOD c getHitY ()Lcrt;

@@ -1,0 +1,8 @@
+CLASS cyl net/minecraft/client/gui/ingame/ConfirmChatLinkScreen
+	FIELD d warning Ljava/lang/String;
+	FIELD e copy Ljava/lang/String;
+	FIELD f link Ljava/lang/String;
+	FIELD g drawWarning Z
+	METHOD <init> (Lit/unimi/dsi/fastutil/booleans/BooleanConsumer;Ljava/lang/String;Z)V
+		ARG 2 link
+	METHOD a copyToClipboard ()V

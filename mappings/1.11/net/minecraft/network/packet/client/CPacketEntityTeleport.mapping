@@ -1,0 +1,25 @@
+CLASS ij net/minecraft/network/packet/client/CPacketEntityTeleport
+	FIELD a id I
+	FIELD b x D
+	FIELD c y D
+	FIELD d z D
+	FIELD e yaw B
+	FIELD f pitch B
+	FIELD g onGround Z
+	METHOD <init> (Lsm;)V
+		ARG 0 entity
+	METHOD a getId ()I
+	METHOD a readPacket (Let;)V
+		ARG 0 packet
+	METHOD a applyPacket (Lew;)V
+		ARG 0 handler
+	METHOD a applyPacket (Lfp;)V
+		ARG 0 handler
+	METHOD b getX ()D
+	METHOD b writePacket (Let;)V
+		ARG 0 packet
+	METHOD c getY ()D
+	METHOD d getZ ()D
+	METHOD e getYaw ()B
+	METHOD f getPitch ()B
+	METHOD g isOnGround ()Z

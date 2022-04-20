@@ -1,0 +1,4 @@
+CLASS awx net/minecraft/enchantment/EnchantmentInfinity
+	METHOD a getHighestLevel ()I
+	METHOD a differs (Laxe;)Z
+		ARG 0 other

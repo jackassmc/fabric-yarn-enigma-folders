@@ -1,0 +1,35 @@
+CLASS dqc net/minecraft/client/render/model/ModelRotation
+	FIELD a X0_Y0 Ldqc;
+	FIELD b X0_Y90 Ldqc;
+	FIELD c X0_Y180 Ldqc;
+	FIELD d X0_Y270 Ldqc;
+	FIELD e X90_Y0 Ldqc;
+	FIELD f X90_Y90 Ldqc;
+	FIELD g X90_Y180 Ldqc;
+	FIELD h X90_Y270 Ldqc;
+	FIELD i X180_Y0 Ldqc;
+	FIELD j X180_Y90 Ldqc;
+	FIELD k X180_Y180 Ldqc;
+	FIELD l X180_Y270 Ldqc;
+	FIELD m X270_Y0 Ldqc;
+	FIELD n X270_Y90 Ldqc;
+	FIELD o X270_Y180 Ldqc;
+	FIELD p X270_Y270 Ldqc;
+	FIELD q BY_INDEX Ljava/util/Map;
+	FIELD r index I
+	FIELD s quaternion Lcpk;
+	FIELD t xRotations I
+	FIELD u yRotations I
+	METHOD <init> (Ljava/lang/String;III)V
+		ARG 3 x
+		ARG 4 y
+	METHOD a getQuaternion ()Lcpk;
+	METHOD a get (II)Ldqc;
+		ARG 0 x
+		ARG 1 y
+	METHOD a apply (Ley;)Ley;
+		ARG 1 direction
+	METHOD b getRotation ()Ldqc;
+	METHOD b getIndex (II)I
+		ARG 0 x
+		ARG 1 y

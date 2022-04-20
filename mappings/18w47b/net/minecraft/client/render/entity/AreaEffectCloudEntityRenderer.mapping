@@ -1,0 +1,3 @@
+CLASS dfb net/minecraft/client/render/entity/AreaEffectCloudEntityRenderer
+	METHOD a getTexture (Lagd;)Lpy;
+	METHOD a getTexture (Lagf;)Lpy;

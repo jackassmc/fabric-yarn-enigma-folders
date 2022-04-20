@@ -1,0 +1,11 @@
+CLASS cdg net/minecraft/fluid/WaterFluid
+	CLASS cdg$a Flowing
+		METHOD a appendProperties (Lboi$a;)V
+	CLASS cdg$b Still
+	METHOD a getRenderLayer ()Lbaa;
+	METHOD a matchesType (Lccy;)Z
+	METHOD b getBucketItem ()Lavj;
+	METHOD b toBlockState (Lccz;)Lboh;
+	METHOD d getBlastResistance ()F
+	METHOD e getFlowing ()Lccy;
+	METHOD f getStill ()Lccy;

@@ -1,0 +1,8 @@
+CLASS azp net/minecraft/item/block/BannerItem
+	METHOD <init> (Lbma;Lbma;Lbbk$a;)V
+		ARG 1 standingBlock
+		ARG 2 wallBlock
+	METHOD a buildBannerTooltip (Lbbp;Ljava/util/List;)V
+		ARG 0 stack
+		ARG 1 list
+	METHOD b getColor ()Lbam;

@@ -1,0 +1,56 @@
+CLASS pu net/minecraft/entity/data/TrackedDataHandlerRegistry
+	CLASS pu$1
+		METHOD b read (Lis;)Ljava/lang/Byte;
+	CLASS pu$11
+		METHOD b read (Lis;)Ljava/lang/Integer;
+	CLASS pu$12
+		METHOD b read (Lis;)Ljava/lang/Float;
+	CLASS pu$13
+		METHOD b read (Lis;)Ljava/lang/String;
+	CLASS pu$14
+		METHOD b read (Lis;)Ljc;
+	CLASS pu$15
+		METHOD b read (Lis;)Ljava/util/Optional;
+	CLASS pu$16
+		METHOD b read (Lis;)Laxm;
+	CLASS pu$17
+		METHOD b read (Lis;)Ljava/util/Optional;
+	CLASS pu$18
+		METHOD b read (Lis;)Ljava/lang/Boolean;
+	CLASS pu$2
+		METHOD b read (Lis;)Lft;
+	CLASS pu$3
+		METHOD b read (Lis;)Lfl;
+	CLASS pu$4
+		METHOD b read (Lis;)Let;
+	CLASS pu$5
+		METHOD b read (Lis;)Ljava/util/Optional;
+	CLASS pu$6
+		METHOD b read (Lis;)Ley;
+	CLASS pu$7
+		METHOD b read (Lis;)Ljava/util/Optional;
+	CLASS pu$8
+		METHOD b read (Lis;)Lhr;
+	FIELD a BYTE Lpt;
+	FIELD b INTEGER Lpt;
+	FIELD c FLOAT Lpt;
+	FIELD d STRING Lpt;
+	FIELD e TEXT_COMPONENT Lpt;
+	FIELD f OPTIONAL_TEXT_COMPONENT Lpt;
+	FIELD g ITEM_STACK Lpt;
+	FIELD h OPTIONAL_BLOCK_STATE Lpt;
+	FIELD i BOOLEAN Lpt;
+	FIELD j PARTICLE Lpt;
+	FIELD k ROTATION Lpt;
+	FIELD l BLOCK_POS Lpt;
+	FIELD m OPTIONA_BLOCK_POS Lpt;
+	FIELD n FACING Lpt;
+	FIELD o OPTIONAL_UUID Lpt;
+	FIELD p TAG_COMPOUND Lpt;
+	FIELD q VILLAGER_DATA Lpt;
+	METHOD a get (I)Lpt;
+		ARG 0 id
+	METHOD a register (Lpt;)V
+		ARG 0 handler
+	METHOD b getId (Lpt;)I
+		ARG 0 handler

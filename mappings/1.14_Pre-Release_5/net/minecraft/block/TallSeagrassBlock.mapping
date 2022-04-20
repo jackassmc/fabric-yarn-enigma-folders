@@ -1,0 +1,5 @@
+CLASS bsg net/minecraft/block/TallSeagrassBlock
+	FIELD c HALF Lbwh;
+	FIELD d SHAPE Lcsp;
+	METHOD <init> (Lbml$c;)V
+		ARG 1 settings

@@ -1,0 +1,14 @@
+CLASS dft net/minecraft/client/render/entity/EntityRenderer
+	FIELD a SHADOW_TEX Lpx;
+	FIELD b renderManager Ldfs;
+	METHOD a getTexture (Lagc;)Lpx;
+	METHOD a renderEntityOnFire (Lagc;DDDF)V
+		ARG 2 x
+		ARG 4 y
+	METHOD a renderEntityLabel (Lagc;Ljava/lang/String;DDDI)V
+		ARG 1 entity
+		ARG 2 text
+	METHOD a bindTexture (Lpx;)V
+	METHOD am_ hasSecondPass ()Z
+	METHOD d getFontRenderer ()Lcnk;
+	METHOD e getRenderManager ()Ldfs;

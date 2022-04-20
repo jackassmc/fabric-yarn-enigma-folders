@@ -1,0 +1,7 @@
+CLASS bgc net/minecraft/block/BlockDeadBush
+	METHOD a getBoundingShape (Lbno;Lazl;Les;)Lcjm;
+		ARG 1 state
+		ARG 2 view
+	METHOD b canPlantOnTop (Lbno;Lazl;Les;)Z
+		ARG 1 floor
+		ARG 2 view

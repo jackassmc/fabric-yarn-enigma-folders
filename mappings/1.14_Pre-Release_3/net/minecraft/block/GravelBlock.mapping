@@ -1,0 +1,3 @@
+CLASS bos net/minecraft/block/GravelBlock
+	METHOD <init> (Lbmh$c;)V
+		ARG 1 settings

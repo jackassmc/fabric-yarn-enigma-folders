@@ -1,0 +1,13 @@
+CLASS xu net/minecraft/tag/FluidTags
+	CLASS xu$a
+		METHOD <init> (Lpy;)V
+			ARG 0 id
+		METHOD a values ()Ljava/util/Collection;
+		METHOD a contains (Ljava/lang/Object;)Z
+			ARG 0 value
+		METHOD b entries ()Ljava/util/Collection;
+	FIELD c container Lxy;
+	FIELD d containerChanges I
+	METHOD a register (Ljava/lang/String;)Lxx;
+	METHOD a setContainer (Lxy;)V
+		ARG 0 container

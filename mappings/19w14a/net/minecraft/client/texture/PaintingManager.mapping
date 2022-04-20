@@ -1,0 +1,5 @@
+CLASS duh net/minecraft/client/texture/PaintingManager
+	FIELD a PAINTING_BACK_ID Lqr;
+	METHOD a getPaintingSprite (Lasw;)Ldtq;
+		ARG 1 motive
+	METHOD b getBackSprite ()Ldtq;

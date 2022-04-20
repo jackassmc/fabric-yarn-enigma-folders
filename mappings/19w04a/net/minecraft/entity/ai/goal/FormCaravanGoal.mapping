@@ -1,0 +1,6 @@
+CLASS ajp net/minecraft/entity/ai/goal/FormCaravanGoal
+	FIELD a owner Lanm;
+	FIELD b speed D
+	FIELD c counter I
+	METHOD a canFollow (Lanm;I)Z
+		ARG 2 length

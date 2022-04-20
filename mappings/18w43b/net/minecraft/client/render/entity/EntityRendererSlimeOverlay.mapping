@@ -1,0 +1,10 @@
+CLASS dft net/minecraft/client/render/entity/EntityRendererSlimeOverlay
+	FIELD a renderer Lddw;
+	FIELD b model Lcst;
+	METHOD <init> (Lddw;)V
+		ARG 0 renderer
+	METHOD a shouldMergeTextures ()Z
+	METHOD a render (Lafq;FFFFFFF)V
+		ARG 0 entity
+	METHOD a render (Laoj;FFFFFFF)V
+		ARG 0 entity

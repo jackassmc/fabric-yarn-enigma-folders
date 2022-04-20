@@ -1,0 +1,2 @@
+CLASS boe net/minecraft/block/KelpPlantBlock
+	FIELD a kelpBlock Lbod;

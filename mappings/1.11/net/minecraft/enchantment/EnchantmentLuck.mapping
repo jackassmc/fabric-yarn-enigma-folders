@@ -1,0 +1,7 @@
+CLASS aiq net/minecraft/enchantment/EnchantmentLuck
+	METHOD <init> (Laih$a;Laii;[Lsr;)V
+		ARG 0 weight
+		ARG 2 slotTypes
+	METHOD a isEqual (Laih;)Z
+		ARG 0 other
+	METHOD b getHighestLevel ()I

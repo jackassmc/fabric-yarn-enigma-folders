@@ -1,0 +1,4 @@
+CLASS aff net/minecraft/util/ActionResult
+	FIELD a SUCCESS Laff;
+	FIELD b PASS Laff;
+	FIELD c FAILURE Laff;

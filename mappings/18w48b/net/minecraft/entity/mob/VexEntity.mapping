@@ -1,0 +1,47 @@
+CLASS apv net/minecraft/entity/mob/VexEntity
+	CLASS apv$a ChargeTargetGoal
+		METHOD a canStart ()Z
+		METHOD b shouldContinue ()Z
+		METHOD c start ()V
+		METHOD d onRemove ()V
+		METHOD e tick ()V
+	CLASS apv$b TrackOwnerTargetGoal
+		METHOD <init> (Lapv;Lagy;)V
+			ARG 0 entity
+		METHOD a canStart ()Z
+		METHOD c start ()V
+	CLASS apv$c VexMoveControl
+		METHOD <init> (Lapv;Lapv;)V
+			ARG 0 enttiyVex
+			ARG 2 vex
+		METHOD a tick ()V
+	CLASS apv$d LookAtTargetGoal
+		METHOD a canStart ()Z
+		METHOD b shouldContinue ()Z
+		METHOD e tick ()V
+	FIELD bC alive Z
+	FIELD bD lifeTicks I
+	FIELD b owner Lags;
+	FIELD c bounds Let;
+	METHOD D getAmbientSound ()Lxf;
+	METHOD U_ update ()V
+	METHOD a setLifeTicks (I)V
+	METHOD a initEquipment (Lafa;)V
+	METHOD a setOwner (Lags;)V
+	METHOD a move (Lagw;DDD)V
+		ARG 2 x
+	METHOD a (Lbar;Lafa;Lagu;Lahc;Lhp;)Lahc;
+		ARG 3 difficulty
+	METHOD a readCustomDataFromTag (Lhp;)V
+		ARG 1 tag
+	METHOD aA getLightmapCoordinates ()I
+	METHOD b writeCustomDataToTag (Lhp;)V
+		ARG 1 tag
+	METHOD cb initAttributes ()V
+	METHOD cw getDeathSound ()Lxf;
+	METHOD dA getBounds ()Let;
+	METHOD e getHurtSound (Lafr;)Lxf;
+	METHOD g setBounds (Let;)V
+	METHOD l getOwner ()Lags;
+	METHOD n initAi ()V
+	METHOD x_ initDataTracker ()V

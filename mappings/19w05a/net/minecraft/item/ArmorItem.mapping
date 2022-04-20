@@ -1,0 +1,17 @@
+CLASS avd net/minecraft/item/ArmorItem
+	FIELD a DISPENSER_BEHAVIOR Lfa;
+	FIELD b slot Lahj;
+	FIELD c protection I
+	FIELD d toughness F
+	FIELD e type Lave;
+	FIELD k MODIFIERS [Ljava/util/UUID;
+	METHOD <init> (Lave;Lahj;Laxd$a;)V
+		ARG 1 material
+		ARG 2 slot
+		ARG 3 settings
+	METHOD a dispenseArmor (Leu;Laxi;)Laxi;
+		ARG 0 block
+		ARG 1 armor
+	METHOD b getSlotType ()Lahj;
+	METHOD d getMaterial ()Lave;
+	METHOD e getProtection ()I

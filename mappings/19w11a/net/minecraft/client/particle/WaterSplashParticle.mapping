@@ -1,0 +1,2 @@
+CLASS dia net/minecraft/client/particle/WaterSplashParticle
+	CLASS dia$a net/minecraft/client/particle/WaterSplashParticle$SplashFactory

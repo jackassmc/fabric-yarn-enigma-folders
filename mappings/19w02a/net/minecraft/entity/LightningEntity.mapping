@@ -1,0 +1,6 @@
+CLASS ape net/minecraft/entity/LightningEntity
+	METHOD a readCustomDataFromTag (Lhs;)V
+	METHOD b writeCustomDataToTag (Lhs;)V
+	METHOD bX getSoundCategory ()Lxv;
+	METHOD h update ()V
+	METHOD w_ initDataTracker ()V

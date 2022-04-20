@@ -1,0 +1,7 @@
+CLASS doe net/minecraft/client/render/debug/PathfindingDebugRenderer
+	FIELD a client Lcvo;
+	FIELD b paths Ljava/util/Map;
+	FIELD d pathTimes Ljava/util/Map;
+	METHOD a addPath (ILcnm;F)V
+		ARG 1 id
+		ARG 2 path

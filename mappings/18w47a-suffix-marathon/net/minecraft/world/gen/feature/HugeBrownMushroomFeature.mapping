@@ -1,0 +1,2 @@
+CLASS bur net/minecraft/world/gen/feature/HugeBrownMushroomFeature
+	METHOD a generate (Lban;Lbqc;Ljava/util/Random;Les;Lbuf;)Z

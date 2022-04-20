@@ -1,0 +1,26 @@
+CLASS bsq net/minecraft/block/TripwireHookBlock
+	FIELD a FACING Lbwi;
+	FIELD b POWERED Lbwf;
+	FIELD c ATTACHED Lbwf;
+	FIELD d SOUTH_SHAPE Lcsu;
+	FIELD e NORTH_SHAPE Lcsu;
+	FIELD f EAST_SHAPE Lcsu;
+	FIELD g WEST_SHAPE Lcsu;
+	METHOD <init> (Lbmp$c;)V
+		ARG 1 settings
+	METHOD a update (Lbhl;Lev;Lbvn;ZZILbvn;)V
+		ARG 1 world
+		ARG 2 pos
+		ARG 3 state
+		ARG 4 beingRemoved
+	METHOD a updateNeighborsOnAxis (Lbhl;Lev;Lfa;)V
+		ARG 1 world
+		ARG 2 pos
+		ARG 3 direction
+	METHOD a playSound (Lbhl;Lev;ZZZZ)V
+		ARG 1 world
+		ARG 2 pos
+		ARG 3 attached
+		ARG 4 on
+		ARG 5 detached
+		ARG 6 off

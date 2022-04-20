@@ -1,0 +1,16 @@
+CLASS azw net/minecraft/recipe/Recipe
+	METHOD U_ isIgnoredInRecipeBook ()Z
+	METHOD V_ getSerializer ()Lazy;
+	METHOD a getPreviewInputs ()Lfh;
+	METHOD a fits (II)Z
+		ARG 1 width
+		ARG 2 height
+	METHOD a craft (Lafx;)Laxm;
+	METHOD a matches (Lafx;Lbcu;)Z
+		ARG 1 inv
+	METHOD b getRemainingStacks (Lafx;)Lfh;
+	METHOD c getOutput ()Laxm;
+	METHOD d getGroup ()Ljava/lang/String;
+	METHOD f getId ()Lqd;
+	METHOD g getType ()Lazz;
+	METHOD h getRecipeKindIcon ()Laxm;

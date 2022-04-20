@@ -1,0 +1,2 @@
+CLASS rj net/minecraft/world/loot/ILootTableProvider
+	METHOD b getLootTable ()Lkp;

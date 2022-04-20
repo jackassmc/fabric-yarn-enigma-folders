@@ -1,0 +1,3 @@
+CLASS dso net/minecraft/client/render/entity/feature/CapeFeatureRenderer
+	METHOD <init> (Ldre;)V
+		ARG 1 context

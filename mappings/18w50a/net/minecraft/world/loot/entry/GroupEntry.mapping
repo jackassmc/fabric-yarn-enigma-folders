@@ -1,0 +1,2 @@
+CLASS cjj net/minecraft/world/loot/entry/GroupEntry
+	METHOD a combine ([Lcjf;)Lcjf;

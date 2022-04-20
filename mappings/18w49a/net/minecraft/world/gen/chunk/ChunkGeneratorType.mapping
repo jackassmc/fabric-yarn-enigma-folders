@@ -1,0 +1,5 @@
+CLASS bqc net/minecraft/world/gen/chunk/ChunkGeneratorType
+	FIELD f factory Lbqb;
+	FIELD h settingsSupplier Ljava/util/function/Supplier;
+	METHOD a createSettings ()Lbrn;
+	METHOD a register (Ljava/lang/String;Lbqb;Ljava/util/function/Supplier;Z)Lbqc;

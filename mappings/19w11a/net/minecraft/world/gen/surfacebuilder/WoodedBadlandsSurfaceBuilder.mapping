@@ -1,0 +1,4 @@
+CLASS cim net/minecraft/world/gen/surfacebuilder/WoodedBadlandsSurfaceBuilder
+	FIELD S WHITE_TERRACOTTA Lbtx;
+	FIELD T ORANGE_TERRACOTTA Lbtx;
+	FIELD U TERRACOTTA Lbtx;

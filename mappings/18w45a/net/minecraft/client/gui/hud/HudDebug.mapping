@@ -1,0 +1,4 @@
+CLASS cmx net/minecraft/client/gui/hud/HudDebug
+	FIELD a game Lclx;
+	FIELD f fontRenderer Lcmk;
+	METHOD c drawLeftInfoText ()V

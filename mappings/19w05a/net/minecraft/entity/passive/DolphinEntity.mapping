@@ -1,0 +1,3 @@
+CLASS amp net/minecraft/entity/passive/DolphinEntity
+	CLASS amp$a DolphinMoveControl
+		FIELD i dolphin Lamp;

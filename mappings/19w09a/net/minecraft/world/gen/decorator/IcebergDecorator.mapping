@@ -1,0 +1,5 @@
+CLASS ccn net/minecraft/world/gen/decorator/IcebergDecorator
+	METHOD a (Lbdg;Lbst;Ljava/util/Random;Lbwh;Les;)Ljava/util/stream/Stream;
+		ARG 1 world
+		ARG 2 generator
+		ARG 3 random

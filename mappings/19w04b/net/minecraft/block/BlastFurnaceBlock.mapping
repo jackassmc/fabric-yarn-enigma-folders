@@ -1,0 +1,3 @@
+CLASS bhm net/minecraft/block/BlastFurnaceBlock
+	METHOD <init> (Lbhn$c;)V
+		ARG 1 settings

@@ -1,0 +1,4 @@
+CLASS atn net/minecraft/item/ItemGlassBottle
+	METHOD a use (Lbae;Laqa;Laev;)Laey;
+		ARG 1 world
+		ARG 2 player

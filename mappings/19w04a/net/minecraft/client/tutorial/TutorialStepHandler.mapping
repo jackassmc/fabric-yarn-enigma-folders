@@ -1,0 +1,6 @@
+CLASS dsc net/minecraft/client/tutorial/TutorialStepHandler
+	METHOD a tick ()V
+	METHOD a onSlotUpdate (Laxd;)V
+	METHOD a onBlockAttacked (Ldce;Let;Lbqk;F)V
+	METHOD b destroy ()V
+	METHOD c onInventoryOpened ()V

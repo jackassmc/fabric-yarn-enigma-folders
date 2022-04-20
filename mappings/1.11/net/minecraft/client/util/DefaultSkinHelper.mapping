@@ -1,0 +1,10 @@
+CLASS bzl net/minecraft/client/util/DefaultSkinHelper
+	FIELD a STEVE_SKIN Lkq;
+	FIELD b ALEX_SKIN Lkq;
+	METHOD a getTexture ()Lkq;
+	METHOD a getTexture (Ljava/util/UUID;)Lkq;
+		ARG 0 uuid
+	METHOD b getModel (Ljava/util/UUID;)Ljava/lang/String;
+		ARG 0 uuid
+	METHOD c shouldUseSlimModel (Ljava/util/UUID;)Z
+		ARG 0 uuid

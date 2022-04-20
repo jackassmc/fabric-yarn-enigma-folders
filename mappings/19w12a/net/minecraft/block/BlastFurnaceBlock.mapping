@@ -1,0 +1,3 @@
+CLASS blf net/minecraft/block/BlastFurnaceBlock
+	METHOD <init> (Lblg$c;)V
+		ARG 1 settings

@@ -1,0 +1,6 @@
+CLASS ckp net/minecraft/util/shape/VoxelShapeUtils
+	FIELD a EMPTY Lcks;
+	METHOD a getEmpty ()Lcks;
+	METHOD a createCubeShape (DDDDDD)Lcks;
+		ARG 0 xMin
+	METHOD a createCubeShape (Lcju;)Lcks;

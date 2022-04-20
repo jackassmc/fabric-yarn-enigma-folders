@@ -1,0 +1,4 @@
+CLASS dfw net/minecraft/client/render/entity/EndermanEntityRenderer
+	FIELD a SKIN Lpy;
+	METHOD a getTexture (Lagf;)Lpy;
+	METHOD a getTexture (Laot;)Lpy;

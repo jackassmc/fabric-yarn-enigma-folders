@@ -1,0 +1,31 @@
+CLASS none/iw net/minecraft/network/packet/server/SPacketEntityUse
+	CLASS none/iw$a Type
+		FIELD a INTERACT Lnone/iw$a;
+		FIELD b ATTACK Lnone/iw$a;
+		FIELD c INTERACT_AT Lnone/iw$a;
+	FIELD a targetId I
+	FIELD b type Lnone/iw$a;
+	FIELD c pos Lnone/bcu;
+	FIELD d hand Lnone/ra;
+	METHOD <init> (Lnone/sf;)V
+		ARG 0 target
+	METHOD <init> (Lnone/sf;Lnone/ra;)V
+		ARG 0 target
+		ARG 1 hand
+	METHOD <init> (Lnone/sf;Lnone/ra;Lnone/bcu;)V
+		ARG 0 target
+		ARG 1 hand
+		ARG 2 pos
+	METHOD a getType ()Lnone/iw$a;
+	METHOD a getTarget (Lnone/aiv;)Lnone/sf;
+		ARG 0 world
+	METHOD a readPacket (Lnone/es;)V
+		ARG 0 packet
+	METHOD a applyPacket (Lnone/ev;)V
+		ARG 0 handler
+	METHOD a applyPacket (Lnone/il;)V
+		ARG 0 handler
+	METHOD b getHand ()Lnone/ra;
+	METHOD b writePacket (Lnone/es;)V
+		ARG 0 packet
+	METHOD c getPos ()Lnone/bcu;

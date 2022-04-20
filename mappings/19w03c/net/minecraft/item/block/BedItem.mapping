@@ -1,0 +1,2 @@
+CLASS avf net/minecraft/item/block/BedItem
+	METHOD a setBlockState (Lavh;Lbqi;)Z

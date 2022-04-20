@@ -1,0 +1,7 @@
+CLASS pn net/minecraft/stat/StatEntry
+	FIELD a value I
+	FIELD b extraData Lpo;
+	METHOD a get ()I
+	METHOD a set (I)V
+	METHOD a setExtraData (Lpo;)V
+	METHOD b getExtraData ()Lpo;

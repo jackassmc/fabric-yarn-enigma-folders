@@ -1,0 +1,13 @@
+CLASS aph net/minecraft/entity/PrimedTNTEntity
+	FIELD b FUSE Lps;
+	FIELD c causingEntity Lahl;
+	FIELD d fuseTimer I
+	METHOD <init> (Lbcl;DDDLahl;)V
+		ARG 1 world
+		ARG 2 x
+		ARG 4 y
+	METHOD a setFuse (I)V
+	METHOD e getCausingEntity ()Lahl;
+	METHOD f getFuse ()I
+	METHOD i getFuseTimer ()I
+	METHOD k explode ()V

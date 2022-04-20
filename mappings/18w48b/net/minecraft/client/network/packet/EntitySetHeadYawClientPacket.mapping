@@ -1,0 +1,11 @@
+CLASS lu net/minecraft/client/network/packet/EntitySetHeadYawClientPacket
+	FIELD a entity I
+	FIELD b headYaw B
+	METHOD <init> (Lagi;B)V
+		ARG 1 entity
+	METHOD a getEntity (Lbaq;)Lagi;
+	METHOD a read (Liq;)V
+	METHOD a apply (Lit;)V
+	METHOD a apply (Ljr;)V
+	METHOD b getHeadYaw ()B
+	METHOD b write (Liq;)V

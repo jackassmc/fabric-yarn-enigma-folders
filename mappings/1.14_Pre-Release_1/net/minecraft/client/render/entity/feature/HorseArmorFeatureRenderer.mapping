@@ -1,0 +1,2 @@
+CLASS dsk net/minecraft/client/render/entity/feature/HorseArmorFeatureRenderer
+	FIELD a model Ldek;

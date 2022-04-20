@@ -1,0 +1,5 @@
+CLASS akb net/minecraft/entity/ai/goal/OpenDoorGoal
+	FIELD a closeDoor Z
+	FIELD b timer I
+	METHOD <init> (Lahm;Z)V
+		ARG 1 owner

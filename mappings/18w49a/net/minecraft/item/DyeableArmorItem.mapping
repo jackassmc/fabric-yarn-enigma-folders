@@ -1,0 +1,5 @@
+CLASS aus net/minecraft/item/DyeableArmorItem
+	METHOD a setColor (Lavu;I)V
+	METHOD e hasColor (Lavu;)Z
+	METHOD f getColor (Lavu;)I
+	METHOD g removeColor (Lavu;)V

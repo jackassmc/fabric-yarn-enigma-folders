@@ -1,0 +1,39 @@
+CLASS m net/minecraft/util/SystemUtil
+	CLASS m$a IdentityHashStrategy
+		FIELD a INSTANCE Lm$a;
+	CLASS m$b OperatingSystem
+		CLASS m$b$1
+			METHOD b getURLOpenCommand (Ljava/net/URL;)[Ljava/lang/String;
+		CLASS m$b$2
+			METHOD b getURLOpenCommand (Ljava/net/URL;)[Ljava/lang/String;
+		FIELD a UNIX Lm$b;
+		FIELD b SOLARIS Lm$b;
+		FIELD c WINDOWS Lm$b;
+		FIELD d MAC Lm$b;
+		FIELD e UNKNOWN Lm$b;
+		METHOD a open (Ljava/io/File;)V
+		METHOD a open (Ljava/lang/String;)V
+		METHOD a open (Ljava/net/URI;)V
+		METHOD a open (Ljava/net/URL;)V
+		METHOD b getURLOpenCommand (Ljava/net/URL;)[Ljava/lang/String;
+	FIELD a nanoTimeSupplier Ljava/util/function/LongSupplier;
+	FIELD b LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD c ILLEGAL_FILE_NAME_PATTERN Ljava/util/regex/Pattern;
+	METHOD a toMap ()Ljava/util/stream/Collector;
+	METHOD a getValueAsString (Lbrl;Ljava/lang/Object;)Ljava/lang/String;
+	METHOD a consume (Ljava/lang/Object;Ljava/util/function/Consumer;)Ljava/lang/Object;
+	METHOD a createTranslationKey (Ljava/lang/String;Lqc;)Ljava/lang/String;
+		ARG 0 type
+		ARG 1 id
+	METHOD a get (Ljava/util/function/Supplier;)Ljava/lang/Object;
+		ARG 0 supplier
+	METHOD b getMeasuringTimeMs ()J
+	METHOD b isPathIllegal (Ljava/nio/file/Path;)Z
+	METHOD b thenCombine (Ljava/util/List;)Ljava/util/concurrent/CompletableFuture;
+		ARG 0 futures
+	METHOD c getMeasuringTimeNano ()J
+	METHOD d getEpochTimeMs ()J
+	METHOD e getOperatingSystem ()Lm$b;
+	METHOD f getJVMFlags ()Ljava/util/stream/Stream;
+	METHOD g identityHashStrategy ()Lit/unimi/dsi/fastutil/Hash$Strategy;
+	METHOD h getLogger ()Lorg/apache/logging/log4j/Logger;

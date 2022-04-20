@@ -1,0 +1,15 @@
+CLASS btr net/minecraft/client/texture/BannerTextureCache
+	CLASS btr$a Manager
+		FIELD a cacheMap Ljava/util/Map;
+		FIELD b filename Lmd;
+		FIELD c baseDir Ljava/lang/String;
+		FIELD d id Ljava/lang/String;
+		METHOD a removeOldEntries ()Z
+		METHOD a get (Ljava/lang/String;Ljava/util/List;Ljava/util/List;)Lmd;
+	CLASS btr$b Entry
+		FIELD a lastRequestTimeMillis J
+		FIELD b filename Lmd;
+	FIELD a BANNERS Lbtr$a;
+	FIELD b SHIELDS Lbtr$a;
+	FIELD c DEFAULT_SHIELD Lmd;
+	FIELD d DEFAULT_BANNER Lmd;

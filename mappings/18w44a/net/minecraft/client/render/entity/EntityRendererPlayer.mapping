@@ -1,0 +1,7 @@
+CLASS dio net/minecraft/client/render/entity/EntityRendererPlayer
+	METHOD <init> (Ldei;)V
+		ARG 1 renderManager
+	METHOD a getTexture (Lafv;)Lpu;
+		ARG 1 model
+	METHOD a getTexture (Lcza;)Lpu;
+		ARG 1 model

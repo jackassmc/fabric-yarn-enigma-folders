@@ -1,0 +1,4 @@
+CLASS bll net/minecraft/block/CartographyTableBlock
+	FIELD a CONTAINER_NAME Ljv;
+	METHOD <init> (Lbkz$c;)V
+		ARG 1 settings

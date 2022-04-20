@@ -1,0 +1,7 @@
+CLASS avc net/minecraft/item/ArrowItem
+	METHOD <init> (Lawy$a;)V
+		ARG 1 settings
+	METHOD a createEntityArrow (Lbcl;Laxd;Lahl;)Larn;
+		ARG 1 world
+		ARG 2 stack
+		ARG 3 livingShooter

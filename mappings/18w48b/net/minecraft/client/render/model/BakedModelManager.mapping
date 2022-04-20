@@ -1,0 +1,9 @@
+CLASS dmy net/minecraft/client/render/model/BakedModelManager
+	FIELD a modelMap Ljava/util/Map;
+	FIELD b spriteMap Ldll;
+	FIELD c blockStateMaps Ldcv;
+	FIELD d missingModel Ldmu;
+	METHOD a getMissingModel ()Ldmu;
+	METHOD a getModel (Ldmz;)Ldmu;
+	METHOD a onResourceReload (Lwc;)V
+	METHOD b getBlockStateMaps ()Ldcv;

@@ -1,0 +1,6 @@
+CLASS bvw net/minecraft/predicate/block/BlockPredicate
+	FIELD a block Lbmp;
+	METHOD a make (Lbmp;)Lbvw;
+		ARG 0 block
+	METHOD test (Ljava/lang/Object;)Z
+		ARG 1 context

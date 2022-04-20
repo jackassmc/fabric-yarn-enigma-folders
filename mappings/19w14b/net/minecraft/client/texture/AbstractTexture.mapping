@@ -1,0 +1,9 @@
+CLASS dtj net/minecraft/client/texture/AbstractTexture
+	FIELD a glId I
+	FIELD b bilinear Z
+	FIELD c mipmap Z
+	FIELD d oldBilinear Z
+	FIELD e oldMipmap Z
+	METHOD a setFilter (ZZ)V
+		ARG 1 bilinear
+	METHOD d clearGlId ()V

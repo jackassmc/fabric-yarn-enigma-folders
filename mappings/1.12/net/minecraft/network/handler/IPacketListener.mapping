@@ -1,0 +1,3 @@
+CLASS hb net/minecraft/network/handler/IPacketListener
+	METHOD a onConnectionLost (Lhh;)V
+		ARG 0 reason

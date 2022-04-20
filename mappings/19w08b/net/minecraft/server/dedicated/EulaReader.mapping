@@ -1,0 +1,7 @@
+CLASS qp net/minecraft/server/dedicated/EulaReader
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD b eulaFile Ljava/nio/file/Path;
+	FIELD c eulaAgreedTo Z
+	METHOD a isEulaAgreedTo ()Z
+	METHOD b checkEulaAgreement ()Z
+	METHOD c createEulaFile ()V

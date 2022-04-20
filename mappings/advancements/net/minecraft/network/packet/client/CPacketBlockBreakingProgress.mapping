@@ -1,0 +1,13 @@
+CLASS hh net/minecraft/network/packet/client/CPacketBlockBreakingProgress
+	FIELD a entityId I
+	FIELD b pos Ldx;
+	FIELD c progress I
+	METHOD a getEntityId ()I
+	METHOD a readPacket (Lgb;)V
+		ARG 0 buf
+	METHOD a applyPacket (Lge;)V
+	METHOD a applyPacket (Lgy;)V
+	METHOD b getPos ()Ldx;
+	METHOD b writePacket (Lgb;)V
+		ARG 0 buf
+	METHOD c getProgress ()I

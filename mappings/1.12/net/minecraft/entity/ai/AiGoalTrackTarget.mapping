@@ -1,0 +1,31 @@
+CLASS yy net/minecraft/entity/ai/AiGoalTrackTarget
+	FIELD a checkCanNavigate Z
+	FIELD b canNavigateFlag I
+	FIELD c checkCanNavigateCooldown I
+	FIELD d timeWithoutVisibility I
+	FIELD e entity Lvv;
+	FIELD f checkVisibility Z
+	FIELD h maxTimeWithoutVisibility I
+	METHOD <init> (Lvv;Z)V
+		ARG 0 entity
+		ARG 1 checkVisibility
+	METHOD <init> (Lvv;ZZ)V
+		ARG 0 entity
+		ARG 1 checkVisibility
+		ARG 2 checkCanNavigate
+	METHOD a canNavigateToEntity (Lvn;)Z
+		ARG 0 entity
+	METHOD a canTrack (Lvn;Z)Z
+		ARG 0 target
+		ARG 1 requireVulnerableTarget
+	METHOD a canTrack (Lvo;Lvn;ZZ)Z
+		ARG 0 entity
+		ARG 1 target
+		ARG 2 requireVulnerableTarget
+		ARG 3 checkVisibility
+	METHOD b shouldContinue ()Z
+	METHOD b setMaxTimeWithoutVisibility (I)Lyy;
+		ARG 0 maxTimeWithoutVisibility
+	METHOD c start ()V
+	METHOD d onRemove ()V
+	METHOD i getFollowRange ()D

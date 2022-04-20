@@ -1,0 +1,5 @@
+CLASS ayd net/minecraft/item/SpectralArrowItem
+	METHOD a createEntityArrow (Lbci;Laxc;Lahl;)Larn;
+		ARG 1 world
+		ARG 2 stack
+		ARG 3 livingShooter

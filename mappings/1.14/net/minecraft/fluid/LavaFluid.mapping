@@ -1,0 +1,3 @@
+CLASS clc net/minecraft/fluid/LavaFluid
+	CLASS clc$a Flowing
+	CLASS clc$b Still

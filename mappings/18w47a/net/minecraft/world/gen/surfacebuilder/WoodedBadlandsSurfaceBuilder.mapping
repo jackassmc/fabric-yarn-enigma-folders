@@ -1,0 +1,2 @@
+CLASS cch net/minecraft/world/gen/surfacebuilder/WoodedBadlandsSurfaceBuilder
+	METHOD a generate (Ljava/util/Random;Lbqb;Lbbl;IIIDLboh;Lboh;IJLccf;)V

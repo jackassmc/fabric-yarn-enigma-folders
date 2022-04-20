@@ -1,0 +1,2 @@
+CLASS aym net/minecraft/enchantment/EnchantmentSweeping
+	METHOD a getHighestLevel ()I

@@ -1,0 +1,6 @@
+CLASS bjj net/minecraft/block/WallMountedBlock
+	FIELD C FACE Lbri;
+	METHOD <init> (Lbhn$c;)V
+		ARG 1 settings
+	METHOD j getDirection (Lbqk;)Ley;
+		ARG 0 state

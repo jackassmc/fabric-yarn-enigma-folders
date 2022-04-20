@@ -1,0 +1,11 @@
+CLASS amp net/minecraft/entity/ai/goal/DoorInteractGoal
+	FIELD a shouldStop Z
+	FIELD d mob Laiv;
+	FIELD e doorPos Lev;
+	METHOD <init> (Laiv;)V
+		ARG 1 mob
+	METHOD a getDoor (Lbhl;Lev;)Z
+		ARG 0 world
+		ARG 1 pos
+	METHOD a setDoorOpen (Z)V
+		ARG 1 open

@@ -1,0 +1,14 @@
+CLASS aqo net/minecraft/block/BlockSlime
+	METHOD a (Lajq;Lco;Lsm;)V
+		ARG 0 world
+		ARG 1 pos
+		ARG 2 entity
+	METHOD a onLandedUpon (Lajq;Lco;Lsm;F)V
+		ARG 0 world
+		ARG 1 pos
+		ARG 2 entity
+		ARG 3 fallDistance
+	METHOD a (Lajq;Lsm;)V
+		ARG 0 world
+		ARG 1 entity
+	METHOD f getRenderLayer ()Laji;

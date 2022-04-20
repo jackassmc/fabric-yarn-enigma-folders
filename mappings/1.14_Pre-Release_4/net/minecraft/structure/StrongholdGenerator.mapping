@@ -1,0 +1,14 @@
+CLASS cif net/minecraft/structure/StrongholdGenerator
+	CLASS cif$a Door
+	CLASS cif$c FiveWayCrossing
+		FIELD a leftLow Z
+		FIELD b leftHigh Z
+		FIELD c rightLow Z
+		FIELD e rightHigh Z
+	CLASS cif$k
+		METHOD a (Ljava/util/Random;IIIZ)V
+			ARG 1 random
+			ARG 2 x
+	CLASS cif$m Start
+	CLASS cif$p
+		FIELD d entryDoor Lcif$p$a;

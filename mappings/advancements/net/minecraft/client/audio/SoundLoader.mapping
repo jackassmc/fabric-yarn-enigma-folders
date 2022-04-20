@@ -1,0 +1,27 @@
+CLASS cfp net/minecraft/client/audio/SoundLoader
+	CLASS cfp$2
+		METHOD a getSound ()Lcew;
+		METHOD e getWeight ()I
+		METHOD i getSound ()Ljava/lang/Object;
+	FIELD a SOUND_MISSING Lcew;
+	FIELD b LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD c GSON Lcom/google/gson/Gson;
+	FIELD d TYPE Ljava/lang/reflect/ParameterizedType;
+	FIELD e registry Lcfq;
+	FIELD f soundManager Lcfn;
+	FIELD g resourceManager Lccv;
+	METHOD G_ update ()V
+	METHOD a pause ()V
+	METHOD a updateListenerPosition (Lacu;F)V
+	METHOD a onResourceReload (Lccv;)V
+	METHOD a play (Lcez;)V
+	METHOD a registerListener (Lcfo;)V
+	METHOD a readSounds (Ljava/io/InputStream;)Ljava/util/Map;
+	METHOD a getSoundAccessor (Lmd;)Lcfr;
+	METHOD a updateSoundVolume (Lpd;F)V
+	METHOD b stopAll ()V
+	METHOD b stop (Lcez;)V
+	METHOD b unregisterListener (Lcfo;)V
+	METHOD c deinitialize ()V
+	METHOD c isPlaying (Lcez;)Z
+	METHOD d resume ()V

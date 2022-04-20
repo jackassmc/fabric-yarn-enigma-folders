@@ -1,0 +1,3 @@
+CLASS cxz net/minecraft/client/font/BlankGlyph
+	FIELD a INSTANCE Lcxz;
+	FIELD b IMAGE Lcts;

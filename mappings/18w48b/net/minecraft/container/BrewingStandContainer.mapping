@@ -1,0 +1,45 @@
+CLASS asg net/minecraft/container/BrewingStandContainer
+	CLASS asg$a SlotFuel
+		METHOD <init> (Laev;III)V
+			ARG 0 inventory
+			ARG 1 invSlot
+			ARG 2 xPosition
+			ARG 3 <Position
+		METHOD a getMaxStackAmount ()I
+		METHOD a canInsert (Lavs;)Z
+			ARG 0 stack
+		METHOD b_ matches (Lavs;)Z
+	CLASS asg$b SlotIngredient
+		METHOD <init> (Laev;III)V
+			ARG 0 inventory
+			ARG 1 invSlot
+			ARG 2 xPosition
+			ARG 3 <Position
+		METHOD a getMaxStackAmount ()I
+		METHOD a canInsert (Lavs;)Z
+			ARG 0 stack
+	CLASS asg$c SlotPotion
+		METHOD <init> (Laev;III)V
+			ARG 0 inventory
+			ARG 1 invSlot
+			ARG 2 xPosition
+			ARG 3 <Position
+		METHOD a getMaxStackAmount ()I
+		METHOD a onTakeItem (Laqj;Lavs;)Lavs;
+			ARG 0 player
+			ARG 1 stack
+		METHOD a canInsert (Lavs;)Z
+			ARG 0 stack
+		METHOD c_ matches (Lavs;)Z
+	FIELD a inventory Laev;
+	FIELD f slotIngredient Lath;
+	METHOD <init> (Laqi;Laev;)V
+		ARG 1 playerInv
+	METHOD a canUse (Laqj;)Z
+	METHOD a addListener (Lasj;)V
+	METHOD b sendContentUpdates ()V
+	METHOD b setProperty (II)V
+		ARG 1 pos
+	METHOD b transferSlot (Laqj;I)Lavs;
+		ARG 1 player
+		ARG 2 id

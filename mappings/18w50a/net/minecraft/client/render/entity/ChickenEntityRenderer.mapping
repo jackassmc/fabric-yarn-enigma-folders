@@ -1,0 +1,4 @@
+CLASS dif net/minecraft/client/render/entity/ChickenEntityRenderer
+	FIELD a SKIN Lqc;
+	METHOD a getTexture (Lagv;)Lqc;
+	METHOD a getTexture (Lamc;)Lqc;

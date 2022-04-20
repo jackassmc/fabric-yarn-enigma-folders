@@ -1,0 +1,4 @@
+CLASS bro net/minecraft/block/enums/BlockHalf
+	FIELD a TOP Lbro;
+	FIELD b BOTTOM Lbro;
+	FIELD c name Ljava/lang/String;

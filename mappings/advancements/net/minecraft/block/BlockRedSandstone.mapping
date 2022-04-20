@@ -1,0 +1,19 @@
+CLASS arr net/minecraft/block/BlockRedSandstone
+	CLASS arr$a Type
+		FIELD a NORMAL Larr$a;
+		FIELD b CHIESELED Larr$a;
+		FIELD c SMOOTH Larr$a;
+		FIELD d VALUES [Larr$a;
+		FIELD e id I
+		FIELD f name Ljava/lang/String;
+		FIELD g translationKey Ljava/lang/String;
+		METHOD a getId ()I
+		METHOD a byId (I)Larr$a;
+		METHOD c getTranslationKey ()Ljava/lang/String;
+		METHOD m asString ()Ljava/lang/String;
+	FIELD a Type Lavs;
+	METHOD a deserializeState (I)Lave;
+	METHOD a addStacksForDisplay (Lahd;Lagf;Lem;)V
+	METHOD b createStateFactory ()Lavf;
+	METHOD d getDropItemDamage (Lave;)I
+	METHOD e serializeState (Lave;)I

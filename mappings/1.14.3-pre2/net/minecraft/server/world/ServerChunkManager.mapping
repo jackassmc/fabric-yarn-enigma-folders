@@ -1,0 +1,63 @@
+CLASS vg net/minecraft/server/world/ServerChunkManager
+	CLASS vg$a MainThreadExecutor
+	FIELD a threadedAnvilChunkStorage Luu;
+	FIELD b CHUNKS_ELIGIBLE_FOR_SPAWNING I
+	FIELD c CHUNK_STATUSES Ljava/util/List;
+	FIELD d ticketManager Lvb;
+	FIELD e chunkGenerator Lbxc;
+	FIELD f world Lvi;
+	FIELD g serverThread Ljava/lang/Thread;
+	FIELD h lightProvider Lvl;
+	FIELD i mainThreadExecutor Lvg$a;
+	FIELD j persistentStateManager Lcoe;
+	FIELD k lastMobSpawningTime J
+	FIELD l spawnMonsters Z
+	FIELD m spawnAnimals Z
+	FIELD n chunkPosCache [J
+	FIELD o chunkStatusCache [Lbxg;
+	FIELD p chunkCache [Lbxb;
+	METHOD <init> (Lvi;Ljava/io/File;Lcom/mojang/datafixers/DataFixer;Lcjj;Ljava/util/concurrent/Executor;Lbxc;ILvr;Ljava/util/function/Supplier;)V
+		ARG 5 workerExecutor
+	METHOD a applyViewDistance (I)V
+		ARG 1 watchDistance
+	METHOD a getChunkHolder (J)Lut;
+		ARG 1 pos
+	METHOD a (JLjava/util/function/Function;)Z
+		ARG 1 pos
+	METHOD a sendToNearbyPlayers (Lail;Lkb;)V
+		ARG 1 entity
+		ARG 2 packet
+	METHOD a isMissingForLevel (Lut;I)Z
+		ARG 1 holder
+		ARG 2 maxLevel
+	METHOD a updateCameraPosition (Lvj;)V
+		ARG 1 player
+	METHOD a addTicket (Lvn;Lbgx;ILjava/lang/Object;)V
+	METHOD a save (Z)V
+		ARG 1 flush
+	METHOD b getTotalChunksLoadedCount ()I
+	METHOD b getChunkFutureSyncOnMainThread (IILbxg;Z)Ljava/util/concurrent/CompletableFuture;
+		ARG 1 chunkX
+		ARG 2 chunkZ
+		ARG 3 leastStatus
+		ARG 4 create
+	METHOD b sendToOtherNearbyPlayers (Lail;Lkb;)V
+	METHOD b getDebugString (Lbgx;)Ljava/lang/String;
+		ARG 1 pos
+	METHOD b markForUpdate (Lev;)V
+		ARG 1 pos
+	METHOD b removeTicket (Lvn;Lbgx;ILjava/lang/Object;)V
+	METHOD c getChunkFuture (IILbxg;Z)Ljava/util/concurrent/CompletableFuture;
+		ARG 1 chunkX
+		ARG 2 chunkZ
+		ARG 3 leastStatus
+		ARG 4 create
+	METHOD c unloadEntity (Lail;)V
+	METHOD d executeQueuedTasks ()Z
+	METHOD d loadEntity (Lail;)V
+	METHOD g getLoadedChunkCount ()I
+	METHOD h getPersistentStateManager ()Lcoe;
+	METHOD i getPointOfInterestStorage ()Laqk;
+	METHOD l initChunkCaches ()V
+	METHOD m tick ()Z
+	METHOD n tickChunks ()V

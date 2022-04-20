@@ -1,0 +1,74 @@
+CLASS fo net/minecraft/util/math/ChunkSectionPos
+	CLASS fo$1
+		FIELD a iterator Ley;
+		METHOD tryAdvance (Ljava/util/function/Consumer;)Z
+			ARG 1 consumer
+	METHOD <init> (III)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD a getChunkX ()I
+	METHOD a toChunkCoord (I)I
+		ARG 0 coord
+	METHOD a from (III)Lfo;
+		ARG 0 x
+		ARG 1 y
+		ARG 2 z
+	METHOD a stream (IIIIII)Ljava/util/stream/Stream;
+		ARG 0 minX
+		ARG 1 minY
+		ARG 2 minZ
+		ARG 3 maxX
+		ARG 4 maxY
+		ARG 5 maxZ
+	METHOD a from (J)Lfo;
+		ARG 0 packed
+	METHOD a offsetPacked (JIII)J
+		ARG 0 packed
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD a offsetPacked (JLfa;)J
+		ARG 0 packed
+		ARG 2 direction
+	METHOD a from (Laie;)Lfo;
+	METHOD a from (Lbgs;I)Lfo;
+		ARG 0 chunkPos
+		ARG 1 y
+	METHOD a from (Lev;)Lfo;
+		ARG 0 pos
+	METHOD a stream (Lfo;I)Ljava/util/stream/Stream;
+		ARG 0 center
+		ARG 1 radius
+	METHOD b getChunkY ()I
+	METHOD b toLocalCoord (I)I
+		ARG 0 coord
+	METHOD b asLong (III)J
+		ARG 0 x
+		ARG 1 y
+		ARG 2 z
+	METHOD b unpackLongX (J)I
+		ARG 0 packed
+	METHOD b packToShort (Lev;)S
+	METHOD c getChunkZ ()I
+	METHOD c fromChunkCoord (I)I
+		ARG 0 coord
+	METHOD c unpackLongY (J)I
+		ARG 0 packed
+	METHOD d getMinX ()I
+	METHOD d unpackLongZ (J)I
+		ARG 0 packed
+	METHOD e getMinY ()I
+	METHOD e toChunkLong (J)J
+		ARG 0 globalLong
+	METHOD f getMinZ ()I
+	METHOD f toLightStorageIndex (J)J
+		ARG 0 pos
+	METHOD g getMaxX ()I
+	METHOD h getMaxY ()I
+	METHOD r getMaxZ ()I
+	METHOD s getMinPos ()Lev;
+	METHOD t getCenterPos ()Lev;
+	METHOD u toChunkPos ()Lbgs;
+	METHOD v asLong ()J
+	METHOD w streamBlocks ()Ljava/util/stream/Stream;

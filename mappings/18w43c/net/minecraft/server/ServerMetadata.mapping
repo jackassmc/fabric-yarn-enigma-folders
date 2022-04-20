@@ -1,0 +1,2 @@
+CLASS pd net/minecraft/server/ServerMetadata
+	CLASS pd$c

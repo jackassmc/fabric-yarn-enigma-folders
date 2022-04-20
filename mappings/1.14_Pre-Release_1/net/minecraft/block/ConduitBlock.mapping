@@ -1,0 +1,5 @@
+CLASS bnb net/minecraft/block/ConduitBlock
+	FIELD a WATERLOGGED Lbvu;
+	FIELD b SHAPE Lcsi;
+	METHOD <init> (Lbme$c;)V
+		ARG 1 settings

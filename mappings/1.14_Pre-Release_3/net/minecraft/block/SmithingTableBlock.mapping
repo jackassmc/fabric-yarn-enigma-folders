@@ -1,0 +1,3 @@
+CLASS brf net/minecraft/block/SmithingTableBlock
+	METHOD <init> (Lbmh$c;)V
+		ARG 1 settings

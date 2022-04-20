@@ -1,0 +1,11 @@
+CLASS cbo net/minecraft/fluid/FluidLava
+	CLASS cbo$a Flowing
+	CLASS cbo$b Still
+	METHOD a getRenderLayer ()Lazh;
+	METHOD a matchesType (Lcbk;)Z
+		ARG 1 other
+	METHOD b getBucketItem ()Lauq;
+	METHOD b toBlockState (Lcbl;)Lbnh;
+		ARG 1 state
+	METHOD e getFlowing ()Lcbk;
+	METHOD f getStill ()Lcbk;

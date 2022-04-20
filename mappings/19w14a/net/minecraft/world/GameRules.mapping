@@ -1,0 +1,33 @@
+CLASS bgs net/minecraft/world/GameRules
+	CLASS bgs$a Value
+		FIELD a asString Ljava/lang/String;
+		FIELD b asBoolean Z
+		FIELD c asInteger I
+		FIELD d asDouble D
+		FIELD e type Lbgs$c;
+		FIELD f applyConsumer Ljava/util/function/BiConsumer;
+		METHOD a getString ()Ljava/lang/String;
+		METHOD a set (Ljava/lang/String;Lnet/minecraft/server/MinecraftServer;)V
+		METHOD b getBoolean ()Z
+		METHOD c getInteger ()I
+		METHOD e getType ()Lbgs$c;
+	CLASS bgs$b Key
+		FIELD a type Lbgs$c;
+		FIELD b defaultValue Ljava/lang/String;
+		METHOD a createValue ()Lbgs$a;
+		METHOD b getType ()Lbgs$c;
+	CLASS bgs$c Type
+		FIELD a STRING Lbgs$c;
+		FIELD b BOOLEAN Lbgs$c;
+		FIELD c INTEGER Lbgs$c;
+	FIELD a KEYS Ljava/util/TreeMap;
+	FIELD b rules Ljava/util/TreeMap;
+	METHOD a serialize ()Lib;
+	METHOD a deserialize (Lib;)V
+	METHOD a put (Ljava/lang/String;Ljava/lang/String;Lnet/minecraft/server/MinecraftServer;)V
+		ARG 1 key
+		ARG 2 value
+	METHOD b getKeys ()Ljava/util/TreeMap;
+	METHOD b getBoolean (Ljava/lang/String;)Z
+	METHOD c getInteger (Ljava/lang/String;)I
+	METHOD f get (Ljava/lang/String;)Lbgs$a;

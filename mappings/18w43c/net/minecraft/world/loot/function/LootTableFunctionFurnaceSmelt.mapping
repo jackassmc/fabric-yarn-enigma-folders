@@ -1,0 +1,8 @@
+CLASS cfp net/minecraft/world/loot/function/LootTableFunctionFurnaceSmelt
+	CLASS cfp$a DeSerializer
+		METHOD a deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;[Lcgh;)Lcfp;
+		METHOD b deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;[Lcgh;)Lcfd;
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	METHOD a apply (Lauc;Lcdx;)Lauc;
+		ARG 0 stack
+		ARG 1 context

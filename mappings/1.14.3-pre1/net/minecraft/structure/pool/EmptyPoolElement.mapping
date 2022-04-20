@@ -1,0 +1,2 @@
+CLASS cfd net/minecraft/structure/pool/EmptyPoolElement
+	FIELD a INSTANCE Lcfd;

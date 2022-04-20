@@ -1,0 +1,5 @@
+CLASS cao net/minecraft/structure/pool/FeaturePoolElement
+	FIELD a feature Lbvq;
+	FIELD b tag Lhv;
+	METHOD <init> (Lbvq;)V
+		ARG 1 feature

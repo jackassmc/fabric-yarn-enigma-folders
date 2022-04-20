@@ -1,0 +1,5 @@
+CLASS bhm net/minecraft/block/BlockFacingHorizontal
+	METHOD a applyMirror (Lbno;Lbif;)Lbno;
+		ARG 1 state
+	METHOD a applyRotation (Lbno;Lbjf;)Lbno;
+		ARG 1 state

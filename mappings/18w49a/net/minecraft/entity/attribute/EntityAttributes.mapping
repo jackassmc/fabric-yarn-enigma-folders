@@ -1,0 +1,21 @@
+CLASS app net/minecraft/entity/attribute/EntityAttributes
+	FIELD a MAX_HEALTH Lahh;
+	FIELD b FOLLOW_RANGE Lahh;
+	FIELD c KNOCKBACK_RESISTANCE Lahh;
+	FIELD d MOVEMENT_SPEED Lahh;
+	FIELD e FLYING_SPEED Lahh;
+	FIELD f ATTACK_DAMAGE Lahh;
+	FIELD g ATTACK_KNOCKBACK Lahh;
+	FIELD h ATTACK_SPEED Lahh;
+	FIELD i ARMOR Lahh;
+	FIELD j ARMOR_TOUGHNESS Lahh;
+	FIELD k LUCK Lahh;
+	FIELD l LOGGER Lorg/apache/logging/log4j/Logger;
+	METHOD a toTag (Lahi;)Lhq;
+		ARG 0 instance
+	METHOD a toTag (Lahj;)Lhq;
+		ARG 0 modifier
+	METHOD a toTag (Lahl;)Lhw;
+		ARG 0 container
+	METHOD a createFromTag (Lhq;)Lahj;
+		ARG 0 tag

@@ -1,0 +1,2 @@
+CLASS bmz net/minecraft/block/CoralTubeFanBlock
+	FIELD a deadCoralBlock Lbma;

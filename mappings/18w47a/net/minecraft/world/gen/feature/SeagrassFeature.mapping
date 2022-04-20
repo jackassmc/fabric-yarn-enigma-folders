@@ -1,0 +1,2 @@
+CLASS bwl net/minecraft/world/gen/feature/SeagrassFeature
+	METHOD a generate (Lban;Lbqc;Ljava/util/Random;Les;Lbuf;)Z

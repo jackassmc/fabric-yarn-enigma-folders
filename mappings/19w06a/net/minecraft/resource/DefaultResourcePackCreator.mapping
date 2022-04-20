@@ -1,0 +1,2 @@
+CLASS wh net/minecraft/resource/DefaultResourcePackCreator
+	FIELD a pack Lvw;

@@ -1,0 +1,9 @@
+CLASS bpd net/minecraft/block/LadderBlock
+	FIELD a FACING Lbvx;
+	FIELD b WATERLOGGED Lbvu;
+	FIELD c EAST_SHAPE Lcsi;
+	FIELD d WEST_SHAPE Lcsi;
+	FIELD e SOUTH_SHAPE Lcsi;
+	FIELD f NORTH_SHAPE Lcsi;
+	METHOD <init> (Lbme$c;)V
+		ARG 1 settings

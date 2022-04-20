@@ -1,0 +1,2 @@
+CLASS dhg net/minecraft/client/particle/ExplosionLargeParticle
+	CLASS dhg$a net/minecraft/client/particle/ExplosionLargeParticle$Factory

@@ -1,0 +1,5 @@
+CLASS dna net/minecraft/client/render/entity/feature/Deadmau5FeatureRenderer
+	METHOD <init> (Ldlm;)V
+		ARG 1 context
+	METHOD a render (Lahc;FFFFFFF)V
+	METHOD a render (Ldel;FFFFFFF)V

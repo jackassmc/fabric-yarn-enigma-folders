@@ -1,0 +1,14 @@
+CLASS cnt net/minecraft/client/gui/menu/GuiOpenToLAN
+	FIELD a parent Lcns;
+	FIELD f buttonAllowCommands Lckj;
+	FIELD g buttonGameMode Lckj;
+	FIELD h gameMode Ljava/lang/String;
+	FIELD i allowCommands Z
+	METHOD <init> (Lcns;)V
+		ARG 0 parent
+	METHOD a draw (IIF)V
+		ARG 0 mouseX
+		ARG 1 mouseY
+		ARG 2 delta
+	METHOD c init ()V
+	METHOD h updateButtonText ()V

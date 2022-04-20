@@ -1,0 +1,2 @@
+CLASS dih net/minecraft/client/particle/ExplosionLargeParticle
+	CLASS dih$a Factory

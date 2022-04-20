@@ -1,0 +1,119 @@
+CLASS vo net/minecraft/entity/mob/EntityMob
+	FIELD a MOB_FLAGS Lmx;
+	FIELD bA persistent Z
+	FIELD bB pathNodeTypeWeights Ljava/util/Map;
+	FIELD bC lootTable Lnd;
+	FIELD bD lootTableSeed J
+	FIELD bE leashed Z
+	FIELD bF holdingEntity Lve;
+	FIELD bG leashTag Lfy;
+	FIELD b actionLook Lwn;
+	FIELD b_ experiencePoints I
+	FIELD br goalSelector Lxd;
+	FIELD bs targetSelector Lxd;
+	FIELD bt handDropChances [F
+	FIELD bu armorDropChances [F
+	FIELD bv target Lvn;
+	FIELD bw visibilityCache Lzh;
+	FIELD bx handItems Lfi;
+	FIELD by armorItems Lfi;
+	FIELD bz pickUpLoot Z
+	FIELD f actionMove Lwo;
+	FIELD g actionJump Lwm;
+	FIELD h navigation Lzc;
+	METHOD B_ update ()V
+	METHOD D playSoundAmbient ()V
+	METHOD F getSoundAmbient ()Lqc;
+	METHOD H getLootItem ()Lail;
+	METHOD J getLootTableId ()Lnd;
+	METHOD L checkDespawn ()V
+	METHOD M mobTick ()V
+	METHOD P canSpawn ()Z
+	METHOD Y updateLogic ()V
+	METHOD a canBeLeashedBy (Laeb;)Z
+		ARG 0 player
+	METHOD a interactMob (Laeb;Ltz;)Z
+		ARG 0 player
+		ARG 1 playerHand
+	METHOD a getPathNodeTypeWeight (Lbef;)F
+		ARG 0 type
+	METHOD a setPathNodeTypeWeight (Lbef;F)V
+		ARG 0 type
+		ARG 1 weight
+	METHOD a deserializeCustomData (Lfy;)V
+		ARG 0 tag
+	METHOD a registerTagUpgradersFor (Lrw;Ljava/lang/Class;)V
+		ARG 0 handler
+		ARG 1 entityClass
+	METHOD a initEquipment (Lty;)V
+		ARG 0 difficulty
+	METHOD a (Lty;Lvq;)Lvq;
+		ARG 0 difficulty
+	METHOD a startRiding (Lve;Z)Z
+		ARG 0 entity
+		ARG 1 ignoreRequirements
+	METHOD a setEquipmentDropChance (Lvj;F)V
+		ARG 0 slot
+		ARG 1 value
+	METHOD a setEquippedStack (Lvj;Lain;)V
+		ARG 0 slot
+		ARG 1 stack
+	METHOD a dropEquipment (ZI)V
+		ARG 0 recentlyHitByPlayer
+		ARG 1 looting
+	METHOD a dropLoot (ZILup;)V
+		ARG 0 recentlyHitByPlayer
+		ARG 1 looting
+		ARG 2 damageSource
+	METHOD a detachLeash (ZZ)V
+		ARG 0 sendPacket
+		ARG 1 dropLeadStack
+	METHOD aO getItemsHand ()Ljava/lang/Iterable;
+	METHOD aP getItemsArmor ()Ljava/lang/Iterable;
+	METHOD b interact (Laeb;Ltz;)Z
+		ARG 0 player
+		ARG 1 hand
+	METHOD b createNavigation (Lams;)Lzc;
+		ARG 0 world
+	METHOD b serializeCustomData (Lfy;)V
+		ARG 0 tag
+	METHOD b attachLeash (Lve;Z)V
+		ARG 0 entity
+		ARG 1 sendPacket
+	METHOD b getEquippedStack (Lvj;)Lain;
+		ARG 0 slot
+	METHOD b dropDefaultLoot (ZI)V
+		ARG 0 recentlyHitByPlayer
+		ARG 1 looting
+	METHOD bM initAttributes ()V
+	METHOD bg getSafeFallDistance ()I
+	METHOD cF getMainHand ()Lvm;
+	METHOD cU getLimitPerChunk ()I
+	METHOD cW setPersistent ()V
+	METHOD cX canPickUpLoot ()Z
+	METHOD cY isPersistent ()Z
+	METHOD d getPreferredEquipmentSlot (Lain;)Lvj;
+		ARG 0 stack
+	METHOD d canTrack (Ljava/lang/Class;)Z
+	METHOD d setTarget (Lvn;)V
+		ARG 0 value
+	METHOD da isLeashed ()Z
+	METHOD db getHoldingEntity ()Lve;
+	METHOD dc isAiDisabled ()Z
+	METHOD dd isLeftHanded ()Z
+	METHOD de deserializeLeashTag ()V
+	METHOD i initDataTracker ()V
+	METHOD m setCanPickUpLoot (Z)V
+		ARG 0 value
+	METHOD n updateMovement ()V
+	METHOD n setAiDisabled (Z)V
+		ARG 0 value
+	METHOD o setLeftHanded (Z)V
+		ARG 0 value
+	METHOD r initAi ()V
+	METHOD t getActionLook ()Lwn;
+	METHOD u getActionMove ()Lwo;
+	METHOD w getActionJump ()Lwm;
+	METHOD x getNavigation ()Lzc;
+	METHOD y getVisibilityCache ()Lzh;
+	METHOD z getTarget ()Lvn;

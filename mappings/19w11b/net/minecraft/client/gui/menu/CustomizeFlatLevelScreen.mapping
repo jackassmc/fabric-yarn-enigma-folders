@@ -1,0 +1,10 @@
+CLASS cxm net/minecraft/client/gui/menu/CustomizeFlatLevelScreen
+	FIELD a widgetButtonAddLayer I
+	FIELD b parent Ldbp;
+	FIELD g config Lcdx;
+	FIELD h titleText Ljava/lang/String;
+	FIELD i tileText Ljava/lang/String;
+	FIELD s heightText Ljava/lang/String;
+	FIELD u widgetButtonRemoveLayer Lcut;
+	METHOD <init> (Ldbp;Lia;)V
+		ARG 1 parent

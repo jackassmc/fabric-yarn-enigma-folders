@@ -1,0 +1,5 @@
+CLASS bqr net/minecraft/predicate/block/BlockPredicate
+	FIELD a block Lbhl;
+	METHOD a make (Lbhl;)Lbqr;
+		ARG 0 block
+	METHOD a apply (Lbqi;)Z

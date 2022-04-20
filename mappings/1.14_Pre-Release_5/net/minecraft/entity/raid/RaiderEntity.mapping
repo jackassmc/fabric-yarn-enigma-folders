@@ -1,0 +1,47 @@
+CLASS axc net/minecraft/entity/raid/RaiderEntity
+	CLASS axc$a PatrolApproachGoal
+		FIELD a closeRaiderPredicate Lapz;
+		FIELD c raiderEntity Laxc;
+		FIELD d squaredDistance F
+		METHOD <init> (Laxc;Latr;F)V
+			ARG 2 raiderEntity
+			ARG 3 distance
+	CLASS axc$b PickupBannerAsLeaderGoal
+	CLASS axc$c CelebrateGoal
+	CLASS axc$d AttackHomeGoal
+		FIELD a owner Laxc;
+		FIELD b speed D
+		FIELD c home Lev;
+		FIELD d lastHomes Ljava/util/List;
+		FIELD e distance I
+		FIELD f finished Z
+		METHOD <init> (Laxc;DI)V
+			ARG 2 speed
+			ARG 4 distance
+		METHOD a canLootHome (Lev;)Z
+		METHOD g isRaiding ()Z
+		METHOD h tryFindHome ()Z
+		METHOD j purgeMemory ()V
+	FIELD bA ableToJoinRaid Z
+	FIELD bB outOfRaidCounter I
+	FIELD b OBTAINABLE_OMINOUS_BANNER_PREDICATE Ljava/util/function/Predicate;
+	FIELD bz wave I
+	FIELD c CELEBRATING Lqh;
+	FIELD d raid Laxb;
+	METHOD <init> (Laij;Lbhh;)V
+		ARG 1 type
+	METHOD a setWave (I)V
+	METHOD a addBonusForWave (IZ)V
+		ARG 1 wave
+	METHOD a setRaid (Laxb;)V
+	METHOD b setOutOfRaidCounter (I)V
+	METHOD dW getCelebratingSound ()Lyj;
+	METHOD ej canJoinRaid ()Z
+	METHOD ek getRaid ()Laxb;
+	METHOD el hasActiveRaid ()Z
+	METHOD em getWave ()I
+	METHOD en isCelebrating ()Z
+	METHOD eo getOutOfRaidCounter ()I
+	METHOD t setAbleToJoinRaid (Z)V
+		ARG 1 ableToJoinRaid
+	METHOD u setCelebrating (Z)V

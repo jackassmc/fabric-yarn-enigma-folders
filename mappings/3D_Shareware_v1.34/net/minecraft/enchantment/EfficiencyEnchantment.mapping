@@ -1,0 +1,4 @@
+CLASS bey net/minecraft/enchantment/EfficiencyEnchantment
+	METHOD <init> (Lbez$a;[Laie;)V
+		ARG 1 weight
+		ARG 2 slotTypes

@@ -1,0 +1,4 @@
+CLASS dem net/minecraft/client/render/entity/EntityRendererElderGuardian
+	FIELD a SKIN Lpw;
+	METHOD a getTexture (Lafy;)Lpw;
+	METHOD a getTexture (Laoo;)Lpw;

@@ -1,0 +1,7 @@
+CLASS bvc net/minecraft/block/PistonHeadBlock
+	FIELD b TYPE Lbwf;
+	FIELD c SHORT Lbvz;
+	METHOD <init> (Lbmj$c;)V
+		ARG 1 settings
+	METHOD n (Lbvh;)Z
+		ARG 1 state

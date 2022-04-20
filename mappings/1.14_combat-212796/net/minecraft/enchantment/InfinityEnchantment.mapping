@@ -1,0 +1,4 @@
+CLASS bfh net/minecraft/enchantment/InfinityEnchantment
+	METHOD <init> (Lbfo$a;[Laiq;)V
+		ARG 1 weight
+		ARG 2 slotTypes

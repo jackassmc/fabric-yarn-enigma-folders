@@ -1,0 +1,7 @@
+CLASS bny net/minecraft/block/EnderChestBlock
+	FIELD a FACING Lbvx;
+	FIELD b WATERLOGGED Lbvu;
+	FIELD c SHAPE Lcsi;
+	FIELD d CONTAINER_NAME Ljw;
+	METHOD <init> (Lbme$c;)V
+		ARG 1 settings

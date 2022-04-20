@@ -1,0 +1,16 @@
+CLASS bgt net/minecraft/util/Session
+	CLASS bgt$a AccountType
+		FIELD a LEGACY Lbgt$a;
+		FIELD b MOJANG Lbgt$a;
+		FIELD c byNameMap Ljava/util/Map;
+		FIELD d name Ljava/lang/String;
+		METHOD a byName (Ljava/lang/String;)Lbgt$a;
+	FIELD a username Ljava/lang/String;
+	FIELD b uuid Ljava/lang/String;
+	FIELD c accessToken Ljava/lang/String;
+	FIELD d accountType Lbgt$a;
+	METHOD a getSessionId ()Ljava/lang/String;
+	METHOD b getUuid ()Ljava/lang/String;
+	METHOD c getUsername ()Ljava/lang/String;
+	METHOD d getAccessToken ()Ljava/lang/String;
+	METHOD e getProfile ()Lcom/mojang/authlib/GameProfile;

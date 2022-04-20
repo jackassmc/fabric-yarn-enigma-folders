@@ -1,0 +1,20 @@
+CLASS aga net/minecraft/inventory/Inventory
+	METHOD O_ getInvMaxStackAmount ()I
+	METHOD R_ getInvSize ()I
+	METHOD a getInvStack (I)Laxt;
+		ARG 1 slot
+	METHOD a takeInvStack (II)Laxt;
+		ARG 1 slot
+	METHOD a setInvStack (ILaxt;)V
+		ARG 1 slot
+		ARG 2 itemStack
+	METHOD a canPlayerUseInv (Lary;)Z
+		ARG 1 playerEntity
+	METHOD a_ onInvOpen (Lary;)V
+	METHOD b removeInvStack (I)Laxt;
+		ARG 1 slot
+	METHOD b isValidInvStack (ILaxt;)Z
+		ARG 1 slot
+	METHOD b_ onInvClose (Lary;)V
+	METHOD c isInvEmpty ()Z
+	METHOD e markDirty ()V

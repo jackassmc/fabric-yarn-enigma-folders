@@ -1,0 +1,5 @@
+CLASS mu net/minecraft/client/network/packet/StopSoundClientPacket
+	FIELD a soundId Lqd;
+	FIELD b category Lxt;
+	METHOD b getSoundId ()Lqd;
+	METHOD c getCategory ()Lxt;

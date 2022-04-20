@@ -1,0 +1,3 @@
+CLASS dni net/minecraft/client/render/entity/ArrowEntityRenderer
+	FIELD a SKIN Lqi;
+	FIELD f TIPPED_SKIN Lqi;

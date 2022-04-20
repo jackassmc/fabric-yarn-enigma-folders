@@ -1,0 +1,14 @@
+CLASS pg net/minecraft/migration/MigrationHandlerBuilder
+	METHOD a build ()Lpf;
+	METHOD a upgradeStack (Lpe;Ldt;ILjava/lang/String;)Ldt;
+		ARG 0 handler
+		ARG 1 tag
+		ARG 2 version
+		ARG 3 tagKey
+	METHOD a registerTagUpgraders (Lpf;)V
+		ARG 0 handler
+	METHOD b upgradeStackList (Lpe;Ldt;ILjava/lang/String;)Ldt;
+		ARG 0 handler
+		ARG 1 tag
+		ARG 2 version
+		ARG 3 tagKey

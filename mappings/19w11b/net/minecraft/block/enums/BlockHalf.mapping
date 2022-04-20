@@ -1,0 +1,4 @@
+CLASS buv net/minecraft/block/enums/BlockHalf
+	FIELD a TOP Lbuv;
+	FIELD b BOTTOM Lbuv;
+	FIELD c name Ljava/lang/String;

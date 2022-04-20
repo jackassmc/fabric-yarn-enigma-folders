@@ -1,0 +1,5 @@
+CLASS bqy net/minecraft/block/PistonHeadBlock
+	METHOD <init> (Lbif$c;)V
+		ARG 1 settings
+	METHOD n (Lbrd;)Z
+		ARG 1 state

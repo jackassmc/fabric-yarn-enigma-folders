@@ -1,0 +1,46 @@
+CLASS byq net/minecraft/world/Heightmap
+	CLASS byq$a Type
+		FIELD g name Ljava/lang/String;
+		FIELD h purpose Lbyq$b;
+		FIELD i blockPredicate Ljava/util/function/Predicate;
+		FIELD j BY_NAME Ljava/util/Map;
+		METHOD <init> (Ljava/lang/String;ILjava/lang/String;Lbyq$b;Ljava/util/function/Predicate;)V
+			ARG 3 name
+			ARG 4 purpose
+			ARG 5 blockPredicate
+		METHOD a getName ()Ljava/lang/String;
+		METHOD a byName (Ljava/lang/String;)Lbyq$a;
+			ARG 0 name
+		METHOD b shouldSendToClient ()Z
+		METHOD c isStoredServerSide ()Z
+		METHOD d getBlockPredicate ()Ljava/util/function/Predicate;
+	CLASS byq$b Purpose
+	FIELD a ALWAYS_TRUE Ljava/util/function/Predicate;
+	FIELD b SUFFOCATES Ljava/util/function/Predicate;
+	FIELD c storage Lzf;
+	FIELD d blockPredicate Ljava/util/function/Predicate;
+	FIELD e chunk Lbwx;
+	METHOD <init> (Lbwx;Lbyq$a;)V
+		ARG 2 type
+	METHOD a asLongArray ()[J
+	METHOD a get (I)I
+		ARG 1 index
+	METHOD a get (II)I
+		ARG 1 x
+		ARG 2 z
+	METHOD a set (III)V
+		ARG 1 x
+		ARG 2 z
+		ARG 3 height
+	METHOD a trackUpdate (IIILbvj;)Z
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 state
+	METHOD a populateHeightmaps (Lbwx;Ljava/util/Set;)V
+		ARG 1 types
+	METHOD a setTo ([J)V
+		ARG 1 heightmap
+	METHOD c toIndex (II)I
+		ARG 0 x
+		ARG 1 z

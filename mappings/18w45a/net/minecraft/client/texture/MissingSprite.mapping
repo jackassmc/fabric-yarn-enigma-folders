@@ -1,0 +1,7 @@
+CLASS djg net/minecraft/client/texture/MissingSprite
+	FIELD l MISSINGNO Lpw;
+	FIELD n IMAGE Lckq;
+	FIELD o INSTANCE Ldjg;
+	METHOD a getMissingSprite ()Ldjg;
+	METHOD b getMissingTextureId ()Lpw;
+	METHOD c destroy ()V

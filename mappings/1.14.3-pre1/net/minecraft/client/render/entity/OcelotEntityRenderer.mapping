@@ -1,0 +1,2 @@
+CLASS dqo net/minecraft/client/render/entity/OcelotEntityRenderer
+	FIELD a SKIN Lqs;

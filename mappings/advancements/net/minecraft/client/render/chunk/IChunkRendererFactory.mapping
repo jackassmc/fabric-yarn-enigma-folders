@@ -1,0 +1,2 @@
+CLASS bwa net/minecraft/client/render/chunk/IChunkRendererFactory
+	METHOD a create (Lali;Lbth;I)Lbvz;

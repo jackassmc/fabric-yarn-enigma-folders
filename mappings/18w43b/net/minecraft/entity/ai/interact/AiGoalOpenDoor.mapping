@@ -1,0 +1,10 @@
+CLASS aid net/minecraft/entity/ai/interact/AiGoalOpenDoor
+	FIELD d closeDoor Z
+	FIELD e timer I
+	METHOD <init> (Lafr;Z)V
+		ARG 0 owner
+		ARG 1 closeDoor
+	METHOD b shouldContinue ()Z
+	METHOD c start ()V
+	METHOD d onRemove ()V
+	METHOD e tick ()V

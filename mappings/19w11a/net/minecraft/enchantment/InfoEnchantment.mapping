@@ -1,0 +1,6 @@
+CLASS bed net/minecraft/enchantment/InfoEnchantment
+	FIELD b enchantment Lbea;
+	FIELD c level I
+	METHOD <init> (Lbea;I)V
+		ARG 1 enchantment
+		ARG 2 level

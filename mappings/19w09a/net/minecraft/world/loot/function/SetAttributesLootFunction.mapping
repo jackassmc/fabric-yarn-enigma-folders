@@ -1,0 +1,10 @@
+CLASS clo net/minecraft/world/loot/function/SetAttributesLootFunction
+	CLASS clo$b Attribute
+		FIELD a name Ljava/lang/String;
+		FIELD b attribute Ljava/lang/String;
+		FIELD d amountRange Lckk;
+		FIELD e id Ljava/util/UUID;
+		FIELD f slots [Lahr;
+		METHOD a deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Lclo$b;
+		METHOD a serialize (Lcom/google/gson/JsonSerializationContext;)Lcom/google/gson/JsonObject;
+	CLASS clo$d Factory

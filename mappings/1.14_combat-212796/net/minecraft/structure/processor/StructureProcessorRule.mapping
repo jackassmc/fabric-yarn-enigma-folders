@@ -1,0 +1,11 @@
+CLASS cjf net/minecraft/structure/processor/StructureProcessorRule
+	FIELD a inputPredicate Lcjj;
+	FIELD b locationPredicate Lcjj;
+	FIELD c outputState Lbvp;
+	FIELD d tag Lic;
+	METHOD a getOutputState ()Lbvp;
+	METHOD a test (Lbvp;Lbvp;Ljava/util/Random;)Z
+		ARG 1 input
+		ARG 2 location
+		ARG 3 random
+	METHOD b getTag ()Lic;

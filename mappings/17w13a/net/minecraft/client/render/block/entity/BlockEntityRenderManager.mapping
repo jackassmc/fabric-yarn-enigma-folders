@@ -1,0 +1,19 @@
+CLASS bqz net/minecraft/client/render/block/entity/BlockEntityRenderManager
+	FIELD a instance Lbqz;
+	FIELD e textureManager Lbxf;
+	FIELD f world Laiw;
+	FIELD n blockEntityRenderers Ljava/util/Map;
+	FIELD o fontRenderer Lbef;
+	METHOD a getFontRenderer ()Lbef;
+	METHOD a setWorld (Laiw;)V
+		ARG 0 world
+	METHOD a get (Lare;)Lbra;
+		ARG 0 blockEntity
+	METHOD a render (Lare;DDDF)V
+		ARG 0 blockEntity
+		ARG 4 deltaTicks
+	METHOD a render (Lare;DDDFI)V
+		ARG 0 blockEntity
+		ARG 4 deltaTicks
+	METHOD a get (Ljava/lang/Class;)Lbra;
+		ARG 0 blockEntityClass

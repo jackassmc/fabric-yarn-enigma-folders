@@ -1,0 +1,5 @@
+CLASS dlr net/minecraft/client/render/entity/SilverfishEntityRenderer
+	FIELD a SKIN Lqc;
+	METHOD a getTexture (Lahc;)Lqc;
+	METHOD b getLyingAngle (Lahl;)F
+	METHOD b getTexture (Laqk;)Lqc;

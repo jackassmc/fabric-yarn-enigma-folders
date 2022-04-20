@@ -1,0 +1,6 @@
+CLASS buc net/minecraft/client/render/entity/EntityRendererPig
+	FIELD a SKIN Lkp;
+	METHOD a getTexture (Lsg;)Lkp;
+		ARG 0 model
+	METHOD a getTexture (Lwt;)Lkp;
+		ARG 0 model

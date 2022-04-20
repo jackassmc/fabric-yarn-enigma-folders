@@ -1,0 +1,3 @@
+CLASS fv net/minecraft/particle/ParticleTypes
+	METHOD a register (Ljava/lang/String;Lft$a;)Lfu;
+	METHOD a register (Ljava/lang/String;Z)Lfw;

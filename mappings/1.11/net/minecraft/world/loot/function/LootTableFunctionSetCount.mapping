@@ -1,0 +1,26 @@
+CLASS bct net/minecraft/world/loot/function/LootTableFunctionSetCount
+	CLASS bct$a DeSerializer
+		METHOD a serialize (Lcom/google/gson/JsonObject;Lbcp;Lcom/google/gson/JsonSerializationContext;)V
+			ARG 0 json
+			ARG 1 functionClass
+			ARG 2 context
+		METHOD a serialize (Lcom/google/gson/JsonObject;Lbct;Lcom/google/gson/JsonSerializationContext;)V
+			ARG 0 json
+			ARG 1 functionClass
+			ARG 2 context
+		METHOD a deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;[Lbdb;)Lbct;
+			ARG 0 json
+			ARG 1 context
+			ARG 2 conditions
+		METHOD b deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;[Lbdb;)Lbcp;
+			ARG 0 json
+			ARG 1 context
+			ARG 2 conditions
+	FIELD a stackSizeRange Lbcm;
+	METHOD <init> ([Lbdb;Lbcm;)V
+		ARG 0 conditions
+		ARG 1 stackSizeRange
+	METHOD a apply (Lafi;Ljava/util/Random;Lbcj;)Lafi;
+		ARG 0 stack
+		ARG 1 rand
+		ARG 2 context

@@ -1,0 +1,14 @@
+CLASS cpj net/minecraft/world/loot/function/ConditionalLootFunction
+	CLASS cpj$a Builder
+		FIELD a conditionList Ljava/util/List;
+		METHOD d build ()Lcpj$a;
+		METHOD g getConditions ()[Lcqn;
+	CLASS cpj$b Joiner
+		FIELD a joiner Ljava/util/function/Function;
+	CLASS cpj$c Factory
+		METHOD b fromJson (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;[Lcqn;)Lcpj;
+	FIELD a predicate Ljava/util/function/Predicate;
+	FIELD b conditions [Lcqn;
+	METHOD a process (Lbbp;Lcnz;)Lbbp;
+		ARG 1 stack
+	METHOD a create (Ljava/util/function/Function;)Lcpj$a;

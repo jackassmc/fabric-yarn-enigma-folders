@@ -1,0 +1,4 @@
+CLASS ayu net/minecraft/enchantment/EnchantmentImpaling
+	METHOD a getHighestLevel ()I
+	METHOD a getAdditionalDamge (ILagl;)F
+		ARG 1 level

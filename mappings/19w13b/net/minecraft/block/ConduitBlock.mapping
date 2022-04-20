@@ -1,0 +1,5 @@
+CLASS bmv net/minecraft/block/ConduitBlock
+	FIELD a WATERLOGGED Lbvo;
+	FIELD b SHAPE Lcsa;
+	METHOD <init> (Lbly$c;)V
+		ARG 1 settings

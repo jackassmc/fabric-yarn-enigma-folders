@@ -1,0 +1,31 @@
+CLASS aol net/minecraft/entity/mob/EntitySpider
+	CLASS aol$a
+		METHOD a canStart ()Z
+		METHOD b shouldContinue ()Z
+	CLASS aol$c
+		METHOD a canStart ()Z
+	FIELD a SPIDER_FLAGS Lpi;
+	METHOD A_ canClimb ()Z
+	METHOD D getSoundAmbient ()Lwv;
+	METHOD G getLootTableId ()Lpt;
+	METHOD S_ update ()V
+	METHOD a (Lazb;Ladz;Lafz;Lhl;)Lafz;
+		ARG 1 difficulty
+	METHOD a playStepSound (Leq;Lblz;)V
+		ARG 0 pos
+		ARG 1 block
+	METHOD a setCanClimb (Z)V
+	METHOD aL getMountedHeightOffset ()D
+	METHOD b createNavigation (Laza;)Lajn;
+		ARG 0 world
+	METHOD bH getEyeHeight ()F
+	METHOD bj stickInWeb ()V
+	METHOD cC getEntityAttribute ()Laft;
+	METHOD cb initAttributes ()V
+	METHOD cu getSoundDeath ()Lwv;
+	METHOD d getSoundHurt (Laeq;)Lwv;
+	METHOD d isPotionEffective (Lafa;)Z
+		ARG 0 effect
+	METHOD l getCanClimb ()Z
+	METHOD n initAi ()V
+	METHOD y_ initDataTracker ()V

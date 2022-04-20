@@ -1,0 +1,52 @@
+CLASS dgf net/minecraft/client/network/ClientPlayerInteractionManager
+	FIELD a client Lctq;
+	FIELD b networkHandler Ldgd;
+	FIELD c currentBreakingPos Leu;
+	FIELD e currentBreakingProgress F
+	FIELD h breakingBlock Z
+	FIELD i gameMode Lbfv;
+	FIELD j lastSelectedSlot I
+	METHOD <init> (Lctq;Ldgd;)V
+		ARG 1 client
+	METHOD a hasStatusBars ()Z
+	METHOD a pickFromInventory (I)V
+		ARG 1 slot
+	METHOD a clickButton (II)V
+		ARG 1 syncId
+	METHOD a clickRecipe (ILbda;Z)V
+		ARG 1 syncId
+		ARG 2 recipe
+	METHOD a copyAbilities (Laum;)V
+	METHOD a attackEntity (Laum;Lahw;)V
+	METHOD a interactEntity (Laum;Lahw;Lagq;)Lagr;
+		ARG 1 player
+		ARG 2 entity
+		ARG 3 hand
+	METHOD a interactEntityAtLocation (Laum;Lahw;Lcqe;Lagq;)Lagr;
+	METHOD a interactItem (Laum;Lbfy;Lagq;)Lagr;
+		ARG 1 player
+		ARG 2 world
+	METHOD a (Lbar;I)V
+		ARG 1 stack
+	METHOD a setGameMode (Lbfv;)V
+	METHOD a createPlayer (Ldgg;Lyq;Lcth;)Ldiq;
+	METHOD a interactBlock (Ldiq;Ldgg;Lagq;Lcqd;)Lagr;
+		ARG 1 player
+		ARG 2 world
+	METHOD a breakBlock (Leu;)Z
+	METHOD a attackBlock (Leu;Lez;)Z
+		ARG 1 pos
+	METHOD b cancelBlockBreaking ()V
+	METHOD b stopUsingItem (Laum;)V
+	METHOD b isCurrentlyBreaking (Leu;)Z
+	METHOD c getReachDistance ()F
+	METHOD d tick ()V
+	METHOD e hasExperienceBar ()Z
+	METHOD f hasLimitedAttackSpeed ()Z
+	METHOD g hasCreativeInventory ()Z
+	METHOD h hasExtendedReach ()Z
+	METHOD i hasRidingInventory ()Z
+	METHOD j isFlyingLocked ()Z
+	METHOD k getCurrentGameMode ()Lbfv;
+	METHOD l isBreakingBlock ()Z
+	METHOD m syncSelectedSlot ()V

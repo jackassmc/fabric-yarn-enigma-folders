@@ -1,0 +1,3 @@
+CLASS atk net/minecraft/container/SmokerContainer
+	METHOD <init> (Laqk;Laex;)V
+		ARG 1 playerInv

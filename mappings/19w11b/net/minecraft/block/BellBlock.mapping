@@ -1,0 +1,24 @@
+CLASS bkw net/minecraft/block/BellBlock
+	FIELD a FACING Lbur;
+	FIELD b ATTACHMENT Lbuu;
+	FIELD c NORTH_SOUTH_SHAPE Lcra;
+	FIELD d EAST_WEST_SHAPE Lcra;
+	FIELD g BELL_SHAPE Lcra;
+	FIELD h NORTH_SOUTH_WALLS_SHAPE Lcra;
+	FIELD i EAST_WEST_WALLS_SHAPE Lcra;
+	FIELD j WEST_WALL_SHAPE Lcra;
+	FIELD k EAST_WALL_SHAPE Lcra;
+	FIELD w NORTH_WALL_SHAPE Lcra;
+	FIELD x SOUTH_WALL_SHAPE Lcra;
+	FIELD y HANGING_SHAPE Lcra;
+	METHOD <init> (Lbky$c;)V
+		ARG 1 settings
+	METHOD a ring (Lbfx;Leu;)V
+		ARG 1 world
+		ARG 2 pos
+	METHOD a isPointOnBell (Lbtw;Lez;D)Z
+		ARG 1 state
+		ARG 2 side
+		ARG 3 y
+	METHOD j getShape (Lbtw;)Lcra;
+		ARG 1 state

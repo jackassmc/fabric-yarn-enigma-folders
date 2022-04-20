@@ -1,0 +1,7 @@
+CLASS cpt net/minecraft/world/loot/function/SetStewEffectLootFunction
+	CLASS cpt$a Builder
+		FIELD a map Ljava/util/Map;
+		METHOD a withEffect (Lahr;Lcog;)Lcpt$a;
+	CLASS cpt$b Factory
+	FIELD a effects Ljava/util/Map;
+	METHOD b create ()Lcpt$a;

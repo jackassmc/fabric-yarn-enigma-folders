@@ -1,0 +1,4 @@
+CLASS bne net/minecraft/block/DeadBushBlock
+	FIELD a SHAPE Lcsa;
+	METHOD <init> (Lbly$c;)V
+		ARG 1 settings

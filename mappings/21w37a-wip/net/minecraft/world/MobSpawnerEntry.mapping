@@ -1,0 +1,2 @@
+CLASS net/minecraft/class_1952 net/minecraft/world/MobSpawnerEntry
+	FIELD field_30977 DEFAULT_ENTITY_ID Ljava/lang/String;

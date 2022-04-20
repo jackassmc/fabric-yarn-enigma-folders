@@ -1,0 +1,7 @@
+CLASS bpm net/minecraft/block/enums/Instrument
+	FIELD k name Ljava/lang/String;
+	FIELD l sound Lxg;
+	METHOD a getSound ()Lxg;
+	METHOD a fromBlockState (Lbom;)Lbpm;
+		ARG 0 state
+	METHOD m asString ()Ljava/lang/String;

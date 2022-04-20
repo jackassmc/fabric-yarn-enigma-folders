@@ -1,0 +1,20 @@
+CLASS awi net/minecraft/world/chunk/ChunkSection
+	FIELD a level I
+	FIELD b blockCount I
+	FIELD c tickableBlockCount I
+	FIELD e metaNibbleArray Lawd;
+	FIELD f skyLightLevels Lawd;
+	METHOD a isEmpty ()Z
+	METHOD a getBlockState (III)Lave;
+	METHOD a setSkyLightLevel (IIII)V
+	METHOD a setBlockState (IIILave;)V
+	METHOD a setMetaDataArray (Lawd;)V
+	METHOD b hasTickableBlocks ()Z
+	METHOD b getSkyLightLevel (III)I
+	METHOD b setMetaData (IIII)V
+	METHOD b setSkyLightLevels (Lawd;)V
+	METHOD c getMetaData (III)I
+	METHOD d getlevel ()I
+	METHOD e calculateBlockCount ()V
+	METHOD h getMetaDataArray ()Lawd;
+	METHOD i getSkyLightLevels ()Lawd;

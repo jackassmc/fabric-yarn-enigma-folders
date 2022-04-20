@@ -1,0 +1,24 @@
+CLASS cid net/minecraft/structure/MineshaftGenerator
+	CLASS cid$a MineshaftCorridor
+		FIELD b hasRails Z
+		FIELD c hasCobwebs Z
+		FIELD d hasSpawner Z
+		FIELD e length I
+	CLASS cid$b MineshaftCrossing
+		FIELD b direction Lfa;
+		FIELD c twoFloors Z
+		METHOD a (Ljava/util/List;Ljava/util/Random;IIILfa;)Lchw;
+			ARG 5 facing
+	CLASS cid$c MineshaftPart
+		FIELD a mineshaftType Lccs$b;
+	CLASS cid$d MineshaftRoom
+		FIELD b entrances Ljava/util/List;
+		METHOD <init> (ILjava/util/Random;IILccs$b;)V
+			ARG 2 random
+	CLASS cid$e MineshaftStairs
+		METHOD a (Ljava/util/List;Ljava/util/Random;IIILfa;)Lchw;
+			ARG 1 random
+	METHOD a (Ljava/util/List;Ljava/util/Random;IIILfa;ILccs$b;)Lcid$c;
+		ARG 1 random
+	METHOD b (Lcip;Ljava/util/List;Ljava/util/Random;IIILfa;I)Lcid$c;
+		ARG 2 random

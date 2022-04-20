@@ -1,0 +1,6 @@
+CLASS bmi net/minecraft/block/CactusBlock
+	FIELD a AGE Lbvy;
+	FIELD b COLLISION_SHAPE Lcsc;
+	FIELD c OUTLINE_SHAPE Lcsc;
+	METHOD <init> (Lbma$c;)V
+		ARG 1 settings

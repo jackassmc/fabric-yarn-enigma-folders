@@ -1,0 +1,3 @@
+CLASS dcu net/minecraft/client/render/block/BlockModelRenderer
+	METHOD a renderBlockModel (Lbfr;F)V
+		ARG 1 block

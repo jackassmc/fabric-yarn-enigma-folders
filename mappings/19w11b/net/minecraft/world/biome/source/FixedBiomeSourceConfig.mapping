@@ -1,0 +1,5 @@
+CLASS bhu net/minecraft/world/biome/source/FixedBiomeSourceConfig
+	FIELD a biome Lbgu;
+	METHOD a getBiome ()Lbgu;
+	METHOD a setBiome (Lbgu;)Lbhu;
+		ARG 1 biome

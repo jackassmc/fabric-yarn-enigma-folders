@@ -1,0 +1,64 @@
+CLASS bwy net/minecraft/world/chunk/WorldChunk
+	CLASS bwy$a CreationType
+	FIELD a EMPTY_SECTION Lbwz;
+	FIELD b LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD c sections [Lbwz;
+	FIELD d biomeArray [Lbht;
+	FIELD e pendingBlockEntityTags Ljava/util/Map;
+	FIELD f loadedToWorld Z
+	FIELD g world Lbgw;
+	FIELD h heightmaps Ljava/util/Map;
+	FIELD i upgradeData Lbxi;
+	FIELD j blockEntityMap Ljava/util/Map;
+	FIELD k entitySections [Lze;
+	FIELD l structureStarts Ljava/util/Map;
+	FIELD m structureReferences Ljava/util/Map;
+	FIELD n postProcessingLists [Lit/unimi/dsi/fastutil/shorts/ShortList;
+	FIELD o blockTickScheduler Lbhl;
+	FIELD p fluidTickScheduler Lbhl;
+	FIELD r lastSaveTime J
+	FIELD s shouldSave Z
+	FIELD t inhabitedTime J
+	FIELD u levelTypeProvider Ljava/util/function/Supplier;
+	FIELD v loadToWorldConsumer Ljava/util/function/Consumer;
+	FIELD w pos Lbgj;
+	FIELD x isLightOn Z
+	METHOD <init> (Lbgw;Lbxg;)V
+		ARG 1 world
+	METHOD A runPostProcessing ()V
+	METHOD a getFluidState (III)Lckm;
+		ARG 1 x
+		ARG 2 y
+	METHOD a remove (Lahz;I)V
+		ARG 1 entity
+	METHOD a appendEntities (Lahz;Lcrd;Ljava/util/List;Ljava/util/function/Predicate;)V
+		ARG 1 except
+		ARG 2 box
+		ARG 3 entityList
+	METHOD a addBlockEntity (Lbtb;)V
+	METHOD a getLightLevel (Lev;I)I
+	METHOD a getBlockEntity (Lev;Lbwy$a;)Lbtb;
+		ARG 1 pos
+	METHOD a loadBlockEntity (Lev;Lib;)Lbtb;
+		ARG 1 pos
+	METHOD a appendEntities (Ljava/lang/Class;Lcrd;Ljava/util/List;Ljava/util/function/Predicate;)V
+		ARG 1 entityClass
+		ARG 2 box
+		ARG 3 entityList
+	METHOD a setLevelTypeProvider (Ljava/util/function/Supplier;)V
+		ARG 1 levelTypeProvider
+	METHOD a loadFromPacket (Ljc;Lib;IZ)V
+		ARG 1 data
+		ARG 2 nbt
+		ARG 3 updatedSectionsBits
+		ARG 4 clearOld
+	METHOD b remove (Lahz;)V
+	METHOD c setLoadedToWorld (Z)V
+	METHOD j createBlockEntity (Lev;)Lbtb;
+	METHOD s markDirty ()V
+	METHOD t isEmpty ()Z
+	METHOD u getLevelType ()Luq$b;
+	METHOD w loadToWorld ()V
+	METHOD x getWorld ()Lbgw;
+	METHOD y getBlockEntityMap ()Ljava/util/Map;
+	METHOD z getEntitySectionArray ()[Lze;

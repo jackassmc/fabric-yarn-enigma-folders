@@ -1,0 +1,29 @@
+CLASS axv net/minecraft/recipe/Ingredient
+	CLASS axv$a StackEntry
+		FIELD a stack Lavs;
+		METHOD a getStacks ()Ljava/util/Collection;
+		METHOD b toJson ()Lcom/google/gson/JsonObject;
+	CLASS axv$b TagEntry
+		FIELD a tag Lxx;
+		METHOD a getStacks ()Ljava/util/Collection;
+		METHOD b toJson ()Lcom/google/gson/JsonObject;
+	CLASS axv$c Entry
+		METHOD a getStacks ()Ljava/util/Collection;
+		METHOD b toJson ()Lcom/google/gson/JsonObject;
+	FIELD a EMPTY Laxv;
+	FIELD c entries [Laxv$c;
+	FIELD d stackArray [Lavs;
+	METHOD a getStackArray ()[Lavs;
+	METHOD a matches (Lavs;)Z
+	METHOD a fromJson (Lcom/google/gson/JsonElement;)Laxv;
+		ARG 0 element
+	METHOD a entryFromJson (Lcom/google/gson/JsonObject;)Laxv$c;
+	METHOD a write (Liq;)V
+	METHOD a ofEntries (Ljava/util/stream/Stream;)Laxv;
+	METHOD a fromTag (Lxx;)Laxv;
+	METHOD a ofStacks ([Lavs;)Laxv;
+	METHOD a ofItems ([Lbap;)Laxv;
+	METHOD b fromPacket (Liq;)Laxv;
+		ARG 0 buf
+	METHOD c toJson ()Lcom/google/gson/JsonElement;
+	METHOD f createStackArray ()V

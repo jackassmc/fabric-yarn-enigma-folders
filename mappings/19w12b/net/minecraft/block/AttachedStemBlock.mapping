@@ -1,0 +1,5 @@
+CLASS bko net/minecraft/block/AttachedStemBlock
+	FIELD a FACING Lbuz;
+	FIELD b gourdBlock Lbqs;
+	FIELD c FACING_TO_SHAPE Ljava/util/Map;
+	METHOD b getSeeds ()Lbau;

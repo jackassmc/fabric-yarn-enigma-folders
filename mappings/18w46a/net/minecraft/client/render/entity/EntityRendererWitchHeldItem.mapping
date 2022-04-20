@@ -1,0 +1,5 @@
+CLASS dju net/minecraft/client/render/entity/EntityRendererWitchHeldItem
+	FIELD a renderer Ldih;
+	METHOD a shouldMergeTextures ()Z
+	METHOD a render (Lagl;FFFFFFF)V
+	METHOD a render (Lapo;FFFFFFF)V

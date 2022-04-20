@@ -1,0 +1,2 @@
+CLASS bpu net/minecraft/client/render/entity/model/EntityModelZombie
+	METHOD a setRotationAngles (FFFFFFLub;)V

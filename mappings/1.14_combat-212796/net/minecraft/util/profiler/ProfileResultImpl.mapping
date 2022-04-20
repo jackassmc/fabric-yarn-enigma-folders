@@ -1,0 +1,17 @@
+CLASS agf net/minecraft/util/profiler/ProfileResultImpl
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD b timings Ljava/util/Map;
+	FIELD d startTime J
+	FIELD e startTick I
+	FIELD f endTime J
+	FIELD g endTick I
+	METHOD <init> (Ljava/util/Map;Ljava/util/Map;JIJI)V
+		ARG 1 timings
+	METHOD a appendTiming (ILjava/lang/String;Ljava/lang/StringBuilder;)V
+		ARG 1 level
+		ARG 2 name
+		ARG 3 sb
+	METHOD a asString (JI)Ljava/lang/String;
+		ARG 1 timeSpan
+		ARG 3 tickSpan
+	METHOD h generateWittyComment ()Ljava/lang/String;

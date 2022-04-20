@@ -1,0 +1,16 @@
+CLASS asl net/minecraft/container/CraftingTableContainer
+	FIELD a craftingInv Lask;
+	FIELD f resultInv Latd;
+	FIELD g world Lbaq;
+	FIELD h pos Let;
+	METHOD <init> (Laqi;Lbaq;Let;)V
+		ARG 1 playerInv
+		ARG 2 world
+	METHOD a onContentChanged (Laev;)V
+	METHOD a canUse (Laqj;)Z
+	METHOD a matches (Laxy;)Z
+	METHOD b close (Laqj;)V
+	METHOD b getStack (Laqj;I)Lavs;
+		ARG 1 player
+	METHOD f getCraftingWidth ()I
+	METHOD g getCrafitngHeight ()I

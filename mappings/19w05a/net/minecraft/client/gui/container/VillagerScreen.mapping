@@ -1,0 +1,10 @@
+CLASS cwg net/minecraft/client/gui/container/VillagerScreen
+	CLASS cwg$a WidgetButtonPage
+		FIELD o next Z
+		METHOD <init> (IIIZ)V
+			ARG 1 x
+			ARG 2 y
+			ARG 3 next
+	FIELD A buttonPagePrevious Lcwg$a;
+	FIELD y TEXTURE Lqd;
+	FIELD z buttonPageNext Lcwg$a;

@@ -1,0 +1,37 @@
+CLASS dgu net/minecraft/client/texture/TextureStitcher
+	CLASS dgu$a Holder
+		FIELD a sprite Ldgx;
+		FIELD b width I
+		FIELD c height I
+		FIELD d mipLevel I
+		METHOD a getSprite ()Ldgx;
+	CLASS dgu$b Slot
+		FIELD a x I
+		FIELD b y I
+		FIELD c width I
+		FIELD d height I
+		FIELD f spriteHolder Ldgu$a;
+		METHOD a getSpriteHolder ()Ldgu$a;
+		METHOD a tryFit (Ldgu$a;)Z
+		METHOD a addAllFilledSlots (Ljava/util/List;)V
+		METHOD b getX ()I
+		METHOD c getY ()I
+	FIELD a mipLevel I
+	FIELD b holders Ljava/util/Set;
+	FIELD c slots Ljava/util/List;
+	FIELD d width I
+	FIELD e height I
+	FIELD f maxWidth I
+	FIELD g maxHeight I
+	METHOD <init> (IIII)V
+		ARG 0 maxWidth
+		ARG 1 maxHeight
+		ARG 3 mipLevel
+	METHOD a getWidth ()I
+	METHOD a tryFit (Ldgu$a;)Z
+		ARG 0 holder
+	METHOD a add (Ldgx;)V
+		ARG 0 sprite
+	METHOD b getHeight ()I
+	METHOD c stitch ()V
+	METHOD d getStitchedSprites ()Ljava/util/List;

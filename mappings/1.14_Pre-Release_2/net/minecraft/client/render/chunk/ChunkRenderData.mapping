@@ -1,0 +1,13 @@
+CLASS dmv net/minecraft/client/render/chunk/ChunkRenderData
+	FIELD a EMPTY Ldmv;
+	FIELD c initialized [Z
+	FIELD d empty Z
+	FIELD e blockEntities Ljava/util/List;
+	FIELD g bufferState Lcuc$a;
+	METHOD a isEmpty ()Z
+	METHOD a addBlockEntity (Lbtf;)V
+	METHOD a setBufferState (Lcuc$a;)V
+	METHOD b getBlockEntities ()Ljava/util/List;
+	METHOD c getBufferState ()Lcuc$a;
+	METHOD c markBufferInitialized (Lbgm;)V
+	METHOD d isBufferInitialized (Lbgm;)Z

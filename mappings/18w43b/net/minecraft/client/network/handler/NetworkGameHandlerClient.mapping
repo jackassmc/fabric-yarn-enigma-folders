@@ -1,0 +1,157 @@
+CLASS cuw net/minecraft/client/network/handler/NetworkGameHandlerClient
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD b connection Lik;
+	FIELD e game Lcjj;
+	FIELD f world Lcuz;
+	FIELD i advancementHandler Lcut;
+	FIELD m rand Ljava/util/Random;
+	METHOD a getClientConnection ()Lik;
+	METHOD a onConnectionLost (Liw;)V
+		ARG 0 reason
+	METHOD a sendPacket (Ljk;)V
+		ARG 0 packet
+	METHOD a onEntitySpawn (Ljo;)V
+		ARG 0 packet
+	METHOD a onExperienceOrbSpawn (Ljp;)V
+		ARG 0 packet
+	METHOD a onEntitySpawnGlobal (Ljq;)V
+		ARG 0 packet
+	METHOD a onMobSpawn (Ljr;)V
+		ARG 0 packet
+	METHOD a onPaintingSpawn (Ljs;)V
+		ARG 0 packet
+	METHOD a onPlayerSpawn (Ljt;)V
+		ARG 0 packet
+	METHOD a onEntityAnimation (Lju;)V
+		ARG 0 packet
+	METHOD a onStatistics (Ljv;)V
+		ARG 0 packet
+	METHOD a onBlockDestroyProgress (Ljw;)V
+		ARG 0 packet
+	METHOD a onBlockEntityUpdate (Ljx;)V
+		ARG 0 packet
+	METHOD a onBlockAction (Ljy;)V
+		ARG 0 packet
+	METHOD a onBlockUpdate (Ljz;)V
+		ARG 0 packet
+	METHOD a onBossBar (Lka;)V
+		ARG 0 packet
+	METHOD a onDifficulty (Lkb;)V
+		ARG 0 packet
+	METHOD a onChatMessage (Lkc;)V
+		ARG 0 packet
+	METHOD a onChunkDeltaUpdate (Lkd;)V
+		ARG 0 packet
+	METHOD a onGuiActionConfirm (Lkg;)V
+		ARG 0 packet
+	METHOD a onGuiClose (Lkh;)V
+		ARG 0 packet
+	METHOD a onGuiOpen (Lki;)V
+		ARG 0 packet
+	METHOD a onInventory (Lkj;)V
+		ARG 0 packet
+	METHOD a onGuiUpdate (Lkk;)V
+		ARG 0 packet
+	METHOD a onGuiSlotUpdate (Lkl;)V
+		ARG 0 packet
+	METHOD a onCooldownUpdate (Lkm;)V
+		ARG 0 packet
+	METHOD a onCustomPayload (Lkn;)V
+		ARG 0 packet
+	METHOD a onSoundPlayName (Lko;)V
+		ARG 0 packet
+	METHOD a onDisconnect (Lkp;)V
+		ARG 0 packet
+	METHOD a onEntityStatus (Lkq;)V
+		ARG 0 packet
+	METHOD a onExplosion (Lkr;)V
+		ARG 0 packet
+	METHOD a onGameStateChange (Lkt;)V
+		ARG 0 packet
+	METHOD a onKeepAlive (Lku;)V
+		ARG 0 packet
+	METHOD a onChunkData (Lkv;)V
+		ARG 0 packet
+	METHOD a onWorldEvent (Lkw;)V
+		ARG 0 packet
+	METHOD a onParticle (Lkx;)V
+		ARG 0 packet
+	METHOD a onGameJoin (Lkz;)V
+		ARG 0 packet
+	METHOD a onMapUpdate (Lla;)V
+		ARG 0 packet
+	METHOD a onEntityUpdate (Llb;)V
+		ARG 0 packet
+	METHOD a onVehicleMove (Llc;)V
+		ARG 0 packet
+	METHOD a onSignEditorOpen (Lld;)V
+		ARG 0 packet
+	METHOD a onPlayerAbilities (Llf;)V
+		ARG 0 packet
+	METHOD a onEventCombat (Llg;)V
+		ARG 0 packet
+	METHOD a onPlayerList (Llh;)V
+		ARG 0 packet
+	METHOD a onPlayerPositionLook (Llj;)V
+		ARG 0 packet
+	METHOD a onPlayerUseBed (Llk;)V
+		ARG 0 packet
+	METHOD a onUnlockRecipes (Lll;)V
+	METHOD a onEntitiesDestroy (Llm;)V
+		ARG 0 packet
+	METHOD a onEntityEffectRemove (Lln;)V
+		ARG 0 packet
+	METHOD a onResourcePackSend (Llo;)V
+		ARG 0 packet
+	METHOD a onPlayerRespawn (Llp;)V
+		ARG 0 packet
+	METHOD a onEntitySetHeadYaw (Llq;)V
+		ARG 0 packet
+	METHOD a onWorldBorder (Lls;)V
+		ARG 0 packet
+	METHOD a onSetCameraEntity (Llt;)V
+		ARG 0 packet
+	METHOD a onHeldItemChange (Llu;)V
+		ARG 0 packet
+	METHOD a onScoreboardDisplay (Llv;)V
+		ARG 0 packet
+	METHOD a onEntityTrackerUpdate (Llw;)V
+		ARG 0 packet
+	METHOD a onEntityAttach (Llx;)V
+		ARG 0 packet
+	METHOD a onVelocityUpdate (Lly;)V
+		ARG 0 packet
+	METHOD a onEquipmentUpdate (Llz;)V
+		ARG 0 packet
+	METHOD a onExperienceBarUpdate (Lma;)V
+		ARG 0 packet
+	METHOD a onHealthUpdate (Lmb;)V
+		ARG 0 packet
+	METHOD a onScoreboardObjectiveUpdate (Lmc;)V
+		ARG 0 packet
+	METHOD a onEntityPassengersSet (Lmd;)V
+		ARG 0 packet
+	METHOD a onTeam (Lme;)V
+		ARG 0 packet
+	METHOD a onPlayerSpawnPosition (Lmg;)V
+		ARG 0 packet
+	METHOD a onWorldTimeUpdate (Lmh;)V
+		ARG 0 packet
+	METHOD a onTitle (Lmi;)V
+		ARG 0 packet
+	METHOD a onSoundPlayId (Lmk;)V
+		ARG 0 packet
+	METHOD a onPlayerListHeader (Lmm;)V
+		ARG 0 packet
+	METHOD a onItemPickupAnimation (Lmo;)V
+		ARG 0 packet
+	METHOD a onEntityTeleport (Lmp;)V
+		ARG 0 packet
+	METHOD a onAdvancements (Lmq;)V
+	METHOD a onEntityAttributes (Lmr;)V
+		ARG 0 packet
+	METHOD a onEntityPotionEffect (Lms;)V
+		ARG 0 packet
+	METHOD b validateResourcePackUrl (Ljava/lang/String;)Z
+		ARG 0 url
+	METHOD g getAdvancementHandler ()Lcut;

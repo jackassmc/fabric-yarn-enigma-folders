@@ -1,0 +1,45 @@
+CLASS ble net/minecraft/block/LecternBlock
+	FIELD a FACING Lbru;
+	FIELD b POWERED Lbrr;
+	FIELD c HAS_BOOK Lbrr;
+	FIELD d BOTTOM_SHAPE Lcoa;
+	FIELD e MIDDLE_SHAPE Lcoa;
+	FIELD f BASE_SHAPE Lcoa;
+	FIELD g COLLISION_SHAPE_TOP Lcoa;
+	FIELD h COLLISION_SHAPE Lcoa;
+	FIELD i WEST_SHAPE Lcoa;
+	FIELD j NORTH_SHAPE Lcoa;
+	FIELD k EAST_SHAPE Lcoa;
+	FIELD w SOUTH_SHAPE Lcoa;
+	METHOD <init> (Lbic$c;)V
+		ARG 1 settings
+	METHOD a openContainer (Lbdb;Les;Lary;)V
+		ARG 1 world
+		ARG 2 pos
+		ARG 3 player
+	METHOD a setPowered (Lbdb;Les;Lbqz;)V
+		ARG 0 world
+		ARG 1 pos
+		ARG 2 state
+	METHOD a putBookIfAbsent (Lbdb;Les;Lbqz;Laxt;)Z
+		ARG 0 world
+		ARG 1 pos
+		ARG 2 state
+		ARG 3 book
+	METHOD a setHasBook (Lbdb;Les;Lbqz;Z)V
+		ARG 0 world
+		ARG 1 pos
+		ARG 2 state
+		ARG 3 hasBook
+	METHOD b updateNeighborAlways (Lbdb;Les;Lbqz;)V
+		ARG 0 world
+		ARG 1 pos
+		ARG 2 state
+	METHOD b putBook (Lbdb;Les;Lbqz;Laxt;)V
+		ARG 0 world
+		ARG 1 pos
+		ARG 2 state
+		ARG 3 book
+	METHOD b setPowered (Lbdb;Les;Lbqz;Z)V
+		ARG 2 state
+		ARG 3 powered

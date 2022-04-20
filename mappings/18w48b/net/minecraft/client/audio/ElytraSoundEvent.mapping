@@ -1,0 +1,4 @@
+CLASS dnk net/minecraft/client/audio/ElytraSoundEvent
+	FIELD n player Ldbn;
+	FIELD o tickCount I
+	METHOD ab_ tick ()V

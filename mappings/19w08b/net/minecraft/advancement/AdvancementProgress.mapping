@@ -1,0 +1,20 @@
+CLASS p net/minecraft/advancement/AdvancementProgress
+	CLASS p$a Serializer
+	FIELD a criteriaProgresses Ljava/util/Map;
+	FIELD b requirements [[Ljava/lang/String;
+	METHOD a isDone ()Z
+	METHOD a toPacket (Liy;)V
+	METHOD a obtain (Ljava/lang/String;)Z
+	METHOD a init (Ljava/util/Map;[[Ljava/lang/String;)V
+		ARG 1 criteria
+	METHOD b isAnyObtained ()Z
+	METHOD b fromPacket (Liy;)Lp;
+		ARG 0 buf
+	METHOD b reset (Ljava/lang/String;)Z
+	METHOD c getProgressBarPercentage ()F
+	METHOD c getCriterionProgress (Ljava/lang/String;)Lt;
+	METHOD d getProgressBarFraction ()Ljava/lang/String;
+	METHOD e getUnobtainedCriteria ()Ljava/lang/Iterable;
+	METHOD f getObtainedCriteria ()Ljava/lang/Iterable;
+	METHOD g getEarliestProgressObtainDate ()Ljava/util/Date;
+	METHOD h countObtainedRequirements ()I

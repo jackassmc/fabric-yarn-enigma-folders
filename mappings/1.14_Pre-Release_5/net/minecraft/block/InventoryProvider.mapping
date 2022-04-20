@@ -1,0 +1,2 @@
+CLASS ahk net/minecraft/block/InventoryProvider
+	METHOD a getInventory (Lbvj;Lbhi;Lev;)Lahj;

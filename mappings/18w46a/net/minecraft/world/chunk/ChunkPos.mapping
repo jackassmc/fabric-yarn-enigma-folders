@@ -1,0 +1,15 @@
+CLASS azs net/minecraft/world/chunk/ChunkPos
+	FIELD a x I
+	FIELD b z I
+	METHOD <init> (II)V
+		ARG 1 x
+	METHOD a toLong (II)J
+		ARG 0 chunkX
+		ARG 1 chunkZ
+	METHOD a toBlockPos (III)Les;
+		ARG 1 xOffset
+		ARG 2 y
+	METHOD d getXStart ()I
+	METHOD e getZStart ()I
+	METHOD f getXEnd ()I
+	METHOD g getZEnd ()I

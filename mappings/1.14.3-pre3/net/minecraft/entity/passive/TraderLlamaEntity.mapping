@@ -1,0 +1,10 @@
+CLASS asd net/minecraft/entity/passive/TraderLlamaEntity
+	CLASS asd$a DefendTraderGoal
+		FIELD b llama Larz;
+		FIELD c offender Laiu;
+		FIELD d traderLastAttackedTime I
+		METHOD <init> (Lasd;Larz;)V
+			ARG 2 llama
+	FIELD bI despawnDelay I
+	METHOD eN heldByTrader ()Z
+	METHOD eO leashedByPlayer ()Z

@@ -1,0 +1,4 @@
+CLASS bsg net/minecraft/block/StructureVoidBlock
+	FIELD a SHAPE Lcsv;
+	METHOD <init> (Lbmq$c;)V
+		ARG 1 settings

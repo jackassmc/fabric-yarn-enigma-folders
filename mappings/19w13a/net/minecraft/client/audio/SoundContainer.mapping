@@ -1,0 +1,5 @@
+CLASS dxd net/minecraft/client/audio/SoundContainer
+	METHOD a addTo (Ldwy;)V
+		ARG 1 soundSystem
+	METHOD e getWeight ()I
+	METHOD k getSound ()Ljava/lang/Object;

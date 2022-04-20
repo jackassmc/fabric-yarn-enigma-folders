@@ -1,0 +1,258 @@
+CLASS dkm net/minecraft/client/render/WorldRenderer
+	CLASS dkm$a ChunkInfo
+		FIELD b renderer Ldne;
+		METHOD <init> (Ldkm;Ldne;Lfa;I)V
+			ARG 1 renderer
+	FIELD A ticks I
+	FIELD B partiallyBrokenBlocks Ljava/util/Map;
+	FIELD C playingSongs Ljava/util/Map;
+	FIELD D destroyStages [Ldug;
+	FIELD E entityOutlinesFramebuffer Lctm;
+	FIELD F entityOutlineShader Ldkr;
+	FIELD G lastCameraChunkUpdateX D
+	FIELD H lastCameraChunkUpdateY D
+	FIELD I lastCameraChunkUpdateZ D
+	FIELD J cameraChunkX I
+	FIELD K cameraChunkY I
+	FIELD L cameraChunkZ I
+	FIELD M lastCameraX D
+	FIELD N lastCameraY D
+	FIELD O lastCameraZ D
+	FIELD P lastCameraPitch D
+	FIELD Q lastCameraYaw D
+	FIELD W chunkBatcher Ldna;
+	FIELD X chunkRendererList Ldkc;
+	FIELD Y renderDistance I
+	FIELD a DIRECTIONS [Lfa;
+	FIELD aa regularEntityCount I
+	FIELD ab blockEntityCount I
+	FIELD ad forcedFrustum Ldnn;
+	FIELD af forcedFrustumPosition Lcus;
+	FIELD ag vertexBufferObjectsEnabled Z
+	FIELD ah chunkRendererFactory Ldnf;
+	FIELD ai lastTranslucentSortX D
+	FIELD aj lastTranslucentSortY D
+	FIELD ak lastTranslucentSortZ D
+	FIELD al terrainUpdateNecessary Z
+	FIELD am entityOutlinesUpdateNecessary Z
+	FIELD b LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD c MOON_PHASES_TEX Lqs;
+	FIELD d SUN_TEX Lqs;
+	FIELD e CLOUDS_TEX Lqs;
+	FIELD f END_SKY_TEX Lqs;
+	FIELD g FORCEFIELD_TEX Lqs;
+	FIELD h client Lcvi;
+	FIELD i textureManager Lduh;
+	FIELD j entityRenderDispatcher Ldpf;
+	FIELD k world Ldhl;
+	FIELD l chunkRenderers Ljava/util/Set;
+	FIELD m chunkInfos Ljava/util/List;
+	FIELD n blockEntities Ljava/util/Set;
+	FIELD o chunkRenderDispatcher Ldkw;
+	FIELD p starsDisplayList I
+	FIELD t starsBuffer Lcun;
+	FIELD x cloudsDirty Z
+	FIELD y cloudsDisplayList I
+	FIELD z cloudsBuffer Lcun;
+	METHOD a loadEntityOutlineShader ()V
+	METHOD a drawBoxOutline (DDDDDDFFFF)V
+		ARG 0 minX
+		ARG 2 minY
+		ARG 4 minZ
+		ARG 6 maxX
+		ARG 8 maxY
+		ARG 10 maxZ
+		ARG 12 red
+		ARG 13 green
+		ARG 14 blue
+		ARG 15 alpha
+	METHOD a renderSky (F)V
+		ARG 1 tickDelta
+	METHOD a renderClouds (FDDD)V
+		ARG 1 tickDelta
+	METHOD a onResized (II)V
+	METHOD a scheduleBlockRenders (III)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD a scheduleBlockRenders (IIIIII)V
+		ARG 1 minX
+		ARG 2 minY
+		ARG 3 minZ
+		ARG 4 maxX
+		ARG 5 maxY
+		ARG 6 maxZ
+	METHOD a scheduleChunkRender (IIIZ)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD a playGlobalEvent (ILev;I)V
+	METHOD a updateChunks (J)V
+		ARG 1 endTime
+	METHOD a playLevelEvent (Lavx;ILev;I)V
+		ARG 1 source
+		ARG 2 type
+		ARG 3 pos
+		ARG 4 data
+	METHOD a updateBlock (Lbgr;Lev;Lbvj;Lbvj;I)V
+		ARG 2 pos
+	METHOD a renderLayer (Lbgs;)V
+		ARG 1 layer
+	METHOD a renderLayer (Lbgs;Lcux;)I
+		ARG 1 layer
+	METHOD a updateEntitiesForSong (Lbhh;Lev;Z)V
+		ARG 1 world
+		ARG 2 pos
+		ARG 3 playing
+	METHOD a drawBoxOutline (Lcrq;FFFF)V
+		ARG 0 box
+		ARG 1 red
+		ARG 2 green
+		ARG 3 blue
+		ARG 4 alpha
+	METHOD a drawDebugShapeOutline (Lcsp;DDDFFFF)V
+		ARG 0 shape
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+		ARG 7 red
+		ARG 8 green
+		ARG 9 blue
+		ARG 10 alpha
+	METHOD a renderStars (Lcuj;)V
+		ARG 1 buffer
+	METHOD a buildBoxOutline (Lcuj;DDDDDDFFFF)V
+		ARG 0 buffer
+		ARG 1 minX
+		ARG 3 minY
+		ARG 5 minZ
+		ARG 7 maxX
+		ARG 9 maxY
+		ARG 11 maxZ
+		ARG 13 red
+		ARG 14 green
+		ARG 15 blue
+		ARG 16 alpha
+	METHOD a renderClouds (Lcuj;DDDLcrv;)V
+		ARG 8 color
+	METHOD a (Lcuj;FZ)V
+		ARG 1 bufferBuilder
+		ARG 2 y
+		ARG 3 flipX
+	METHOD a renderPartiallyBrokenBlocks (Lcum;Lcuj;Lcux;)V
+		ARG 1 tesselator
+		ARG 2 builder
+	METHOD a renderWorldBorder (Lcux;F)V
+		ARG 2 delta
+	METHOD a drawHighlightedBlockOutline (Lcux;Lcrt;I)V
+		ARG 2 hit
+		ARG 3 renderPass
+	METHOD a renderEntities (Lcux;Ldnk;F)V
+		ARG 3 tickDelta
+	METHOD a setUpTerrain (Lcux;Ldnk;IZ)V
+	METHOD a setWorld (Ldhl;)V
+	METHOD a getOpenChunkFaces (Lev;)Ljava/util/Set;
+		ARG 1 pos
+	METHOD a getAdjacentChunkRenderer (Lev;Ldne;Lfa;)Ldne;
+		ARG 1 pos
+		ARG 2 chunkRenderer
+		ARG 3 direction
+	METHOD a scheduleSectionRender (Lev;Z)V
+		ARG 1 pos
+	METHOD a addParticle (Lgd;DDDDDD)V
+		ARG 1 parameters
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z
+		ARG 8 velocityX
+		ARG 10 velocityY
+		ARG 12 velocityZ
+	METHOD a addParticle (Lgd;ZDDDDDD)V
+		ARG 1 parameters
+		ARG 2 shouldAlwaysSpawn
+		ARG 3 x
+		ARG 5 y
+		ARG 7 z
+		ARG 9 velocityX
+		ARG 11 velocityY
+		ARG 13 velocityZ
+	METHOD a addParticle (Lgd;ZZDDDDDD)V
+		ARG 1 parameters
+		ARG 2 shouldAlwaysSpawn
+		ARG 3 isImportant
+		ARG 4 x
+		ARG 6 y
+		ARG 8 z
+		ARG 10 velocityX
+		ARG 12 velocityY
+		ARG 14 velocityY
+	METHOD a updateBlockEntities (Ljava/util/Collection;Ljava/util/Collection;)V
+		ARG 1 removed
+		ARG 2 added
+	METHOD a removeOutdatedPartiallyBrokenBlocks (Ljava/util/Iterator;)V
+		ARG 1 partiallyBrokenBlocks
+	METHOD a playSong (Lyj;Lev;)V
+		ARG 1 song
+		ARG 2 pos
+	METHOD a getRandomParticleSpawnChance (Z)Lcvn;
+		ARG 1 canSpawnOnMinimal
+	METHOD b drawEntityOutlinesFramebuffer ()V
+	METHOD b scheduleBlockRender (III)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD b setBlockBreakingProgress (ILev;I)V
+	METHOD b drawShapeOutline (Lcsp;DDDFFFF)V
+		ARG 0 shape
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+		ARG 7 red
+		ARG 8 green
+		ARG 9 blue
+		ARG 10 alpha
+	METHOD b buildBox (Lcuj;DDDDDDFFFF)V
+		ARG 0 builder
+		ARG 1 minX
+		ARG 3 minY
+		ARG 5 minZ
+		ARG 7 maxX
+		ARG 9 maxY
+		ARG 11 maxZ
+		ARG 13 red
+		ARG 14 green
+		ARG 15 blue
+		ARG 16 alpha
+	METHOD b spawnParticle (Lgd;ZDDDDDD)Ldit;
+		ARG 1 parameters
+		ARG 2 alwaysSpawn
+		ARG 3 x
+		ARG 5 y
+		ARG 7 z
+		ARG 9 velocityX
+		ARG 11 velocityY
+		ARG 13 velocityZ
+	METHOD b spawnParticle (Lgd;ZZDDDDDD)Ldit;
+		ARG 1 parameters
+		ARG 2 alwaysSpawn
+		ARG 3 canSpawnOnMinimal
+		ARG 4 x
+		ARG 6 y
+		ARG 8 z
+		ARG 10 velocityX
+		ARG 12 velocityY
+		ARG 14 velocityZ
+	METHOD c canDrawEntityOutlines ()Z
+	METHOD d reload ()V
+	METHOD e clearChunkRenderers ()V
+	METHOD f getChunksDebugString ()Ljava/lang/String;
+	METHOD g getChunkNumber ()I
+	METHOD h getEntitiesDebugString ()Ljava/lang/String;
+	METHOD k tick ()V
+	METHOD m isTerrainRenderComplete ()Z
+	METHOD n scheduleTerrainUpdate ()V
+	METHOD o loadDestroyStageTextures ()V
+	METHOD r renderStars ()V
+	METHOD s renderEndSky ()V
+	METHOD t enableBlockOverlayRendering ()V
+	METHOD u disableBlockOverlayRendering ()V

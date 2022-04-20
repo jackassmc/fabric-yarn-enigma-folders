@@ -1,0 +1,8 @@
+CLASS aft net/minecraft/container/LockContainer
+	FIELD a EMPTY Laft;
+	FIELD b key Ljava/lang/String;
+	METHOD a isEmpty ()Z
+	METHOD a serialize (Lhs;)V
+	METHOD b getKey ()Ljava/lang/String;
+	METHOD b deserialize (Lhs;)Laft;
+		ARG 0 tag

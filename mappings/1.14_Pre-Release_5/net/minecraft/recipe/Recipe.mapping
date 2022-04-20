@@ -1,0 +1,18 @@
+CLASS bei net/minecraft/recipe/Recipe
+	METHOD Q_ isIgnoredInRecipeBook ()Z
+	METHOD R_ getSerializer ()Lbek;
+	METHOD a getPreviewInputs ()Lfj;
+	METHOD a fits (II)Z
+		ARG 1 width
+		ARG 2 height
+	METHOD a craft (Lagt;)Lbca;
+		ARG 1 inv
+	METHOD a matches (Lagt;Lbhh;)Z
+		ARG 1 inv
+		ARG 2 world
+	METHOD b getRemainingStacks (Lagt;)Lfj;
+	METHOD c getOutput ()Lbca;
+	METHOD d getGroup ()Ljava/lang/String;
+	METHOD f getId ()Lqs;
+	METHOD g getType ()Lbel;
+	METHOD h getRecipeKindIcon ()Lbca;

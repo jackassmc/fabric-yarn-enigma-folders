@@ -1,0 +1,2 @@
+CLASS bam net/minecraft/item/ContainerItem
+	METHOD h getItem ()Lavj;

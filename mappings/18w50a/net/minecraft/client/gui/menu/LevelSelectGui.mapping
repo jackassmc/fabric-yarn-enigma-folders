@@ -1,0 +1,53 @@
+CLASS cwy net/minecraft/client/gui/menu/LevelSelectGui
+	CLASS cwy$1
+		METHOD c setFocused (Z)V
+	CLASS cwy$2
+		METHOD a onPressed (DD)V
+			ARG 1 mouseX
+			ARG 3 mouseY
+	CLASS cwy$3
+		METHOD a onPressed (DD)V
+			ARG 1 mouseX
+			ARG 3 mouseY
+	CLASS cwy$4
+		METHOD a onPressed (DD)V
+			ARG 1 mouseX
+			ARG 3 mouseY
+	CLASS cwy$5
+		METHOD a onPressed (DD)V
+			ARG 1 mouseX
+			ARG 3 mouseY
+	CLASS cwy$6
+		METHOD a onPressed (DD)V
+			ARG 1 mouseX
+			ARG 3 mouseY
+	CLASS cwy$7
+		METHOD a onPressed (DD)V
+			ARG 1 mouseX
+			ARG 3 mouseY
+	FIELD a parent Lctp;
+	FIELD f title Ljava/lang/String;
+	FIELD g searchBox Lcqm;
+	FIELD h LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD s deleteButton Lcqi;
+	FIELD t selectButton Lcqi;
+	FIELD u editButton Lcqi;
+	FIELD v recreateButton Lcqi;
+	FIELD w levelList Lcxa;
+	METHOD <init> (Lctp;)V
+		ARG 1 parent
+	METHOD a charTyped (CI)Z
+		ARG 1 chr
+		ARG 2 keyCode
+	METHOD a mouseScrolled (D)Z
+		ARG 1 dY
+	METHOD a draw (IIF)V
+		ARG 1 mouseX
+		ARG 2 mouseY
+	METHOD a keyPressed (III)Z
+		ARG 1 keyCode
+		ARG 2 scanCode
+		ARG 3 modifiers
+	METHOD c onInitialized ()V
+	METHOD f update ()V
+	METHOD n onClosed ()V

@@ -1,0 +1,4 @@
+CLASS cwm net/minecraft/client/gui/hud/ChatListenerHud
+	FIELD a client Lcvn;
+	METHOD <init> (Lcvn;)V
+		ARG 1 client

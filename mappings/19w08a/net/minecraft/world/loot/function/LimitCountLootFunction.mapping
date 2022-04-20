@@ -1,0 +1,3 @@
+CLASS cli net/minecraft/world/loot/function/LimitCountLootFunction
+	CLASS cli$a Factory
+	FIELD a limit Lcka;

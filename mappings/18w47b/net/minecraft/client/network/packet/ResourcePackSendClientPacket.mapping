@@ -1,0 +1,11 @@
+CLASS ls net/minecraft/client/network/packet/ResourcePackSendClientPacket
+	FIELD a url Ljava/lang/String;
+	FIELD b hash Ljava/lang/String;
+	METHOD <init> (Ljava/lang/String;Ljava/lang/String;)V
+		ARG 1 url
+	METHOD a read (Liq;)V
+	METHOD a apply (Lit;)V
+	METHOD a apply (Ljr;)V
+	METHOD b getURL ()Ljava/lang/String;
+	METHOD b write (Liq;)V
+	METHOD c getSHA1 ()Ljava/lang/String;

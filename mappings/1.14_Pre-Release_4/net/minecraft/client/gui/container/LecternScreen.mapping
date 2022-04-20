@@ -1,0 +1,7 @@
+CLASS dbh net/minecraft/client/gui/container/LecternScreen
+	FIELD c lecternContainer Layy;
+	FIELD d listener Layl;
+	METHOD c sendButtonPressPacket (I)V
+		ARG 1 id
+	METHOD g updatePageProvider ()V
+	METHOD h updatePage ()V

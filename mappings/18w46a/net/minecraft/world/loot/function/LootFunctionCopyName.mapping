@@ -1,0 +1,15 @@
+CLASS chl net/minecraft/world/loot/function/LootFunctionCopyName
+	CLASS chl$a Source
+		FIELD a THIS Lchl$a;
+		FIELD b KILLER Lchl$a;
+		FIELD c KILLER_PLAYER Lchl$a;
+		FIELD d BLOCK_ENTITY Lchl$a;
+	CLASS chl$b Factory
+		METHOD a toJson (Lcom/google/gson/JsonObject;Lchs;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD a toJson (Lcom/google/gson/JsonObject;Lcht;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD b fromJson (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;[Lciw;)Lchs;
+	FIELD a source Lchl$a;
+	METHOD a process (Lavf;Lcgl;)Lavf;
+		ARG 1 stack
+	METHOD a create (Lchl$a;)Lchs$a;
+		ARG 0 source

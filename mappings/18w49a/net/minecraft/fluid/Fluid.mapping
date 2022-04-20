@@ -1,0 +1,19 @@
+CLASS cdy net/minecraft/fluid/Fluid
+	FIELD a defaultState Lcdz;
+	FIELD c STATE_IDS Lfc;
+	FIELD d stateFactory Lbon;
+	METHOD a getRenderLayer ()Lbaf;
+	METHOD a appendProperties (Lbon$a;)V
+	METHOD a matchesType (Lcdy;)Z
+	METHOD a matches (Lxy;)Z
+	METHOD b getBucketItem ()Lavp;
+	METHOD b onRandomTick (Lbas;Let;Lcdz;Ljava/util/Random;)V
+	METHOD b toBlockState (Lcdz;)Lbom;
+	METHOD c isEmpty ()Z
+	METHOD c isStill (Lcdz;)Z
+	METHOD d getBlastResistance ()F
+	METHOD f setDefaultState (Lcdz;)V
+	METHOD h getStateFactory ()Lbon;
+	METHOD i getDefaultState ()Lcdz;
+	METHOD j getParticle ()Lft;
+	METHOD k hasRandomTicks ()Z

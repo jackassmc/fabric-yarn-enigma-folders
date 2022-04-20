@@ -1,0 +1,27 @@
+CLASS none/alz net/minecraft/block/impl/BlockDoor
+	CLASS none/alz$a HALF
+		FIELD a UPPER Lnone/alz$a;
+		FIELD b LOWER Lnone/alz$a;
+		METHOD m asString ()Ljava/lang/String;
+	CLASS none/alz$b HINGE
+		FIELD a LEFT Lnone/alz$b;
+		FIELD b RIGHT Lnone/alz$b;
+		METHOD m asString ()Ljava/lang/String;
+	FIELD a FACING Lnone/asw;
+	FIELD b OPEN Lnone/asv;
+	FIELD c HINGE Lnone/asx;
+	FIELD d POWERED Lnone/asv;
+	FIELD e HALF Lnone/asx;
+	METHOD a deserializeState (I)Lnone/asj;
+	METHOD a getDropStack (Lnone/aiu;Lnone/cn;Lnone/asj;)Lnone/aeq;
+	METHOD a activate (Lnone/aiu;Lnone/cn;Lnone/asj;Lnone/aak;Lnone/qz;Lnone/cu;FFF)Z
+	METHOD a getDropItem (Lnone/asj;Ljava/util/Random;I)Lnone/aeo;
+	METHOD a applyMirror (Lnone/asj;Lnone/anw;)Lnone/asj;
+	METHOD a applyRotation (Lnone/asj;Lnone/apj;)Lnone/asj;
+	METHOD b createStateFactory ()Lnone/ask;
+	METHOD b getBoundingBox (Lnone/asj;Lnone/aiy;Lnone/cn;)Lnone/bcp;
+	METHOD c getTranslatedName ()Ljava/lang/String;
+	METHOD c getRenderingState (Lnone/asj;Lnone/aiy;Lnone/cn;)Lnone/asj;
+	METHOD e serializeState (Lnone/asj;)I
+	METHOD f getRenderLayer ()Lnone/aim;
+	METHOD r getMapColor (Lnone/asj;)Lnone/ayp;

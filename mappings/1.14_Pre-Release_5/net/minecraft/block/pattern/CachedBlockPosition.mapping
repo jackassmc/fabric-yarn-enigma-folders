@@ -1,0 +1,14 @@
+CLASS bvn net/minecraft/block/pattern/CachedBlockPosition
+	FIELD a world Lbhk;
+	FIELD b pos Lev;
+	FIELD c forceLoad Z
+	FIELD d state Lbvj;
+	FIELD e blockEntity Lbtm;
+	FIELD f cachedEntity Z
+	METHOD <init> (Lbhk;Lev;Z)V
+		ARG 2 pos
+	METHOD a getBlockState ()Lbvj;
+	METHOD a matchesBlockState (Ljava/util/function/Predicate;)Ljava/util/function/Predicate;
+	METHOD b getBlockEntity ()Lbtm;
+	METHOD c getWorld ()Lbhk;
+	METHOD d getBlockPos ()Lev;

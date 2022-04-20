@@ -1,0 +1,5 @@
+CLASS net/minecraft/class_1078 net/minecraft/client/resource/language/TranslationStorage
+	FIELD field_5330 translations Ljava/util/Map;
+	FIELD field_5332 LOGGER Lorg/apache/logging/log4j/Logger;
+	METHOD method_4675 load (Lnet/minecraft/class_3300;Ljava/util/List;)Lnet/minecraft/class_1078;
+	METHOD method_4676 load (Ljava/util/List;Ljava/util/Map;)V

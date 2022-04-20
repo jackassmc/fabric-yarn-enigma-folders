@@ -1,0 +1,72 @@
+CLASS none/abj net/minecraft/entity/vehicle/EntityMinecartBase
+	CLASS none/abj$a MinecartType
+		FIELD a RIDEABLE Lnone/abj$a;
+		FIELD b CHEST Lnone/abj$a;
+		FIELD c FURNACE Lnone/abj$a;
+		FIELD d TNT Lnone/abj$a;
+		FIELD e SPAWNER Lnone/abj$a;
+		FIELD f HOPPER Lnone/abj$a;
+		FIELD g COMMAND_BLOCK Lnone/abj$a;
+		FIELD h VALUES Ljava/util/Map;
+		FIELD i id I
+		FIELD j entityId Ljava/lang/String;
+		METHOD <init> (Ljava/lang/String;IILjava/lang/String;)V
+			ARG 3 id
+		METHOD a getId ()I
+		METHOD a byId (I)Lnone/abj$a;
+			ARG 0 id
+		METHOD b getEntityId ()Ljava/lang/String;
+	FIELD d CUSTOM_BLOCK_ID Lnone/kj;
+	FIELD e CUSTOM_BLOCK_OFFSET Lnone/kj;
+	FIELD f CUSTOM_BLOCK_PRESENT Lnone/kj;
+	METHOD <init> (Lnone/aiv;)V
+		ARG 0 world
+	METHOD <init> (Lnone/aiv;DDD)V
+		ARG 0 world
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD A hasCustomBlock ()Z
+	METHOD T invalidate ()V
+	METHOD a onActivatorRail (IIIZ)V
+		ARG 0 x
+		ARG 1 y
+		ARG 2 z
+		ARG 3 powered
+	METHOD a create (Lnone/aiv;DDDLnone/abj$a;)Lnone/abj;
+		ARG 0 world
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 type
+	METHOD a setCustomBlock (Lnone/asl;)V
+		ARG 0 value
+	METHOD a deserializeCustomData (Lnone/dt;)V
+		ARG 0 tag
+	METHOD a registerTagUpgradersFor (Lnone/pf;Ljava/lang/Class;)V
+	METHOD a (Lnone/rq;)V
+		ARG 0 source
+	METHOD a damage (Lnone/rq;F)Z
+		ARG 0 source
+		ARG 1 damage
+	METHOD a setCustomBlockPresent (Z)V
+		ARG 0 value
+	METHOD b setPosition (DDD)V
+		ARG 0 x
+		ARG 1 y
+		ARG 2 z
+	METHOD b serializeCustomData (Lnone/dt;)V
+		ARG 0 tag
+	METHOD f setCustomBlockOffset (I)V
+		ARG 0 value
+	METHOD i initDataTracker ()V
+	METHOD i setVelocityClient (DDD)V
+		ARG 0 x
+		ARG 1 y
+		ARG 2 z
+	METHOD v getMinecartType ()Lnone/abj$a;
+	METHOD w getContainedBlock ()Lnone/asl;
+	METHOD x getDefaultContainedBlock ()Lnone/asl;
+	METHOD y getBlockOffset ()I
+	METHOD y_ update ()V
+	METHOD z getDefaultBlockOffset ()I

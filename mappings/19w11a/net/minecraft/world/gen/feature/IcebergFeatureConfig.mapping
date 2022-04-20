@@ -1,0 +1,6 @@
+CLASS cak net/minecraft/world/gen/feature/IcebergFeatureConfig
+	FIELD a state Lbtx;
+	METHOD <init> (Lbtx;)V
+		ARG 1 state
+	METHOD a deserialize (Lcom/mojang/datafixers/Dynamic;)Lcak;
+		ARG 0 dynamic

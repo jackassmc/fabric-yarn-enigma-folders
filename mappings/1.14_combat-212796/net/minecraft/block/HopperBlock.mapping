@@ -1,0 +1,23 @@
+CLASS bpg net/minecraft/block/HopperBlock
+	FIELD A WEST_RAY_TRACE_SHAPE Lcsw;
+	FIELD a FACING Lbwk;
+	FIELD b ENABLED Lbwh;
+	FIELD c TOP_SHAPE Lcsw;
+	FIELD d MIDDLE_SHAPE Lcsw;
+	FIELD e OUTSIDE_SHAPE Lcsw;
+	FIELD f DEFAULT_SHAPE Lcsw;
+	FIELD g DOWN_SHAPE Lcsw;
+	FIELD h EAST_SHAPE Lcsw;
+	FIELD i NORTH_SHAPE Lcsw;
+	FIELD j SOUTH_SHAPE Lcsw;
+	FIELD k WEST_SHAPE Lcsw;
+	FIELD w DOWN_RAY_TRACE_SHAPE Lcsw;
+	FIELD x EAST_RAY_TRACE_SHAPE Lcsw;
+	FIELD y NORTH_RAY_TRACE_SHAPE Lcsw;
+	FIELD z SOUTH_RAY_TRACE_SHAPE Lcsw;
+	METHOD <init> (Lbmr$c;)V
+		ARG 1 settings
+	METHOD a updateEnabled (Lbhn;Lev;Lbvp;)V
+		ARG 1 world
+		ARG 2 pos
+		ARG 3 state

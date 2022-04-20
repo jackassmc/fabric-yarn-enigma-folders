@@ -1,0 +1,10 @@
+CLASS cxz net/minecraft/client/gui/menu/SettingsScreen
+	FIELD a title Ljava/lang/String;
+	FIELD g parent Lcyg;
+	FIELD h settings Lctt;
+	FIELD i difficultyButton Lcut;
+	FIELD s lockDifficultyButton Lcvc;
+	METHOD <init> (Lcyg;Lctt;)V
+		ARG 1 parent
+	METHOD confirmResult (ZI)V
+		ARG 1 result

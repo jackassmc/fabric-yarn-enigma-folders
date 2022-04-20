@@ -1,0 +1,6 @@
+CLASS blu net/minecraft/block/AbstractSkullBlock
+	FIELD a type Lbrm$a;
+	METHOD <init> (Lbrm$a;Lbmr$c;)V
+		ARG 1 type
+		ARG 2 settings
+	METHOD b getSkullType ()Lbrm$a;

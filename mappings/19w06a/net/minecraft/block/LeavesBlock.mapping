@@ -1,0 +1,14 @@
+CLASS bkw net/minecraft/block/LeavesBlock
+	FIELD a DISTANCE Lbrs;
+	FIELD b PERSISTENT Lbrk;
+	FIELD c translucentLeaves Z
+	METHOD <init> (Lbhv$c;)V
+		ARG 1 settings
+	METHOD a updateDistanceFromLogs (Lbqs;Lbcv;Let;)Lbqs;
+		ARG 0 state
+		ARG 1 world
+		ARG 2 pos
+	METHOD a setRenderingMode (Z)V
+		ARG 0 fancy
+	METHOD j getDistanceFromLog (Lbqs;)I
+		ARG 0 state

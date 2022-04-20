@@ -1,0 +1,9 @@
+CLASS cee net/minecraft/structure/generator/village/VillageGenerator
+	CLASS cee$a Piece
+	METHOD a addPieces (Lbwl;Lcip;Lev;Ljava/util/List;Lbyn;Lcec;)V
+		ARG 0 chunkGenerator
+		ARG 1 structureManager
+		ARG 2 pos
+		ARG 3 pieces
+		ARG 4 random
+		ARG 5 config

@@ -1,0 +1,5 @@
+CLASS jo net/minecraft/network/Packet
+	METHOD a isErrorFatal ()Z
+	METHOD a read (Liq;)V
+	METHOD a apply (Lit;)V
+	METHOD b write (Liq;)V

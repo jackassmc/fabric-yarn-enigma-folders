@@ -1,0 +1,15 @@
+CLASS akh net/minecraft/entity/passive/EntityAnimal
+	FIELD bF spawningGround Lbdx;
+	METHOD K mobTick ()V
+	METHOD a damage (Laeq;F)Z
+		ARG 0 source
+		ARG 1 damage
+	METHOD a interactMob (Lapb;Laea;)Z
+		ARG 0 player
+		ARG 1 playerHand
+	METHOD a deserializeCustomData (Lhl;)V
+		ARG 0 tag
+	METHOD aK getHeightOffset ()D
+	METHOD b serializeCustomData (Lhl;)V
+		ARG 0 tag
+	METHOD k updateMovement ()V

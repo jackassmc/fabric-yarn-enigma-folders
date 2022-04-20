@@ -1,0 +1,4 @@
+CLASS dil net/minecraft/client/render/entity/ShulkerBulletEntityRenderer
+	FIELD a SKIN Lpy;
+	METHOD a getTexture (Lagi;)Lpy;
+	METHOD a getTexture (Laqy;)Lpy;

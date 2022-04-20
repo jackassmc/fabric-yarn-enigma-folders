@@ -1,0 +1,25 @@
+CLASS cpw net/minecraft/client/gui/menu/GuiSettingsSnooper
+	CLASS cpw$1
+		METHOD a onPressed (DD)V
+			ARG 0 mouseX
+	CLASS cpw$2
+		METHOD a onPressed (DD)V
+			ARG 0 mouseX
+	CLASS cpw$a
+		METHOD a isSelected (I)Z
+			ARG 0 index
+		METHOD a drawEntry (IIIIIIF)V
+			ARG 0 x
+			ARG 1 y
+		METHOD d getEntryCount ()I
+		METHOD f getScrollbarPosition ()I
+	FIELD a parent Lcpt;
+	FIELD f settings Lclr;
+	METHOD <init> (Lcpt;Lclr;)V
+		ARG 1 parent
+		ARG 2 settings
+	METHOD a draw (IIF)V
+		ARG 1 mouseX
+		ARG 2 mouseY
+		ARG 3 delta
+	METHOD c onInitialized ()V

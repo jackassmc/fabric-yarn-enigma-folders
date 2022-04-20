@@ -1,0 +1,3 @@
+CLASS bgw net/minecraft/block/BambooBlock
+	METHOD <init> (Lbhn$c;)V
+		ARG 1 settings

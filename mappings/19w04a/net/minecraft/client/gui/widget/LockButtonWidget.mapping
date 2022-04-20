@@ -1,0 +1,21 @@
+CLASS crh net/minecraft/client/gui/widget/LockButtonWidget
+	CLASS crh$a IconLocation
+		FIELD a LOCKED Lcrh$a;
+		FIELD b LOCKED_HOVERED Lcrh$a;
+		FIELD c LOCKED_DISABLED Lcrh$a;
+		FIELD d UNLOCKED Lcrh$a;
+		FIELD e UNLOCKED_HOVERED Lcrh$a;
+		FIELD f UNLOCKED_DISABLED Lcrh$a;
+		FIELD g u I
+		FIELD h v I
+		METHOD <init> (Ljava/lang/String;III)V
+			ARG 1 v
+		METHOD a getU ()I
+		METHOD b getV ()I
+	FIELD o locked Z
+	METHOD <init> (III)V
+		ARG 1 id
+		ARG 2 x
+		ARG 3 y
+	METHOD c isLocked ()Z
+	METHOD c setLocked (Z)V

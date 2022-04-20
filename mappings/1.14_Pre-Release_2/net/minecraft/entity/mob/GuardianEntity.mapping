@@ -1,0 +1,39 @@
+CLASS atz net/minecraft/entity/mob/GuardianEntity
+	CLASS atz$a FireBeamGoal
+		FIELD a owner Latz;
+		FIELD b beamTicks I
+		FIELD c elderOwner Z
+		METHOD <init> (Latz;)V
+			ARG 1 owner
+	CLASS atz$b GuardianTargetPredicate
+		FIELD a owner Latz;
+		METHOD <init> (Latz;)V
+			ARG 1 owner
+	CLASS atz$c GuardianMoveControl
+		FIELD i guardian Latz;
+	FIELD bA prevTailAngle F
+	FIELD bB wanderGoal Lann;
+	FIELD bC BEAM_TARGET_ID Lqh;
+	FIELD bD cachedBeamTarget Laim;
+	FIELD bE beamTicks I
+	FIELD bF flopping Z
+	FIELD b SPIKES_RETRACTED Lqh;
+	FIELD by spikesExtensionRate F
+	FIELD bz tailAngle F
+	FIELD c spikesExtension F
+	FIELD d prevSpikesExtension F
+	METHOD a setBeamTarget (I)V
+		ARG 1 progress
+	METHOD dU getFlopSound ()Lyi;
+	METHOD dV areSpikesRetracted ()Z
+	METHOD dW hasBeamTarget ()Z
+	METHOD dX getBeamTarget ()Laim;
+	METHOD l getWarmupTime ()I
+	METHOD r setSpikesRetracted (Z)V
+		ARG 1 retracted
+	METHOD v getSpikesExtension (F)F
+		ARG 1 tickDelta
+	METHOD w getTailAngle (F)F
+		ARG 1 tickDelta
+	METHOD x getBeamProgress (F)F
+		ARG 1 tickDelta

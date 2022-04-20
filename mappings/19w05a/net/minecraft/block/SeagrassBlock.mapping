@@ -1,0 +1,4 @@
+CLASS bmi net/minecraft/block/SeagrassBlock
+	FIELD a SHAPE Lcnq;
+	METHOD <init> (Lbhs$c;)V
+		ARG 1 settings

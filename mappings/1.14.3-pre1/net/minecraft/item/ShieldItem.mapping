@@ -1,0 +1,7 @@
+CLASS bcv net/minecraft/item/ShieldItem
+	METHOD b (Lbcc;Lbhj;Lais;)F
+		ARG 0 stack
+		ARG 1 world
+		ARG 2 entity
+	METHOD e getColor (Lbcc;)Lbaz;
+		ARG 0 stack

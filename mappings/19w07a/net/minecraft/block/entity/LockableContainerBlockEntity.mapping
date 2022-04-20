@@ -1,0 +1,12 @@
+CLASS boy net/minecraft/block/entity/LockableContainerBlockEntity
+	FIELD a lock Lagj;
+	FIELD b customName Ljg;
+	METHOD a createContainer (ILarx;)Latt;
+	METHOD a checkUnlocked (Lary;Lagj;Ljg;)Z
+		ARG 0 player
+		ARG 1 lock
+		ARG 2 containerName
+	METHOD a setCustomName (Ljg;)V
+	METHOD e checkUnlocked (Lary;)Z
+		ARG 1 player
+	METHOD g getContainerName ()Ljg;

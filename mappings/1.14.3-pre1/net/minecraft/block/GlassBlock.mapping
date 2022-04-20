@@ -1,0 +1,3 @@
+CLASS bou net/minecraft/block/GlassBlock
+	METHOD <init> (Lbmn$c;)V
+		ARG 1 settings

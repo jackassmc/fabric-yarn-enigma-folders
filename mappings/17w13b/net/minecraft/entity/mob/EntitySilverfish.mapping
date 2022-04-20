@@ -1,0 +1,28 @@
+CLASS acb net/minecraft/entity/mob/EntitySilverfish
+	CLASS acb$a
+		METHOD a canStart ()Z
+		METHOD b shouldContinue ()Z
+		METHOD c start ()V
+	CLASS acb$b
+		METHOD a canStart ()Z
+		METHOD e tick ()V
+	METHOD B_ update ()V
+	METHOD G getSoundAmbient ()Lpb;
+	METHOD J getLootTableId ()Lmd;
+	METHOD a playStepSound (Ldx;Lank;)V
+		ARG 0 pos
+		ARG 1 block
+	METHOD a registerTagUpgraders (Lqv;)V
+		ARG 0 handler
+	METHOD a damage (Ltm;F)Z
+		ARG 0 source
+		ARG 1 damage
+	METHOD aA getHeightOffset ()D
+	METHOD bH initAttributes ()V
+	METHOD bZ getSoundHurt ()Lpb;
+	METHOD bt getEyeHeight ()F
+	METHOD cO canSpawn ()Z
+	METHOD ca getSoundDeath ()Lpb;
+	METHOD ci getEntityAttribute ()Lup;
+	METHOD j setYaw (F)V
+	METHOD r initAi ()V

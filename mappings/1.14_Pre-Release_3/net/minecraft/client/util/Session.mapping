@@ -1,0 +1,18 @@
+CLASS cvp net/minecraft/client/util/Session
+	CLASS cvp$a AccountType
+		FIELD a LEGACY Lcvp$a;
+		FIELD b MOJANG Lcvp$a;
+		METHOD a byName (Ljava/lang/String;)Lcvp$a;
+	FIELD a username Ljava/lang/String;
+	FIELD b uuid Ljava/lang/String;
+	FIELD c accessToken Ljava/lang/String;
+	FIELD d accountType Lcvp$a;
+	METHOD <init> (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+		ARG 1 username
+		ARG 2 uuid
+		ARG 3 accessToken
+	METHOD a getSessionId ()Ljava/lang/String;
+	METHOD b getUuid ()Ljava/lang/String;
+	METHOD c getUsername ()Ljava/lang/String;
+	METHOD d getAccessToken ()Ljava/lang/String;
+	METHOD e getProfile ()Lcom/mojang/authlib/GameProfile;

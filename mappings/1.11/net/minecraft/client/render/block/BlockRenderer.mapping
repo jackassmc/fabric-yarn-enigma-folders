@@ -1,0 +1,148 @@
+CLASS bra net/minecraft/client/render/block/BlockRenderer
+	CLASS bra$a NeighborData
+		FIELD a DOWN Lbra$a;
+		FIELD b UP Lbra$a;
+		FIELD c NORTH Lbra$a;
+		FIELD d SOUTH Lbra$a;
+		FIELD e WEST Lbra$a;
+		FIELD f EAST Lbra$a;
+		FIELD g faces [Lcv;
+		FIELD h weight F
+		FIELD i nonCubicWeight Z
+		FIELD n VALUES [Lbra$a;
+		METHOD <init> (Ljava/lang/String;I[Lcv;FZ[Lbra$d;[Lbra$d;[Lbra$d;[Lbra$d;)V
+			ARG 0 faces
+			ARG 1 weight
+			ARG 2 nonCubicWeight
+		METHOD a getData (Lcv;)Lbra$a;
+			ARG 0 facing
+	CLASS bra$b AmbientOcclusionCalculator
+		FIELD b colorMultiplier [F
+		FIELD c brightness [I
+		METHOD a getAmbientOcclusionBrightness (IIII)I
+		METHOD a getBrightness (IIIIFFFF)I
+		METHOD a apply (Laju;Latj;Lco;Lcv;[FLjava/util/BitSet;)V
+			ARG 0 view
+			ARG 1 state
+			ARG 2 pos
+			ARG 3 facing
+			ARG 4 faceShape
+			ARG 5 shapeState
+	CLASS bra$c Translation
+		FIELD a DOWN Lbra$c;
+		FIELD b UP Lbra$c;
+		FIELD c NORTH Lbra$c;
+		FIELD d SOUTH Lbra$c;
+		FIELD e WEST Lbra$c;
+		FIELD f EAST Lbra$c;
+		FIELD g firstCorner I
+		FIELD h secondCorner I
+		FIELD i thirdCorner I
+		FIELD j fourthCorner I
+		FIELD k VALUES [Lbra$c;
+		METHOD <init> (Ljava/lang/String;IIIII)V
+			ARG 0 firstCorner
+			ARG 1 secondCorner
+			ARG 2 thirdCorner
+			ARG 3 fourthCorner
+		METHOD a getTranslations (Lcv;)Lbra$c;
+			ARG 0 facing
+	CLASS bra$d NeighborOrientation
+		FIELD a DOWN Lbra$d;
+		FIELD b UP Lbra$d;
+		FIELD c NORTH Lbra$d;
+		FIELD d SOUTH Lbra$d;
+		FIELD e WEST Lbra$d;
+		FIELD f EAST Lbra$d;
+		FIELD g FLIP_DOWN Lbra$d;
+		FIELD h FLIP_UP Lbra$d;
+		FIELD i FLIP_NORTH Lbra$d;
+		FIELD j FLIP_SOUTH Lbra$d;
+		FIELD k FLIP_WEST Lbra$d;
+		FIELD l FLIP_EAST Lbra$d;
+		FIELD m shape I
+		METHOD <init> (Ljava/lang/String;ILcv;Z)V
+			ARG 0 facing
+			ARG 1 doFlip
+	FIELD a colorMap Lbez;
+	METHOD <init> (Lbez;)V
+		ARG 0 colorMap
+	METHOD a renderQuad (FFFFLjava/util/List;)V
+		ARG 0 colorMultiplier
+		ARG 1 red
+		ARG 2 green
+		ARG 3 blue
+		ARG 4 quads
+	METHOD a tesselateQuadsFlat (Laju;Latj;Lco;IZLbpw;Ljava/util/List;Ljava/util/BitSet;)V
+		ARG 0 view
+		ARG 1 state
+		ARG 2 pos
+		ARG 3 brightness
+		ARG 4 checkBrightness
+		ARG 5 buffer
+		ARG 6 quads
+		ARG 7 shapeState
+	METHOD a tesselateQuadsSmooth (Laju;Latj;Lco;Lbpw;Ljava/util/List;[FLjava/util/BitSet;Lbra$b;)V
+		ARG 0 view
+		ARG 1 state
+		ARG 2 pos
+		ARG 3 buffer
+		ARG 4 quads
+		ARG 5 faceShape
+		ARG 6 shapeState
+		ARG 7 aoCalculator
+	METHOD a tesselate (Laju;Lcbe;Latj;Lco;Lbpw;Z)Z
+		ARG 0 view
+		ARG 1 model
+		ARG 2 state
+		ARG 3 pos
+		ARG 4 buffer
+		ARG 5 testSides
+	METHOD a tesselate (Laju;Lcbe;Latj;Lco;Lbpw;ZJ)Z
+		ARG 0 view
+		ARG 1 model
+		ARG 2 state
+		ARG 3 pos
+		ARG 4 buffer
+		ARG 5 testSides
+		ARG 6 variationSeed
+	METHOD a render (Latj;Lcbe;FFFF)V
+		ARG 0 state
+		ARG 1 model
+		ARG 2 colorMultiplier
+		ARG 3 red
+		ARG 4 green
+		ARG 5 blue
+	METHOD a updateShape (Latj;[ILcv;[FLjava/util/BitSet;)V
+		ARG 0 state
+		ARG 1 vertexData
+		ARG 2 facing
+		ARG 3 faceShape
+		ARG 4 shapeState
+	METHOD a render (Lcbe;FFFF)V
+		ARG 0 model
+		ARG 1 colorMultiplier
+		ARG 2 red
+		ARG 3 green
+		ARG 4 blue
+	METHOD a render (Lcbe;Latj;FZ)V
+		ARG 0 model
+		ARG 1 state
+		ARG 2 colorMultiplier
+		ARG 3 notUseGlColor
+	METHOD b tesselateSmooth (Laju;Lcbe;Latj;Lco;Lbpw;ZJ)Z
+		ARG 0 view
+		ARG 1 model
+		ARG 2 state
+		ARG 3 pos
+		ARG 4 buffer
+		ARG 5 testSides
+		ARG 6 variationSeed
+	METHOD c tesselateFlat (Laju;Lcbe;Latj;Lco;Lbpw;ZJ)Z
+		ARG 0 view
+		ARG 1 model
+		ARG 2 state
+		ARG 3 pos
+		ARG 4 buffer
+		ARG 5 testSides
+		ARG 6 variationSeed

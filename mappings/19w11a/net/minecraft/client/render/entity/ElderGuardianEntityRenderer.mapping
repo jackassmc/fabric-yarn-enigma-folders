@@ -1,0 +1,2 @@
+CLASS dnw net/minecraft/client/render/entity/ElderGuardianEntityRenderer
+	FIELD a SKIN Lqp;

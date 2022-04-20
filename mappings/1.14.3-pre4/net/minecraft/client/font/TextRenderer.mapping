@@ -1,0 +1,106 @@
+CLASS cwg net/minecraft/client/font/TextRenderer
+	CLASS a Rectangle
+		FIELD a xMin F
+		FIELD b yMin F
+		FIELD c xMax F
+		FIELD d yMax F
+		FIELD e red F
+		FIELD f green F
+		FIELD g blue F
+		FIELD h alpha F
+		METHOD <init> (FFFFFFFF)V
+			ARG 1 xMin
+			ARG 2 yMin
+			ARG 3 xMax
+			ARG 4 yMax
+			ARG 5 red
+			ARG 6 green
+			ARG 7 blue
+			ARG 8 alpha
+		METHOD a draw (Lcup;)V
+			ARG 1 bufferBuilder
+	FIELD a fontHeight I
+	FIELD b random Ljava/util/Random;
+	FIELD c textureManager Lduo;
+	FIELD d fontStorage Lcye;
+	FIELD e rightToLeft Z
+	METHOD <init> (Lduo;Lcye;)V
+		ARG 1 textureManager
+		ARG 2 fontStorage
+	METHOD a isRightToLeft ()Z
+	METHOD a getCharWidth (C)F
+		ARG 1 character
+	METHOD a drawGlyph (Lcyh;ZZFFFLcup;FFFF)V
+		ARG 1 glyphRenderer
+		ARG 2 bold
+		ARG 3 strikethrough
+		ARG 4 boldOffset
+		ARG 5 x
+		ARG 6 y
+		ARG 7 buffer
+		ARG 8 red
+		ARG 9 green
+		ARG 10 blue
+		ARG 11 alpha
+	METHOD a mirror (Ljava/lang/String;)Ljava/lang/String;
+		ARG 1 string
+	METHOD a drawWithShadow (Ljava/lang/String;FFI)I
+		ARG 1 string
+		ARG 2 x
+		ARG 3 y
+		ARG 4 color
+	METHOD a draw (Ljava/lang/String;FFIZ)I
+		ARG 1 str
+		ARG 2 x
+		ARG 3 y
+		ARG 4 color
+		ARG 5 withShadow
+	METHOD a trimToWidth (Ljava/lang/String;I)Ljava/lang/String;
+		ARG 1 string
+		ARG 2 width
+	METHOD a drawStringBounded (Ljava/lang/String;IIII)V
+		ARG 1 str
+		ARG 2 x
+		ARG 3 y
+		ARG 4 maxWidth
+	METHOD a findWordEdge (Ljava/lang/String;IIZ)I
+		ARG 1 string
+		ARG 2 direction
+		ARG 3 position
+		ARG 4 skipWhitespaceToRightOfWord
+	METHOD a trimToWidth (Ljava/lang/String;IZ)Ljava/lang/String;
+		ARG 1 string
+		ARG 2 width
+		ARG 3 rightToLeft
+	METHOD a setFonts (Ljava/util/List;)V
+		ARG 1 fonts
+	METHOD a setRightToLeft (Z)V
+	METHOD b getStringWidth (Ljava/lang/String;)I
+		ARG 1 string
+	METHOD b draw (Ljava/lang/String;FFI)I
+		ARG 1 string
+		ARG 2 x
+		ARG 3 y
+		ARG 4 color
+	METHOD b drawLayer (Ljava/lang/String;FFIZ)F
+		ARG 1 str
+		ARG 2 x
+		ARG 3 y
+		ARG 4 color
+		ARG 5 isShadow
+	METHOD b getStringBoundedHeight (Ljava/lang/String;I)I
+		ARG 1 str
+	METHOD b renderStringBounded (Ljava/lang/String;IIII)V
+		ARG 1 str
+		ARG 2 x
+		ARG 3 y
+		ARG 4 maxWidth
+	METHOD c trimEndNewlines (Ljava/lang/String;)Ljava/lang/String;
+		ARG 1 string
+	METHOD c wrapStringToWidthAsList (Ljava/lang/String;I)Ljava/util/List;
+		ARG 1 text
+	METHOD d wrapStringToWidth (Ljava/lang/String;I)Ljava/lang/String;
+		ARG 1 text
+	METHOD e getCharacterCountForWidth (Ljava/lang/String;I)I
+		ARG 1 text
+		ARG 2 offset

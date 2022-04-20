@@ -1,0 +1,21 @@
+CLASS afq net/minecraft/item/ItemMinecart
+	CLASS afq$1
+		FIELD b dispenseItem Lcs;
+		METHOD a playSound (Lcp;)V
+			ARG 0 block
+		METHOD b doDispense (Lcp;Lafi;)Lafi;
+			ARG 0 block
+			ARG 1 stack
+	FIELD a DISPENSER_BEHAVIOR Lcw;
+	FIELD b type Labx$a;
+	METHOD <init> (Labx$a;)V
+		ARG 0 type
+	METHOD a activate (Laax;Lajq;Lco;Lrh;Lcv;FFF)Lrj;
+		ARG 0 player
+		ARG 1 world
+		ARG 2 pos
+		ARG 3 hand
+		ARG 4 facing
+		ARG 5 hitX
+		ARG 6 hitY
+		ARG 7 hitZ

@@ -1,0 +1,7 @@
+CLASS cgg net/minecraft/structure/generator/IglooGenerator
+	CLASS cgg$a Piece
+		FIELD d template Lqp;
+		FIELD e rotation Lbpj;
+	FIELD a TOP_TEMPLATE Lqp;
+	FIELD b MIDDLE_TEMPLATE Lqp;
+	FIELD c BOTTOM_TEMPLATE Lqp;

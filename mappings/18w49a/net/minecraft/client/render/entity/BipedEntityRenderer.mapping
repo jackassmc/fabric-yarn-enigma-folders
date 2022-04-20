@@ -1,0 +1,7 @@
+CLASS dhp net/minecraft/client/render/entity/BipedEntityRenderer
+	FIELD a SKIN Lpz;
+	METHOD <init> (Ldhc;Lcxe;F)V
+		ARG 1 renderManager
+		ARG 2 model
+	METHOD a getTexture (Lagk;)Lpz;
+	METHOD a getTexture (Lagu;)Lpz;

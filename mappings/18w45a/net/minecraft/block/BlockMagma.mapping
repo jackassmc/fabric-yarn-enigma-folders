@@ -1,0 +1,24 @@
+CLASS bid net/minecraft/block/BlockMagma
+	METHOD a onSteppedOn (Lazy;Les;Lafy;)V
+		ARG 1 world
+		ARG 2 pos
+	METHOD a getTickRate (Lbac;)I
+	METHOD a allowsSpawning (Lbno;Lafy;)Z
+		ARG 1 state
+	METHOD a getBlockBrightness (Lbno;Lazj;Les;)I
+		ARG 1 state
+		ARG 2 view
+	METHOD a onBlockAdded (Lbno;Lazy;Les;Lbno;)V
+		ARG 1 world
+		ARG 2 world
+		ARG 3 pos
+	METHOD a (Lbno;Lazy;Les;Ljava/util/Random;)V
+		ARG 1 world
+		ARG 2 state
+		ARG 3 pos
+	METHOD a getRenderingState (Lbno;Lex;Lbno;Lazz;Les;Les;)Lbno;
+		ARG 1 state
+	METHOD c (Lbno;Lazy;Les;Ljava/util/Random;)V
+		ARG 1 world
+		ARG 2 state
+		ARG 3 pos

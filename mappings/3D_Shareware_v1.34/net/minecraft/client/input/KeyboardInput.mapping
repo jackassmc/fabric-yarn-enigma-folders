@@ -1,0 +1,4 @@
+CLASS djq net/minecraft/client/input/KeyboardInput
+	FIELD i settings Lcvb;
+	METHOD <init> (Lcvb;)V
+		ARG 1 settings

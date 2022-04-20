@@ -1,0 +1,13 @@
+CLASS axu net/minecraft/recipe/Recipe
+	METHOD a getSerializer ()Laxw;
+	METHOD a fits (II)Z
+		ARG 1 width
+	METHOD a craft (Laes;)Lavo;
+	METHOD a matches (Laes;Lban;)Z
+		ARG 1 inv
+	METHOD b getId ()Lpy;
+	METHOD b getRemainingStacks (Laes;)Lfh;
+	METHOD c isIgnoredInRecipeBook ()Z
+	METHOD d getOutput ()Lavo;
+	METHOD e getPreviewInputs ()Lfh;
+	METHOD f getGroup ()Ljava/lang/String;

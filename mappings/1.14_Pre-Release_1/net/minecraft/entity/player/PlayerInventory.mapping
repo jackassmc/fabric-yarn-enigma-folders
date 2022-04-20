@@ -1,0 +1,47 @@
+CLASS avq net/minecraft/entity/player/PlayerInventory
+	FIELD a main Lfj;
+	FIELD b armor Lfj;
+	FIELD c offHand Lfj;
+	FIELD d selectedSlot I
+	FIELD e player Lavr;
+	FIELD f combinedInventory Ljava/util/List;
+	FIELD g cursorStack Lbbu;
+	FIELD h changeCount I
+	METHOD a damageArmor (F)V
+		ARG 1 armor
+	METHOD a clone (Lavq;)V
+	METHOD a populateRecipeFinder (Lavt;)V
+	METHOD a addPickBlock (Lbbu;)V
+	METHOD a canStackAddMore (Lbbu;Lbbu;)Z
+		ARG 1 existingStack
+	METHOD a offerOrDrop (Lbha;Lbbu;)V
+	METHOD a getBlockBreakingSpeed (Lbvc;)F
+	METHOD a serialize (Lii;)Lii;
+	METHOD a contains (Lza;)Z
+		ARG 1 tag
+	METHOD b getSlotWithStack (Lbbu;)I
+	METHOD b areItemsEqual (Lbbu;Lbbu;)Z
+		ARG 1 stack1
+	METHOD b isUsingEffectiveTool (Lbvc;)Z
+	METHOD b deserialize (Lii;)V
+	METHOD c swapSlotWithHotbar (I)V
+	METHOD c insertStack (ILbbu;)Z
+		ARG 1 slot
+	METHOD d isValidHotbarIndex (I)Z
+		ARG 0 slot
+	METHOD d getOccupiedSlotWithRoomForStack (Lbbu;)I
+	METHOD e getArmorStack (I)Lbbu;
+	METHOD e insertStack (Lbbu;)Z
+	METHOD f getMainHandStack ()Lbbu;
+	METHOD f removeOne (Lbbu;)V
+	METHOD g getHotbarSize ()I
+	METHOD g setCursorStack (Lbbu;)V
+	METHOD h getEmptySlot ()I
+	METHOD h contains (Lbbu;)Z
+		ARG 1 stack
+	METHOD i getSwappableHotbarSlot ()I
+	METHOD i addStack (Lbbu;)I
+	METHOD j updateItems ()V
+	METHOD k dropAll ()V
+	METHOD l getChangeCount ()I
+	METHOD m getCursorStack ()Lbbu;

@@ -1,0 +1,6 @@
+CLASS bzf net/minecraft/world/gen/feature/SpruceTreeFeature
+	FIELD a LOG Lbqk;
+	FIELD aR LEAVES Lbqk;
+	METHOD <init> (Ljava/util/function/Function;Z)V
+		ARG 1 configFactory
+		ARG 2 emitNeighborBlockUpdates

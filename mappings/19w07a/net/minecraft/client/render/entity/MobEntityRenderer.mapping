@@ -1,0 +1,4 @@
+CLASS dlp net/minecraft/client/render/entity/MobEntityRenderer
+	METHOD <init> (Ldkm;Lczv;F)V
+		ARG 1 renderManager
+		ARG 2 model

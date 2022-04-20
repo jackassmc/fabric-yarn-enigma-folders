@@ -1,0 +1,3 @@
+CLASS net/minecraft/class_1452 net/minecraft/entity/passive/PigEntity
+	FIELD field_6816 SADDLED Lnet/minecraft/class_2940;
+	FIELD field_6817 BREEDING_INGREDIENT Lnet/minecraft/class_1856;

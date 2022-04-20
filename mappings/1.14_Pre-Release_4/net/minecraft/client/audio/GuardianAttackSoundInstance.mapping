@@ -1,0 +1,2 @@
+CLASS dwl net/minecraft/client/audio/GuardianAttackSoundInstance
+	FIELD o guardian Laue;

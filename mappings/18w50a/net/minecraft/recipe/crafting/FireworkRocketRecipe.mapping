@@ -1,0 +1,8 @@
+CLASS ayq net/minecraft/recipe/crafting/FireworkRocketRecipe
+	METHOD a fits (II)Z
+		ARG 1 width
+	METHOD a craft (Lafi;)Lawo;
+	METHOD a matches (Lafi;Lbbp;)Z
+		ARG 1 inv
+	METHOD af_ getSerializer ()Layy;
+	METHOD c getOutput ()Lawo;

@@ -1,0 +1,4 @@
+CLASS drc net/minecraft/client/search/TextSearchableContainer
+	CLASS drc$a Iterator
+	FIELD c byText Ldrf;
+	FIELD d textFinder Ljava/util/function/Function;

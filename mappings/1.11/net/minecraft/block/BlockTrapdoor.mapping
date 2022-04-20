@@ -1,0 +1,63 @@
+CLASS ark net/minecraft/block/BlockTrapdoor
+	CLASS ark$a Half
+		FIELD a TOP Lark$a;
+		FIELD b BOTTOM Lark$a;
+		FIELD c name Ljava/lang/String;
+		METHOD <init> (Ljava/lang/String;ILjava/lang/String;)V
+			ARG 0 name
+		METHOD m asString ()Ljava/lang/String;
+	FIELD B BOX_BOTTOM Lbdr;
+	FIELD C BOX_TOP Lbdr;
+	FIELD a FACING Latw;
+	FIELD b OPEN Latv;
+	FIELD c HALF Latx;
+	FIELD d BOX_WEST Lbdr;
+	FIELD e BOX_EAST Lbdr;
+	FIELD f BOX_NORTH Lbdr;
+	FIELD g BOX_SOUTH Lbdr;
+	METHOD a deserializeState (I)Latj;
+		ARG 0 meta
+	METHOD a activate (Lajq;Lco;Latj;Laax;Lrh;Lcv;FFF)Z
+		ARG 0 world
+		ARG 1 pos
+		ARG 2 state
+		ARG 3 player
+		ARG 4 hand
+		ARG 5 facing
+		ARG 6 hitX
+		ARG 7 hitY
+		ARG 8 hitZ
+	METHOD a getStateForPlacement (Lajq;Lco;Lcv;FFFILsv;)Latj;
+		ARG 0 world
+		ARG 1 pos
+		ARG 2 facing
+		ARG 3 hitX
+		ARG 4 hitY
+		ARG 5 hitZ
+		ARG 6 metadata
+		ARG 7 player
+	METHOD a applyMirror (Latj;Laos;)Latj;
+		ARG 0 state
+		ARG 1 mirror
+	METHOD a applyRotation (Latj;Laqg;)Latj;
+		ARG 0 state
+		ARG 1 rotation
+	METHOD b createStateFactory ()Latk;
+	METHOD b (Lajq;Lco;Lcv;)Z
+		ARG 0 world
+		ARG 1 pos
+		ARG 2 facing
+	METHOD b (Laju;Lco;)Z
+		ARG 0 view
+		ARG 1 pos
+	METHOD b isFullBoundsCubeForCulling (Latj;)Z
+		ARG 0 state
+	METHOD b getBoundingBox (Latj;Laju;Lco;)Lbdr;
+		ARG 0 state
+		ARG 1 view
+		ARG 2 pos
+	METHOD c (Latj;)Z
+		ARG 0 state
+	METHOD e serializeState (Latj;)I
+		ARG 0 state
+	METHOD f getRenderLayer ()Laji;

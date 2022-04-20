@@ -1,0 +1,2 @@
+CLASS cdt net/minecraft/structure/pool/EmptyPoolElement
+	FIELD a INSTANCE Lcdt;

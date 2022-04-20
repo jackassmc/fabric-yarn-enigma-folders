@@ -1,0 +1,6 @@
+CLASS btn net/minecraft/client/render/Tessellator
+	FIELD a buffer Lbst;
+	FIELD c INSTANCE Lbtn;
+	METHOD a getInstance ()Lbtn;
+	METHOD b draw ()V
+	METHOD c getVertexBuffer ()Lbst;

@@ -1,0 +1,25 @@
+CLASS ld net/minecraft/client/network/packet/GameJoinClientPacket
+	FIELD a playerEntityId I
+	FIELD b hardcore Z
+	FIELD c gameMode Lban;
+	FIELD e difficulty Laez;
+	FIELD f maxPlayers I
+	FIELD g generatorType Lbaz;
+	FIELD h reducedDebugInfo Z
+	METHOD <init> (ILban;ZLbrc;Laez;ILbaz;Z)V
+		ARG 1 playerEntityId
+		ARG 2 gameMode
+		ARG 3 hardcore
+		ARG 5 difficulty
+		ARG 6 maxPlayers
+		ARG 7 generatorType
+	METHOD a read (Liq;)V
+	METHOD a apply (Lit;)V
+	METHOD a apply (Ljr;)V
+	METHOD b getEntityId ()I
+	METHOD b write (Liq;)V
+	METHOD c isHardcore ()Z
+	METHOD d getGameMode ()Lban;
+	METHOD e getDimension ()Lbrc;
+	METHOD f getDifficulty ()Laez;
+	METHOD i hasReducedDebugInfo ()Z

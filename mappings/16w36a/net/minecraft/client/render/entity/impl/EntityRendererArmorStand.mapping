@@ -1,0 +1,4 @@
+CLASS none/bsm net/minecraft/client/render/entity/impl/EntityRendererArmorStand
+	METHOD a (Lnone/sf;DDDFF)V
+	METHOD a (Lnone/so;DDDFF)V
+	METHOD a (Lnone/ym;DDDFF)V

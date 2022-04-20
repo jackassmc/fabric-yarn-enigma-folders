@@ -1,0 +1,14 @@
+CLASS bmx net/minecraft/block/FarmlandBlock
+	FIELD a MOISTURE Lbux;
+	FIELD b SHAPE Lcrb;
+	METHOD <init> (Lbkz$c;)V
+		ARG 1 settings
+	METHOD a hasCrop (Lbfj;Leu;)Z
+		ARG 0 world
+		ARG 1 pos
+	METHOD d setToDirt (Lbtx;Lbfy;Leu;)V
+		ARG 0 state
+		ARG 1 world
+		ARG 2 pos
+	METHOD n (Lbtx;)Z
+		ARG 1 state

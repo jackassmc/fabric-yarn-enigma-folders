@@ -1,0 +1,4 @@
+CLASS bpe net/minecraft/block/RedstoneLampBlock
+	FIELD a LIT Lbup;
+	METHOD <init> (Lbkz$c;)V
+		ARG 1 settings

@@ -1,0 +1,5 @@
+CLASS bpk net/minecraft/block/entity/SmokerBlockEntity
+	METHOD a createContainer (ILari;)Late;
+	METHOD a getFuelTime (Laxc;)I
+		ARG 1 fuel
+	METHOD g getContainerName ()Ljb;

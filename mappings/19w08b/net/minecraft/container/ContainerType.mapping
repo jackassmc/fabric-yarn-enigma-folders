@@ -1,0 +1,32 @@
+CLASS auv net/minecraft/container/ContainerType
+	CLASS auv$a Factory
+		METHOD create (ILary;)Latu;
+			ARG 1 syncId
+			ARG 2 playerInventory
+	FIELD a GENERIC_9X3 Lauv;
+	FIELD b GENERIC_9X6 Lauv;
+	FIELD c GENERIC_3X3 Lauv;
+	FIELD d ANVIL Lauv;
+	FIELD e BEACON Lauv;
+	FIELD f BLAST_FURNACE Lauv;
+	FIELD g BREWING_STAND Lauv;
+	FIELD h CRAFTING Lauv;
+	FIELD i ENCHANTMENT Lauv;
+	FIELD j FURNACE Lauv;
+	FIELD k GRINDSTONE Lauv;
+	FIELD l HOPPER Lauv;
+	FIELD m LECTERN Lauv;
+	FIELD n LOOM Lauv;
+	FIELD o MERCHANT Lauv;
+	FIELD p SHULKER_BOX Lauv;
+	FIELD q SMOKER Lauv;
+	FIELD r CARTOGRAPHY Lauv;
+	FIELD t factory Lauv$a;
+	METHOD <init> (Lauv$a;)V
+		ARG 1 factory
+	METHOD a create (ILary;)Latu;
+		ARG 1 syncId
+		ARG 2 playerInventory
+	METHOD a register (Ljava/lang/String;Lauv$a;)Lauv;
+		ARG 0 id
+		ARG 1 factory

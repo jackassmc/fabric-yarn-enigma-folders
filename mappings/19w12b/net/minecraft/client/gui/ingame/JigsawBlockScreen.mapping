@@ -1,0 +1,10 @@
+CLASS czz net/minecraft/client/gui/ingame/JigsawBlockScreen
+	FIELD a jigsaw Lbsx;
+	FIELD b attachmentTypeField Lcvi;
+	FIELD c targetPoolField Lcvi;
+	FIELD d finalStateField Lcvi;
+	METHOD <init> (Lbsx;)V
+		ARG 1 jigsaw
+	METHOD a onDone ()V
+	METHOD d onCancel ()V
+	METHOD e updateServer ()V

@@ -1,0 +1,7 @@
+CLASS agd net/minecraft/sortme/OptionMainHand
+	FIELD a LEFT Lagd;
+	FIELD b RIGHT Lagd;
+	FIELD c name Lix;
+	METHOD <init> (Ljava/lang/String;ILix;)V
+		ARG 3 name
+	METHOD a getOpposite ()Lagd;

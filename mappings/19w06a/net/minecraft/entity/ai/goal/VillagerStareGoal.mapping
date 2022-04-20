@@ -1,0 +1,5 @@
+CLASS akj net/minecraft/entity/ai/goal/VillagerStareGoal
+	FIELD a owner Larg;
+	FIELD b target Lahr;
+	FIELD c speed D
+	FIELD d timeLeft I

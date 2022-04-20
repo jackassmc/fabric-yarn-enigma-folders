@@ -1,0 +1,39 @@
+CLASS bge net/minecraft/world/level/LevelGeneratorType
+	FIELD a TYPES [Lbge;
+	FIELD b DEFAULT Lbge;
+	FIELD c FLAT Lbge;
+	FIELD d LARGE_BIOMES Lbge;
+	FIELD e AMPLIFIED Lbge;
+	FIELD f CUSTOMIZED Lbge;
+	FIELD g BUFFET Lbge;
+	FIELD h DEBUG_ALL_BLOCK_STATES Lbge;
+	FIELD i DEFAULT_1_1 Lbge;
+	FIELD j id I
+	FIELD k name Ljava/lang/String;
+	FIELD l storedName Ljava/lang/String;
+	FIELD m version I
+	FIELD n visible Z
+	FIELD o versioned Z
+	FIELD p info Z
+	FIELD q customizable Z
+	METHOD <init> (ILjava/lang/String;)V
+		ARG 1 id
+	METHOD <init> (ILjava/lang/String;Ljava/lang/String;I)V
+		ARG 1 id
+	METHOD a getName ()Ljava/lang/String;
+	METHOD a getTypeForVersion (I)Lbge;
+	METHOD a getTypeFromName (Ljava/lang/String;)Lbge;
+		ARG 0 name
+	METHOD a setCustomizable (Z)Lbge;
+	METHOD b getStoredName ()Ljava/lang/String;
+	METHOD b setVisible (Z)Lbge;
+	METHOD c getTranslationKey ()Ljava/lang/String;
+	METHOD d getInfoTranslationKey ()Ljava/lang/String;
+	METHOD e getVersion ()I
+	METHOD f isCustomizable ()Z
+	METHOD g isVisible ()Z
+	METHOD h isVersioned ()Z
+	METHOD i getId ()I
+	METHOD j hasInfo ()Z
+	METHOD k setVersioned ()Lbge;
+	METHOD l setHasInfo ()Lbge;

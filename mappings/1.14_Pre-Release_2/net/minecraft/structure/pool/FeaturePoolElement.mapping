@@ -1,0 +1,5 @@
+CLASS ceu net/minecraft/structure/pool/FeaturePoolElement
+	FIELD a feature Lbzu;
+	FIELD b tag Lib;
+	METHOD <init> (Lbzu;)V
+		ARG 1 feature

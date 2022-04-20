@@ -1,0 +1,26 @@
+CLASS xh net/minecraft/entity/passive/EntityIronGolem
+	FIELD a IRON_GOLEM_FLAGS Lkk;
+	METHOD C pushAway (Lsm;)V
+		ARG 0 entity
+	METHOD J getLootTableId ()Lkq;
+	METHOD M mobTick ()V
+	METHOD a playStepSound (Lco;Lals;)V
+		ARG 0 pos
+		ARG 1 block
+	METHOD a deserializeCustomData (Ldu;)V
+		ARG 0 tag
+	METHOD a onDeath (Lrx;)V
+		ARG 0 damageSource
+	METHOD b serializeCustomData (Ldu;)V
+		ARG 0 tag
+	METHOD b registerTagUpgraders (Lph;)V
+		ARG 0 handler
+	METHOD bE initAttributes ()V
+	METHOD bW getSoundDeath ()Lnm;
+	METHOD bX getSoundHurt ()Lnm;
+	METHOD dj isPlayerCreated ()Z
+	METHOD i initDataTracker ()V
+	METHOD n updateMovement ()V
+	METHOD p setPlayerCreated (Z)V
+		ARG 0 value
+	METHOD r initAi ()V

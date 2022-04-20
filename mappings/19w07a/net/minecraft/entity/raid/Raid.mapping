@@ -1,0 +1,88 @@
+CLASS atc net/minecraft/entity/raid/Raid
+	CLASS atc$a Member
+		FIELD a VINDICATOR Latc$a;
+		FIELD b EVOKER Latc$a;
+		FIELD c PILLAGER Latc$a;
+		FIELD d WITCH Latc$a;
+		FIELD e RAVAGER Latc$a;
+		FIELD g type Lahp;
+		FIELD h firstWave I
+	FIELD a ILLAGER_BANNER Laxt;
+	FIELD b waveToLeader Ljava/util/Map;
+	FIELD c waveToRaiders Ljava/util/Map;
+	FIELD d ticksActive J
+	FIELD e center Les;
+	FIELD f world Lbdb;
+	FIELD g markedForRemoval Z
+	FIELD h villageProperties Lamj;
+	FIELD i started Z
+	FIELD j ignoreDayRequirement Z
+	FIELD k id I
+	FIELD l totalHealth F
+	FIELD m badOmenLevel I
+	FIELD n active Z
+	FIELD o wavesSpawned I
+	FIELD p bar Lus;
+	FIELD q postRaidTicks I
+	FIELD r preRaidTicks I
+	FIELD s volume Lcnb;
+	FIELD t random Ljava/util/Random;
+	METHOD <init> (ILbdb;Lamj;)V
+		ARG 1 id
+		ARG 2 world
+		ARG 3 village
+	METHOD a setRaidLeader (ILatd;)V
+		ARG 1 wave
+	METHOD a addRaider (ILatd;Les;Z)V
+		ARG 1 wave
+		ARG 2 raider
+		ARG 3 pos
+		ARG 4 existing
+	METHOD a addToWave (ILatd;Z)Z
+		ARG 1 wave
+		ARG 3 countHealth
+	METHOD a setVillage (Lamj;)V
+	METHOD a start (Lary;)V
+	METHOD a getSpawnCount (Latc$a;Ljava/util/Random;I)I
+		ARG 2 wave
+	METHOD a removeFromWave (Latd;Z)V
+		ARG 2 countHealth
+	METHOD a setWorld (Lbdb;)V
+	METHOD a getPillagerSpawnLocation (Lbdb;I)Les;
+	METHOD a playRaidHorn (Les;)V
+	METHOD a fromTag (Lhv;)V
+	METHOD a getBadOmenLevel (Ljava/util/Random;Z)I
+		ARG 1 centerSet
+	METHOD b getLeader (I)Latd;
+	METHOD b addToWave (ILatd;)Z
+		ARG 1 wave
+	METHOD b getBonusSpawnCount (Latc$a;Ljava/util/Random;I)I
+		ARG 2 wave
+	METHOD b spawnNextWave (Les;)V
+	METHOD b toTag (Lhv;)Lhv;
+	METHOD c getWorld ()Lbdb;
+	METHOD c removeLeader (I)V
+		ARG 1 wave
+	METHOD d isOnGoing ()Z
+	METHOD e getVolume ()Lcnb;
+	METHOD f hasStarted ()Z
+	METHOD g getGroupsSpawned ()I
+	METHOD h getMaxAcceptableBadOmenLevel ()I
+	METHOD i getBadOmenLevel ()I
+	METHOD j invalidate ()V
+	METHOD k isMarkedForRemoval ()Z
+	METHOD l tick ()V
+	METHOD m getCurrentRaiderHealth ()F
+	METHOD n getRaiderCount ()I
+	METHOD o getVillage ()Lamj;
+	METHOD p getCenter ()Les;
+	METHOD q getRaidId ()I
+	METHOD r isActive ()Z
+	METHOD s isInRaidDistance ()Ljava/util/function/Predicate;
+	METHOD t updateBarToPlayers ()V
+	METHOD u hasSpawnedAllGroups ()Z
+	METHOD v removeObsoleteRaiders ()V
+	METHOD w updateBar ()V
+	METHOD x canSpawnRaiders ()Z
+	METHOD y markDirty ()V
+	METHOD z getIllagerBanner ()Laxt;

@@ -1,0 +1,24 @@
+CLASS none/gy net/minecraft/network/packet/client/CPacketGameJoin
+	FIELD a entityId I
+	FIELD b hardcore Z
+	FIELD c gameMode Lnone/ait;
+	FIELD d dimensionId I
+	FIELD e difficulty Lnone/qy;
+	FIELD f maxPlayers I
+	FIELD g generator Lnone/aja;
+	FIELD h reducedDebugInfo Z
+	METHOD a getEntityId ()I
+	METHOD a readPacket (Lnone/es;)V
+		ARG 0 packet
+	METHOD a applyPacket (Lnone/ev;)V
+		ARG 0 handler
+	METHOD a applyPacket (Lnone/fo;)V
+		ARG 0 handler
+	METHOD b isHardcore ()Z
+	METHOD b writePacket (Lnone/es;)V
+		ARG 0 packet
+	METHOD c getGameMode ()Lnone/ait;
+	METHOD d getDimensionId ()I
+	METHOD e getDifficulty ()Lnone/qy;
+	METHOD f getMaxPlayers ()I
+	METHOD h hasReducedDebugInfo ()Z

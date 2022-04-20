@@ -1,0 +1,33 @@
+CLASS ank net/minecraft/entity/passive/HorseEntity
+	FIELD bN VARIANT Lpr;
+	FIELD bO ARMOR_TYPE Lpr;
+	FIELD bP HORSE_TEX [Ljava/lang/String;
+	FIELD bQ HORSE_TEX_ID [Ljava/lang/String;
+	FIELD bR HORSE_MARKING_TEX [Ljava/lang/String;
+	FIELD bS HORSE_MARKING_TEX_ID [Ljava/lang/String;
+	FIELD bT textureLocation Ljava/lang/String;
+	FIELD bU textureLayers [Ljava/lang/String;
+	METHOD D getAmbientSound ()Lxr;
+	METHOD a onInvChange (Lafq;)V
+	METHOD a createChild (Lagz;)Lagz;
+	METHOD a canBreedWith (Lami;)Z
+		ARG 1 other
+	METHOD a interactMob (Larj;Lafw;)Z
+		ARG 1 player
+	METHOD a prepareEntityData (Lbcj;Lafv;Laho;Lahw;Lhq;)Lahw;
+		ARG 3 difficulty
+	METHOD a readCustomDataFromTag (Lhq;)V
+	METHOD b writeCustomDataToTag (Lhq;)V
+	METHOD cd initAttributes ()V
+	METHOD cy getDeathSound ()Lxr;
+	METHOD dC getVariant ()I
+	METHOD dD getTextureLocation ()Ljava/lang/String;
+	METHOD dG getTextureLayers ()[Ljava/lang/String;
+	METHOD dL getArmorType ()Lanl;
+	METHOD e getHurtSound (Lagl;)Lxr;
+	METHOD ek clearTextureInfo ()V
+	METHOD el initTextureInfo ()V
+	METHOD h update ()V
+	METHOD h setArmorTypeFromStack (Laxc;)V
+	METHOD t setVariant (I)V
+	METHOD w_ initDataTracker ()V

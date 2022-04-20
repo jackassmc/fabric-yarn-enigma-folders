@@ -1,0 +1,10 @@
+CLASS cax net/minecraft/client/render/entity/EntityRendererSnowball
+	FIELD a item Lail;
+	FIELD f itemRenderer Lbzu;
+	METHOD <init> (Lbzd;Lail;Lbzu;)V
+		ARG 0 renderManager
+		ARG 1 item
+		ARG 2 itemRenderer
+	METHOD a getTexture (Lve;)Lnd;
+		ARG 0 model
+	METHOD e getItemStack (Lve;)Lain;

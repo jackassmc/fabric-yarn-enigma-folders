@@ -1,0 +1,13 @@
+CLASS cje net/minecraft/world/chunk/light/SkyLightStorage
+	CLASS cje$a Data
+		FIELD b defaultHeight I
+		FIELD c heightMap Lit/unimi/dsi/fastutil/longs/Long2IntOpenHashMap;
+	FIELD k DIRECTIONS_SKYLIGHT [Lez;
+	FIELD p hasSkyLightUpdates Z
+	METHOD <init> (Lbvy;)V
+		ARG 1 chunkProvider
+	METHOD a isAboveMinimumHeight (I)Z
+		ARG 1 blockY
+	METHOD e checkForUpdates ()V
+	METHOD i (J)V
+		ARG 1 blockPos

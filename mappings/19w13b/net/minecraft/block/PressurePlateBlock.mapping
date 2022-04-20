@@ -1,0 +1,9 @@
+CLASS bpx net/minecraft/block/PressurePlateBlock
+	CLASS bpx$a Type
+		FIELD a WOOD Lbpx$a;
+		FIELD b STONE Lbpx$a;
+	FIELD d POWERED Lbvo;
+	FIELD e type Lbpx$a;
+	METHOD <init> (Lbpx$a;Lbly$c;)V
+		ARG 1 type
+		ARG 2 settings

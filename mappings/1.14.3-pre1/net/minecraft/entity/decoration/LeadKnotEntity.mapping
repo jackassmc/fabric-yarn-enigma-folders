@@ -1,0 +1,4 @@
+CLASS ath net/minecraft/entity/decoration/LeadKnotEntity
+	METHOD a getOrCreate (Lbhj;Lev;)Lath;
+		ARG 0 world
+		ARG 1 pos

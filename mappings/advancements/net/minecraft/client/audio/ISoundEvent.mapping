@@ -1,0 +1,18 @@
+CLASS cez net/minecraft/client/audio/ISoundEvent
+	CLASS cez$a AttenuationType
+		FIELD a NONE Lcez$a;
+		FIELD b LINEAR Lcez$a;
+		FIELD c TYPE I
+		METHOD a getType ()I
+	METHOD a getId ()Lmd;
+	METHOD a getAccess (Lcfp;)Lcfr;
+	METHOD b getSound ()Lcew;
+	METHOD c getCategory ()Lpd;
+	METHOD d isRepeatable ()Z
+	METHOD e getRepeatDelay ()I
+	METHOD f getVolume ()F
+	METHOD g getPitch ()F
+	METHOD h getX ()F
+	METHOD i getY ()F
+	METHOD j getZ ()F
+	METHOD k getAttenuationType ()Lcez$a;

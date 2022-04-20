@@ -1,0 +1,9 @@
+CLASS czg net/minecraft/client/gui/menu/OpenToLanScreen
+	FIELD a parent Lczf;
+	FIELD b buttonAllowCommands Lcwd;
+	FIELD c buttonGameMode Lcwd;
+	FIELD d gameMode Ljava/lang/String;
+	FIELD e allowCommands Z
+	METHOD <init> (Lczf;)V
+		ARG 1 parent
+	METHOD a updateButtonText ()V

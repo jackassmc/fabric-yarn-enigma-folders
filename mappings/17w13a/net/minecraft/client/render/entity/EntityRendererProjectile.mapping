@@ -1,0 +1,3 @@
+CLASS bso net/minecraft/client/render/entity/EntityRendererProjectile
+	METHOD a (Laap;DDDFF)V
+	METHOD a (Lsg;DDDFF)V

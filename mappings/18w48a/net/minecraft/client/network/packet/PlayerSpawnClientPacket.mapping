@@ -1,0 +1,22 @@
+CLASS jx net/minecraft/client/network/packet/PlayerSpawnClientPacket
+	FIELD a id I
+	FIELD b uuid Ljava/util/UUID;
+	FIELD c x D
+	FIELD d y D
+	FIELD e z D
+	FIELD f yaw B
+	FIELD g pitch B
+	FIELD h dataTracker Lpq;
+	FIELD i trackedValues Ljava/util/List;
+	METHOD a read (Liq;)V
+	METHOD a apply (Lit;)V
+	METHOD a apply (Ljr;)V
+	METHOD b getTrackedValues ()Ljava/util/List;
+	METHOD b write (Liq;)V
+	METHOD c getId ()I
+	METHOD d getPlayerUuid ()Ljava/util/UUID;
+	METHOD e getX ()D
+	METHOD f getY ()D
+	METHOD g getZ ()D
+	METHOD h getYaw ()B
+	METHOD i getPitch ()B

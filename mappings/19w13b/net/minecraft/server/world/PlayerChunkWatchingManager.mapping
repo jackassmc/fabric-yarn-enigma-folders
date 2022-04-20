@@ -1,0 +1,13 @@
+CLASS uz net/minecraft/server/world/PlayerChunkWatchingManager
+	FIELD a watchingPlayers Ljava/util/Set;
+	FIELD b notWatchingPlayers Ljava/util/Set;
+	METHOD a getPlayersWatchingChunk (J)Ljava/util/stream/Stream;
+	METHOD a movePlayer (JJLvf;)V
+		ARG 1 prevPos
+		ARG 3 currentPos
+	METHOD a remove (JLvf;)V
+	METHOD a add (JLvf;Z)V
+		ARG 4 watchDisabled
+	METHOD a disableWatch (Lvf;)V
+	METHOD b enableWatch (Lvf;)V
+	METHOD c isWatchDisabled (Lvf;)Z

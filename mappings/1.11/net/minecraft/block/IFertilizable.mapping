@@ -1,0 +1,16 @@
+CLASS alv net/minecraft/block/IFertilizable
+	METHOD a isFertilizable (Lajq;Lco;Latj;Z)Z
+		ARG 0 world
+		ARG 1 pos
+		ARG 2 state
+		ARG 3 remote
+	METHOD a canGrow (Lajq;Ljava/util/Random;Lco;Latj;)Z
+		ARG 0 world
+		ARG 1 rand
+		ARG 2 pos
+		ARG 3 state
+	METHOD b grow (Lajq;Ljava/util/Random;Lco;Latj;)V
+		ARG 0 world
+		ARG 1 rand
+		ARG 2 pos
+		ARG 3 state

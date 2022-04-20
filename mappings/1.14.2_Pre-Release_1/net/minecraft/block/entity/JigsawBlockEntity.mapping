@@ -1,0 +1,13 @@
+CLASS bud net/minecraft/block/entity/JigsawBlockEntity
+	FIELD a attachmentType Lqs;
+	FIELD b targetPool Lqs;
+	FIELD c finalState Ljava/lang/String;
+	METHOD a setFinalState (Ljava/lang/String;)V
+		ARG 1 value
+	METHOD a setAttachmentType (Lqs;)V
+		ARG 1 value
+	METHOD b setTargetPool (Lqs;)V
+		ARG 1 value
+	METHOD d getAttachmentType ()Lqs;
+	METHOD f getTargetPool ()Lqs;
+	METHOD g getFinalState ()Ljava/lang/String;

@@ -1,0 +1,12 @@
+CLASS dcd net/minecraft/client/render/block/entity/BlockEntityChestRenderer
+	FIELD c TRAPPED_DOUBLE_TEX Lpw;
+	FIELD d CHRISTMAS_DOUBLE_TEX Lpw;
+	FIELD e NORMAL_DOUBLE_TEX Lpw;
+	FIELD f TRAPPED_TEX Lpw;
+	FIELD g CHRISTMAS_TEX Lpw;
+	FIELD h NORMAL_TEX Lpw;
+	FIELD l isChristmas Z
+	METHOD a render (Lbls;DDDFI)V
+		ARG 1 entity
+		ARG 2 xOffset
+		ARG 4 yOffset

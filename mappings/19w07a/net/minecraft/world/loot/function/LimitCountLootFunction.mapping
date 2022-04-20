@@ -1,0 +1,3 @@
+CLASS cle net/minecraft/world/loot/function/LimitCountLootFunction
+	CLASS cle$a Factory
+	FIELD a limit Lcjw;

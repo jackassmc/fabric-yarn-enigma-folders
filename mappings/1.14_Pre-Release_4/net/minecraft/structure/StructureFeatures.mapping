@@ -1,0 +1,24 @@
+CLASS cig net/minecraft/structure/StructureFeatures
+	FIELD a MINESHAFT Lceh;
+	FIELD b PILLAGER_OUTPOST Lceh;
+	FIELD c FORTRESS Lceh;
+	FIELD d STRONGHOLD Lceh;
+	FIELD e JUNGLE_PYRAMID Lceh;
+	FIELD f OCEAN_RUIN Lceh;
+	FIELD g DESERT_PYRAMID Lceh;
+	FIELD h IGLOO Lceh;
+	FIELD i SWAMP_HUT Lceh;
+	FIELD j MONUMENT Lceh;
+	FIELD k END_CITY Lceh;
+	FIELD l MANSION Lceh;
+	FIELD m BURIED_TREASURE Lceh;
+	FIELD n SHIPWRECK Lceh;
+	FIELD o VILLAGE Lceh;
+	FIELD p LOGGER Lorg/apache/logging/log4j/Logger;
+	METHOD a initialize ()V
+	METHOD a readStructureStart (Lbww;Lcjc;Lbie;Lib;)Lcij;
+		ARG 0 chunkGenerator
+		ARG 1 structureManager
+		ARG 2 biomeSource
+		ARG 3 tag
+	METHOD a register (Ljava/lang/String;Lceh;)Lceh;

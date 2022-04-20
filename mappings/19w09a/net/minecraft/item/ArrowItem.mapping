@@ -1,0 +1,7 @@
+CLASS avs net/minecraft/item/ArrowItem
+	METHOD <init> (Laxs$a;)V
+		ARG 1 settings
+	METHOD a createEntityArrow (Lbdf;Laxx;Lahv;)Lasd;
+		ARG 1 world
+		ARG 2 stack
+		ARG 3 livingShooter

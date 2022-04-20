@@ -1,0 +1,3 @@
+CLASS net/minecraft/class_597 net/minecraft/client/render/entity/model/QuadrupedEntityModel
+	FIELD field_3535 head Lnet/minecraft/class_630;
+	FIELD field_3538 torso Lnet/minecraft/class_630;

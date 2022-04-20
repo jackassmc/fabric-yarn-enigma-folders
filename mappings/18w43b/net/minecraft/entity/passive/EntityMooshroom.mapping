@@ -1,0 +1,11 @@
+CLASS ako net/minecraft/entity/passive/EntityMooshroom
+	METHOD G getLootTableId ()Lpt;
+	METHOD a createChild (Lafe;)Lafe;
+		ARG 0 other
+	METHOD a interactMob (Lapb;Laea;)Z
+		ARG 0 player
+		ARG 1 playerHand
+	METHOD b createChild (Lafe;)Lakk;
+		ARG 0 other
+	METHOD c createChild (Lafe;)Lako;
+		ARG 0 other

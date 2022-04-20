@@ -1,0 +1,3 @@
+CLASS og net/minecraft/world/WorldServerDemo
+	FIELD K SEED J
+	FIELD a LEVEL_INFO Lamv;

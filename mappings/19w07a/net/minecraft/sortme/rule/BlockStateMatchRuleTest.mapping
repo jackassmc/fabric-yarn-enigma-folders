@@ -1,0 +1,4 @@
+CLASS ceg net/minecraft/sortme/rule/BlockStateMatchRuleTest
+	FIELD a blockState Lbqz;
+	METHOD <init> (Lbqz;)V
+		ARG 1 blockState

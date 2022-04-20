@@ -1,0 +1,4 @@
+CLASS anq net/minecraft/entity/ai/goal/AttackWithOwnerGoal
+	FIELD a owner Lait;
+	FIELD b attacking Laif;
+	FIELD c lastAttackTime I

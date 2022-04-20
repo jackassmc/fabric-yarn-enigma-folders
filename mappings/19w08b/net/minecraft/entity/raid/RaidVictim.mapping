@@ -1,0 +1,3 @@
+CLASS aig net/minecraft/entity/raid/RaidVictim
+	METHOD K_ getVillage ()Laml;
+	METHOD L_ getRaid ()Latd;

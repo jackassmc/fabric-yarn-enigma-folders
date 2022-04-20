@@ -1,0 +1,3 @@
+CLASS cob net/minecraft/world/loot/function/FillPlayerHeadLootFunction
+	CLASS cob$a Factory
+	FIELD a entity Lcmw$c;

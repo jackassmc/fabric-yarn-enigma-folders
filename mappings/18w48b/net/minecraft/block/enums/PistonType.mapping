@@ -1,0 +1,5 @@
+CLASS bpk net/minecraft/block/enums/PistonType
+	FIELD a NORMAL Lbpk;
+	FIELD b STICKY Lbpk;
+	FIELD c name Ljava/lang/String;
+	METHOD m asString ()Ljava/lang/String;

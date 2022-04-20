@@ -1,0 +1,5 @@
+CLASS nq net/minecraft/server/network/packet/BookUpdateServerPacket
+	FIELD a stack Laxd;
+	FIELD c hand Lafw;
+	METHOD b stack ()Laxd;
+	METHOD d hand ()Lafw;

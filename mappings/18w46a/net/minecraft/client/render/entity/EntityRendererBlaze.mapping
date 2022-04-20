@@ -1,0 +1,4 @@
+CLASS dez net/minecraft/client/render/entity/EntityRendererBlaze
+	FIELD a SKIN Lpx;
+	METHOD a getTexture (Lagc;)Lpx;
+	METHOD a getTexture (Laoh;)Lpx;

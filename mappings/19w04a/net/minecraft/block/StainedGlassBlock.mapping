@@ -1,0 +1,3 @@
+CLASS bmu net/minecraft/block/StainedGlassBlock
+	FIELD a color Lawa;
+	METHOD d getColor ()Lawa;

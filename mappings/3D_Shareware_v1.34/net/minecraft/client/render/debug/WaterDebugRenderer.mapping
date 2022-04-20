@@ -1,0 +1,2 @@
+CLASS dnz net/minecraft/client/render/debug/WaterDebugRenderer
+	FIELD a client Lcux;

@@ -1,0 +1,6 @@
+CLASS dha net/minecraft/client/particle/EnchantGlyphParticle
+	CLASS dha$a EnchantFactory
+	CLASS dha$b NautilusFactory
+	FIELD C startX D
+	FIELD F startY D
+	FIELD G startZ D

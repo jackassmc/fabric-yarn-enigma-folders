@@ -1,0 +1,8 @@
+CLASS awh net/minecraft/item/ItemTool
+	FIELD a type Lawg;
+	METHOD <init> (Lawg;Lauu$a;)V
+		ARG 1 type
+	METHOD a canRepair (Lava;Lava;)Z
+		ARG 1 item
+	METHOD c getEnchantability ()I
+	METHOD e getType ()Lawg;

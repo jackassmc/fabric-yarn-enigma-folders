@@ -1,0 +1,3 @@
+CLASS bx net/minecraft/server/function/CommandFunction
+	FIELD b id Lpy;
+	METHOD a getId ()Lpy;

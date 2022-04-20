@@ -1,0 +1,9 @@
+CLASS cgy net/minecraft/world/loot/function/LootFunctionSetLootTable
+	CLASS cgy$a Factory
+		METHOD a toJson (Lcom/google/gson/JsonObject;Lcgs;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD a toJson (Lcom/google/gson/JsonObject;Lcgt;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD b fromJson (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;[Lchw;)Lcgs;
+	FIELD a id Lpw;
+	FIELD c seed J
+	METHOD a process (Lava;Lcfl;)Lava;
+		ARG 1 stack

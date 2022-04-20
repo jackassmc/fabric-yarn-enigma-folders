@@ -1,0 +1,76 @@
+CLASS dpk net/minecraft/client/render/entity/EntityRenderer
+	FIELD a SHADOW_TEX Lqs;
+	FIELD b renderManager Ldpj;
+	FIELD e renderOutlines Z
+	METHOD a hasSecondPass ()Z
+	METHOD a getTexture (Laij;)Lqs;
+		ARG 1 boat
+	METHOD a renderLabelIfPresent (Laij;DDD)V
+		ARG 1 entity
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z
+	METHOD a renderEntityOnFire (Laij;DDDF)V
+		ARG 1 entity
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z
+	METHOD a render (Laij;DDDFF)V
+		ARG 1 entity
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z
+		ARG 8 yaw
+		ARG 9 tickDelta
+	METHOD a renderLabel (Laij;DDDLjava/lang/String;D)V
+		ARG 1 entity
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z
+		ARG 8 text
+	METHOD a isVisible (Laij;Ldnn;DDD)Z
+		ARG 1 entity
+		ARG 2 visibleRegion
+	METHOD a renderLabel (Laij;Ljava/lang/String;DDDI)V
+		ARG 1 entity
+		ARG 2 text
+		ARG 3 x
+		ARG 5 y
+		ARG 7 z
+		ARG 9 maxDistance
+	METHOD a projectShadow (Lbvl;Lbhm;Lev;DDDLev;FFDDD)V
+	METHOD a renderBox (Lcrt;DDD)V
+		ARG 0 box
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+	METHOD a bindTexture (Lqs;)V
+		ARG 1 textureId
+	METHOD a setRenderOutlines (Z)V
+		ARG 1 renderOutlines
+	METHOD b getFontRenderer ()Lcwd;
+	METHOD b hasLabel (Laij;)Z
+		ARG 1 entity
+	METHOD b renderSecondPass (Laij;DDDFF)V
+		ARG 1 boat
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z
+		ARG 8 yaw
+		ARG 9 tickDelta
+	METHOD c getRenderManager ()Ldpj;
+	METHOD c getOutlineColor (Laij;)I
+		ARG 1 entity
+	METHOD c postRender (Laij;DDDFF)V
+		ARG 1 entity
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z
+		ARG 8 yaw
+		ARG 9 tickDelta
+	METHOD d bindEntityTexture (Laij;)Z
+		ARG 1 entity
+	METHOD d renderShadow (Laij;DDDFF)V
+	METHOD e getWorld ()Lbhm;
+	METHOD e applyLightmapCoordinates (Laij;)V
+		ARG 1 entity

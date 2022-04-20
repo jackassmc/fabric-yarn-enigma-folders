@@ -1,0 +1,19 @@
+CLASS dhc net/minecraft/client/render/entity/EntityRenderDispatcher
+	FIELD a textureManager Ldlx;
+	FIELD b world Lbas;
+	FIELD g settings Lcoh;
+	FIELD k renderers Ljava/util/Map;
+	FIELD l skinMap Ljava/util/Map;
+	FIELD m playerRenderer Ldlj;
+	FIELD n fontRenderer Lcou;
+	FIELD o renderPosX D
+	FIELD p renderPosY D
+	FIELD q renderPosZ D
+	METHOD <init> (Ldlx;Ldhx;)V
+		ARG 1 textureManager
+	METHOD a setRenderPosition (DDD)V
+		ARG 1 x
+	METHOD a getRenderer (Lagk;)Ldhd;
+	METHOD a getRenderer (Ljava/lang/Class;)Ldhd;
+	METHOD b hasSecondPass (Lagk;)Z
+	METHOD c getFontRenderer ()Lcou;

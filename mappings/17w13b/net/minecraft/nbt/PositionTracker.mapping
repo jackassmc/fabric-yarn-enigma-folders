@@ -1,0 +1,10 @@
+CLASS fk net/minecraft/nbt/PositionTracker
+	CLASS fk$1
+		METHOD a add (J)V
+	FIELD a DEFAULT Lfk;
+	FIELD b max J
+	FIELD c pos J
+	METHOD <init> (J)V
+		ARG 0 max
+	METHOD a add (J)V
+		ARG 0 amount

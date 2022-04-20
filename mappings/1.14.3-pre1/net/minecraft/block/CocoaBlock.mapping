@@ -1,0 +1,8 @@
+CLASS bnf net/minecraft/block/CocoaBlock
+	FIELD a AGE Lbwl;
+	FIELD b AGE_TO_EAST_SHAPE [Lcss;
+	FIELD c AGE_TO_WEST_SHAPE [Lcss;
+	FIELD d AGE_TO_NORTH_SHAPE [Lcss;
+	FIELD e AGE_TO_SOUTH_SHAPE [Lcss;
+	METHOD <init> (Lbmn$c;)V
+		ARG 1 settings

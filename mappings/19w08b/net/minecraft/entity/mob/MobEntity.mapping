@@ -1,0 +1,87 @@
+CLASS ahw net/minecraft/entity/mob/MobEntity
+	FIELD bA handItems Lff;
+	FIELD bB armorItems Lff;
+	FIELD bC pickUpLoot Z
+	FIELD bD persistent Z
+	FIELD bE pathNodeTypeWeights Ljava/util/Map;
+	FIELD bF lootTable Lqi;
+	FIELD bG lootTableSeed J
+	FIELD bH leashed Z
+	FIELD bI holdingEntity Lahm;
+	FIELD bJ leashTag Lhx;
+	FIELD b MOB_FLAGS Lpx;
+	FIELD bs moveControl Laiz;
+	FIELD bt jumpControl Laix;
+	FIELD bu navigation Lama;
+	FIELD bv goalSelector Lajv;
+	FIELD bw targetSelector Lajv;
+	FIELD bx handDropChances [F
+	FIELD by armorDropChances [F
+	FIELD bz visibilityCache Lame;
+	FIELD c bodyControl Lait;
+	FIELD d target Lahv;
+	FIELD e ambientSoundChance I
+	FIELD f experiencePoints I
+	FIELD g lookControl Laiy;
+	METHOD <init> (Lahq;Lbdf;)V
+		ARG 1 type
+	METHOD A getMinAmbientSoundDelay ()I
+	METHOD B playAmbientSound ()V
+	METHOD F getAmbientSound ()Lxy;
+	METHOD G getLootTableId ()Lqi;
+	METHOD H cannotDespawn ()Z
+	METHOD I checkDespawn ()V
+	METHOD J mobTick ()V
+	METHOD M getLimitPerChunk ()I
+	METHOD a initEquipment (Lagf;)V
+	METHOD a setEquipmentDropChance (Lahr;F)V
+		ARG 1 slot
+	METHOD a pickupItem (Laps;)V
+	METHOD a canBeLeashedBy (Larz;)Z
+	METHOD a interactMob (Larz;Lagg;)Z
+		ARG 1 player
+	METHOD a isBetterItemFor (Laxx;Laxx;Lahr;)Z
+		ARG 1 current
+		ARG 2 previous
+		ARG 3 slot
+	METHOD a prepareEntityData (Lbdg;Lagf;Lahy;Laih;Lhx;)Laih;
+		ARG 3 difficulty
+	METHOD a canSpawn (Lbdg;Lahy;)Z
+	METHOD a getPathNodeTypeWeight (Lcit;)F
+	METHOD a setPathNodeTypeWeight (Lcit;F)V
+		ARG 1 type
+	METHOD a detachLeash (ZZ)V
+		ARG 1 sendPacket
+	METHOD b attachLeash (Lahm;Z)V
+		ARG 1 entity
+	METHOD b createNavigation (Lbdf;)Lama;
+	METHOD c canImmediatelyDespawn (D)Z
+		ARG 1 distanceSquared
+	METHOD c spawnsTooManyForEachTry (I)Z
+		ARG 1 count
+	METHOD d (FF)F
+		ARG 1 yaw
+	METHOD dE isLeashed ()Z
+	METHOD dF getHoldingEntity ()Lahm;
+	METHOD dG isAiDisabled ()Z
+	METHOD dH isLeftHanded ()Z
+	METHOD dJ deserializeLeashTag ()V
+	METHOD dv setPersistent ()V
+	METHOD dw canPickUpLoot ()Z
+	METHOD dx isPersistent ()Z
+	METHOD e canPickupItem (Laxx;)Z
+	METHOD f getPreferredEquipmentSlot (Laxx;)Lahr;
+		ARG 0 stack
+	METHOD g setTarget (Lahv;)V
+	METHOD l resetSoundDelay ()V
+	METHOD n initGoals ()V
+	METHOD n setCanPickUpLoot (Z)V
+	METHOD o createBodyControl ()Lait;
+	METHOD o setAiDisabled (Z)V
+	METHOD p getLookControl ()Laiy;
+	METHOD p setLeftHanded (Z)V
+	METHOD r getMoveControl ()Laiz;
+	METHOD s getJumpControl ()Laix;
+	METHOD u getNavigation ()Lama;
+	METHOD v getVisibilityCache ()Lame;
+	METHOD w getTarget ()Lahv;

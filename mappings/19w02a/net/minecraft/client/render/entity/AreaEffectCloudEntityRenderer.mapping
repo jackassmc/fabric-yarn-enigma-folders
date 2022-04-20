@@ -1,0 +1,3 @@
+CLASS dir net/minecraft/client/render/entity/AreaEffectCloudEntityRenderer
+	METHOD a getTexture (Lahb;)Lqe;
+	METHOD a getTexture (Lahd;)Lqe;

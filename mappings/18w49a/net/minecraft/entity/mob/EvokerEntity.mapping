@@ -1,0 +1,47 @@
+CLASS apb net/minecraft/entity/mob/EvokerEntity
+	CLASS apb$a ConjureFangsGoal
+		METHOD a conjureFangs (DDDDFI)V
+			ARG 0 x
+			ARG 1 z
+			ARG 2 minY
+			ARG 3 maxY
+			ARG 4 angle
+			ARG 5 warmup
+		METHOD g getSpellTicks ()I
+		METHOD i startTimeDelay ()I
+		METHOD j castSpell ()V
+		METHOD k getSoundPrepare ()Lxg;
+	CLASS apb$b LookAtTargetOrWololoTarget
+		METHOD e tick ()V
+	CLASS apb$c SummonVexGoal
+		METHOD a canStart ()Z
+		METHOD g getSpellTicks ()I
+		METHOD i startTimeDelay ()I
+		METHOD j castSpell ()V
+		METHOD k getSoundPrepare ()Lxg;
+	CLASS apb$d WololoGoal
+		FIELD e purpleSheepPredicate Ljava/util/function/Predicate;
+		METHOD a canStart ()Z
+		METHOD b shouldContinue ()Z
+		METHOD c start ()V
+		METHOD d onRemove ()V
+		METHOD e tick ()V
+		METHOD g getSpellTicks ()I
+		METHOD i startTimeDelay ()I
+		METHOD j castSpell ()V
+		METHOD k getSoundPrepare ()Lxg;
+		METHOD m getInitialCooldown ()I
+	FIELD bF wololoTarget Lamg;
+	METHOD D getAmbientSound ()Lxg;
+	METHOD H mobTick ()V
+	METHOD T_ update ()V
+	METHOD a setWololoTarget (Lamg;)V
+	METHOD a readCustomDataFromTag (Lhq;)V
+	METHOD b writeCustomDataToTag (Lhq;)V
+	METHOD ca initAttributes ()V
+	METHOD cv getDeathSound ()Lxg;
+	METHOD dQ getWololoTarget ()Lamg;
+	METHOD e getHurtSound (Laft;)Lxg;
+	METHOD n initAi ()V
+	METHOD r isTeammate (Lagk;)Z
+	METHOD y_ initDataTracker ()V

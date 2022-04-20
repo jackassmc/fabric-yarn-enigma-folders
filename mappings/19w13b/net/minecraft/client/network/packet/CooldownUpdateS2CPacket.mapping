@@ -1,0 +1,7 @@
+CLASS lb net/minecraft/client/network/packet/CooldownUpdateS2CPacket
+	FIELD a item Lbbk;
+	FIELD b cooldown I
+	METHOD <init> (Lbbk;I)V
+		ARG 1 item
+	METHOD b getItem ()Lbbk;
+	METHOD c getCooldown ()I

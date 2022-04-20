@@ -1,0 +1,8 @@
+CLASS cct net/minecraft/world/gen/feature/MineshaftFeatureConfig
+	FIELD a probability D
+	FIELD b type Lccu$b;
+	METHOD <init> (DLccu$b;)V
+		ARG 1 probability
+		ARG 3 type
+	METHOD a deserialize (Lcom/mojang/datafixers/Dynamic;)Lcct;
+		ARG 0 dynamic

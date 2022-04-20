@@ -1,0 +1,5 @@
+CLASS dks net/minecraft/client/render/entity/BipedEntityRenderer
+	FIELD a SKIN Lqd;
+	METHOD <init> (Ldkf;Lczw;F)V
+		ARG 1 renderManager
+		ARG 2 model

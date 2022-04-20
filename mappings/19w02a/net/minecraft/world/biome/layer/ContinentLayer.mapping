@@ -1,0 +1,4 @@
+CLASS cgq net/minecraft/world/biome/layer/ContinentLayer
+	METHOD a sample (Lcgg;II)I
+		ARG 2 x
+		ARG 3 y

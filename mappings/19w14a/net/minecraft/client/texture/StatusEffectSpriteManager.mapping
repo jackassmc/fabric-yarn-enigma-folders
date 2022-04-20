@@ -1,0 +1,2 @@
+CLASS dug net/minecraft/client/texture/StatusEffectSpriteManager
+	METHOD a getSprite (Lahr;)Ldtq;

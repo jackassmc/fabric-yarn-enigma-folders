@@ -1,0 +1,45 @@
+CLASS ask net/minecraft/entity/vehicle/BoatEntity
+	CLASS ask$b Type
+		FIELD a OAK Lask$b;
+		FIELD b SPRUCE Lask$b;
+		FIELD c BIRCH Lask$b;
+		FIELD d JUNGLE Lask$b;
+		FIELD e ACACIA Lask$b;
+		FIELD f DARK_OAK Lask$b;
+		FIELD g name Ljava/lang/String;
+		METHOD a getName ()Ljava/lang/String;
+		METHOD a getType (I)Lask$b;
+		METHOD a getType (Ljava/lang/String;)Lask$b;
+	FIELD d BOAT_TYPE Lpr;
+	FIELD e LEFT_PADDLE_MOVING Lpr;
+	FIELD f RIGHT_PADDLE_MOVING Lpr;
+	METHOD <init> (Lbbp;DDD)V
+		ARG 1 world
+		ARG 2 x
+	METHOD W_ update ()V
+	METHOD a setPositionAndRotations (DDDFFIZ)V
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+	METHOD a getPaddleState (I)Z
+		ARG 1 paddle
+	METHOD a damage (Lage;F)Z
+		ARG 1 source
+		ARG 2 amount
+	METHOD a copyEntityData (Lagv;)V
+	METHOD a setBoatType (Lask$b;)V
+	METHOD a readCustomDataFromTag (Lhs;)V
+	METHOD a setPaddleState (ZZ)V
+	METHOD aD doesCollide ()Z
+	METHOD aE isPushable ()Z
+	METHOD aL getMountedHeightOffset ()D
+	METHOD b interact (Larb;Lafo;)Z
+		ARG 1 player
+	METHOD b writeCustomDataToTag (Lhs;)V
+	METHOD bP getPrimaryPassenger ()Lagv;
+		ARG 1 passengers
+	METHOD i asItem ()Lawj;
+	METHOD i pushAwayFrom (Lagv;)V
+	METHOD q getBoatType ()Lask$b;
+	METHOD q canAddPassenger (Lagv;)Z
+	METHOD y_ initDataTracker ()V

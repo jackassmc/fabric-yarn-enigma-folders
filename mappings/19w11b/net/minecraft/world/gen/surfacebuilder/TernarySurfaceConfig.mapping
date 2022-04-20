@@ -1,0 +1,11 @@
+CLASS cii net/minecraft/world/gen/surfacebuilder/TernarySurfaceConfig
+	FIELD a topMaterial Lbtw;
+	FIELD b underMaterial Lbtw;
+	FIELD c underwaterMaterial Lbtw;
+	METHOD <init> (Lbtw;Lbtw;Lbtw;)V
+		ARG 1 topMaterial
+		ARG 2 underMaterial
+		ARG 3 underwaterMaterial
+	METHOD a deserialize (Lcom/mojang/datafixers/Dynamic;)Lcii;
+		ARG 0 dynamic
+	METHOD c getUnderwaterMaterial ()Lbtw;

@@ -1,0 +1,2 @@
+CLASS bqf net/minecraft/block/entity/EndPortalBlockEntity
+	METHOD a shouldDrawSide (Lew;)Z

@@ -1,0 +1,4 @@
+CLASS alq net/minecraft/entity/ai/goal/FollowTargetGoal
+	FIELD b reciprocalChance I
+	METHOD a getSearchBox (D)Lcng;
+		ARG 1 distance

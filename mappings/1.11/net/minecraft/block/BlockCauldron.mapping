@@ -1,0 +1,66 @@
+CLASS amd net/minecraft/block/BlockCauldron
+	FIELD a LEVEL Laty;
+	FIELD b BOTTOM_BOX Lbdr;
+	FIELD c NOTH_BOX Lbdr;
+	FIELD d SOUTH_BOX Lbdr;
+	FIELD e EAST_BOX Lbdr;
+	FIELD f WEST_BOX Lbdr;
+	METHOD a deserializeState (I)Latj;
+		ARG 0 meta
+	METHOD a getPickStack (Lajq;Lco;Latj;)Lafi;
+		ARG 0 world
+		ARG 1 pos
+		ARG 2 state
+	METHOD a (Lajq;Lco;Latj;I)V
+		ARG 0 world
+		ARG 1 pos
+		ARG 2 state
+	METHOD a activate (Lajq;Lco;Latj;Laax;Lrh;Lcv;FFF)Z
+		ARG 0 world
+		ARG 1 pos
+		ARG 2 state
+		ARG 3 player
+		ARG 4 hand
+		ARG 5 facing
+		ARG 6 hitX
+		ARG 7 hitY
+		ARG 8 hitZ
+	METHOD a (Lajq;Lco;Latj;Lsm;)V
+		ARG 0 world
+		ARG 1 pos
+		ARG 2 state
+		ARG 3 entity
+	METHOD a addBoundingBoxes (Latj;Lajq;Lco;Lbdr;Ljava/util/List;Lsm;)V
+		ARG 0 state
+		ARG 1 world
+		ARG 2 pos
+		ARG 3 mask
+		ARG 4 list
+		ARG 5 entity
+	METHOD a getDropItem (Latj;Ljava/util/Random;I)Lafg;
+		ARG 0 state
+		ARG 1 random
+		ARG 2 fortune
+	METHOD b createStateFactory ()Latk;
+	METHOD b (Laju;Lco;)Z
+		ARG 0 view
+		ARG 1 pos
+	METHOD b isFullBoundsCubeForCulling (Latj;)Z
+		ARG 0 state
+	METHOD b getBoundingBox (Latj;Laju;Lco;)Lbdr;
+		ARG 0 state
+		ARG 1 view
+		ARG 2 pos
+	METHOD c (Latj;)Z
+		ARG 0 state
+	METHOD c getComparatorOutput (Latj;Lajq;Lco;)I
+		ARG 0 state
+		ARG 1 world
+		ARG 2 pos
+	METHOD e serializeState (Latj;)I
+		ARG 0 state
+	METHOD h (Lajq;Lco;)V
+		ARG 0 world
+		ARG 1 pos
+	METHOD x hasComparatorOutput (Latj;)Z
+		ARG 0 state

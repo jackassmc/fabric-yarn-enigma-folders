@@ -1,0 +1,2 @@
+CLASS dmu net/minecraft/client/audio/TickableSoundEvent
+	METHOD m isDone ()Z

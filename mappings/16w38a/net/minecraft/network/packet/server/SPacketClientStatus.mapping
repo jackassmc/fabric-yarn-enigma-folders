@@ -1,0 +1,17 @@
+CLASS ip net/minecraft/network/packet/server/SPacketClientStatus
+	CLASS ip$a Action
+		FIELD a RESPAWN Lip$a;
+		FIELD b STATS_REQUEST Lip$a;
+		FIELD c INVENTORY_OPEN Lip$a;
+	FIELD a action Lip$a;
+	METHOD <init> (Lip$a;)V
+		ARG 0 action
+	METHOD a getAction ()Lip$a;
+	METHOD a readPacket (Les;)V
+		ARG 0 packet
+	METHOD a applyPacket (Lev;)V
+		ARG 0 handler
+	METHOD a applyPacket (Lil;)V
+		ARG 0 handler
+	METHOD b writePacket (Les;)V
+		ARG 0 packet

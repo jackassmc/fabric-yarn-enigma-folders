@@ -1,0 +1,4 @@
+CLASS afz net/minecraft/inventory/DoubleInventory
+	FIELD a first Laga;
+	FIELD b second Laga;
+	METHOD a isPart (Laga;)Z

@@ -1,0 +1,3 @@
+CLASS uk net/minecraft/server/dedicated/gui/PlayerListGui
+	FIELD a server Lnet/minecraft/server/MinecraftServer;
+	FIELD b tick I

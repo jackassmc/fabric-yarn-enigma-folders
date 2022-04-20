@@ -1,0 +1,2 @@
+CLASS aqs net/minecraft/block/BlockSlabStone2Double
+	METHOD e isDoubleSlab ()Z

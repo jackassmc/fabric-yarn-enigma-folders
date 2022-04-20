@@ -1,0 +1,22 @@
+CLASS apk net/minecraft/village/SimpleVillager
+	FIELD a villagerInventory Lasb;
+	FIELD b player Lapr;
+	FIELD c recipeList Laza;
+	FIELD d displayName Lix;
+	METHOD <init> (Lapr;Lix;)V
+		ARG 1 player
+		ARG 2 displayName
+	METHOD N_ getCurrentCustomer ()Lapr;
+	METHOD Q getDisplayedName ()Lix;
+	METHOD a onSellingItem (Lauv;)V
+		ARG 1 stack
+	METHOD a useRecipe (Layz;)V
+		ARG 1 recipe
+	METHOD a setRecipeList (Laza;)V
+		ARG 1 recipeLIst
+	METHOD a_ setCurrentCustomer (Lapr;)V
+		ARG 1 currentCustomer
+	METHOD b_ getRecipes (Lapr;)Laza;
+		ARG 1 player
+	METHOD c getWorld ()Lazt;
+	METHOD d getPos ()Leq;

@@ -1,0 +1,4 @@
+CLASS dhd net/minecraft/client/render/entity/EntityRendererVex
+	METHOD a getTexture (Lafy;)Lpw;
+	METHOD a getTexture (Lagi;)Lpw;
+	METHOD a getTexture (Laph;)Lpw;

@@ -1,0 +1,5 @@
+CLASS dic net/minecraft/client/render/entity/EntityRendererArmorBiped
+	METHOD a hideModel (Lcut;)V
+	METHOD a handleModelAdjustments (Lcut;Lagd;)V
+		ARG 1 model
+	METHOD am_ init ()V

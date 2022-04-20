@@ -1,0 +1,3 @@
+CLASS none/bqs net/minecraft/client/render/block/state/StateModelMapperSimple
+	METHOD a getModelName (Lnone/asl;)Lnone/bzq;
+		ARG 0 state

@@ -1,0 +1,6 @@
+CLASS ayo net/minecraft/item/ArmorStandItem
+	METHOD <init> (Lbam$a;)V
+		ARG 1 settings
+	METHOD a setRotations (Laru;Ljava/util/Random;)V
+		ARG 1 armorStand
+		ARG 2 random

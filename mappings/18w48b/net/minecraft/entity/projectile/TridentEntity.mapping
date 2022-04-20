@@ -1,0 +1,13 @@
+CLASS arh net/minecraft/entity/projectile/TridentEntity
+	FIELD aw tridentStack Lavs;
+	FIELD ax dealtDamage Z
+	METHOD U_ update ()V
+	METHOD a readCustomDataFromTag (Lhp;)V
+		ARG 1 tag
+	METHOD b writeCustomDataToTag (Lhp;)V
+		ARG 1 tag
+	METHOD g shouldRenderFrom (DDD)Z
+		ARG 1 x
+	METHOD i getSound ()Lxf;
+	METHOD l asItemStack ()Lavs;
+	METHOD x_ initDataTracker ()V

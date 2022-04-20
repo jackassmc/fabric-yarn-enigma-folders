@@ -1,0 +1,6 @@
+CLASS bwq net/minecraft/client/render/entity/EntityRendererWither
+	FIELD a INVINCIBLE_SKIN Lkq;
+	METHOD a getTexture (Lsm;)Lkq;
+		ARG 0 model
+	METHOD a getTexture (Lyu;)Lkq;
+		ARG 0 model

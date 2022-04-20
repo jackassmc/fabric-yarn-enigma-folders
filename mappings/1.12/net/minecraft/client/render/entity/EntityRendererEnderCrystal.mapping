@@ -1,0 +1,6 @@
+CLASS byz net/minecraft/client/render/entity/EntityRendererEnderCrystal
+	FIELD a SKIN Lnd;
+	METHOD a getTexture (Laba;)Lnd;
+		ARG 0 model
+	METHOD a getTexture (Lve;)Lnd;
+		ARG 0 model

@@ -1,0 +1,14 @@
+CLASS dcv net/minecraft/client/gui/screen/resourcepack/ResourcePackOptionsScreen
+	FIELD a parent Lczy;
+	FIELD b availableList Ldcx;
+	FIELD c selectedList Ldcz;
+	FIELD d edited Z
+	METHOD <init> (Lczy;)V
+		ARG 1 parent
+	METHOD a setEdited ()V
+	METHOD a select (Ldcy$a;)V
+	METHOD b remove (Ldcy$a;)V
+	METHOD render (IIF)V
+		ARG 1 mouseX
+		ARG 2 mouseY
+		ARG 3 delta

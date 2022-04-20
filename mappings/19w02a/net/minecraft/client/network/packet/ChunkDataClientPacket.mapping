@@ -1,0 +1,22 @@
+CLASS lc net/minecraft/client/network/packet/ChunkDataClientPacket
+	FIELD a chunkX I
+	FIELD b chunkZ I
+	FIELD c verticalStripBitmask I
+	FIELD e data [B
+	FIELD f blockEntityList Ljava/util/List;
+	FIELD g isFullChunk Z
+	METHOD <init> (Lbse;I)V
+		ARG 2 includedSectionsMask
+	METHOD a read (Lit;)V
+		ARG 1 buf
+	METHOD a apply (Liw;)V
+		ARG 1 listener
+	METHOD a apply (Lju;)V
+	METHOD b getReadBuffer ()Lit;
+	METHOD b write (Lit;)V
+		ARG 1 buf
+	METHOD c getX ()I
+	METHOD d getZ ()I
+	METHOD e getVerticalStripBitmask ()I
+	METHOD f isFullChunk ()Z
+	METHOD h getBlockEntityTagList ()Ljava/util/List;

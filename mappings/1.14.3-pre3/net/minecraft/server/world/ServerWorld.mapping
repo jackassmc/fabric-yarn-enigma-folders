@@ -1,0 +1,139 @@
+CLASS vi net/minecraft/server/world/ServerWorld
+	FIELD A players Ljava/util/List;
+	FIELD B server Lnet/minecraft/server/MinecraftServer;
+	FIELD C worldSaveHandler Lcoh;
+	FIELD D allPlayersSleeping Z
+	FIELD E idleTimeout I
+	FIELD F portalForcer Lbhy;
+	FIELD G blockTickScheduler Lbhz;
+	FIELD H fluidTickScheduler Lbhz;
+	FIELD I entityNavigations Ljava/util/Set;
+	FIELD J pendingBlockActions Lit/unimi/dsi/fastutil/objects/ObjectLinkedOpenHashSet;
+	FIELD K insideTick Z
+	FIELD L wanderingTraderManager Lavv;
+	FIELD a ticking Z
+	FIELD b savingDisabled Z
+	FIELD c raidManager Laxh;
+	FIELD d siegeManager Laqi;
+	FIELD v LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD w globalEntities Ljava/util/List;
+	FIELD x entitiesById Lit/unimi/dsi/fastutil/ints/Int2ObjectMap;
+	FIELD y entitiesByUuid Ljava/util/Map;
+	FIELD z entitiesToLoad Ljava/util/Queue;
+	METHOD <init> (Lnet/minecraft/server/MinecraftServer;Ljava/util/concurrent/Executor;Lcoh;Lcog;Lbyi;Lagk;Lvr;)V
+		ARG 1 server
+		ARG 2 workerExecutor
+		ARG 3 worldSaveHandler
+		ARG 4 properties
+		ARG 5 dimensionType
+		ARG 6 profiler
+		ARG 7 worldGenerationProgressListener
+	METHOD B getPointOfInterestStorage ()Laqk;
+	METHOD C getRaidManager ()Laxh;
+	METHOD a setChunkForced (IIZ)Z
+		ARG 1 x
+		ARG 2 z
+		ARG 3 forced
+	METHOD a tickEntity (Lail;)V
+	METHOD a getEntities (Laip;Ljava/util/function/Predicate;)Ljava/util/List;
+	METHOD a handleInteraction (Laqh;Lail;Lajf;)V
+		ARG 1 interaction
+		ARG 3 observer
+	METHOD a addLightning (Latp;)V
+	METHOD a init (Lbhq;)V
+		ARG 1 levelInfo
+	METHOD a tickFluid (Lbic;)V
+		ARG 1 tick
+	METHOD a unloadEntities (Lbxo;)V
+		ARG 1 chunk
+	METHOD a tickChunk (Lbxo;I)V
+		ARG 1 chunk
+		ARG 2 randomTickSpeed
+	METHOD a (Lev;)Lev;
+		ARG 1 pos
+	METHOD a isNearOccupiedPointOfInterest (Lev;I)Z
+		ARG 1 pos
+		ARG 2 maxDistance
+	METHOD a isNearOccupiedPointOfInterest (Lfo;)Z
+	METHOD a spawnParticles (Lge;DDDIDDDD)I
+		ARG 1 particle
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z
+		ARG 8 count
+		ARG 9 deltaX
+		ARG 11 deltaY
+		ARG 13 deltaZ
+		ARG 15 speed
+	METHOD a getEntity (Ljava/util/UUID;)Lail;
+	METHOD a tick (Ljava/util/function/BooleanSupplier;)V
+	METHOD a getPlayers (Ljava/util/function/Predicate;)Ljava/util/List;
+		ARG 1 predicate
+	METHOD a spawnParticles (Lvj;Lge;ZDDDIDDDD)Z
+		ARG 1 viewer
+		ARG 2 particle
+		ARG 3 force
+		ARG 4 x
+		ARG 6 y
+		ARG 8 z
+		ARG 10 count
+		ARG 11 deltaX
+		ARG 13 deltaY
+		ARG 15 deltaZ
+		ARG 17 speed
+	METHOD a sendToPlayerIfNearby (Lvj;ZDDDLkb;)Z
+		ARG 1 player
+		ARG 2 force
+		ARG 3 x
+		ARG 5 y
+		ARG 7 z
+		ARG 9 packet
+	METHOD a save (Lzw;ZZ)V
+		ARG 1 progressListener
+		ARG 2 flush
+	METHOD ad resetWeather ()V
+	METHOD ae sendBlockActions ()V
+	METHOD b isInsideTick ()Z
+	METHOD b checkChunk (Lail;)V
+	METHOD b tickBlock (Lbic;)V
+		ARG 1 tick
+	METHOD b getOccupiedPointOfInterestDistance (Lfo;)I
+		ARG 1 pos
+	METHOD b_ isNearOccupiedPointOfInterest (Lev;)Z
+		ARG 1 pos
+	METHOD c_ getRaidAt (Lev;)Laxf;
+		ARG 1 pos
+	METHOD d respawnPlayer (Lvj;)V
+	METHOD d_ hasRaidAt (Lev;)Z
+		ARG 1 pos
+	METHOD e removePlayer (Lvj;)V
+		ARG 1 player
+	METHOD f resetIdleTimeout ()V
+	METHOD f loadEntity (Lail;)Z
+		ARG 1 entity
+	METHOD f addPlayer (Lvj;)V
+		ARG 1 player
+	METHOD g placeBonusChest ()V
+	METHOD g unloadEntity (Lail;)V
+		ARG 1 entity
+	METHOD h getForcedSpawnPoint ()Lev;
+	METHOD h removeEntity (Lail;)V
+	METHOD i_ updatePlayersSleeping ()V
+	METHOD j getAliveEnderDragons ()Ljava/util/List;
+	METHOD k addEntity (Lail;)Z
+		ARG 1 entity
+	METHOD k_ saveLevel ()V
+	METHOD l getMobCountsByCategory ()Lit/unimi/dsi/fastutil/objects/Object2IntMap;
+	METHOD l checkUuid (Lail;)Z
+		ARG 1 entity
+	METHOD l_ getRandomAlivePlayer ()Lvj;
+	METHOD m loadEntityUnchecked (Lail;)V
+		ARG 1 entity
+	METHOD n removeEntityFromChunk (Lail;)V
+		ARG 1 entity
+	METHOD q getPortalForcer ()Lbhy;
+	METHOD r getStructureManager ()Lcjk;
+	METHOD v checkSessionLock ()V
+	METHOD w getSaveHandler ()Lcoh;
+	METHOD x getPersistentStateManager ()Lcof;
+	METHOD z getForcedChunks ()Lit/unimi/dsi/fastutil/longs/LongSet;

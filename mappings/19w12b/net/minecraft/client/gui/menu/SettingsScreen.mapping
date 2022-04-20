@@ -1,0 +1,9 @@
+CLASS cyb net/minecraft/client/gui/menu/SettingsScreen
+	FIELD b parent Lcyi;
+	FIELD c settings Lcue;
+	FIELD d difficultyButton Lcve;
+	FIELD e lockDifficultyButton Lcvn;
+	METHOD <init> (Lcyi;Lcue;)V
+		ARG 1 parent
+	METHOD confirmResult (ZI)V
+		ARG 1 result

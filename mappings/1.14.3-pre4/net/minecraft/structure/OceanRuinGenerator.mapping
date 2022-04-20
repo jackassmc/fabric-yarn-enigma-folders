@@ -1,0 +1,59 @@
+CLASS cii net/minecraft/structure/OceanRuinGenerator
+	CLASS a Piece
+		FIELD d biomeType Lcih$b;
+		FIELD e integrity F
+		FIELD f template Lqt;
+		FIELD g rotation Lbrb;
+		FIELD h large Z
+		METHOD <init> (Lcjk;Lic;)V
+			ARG 1 manager
+			ARG 2 tag
+		METHOD <init> (Lcjk;Lqt;Lev;Lbrb;FLcih$b;Z)V
+			ARG 1 structureManager
+			ARG 2 template
+			ARG 3 pos
+			ARG 4 rotation
+			ARG 5 integrity
+			ARG 6 biomeType
+			ARG 7 large
+		METHOD a initialize (Lcjk;)V
+			ARG 1 structureManager
+	FIELD a WARM_RUINS [Lqt;
+	FIELD b BRICK_RUINS [Lqt;
+	FIELD c CRACKED_RUINS [Lqt;
+	FIELD d MOSSY_RUINS [Lqt;
+	FIELD e BIG_BRICK_RUINS [Lqt;
+	FIELD f BIG_MOSSY_RUINS [Lqt;
+	FIELD g BIG_CRACKED_RUINS [Lqt;
+	FIELD h BIG_WARM_RUINS [Lqt;
+	METHOD a addPieces (Lcjk;Lev;Lbrb;Ljava/util/List;Ljava/util/Random;Lcda;)V
+		ARG 0 manager
+		ARG 1 pos
+		ARG 2 rotation
+		ARG 3 pieces
+		ARG 4 random
+		ARG 5 config
+	METHOD a (Lcjk;Lev;Lbrb;Ljava/util/List;Ljava/util/Random;Lcda;ZF)V
+		ARG 0 manager
+		ARG 1 pos
+		ARG 2 rotation
+		ARG 3 pieces
+		ARG 4 random
+		ARG 5 config
+		ARG 6 large
+		ARG 7 integrity
+	METHOD a (Lcjk;Ljava/util/Random;Lbrb;Lev;Lcda;Ljava/util/List;)V
+		ARG 0 manager
+		ARG 1 random
+		ARG 2 rotation
+		ARG 3 pos
+		ARG 4 config
+		ARG 5 pieces
+	METHOD a getRandomWarmRuin (Ljava/util/Random;)Lqt;
+		ARG 0 random
+	METHOD a getRoomPositions (Ljava/util/Random;II)Ljava/util/List;
+		ARG 0 random
+		ARG 1 x
+		ARG 2 z
+	METHOD b getRandomBigWarmRuin (Ljava/util/Random;)Lqt;
+		ARG 0 random

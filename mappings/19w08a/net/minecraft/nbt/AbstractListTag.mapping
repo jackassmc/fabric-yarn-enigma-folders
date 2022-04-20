@@ -1,0 +1,11 @@
+CLASS hw net/minecraft/nbt/AbstractListTag
+	METHOD a setTag (ILio;)Z
+		ARG 1 index
+	METHOD b addTag (ILio;)Z
+		ARG 1 index
+	METHOD c remove (I)Lio;
+	METHOD c add (ILio;)V
+		ARG 1 index
+	METHOD d set (ILio;)Lio;
+	METHOD set (ILjava/lang/Object;)Ljava/lang/Object;
+		ARG 1 index

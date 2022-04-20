@@ -1,0 +1,3 @@
+CLASS cae net/minecraft/sortme/structures/IglooGenerator
+	CLASS cae$a
+		METHOD a toNbt (Lhp;)V

@@ -1,0 +1,14 @@
+CLASS crr net/minecraft/client/gui/hud/SubtitlesHud
+	CLASS crr$a SubtitleEntry
+		FIELD b text Ljava/lang/String;
+		FIELD c time J
+		FIELD d pos Lcms;
+		METHOD a getText ()Ljava/lang/String;
+		METHOD a reset (Lcms;)V
+		METHOD b getTime ()J
+		METHOD c getPosition ()Lcms;
+	FIELD a client Lcpz;
+	FIELD f entries Ljava/util/List;
+	FIELD g enabled Z
+	METHOD a onSoundPlayed (Ldqt;Ldrq;)V
+		ARG 1 sound

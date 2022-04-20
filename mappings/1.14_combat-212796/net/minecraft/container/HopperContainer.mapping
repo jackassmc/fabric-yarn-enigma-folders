@@ -1,0 +1,6 @@
+CLASS aza net/minecraft/container/HopperContainer
+	FIELD c inventory Laha;
+	METHOD <init> (ILawa;)V
+		ARG 1 syncId
+	METHOD <init> (ILawa;Laha;)V
+		ARG 1 syncId

@@ -1,0 +1,9 @@
+CLASS ma net/minecraft/client/network/packet/PlayerListS2CPacket
+	CLASS ma$a Type
+		FIELD a ADD Lma$a;
+		FIELD b UPDATE_GAMEMODE Lma$a;
+		FIELD c UPDATE_LATENCY Lma$a;
+		FIELD d UPDATE_DISPLAY_NAME Lma$a;
+		FIELD e REMOVE Lma$a;
+	FIELD a type Lma$a;
+	METHOD c getType ()Lma$a;

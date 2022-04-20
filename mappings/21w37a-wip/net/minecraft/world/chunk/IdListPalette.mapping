@@ -1,0 +1,2 @@
+CLASS net/minecraft/class_2816 net/minecraft/world/chunk/IdListPalette
+	FIELD field_12828 idList Lnet/minecraft/class_2359;

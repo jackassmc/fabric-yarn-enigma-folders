@@ -1,0 +1,3 @@
+CLASS clx net/minecraft/world/loot/function/FurnaceSmeltLootFunction
+	CLASS clx$a Factory
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;

@@ -1,0 +1,60 @@
+CLASS aqe net/minecraft/entity/player/InventoryPlayer
+	FIELD a main Lfg;
+	FIELD b armor Lfg;
+	FIELD c offHand Lfg;
+	FIELD d selectedSlot I
+	FIELD e player Laqf;
+	FIELD g cursorStack Lavn;
+	FIELD h changeCount I
+	METHOD R_ getName ()Liz;
+	METHOD S_ hasCustomName ()Z
+	METHOD T_ isInvEmpty ()Z
+	METHOD X_ getInvSize ()I
+	METHOD a getInvStack (I)Lavn;
+	METHOD a takeInvStack (II)Lavn;
+		ARG 1 slot
+	METHOD a setInvStack (ILavn;)V
+		ARG 1 slot
+	METHOD a clone (Laqe;)V
+	METHOD a canPlayerUseInv (Laqf;)Z
+	METHOD a addPickBlock (Lavn;)V
+	METHOD a canStackAddMore (Lavn;Lavn;)Z
+		ARG 1 existingStack
+	METHOD a getBlockBreakingSpeed (Lboh;)F
+	METHOD a serialize (Lhu;)Lhu;
+	METHOD b removeInvStack (I)Lavn;
+	METHOD b setInvProperty (II)V
+		ARG 1 pos
+	METHOD b isValidInvStack (ILavn;)Z
+		ARG 1 slot
+	METHOD b onInvOpen (Laqf;)V
+	METHOD b getSlotWithStack (Lavn;)I
+	METHOD b areItemsEqual (Lavn;Lavn;)Z
+		ARG 1 stack1
+	METHOD b isUsingEffectiveTool (Lboh;)Z
+	METHOD b deserialize (Lhu;)V
+	METHOD c getInvProperty (I)I
+	METHOD c insertStack (ILavn;)Z
+		ARG 1 slot
+	METHOD c onInvClose (Laqf;)V
+	METHOD d swapSlotWithHotbar (I)V
+	METHOD d getOccupiedSlotWithRoomForStack (Lavn;)I
+	METHOD e isValidHotbarIndex (I)Z
+		ARG 0 slot
+	METHOD e insertStack (Lavn;)Z
+	METHOD f getInvMaxStackAmount ()I
+	METHOD f getArmorStack (I)Lavn;
+	METHOD f removeOne (Lavn;)V
+	METHOD g markDirty ()V
+	METHOD g setCursorStack (Lavn;)V
+	METHOD h getInvPropertyCount ()I
+	METHOD i getMainHandStack ()Lavn;
+	METHOD i addStack (Lavn;)I
+	METHOD j getHotbarSize ()I
+	METHOD k getEmptySlot ()I
+	METHOD l getSwappableHotbarSlot ()I
+	METHOD m clearInv ()V
+	METHOD p updateItems ()V
+	METHOD q dropAll ()V
+	METHOD r getChangeCount ()I
+	METHOD s getCursorStack ()Lavn;

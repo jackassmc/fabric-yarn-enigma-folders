@@ -1,0 +1,3 @@
+CLASS arr net/minecraft/entity/boss/dragon/phase/SittingAttackingPhase
+	METHOD <init> (Larg;)V
+		ARG 1 dragon

@@ -1,0 +1,5 @@
+CLASS atr net/minecraft/container/BlastFurnaceContainer
+	METHOD <init> (ILarr;)V
+		ARG 1 syncId
+	METHOD <init> (ILarr;Lafx;Latw;)V
+		ARG 1 syncId

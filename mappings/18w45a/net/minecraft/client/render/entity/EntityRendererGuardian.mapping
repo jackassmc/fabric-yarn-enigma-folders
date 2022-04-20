@@ -1,0 +1,5 @@
+CLASS dfc net/minecraft/client/render/entity/EntityRendererGuardian
+	FIELD a SKIN Lpw;
+	FIELD j EXPLOSION_BEAM_TEX Lpw;
+	METHOD a getTexture (Lafy;)Lpw;
+	METHOD a getTexture (Laoo;)Lpw;

@@ -1,0 +1,56 @@
+CLASS cqq net/minecraft/client/gui/container/GuiBeacon
+	CLASS cqq$a WidgetButtonIconCancel
+		METHOD a onPressed (DD)V
+			ARG 0 mouseX
+		METHOD a onHover (II)V
+			ARG 0 mouseX
+			ARG 1 mouseY
+	CLASS cqq$b WidgetButtonIconDone
+		METHOD a onPressed (DD)V
+			ARG 0 mouseX
+		METHOD a onHover (II)V
+			ARG 0 mouseX
+			ARG 1 mouseY
+	CLASS cqq$c WidgetButtonIconEffect
+		FIELD p effect Lafn;
+		FIELD q level I
+		METHOD a onPressed (DD)V
+			ARG 0 mouseX
+		METHOD a onHover (II)V
+			ARG 0 mouseX
+			ARG 1 mouseY
+	CLASS cqq$d WidgetButtonIcon
+		FIELD o iconTexture Lpu;
+		FIELD p iconU I
+		FIELD q iconV I
+		FIELD r disabled Z
+		METHOD a draw (IIF)V
+			ARG 0 mouseX
+			ARG 1 mouseY
+			ARG 2 delta
+			ARG 4 mc
+			ARG 5 u
+			ARG 6 v
+		METHOD c isDisabled ()Z
+		METHOD c setDisabled (Z)V
+	FIELD A canConsumeGem Z
+	FIELD w LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD x BG_TEX Lpu;
+	FIELD y inventory Laei;
+	FIELD z doneButton Lcqq$b;
+	METHOD <init> (Lapq;Laei;)V
+		ARG 1 playerInv
+		ARG 2 inventory
+	METHOD a drawBackground (FII)V
+		ARG 1 delta
+		ARG 2 mouseX
+		ARG 3 mouseY
+	METHOD a draw (IIF)V
+		ARG 1 mouseX
+		ARG 2 mouseY
+		ARG 3 delta
+	METHOD c onInitialized ()V
+	METHOD c drawForeground (II)V
+		ARG 1 mouseX
+		ARG 2 mouseY
+	METHOD f update ()V

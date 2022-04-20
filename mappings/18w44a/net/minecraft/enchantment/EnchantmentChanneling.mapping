@@ -1,0 +1,4 @@
+CLASS ayo net/minecraft/enchantment/EnchantmentChanneling
+	METHOD a getHighestLevel ()I
+	METHOD a differs (Laxx;)Z
+		ARG 1 other

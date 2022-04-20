@@ -1,0 +1,2 @@
+CLASS dan net/minecraft/client/gui/widget/LocalScanProgressListEntry
+	FIELD c client Lctq;

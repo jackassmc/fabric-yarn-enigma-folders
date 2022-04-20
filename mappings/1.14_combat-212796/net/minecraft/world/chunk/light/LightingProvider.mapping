@@ -1,0 +1,18 @@
+CLASS ckx net/minecraft/world/chunk/light/LightingProvider
+	FIELD a blockLightProvider Lcku;
+	FIELD b skyLightProvider Lcku;
+	METHOD <init> (Lbxr;ZZ)V
+		ARG 1 chunkProvider
+		ARG 2 hasBlockLight
+		ARG 3 hasSkyLight
+	METHOD a hasUpdates ()Z
+	METHOD a doLightUpdates (IZZ)I
+		ARG 1 maxUpdateCount
+	METHOD a suppressLight (Lbgz;Z)V
+	METHOD a get (Lbhw;)Lckv;
+	METHOD a queueData (Lbhw;Lfo;Lbxj;)V
+		ARG 1 lightType
+	METHOD a enqueueLightUpdate (Lev;)V
+		ARG 1 pos
+	METHOD a (Lev;I)V
+		ARG 1 pos

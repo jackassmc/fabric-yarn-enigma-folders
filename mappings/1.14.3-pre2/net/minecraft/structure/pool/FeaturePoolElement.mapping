@@ -1,0 +1,5 @@
+CLASS cfg net/minecraft/structure/pool/FeaturePoolElement
+	FIELD a feature Lcaf;
+	FIELD b tag Lic;
+	METHOD <init> (Lcaf;)V
+		ARG 1 feature

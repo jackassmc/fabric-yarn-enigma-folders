@@ -1,0 +1,6 @@
+CLASS dsy net/minecraft/client/tutorial/CraftPlanksTutorialStepHandler
+	FIELD a TITLE Ljg;
+	FIELD b DESCRIPTION Ljg;
+	FIELD c manager Ldtd;
+	FIELD d toast Lcss;
+	FIELD e ticks I

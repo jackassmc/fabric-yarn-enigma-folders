@@ -1,0 +1,3 @@
+CLASS bda net/minecraft/item/TridentItem
+	METHOD <init> (Lbbk$a;)V
+		ARG 1 settings

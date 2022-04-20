@@ -1,0 +1,2 @@
+CLASS dbi net/minecraft/client/texture/ImageFilterSkinRemapper
+	METHOD a filterImage (Lclq;)Lclq;

@@ -1,0 +1,5 @@
+CLASS yk net/minecraft/util/ChatUtils
+	FIELD a PATTERN Ljava/util/regex/Pattern;
+	METHOD a stripTextFormat (Ljava/lang/String;)Ljava/lang/String;
+		ARG 0 text
+	METHOD b isEmpty (Ljava/lang/String;)Z

@@ -1,0 +1,7 @@
+CLASS dhz net/minecraft/client/particle/SpellParticle
+	CLASS dhz$a EntityAmbientFactory
+	CLASS dhz$b InstantFactory
+	CLASS dhz$c EntityFactory
+	CLASS dhz$d DefaultFactory
+	CLASS dhz$e WitchFactory
+	FIELD C RANDOM Ljava/util/Random;

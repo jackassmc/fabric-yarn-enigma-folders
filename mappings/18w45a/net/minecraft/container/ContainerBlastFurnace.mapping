@@ -1,0 +1,3 @@
+CLASS aro net/minecraft/container/ContainerBlastFurnace
+	METHOD <init> (Lapu;Lael;)V
+		ARG 1 playerInv

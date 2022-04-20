@@ -1,0 +1,14 @@
+CLASS ano net/minecraft/entity/mob/SkeletonHorseEntity
+	METHOD D getAmbientSound ()Lxr;
+	METHOD a createChild (Lagz;)Lagz;
+	METHOD a interactMob (Larj;Lafw;)Z
+		ARG 1 player
+	METHOD a readCustomDataFromTag (Lhq;)V
+	METHOD aM getMountedHeightOffset ()D
+	METHOD ag getSoundSwim ()Lxr;
+	METHOD b writeCustomDataToTag (Lhq;)V
+	METHOD cH getGroup ()Lahp;
+	METHOD cd initAttributes ()V
+	METHOD cy getDeathSound ()Lxr;
+	METHOD e getHurtSound (Lagl;)Lxr;
+	METHOD k updateMovement ()V

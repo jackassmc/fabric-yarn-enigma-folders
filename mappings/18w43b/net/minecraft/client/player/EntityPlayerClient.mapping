@@ -1,0 +1,71 @@
+CLASS cxc net/minecraft/client/player/EntityPlayerClient
+	FIELD ci stats Lxg;
+	FIELD cj recipeBook Lciz;
+	FIELD cl clientPermissionLevel I
+	FIELD cw serverBrand Ljava/lang/String;
+	FIELD d networkHandler Lcuw;
+	FIELD f game Lcjj;
+	METHOD S_ update ()V
+	METHOD T_ stopRiding ()V
+	METHOD a setClientPermissionLevel (I)V
+		ARG 0 value
+	METHOD a openInventory (Ladu;)V
+		ARG 0 inv
+	METHOD a swingHand (Laea;)V
+		ARG 0 hand
+	METHOD a openContainer (Laeb;)V
+	METHOD a damage (Laeq;F)Z
+		ARG 0 source
+		ARG 1 damage
+	METHOD a copyEntityData (Lafh;)V
+		ARG 0 entity
+	METHOD a startRiding (Lafh;Z)Z
+		ARG 0 entity
+		ARG 1 ignoreRequirements
+	METHOD a move (Lafu;DDD)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD a openHorseInventory (Lalg;Ladu;)V
+	METHOD a spawnEntityItem (Lane;)Lauc;
+		ARG 0 entityItem
+	METHOD a openBookEditor (Lauc;Laea;)V
+	METHOD a openVillagerGui (Layf;)V
+	METHOD a openCommandBlockMinecart (Layj;)V
+	METHOD a openCommandBlock (Lbkj;)V
+	METHOD a openSignEditor (Lbkz;)V
+		ARG 0 sign
+	METHOD a openStructureBlock (Lblc;)V
+	METHOD a appendCommandFeedback (Liw;)V
+		ARG 0 feedback
+	METHOD a addChatMessage (Liw;Z)V
+		ARG 0 message
+	METHOD a onTrackedDataSet (Lpi;)V
+		ARG 0 data
+	METHOD a playSoundAtEntity (Lwv;FF)V
+		ARG 0 sound
+		ARG 1 volume
+		ARG 2 pitch
+	METHOD a dropSelectedItem (Z)Lane;
+	METHOD bb isSneaking ()Z
+	METHOD c heal (F)V
+		ARG 0 amount
+	METHOD c setCurrentHand (Laea;)V
+	METHOD c removePotionEffect (Laez;)Lafa;
+		ARG 0 effect
+	METHOD d damage (Laeq;F)V
+		ARG 0 damageSource
+		ARG 1 damage
+	METHOD f sendChatMessage (Ljava/lang/String;)V
+		ARG 0 message
+	METHOD f setSprinting (Z)V
+		ARG 0 value
+	METHOD g setServerBrand (Ljava/lang/String;)V
+	METHOD k updateMovement ()V
+	METHOD p closeGui ()V
+	METHOD s updateHealth (F)V
+		ARG 0 health
+	METHOD v openRidingInventory ()V
+	METHOD w getServerBrand ()Ljava/lang/String;
+	METHOD x getStats ()Lxg;
+	METHOD z getRecipeBook ()Lciz;

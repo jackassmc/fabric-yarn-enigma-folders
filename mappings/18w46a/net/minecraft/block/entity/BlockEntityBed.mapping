@@ -1,0 +1,2 @@
+CLASS blz net/minecraft/block/entity/BlockEntityBed
+	METHOD aa_ getUpdatePacket ()Lka;

@@ -1,0 +1,2 @@
+CLASS dll net/minecraft/client/render/entity/IllagerBeastEntityRenderer
+	FIELD a TEXTURE Lqd;

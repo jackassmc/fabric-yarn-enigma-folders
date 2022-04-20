@@ -1,0 +1,4 @@
+CLASS dmu net/minecraft/client/render/block/entity/EndPortalBlockEntityRenderer
+	FIELD c SKY_TEX Lqr;
+	FIELD d PORTAL_TEX Lqr;
+	FIELD e RANDOM Ljava/util/Random;

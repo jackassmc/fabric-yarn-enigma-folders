@@ -1,0 +1,3 @@
+CLASS dgf net/minecraft/client/render/entity/CodEntityRenderer
+	METHOD a getTexture (Lagi;)Lpy;
+	METHOD a getTexture (Lalq;)Lpy;

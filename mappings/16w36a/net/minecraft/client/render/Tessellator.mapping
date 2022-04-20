@@ -1,0 +1,6 @@
+CLASS none/bpg net/minecraft/client/render/Tessellator
+	FIELD a buffer Lnone/bom;
+	FIELD c INSTANCE Lnone/bpg;
+	METHOD a getInstance ()Lnone/bpg;
+	METHOD b draw ()V
+	METHOD c getVertexBuffer ()Lnone/bom;

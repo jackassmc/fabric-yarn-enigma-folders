@@ -1,0 +1,2 @@
+CLASS dhx net/minecraft/client/particle/FireSmokeParticle
+	CLASS dhx$a net/minecraft/client/particle/FireSmokeParticle$Factory

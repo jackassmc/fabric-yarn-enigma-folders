@@ -1,0 +1,20 @@
+CLASS cqs net/minecraft/client/gui/ingame/DeathGui
+	CLASS cqs$1
+		METHOD a onPressed (DD)V
+			ARG 0 mouseX
+	CLASS cqs$2
+		METHOD a onPressed (DD)V
+			ARG 0 mouseX
+	FIELD a ticksSinceDeath I
+	FIELD f msg Lja;
+	METHOD a draw (IIF)V
+		ARG 1 mouseX
+		ARG 2 mouseY
+	METHOD aj_ canClose ()Z
+	METHOD c onInitialized ()V
+	METHOD confirmResult handle (ZI)V
+		ARG 1 result
+	METHOD e isPauseScreen ()Z
+	METHOD f update ()V
+	METHOD mouseClicked (DDI)Z
+		ARG 1 mouseX

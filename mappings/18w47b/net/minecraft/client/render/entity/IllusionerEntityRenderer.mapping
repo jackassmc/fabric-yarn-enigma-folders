@@ -1,0 +1,6 @@
+CLASS dgp net/minecraft/client/render/entity/IllusionerEntityRenderer
+	CLASS dgp$1
+		METHOD a render (Lago;FFFFFFF)V
+			ARG 0 entity
+	METHOD a getTexture (Lagf;)Lpy;
+	METHOD a getTexture (Lape;)Lpy;

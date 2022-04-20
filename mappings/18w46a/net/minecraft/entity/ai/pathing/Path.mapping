@@ -1,0 +1,19 @@
+CLASS cfa net/minecraft/entity/ai/pathing/Path
+	FIELD a nodes [Lcey;
+	FIELD e currentNodeIndex I
+	FIELD f pathLength I
+	METHOD a next ()V
+	METHOD a getNode (I)Lcey;
+	METHOD a setNode (ILcey;)V
+		ARG 1 nodeIndex
+	METHOD a getNodePosition (Lagc;)Lcjs;
+	METHOD a getNodePosition (Lagc;I)Lcjs;
+		ARG 1 entity
+	METHOD a equalsPath (Lcfa;)Z
+	METHOD b isFinished ()Z
+	METHOD b setPathLength (I)V
+	METHOD c getEnd ()Lcey;
+	METHOD c setCurrentPosition (I)V
+	METHOD d getPathLength ()I
+	METHOD e getCurrentNodeIndex ()I
+	METHOD f getCurrentPosition ()Lcjs;

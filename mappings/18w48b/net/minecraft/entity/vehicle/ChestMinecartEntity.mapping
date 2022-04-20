@@ -1,0 +1,9 @@
+CLASS arr net/minecraft/entity/vehicle/ChestMinecartEntity
+	METHOD B getDefaultBlockOffset ()I
+	METHOD W_ getInvSize ()I
+	METHOD a dropItems (Lafr;)V
+	METHOD a createContainer (Laqi;Laqj;)Lasb;
+		ARG 1 playerInv
+	METHOD l getContainerId ()Ljava/lang/String;
+	METHOD v getMinecartType ()Larn$a;
+	METHOD z getDefaultContainedBlock ()Lboj;

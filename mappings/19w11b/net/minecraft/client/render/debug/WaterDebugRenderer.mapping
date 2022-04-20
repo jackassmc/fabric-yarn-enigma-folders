@@ -1,0 +1,2 @@
+CLASS dmx net/minecraft/client/render/debug/WaterDebugRenderer
+	FIELD a client Lctp;

@@ -1,0 +1,2 @@
+CLASS io net/minecraft/network/encryption/PacketEncryptor
+	FIELD a manager Lim;

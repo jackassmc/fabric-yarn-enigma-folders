@@ -1,0 +1,2 @@
+CLASS btk net/minecraft/world/gen/feature/DeadBushFeature
+	METHOD a generate (Lban;Lbqc;Ljava/util/Random;Les;Lbuf;)Z

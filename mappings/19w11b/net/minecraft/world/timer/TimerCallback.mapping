@@ -1,0 +1,15 @@
+CLASS cpw net/minecraft/world/timer/TimerCallback
+	CLASS cpw$a Serializer
+		FIELD a id Lqp;
+		FIELD b callbackClass Ljava/lang/Class;
+		METHOD a getId ()Lqp;
+		METHOD a serialize (Lia;Lcpw;)V
+			ARG 1 tag
+			ARG 2 callback
+		METHOD b getCallbackClass ()Ljava/lang/Class;
+		METHOD b deserialize (Lia;)Lcpw;
+			ARG 1 tag
+	METHOD a call (Ljava/lang/Object;Lcpy;J)V
+		ARG 1 server
+		ARG 2 events
+		ARG 3 time

@@ -1,0 +1,5 @@
+CLASS cky net/minecraft/world/loot/function/LootingEnchantLootFunction
+	CLASS cky$b Factory
+		METHOD a deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;[Lclz;)Lcky;
+	FIELD a range Lcjv;
+	FIELD c amount I

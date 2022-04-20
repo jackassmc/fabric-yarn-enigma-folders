@@ -1,0 +1,3 @@
+CLASS dfy net/minecraft/client/render/entity/EntityRendererExplosiveProjectile
+	METHOD a getTexture (Lagc;)Lpx;
+	METHOD a getTexture (Laqf;)Lpx;

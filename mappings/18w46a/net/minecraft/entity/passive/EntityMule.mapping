@@ -1,0 +1,4 @@
+CLASS amj net/minecraft/entity/passive/EntityMule
+	METHOD D getSoundAmbient ()Lxb;
+	METHOD cw getSoundDeath ()Lxb;
+	METHOD e getSoundHurt (Lafl;)Lxb;

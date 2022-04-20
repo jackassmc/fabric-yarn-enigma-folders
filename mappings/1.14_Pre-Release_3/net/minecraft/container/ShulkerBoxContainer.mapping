@@ -1,0 +1,6 @@
+CLASS azi net/minecraft/container/ShulkerBoxContainer
+	FIELD c inventory Lagr;
+	METHOD <init> (ILavt;)V
+		ARG 1 syncId
+	METHOD <init> (ILavt;Lagr;)V
+		ARG 1 syncId

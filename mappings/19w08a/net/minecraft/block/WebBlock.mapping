@@ -1,0 +1,3 @@
+CLASS bop net/minecraft/block/WebBlock
+	METHOD <init> (Lbif$c;)V
+		ARG 1 settings

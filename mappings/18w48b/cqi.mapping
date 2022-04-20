@@ -1,0 +1,3 @@
+CLASS cqi
+	FIELD a game Lcnv;
+	FIELD b fontRenderer Lcoj;

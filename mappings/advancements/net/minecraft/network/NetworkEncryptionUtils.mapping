@@ -1,0 +1,10 @@
+CLASS px net/minecraft/network/NetworkEncryptionUtils
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	METHOD a generateKey ()Ljavax/crypto/SecretKey;
+	METHOD a crypt (ILjava/lang/String;Ljava/security/Key;)Ljavax/crypto/Cipher;
+	METHOD a cipherFromKey (ILjava/security/Key;)Ljavax/crypto/Cipher;
+	METHOD a crypt (ILjava/security/Key;[B)[B
+	METHOD a hash (Ljava/lang/String;[[B)[B
+	METHOD a encrypt (Ljava/security/Key;[B)[B
+	METHOD b generateServerKeyPair ()Ljava/security/KeyPair;
+	METHOD b decrypt (Ljava/security/Key;[B)[B

@@ -1,0 +1,36 @@
+CLASS aqy net/minecraft/entity/vehicle/EntityBoat
+	CLASS aqy$b BoatType
+		FIELD a OAK Laqy$b;
+		FIELD b SPRUCE Laqy$b;
+		FIELD c BIRCH Laqy$b;
+		FIELD d JUNGLE Laqy$b;
+		FIELD e ACACIA Laqy$b;
+		FIELD f DARK_OAK Laqy$b;
+		FIELD g name Ljava/lang/String;
+		METHOD a getName ()Ljava/lang/String;
+		METHOD a getType (I)Laqy$b;
+		METHOD a getType (Ljava/lang/String;)Laqy$b;
+	FIELD d BOAT_TYPE Lpl;
+	METHOD <init> (Lazy;DDD)V
+		ARG 1 world
+		ARG 2 x
+	METHOD S_ update ()V
+	METHOD a setPositionAndRotations (DDDFFIZ)V
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+	METHOD a damage (Lafh;F)Z
+		ARG 1 source
+	METHOD a copyEntityData (Lafy;)V
+	METHOD a setBoatType (Laqy$b;)V
+	METHOD a deserializeCustomData (Lho;)V
+	METHOD aD doesCollide ()Z
+	METHOD aL getMountedHeightOffset ()D
+	METHOD b interact (Lapv;Laer;)Z
+		ARG 1 player
+	METHOD b serializeCustomData (Lho;)V
+	METHOD f asItem ()Lauu;
+	METHOD i pushAwayFrom (Lafy;)V
+	METHOD p getBoatType ()Laqy$b;
+	METHOD q canAddPassenger (Lafy;)Z
+	METHOD y_ initDataTracker ()V

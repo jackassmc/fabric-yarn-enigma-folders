@@ -1,0 +1,8 @@
+CLASS axm net/minecraft/container/GrindstoneContainer
+	FIELD c resultInventory Lagk;
+	FIELD d craftingInventory Lagk;
+	FIELD e context Laxc;
+	METHOD <init> (ILaum;)V
+		ARG 1 syncId
+	METHOD <init> (ILaum;Laxc;)V
+		ARG 1 syncId

@@ -1,0 +1,3 @@
+CLASS clr net/minecraft/world/loot/function/SetCountLootFunction
+	CLASS clr$a Factory
+	METHOD a builder (Lcki;)Lclk$a;

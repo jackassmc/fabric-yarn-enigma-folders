@@ -1,0 +1,19 @@
+CLASS cgo net/minecraft/fluid/BaseFluid
+	FIELD a FALLING Lbrw;
+	FIELD b LEVEL Lbse;
+	FIELD f shapeCache Ljava/util/Map;
+	METHOD a getFlowing (IZ)Lcgq;
+		ARG 1 level
+		ARG 2 still
+	METHOD a (Lbdi;Les;Lbre;)Lcgq;
+		ARG 1 world
+		ARG 2 pos
+		ARG 3 state
+	METHOD a getState (Z)Lcgq;
+		ARG 1 still
+	METHOD c isFluidAboveEqual (Lcgq;Lbcq;Les;)Z
+		ARG 0 state
+		ARG 1 view
+		ARG 2 pos
+	METHOD e getFlowing ()Lcgp;
+	METHOD f getStill ()Lcgp;

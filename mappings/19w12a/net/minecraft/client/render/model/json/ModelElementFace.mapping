@@ -1,0 +1,21 @@
+CLASS dkd net/minecraft/client/render/model/json/ModelElementFace
+	CLASS dkd$a Deserializer
+		METHOD a (Lcom/google/gson/JsonElement;Ljava/lang/reflect/Type;Lcom/google/gson/JsonDeserializationContext;)Ldkd;
+			ARG 1 element
+			ARG 2 type
+			ARG 3 context
+		METHOD a deserializeTintIndex (Lcom/google/gson/JsonObject;)I
+			ARG 1 object
+		METHOD b deserializeTexture (Lcom/google/gson/JsonObject;)Ljava/lang/String;
+			ARG 1 object
+		METHOD c deserializeCullFace (Lcom/google/gson/JsonObject;)Lfa;
+			ARG 1 object
+	FIELD a cullFace Lfa;
+	FIELD b tintIndex I
+	FIELD c textureId Ljava/lang/String;
+	FIELD d textureData Ldkf;
+	METHOD <init> (Lfa;ILjava/lang/String;Ldkf;)V
+		ARG 1 cullFace
+		ARG 2 tintIndex
+		ARG 3 textureId
+		ARG 4 textureData

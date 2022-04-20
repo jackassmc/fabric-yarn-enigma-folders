@@ -1,0 +1,2 @@
+CLASS ayo net/minecraft/item/FoodCropItem
+	FIELD a crop Lbre;

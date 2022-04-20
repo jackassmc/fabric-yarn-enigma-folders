@@ -1,0 +1,9 @@
+CLASS cut net/minecraft/client/render/Tessellator
+	FIELD a buffer Lcuq;
+	FIELD b renderer Lcur;
+	FIELD c INSTANCE Lcut;
+	METHOD <init> (I)V
+		ARG 1 bufferCapacity
+	METHOD a getInstance ()Lcut;
+	METHOD b draw ()V
+	METHOD c getBufferBuilder ()Lcuq;

@@ -1,0 +1,10 @@
+CLASS cps net/minecraft/client/gui/menu/ListEntryRemoteServer
+	FIELD c LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD d PING_THREAD_POOL Ljava/util/concurrent/ThreadPoolExecutor;
+	FIELD e UNKNOWN_SERVER Lpt;
+	FIELD f SERVER_SELECTION Lpt;
+	FIELD g guiMultiplayer Lcpp;
+	FIELD h game Lcjk;
+	FIELD i serverEntry Lcvd;
+	METHOD a drawEntry (IIIIZF)V
+	METHOD a drawIcon (IILpt;)V

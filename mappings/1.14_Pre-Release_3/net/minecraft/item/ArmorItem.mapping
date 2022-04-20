@@ -1,0 +1,17 @@
+CLASS azr net/minecraft/item/ArmorItem
+	FIELD a DISPENSER_BEHAVIOR Lfv;
+	FIELD b slot Laii;
+	FIELD c protection I
+	FIELD d toughness F
+	FIELD e type Lazs;
+	FIELD k MODIFIERS [Ljava/util/UUID;
+	METHOD <init> (Lazs;Laii;Lbbs$a;)V
+		ARG 1 material
+		ARG 2 slot
+		ARG 3 settings
+	METHOD a dispenseArmor (Lew;Lbbx;)Lbbx;
+		ARG 0 block
+		ARG 1 armor
+	METHOD b getSlotType ()Laii;
+	METHOD d getMaterial ()Lazs;
+	METHOD e getProtection ()I

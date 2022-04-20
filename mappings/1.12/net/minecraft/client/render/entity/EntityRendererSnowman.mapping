@@ -1,0 +1,6 @@
+CLASS cas net/minecraft/client/render/entity/EntityRendererSnowman
+	FIELD a SKIN Lnd;
+	METHOD a getTexture (Laag;)Lnd;
+		ARG 0 model
+	METHOD a getTexture (Lve;)Lnd;
+		ARG 0 model

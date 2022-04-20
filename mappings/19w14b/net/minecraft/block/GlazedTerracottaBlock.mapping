@@ -1,0 +1,3 @@
+CLASS boj net/minecraft/block/GlazedTerracottaBlock
+	METHOD <init> (Lbmb$c;)V
+		ARG 1 settings

@@ -1,0 +1,20 @@
+CLASS qe net/minecraft/recipe/InputSlotFiller
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD b recipeFinder Lasa;
+	FIELD c inventory Larx;
+	FIELD d craftingContainer Lava;
+	METHOD a returnInputs ()V
+	METHOD a returnSlot (I)V
+	METHOD a fillInputSlot (Lavh;Laxt;)V
+	METHOD a fillInputSlots (Lbad;Z)V
+		ARG 2 craftAll
+	METHOD a fillInputSlots (Luv;Lbad;Z)V
+		ARG 1 entity
+		ARG 2 recipe
+		ARG 3 craftAll
+	METHOD a getAmountToFill (ZIZ)I
+		ARG 1 craftAll
+		ARG 2 limit
+		ARG 3 recipeInCraftingSlots
+	METHOD b canReturnInputs ()Z
+	METHOD c getFreeInventorySlots ()I

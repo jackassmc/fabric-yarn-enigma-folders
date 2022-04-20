@@ -1,0 +1,7 @@
+CLASS bvd net/minecraft/world/gen/feature/BuriedTreasureFeature
+	CLASS bvd$a Start
+		METHOD <init> (Lbzp;IILbdr;Lccw;IJ)V
+			ARG 2 chunkX
+			ARG 3 chunkZ
+	METHOD <init> (Ljava/util/function/Function;)V
+		ARG 1 configFactory

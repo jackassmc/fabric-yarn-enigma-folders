@@ -1,0 +1,29 @@
+CLASS cye net/minecraft/client/font/FontStorage
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD b EMPTY_GLYPH_RENDERER Lcyi;
+	FIELD c SPACE Lcto;
+	FIELD d RANDOM Ljava/util/Random;
+	FIELD e textureManager Lduo;
+	FIELD f id Lqt;
+	FIELD g blankGlyphRenderer Lcyh;
+	FIELD h fonts Ljava/util/List;
+	FIELD i glyphRendererCache Lit/unimi/dsi/fastutil/chars/Char2ObjectMap;
+	FIELD j glyphCache Lit/unimi/dsi/fastutil/chars/Char2ObjectMap;
+	FIELD k charactersByWidth Lit/unimi/dsi/fastutil/ints/Int2ObjectMap;
+	FIELD l glyphAtlases Ljava/util/List;
+	METHOD <init> (Lduo;Lqt;)V
+		ARG 1 textureManager
+		ARG 2 id
+	METHOD a closeGlyphAtlases ()V
+	METHOD a getGlyph (C)Lcto;
+		ARG 1 c
+	METHOD a getObfuscatedGlyphRenderer (Lcto;)Lcyh;
+		ARG 1 glyph
+	METHOD a getGlyphRenderer (Lctq;)Lcyh;
+		ARG 1 c
+	METHOD a setFonts (Ljava/util/List;)V
+		ARG 1 fonts
+	METHOD b getGlyphRenderer (C)Lcyh;
+		ARG 1 c
+	METHOD c getRenderableGlyph (C)Lctq;
+		ARG 1 c

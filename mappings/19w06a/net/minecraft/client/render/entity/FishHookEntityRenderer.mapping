@@ -1,0 +1,2 @@
+CLASS dkm net/minecraft/client/render/entity/FishHookEntityRenderer
+	FIELD a TEX Lqd;

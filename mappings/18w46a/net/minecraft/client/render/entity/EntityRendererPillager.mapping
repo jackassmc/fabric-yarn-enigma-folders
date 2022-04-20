@@ -1,0 +1,3 @@
+CLASS dhf net/minecraft/client/render/entity/EntityRendererPillager
+	METHOD a getTexture (Lagc;)Lpx;
+	METHOD a getTexture (Laoy;)Lpx;

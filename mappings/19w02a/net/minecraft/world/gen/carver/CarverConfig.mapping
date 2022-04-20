@@ -1,0 +1,2 @@
+CLASS btx net/minecraft/world/gen/carver/CarverConfig
+	FIELD a DEFAULT Lbub;

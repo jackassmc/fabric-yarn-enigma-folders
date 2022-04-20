@@ -1,0 +1,13 @@
+CLASS ar net/minecraft/command/CommandManager
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD b commandMap Ljava/util/Map;
+	FIELD c commandSet Ljava/util/Set;
+	METHOD a getServer ()Lnet/minecraft/server/MinecraftServer;
+	METHOD a registerCommand (Las;)Las;
+	METHOD a getEntityIdentifierIndex (Las;[Ljava/lang/String;)I
+	METHOD a getUsableCommands (Lau;)Ljava/util/List;
+	METHOD a executeCommand (Lau;Ljava/lang/String;)I
+	METHOD a getTabCompletionList (Lau;Ljava/lang/String;Ldx;)Ljava/util/List;
+	METHOD a processCommand (Lau;[Ljava/lang/String;Las;Ljava/lang/String;)Z
+	METHOD a getCommandArgs ([Ljava/lang/String;)[Ljava/lang/String;
+	METHOD b getRegisteredCommands ()Ljava/util/Map;

@@ -1,0 +1,14 @@
+CLASS cpc net/minecraft/world/loot/entry/EntryCombiner
+	FIELD a ALWAYS_FALSE Lcpc;
+	FIELD b ALWAYS_TRUE Lcpc;
+	METHOD a doExpand (Lcos;Ljava/util/function/Consumer;)Z
+	METHOD a and (Lcpc;)Lcpc;
+		ARG 1 other
+	METHOD a (Lcpc;Lcos;Ljava/util/function/Consumer;)Z
+		ARG 2 context
+		ARG 3 lootChoiceExpander
+	METHOD b or (Lcpc;)Lcpc;
+		ARG 1 other
+	METHOD b (Lcpc;Lcos;Ljava/util/function/Consumer;)Z
+		ARG 2 context
+		ARG 3 lootChoiceExpander

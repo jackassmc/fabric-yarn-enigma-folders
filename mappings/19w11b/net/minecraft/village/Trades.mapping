@@ -1,0 +1,9 @@
+CLASS aue net/minecraft/village/Trades
+	CLASS aue$d EnchantBookFactory
+	CLASS aue$f Factory
+		METHOD a create (Lahw;Ljava/util/Random;)Lbfb;
+	CLASS aue$k SellMapFactory
+		FIELD b structure Ljava/lang/String;
+	FIELD a PROFESSION_TO_LEVELED_TRADE Ljava/util/Map;
+	FIELD b WANDERING_TRADER_TRADES Lit/unimi/dsi/fastutil/ints/Int2ObjectMap;
+	METHOD a copyToFastUtilMap (Lcom/google/common/collect/ImmutableMap;)Lit/unimi/dsi/fastutil/ints/Int2ObjectMap;

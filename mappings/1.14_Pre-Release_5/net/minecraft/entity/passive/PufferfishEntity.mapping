@@ -1,0 +1,9 @@
+CLASS arg net/minecraft/entity/passive/PufferfishEntity
+	FIELD b PUFF_STATE Lqh;
+	METHOD a sting (Laip;)V
+		ARG 1 mob
+	METHOD b setPuffState (I)V
+		ARG 1 puffState
+	METHOD dX getPuffState ()I
+	METHOD q getScaleForPuffState (I)F
+		ARG 0 puffState

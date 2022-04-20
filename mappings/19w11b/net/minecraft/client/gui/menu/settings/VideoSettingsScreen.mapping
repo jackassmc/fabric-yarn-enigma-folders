@@ -1,0 +1,7 @@
+CLASS cyl net/minecraft/client/gui/menu/settings/VideoSettingsScreen
+	FIELD a title Ljava/lang/String;
+	FIELD b parent Lcyg;
+	FIELD g settings Lctt;
+	FIELD i MENU_OPTIONS [Lcts;
+	METHOD <init> (Lcyg;Lctt;)V
+		ARG 1 parent

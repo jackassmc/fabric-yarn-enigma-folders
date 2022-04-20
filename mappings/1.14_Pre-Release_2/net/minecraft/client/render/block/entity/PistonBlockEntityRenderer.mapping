@@ -1,0 +1,2 @@
+CLASS dmj net/minecraft/client/render/block/entity/PistonBlockEntityRenderer
+	FIELD c manager Ldkv;

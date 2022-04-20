@@ -1,0 +1,2 @@
+CLASS dhm net/minecraft/client/particle/SweepAttackParticle
+	CLASS dhm$a Factory

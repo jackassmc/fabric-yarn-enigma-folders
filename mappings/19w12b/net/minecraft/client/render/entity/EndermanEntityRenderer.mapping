@@ -1,0 +1,2 @@
+CLASS dnz net/minecraft/client/render/entity/EndermanEntityRenderer
+	FIELD a SKIN Lqq;

@@ -1,0 +1,5 @@
+CLASS atg net/minecraft/item/ItemMushroomStew
+	METHOD a onItemFinishedUsing (Lauv;Lazt;Lage;)Lauv;
+		ARG 1 stack
+		ARG 2 world
+		ARG 3 user

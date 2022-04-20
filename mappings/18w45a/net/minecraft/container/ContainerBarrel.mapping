@@ -1,0 +1,4 @@
+CLASS arm net/minecraft/container/ContainerBarrel
+	METHOD <init> (Lael;Lael;Lapv;)V
+		ARG 1 playerInv
+		ARG 2 inventory

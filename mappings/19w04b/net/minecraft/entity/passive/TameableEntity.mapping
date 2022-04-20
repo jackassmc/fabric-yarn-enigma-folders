@@ -1,0 +1,13 @@
+CLASS ahy net/minecraft/entity/passive/TameableEntity
+	FIELD bC TAMEABLE_FLAGS Lps;
+	FIELD bD OWNER_UUID Lps;
+	METHOD <init> (Lahg;Lbcl;)V
+		ARG 1 type
+	METHOD b setOwnerUuid (Ljava/util/UUID;)V
+	METHOD dC isTamed ()Z
+	METHOD dD onTamedChanged ()V
+	METHOD dE isSitting ()Z
+	METHOD dF getOwner ()Lahl;
+	METHOD g isOwner (Lahl;)Z
+	METHOD r setTamed (Z)V
+	METHOD s setSitting (Z)V

@@ -1,0 +1,13 @@
+CLASS afd net/minecraft/entity/vehicle/EntityChestMinecart
+	METHOD a createContainer (Laea;Laeb;)Lafp;
+		ARG 0 playerInv
+		ARG 1 player
+	METHOD a registerTagUpgraders (Lrw;)V
+		ARG 0 handler
+	METHOD a dropItems (Lup;)V
+		ARG 0 source
+	METHOD l getContainerId ()Ljava/lang/String;
+	METHOD v getMinecartType ()Lafc$a;
+	METHOD w_ getInvSize ()I
+	METHOD x getDefaultContainedBlock ()Lawr;
+	METHOD z getDefaultBlockOffset ()I

@@ -1,0 +1,47 @@
+CLASS bme net/minecraft/block/entity/BlockEntityFurnace
+	FIELD g inventory Lfg;
+	FIELD h burnTime I
+	FIELD i fuelTime I
+	FIELD j cookTime I
+	FIELD k cookTimeTotal I
+	FIELD l customName Liz;
+	FIELD m recipesUsed Ljava/util/Map;
+	METHOD O_ getName ()Liz;
+	METHOD P_ hasCustomName ()Z
+	METHOD Q_ isInvEmpty ()Z
+	METHOD U_ getInvSize ()I
+	METHOD Z_ tick ()V
+	METHOD a getInvStack (I)Lava;
+	METHOD a takeInvStack (II)Lava;
+		ARG 1 slot
+	METHOD a setInvStack (ILava;)V
+		ARG 1 slot
+	METHOD a canInsertInvStack (ILava;Lex;)Z
+		ARG 1 slot
+		ARG 2 stack
+	METHOD a createContainer (Lapu;Lapv;)Lark;
+		ARG 1 playerInv
+	METHOD a canPlayerUseInv (Lapv;)Z
+	METHOD a canUseAsFuel (Lava;)Z
+		ARG 0 stack
+	METHOD a getInvAvailableSlots (Lex;)[I
+	METHOD a serialize (Lho;)Lho;
+	METHOD a setCustomName (Liz;)V
+	METHOD b removeInvStack (I)Lava;
+	METHOD b setInvProperty (II)V
+		ARG 1 pos
+	METHOD b isValidInvStack (ILava;)Z
+		ARG 1 slot
+	METHOD b canExtractInvStack (ILava;Lex;)Z
+		ARG 1 slot
+		ARG 2 stack
+	METHOD b onInvOpen (Lapv;)V
+	METHOD b deserialize (Lho;)V
+	METHOD c getInvProperty (I)I
+	METHOD c onInvClose (Lapv;)V
+	METHOD f getInvMaxStackAmount ()I
+	METHOD h getInvPropertyCount ()I
+	METHOD l getContainerId ()Ljava/lang/String;
+	METHOD m clearInv ()V
+	METHOD r isBurning ()Z
+	METHOD s getRecipeCookTime ()I

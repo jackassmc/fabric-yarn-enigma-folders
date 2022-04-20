@@ -1,0 +1,4 @@
+CLASS blj net/minecraft/block/PotatoesBlock
+	FIELD a AGE_TO_SHAPE [Lcnl;
+	METHOD <init> (Lbhn$c;)V
+		ARG 1 settings

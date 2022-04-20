@@ -1,0 +1,97 @@
+CLASS bgz net/minecraft/util/math/BoundingBox
+	FIELD a minX D
+	FIELD b minY D
+	FIELD c minZ D
+	FIELD d maxX D
+	FIELD e maxY D
+	FIELD f maxZ D
+	METHOD <init> (DDDDDD)V
+		ARG 0 x1
+		ARG 1 y1
+		ARG 2 z1
+		ARG 3 x2
+		ARG 4 y2
+		ARG 5 z2
+	METHOD <init> (Lbhc;Lbhc;)V
+		ARG 0 min
+		ARG 1 max
+	METHOD <init> (Let;)V
+		ARG 0 pos
+	METHOD <init> (Let;Let;)V
+		ARG 0 min
+		ARG 1 max
+	METHOD a averageDimension ()D
+	METHOD a intersects (DDDDDD)Z
+		ARG 0 minX
+		ARG 1 minY
+		ARG 2 minZ
+		ARG 3 maxX
+		ARG 4 maxY
+		ARG 5 maxZ
+	METHOD a intersectX (DLbhc;Lbhc;)Lbhc;
+		ARG 0 x
+		ARG 1 begin
+		ARG 2 end
+	METHOD a xOffsetForCollision (Lbgz;D)D
+		ARG 0 other
+		ARG 1 xOffset
+	METHOD a offset (Lbhc;)Lbgz;
+		ARG 0 offset
+	METHOD a intersects (Lbhc;Lbhc;)Z
+		ARG 0 a
+		ARG 1 b
+	METHOD a nearest (Lbhc;Lbhc;Lbhc;)Z
+		ARG 0 reference
+	METHOD a offset (Let;)Lbgz;
+		ARG 0 pos
+	METHOD b isValid ()Z
+	METHOD b stretch (DDD)Lbgz;
+		ARG 0 x
+		ARG 1 y
+		ARG 2 z
+	METHOD b intersectY (DLbhc;Lbhc;)Lbhc;
+		ARG 0 y
+		ARG 1 begin
+		ARG 2 rend
+	METHOD b union (Lbgz;)Lbgz;
+		ARG 0 other
+	METHOD b yOffsetForCollision (Lbgz;D)D
+		ARG 0 other
+		ARG 1 yOffset
+	METHOD b contains (Lbhc;)Z
+		ARG 0 point
+	METHOD b rayTrace (Lbhc;Lbhc;)Lbha;
+		ARG 0 begin
+		ARG 1 end
+	METHOD c getCenter ()Lbhc;
+	METHOD c expand (DDD)Lbgz;
+		ARG 0 x
+		ARG 1 y
+		ARG 2 z
+	METHOD c intsersectZ (DLbhc;Lbhc;)Lbhc;
+		ARG 0 z
+		ARG 1 begin
+		ARG 2 end
+	METHOD c intersects (Lbgz;)Z
+		ARG 0 box
+	METHOD c zOffsetForCollision (Lbgz;D)D
+		ARG 0 other
+		ARG 1 zOffset
+	METHOD c containsYZ (Lbhc;)Z
+		ARG 0 vec
+	METHOD d offset (DDD)Lbgz;
+		ARG 0 x
+		ARG 1 y
+		ARG 2 z
+	METHOD d containsXZ (Lbhc;)Z
+		ARG 0 vec
+	METHOD e setY (D)Lbgz;
+		ARG 0 y
+	METHOD e containsXY (Lbhc;)Z
+		ARG 0 vec
+	METHOD equals (Ljava/lang/Object;)Z
+		ARG 0 object
+	METHOD g expand (D)Lbgz;
+		ARG 0 value
+	METHOD h contract (D)Lbgz;
+		ARG 0 value

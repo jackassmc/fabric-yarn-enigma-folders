@@ -1,0 +1,38 @@
+CLASS bl net/minecraft/advancement/criterion/TriggerTameAnimal
+	CLASS bl$a Handler
+		FIELD a manager Lqe;
+		FIELD b Conditions Ljava/util/Set;
+		METHOD <init> (Lqe;)V
+			ARG 0 manager
+		METHOD a isEmpty ()Z
+		METHOD a addCondition (Ls$a;)V
+			ARG 0 condition
+		METHOD a handle (Luc;Lakw;)V
+			ARG 0 player
+			ARG 1 entity
+		METHOD b removeCondition (Ls$a;)V
+			ARG 0 condition
+	CLASS bl$b Conditions
+		FIELD a entity Lap;
+		METHOD a matches (Luc;Lakw;)Z
+		METHOD c any ()Lbl$b;
+	FIELD a ID Lpu;
+	FIELD b handlers Ljava/util/Map;
+	METHOD a getId ()Lpu;
+	METHOD a deserializeConditions (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Lt;
+		ARG 1 obj
+		ARG 2 context
+	METHOD a removePlayer (Lqe;)V
+		ARG 1 manager
+	METHOD a addCondition (Lqe;Ls$a;)V
+		ARG 1 manager
+		ARG 2 condition
+	METHOD a handle (Luc;Lakw;)V
+		ARG 1 player
+		ARG 2 entity
+	METHOD b deserializeConditions (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Lbl$b;
+		ARG 1 obj
+		ARG 2 context
+	METHOD b removeCondition (Lqe;Ls$a;)V
+		ARG 1 manager
+		ARG 2 condition

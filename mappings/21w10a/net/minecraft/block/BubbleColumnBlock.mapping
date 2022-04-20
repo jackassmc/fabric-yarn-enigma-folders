@@ -1,0 +1,3 @@
+CLASS net/minecraft/class_2258 net/minecraft/block/BubbleColumnBlock
+	FIELD field_10680 DRAG Lnet/minecraft/class_2746;
+	METHOD method_9658 isStillWater (Lnet/minecraft/class_2680;)Z

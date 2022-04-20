@@ -1,0 +1,2 @@
+CLASS bty net/minecraft/world/gen/feature/DoublePlantFeature
+	METHOD a generate (Lban;Lbqc;Ljava/util/Random;Les;Lbuf;)Z

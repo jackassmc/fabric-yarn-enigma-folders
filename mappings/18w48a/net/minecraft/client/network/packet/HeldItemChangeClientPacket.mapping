@@ -1,0 +1,7 @@
+CLASS ly net/minecraft/client/network/packet/HeldItemChangeClientPacket
+	FIELD a slot I
+	METHOD a read (Liq;)V
+	METHOD a apply (Lit;)V
+	METHOD a apply (Ljr;)V
+	METHOD b getSlot ()I
+	METHOD b write (Liq;)V

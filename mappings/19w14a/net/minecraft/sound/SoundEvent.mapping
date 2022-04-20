@@ -1,0 +1,3 @@
+CLASS yh net/minecraft/sound/SoundEvent
+	FIELD a id Lqr;
+	METHOD a getId ()Lqr;

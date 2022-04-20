@@ -1,0 +1,9 @@
+CLASS asc net/minecraft/entity/ai/goal/SkeletonHorseTrapTriggerGoal
+	FIELD a skeletonHorse Lasb;
+	METHOD <init> (Lasb;)V
+		ARG 1 skeletonHorse
+	METHOD a getHorse (Lahf;)Larw;
+		ARG 1 localDifficulty
+	METHOD a getSkeleton (Lahf;Larw;)Lauy;
+		ARG 1 localDifficulty
+		ARG 2 vehicle

@@ -1,0 +1,6 @@
+CLASS bnp net/minecraft/block/EnchantingTableBlock
+	FIELD a SHAPE Lcsc;
+	METHOD <init> (Lbma$c;)V
+		ARG 1 settings
+	METHOD n (Lbuy;)Z
+		ARG 1 state

@@ -1,0 +1,2 @@
+CLASS dij net/minecraft/client/particle/ExplosionLargeParticle
+	CLASS dij$a Factory

@@ -1,0 +1,3 @@
+CLASS cqe net/minecraft/world/loot/ConditionConsumerBuilder
+	METHOD b withCondition (Lcql$a;)Ljava/lang/Object;
+	METHOD c getThis ()Ljava/lang/Object;

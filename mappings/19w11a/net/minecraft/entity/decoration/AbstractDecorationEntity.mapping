@@ -1,0 +1,13 @@
+CLASS aru net/minecraft/entity/decoration/AbstractDecorationEntity
+	FIELD b PREDICATE Ljava/util/function/Predicate;
+	FIELD c blockPos Leu;
+	FIELD d facing Lez;
+	METHOD <init> (Laia;Lbfy;)V
+		ARG 1 type
+	METHOD <init> (Laia;Lbfy;Leu;)V
+		ARG 1 world
+	METHOD a copyEntityData (Lahw;)V
+	METHOD a setFacing (Lez;)V
+	METHOD k getWidthPixels ()I
+	METHOD l getHeightPixels ()I
+	METHOD n getDecorationBlockPos ()Leu;

@@ -1,0 +1,16 @@
+CLASS dob net/minecraft/client/render/entity/feature/ArmorFeatureRenderer
+	FIELD a SKIN Lqi;
+	FIELD b modelLeggings Ldat;
+	FIELD c modelBody Ldat;
+	FIELD d alpha F
+	FIELD e red F
+	FIELD f green F
+	FIELD g blue F
+	FIELD h ignoreGlint Z
+	FIELD i ARMOR_TEXTURE_CACHE Ljava/util/Map;
+	METHOD a getArmor (Lahr;)Ldat;
+	METHOD a renderArmor (Lahv;FFFFFFFLahr;)V
+	METHOD a getArmorTexture (Lavo;Z)Lqi;
+		ARG 1 armor
+	METHOD a renderEnchantedGlint (Ljava/util/function/Consumer;Lahm;Ldal;FFFFFFF)V
+	METHOD b isLegs (Lahr;)Z

@@ -1,0 +1,17 @@
+CLASS ayi net/minecraft/container/BeaconContainer
+	CLASS ayi$a SlotPayment
+	FIELD c paymentInv Lagz;
+	FIELD d paymentSlot Layi$a;
+	FIELD e context Layp;
+	FIELD f propertyDelegate Layo;
+	METHOD <init> (ILagz;)V
+		ARG 1 syncId
+	METHOD <init> (ILagz;Layo;Layp;)V
+		ARG 1 syncId
+	METHOD c setEffects (II)V
+		ARG 1 primaryEffectId
+		ARG 2 secondaryEffectId
+	METHOD e getProperties ()I
+	METHOD f getPrimaryEffect ()Laid;
+	METHOD g getSecondaryEffect ()Laid;
+	METHOD h hasPayment ()Z

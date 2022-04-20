@@ -1,0 +1,2 @@
+CLASS dsn net/minecraft/client/render/entity/PlayerEntityRenderer
+	METHOD d setModelPose (Ldim;)V

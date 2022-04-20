@@ -1,0 +1,3 @@
+CLASS auq net/minecraft/entity/ai/RangedAttackMob
+	METHOD a attack (Lais;F)V
+		ARG 1 target

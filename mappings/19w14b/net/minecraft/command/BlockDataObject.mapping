@@ -1,0 +1,2 @@
+CLASS tz net/minecraft/command/BlockDataObject
+	FIELD b INVALID_BLOCK_EXCEPTION Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;

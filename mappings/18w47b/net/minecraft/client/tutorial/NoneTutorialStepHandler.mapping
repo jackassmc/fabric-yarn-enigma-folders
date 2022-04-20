@@ -1,0 +1,2 @@
+CLASS doa net/minecraft/client/tutorial/NoneTutorialStepHandler
+	FIELD a manager Ldog;

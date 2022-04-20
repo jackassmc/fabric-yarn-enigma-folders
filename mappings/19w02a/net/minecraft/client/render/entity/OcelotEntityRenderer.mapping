@@ -1,0 +1,2 @@
+CLASS dku net/minecraft/client/render/entity/OcelotEntityRenderer
+	METHOD a getTexture (Lahd;)Lqe;

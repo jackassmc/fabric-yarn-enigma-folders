@@ -1,0 +1,8 @@
+CLASS cvc net/minecraft/client/gui/menu/SettingsScreen
+	FIELD a title Ljava/lang/String;
+	FIELD g parent Lcvj;
+	FIELD h settings Lcrb;
+	FIELD i difficultyButton Lcsa;
+	FIELD s lockDifficultyButton Lcsj;
+	METHOD <init> (Lcvj;Lcrb;)V
+		ARG 1 parent

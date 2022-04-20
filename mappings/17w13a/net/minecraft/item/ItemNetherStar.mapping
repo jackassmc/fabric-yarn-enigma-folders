@@ -1,0 +1,3 @@
+CLASS afr net/minecraft/item/ItemNetherStar
+	METHOD i_ hasEnchantmentGlow (Laes;)Z
+		ARG 0 stack

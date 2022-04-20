@@ -1,0 +1,29 @@
+CLASS apt net/minecraft/entity/mob/SpiderEntity
+	CLASS apt$a
+		METHOD a canStart ()Z
+		METHOD b shouldContinue ()Z
+	CLASS apt$c
+		METHOD a canStart ()Z
+	FIELD a SPIDER_FLAGS Lpn;
+	METHOD <init> (Lagm;Lbaq;)V
+		ARG 1 type
+		ARG 2 world
+	METHOD D getAmbientSound ()Lxf;
+	METHOD U_ update ()V
+	METHOD a (Lbar;Lafa;Lagu;Lahc;Lhp;)Lahc;
+		ARG 3 difficulty
+	METHOD a playStepSound (Let;Lboj;)V
+		ARG 1 pos
+	METHOD a setCanClimb (Z)V
+	METHOD aL getMountedHeightOffset ()D
+	METHOD b createNavigation (Lbaq;)Lakt;
+	METHOD bH getEyeHeight ()F
+	METHOD bj stickInWeb ()V
+	METHOD cb initAttributes ()V
+	METHOD cw getDeathSound ()Lxf;
+	METHOD d isPotionEffective (Lagb;)Z
+	METHOD e getHurtSound (Lafr;)Lxf;
+	METHOD l getCanClimb ()Z
+	METHOD n initAi ()V
+	METHOD x_ initDataTracker ()V
+	METHOD z_ canClimb ()Z

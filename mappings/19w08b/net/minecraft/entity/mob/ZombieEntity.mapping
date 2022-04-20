@@ -1,0 +1,17 @@
+CLASS arg net/minecraft/entity/mob/ZombieEntity
+	CLASS arg$a DestroyEggGoal
+	FIELD bB ARMS_RAISED Lpx;
+	FIELD b BABY_SPEED_ID Ljava/util/UUID;
+	FIELD bz BABY Lpx;
+	FIELD c BABY_SPEED_BONUS Laim;
+	FIELD d SPAWN_REINFORCEMENTS Laik;
+	METHOD <init> (Lahq;Lbdf;)V
+		ARG 1 type
+	METHOD dL hasArmsRaised ()Z
+	METHOD dN getSoundStep ()Lxy;
+	METHOD dO getSkull ()Laxx;
+	METHOD dU isDrowning ()Z
+	METHOD dV canBreakDoors ()Z
+	METHOD r setArmsRaised (Z)V
+	METHOD s setBreakDoors (Z)V
+	METHOD t setChild (Z)V

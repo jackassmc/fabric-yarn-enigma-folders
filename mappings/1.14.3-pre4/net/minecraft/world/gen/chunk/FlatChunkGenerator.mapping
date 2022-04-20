@@ -1,0 +1,9 @@
+CLASS byt net/minecraft/world/gen/chunk/FlatChunkGenerator
+	CLASS a FlatChunkGeneratorBiome
+	FIELD e biome Lbij;
+	FIELD f phantomSpawner Lbzc;
+	FIELD g catSpawner Lavl;
+	METHOD <init> (Lbhn;Lbil;Lcfs;)V
+		ARG 1 world
+		ARG 3 config
+	METHOD g getBiome ()Lbij;

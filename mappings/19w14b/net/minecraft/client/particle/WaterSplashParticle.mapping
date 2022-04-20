@@ -1,0 +1,2 @@
+CLASS dit net/minecraft/client/particle/WaterSplashParticle
+	CLASS dit$a SplashFactory

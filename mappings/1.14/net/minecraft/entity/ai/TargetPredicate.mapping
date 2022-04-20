@@ -1,0 +1,21 @@
+CLASS apz net/minecraft/entity/ai/TargetPredicate
+	FIELD a DEFAULT Lapz;
+	FIELD b baseMaxDistance D
+	FIELD c includeInvulnerable Z
+	FIELD d includeTeammates Z
+	FIELD e includeHidden Z
+	FIELD f ignoreEntityTargetRules Z
+	FIELD g useDistanceScalingFactor Z
+	FIELD h predicate Ljava/util/function/Predicate;
+	METHOD a includeInvulnerable ()Lapz;
+	METHOD a setBaseMaxDistance (D)Lapz;
+		ARG 1 baseMaxDistance
+	METHOD a test (Laio;Laio;)Z
+		ARG 1 baseEntity
+		ARG 2 targetEntity
+	METHOD a setPredicate (Ljava/util/function/Predicate;)Lapz;
+		ARG 1 predicate
+	METHOD b includeTeammates ()Lapz;
+	METHOD c includeHidden ()Lapz;
+	METHOD d ignoreEntityTargetRules ()Lapz;
+	METHOD e ignoreDistanceScalingFactor ()Lapz;

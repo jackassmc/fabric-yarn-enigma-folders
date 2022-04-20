@@ -1,0 +1,38 @@
+CLASS asc net/minecraft/entity/projectile/ProjectileEntity
+	CLASS asc$a PickupType
+		FIELD a NO_PICKUP Lasc$a;
+		FIELD b PICKUP Lasc$a;
+		FIELD c CREATIVE_PICKUP Lasc$a;
+		METHOD a fromOrdinal (I)Lasc$a;
+	FIELD aA life I
+	FIELD aC damage D
+	FIELD aE sound Lxx;
+	FIELD au FLAGS Lpw;
+	FIELD av PIERCE_LEVEL Lpw;
+	FIELD aw xTile I
+	FIELD ax yTile I
+	FIELD ay zTIle I
+	FIELD az inBlockState Lbqz;
+	FIELD c inGround Z
+	FIELD e pickupType Lasc$a;
+	FIELD f shake I
+	FIELD g ownerUuid Ljava/util/UUID;
+	METHOD <init> (Lahp;Lbdb;)V
+		ARG 1 type
+	METHOD a setFlag (IZ)V
+		ARG 1 index
+	METHOD a setOwner (Lahl;)V
+	METHOD a onHit (Lahu;)V
+	METHOD a setSound (Lxx;)V
+	METHOD a setCritical (Z)V
+	METHOD b setFlagByte (B)V
+	METHOD c setDamage (D)V
+	METHOD i getSound ()Lxx;
+	METHOD k getOwner ()Lahl;
+	METHOD l asItemStack ()Laxt;
+	METHOD m getDamage ()D
+	METHOD n setNoClip (Z)V
+	METHOD o setShotFromCrossbow (Z)V
+	METHOD p isShotFromCrossbow ()Z
+	METHOD q getPierceLevel ()B
+	METHOD s isNoClip ()Z

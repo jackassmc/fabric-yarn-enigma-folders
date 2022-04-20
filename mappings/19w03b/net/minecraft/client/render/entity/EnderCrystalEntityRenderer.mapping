@@ -1,0 +1,4 @@
+CLASS djs net/minecraft/client/render/entity/EnderCrystalEntityRenderer
+	METHOD a getTexture (Lahc;)Lqc;
+	METHOD a render (Lahc;DDDFF)V
+	METHOD a getTexture (Lanw;)Lqc;

@@ -1,0 +1,19 @@
+CLASS bb net/minecraft/advancement/criterion/ItemDurabilityChangedCriterion
+	CLASS a Handler
+		FIELD a manager Lrc;
+		FIELD b conditions Ljava/util/Set;
+		METHOD a isEmpty ()Z
+		METHOD a handle (Lbce;I)V
+		METHOD a addCondition (Lx$a;)V
+		METHOD b removeCondition (Lx$a;)V
+	CLASS b Conditions
+		FIELD a item Lbc;
+		FIELD b durability Lbi$d;
+		FIELD c delta Lbi$d;
+		METHOD a create (Lbc;Lbi$d;)Lbb$b;
+		METHOD a matches (Lbce;I)Z
+	FIELD a ID Lqt;
+	FIELD b handlers Ljava/util/Map;
+	METHOD a handle (Lvj;Lbce;I)V
+		ARG 1 player
+		ARG 2 item

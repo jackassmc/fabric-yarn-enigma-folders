@@ -1,0 +1,13 @@
+CLASS cxb net/minecraft/client/gui/hud/SubtitlesHud
+	CLASS cxb$a SubtitleEntry
+		FIELD b text Ljava/lang/String;
+		FIELD c time J
+		FIELD d pos Lcrr;
+		METHOD a getText ()Ljava/lang/String;
+		METHOD a reset (Lcrr;)V
+		METHOD b getTime ()J
+		METHOD c getPosition ()Lcrr;
+	FIELD a client Lcve;
+	FIELD b entries Ljava/util/List;
+	FIELD c enabled Z
+	METHOD a draw ()V

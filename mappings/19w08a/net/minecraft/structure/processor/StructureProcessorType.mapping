@@ -1,0 +1,4 @@
+CLASS cex net/minecraft/structure/processor/StructureProcessorType
+	METHOD a register (Ljava/lang/String;Lcex;)Lcex;
+		ARG 0 id
+		ARG 1 processor

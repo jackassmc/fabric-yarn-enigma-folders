@@ -1,0 +1,3 @@
+CLASS aso net/minecraft/block/BlockPackedIce
+	METHOD a getDropAmount (Ljava/util/Random;)I
+		ARG 0 random

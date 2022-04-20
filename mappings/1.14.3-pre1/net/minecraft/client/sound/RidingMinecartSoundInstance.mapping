@@ -1,0 +1,3 @@
+CLASS dws net/minecraft/client/sound/RidingMinecartSoundInstance
+	FIELD o minecart Laxn;
+	FIELD p distance F

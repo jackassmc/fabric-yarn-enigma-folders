@@ -1,0 +1,13 @@
+CLASS cnw net/minecraft/world/loot/function/CopyNameLootFunction
+	CLASS cnw$a Source
+		FIELD a THIS Lcnw$a;
+		FIELD b KILLER Lcnw$a;
+		FIELD c KILLER_PLAYER Lcnw$a;
+		FIELD d BLOCK_ENTITY Lcnw$a;
+		FIELD e name Ljava/lang/String;
+		FIELD f parameter Lcov;
+		METHOD a get (Ljava/lang/String;)Lcnw$a;
+	CLASS cnw$b Factory
+	FIELD a source Lcnw$a;
+	METHOD a create (Lcnw$a;)Lcoe$a;
+		ARG 0 source

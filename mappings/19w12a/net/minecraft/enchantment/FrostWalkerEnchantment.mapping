@@ -1,0 +1,4 @@
+CLASS beo net/minecraft/enchantment/FrostWalkerEnchantment
+	METHOD <init> (Lbeh$a;[Laid;)V
+		ARG 1 weight
+		ARG 2 slotTypes

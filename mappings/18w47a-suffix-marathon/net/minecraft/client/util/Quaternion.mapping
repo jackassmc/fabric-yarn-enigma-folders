@@ -1,0 +1,2 @@
+CLASS cms net/minecraft/client/util/Quaternion
+	FIELD a components [F

@@ -1,0 +1,2 @@
+CLASS bpf net/minecraft/client/block/ChestAnimationProgress
+	METHOD a getAnimationProgress (F)F

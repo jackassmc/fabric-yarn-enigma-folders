@@ -1,0 +1,31 @@
+CLASS awg net/minecraft/item/ItemTrident
+	METHOD <init> (Lauq$a;)V
+		ARG 1 builder
+	METHOD a getAttributeModifiers (Laga;)Lcom/google/common/collect/Multimap;
+		ARG 1 effectiveSlot
+	METHOD a onEntityDamaged (Lauv;Lage;Lage;)Z
+		ARG 1 stack
+		ARG 2 target
+		ARG 3 user
+	METHOD a onItemStopUsing (Lauv;Lazt;Lage;I)V
+		ARG 1 stack
+		ARG 2 world
+		ARG 3 player
+		ARG 4 remainingTime
+	METHOD a onBlockBroken (Lauv;Lazt;Lbnh;Leq;Lage;)Z
+		ARG 1 stack
+		ARG 2 world
+		ARG 3 state
+		ARG 4 pos
+		ARG 5 user
+	METHOD a onRightClick (Lazt;Lapr;Laeo;)Laer;
+		ARG 1 world
+		ARG 2 player
+		ARG 3 hand
+	METHOD b getMaxUseTime (Lauv;)I
+		ARG 1 stack
+	METHOD c getEnchantability ()I
+	METHOD c getUseAction (Lauv;)Lawh;
+		ARG 1 stack
+	METHOD e_ hasEnchantmentGlow (Lauv;)Z
+		ARG 1 stack

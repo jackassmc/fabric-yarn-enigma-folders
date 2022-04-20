@@ -1,0 +1,4 @@
+CLASS aoi net/minecraft/entity/ai/goal/HoldInHandsGoal
+	FIELD b item Lbca;
+	FIELD c condition Ljava/util/function/Predicate;
+	FIELD d sound Lyj;

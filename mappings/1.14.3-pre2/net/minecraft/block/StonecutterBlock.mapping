@@ -1,0 +1,6 @@
+CLASS bsd net/minecraft/block/StonecutterBlock
+	FIELD a FACING Lbwi;
+	FIELD b SHAPE Lcsu;
+	FIELD c CONTAINER_NAME Ljx;
+	METHOD <init> (Lbmp$c;)V
+		ARG 1 settings

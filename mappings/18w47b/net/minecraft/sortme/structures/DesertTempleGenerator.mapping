@@ -1,0 +1,2 @@
+CLASS cac net/minecraft/sortme/structures/DesertTempleGenerator
+	METHOD a toNbt (Lhp;)V

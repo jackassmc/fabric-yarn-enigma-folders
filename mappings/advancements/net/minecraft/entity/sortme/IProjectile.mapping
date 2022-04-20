@@ -1,0 +1,2 @@
+CLASS adf net/minecraft/entity/sortme/IProjectile
+	METHOD c setVelocity (DDDFF)V

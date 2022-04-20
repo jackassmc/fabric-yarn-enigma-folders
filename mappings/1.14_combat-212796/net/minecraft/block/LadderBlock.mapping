@@ -1,0 +1,13 @@
+CLASS bpq net/minecraft/block/LadderBlock
+	FIELD a FACING Lbwk;
+	FIELD b WATERLOGGED Lbwh;
+	FIELD c EAST_SHAPE Lcsw;
+	FIELD d WEST_SHAPE Lcsw;
+	FIELD e SOUTH_SHAPE Lcsw;
+	FIELD f NORTH_SHAPE Lcsw;
+	METHOD <init> (Lbmr$c;)V
+		ARG 1 settings
+	METHOD a canPlaceOn (Lbgx;Lev;Lfa;)Z
+		ARG 1 world
+		ARG 2 pos
+		ARG 3 side

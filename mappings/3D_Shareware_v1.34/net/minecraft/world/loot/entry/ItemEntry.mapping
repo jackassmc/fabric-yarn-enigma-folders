@@ -1,0 +1,4 @@
+CLASS cop net/minecraft/world/loot/entry/ItemEntry
+	CLASS cop$a Serializer
+	FIELD c item Lbbk;
+	METHOD a builder (Lbgw;)Lcot$a;

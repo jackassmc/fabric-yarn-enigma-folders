@@ -1,0 +1,21 @@
+CLASS apg net/minecraft/entity/mob/EntitySilverfish
+	CLASS apg$a
+		METHOD a canStart ()Z
+		METHOD b shouldContinue ()Z
+		METHOD c start ()V
+	CLASS apg$b
+		METHOD a canStart ()Z
+		METHOD e tick ()V
+	METHOD D getSoundAmbient ()Lxb;
+	METHOD S_ update ()V
+	METHOD a damage (Lafl;F)Z
+		ARG 1 source
+	METHOD a playStepSound (Les;Lbnz;)V
+		ARG 1 pos
+	METHOD aK getHeightOffset ()D
+	METHOD bH getEyeHeight ()F
+	METHOD cb initAttributes ()V
+	METHOD cw getSoundDeath ()Lxb;
+	METHOD e getSoundHurt (Lafl;)Lxb;
+	METHOD k setYaw (F)V
+	METHOD n initAi ()V

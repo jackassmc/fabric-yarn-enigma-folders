@@ -1,0 +1,15 @@
+CLASS ayf net/minecraft/village/IVillager
+	METHOD N_ getCurrentCustomer ()Lapb;
+	METHOD Q getNameComponent ()Liw;
+	METHOD a onSellingItem (Lauc;)V
+		ARG 0 stack
+	METHOD a useRecipe (Layg;)V
+		ARG 0 recipe
+	METHOD a setRecipeList (Layh;)V
+		ARG 0 recipeLIst
+	METHOD a_ setCurrentCustomer (Lapb;)V
+		ARG 0 currentCustomer
+	METHOD b_ getRecipes (Lapb;)Layh;
+		ARG 0 player
+	METHOD c getWorld ()Laza;
+	METHOD d getPos ()Leq;

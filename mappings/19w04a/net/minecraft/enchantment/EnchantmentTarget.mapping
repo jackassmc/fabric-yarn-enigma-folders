@@ -1,0 +1,17 @@
+CLASS bao net/minecraft/enchantment/EnchantmentTarget
+	FIELD a ALL Lbao;
+	FIELD b ARMOR Lbao;
+	FIELD c FEET Lbao;
+	FIELD d LEGS Lbao;
+	FIELD e CHEST Lbao;
+	FIELD f HELM Lbao;
+	FIELD g WEAPON Lbao;
+	FIELD h BREAKER Lbao;
+	FIELD i FISHING Lbao;
+	FIELD j TRIDENT Lbao;
+	FIELD k TOOL Lbao;
+	FIELD l BOW Lbao;
+	FIELD m WEARABLE Lbao;
+	FIELD n CROSSBOW Lbao;
+	METHOD a isAcceptableItem (Lawy;)Z
+		ARG 1 item

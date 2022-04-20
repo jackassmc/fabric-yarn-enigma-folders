@@ -1,0 +1,14 @@
+CLASS cyx net/minecraft/client/gui/widget/KeyBindingListWidget
+	CLASS cyx$a net/minecraft/client/gui/widget/KeyBindingListWidget$CategoryEntry
+		FIELD d name Ljava/lang/String;
+		FIELD e nameWidth I
+	CLASS cyx$b net/minecraft/client/gui/widget/KeyBindingListWidget$Entry
+	CLASS cyx$c net/minecraft/client/gui/widget/KeyBindingListWidget$KeyBindingEntry
+		FIELD d binding Lcto;
+		FIELD e bindingName Ljava/lang/String;
+		FIELD f editButton Lcuu;
+		FIELD g resetButton Lcuu;
+	FIELD t gui Lcyy;
+	FIELD u client Lctq;
+	METHOD <init> (Lcyy;Lctq;)V
+		ARG 1 gui

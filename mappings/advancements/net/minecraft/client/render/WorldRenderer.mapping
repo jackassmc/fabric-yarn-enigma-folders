@@ -1,0 +1,11 @@
+CLASS bsz net/minecraft/client/render/WorldRenderer
+	FIELD a anaglyphEnabled Z
+	FIELD e LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD f RAIN_LOC Lmd;
+	FIELD g SNOW_LOC Lmd;
+	FIELD h game Lbgm;
+	FIELD i resourceContainer Lccv;
+	FIELD j rand Ljava/util/Random;
+	METHOD a onResourceReload (Lccv;)V
+	METHOD a onSetCameraEntity (Lub;)V
+	METHOD e tick ()V

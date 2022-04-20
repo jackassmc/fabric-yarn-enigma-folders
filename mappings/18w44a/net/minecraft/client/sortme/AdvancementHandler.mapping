@@ -1,0 +1,4 @@
+CLASS cwu net/minecraft/client/sortme/AdvancementHandler
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	METHOD a setGui (Lcwu$a;)V
+	METHOD a onAdvancements (Lmr;)V

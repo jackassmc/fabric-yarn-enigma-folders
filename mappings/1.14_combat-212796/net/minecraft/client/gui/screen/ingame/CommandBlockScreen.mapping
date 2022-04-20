@@ -1,0 +1,18 @@
+CLASS dbb net/minecraft/client/gui/screen/ingame/CommandBlockScreen
+	FIELD m blockEntity Lbtx;
+	FIELD n modeButton Lcwv;
+	FIELD o conditionalModeButton Lcwv;
+	FIELD p redstoneTriggerButton Lcwv;
+	FIELD q mode Lbtx$a;
+	FIELD r conditional Z
+	FIELD s autoActivate Z
+	METHOD <init> (Lbtx;)V
+		ARG 1 blockEntity
+	METHOD h updateMode ()V
+	METHOD i cycleType ()V
+	METHOD j updateConditionalMode ()V
+	METHOD k updateActivationMode ()V
+	METHOD resize (Lcvp;II)V
+		ARG 1 client
+		ARG 2 width
+		ARG 3 height

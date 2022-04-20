@@ -1,0 +1,2 @@
+CLASS brq net/minecraft/block/StainedGlassBlock
+	FIELD a color Lbaw;

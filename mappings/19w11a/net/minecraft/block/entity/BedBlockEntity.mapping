@@ -1,0 +1,5 @@
+CLASS brx net/minecraft/block/entity/BedBlockEntity
+	FIELD a color Lazo;
+	METHOD a setColor (Lazo;)V
+		ARG 1 color
+	METHOD c getColor ()Lazo;

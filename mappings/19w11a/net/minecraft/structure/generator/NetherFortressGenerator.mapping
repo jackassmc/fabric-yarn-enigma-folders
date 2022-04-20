@@ -1,0 +1,2 @@
+CLASS cgl net/minecraft/structure/generator/NetherFortressGenerator
+	CLASS cgl$q net/minecraft/structure/generator/NetherFortressGenerator$Start

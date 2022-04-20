@@ -1,0 +1,5 @@
+CLASS dtt net/minecraft/client/tutorial/OpenInventoryTutorialStepHandler
+	FIELD a TITLE Lji;
+	FIELD b DESCRIPTION Lji;
+	FIELD c manager Ldtv;
+	FIELD e ticks I

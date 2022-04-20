@@ -1,0 +1,2 @@
+CLASS avy net/minecraft/item/block/TallBlockItem
+	METHOD a setBlockState (Lavh;Lbqi;)Z

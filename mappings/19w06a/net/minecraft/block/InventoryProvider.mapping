@@ -1,0 +1,2 @@
+CLASS ago net/minecraft/block/InventoryProvider
+	METHOD a getInventory (Lbqs;Lbcv;Let;)Lagn;

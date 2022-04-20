@@ -1,0 +1,21 @@
+CLASS agl net/minecraft/entity/damage/DamageTracker
+	FIELD a recentDamage Ljava/util/List;
+	FIELD b entity Lahm;
+	FIELD c ageOnLastDamage I
+	FIELD d ageOnLastAttacked I
+	FIELD e ageOnLastUpdate I
+	FIELD f recentlyAttacked Z
+	FIELD g hasDamage Z
+	FIELD h fallDeathSuffix Ljava/lang/String;
+	METHOD a setFallDeathSuffix ()V
+	METHOD a getFallDeathSuffix (Lagj;)Ljava/lang/String;
+	METHOD a onDamage (Lagm;FF)V
+		ARG 1 damageSource
+		ARG 2 originalHealth
+	METHOD b getDeathMessage ()Ljd;
+	METHOD c getBiggestAttacker ()Lahm;
+	METHOD f getTimeSinceLastAttack ()I
+	METHOD g update ()V
+	METHOD h getEntity ()Lahm;
+	METHOD j getBiggestFall ()Lagj;
+	METHOD k clearFallDeathSuffix ()V

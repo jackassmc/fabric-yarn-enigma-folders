@@ -1,0 +1,10 @@
+CLASS diw net/minecraft/client/render/entity/ShulkerEntityRenderer
+	CLASS diw$a
+		METHOD a shouldMergeTextures ()Z
+		METHOD a render (Lagt;FFFFFFF)V
+			ARG 0 entity
+		METHOD a render (Lapq;FFFFFFF)V
+			ARG 0 entity
+	FIELD j SKIN [Lpz;
+	METHOD a getTexture (Lagk;)Lpz;
+	METHOD a getTexture (Lapq;)Lpz;

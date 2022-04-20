@@ -1,0 +1,10 @@
+CLASS ant net/minecraft/entity/boss/dragon/phase/ChargingPlayerPhase
+	FIELD b LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD c target Lcmd;
+	METHOD <init> (Lanp;)V
+		ARG 1 dragon
+	METHOD a setTarget (Lcmd;)V
+		ARG 1 target
+	METHOD d beginPhase ()V
+	METHOD g getTarget ()Lcmd;
+	METHOD i getType ()Laof;

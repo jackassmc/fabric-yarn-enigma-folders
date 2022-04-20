@@ -1,0 +1,30 @@
+CLASS bof net/minecraft/block/VineBlock
+	FIELD a UP Lbrr;
+	FIELD b NORTH Lbrr;
+	FIELD c EAST Lbrr;
+	FIELD d SOUTH Lbrr;
+	FIELD e WEST Lbrr;
+	FIELD f FACING_PROPERTIES Ljava/util/Map;
+	FIELD g UP_SHAPE Lcoa;
+	FIELD h WEST_SHAPE Lcoa;
+	FIELD i EAST_SHAPE Lcoa;
+	FIELD j NORTH_SHAPE Lcoa;
+	FIELD k SOUTH_SHAPE Lcoa;
+	METHOD <init> (Lbic$c;)V
+		ARG 1 settings
+	METHOD a shouldConnectTo (Lbcm;Les;Lew;)Z
+		ARG 0 world
+		ARG 1 pos
+		ARG 2 direction
+	METHOD a getFacingProperty (Lew;)Lbrr;
+		ARG 0 direction
+	METHOD f cannotConnectTo (Lbic;)Z
+		ARG 0 block
+	METHOD j hasAdjacentBlocks (Lbqz;)Z
+		ARG 1 state
+	METHOD q getAdjacentBlockCount (Lbqz;)I
+		ARG 1 state
+	METHOD q getPlacementShape (Lbqz;Lbcm;Les;)Lbqz;
+		ARG 1 state
+		ARG 2 world
+		ARG 3 pos

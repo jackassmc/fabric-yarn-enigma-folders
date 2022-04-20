@@ -1,0 +1,8 @@
+CLASS aew net/minecraft/container/ContainerLock
+	FIELD a EMPTY Laew;
+	FIELD b key Ljava/lang/String;
+	METHOD a isEmpty ()Z
+	METHOD a serialize (Lho;)V
+	METHOD b getKey ()Ljava/lang/String;
+	METHOD b deserialize (Lho;)Laew;
+		ARG 0 tag

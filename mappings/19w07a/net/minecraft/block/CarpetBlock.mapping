@@ -1,0 +1,4 @@
+CLASS bot net/minecraft/block/CarpetBlock
+	FIELD a SHAPE Lcoa;
+	FIELD b color Lawq;
+	METHOD d getColor ()Lawq;

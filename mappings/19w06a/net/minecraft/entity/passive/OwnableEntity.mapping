@@ -1,0 +1,3 @@
+CLASS ahx net/minecraft/entity/passive/OwnableEntity
+	METHOD A_ getOwner ()Lahi;
+	METHOD z_ getOwnerUuid ()Ljava/util/UUID;

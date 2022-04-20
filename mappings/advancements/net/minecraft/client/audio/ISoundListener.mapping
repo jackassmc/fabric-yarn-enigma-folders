@@ -1,0 +1,2 @@
+CLASS cfo net/minecraft/client/audio/ISoundListener
+	METHOD a onSoundPlayed (Lcez;Lcfr;)V

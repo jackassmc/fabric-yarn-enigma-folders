@@ -1,0 +1,11 @@
+CLASS bps net/minecraft/block/FluidFillable
+	METHOD a canFillWithFluid (Lbgs;Lev;Lbvk;Lcla;)Z
+		ARG 1 view
+		ARG 2 pos
+		ARG 3 state
+		ARG 4 fluid
+	METHOD a tryFillWithFluid (Lbhj;Lev;Lbvk;Lclb;)Z
+		ARG 1 world
+		ARG 2 pos
+		ARG 3 state
+		ARG 4 fluidState

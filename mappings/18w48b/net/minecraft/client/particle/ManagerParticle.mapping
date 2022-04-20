@@ -1,0 +1,15 @@
+CLASS dar net/minecraft/client/particle/ManagerParticle
+	FIELD a world Lbaq;
+	FIELD b PARTICLE_TEX Lpy;
+	FIELD c particleQueues [[Ljava/util/ArrayDeque;
+	FIELD e textureManager Ldln;
+	FIELD f random Ljava/util/Random;
+	FIELD h newParticles Ljava/util/Queue;
+	METHOD <init> (Lbaq;Ldln;)V
+		ARG 1 world
+	METHOD a tick ()V
+	METHOD a setWorld (Lbaq;)V
+	METHOD a addParticle (Ldaq;)V
+	METHOD a updateParticleQueue (Ljava/util/Queue;)V
+	METHOD b updateParticle (Ldaq;)V
+	METHOD c registerDefaultFactories ()V

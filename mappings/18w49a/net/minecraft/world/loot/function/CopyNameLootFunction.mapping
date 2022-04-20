@@ -1,0 +1,16 @@
+CLASS cir net/minecraft/world/loot/function/CopyNameLootFunction
+	CLASS cir$a Source
+		FIELD a THIS Lcir$a;
+		FIELD b KILLER Lcir$a;
+		FIELD c KILLER_PLAYER Lcir$a;
+		FIELD d BLOCK_ENTITY Lcir$a;
+	CLASS cir$b Factory
+		METHOD a toJson (Lcom/google/gson/JsonObject;Lciz;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD a toJson (Lcom/google/gson/JsonObject;Lcja;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD b fromJson (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;[Lckd;)Lciz;
+	FIELD a source Lcir$a;
+	METHOD a getRequiredParameters ()Ljava/util/Set;
+	METHOD a process (Lavu;Lchr;)Lavu;
+		ARG 1 stack
+	METHOD a create (Lcir$a;)Lciz$a;
+		ARG 0 source

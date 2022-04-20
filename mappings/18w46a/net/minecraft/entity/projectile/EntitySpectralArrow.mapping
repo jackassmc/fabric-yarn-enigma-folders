@@ -1,0 +1,7 @@
+CLASS aqs net/minecraft/entity/projectile/EntitySpectralArrow
+	FIELD au duration I
+	METHOD S_ update ()V
+	METHOD a onHit (Lagl;)V
+	METHOD a deserializeCustomData (Lho;)V
+	METHOD b serializeCustomData (Lho;)V
+	METHOD l asItemStack ()Lavf;

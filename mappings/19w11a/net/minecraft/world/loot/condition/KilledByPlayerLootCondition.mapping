@@ -1,0 +1,3 @@
+CLASS cpn net/minecraft/world/loot/condition/KilledByPlayerLootCondition
+	CLASS cpn$a net/minecraft/world/loot/condition/KilledByPlayerLootCondition$Factory
+	FIELD a INSTANCE Lcpn;

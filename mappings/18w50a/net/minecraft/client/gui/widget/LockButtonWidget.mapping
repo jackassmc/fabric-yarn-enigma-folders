@@ -1,0 +1,25 @@
+CLASS cqt net/minecraft/client/gui/widget/LockButtonWidget
+	CLASS cqt$a IconLocation
+		FIELD a LOCKED Lcqt$a;
+		FIELD b LOCKED_HOVERED Lcqt$a;
+		FIELD c LOCKED_DISABLED Lcqt$a;
+		FIELD d UNLOCKED Lcqt$a;
+		FIELD e UNLOCKED_HOVERED Lcqt$a;
+		FIELD f UNLOCKED_DISABLED Lcqt$a;
+		FIELD g u I
+		FIELD h v I
+		METHOD <init> (Ljava/lang/String;III)V
+			ARG 1 v
+		METHOD a getU ()I
+		METHOD b getV ()I
+	FIELD o locked Z
+	METHOD <init> (III)V
+		ARG 1 id
+		ARG 2 x
+		ARG 3 y
+	METHOD a draw (IIF)V
+		ARG 1 mouseX
+		ARG 2 mouseY
+		ARG 3 delta
+	METHOD c isLocked ()Z
+	METHOD c setLocked (Z)V

@@ -1,0 +1,45 @@
+CLASS lj net/minecraft/client/network/packet/EntityClientPacket
+	CLASS lj$a MoveRelative
+		METHOD a read (Lit;)V
+			ARG 1 buf
+		METHOD a apply (Liw;)V
+			ARG 1 listener
+		METHOD b write (Lit;)V
+			ARG 1 buf
+	CLASS lj$b RotateAndMoveRelative
+		METHOD a read (Lit;)V
+			ARG 1 buf
+		METHOD a apply (Liw;)V
+			ARG 1 listener
+		METHOD b write (Lit;)V
+			ARG 1 buf
+	CLASS lj$c Rotate
+		METHOD a read (Lit;)V
+			ARG 1 buf
+		METHOD a apply (Liw;)V
+			ARG 1 listener
+		METHOD b write (Lit;)V
+			ARG 1 buf
+	FIELD a id I
+	FIELD b deltaX I
+	FIELD c deltaY I
+	FIELD d deltaZ I
+	FIELD e yaw B
+	FIELD f pitch B
+	FIELD g onGround Z
+	FIELD h rotate Z
+	METHOD a getEntity (Lbcf;)Lahd;
+	METHOD a read (Lit;)V
+		ARG 1 buf
+	METHOD a apply (Liw;)V
+		ARG 1 listener
+	METHOD a apply (Lju;)V
+	METHOD b getDeltaXShort ()I
+	METHOD b write (Lit;)V
+		ARG 1 buf
+	METHOD c getDeltaYShort ()I
+	METHOD d getDeltaZShort ()I
+	METHOD e getYaw ()B
+	METHOD f getPitch ()B
+	METHOD g hasRotation ()Z
+	METHOD h isOnGround ()Z

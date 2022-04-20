@@ -1,0 +1,3 @@
+CLASS clt net/minecraft/world/loot/ConditionConsumerBuilder
+	METHOD b withCondition (Lcma$a;)Ljava/lang/Object;
+	METHOD c getThis ()Ljava/lang/Object;

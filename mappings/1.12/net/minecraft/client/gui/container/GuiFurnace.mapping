@@ -1,0 +1,18 @@
+CLASS bms net/minecraft/client/gui/container/GuiFurnace
+	FIELD v BG_TEX Lnd;
+	FIELD w playerInv Laea;
+	FIELD x inventory Ltt;
+	METHOD <init> (Laea;Ltt;)V
+		ARG 0 playerInv
+		ARG 1 inventory
+	METHOD a drawBackground (FII)V
+		ARG 0 delta
+		ARG 1 mouseX
+		ARG 2 mouseY
+	METHOD a draw (IIF)V
+		ARG 0 mouseX
+		ARG 1 mouseY
+		ARG 2 delta
+	METHOD c drawForeground (II)V
+		ARG 0 mouseX
+		ARG 1 mouseY

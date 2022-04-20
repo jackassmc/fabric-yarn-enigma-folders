@@ -1,0 +1,12 @@
+CLASS fz net/minecraft/particle/ParticleParameters
+	CLASS fz$a Factory
+		METHOD b read (Lga;Lcom/mojang/brigadier/StringReader;)Lfz;
+			ARG 1 type
+			ARG 2 reader
+		METHOD b read (Lga;Liy;)Lfz;
+			ARG 1 type
+			ARG 2 buf
+	METHOD a asString ()Ljava/lang/String;
+	METHOD a write (Liy;)V
+		ARG 1 buf
+	METHOD b getType ()Lga;

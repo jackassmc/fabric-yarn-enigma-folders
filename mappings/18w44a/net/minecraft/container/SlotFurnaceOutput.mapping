@@ -1,0 +1,20 @@
+CLASS arv net/minecraft/container/SlotFurnaceOutput
+	FIELD a player Lapr;
+	METHOD <init> (Lapr;Laei;III)V
+		ARG 1 player
+		ARG 2 inventory
+		ARG 3 invSlot
+		ARG 4 x
+		ARG 5 y
+	METHOD a takeStack (I)Lauv;
+		ARG 1 amount
+	METHOD a onTakeItem (Lapr;Lauv;)Lauv;
+		ARG 1 player
+		ARG 2 stack
+	METHOD a canInsert (Lauv;)Z
+		ARG 1 stack
+	METHOD a onCrafted (Lauv;I)V
+		ARG 1 stack
+		ARG 2 amount
+	METHOD c onCrafted (Lauv;)V
+		ARG 1 stack

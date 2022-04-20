@@ -1,0 +1,2 @@
+CLASS bpl net/minecraft/client/particle/ParticleRainSplash
+	METHOD a update ()V

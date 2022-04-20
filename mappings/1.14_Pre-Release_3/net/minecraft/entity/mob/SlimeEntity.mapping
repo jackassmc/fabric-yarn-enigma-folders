@@ -1,0 +1,31 @@
+CLASS aur net/minecraft/entity/mob/SlimeEntity
+	CLASS aur$d SlimeMoveControl
+		FIELD i targetYaw F
+		FIELD j ticksUntilJump I
+		FIELD k slime Laur;
+		FIELD l jumpOften Z
+		METHOD a move (D)V
+			ARG 1 speed
+		METHOD a look (FZ)V
+			ARG 1 targetYaw
+			ARG 2 jumpOften
+	FIELD b targetStretch F
+	FIELD by SLIME_SIZE Lqh;
+	FIELD bz onGroundLastTick Z
+	FIELD c stretch F
+	FIELD d lastStretch F
+	METHOD a setSize (IZ)V
+		ARG 1 size
+		ARG 2 heal
+	METHOD dR getTicksUntilNextJump ()I
+	METHOD dS updateStretch ()V
+	METHOD dT isBig ()Z
+	METHOD dU getDamageAmount ()I
+	METHOD dV getSquishSound ()Lyi;
+	METHOD dW getJumpSound ()Lyi;
+	METHOD dX getSize ()I
+	METHOD dY isSmall ()Z
+	METHOD dZ makesJumpSound ()Z
+	METHOD h damage (Laim;)V
+		ARG 1 target
+	METHOD l getParticles ()Lgd;

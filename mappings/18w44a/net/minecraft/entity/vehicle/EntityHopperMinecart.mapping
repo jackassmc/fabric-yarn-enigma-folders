@@ -1,0 +1,38 @@
+CLASS aqz net/minecraft/entity/vehicle/EntityHopperMinecart
+	FIELD d enabled Z
+	FIELD e transferCooldown I
+	FIELD f currentBlockPos Leq;
+	METHOD B getDefaultBlockOffset ()I
+	METHOD D isEnabled ()Z
+	METHOD F getWorld ()Lazt;
+	METHOD G getHopperX ()D
+	METHOD H getHopperY ()D
+	METHOD I getHopperZ ()D
+	METHOD J updateLogic ()Z
+	METHOD K isCoolingDown ()Z
+	METHOD S_ update ()V
+	METHOD U_ getInvSize ()I
+	METHOD a onActivatorRail (IIIZ)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 powered
+	METHOD a dropItems (Lafe;)V
+		ARG 1 source
+	METHOD a createContainer (Lapq;Lapr;)Larg;
+		ARG 1 playerInv
+		ARG 2 player
+	METHOD a deserializeCustomData (Lhm;)V
+		ARG 1 tag
+	METHOD b interact (Lapr;Laeo;)Z
+		ARG 1 player
+		ARG 2 hand
+	METHOD b serializeCustomData (Lhm;)V
+		ARG 1 tag
+	METHOD l getContainerId ()Ljava/lang/String;
+	METHOD m setTransferCooldown (I)V
+		ARG 1 value
+	METHOD o setEnabled (Z)V
+		ARG 1 value
+	METHOD v getMinecartType ()Laqs$a;
+	METHOD z getDefaultContainedBlock ()Lbnh;

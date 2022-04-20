@@ -1,0 +1,4 @@
+CLASS bfs net/minecraft/enchantment/KnockbackEnchantment
+	METHOD <init> (Lbfk$a;[Laio;)V
+		ARG 1 weight
+		ARG 2 slot

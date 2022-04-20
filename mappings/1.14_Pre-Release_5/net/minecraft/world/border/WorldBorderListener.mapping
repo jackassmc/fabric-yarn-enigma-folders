@@ -1,0 +1,22 @@
+CLASS bwt net/minecraft/world/border/WorldBorderListener
+	CLASS bwt$a WorldBorderSyncer
+		FIELD a border Lbwv;
+		METHOD <init> (Lbwv;)V
+			ARG 1 border
+	METHOD a onSizeChange (Lbwv;D)V
+	METHOD a onCenterChanged (Lbwv;DD)V
+		ARG 1 centerX
+		ARG 2 centerZ
+	METHOD a onInterpolateSize (Lbwv;DDJ)V
+		ARG 1 border
+		ARG 2 fromSize
+		ARG 4 toSize
+		ARG 6 time
+	METHOD a onWarningTimeChanged (Lbwv;I)V
+		ARG 1 warningTime
+	METHOD b onDamagePerBlockChanged (Lbwv;D)V
+		ARG 1 damagePerBlock
+	METHOD b onWarningBlocksChanged (Lbwv;I)V
+		ARG 1 warningBlocks
+	METHOD c onSafeZoneChanged (Lbwv;D)V
+		ARG 1 safeZoneRadius

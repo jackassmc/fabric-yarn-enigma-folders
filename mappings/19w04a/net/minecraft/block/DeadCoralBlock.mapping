@@ -1,0 +1,4 @@
+CLASS bhc net/minecraft/block/DeadCoralBlock
+	FIELD a SHAPE Lcnl;
+	METHOD <init> (Lbhn$c;)V
+		ARG 1 settings

@@ -1,0 +1,3 @@
+CLASS aww net/minecraft/item/ElytraItem
+	METHOD e isUsable (Laxw;)Z
+		ARG 0 stack

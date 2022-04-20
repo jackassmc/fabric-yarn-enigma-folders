@@ -1,0 +1,4 @@
+CLASS dkb net/minecraft/client/render/entity/ParrotEntityRenderer
+	FIELD a TEXTURES [Lqc;
+	METHOD a getTexture (Lagv;)Lqc;
+	METHOD a getTexture (Laml;)Lqc;

@@ -1,0 +1,25 @@
+CLASS aqh net/minecraft/entity/vehicle/EntityCommandBlockMinecart
+	CLASS aqh$a
+		METHOD f getPos ()Lchc;
+		METHOD h getServer ()Lbx;
+	FIELD a COMMAND Lpi;
+	FIELD b LAST_OUTPUT Lpi;
+	FIELD c commandExecutor Layj;
+	METHOD a onActivatorRail (IIIZ)V
+		ARG 0 x
+		ARG 1 y
+		ARG 2 z
+		ARG 3 powered
+	METHOD a deserializeCustomData (Lhl;)V
+		ARG 0 tag
+	METHOD a onTrackedDataSet (Lpi;)V
+		ARG 0 data
+	METHOD b interact (Lapb;Laea;)Z
+		ARG 0 player
+		ARG 1 hand
+	METHOD b serializeCustomData (Lhl;)V
+		ARG 0 tag
+	METHOD f getCommandExecutor ()Layj;
+	METHOD v getMinecartType ()Laqc$a;
+	METHOD y_ initDataTracker ()V
+	METHOD z getDefaultContainedBlock ()Lblz;

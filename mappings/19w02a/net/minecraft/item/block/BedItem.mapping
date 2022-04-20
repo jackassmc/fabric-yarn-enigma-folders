@@ -1,0 +1,2 @@
+CLASS avg net/minecraft/item/block/BedItem
+	METHOD a setBlockState (Lavi;Lbqe;)Z

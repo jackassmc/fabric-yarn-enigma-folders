@@ -1,0 +1,19 @@
+CLASS djd net/minecraft/client/audio/ISoundEvent
+	CLASS djd$a AttenuationType
+		FIELD a NONE Ldjd$a;
+		FIELD b LINEAR Ldjd$a;
+		FIELD c TYPE I
+		METHOD a getType ()I
+	METHOD a getId ()Lpt;
+	METHOD a getAccess (Ldkc;)Ldke;
+		ARG 0 loader
+	METHOD b getSound ()Ldja;
+	METHOD c getCategory ()Lwx;
+	METHOD d isRepeatable ()Z
+	METHOD e getRepeatDelay ()I
+	METHOD f getVolume ()F
+	METHOD g getPitch ()F
+	METHOD h getX ()F
+	METHOD i getY ()F
+	METHOD j getZ ()F
+	METHOD k getAttenuationType ()Ldjd$a;

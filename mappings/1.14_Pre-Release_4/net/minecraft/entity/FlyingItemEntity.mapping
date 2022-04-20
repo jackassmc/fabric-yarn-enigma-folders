@@ -1,0 +1,2 @@
+CLASS awi net/minecraft/entity/FlyingItemEntity
+	METHOD f getStack ()Lbbz;

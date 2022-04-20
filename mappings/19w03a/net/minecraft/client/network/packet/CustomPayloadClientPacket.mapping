@@ -1,0 +1,20 @@
+CLASS kr net/minecraft/client/network/packet/CustomPayloadClientPacket
+	FIELD a BRAND Lqc;
+	FIELD b DEBUG_PATH Lqc;
+	FIELD c DEBUG_NEIGHBORS_UPDATE Lqc;
+	FIELD d DEBUG_CAVES Lqc;
+	FIELD e DEBUG_STRUCTURES Lqc;
+	FIELD f DEBUG_WORLDGEN_ATTEMPT Lqc;
+	FIELD g channel Lqc;
+	FIELD h data Lir;
+	METHOD <init> (Lqc;Lir;)V
+		ARG 1 channel
+	METHOD a read (Lir;)V
+		ARG 1 buf
+	METHOD a apply (Liu;)V
+		ARG 1 listener
+	METHOD a apply (Ljs;)V
+	METHOD b getChannel ()Lqc;
+	METHOD b write (Lir;)V
+		ARG 1 buf
+	METHOD c getData ()Lir;

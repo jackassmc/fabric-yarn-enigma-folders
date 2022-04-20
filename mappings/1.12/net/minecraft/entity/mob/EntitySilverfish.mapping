@@ -1,0 +1,28 @@
+CLASS adh net/minecraft/entity/mob/EntitySilverfish
+	CLASS adh$a
+		METHOD a canStart ()Z
+		METHOD b shouldContinue ()Z
+		METHOD c start ()V
+	CLASS adh$b
+		METHOD a canStart ()Z
+		METHOD e tick ()V
+	METHOD B_ update ()V
+	METHOD F getSoundAmbient ()Lqc;
+	METHOD J getLootTableId ()Lnd;
+	METHOD P canSpawn ()Z
+	METHOD a playStepSound (Let;Laou;)V
+		ARG 0 pos
+		ARG 1 block
+	METHOD a registerTagUpgraders (Lrw;)V
+		ARG 0 handler
+	METHOD a damage (Lup;F)Z
+		ARG 0 source
+		ARG 1 damage
+	METHOD aF getHeightOffset ()D
+	METHOD bM initAttributes ()V
+	METHOD by getEyeHeight ()F
+	METHOD cf getSoundDeath ()Lqc;
+	METHOD cn getEntityAttribute ()Lvs;
+	METHOD d getSoundHurt (Lup;)Lqc;
+	METHOD h setYaw (F)V
+	METHOD r initAi ()V

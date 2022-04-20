@@ -1,0 +1,17 @@
+CLASS bkp net/minecraft/sound/BlockSoundGroup
+	FIELD a WOOD Lbkp;
+	FIELD d STONE Lbkp;
+	FIELD r volume F
+	FIELD s pitch F
+	FIELD t breakSound Lxc;
+	FIELD u stepSound Lxc;
+	FIELD v placeSound Lxc;
+	FIELD w hitSound Lxc;
+	FIELD x fallSound Lxc;
+	METHOD a getVolume ()F
+	METHOD b getPitch ()F
+	METHOD c getBreakSound ()Lxc;
+	METHOD d getStepSound ()Lxc;
+	METHOD e getPlaceSound ()Lxc;
+	METHOD f getHitSound ()Lxc;
+	METHOD g getFallSound ()Lxc;

@@ -1,0 +1,10 @@
+CLASS vx net/minecraft/entity/ai/passive/AiGoalFollowOwner
+	FIELD a world Lali;
+	FIELD c minDistance F
+	FIELD d caller Luw;
+	FIELD e owner Luk;
+	METHOD a canStart ()Z
+	METHOD b shouldContinue ()Z
+	METHOD c start ()V
+	METHOD d onRemove ()V
+	METHOD e tick ()V

@@ -1,0 +1,2 @@
+CLASS bvi net/minecraft/world/gen/feature/OceanMonumentFeature
+	METHOD b getName ()Ljava/lang/String;

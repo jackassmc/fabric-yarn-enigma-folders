@@ -1,0 +1,28 @@
+CLASS arg net/minecraft/village/VillagerTrades
+	CLASS arg$a BuyItemFactory
+		FIELD a bought Laxd;
+		FIELD b range Larg$g;
+	CLASS arg$b EnchantBookFactory
+	CLASS arg$c SellEnchantedToolFactory
+		FIELD a sold Laxi;
+		FIELD b range Larg$g;
+	CLASS arg$d ProcessBoughtFactory
+		FIELD a bought Laxi;
+		FIELD b boughtRange Larg$g;
+		FIELD c result Laxi;
+		FIELD d resultRange Larg$g;
+	CLASS arg$e BuyOrSellOnPriceFactory
+		FIELD a item Laxi;
+		FIELD b range Larg$g;
+	CLASS arg$f Factory
+		METHOD a create (Lbbt;Ljava/util/Random;)Lbbu;
+	CLASS arg$g PriceRange
+		FIELD a lower I
+		FIELD b range I
+		METHOD a getPrice (Ljava/util/Random;)I
+	CLASS arg$h SellMapFactory
+		FIELD a range Larg$g;
+		FIELD b structure Ljava/lang/String;
+	FIELD a PROFESSION_TO_LEVELED_TRADE Ljava/util/Map;
+	FIELD c LOGGER Lorg/apache/logging/log4j/Logger;
+	METHOD a copyToFastUtilMap (Lcom/google/common/collect/ImmutableMap;)Lit/unimi/dsi/fastutil/ints/Int2ObjectMap;

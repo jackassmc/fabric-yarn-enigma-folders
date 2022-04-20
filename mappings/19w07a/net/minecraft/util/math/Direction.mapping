@@ -1,0 +1,97 @@
+CLASS ew net/minecraft/util/math/Direction
+	CLASS ew$a Axis
+		FIELD a X Lew$a;
+		FIELD b Y Lew$a;
+		FIELD c Z Lew$a;
+		FIELD d BY_NAME Ljava/util/Map;
+		FIELD e name Ljava/lang/String;
+		METHOD a getName ()Ljava/lang/String;
+		METHOD a choose (DDD)D
+			ARG 1 x
+			ARG 3 y
+			ARG 5 z
+		METHOD a choose (III)I
+		METHOD a contains (Lew;)Z
+		METHOD a fromName (Ljava/lang/String;)Lew$a;
+			ARG 0 name
+		METHOD a (Ljava/util/Random;)Lew$a;
+			ARG 0 random
+		METHOD b isVertical ()Z
+		METHOD c isHorizontal ()Z
+	CLASS ew$b AxisDirection
+		FIELD a POSITIVE Lew$b;
+		FIELD b NEGATIVE Lew$b;
+		FIELD c offset I
+		FIELD d desc Ljava/lang/String;
+		METHOD a offset ()I
+	CLASS ew$c Type
+		FIELD a HORIZONTAL Lew$c;
+		FIELD b VERTICAL Lew$c;
+		FIELD c facingArray [Lew;
+		FIELD d axisArray [Lew$a;
+		METHOD a contains (Lew;)Z
+		METHOD a random (Ljava/util/Random;)Lew;
+	FIELD a DOWN Lew;
+	FIELD b UP Lew;
+	FIELD c NORTH Lew;
+	FIELD d SOUTH Lew;
+	FIELD e WEST Lew;
+	FIELD f EAST Lew;
+	FIELD g id I
+	FIELD h idOpposite I
+	FIELD i idHorizontal I
+	FIELD j name Ljava/lang/String;
+	FIELD k axis Lew$a;
+	FIELD l direction Lew$b;
+	FIELD m vector Lfk;
+	FIELD n ALL [Lew;
+	FIELD o NAME_MAP Ljava/util/Map;
+	FIELD p ID_TO_DIRECTION [Lew;
+	FIELD q HORIZONTAL [Lew;
+	METHOD <init> (Ljava/lang/String;IIIILjava/lang/String;Lew$b;Lew$a;Lfk;)V
+		ARG 3 id
+		ARG 4 idOpposite
+		ARG 5 idHorizontal
+		ARG 6 name
+		ARG 7 direction
+		ARG 8 axis
+	METHOD a getId ()I
+	METHOD a fromRotation (D)Lew;
+		ARG 0 rotation
+	METHOD a getFacing (DDD)Lew;
+		ARG 0 x
+	METHOD a getFacing (FFF)Lew;
+		ARG 0 x
+		ARG 1 y
+		ARG 2 z
+	METHOD a byId (I)Lew;
+		ARG 0 id
+	METHOD a getEntityFacingOrder (Lahl;)[Lew;
+		ARG 0 entity
+	METHOD a rotateClockwise (Lew$a;)Lew;
+	METHOD a from (Lew$a;Lew$b;)Lew;
+		ARG 0 axis
+		ARG 1 direction
+	METHOD a get (Lew$b;Lew$a;)Lew;
+		ARG 0 direction
+		ARG 1 axis
+	METHOD a byName (Ljava/lang/String;)Lew;
+		ARG 0 name
+	METHOD a random (Ljava/util/Random;)Lew;
+		ARG 0 random
+	METHOD b getHorizontal ()I
+	METHOD b fromHorizontal (I)Lew;
+		ARG 0 value
+	METHOD c getDirection ()Lew$b;
+	METHOD d getOpposite ()Lew;
+	METHOD e rotateYClockwise ()Lew;
+	METHOD f rotateYCounterclockwise ()Lew;
+	METHOD g getOffsetX ()I
+	METHOD h getOffsetY ()I
+	METHOD i getOffsetZ ()I
+	METHOD j getName ()Ljava/lang/String;
+	METHOD k getAxis ()Lew$a;
+	METHOD l asRotation ()F
+	METHOD n getVector ()Lfk;
+	METHOD o rotateXClockwise ()Lew;
+	METHOD q rotateZClockwise ()Lew;

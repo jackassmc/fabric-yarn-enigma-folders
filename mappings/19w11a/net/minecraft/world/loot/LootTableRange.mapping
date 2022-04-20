@@ -1,0 +1,6 @@
+CLASS cnd net/minecraft/world/loot/LootTableRange
+	FIELD a CONSTANT Lqp;
+	FIELD b UNIFORM Lqp;
+	FIELD c BINOMIAL Lqp;
+	METHOD a getType ()Lqp;
+	METHOD a next (Ljava/util/Random;)I

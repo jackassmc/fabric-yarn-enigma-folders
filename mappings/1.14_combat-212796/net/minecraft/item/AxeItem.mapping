@@ -1,0 +1,7 @@
+CLASS bad net/minecraft/item/AxeItem
+	FIELD a STRIPPED_BLOCKS Ljava/util/Map;
+	FIELD c EFFECTIVE_BLOCKS Ljava/util/Set;
+	METHOD <init> (Lbdi;Lbbz$a;)V
+		ARG 1 material
+	METHOD a (Lbdp;Lawb;)V
+		ARG 1 p

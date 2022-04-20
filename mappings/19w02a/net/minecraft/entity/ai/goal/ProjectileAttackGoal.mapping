@@ -1,0 +1,10 @@
+CLASS akj net/minecraft/entity/ai/goal/ProjectileAttackGoal
+	FIELD a mobEntity Lahn;
+	FIELD b rangedAttacker Laqi;
+	FIELD c target Lahm;
+	METHOD <init> (Laqi;DIIF)V
+		ARG 1 entity
+	METHOD a canStart ()Z
+	METHOD b shouldContinue ()Z
+	METHOD d onRemove ()V
+	METHOD e tick ()V

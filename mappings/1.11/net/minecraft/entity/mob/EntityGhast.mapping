@@ -1,0 +1,43 @@
+CLASS zu net/minecraft/entity/mob/EntityGhast
+	CLASS zu$a
+		METHOD a canStart ()Z
+		METHOD e tick ()V
+	CLASS zu$b
+		METHOD c tick ()V
+	CLASS zu$c AiGoalShootFireball
+		FIELD a cooldown I
+		FIELD b owner Lzu;
+		METHOD <init> (Lzu;)V
+			ARG 0 ghast
+		METHOD a canStart ()Z
+		METHOD c start ()V
+		METHOD d onRemove ()V
+		METHOD e tick ()V
+	CLASS zu$d AiGoalFlyRandomly
+		METHOD a canStart ()Z
+		METHOD b shouldContinue ()Z
+		METHOD c start ()V
+	FIELD a SHOOTING Lkk;
+	FIELD b fireballStrength I
+	METHOD G getSoundAmbient ()Lnm;
+	METHOD J getLootTableId ()Lkq;
+	METHOD a deserializeCustomData (Ldu;)V
+		ARG 0 tag
+	METHOD a damage (Lrx;F)Z
+		ARG 0 source
+		ARG 1 damage
+	METHOD a setShooting (Z)V
+		ARG 0 value
+	METHOD b serializeCustomData (Ldu;)V
+		ARG 0 tag
+	METHOD b registerTagUpgraders (Lph;)V
+		ARG 0 handler
+	METHOD bC getSoundCategory ()Lno;
+	METHOD bW getSoundDeath ()Lnm;
+	METHOD bX getSoundHurt ()Lnm;
+	METHOD bq getEyeHeight ()F
+	METHOD cM canSpawn ()Z
+	METHOD ci getSoundVolume ()F
+	METHOD i initDataTracker ()V
+	METHOD o isShooting ()Z
+	METHOD r initAi ()V

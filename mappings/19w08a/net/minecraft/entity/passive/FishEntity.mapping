@@ -1,0 +1,13 @@
+CLASS amr net/minecraft/entity/passive/FishEntity
+	CLASS amr$a FishMoveControl
+		FIELD i fish Lamr;
+	CLASS amr$b SwimToRandomPlaceGoal
+	FIELD b FROM_BUCKET Lpx;
+	METHOD <init> (Lahp;Lbde;)V
+		ARG 1 type
+	METHOD dK hasSelfControl ()Z
+	METHOD dL getFlopSound ()Lxy;
+	METHOD dM isFromBucket ()Z
+	METHOD g copyDataToStack (Laxw;)V
+	METHOD l getFishBucketItem ()Laxw;
+	METHOD q setFromBucket (Z)V

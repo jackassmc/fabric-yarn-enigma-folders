@@ -1,0 +1,6 @@
+CLASS bps net/minecraft/block/enums/WireConnection
+	FIELD a UP Lbps;
+	FIELD b SIDE Lbps;
+	FIELD c NONE Lbps;
+	FIELD d name Ljava/lang/String;
+	METHOD m asString ()Ljava/lang/String;

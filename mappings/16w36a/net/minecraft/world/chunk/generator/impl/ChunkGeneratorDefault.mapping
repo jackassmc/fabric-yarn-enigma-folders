@@ -1,0 +1,18 @@
+CLASS none/auw net/minecraft/world/chunk/generator/impl/ChunkGeneratorDefault
+	FIELD C biomeIDs [Lnone/aji;
+	FIELD a STONE Lnone/asl;
+	FIELD i random Ljava/util/Random;
+	FIELD n world Lnone/aiv;
+	FIELD t LIQUID Lnone/asl;
+	METHOD <init> (Lnone/aiv;JZLjava/lang/String;)V
+		ARG 0 world
+		ARG 1 seed
+	METHOD a generateChunk (II)Lnone/ato;
+		ARG 0 x
+		ARG 1 y
+	METHOD a getClosestStructureVector (Lnone/aiv;Ljava/lang/String;Lnone/cn;)Lnone/cn;
+		ARG 0 world
+		ARG 1 structureName
+	METHOD a getSpawnableEntites (Lnone/sq;Lnone/cn;)Ljava/util/List;
+	METHOD b (Lnone/ato;II)V
+		ARG 0 chunk

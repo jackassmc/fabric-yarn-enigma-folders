@@ -1,0 +1,11 @@
+CLASS cap net/minecraft/sortme/structures/NetherFortressGenerator
+	CLASS cap$b
+		METHOD a toNbt (Lho;)V
+	CLASS cap$h
+		METHOD a toNbt (Lho;)V
+	CLASS cap$j
+		METHOD a toNbt (Lho;)V
+	CLASS cap$l
+		METHOD a toNbt (Lho;)V
+	CLASS cap$m
+		METHOD a toNbt (Lho;)V

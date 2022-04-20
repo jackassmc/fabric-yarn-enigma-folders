@@ -1,0 +1,38 @@
+CLASS aqz net/minecraft/entity/passive/VillagerEntity
+	FIELD bC VILLAGER_DATA Lps;
+	FIELD bD findVillageCountdown I
+	FIELD bE inMating Z
+	FIELD bF staring Z
+	FIELD bG village Laly;
+	FIELD bH currentCustomer Larj;
+	FIELD bI recipeList Lbbq;
+	FIELD bJ unlockTradeCountdown I
+	FIELD bK unlockTrade Z
+	FIELD bL willingToMate Z
+	FIELD bM customerName Ljava/lang/String;
+	FIELD bN recentlyRescued Z
+	FIELD bO goalsSet Z
+	FIELD bP inventory Lagc;
+	METHOD <init> (Lbcl;Lare;)V
+		ARG 1 world
+	METHOD a setVillagerData (Lara;)V
+	METHOD a canPickUp (Lawy;)Z
+	METHOD b createChild (Lagz;)Laqz;
+	METHOD b setRecipes (Lbbq;)V
+	METHOD d hasEnoughFood (I)Z
+	METHOD dC isInMating ()Z
+	METHOD dD isStaring ()Z
+	METHOD dE isTrading ()Z
+	METHOD dF setRecentlyRescued ()V
+	METHOD dG getInventory ()Lagc;
+	METHOD dH hasFoodForWilling ()Z
+	METHOD dJ canBreed ()Z
+	METHOD dK hasSeed ()Z
+	METHOD dL setSpecificGoals ()V
+	METHOD dM levelUp ()V
+	METHOD dN addTrades ()V
+	METHOD q setInMating (Z)V
+	METHOD r setStaring (Z)V
+	METHOD s isWillingToMate (Z)Z
+		ARG 1 update
+	METHOD t setWillingToMate (Z)V

@@ -1,0 +1,3 @@
+CLASS cwk net/minecraft/client/render/entity/model/MultipassModel
+	METHOD b renderPass (Lafy;FFFFFF)V
+		ARG 1 entity

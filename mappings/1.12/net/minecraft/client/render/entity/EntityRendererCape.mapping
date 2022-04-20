@@ -1,0 +1,9 @@
+CLASS cbp net/minecraft/client/render/entity/EntityRendererCape
+	FIELD a renderer Lccr;
+	METHOD <init> (Lccr;)V
+		ARG 0 renderer
+	METHOD a shouldMergeTextures ()Z
+	METHOD a render (Lbty;FFFFFFF)V
+		ARG 0 entity
+	METHOD a render (Lvn;FFFFFFF)V
+		ARG 0 entity

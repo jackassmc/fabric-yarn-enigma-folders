@@ -1,0 +1,26 @@
+CLASS cjt net/minecraft/world/loot/LootSupplier
+	CLASS cjt$a Builder
+		FIELD a pools Ljava/util/List;
+		FIELD b functions Ljava/util/List;
+		FIELD c type Lclp;
+		METHOD a withPool (Lcjs$a;)Lcjt$a;
+		METHOD a withFunction (Lckz$a;)Lcjt$a;
+		METHOD a withType (Lclp;)Lcjt$a;
+		METHOD b create ()Lcjt;
+	CLASS cjt$b Serializer
+	FIELD a EMPTY Lcjt;
+	FIELD b GENERIC Lclp;
+	FIELD c LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD d type Lclp;
+	FIELD e pools [Lcjs;
+	FIELD f functions [Lckz;
+	FIELD g combinedFunction Ljava/util/function/BiFunction;
+	METHOD a getType ()Lclp;
+	METHOD a supplyInventory (Lafx;Lcjq;)V
+	METHOD a getFreeSlots (Lafx;Ljava/util/Random;)Ljava/util/List;
+	METHOD a getDrops (Lcjq;)Ljava/util/List;
+	METHOD a drop (Lcjq;Ljava/util/function/Consumer;)V
+	METHOD a check (Lcju;Ljava/util/function/Function;Ljava/util/Set;Lclp;)V
+	METHOD a limitedConsumer (Ljava/util/function/Consumer;)Ljava/util/function/Consumer;
+	METHOD b create ()Lcjt$a;
+	METHOD b dropLimited (Lcjq;Ljava/util/function/Consumer;)V

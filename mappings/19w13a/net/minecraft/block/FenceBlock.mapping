@@ -1,0 +1,9 @@
+CLASS bnx net/minecraft/block/FenceBlock
+	FIELD i SHAPES [Lcsa;
+	METHOD <init> (Lbly$c;)V
+		ARG 1 settings
+	METHOD a canConnect (Lbuw;ZLfa;)Z
+	METHOD h (Lbuw;Lbgg;Lev;)Lcsa;
+		ARG 1 state
+		ARG 2 view
+		ARG 3 pos

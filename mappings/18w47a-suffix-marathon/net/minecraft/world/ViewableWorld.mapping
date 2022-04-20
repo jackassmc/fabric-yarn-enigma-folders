@@ -1,0 +1,24 @@
+CLASS baq net/minecraft/world/ViewableWorld
+	METHOD G isBlockLoaded (Les;)Z
+	METHOD a getClosestPlayer (DDDDLjava/util/function/Predicate;)Laqf;
+	METHOD a getClosestPlayer (DDDDZ)Laqf;
+	METHOD a isChunkLoaded (II)Z
+	METHOD a isAreaLoaded (IIIIII)Z
+		ARG 1 minX
+		ARG 2 minY
+		ARG 3 minZ
+		ARG 4 maxX
+	METHOD a getClosestPlayer (Lage;D)Laqf;
+	METHOD a getTop (Lbru$a;II)I
+		ARG 1 type
+		ARG 2 x
+	METHOD a getTopPosition (Lbru$a;Les;)Les;
+		ARG 1 type
+	METHOD a isAreaLoaded (Les;Les;)Z
+		ARG 1 min
+	METHOD a getEmittedStrongRedstonePower (Les;Lex;)I
+		ARG 1 pos
+	METHOD b getClosestSurvivalPlayer (Lage;D)Laqf;
+	METHOD d getWorldBorder ()Lbpz;
+	METHOD d isAir (Les;)Z
+	METHOD r_ getSeaLevel ()I

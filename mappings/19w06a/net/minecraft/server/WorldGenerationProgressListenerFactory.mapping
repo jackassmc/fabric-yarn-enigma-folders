@@ -1,0 +1,3 @@
+CLASS vc net/minecraft/server/WorldGenerationProgressListenerFactory
+	METHOD create (I)Lvb;
+		ARG 1 radius

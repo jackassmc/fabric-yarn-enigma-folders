@@ -1,0 +1,10 @@
+CLASS ctr net/minecraft/client/recipe/book/ClientRecipeBook
+	FIELD k manager Lbdi;
+	FIELD l resultsByGroup Ljava/util/Map;
+	FIELD m orderedResults Ljava/util/List;
+	METHOD a getResultsForGroup (Lcuh;)Ljava/util/List;
+	METHOD b getGroupsForContainer (Layg;)Ljava/util/List;
+	METHOD b addGroup (Lcuh;)Ldbc;
+	METHOD g getGroupForRecipe (Lbdh;)Lcuh;
+	METHOD i reload ()V
+	METHOD j getOrderedResults ()Ljava/util/List;

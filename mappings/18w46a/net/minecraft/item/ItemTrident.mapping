@@ -1,0 +1,21 @@
+CLASS awq net/minecraft/item/ItemTrident
+	METHOD a getAttributeModifiers (Lagh;)Lcom/google/common/collect/Multimap;
+	METHOD a onEntityDamaged (Lavf;Lagl;Lagl;)Z
+		ARG 1 stack
+		ARG 2 target
+	METHOD a onItemStopUsing (Lavf;Lbae;Lagl;I)V
+		ARG 1 stack
+		ARG 2 world
+		ARG 3 player
+	METHOD a onBlockBroken (Lavf;Lbae;Lbnz;Les;Lagl;)Z
+		ARG 1 stack
+		ARG 2 world
+		ARG 3 state
+		ARG 4 pos
+	METHOD a use (Lbae;Laqa;Laev;)Laey;
+		ARG 1 world
+		ARG 2 player
+	METHOD b getMaxUseTime (Lavf;)I
+	METHOD c getEnchantability ()I
+	METHOD c getUseAction (Lavf;)Lawr;
+	METHOD e_ hasEnchantmentGlow (Lavf;)Z

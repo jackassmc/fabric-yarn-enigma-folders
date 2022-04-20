@@ -1,0 +1,2 @@
+CLASS cht net/minecraft/scoreboard/ScoreboardSynchronizer
+	FIELD a compound Lchu;

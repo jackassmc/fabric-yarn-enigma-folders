@@ -1,0 +1,31 @@
+CLASS auo net/minecraft/entity/mob/SlimeEntity
+	CLASS auo$d SlimeMoveControl
+		FIELD i targetYaw F
+		FIELD j ticksUntilJump I
+		FIELD k slime Lauo;
+		FIELD l jumpOften Z
+		METHOD a move (D)V
+			ARG 1 speed
+		METHOD a look (FZ)V
+			ARG 1 targetYaw
+			ARG 2 jumpOften
+	FIELD b targetStretch F
+	FIELD by SLIME_SIZE Lqh;
+	FIELD bz onGroundLastTick Z
+	FIELD c stretch F
+	FIELD d lastStretch F
+	METHOD a setSize (IZ)V
+		ARG 1 size
+		ARG 2 heal
+	METHOD dQ getTicksUntilNextJump ()I
+	METHOD dR updateStretch ()V
+	METHOD dS isBig ()Z
+	METHOD dT getDamageAmount ()I
+	METHOD dU getSquishSound ()Lyi;
+	METHOD dV getJumpSound ()Lyi;
+	METHOD dW getSize ()I
+	METHOD dX isSmall ()Z
+	METHOD dY makesJumpSound ()Z
+	METHOD h damage (Laim;)V
+		ARG 1 target
+	METHOD l getParticles ()Lgd;

@@ -1,0 +1,6 @@
+CLASS boy net/minecraft/block/LanternBlock
+	FIELD a HANGING Lbvo;
+	FIELD b STANDING_SHAPE Lcsa;
+	FIELD c HANGING_SHAPE Lcsa;
+	METHOD <init> (Lbly$c;)V
+		ARG 1 settings

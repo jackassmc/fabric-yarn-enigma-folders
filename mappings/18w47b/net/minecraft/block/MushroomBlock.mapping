@@ -1,0 +1,9 @@
+CLASS bid net/minecraft/block/MushroomBlock
+	METHOD a getPlacementState (Lats;)Lboh;
+	METHOD a applyMirror (Lboh;Lbix;)Lboh;
+		ARG 1 state
+	METHOD a applyRotation (Lboh;Lbjx;)Lboh;
+		ARG 1 state
+	METHOD a getRenderingState (Lboh;Ley;Lboh;Lbao;Let;Let;)Lboh;
+		ARG 1 state
+	METHOD a appendProperties (Lboi$a;)V

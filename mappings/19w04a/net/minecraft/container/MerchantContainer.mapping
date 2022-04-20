@@ -1,0 +1,4 @@
+CLASS auh net/minecraft/container/MerchantContainer
+	FIELD c villager Lbbo;
+	FIELD d villagerInventory Laug;
+	METHOD d setRecipeIndex (I)V

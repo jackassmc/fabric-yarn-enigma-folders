@@ -1,0 +1,3 @@
+CLASS cvl net/minecraft/client/gui/menu/settings/SkinSettingsScreen
+	FIELD a parent Lcvj;
+	FIELD b title Ljava/lang/String;

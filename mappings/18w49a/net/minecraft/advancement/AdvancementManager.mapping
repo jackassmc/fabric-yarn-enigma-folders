@@ -1,0 +1,8 @@
+CLASS o net/minecraft/advancement/AdvancementManager
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD b advancements Ljava/util/Map;
+	METHOD a clear ()V
+	METHOD a removeAll (Ljava/util/Set;)V
+	METHOD a remove (Ln;)V
+	METHOD a get (Lpz;)Ln;
+	METHOD c getAdvancements ()Ljava/util/Collection;

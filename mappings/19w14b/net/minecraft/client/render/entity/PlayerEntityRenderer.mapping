@@ -1,0 +1,2 @@
+CLASS dtg net/minecraft/client/render/entity/PlayerEntityRenderer
+	METHOD d setModelPose (Ldjg;)V

@@ -1,0 +1,66 @@
+CLASS bsn net/minecraft/world/chunk/Chunk
+	METHOD a getHighestNonEmptySection ()Lbta;
+	METHOD a setLastSaveTime (J)V
+		ARG 1 lastSaveTime
+	METHOD a addEntity (Lahl;)V
+		ARG 1 entity
+	METHOD a getCarvingMask (Lbue$a;)Ljava/util/BitSet;
+		ARG 1 carver
+	METHOD a sampleHeightmap (Lbuf$a;II)I
+		ARG 1 type
+		ARG 2 x
+		ARG 3 z
+	METHOD a setHeightmap (Lbuf$a;[J)V
+		ARG 1 type
+		ARG 2 heightmap
+	METHOD a setLightingProvider (Lcgc;)V
+		ARG 1 lightingProvider
+	METHOD a getBiome (Les;)Lbdy;
+		ARG 1 pos
+	METHOD a getLightLevel (Les;IZ)I
+		ARG 1 pos
+		ARG 2 darkness
+		ARG 3 includeSkyLight
+	METHOD a setBlockEntity (Les;Lbpd;)V
+		ARG 1 pos
+		ARG 2 blockEntity
+	METHOD a setBlockState (Les;Lbqz;Z)Lbqz;
+		ARG 1 pos
+		ARG 2 state
+	METHOD a addPendingBlockEntityTag (Lhv;)V
+	METHOD a setStructureStarts (Ljava/util/Map;)V
+	METHOD a markBlockForPostProcessing (SI)V
+	METHOD a setShouldSave (Z)V
+		ARG 1 shouldSave
+	METHOD a setBiomeArray ([Lbdy;)V
+		ARG 1 biomeArray
+	METHOD a getList ([Lit/unimi/dsi/fastutil/shorts/ShortList;I)Lit/unimi/dsi/fastutil/shorts/ShortList;
+		ARG 0 lists
+		ARG 1 index
+	METHOD b getHighestNonEmptySectionYOffset ()I
+	METHOD b setInhabitedTime (J)V
+		ARG 1 inhabitedTime
+	METHOD b getHeightmap (Lbuf$a;)Lbuf;
+		ARG 1 type
+	METHOD b setLightOn (Z)V
+		ARG 1 lightOn
+	METHOD c getBlockEntityPositions ()Ljava/util/Set;
+	METHOD d getSectionArray ()[Lbta;
+	METHOD d removeBlockEntity (Les;)V
+	METHOD e getLightingProvider ()Lcgc;
+	METHOD f getHeightmaps ()Ljava/util/Collection;
+	METHOD f markBlockForPostProcessing (Les;)V
+	METHOD g getPos ()Lbco;
+	METHOD g getBlockEntityTagAt (Les;)Lhv;
+		ARG 1 pos
+	METHOD h getStructureStarts ()Ljava/util/Map;
+	METHOD i getBiomeArray ()[Lbdy;
+	METHOD j needsSaving ()Z
+	METHOD k getStatus ()Lbss;
+	METHOD l getPostProcessingLists ()[Lit/unimi/dsi/fastutil/shorts/ShortList;
+	METHOD m getLightSourcesStream ()Ljava/util/stream/Stream;
+	METHOD n getBlockTickScheduler ()Lbdq;
+	METHOD o getFluidTickScheduler ()Lbdq;
+	METHOD p getUpgradeData ()Lbtj;
+	METHOD q getInhabitedTime ()J
+	METHOD r isLightOn ()Z

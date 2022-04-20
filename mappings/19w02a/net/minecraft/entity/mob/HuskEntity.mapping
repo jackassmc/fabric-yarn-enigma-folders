@@ -1,0 +1,7 @@
+CLASS apz net/minecraft/entity/mob/HuskEntity
+	METHOD D getAmbientSound ()Lxt;
+	METHOD a canSpawn (Lbcg;Lahp;)Z
+	METHOD cw getDeathSound ()Lxt;
+	METHOD dD getSoundStep ()Lxt;
+	METHOD dE getSkull ()Laxd;
+	METHOD e getHurtSound (Lagm;)Lxt;

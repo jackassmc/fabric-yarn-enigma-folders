@@ -1,0 +1,10 @@
+CLASS crp net/minecraft/client/gui/menu/EndCreditsGui
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD f MINECRAFT_TEX Lpy;
+	FIELD h VIGNETTE_TEX Lpy;
+	METHOD a draw (IIF)V
+		ARG 1 mouseX
+		ARG 2 mouseY
+	METHOD c onInitialized ()V
+	METHOD f update ()V
+	METHOD g close ()V

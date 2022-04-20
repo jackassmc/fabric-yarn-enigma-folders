@@ -1,0 +1,7 @@
+CLASS bab net/minecraft/item/BannerPatternItem
+	FIELD a pattern Lbtf;
+	METHOD <init> (Lbtf;Lbbv$a;)V
+		ARG 1 pattern
+		ARG 2 settings
+	METHOD b getPattern ()Lbtf;
+	METHOD d nameTextComponent ()Ljm;

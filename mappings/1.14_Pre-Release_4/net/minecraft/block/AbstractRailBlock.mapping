@@ -1,0 +1,18 @@
+CLASS bmb net/minecraft/block/AbstractRailBlock
+	FIELD a STRAIGHT_SHAPE Lcsn;
+	FIELD b ASCENDING_SHAPE Lcsn;
+	FIELD c allowCurves Z
+	METHOD a isRail (Lbhf;Lev;)Z
+		ARG 0 world
+		ARG 1 pos
+	METHOD a updateBlockState (Lbhf;Lev;Lbvh;Z)Lbvh;
+		ARG 4 forceUpdate
+	METHOD a updateBlockState (Lbvh;Lbhf;Lev;Lbmj;)V
+		ARG 1 state
+		ARG 2 world
+		ARG 3 pos
+		ARG 4 neighbor
+	METHOD d canMakeCurves ()Z
+	METHOD e getShapeProperty ()Lbwk;
+	METHOD j isRail (Lbvh;)Z
+		ARG 0 state

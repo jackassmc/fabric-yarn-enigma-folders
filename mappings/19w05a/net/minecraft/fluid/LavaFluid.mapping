@@ -1,0 +1,3 @@
+CLASS cge net/minecraft/fluid/LavaFluid
+	CLASS cge$a Flowing
+	CLASS cge$b Still

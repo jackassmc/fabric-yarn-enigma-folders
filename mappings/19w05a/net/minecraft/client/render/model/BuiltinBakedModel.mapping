@@ -1,0 +1,8 @@
+CLASS dqe net/minecraft/client/render/model/BuiltinBakedModel
+	FIELD a transformation Ldgl;
+	FIELD b itemPropertyOverrides Ldgj;
+	FIELD c sprite Ldos;
+	METHOD <init> (Ldgl;Ldgj;Ldos;)V
+		ARG 1 transformation
+		ARG 2 itemPropertyOverrides
+		ARG 3 sprite

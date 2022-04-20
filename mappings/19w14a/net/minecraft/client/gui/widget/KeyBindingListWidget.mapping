@@ -1,0 +1,13 @@
+CLASS czr net/minecraft/client/gui/widget/KeyBindingListWidget
+	CLASS czr$a CategoryEntry
+		FIELD c name Ljava/lang/String;
+		FIELD d nameWidth I
+	CLASS czr$b Entry
+	CLASS czr$c KeyBindingEntry
+		FIELD c binding Lcus;
+		FIELD d bindingName Ljava/lang/String;
+		FIELD e editButton Lcvz;
+		FIELD f resetButton Lcvz;
+	FIELD n gui Lczs;
+	METHOD <init> (Lczs;Lcuu;)V
+		ARG 1 gui

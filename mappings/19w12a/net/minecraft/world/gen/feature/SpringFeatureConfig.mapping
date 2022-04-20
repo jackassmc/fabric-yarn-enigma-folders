@@ -1,0 +1,6 @@
+CLASS ccy net/minecraft/world/gen/feature/SpringFeatureConfig
+	FIELD a state Lcjs;
+	METHOD <init> (Lcjs;)V
+		ARG 1 state
+	METHOD a deserialize (Lcom/mojang/datafixers/Dynamic;)Lccy;
+		ARG 0 dynamic

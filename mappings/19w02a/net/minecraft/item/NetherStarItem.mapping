@@ -1,0 +1,2 @@
+CLASS ayb net/minecraft/item/NetherStarItem
+	METHOD e_ hasEnchantmentGlow (Laxd;)Z

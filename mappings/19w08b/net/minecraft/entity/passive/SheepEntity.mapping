@@ -1,0 +1,14 @@
+CLASS ann net/minecraft/entity/passive/SheepEntity
+	FIELD bA DROPS Ljava/util/Map;
+	FIELD bB COLORS Ljava/util/Map;
+	FIELD bE eatGrassGoal Lajl;
+	FIELD bz COLOR Lpx;
+	METHOD a getChildColor (Lamv;Lamv;)Lawr;
+	METHOD a getRgbColor (Lawr;)[F
+		ARG 0 dyeColor
+	METHOD a generateDefaultColor (Ljava/util/Random;)Lawr;
+	METHOD b setColor (Lawr;)V
+	METHOD dL dropItems ()V
+	METHOD dM getColor ()Lawr;
+	METHOD dN isSheared ()Z
+	METHOD q setSheared (Z)V

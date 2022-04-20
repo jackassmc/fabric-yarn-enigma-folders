@@ -1,0 +1,4 @@
+CLASS none/bwg net/minecraft/client/render/entity/impl/EntityRendererPlayer
+	METHOD a (Lnone/bod;DDDFF)V
+	METHOD a (Lnone/sf;DDDFF)V
+	METHOD a (Lnone/so;DDDFF)V

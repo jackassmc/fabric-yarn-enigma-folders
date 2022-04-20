@@ -1,0 +1,2 @@
+CLASS cad net/minecraft/structure/pool/EmptyPoolElement
+	FIELD a INSTANCE Lcad;

@@ -1,0 +1,3 @@
+CLASS bcq net/minecraft/item/ShieldItem
+	METHOD e getColor (Lbbx;)Lbau;
+		ARG 0 stack

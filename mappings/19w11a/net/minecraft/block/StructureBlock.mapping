@@ -1,0 +1,4 @@
+CLASS bqo net/minecraft/block/StructureBlock
+	FIELD a MODE Lbuv;
+	METHOD <init> (Lbkz$c;)V
+		ARG 1 settings

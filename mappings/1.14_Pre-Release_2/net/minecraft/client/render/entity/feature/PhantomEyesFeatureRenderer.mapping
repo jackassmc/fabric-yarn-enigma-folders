@@ -1,0 +1,3 @@
+CLASS dsu net/minecraft/client/render/entity/feature/PhantomEyesFeatureRenderer
+	METHOD <init> (Ldqp;)V
+		ARG 1 context

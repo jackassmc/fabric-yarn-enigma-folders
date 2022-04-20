@@ -1,0 +1,4 @@
+CLASS dgz net/minecraft/client/render/entity/EntityRendererPainting
+	FIELD a TEX Lpx;
+	METHOD a getTexture (Lagc;)Lpx;
+	METHOD a getTexture (Lanu;)Lpx;

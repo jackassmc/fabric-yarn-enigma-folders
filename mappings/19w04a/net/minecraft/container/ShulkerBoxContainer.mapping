@@ -1,0 +1,2 @@
+CLASS auo net/minecraft/container/ShulkerBoxContainer
+	FIELD c inventory Lafq;

@@ -1,0 +1,12 @@
+CLASS bov net/minecraft/block/entity/DispenserBlockEntity
+	FIELD a RANDOM Ljava/util/Random;
+	FIELD b inventory Lfh;
+	METHOD U_ getInvSize ()I
+	METHOD a createContainer (ILari;)Late;
+	METHOD a setInvStackList (Lfh;)V
+		ARG 1 list
+	METHOD a fromTag (Lhq;)V
+	METHOD b toTag (Lhq;)Lhq;
+	METHOD c isInvEmpty ()Z
+	METHOD f getInvStackList ()Lfh;
+	METHOD g ()Ljb;

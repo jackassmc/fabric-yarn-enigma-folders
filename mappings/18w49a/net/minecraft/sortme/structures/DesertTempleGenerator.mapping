@@ -1,0 +1,4 @@
+CLASS car net/minecraft/sortme/structures/DesertTempleGenerator
+	METHOD a (Lbat;Ljava/util/Random;Lcap;Lbag;)Z
+		ARG 2 random
+	METHOD a toNbt (Lhq;)V

@@ -1,0 +1,9 @@
+CLASS dwo net/minecraft/client/audio/AmbientSoundLoops
+	CLASS dwo$a MusicLoop
+		FIELD o player Ldjm;
+		METHOD <init> (Ldjm;Lyi;)V
+			ARG 1 player
+			ARG 2 soundEvent
+	CLASS dwo$b Underwater
+		FIELD o player Ldjm;
+		FIELD p transitionTimer I

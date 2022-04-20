@@ -1,0 +1,16 @@
+CLASS co net/minecraft/command/arguments/MessageArgumentType
+	CLASS co$a MessageFormat
+		FIELD a contents Ljava/lang/String;
+		FIELD b selectors [Lco$b;
+		METHOD a format (Lcc;Z)Ljl;
+		METHOD a parse (Lcom/mojang/brigadier/StringReader;Z)Lco$a;
+	CLASS co$b MessageSelector
+		FIELD a start I
+		FIELD b end I
+		FIELD c selector Leb;
+		METHOD a getStart ()I
+		METHOD a format (Lcc;)Ljl;
+		METHOD b getEnd ()I
+	FIELD a EXAMPLES Ljava/util/Collection;
+	METHOD a create ()Lco;
+	METHOD a getMessageArgument (Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Ljl;

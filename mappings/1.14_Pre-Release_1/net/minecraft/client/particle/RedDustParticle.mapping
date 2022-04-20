@@ -1,0 +1,2 @@
+CLASS dhu net/minecraft/client/particle/RedDustParticle
+	CLASS dhu$a Factory

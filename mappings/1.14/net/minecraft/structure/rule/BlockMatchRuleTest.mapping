@@ -1,0 +1,4 @@
+CLASS cis net/minecraft/structure/rule/BlockMatchRuleTest
+	FIELD a block Lbml;
+	METHOD <init> (Lbml;)V
+		ARG 1 block
