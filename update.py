@@ -78,7 +78,7 @@ def update(push: bool = False) -> None:
 
     if push:
         print("pushing changes to github")
-        gh_actions_bot_commit(yarn_repo)
+        gh_actions_bot_commit(Repo(DIR))
 
 
 if __name__ == "__main__":
