@@ -1,0 +1,35 @@
+CLASS net/minecraft/class_3778 net/minecraft/structure/pool/StructurePoolBasedGenerator
+	FIELD field_16665 LOGGER Lorg/slf4j/Logger;
+	METHOD method_27230 generate (Lnet/minecraft/class_7138;IZLnet/minecraft/class_2794;Lnet/minecraft/class_3485;Lnet/minecraft/class_5539;Lnet/minecraft/class_5819;Lnet/minecraft/class_2378;Lnet/minecraft/class_3790;Ljava/util/List;Lnet/minecraft/class_265;)V
+	METHOD method_30419 generate (Lnet/minecraft/class_3195$class_7149;Lnet/minecraft/class_6880;Ljava/util/Optional;ILnet/minecraft/class_2338;ZLjava/util/Optional;I)Ljava/util/Optional;
+	CLASS class_4181 ShapedPoolStructurePiece
+		FIELD field_18696 piece Lnet/minecraft/class_3790;
+		FIELD field_18697 pieceShape Lorg/apache/commons/lang3/mutable/MutableObject;
+		FIELD field_18699 currentSize I
+		METHOD <init> (Lnet/minecraft/class_3790;Lorg/apache/commons/lang3/mutable/MutableObject;I)V
+			ARG 1 piece
+			ARG 2 pieceShape
+			ARG 3 currentSize
+	CLASS class_4182 StructurePoolGenerator
+		FIELD field_18700 maxSize I
+		FIELD field_18702 chunkGenerator Lnet/minecraft/class_2794;
+		FIELD field_18703 structureManager Lnet/minecraft/class_3485;
+		FIELD field_18704 children Ljava/util/List;
+		FIELD field_18705 random Lnet/minecraft/class_5819;
+		FIELD field_18706 structurePieces Ljava/util/Deque;
+		FIELD field_25852 registry Lnet/minecraft/class_2378;
+		METHOD <init> (Lnet/minecraft/class_2378;ILnet/minecraft/class_2794;Lnet/minecraft/class_3485;Ljava/util/List;Lnet/minecraft/class_5819;)V
+			ARG 1 registry
+			ARG 2 maxSize
+		METHOD method_19306 generatePiece (Lnet/minecraft/class_3790;Lorg/apache/commons/lang3/mutable/MutableObject;IZLnet/minecraft/class_5539;Lnet/minecraft/class_7138;)V
+			ARG 1 piece
+			ARG 2 pieceShape
+			ARG 3 minY
+			ARG 4 modifyBoundingBox
+			ARG 5 world
+		METHOD method_31113 (Lnet/minecraft/class_3785;)Ljava/lang/Integer;
+			ARG 1 pool
+		METHOD method_31114 (Lnet/minecraft/class_3785;)Ljava/lang/Integer;
+			ARG 1 pool
+		METHOD method_31115 (Lnet/minecraft/class_3785;)Ljava/util/Optional;
+			ARG 1 pool

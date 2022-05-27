@@ -1,0 +1,4 @@
+CLASS net/minecraft/class_7403 net/minecraft/data/DataWriter
+	METHOD method_43346 write (Ljava/nio/file/Path;[BLcom/google/common/hash/HashCode;)V
+		ARG 1 path
+		ARG 2 data

@@ -1,0 +1,2 @@
+CLASS net/minecraft/class_286 net/minecraft/client/render/BufferRenderer
+	METHOD method_34420 unbindAll ()V
