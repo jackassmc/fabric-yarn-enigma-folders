@@ -1,0 +1,4 @@
+CLASS net/minecraft/class_6736 net/minecraft/world/gen/noise/BuiltinNoiseParameters
+	METHOD method_39216 init (Lnet/minecraft/class_2378;)Lnet/minecraft/class_6880;
+	METHOD method_39217 register (Lnet/minecraft/class_2378;Lnet/minecraft/class_5321;ID[D)Lnet/minecraft/class_6880;
+	METHOD method_39493 register (Lnet/minecraft/class_2378;ILnet/minecraft/class_5321;Lnet/minecraft/class_5321;Lnet/minecraft/class_5321;Lnet/minecraft/class_5321;)V
