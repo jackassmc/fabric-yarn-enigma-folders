@@ -1,0 +1,137 @@
+CLASS net/minecraft/class_6554 net/minecraft/world/biome/source/util/VanillaBiomeParameters
+	FIELD field_34500 MAX_VALLEY_WEIRDNESS F
+	FIELD field_34502 MAX_HIGH_WEIRDNESS F
+	FIELD field_34504 defaultParameter Lnet/minecraft/class_6544$class_6546;
+	FIELD field_34505 temperatureParameters [Lnet/minecraft/class_6544$class_6546;
+	FIELD field_34506 humidityParameters [Lnet/minecraft/class_6544$class_6546;
+	FIELD field_34507 erosionParameters [Lnet/minecraft/class_6544$class_6546;
+	FIELD field_34508 frozenTemperature Lnet/minecraft/class_6544$class_6546;
+	FIELD field_34509 nonFrozenTemperatureParameters Lnet/minecraft/class_6544$class_6546;
+	FIELD field_34510 mushroomFieldsContinentalness Lnet/minecraft/class_6544$class_6546;
+	FIELD field_34511 deepOceanContinentalness Lnet/minecraft/class_6544$class_6546;
+	FIELD field_34512 oceanContinentalness Lnet/minecraft/class_6544$class_6546;
+	FIELD field_34513 coastContinentalness Lnet/minecraft/class_6544$class_6546;
+	FIELD field_34514 riverContinentalness Lnet/minecraft/class_6544$class_6546;
+	FIELD field_34515 nearInlandContinentalness Lnet/minecraft/class_6544$class_6546;
+	FIELD field_34516 midInlandContinentalness Lnet/minecraft/class_6544$class_6546;
+	FIELD field_34517 farInlandContinentalness Lnet/minecraft/class_6544$class_6546;
+	FIELD field_34518 oceanBiomes [[Lnet/minecraft/class_5321;
+	FIELD field_34519 commonBiomes [[Lnet/minecraft/class_5321;
+	FIELD field_34520 uncommonBiomes [[Lnet/minecraft/class_5321;
+	FIELD field_34521 nearMountainBiomes [[Lnet/minecraft/class_5321;
+	FIELD field_34522 specialNearMountainBiomes [[Lnet/minecraft/class_5321;
+	FIELD field_35041 MAX_MID_WEIRDNESS F
+	FIELD field_35047 MAX_LOW_WEIRDNESS F
+	FIELD field_36339 windsweptBiomes [[Lnet/minecraft/class_5321;
+	METHOD method_38179 getPeaksValleysDescription (D)Ljava/lang/String;
+		ARG 0 weirdness
+	METHOD method_38180 getNoiseRangeIndex (D[Lnet/minecraft/class_6544$class_6546;)Ljava/lang/String;
+		ARG 0 noisePoint
+		ARG 2 noiseRanges
+	METHOD method_38181 getShoreBiome (II)Lnet/minecraft/class_5321;
+		ARG 1 temperature
+		ARG 2 humidity
+	METHOD method_38182 getRegularBiome (IILnet/minecraft/class_6544$class_6546;)Lnet/minecraft/class_5321;
+		ARG 1 temperature
+		ARG 2 humidity
+		ARG 3 weirdness
+	METHOD method_38183 getBiomeOrWindsweptSavanna (IILnet/minecraft/class_6544$class_6546;)Lnet/minecraft/class_5321;
+		ARG 1 temperature
+		ARG 2 humidity
+		ARG 3 weirdness
+	METHOD method_38184 getBadlandsBiome (ILnet/minecraft/class_6544$class_6546;)Lnet/minecraft/class_5321;
+		ARG 1 humidity
+		ARG 2 weirdness
+	METHOD method_38185 writeVanillaBiomeParameters (Ljava/util/function/Consumer;)V
+		ARG 1 parameters
+	METHOD method_38186 writeMountainousBiomes (Ljava/util/function/Consumer;Lnet/minecraft/class_6544$class_6546;)V
+		ARG 1 parameters
+		ARG 2 weirdness
+	METHOD method_38187 writeBiomeParameters (Ljava/util/function/Consumer;Lnet/minecraft/class_6544$class_6546;Lnet/minecraft/class_6544$class_6546;Lnet/minecraft/class_6544$class_6546;Lnet/minecraft/class_6544$class_6546;Lnet/minecraft/class_6544$class_6546;FLnet/minecraft/class_5321;)V
+		ARG 1 parameters
+		ARG 2 temperature
+		ARG 3 humidity
+		ARG 4 continentalness
+		ARG 5 erosion
+		ARG 6 weirdness
+		ARG 7 offset
+		ARG 8 biome
+	METHOD method_38188 getContinentalnessDescription (D)Ljava/lang/String;
+		ARG 1 continentalness
+	METHOD method_38189 getBadlandsOrRegularBiome (IILnet/minecraft/class_6544$class_6546;)Lnet/minecraft/class_5321;
+		ARG 1 temperature
+		ARG 2 humidity
+		ARG 3 weirdness
+	METHOD method_38190 writeOceanBiomes (Ljava/util/function/Consumer;)V
+		ARG 1 parameters
+	METHOD method_38191 writePlainBiomes (Ljava/util/function/Consumer;Lnet/minecraft/class_6544$class_6546;)V
+		ARG 1 parameters
+		ARG 2 weirdness
+	METHOD method_38192 writeCaveBiomeParameters (Ljava/util/function/Consumer;Lnet/minecraft/class_6544$class_6546;Lnet/minecraft/class_6544$class_6546;Lnet/minecraft/class_6544$class_6546;Lnet/minecraft/class_6544$class_6546;Lnet/minecraft/class_6544$class_6546;FLnet/minecraft/class_5321;)V
+		ARG 1 parameters
+		ARG 2 temperature
+		ARG 3 humidity
+		ARG 4 continentalness
+		ARG 5 erosion
+		ARG 6 weirdness
+		ARG 7 offset
+		ARG 8 biome
+	METHOD method_38193 getErosionDescription (D)Ljava/lang/String;
+		ARG 1 erosion
+	METHOD method_38194 getMountainStartBiome (IILnet/minecraft/class_6544$class_6546;)Lnet/minecraft/class_5321;
+		ARG 1 temperature
+		ARG 2 humidity
+		ARG 3 weirdness
+	METHOD method_38195 writeLandBiomes (Ljava/util/function/Consumer;)V
+		ARG 1 parameters
+	METHOD method_38196 writeMixedBiomes (Ljava/util/function/Consumer;Lnet/minecraft/class_6544$class_6546;)V
+		ARG 1 parameters
+		ARG 2 weirdness
+	METHOD method_38197 getTemperatureDescription (D)Ljava/lang/String;
+		ARG 1 temperature
+	METHOD method_38198 getFlatShoreBiome (IILnet/minecraft/class_6544$class_6546;)Lnet/minecraft/class_5321;
+		ARG 1 temperature
+		ARG 2 humidity
+		ARG 3 weirdness
+	METHOD method_38199 writeCaveBiomes (Ljava/util/function/Consumer;)V
+		ARG 1 parameters
+	METHOD method_38200 writeBiomesNearRivers (Ljava/util/function/Consumer;Lnet/minecraft/class_6544$class_6546;)V
+		ARG 1 parameters
+		ARG 2 weirdness
+	METHOD method_38201 getHumidityDescription (D)Ljava/lang/String;
+		ARG 1 humidity
+	METHOD method_38202 getNearMountainBiome (IILnet/minecraft/class_6544$class_6546;)Lnet/minecraft/class_5321;
+		ARG 1 temperature
+		ARG 2 humidity
+		ARG 3 weirdness
+	METHOD method_38203 writeRiverBiomes (Ljava/util/function/Consumer;Lnet/minecraft/class_6544$class_6546;)V
+		ARG 1 parameters
+		ARG 2 weirdness
+	METHOD method_38204 getPeakBiome (IILnet/minecraft/class_6544$class_6546;)Lnet/minecraft/class_5321;
+		ARG 1 temperature
+		ARG 2 humidity
+		ARG 3 weirdness
+	METHOD method_38205 getMountainSlopeBiome (IILnet/minecraft/class_6544$class_6546;)Lnet/minecraft/class_5321;
+		ARG 1 temperature
+		ARG 2 humidity
+		ARG 3 weirdness
+	METHOD method_39168 getSpawnSuitabilityNoises ()Ljava/util/List;
+	METHOD method_40009 getBiomeOrWindsweptSavanna (IILnet/minecraft/class_6544$class_6546;Lnet/minecraft/class_5321;)Lnet/minecraft/class_5321;
+		ARG 1 temperature
+		ARG 2 humidity
+		ARG 3 weirdness
+		ARG 4 biomeKey
+	METHOD method_40010 getTemperatureParameters ()[Lnet/minecraft/class_6544$class_6546;
+	METHOD method_40011 getHumidityParameters ()[Lnet/minecraft/class_6544$class_6546;
+	METHOD method_40012 getErosionParameters ()[Lnet/minecraft/class_6544$class_6546;
+	METHOD method_40013 getContinentalnessParameters ()[Lnet/minecraft/class_6544$class_6546;
+	METHOD method_40014 getWeirdnessParameters ()[Lnet/minecraft/class_6544$class_6546;
+	METHOD method_41419 writeDeepDarkParameters (Ljava/util/function/Consumer;Lnet/minecraft/class_6544$class_6546;Lnet/minecraft/class_6544$class_6546;Lnet/minecraft/class_6544$class_6546;Lnet/minecraft/class_6544$class_6546;Lnet/minecraft/class_6544$class_6546;FLnet/minecraft/class_5321;)V
+		ARG 1 parameters
+		ARG 2 temperature
+		ARG 3 humidity
+		ARG 4 continentalness
+		ARG 5 erosion
+		ARG 6 weirdness
+		ARG 7 offset
+		ARG 8 biome
