@@ -1,0 +1,10 @@
+CLASS net/minecraft/class_7541 net/minecraft/client/report/MessagesListAdder
+	FIELD field_39581 log Lnet/minecraft/class_7555;
+	FIELD field_39582 reportablePredicate Ljava/util/function/Predicate;
+	METHOD method_44486 add (ILnet/minecraft/class_7541$class_7542;)V
+		ARG 1 minAmount
+	CLASS class_7542 MessagesList
+		METHOD method_44490 addMessage (ILnet/minecraft/class_7557$class_7558;)V
+			ARG 1 index
+		METHOD method_44492 addText (Lnet/minecraft/class_2561;)V
+			ARG 1 text

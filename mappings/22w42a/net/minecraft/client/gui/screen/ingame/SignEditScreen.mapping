@@ -1,0 +1,5 @@
+CLASS net/minecraft/class_498 net/minecraft/client/gui/screen/ingame/SignEditScreen
+	FIELD field_21525 model Lnet/minecraft/class_837$class_4702;
+	METHOD <init> (Lnet/minecraft/class_2625;Z)V
+		ARG 1 sign
+		ARG 2 filtered

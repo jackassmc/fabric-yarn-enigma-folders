@@ -1,0 +1,3 @@
+CLASS net/minecraft/class_3279 net/minecraft/resource/FileResourcePackProvider
+	FIELD field_14218 packsFolder Ljava/nio/file/Path;
+	FIELD field_25345 source Lnet/minecraft/class_5352;

@@ -1,0 +1,7 @@
+CLASS net/minecraft/class_7620 net/minecraft/util/thread/FutureQueue
+	COMMENT A functional interface that can enqueue completable futures.
+	FIELD field_39831 LOGGER Lorg/slf4j/Logger;
+	METHOD append (Lnet/minecraft/class_7620$class_7621;)V
+		ARG 1 future
+	CLASS class_7621 FutureSupplier
+		COMMENT A functional interface supplying the queued future to {@link FutureQueue}.

@@ -1,0 +1,13 @@
+CLASS net/minecraft/class_7635 net/minecraft/network/message/LastSeenMessageList
+	COMMENT A list of messages a client has seen.
+	FIELD field_39883 EMPTY Lnet/minecraft/class_7635;
+	FIELD field_39884 MAX_ENTRIES I
+	CLASS class_7636 Acknowledgment
+		COMMENT A record of messages acknowledged by a client.
+		COMMENT
+		COMMENT <p>This holds the messages the client has recently seen, as well as the last
+		COMMENT message they received, if any.
+		METHOD <init> (Lnet/minecraft/class_2540;)V
+			ARG 1 buf
+		METHOD method_44983 write (Lnet/minecraft/class_2540;)V
+			ARG 1 buf

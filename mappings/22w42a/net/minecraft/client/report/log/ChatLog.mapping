@@ -1,0 +1,15 @@
+CLASS net/minecraft/class_7555 net/minecraft/client/report/log/ChatLog
+	COMMENT A chat log holds received message entries with sequential indices, where
+	COMMENT newer entries receive bigger indices. An implementation using fixed-size array
+	COMMENT is available at {@link ChatLogImpl}.
+	COMMENT
+	COMMENT <p>There are two types of entries. {@link HeaderEntry} is an entry containing only
+	COMMENT the message's header, and is used for censored messages. {@link ReceivedMessage}
+	COMMENT is an entry for full chat or game messages.
+	METHOD method_44532 get (I)Lnet/minecraft/class_7629;
+		COMMENT {@return the entry with index {@code index}, or {@code null} if there is no
+		COMMENT such entry in the log}
+		ARG 1 index
+	METHOD method_44535 add (Lnet/minecraft/class_7629;)V
+		COMMENT Adds {@code entry} to the log.
+		ARG 1 entry
