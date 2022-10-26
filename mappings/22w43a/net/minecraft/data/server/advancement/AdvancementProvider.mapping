@@ -1,0 +1,3 @@
+CLASS net/minecraft/class_2409 net/minecraft/data/server/advancement/AdvancementProvider
+	FIELD field_11289 tabGenerators Ljava/util/List;
+	FIELD field_39372 pathResolver Lnet/minecraft/class_7784$class_7489;
