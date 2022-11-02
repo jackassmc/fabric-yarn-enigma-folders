@@ -1,0 +1,5 @@
+CLASS net/minecraft/class_6903 net/minecraft/util/dynamic/RegistryOps
+	METHOD <init> (Lcom/mojang/serialization/DynamicOps;Lnet/minecraft/class_6903$class_7863;)V
+		ARG 1 delegate
+	METHOD method_40414 of (Lcom/mojang/serialization/DynamicOps;Lnet/minecraft/class_6903$class_7863;)Lnet/minecraft/class_6903;
+		ARG 0 delegate
