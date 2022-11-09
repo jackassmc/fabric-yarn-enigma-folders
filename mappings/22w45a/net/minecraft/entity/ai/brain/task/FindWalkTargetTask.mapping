@@ -1,0 +1,3 @@
+CLASS net/minecraft/class_4117 net/minecraft/entity/ai/brain/task/FindWalkTargetTask
+	FIELD field_30186 MIN_RUN_TIME I
+	FIELD field_30187 MAX_RUN_TIME I

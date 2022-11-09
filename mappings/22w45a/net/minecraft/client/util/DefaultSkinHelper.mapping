@@ -1,0 +1,6 @@
+CLASS net/minecraft/class_1068 net/minecraft/client/util/DefaultSkinHelper
+	METHOD method_4647 getModel (Ljava/util/UUID;)Ljava/lang/String;
+		ARG 0 uuid
+	METHOD method_4648 getTexture (Ljava/util/UUID;)Lnet/minecraft/class_2960;
+		ARG 0 uuid
+	METHOD method_4649 getTexture ()Lnet/minecraft/class_2960;

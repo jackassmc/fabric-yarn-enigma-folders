@@ -1,0 +1,3 @@
+CLASS net/minecraft/class_4128 net/minecraft/entity/ai/brain/task/ForgetCompletedPointOfInterestTask
+	FIELD field_30185 MAX_RANGE I
+	METHOD method_20500 isBedOccupiedByOthers (Lnet/minecraft/class_3218;Lnet/minecraft/class_2338;Lnet/minecraft/class_1309;)Z

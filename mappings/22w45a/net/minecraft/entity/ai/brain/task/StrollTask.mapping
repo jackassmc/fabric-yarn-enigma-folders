@@ -1,0 +1,3 @@
+CLASS net/minecraft/class_4818 net/minecraft/entity/ai/brain/task/StrollTask
+	FIELD field_30157 MIN_RUN_TIME I
+	FIELD field_30158 MAX_RUN_TIME I

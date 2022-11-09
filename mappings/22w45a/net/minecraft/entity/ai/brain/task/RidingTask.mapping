@@ -1,0 +1,2 @@
+CLASS net/minecraft/class_4812 net/minecraft/entity/ai/brain/task/RidingTask
+	METHOD method_24575 canRideTarget (Lnet/minecraft/class_1309;Lnet/minecraft/class_1297;I)Z

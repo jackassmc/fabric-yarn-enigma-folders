@@ -1,0 +1,6 @@
+CLASS net/minecraft/class_4121 net/minecraft/entity/ai/brain/task/GoToRememberedPositionTask
+	METHOD method_24603 toEntity (Lnet/minecraft/class_4140;FIZ)Lnet/minecraft/class_7894;
+		ARG 0 memoryType
+		ARG 1 speed
+		ARG 2 range
+		ARG 3 requiresWalkTarget

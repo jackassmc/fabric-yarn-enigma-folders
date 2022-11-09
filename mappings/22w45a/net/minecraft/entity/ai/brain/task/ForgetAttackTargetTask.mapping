@@ -1,0 +1,3 @@
+CLASS net/minecraft/class_4828 net/minecraft/entity/ai/brain/task/ForgetAttackTargetTask
+	FIELD field_30177 REMEMBER_TIME I
+	METHOD method_24621 cannotReachTarget (Lnet/minecraft/class_1309;Ljava/util/Optional;)Z

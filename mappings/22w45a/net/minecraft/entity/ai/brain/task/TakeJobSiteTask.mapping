@@ -1,0 +1,3 @@
+CLASS net/minecraft/class_5327 net/minecraft/entity/ai/brain/task/TakeJobSiteTask
+	METHOD method_29260 canUseJobSite (Lnet/minecraft/class_6880;Lnet/minecraft/class_1646;Lnet/minecraft/class_2338;)Z
+	METHOD method_29262 canReachJobSite (Lnet/minecraft/class_1314;Lnet/minecraft/class_2338;Lnet/minecraft/class_4158;)Z

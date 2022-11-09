@@ -1,0 +1,5 @@
+CLASS net/minecraft/class_1836 net/minecraft/client/item/TooltipContext
+	METHOD method_8035 isAdvanced ()Z
+	CLASS class_1837 Default
+		FIELD comp_1152 advanced Z
+		METHOD comp_1152 advanced ()Z
