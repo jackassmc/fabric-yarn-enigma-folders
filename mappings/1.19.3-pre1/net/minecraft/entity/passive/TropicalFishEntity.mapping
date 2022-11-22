@@ -1,0 +1,22 @@
+CLASS net/minecraft/class_1474 net/minecraft/entity/passive/TropicalFishEntity
+	FIELD field_30378 BUCKET_VARIANT_TAG_KEY Ljava/lang/String;
+	FIELD field_6874 VARIANT Lnet/minecraft/class_2940;
+	FIELD field_6877 commonSpawn Z
+	METHOD method_38985 canTropicalFishSpawn (Lnet/minecraft/class_1299;Lnet/minecraft/class_1936;Lnet/minecraft/class_3730;Lnet/minecraft/class_2338;Lnet/minecraft/class_5819;)Z
+		ARG 0 type
+		ARG 1 world
+		ARG 2 reason
+		ARG 3 pos
+		ARG 4 random
+	METHOD method_6649 getToolTipForVariant (I)Ljava/lang/String;
+		ARG 0 variant
+	METHOD method_6651 getPatternDyeColor (I)Lnet/minecraft/class_1767;
+		ARG 0 variant
+	METHOD method_6652 getBaseDyeColor (I)Lnet/minecraft/class_1767;
+		ARG 0 variant
+	METHOD method_6655 getPatternColorComponents ()Lnet/minecraft/class_1767;
+	METHOD method_6658 getBaseColorComponents ()Lnet/minecraft/class_1767;
+	CLASS class_1475 Variety
+	CLASS class_1476 TropicalFishData
+		METHOD <init> (Lnet/minecraft/class_1474;Lnet/minecraft/class_1474$class_7992;)V
+			ARG 1 leader
