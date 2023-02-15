@@ -1,0 +1,18 @@
+CLASS net/minecraft/class_2619 net/minecraft/block/entity/JukeboxBlockEntity
+	FIELD field_39481 ticksThisSecond I
+	FIELD field_39482 tickCount J
+	FIELD field_39483 recordStartTick J
+	FIELD field_39484 isPlaying Z
+	METHOD <init> (Lnet/minecraft/class_2338;Lnet/minecraft/class_2680;)V
+		ARG 1 pos
+		ARG 2 state
+	METHOD method_44370 tick (Lnet/minecraft/class_1937;Lnet/minecraft/class_2338;Lnet/minecraft/class_2680;Lnet/minecraft/class_2619;)V
+		ARG 0 world
+		ARG 1 pos
+		ARG 2 state
+		ARG 3 blockEntity
+	METHOD method_44371 hasSecondPassed ()Z
+	METHOD method_44372 isSongFinished (Lnet/minecraft/class_1813;)Z
+		ARG 1 musicDisc
+	METHOD method_44373 isPlayingRecord ()Z
+	METHOD method_48969 spawnNoteParticle (Lnet/minecraft/class_1937;Lnet/minecraft/class_2338;)V

@@ -1,0 +1,3 @@
+CLASS net/minecraft/class_7297 net/minecraft/entity/ai/brain/task/WalkTowardsLookTargetTask
+	METHOD method_47130 create (Ljava/util/function/Function;Ljava/util/function/Predicate;IIF)Lnet/minecraft/class_7893;
+		ARG 0 lookTargetFunction
