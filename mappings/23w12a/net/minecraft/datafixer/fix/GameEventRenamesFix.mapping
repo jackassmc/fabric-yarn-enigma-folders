@@ -1,0 +1,4 @@
+CLASS net/minecraft/class_7293 net/minecraft/datafixer/fix/GameEventRenamesFix
+	FIELD field_38381 name Ljava/lang/String;
+	METHOD <init> (Lcom/mojang/datafixers/schemas/Schema;Ljava/lang/String;Lcom/mojang/datafixers/DSL$TypeReference;Ljava/util/function/UnaryOperator;)V
+		ARG 1 schema

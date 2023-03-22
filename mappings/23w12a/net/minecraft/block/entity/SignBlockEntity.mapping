@@ -1,0 +1,13 @@
+CLASS net/minecraft/class_2625 net/minecraft/block/entity/SignBlockEntity
+	FIELD field_12046 editor Ljava/util/UUID;
+	FIELD field_40335 MAX_TEXT_WIDTH I
+	FIELD field_40336 TEXT_LINE_HEIGHT I
+	METHOD <init> (Lnet/minecraft/class_2338;Lnet/minecraft/class_2680;)V
+		ARG 1 pos
+		ARG 2 state
+	METHOD method_11305 getEditor ()Ljava/util/UUID;
+	METHOD method_11306 setEditor (Ljava/util/UUID;)V
+		ARG 1 editor
+	METHOD method_34272 updateListeners ()V
+	METHOD method_45469 getTextLineHeight ()I
+	METHOD method_45470 getMaxTextWidth ()I
