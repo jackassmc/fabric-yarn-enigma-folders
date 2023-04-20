@@ -1,0 +1,16 @@
+CLASS net/minecraft/class_8002 net/minecraft/client/gui/tooltip/TooltipBackgroundRenderer
+	COMMENT A class for rendering a background box for a tooltip.
+	FIELD field_41694 BACKGROUND_COLOR I
+	FIELD field_41695 START_Y_BORDER_COLOR I
+	FIELD field_41696 END_Y_BORDER_COLOR I
+	METHOD method_47946 render (Lnet/minecraft/class_332;IIIII)V
+	METHOD method_47947 renderVerticalLine (Lnet/minecraft/class_332;IIIIII)V
+		ARG 0 renderer
+	METHOD method_47948 renderBorder (Lnet/minecraft/class_332;IIIIIII)V
+		ARG 0 renderer
+	METHOD method_47949 renderVerticalLine (Lnet/minecraft/class_332;IIIII)V
+		ARG 0 renderer
+	METHOD method_47950 renderRectangle (Lnet/minecraft/class_332;IIIIII)V
+		ARG 0 renderer
+	METHOD method_47951 renderHorizontalLine (Lnet/minecraft/class_332;IIIII)V
+		ARG 0 renderer
