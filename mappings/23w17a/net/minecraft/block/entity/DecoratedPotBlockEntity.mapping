@@ -1,0 +1,7 @@
+CLASS net/minecraft/class_8172 net/minecraft/block/entity/DecoratedPotBlockEntity
+	FIELD field_42782 SHERDS_NBT_KEY Ljava/lang/String;
+	METHOD <init> (Lnet/minecraft/class_2338;Lnet/minecraft/class_2680;)V
+		ARG 1 pos
+		ARG 2 state
+	METHOD method_49196 readNbtFromStack (Lnet/minecraft/class_1799;)V
+	METHOD method_49204 getHorizontalFacing ()Lnet/minecraft/class_2350;

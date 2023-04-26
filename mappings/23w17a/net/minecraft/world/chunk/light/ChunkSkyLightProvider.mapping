@@ -1,0 +1,6 @@
+CLASS net/minecraft/class_3572 net/minecraft/world/chunk/light/ChunkSkyLightProvider
+	METHOD <init> (Lnet/minecraft/class_2823;)V
+		ARG 1 chunkProvider
+	METHOD <init> (Lnet/minecraft/class_2823;Lnet/minecraft/class_3569;)V
+		ARG 1 chunkProvider
+		ARG 2 lightStorage
