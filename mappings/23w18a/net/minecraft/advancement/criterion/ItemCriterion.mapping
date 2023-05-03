@@ -1,0 +1,16 @@
+CLASS net/minecraft/class_4711 net/minecraft/advancement/criterion/ItemCriterion
+	FIELD field_21576 id Lnet/minecraft/class_2960;
+	METHOD <init> (Lnet/minecraft/class_2960;)V
+		ARG 1 id
+	METHOD method_23889 trigger (Lnet/minecraft/class_3222;Lnet/minecraft/class_2338;Lnet/minecraft/class_1799;)V
+	CLASS class_4712 Conditions
+		FIELD field_24495 location Lnet/minecraft/class_5258;
+		METHOD <init> (Lnet/minecraft/class_2960;Lnet/minecraft/class_5258;Lnet/minecraft/class_5258;)V
+			ARG 1 id
+			ARG 2 entity
+		METHOD method_27981 create (Lnet/minecraft/class_2090$class_2091;Lnet/minecraft/class_2073$class_2074;)Lnet/minecraft/class_4711$class_4712;
+			ARG 0 location
+			ARG 1 item
+		METHOD method_43125 createAllayDropItemOnBlock (Lnet/minecraft/class_2090$class_2091;Lnet/minecraft/class_2073$class_2074;)Lnet/minecraft/class_4711$class_4712;
+			ARG 0 location
+			ARG 1 item

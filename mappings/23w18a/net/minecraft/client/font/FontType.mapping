@@ -1,0 +1,4 @@
+CLASS net/minecraft/class_394 net/minecraft/client/font/FontType
+	FIELD field_2314 id Ljava/lang/String;
+	METHOD <init> (Ljava/lang/String;ILjava/lang/String;Lcom/mojang/serialization/MapCodec;)V
+		ARG 3 id
