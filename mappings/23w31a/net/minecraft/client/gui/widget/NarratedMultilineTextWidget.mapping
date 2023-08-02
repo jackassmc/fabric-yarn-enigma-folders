@@ -1,0 +1,5 @@
+CLASS net/minecraft/class_8019 net/minecraft/client/gui/widget/NarratedMultilineTextWidget
+	FIELD field_41801 BACKGROUND_COLOR I
+	FIELD field_41802 EXPANSION I
+	METHOD <init> (ILnet/minecraft/class_2561;Lnet/minecraft/class_327;Z)V
+		ARG 2 text

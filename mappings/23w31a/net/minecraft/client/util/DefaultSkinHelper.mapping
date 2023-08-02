@@ -1,0 +1,5 @@
+CLASS net/minecraft/class_1068 net/minecraft/client/util/DefaultSkinHelper
+	FIELD field_41121 SKINS [Lnet/minecraft/class_8685;
+	METHOD method_4648 getTexture (Ljava/util/UUID;)Lnet/minecraft/class_8685;
+		ARG 0 uuid
+	METHOD method_4649 getTexture ()Lnet/minecraft/class_2960;

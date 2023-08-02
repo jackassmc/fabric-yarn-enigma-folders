@@ -1,0 +1,7 @@
+CLASS net/minecraft/class_1071 net/minecraft/client/texture/PlayerSkinProvider
+	FIELD field_32970 TEXTURES Ljava/lang/String;
+	METHOD <init> (Lnet/minecraft/class_1060;Ljava/nio/file/Path;Lcom/mojang/authlib/minecraft/MinecraftSessionService;Ljava/util/concurrent/Executor;)V
+		ARG 1 textureManager
+	CLASS 1
+		METHOD load (Ljava/lang/Object;)Ljava/lang/Object;
+			ARG 1 value
