@@ -1,0 +1,14 @@
+CLASS net/minecraft/class_186 net/minecraft/loot/condition/AlternativeLootCondition
+	FIELD field_1246 terms Ljava/util/List;
+	FIELD field_1247 predicate Ljava/util/function/Predicate;
+	METHOD <init> (Ljava/util/List;Ljava/util/function/Predicate;)V
+		ARG 2 predicate
+	METHOD test (Ljava/lang/Object;)Z
+		ARG 1 context
+	CLASS class_187 Builder
+		FIELD field_1248 terms Lcom/google/common/collect/ImmutableList$Builder;
+		METHOD <init> ([Lnet/minecraft/class_5341$class_210;)V
+			ARG 1 terms
+		METHOD method_51724 build (Ljava/util/List;)Lnet/minecraft/class_5341;
+		METHOD method_51730 add (Lnet/minecraft/class_5341$class_210;)V
+			ARG 1 builder

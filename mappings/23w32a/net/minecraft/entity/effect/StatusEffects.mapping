@@ -1,0 +1,3 @@
+CLASS net/minecraft/class_1294 net/minecraft/entity/effect/StatusEffects
+	FIELD field_38093 DARKNESS_PADDING_DURATION I
+	METHOD method_5594 register (Ljava/lang/String;Lnet/minecraft/class_1291;)Lnet/minecraft/class_1291;

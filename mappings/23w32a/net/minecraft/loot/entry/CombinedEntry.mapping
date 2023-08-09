@@ -1,0 +1,5 @@
+CLASS net/minecraft/class_69 net/minecraft/loot/entry/CombinedEntry
+	FIELD field_982 children Ljava/util/List;
+	FIELD field_983 predicate Lnet/minecraft/class_64;
+	METHOD method_394 combine (Ljava/util/List;)Lnet/minecraft/class_64;
+	CLASS class_70 Factory

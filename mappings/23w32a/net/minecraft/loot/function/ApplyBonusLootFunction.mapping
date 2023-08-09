@@ -1,0 +1,39 @@
+CLASS net/minecraft/class_94 net/minecraft/loot/function/ApplyBonusLootFunction
+	FIELD field_1009 formula Lnet/minecraft/class_94$class_96;
+	FIELD field_1010 FACTORIES Ljava/util/Map;
+	FIELD field_1011 enchantment Lnet/minecraft/class_6880;
+	METHOD <init> (Ljava/util/List;Lnet/minecraft/class_6880;Lnet/minecraft/class_94$class_96;)V
+		ARG 3 formula
+	METHOD method_455 oreDrops (Lnet/minecraft/class_1887;)Lnet/minecraft/class_120$class_121;
+		ARG 0 enchantment
+	METHOD method_456 uniformBonusCount (Lnet/minecraft/class_1887;)Lnet/minecraft/class_120$class_121;
+		ARG 0 enchantment
+	METHOD method_461 uniformBonusCount (Lnet/minecraft/class_1887;I)Lnet/minecraft/class_120$class_121;
+		ARG 0 enchantment
+		ARG 1 bonusMultiplier
+	METHOD method_463 binomialWithBonusCount (Lnet/minecraft/class_1887;FI)Lnet/minecraft/class_120$class_121;
+		ARG 0 enchantment
+		ARG 1 probability
+		ARG 2 extra
+	CLASS class_95 BinomialWithBonusCount
+		FIELD comp_1848 extra I
+		FIELD comp_1849 probability F
+		FIELD field_1013 ID Lnet/minecraft/class_94$class_8752;
+		METHOD <init> (IF)V
+			ARG 1 extra
+			ARG 2 probability
+		METHOD comp_1848 extra ()I
+		METHOD comp_1849 probability ()F
+	CLASS class_96 Formula
+		METHOD method_466 getId ()Lnet/minecraft/class_94$class_8752;
+		METHOD method_467 getValue (Lnet/minecraft/class_5819;II)I
+			ARG 1 random
+			ARG 2 initialCount
+			ARG 3 enchantmentLevel
+	CLASS class_98 OreDrops
+		FIELD field_1015 ID Lnet/minecraft/class_94$class_8752;
+	CLASS class_100 UniformBonusCount
+		FIELD comp_1852 bonusMultiplier I
+		METHOD <init> (I)V
+			ARG 1 bonusMultiplier
+		METHOD comp_1852 bonusMultiplier ()I

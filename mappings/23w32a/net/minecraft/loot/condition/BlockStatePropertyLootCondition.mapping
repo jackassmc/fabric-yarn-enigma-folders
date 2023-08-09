@@ -1,0 +1,16 @@
+CLASS net/minecraft/class_212 net/minecraft/loot/condition/BlockStatePropertyLootCondition
+	FIELD comp_1876 block Lnet/minecraft/class_6880;
+	FIELD comp_1877 properties Ljava/util/Optional;
+	METHOD comp_1876 block ()Lnet/minecraft/class_6880;
+	METHOD comp_1877 properties ()Ljava/util/Optional;
+	METHOD method_900 builder (Lnet/minecraft/class_2248;)Lnet/minecraft/class_212$class_213;
+		ARG 0 block
+	METHOD test (Ljava/lang/Object;)Z
+		ARG 1 context
+	CLASS class_213 Builder
+		FIELD field_1290 block Lnet/minecraft/class_6880;
+		FIELD field_1291 propertyValues Ljava/util/Optional;
+		METHOD <init> (Lnet/minecraft/class_2248;)V
+			ARG 1 block
+		METHOD method_22584 properties (Lnet/minecraft/class_4559$class_4560;)Lnet/minecraft/class_212$class_213;
+			ARG 1 builder

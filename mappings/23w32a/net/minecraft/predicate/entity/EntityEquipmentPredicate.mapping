@@ -1,0 +1,30 @@
+CLASS net/minecraft/class_3735 net/minecraft/predicate/entity/EntityEquipmentPredicate
+	FIELD comp_1750 head Ljava/util/Optional;
+	FIELD comp_1751 chest Ljava/util/Optional;
+	FIELD comp_1752 legs Ljava/util/Optional;
+	FIELD comp_1753 feet Ljava/util/Optional;
+	FIELD comp_1754 mainhand Ljava/util/Optional;
+	FIELD comp_1755 offhand Ljava/util/Optional;
+	FIELD field_19240 OMINOUS_BANNER_ON_HEAD Lnet/minecraft/class_3735;
+	METHOD comp_1750 head ()Ljava/util/Optional;
+	METHOD comp_1751 chest ()Ljava/util/Optional;
+	METHOD comp_1752 legs ()Ljava/util/Optional;
+	METHOD comp_1753 feet ()Ljava/util/Optional;
+	METHOD comp_1754 mainhand ()Ljava/util/Optional;
+	METHOD comp_1755 offhand ()Ljava/util/Optional;
+	METHOD method_16226 test (Lnet/minecraft/class_1297;)Z
+	CLASS class_5278 Builder
+		FIELD field_24482 head Ljava/util/Optional;
+		FIELD field_24483 chest Ljava/util/Optional;
+		FIELD field_24484 legs Ljava/util/Optional;
+		FIELD field_24485 feet Ljava/util/Optional;
+		FIELD field_24486 mainhand Ljava/util/Optional;
+		FIELD field_24487 offhand Ljava/util/Optional;
+		METHOD method_27965 create ()Lnet/minecraft/class_3735$class_5278;
+		METHOD method_27966 head (Lnet/minecraft/class_2073$class_2074;)Lnet/minecraft/class_3735$class_5278;
+		METHOD method_27967 build ()Ljava/util/Optional;
+		METHOD method_27968 chest (Lnet/minecraft/class_2073$class_2074;)Lnet/minecraft/class_3735$class_5278;
+		METHOD method_27969 legs (Lnet/minecraft/class_2073$class_2074;)Lnet/minecraft/class_3735$class_5278;
+		METHOD method_27970 feet (Lnet/minecraft/class_2073$class_2074;)Lnet/minecraft/class_3735$class_5278;
+		METHOD method_35195 mainhand (Lnet/minecraft/class_2073$class_2074;)Lnet/minecraft/class_3735$class_5278;
+		METHOD method_35196 offhand (Lnet/minecraft/class_2073$class_2074;)Lnet/minecraft/class_3735$class_5278;
