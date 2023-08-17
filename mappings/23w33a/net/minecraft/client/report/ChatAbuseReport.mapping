@@ -1,0 +1,4 @@
+CLASS net/minecraft/class_7566 net/minecraft/client/report/ChatAbuseReport
+	METHOD method_44569 toggleMessageSelection (ILcom/mojang/authlib/minecraft/report/AbuseReportLimits;)V
+		ARG 1 index
+	METHOD method_44585 copy ()Lnet/minecraft/class_7566;
