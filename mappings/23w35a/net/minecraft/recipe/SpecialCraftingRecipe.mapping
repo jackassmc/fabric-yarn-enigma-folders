@@ -1,0 +1,2 @@
+CLASS net/minecraft/class_1852 net/minecraft/recipe/SpecialCraftingRecipe
+	FIELD field_40255 category Lnet/minecraft/class_7710;
