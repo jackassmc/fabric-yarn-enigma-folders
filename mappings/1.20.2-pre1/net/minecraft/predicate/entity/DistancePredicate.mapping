@@ -1,0 +1,34 @@
+CLASS net/minecraft/class_2025 net/minecraft/predicate/entity/DistancePredicate
+	FIELD comp_1743 x Lnet/minecraft/class_2096$class_2099;
+	FIELD comp_1744 y Lnet/minecraft/class_2096$class_2099;
+	FIELD comp_1745 z Lnet/minecraft/class_2096$class_2099;
+	FIELD comp_1746 horizontal Lnet/minecraft/class_2096$class_2099;
+	FIELD comp_1747 absolute Lnet/minecraft/class_2096$class_2099;
+	FIELD field_45728 CODEC Lcom/mojang/serialization/Codec;
+	METHOD <init> (Lnet/minecraft/class_2096$class_2099;Lnet/minecraft/class_2096$class_2099;Lnet/minecraft/class_2096$class_2099;Lnet/minecraft/class_2096$class_2099;Lnet/minecraft/class_2096$class_2099;)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 horizontal
+		ARG 5 absolute
+	METHOD comp_1743 x ()Lnet/minecraft/class_2096$class_2099;
+	METHOD comp_1744 y ()Lnet/minecraft/class_2096$class_2099;
+	METHOD comp_1745 z ()Lnet/minecraft/class_2096$class_2099;
+	METHOD comp_1746 horizontal ()Lnet/minecraft/class_2096$class_2099;
+	METHOD comp_1747 absolute ()Lnet/minecraft/class_2096$class_2099;
+	METHOD method_37223 absolute (Lnet/minecraft/class_2096$class_2099;)Lnet/minecraft/class_2025;
+		ARG 0 absolute
+	METHOD method_8856 y (Lnet/minecraft/class_2096$class_2099;)Lnet/minecraft/class_2025;
+		ARG 0 y
+	METHOD method_8857 fromJson (Lcom/google/gson/JsonElement;)Ljava/util/Optional;
+		ARG 0 json
+	METHOD method_8858 toJson ()Lcom/google/gson/JsonElement;
+	METHOD method_8859 test (DDDDDD)Z
+		ARG 1 x0
+		ARG 3 y0
+		ARG 5 z0
+		ARG 7 x1
+		ARG 9 y1
+		ARG 11 z1
+	METHOD method_8860 horizontal (Lnet/minecraft/class_2096$class_2099;)Lnet/minecraft/class_2025;
+		ARG 0 horizontal
